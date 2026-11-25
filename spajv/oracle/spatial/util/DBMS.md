@@ -1,0 +1,188 @@
+Skip navigation links
+
+- [Overview](../../../overview-summary.md)
+- [Package](package-summary.md)
+- Class
+- [Tree](package-tree.md)
+- [Deprecated](../../../deprecated-list.md)
+- [Index](../../../index-all.md)
+- [Help](../../../help-doc.md)
+
+**Oracle® Spatial and Graph Java API Reference
+Release 19.1, E94803-01**
+
+- [Prev Class](DBFReaderJGeom.RecordColumn.md)
+- [Next Class](ExtendedKML2.md)
+
+<!-- -->
+
+- [Frames](../../../index.md)
+- No Frames
+
+<!-- -->
+
+- [All Classes](../../../allclasses-noframe.md)
+
+<!-- -->
+
+- Summary: 
+- Nested \| 
+- Field \| 
+- Constr \| 
+- Method
+
+<!-- -->
+
+- Detail: 
+- Field \| 
+- Constr \| 
+- Method
+
+oracle.spatial.util
+
+## Class DBMS
+
+- java.lang.Object
+
+- - oracle.spatial.util.DBMS
+
+<!-- -->
+
+-
+
+  ------------------------------------------------------------------------
+
+
+
+      public class DBMS
+      extends java.lang.Object
+
+<!-- -->
+
+- - ### Constructor Summary
+
+    **Constructors**
+
+    | Constructor and Description |
+    |-----------------------------|
+    | `DBMS``()`                  |
+
+  <!-- -->
+
+  - ### Method Summary
+
+    **All Methods[Instance Methods](javascript:show(2);)[Concrete Methods](javascript:show(8);)**
+
+    | Modifier and Type | Method and Description                           |
+    |-------------------|--------------------------------------------------|
+    | `void`            | `DbmsOutputClose``()`                            |
+    | `void`            | `DbmsOutputDisable``()`                          |
+    | `void`            | `DbmsOutputEnable``(int size)`                   |
+    | `void`            | `DbmsOutputPrepare``(java.sql.Connection conn)`  |
+    | `void`            | `DbmsOutputShow``()`                             |
+
+    - ### Methods inherited from class java.lang.Object
+
+      `equals, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+
+<!-- -->
+
+- - ### Constructor Detail
+
+    - #### DBMS
+
+          public DBMS()
+
+  <!-- -->
+
+  - ### Method Detail
+
+    - #### DbmsOutputPrepare
+
+          public void DbmsOutputPrepare(java.sql.Connection conn)
+                                 throws java.sql.SQLException
+
+      Throws:
+      `java.sql.SQLException`
+
+    <!-- -->
+
+    - #### DbmsOutputEnable
+
+          public void DbmsOutputEnable(int size)
+                                throws java.sql.SQLException
+
+      Throws:
+      `java.sql.SQLException`
+
+    <!-- -->
+
+    - #### DbmsOutputDisable
+
+          public void DbmsOutputDisable()
+                                 throws java.sql.SQLException
+
+      Throws:
+      `java.sql.SQLException`
+
+    <!-- -->
+
+    - #### DbmsOutputShow
+
+          public void DbmsOutputShow()
+                              throws java.sql.SQLException
+
+      Throws:
+      `java.sql.SQLException`
+
+    <!-- -->
+
+    - #### DbmsOutputClose
+
+          public void DbmsOutputClose()
+                               throws java.sql.SQLException
+
+      Throws:
+      `java.sql.SQLException`
+
+Skip navigation links
+
+- [Overview](../../../overview-summary.md)
+- [Package](package-summary.md)
+- Class
+- [Tree](package-tree.md)
+- [Deprecated](../../../deprecated-list.md)
+- [Index](../../../index-all.md)
+- [Help](../../../help-doc.md)
+
+**Oracle® Spatial and Graph Java API Reference
+Release 19.1, E94803-01**
+
+- [Prev Class](DBFReaderJGeom.RecordColumn.md)
+- [Next Class](ExtendedKML2.md)
+
+<!-- -->
+
+- [Frames](../../../index.md)
+- No Frames
+
+<!-- -->
+
+- [All Classes](../../../allclasses-noframe.md)
+
+<!-- -->
+
+- Summary: 
+- Nested \| 
+- Field \| 
+- Constr \| 
+- Method
+
+<!-- -->
+
+- Detail: 
+- Field \| 
+- Constr \| 
+- Method
+
+Copyright © 2007, 2019, Oracle and/or its affiliates. All Rights Reserved.
