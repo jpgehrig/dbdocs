@@ -1,0 +1,2 @@
+- [1-1        Oracle and Non-Oracle Systems on Separate Machines](database-gateway-odbc-introduction.md)
+- [1-2        Oracle and Non-Oracle Systems on the Same Machine](database-gateway-odbc-introduction.md)
