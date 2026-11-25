@@ -1,0 +1,1 @@
+The illustration shows the variables in the ORACA. These include the following: ORATXL of type INTEGER\*2, ORAAID (8), ORATXC (70), ORAFNL, ORAFNC (7) of type LOGICAL\*1, and the following variables which are all of type INTEGER\*4:ORAABC, ORACHF, ORADBF, ORAHPF, ORATXF, ORASLN, ORAHOC, ORAMOC, ORACOC, ORANOR, ORANPR, ORANEX
