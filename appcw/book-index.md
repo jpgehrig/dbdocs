@@ -1,0 +1,1136 @@
+Symbols  A  B  C  D  E  F  G  H  I  K  L  M  N  O  P  R  S  T  U  V  W  Z  
+
+------------------------------------------------------------------------
+
+## Symbols
+
+- (HS=) (TNSNAMES parameter for Oracle Net) [1](appc-gateway-configure-oracle-network.md)
+  - with TCP/IP protocol [1](appc-gateway-configure-oracle-network.md)
+
+------------------------------------------------------------------------
+
+## A
+
+- action items
+  - for installing the gateway [1](appc-gateway-installation.md)
+- ALTER USER command [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- american_america_us7ascii [1](appc-gateway-migration.md)
+- APPC [1](appc-gateway-introduction.md)
+  - conversation security option [1](appc-gateway-initialization-parameters-sna.md), [2](appc-gateway-initialization-parameters-tcp-ip.md)
+- APPC/MVS
+  - configuring for the gateway [1](appc-gateway-configure-oltp.md)
+  - installation verification [1](configure-appc-gateway-using-sna.md)
+  - verification of configuration [1](configure-appc-gateway-using-sna.md)
+- architecture
+  - components of the gateway [1](appc-gateway-introduction.md)
+- ASCII
+  - automatic conversion [1](appc-gateway-introduction.md)
+- authentication
+  - for operating system [1](appc-gateway-security-requirements.md)
+  - for Oracle [1](appc-gateway-security-requirements.md)
+  - types, security [1](appc-gateway-security-requirements.md)
+
+------------------------------------------------------------------------
+
+## B
+
+- backout possibilities during migration [1](appc-gateway-migration.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- CICS [1](appc-gateway-introduction.md), [2](appc-gateway-system-requirements.md)
+  - ATTACHSEC parameter [1](appc-gateway-configure-sna.md)
+  - installation verification
+    - on gateway using SNA [1](configure-appc-gateway-using-sna.md)
+  - security options not supported by the gateway [1](appc-gateway-configure-sna.md)
+  - transaction ID [1](configure-appc-gateway-using-sna.md)
+  - verifying configuration
+    - on gateway using SNA [1](configure-appc-gateway-using-sna.md)
+- CICS Transaction Server for z/OS
+  - authentication mechanism
+    - on all platforms [1](appc-gateway-security-requirements.md)
+  - configuring for the gateway [1](appc-gateway-configure-oltp.md)
+  - OLTP
+    - configuration verification [1](configure-appc-gateway-using-sna.md)
+  - TP name length [1](appc-gateway-initialization-parameters-sna.md)
+- command
+  - SET [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- COMMIT [1](appc-gateway-initialization-parameters-sna.md)
+- COMMIT_CONFIRM [1](appc-gateway-initialization-parameters-sna.md), [3](appc-gateway-initialization-parameters-sna.md), [4](appc-gateway-initialization-parameters-tcp-ip.md)
+  - and PGA_CAPABILITY parameter [1](appc-gateway-initialization-parameters-sna.md)
+  - capability [1](appc-gateway-initialization-parameters-sna.md)
+- COMMIT/ROLLBACK [1](appc-gateway-system-requirements.md)
+- commit-confirm [1](appc-gateway-initialization-parameters-sna.md)
+  - configuring [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-sna.md)
+    - gateway initialization parameters [1](configure-appc-gateway-using-sna.md)
+    - OLTP [1](configure-appc-gateway-using-sna.md)
+    - Oracle database [1](configure-appc-gateway-using-sna.md)
+  - sample applications [1](configure-appc-gateway-using-sna.md)
+  - transaction log [1](configure-appc-gateway-using-sna.md)
+- communications
+  - between server, gateway, and remote host [1](appc-gateway-introduction.md)
+  - needed for Windows [1](appc-gateway-system-requirements.md)
+- configuration
+  - gateway directories [1](configure-appc-gateway-using-tcp-ip.md)
+- configuration verification
+  - OLTP
+    - on gateway using SNA [1](configure-appc-gateway-using-sna.md)
+    - on gateway using TCP/IP for IMS Connect [1](configure-appc-gateway-using-tcp-ip.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- configuring
+  - APPC/MVS [1](appc-gateway-configure-oltp.md)
+  - CICS Transaction Server for z/OS [1](appc-gateway-configure-oltp.md)
+  - commit-confirm [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-sna.md)
+  - gateway
+    - optional steps to allow multiple users using SNA [1](configure-appc-gateway-using-sna.md)
+    - optional steps to allow multiple users using TCP/IP for IMS Connect [1](configure-appc-gateway-using-tcp-ip.md)
+  - gateway directories [1](configure-appc-gateway-using-sna.md)
+  - IMS/TM [1](appc-gateway-configure-oltp.md)
+  - Oracle database [1](configure-appc-gateway-using-sna.md)
+    - upgrading from previous releases [1](configure-appc-gateway-using-sna.md)
+  - Oracle database for gateway using TCP/IP for IMS Connect
+    - pre-configuration steps [1](configure-appc-gateway-using-tcp-ip.md)
+  - TCP/IP for IMS Connect
+    - on the gateway [1](configure-appc-gateway-using-tcp-ip.md)
+  - the gateway
+    - for TCP/IP for IMS Connect [1](configure-appc-gateway-using-tcp-ip.md)
+    - using SNA [1](configure-appc-gateway-using-sna.md)
+  - the OLTP [1](appc-gateway-configure-oltp.md)
+  - your network
+    - using SNA [1](appc-gateway-configure-oracle-network.md)
+- configuring CICS OLTP for Transaction Server [1](appc-gateway-configure-oltp.md)
+- configuring your network [1](appc-gateway-configure-oracle-network.md)
+- CONNECT clause [1](appc-gateway-security-requirements.md)
+  - for database link security [1](appc-gateway-security-requirements.md)
+  - in TCP/IP security [1](appc-gateway-security-requirements.md)
+- connection
+  - definition
+    - SNA Server [1](appc-gateway-configure-sna.md)
+- CPI-C [1](configure-appc-gateway-using-sna.md)
+  - creating profile in IBM Communications Server [1](appc-gateway-configure-sna.md)
+- creating
+  - public database link [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- database link [1](appc-gateway-introduction.md), [2](appc-gateway-initialization-parameters-sna.md)
+  - creating [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+    - when configuring Oracle database [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - in configuring the network [1](appc-gateway-configure-oracle-network.md)
+  - in verifying gateway installation
+    - on gateway using SNA [1](configure-appc-gateway-using-sna.md)
+    - on gateway using TCP/IP for IMS Connect [1](configure-appc-gateway-using-tcp-ip.md)
+  - public and private [1](appc-gateway-security-requirements.md)
+  - security, CONNECT clause [1](appc-gateway-security-requirements.md)
+- database link name
+  - modifying .sql files [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- data dictionary
+  - See PG DD [1](appc-gateway-introduction.md)
+- data exchange
+  - PGAXFER function [1](appc-gateway-introduction.md)
+- datastores
+  - gateway access to [1](appc-gateway-introduction.md)
+- DBMS_OUTPUT packages [1](configure-appc-gateway-using-sna.md), [3](configure-appc-gateway-using-tcp-ip.md)
+- DBMS_PIPE [1](configure-appc-gateway-using-sna.md), [3](configure-appc-gateway-using-sna.md), [4](configure-appc-gateway-using-tcp-ip.md), [6](configure-appc-gateway-using-tcp-ip.md)
+- definition types
+  - in IBM Communications Server [1](appc-gateway-configure-sna.md)
+- dependent LU [1](appc-gateway-configure-oltp.md)
+  - See also LUs [1](appc-gateway-configure-oltp.md)
+- describe statement
+  - DBMS_OUTPUT [1](configure-appc-gateway-using-tcp-ip.md)
+- DESCRIBE statement
+  - DBMS_OUTPUT [1](configure-appc-gateway-using-sna.md)
+  - UTL_RAW [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- dfhcsdup.jcl file [1](appc-gateway-configure-oltp.md)
+- DFHRPL DD statement [1](appc-gateway-configure-oltp.md)
+- DG4APPC
+  - known restrictions [1](appc-gateway-release-information.md)
+  - see gateway [1](appc-gateway-release-information.md)
+- dg4pwd utility
+  - definition [1](appc-gateway-terminology.md)
+  - recommended security utility feature, on gateway using SNA [1](appc-gateway-terminology.md)
+- directories
+  - for installing gateway and OIS files [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- disk space requirements [1](appc-gateway-system-requirements.md)
+- DISPLAY datatypes [1](appc-gateway-release-information.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- EBCDIC language [1](appc-gateway-introduction.md)
+  - gateway known restrictions pertaining to [1](appc-gateway-release-information.md)
+  - necessary to change to ASCII when using TCP/IP [1](configure-appc-gateway-using-tcp-ip.md)
+- enhancements
+  - using PGAU to automatically upgrade PG DD entries [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- error
+  - during commit processing [1](appc-gateway-initialization-parameters-sna.md)
+  - obsolete parameters [1](appc-gateway-migration.md)
+  - parameter name misspelled [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - treating incoming APPC CONFIRM requests as errors [1](appc-gateway-initialization-parameters-sna.md), [2](appc-gateway-initialization-parameters-sna.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- FDS_CLASS_VERSION
+  - parameter added [1](appc-gateway-migration.md)
+- FDS_CLASS parameter [1](appc-gateway-migration.md)
+- FDS_INSTANCE parameter [1](appc-gateway-migration.md)
+- file
+  - dfhcsdup.jcl [1](appc-gateway-configure-oltp.md)
+  - initPGA.ora [1](configure-appc-gateway-using-sna.md), [3](configure-appc-gateway-using-tcp-ip.md)
+  - initPGAI.ora [1](appc-gateway-initialization-parameters-sna.md)
+  - initsid.ora [1](appc-gateway-introduction.md), [2](configure-appc-gateway-using-sna.md), [4](configure-appc-gateway-using-sna.md), [5](configure-appc-gateway-using-tcp-ip.md), [6](appc-gateway-migration.md), [7](appc-gateway-initialization-parameters-sna.md), [9](appc-gateway-initialization-parameters-tcp-ip.md), [11](appc-gateway-terminology.md)
+    - gateway parameters for gateway using SNA [1](configure-appc-gateway-using-sna.md)
+    - gateway parameters for gateway using TCP/IP for IMS Connect [1](configure-appc-gateway-using-tcp-ip.md)
+    - new parameters on gateway using SNA [1](appc-gateway-migration.md)
+    - new startup shell parameters [1](appc-gateway-migration.md)
+    - parameters changed since v4 [1](appc-gateway-migration.md)
+  - listener.ora [1](appc-gateway-configure-oracle-network.md), [5](appc-gateway-initialization-parameters-sna.md)
+  - oralu62.asm [1](appc-gateway-configure-oltp.md)
+  - oraplu62.asm [1](appc-gateway-configure-oltp.md)
+  - pgaccau.sql [1](configure-appc-gateway-using-sna.md)
+  - pgacclg.asm [1](configure-appc-gateway-using-sna.md)
+  - pgacics.sql [1](configure-appc-gateway-using-sna.md)
+  - pgaecho.sql [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - pgaflip.asm [1](appc-gateway-configure-oltp.md), [3](appc-gateway-configure-oltp.md)
+  - pgaflip.jcl [1](appc-gateway-configure-oltp.md)
+  - pgaidms.sql [1](configure-appc-gateway-using-sna.md)
+  - pgaim.sql [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - pgaims.sql [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md), [3](configure-appc-gateway-using-tcp-ip.md)
+  - pgamvs.sql [1](configure-appc-gateway-using-sna.md)
+  - PGAU control files [1](appc-gateway-installation.md)
+  - pgddadev.sql [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - pgddapub.sql [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - prvtpgb.plb [1](configure-appc-gateway-using-sna.md)
+  - tnsnames.ora [1](appc-gateway-configure-oracle-network.md), [4](configure-appc-gateway-using-sna.md), [5](appc-gateway-initialization-parameters-sna.md)
+  - utlpg.sql [1](configure-appc-gateway-using-sna.md)
+  - utlraw.sql [1](configure-appc-gateway-using-sna.md)
+- FLIP transaction
+  - OLTP configuration
+    - and verification for APPC/MVS [1](configure-appc-gateway-using-sna.md)
+    - and verification for CICS Transaction Server for z/OS [1](configure-appc-gateway-using-sna.md)
+    - and verification for IMS/TM on gateway using SNA [1](appc-gateway-configure-oltp.md), [2](configure-appc-gateway-using-sna.md)
+    - and verification for IMS/TM on gateway using TCP/IP [1](appc-gateway-configure-oltp.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- function
+  - put_line [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- functions
+  - See RPC (remote procedural call) [1](appc-gateway-introduction.md)
+  - See UTL_PG [1](appc-gateway-terminology.md)
+  - see UTL_RAW [1](appc-gateway-terminology.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- gateway
+  - access to IBM datastores [1](appc-gateway-introduction.md)
+  - communication overview [1](appc-gateway-introduction.md)
+  - communications with all platforms [1](appc-gateway-introduction.md)
+  - compatibility with other SNA-enabled products [1](appc-gateway-system-requirements.md)
+  - components [1](appc-gateway-introduction.md), [2](configure-appc-gateway-using-sna.md)
+    - for SNA and TCP/IP for IMS Connect [1](appc-gateway-introduction.md)
+  - configuring [1](configure-appc-gateway-using-sna.md)
+    - for multiple users, on gateway using TCP/IP for IMS Connect [1](configure-appc-gateway-using-tcp-ip.md)
+    - for SNA [1](appc-gateway-configure-oracle-network.md)
+    - for TCP/IP for IMS Connect [1](configure-appc-gateway-using-tcp-ip.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - configuring for multiple users
+    - on gateway using SNA [1](configure-appc-gateway-using-sna.md)
+  - creating SNA definitions for, using SNA Server Manager [1](appc-gateway-configure-sna.md)
+  - directory locations for configuration [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - factors affecting memory requirements [1](appc-gateway-system-requirements.md)
+  - features
+    - application transparency [1](appc-gateway-introduction.md)
+    - code generator [1](appc-gateway-introduction.md)
+    - fast interface [1](appc-gateway-introduction.md)
+    - flexible interface [1](appc-gateway-introduction.md)
+    - location transparency [1](appc-gateway-introduction.md)
+    - Oracle database integration [1](appc-gateway-introduction.md)
+    - performs automatic conversions [1](appc-gateway-introduction.md)
+    - site autonomy and security [1](appc-gateway-introduction.md)
+    - support for tools [1](appc-gateway-introduction.md)
+  - functions, using SNA [1](appc-gateway-introduction.md)
+  - initialization files [1](appc-gateway-terminology.md)
+  - initialization parameters
+    - also see PGA parameters [1](appc-gateway-initialization-parameters-sna.md)
+    - described [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+    - for gateway using SNA [1](appc-gateway-initialization-parameters-sna.md)
+    - new and changed since Version 4 gateway [1](appc-gateway-migration.md)
+    - renamed since v4 [1](appc-gateway-migration.md)
+    - SET [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md), [3](appc-gateway-initialization-parameters-sna.md), [4](appc-gateway-initialization-parameters-tcp-ip.md)
+  - installation
+    - first-time install, configuring the Oracle database [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+    - preinstallation procedures [1](appc-gateway-installation.md)
+    - verification [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+    - with Oracle Universal Installer action items [1](appc-gateway-installation.md)
+  - installation steps [1](appc-gateway-installation.md)
+  - installing [1](appc-gateway-installation.md)
+  - known restrictions, when using SNA [1](appc-gateway-release-information.md)
+  - migrating to new release, using SNA [1](appc-gateway-migration.md)
+  - network attachment requirements [1](appc-gateway-system-requirements.md)
+  - overview [1](appc-gateway-introduction.md)
+  - parameter files [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+    - also see gateway initialization parameters, and PGA parameters [1](configure-appc-gateway-using-sna.md)
+    - initPGA.ora [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - pre-installation steps for TPC/IP [1](appc-gateway-installation.md)
+  - remote procedure, definition [1](appc-gateway-terminology.md)
+  - remote transaction initiation
+    - using SNA [1](appc-gateway-introduction.md)
+    - using TCP/IP [1](appc-gateway-introduction.md)
+  - remote transaction termination
+    - using SNA [1](appc-gateway-introduction.md)
+    - using TCP/IP [1](appc-gateway-introduction.md)
+  - removing [1](appc-gateway-installation.md)
+  - requirements
+    - hardware [1](appc-gateway-system-requirements.md)
+  - restoring to previous releases [1](appc-gateway-installation.md)
+  - security options and overview [1](appc-gateway-security-requirements.md)
+    - also see, security [1](appc-gateway-security-requirements.md)
+  - server
+    - restoring previous version [1](appc-gateway-installation.md)
+  - setting up multiple gateway instances [1](appc-gateway-initialization-parameters-sna.md)
+  - SNA security validation [1](appc-gateway-configure-sna.md), [2](appc-gateway-security-requirements.md)
+  - SNA Server function [1](appc-gateway-security-requirements.md)
+  - startup shell parameters
+    - FDS_CLASS_VERSION [1](appc-gateway-migration.md)
+  - steps to install, via Oracle Universal Installer [1](appc-gateway-installation.md)
+  - upgrading
+    - from previous release [1](appc-gateway-installation.md)
+    - preparing to upgrade [1](appc-gateway-installation.md)
+- gateway initialization parameters
+  - for commit-confirm support [1](configure-appc-gateway-using-sna.md)
+  - new [1](appc-gateway-migration.md)
+- gateway security requirements [1](appc-gateway-security-requirements.md)
+- gateway using TCP/IP for IMS Connect
+  - gateway initialization parameters needed [1](appc-gateway-initialization-parameters-tcp-ip.md)
+  - transaction types [1](appc-gateway-introduction.md)
+- gpglocal [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - needed to compile PGAU-generated TIP specifications [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- gpglocal.pkb script [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- gpglocal.pkh script [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- gpglocal package [1](configure-appc-gateway-using-tcp-ip.md)
+- grant
+  - access [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - authorization [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - execute [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - explicit [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - private [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - public [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+
+------------------------------------------------------------------------
+
+## H
+
+- hardware requirements [1](appc-gateway-system-requirements.md)
+- Heterogeneous Services (HS) [1](appc-gateway-migration.md)
+  - and Oracle Net considerations, on gateway using SNA [1](appc-gateway-migration.md)
+  - catalogs
+    - installing, on gateway using SNA [1](configure-appc-gateway-using-sna.md)
+    - installing, on gateway using TCP/IP for IMS Connect [1](configure-appc-gateway-using-tcp-ip.md)
+  - parameters needed for gateway using TCP/IP [1](appc-gateway-migration.md)
+- HS_COMMIT_STRENGTH_POINT parameter [1](appc-gateway-migration.md)
+- HS_DB_DOMAIN parameter [1](appc-gateway-migration.md)
+- HS_DB_INTERNAL_NAME parameter [1](appc-gateway-migration.md)
+- HS_DB_NAME parameter [1](appc-gateway-migration.md)
+- HS_DESCRIBE_CACHE_HWM parameter [1](appc-gateway-migration.md)
+- HS_FDS_FETCH_ROWS parameter [1](appc-gateway-migration.md)
+- HS_LANGUAGE parameter [1](appc-gateway-migration.md)
+- HS_NLS_DATE_FORMAT parameter [1](appc-gateway-migration.md)
+- HS_NLS_DATE_LANGUAGE parameter [1](appc-gateway-migration.md)
+- HS_OPEN_CURSORS parameter [1](appc-gateway-migration.md)
+- HS_ROWID_CACHE_SIZE parameter [1](appc-gateway-migration.md)
+- HS parameters [1](appc-gateway-migration.md)
+  - description [1](appc-gateway-migration.md), [2](appc-gateway-migration.md)
+  - see also, (HS=) [1](appc-gateway-migration.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- IBM Communications Server
+  - configuring [1](appc-gateway-configure-sna.md)
+  - creating SNA definitions [1](appc-gateway-configure-sna.md)
+  - definition types [1](appc-gateway-configure-sna.md)
+- IBM mainframe requirements [1](appc-gateway-system-requirements.md)
+- implementation of the gateway
+  - for SNA and TCP/IP for IMS Connect [1](appc-gateway-introduction.md)
+- implied APPC [1](appc-gateway-initialization-parameters-sna.md)
+- IMS/TM
+  - configuring for the gateway
+    - using SNA [1](appc-gateway-configure-oltp.md)
+  - installation verification
+    - on gateway using SNA [1](configure-appc-gateway-using-sna.md)
+    - on gateway using TCP/IP for IMS Connect [1](configure-appc-gateway-using-tcp-ip.md)
+  - mainframe requirements for gateway using TCP/IP [1](appc-gateway-system-requirements.md)
+  - TP name length [1](appc-gateway-initialization-parameters-sna.md)
+  - verification of configuration
+    - on gateway using SNA [1](configure-appc-gateway-using-sna.md)
+    - on gateway using TCP/IP for IMS Connect [1](configure-appc-gateway-using-tcp-ip.md)
+- IMS Connect
+  - and security [1](appc-gateway-security-requirements.md)
+  - mainframe requirements, for gateway using TCP/IP [1](appc-gateway-system-requirements.md)
+- IMS FLIP transaction [1](appc-gateway-configure-oltp.md), [2](appc-gateway-configure-oltp.md)
+- independent LU [1](appc-gateway-configure-oltp.md)
+- initialization files
+  - See gateway initialization files, also see PGA parameters [1](appc-gateway-terminology.md)
+- initiating remote transactions [1](appc-gateway-introduction.md)
+- initPGA.ora file [1](configure-appc-gateway-using-sna.md), [3](configure-appc-gateway-using-tcp-ip.md)
+- initPGAI.ora file [1](appc-gateway-initialization-parameters-sna.md)
+- initsid.ora file [1](appc-gateway-introduction.md), [2](configure-appc-gateway-using-sna.md), [4](configure-appc-gateway-using-sna.md), [5](configure-appc-gateway-using-tcp-ip.md), [6](appc-gateway-migration.md), [7](appc-gateway-initialization-parameters-sna.md), [9](appc-gateway-initialization-parameters-tcp-ip.md), [11](appc-gateway-terminology.md)
+  - gateway parameters on gateway using SNA [1](configure-appc-gateway-using-sna.md)
+  - gateway parameters on gateway using TCP/IP for IMS Connect [1](configure-appc-gateway-using-tcp-ip.md)
+  - HS parameter descriptions [1](appc-gateway-migration.md), [2](appc-gateway-migration.md)
+  - new parameters, on gateway using SNA [1](appc-gateway-migration.md)
+  - new startup shell parameters [1](appc-gateway-migration.md)
+  - parameters changed since v4 [1](appc-gateway-migration.md)
+- installation
+  - steps [1](appc-gateway-installation.md)
+- installation verification
+  - CICS on gateway using SNA [1](configure-appc-gateway-using-sna.md)
+  - gateway
+    - with SNA [1](configure-appc-gateway-using-sna.md)
+    - with TCP/IP for IMS Connect [1](configure-appc-gateway-using-tcp-ip.md)
+  - IMS/TM
+    - on gateway using SNA [1](configure-appc-gateway-using-sna.md)
+    - on gateway using TCP/IP for IMS Connect [1](configure-appc-gateway-using-tcp-ip.md)
+  - OLTP [1](configure-appc-gateway-using-sna.md)
+- installing
+  - and configuring the gateway [1](appc-gateway-installation.md)
+  - preinstallation steps [1](appc-gateway-installation.md)
+  - sample applications
+    - on gateway for SNA protocol [1](configure-appc-gateway-using-sna.md)
+    - on gateway with TCP/IP for IMS Connect [1](configure-appc-gateway-using-tcp-ip.md)
+- IPC
+  - key [1](appc-gateway-configure-oracle-network.md)
+  - protocol [1](appc-gateway-configure-oracle-network.md)
+
+------------------------------------------------------------------------
+
+## K
+
+- key
+  - IPC [1](appc-gateway-configure-oracle-network.md)
+- known restrictions
+  - for DG4APPC [1](appc-gateway-release-information.md)
+  - for PGAU [1](appc-gateway-release-information.md)
+
+------------------------------------------------------------------------
+
+## L
+
+- link service definition [1](appc-gateway-configure-sna.md)
+- listener.ora file [1](appc-gateway-configure-oracle-network.md), [5](appc-gateway-initialization-parameters-sna.md)
+  - sample file for gateway using SNA [1](appc-gateway-initialization-parameters-sna.md)
+  - sample for gateway using TCP/IP [1](appc-gateway-initialization-parameters-tcp-ip.md)
+- LOG_DESTINATION parameter [1](appc-gateway-migration.md)
+  - for gateway using SNA [1](appc-gateway-migration.md)
+  - for gateway using TCP/IP [1](appc-gateway-initialization-parameters-tcp-ip.md)
+- logmode entry name [1](configure-appc-gateway-using-sna.md)
+- LU6.1 Adapter for LU6.2 applications [1](appc-gateway-configure-oltp.md)
+- LU6.2
+  - and specifying SNA conversation security [1](appc-gateway-security-requirements.md)
+- LUs [1](appc-gateway-configure-sna.md)
+  - also see independent LU and dependent LU [1](appc-gateway-configure-sna.md)
+  - and gateway security [1](appc-gateway-security-requirements.md)
+  - dependent
+    - for configuring LU6.2 for IMS/TM for the gateway [1](appc-gateway-configure-oltp.md)
+  - independent
+    - in configuring APPC/MVS on the gateway [1](appc-gateway-configure-oltp.md)
+    - in configuring CICS Transaction Server for z/OS [1](appc-gateway-configure-oltp.md)
+    - in configuring IMS/TM for the gateway [1](appc-gateway-configure-oltp.md)
+    - vs. dependent [1](appc-gateway-configure-sna.md)
+  - in SNA security validation [1](appc-gateway-security-requirements.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- mainframe requirements [1](appc-gateway-system-requirements.md)
+- memory requirements [1](appc-gateway-system-requirements.md)
+- Microsoft Host Integration Server
+  - and LUs [1](appc-gateway-configure-sna.md)
+  - configuring [1](appc-gateway-configure-sna.md)
+  - creating SNA definitions on [1](appc-gateway-configure-sna.md)
+  - See SNA Server [1](appc-gateway-system-requirements.md)
+- Microsoft Windows
+  - configuring the SNA Server [1](appc-gateway-configure-sna.md)
+- migrating
+  - an existing gateway to use TCP/IP [1](appc-gateway-migration.md)
+  - backout considerations when migrating to new release [1](appc-gateway-migration.md)
+  - existing gateway instance to new release, using SNA [1](appc-gateway-migration.md)
+  - to 12.2.0.1.0
+    - special parameters [1](appc-gateway-migration.md)
+- mode definition [1](appc-gateway-configure-sna.md)
+- multiconversational transaction type, for gateway using TCP/IP [1](appc-gateway-introduction.md)
+
+------------------------------------------------------------------------
+
+## N
+
+- network
+  - configuring
+    - with SNA [1](appc-gateway-configure-oracle-network.md)
+  - reconfiguring [1](appc-gateway-configure-oracle-network.md)
+- networking products required [1](appc-gateway-system-requirements.md)
+- non-persistent socket transaction type for TCP/IP for IMS Connect [1](appc-gateway-introduction.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- obsolete parameters, in gateway using SNA [1](appc-gateway-migration.md)
+- OLTP [1](appc-gateway-configure-sna.md), [2](appc-gateway-initialization-parameters-sna.md)
+  - and dependent LUs [1](appc-gateway-configure-sna.md)
+  - and SECURITY=PROGRAM option [1](appc-gateway-security-requirements.md)
+  - and SECURITY=PROGRAM option, on platforms using TCP/IP [1](appc-gateway-security-requirements.md)
+  - configuration [1](appc-gateway-configure-oltp.md)
+  - configuration verification
+    - APPC/MVS [1](configure-appc-gateway-using-sna.md)
+    - CICS Transaction Server for z/OS [1](configure-appc-gateway-using-sna.md)
+    - on gateway using SNA [1](configure-appc-gateway-using-sna.md)
+    - on gateway using SNA IMS/TM [1](configure-appc-gateway-using-sna.md)
+    - on gateway using TCP/IP for IMS Connect [1](configure-appc-gateway-using-tcp-ip.md)
+  - configuring
+    - APPC/MVS for the gateway [1](appc-gateway-configure-oltp.md)
+    - CICS Transaction Server for z/OS for the gateway [1](appc-gateway-configure-oltp.md)
+    - for gateway using TCP/IP for IMS Connect [1](configure-appc-gateway-using-tcp-ip.md)
+    - IMS/TM for the gateway [1](appc-gateway-configure-oltp.md)
+  - currently supported types [1](appc-gateway-configure-oltp.md), [2](configure-appc-gateway-using-sna.md)
+  - definition [1](appc-gateway-introduction.md)
+  - for TCP/IP for IMS Connect [1](appc-gateway-introduction.md)
+  - in gateway architecture featuring SNA [1](appc-gateway-introduction.md)
+  - in gateway using TCP/IP [1](appc-gateway-introduction.md)
+  - installation verification [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - postinstallation steps
+    - on gateway using SNA [1](configure-appc-gateway-using-sna.md)
+  - post-installation steps
+    - on gateway using TCP/IP for IMS Connect [1](configure-appc-gateway-using-tcp-ip.md)
+  - remote [1](appc-gateway-introduction.md)
+  - requirements [1](appc-gateway-system-requirements.md)
+  - security and inbound APPC session requests [1](appc-gateway-configure-sna.md)
+  - security on the gateway [1](appc-gateway-security-requirements.md)
+  - SNA security option
+    - on all platforms [1](appc-gateway-security-requirements.md)
+  - user ID mapping [1](appc-gateway-security-requirements.md)
+  - verifying configuration
+    - on gateway using SNA [1](configure-appc-gateway-using-sna.md)
+    - on gateway using TCP/IP for IMS Connect [1](configure-appc-gateway-using-tcp-ip.md)
+- OLTP for SNA
+  - mainframe requirements [1](appc-gateway-system-requirements.md)
+- OLTP for TCP/IP
+  - IBM mainframe requirements [1](appc-gateway-system-requirements.md)
+- one-shot transaction types, for gateway using SNA [1](appc-gateway-introduction.md)
+- online transaction processor
+  - See OLTP [1](appc-gateway-introduction.md)
+- ORACLE_HOME [1](appc-gateway-configure-oltp.md), [5](configure-appc-gateway-using-sna.md), [6](configure-appc-gateway-using-sna.md), [7](configure-appc-gateway-using-sna.md), [8](configure-appc-gateway-using-tcp-ip.md)
+- Oracle database [1](appc-gateway-introduction.md), [2](appc-gateway-installation.md), [3](appc-gateway-installation.md), [4](appc-gateway-installation.md), [5](appc-gateway-configure-oracle-network.md), [6](configure-appc-gateway-using-sna.md), [8](configure-appc-gateway-using-tcp-ip.md), [10](appc-gateway-security-requirements.md), [11](appc-gateway-initialization-parameters-sna.md)
+  - and gateway security [1](appc-gateway-security-requirements.md)
+  - and TCP/IP for IMS Connect
+    - pre-configuration steps [1](configure-appc-gateway-using-tcp-ip.md)
+  - component of the gateway [1](appc-gateway-introduction.md)
+  - configuring for commit-confirm [1](configure-appc-gateway-using-sna.md)
+  - definition [1](appc-gateway-introduction.md)
+  - enabling DBMS_OUTPUT PL/SQL package [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - logon authentication needed [1](appc-gateway-security-requirements.md)
+  - multiple servers on the gateway
+    - using TPC/IP [1](appc-gateway-introduction.md)
+  - multiple servers on the gateway using SNA [1](appc-gateway-introduction.md)
+  - precompiles PL/SQL package [1](appc-gateway-introduction.md)
+  - READ_ONLY mode [1](appc-gateway-initialization-parameters-sna.md)
+  - role
+    - in gateway communication [1](appc-gateway-introduction.md)
+    - in logon security [1](appc-gateway-security-requirements.md)
+    - in starting the gateway [1](appc-gateway-introduction.md)
+  - shipped with PL/SQL packages [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - stores PL/SQL [1](appc-gateway-terminology.md)
+  - upgrading
+    - from previous releases [1](configure-appc-gateway-using-sna.md)
+  - verifying
+    - APPC/MVS configuration [1](configure-appc-gateway-using-sna.md)
+    - gateway installation with SNA [1](configure-appc-gateway-using-sna.md)
+    - gateway installation with TCP/IP for IMS Connect [1](configure-appc-gateway-using-tcp-ip.md)
+    - IMS/TM, on gateway using SNA [1](configure-appc-gateway-using-sna.md)
+    - IMS/TM, on gateway using TCP/IP for IMS Connect [1](configure-appc-gateway-using-tcp-ip.md)
+  - version requirements [1](appc-gateway-system-requirements.md)
+- Oracle Database 10g Server
+  - and networking products needed [1](appc-gateway-system-requirements.md)
+- Oracle Database Gateway for APPC
+  - development environment [1](appc-gateway-introduction.md)
+  - functions [1](appc-gateway-introduction.md)
+  - removing [1](appc-gateway-installation.md)
+  - see also gateway [1](appc-gateway-introduction.md)
+- Oracle Database Listener [1](appc-gateway-configure-oracle-network.md)
+- Oracle global transaction ID [1](configure-appc-gateway-using-sna.md)
+- Oracle Heterogeneous Services
+  - See Heterogeneous Services [1](appc-gateway-migration.md)
+- Oracle Net [1](appc-gateway-introduction.md), [2](appc-gateway-initialization-parameters-sna.md)
+  - considerations, when migrating gateway featuring SNA [1](appc-gateway-migration.md)
+  - Heterogeneous services/tnsnames.ora considerations, on gateway using SNA [1](appc-gateway-migration.md)
+  - on gateway using TCP/IP [1](appc-gateway-initialization-parameters-tcp-ip.md)
+  - security considerations [1](appc-gateway-security-requirements.md)
+  - to start the gateway [1](appc-gateway-introduction.md)
+- Oracle Net Listener [1](appc-gateway-configure-oracle-network.md)
+- Oracle Universal Installer
+  - using [1](appc-gateway-installation.md)
+    - to install gateway [1](appc-gateway-installation.md)
+- oralu62.asm file [1](appc-gateway-configure-oltp.md)
+- ORAPGA.APPCMVS.SAMPLIB [1](appc-gateway-configure-oltp.md)
+- oraplu62.asm file [1](appc-gateway-configure-oltp.md)
+- override
+  - user ID and password [1](appc-gateway-security-requirements.md), [2](appc-gateway-security-requirements.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- package
+  - DBMS_OUTPUT [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - gpglocal [1](configure-appc-gateway-using-tcp-ip.md)
+  - UTL_PG [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md), [3](configure-appc-gateway-using-tcp-ip.md)
+    - invalidated or removed [1](configure-appc-gateway-using-sna.md)
+  - UTL_RAW [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+    - invalidated or removed [1](configure-appc-gateway-using-sna.md)
+- package specifications
+  - avoid reinstalling [1](configure-appc-gateway-using-sna.md)
+  - reinstalling [1](configure-appc-gateway-using-sna.md)
+- parameter files
+  - See gateway initialization files [1](appc-gateway-initialization-parameters-sna.md), [2](appc-gateway-initialization-parameters-tcp-ip.md)
+  - See PGA parameters [1](appc-gateway-initialization-parameters-sna.md), [2](appc-gateway-initialization-parameters-tcp-ip.md)
+  - See RRM parameters [1](appc-gateway-initialization-parameters-sna.md), [2](appc-gateway-initialization-parameters-tcp-ip.md)
+- parameters
+  - changed since Release 4, on gateway using SNA or TCP/IP [1](appc-gateway-migration.md)
+  - FDS_CLASS_VERSION [1](appc-gateway-migration.md)
+  - gateway initialization parameter, described [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - needed for commit-confirm support [1](configure-appc-gateway-using-sna.md)
+  - new
+    - FDS_CLASS (startup shell) [1](appc-gateway-migration.md)
+    - FDS_INSTANCE (startup shell) [1](appc-gateway-migration.md)
+  - obsolete, in gateway using SNA [1](appc-gateway-migration.md)
+  - PGA
+    - described for SNA [1](configure-appc-gateway-using-sna.md)
+    - described for TCP/IP [1](configure-appc-gateway-using-tcp-ip.md)
+  - renamed since version 4 (gateway initialization) [1](appc-gateway-migration.md)
+  - see PGA parameters and gateway [1](configure-appc-gateway-using-tcp-ip.md)
+  - USING [1](appc-gateway-configure-oracle-network.md)
+- password
+  - change using ALTER USER command [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - Oracle authentication [1](appc-gateway-security-requirements.md)
+  - Oracle password to be used by gateway [1](appc-gateway-initialization-parameters-sna.md)
+    - using TCP/IP [1](appc-gateway-initialization-parameters-tcp-ip.md)
+  - overrides [1](appc-gateway-security-requirements.md), [2](appc-gateway-security-requirements.md)
+  - with operating system authentication [1](appc-gateway-security-requirements.md)
+- PDS (partitioned dataset) [1](appc-gateway-configure-oltp.md)
+- persistent socket transaction type
+  - for TCP/IP for IMS Connect [1](appc-gateway-introduction.md)
+- persistent transaction type, for gateway using SNA [1](appc-gateway-introduction.md)
+- pg4tcpmap table [1](appc-gateway-migration.md)
+  - see PGA_TCP_IMSC table [1](configure-appc-gateway-using-tcp-ip.md)
+- pg4tcpmap tool [1](configure-appc-gateway-using-tcp-ip.md), [2](appc-gateway-security-requirements.md), [3](appc-gateway-security-requirements.md), [4](appc-gateway-migration.md), [5](appc-gateway-initialization-parameters-tcp-ip.md)
+  - definition [1](appc-gateway-terminology.md)
+  - function [1](appc-gateway-introduction.md), [2](configure-appc-gateway-using-tcp-ip.md)
+    - in remote transaction initiation [1](appc-gateway-introduction.md)
+  - on gateway using TCP/IP [1](configure-appc-gateway-using-tcp-ip.md), [2](appc-gateway-initialization-parameters-tcp-ip.md)
+  - output sample [1](appc-gateway-initialization-parameters-tcp-ip.md)
+- PGA
+  - definition [1](appc-gateway-terminology.md)
+  - initialization files
+    - initPGAI.ora and initPGAU.ora [1](appc-gateway-initialization-parameters-sna.md)
+- PGA_CAPABILITY
+  - See PGA parameters [1](appc-gateway-initialization-parameters-sna.md)
+- PGA_CONFIRM
+  - See PGA parameters for gateway using SNA or TCP/IP [1](appc-gateway-initialization-parameters-sna.md)
+- PGA_SECURITY_TYPE
+  - See PGA parameters [1](appc-gateway-security-requirements.md), [2](appc-gateway-security-requirements.md)
+- PGA_SECURITY_TYPE parameter
+  - and TCP/IP security [1](appc-gateway-security-requirements.md)
+- PGA_TCP_DB
+  - PGA parameter
+    - for gateway using TCP/IP [1](appc-gateway-initialization-parameters-tcp-ip.md)
+- PGA_TCP_DB parameter (TCP/IP only) [1](appc-gateway-migration.md)
+- PGA_TCP_DB PGA parameter (TCP/IP only) [1](appc-gateway-initialization-parameters-tcp-ip.md)
+- PGA_TCP_IMSC table [1](appc-gateway-migration.md)
+  - for mapping SNA parameters to TCP/IP [1](configure-appc-gateway-using-tcp-ip.md)
+  - loading, on gateway using TCP/IP [1](configure-appc-gateway-using-tcp-ip.md)
+- PGA_TCP_PASS parameter (TCP/IP only) [1](appc-gateway-migration.md)
+- PGA_TCP_PASS PGA parameter (TCP/IP only) [1](appc-gateway-initialization-parameters-tcp-ip.md)
+- PGA_TCP_USER parameter (TCP/IP only) [1](appc-gateway-migration.md), [2](appc-gateway-initialization-parameters-tcp-ip.md)
+- PGAADMIN [1](configure-appc-gateway-using-sna.md), [3](configure-appc-gateway-using-sna.md), [4](configure-appc-gateway-using-tcp-ip.md), [6](configure-appc-gateway-using-tcp-ip.md)
+  - creating the gateway administrator user ID [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - granting access to additional users [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - granting execution privileges on DBMS_PIPE [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - initial password during creation [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- pgaccau.sql file [1](configure-appc-gateway-using-sna.md)
+- pgacclg.asm file [1](configure-appc-gateway-using-sna.md)
+- pgacics.sql file [1](configure-appc-gateway-using-sna.md)
+- pgacr8au.sql script [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- pgaecho.sql file [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- pgaflip.asm file [1](appc-gateway-configure-oltp.md), [3](appc-gateway-configure-oltp.md)
+- pgaflip.jcl file [1](appc-gateway-configure-oltp.md)
+- PGAI
+  - setting up [1](appc-gateway-initialization-parameters-sna.md)
+- pgaidms.sql file [1](configure-appc-gateway-using-sna.md)
+- pgaims.sql [1](configure-appc-gateway-using-tcp-ip.md)
+- pgaims.sql file [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-sna.md), [4](configure-appc-gateway-using-tcp-ip.md)
+  - on gateway using TCP/IP [1](configure-appc-gateway-using-tcp-ip.md)
+- pgaimsc.sql [1](configure-appc-gateway-using-tcp-ip.md)
+- PGAINIT [1](appc-gateway-introduction.md)
+- PGAINIT function [1](appc-gateway-introduction.md), [3](appc-gateway-terminology.md)
+- PGAINIT TIP [1](configure-appc-gateway-using-tcp-ip.md)
+- pgamvs.sql file [1](configure-appc-gateway-using-sna.md)
+- PGA parameters
+  - described [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - list of, for gateway using TCP/IP [1](appc-gateway-initialization-parameters-tcp-ip.md)
+  - LOG_DESTINATION [1](appc-gateway-initialization-parameters-sna.md)
+  - on gateway using
+    - SNA [1](appc-gateway-initialization-parameters-sna.md)
+    - TCP/IP [1](appc-gateway-initialization-parameters-tcp-ip.md)
+  - PGA_CAPABILITY [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md), [3](appc-gateway-initialization-parameters-sna.md), [5](appc-gateway-initialization-parameters-tcp-ip.md)
+    - choosing settings [1](appc-gateway-initialization-parameters-sna.md)
+    - options for updating foreign databases [1](appc-gateway-initialization-parameters-sna.md)
+    - protections against data problems [1](appc-gateway-initialization-parameters-sna.md)
+  - PGA_CAPABILITY, for gateway using TCP/IP [1](appc-gateway-initialization-parameters-tcp-ip.md)
+  - PGA_CONFIRM [1](appc-gateway-initialization-parameters-sna.md)
+    - choosing settings [1](appc-gateway-initialization-parameters-sna.md)
+  - PGA_LOG_DB [1](appc-gateway-initialization-parameters-sna.md), [3](appc-gateway-initialization-parameters-tcp-ip.md)
+  - PGA_LOG_PASS [1](appc-gateway-initialization-parameters-sna.md), [3](appc-gateway-initialization-parameters-tcp-ip.md)
+    - on gateway using TCP/IP [1](appc-gateway-initialization-parameters-tcp-ip.md)
+  - PGA_LOG_USER [1](appc-gateway-initialization-parameters-sna.md), [3](appc-gateway-initialization-parameters-tcp-ip.md)
+  - PGA_RECOVERY_PASS [1](appc-gateway-initialization-parameters-sna.md)
+  - PGA_RECOVERY_TPNAME [1](appc-gateway-initialization-parameters-sna.md)
+  - PGA_RECOVERY_USER [1](appc-gateway-initialization-parameters-sna.md)
+  - PGA_SECURITY_TYPE [1](appc-gateway-security-requirements.md), [2](appc-gateway-security-requirements.md), [3](appc-gateway-security-requirements.md), [4](appc-gateway-initialization-parameters-sna.md), [5](appc-gateway-initialization-parameters-tcp-ip.md)
+  - PGA_TCP_PASS
+    - for gateway using TCP/IP [1](appc-gateway-initialization-parameters-tcp-ip.md)
+  - TRACE_LEVEL [1](appc-gateway-initialization-parameters-sna.md)
+    - on gateway using TCP/IP [1](appc-gateway-initialization-parameters-tcp-ip.md)
+- PGATERM function [1](appc-gateway-introduction.md), [2](appc-gateway-terminology.md)
+- pgatiptr.sql script [1](configure-appc-gateway-using-tcp-ip.md)
+- PGAU [1](appc-gateway-configure-oracle-network.md)
+  - accesses definitions in PG DD [1](appc-gateway-introduction.md)
+  - control files [1](appc-gateway-installation.md)
+  - definition
+    - used to generate TIP specifications [1](appc-gateway-introduction.md)
+  - -generated TIP specifications [1](appc-gateway-introduction.md)
+  - -generated TIP specifications use UTL_PG [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - -generated TIP specifications use UTL_RAW [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - known restrictions in this release [1](appc-gateway-release-information.md)
+  - purpose of PGDL [1](appc-gateway-terminology.md)
+  - restoring previous versions [1](appc-gateway-installation.md)
+  - setting up [1](appc-gateway-initialization-parameters-sna.md)
+  - upgrading existing PG DD entries [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- PGAU commands
+  - DEFINE DATA
+    - COBOL COPY REPLACE restrictions [1](appc-gateway-release-information.md)
+  - GENERATE [1](configure-appc-gateway-using-sna.md), [3](configure-appc-gateway-using-tcp-ip.md)
+    - produces TIP in output files [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+    - to upgrade existing TIPs [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- PGAXFER function [1](appc-gateway-introduction.md), [2](appc-gateway-introduction.md), [3](appc-gateway-terminology.md)
+- PG Data Dictionary
+  - See PG DD [1](appc-gateway-introduction.md)
+- PGDD
+  - compatibility issues between new and older gateways [1](configure-appc-gateway-using-sna.md)
+- PG DD
+  - after upgrade [1](appc-gateway-installation.md)
+  - allowing multiple users [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - creating public synonyms for multiple users [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - definition [1](appc-gateway-introduction.md)
+  - installing for gateway configuration [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - install script [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - no access from earlier PGAU versions [1](appc-gateway-installation.md)
+  - restoring previous version [1](appc-gateway-installation.md)
+  - tables [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - upgrade when upgrading gateway [1](configure-appc-gateway-using-sna.md)
+  - using PGAU to upgrade existing entries [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- pgddadev.sql
+  - file [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - script [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- pgddapub.sql
+  - file [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - script [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- pgddcr8.sql script [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- pgddcr8r.sql script [1](configure-appc-gateway-using-sna.md)
+- PGDDDEF role [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- PGDDGEN role [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - adding a privilege for upgrading PG DD entries [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- pgddupgr.sql script [1](configure-appc-gateway-using-sna.md)
+- PGDL (Procedural Gateway Definition Language)
+  - definition [1](appc-gateway-terminology.md)
+- PL/SQL [1](appc-gateway-introduction.md)
+  - code generator [1](appc-gateway-introduction.md)
+  - datatypes
+    - converted to RAW [1](appc-gateway-introduction.md)
+  - function in the gateway [1](appc-gateway-introduction.md), [2](appc-gateway-introduction.md)
+  - running pgatiptr.sql script to create routines [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - UTL_PG package function [1](appc-gateway-terminology.md)
+  - UTL_RAW function [1](appc-gateway-terminology.md)
+  - UTL_RAW package installation
+    - on gateway using SNA [1](configure-appc-gateway-using-sna.md)
+    - on gateway using TCP/IP for IMS Connect [1](configure-appc-gateway-using-tcp-ip.md)
+- PL/SQL package
+  - definition [1](appc-gateway-introduction.md), [2](appc-gateway-terminology.md)
+  - developer access to [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - enabled [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - functions [1](appc-gateway-introduction.md)
+  - See TIP [1](appc-gateway-introduction.md)
+- PL/SQL stored procedure [1](configure-appc-gateway-using-sna.md)
+  - used for logging transactions [1](configure-appc-gateway-using-sna.md)
+- PL/SQL stored procedure specification
+  - also called "TIP" [1](appc-gateway-introduction.md)
+  - See PL/SQL package [1](appc-gateway-terminology.md)
+- postinstallation steps for OLTP
+  - on gateway using SNA [1](configure-appc-gateway-using-sna.md)
+- post-installation steps for OLTP
+  - on gateway using TCP/IP [1](configure-appc-gateway-using-tcp-ip.md)
+- preinstallation steps
+  - for SNA [1](appc-gateway-installation.md)
+- privileges
+  - needed to create TIPs [1](configure-appc-gateway-using-sna.md), [3](configure-appc-gateway-using-tcp-ip.md)
+- Procedural Gateway Administration
+  - See PGA [1](appc-gateway-terminology.md)
+- Procedural Gateway Administration Utility
+  - See PGAU [1](appc-gateway-introduction.md)
+- processor OLTP
+  - configuring, for commit-confirm [1](configure-appc-gateway-using-sna.md)
+- processor requirements [1](appc-gateway-system-requirements.md)
+- protocol
+  - IPC [1](appc-gateway-configure-oracle-network.md)
+  - TCP [1](appc-gateway-configure-oracle-network.md)
+- prvtpgb.plb
+  - file [1](configure-appc-gateway-using-sna.md)
+  - script [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-sna.md)
+- prvtrawb.plb script [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-sna.md), [3](configure-appc-gateway-using-tcp-ip.md)
+- public synonyms for multiple PG DD users [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- put_line function [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- RACF [1](appc-gateway-security-requirements.md), [3](appc-gateway-initialization-parameters-tcp-ip.md)
+- READ_ONLY
+  - PGA_COMPATIBILITY setting [1](appc-gateway-initialization-parameters-sna.md)
+- recompiling TIPs
+  - See TIP [1](configure-appc-gateway-using-sna.md)
+- reinstallation of package specifications [1](configure-appc-gateway-using-sna.md)
+- release-specific information
+  - restrictions [1](appc-gateway-release-information.md)
+- remote host transactions (RHT)
+  - types [1](appc-gateway-introduction.md)
+- remote procedural call
+  - See RPC [1](appc-gateway-introduction.md)
+- remote procedure
+  - definition [1](appc-gateway-terminology.md)
+- remote transaction initiation
+  - on gateway using SNA [1](appc-gateway-introduction.md)
+  - on gateway using TC/IP [1](appc-gateway-introduction.md)
+- remote transaction program
+  - See RTP [1](appc-gateway-introduction.md)
+- remote transaction termination
+  - on gateway using SNA [1](appc-gateway-introduction.md)
+  - on gateway using TCP/IP for IMS Connect [1](appc-gateway-introduction.md)
+- removing
+  - the gateway [1](appc-gateway-installation.md)
+- requirements
+  - hardware [1](appc-gateway-system-requirements.md)
+  - network attachments [1](appc-gateway-system-requirements.md)
+  - software [1](appc-gateway-system-requirements.md)
+  - system [1](appc-gateway-system-requirements.md)
+- restoring a previous release of the gateway [1](appc-gateway-installation.md)
+- restrictions
+  - on gateway using SNA [1](appc-gateway-release-information.md)
+- role
+  - PGDDDEF [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - PGDDGEN [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- ROLLBACK [1](appc-gateway-system-requirements.md), [2](appc-gateway-initialization-parameters-sna.md)
+- RPC
+  - definition [1](appc-gateway-introduction.md)
+  - function
+    - PGAINIT [1](appc-gateway-introduction.md), [3](appc-gateway-terminology.md)
+    - PGATERM [1](appc-gateway-terminology.md)
+    - PGAXFER [1](appc-gateway-introduction.md), [2](appc-gateway-terminology.md)
+    - within the gateway [1](appc-gateway-introduction.md), [2](appc-gateway-introduction.md)
+  - processing [1](appc-gateway-introduction.md)
+- RTP
+  - definition [1](appc-gateway-introduction.md)
+  - executing [1](appc-gateway-introduction.md)
+  - function in the gateway [1](appc-gateway-introduction.md)
+  - PGA_CAPABILITY settings for read-only RTPs [1](appc-gateway-initialization-parameters-sna.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- sample applications
+  - included [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - installing [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- script
+  - gpglocal.pkb [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - gpglocal.pkh [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - pgacr8au.sql [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - pgddadev.sql [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - pgddapub.sql [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - pgddcr8.sql [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - pgddcr8r.sql [1](configure-appc-gateway-using-sna.md)
+  - pgddupgr.sql [1](configure-appc-gateway-using-sna.md)
+  - prvtpgb.plb [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-sna.md)
+  - prvtrawb.plb [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-sna.md), [3](configure-appc-gateway-using-tcp-ip.md)
+  - utlpg.sql [1](configure-appc-gateway-using-tcp-ip.md)
+  - utlraw.sql [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- security
+  - and database links [1](appc-gateway-security-requirements.md)
+  - and SNA validation [1](appc-gateway-security-requirements.md)
+  - authenticating application logons [1](appc-gateway-security-requirements.md)
+  - authentication mechanisms
+    - in SNA security [1](appc-gateway-security-requirements.md)
+  - for TCP/IP for IMS Connect [1](appc-gateway-security-requirements.md)
+  - link accessibility for public and private databases [1](appc-gateway-security-requirements.md)
+  - links and CONNECT clauses [1](appc-gateway-security-requirements.md)
+  - overview of gateway security requirements [1](appc-gateway-security-requirements.md)
+  - processing inbound connections [1](appc-gateway-configure-sna.md)
+  - specifying SNA conversation security [1](appc-gateway-security-requirements.md)
+- SECURITY=NONE SNA security option [1](appc-gateway-security-requirements.md)
+- SECURITY=NONE TCP/IP security option [1](appc-gateway-security-requirements.md)
+- security validation [1](appc-gateway-security-requirements.md)
+- SET
+  - gateway initialization parameter [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- SET command [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- shells
+  - see Bourne, Korn, and C shells [1](appc-gateway-installation.md)
+- Side Information
+  - aka CPI-C symbolic destination names [1](appc-gateway-configure-sna.md)
+- side profile name [1](configure-appc-gateway-using-sna.md)
+- SINGLE_SITE
+  - and PGA_CAPABILITY parameter [1](appc-gateway-initialization-parameters-sna.md)
+- SNA
+  - and gateway components [1](appc-gateway-introduction.md)
+  - implementation of the gateway [1](appc-gateway-introduction.md)
+  - migrating existing gateway to the new release [1](appc-gateway-migration.md)
+  - new gateway initialization parameters [1](appc-gateway-migration.md)
+  - parameters [1](appc-gateway-introduction.md)
+  - PGA parameters [1](appc-gateway-initialization-parameters-sna.md)
+  - preinstallation procedures [1](appc-gateway-installation.md)
+  - remote transaction initiation [1](appc-gateway-introduction.md)
+  - remote transaction termination on the gateway [1](appc-gateway-introduction.md)
+  - security validation [1](appc-gateway-configure-sna.md), [2](appc-gateway-security-requirements.md)
+  - transaction types [1](appc-gateway-introduction.md)
+  - using SNA Node Configuration menu [1](appc-gateway-configure-sna.md)
+- SNA APPC
+  - function in the gateway [1](appc-gateway-introduction.md)
+  - see also APPC [1](appc-gateway-introduction.md)
+- snacfg.ctl file
+  - sample server definitions [1](appc-gateway-configure-sna.md)
+- SNACFG command [1](appc-gateway-configure-sna.md)
+- SNA communication package [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-sna.md), [3](configure-appc-gateway-using-sna.md)
+  - configuration for the gateway [1](appc-gateway-configure-oracle-network.md)
+- SNA definitions
+  - See SNA Server definitions [1](appc-gateway-configure-sna.md)
+- SNA Node Configuration
+  - using, to configure IBM Communications Server [1](appc-gateway-configure-sna.md)
+- SNA profiles [1](appc-gateway-security-requirements.md)
+- SNA protocol
+  - gateway initialization parameters [1](appc-gateway-initialization-parameters-sna.md)
+- SNA security options
+  - SECURITY=NONE [1](appc-gateway-security-requirements.md)
+  - SECURITY=PROGRAM [1](appc-gateway-security-requirements.md)
+- SNA Server
+  - and SNA security validation [1](appc-gateway-security-requirements.md)
+  - configuring an IBM Communications Server [1](appc-gateway-configure-sna.md)
+  - configuring on Windows [1](appc-gateway-configure-sna.md)
+  - connection definition [1](appc-gateway-configure-sna.md)
+  - CPI-C symbolic destination names [1](appc-gateway-configure-sna.md)
+  - definition types [1](appc-gateway-configure-sna.md)
+  - dependent LUs [1](appc-gateway-configure-sna.md)
+  - function in gateway communication [1](appc-gateway-security-requirements.md)
+  - independent LUs [1](appc-gateway-configure-sna.md)
+  - link service definition [1](appc-gateway-configure-sna.md)
+  - mode definition [1](appc-gateway-configure-sna.md)
+  - remote LU definition [1](appc-gateway-configure-sna.md)
+  - required for Microsoft Windows [1](appc-gateway-system-requirements.md)
+- SNA Server definition
+  - creating, using MS Host Integration Server [1](appc-gateway-configure-sna.md)
+- SNA Server Manager [1](appc-gateway-configure-sna.md)
+  - creating SNA definitions, using MS Host Integration Server [1](appc-gateway-configure-sna.md)
+  - using, to create SNA definitions for the gateway [1](appc-gateway-configure-sna.md)
+- SNA Server selection [1](appc-gateway-configure-sna.md)
+- socket file descriptor
+  - returned by TCP/IP network to PGAINIT [1](appc-gateway-introduction.md)
+- software requirements [1](appc-gateway-system-requirements.md)
+- SQL\*Plus
+  - sample, used when gateway and Oracle database share computer [1](configure-appc-gateway-using-sna.md)
+  - sample, used when gateway and Oracle database share machine [1](configure-appc-gateway-using-tcp-ip.md)
+  - to configure Oracle database [1](configure-appc-gateway-using-sna.md), [3](configure-appc-gateway-using-tcp-ip.md)
+  - use in configuring Oracle database for Commit-Confirm [1](configure-appc-gateway-using-sna.md)
+  - using to connect to Oracle database [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- statement
+  - describe [1](configure-appc-gateway-using-tcp-ip.md)
+  - DESCRIBE [1](configure-appc-gateway-using-sna.md)
+  - DFHRPL DD [1](appc-gateway-configure-oltp.md)
+- system identifier
+  - choosing [1](appc-gateway-installation.md)
+- system requirements [1](appc-gateway-system-requirements.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- TCP/IP
+  - specifying conversation security [1](appc-gateway-security-requirements.md)
+- TCP/IP for IMS Connect
+  - and Remote Transaction Initiation [1](appc-gateway-introduction.md)
+  - configuring
+    - for the gateway [1](configure-appc-gateway-using-tcp-ip.md)
+    - gateway to permit multiple users [1](configure-appc-gateway-using-tcp-ip.md)
+  - function in the gateway [1](appc-gateway-introduction.md)
+  - gateway initialization parameters, list [1](appc-gateway-initialization-parameters-tcp-ip.md)
+  - gateway preinstallation procedures [1](appc-gateway-installation.md)
+  - gateway support for, description [1](appc-gateway-introduction.md)
+  - Heterogeneous Services parameters needed [1](appc-gateway-migration.md)
+  - HS parameter descriptions [1](appc-gateway-migration.md), [2](appc-gateway-migration.md)
+  - implementation of the gateway [1](appc-gateway-introduction.md)
+  - IMS Connect release required on IBM mainframe [1](appc-gateway-system-requirements.md)
+  - installing sample applications [1](configure-appc-gateway-using-tcp-ip.md)
+  - loading the PGA_TCP_IMSC table [1](configure-appc-gateway-using-tcp-ip.md)
+  - mapping SNA parameters to [1](configure-appc-gateway-using-tcp-ip.md)
+  - migrating existing gateway using SNA to TCP/IP [1](appc-gateway-migration.md)
+  - necessary to recompile TIPs when changing communication protocol [1](configure-appc-gateway-using-tcp-ip.md)
+  - new gateway initialization parameters [1](appc-gateway-migration.md)
+  - non-persistent socket transaction type [1](appc-gateway-introduction.md)
+  - OLTP in gateway architecture [1](appc-gateway-introduction.md)
+  - parameter files
+    - also see gateway initialization parameters, and PGA parameters [1](configure-appc-gateway-using-tcp-ip.md)
+  - performing post-installation procedures [1](configure-appc-gateway-using-tcp-ip.md)
+  - persistent socket transaction type [1](appc-gateway-introduction.md)
+  - pg4tcpmap tool output sample [1](appc-gateway-initialization-parameters-tcp-ip.md)
+  - PGA_TCP_DB parameter [1](appc-gateway-initialization-parameters-tcp-ip.md)
+  - PGA_TCP_USER parameter [1](appc-gateway-initialization-parameters-tcp-ip.md)
+  - PGA parameters [1](configure-appc-gateway-using-tcp-ip.md), [2](appc-gateway-initialization-parameters-tcp-ip.md)
+  - remote transaction initiation [1](appc-gateway-introduction.md)
+  - remote transaction termination [1](appc-gateway-introduction.md)
+  - security [1](appc-gateway-security-requirements.md)
+  - security options
+    - SECURITY=NONE [1](appc-gateway-security-requirements.md)
+    - SECURITY=NONE, on all platforms [1](appc-gateway-security-requirements.md)
+    - SECURITY=PROGRAM [1](appc-gateway-security-requirements.md)
+  - TIP recompile needed on upgrade [1](appc-gateway-installation.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - TRACE_LEVEL parameter [1](appc-gateway-initialization-parameters-tcp-ip.md)
+  - transaction types [1](appc-gateway-introduction.md)
+  - using pg4tcpmap tool [1](appc-gateway-initialization-parameters-tcp-ip.md)
+  - verifying
+    - gateway installation [1](configure-appc-gateway-using-tcp-ip.md)
+    - OLTP configuration [1](configure-appc-gateway-using-tcp-ip.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- TCP/IP protocol adapter
+  - for SNA [1](appc-gateway-configure-oracle-network.md)
+- TCP protocol [1](appc-gateway-configure-oracle-network.md)
+- terms, gateway terms defined [1](appc-gateway-introduction.md)
+- TIP
+  - Also called PL/SQL package [1](appc-gateway-introduction.md)
+  - body output files [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - conversions [1](appc-gateway-introduction.md)
+  - converting PL/SQL datatypes to RAW [1](appc-gateway-introduction.md)
+  - definition [1](appc-gateway-introduction.md)
+  - developer access to PL/SQL packages [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - developer authorization on gpglocal [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - functions [1](appc-gateway-introduction.md)
+    - in Oracle database [1](appc-gateway-introduction.md)
+  - invalidated if package specifications reinstalled [1](configure-appc-gateway-using-sna.md)
+  - override [1](appc-gateway-security-requirements.md)
+  - override, in security for TCP/IP [1](appc-gateway-security-requirements.md)
+  - recompile
+    - after reinstalling package specifications [1](configure-appc-gateway-using-sna.md)
+    - on upgrade from release 4.0.1 [1](appc-gateway-installation.md)
+  - recompile upon upgrade from SNA to TCP/IP [1](appc-gateway-installation.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - recompiling when changing from SNA to TCP/IP [1](configure-appc-gateway-using-tcp-ip.md)
+  - regenerate to upgrade function and maintenance [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - remote transaction initiation (PGAINIT) [1](appc-gateway-introduction.md)
+  - specification output files [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - specifications [1](configure-appc-gateway-using-sna.md), [3](configure-appc-gateway-using-sna.md), [6](configure-appc-gateway-using-tcp-ip.md), [8](configure-appc-gateway-using-tcp-ip.md)
+    - generated by PGAU [1](appc-gateway-introduction.md)
+    - use UTL_PG [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+    - use UTL_RAW [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - specifying LUs [1](appc-gateway-configure-sna.md)
+  - trace access PL/SQL routines [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - upgrade considerations from previous versions [1](appc-gateway-installation.md)
+- tnsnames.ora file [1](appc-gateway-configure-oracle-network.md), [4](configure-appc-gateway-using-sna.md), [5](appc-gateway-initialization-parameters-sna.md)
+  - and Oracle Net considerations [1](appc-gateway-migration.md)
+  - sample file for gateway using SNA [1](appc-gateway-initialization-parameters-sna.md)
+  - sample for gateway using TCP/IP [1](appc-gateway-initialization-parameters-tcp-ip.md)
+- TP name [1](appc-gateway-initialization-parameters-sna.md)
+- TRACE_LEVEL parameter [1](appc-gateway-migration.md), [2](appc-gateway-initialization-parameters-sna.md)
+  - on gateway using SNA [1](appc-gateway-initialization-parameters-sna.md)
+  - on gateway using TCP/IP for IMS Connect [1](appc-gateway-initialization-parameters-tcp-ip.md)
+- trace access [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- Transaction Interface Package
+  - See TIP [1](appc-gateway-introduction.md)
+- transaction socket
+  - transaction type for TCP/IP [1](appc-gateway-introduction.md)
+- transaction types
+  - for TCP/IP for IMS/Connect [1](appc-gateway-introduction.md)
+  - one-shot, persistent and multi-conversational, for SNA [1](appc-gateway-introduction.md)
+- transferring
+  - initsid.ora gateway initialization file parameters [1](appc-gateway-migration.md)
+- transparency
+  - (application) [1](appc-gateway-introduction.md)
+  - (location), on gateway using SNA [1](appc-gateway-introduction.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- upgrading
+  - considerations [1](appc-gateway-installation.md)
+  - existing TIP specifications [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+- user ID
+  - as security authentication [1](appc-gateway-security-requirements.md)
+- user ID mapping
+  - OLTP [1](appc-gateway-security-requirements.md)
+- USING parameter [1](appc-gateway-configure-oracle-network.md)
+- utility
+  - dg4pwd [1](appc-gateway-terminology.md)
+- UTL_PG [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - installing [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+  - package [1](configure-appc-gateway-using-tcp-ip.md)
+    - definition [1](appc-gateway-terminology.md)
+    - invalidated or removed [1](configure-appc-gateway-using-sna.md)
+- UTL_RAW [1](configure-appc-gateway-using-sna.md), [4](configure-appc-gateway-using-sna.md), [5](configure-appc-gateway-using-tcp-ip.md), [8](configure-appc-gateway-using-tcp-ip.md)
+  - interface
+    - PL/SQL package [1](configure-appc-gateway-using-tcp-ip.md)
+  - package
+    - invalidated or removed [1](configure-appc-gateway-using-sna.md)
+  - PL/SQL package
+    - definition [1](appc-gateway-terminology.md)
+- utlpg.sql
+  - file [1](configure-appc-gateway-using-sna.md)
+  - script [1](configure-appc-gateway-using-tcp-ip.md)
+- utlraw.sql
+  - file [1](configure-appc-gateway-using-sna.md)
+  - script [1](configure-appc-gateway-using-sna.md), [2](configure-appc-gateway-using-tcp-ip.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- VTAM [1](appc-gateway-configure-oltp.md)
+  - configuring for connection to the gateway [1](appc-gateway-configure-oltp.md)
+- VTAM logmode table [1](appc-gateway-configure-oltp.md)
+
+------------------------------------------------------------------------
+
+## W
+
+- Windows
+  - and security [1](appc-gateway-security-requirements.md)
+  - communication protocol needed [1](appc-gateway-system-requirements.md)
+  - configuring SNA [1](appc-gateway-configure-oracle-network.md)
+  - operating system [1](appc-gateway-introduction.md)
+  - processing inbound connections [1](appc-gateway-configure-sna.md)
+  - SNA conversation security [1](appc-gateway-security-requirements.md)
+
+------------------------------------------------------------------------
+
+## Z
+
+- z/OS [1](appc-gateway-introduction.md), [2](appc-gateway-introduction.md), [3](appc-gateway-system-requirements.md), [4](appc-gateway-configure-oltp.md)

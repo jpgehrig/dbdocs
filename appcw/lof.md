@@ -1,0 +1,3 @@
+- [1-1        Relationship of Gateway and Oracle Database on Windows](appc-gateway-introduction.md)
+- [1-2        Gateway Architecture](appc-gateway-introduction.md)
+- [6-1        Relationship Between SNA Server Definitions and Host VTAM](appc-gateway-configure-sna.md)
