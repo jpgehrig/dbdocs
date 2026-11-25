@@ -1,0 +1,1 @@
+This figure shows a screen shot of Microsoft Word editing file SBELL-2003030912333601PDT.xml. The document window shows the PurchaseOrder element and its contents. The Saving progress box reads "Saving as 'http://localhost:8080/home/SCOTT/purchaseOrders/2003/Mar/SBELL-2003030912333601PDT.xml'".

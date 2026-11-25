@@ -1,0 +1,1 @@
+The figure shows SQL queries to Oracle XML DB from either query-based access method, that is, either RESOURCE_VIEW or PATH_VIEW. In XML DB, the Oracle XML DB resource table is depicted, with the Content and Properties columns. The table is accessible through WebDav, FTP, or DBMS_XDB_REPOS.

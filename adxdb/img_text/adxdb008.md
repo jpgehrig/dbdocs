@@ -1,0 +1,1 @@
+This figure shows a box labeled "XMLtransform", with two inputs (arrows), labeled "XSL stylesheet" and "XMLType instance (table, column, view)", and one output (arrow), labeled "transformed XMLType (HTML, XML, ...)".

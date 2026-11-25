@@ -1,0 +1,1 @@
+The figure shows that a user, browser, client, or application first registers the query. You must set the options, including optional bind values. Next you fetch XML, which can be generated XML as DOM or string. Then close.

@@ -1,0 +1,7 @@
+This diagram shows the Oracle XML DB Repository Architecture. A dashed box is shown at the top labeled "Application Logical View of Oracle XML DB Repository". Inside this box is a tree with four folder icons and one document icon, at the left, and a table with five columns, at the right. The document icon is labeled "abc". The columns are named" Table Name", "ACL", "Property 1", "Property N", and "Property N". The third folder in the hierarchical list connects with an arrow to an entry in the "Table Name" column.
+
+Below the dashed box is an Oracle Database. A box named "Database View of Oracle XML DB Repository" is inside the database. This box has seven boxes inside it.
+
+The first of these boxes is labeled "RESOURCE_VIEW (XMLType)". It represents a database view, with columns "Name", "ACL", "Property 1", "Property N", "Extra", "Content" (which includes the entry "LOB" in its last row), and "Parent". The other boxes are labeled "Path", "XMLIndex Index", "B-Tree Index", "XML Search Index", and "Hierarchical Index".
+
+To the right of the box named "Database View of Oracle XML DB Repository" is a box labeled "XMLType Rows". Below this box are the words "Tables or Views of XML". The column labeled "Content" connects by a bidirectional arrow with content inside the box labeled "XMLType Rows". The "Name" column is the target of two arrows from different entries in the Name column in the box labeled "Application Logical View of Oracle XML DB Repository". One of these two arrows is labeled "FTP". The other is labeled "WebDAV".

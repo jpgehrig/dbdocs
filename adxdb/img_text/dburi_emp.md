@@ -1,0 +1,1 @@
+This figure shows a screen shot of table DEPARTMENTS in a Web browser. The HTML page has the heading DEPARTMENTS, and shows a table with three columns: DEPARTMENT, LOCATION, and EMPLOYEES. Two rows of the table are shown, for departments IT and Shipping.

@@ -1,0 +1,1 @@
+The figure shows the structures for RESOURCE_VIEW and PATH_VIEW. RESOURCE_VIEW is depicted with three column headings: Resources as an XMLType, Path, and Resource OID. PATH_VIEW is depicted with four columns: Path, Resource as an XMLType, Link as XMLType, and Resource OID.

@@ -1,0 +1,5 @@
+This diagram has the words "Oracle XML DB Data Storage Options" at the top. Immediately below these words are the words "Your Storage Option Affects Performance and Data Fidelity". Two lines connect below the words to two boxes. One box is labeled "XMLType Tables" and the other box is labeled "XMLType Views". Immediately to the right of box "XMLType Views" are the words "If you have existing relational data use XMLType Views".
+
+The box labeled "XMLType Tables" has two lines that connect below it to two boxes labeled, from left to right: "Binary XML Storage" and "Object-Relational Storage". Below the box labeled "XMLType Views" are the words "Can define the views using:". These words have two lines that connect below to two boxes labeled as follows, from left to right: "SQL/XML Operators" and "Object Types".
+
+The box labeled "SQL/XML Operators" connects below it to a box labeled "Relational Tables". The box labeled "Object Types" connects below it to three boxes labeled as follows, from left to right: "Object Tables", "Object Views", and "Object Constructors". Box "Object Constructors" connects below it to a box labeled "Relational Tables".

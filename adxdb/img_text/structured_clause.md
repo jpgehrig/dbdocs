@@ -1,0 +1,1 @@
+groups_clause | alter_index_group_clause

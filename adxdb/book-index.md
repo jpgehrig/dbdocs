@@ -1,0 +1,1236 @@
+A  B  C  D  E  F  G  H  I  J  L  M  N  O  P  Q  R  S  T  U  V  W  X  
+
+------------------------------------------------------------------------
+
+## A
+
+- access control entry (ACE)
+  - definition [27.1.4](repository-access-control.md)
+- access control list (ACL)
+  - definition [27.1.5](repository-access-control.md)
+  - overview [1.4.8](intro-to-XML-DB.md)
+  - system [27.4.1](repository-access-control.md)
+- account XDB [2.1](getting-started-with-XML-DB.md)
+- ACE
+  - See: access control entry
+- ACL
+  - See: access control list
+- administering Oracle XML DB [34](administration-of-XML-DB.md)
+- Advanced Queuing (AQ)
+  - IDAP [37.4](XML-data-exchange-using-streams-AQ.md)
+  - messaging scenarios [37.1.1](XML-data-exchange-using-streams-AQ.md)
+  - point-to-point support [37](XML-data-exchange-using-streams-AQ.md)
+  - publish/subscribe support [37](XML-data-exchange-using-streams-AQ.md)
+  - XMLType queue payloads [37.5.1](XML-data-exchange-using-streams-AQ.md)
+- aggregate privilege
+  - definition [27.1.3](repository-access-control.md)
+- annotations
+  - XML schema [17.2.2](XML-Schema-and-query-basic.md), [18.2](XML-Schema-and-query-object-relational-storage.md)
+    - querying to obtain [18.2.6](XML-Schema-and-query-object-relational-storage.md)
+- atomic privilege
+  - definition [27.1.3](repository-access-control.md)
+- attributes
+  - xdb:columnProps [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+  - xdb:defaultTable [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+  - xdb:maintainDOM [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+  - xdb:SQLCollType [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+  - xdb:SQLInline [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+  - xdb:SQLName [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+  - xdb:SQLType [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+  - xdb:tableProps [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+- attribute XML Schema data types
+  - mapping to SQL [18.3.2](XML-Schema-and-query-object-relational-storage.md)
+- authentication
+  - definition [27.1.1](repository-access-control.md)
+- authorization
+  - definition [27.1.1](repository-access-control.md)
+
+------------------------------------------------------------------------
+
+## B
+
+- backward-compatible XML schema evolution
+  - definition [20.3.1](XML-Schema-evolution.md)
+- binary XML
+  - definition [1.4.2](intro-to-XML-DB.md)
+- bootstrap ACL
+  - definition [27.4.1](repository-access-control.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- C API for XML [14](C-API-for-XMLType.md)
+- Cascading Style Sheets (CSS) [11.2.1.2](PLSQL-APIs-for-XMLType.md)
+- chaining XMLTable calls [4.3.2.1](xquery-and-XML-DB.md)
+- circular dependencies
+  - XML schemas [18.9.1](XML-Schema-and-query-object-relational-storage.md)
+- CLASSPATH environment variable
+  - for JCR [C.4](deprecated-content-repository-API-for-java.md)
+- collection
+  - in out-of-line tables [18.8.2](XML-Schema-and-query-object-relational-storage.md)
+  - loading and retrieving large documents [18.9.5](XML-Schema-and-query-object-relational-storage.md)
+  - XML
+    - definition [17.4.1.2](XML-Schema-and-query-basic.md)
+- collection attribute (SQL) [18.3.5](XML-Schema-and-query-object-relational-storage.md)
+- column pattern, XMLTable SQL function
+  - definition [4.3.2](xquery-and-XML-DB.md)
+- columnProps attribute [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+- complexType
+  - handling cycles [18.9.1.2](XML-Schema-and-query-object-relational-storage.md)
+  - handling inheritance [18.4.1](XML-Schema-and-query-object-relational-storage.md)
+  - mapping
+    - fragments to LOBs [18.9.3](XML-Schema-and-query-object-relational-storage.md)
+    - XML Schema data types to SQL [18.3.5](XML-Schema-and-query-object-relational-storage.md)
+  - Oracle XML DB restrictions and extensions [18.4](XML-Schema-and-query-object-relational-storage.md)
+- complex XLink link [23.2.2](use-of-XLink-and-XInclude-with-XML-DB.md)
+  - See also: extended XLink link
+
+  <!-- -->
+
+  - definition [23.2.2](use-of-XLink-and-XInclude-with-XML-DB.md)
+- component of a resource path name
+  - definition [21.2.1](accessing-XML-DB-repository-data.md)
+- compound XML document [23.3](use-of-XLink-and-XInclude-with-XML-DB.md)
+  - definition [23.1](use-of-XLink-and-XInclude-with-XML-DB.md)
+- compression
+  - for online transaction processing (OLTP)
+    - using CREATE TABLE [17.4.1.2](XML-Schema-and-query-basic.md)
+  - XMLType support [B](XML-DB-restrictions.md)
+- configuring Oracle XML DB
+  - protocol server [28.2.1](repository-access-using-protocols.md)
+  - repository [22](configuration-of-XML-DB-repository.md)
+  - servlets [31.6](how-to-write-XML-DB-applications-in-Java.md)
+  - using DBMS_XDB API [34.3.1.8](administration-of-XML-DB.md)
+  - using Oracle Enterprise Manager [34.2](administration-of-XML-DB.md)
+  - xdbconfig.xml configuration file [34.3](administration-of-XML-DB.md)
+- constraints on XMLType data [3.4.1](how-to-use-XML-DB.md), [18.7](XML-Schema-and-query-object-relational-storage.md)
+  - repetitive XML elements [18.7.1](XML-Schema-and-query-object-relational-storage.md)
+- content-management application
+  - definition [23.1](use-of-XLink-and-XInclude-with-XML-DB.md)
+- content of a resource
+  - definition [21.2.1](accessing-XML-DB-repository-data.md)
+- Content Repository API for Java [C](deprecated-content-repository-API-for-java.md)
+  - See: JCR
+- copy-based XML schema evolution [20.2](XML-Schema-evolution.md)
+- copyEvolve PL/SQL procedure [20](XML-Schema-evolution.md)
+- copy-namespace mode, XQuery [4.8.1.2](xquery-and-XML-DB.md)
+- COST_XML_QUERY_REWRITE optimizer hint [5.7.1](query-and-update-XML.md)
+- cost-based XML query rewrite
+  - definition [5.7.1](query-and-update-XML.md)
+- CREATE TABLE statement
+  - encoding options for binary XML [17.4.1.1](XML-Schema-and-query-basic.md)
+  - storage options [17.4.1](XML-Schema-and-query-basic.md)
+- creating an XMLType table
+  - for nested collections [18.5](XML-Schema-and-query-object-relational-storage.md)
+  - storage options [17.4.1](XML-Schema-and-query-basic.md)
+  - XML schema-based [17.4](XML-Schema-and-query-basic.md), [18.5](XML-Schema-and-query-object-relational-storage.md)
+- CTXAPP role [6.4.1](indexes-for-XMLType-data.md)
+- cyclical dependencies
+  - XML schemas [18.9.1](XML-Schema-and-query-object-relational-storage.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- database role
+  - definition [27.1.2](repository-access-control.md)
+- database user
+  - definition [27.1.2](repository-access-control.md)
+- date and time XML Schema data types
+  - mapping to SQL [18.3.4](XML-Schema-and-query-object-relational-storage.md)
+- DBMS_XDB_CONFIG PL/SQL package [26.3](PLSQL-access-to-XML-DB-repository.md)
+- DBMS_XDB_REPOS PL/SQL package [26.1](PLSQL-access-to-XML-DB-repository.md)
+- DBMS_XMLDOM PL/SQL package [11.2](PLSQL-APIs-for-XMLType.md)
+  - examples [11.2.12](PLSQL-APIs-for-XMLType.md)
+- DBMS_XMLGEN PL/SQL package [8.3](generation-of-XML-data-from-relational-data.md)
+- DBMS_XMLINDEX PL/SQL package
+  - modifyParameter procedure [6.3.17.1](indexes-for-XMLType-data.md)
+  - registerParameter procedure [6.3.17.1](indexes-for-XMLType-data.md)
+  - syncIndex procedure [6.3.14](indexes-for-XMLType-data.md)
+- DBMS_XMLPARSER PL/SQL package [11.3](PLSQL-APIs-for-XMLType.md)
+- DBMS_XMLSCHEMA_ANNOTATE PL/SQL package [18.2.3](XML-Schema-and-query-object-relational-storage.md)
+- DBMS_XMLSCHEMA PL/SQL package
+  - copyEvolve procedure [20](XML-Schema-evolution.md)
+  - inPlaceEvolve procedure [20](XML-Schema-evolution.md)
+  - registerSchema procedure [17.3.2](XML-Schema-and-query-basic.md)
+- DBMS_XMLSTORAGE_MANAGE PL/SQL package
+  - disableIndexesAndConstraints procedure [35.2.3](how-to-load-XML-data.md)
+  - enableIndexesAndConstraints procedure [35.2.3](how-to-load-XML-data.md)
+  - exchangePostProc procedure [6.3.3.3](indexes-for-XMLType-data.md)
+  - exchangePreProc procedure [6.3.3.3](indexes-for-XMLType-data.md)
+  - refPartitionExchangeIn procedure [6.3.3.3](indexes-for-XMLType-data.md)
+  - refPartitionExchangeOut procedure [6.3.3.3](indexes-for-XMLType-data.md)
+  - renameCollectionTable procedure [19.4.2](XPath-rewrite-for-object-relational-storage.md)
+  - XPath2TabColMapping procedure [19.4](XPath-rewrite-for-object-relational-storage.md), [19.4.3](XPath-rewrite-for-object-relational-storage.md)
+- DBMS_XMLSTORE PL/SQL package [12](PLSQL-package-DBMS_XMLSTORE.md)
+- DBMS_XSLPROCESSOR PL/SQL package [11.4](PLSQL-APIs-for-XMLType.md)
+- DBUri
+  - definition [32.3](data-access-using-URIs.md)
+  - generating using sys_DburiGen SQL function [32.8](data-access-using-URIs.md)
+  - identifying a row [32.6.4.2](data-access-using-URIs.md)
+  - identifying a target column [32.6.4.3](data-access-using-URIs.md)
+  - retrieving column text value [32.6.4.4](data-access-using-URIs.md)
+  - retrieving the whole table [32.6.4](data-access-using-URIs.md)
+  - security [32.9.3](data-access-using-URIs.md)
+  - servlet, installation [32.9.2](data-access-using-URIs.md)
+- DBUri-refs [32.6](data-access-using-URIs.md)
+  - HTTP access [32.9](data-access-using-URIs.md)
+- DBUriServlet
+  - definition [32.9](data-access-using-URIs.md)
+- debugging
+  - XML schema registration [18.10](XML-Schema-and-query-object-relational-storage.md)
+- defaultTable attribute [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+- default tables
+  - creating during XML schema registration [18.1.3](XML-Schema-and-query-object-relational-storage.md)
+- deleting
+  - resource [24.4](repository-access-using-RESOURCE_VIEW-and-PATH_VIEW.md)
+  - XML schema using DBMS_XMLSCHEMA [17.3.8](XML-Schema-and-query-basic.md)
+- depth SQL function [24.2.4](repository-access-using-RESOURCE_VIEW-and-PATH_VIEW.md)
+- derived XML Schema data types
+  - mapping to SQL [18.3.4](XML-Schema-and-query-object-relational-storage.md)
+- digest access authentication [28.2.5](repository-access-using-protocols.md)
+- digest access authentication, configuring [28.2.5](repository-access-using-protocols.md)
+- digest authentication [28.2.5](repository-access-using-protocols.md)
+- digest authentication, configuring [28.2.5](repository-access-using-protocols.md)
+- directory
+  - See: folder
+- document (DOM)
+  - definition [11.2.8](PLSQL-APIs-for-XMLType.md)
+- document-correlated recursive query
+  - definition [18.9.2](XML-Schema-and-query-object-relational-storage.md)
+- document link
+  - definition [21.3.5.1](accessing-XML-DB-repository-data.md), [23.2.1](use-of-XLink-and-XInclude-with-XML-DB.md)
+- document location hint
+  - definition [17.3](XML-Schema-and-query-basic.md)
+- Document Object Model
+  - See: DOM
+- Document Type Definition
+  - See: DTD
+- DOM
+  - definition [11.1](PLSQL-APIs-for-XMLType.md)
+  - difference from SAX [11.2.1.3](PLSQL-APIs-for-XMLType.md)
+  - document
+    - definition [11.2.8](PLSQL-APIs-for-XMLType.md)
+  - fidelity [17.2.3](XML-Schema-and-query-basic.md)
+    - for XML schema mapping [11.2.5.1](PLSQL-APIs-for-XMLType.md)
+  - Java API for XMLType [13.1](Java-DOM-API-for-XMLType.md)
+  - NamedNodeMap object [11.2.10](PLSQL-APIs-for-XMLType.md)
+  - NodeList object [11.2.10](PLSQL-APIs-for-XMLType.md)
+  - overview [11.2.1](PLSQL-APIs-for-XMLType.md)
+  - PL/SQL API for XMLType [11.2](PLSQL-APIs-for-XMLType.md)
+- DOM fidelity
+  - definition [17.2.3](XML-Schema-and-query-basic.md)
+- DTD
+  - definition [1.4.4](intro-to-XML-DB.md)
+  - support in Oracle XML DB [1.4.4](intro-to-XML-DB.md)
+  - use with Oracle XML DB [1.4.4](intro-to-XML-DB.md)
+- dynamic type-checking
+  - XQuery language [4.7](xquery-and-XML-DB.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- effective text value of a node
+  - definition [6.3.4.2](indexes-for-XMLType-data.md)
+- element XML Schema data types
+  - mapping to SQL [18.3.3](XML-Schema-and-query-object-relational-storage.md)
+- Enterprise Manager
+  - administering Oracle XML DB [34.2](administration-of-XML-DB.md)
+- entities, XML
+  - using a DTD with binary XML storage [1.4.4](intro-to-XML-DB.md)
+- equipartitioning of XMLType tables
+  - definition [18.6](XML-Schema-and-query-object-relational-storage.md)
+- error
+  - ORA-08181 [6.3.14.1](indexes-for-XMLType-data.md)
+  - ORA-18177 [6.4.3](indexes-for-XMLType-data.md)
+- event
+  - repository [30](XML-DB-repository-events.md)
+    - configuring [30.5](XML-DB-repository-events.md)
+    - predefined [30.2](XML-DB-repository-events.md)
+- event handler, repository
+  - definition [30.1.3](XML-DB-repository-events.md)
+- event listener, repository
+  - definition [30.1.3](XML-DB-repository-events.md)
+- evolution, XML schema [20](XML-Schema-evolution.md)
+- extended XLink link
+  - definition [23.2.2](use-of-XLink-and-XInclude-with-XML-DB.md)
+- extracting data from XML [5.2](query-and-update-XML.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- fidelity
+  - DOM [17.2.3](XML-Schema-and-query-basic.md)
+    - for XML schema mapping [11.2.5.1](PLSQL-APIs-for-XMLType.md)
+- FLWOR XQuery expression [4.1.4](xquery-and-XML-DB.md)
+- fn:available XQuery function
+  - support [4.8.2.1](xquery-and-XML-DB.md)
+- fn:collection XQuery function
+  - support [4.8.2](xquery-and-XML-DB.md)
+- fn:doc XQuery function
+  - support [4.8.2](xquery-and-XML-DB.md)
+- fn:idref XQuery function
+  - support [4.8.2](xquery-and-XML-DB.md)
+- fn:id XQuery function
+  - support [4.8.2](xquery-and-XML-DB.md)
+- fn:replace XQuery function [4.5](xquery-and-XML-DB.md)
+- folder
+  - definition [21.2.1](accessing-XML-DB-repository-data.md)
+- foldering [21.1](accessing-XML-DB-repository-data.md)
+- folder link
+  - definition [21.3.5.1](accessing-XML-DB-repository-data.md)
+- folder-restricted query
+  - definition [21.11](accessing-XML-DB-repository-data.md)
+- fragment, XML
+  - definition [3.6.6](how-to-use-XML-DB.md)
+  - SQL operations on [3.6.6](how-to-use-XML-DB.md)
+- fragments, XML
+  - mapping to LOBs [18.9.3](XML-Schema-and-query-object-relational-storage.md)
+- FROM list order
+  - XMLTable PASSING clause [5.1.4](query-and-update-XML.md)
+- FTP
+  - configuration parameters [28.2.1](repository-access-using-protocols.md)
+  - creating default tables [18.1.3](XML-Schema-and-query-object-relational-storage.md)
+  - protocol server, features [28.3](repository-access-using-protocols.md)
+- full-text indexing [6.4](indexes-for-XMLType-data.md)
+- full-text search
+  - XML data [4.1.2.5](xquery-and-XML-DB.md), [4.8.3](xquery-and-XML-DB.md)
+- fully qualified XML schema URLs [17.3.7](XML-Schema-and-query-basic.md)
+- functional evaluation
+  - definition [19.4.1](XPath-rewrite-for-object-relational-storage.md)
+- functions
+  - SQL
+    - depth [24.2.4](repository-access-using-RESOURCE_VIEW-and-PATH_VIEW.md)
+    - sys_DburiGen [32.8](data-access-using-URIs.md)
+    - sys_XMLAgg [8.4](generation-of-XML-data-from-relational-data.md)
+    - under_path [24.2.1](repository-access-using-RESOURCE_VIEW-and-PATH_VIEW.md), [24.3](repository-access-using-RESOURCE_VIEW-and-PATH_VIEW.md)
+    - updating XML data [5.6](query-and-update-XML.md)
+    - XMLAgg [8.2.4](generation-of-XML-data-from-relational-data.md)
+    - XMLAttributes [8.2.1](generation-of-XML-data-from-relational-data.md)
+    - XMLCast [4.3.5](xquery-and-XML-DB.md)
+    - XMLCDATA [8.2.10](generation-of-XML-data-from-relational-data.md)
+    - XMLColAttVal [8.2.9](generation-of-XML-data-from-relational-data.md)
+    - XMLComment [8.2.6](generation-of-XML-data-from-relational-data.md)
+    - XMLConcat [8.2.3](generation-of-XML-data-from-relational-data.md)
+    - XMLElement [8.2.1](generation-of-XML-data-from-relational-data.md)
+    - XMLExists [4.3.3](xquery-and-XML-DB.md)
+    - XMLForest [8.2.2](generation-of-XML-data-from-relational-data.md)
+    - XMLIsValid [7.2.1.2.1](transformation-and-validation-of-XMLType-data.md)
+    - XMLParse [8.2.8](generation-of-XML-data-from-relational-data.md)
+    - XMLPI [8.2.5](generation-of-XML-data-from-relational-data.md)
+    - XMLQuery [4.3](xquery-and-XML-DB.md), [4.3.1](xquery-and-XML-DB.md)
+    - XMLSerialize [8.2.7](generation-of-XML-data-from-relational-data.md)
+    - XMLTable [4.3](xquery-and-XML-DB.md), [4.3.2](xquery-and-XML-DB.md)
+    - XMLtransform [7.1.1](transformation-and-validation-of-XMLType-data.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- generating XML [8](generation-of-XML-data-from-relational-data.md)
+  - DBMS_XMLGEN PL/SQL package [8.3](generation-of-XML-data-from-relational-data.md)
+  - SQL functions [8.1](generation-of-XML-data-from-relational-data.md)
+  - sys_XMLAgg SQL function [8.4](generation-of-XML-data-from-relational-data.md)
+  - XMLAgg SQL function [8.2.4](generation-of-XML-data-from-relational-data.md)
+  - XMLAttributes SQL function [8.2.1](generation-of-XML-data-from-relational-data.md)
+  - XMLCDATA SQL function [8.2.10](generation-of-XML-data-from-relational-data.md)
+  - XMLColAttVal SQL function [8.2.9](generation-of-XML-data-from-relational-data.md)
+  - XMLComment SQL function [8.2.6](generation-of-XML-data-from-relational-data.md)
+  - XMLConcat SQL function [8.2.3](generation-of-XML-data-from-relational-data.md)
+  - XMLElement SQL function [8.2.1](generation-of-XML-data-from-relational-data.md)
+  - XMLForest SQL function [8.2.2](generation-of-XML-data-from-relational-data.md)
+  - XMLParse SQL function [8.2.8](generation-of-XML-data-from-relational-data.md)
+  - XMLPI SQL function [8.2.5](generation-of-XML-data-from-relational-data.md)
+  - XMLSerialize SQL function [8.2.7](generation-of-XML-data-from-relational-data.md)
+- getCLOB() XMLType method [13.4](Java-DOM-API-for-XMLType.md)
+- getSchemaURL() XMLType method [17.2.4](XML-Schema-and-query-basic.md)
+- getting JCR repository objects [C.5](deprecated-content-repository-API-for-java.md)
+- global XML schema
+  - using fully qualified URL to override [17.3.7](XML-Schema-and-query-basic.md)
+- group in an XMLIndex structured component
+  - definition [6.3.7](indexes-for-XMLType-data.md)
+
+------------------------------------------------------------------------
+
+## H
+
+- hard link
+  - definition [21.3.5.2](accessing-XML-DB-repository-data.md)
+- hierarchical repository index [21.12](accessing-XML-DB-repository-data.md)
+- hierarchy-enabled table
+  - definition [27.7](repository-access-control.md)
+- HTTP
+  - access for DBUri-refs [32.9](data-access-using-URIs.md)
+  - accessing Java servlet or XMLType [31.2](how-to-write-XML-DB-applications-in-Java.md)
+  - accessing repository resources [21.4.1.2](accessing-XML-DB-repository-data.md)
+  - configuration parameters, WebDAV [28.2.1](repository-access-using-protocols.md)
+  - creating default tables [18.1.3](XML-Schema-and-query-object-relational-storage.md)
+  - improved performance [28.1.1](repository-access-using-protocols.md)
+  - Oracle XML DB servlets [31.7](how-to-write-XML-DB-applications-in-Java.md)
+  - protocol server, features [28.4](repository-access-using-protocols.md)
+  - requests [31.7](how-to-write-XML-DB-applications-in-Java.md)
+  - servlets [31.5](how-to-write-XML-DB-applications-in-Java.md)
+  - URIFACTORY [32.9.4](data-access-using-URIs.md)
+  - using UriRefs to store pointers [32.3](data-access-using-URIs.md)
+- httpconfig element, xdbconfig.xml [34.3.1.5](administration-of-XML-DB.md)
+- HTTPUri
+  - definition [32.3](data-access-using-URIs.md)
+- hybrid columnar compression [B](XML-DB-restrictions.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- IDAP
+  - architecture [37.5](XML-data-exchange-using-streams-AQ.md)
+  - transmitted over Internet [37.4](XML-data-exchange-using-streams-AQ.md)
+- index
+  - hierarchical repository [21.12](accessing-XML-DB-repository-data.md)
+- indexing
+  - full-text [6.4](indexes-for-XMLType-data.md)
+  - XMLType [6.2](indexes-for-XMLType-data.md)
+    - choosing [16](choice-of-XMLType-storage-and-indexing.md)
+- index-organized tables [18.1.1](XML-Schema-and-query-object-relational-storage.md)
+- inheritance
+  - XML schema, restrictions in complexTypes [18.4.1](XML-Schema-and-query-object-relational-storage.md)
+- inPlaceEvolve PL/SQL procedure [20](XML-Schema-evolution.md)
+- in-place XML schema evolution [20.3](XML-Schema-evolution.md)
+- instance document
+  - definition [1.4.3](intro-to-XML-DB.md), [17.1.3](XML-Schema-and-query-basic.md)
+  - specifying root element namespace [17.1.4](XML-Schema-and-query-basic.md)
+- Internet Data Access Presentation (IDAP)
+  - SOAP specification for AQ [37.4](XML-data-exchange-using-streams-AQ.md)
+- Internet Protocol Version 6
+  - FTP [28.3.1.7](repository-access-using-protocols.md)
+  - HTTP(S) [28.4.1.3](repository-access-using-protocols.md)
+- IPv6
+  - FTP [28.3.1.7](repository-access-using-protocols.md)
+  - HTTP(S) [28.4.1.3](repository-access-using-protocols.md)
+- isSchemaBased() XMLType method [17.2.4](XML-Schema-and-query-basic.md)
+- isSchemaValidated() XMLType method [17.2.4](XML-Schema-and-query-basic.md)
+
+------------------------------------------------------------------------
+
+## J
+
+- Java
+  - DOM API for XMLType [13.1](Java-DOM-API-for-XMLType.md)
+  - Oracle XML DB applications [31.1](how-to-write-XML-DB-applications-in-Java.md)
+- Java Content Repository API
+  - See: JCR
+- Java Specification Request
+  - 170 [C](deprecated-content-repository-API-for-java.md)
+  - 225 [5.4](query-and-update-XML.md)
+- JCR [C](deprecated-content-repository-API-for-java.md)
+  - compliance levels supported [C.9](deprecated-content-repository-API-for-java.md)
+  - logging [C.8](deprecated-content-repository-API-for-java.md)
+  - Oracle XML DB Repository access [C.3](deprecated-content-repository-API-for-java.md)
+  - overview [C.1](deprecated-content-repository-API-for-java.md)
+  - restrictions for Oracle XML DB Content Connector [C.10](deprecated-content-repository-API-for-java.md)
+  - XML schema [C.11](deprecated-content-repository-API-for-java.md)
+- JCR node types
+  - nt:file [C.3](deprecated-content-repository-API-for-java.md)
+  - nt:folder [C.3](deprecated-content-repository-API-for-java.md)
+- JDBC
+  - accessing XML documents [13.2.1](Java-DOM-API-for-XMLType.md)
+  - drivers, OCI and thin [13.3](Java-DOM-API-for-XMLType.md)
+  - loading large XML documents [13.4](Java-DOM-API-for-XMLType.md)
+  - manipulating XML documents [13.3](Java-DOM-API-for-XMLType.md)
+- JSR-170 [C](deprecated-content-repository-API-for-java.md)
+  - See also: JCR
+- JSR-225 [5.4](query-and-update-XML.md)
+
+------------------------------------------------------------------------
+
+## L
+
+- large node handling [11.2.13](PLSQL-APIs-for-XMLType.md)
+- lazy XML loading (lazy manifestation) [11.1.1.1](PLSQL-APIs-for-XMLType.md)
+- LDAP principal
+  - definition [27.1.2](repository-access-control.md)
+- link
+  - document
+    - definition [21.3.5.1](accessing-XML-DB-repository-data.md)
+  - folder
+    - definition [21.3.5.1](accessing-XML-DB-repository-data.md)
+  - hard
+    - definition [21.3.5.2](accessing-XML-DB-repository-data.md)
+  - repository
+    - definition [21.3.5.1](accessing-XML-DB-repository-data.md)
+  - weak
+    - definition [21.3.5.2](accessing-XML-DB-repository-data.md)
+- linking, repository
+  - definition [21.5](accessing-XML-DB-repository-data.md)
+- link name
+  - definition [21.2.1](accessing-XML-DB-repository-data.md)
+- link-properties document
+  - definition [21.5](accessing-XML-DB-repository-data.md)
+- loading
+  - large documents with collections [18.9.5](XML-Schema-and-query-object-relational-storage.md)
+- loading large XML documents using JDBC [13.4](Java-DOM-API-for-XMLType.md)
+- loading of XML data, lazy [11.1.1.1](PLSQL-APIs-for-XMLType.md)
+- LOB locator [25.5](resource-versions.md)
+- LOBs
+  - mapping XML fragments to [18.9.3](XML-Schema-and-query-object-relational-storage.md)
+- local XML schema
+  - definition [17.3.6.1](XML-Schema-and-query-basic.md)
+  - using fully qualified URL to specify [17.3.7](XML-Schema-and-query-basic.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- maintainDOM attribute [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+- manifestation, lazy [11.1.1.1](PLSQL-APIs-for-XMLType.md)
+- mapping
+  - complexType to SQL
+    - out-of-line storage [18.8.1](XML-Schema-and-query-object-relational-storage.md), [19.3](XPath-rewrite-for-object-relational-storage.md)
+  - overriding using SQLType attribute [18.3.3.1](XML-Schema-and-query-object-relational-storage.md)
+  - simpleContent to object types [18.4.2](XML-Schema-and-query-object-relational-storage.md)
+- mapping XML Schema complexType data types to SQL [18.3.5](XML-Schema-and-query-object-relational-storage.md)
+- mapping XML Schema data types to SQL data types [18.3](XML-Schema-and-query-object-relational-storage.md)
+- metadata
+  - definition [29.1](user-defined-repository-metadata.md)
+  - system-defined
+    - definition [1.4.8](intro-to-XML-DB.md)
+  - user-defined
+    - definition [1.4.8](intro-to-XML-DB.md)
+- methods
+  - XMLType
+    - getCLOB() [13.4](Java-DOM-API-for-XMLType.md)
+    - getSchemaURL() [17.2.4](XML-Schema-and-query-basic.md)
+    - isSchemaBased() [17.2.4](XML-Schema-and-query-basic.md)
+    - isSchemaValid() [17.2.4](XML-Schema-and-query-basic.md)
+    - isSchemaValidated() [17.2.4](XML-Schema-and-query-basic.md)
+    - schemaValidate() [17.2.4](XML-Schema-and-query-basic.md)
+    - setSchemaValidated() [17.2.4](XML-Schema-and-query-basic.md)
+    - XML schema [17.2.4](XML-Schema-and-query-basic.md)
+- MIME
+  - overriding with DBUri servlet [32.9.1](data-access-using-URIs.md)
+- model, XML Schema
+  - definition [20.3.1.1.4](XML-Schema-evolution.md)
+- modifyParameter PL/SQL procedure [6.3.17.1](indexes-for-XMLType-data.md)
+
+------------------------------------------------------------------------
+
+## N
+
+- NamedNodeMap object (DOM) [11.2.10](PLSQL-APIs-for-XMLType.md)
+- namespace
+  - XQuery [4.2.2](xquery-and-XML-DB.md), [5.1.5](query-and-update-XML.md)
+- naming SQL objects [18.2](XML-Schema-and-query-object-relational-storage.md)
+- navigational access to repository resources [21.4](accessing-XML-DB-repository-data.md)
+- NESTED_TABLE_ID pseudocolumn [18.5](XML-Schema-and-query-object-relational-storage.md)
+- nested XML
+  - generating using DBMS_XMLGEN [8.3.3](generation-of-XML-data-from-relational-data.md)
+  - generating with XMLElement [8.2.1.3](generation-of-XML-data-from-relational-data.md)
+- NodeList object (DOM) [11.2.10](PLSQL-APIs-for-XMLType.md)
+- nodes, large (DBMS_XMLDOM) [11.2.13](PLSQL-APIs-for-XMLType.md)
+- nonce
+  - definition [28.2.5.1](repository-access-using-protocols.md)
+- nonce key
+  - definition [28.2.5.1](repository-access-using-protocols.md)
+- non-schema-based view
+  - definition [10.1](XMLType-views.md)
+- nt:file JCR node type [C.3](deprecated-content-repository-API-for-java.md)
+- nt:folder [C.3](deprecated-content-repository-API-for-java.md)
+- nt:folder JCR node type [C.3](deprecated-content-repository-API-for-java.md)
+- numeric XML Schema data types
+  - mapping to SQL [18.3.4](XML-Schema-and-query-object-relational-storage.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- object attributes
+  - for collection (SQL) [18.3.5](XML-Schema-and-query-object-relational-storage.md)
+  - sys_DburiGen SQL function
+    - passing to [32.8.1](data-access-using-URIs.md)
+  - XMLType, in AQ [37.5.1](XML-data-exchange-using-streams-AQ.md)
+- object-based persistence of XML data
+  - definition [1.4.2](intro-to-XML-DB.md)
+- object identifier
+  - definition [27.4](repository-access-control.md)
+- object-relational storage of XML data
+  - definition [1.4.2](intro-to-XML-DB.md)
+- occurrence indicator
+  - definition [4.1.3](xquery-and-XML-DB.md)
+- OCI API for XML [14](C-API-for-XMLType.md)
+- OCT
+  - definition [18.1.1](XML-Schema-and-query-object-relational-storage.md)
+- ODP.NET [15](XML-DB-and-ODP-for-dot-NET.md)
+- OID
+  - See: object identifier
+- optimizer hints
+  - COST_XML_QUERY_REWRITE [5.7.1](query-and-update-XML.md)
+- ora:defaultTable Oracle XQuery pragma [5.7.5.2](query-and-update-XML.md)
+- ora:no_schema Oracle XQuery pragma [6.4.3](indexes-for-XMLType-data.md)
+- ora:no_xmlquery_rewrite Oracle XQuery pragma [6.3.9](indexes-for-XMLType-data.md)
+- ora:sqrt Oracle XQuery function [4.5.2](xquery-and-XML-DB.md)
+- ora:tokenize Oracle XQuery function [4.5.3](xquery-and-XML-DB.md)
+- ora:use_xmltext_idx Oracle XQuery pragma [6.4.4](indexes-for-XMLType-data.md)
+- ORA-08181 error [6.3.14.1](indexes-for-XMLType-data.md)
+- ORA-18177 error [6.4.3](indexes-for-XMLType-data.md)
+- Oracle ASM files
+  - accessing [21.4.2](accessing-XML-DB-repository-data.md)
+    - using FTP [28.3.1.5](repository-access-using-protocols.md)
+- Oracle ASM virtual folder [21.3.1.3](accessing-XML-DB-repository-data.md)
+- Oracle Data Provider for .NET [15](XML-DB-and-ODP-for-dot-NET.md)
+- Oracle Enterprise Manager
+  - administering Oracle XML DB [34.2](administration-of-XML-DB.md)
+- Oracle Internet Directory [27.8](repository-access-control.md)
+- Oracle Net Services [1.3](intro-to-XML-DB.md)
+- OracleRepository [C.5](deprecated-content-repository-API-for-java.md)
+- Oracle Text
+  - searching for resources [24.8](repository-access-using-RESOURCE_VIEW-and-PATH_VIEW.md)
+- Oracle XML DB
+  - access models [2.3.5](getting-started-with-XML-DB.md)
+  - architecture [1.3](intro-to-XML-DB.md)
+  - features [1.4](intro-to-XML-DB.md)
+  - Java applications [31.1](how-to-write-XML-DB-applications-in-Java.md)
+  - overview [1.1](intro-to-XML-DB.md)
+  - Repository
+    - See repository [21.2](accessing-XML-DB-repository-data.md)
+  - upgrading [34.1](administration-of-XML-DB.md)
+  - versioning [25](resource-versions.md)
+  - when to use [2.2](getting-started-with-XML-DB.md)
+- Oracle XML DB Content Connector [C](deprecated-content-repository-API-for-java.md)
+  - See also: JCR
+
+  <!-- -->
+
+  - logging API [C.8](deprecated-content-repository-API-for-java.md)
+  - overview [C.2](deprecated-content-repository-API-for-java.md)
+  - restrictions [C.10](deprecated-content-repository-API-for-java.md)
+  - sample code to upload file [C.6](deprecated-content-repository-API-for-java.md)
+- ordered collection
+  - definition [18.1.1](XML-Schema-and-query-object-relational-storage.md)
+- ordered collections in tables (OCTs)
+  - default storage of varray [18.3.5](XML-Schema-and-query-object-relational-storage.md)
+- ordered collection table (OCT)
+  - definition [18.1.1](XML-Schema-and-query-object-relational-storage.md)
+- order index of XMLIndex
+  - definition [6.3.4](indexes-for-XMLType-data.md)
+- out-of-line storage [18.8.1](XML-Schema-and-query-object-relational-storage.md), [19.3](XPath-rewrite-for-object-relational-storage.md)
+  - collections [18.8.2](XML-Schema-and-query-object-relational-storage.md)
+  - XPath rewrite [19.3](XPath-rewrite-for-object-relational-storage.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- partial validation of XML data
+  - definition [7.2.1.1](transformation-and-validation-of-XMLType-data.md)
+- partitioning XMLType tables
+  - binary XML storage [3.3](how-to-use-XML-DB.md)
+    - exchange partitioning [6.3.3.3](indexes-for-XMLType-data.md)
+  - object-relational storage [18.6](XML-Schema-and-query-object-relational-storage.md)
+    - examples [18.6.1](XML-Schema-and-query-object-relational-storage.md)
+  - with an XMLIndex index [6.3.13](indexes-for-XMLType-data.md)
+- PASSING clause of XMLTable
+  - FROM list order [5.1.4](query-and-update-XML.md)
+- PATH_VIEW [24](repository-access-using-RESOURCE_VIEW-and-PATH_VIEW.md)
+- path-based access to repository resources [21.4](accessing-XML-DB-repository-data.md)
+- path component of a resource path name
+  - definition [21.2.1](accessing-XML-DB-repository-data.md)
+- path index of XMLIndex
+  - definition [6.3.4](indexes-for-XMLType-data.md)
+- path-index trigger
+  - definition [27.7](repository-access-control.md)
+- path name
+  - definition [21.2.1](accessing-XML-DB-repository-data.md)
+  - resolution [21.3.4](accessing-XML-DB-repository-data.md)
+- path table of XMLIndex [6.3.4](indexes-for-XMLType-data.md)
+- PD (positional descriptor) [18.1.6](XML-Schema-and-query-object-relational-storage.md)
+- persistence models for XML data [1.4.2](intro-to-XML-DB.md)
+- PL/SQL functions
+  - See: functions, PL/SQL
+- PL/SQL packages
+  - DBMS_XDB_CONFIG [26.3](PLSQL-access-to-XML-DB-repository.md)
+  - DBMS_XDB_REPOS [26.1](PLSQL-access-to-XML-DB-repository.md)
+  - DBMS_XMLDOM [11.2](PLSQL-APIs-for-XMLType.md)
+  - DBMS_XMLGEN [8.3](generation-of-XML-data-from-relational-data.md)
+  - DBMS_XMLPARSER [11.3](PLSQL-APIs-for-XMLType.md)
+  - DBMS_XMLSCHEMA_ANNOTATE [18.2.3](XML-Schema-and-query-object-relational-storage.md)
+  - DBMS_XMLSTORE [12](PLSQL-package-DBMS_XMLSTORE.md)
+  - DBMS_XSLPROCESSOR [11.4](PLSQL-APIs-for-XMLType.md)
+  - for XMLType [11.1](PLSQL-APIs-for-XMLType.md)
+- PL/SQL procedures
+  - See: procedures, PL/SQL
+- point-to-point
+  - support in AQ [37](XML-data-exchange-using-streams-AQ.md)
+- port, FTP [28.2.1](repository-access-using-protocols.md)
+- port, HTTP [28.2.1](repository-access-using-protocols.md)
+- ports
+  - configuring
+    - FTP [28.2.1](repository-access-using-protocols.md)
+    - HTTP [28.2.1](repository-access-using-protocols.md)
+    - HTTPS [28.2.2](repository-access-using-protocols.md)
+- positional descriptor (PD) [18.1.6](XML-Schema-and-query-object-relational-storage.md)
+- post-parse persistence of XML data
+  - definition [1.4.2](intro-to-XML-DB.md)
+- pragmas, XQuery
+  - See: XQuery pragmas, Oracle
+- predefined ACLs [27.4.1](repository-access-control.md)
+- pretty-printing [8.2.7](generation-of-XML-data-from-relational-data.md)
+  - in book examples
+  - not done by SQL/XML functions [3.8.1](how-to-use-XML-DB.md)
+  - Web service output [33.3](native-XML-DB-web-services.md)
+- primitive XML Schema data types
+  - mapping to SQL [18.3.4](XML-Schema-and-query-object-relational-storage.md)
+- principal
+  - definition [27.1.2](repository-access-control.md)
+  - LDAP
+    - definition [27.1.2](repository-access-control.md)
+- private (local) XML schema, definition [17.3.6](XML-Schema-and-query-basic.md)
+- privilege
+  - definition [27.1.3](repository-access-control.md)
+- procedures
+  - PL/SQL
+    - copyEvolve [20](XML-Schema-evolution.md)
+    - disableIndexesAndConstraints [35.2.3](how-to-load-XML-data.md)
+    - enableIndexesAndConstraints [35.2.3](how-to-load-XML-data.md)
+    - exchangePostProc [6.3.3.3](indexes-for-XMLType-data.md)
+    - exchangePreProc [6.3.3.3](indexes-for-XMLType-data.md)
+    - inPlaceEvolve [20](XML-Schema-evolution.md)
+    - modifyParameter [6.3.17.1](indexes-for-XMLType-data.md)
+    - refPartitionExchangeIn [6.3.3.3](indexes-for-XMLType-data.md)
+    - refPartitionExchangeOut [6.3.3.3](indexes-for-XMLType-data.md)
+    - registerParameter [6.3.17.1](indexes-for-XMLType-data.md)
+    - registerSchema [17.3.2](XML-Schema-and-query-basic.md)
+    - renameCollectionTable [19.4.2](XPath-rewrite-for-object-relational-storage.md)
+    - syncIndex [6.3.14](indexes-for-XMLType-data.md)
+    - XPath2TabColMapping [19.4](XPath-rewrite-for-object-relational-storage.md), [19.4.3](XPath-rewrite-for-object-relational-storage.md)
+- protocolconfig element, xdbconfig.xml [34.3.1.4](administration-of-XML-DB.md)
+- protocols, access to repository resources [21.4.1](accessing-XML-DB-repository-data.md)
+- protocol server [28.1](repository-access-using-protocols.md)
+  - architecture [28.1.1](repository-access-using-protocols.md)
+  - configuration parameters [28.2.1](repository-access-using-protocols.md)
+  - event-based logging [28.2.8](repository-access-using-protocols.md)
+  - FTP [28.3](repository-access-using-protocols.md)
+    - configuration parameters [28.2.1](repository-access-using-protocols.md)
+  - HTTP [28.4](repository-access-using-protocols.md)
+    - configuration parameters [28.2.1](repository-access-using-protocols.md)
+  - WebDAV
+    - configuration parameters [28.2.1](repository-access-using-protocols.md)
+- public (global) XML schema, definition [17.3.6](XML-Schema-and-query-basic.md)
+- publish/subscribe
+  - support in AQ [37](XML-data-exchange-using-streams-AQ.md)
+- purchase-order XML schema [A.6](oracle-supplied-XML-schemas-and-examples.md)
+  - annotated [A.6](oracle-supplied-XML-schemas-and-examples.md)
+  - revised [20.2.1](XML-Schema-evolution.md), [A.6](oracle-supplied-XML-schemas-and-examples.md)
+
+------------------------------------------------------------------------
+
+## Q
+
+- qualified XML schema URLs [17.3.7](XML-Schema-and-query-basic.md)
+- query-based access to resources
+  - using RESOURCE_VIEW and PATH_VIEW [24.1](repository-access-using-RESOURCE_VIEW-and-PATH_VIEW.md)
+  - using SQL [21.5](accessing-XML-DB-repository-data.md)
+- querying XMLType data
+  - choices [5.2](query-and-update-XML.md)
+  - transient data [5.2](query-and-update-XML.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- recursive schema support [18.9.2](XML-Schema-and-query-object-relational-storage.md)
+- registered XML schemas, list of [17.3.9](XML-Schema-and-query-basic.md)
+- registering an XML schema
+  - debugging [18.10](XML-Schema-and-query-object-relational-storage.md)
+  - default tables, creating [18.1.3](XML-Schema-and-query-object-relational-storage.md)
+  - SQL object types, creating [18.1.2](XML-Schema-and-query-object-relational-storage.md)
+- registerParameter PL/SQL procedure [6.3.17.1](indexes-for-XMLType-data.md)
+- registerSchema PL/SQL procedure [17.3.2](XML-Schema-and-query-basic.md)
+- renaming an XMLIndex index [6.3.5](indexes-for-XMLType-data.md)
+- replace XQuery function [4.5](xquery-and-XML-DB.md)
+- repository [21.2](accessing-XML-DB-repository-data.md)
+  - access using JCR [C.3](deprecated-content-repository-API-for-java.md)
+  - data storage [21.3.1](accessing-XML-DB-repository-data.md)
+  - event [30](XML-DB-repository-events.md)
+    - configuring [30.5](XML-DB-repository-events.md)
+    - predefined [30.2](XML-DB-repository-events.md)
+  - event handler
+    - definition [30.1.3](XML-DB-repository-events.md)
+  - event listener
+    - definition [30.1.3](XML-DB-repository-events.md)
+  - hierarchical index [21.12](accessing-XML-DB-repository-data.md)
+  - use with XQuery [5.1.2](query-and-update-XML.md)
+- repository link
+  - definition [21.3.5.1](accessing-XML-DB-repository-data.md)
+- repository objects [C.5](deprecated-content-repository-API-for-java.md)
+- RESID
+  - definition [25.3](resource-versions.md)
+- resource
+  - access [21.1.2](accessing-XML-DB-repository-data.md)
+    - using protocols [28.2.6](repository-access-using-protocols.md)
+  - definition [1.4.8](intro-to-XML-DB.md), [29.1](user-defined-repository-metadata.md)
+  - deleting [21.3.5.2](accessing-XML-DB-repository-data.md)
+    - nonempty container [24.4.1](repository-access-using-RESOURCE_VIEW-and-PATH_VIEW.md)
+    - using DELETE [24.4](repository-access-using-RESOURCE_VIEW-and-PATH_VIEW.md)
+  - management using DBMS_XDB_REPOS [26.1](PLSQL-access-to-XML-DB-repository.md)
+  - managing with DBMS_XDB [34.5](administration-of-XML-DB.md)
+  - required privileges for operations [27.2](repository-access-control.md)
+  - searching for, using Oracle Text [24.8](repository-access-using-RESOURCE_VIEW-and-PATH_VIEW.md)
+  - setting property in ACLs [27.5](repository-access-control.md)
+  - simultaneous operations [24.6](repository-access-using-RESOURCE_VIEW-and-PATH_VIEW.md)
+  - updating [24.5](repository-access-using-RESOURCE_VIEW-and-PATH_VIEW.md)
+- RESOURCE_VIEW
+  - explained [24](repository-access-using-RESOURCE_VIEW-and-PATH_VIEW.md)
+- resource configuration file
+  - definition [22.1](configuration-of-XML-DB-repository.md)
+- resource configuration list
+  - definition [22.1](configuration-of-XML-DB-repository.md)
+- resource content
+  - definition [21.2.1](accessing-XML-DB-repository-data.md)
+- resource document
+  - definition [21.1.3](accessing-XML-DB-repository-data.md)
+- resource ID
+  - definition [25.3](resource-versions.md)
+- resource name
+  - definition [21.2.1](accessing-XML-DB-repository-data.md)
+- resource version
+  - definition [25.1](resource-versions.md)
+- resource-view-cache-size configuration parameter [24.7](repository-access-using-RESOURCE_VIEW-and-PATH_VIEW.md)
+- retrieving large documents with collections [18.9.5](XML-Schema-and-query-object-relational-storage.md)
+- RETURNING SEQUENCE BY REF clause of XMLTable [5.1.4](query-and-update-XML.md)
+- revalidation mode, XQuery Update [4.8.1.1](xquery-and-XML-DB.md)
+- rewrite
+  - XPath (XPath) [19](XPath-rewrite-for-object-relational-storage.md)
+  - XQuery [5.7](query-and-update-XML.md)
+- role
+  - CTXAPP [6.4.1](indexes-for-XMLType-data.md)
+  - database
+    - definition [27.1.2](repository-access-control.md)
+- root configuration [34.4](administration-of-XML-DB.md)
+- root folder, repository [21.1](accessing-XML-DB-repository-data.md)
+- root XML Schema
+  - definition [17.2](XML-Schema-and-query-basic.md)
+- row pattern, XMLTable SQL function
+  - definition [4.3.2](xquery-and-XML-DB.md)
+- rule-based XML query rewrite
+  - definition [5.7.1](query-and-update-XML.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- schema evolution
+  - See: XML schema evolution
+- schema for schemas (XML Schema)
+  - definition [1.4.3](intro-to-XML-DB.md)
+- schema location hint
+  - definition [17.3](XML-Schema-and-query-basic.md)
+- schemaValidate() XMLType method [17.2.4](XML-Schema-and-query-basic.md)
+- security
+  - DBUri [32.9.3](data-access-using-URIs.md)
+- servlet element, xdbconfig.xml [34.3.1.6](administration-of-XML-DB.md)
+- servlets
+  - accessing repository data [21.6](accessing-XML-DB-repository-data.md)
+  - APIs [31.10](how-to-write-XML-DB-applications-in-Java.md)
+  - configuring [31.6](how-to-write-XML-DB-applications-in-Java.md)
+  - session pooling [31.8](how-to-write-XML-DB-applications-in-Java.md)
+  - writing [31.11](how-to-write-XML-DB-applications-in-Java.md)
+    - in Java [31.5](how-to-write-XML-DB-applications-in-Java.md)
+  - XML manipulation [31.4](how-to-write-XML-DB-applications-in-Java.md)
+- session pooling [31.8](how-to-write-XML-DB-applications-in-Java.md)
+  - protocol server [28.1.1](repository-access-using-protocols.md)
+- simpleContent
+  - mapping to object types [18.4.2](XML-Schema-and-query-object-relational-storage.md)
+- simple XLink link
+  - definition [23.2.2](use-of-XLink-and-XInclude-with-XML-DB.md)
+- SOAP [33.1](native-XML-DB-web-services.md)
+  - IDAP [37.4](XML-data-exchange-using-streams-AQ.md)
+- SQL/XML generation functions
+  - definition [1.4.6](intro-to-XML-DB.md), [8.2](generation-of-XML-data-from-relational-data.md)
+- SQL/XML publishing functions
+  - definition [1.4.6](intro-to-XML-DB.md), [8.2](generation-of-XML-data-from-relational-data.md)
+- SQL/XML query and update functions
+  - definition [1.4.6](intro-to-XML-DB.md)
+- SQL/XML standard
+  - generating XML data [8.2](generation-of-XML-data-from-relational-data.md)
+  - querying XML data
+    - XMLQuery and XMLTable [4.3](xquery-and-XML-DB.md)
+- SQL\*Loader [35.2](how-to-load-XML-data.md)
+- SQL\*Plus
+  - XQUERY command [5.3](query-and-update-XML.md)
+- SQLCollType attribute [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+- SQL functions
+  - See: functions, SQL
+- SQLInline attribute [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+- SQLJ [13.7](Java-DOM-API-for-XMLType.md)
+- SQLName attribute [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+- SQL object types
+  - creating during XML schema registration [18.1.2](XML-Schema-and-query-object-relational-storage.md)
+- SQLType attribute [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+- sqrt XQuery function (Oracle) [4.5.2](xquery-and-XML-DB.md)
+- static type-checking
+  - XQuery language [4.7](xquery-and-XML-DB.md)
+- storage
+  - out of line [18.8.1](XML-Schema-and-query-object-relational-storage.md), [19.3](XPath-rewrite-for-object-relational-storage.md)
+    - collections [18.8.2](XML-Schema-and-query-object-relational-storage.md)
+- storage models for XMLType [1.4.2](intro-to-XML-DB.md)
+  - choosing [16](choice-of-XMLType-storage-and-indexing.md)
+- string XML Schema data types
+  - mapping to SQL [18.3.4](XML-Schema-and-query-object-relational-storage.md)
+  - mapping to VARCHAR2 vs CLOB [18.3.4.2](XML-Schema-and-query-object-relational-storage.md)
+- structured storage of XMLType data
+  - definition [1.4.2](intro-to-XML-DB.md), [16.1](choice-of-XMLType-storage-and-indexing.md)
+- structured XMLIndex component
+  - definition [6.3.2](indexes-for-XMLType-data.md)
+- style sheet, CSS [11.2.1.2](PLSQL-APIs-for-XMLType.md)
+- stylesheet for updating XML instance documents [20.2.5](XML-Schema-evolution.md)
+- syncIndex PL/SQL procedure [6.3.14](indexes-for-XMLType-data.md)
+- sys_DburiGen SQL function [32.8](data-access-using-URIs.md)
+  - inserting database references [32.8.2](data-access-using-URIs.md)
+- SYS_NC_ARRAY_INDEX\$ column [18.5](XML-Schema-and-query-object-relational-storage.md)
+- sys_XMLAgg SQL function [8.4](generation-of-XML-data-from-relational-data.md)
+- sysconfig element, xdbconfig.xml [34.3.1.2](administration-of-XML-DB.md)
+- system ACL
+  - definition [27.4.1](repository-access-control.md)
+- system ACLs [27.4.1](repository-access-control.md)
+- system-defined metadata
+  - definition [1.4.8](intro-to-XML-DB.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- tableProps attribute [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+- tables
+  - index-organized [18.1.1](XML-Schema-and-query-object-relational-storage.md)
+- text value of a node, effective
+  - definition [6.3.4.2](indexes-for-XMLType-data.md)
+- third-party XLink link
+  - definition [23.2.2](use-of-XLink-and-XInclude-with-XML-DB.md)
+- time zone support, implicit [4.8.1.1](xquery-and-XML-DB.md)
+- trigger, path-index
+  - definition [27.7](repository-access-control.md)
+- type-checking, static and dynamic
+  - XQuery language [4.7](xquery-and-XML-DB.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- UDT
+  - generating an element from [8.2.1.3](generation-of-XML-data-from-relational-data.md)
+- under_path SQL function [24.2.1](repository-access-using-RESOURCE_VIEW-and-PATH_VIEW.md)
+  - different correlations for different folders [24.3](repository-access-using-RESOURCE_VIEW-and-PATH_VIEW.md)
+- uniform access control mechanism
+  - definition [27.7](repository-access-control.md)
+- unique constraint on parent element of an attribute [18.7.1](XML-Schema-and-query-object-relational-storage.md)
+- unresolved XLink and XInclude links [23.7.1](use-of-XLink-and-XInclude-with-XML-DB.md)
+- unstructured XMLIndex component
+  - definition [6.3.2](indexes-for-XMLType-data.md)
+- updating repository resource [24.5](repository-access-using-RESOURCE_VIEW-and-PATH_VIEW.md)
+- updating XML data
+  - using SQL functions [5.6](query-and-update-XML.md)
+- upgrading Oracle XML DB [34.1](administration-of-XML-DB.md)
+- URIFACTORY PL/SQL package
+  - configuring to handle DBURI-ref [32.9.4](data-access-using-URIs.md)
+  - creating subtypes of URIType [32.7](data-access-using-URIs.md)
+- Uri-reference
+  - database and session [32.6.3](data-access-using-URIs.md)
+  - DBUri-ref [32.6](data-access-using-URIs.md)
+  - HTTP access for DBUri-ref [32.9](data-access-using-URIs.md)
+  - URIFACTORY PL/SQL package [32.7](data-access-using-URIs.md)
+  - URIType examples [32.4](data-access-using-URIs.md)
+- URIType
+  - examples [32.4](data-access-using-URIs.md)
+- user
+  - definition [27.1.2](repository-access-control.md)
+- userconfig element, xdbconfig.xml [34.3.1.3](administration-of-XML-DB.md)
+- user-defined metadata
+  - definition [1.4.8](intro-to-XML-DB.md)
+- user XDB [2.1](getting-started-with-XML-DB.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- validating
+  - examples [7.2.2](transformation-and-validation-of-XMLType-data.md)
+  - XMLIsValid SQL function
+    - use as CHECK constraint [7.2.1.2.1](transformation-and-validation-of-XMLType-data.md)
+- validation of XML data, partial
+  - definition [7.2.1.1](transformation-and-validation-of-XMLType-data.md)
+- value index of XMLIndex
+  - definition [6.3.4](indexes-for-XMLType-data.md)
+- varray in a LOB
+  - definition [18.1.1](XML-Schema-and-query-object-relational-storage.md)
+- varray in a table
+  - definition [18.1.1](XML-Schema-and-query-object-relational-storage.md)
+- VCR
+  - See: version-controlled resource
+- versionable resource
+  - definition [25.1](resource-versions.md)
+- version-controlled resource
+  - definition [25.1](resource-versions.md)
+- versioning [1.4.8](intro-to-XML-DB.md), [25](resource-versions.md)
+- version resource
+  - definition [25.1](resource-versions.md)
+- version series of a resource
+  - definition [25.3](resource-versions.md)
+- views
+  - RESOURCE and PATH [24](repository-access-using-RESOURCE_VIEW-and-PATH_VIEW.md)
+
+------------------------------------------------------------------------
+
+## W
+
+- weak link
+  - definition [21.3.5.2](accessing-XML-DB-repository-data.md)
+  - deletion [23.7.1](use-of-XLink-and-XInclude-with-XML-DB.md)
+- WebDAV
+  - definition [21.1](accessing-XML-DB-repository-data.md)
+- WebFolder
+  - creating in Windows 2000 [28.5.3](repository-access-using-protocols.md)
+- Web service [33.1](native-XML-DB-web-services.md)
+  - pretty-printing output [33.3](native-XML-DB-web-services.md)
+- well-formed XML document
+  - definition [3.4](how-to-use-XML-DB.md)
+- WSDL
+  - Web service for accessing stored PL/SQL [33.4](native-XML-DB-web-services.md)
+  - Web service for database queries [33.3](native-XML-DB-web-services.md)
+
+------------------------------------------------------------------------
+
+## X
+
+- xdb:columnProps attribute [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+- xdb:defaultTable attribute [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+- xdb:maintainDOM attribute [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+- xdb:SQLCollType attribute [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+- xdb:SQLInline attribute [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+- xdb:SQLName attribute [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+- xdb:SQLType attribute [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+- xdb:tableProps attribute [18.2.4](XML-Schema-and-query-object-relational-storage.md)
+- XDBBinary element
+  - definition [21.2.1](accessing-XML-DB-repository-data.md)
+- xdbconfig.xml configuration file [34.3](administration-of-XML-DB.md)
+- xdbconfig element, xdbconfig.xml [34.3.1.1](administration-of-XML-DB.md)
+- xdbcore-loadableunit-size configuration parameter [18.9.5](XML-Schema-and-query-object-relational-storage.md), [18.9.5.1](XML-Schema-and-query-object-relational-storage.md)
+- xdbcore-xobmem-bound configuration parameter [18.9.5.1](XML-Schema-and-query-object-relational-storage.md)
+- XDB database schema (user account) [2.1](getting-started-with-XML-DB.md), [21.1.3](accessing-XML-DB-repository-data.md)
+- xdb namespace [27.3](repository-access-control.md)
+- XDBSchema.xsd
+  - definition [17.2](XML-Schema-and-query-basic.md)
+- XDBUri [32.3.1](data-access-using-URIs.md)
+  - definition [32.3](data-access-using-URIs.md), [32.5](data-access-using-URIs.md)
+- XInclude [23](use-of-XLink-and-XInclude-with-XML-DB.md)
+  - definition [23.1](use-of-XLink-and-XInclude-with-XML-DB.md)
+  - unresolved link [23.7.1](use-of-XLink-and-XInclude-with-XML-DB.md)
+- XLink
+  - complex link
+    - definition [23.2.2](use-of-XLink-and-XInclude-with-XML-DB.md)
+  - definition [23.1](use-of-XLink-and-XInclude-with-XML-DB.md)
+  - third-party link
+    - definition [23.2.2](use-of-XLink-and-XInclude-with-XML-DB.md)
+- XLink (deprecated) [23](use-of-XLink-and-XInclude-with-XML-DB.md)
+  - extended link
+    - definition [23.2.2](use-of-XLink-and-XInclude-with-XML-DB.md)
+  - link types [23.2.2](use-of-XLink-and-XInclude-with-XML-DB.md)
+  - simple link
+    - definition [23.2.2](use-of-XLink-and-XInclude-with-XML-DB.md)
+  - unresolved link [23.7.1](use-of-XLink-and-XInclude-with-XML-DB.md)
+- XML_ENABLE path section group attribute [6.4.1](indexes-for-XMLType-data.md)
+- XMLAgg SQL function [8.2.4](generation-of-XML-data-from-relational-data.md)
+- XML attributes
+  - See: attributes
+- XMLAttributes SQL function [8.2.1](generation-of-XML-data-from-relational-data.md)
+- XMLCast SQL function [4.3.5](xquery-and-XML-DB.md)
+- XMLCDATA SQL function [8.2.10](generation-of-XML-data-from-relational-data.md)
+- XMLColAttVal SQL function [8.2.9](generation-of-XML-data-from-relational-data.md)
+- XMLComment SQL function [8.2.6](generation-of-XML-data-from-relational-data.md)
+- XMLConcat SQL function [8.2.3](generation-of-XML-data-from-relational-data.md)
+- XML diagnosability mode [5.7.4](query-and-update-XML.md)
+- XMLElement SQL function [8.2.1](generation-of-XML-data-from-relational-data.md)
+- XML entities
+  - using a DTD with binary XML storage [1.4.4](intro-to-XML-DB.md)
+- XMLExists SQL function [4.3.3](xquery-and-XML-DB.md)
+- XMLForest SQL function [8.2.2](generation-of-XML-data-from-relational-data.md)
+- XML fragment
+  - definition [3.6.6](how-to-use-XML-DB.md)
+  - mapping to LOBs [18.9.3](XML-Schema-and-query-object-relational-storage.md)
+  - SQL operations on [3.6.6](how-to-use-XML-DB.md)
+- XMLIndex
+  - creating index [6.3.5](indexes-for-XMLType-data.md)
+  - dropping index [6.3.5](indexes-for-XMLType-data.md)
+  - order index
+    - definition [6.3.4](indexes-for-XMLType-data.md)
+  - partitioning and parallelism [6.3.13](indexes-for-XMLType-data.md)
+  - path index
+    - definition [6.3.4](indexes-for-XMLType-data.md)
+  - path table [6.3.4](indexes-for-XMLType-data.md)
+  - renaming index [6.3.5](indexes-for-XMLType-data.md)
+  - structured component
+    - definition [6.3.2](indexes-for-XMLType-data.md)
+  - synchronizing if ORA-08181 [6.3.14.1](indexes-for-XMLType-data.md)
+  - unstructured component
+    - definition [6.3.2](indexes-for-XMLType-data.md)
+  - value index
+    - definition [6.3.4](indexes-for-XMLType-data.md)
+- XML instance document
+  - definition [1.4.3](intro-to-XML-DB.md), [17.1.3](XML-Schema-and-query-basic.md)
+- XMLIsValid SQL function [7.2.1.2.1](transformation-and-validation-of-XMLType-data.md)
+- XMLNAMESPACES clause [4.3.2](xquery-and-XML-DB.md)
+- XMLParse SQL function [8.2.8](generation-of-XML-data-from-relational-data.md)
+- XMLPI SQL function [8.2.5](generation-of-XML-data-from-relational-data.md)
+- XML query rewrite
+  - definition [5.7](query-and-update-XML.md)
+    - cost-based [5.7.1](query-and-update-XML.md)
+    - rule-based [5.7.1](query-and-update-XML.md)
+- XMLQuery SQL function [4.3](xquery-and-XML-DB.md), [4.3.1](xquery-and-XML-DB.md)
+- XML schema
+  - annotations [17.2.2](XML-Schema-and-query-basic.md), [18.2](XML-Schema-and-query-object-relational-storage.md)
+    - querying to obtain [18.2.6](XML-Schema-and-query-object-relational-storage.md)
+  - circular dependencies [18.9.1](XML-Schema-and-query-object-relational-storage.md)
+  - complexType declarations [18.4.1](XML-Schema-and-query-object-relational-storage.md), [18.9.1.2](XML-Schema-and-query-object-relational-storage.md)
+  - cyclical dependencies [18.9.1](XML-Schema-and-query-object-relational-storage.md)
+  - definition [1.4.3](intro-to-XML-DB.md), [17.1](XML-Schema-and-query-basic.md)
+  - deletion [17.3.8](XML-Schema-and-query-basic.md)
+  - evolution [20](XML-Schema-evolution.md)
+    - backward-compatible, definition [20.3.1](XML-Schema-evolution.md)
+  - for XML schemas that can be registered [17.2](XML-Schema-and-query-basic.md)
+  - inheritance in, complexType restrictions [18.4.1](XML-Schema-and-query-object-relational-storage.md)
+  - local and global [17.3.6](XML-Schema-and-query-basic.md)
+  - mapping to SQL object types [11.2.5](PLSQL-APIs-for-XMLType.md)
+  - updating after registering [20](XML-Schema-evolution.md)
+  - URLs [17.3.7](XML-Schema-and-query-basic.md)
+  - use with JCR [C.11](deprecated-content-repository-API-for-java.md)
+  - W3C Recommendation [17](XML-Schema-and-query-basic.md), [17.1](XML-Schema-and-query-basic.md)
+  - XMLType methods [17.2.4](XML-Schema-and-query-basic.md)
+- XML Schema
+  - definition
+- XML schema-based tables and columns, creating [17.4](XML-Schema-and-query-basic.md)
+- XML schema-based view
+  - definition [10.1](XMLType-views.md)
+- XML Schema data types
+  - mapping to SQL data types [18.3](XML-Schema-and-query-object-relational-storage.md)
+- XML schema definition
+  - definition [1.4.3](intro-to-XML-DB.md)
+- XML schema evolution
+  - copy-based [20.2](XML-Schema-evolution.md)
+  - in-place [20.3](XML-Schema-evolution.md)
+- XML search index
+  - definition [6.4](indexes-for-XMLType-data.md)
+- XMLSerialize SQL function [8.2.7](generation-of-XML-data-from-relational-data.md)
+- XMLTable SQL function [4.3](xquery-and-XML-DB.md), [4.3.2](xquery-and-XML-DB.md)
+  - breaking up an XML fragment [3.6.6](how-to-use-XML-DB.md)
+  - column pattern
+    - definition [4.3.2](xquery-and-XML-DB.md)
+  - PASSING clause and FROM list order [5.1.4](query-and-update-XML.md)
+  - RETURNING SEQUENCE BY REF clause [5.1.4](query-and-update-XML.md)
+  - reverse node references in COLUMNS clause [5.1.4](query-and-update-XML.md)
+  - row pattern
+    - definition [4.3.2](xquery-and-XML-DB.md)
+- XMLtransform SQL function [7.1.1](transformation-and-validation-of-XMLType-data.md)
+- XMLType
+  - as abstract data type [1.4.2](intro-to-XML-DB.md)
+  - constructors [3.5.1](how-to-use-XML-DB.md)
+  - DBMS_XMLDOM PL/SQL API [11.2](PLSQL-APIs-for-XMLType.md)
+  - DBMS_XMLPARSER PL/SQL API [11.3](PLSQL-APIs-for-XMLType.md)
+  - DBMS_XSLPROCESSOR PL/SQL API [11.4](PLSQL-APIs-for-XMLType.md)
+  - extracting data [5.2](query-and-update-XML.md)
+  - indexing columns [6.2](indexes-for-XMLType-data.md)
+  - instances, PL/SQL APIs [11.1](PLSQL-APIs-for-XMLType.md)
+  - loading data [35.1](how-to-load-XML-data.md)
+  - loading with SQL\*Loader [35.2](how-to-load-XML-data.md)
+  - methods
+    - getCLOB() [13.4](Java-DOM-API-for-XMLType.md)
+    - getSchemaURL() [17.2.4](XML-Schema-and-query-basic.md)
+    - isSchemaBased() [17.2.4](XML-Schema-and-query-basic.md)
+    - isSchemaValid() [17.2.4](XML-Schema-and-query-basic.md)
+    - setSchemaValidated() [17.2.4](XML-Schema-and-query-basic.md)
+    - XML schema [17.2.4](XML-Schema-and-query-basic.md)
+  - PL/SQL packages [11.1](PLSQL-APIs-for-XMLType.md)
+  - querying [5.2](query-and-update-XML.md)
+  - querying transient data [5.2](query-and-update-XML.md)
+  - querying XMLType columns [5.2](query-and-update-XML.md)
+  - queue payloads [37.5.1](XML-data-exchange-using-streams-AQ.md)
+  - storage models [1.4.2](intro-to-XML-DB.md)
+  - tables, views, columns [17.4](XML-Schema-and-query-basic.md)
+  - views, access with PL/SQL DOM APIs [11.2.6](PLSQL-APIs-for-XMLType.md)
+- XPath language [19](XPath-rewrite-for-object-relational-storage.md)
+  - See also: XQuery language
+
+  <!-- -->
+
+  - functions
+    - ora:contains (Oracle) [4.5.1](xquery-and-XML-DB.md)
+  - syntax [4.1.1](xquery-and-XML-DB.md)
+- XPath rewrite [19](XPath-rewrite-for-object-relational-storage.md)
+  - definition [5.7](query-and-update-XML.md)
+  - indexes on singleton elements and attributes [6.5.1](indexes-for-XMLType-data.md)
+  - out-of-line storage [19.3](XPath-rewrite-for-object-relational-storage.md)
+- XQJ [5.4](query-and-update-XML.md)
+- XQuery
+  - copy-namespace mode [4.8.1.2](xquery-and-XML-DB.md)
+  - extension expressions
+    - See XQuery pragmas, Oracle [4.6](xquery-and-XML-DB.md)
+  - pending update list [4.1.2.2](xquery-and-XML-DB.md)
+  - pragmas, Oracle
+    - ora:defaultTable [5.7.5.2](query-and-update-XML.md)
+    - ora:no_schema [6.4.3](indexes-for-XMLType-data.md)
+    - ora:no_xmlquery_rewrite [6.3.9](indexes-for-XMLType-data.md)
+    - ora:use_xmltext_idx [6.4.4](indexes-for-XMLType-data.md)
+  - revalidation mode [4.8.1.1](xquery-and-XML-DB.md)
+  - simple expression [4.1.3](xquery-and-XML-DB.md)
+  - static typing feature [4.8.1.3](xquery-and-XML-DB.md)
+  - time zone support, implicit [4.8.1.1](xquery-and-XML-DB.md)
+  - XDM instance [4.1.2](xquery-and-XML-DB.md)
+- XQuery API for Java (XQJ) [5.4](query-and-update-XML.md)
+- XQUERY command, SQL\*Plus [5.3](query-and-update-XML.md)
+- XQuery Data Model (XDM) [4.1.2](xquery-and-XML-DB.md)
+- XQuery functions and operators
+  - support [4.8.2](xquery-and-XML-DB.md)
+- XQuery language [4](xquery-and-XML-DB.md)
+  - expressions [4.1.3](xquery-and-XML-DB.md)
+    - FLWOR [4.1.4](xquery-and-XML-DB.md)
+    - rewrite [5.7](query-and-update-XML.md)
+  - functions
+    - fn:replace [4.5](xquery-and-XML-DB.md)
+    - ora:contains (Oracle) [4.5.1](xquery-and-XML-DB.md)
+    - ora:sqrt (Oracle) [4.5.2](xquery-and-XML-DB.md)
+    - ora:tokenize (Oracle) [4.5.3](xquery-and-XML-DB.md)
+  - item
+    - definition [4.1.2.1](xquery-and-XML-DB.md)
+  - namespaces [4.2.2](xquery-and-XML-DB.md), [5.1.5](query-and-update-XML.md)
+  - optimization [5.7](query-and-update-XML.md)
+  - optimization over relational data [5.7.2](query-and-update-XML.md)
+  - Oracle extension functions [4.5](xquery-and-XML-DB.md)
+  - Oracle XML DB support [4.8](xquery-and-XML-DB.md)
+  - performance [5.7](query-and-update-XML.md)
+  - predefined namespaces and prefixes [4.2.2](xquery-and-XML-DB.md)
+  - referential transparency
+    - definition [4.1.2.2](xquery-and-XML-DB.md)
+  - sequence
+    - definition [4.1.2.1](xquery-and-XML-DB.md)
+  - SQL\*Plus XQUERY command [5.3](query-and-update-XML.md)
+  - tuning [5.7](query-and-update-XML.md)
+  - type-checking, static and dynamic [4.7](xquery-and-XML-DB.md)
+  - unordered mode
+    - definition [4.1.2.1](xquery-and-XML-DB.md)
+  - update snapshot [4.1.2.4](xquery-and-XML-DB.md)
+  - use with Oracle XML DB Repository [5.1.2](query-and-update-XML.md)
+  - use with XMLType relational data [5.1.4](query-and-update-XML.md)
+    - optimization [5.7.3](query-and-update-XML.md)
+  - XMLQuery and XMLTable SQL functions [4.3](xquery-and-XML-DB.md)
+    - examples [5.1](query-and-update-XML.md)
+- XQuery Update Facility [4.1](xquery-and-XML-DB.md)
+- XSD
+  - definition [1.4.3](intro-to-XML-DB.md)
+- XSL stylesheet
+  - definition [11.4](PLSQL-APIs-for-XMLType.md)
+- XSLT
+  - stylesheets
+    - for updating XML instance documents [20.2.5](XML-Schema-evolution.md)
+    - use with DBUri servlet [7.1.2](transformation-and-validation-of-XMLType-data.md), [32.9.5](data-access-using-URIs.md)
+    - use with Oracle XML DB [7.1](transformation-and-validation-of-XMLType-data.md)
+    - use with package DBMS_XSLPROCESSOR [11.4.2](PLSQL-APIs-for-XMLType.md)

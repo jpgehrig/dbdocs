@@ -1,0 +1,1 @@
+This figure shows a screen shot of Windows Explorer copying files into Oracle XML DB repository. The "Copying file" progress box reads "Copying SBELL-20030509123336362PDT.xml to http://localhost:8080/home..."

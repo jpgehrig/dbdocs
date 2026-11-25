@@ -1,0 +1,1 @@
+DROP_COLUMN drop_column_options

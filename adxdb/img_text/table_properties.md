@@ -1,0 +1,10 @@
+[ column_properties ]
+    [ table_partitioning_clauses ]
+    [ CACHE | NOCACHE ]
+    [ RESULT_CACHE ( MODE { DEFAULT | FORCE } ) ]
+    [ parallel_clause ]
+    [ ROWDEPENDENCIES | NOROWDEPENDENCIES ]
+    [ enable_disable_clause ]...
+    [ row_movement_clause ]
+    [ flashback_archive_clause ]
+    [ AS subquery ]

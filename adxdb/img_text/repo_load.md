@@ -1,0 +1,1 @@
+This figure shows a screen shot of Windows Explorer copying files into Oracle XML DB repository. The "Copying file" progress box reads "Copying b10759.pdf to http://localhost:8080/home/SCOTT/poSource/doc..."

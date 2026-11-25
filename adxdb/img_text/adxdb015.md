@@ -1,0 +1,1 @@
+The figure shows a flow diagram in which newParser flows into Parser, which flows into both parseBuffer and Parse (URI), which flow into getDocument and finally DOMDocument, the last element in the flow diagram.
