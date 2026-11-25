@@ -1,0 +1,1 @@
+Contributions of Product Families to Total Profits: A screen capture of a portion of the dashboard entitled Profit by Product Family Last Quarter. The data is shown as a three-dimensional pie chart. Descriptive text and percentages identify each wedge of the pie.

@@ -1,0 +1,1 @@
+Average Aggregation in a Simple Hierarchy. This diagram shows a simple hierarchy with four children and one parent value. Three of the children have values, while the fourth is empty. This empty cell has a null or NA value. The Average operator calculates a value of 4 ((2 + 4 + 6)/3) for the parent value.

@@ -1,0 +1,1 @@
+Creating a New Report in BI Publisher: This screen capture shows the OLAP Reports folder. The breadcrumbs show the location as Home \> My Folders \> OLAP Reports. The page displays a Search box, a Folder and Report Tasks box, and a Tip. The folder contains one report named Global Sales. The View, Edit, and Configure links for Global Sales are active.

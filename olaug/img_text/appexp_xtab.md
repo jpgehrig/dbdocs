@@ -1,0 +1,1 @@
+Year-to-Date Profits Compared to Year Ago: A screen capture of a portion of the dashboard entitled Profit Reporting. The data is shown as a crosstab with columns for Time, Product, Customer, Profit, YTD (Year to Date), YTD Yr Ago, YTD Chg Yr Ago, and YTD % Chg Yr Ago.

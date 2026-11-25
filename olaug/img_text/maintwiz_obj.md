@@ -1,0 +1,1 @@
+Loading Dimension Values Into the Product Dimension: This screen capture of the Maintenance Wizard Select Objects page shows the Available Target Objects box with the Dimensions folder expanded to list four dimensions: `CHANNEL`, `CUSTOMER`, `PRODUCT`, and `TIME`. The Cubes folder is fully collapsed. The Selected Target Objects box lists the `PRODUCT` dimension.

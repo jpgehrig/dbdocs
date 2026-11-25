@@ -1,0 +1,1 @@
+Creating the Sales Measure: This screen capture shows the General subpage of the Create Measure dialog box. The Name is SALES, the Short Label is Sales, the Long Label is Unit Sales, and the Description is Unit Sales Measure. This measure is in a compressed cube, so it must inherit the cube aggregation specification. Thus, the two aggregation choices are grayed out.

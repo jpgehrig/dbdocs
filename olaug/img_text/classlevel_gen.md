@@ -1,0 +1,1 @@
+Creation of the Class Level: This screen capture shows the Create Level dialog box. The following values are entered on the General tab: Name of CLASS, Short Label of Class, Long Label of Class, Description of Class Level. There are no other tabs.

@@ -1,0 +1,1 @@
+Creating a Measure Folder: This screen capture of the Create Measure Folder dialog box shows the Name, Short Label, Long Label, and Description of Global Measures. All measures have been moved from Available Measures to Selected Measures. The measures are named PRICE_COST_CUBE.COST, PRICE_COST_CUBE.PRICE, UNITS_CUBE.COST, UNITS_CUBE.SALES, UNITS_CUBE.UNITS.

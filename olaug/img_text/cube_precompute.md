@@ -1,0 +1,1 @@
+Setting Cost-Based Presummarization: This screen capture shows the Precompute subtab of the Create Cube dialog box Aggregation tab. Cost-based aggregation is selected. Top Partition is set to 0, Bottom Partition is set to 50. Level-based aggregation is not selected.

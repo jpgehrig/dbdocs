@@ -1,0 +1,1 @@
+Displaying the Units Cube: This screen capture of the Units cube shows a crosstab with customers labeling the rows and time and measure labeling the columns. Data from the Units, Sales, and Costs measures are displayed. A bar chart illustrates the data.

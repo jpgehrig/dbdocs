@@ -1,0 +1,1 @@
+Sales Report in BI Publisher: This screen capture shows the sample Global Enterprises report. The report has columns for Product, Customer, Time, Sales, Prior Period, Change, and % Change. The Products are CD/DVD and Desktop PCs, the Customers are France, Germany, Italy, Spain, and United Kingdom, and the Times are APR-06, MAY-06, and JUN-06.

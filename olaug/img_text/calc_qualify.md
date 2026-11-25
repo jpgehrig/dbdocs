@@ -1,0 +1,1 @@
+Limiting a Dimension to a Single Member: This screen capture of the Qualify Measure dialog box for UNITS shows a crosstab with the names of the dimensions and the selected members. The Member list for the Customer dimension is displayed and shows the long descriptions for the members.

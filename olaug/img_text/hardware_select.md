@@ -1,0 +1,1 @@
+Restricting Product to Hardware and Descendants: This screen capture of the Member Selection subpage of the Create Data Security Policy dialog box shows two conditional steps for the Product Primary Hierarchy: Start with Hardware, and Add Descendants of Hardware.

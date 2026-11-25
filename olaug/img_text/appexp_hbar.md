@@ -1,0 +1,1 @@
+Ranking of Percent Change in Year-to-Date Profits From Year Ago: A screen capture of a portion of the dashboard entitled Profit by Location Last Quarter. The data is shown as a horizontal bar chart. The top 15 locations are ranked in order of increased profitability from a year ago, with the location with the most improvement at the top.

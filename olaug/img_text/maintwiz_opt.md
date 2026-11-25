@@ -1,0 +1,1 @@
+Selecting the Scheduling Options: This screen capture of the Maintenance Wizard Scheduling page shows the following choices: Submit the maintenance task to the Oracle Job Queue and Run Immediately. Maximum number of parallel processes is set to 2.

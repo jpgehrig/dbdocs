@@ -1,0 +1,1 @@
+Data in the PRODUCT_DIM Table: This screen capture shows a selection of columns for the 36 rows of the table: ITEM_ID, ITEM_DSC, ITEM_DSC_FRENCH, and ITEM_DSC_DUTCH. Scroll bars on the left and bottom enable you to view additional columns and rows.
