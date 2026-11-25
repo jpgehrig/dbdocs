@@ -1,0 +1,32 @@
+## Setup Wizard Installation Options for Creating Images
+
+Before you start the setup wizards for your Oracle Database or Oracle Grid Infrastructure installation, decide if you want to use any of the available image-creation options.
+
+In image-based installations, you can start your Oracle Database installation or Oracle Grid Infrastructure installations by running the setup wizards `runInstaller` and `gridSetup.sh` respectively. Both these wizards come with the following image-creation options.
+
+Table 11-1 Image-Creation Options for Setup Wizard
+
+| Option                 | Description                                                                               |
+|:-----------------------|:------------------------------------------------------------------------------------------|
+| `-createGoldImage`     | Creates a gold image from the current Oracle home.                                        |
+| `-destinationLocation` | Specify the complete path, or location, where the gold image will be created.             |
+| `-exclFiles`           | Specify the complete paths to the files to be excluded from the newly created gold image. |
+| `—help`                | Displays help for all the available options.                                              |
+
+For example:
+
+    cd $ORACLE_HOME
+    ./runInstaller -createGoldImage -destinationLocation /tmp/my_db_images -exclFiles /u01/app/oracle/product/19.0.0/dbhome_1/relnotes
+
+    cd Grid_home
+    ./gridSetup.sh -createGoldImage -destinationLocation /tmp/my_grid_images -exclFiles /u01/app/oracle/product/19.0.0/dbhome_1/relnotes
+
+Where:
+
+`/tmp/my_db_images` is a temporary file location where the image zip file is created.
+
+`/tmp/my_grid_images` is a temporary file location where the image zip file is created.
+
+`/u01/app/oracle/product/19.0.0/dbhome_1/relnotes` is the file to be excluded from the newly created gold image.
+
+**Parent topic:** [Installing and Configuring Oracle Grid Infrastructure for a Standalone Server](installing-and-configuring-oracle-grid-infrastructure-for-a-standalone-server.md)
