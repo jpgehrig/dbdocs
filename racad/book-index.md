@@ -1,0 +1,1596 @@
+Symbols  A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  
+
+------------------------------------------------------------------------
+
+## Symbols
+
+- \$ORACLE_HOME/root.sh script [9.3](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+
+------------------------------------------------------------------------
+
+## A
+
+- ACCHK
+  - Application Continuity Protection Check [6.5](ensuring-application-continuity.md)
+- ACTIVE_INSTANCE_COUNT initialization parameter [3.7](administering-database-instances-and-cluster-databases.md)
+- Active Session History
+  - Oracle RAC [14.8.1](monitoring-performance.md)
+  - Top Cluster Events [14.8.2](monitoring-performance.md)
+  - Top Remote Instance [14.8.3](monitoring-performance.md)
+- active sessions [14.8.1](monitoring-performance.md)
+- adding nodes to an existing cluster [10.1](using-cloning-to-extend-oracle-rac-to-nodes-in-the-same-cluster.md)
+- adding Oracle RAC to nodes on Linux and UNIX [11.1](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md)
+- adding Oracle RAC to nodes on Windows [12.1](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+- ADDM
+  - global monitoring [14.7](monitoring-performance.md)
+  - see Automatic Database Diagnostic Monitor [14.9.2](monitoring-performance.md)
+- ADDM for Oracle Real Application Clusters mode [14.7](monitoring-performance.md)
+- administering
+  - services [5.11.1](workload-management-with-dynamic-database-services.md)
+  - services with SRVCTL [5.11.3](workload-management-with-dynamic-database-services.md)
+- administering instances
+  - with Server Management [3.1.1](administering-database-instances-and-cluster-databases.md)
+- administering Oracle Enterprise Manager jobs [3.13.3.1](administering-database-instances-and-cluster-databases.md)
+- administering services
+  - Oracle Enterprise Manager [5.11](workload-management-with-dynamic-database-services.md)
+  - SRVCTL [5.11](workload-management-with-dynamic-database-services.md)
+- administrative tools
+  - overview and concepts [1.12.2](introduction-to-oracle-rac.md)
+- administrator-managed database [3.1](administering-database-instances-and-cluster-databases.md)
+  - relocating services in [5.4.5](workload-management-with-dynamic-database-services.md)
+- administrator-managed database instances
+  - adding [12.1.1](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+- administrator-managed databases [1.7](introduction-to-oracle-rac.md), [5.10.2.5](workload-management-with-dynamic-database-services.md)
+  - AVAILABLE instances for services [5.10.2.5](workload-management-with-dynamic-database-services.md)
+  - converting to policy-managed [3.8](administering-database-instances-and-cluster-databases.md)
+  - PREFERRED instances for services [5.10.2.5](workload-management-with-dynamic-database-services.md)
+- ADRCI
+  - ADR Command-Line Interpreter [B.2](troubleshooting-oracle-rac.md)
+- Advanced Queuing
+  - and FAN [6.1.1](ensuring-application-continuity.md)
+- Advisor Central in Oracle Enterprise Manager [14.7](monitoring-performance.md)
+- affinity [5.5](workload-management-with-dynamic-database-services.md)
+- aggregates
+  - by instances [14.1.1.3](monitoring-performance.md)
+  - by services [14.1.1.3](monitoring-performance.md)
+  - by waits [14.1.1.3](monitoring-performance.md)
+- alert administration
+  - Oracle Enterprise Manager [3.13.3.2](administering-database-instances-and-cluster-databases.md)
+- alert logs [B.3](troubleshooting-oracle-rac.md)
+  - managing [B.1](troubleshooting-oracle-rac.md)
+- ALTER SYSTEM ARCHIVE LOG CURRENT statement [3.1.1.3.1](administering-database-instances-and-cluster-databases.md)
+- ALTER SYSTEM ARCHIVE LOG statement [3.1.1.3.1](administering-database-instances-and-cluster-databases.md)
+  - INSTANCE option [3.1.1.3.1](administering-database-instances-and-cluster-databases.md)
+- ALTER SYSTEM CHECKPOINT statement
+  - global versus local [3.1.1.3.1](administering-database-instances-and-cluster-databases.md)
+  - specifying an instance [3.1.1.3.1](administering-database-instances-and-cluster-databases.md)
+- ALTER SYSTEM statement
+  - CHECKPOINT clause [3.1.1.3.1](administering-database-instances-and-cluster-databases.md)
+- ALTER SYSTEM SWITCH LOGFILE statement [3.1.1.3.1](administering-database-instances-and-cluster-databases.md)
+- Application Continuity [6](ensuring-application-continuity.md), [6.4](ensuring-application-continuity.md)
+  - auto session state consistency [6.6.6.1](ensuring-application-continuity.md)
+  - commit outcome [6.4.1](ensuring-application-continuity.md)
+  - concepts [6.4.1](ensuring-application-continuity.md)
+  - configuring connections [6.6.2.3](ensuring-application-continuity.md)
+  - configuring service attributes [5.11.3.2](workload-management-with-dynamic-database-services.md)
+  - database request [6.4.1](ensuring-application-continuity.md)
+  - delaying reconnection [6.6.2.6](ensuring-application-continuity.md)
+  - described [6.6.1](ensuring-application-continuity.md)
+  - dynamic session state consistency [6.6.6.2](ensuring-application-continuity.md)
+  - establishing initial state [6.6.2.5](ensuring-application-continuity.md)
+  - introduction to [1.6](introduction-to-oracle-rac.md)
+  - mutable functions [6.4.1](ensuring-application-continuity.md)
+  - potential side effects [6.7](ensuring-application-continuity.md)
+  - protection-level statistics [6.6.5](ensuring-application-continuity.md)
+  - recoverable error [6.4.1](ensuring-application-continuity.md)
+  - restoring state settings [6.6.2.5.1](ensuring-application-continuity.md)
+  - restrictions [6.8](ensuring-application-continuity.md)
+  - running without [6.6.2.8](ensuring-application-continuity.md)
+  - session state consistency [6.4.1](ensuring-application-continuity.md)
+  - static session state consistency [6.6.6.3](ensuring-application-continuity.md)
+  - using for planned maintenance [6.6.2.7](ensuring-application-continuity.md)
+- Application Continuity Protection Check [6.5.1](ensuring-application-continuity.md)
+- applications
+  - consolidating multiple in a single database [13.1.3](design-and-deployment-techniques.md)
+  - highly available [13.1](design-and-deployment-techniques.md)
+  - scalability [13.1.4](design-and-deployment-techniques.md)
+  - spanning XA transactions across Oracle RAC instances [5.4.1](workload-management-with-dynamic-database-services.md)
+  - using pre-created database sessions [5.3.7](workload-management-with-dynamic-database-services.md)
+- ARCHIVE_LAG_TARGET initialization parameter [3.7.3](administering-database-instances-and-cluster-databases.md)
+- archived redo log files
+  - applying in parallel [8.5.1](managing-backup-and-recovery.md)
+  - file format and destination [7.8](configuring-recovery-manager-and-archiving.md)
+  - log sequence number [7.8](configuring-recovery-manager-and-archiving.md)
+- ARCHIVE LOG command [3.1.1.3.1](administering-database-instances-and-cluster-databases.md)
+- archive logs
+  - destinations, converting to cluster database [15.1](converting-single-instance-oracle-databases-to-oracle-rac-and-oracle-rac-one-node.md)
+- archiver process
+  - monitor [7.10](configuring-recovery-manager-and-archiving.md)
+- archiving mode
+  - changing [7.2](configuring-recovery-manager-and-archiving.md)
+- ASH reports [14.8.1](monitoring-performance.md)
+- ASM_PREFERRED_READ_FAILURE_GROUPS initialization parameter [2.6.4](administering-storage-in-oracle-rac.md), [3.7](administering-database-instances-and-cluster-databases.md)
+- asmlistener [A.9.38](server-control-utility-reference.md), [A.9.39](server-control-utility-reference.md)
+- Automatic Database Diagnostic Monitor (ADDM) [1.12.3](introduction-to-oracle-rac.md), [14.7](monitoring-performance.md), [14.9.2](monitoring-performance.md), [14.9.3.2](monitoring-performance.md), [14.9.5](monitoring-performance.md)
+  - analyzing AWR data [14.7](monitoring-performance.md)
+  - DBMS_ADDM PL/SQL package [14.7](monitoring-performance.md)
+  - DBMS_ADVISOR PL/SQL package [14.7](monitoring-performance.md)
+  - Global ADDM mode [14.7](monitoring-performance.md)
+  - Local ADDM mode [14.7](monitoring-performance.md)
+- Automatic Diagnostic Repository (ADR) [13.4.1](design-and-deployment-techniques.md), [13.4.3](design-and-deployment-techniques.md), [B.2](troubleshooting-oracle-rac.md)
+  - ADRCI command-line interpreter [B.2](troubleshooting-oracle-rac.md)
+- automatic load balancing
+  - configuring RMAN channels for multiple instances [7.6](configuring-recovery-manager-and-archiving.md)
+- AUTOMATIC management policy [3.2.1](administering-database-instances-and-cluster-databases.md)
+- Automatic Performance Diagnostics (AWR)
+  - monitor performance statistics [14.7](monitoring-performance.md)
+- automatic segment space management (ASSM) [13.3.1](design-and-deployment-techniques.md)
+  - tablespace use in Oracle RAC [13.3.1](design-and-deployment-techniques.md)
+- automatic undo management
+  - tablespace use in Oracle RAC [13.3.1](design-and-deployment-techniques.md)
+- automatic workload management
+  - concepts [1.6](introduction-to-oracle-rac.md), [5.9](workload-management-with-dynamic-database-services.md)
+  - manual rebalancing [5.6](workload-management-with-dynamic-database-services.md)
+- Automatic Workload Repository (AWR) [1.6](introduction-to-oracle-rac.md), [5.6](workload-management-with-dynamic-database-services.md), [5.7](workload-management-with-dynamic-database-services.md), [14.7](monitoring-performance.md), [14.9](monitoring-performance.md), [14.9.3.2](monitoring-performance.md)
+  - monitoring performance [5.10.1.3](workload-management-with-dynamic-database-services.md)
+  - snapshots [14.7](monitoring-performance.md)
+- AVAILABLE instances
+  - for services [5.10.2.5](workload-management-with-dynamic-database-services.md)
+- Average Active Sessions chart
+  - performance monitoring [14.1.1.3](monitoring-performance.md)
+- AWR
+  - see Automatic Workload Repository (AWR) [14.9.3.2](monitoring-performance.md)
+
+------------------------------------------------------------------------
+
+## B
+
+- background processes
+  - SMON [8.3.1](managing-backup-and-recovery.md)
+- background thread trace files [B.1](troubleshooting-oracle-rac.md)
+- backups
+  - and converting to cluster database [15.1](converting-single-instance-oracle-databases-to-oracle-rac-and-oracle-rac-one-node.md)
+  - server parameter file [3.6.3](administering-database-instances-and-cluster-databases.md)
+- bandwidth
+  - interconnect [14.2](monitoring-performance.md)
+- best practices
+  - deploying Oracle RAC for high availability [13.1.2](design-and-deployment-techniques.md)
+- block mode conversions
+  - statistics for [14.6](monitoring-performance.md)
+- blocks
+  - associated with instance [8.3.1](managing-backup-and-recovery.md)
+- buffer cache [1.5.6](introduction-to-oracle-rac.md)
+  - instance recovery [8.3.1](managing-backup-and-recovery.md)
+- buffer sizes
+  - interprocess communication (IPC)
+    - adjusting for Oracle RAC [14.3](monitoring-performance.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- cache coherency [14.9.3.1](monitoring-performance.md)
+- Cache Fusion [1.5.6](introduction-to-oracle-rac.md), [13.3.5](design-and-deployment-techniques.md)
+  - and e-commerce applications [13.3.5](design-and-deployment-techniques.md)
+  - performance [14.2](monitoring-performance.md)
+  - transfers [14.9.4](monitoring-performance.md)
+- callouts
+  - how they are run [6.2](ensuring-application-continuity.md)
+- capacity
+  - increasing [13.1.4](design-and-deployment-techniques.md)
+- cardinality [3.1](administering-database-instances-and-cluster-databases.md)
+- catclustdb.sql script [1.12.3](introduction-to-oracle-rac.md)
+- CDBs [1.10](introduction-to-oracle-rac.md), [3.3](administering-database-instances-and-cluster-databases.md)
+- changing the configuration of all services [4.2.1](administering-oracle-rac-one-node.md)
+- channels
+  - configure one RMAN channel for each Oracle RAC instance [7.6.2](configuring-recovery-manager-and-archiving.md)
+  - configuring during crosscheck or restore operations [7.5](configuring-recovery-manager-and-archiving.md)
+  - configuring for RMAN [7.6](configuring-recovery-manager-and-archiving.md)
+- charts
+  - Average Active Sessions [14.1.1.3](monitoring-performance.md)
+  - Cluster Host Load Average [14.1.1.3](monitoring-performance.md)
+  - Database Throughput [14.1.1.3](monitoring-performance.md)
+  - Global Cache Block Access Latency [14.1.1.3](monitoring-performance.md)
+- checking the interconnect [B.6](troubleshooting-oracle-rac.md)
+- client connections with SCAN [3.1](administering-database-instances-and-cluster-databases.md)
+- client drivers
+  - and FAN [5.3.1](workload-management-with-dynamic-database-services.md)
+- clients
+  - application environments and FAN [5.3](workload-management-with-dynamic-database-services.md)
+  - integrated for FAN events [6.1.1](ensuring-application-continuity.md)
+  - JDBC/OCI [5.3.2.2](workload-management-with-dynamic-database-services.md)
+  - JDBC-thin driver [5.3.2](workload-management-with-dynamic-database-services.md)
+- client-side load balancing [5.1](workload-management-with-dynamic-database-services.md), [5.1.4](workload-management-with-dynamic-database-services.md)
+- clone.pl [9.4](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+- clone.pl script
+  - cloning parameters [9.3](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+  - environment variables [9.3](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+- cloning [1.2.4](introduction-to-oracle-rac.md), [9](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+  - deployment phase [9.3](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+  - log files [9.4](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+  - parameters passed to the clone.pl script [9.3](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+  - preparation phase [9.2](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+  - running \$ORACLE_HOME/root.sh script [9.3](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+- cluster
+  - definition of [1.1](introduction-to-oracle-rac.md)
+- cluster_database [13.4.1](design-and-deployment-techniques.md)
+- CLUSTER_DATABASE_INSTANCES initialization parameter [3.7](administering-database-instances-and-cluster-databases.md), [3.7.3](administering-database-instances-and-cluster-databases.md)
+- CLUSTER_DATABASE initialization parameter [3.7](administering-database-instances-and-cluster-databases.md), [3.7.1](administering-database-instances-and-cluster-databases.md)
+- CLUSTER_INTERCONNECTS
+  - parameter [14.3](monitoring-performance.md)
+- CLUSTER_INTERCONNECTS initialization parameter [3.7](administering-database-instances-and-cluster-databases.md), [3.11.1](administering-database-instances-and-cluster-databases.md)
+- cluster administrator [3.1](administering-database-instances-and-cluster-databases.md)
+- cluster cache coherency [14.1.1.2](monitoring-performance.md)
+- cluster configuration policy [1.7.4](introduction-to-oracle-rac.md)
+- cluster configuration policy set [1.7.4](introduction-to-oracle-rac.md)
+- Cluster Database Performance page
+  - Top Activity drill down menu [14.1.1.3](monitoring-performance.md)
+- cluster databases
+  - creating using DBCA [15.2.3.1.1](converting-single-instance-oracle-databases-to-oracle-rac-and-oracle-rac-one-node.md)
+- clustered Oracle ASM
+  - converting a noncluster Oracle ASM [2.6.5](administering-storage-in-oracle-rac.md)
+- cluster file system
+  - archiving parameter settings [7.9.1.2](configuring-recovery-manager-and-archiving.md)
+  - archiving scenario [7.9.1](configuring-recovery-manager-and-archiving.md)
+  - restore [8.2.1](managing-backup-and-recovery.md)
+  - storage in Oracle RAC [2.1](administering-storage-in-oracle-rac.md)
+- Cluster Host Load Average page
+  - cluster database performance [14.1.1.3](monitoring-performance.md)
+- cluster nodes name
+  - in clone.pl script [9.3](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+- clusters
+  - consolidating multiple databases in [13.1.3](design-and-deployment-techniques.md)
+  - policy-managed [1.7.4](introduction-to-oracle-rac.md)
+- Cluster Verification Utility
+  - overview and concepts [1.12.2](introduction-to-oracle-rac.md)
+- clusterware management solution [1.4](introduction-to-oracle-rac.md)
+- comma-delimited lists with SRVCTL [A.1](server-control-utility-reference.md)
+- command-line interpreter
+  - ADR Command-Line Interpreter (ADRCI) [B.2](troubleshooting-oracle-rac.md)
+- committed data
+  - instance failure [8.3.1](managing-backup-and-recovery.md)
+- communication protocols
+  - verifying settings for [14.2](monitoring-performance.md)
+- compatibility
+  - Oracle RAC and Oracle Database software [1.2.1](introduction-to-oracle-rac.md)
+- COMPATIBLE initialization parameter [3.7.1](administering-database-instances-and-cluster-databases.md)
+- configuring channels
+  - during restore or crosscheck operations [7.5](configuring-recovery-manager-and-archiving.md)
+- configuring preferred mirror read disks in extended clusters [2.6.4](administering-storage-in-oracle-rac.md)
+- CONNECT command [3.1.1.3.1](administering-database-instances-and-cluster-databases.md)
+- connecting
+  - to instances [1.12.2](introduction-to-oracle-rac.md)
+- connection load balancing
+  - introduction to [1.6](introduction-to-oracle-rac.md)
+  - long method [5.1.1](workload-management-with-dynamic-database-services.md)
+  - short method [5.1.1](workload-management-with-dynamic-database-services.md)
+- connection pools
+  - and FAN [5.3.1](workload-management-with-dynamic-database-services.md)
+- connection tests [6.3.3](ensuring-application-continuity.md)
+  - adding [6.3.3](ensuring-application-continuity.md)
+  - disabling [6.3.3](ensuring-application-continuity.md)
+  - enabling [6.3.3](ensuring-application-continuity.md)
+  - removing [6.3.3](ensuring-application-continuity.md)
+- consistent blocks [1.5.6](introduction-to-oracle-rac.md)
+- Container Databases
+  - See: CDBs
+- CONTROL_FILES initialization parameter [3.7.1](administering-database-instances-and-cluster-databases.md)
+- converting
+  - from single-instance to Oracle Real Application Clusters [15.3.4](converting-single-instance-oracle-databases-to-oracle-rac-and-oracle-rac-one-node.md)
+- converting a database from Oracle RAC One Node to Oracle RAC [4.2.2](administering-oracle-rac-one-node.md)
+- converting an Oracle RAC database with one instance to Oracle RAC One Node [4.2.1](administering-oracle-rac-one-node.md)
+- convert to cluster database
+  - from single-instance to Oracle Real Application Clusters [15](converting-single-instance-oracle-databases-to-oracle-rac-and-oracle-rac-one-node.md)
+  - post-conversion [15.6](converting-single-instance-oracle-databases-to-oracle-rac-and-oracle-rac-one-node.md)
+  - to Oracle RAC from single-instance databases [15](converting-single-instance-oracle-databases-to-oracle-rac-and-oracle-rac-one-node.md)
+- convert to Oracle RAC database
+  - from non-cluster system [15.2.1](converting-single-instance-oracle-databases-to-oracle-rac-and-oracle-rac-one-node.md)
+- corrupted data blocks [B.2](troubleshooting-oracle-rac.md)
+- CREATE PFILE statement [3.6.3](administering-database-instances-and-cluster-databases.md)
+- creating
+  - services [5.11.1](workload-management-with-dynamic-database-services.md)
+  - SPFILE backups [3.6.3](administering-database-instances-and-cluster-databases.md)
+- crosschecking on multiple nodes
+  - RMAN backups [7.5](configuring-recovery-manager-and-archiving.md)
+- crosscheck operations
+  - configuring channels during [7.5](configuring-recovery-manager-and-archiving.md)
+- CRS resources
+  - management of [1.4](introduction-to-oracle-rac.md)
+- current blocks [1.5.6](introduction-to-oracle-rac.md)
+- CVU
+  - See: Cluster Verification Utility
+
+------------------------------------------------------------------------
+
+## D
+
+- database
+  - administrative privilege
+    - SYSDBA [3.1](administering-database-instances-and-cluster-databases.md)
+  - draining [6.3.3](ensuring-application-continuity.md)
+  - services
+    - singleton [3.8](administering-database-instances-and-cluster-databases.md)
+    - uniform [3.8](administering-database-instances-and-cluster-databases.md)
+  - SRVCTL object name [A.9](server-control-utility-reference.md)
+- database alert logs [13.4.3](design-and-deployment-techniques.md)
+- database cloud [13.1.3.3](design-and-deployment-techniques.md)
+- Database Configuration Assistant (DBCA)
+  - adding and deleting instances in interactive mode
+    - on Windows [12.1.1.1](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+  - adding and deleting instances in silent mode
+    - on Windows [12.1.1.2](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+  - adding instances in interactive mode
+    - on Linux and UNIX [11.1.2.1](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md)
+  - adding instances in silent mode
+    - on Linux and UNIX [11.1.2.2](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md)
+  - cloning Oracle RAC instances [9.3](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+  - Database Storage page [11.1.2.1](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md), [12.1.1.1](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+  - deleting instances in interactive mode
+    - on Linux and UNIX [11.2.1.1](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md)
+    - on Windows [12.2.1.1](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+  - deleting instances in silent mode
+    - on Linux and UNIX [11.2.1.2](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md)
+    - on Windows [12.2.1.2](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+  - Instance Management page [11.1.2.1](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md), [12.1.1.1](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+  - List of Cluster Databases page [11.1.2.1](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md), [12.1.1.1](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+  - Welcome page [11.1.2.1](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md)
+- Database Configuration Assistant (Oracle DBCA)
+  - creating views for Oracle Real Application Clusters [14.5](monitoring-performance.md)
+  - running the catclustdb.sql script [1.12.3](introduction-to-oracle-rac.md)
+- database deployment
+  - administrator-managed [1.7](introduction-to-oracle-rac.md), [3.1](administering-database-instances-and-cluster-databases.md)
+  - policy-managed [1.7](introduction-to-oracle-rac.md), [3.1](administering-database-instances-and-cluster-databases.md)
+- database instances
+  - administrator managed
+    - deleting [11.2.1](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md), [12.2.1](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+  - connecting to [3.1.1.3](administering-database-instances-and-cluster-databases.md)
+- database pools [13.1.3.3](design-and-deployment-techniques.md)
+- database resource [3.1](administering-database-instances-and-cluster-databases.md)
+- database role [3.2.1](administering-database-instances-and-cluster-databases.md)
+- databases
+  - administrator managed [5.10.2.5](workload-management-with-dynamic-database-services.md)
+  - consolidating multiple in a cluster [13.1.3](design-and-deployment-techniques.md)
+  - controlling restarts [3.12](administering-database-instances-and-cluster-databases.md)
+  - creating
+    - Oracle RAC One Node [4.1](administering-oracle-rac-one-node.md)
+  - Oracle RAC One Node
+    - services on [4.1](administering-oracle-rac-one-node.md)
+  - policy managed [3.1](administering-database-instances-and-cluster-databases.md), [5.10.2.7](workload-management-with-dynamic-database-services.md)
+  - scalability [13.1.4](design-and-deployment-techniques.md)
+- databases sessions
+  - pre-created [5.3.7](workload-management-with-dynamic-database-services.md)
+- Database Storage page [11.1.2.1](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md), [12.1.1.1](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+- Database Throughput page
+  - performance monitoring [14.1.1.3](monitoring-performance.md)
+- data-dependent routing [5.5](workload-management-with-dynamic-database-services.md)
+- data dictionary
+  - querying views [14.5](monitoring-performance.md)
+- Data Recovery Advisor [B.2](troubleshooting-oracle-rac.md)
+- data warehouse
+  - deploying applications for in Oracle RAC [13.3.7](design-and-deployment-techniques.md)
+- data warehouse systems [13.3.7](design-and-deployment-techniques.md)
+- DB_BLOCK_SIZE initialization parameter [3.7.1](administering-database-instances-and-cluster-databases.md)
+- DB_DOMAIN initialization parameter [3.7.1](administering-database-instances-and-cluster-databases.md)
+- DB_FILES initialization parameter [3.7.1](administering-database-instances-and-cluster-databases.md)
+- DB_NAME initialization parameter [3.7](administering-database-instances-and-cluster-databases.md), [3.7.1](administering-database-instances-and-cluster-databases.md)
+- DB_RECOVERY_FILE_DEST_SIZE initialization parameter [3.7.1](administering-database-instances-and-cluster-databases.md)
+- DB_RECOVERY_FILE_DEST initialization parameter [3.7.1](administering-database-instances-and-cluster-databases.md), [8.6](managing-backup-and-recovery.md)
+- DB_UNIQUE_NAME initialization parameter [3.7.1](administering-database-instances-and-cluster-databases.md)
+- DDL statements [13.3.2](design-and-deployment-techniques.md)
+- default database service [1.2.3](introduction-to-oracle-rac.md), [3.7](administering-database-instances-and-cluster-databases.md), [5.11.1](workload-management-with-dynamic-database-services.md)
+- degree of parallelism [13.3.7.1](design-and-deployment-techniques.md)
+- deleting administrator-managed database instances [11.2.1](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md), [12.2.1](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+- dependencies
+  - and services [5.10.1.1](workload-management-with-dynamic-database-services.md)
+- deploying
+  - Oracle Real Application Clusters environments [1.12.1](introduction-to-oracle-rac.md), [13](design-and-deployment-techniques.md)
+- deprecated features
+- design
+  - Oracle Real Application Clusters environments [1.12.1](introduction-to-oracle-rac.md), [13](design-and-deployment-techniques.md)
+- diagnosing problems for Oracle RAC [B](troubleshooting-oracle-rac.md)
+- diagnosing problems using ADR [B.2](troubleshooting-oracle-rac.md)
+- diskgroup
+  - SRVCTL object name [A.9](server-control-utility-reference.md)
+- DISPATCHERS initialization parameter [3.7](administering-database-instances-and-cluster-databases.md)
+  - specifying a service with [5.11.1](workload-management-with-dynamic-database-services.md)
+- Distributed Transaction Processing (DTP) [13.3.4](design-and-deployment-techniques.md)
+  - See: DTP
+- distributed transactions [13.3.4](design-and-deployment-techniques.md)
+  - directing to a single instance in the cluster [5.4.2](workload-management-with-dynamic-database-services.md)
+  - services in Oracle RAC [5.4.1](workload-management-with-dynamic-database-services.md)
+  - XA transactions span instances [5.4.1](workload-management-with-dynamic-database-services.md)
+- DML_LOCKS initialization parameter [3.7.1](administering-database-instances-and-cluster-databases.md)
+- draining database sessions [6.3.3](ensuring-application-continuity.md)
+- DTP [5.4](workload-management-with-dynamic-database-services.md)
+- DTP services [5.4.2](workload-management-with-dynamic-database-services.md)
+  - with Oracle RAC [5.4.3](workload-management-with-dynamic-database-services.md)
+  - XA affinity [5.4.2](workload-management-with-dynamic-database-services.md)
+  - XA transactions [5.4.1](workload-management-with-dynamic-database-services.md)
+- dynamic database services
+  - description [1.6](introduction-to-oracle-rac.md)
+- Dynamic Database Services
+  - introduction to [1.5.3](introduction-to-oracle-rac.md)
+- dynamic performance views [14.9](monitoring-performance.md)
+  - creating [14.5](monitoring-performance.md)
+  - GV\$ [1.12.3](introduction-to-oracle-rac.md)
+  - V\$ [1.12.3](introduction-to-oracle-rac.md)
+- dynamic session state consistency [6.6.6](ensuring-application-continuity.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- e-commerce
+  - applications in Oracle RAC [13.3.5](design-and-deployment-techniques.md)
+- edition
+  - services attribute [5.10.2.2](workload-management-with-dynamic-database-services.md)
+- Enterprise Manager
+  - overview [1.4](introduction-to-oracle-rac.md)
+- environment variables
+  - passed to the clone.pl script [9.3](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+  - setting with SRVCTL [3.1.1.1](administering-database-instances-and-cluster-databases.md)
+- evaluating block transfers [14.6](monitoring-performance.md)
+- event notification
+  - enabling [5.3.7](workload-management-with-dynamic-database-services.md)
+- extended distance clusters [2.6.4](administering-storage-in-oracle-rac.md)
+  - configuring preferred mirror read disks [2.6.4](administering-storage-in-oracle-rac.md)
+  - Oracle ASM preferred mirror read [2.6.4](administering-storage-in-oracle-rac.md)
+- extending Oracle database home
+  - on shared storage
+    - network-attached storage [11.1](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md), [12.1](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+    - Oracle ACFS [11.1](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md), [12.1](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+- external transaction managers
+  - OraMTS [5.4.1](workload-management-with-dynamic-database-services.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- FAILOVER_RESTORE
+  - recommended values [6.6.2.5.1](ensuring-application-continuity.md)
+  - restoring ALTER SESSION states [6.6.2.5.3](ensuring-application-continuity.md), [6.6.2.5.4](ensuring-application-continuity.md), [6.6.2.5.5](ensuring-application-continuity.md)
+  - session states restored [6.6.2.5.2](ensuring-application-continuity.md)
+- failure
+  - instance [8.3](managing-backup-and-recovery.md)
+  - multiple node [8.3.2](managing-backup-and-recovery.md)
+  - node [8.3.1](managing-backup-and-recovery.md)
+- failure groups [2.6.4](administering-storage-in-oracle-rac.md)
+- FAN
+  - See: Fast Application Notification (FAN)
+- Fast Application Notification (FAN) [6.1](ensuring-application-continuity.md)
+  - and high availability events [6.1.2](ensuring-application-continuity.md)
+  - callouts
+    - definition [6.1.4](ensuring-application-continuity.md)
+    - how to use [6.1.4](ensuring-application-continuity.md)
+  - events
+    - enabling for JDBC [5.3.2.2](workload-management-with-dynamic-database-services.md)
+    - enabling for JDBC-thin clients [5.3.2](workload-management-with-dynamic-database-services.md)
+    - enabling for OCI [5.3.6](workload-management-with-dynamic-database-services.md)
+    - enabling for ODP.NET [5.3.9](workload-management-with-dynamic-database-services.md)
+    - enabling ODP.NET clients [5.3.10](workload-management-with-dynamic-database-services.md)
+  - HA events [5.3.1](workload-management-with-dynamic-database-services.md)
+  - how events are published [6.1.1](ensuring-application-continuity.md)
+  - introduction [1.6](introduction-to-oracle-rac.md)
+  - overview [6.1.1](ensuring-application-continuity.md)
+  - parameters and matching database signatures [6.1.2](ensuring-application-continuity.md)
+  - uses [6.1.1](ensuring-application-continuity.md)
+- Fast Connection Failover (FCF)
+  - enabling JDBC-thin clients [5.3.2](workload-management-with-dynamic-database-services.md)
+  - enabling with thin and thick clients [5.3.2.2](workload-management-with-dynamic-database-services.md)
+  - introduction to [1.6](introduction-to-oracle-rac.md)
+- Fast Recovery
+  - and files managed by Oracle [15.3.4](converting-single-instance-oracle-databases-to-oracle-rac-and-oracle-rac-one-node.md)
+- fault diagnosability [B.2](troubleshooting-oracle-rac.md)
+- FCF
+  - See: Fast Connection Failover (FCF)
+- files
+  - archived redo log files [7.8](configuring-recovery-manager-and-archiving.md)
+  - redo log [7.8](configuring-recovery-manager-and-archiving.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- GC_SERVER_PROCESSES initialization parameter
+  - specifying the number of LMSn processes [13.1.3.2](design-and-deployment-techniques.md)
+- GCS_SERVER_PROCESSES initialization parameter [3.7](administering-database-instances-and-cluster-databases.md)
+- GCS protocol [14.9.3.1](monitoring-performance.md)
+- Generic server pool [3.1](administering-database-instances-and-cluster-databases.md)
+- GES
+  - See: global cache and enqueue service (GES)
+- GLOBAL_TXN_PROCESSES initialization parameter [5.4.1](workload-management-with-dynamic-database-services.md)
+- global cache and enqueue service (GES) [14.9.1](monitoring-performance.md)
+- Global Cache Block Access Latency chart
+  - performance monitoring [14.1.1.3](monitoring-performance.md)
+- Global Cache Service (GCS) [1.5.6](introduction-to-oracle-rac.md), [3.7](administering-database-instances-and-cluster-databases.md)
+- Global Cache Service Processes (LMSn)
+  - reducing the number of [13.1.3.2](design-and-deployment-techniques.md)
+  - specifying the number of [13.1.3.2](design-and-deployment-techniques.md)
+- Global Cache Service statistics [14.9.1](monitoring-performance.md), [14.9.3.1](monitoring-performance.md)
+- GLOBAL clause
+  - forcing a checkpoint [3.1.1.3.1](administering-database-instances-and-cluster-databases.md)
+- Global Enqueue Service (GES) [1.5.6](introduction-to-oracle-rac.md)
+- Global Enqueue Service statistics [14.9.1](monitoring-performance.md)
+- global performance data
+  - with ADDM [14.7](monitoring-performance.md)
+- Global Resource Directory (GRD) [1.5.6](introduction-to-oracle-rac.md)
+- global service attributes
+  - GDSCTL [5.12](workload-management-with-dynamic-database-services.md)
+- global services [5.12](workload-management-with-dynamic-database-services.md), [13.1.3.3](design-and-deployment-techniques.md)
+- goals
+  - and the load balancing advisory [5.2.1](workload-management-with-dynamic-database-services.md)
+  - for load balancing advisory [5.2.2](workload-management-with-dynamic-database-services.md)
+- GV\$ view [14.4](monitoring-performance.md)
+- GV\$ views [1.12.3](introduction-to-oracle-rac.md)
+
+------------------------------------------------------------------------
+
+## H
+
+- Hang Manager [1.9](introduction-to-oracle-rac.md), [13.4](design-and-deployment-techniques.md)
+- hash partitioning
+  - with Oracle RAC [13.2](design-and-deployment-techniques.md)
+- high availability
+  - best practices [13.1.2](design-and-deployment-techniques.md)
+  - for Oracle RAC Databases [13.1](design-and-deployment-techniques.md)
+- high availability framework
+  - introduction to [1.6](introduction-to-oracle-rac.md)
+- home
+  - SRVCTL object name [A.9](server-control-utility-reference.md)
+- HOST command [3.1.1.3.1](administering-database-instances-and-cluster-databases.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- idempotence [6.9](ensuring-application-continuity.md)
+- idle wait class [14.8.1](monitoring-performance.md)
+- IM column store
+  - See: In-Memory Column Store
+- indexes
+  - sequence-based [13.2](design-and-deployment-techniques.md)
+- initialization parameters
+  - CLUSTER_INTERCONNECTS [3.11.1](administering-database-instances-and-cluster-databases.md), [14.3](monitoring-performance.md)
+    - recommendations for using [3.11.1](administering-database-instances-and-cluster-databases.md)
+  - cluster database issues regarding [3.7](administering-database-instances-and-cluster-databases.md)
+  - identical settings for on all instances [3.7.3](administering-database-instances-and-cluster-databases.md)
+  - RECOVERY_PARALLELISM [8.5.2.1](managing-backup-and-recovery.md)
+  - settings for instances [3.6](administering-database-instances-and-cluster-databases.md)
+  - specific to Oracle RAC [3.7](administering-database-instances-and-cluster-databases.md)
+  - that must be identical on all instances [3.7.1](administering-database-instances-and-cluster-databases.md)
+  - that must be unique on all instances [3.7.2](administering-database-instances-and-cluster-databases.md)
+- In-Memory Column Store
+  - Oracle RAC [1.11](introduction-to-oracle-rac.md)
+  - overview [1.11](introduction-to-oracle-rac.md)
+- In-Memory FastStart [1.11](introduction-to-oracle-rac.md)
+- INST_ID column [14.4](monitoring-performance.md)
+- installations
+  - performing multiple simultaneous cluster [9](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+- instance
+  - SRVCTL object name [A.9](server-control-utility-reference.md)
+- INSTANCE_NAME initialization parameter [3.7.2](administering-database-instances-and-cluster-databases.md)
+- INSTANCE_NUMBER initialization parameter [3.7.2](administering-database-instances-and-cluster-databases.md)
+- INSTANCE_TYPE initialization parameter [3.7.1](administering-database-instances-and-cluster-databases.md)
+- instance discovery
+  - Oracle Enterprise Manager Cloud Control [3.13.1](administering-database-instances-and-cluster-databases.md)
+- Instance Management page [11.1.2.1](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md), [12.1.1.1](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+- INSTANCE NAME initialization parameter [3.7](administering-database-instances-and-cluster-databases.md)
+- INSTANCE option [3.1.1.3.1](administering-database-instances-and-cluster-databases.md)
+- instances
+  - aggregated for service performance [14.1.1.3](monitoring-performance.md)
+  - cloning Oracle RAC [9.3](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+  - effect of SQL\*Plus commands on [3.1.1.3.1](administering-database-instances-and-cluster-databases.md)
+  - failure [8.3.2](managing-backup-and-recovery.md)
+  - initialization parameter settings [3.6](administering-database-instances-and-cluster-databases.md)
+  - maximum number for Oracle RAC [1.1](introduction-to-oracle-rac.md)
+  - memory structures [1.5.6](introduction-to-oracle-rac.md)
+  - private interconnect usage [B.6](troubleshooting-oracle-rac.md)
+  - recovery [8.3.1](managing-backup-and-recovery.md)
+  - recovery, multiple failures [8.3.2](managing-backup-and-recovery.md)
+  - Server Management [3.1.1](administering-database-instances-and-cluster-databases.md)
+  - starting and stopping [3.2](administering-database-instances-and-cluster-databases.md)
+  - verifying [3.4](administering-database-instances-and-cluster-databases.md)
+  - verifying running [3.4.2](administering-database-instances-and-cluster-databases.md)
+- instances failure
+  - recovery from [8.3](managing-backup-and-recovery.md)
+- interconnect
+  - and performance [14.3](monitoring-performance.md)
+  - and the Oracle RAC architecture [1.1](introduction-to-oracle-rac.md)
+  - defined [1.5.2](introduction-to-oracle-rac.md)
+  - protocols for Oracle RAC [14.2](monitoring-performance.md)
+  - verifying settings for [14.2](monitoring-performance.md)
+- interconnect bandwidth [14.2](monitoring-performance.md)
+  - latency [14.2](monitoring-performance.md)
+- interconnect block transfer rates [14.6](monitoring-performance.md)
+- interconnects
+  - alternatives to the private network [3.11](administering-database-instances-and-cluster-databases.md)
+  - private [B.6](troubleshooting-oracle-rac.md)
+- interconnect settings
+  - verifying [14.2](monitoring-performance.md)
+- Interconnects page
+  - monitoring clusterware with Oracle Enterprise Manager [14.1.1](monitoring-performance.md)
+  - monitoring Oracle Clusterware [14.1.1.2](monitoring-performance.md)
+- interprocess communication (IPC)
+  - buffer sizes
+    - adjusting [14.3](monitoring-performance.md)
+- IPC protocol [14.2](monitoring-performance.md), [14.9.3.1](monitoring-performance.md)
+
+------------------------------------------------------------------------
+
+## J
+
+- Java-based tools and utilities
+  - CVU [B.4](troubleshooting-oracle-rac.md)
+  - DBCA [B.4](troubleshooting-oracle-rac.md)
+  - DBUA [B.4](troubleshooting-oracle-rac.md)
+  - enabling tools for tracing [B.4](troubleshooting-oracle-rac.md)
+  - GSD [B.4](troubleshooting-oracle-rac.md)
+  - NETCA [B.4](troubleshooting-oracle-rac.md)
+  - SRVCTL [B.4](troubleshooting-oracle-rac.md)
+- Java Database Connectivity (JDBC) clients
+  - enabling Fast Application Notification events for [5.3.2.2](workload-management-with-dynamic-database-services.md)
+  - Oracle Notification Service usage [1.6](introduction-to-oracle-rac.md)
+- JDBC/OCI [5.3.2.2](workload-management-with-dynamic-database-services.md)
+- JDBC-thin clients
+  - enabling for Fast Connection Failover (FCF) [5.3.2](workload-management-with-dynamic-database-services.md)
+- JDBC-thin driver [5.3.2](workload-management-with-dynamic-database-services.md)
+- job administration
+  - Oracle Enterprise Manager [3.13.3.1](administering-database-instances-and-cluster-databases.md)
+
+------------------------------------------------------------------------
+
+## K
+
+- keystore
+  - create [6.6.2.5.4](ensuring-application-continuity.md)
+
+------------------------------------------------------------------------
+
+## L
+
+- level thresholds
+  - services [5.8](workload-management-with-dynamic-database-services.md)
+- LICENSE_MAX_USERS initialization parameter [3.7.3](administering-database-instances-and-cluster-databases.md)
+- listener
+  - SRVCTL object name [A.9](server-control-utility-reference.md)
+- listeners
+  - command to add to a node [A.9.38](server-control-utility-reference.md)
+  - command to remove [A.9.45](server-control-utility-reference.md)
+  - Oracle Net [1.4](introduction-to-oracle-rac.md)
+- List of Cluster Databases page [11.1.2.1](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md), [12.1.1.1](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+- LMSn processes
+  - reducing the number of [13.1.3.2](design-and-deployment-techniques.md)
+- LMS processes
+  - reducing the number of [13.1.3.2](design-and-deployment-techniques.md)
+- load balancing [13.3.5](design-and-deployment-techniques.md)
+  - OCI runtime connection [5.3.7](workload-management-with-dynamic-database-services.md)
+  - server-side [5.1](workload-management-with-dynamic-database-services.md)
+- load balancing advisory
+  - and FAN events [5.2.3](workload-management-with-dynamic-database-services.md)
+  - configuring your environment for using [5.2.2](workload-management-with-dynamic-database-services.md)
+  - deployment [5.2.1](workload-management-with-dynamic-database-services.md)
+  - description of [5.2](workload-management-with-dynamic-database-services.md)
+  - events and FAN [6.1.1](ensuring-application-continuity.md)
+  - introduction to [1.6](introduction-to-oracle-rac.md)
+- Load Balancing Advisory [5.10.2.8](workload-management-with-dynamic-database-services.md)
+- LOCAL_NODE parameter
+  - in clone.pl script [9.3](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+- local archiving scenario
+  - RMAN [7.9.2](configuring-recovery-manager-and-archiving.md)
+- Local Area Network (LAN) [1.5.2](introduction-to-oracle-rac.md)
+- LOCAL clause
+  - forcing a checkpoint [3.1.1.3.1](administering-database-instances-and-cluster-databases.md)
+- local file system
+  - archiving parameter settings [7.9.2.2](configuring-recovery-manager-and-archiving.md)
+  - restore [8.2.2](managing-backup-and-recovery.md)
+- locally managed tablespaces [13.3.1](design-and-deployment-techniques.md)
+- local node name
+  - in clone.pl script [9.3](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+- local temporary tablespace [1.4.3](introduction-to-oracle-rac.md)
+- LOG_ARCHIVE_FORMAT initialization parameter [3.7.3](administering-database-instances-and-cluster-databases.md)
+- LOG_ARCHIVE_FORMAT parameter [7.8](configuring-recovery-manager-and-archiving.md)
+- log files
+  - tracing [B.4](troubleshooting-oracle-rac.md)
+- logical transaction ID [6.9](ensuring-application-continuity.md)
+- log sequence numbers [7.8](configuring-recovery-manager-and-archiving.md)
+- LXTID [6.9](ensuring-application-continuity.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- maintenance
+  - planned [6.3](ensuring-application-continuity.md)
+- mass deployment
+  - cloning [9](cloning-oracle-rac-to-nodes-in-a-new-cluster.md), [9.2](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+- media failures
+  - recovery from [8.4](managing-backup-and-recovery.md)
+- Memory Guard [3.9](administering-database-instances-and-cluster-databases.md)
+- memory pressure [3.9](administering-database-instances-and-cluster-databases.md)
+- memory structures
+  - in Oracle RAC [1.5.6](introduction-to-oracle-rac.md)
+- message request counters [14.6](monitoring-performance.md)
+- migration
+  - application [13.1.4](design-and-deployment-techniques.md)
+  - from single-instance [15.2](converting-single-instance-oracle-databases-to-oracle-rac-and-oracle-rac-one-node.md)
+- missing files [B.2](troubleshooting-oracle-rac.md)
+- mission critical systems
+  - considerations for Oracle RAC [13.1.1](design-and-deployment-techniques.md)
+- modified data
+  - instance recovery [8.3.1](managing-backup-and-recovery.md)
+- monitoring
+  - archiver process [7.10](configuring-recovery-manager-and-archiving.md)
+  - overview and concepts [1.12.3](introduction-to-oracle-rac.md)
+  - performance of global cache block access [14.1.1.3](monitoring-performance.md)
+- monitoring host load average [14.1.1.3](monitoring-performance.md)
+- mount all non-running instances of an Oracle RAC database [3.2.1](administering-database-instances-and-cluster-databases.md)
+- multiple cluster interconnects [3.11](administering-database-instances-and-cluster-databases.md)
+- multiple databases in a cluster [3.11.1](administering-database-instances-and-cluster-databases.md)
+- multiple node failures [8.3.2](managing-backup-and-recovery.md)
+- multiple public networks [1.5.4](introduction-to-oracle-rac.md)
+- multiplexed redo log files [2.4](administering-storage-in-oracle-rac.md)
+- multitenant container database
+  - See: CDBs
+- mutable functions [6.6.3](ensuring-application-continuity.md)
+- mutables
+  - rules for grants [6.6.4.3](ensuring-application-continuity.md)
+
+------------------------------------------------------------------------
+
+## N
+
+- net service name [3.1.1.3](administering-database-instances-and-cluster-databases.md)
+- network
+  - restricting service registration [1.5.5](introduction-to-oracle-rac.md), [5.10.4](workload-management-with-dynamic-database-services.md)
+  - SRVCTL object name [A.9](server-control-utility-reference.md)
+- Network Attached Storage (NAS) [1.5.2](introduction-to-oracle-rac.md)
+- network file system [2.3](administering-storage-in-oracle-rac.md)
+  - See also: NFS
+- network resources [1.5.4](introduction-to-oracle-rac.md)
+- NFS
+  - server [2.3](administering-storage-in-oracle-rac.md)
+- node
+  - failure and VIP addresses [1.5.4](introduction-to-oracle-rac.md)
+- node affinity awareness [8.3.4](managing-backup-and-recovery.md)
+- nodeapps
+  - SRVCTL object name [A.9](server-control-utility-reference.md)
+- node discovery
+  - Oracle Enterprise Manager Cloud Control [3.13.1](administering-database-instances-and-cluster-databases.md)
+- node evictions [14.1.1.1](monitoring-performance.md)
+- nodes
+  - affinity awareness [8.3.4](managing-backup-and-recovery.md)
+  - failure of [8.3.1](managing-backup-and-recovery.md)
+  - virtual IP addresses [A.4](server-control-utility-reference.md)
+- node VIPs [1.5.4](introduction-to-oracle-rac.md)
+- noncluster Oracle ASM
+  - converting to clustered Oracle ASM [2.6.5](administering-storage-in-oracle-rac.md)
+- non-transactional session state [6.6.6.3](ensuring-application-continuity.md)
+- noreplay keyword (terminating or disconnecting session) [6.6.2.10](ensuring-application-continuity.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- object creation and deletion [13.3.2](design-and-deployment-techniques.md)
+- objects
+  - creation of and effect on performance [13.3.2](design-and-deployment-techniques.md)
+- OCI
+  - runtime connection load balancing [5.3.7](workload-management-with-dynamic-database-services.md)
+  - session pooling [5.3.7](workload-management-with-dynamic-database-services.md)
+  - session pools
+    - optimizing [5.3.7](workload-management-with-dynamic-database-services.md)
+    - runtime connection load balancing [5.3.7](workload-management-with-dynamic-database-services.md)
+    - service metrics [5.3.7](workload-management-with-dynamic-database-services.md)
+- OCRDUMP utility [14.3](monitoring-performance.md)
+- ODP.NET
+  - and Fast Connection Failover [5.3.9](workload-management-with-dynamic-database-services.md)
+  - load balancing advisory events [5.3.10](workload-management-with-dynamic-database-services.md)
+- OLTP environments [13.2](design-and-deployment-techniques.md)
+- online database relocation
+  - relocation feature [4.3](administering-oracle-rac-one-node.md)
+- online recovery [8.3.1](managing-backup-and-recovery.md)
+- online transaction processing (OLTP)
+  - applications in Oracle RAC [13.3.5](design-and-deployment-techniques.md)
+- ons
+  - SRVCTL object name [A.9](server-control-utility-reference.md)
+- ONS
+  - See: Oracle Notification Service
+- optimal execution plans [13.3.7.1](design-and-deployment-techniques.md)
+- Oracle ACFS [1.5.1](introduction-to-oracle-rac.md)
+- Oracle ASM
+  - disk group management [2.6.3](administering-storage-in-oracle-rac.md)
+  - listener [A.9.38](server-control-utility-reference.md), [A.9.39](server-control-utility-reference.md)
+  - see Oracle Automatic Storage Management (Oracle ASM) [2.1](administering-storage-in-oracle-rac.md)
+- Oracle Automatic Storage Management (Oracle ASM) [2](administering-storage-in-oracle-rac.md)
+  - archiving scenario [7.9.1](configuring-recovery-manager-and-archiving.md)
+  - converting noncluster Oracle ASM to clustered Oracle ASM [2.6.5](administering-storage-in-oracle-rac.md)
+  - installation [1.2.3](introduction-to-oracle-rac.md)
+  - instances
+    - administering with SRVCTL [2.6.6](administering-storage-in-oracle-rac.md)
+  - Oracle ASM preferred read failure groups [2.6.4](administering-storage-in-oracle-rac.md)
+  - preferred mirror read disks [2.6.4](administering-storage-in-oracle-rac.md)
+  - preferred read disks [3.7](administering-database-instances-and-cluster-databases.md)
+  - storage solution [2.1](administering-storage-in-oracle-rac.md)
+- Oracle Call Interface
+  - See: OCI
+- Oracle Cluster Registry (OCR) [3.1.1.1](administering-database-instances-and-cluster-databases.md), [14.3](monitoring-performance.md)
+- Oracle Clusterware
+  - cloning [1.2.4](introduction-to-oracle-rac.md)
+  - controlling database restarts [3.12](administering-database-instances-and-cluster-databases.md)
+  - control policies
+    - AUTOMATIC [3.12](administering-database-instances-and-cluster-databases.md)
+    - MANUAL [3.12](administering-database-instances-and-cluster-databases.md)
+    - using SRVCTL to display and change [3.12](administering-database-instances-and-cluster-databases.md)
+  - described [1.4](introduction-to-oracle-rac.md)
+  - introduction [1.4](introduction-to-oracle-rac.md)
+  - introduction and concepts of [1](introduction-to-oracle-rac.md)
+  - managing Oracle processes [1.4](introduction-to-oracle-rac.md)
+- Oracle Database
+  - session activity [14.8.1](monitoring-performance.md)
+- Oracle Database QoS Management [1.8](introduction-to-oracle-rac.md)
+- Oracle Database Quality of Service Management
+  - See: Oracle Database QoS Management
+- Oracle Database Upgrade Assistant [15](converting-single-instance-oracle-databases-to-oracle-rac-and-oracle-rac-one-node.md)
+- Oracle Enterprise Manager
+  - adding database instances to nodes
+    - on Linux and UNIX [11.1.2](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md)
+    - on Windows [12.1.1](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+  - alert administration [3.13.3.2](administering-database-instances-and-cluster-databases.md)
+  - Automatic Database Diagnostic Monitor (ADDM) [14.7](monitoring-performance.md)
+  - Average Active Sessions chart [14.1.1.3](monitoring-performance.md)
+  - Cluster Database Home page [14.1.1.1](monitoring-performance.md)
+  - Cluster Database page [14.1.1](monitoring-performance.md)
+  - Cluster Database Performance page
+    - performance statistics for an Oracle RAC database [14.1.1.3](monitoring-performance.md)
+  - configuring to recognize changes in database management [3.8](administering-database-instances-and-cluster-databases.md)
+  - Database Throughput charts [14.1.1.3](monitoring-performance.md)
+  - deleting database instances from nodes [11.2.1](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md), [12.2.1](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+  - Global Cache Block Access Latency chart [14.1.1.3](monitoring-performance.md)
+  - Interconnects page [14.1.1.2](monitoring-performance.md)
+  - job administration [3.13.3.1](administering-database-instances-and-cluster-databases.md)
+  - monitoring load values for available nodes [14.1.1.3](monitoring-performance.md)
+  - overview and concepts [1.12.2](introduction-to-oracle-rac.md)
+  - Top Activity drill down menu [14.1.1.3](monitoring-performance.md)
+  - using the Interconnects page to monitor Oracle Clusterware [14.1.1](monitoring-performance.md)
+  - using to administer Oracle RAC [3.1.1.2](administering-database-instances-and-cluster-databases.md)
+  - using to administer services [5.11.2](workload-management-with-dynamic-database-services.md)
+  - using to back up the server parameter file [3.6.3](administering-database-instances-and-cluster-databases.md)
+  - using to convert single-instance databases to Oracle Real Application Clusters [15.3.4](converting-single-instance-oracle-databases-to-oracle-rac-and-oracle-rac-one-node.md)
+  - using to create DTP services [5.4.4](workload-management-with-dynamic-database-services.md)
+  - using to monitor Oracle Clusterware [14.1.1](monitoring-performance.md)
+  - using to monitor Oracle RAC [14.1.1](monitoring-performance.md)
+  - using to monitor Oracle RAC environments [1.12.3](introduction-to-oracle-rac.md)
+  - using to restore SPFILE [8.2.3](managing-backup-and-recovery.md)
+  - using to schedule Automatic Workload Repository actions [5.8](workload-management-with-dynamic-database-services.md)
+  - using to set up a fast recovery area [8.6](managing-backup-and-recovery.md)
+  - using to start or stop a database [3.2](administering-database-instances-and-cluster-databases.md)
+  - using with RMAN [7.4](configuring-recovery-manager-and-archiving.md)
+- Oracle Enterprise Manager Cloud Control
+  - instance discovery [3.13.1](administering-database-instances-and-cluster-databases.md)
+  - node discovery [3.13.1](administering-database-instances-and-cluster-databases.md)
+- Oracle Flex Clusters [1.4.1](introduction-to-oracle-rac.md)
+- Oracle GoldenGate [5.10.1.5](workload-management-with-dynamic-database-services.md)
+- Oracle Grid Infrastructure [1.1](introduction-to-oracle-rac.md)
+- Oracle home
+  - defined [1.2.2](introduction-to-oracle-rac.md)
+- Oracle homes
+  - cloning
+    - on Linux and UNIX [10.2](using-cloning-to-extend-oracle-rac-to-nodes-in-the-same-cluster.md)
+  - local
+    - cloning on Windows [10.4](using-cloning-to-extend-oracle-rac-to-nodes-in-the-same-cluster.md)
+  - shared
+    - cloning on Linux and UNIX [10.3](using-cloning-to-extend-oracle-rac-to-nodes-in-the-same-cluster.md)
+    - cloning on Windows [10.4](using-cloning-to-extend-oracle-rac-to-nodes-in-the-same-cluster.md)
+- Oracle Interface Configuration (OIFCFG) [14.3](monitoring-performance.md)
+- Oracle Managed Files [3.1](administering-database-instances-and-cluster-databases.md)
+- Oracle Maximum Availability Architecture (MAA) [13.1.1](design-and-deployment-techniques.md)
+- Oracle Multitenant [1.10](introduction-to-oracle-rac.md)
+- Oracle Net
+  - listeners [1.4](introduction-to-oracle-rac.md)
+- Oracle Net connection failover [5.1.2](workload-management-with-dynamic-database-services.md)
+- Oracle Net Services
+  - and load balancing [5.3.1](workload-management-with-dynamic-database-services.md)
+  - and services [5.10.2.9](workload-management-with-dynamic-database-services.md)
+- Oracle Notification Service [1.4](introduction-to-oracle-rac.md)
+  - Java client
+    - running in secure mode [13.3.8.3](design-and-deployment-techniques.md)
+  - SRVCTL object name [A.9](server-control-utility-reference.md)
+  - used by FAN [1.6](introduction-to-oracle-rac.md)
+- Oracle Notification Services
+  - API [6.1.1](ensuring-application-continuity.md)
+- Oracle processes
+  - managed by Oracle Clusterware [1.4](introduction-to-oracle-rac.md)
+- Oracle RAC
+  - adding administrator-managed database instances [11.1.2.1](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md), [12.1.1](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+  - adding policy-managed database instances [11.1](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md), [12.1](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+  - adding to nodes in a cluster on Linux and UNIX [11.1](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md)
+  - adding to nodes in a cluster on Windows [12.1](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+  - administrative privilege
+    - SYSRAC [3.1](administering-database-instances-and-cluster-databases.md)
+  - and e-commerce [13.3.5](design-and-deployment-techniques.md)
+  - benefits of cloning [9.1](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+  - cloning [9](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+    - size of the binaries [9.1](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+  - converting database from [4.2](administering-oracle-rac-one-node.md)
+  - converting database to [4.2](administering-oracle-rac-one-node.md)
+  - converting from non-cluster system [15.2.1](converting-single-instance-oracle-databases-to-oracle-rac-and-oracle-rac-one-node.md)
+  - converting single instance to Oracle RAC One Node [4.2.1](administering-oracle-rac-one-node.md)
+  - copying the Oracle RAC home [9.2](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+  - databases
+    - converting from single-instance Oracle databases [15](converting-single-instance-oracle-databases-to-oracle-rac-and-oracle-rac-one-node.md)
+  - deploying clone [9.3](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+  - diagnosing performance problems [14.8.1](monitoring-performance.md)
+  - diagnosing problems for [B](troubleshooting-oracle-rac.md)
+  - IM column store [1.11](introduction-to-oracle-rac.md)
+  - installation overview [1.2](introduction-to-oracle-rac.md)
+  - overview of administration [1](introduction-to-oracle-rac.md)
+  - removing on Windows [12.2.2](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+  - removing the software from Linux and UNIX [11.2.2](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md)
+  - security considerations [13.3.8](design-and-deployment-techniques.md)
+  - software components [1.5.6](introduction-to-oracle-rac.md)
+  - storage options
+    - IBM GPFS [1.5.1](introduction-to-oracle-rac.md)
+    - network file system (NFS) [1.5.1](introduction-to-oracle-rac.md)
+    - Oracle Automatic Storage Management (Oracle ASM) [1.5.1](introduction-to-oracle-rac.md)
+    - Oracle Automatic Storage Management Cluster File System (Oracle ACFS) [1.5.1](introduction-to-oracle-rac.md)
+    - Oracle OCFS2 [1.5.1](introduction-to-oracle-rac.md)
+    - volume manager [1.5.1](introduction-to-oracle-rac.md)
+  - using a fast recovery area in [8.6](managing-backup-and-recovery.md)
+- Oracle RAC One Node [4](administering-oracle-rac-one-node.md)
+  - converting database from [4.2](administering-oracle-rac-one-node.md)
+  - converting database to [4.2](administering-oracle-rac-one-node.md)
+  - converting to Oracle RAC [4.2.2](administering-oracle-rac-one-node.md)
+  - creating databases [4.1](administering-oracle-rac-one-node.md)
+  - database
+    - services on [4.1](administering-oracle-rac-one-node.md)
+  - online database relocation [4.3](administering-oracle-rac-one-node.md)
+  - relocating to another node [4.3](administering-oracle-rac-one-node.md)
+- Oracle RAC One Node database [13.4.2](design-and-deployment-techniques.md)
+- Oracle RAC Sharding [5.5](workload-management-with-dynamic-database-services.md)
+- Oracle Real Application Clusters
+  - See: Oracle RAC
+- Oracle Real Application Clusters One Node
+  - See: Oracle RAC One Node
+- Oracle Resource Manager
+  - and services [5.10.1.2](workload-management-with-dynamic-database-services.md)
+- Oracle Services
+  - using [5.11](workload-management-with-dynamic-database-services.md)
+- Oracle Services for Microsoft Transaction Server
+  - creating the OraMTS service [12.1.1.1](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+- Oracle Universal Installer
+  - database installation [1.2.2](introduction-to-oracle-rac.md)
+  - Oracle Real Application Clusters installation [1.2.2](introduction-to-oracle-rac.md)
+- Oracle XA [5.10.2.10](workload-management-with-dynamic-database-services.md)
+- oradebug ipc command [B.6](troubleshooting-oracle-rac.md)
+- OraMTS
+  - See: Oracle Services for Microsoft Transaction Server
+
+  <!-- -->
+
+  - external transaction manager [5.4.1](workload-management-with-dynamic-database-services.md)
+- orapwd file [3.8](administering-database-instances-and-cluster-databases.md)
+- outages
+  - unplanned [6.2](ensuring-application-continuity.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- PARALLEL_EXECUTION_MESSAGE_SIZE initialization parameter [3.7.1](administering-database-instances-and-cluster-databases.md)
+- parallel execution [13.3.7.2](design-and-deployment-techniques.md)
+- parallelism
+  - in Oracle RAC [13.3.7.2](design-and-deployment-techniques.md)
+  - parallel-aware query optimization [13.3.7.1](design-and-deployment-techniques.md)
+- parallel recovery [8.5.2.1](managing-backup-and-recovery.md)
+  - disabling [8.5.2](managing-backup-and-recovery.md)
+- parameter file
+  - overview [3.6](administering-database-instances-and-cluster-databases.md)
+- parameter file search order [3.6.2](administering-database-instances-and-cluster-databases.md)
+- parameters
+  - DB_RECOVERY_FILE_DEST [8.6](managing-backup-and-recovery.md)
+  - that must be identical on all instances [3.7.1](administering-database-instances-and-cluster-databases.md)
+  - that must be unique on all instances [3.7.2](administering-database-instances-and-cluster-databases.md)
+- password file-based authentication [4.3](administering-oracle-rac-one-node.md)
+- PDBs [1.10](introduction-to-oracle-rac.md), [3.3](administering-database-instances-and-cluster-databases.md)
+  - managing [3.3](administering-database-instances-and-cluster-databases.md)
+  - managing services on [6.3.2.2](ensuring-application-continuity.md)
+- performance [14.1.1.3](monitoring-performance.md)
+  - aggregates by services [14.1.1.3](monitoring-performance.md)
+  - comprehensive global data [14.7](monitoring-performance.md)
+  - monitoring activity by wait events, services, and instances [14.1.1.3](monitoring-performance.md)
+  - monitoring database throughput [14.1.1.3](monitoring-performance.md)
+  - monitoring global cache block access [14.1.1.3](monitoring-performance.md)
+  - monitoring potential problems in the database [14.1.1.3](monitoring-performance.md)
+  - primary components affecting [14.2](monitoring-performance.md)
+  - service aggregates by instances [14.1.1.3](monitoring-performance.md)
+  - service aggregates by waits [14.1.1.3](monitoring-performance.md)
+  - using ADDM [1.12.3](introduction-to-oracle-rac.md)
+- performance evaluation
+  - overview and concepts [1.12.4](introduction-to-oracle-rac.md)
+- performance statistics [14.9.5](monitoring-performance.md)
+- PFILE
+  - using with Oracle RAC [3.6](administering-database-instances-and-cluster-databases.md)
+- phases
+  - cloning deployment [9.3](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+  - cloning preparation [9.2](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+- planned maintenance
+  - draining database sessions [6.3.3](ensuring-application-continuity.md)
+  - managing [6.3.1](ensuring-application-continuity.md)
+  - using Application Continuity [6.6.2.7](ensuring-application-continuity.md)
+- pluggable database
+  - See: PDBs
+- policy-managed clusters [1.7.4](introduction-to-oracle-rac.md)
+- policy-managed database [3.1](administering-database-instances-and-cluster-databases.md)
+- policy-managed database instances
+  - adding [12.1](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+- policy-managed databases [1.7](introduction-to-oracle-rac.md), [3.1](administering-database-instances-and-cluster-databases.md), [5.10.2.7](workload-management-with-dynamic-database-services.md)
+  - deleting on Linux and UNIX [11.2.1](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md)
+  - deleting on Windows [12.2.1](adding-and-deleting-oracle-rac-from-nodes-on-windows-systems.md)
+  - deploying [1.7.2](introduction-to-oracle-rac.md)
+  - managing [1.7.3](introduction-to-oracle-rac.md)
+- policy set [1.7.4](introduction-to-oracle-rac.md)
+- PREFERRED instances
+  - for services [5.10.2.5](workload-management-with-dynamic-database-services.md)
+- preferred read disks
+  - Oracle ASM in an Oracle RAC extended distance cluster [2.6.4](administering-storage-in-oracle-rac.md)
+- private clouds [13.1.3.3](design-and-deployment-techniques.md)
+- private interconnect [B.6](troubleshooting-oracle-rac.md)
+  - determining usage [B.6](troubleshooting-oracle-rac.md)
+- private network
+  - alternative interconnect [3.11](administering-database-instances-and-cluster-databases.md)
+  - IP address [14.3](monitoring-performance.md)
+- processes
+  - managed by Oracle Clusterware [1.4](introduction-to-oracle-rac.md)
+- public and private interfaces
+  - shown in Oracle Enterprise Manager [14.1.1.2](monitoring-performance.md)
+- public network
+  - defined [1.5.2](introduction-to-oracle-rac.md)
+
+------------------------------------------------------------------------
+
+## Q
+
+- query optimizer [13.3.7.1](design-and-deployment-techniques.md)
+  - default cost model for [13.3.7.1](design-and-deployment-techniques.md)
+- queue tables [5.10.1.5](workload-management-with-dynamic-database-services.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- reader nodes [1.4.2](introduction-to-oracle-rac.md)
+- rebalancing
+  - workloads [5.6](workload-management-with-dynamic-database-services.md)
+- RECOVER command [3.1.1.3.1](administering-database-instances-and-cluster-databases.md)
+- recovery
+  - from multiple node failure [8.3.2](managing-backup-and-recovery.md)
+  - from single-node failure [8.3.1](managing-backup-and-recovery.md)
+  - media failures [8.4](managing-backup-and-recovery.md)
+  - online [8.3.1](managing-backup-and-recovery.md)
+  - parallel [8.5.2.1](managing-backup-and-recovery.md)
+- RECOVERY_PARALLELISM parameter [8.5.2.1](managing-backup-and-recovery.md)
+- redo log files
+  - instance recovery [8.3.1](managing-backup-and-recovery.md)
+  - log sequence number [7.8](configuring-recovery-manager-and-archiving.md)
+  - using [2.4](administering-storage-in-oracle-rac.md)
+- redo log groups [2.4](administering-storage-in-oracle-rac.md)
+- redo logs
+  - format and destination specifications [7.8](configuring-recovery-manager-and-archiving.md)
+- redo thread [3.1](administering-database-instances-and-cluster-databases.md)
+- reducing contention [13.2](design-and-deployment-techniques.md)
+- regions [13.1.3.3](design-and-deployment-techniques.md)
+- REMOTE_LOGIN_PASSWORDFILE initialization parameter [3.7.1](administering-database-instances-and-cluster-databases.md)
+- remote Oracle Notification Service subscription [5.3.2.1](workload-management-with-dynamic-database-services.md)
+- replicated databases
+  - and global services [5.12](workload-management-with-dynamic-database-services.md)
+- request boundaries [6.4.2](ensuring-application-continuity.md), [6.4.2.2](ensuring-application-continuity.md)
+- resource contention [14.1.1.3](monitoring-performance.md)
+- resource manager [5.6](workload-management-with-dynamic-database-services.md)
+- resource profiles
+  - and service creation [5.10.1.1](workload-management-with-dynamic-database-services.md)
+- resources
+  - memory [3.9](administering-database-instances-and-cluster-databases.md)
+  - releasing [8.3.1](managing-backup-and-recovery.md)
+- restore scenarios
+  - RMAN [8.2](managing-backup-and-recovery.md)
+- restore scheme
+  - cluster file system [8.2.1](managing-backup-and-recovery.md)
+  - local file system [8.2.2](managing-backup-and-recovery.md)
+- RESULT_CACHE_MAX_SIZE initialization parameter [3.7](administering-database-instances-and-cluster-databases.md), [3.7.1](administering-database-instances-and-cluster-databases.md)
+- result cache [3.7](administering-database-instances-and-cluster-databases.md)
+  - disabling [3.7](administering-database-instances-and-cluster-databases.md)
+  - enabling [3.7](administering-database-instances-and-cluster-databases.md)
+- RMAN
+  - CONFIGURE command [7.3](configuring-recovery-manager-and-archiving.md)
+  - configuring channels [7.5](configuring-recovery-manager-and-archiving.md)
+  - configuring channels to use automatic load balancing [7.6](configuring-recovery-manager-and-archiving.md)
+  - configuring one channel for each instance [7.6.2](configuring-recovery-manager-and-archiving.md)
+  - configuring snapshot control file locations [7.3](configuring-recovery-manager-and-archiving.md)
+  - crosschecking on multiple nodes [7.5](configuring-recovery-manager-and-archiving.md)
+  - local archiving scenario [7.9.2](configuring-recovery-manager-and-archiving.md)
+  - restore scenarios [8.2](managing-backup-and-recovery.md)
+  - using to create SPFILE backups [3.6.3](administering-database-instances-and-cluster-databases.md)
+- rolling back
+  - instance recovery [8.3.1](managing-backup-and-recovery.md)
+- root.sh script
+  - \$ORACLE_HOME [9.3](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+- runtime connection load balancing
+  - defined [5.3.7](workload-management-with-dynamic-database-services.md)
+  - in OCI session pools [5.3.7](workload-management-with-dynamic-database-services.md)
+  - introduction to [1.6](introduction-to-oracle-rac.md)
+- Runtime Connection Load Balancing [5.10.2.8](workload-management-with-dynamic-database-services.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- scalability [13.3.5](design-and-deployment-techniques.md)
+  - Oracle RAC [13.1.4](design-and-deployment-techniques.md)
+- scalable sequences [13.1.2](design-and-deployment-techniques.md)
+- scan
+  - SRVCTL object name [A.9](server-control-utility-reference.md)
+- SCAN [1.4](introduction-to-oracle-rac.md)
+- scan_listener
+  - SRVCTL object name [A.9](server-control-utility-reference.md)
+- SCAN listener
+  - and restricting service registration [1.5.5](introduction-to-oracle-rac.md), [5.10.4](workload-management-with-dynamic-database-services.md)
+- scripts
+  - \$ORACLE_HOME/root.sh [9.3](cloning-oracle-rac-to-nodes-in-a-new-cluster.md)
+- sensitivity [13.4.2](design-and-deployment-techniques.md)
+- sequence-based indexes [13.2](design-and-deployment-techniques.md)
+- sequences
+  - log sequence number [7.8](configuring-recovery-manager-and-archiving.md)
+- Server Control Utility
+  - See: SRVCTL
+- server draining [6.3.3](ensuring-application-continuity.md)
+- Server Management
+  - administration of instances [3.1.1](administering-database-instances-and-cluster-databases.md)
+- server parameter files
+  - backing up [3.6.3](administering-database-instances-and-cluster-databases.md)
+  - creating [3.6](administering-database-instances-and-cluster-databases.md)
+- server pool [3.1](administering-database-instances-and-cluster-databases.md)
+- server pools [1.7.1](introduction-to-oracle-rac.md)
+  - creating for a policy-managed database [3.8](administering-database-instances-and-cluster-databases.md)
+  - Generic [3.1](administering-database-instances-and-cluster-databases.md)
+  - XML conversion files for [15.5](converting-single-instance-oracle-databases-to-oracle-rac-and-oracle-rac-one-node.md)
+- servers
+  - relocating from another server pool [3.8](administering-database-instances-and-cluster-databases.md)
+  - scalability [13.1.4](design-and-deployment-techniques.md)
+- service
+  - SRVCTL object name [A.9](server-control-utility-reference.md)
+- SERVICE_NAMES initialization parameter [3.7](administering-database-instances-and-cluster-databases.md)
+  - setting for services [5.11.1](workload-management-with-dynamic-database-services.md)
+- service level objective
+  - defining for Oracle RAC [13.1.1](design-and-deployment-techniques.md)
+- service levels [13.3.6](design-and-deployment-techniques.md)
+- service metrics
+  - OCI runtime connection load balancing [5.3.7](workload-management-with-dynamic-database-services.md)
+  - runtime connection load balancing [5.3.7](workload-management-with-dynamic-database-services.md)
+- services [3.7](administering-database-instances-and-cluster-databases.md)
+  - activity levels aggregated by instances [14.1.1.3](monitoring-performance.md)
+  - activity levels aggregated by services [14.1.1.3](monitoring-performance.md)
+  - activity levels aggregated by waits [14.1.1.3](monitoring-performance.md)
+  - administering [5.11.1](workload-management-with-dynamic-database-services.md)
+  - administering with Oracle Enterprise Manager [5.11](workload-management-with-dynamic-database-services.md)
+  - administering with SRVCTL [5.11](workload-management-with-dynamic-database-services.md), [5.11.3](workload-management-with-dynamic-database-services.md)
+  - attributes
+    - edition [5.10.2.2](workload-management-with-dynamic-database-services.md)
+  - basic concepts about [5.9](workload-management-with-dynamic-database-services.md)
+  - buffer cache access [5.13](workload-management-with-dynamic-database-services.md)
+  - co-location [5.10.2.6](workload-management-with-dynamic-database-services.md)
+  - configuring automatic workload management characteristics [5.10.2](workload-management-with-dynamic-database-services.md)
+  - default [5.10.3](workload-management-with-dynamic-database-services.md)
+  - defining database roles for [5.10.2.4](workload-management-with-dynamic-database-services.md)
+  - dependencies [5.10.1.1](workload-management-with-dynamic-database-services.md)
+  - enabling event notification [5.3.7](workload-management-with-dynamic-database-services.md)
+  - global [5.12](workload-management-with-dynamic-database-services.md)
+  - introduction to [1.6](introduction-to-oracle-rac.md)
+  - level thresholds [5.8](workload-management-with-dynamic-database-services.md)
+  - management policy
+    - automatic [5.10.2.3](workload-management-with-dynamic-database-services.md)
+    - manual [5.10.2.3](workload-management-with-dynamic-database-services.md)
+  - managing after planned maintenance [6.3](ensuring-application-continuity.md)
+  - managing groups of [6.3.2](ensuring-application-continuity.md)
+  - managing on PDBs [6.3.2.2](ensuring-application-continuity.md)
+  - performance monitored by AWR [5.10.1.3](workload-management-with-dynamic-database-services.md)
+  - relocating [5.4.5](workload-management-with-dynamic-database-services.md), [6.3.2.3](ensuring-application-continuity.md)
+  - relocating after planned maintenance [6.3](ensuring-application-continuity.md)
+  - restricting registration with listeners [1.5.5](introduction-to-oracle-rac.md), [5.10.4](workload-management-with-dynamic-database-services.md)
+  - SERVICE_NAMES parameter [3.7](administering-database-instances-and-cluster-databases.md), [5.11.1](workload-management-with-dynamic-database-services.md)
+  - specifying a service [5.11.1](workload-management-with-dynamic-database-services.md)
+  - starting [6.3.2.1](ensuring-application-continuity.md)
+  - starting after planned maintenance [6.3](ensuring-application-continuity.md)
+  - stopping [6.3.2.4](ensuring-application-continuity.md)
+  - stopping after planned maintenance [6.3](ensuring-application-continuity.md)
+  - using [5.9](workload-management-with-dynamic-database-services.md)
+- services for administrator-managed databases [3.8](administering-database-instances-and-cluster-databases.md)
+- SERVICE TIME
+  - load balancing advisory goal [5.2.2](workload-management-with-dynamic-database-services.md)
+- session restore after failover [6.6.2.5.3](ensuring-application-continuity.md)
+- session state consistency [6.6.6](ensuring-application-continuity.md)
+  - auto [6.6.6.1](ensuring-application-continuity.md)
+  - dynamic [6.6.6.2](ensuring-application-continuity.md)
+  - static [6.6.6.3](ensuring-application-continuity.md)
+- setting instances [1.12.2](introduction-to-oracle-rac.md), [3.1.1.3](administering-database-instances-and-cluster-databases.md)
+- shared everything [1.5.1](introduction-to-oracle-rac.md)
+- shared server configuration [3.7](administering-database-instances-and-cluster-databases.md)
+- SHOW INSTANCE command [3.1.1.3.1](administering-database-instances-and-cluster-databases.md)
+- SHOW PARAMETER command [3.1.1.3.1](administering-database-instances-and-cluster-databases.md)
+- SHOW SGA command [3.1.1.3.1](administering-database-instances-and-cluster-databases.md)
+- SHUTDOWN ABORT [B.5](troubleshooting-oracle-rac.md)
+- SHUTDOWN command [3.1.1.3.1](administering-database-instances-and-cluster-databases.md)
+- SHUTDOWN IMMEDIATE [B.5](troubleshooting-oracle-rac.md)
+- sidalrt.log file [B.3](troubleshooting-oracle-rac.md)
+- single client access name
+  - See: SCAN
+- Single Client Access Name (SCAN)
+  - SRVCTL object name [A.9](server-control-utility-reference.md)
+- single-instance database
+  - convert to Oracle RAC database
+    - administrative considerations [15.1](converting-single-instance-oracle-databases-to-oracle-rac-and-oracle-rac-one-node.md)
+- single-instance databases
+  - converting [15.3.4](converting-single-instance-oracle-databases-to-oracle-rac-and-oracle-rac-one-node.md)
+  - converting to Oracle RAC database [15](converting-single-instance-oracle-databases-to-oracle-rac-and-oracle-rac-one-node.md)
+- single system image [1.5.6](introduction-to-oracle-rac.md)
+- SMON process
+  - instance recovery [8.3.1](managing-backup-and-recovery.md), [8.3.2](managing-backup-and-recovery.md)
+- snapshot control file [7.3](configuring-recovery-manager-and-archiving.md)
+  - configuring locations [7.3](configuring-recovery-manager-and-archiving.md)
+- speed-up for data warehouse systems [13.3.7.1](design-and-deployment-techniques.md)
+- SPFILE
+  - backing up [3.6.3](administering-database-instances-and-cluster-databases.md)
+  - backups
+    - creating [3.6.3](administering-database-instances-and-cluster-databases.md)
+  - changing parameter settings [3.6](administering-database-instances-and-cluster-databases.md)
+  - corrupted [3.6.1](administering-database-instances-and-cluster-databases.md)
+  - default names [3.6.2](administering-database-instances-and-cluster-databases.md)
+  - location [3.6](administering-database-instances-and-cluster-databases.md)
+  - naming convention for [3.6.2](administering-database-instances-and-cluster-databases.md)
+  - recovering [3.6.3](administering-database-instances-and-cluster-databases.md)
+  - restore with Oracle Enterprise Manager [8.2.3](managing-backup-and-recovery.md)
+  - restore with RMAN [8.2.3](managing-backup-and-recovery.md)
+  - setting values in [3.6.1](administering-database-instances-and-cluster-databases.md)
+- SPFILE initialization parameter [3.7](administering-database-instances-and-cluster-databases.md), [3.7.3](administering-database-instances-and-cluster-databases.md)
+- SQL\*Plus [3.1.1.3](administering-database-instances-and-cluster-databases.md)
+  - effect of commands on instances [3.1.1.3.1](administering-database-instances-and-cluster-databases.md)
+- SQL statements
+  - instance-specific [3.1.1.3.1](administering-database-instances-and-cluster-databases.md)
+- SRVCTL
+  - administering Oracle ASM instances [2.6.6](administering-storage-in-oracle-rac.md)
+  - administering services with [5.11.3](workload-management-with-dynamic-database-services.md)
+  - cluster database configuration tasks [A.4](server-control-utility-reference.md)
+  - cluster database tasks [A.4](server-control-utility-reference.md)
+  - command feedback [A.1](server-control-utility-reference.md)
+  - commands
+    - add database [A.9.1](server-control-utility-reference.md)
+    - add instance [A.9.29](server-control-utility-reference.md)
+    - add listener [A.9.38](server-control-utility-reference.md)
+    - add network [A.9.52](server-control-utility-reference.md)
+    - add nodeapps [A.9.57](server-control-utility-reference.md)
+    - add ons [A.9.69](server-control-utility-reference.md)
+    - add scan [A.9.78](server-control-utility-reference.md)
+    - add scan_listener [A.9.89](server-control-utility-reference.md)
+    - add service [A.9.103](server-control-utility-reference.md)
+    - add srvpool [A.9.114](server-control-utility-reference.md)
+    - add vip [A.9.119](server-control-utility-reference.md)
+    - config database [A.9.2](server-control-utility-reference.md)
+    - config network [A.9.53](server-control-utility-reference.md)
+    - config nodeapps [A.9.58](server-control-utility-reference.md)
+    - config ons [A.9.70](server-control-utility-reference.md)
+    - config scan [A.9.79](server-control-utility-reference.md)
+    - config scan_listener [A.9.90](server-control-utility-reference.md)
+    - config service [A.9.104](server-control-utility-reference.md)
+    - config srvpool [A.9.115](server-control-utility-reference.md)
+    - config vip [A.9.120](server-control-utility-reference.md)
+    - config volume [A.9.133](server-control-utility-reference.md)
+    - convert database [A.9.3](server-control-utility-reference.md)
+    - disable database [A.9.4](server-control-utility-reference.md)
+    - disable diskgroup [A.9.19](server-control-utility-reference.md)
+    - disable instance [A.9.30](server-control-utility-reference.md)
+    - disable listener [A.9.40](server-control-utility-reference.md)
+    - disable nodeapps [A.9.59](server-control-utility-reference.md)
+    - disable ons [A.9.71](server-control-utility-reference.md)
+    - disable scan [A.9.80](server-control-utility-reference.md)
+    - disable scan_listener [A.9.91](server-control-utility-reference.md)
+    - disable service [A.9.105](server-control-utility-reference.md)
+    - disable vip [A.9.121](server-control-utility-reference.md)
+    - disable volume [A.9.134](server-control-utility-reference.md)
+    - downgrade database [A.9.5](server-control-utility-reference.md)
+    - enable database [A.9.6](server-control-utility-reference.md)
+    - enable diskgroup [A.9.20](server-control-utility-reference.md)
+    - enable instance [A.9.31](server-control-utility-reference.md)
+    - enable listener [A.9.41](server-control-utility-reference.md)
+    - enable nodeapps [A.9.60](server-control-utility-reference.md)
+    - enable ons [A.9.72](server-control-utility-reference.md)
+    - enable scan [A.9.81](server-control-utility-reference.md)
+    - enable scan_listener [A.9.92](server-control-utility-reference.md)
+    - enable service [A.9.106](server-control-utility-reference.md)
+    - enable vip [A.9.122](server-control-utility-reference.md)
+    - enable volume [A.9.135](server-control-utility-reference.md)
+    - -eval parameter [A.1](server-control-utility-reference.md)
+    - getenv database [A.9.7](server-control-utility-reference.md)
+    - getenv listener [A.9.42](server-control-utility-reference.md)
+    - getenv nodeapps [A.9.61](server-control-utility-reference.md), [A.9.123](server-control-utility-reference.md)
+    - help [A.5](server-control-utility-reference.md)
+    - modify database [A.9.8](server-control-utility-reference.md)
+    - modify instance [A.9.32](server-control-utility-reference.md)
+    - modify listener [A.9.43](server-control-utility-reference.md)
+    - modify network [A.9.54](server-control-utility-reference.md)
+    - modify nodeapps [A.9.62](server-control-utility-reference.md)
+    - modify ons [A.9.73](server-control-utility-reference.md)
+    - modify scan [A.9.82](server-control-utility-reference.md)
+    - modify scan_listener [A.9.93](server-control-utility-reference.md)
+    - modify service [A.9.107](server-control-utility-reference.md)
+    - modify srvpool [A.9.116](server-control-utility-reference.md)
+    - modify vip [A.9.124](server-control-utility-reference.md)
+    - predict database [A.9.9](server-control-utility-reference.md)
+    - predict diskgroup [A.9.21](server-control-utility-reference.md)
+    - predict listener [A.9.44](server-control-utility-reference.md)
+    - predict network [A.9.55](server-control-utility-reference.md)
+    - predict scan [A.9.83](server-control-utility-reference.md)
+    - predict scan_listener [A.9.94](server-control-utility-reference.md)
+    - predict service [A.9.108](server-control-utility-reference.md)
+    - predict vip [A.9.125](server-control-utility-reference.md)
+    - relocate database [A.9.10](server-control-utility-reference.md)
+    - relocate scan [A.9.84](server-control-utility-reference.md)
+    - relocate scan_listener [A.9.95](server-control-utility-reference.md)
+    - relocate server [A.9.101](server-control-utility-reference.md)
+    - relocate service [A.9.109](server-control-utility-reference.md)
+    - relocate vip [A.9.126](server-control-utility-reference.md)
+    - remove database [A.9.11](server-control-utility-reference.md)
+    - remove diskgroup [A.9.22](server-control-utility-reference.md)
+    - remove instance [A.9.33](server-control-utility-reference.md)
+    - remove listener [A.9.45](server-control-utility-reference.md)
+    - remove network [A.9.56](server-control-utility-reference.md)
+    - remove nodeapps [A.9.63](server-control-utility-reference.md)
+    - remove ons [A.9.74](server-control-utility-reference.md)
+    - remove scan [A.9.85](server-control-utility-reference.md)
+    - remove scan_listener [A.9.96](server-control-utility-reference.md)
+    - remove service [A.9.110](server-control-utility-reference.md)
+    - remove srvpool [A.9.117](server-control-utility-reference.md)
+    - remove vip [A.9.127](server-control-utility-reference.md)
+    - remove volume [A.9.136](server-control-utility-reference.md)
+    - setenv database [A.9.12](server-control-utility-reference.md), [A.9.128](server-control-utility-reference.md)
+    - setenv listener [A.9.46](server-control-utility-reference.md)
+    - setenv nodeapps [A.9.64](server-control-utility-reference.md)
+    - srvctl setenv [3.1.1.1](administering-database-instances-and-cluster-databases.md)
+    - start database [3.2.1](administering-database-instances-and-cluster-databases.md), [A.9.13](server-control-utility-reference.md)
+    - start diskgroup [A.9.23](server-control-utility-reference.md)
+    - start home [A.9.26](server-control-utility-reference.md)
+    - start instance [3.2.1](administering-database-instances-and-cluster-databases.md), [A.9.34](server-control-utility-reference.md)
+    - start listener [A.9.47](server-control-utility-reference.md)
+    - start nodeapps [A.9.65](server-control-utility-reference.md)
+    - start ons [A.9.75](server-control-utility-reference.md)
+    - start scan [A.9.86](server-control-utility-reference.md)
+    - start scan_listener [A.9.97](server-control-utility-reference.md)
+    - start service [A.9.111](server-control-utility-reference.md)
+    - start vip [A.9.129](server-control-utility-reference.md)
+    - start volume [A.9.137](server-control-utility-reference.md)
+    - status database [A.9.14](server-control-utility-reference.md)
+    - status diskgroup [A.9.24](server-control-utility-reference.md)
+    - status home [A.9.27](server-control-utility-reference.md)
+    - status listener [A.9.48](server-control-utility-reference.md)
+    - status nodeapps [A.9.66](server-control-utility-reference.md)
+    - status ons [A.9.76](server-control-utility-reference.md)
+    - status scan [A.9.87](server-control-utility-reference.md)
+    - status scan_listener [A.9.98](server-control-utility-reference.md)
+    - status server [A.9.102](server-control-utility-reference.md)
+    - status service [A.9.112](server-control-utility-reference.md)
+    - status srvpool [A.9.118](server-control-utility-reference.md)
+    - status vip [A.9.130](server-control-utility-reference.md)
+    - status volume [A.9.138](server-control-utility-reference.md)
+    - stop database [3.2.1](administering-database-instances-and-cluster-databases.md), [A.9.15](server-control-utility-reference.md)
+    - stop diskgroup [A.9.25](server-control-utility-reference.md)
+    - stop home [A.9.28](server-control-utility-reference.md)
+    - stop instance [A.9.36](server-control-utility-reference.md)
+    - stop listener [A.9.49](server-control-utility-reference.md)
+    - stop nodeapps [A.9.67](server-control-utility-reference.md)
+    - stop ons [A.9.77](server-control-utility-reference.md)
+    - stop scan [A.9.88](server-control-utility-reference.md)
+    - stop scan_listener [A.9.99](server-control-utility-reference.md)
+    - stop service [A.9.113](server-control-utility-reference.md)
+    - stop vip [A.9.131](server-control-utility-reference.md)
+    - stop volume [A.9.139](server-control-utility-reference.md)
+    - unsetenv database [A.9.16](server-control-utility-reference.md), [A.9.132](server-control-utility-reference.md)
+    - unsetenv listener [A.9.50](server-control-utility-reference.md)
+    - unsetenv nodeapps [A.9.68](server-control-utility-reference.md)
+    - update database [A.9.17](server-control-utility-reference.md)
+    - update instance [A.9.37](server-control-utility-reference.md)
+    - update listener [A.9.51](server-control-utility-reference.md)
+    - update scan_listener [A.9.100](server-control-utility-reference.md)
+    - upgrade database [A.9.18](server-control-utility-reference.md)
+  - command syntax [A.9](server-control-utility-reference.md)
+  - concurrent commands [A.1](server-control-utility-reference.md)
+  - deprecated commands and options [A.8](server-control-utility-reference.md)
+  - deprecated commands and parameters [A.8.2](server-control-utility-reference.md)
+  - difference between SRVCTL and CRSCTL [A.7](server-control-utility-reference.md)
+  - enabling event notification [5.3.7](workload-management-with-dynamic-database-services.md)
+  - node-level tasks [A.4](server-control-utility-reference.md)
+  - object name
+    - database [A.9](server-control-utility-reference.md)
+    - diskgroup [A.9](server-control-utility-reference.md)
+    - home [A.9](server-control-utility-reference.md)
+    - instance [A.9](server-control-utility-reference.md)
+    - listener [A.9](server-control-utility-reference.md)
+    - network [A.9](server-control-utility-reference.md)
+    - node applications (nodeapps) [A.9](server-control-utility-reference.md)
+    - Oracle Notification Service [A.9](server-control-utility-reference.md)
+    - scan [A.9](server-control-utility-reference.md)
+    - scan_listener [A.9](server-control-utility-reference.md)
+    - service [A.9](server-control-utility-reference.md)
+    - srvpool [A.9](server-control-utility-reference.md)
+    - vip [A.9](server-control-utility-reference.md)
+    - volume [A.9](server-control-utility-reference.md)
+  - object names [A.9](server-control-utility-reference.md)
+  - overview [3.1.1.1](administering-database-instances-and-cluster-databases.md)
+  - overview and concepts [1.12.2](introduction-to-oracle-rac.md)
+  - single-character parameters [A.8.1](server-control-utility-reference.md)
+  - specifying a continuation of command line entries [A.1](server-control-utility-reference.md)
+  - stop or start cluster database [3.2.1](administering-database-instances-and-cluster-databases.md)
+  - stopping active commands [A.7](server-control-utility-reference.md)
+  - using comma-delimited lists [A.1](server-control-utility-reference.md)
+- SRVCTL commands
+  - config listener [A.9.39](server-control-utility-reference.md)
+- SRVM_TRACE environment variable [B.4](troubleshooting-oracle-rac.md)
+- srvpool
+  - SRVCTL object name [A.9](server-control-utility-reference.md)
+- starting administrator-managed databases [3.2.1](administering-database-instances-and-cluster-databases.md)
+- starting policy-managed databases [3.2.1](administering-database-instances-and-cluster-databases.md)
+- STARTUP command [3.1.1.3.1](administering-database-instances-and-cluster-databases.md)
+- static session state consistency [6.6.6](ensuring-application-continuity.md)
+- statistics
+  - contents of [14.6](monitoring-performance.md)
+- Statspack [14.9](monitoring-performance.md), [14.9.1](monitoring-performance.md)
+  - alternatives [1.12.3](introduction-to-oracle-rac.md)
+  - usage [1.12.3](introduction-to-oracle-rac.md)
+- stop database instances [3.2.1](administering-database-instances-and-cluster-databases.md)
+- storage
+  - administering in Oracle RAC [2](administering-storage-in-oracle-rac.md)
+  - cluster file system [2.1](administering-storage-in-oracle-rac.md)
+  - Oracle Automatic Storage Management (Oracle ASM) [2.6.1](administering-storage-in-oracle-rac.md)
+- subnet
+  - configuring for virtual IP address [A.4](server-control-utility-reference.md)
+- subnets [1.5.4](introduction-to-oracle-rac.md)
+- SYSASM privilege [3.1.1.3](administering-database-instances-and-cluster-databases.md)
+- SYSAUX tablespace
+  - increasing size when adding nodes [13.3.3](design-and-deployment-techniques.md)
+  - reducing size when removing nodes [13.3.3](design-and-deployment-techniques.md)
+- SYSDBA [3.1.1.3](administering-database-instances-and-cluster-databases.md)
+- SYSOPER [3.1.1.3](administering-database-instances-and-cluster-databases.md)
+- SYSRAC connections to an Oracle ASM instance [3.1.1.3](administering-database-instances-and-cluster-databases.md)
+- system change [7.8](configuring-recovery-manager-and-archiving.md)
+- System Global Area (SGA) [1.5.6](introduction-to-oracle-rac.md), [14.8.1](monitoring-performance.md)
+  - size requirements [1.5.6](introduction-to-oracle-rac.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- tablespaces
+  - automatic segment space management (ASSM) in Oracle RAC [13.3.1](design-and-deployment-techniques.md)
+  - automatic undo management in Oracle RAC [13.3.1](design-and-deployment-techniques.md)
+  - locally managed [13.3.1](design-and-deployment-techniques.md)
+  - use in Oracle RAC [13.3.1](design-and-deployment-techniques.md)
+- TCP/IP [1.5.3](introduction-to-oracle-rac.md)
+- TCP network ports
+  - Windows Firewall considerations [13.3.8.2](design-and-deployment-techniques.md)
+- THREAD initialization parameter [3.7](administering-database-instances-and-cluster-databases.md)
+- threads
+  - multiple application [5.3.7](workload-management-with-dynamic-database-services.md)
+- timed statistics [14.6](monitoring-performance.md)
+- tnsnames.ora file [3.7](administering-database-instances-and-cluster-databases.md)
+- Top Activity drill down menu
+  - on the Cluster Database Performance page [14.1.1.3](monitoring-performance.md)
+- Top Cluster Events [14.8.2](monitoring-performance.md)
+- Top Cluster Events, ASH report [14.8.2](monitoring-performance.md)
+- Top Remote Instance [14.8.3](monitoring-performance.md)
+- Top Remote Instance, ASH report [14.8.3](monitoring-performance.md)
+- TRACE_ENABLED initialization parameter [3.7.3](administering-database-instances-and-cluster-databases.md)
+- trace files [B.1](troubleshooting-oracle-rac.md)
+  - for background processes [B.1](troubleshooting-oracle-rac.md)
+  - managing [B.1](troubleshooting-oracle-rac.md)
+  - sidalrt.log [B.3](troubleshooting-oracle-rac.md)
+- trace logs [13.4.3](design-and-deployment-techniques.md)
+- tracing
+  - enabling Java-based tools and utilities [B.4](troubleshooting-oracle-rac.md)
+  - SRVM_TRACE environment variable [B.4](troubleshooting-oracle-rac.md)
+  - writing to log files [B.4](troubleshooting-oracle-rac.md)
+- transactional TAF [5.3.8](workload-management-with-dynamic-database-services.md)
+- transaction failover [6.9](ensuring-application-continuity.md)
+- Transaction Guard [6.9](ensuring-application-continuity.md)
+  - configuring JDBC-thin clients [5.3.4](workload-management-with-dynamic-database-services.md), [5.3.5](workload-management-with-dynamic-database-services.md)
+  - configuring OCI clients [5.3.8](workload-management-with-dynamic-database-services.md)
+  - configuring service attributes [5.11.3.2](workload-management-with-dynamic-database-services.md)
+  - configuring services for [6.9.2](ensuring-application-continuity.md)
+  - introduction to [1.6](introduction-to-oracle-rac.md)
+  - transaction history table [6.9.1](ensuring-application-continuity.md)
+- transaction history table [6.9.1](ensuring-application-continuity.md)
+- transaction idempotence [6.9](ensuring-application-continuity.md)
+- transactions
+  - distributed SQL [5.4.1](workload-management-with-dynamic-database-services.md)
+  - DTP/XA [5.4.1](workload-management-with-dynamic-database-services.md)
+  - instance failure [8.3.1](managing-backup-and-recovery.md)
+  - rolling back [8.3.1](managing-backup-and-recovery.md)
+  - waiting for recovery [8.3.1](managing-backup-and-recovery.md)
+- Transparent Application Continuity [6.4.2](ensuring-application-continuity.md), [6.4.2.1](ensuring-application-continuity.md)
+- transparent application failover (TAF)
+  - and services [6.10](ensuring-application-continuity.md)
+- tuning
+  - using ADDM [1.12.3](introduction-to-oracle-rac.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- UNDO_MANAGEMENT initialization parameter [3.7.1](administering-database-instances-and-cluster-databases.md)
+- UNDO_RETENTION initialization parameter [3.7.3](administering-database-instances-and-cluster-databases.md)
+- UNDO_TABLESPACE parameter [3.7.2](administering-database-instances-and-cluster-databases.md)
+- undo tablespace [3.1](administering-database-instances-and-cluster-databases.md)
+- upgrades
+  - changing management policy for [3.12](administering-database-instances-and-cluster-databases.md)
+- User Datagram Protocol (UDP) [B.6](troubleshooting-oracle-rac.md)
+- user process trace files [B.1](troubleshooting-oracle-rac.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- V\$CLUSTER_INTERCONNECTS [14.2](monitoring-performance.md), [B.6](troubleshooting-oracle-rac.md)
+- V\$CONFIGURED_INTERCONNECTS [14.2](monitoring-performance.md)
+- V\$ view [14.4](monitoring-performance.md)
+- V\$ views [1.12.3](introduction-to-oracle-rac.md)
+- valid node checking [1.5.5](introduction-to-oracle-rac.md), [5.10.4](workload-management-with-dynamic-database-services.md)
+- vendor clusterware [1.1](introduction-to-oracle-rac.md)
+- verification
+  - data files, online files [2.2](administering-storage-in-oracle-rac.md)
+- versions
+  - compatibility for Oracle RAC and Oracle Database software [1.2.1](introduction-to-oracle-rac.md)
+- views
+  - creating for Oracle Real Application Clusters [14.5](monitoring-performance.md)
+  - dynamic performance
+    - for performance monitoring [14.4](monitoring-performance.md)
+    - GV\$ [14.4](monitoring-performance.md)
+  - for performance monitoring [14.4](monitoring-performance.md)
+  - instance-specific [14.4](monitoring-performance.md)
+    - V\$ views [14.4](monitoring-performance.md)
+- VIP
+  - SRVCTL object name [A.9](server-control-utility-reference.md)
+- VIPs
+  - node [1.5.4](introduction-to-oracle-rac.md)
+- Virtual Internet Protocol (VIP) address [1.1](introduction-to-oracle-rac.md)
+- virtual IP address
+  - requirements [A.4](server-control-utility-reference.md)
+- VNCR
+  - See: valid node checking
+- volume
+  - SRVCTL object name [A.9](server-control-utility-reference.md)
+
+------------------------------------------------------------------------
+
+## W
+
+- wait events [14.9](monitoring-performance.md), [14.9.1](monitoring-performance.md)
+  - aggregated for service performance [14.1.1.3](monitoring-performance.md)
+  - block-related [14.9.5.1](monitoring-performance.md)
+  - contention-related [14.9.5.3](monitoring-performance.md)
+  - load-related [14.9.5.4](monitoring-performance.md)
+  - message-related [14.9.5.2](monitoring-performance.md)
+- wallet
+  - create [6.6.2.5.5](ensuring-application-continuity.md)
+- Welcome page [11.1.2.1](adding-and-deleting-oracle-rac-from-nodes-on-linux-and-unix-systems.md)
+- Windows Firewall [13.3.8.2](design-and-deployment-techniques.md)
+- workload management
+  - See: automatic workload management
+- workloads
+  - and services [5.9](workload-management-with-dynamic-database-services.md)
+  - See Also automatic workload management [5.9](workload-management-with-dynamic-database-services.md)
+
+------------------------------------------------------------------------
+
+## X
+
+- XA affinity [5.4.2](workload-management-with-dynamic-database-services.md)
+- XA transactions [5.4.1](workload-management-with-dynamic-database-services.md)
+  - spanning Oracle RAC instances [5.4.1](workload-management-with-dynamic-database-services.md)
+  - using services with [5.4.3](workload-management-with-dynamic-database-services.md)
+- XA Transactions [13.3.4](design-and-deployment-techniques.md)
