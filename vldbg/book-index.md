@@ -1,0 +1,1431 @@
+A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  
+
+------------------------------------------------------------------------
+
+## A
+
+- adaptive algorithm [8.2.6](degree-parallel.md)
+- adding ILM policies
+  - for Automatic Data Optimization [5.2.2.3](ilm-strategy-heatmap-ado.md)
+- adding index partitions [4.4.2.9](maintenance-partition-tables-indexes.md)
+- adding multiple partitions [4.4.2.10](maintenance-partition-tables-indexes.md)
+- adding partitions
+  - composite hash-partitioned tables [4.4.2.5](maintenance-partition-tables-indexes.md)
+  - composite list-partitioned tables [4.4.2.6](maintenance-partition-tables-indexes.md)
+  - composite range-partitioned tables [4.4.2.7](maintenance-partition-tables-indexes.md)
+  - hash-partitioned tables [4.4.2.2](maintenance-partition-tables-indexes.md)
+  - interval-partitioned tables [4.4.2.4](maintenance-partition-tables-indexes.md)
+  - list-partitioned tables [4.4.2.3](maintenance-partition-tables-indexes.md)
+  - partitioned tables [4.4.2](maintenance-partition-tables-indexes.md)
+  - range-partitioned tables [4.4.2.1](maintenance-partition-tables-indexes.md)
+  - reference-partitioned tables [4.4.2.8](maintenance-partition-tables-indexes.md)
+- ADD PARTITION clause [4.4.2.1](maintenance-partition-tables-indexes.md)
+- ADD SUBPARTITION clause [4.4.2.5.2](maintenance-partition-tables-indexes.md), [4.4.2.6.2](maintenance-partition-tables-indexes.md), [4.4.2.7.2](maintenance-partition-tables-indexes.md)
+- ALTER INDEX statement
+  - partition attributes [3.3.8](index-partitioning.md)
+- ALTER SESSION statement
+  - ENABLE PARALLEL DML clause [8.5.3.2](types-parallelism.md)
+  - FORCE PARALLEL DDL clause [8.5.1.5](types-parallelism.md), [8.5.2.7](types-parallelism.md)
+  - FORCE PARALLEL DML clause [8.5.3.3](types-parallelism.md), [8.5.3.4](types-parallelism.md)
+- ALTER TABLE statement
+  - MODIFY DEFAULT ATTRIBUTES clause [4.4.7.1.1](maintenance-partition-tables-indexes.md)
+  - MODIFY DEFAULT ATTRIBUTES FOR PARTITION clause [4.4.7.1.2](maintenance-partition-tables-indexes.md), [4.4.7.1.3](maintenance-partition-tables-indexes.md)
+- applications
+  - decision support system (DSS)
+    - parallel SQL [8.5.2.2](types-parallelism.md)
+  - direct-path INSERT [8.5.3.1.4](types-parallelism.md)
+  - parallel DML operations [8.5.3.1](types-parallelism.md)
+- asynchronous communication
+  - parallel execution servers [8.1.4.5](parallel-exec-intro.md)
+- asynchronous global index maintenance
+  - for dropping and truncating partitions [4.3.2](maintenance-partition-can-be-performed.md)
+- asynchronous I/O [8.6.3.3.4](parameters-parallel-exec.md)
+- Automatic big table caching
+  - about [8.3.2](inmemory-parallel-exec.md)
+- Automatic Data Optimization
+  - adding ILM policies [5.2.2.3](ilm-strategy-heatmap-ado.md)
+  - and heat map [5.2](ilm-strategy-heatmap-ado.md)
+  - DBMS_ILM_ADMIN package [5.2.2.8](ilm-strategy-heatmap-ado.md)
+  - DBMS_ILM package [5.2.2.8](ilm-strategy-heatmap-ado.md)
+  - deleting ILM policies [5.2.2.4](ilm-strategy-heatmap-ado.md)
+  - disabling ILM policies [5.2.2.4](ilm-strategy-heatmap-ado.md)
+  - ILM ADO parameters [5.2.2.7](ilm-strategy-heatmap-ado.md)
+  - limitations [5.2.3](ilm-strategy-heatmap-ado.md)
+  - managing ILM policies [5.2.2.1](ilm-strategy-heatmap-ado.md)
+  - managing with Oracle Enterprise Manager [5.5](heatmap-ado-em.md)
+  - monitoring DBA and ILM policy views [5.2.2.9](ilm-strategy-heatmap-ado.md)
+  - row-level compression tiering [5.2.2.6](ilm-strategy-heatmap-ado.md)
+  - segment-level compression tiering [5.2.2.5](ilm-strategy-heatmap-ado.md)
+  - views for ILM policies [5.2.2.9](ilm-strategy-heatmap-ado.md)
+- Automatic Data Optimization (ADO)
+  - for Information Lifecycle Management strategy [5.2.2](ilm-strategy-heatmap-ado.md)
+- automatic list partitioning
+  - creating tables using [4.1.4.3](partition-create-tables-indexes.md)
+
+------------------------------------------------------------------------
+
+## B
+
+- backing up and recovering
+  - very large databases (VLDBs) [9](vldb-backup.md)
+- bigfile tablespaces
+  - very large databases (VLDBs) [10.2.5](vldb-storage.md)
+- binary XML tables
+  - partitioning of XMLIndex [4.1.17.2](partition-create-tables-indexes.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- COALESCE PARTITION clause [4.4.3.1](maintenance-partition-tables-indexes.md)
+- collections
+  - tables [4.1.17.1](partition-create-tables-indexes.md)
+  - XMLType [2.1.11](partition-concepts.md), [4.1.17](partition-create-tables-indexes.md)
+- collection tables
+  - performing PMOs on partitions [4.1.17.1](partition-create-tables-indexes.md)
+- composite hash-hash partitioning [2.3.2.7](partition-concepts.md)
+- composite hash-list partitioning [2.3.2.8](partition-concepts.md)
+- composite hash partitioned tables
+  - creating [4.2.1](create-composite-partition-table.md)
+- composite hash-partitioned tables
+  - adding partitions [4.4.2.5](maintenance-partition-tables-indexes.md)
+- composite hash-range partitioning [2.3.2.9](partition-concepts.md)
+- composite interval partitioning
+  - creating tables using [4.2.2](create-composite-partition-table.md)
+- composite list-hash partitioning [2.3.2.5](partition-concepts.md)
+  - performance considerations [3.5.4.4](recommendations-partition-strategy.md)
+- composite list-list partitioning [2.3.2.6](partition-concepts.md)
+  - performance considerations [3.5.4.5](recommendations-partition-strategy.md)
+- composite list-partitioned tables
+  - adding partitions [4.4.2.6](maintenance-partition-tables-indexes.md)
+- composite list partitioning
+  - creating tables using [4.2.3](create-composite-partition-table.md)
+- composite list-range partitioning [2.3.2.4](partition-concepts.md)
+  - performance considerations [3.5.4.6](recommendations-partition-strategy.md)
+- composite partitioned tables
+  - creating [4.2](create-composite-partition-table.md)
+- composite partitioning [2.3.2](partition-concepts.md)
+  - default partition [4.2.4.2.2](create-composite-partition-table.md)
+  - interval-hash [4.2.2.1](create-composite-partition-table.md)
+  - interval-list [4.2.2.2](create-composite-partition-table.md)
+  - interval-range [4.2.2.3](create-composite-partition-table.md)
+  - list-hash [4.2.3.1](create-composite-partition-table.md)
+  - list-list [4.2.3.2](create-composite-partition-table.md)
+  - list-range [4.2.3.3](create-composite-partition-table.md)
+  - performance considerations [3.5.4](recommendations-partition-strategy.md)
+  - range-hash [4.2.4.1](create-composite-partition-table.md)
+  - range-list [4.2.4.2](create-composite-partition-table.md)
+  - range-range [4.2.4.3](create-composite-partition-table.md)
+  - subpartition template, modifying [4.3.3](maintenance-partition-can-be-performed.md)
+- composite range-\* partitioned tables
+  - creating [4.2.4](create-composite-partition-table.md)
+- composite range-hash partitioning [2.3.2.2](partition-concepts.md)
+  - performance considerations [3.5.4.1](recommendations-partition-strategy.md)
+- composite range-interval partitioning
+  - creating tables using [4.2.2](create-composite-partition-table.md)
+- composite range-list partitioned tables
+  - creating [4.2.4.2.1](create-composite-partition-table.md)
+- composite range-list partitioning [2.3.2.3](partition-concepts.md)
+  - performance considerations [3.5.4.2](recommendations-partition-strategy.md)
+- composite range-partitioned tables
+  - adding partitions [4.4.2.7](maintenance-partition-tables-indexes.md)
+- composite range-range partitioning [2.3.2.1](partition-concepts.md)
+  - performance considerations [3.5.4.3](recommendations-partition-strategy.md)
+- compression
+  - partitioning [3.4](partition-table-compression.md)
+- compression table
+  - partitioning [3.4](partition-table-compression.md)
+- concurrent execution of union all [8.5.3.14](types-parallelism.md)
+- constraints
+  - parallel create table [8.5.2.8](types-parallelism.md)
+- consumer operations [8.1.4.2](parallel-exec-intro.md)
+- CREATE INDEX statement
+  - partition attributes [3.3.8](index-partitioning.md)
+  - partitioned indexes [4.1.1.3](partition-create-tables-indexes.md)
+- CREATE TABLE AS SELECT statement
+  - decision support system [8.5.2.2](types-parallelism.md)
+- CREATE TABLE statement
+  - AS SELECT
+    - rules of parallelism [8.5.2.8](types-parallelism.md)
+    - space fragmentation [8.5.2.6](types-parallelism.md)
+    - temporary storage space [8.5.2.5](types-parallelism.md)
+  - parallelism [8.5.2.2](types-parallelism.md)
+- creating hash partitioned tables
+  - examples [4.1.3.1](partition-create-tables-indexes.md)
+- creating indexes on partitioned tables
+  - restrictions [2.5.5](partition-concepts.md)
+- creating interval partitions
+  - INTERVAL clause of CREATE TABLE [4.1.2](partition-create-tables-indexes.md)
+- creating partitions [4.1](partition-create-tables-indexes.md)
+- creating segments on demand
+  - maintenance procedures [4.1.14.3](partition-create-tables-indexes.md)
+- critical consumer group
+  - specifying for parallel statement queuing [8.4.1.5](about-parallel-queuing.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- data
+  - parallel DML restrictions and integrity rules [8.5.3.10](types-parallelism.md)
+- databases
+  - partitioning, and [1.4](partition-intro.md)
+  - scalability [8.5.3.1](types-parallelism.md)
+- database writer process (DBWn)
+  - tuning [8.8.4.6](parallel-exec-tips.md)
+- data loading
+  - incremental in parallel [8.8.7](parallel-exec-tips.md)
+- data manipulation language
+  - parallel DML operations [8.5.3](types-parallelism.md)
+  - transaction model for parallel DML operations [8.5.3.5](types-parallelism.md)
+- data segment compression
+  - bitmap indexes [3.4.1](partition-table-compression.md)
+  - example [3.4.2](partition-table-compression.md)
+  - partitioning [3.4](partition-table-compression.md)
+- data warehouses
+  - about [6.1](partition-warehouse.md)
+  - advanced partition pruning [6.3.1.2](partition-warehouse.md)
+  - ARCHIVELOG mode for recovery [9.4.1](vldb-backup.md)
+  - backing up and recovering [9.1](vldb-backup.md)
+  - backing up and recovering characteristics [9.1.1](vldb-backup.md)
+  - backing up tables on individual basis [9.4.7](vldb-backup.md)
+  - backup and recovery [9.3](vldb-backup.md)
+  - basic partition pruning [6.3.1.1](partition-warehouse.md)
+  - block change tracking for backups [9.4.3](vldb-backup.md)
+  - data compression and partitioning [6.4.4](partition-warehouse.md)
+  - differences with online transaction processing backups [9.1.1](vldb-backup.md)
+  - extract, transform, and load for backup and recovery [9.4.6.1](vldb-backup.md)
+  - extract, transform, and load strategy [9.4.6.2](vldb-backup.md)
+  - flashback database and guaranteed restore points [9.4.6.5](vldb-backup.md)
+  - incremental backups [9.4.6.3](vldb-backup.md)
+  - incremental backup strategy [9.4.6.4](vldb-backup.md)
+  - leverage read-only tablespaces for backups [9.4.5](vldb-backup.md)
+  - manageability [6.4](partition-warehouse.md)
+  - manageability with partition exchange load [6.4.1](partition-warehouse.md)
+  - materialized views and partitioning [6.3.4](partition-warehouse.md)
+  - more complex queries [6.2.4](partition-warehouse.md)
+  - more users querying the system [6.2.3](partition-warehouse.md)
+  - NOLOGGING mode for backup and recovery [9.4.6](vldb-backup.md)
+  - partitioned tables [3.5.1](recommendations-partition-strategy.md)
+  - partitioning [6](partition-warehouse.md)
+  - partitioning and removing data from tables [6.4.3](partition-warehouse.md)
+  - partitioning for large databases [6.2.1](partition-warehouse.md)
+  - partitioning for large tables [6.2.2](partition-warehouse.md)
+  - partitioning for scalability [6.2](partition-warehouse.md)
+  - partitioning materialized views [6.3.4.1](partition-warehouse.md)
+  - partition pruning [6.3.1](partition-warehouse.md)
+  - recovery methodology [9.4](vldb-backup.md)
+  - recovery point object (RPO) [9.3.2](vldb-backup.md)
+  - recovery time object (RTO) [9.3.1](vldb-backup.md)
+  - refreshing table data [8.5.3.1.1](types-parallelism.md)
+  - RMAN for backup and recovery [9.4.2](vldb-backup.md)
+  - RMAN multi-section backups [9.4.4](vldb-backup.md)
+- DB_BLOCK_SIZE initialization parameter
+  - parallel query [8.6.3.3.2](parameters-parallel-exec.md)
+- DB_CACHE_SIZE initialization parameter
+  - parallel query [8.6.3.3.1](parameters-parallel-exec.md)
+- DB_FILE_MULTIBLOCK_READ_COUNT initialization parameter
+  - parallel query [8.6.3.3.3](parameters-parallel-exec.md)
+- DBMS_HEAT_MAP package
+  - subprograms for Heat MAP [5.2.1.3](ilm-strategy-heatmap-ado.md)
+- DBMS_ILM_ADMIN package
+  - Automatic Data Optimization [5.2.2.8](ilm-strategy-heatmap-ado.md)
+- DBMS_ILM package
+  - Automatic Data Optimization [5.2.2.8](ilm-strategy-heatmap-ado.md)
+- decision support system (DSS)
+  - parallel DML operations [8.5.3.1](types-parallelism.md)
+  - parallel SQL [8.5.2.2](types-parallelism.md), [8.5.3.1](types-parallelism.md)
+  - performance [8.5.3.1](types-parallelism.md)
+  - scoring tables [8.5.3.1.3](types-parallelism.md)
+- default partitions [4.1.4.2](partition-create-tables-indexes.md)
+- default subpartition [4.2.4.2.2](create-composite-partition-table.md)
+- deferred segments
+  - partitioning [4.1.14.1](partition-create-tables-indexes.md)
+- degree of parallelism
+  - adaptive parallelism [8.2.6](degree-parallel.md)
+  - automatic [8.2.3](degree-parallel.md)
+  - between query operations [8.1.4.2](parallel-exec-intro.md)
+  - controlling with initialization parameters and hints [8.2.5](degree-parallel.md)
+  - determining for auto DOP [8.2.4](degree-parallel.md)
+  - in-memory parallel execution [8.3](inmemory-parallel-exec.md)
+  - manually specifying [8.2.1](degree-parallel.md)
+  - parallel execution servers [8.2](degree-parallel.md)
+  - specifying a limit for a consumer group [8.4.1.4](about-parallel-queuing.md)
+- DELETE statement
+  - parallel DELETE statement [8.5.3.3](types-parallelism.md)
+- deleting ILM policies
+  - for Automatic Data Optimization [5.2.2.4](ilm-strategy-heatmap-ado.md)
+- direct-path INSERT
+  - restrictions [8.5.3.9](types-parallelism.md)
+- DISABLE_PARALLEL_DML SQL hint [8.5.3.2](types-parallelism.md)
+- DISABLE ROW MOVEMENT clause [4.1](partition-create-tables-indexes.md)
+- disabling ILM policies
+  - for Automatic Data Optimization [5.2.2.4](ilm-strategy-heatmap-ado.md)
+- DISK_ASYNCH_IO initialization parameter
+  - parallel query [8.6.3.3.4](parameters-parallel-exec.md)
+- distributed transactions
+  - parallel DML restrictions [8.5.3.12](types-parallelism.md)
+- DML_LOCKS
+  - parallel DML [8.6.3.2.3.3](parameters-parallel-exec.md)
+- DROP PARTITION clause [4.4.4.1](maintenance-partition-tables-indexes.md)
+- dropping multiple partitions [4.4.4.4](maintenance-partition-tables-indexes.md)
+- dropping partitioned tables [4.5](drop-partition-table.md)
+- dropping partitions
+  - asynchronous global index maintenance [4.3.2](maintenance-partition-can-be-performed.md)
+- DSS database
+  - partitioning indexes [3.3.7](index-partitioning.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- ENABLE_PARALLEL_DML SQL hint [8.5.3.2](types-parallelism.md)
+- ENABLE ROW MOVEMENT clause [4.1](partition-create-tables-indexes.md), [4.1.1.2](partition-create-tables-indexes.md)
+- equipartitioning
+  - examples [3.3.1.1](index-partitioning.md)
+  - local indexes [3.3.1](index-partitioning.md)
+- EXCHANGE PARTITION clause [4.4.5.8](maintenance-partition-tables-indexes.md), [4.4.5.9](maintenance-partition-tables-indexes.md), [4.4.5.10](maintenance-partition-tables-indexes.md), [4.4.5.11](maintenance-partition-tables-indexes.md)
+- EXCHANGE SUBPARTITION clause [4.4.5.7](maintenance-partition-tables-indexes.md)
+- exchanging partitions
+  - cascade option [4.4.5.12](maintenance-partition-tables-indexes.md)
+  - of a referenced-partition table [4.4.5.4](maintenance-partition-tables-indexes.md)
+- extents
+  - parallel DDL statements [8.5.2.6](types-parallelism.md)
+- extract, transform, and load
+  - data warehouses [9.4.6.1](vldb-backup.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- features
+  - new for Information Lifecycle Management
+  - new for parallel execution
+  - new for partitioning
+  - new for VLDBs
+- filtering
+  - maintenance operations on partitions [4.3.4](maintenance-partition-can-be-performed.md)
+- FOR PARTITION clause [4.4.7.2.1](maintenance-partition-tables-indexes.md)
+- fragmentation
+  - parallel DDL [8.5.2.6](types-parallelism.md)
+- full partition-wise join
+  - querying [3.2.1.1](partition-wise-joins.md)
+- full partition-wise joins [3.2.1](partition-wise-joins.md), [6.3.2.1](partition-warehouse.md)
+  - composite - composite [3.2.1.4](partition-wise-joins.md)
+  - composite - single-level [3.2.1.3](partition-wise-joins.md)
+  - single-level - single-level [3.2.1.2](partition-wise-joins.md)
+- full table scans
+  - parallel execution [8.1.2](parallel-exec-intro.md)
+- functions
+  - parallel DML and DDL statements [8.5.4.2](types-parallelism.md)
+  - parallel execution [8.5.4](types-parallelism.md)
+  - parallel queries [8.5.4.1](types-parallelism.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- global hash partitioned indexes
+  - about [2.5.3.2](partition-concepts.md)
+- global indexes
+  - partitioning [3.3.2](index-partitioning.md), [3.3.2.2](index-partitioning.md)
+    - summary of index types [3.3.3](index-partitioning.md)
+- global nonpartitioned indexes
+  - about [2.5.4](partition-concepts.md)
+- global partitioned indexes
+  - about [2.5.3](partition-concepts.md)
+  - maintenance [2.5.3.3](partition-concepts.md)
+- global range partitioned indexes
+  - about [2.5.3.1](partition-concepts.md)
+- granuless
+  - parallelism [8.1.4.3](parallel-exec-intro.md)
+- groups
+  - instance [8.1.8](parallel-exec-intro.md)
+
+------------------------------------------------------------------------
+
+## H
+
+- hardware-based mirroring
+  - very large databases (VLDBs) [10.1.1](vldb-storage.md)
+- hardware-based striping
+  - very large databases (VLDBs) [10.2.1](vldb-storage.md)
+- hash-partitioned tables
+  - adding partitions [4.4.2.2](maintenance-partition-tables-indexes.md)
+- hash partitioning [2.3.1.2](partition-concepts.md)
+  - creating global indexes [4.1.3.2](partition-create-tables-indexes.md)
+  - creating tables examples [4.1.3.1](partition-create-tables-indexes.md)
+  - creating tables using [4.1.3](partition-create-tables-indexes.md)
+  - index-organized tables [4.1.15.2](partition-create-tables-indexes.md)
+  - multicolumn partitioning keys [4.1.10](partition-create-tables-indexes.md)
+  - performance considerations [3.5.2](recommendations-partition-strategy.md)
+- hash partitions
+  - splitting [4.4.13.4](maintenance-partition-tables-indexes.md)
+- heap-organized partitioned tables
+  - table compression [4.1.12](partition-create-tables-indexes.md)
+- HEAT_MAP initialization parameter
+  - disabling [5.2.1.1](ilm-strategy-heatmap-ado.md)
+  - enabling [5.2.1.1](ilm-strategy-heatmap-ado.md)
+- Heat Map
+  - ALL, DBA, USER, and V\$ views [5.2.1.2](ilm-strategy-heatmap-ado.md)
+  - and automatic data optimization [5.2](ilm-strategy-heatmap-ado.md)
+  - disabling [5.2.1.1](ilm-strategy-heatmap-ado.md)
+  - enabling [5.2.1.1](ilm-strategy-heatmap-ado.md)
+  - for Information Lifecycle Management strategy [5.2.1](ilm-strategy-heatmap-ado.md)
+  - limitations [5.2.3](ilm-strategy-heatmap-ado.md)
+  - managing with DBMS_HEAT_MAP subprograms [5.2.1.3](ilm-strategy-heatmap-ado.md)
+  - managing with Oracle Enterprise Manager [5.5](heatmap-ado-em.md)
+  - viewing tracking information [5.2.1.2](ilm-strategy-heatmap-ado.md)
+- heat map and automatic data optimization
+  - implementing an ILM strategy [5.2](ilm-strategy-heatmap-ado.md)
+- hints
+  - parallel statement queuing [8.4.3](about-parallel-queuing.md)
+- Hybrid Columnar Compression
+  - example [3.4.2](partition-table-compression.md)
+- hybrid partitioned tables
+  - about [2.1.10](partition-concepts.md)
+  - converting from [4.7.3](manage_hypt.md)
+  - converting to [4.7.2](manage_hypt.md)
+  - creating [4.7.1](manage_hypt.md)
+  - exchanging a partition with a nonpartitioned external table [4.7.6](manage_hypt.md)
+  - managing [4.7](manage_hypt.md)
+  - splitting partitions [4.7.5](manage_hypt.md)
+  - using with ADO [4.7.4](manage_hypt.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- I/O
+  - asynchronous [8.6.3.3.4](parameters-parallel-exec.md)
+  - parallel execution [8.1.1](parallel-exec-intro.md)
+- ILM
+  - See: Information Lifecycle Management
+- ILM policies
+  - for Automatic Data Optimization [5.2.2.1](ilm-strategy-heatmap-ado.md)
+- implementing an ILM system
+  - manually with partitioning [5.4](ilm-maual-system.md)
+  - using Oracle Database [5.1.2](manage-data-db-ilm.md)
+- In-Database Archiving
+  - limitations [5.3.4](control-validity-visibility-data.md)
+  - managing data visibility [5.3.1](control-validity-visibility-data.md)
+  - ORA_ARCHIVE_STATE [5.3.1](control-validity-visibility-data.md)
+  - ROW ARCHIVAL VISIBILITY [5.3.1](control-validity-visibility-data.md)
+- indexes
+  - advanced compression with partitioning [3.3.6](index-partitioning.md)
+  - creating in parallel [8.8.5](parallel-exec-tips.md)
+  - global partitioned [6.3.3.3](partition-warehouse.md)
+  - global partitioned indexes [3.3.2](index-partitioning.md)
+    - managing partitions [3.3.2.2](index-partitioning.md)
+  - local indexes [3.3.1](index-partitioning.md)
+  - local partitioned [6.3.3.1](partition-warehouse.md)
+  - manageability with partitioning [6.4.2](partition-warehouse.md)
+  - nonpartitioned [6.3.3.2](partition-warehouse.md)
+  - parallel creation [8.8.5](parallel-exec-tips.md)
+  - parallel DDL storage [8.5.2.6](types-parallelism.md)
+  - parallel local [8.8.5](parallel-exec-tips.md)
+  - partitioned [6.3.3](partition-warehouse.md)
+  - partitioning [3.3](index-partitioning.md)
+  - partitioning guidelines [3.3.7](index-partitioning.md)
+  - partitions [1.1](partition-intro.md)
+  - updating automatically [4.3.1](maintenance-partition-can-be-performed.md)
+  - updating global indexes [4.3.1](maintenance-partition-can-be-performed.md)
+  - when to partition [2.1.3.2](partition-concepts.md)
+- index-organized tables
+  - hash-partitioned [4.1.15.2](partition-create-tables-indexes.md)
+  - list-partitioned [4.1.15.3](partition-create-tables-indexes.md)
+  - parallel queries [8.5.1.1](types-parallelism.md)
+  - partitioning [4.1](partition-create-tables-indexes.md), [4.1.15](partition-create-tables-indexes.md)
+  - partitioning secondary indexes [4.1.15.1](partition-create-tables-indexes.md)
+  - range-partitioned [4.1.15.1](partition-create-tables-indexes.md)
+- index partitions
+  - adding [4.4.2.9](maintenance-partition-tables-indexes.md)
+- Information Lifecycle Management
+  - about [5.1](manage-data-db-ilm.md)
+  - and HEAT_MAP initialization parameter [5.2.1](ilm-strategy-heatmap-ado.md)
+  - application transparency [5.1.1](manage-data-db-ilm.md)
+  - assigning classes to storage tiers [5.1.2.2.1](manage-data-db-ilm.md)
+  - auditing [5.1.2.4.4](manage-data-db-ilm.md)
+  - benefits of an online archive [5.1.1.3](manage-data-db-ilm.md)
+  - controlling access to data [5.1.2.3.1](manage-data-db-ilm.md)
+  - creating data access [5.1.2.3](manage-data-db-ilm.md)
+  - creating migration policies [5.1.2.3](manage-data-db-ilm.md)
+  - creating storage tiers [5.1.2.2](manage-data-db-ilm.md)
+  - data retention [5.1.2.4.1](manage-data-db-ilm.md)
+  - defining compliance policies [5.1.2.4](manage-data-db-ilm.md)
+  - defining data classes [5.1.2.1](manage-data-db-ilm.md)
+  - enforceable compliance policies [5.1.1](manage-data-db-ilm.md)
+  - enforcing compliance policies [5.1.2.4](manage-data-db-ilm.md)
+  - expiration [5.1.2.4.5](manage-data-db-ilm.md)
+  - fine-grained [5.1.1](manage-data-db-ilm.md)
+  - heat map and automatic data optimization [5.2](ilm-strategy-heatmap-ado.md)
+  - immutability [5.1.2.4.2](manage-data-db-ilm.md)
+  - implemented with Automatic Data Optimization [5.2.2](ilm-strategy-heatmap-ado.md)
+  - implementing a system manually with partitioning [5.4](ilm-maual-system.md)
+  - implementing using Oracle Database [5.1.2](manage-data-db-ilm.md)
+  - implementing with Heat Map [5.2.1](ilm-strategy-heatmap-ado.md)
+  - introduction [5](time-based-info.md)
+  - lifecycle of data [5.1.2.1.2](manage-data-db-ilm.md)
+  - limitations [5.2.3](ilm-strategy-heatmap-ado.md)
+  - low-cost storage [5.1.1](manage-data-db-ilm.md)
+  - moving data using partitioning [5.1.2.3.2](manage-data-db-ilm.md)
+  - Oracle Database, and [5.1.1](manage-data-db-ilm.md)
+  - partitioning [5.1.2.1.1](manage-data-db-ilm.md)
+  - partitioning, and [1.3](partition-intro.md)
+  - privacy [5.1.2.4.3](manage-data-db-ilm.md)
+  - regulatory requirements [5.1.1.2](manage-data-db-ilm.md)
+  - striping [10.2.3](vldb-storage.md)
+  - structured and unstructured data [5.1.1.1](manage-data-db-ilm.md)
+  - time-based information [5](time-based-info.md)
+- initialization parameters
+  - MEMORY_MAX_TARGET [8.6.3.2](parameters-parallel-exec.md)
+  - MEMORY_TARGET [8.6.3.2](parameters-parallel-exec.md)
+  - PARALLEL_EXECUTION_MESSAGE_SIZE [8.6.3.2.1](parameters-parallel-exec.md), [8.6.3.2.2](parameters-parallel-exec.md)
+  - PARALLEL_FORCE_LOCAL [8.6.3.1.1](parameters-parallel-exec.md)
+  - PARALLEL_MAX_SERVERS [8.6.3.1.2](parameters-parallel-exec.md)
+  - PARALLEL_MIN_PERCENT [8.6.3.1.3](parameters-parallel-exec.md)
+  - PARALLEL_MIN_SERVERS [8.1.5](parallel-exec-intro.md), [8.6.3.1.4](parameters-parallel-exec.md)
+  - PARALLEL_MIN_TIME_THRESHOLD [8.6.3.1.5](parameters-parallel-exec.md)
+  - PARALLEL_SERVERS_TARGET [8.6.3.1.6](parameters-parallel-exec.md)
+  - SHARED_POOL_SIZE [8.6.3.1.7](parameters-parallel-exec.md)
+- INSERT statement
+  - parallelizing INSERT SELECT [8.5.3.4](types-parallelism.md)
+- instance groups
+  - for parallel operations [8.1.8](parallel-exec-intro.md)
+  - limiting the number of instances [8.1.8](parallel-exec-intro.md)
+- integrity rules
+  - parallel DML restrictions [8.5.3.10](types-parallelism.md)
+- interval-hash partitioning
+  - creating tables using [4.2.2.1](create-composite-partition-table.md)
+  - subpartitioning template [4.2.5.1](create-composite-partition-table.md)
+- interval-list partitioning
+  - creating tables using [4.2.2.2](create-composite-partition-table.md)
+  - subpartitioning template [4.2.5.2](create-composite-partition-table.md)
+- interval partitioned tables
+  - dropping partitions [4.4.4.2](maintenance-partition-tables-indexes.md)
+- interval-partitioned tables
+  - adding partitions [4.4.2.4](maintenance-partition-tables-indexes.md)
+  - splitting partitions [4.4.13.3](maintenance-partition-tables-indexes.md)
+- interval partitioning
+  - creating tables using [4.1.2](partition-create-tables-indexes.md)
+  - manageability [2.4.1.1](partition-concepts.md)
+  - performance considerations [3.5.1](recommendations-partition-strategy.md), [3.5.5](recommendations-partition-strategy.md)
+- interval-range partitioning
+  - creating tables using [4.2.2.3](create-composite-partition-table.md)
+- interval-reference partitioned tables
+  - creating [4.1.6](partition-create-tables-indexes.md)
+
+------------------------------------------------------------------------
+
+## J
+
+- joins
+  - full partition-wise [3.2.1](partition-wise-joins.md)
+  - partial partition-wise [3.2.2](partition-wise-joins.md)
+  - partition-wise [3.2](partition-wise-joins.md)
+
+------------------------------------------------------------------------
+
+## K
+
+- key compression
+  - partitioning indexes [4.1.13](partition-create-tables-indexes.md)
+
+------------------------------------------------------------------------
+
+## L
+
+- list-hash partitioning
+  - creating tables using [4.2.3.1](create-composite-partition-table.md)
+  - subpartitioning template [4.2.5.1](create-composite-partition-table.md)
+- list-list partitioning
+  - creating tables using [4.2.3.2](create-composite-partition-table.md)
+  - subpartitioning template [4.2.5.2](create-composite-partition-table.md)
+- list-partitioned tables
+  - adding partitions [4.4.2.3](maintenance-partition-tables-indexes.md)
+  - creating [4.1.4](partition-create-tables-indexes.md), [4.1.4.1](partition-create-tables-indexes.md)
+  - splitting partitions [4.4.13.2](maintenance-partition-tables-indexes.md), [4.4.13.5](maintenance-partition-tables-indexes.md)
+- list partitioning [2.3.1.3](partition-concepts.md)
+  - adding values to value list [4.4.8.1](maintenance-partition-tables-indexes.md)
+  - creating tables using [4.1.4](partition-create-tables-indexes.md)
+  - dropping values from value-list [4.4.8.2](maintenance-partition-tables-indexes.md)
+  - index-organized tables [4.1.15.3](partition-create-tables-indexes.md)
+  - modifying [4.4.8](maintenance-partition-tables-indexes.md)
+  - performance considerations [3.5.3](recommendations-partition-strategy.md)
+- list-range partitioning
+  - creating tables using [4.2.3.3](create-composite-partition-table.md)
+- LOB data types
+  - restrictions on parallel DDL statements [8.5.2.1](types-parallelism.md)
+  - restrictions on parallel DML operations [8.5.3.9](types-parallelism.md)
+- local indexes [3.3.1](index-partitioning.md), [3.3.3](index-partitioning.md)
+  - equipartitioning [3.3.1](index-partitioning.md)
+- local partitioned indexes
+  - about [2.5.2](partition-concepts.md)
+- LOGGING clause [8.8.4.7](parallel-exec-tips.md)
+- logging mode
+  - parallel DDL [8.5.2.1](types-parallelism.md), [8.5.2.3](types-parallelism.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- maintenance operations
+  - supported on index partitions [4.3](maintenance-partition-can-be-performed.md)
+  - supported on partitioned tables [4.3](maintenance-partition-can-be-performed.md)
+- maintenance operations on partitions
+  - filtering [4.3.4](maintenance-partition-can-be-performed.md)
+- manageability
+  - data warehouses [6.4](partition-warehouse.md)
+- managing data validity
+  - Temporal Validity [5.3.2](control-validity-visibility-data.md)
+- managing data visibility
+  - In-Database Archiving [5.3.1](control-validity-visibility-data.md)
+- managing ILM policies
+  - for Automatic Data Optimization [5.2.2.1](ilm-strategy-heatmap-ado.md)
+- memory
+  - configure at 2 levels [8.6.3.2](parameters-parallel-exec.md)
+- MEMORY_MAX_TARGET initialization parameter [8.6.3.2](parameters-parallel-exec.md)
+- MEMORY_TARGET initialization parameter [8.6.3.2](parameters-parallel-exec.md)
+- MERGE PARTITION clause [4.4.6](maintenance-partition-tables-indexes.md)
+- MERGE statement
+  - parallel MERGE statement [8.5.3.3](types-parallelism.md)
+- MERGE SUBPARTITION clause [4.4.6](maintenance-partition-tables-indexes.md)
+- merging multiple partitions [4.4.6.7](maintenance-partition-tables-indexes.md)
+- MINIMUM EXTENT parameter [8.5.2.6](types-parallelism.md)
+- mirroring with Oracle ASM
+  - very large databases (VLDBs) [10.1.2](vldb-storage.md)
+- MODIFY DEFAULT ATTRIBUTES clause [4.4.7.2.1](maintenance-partition-tables-indexes.md)
+  - using for partitioned tables [4.4.7.1.1](maintenance-partition-tables-indexes.md)
+- MODIFY DEFAULT ATTRIBUTES FOR PARTITION clause [4.4.7.1.2](maintenance-partition-tables-indexes.md)
+  - of ALTER TABLE statement [4.4.7.1.3](maintenance-partition-tables-indexes.md)
+- modifying
+  - partitioning [4.4.9](maintenance-partition-tables-indexes.md)
+- MODIFY PARTITION clause [4.4.7.2.1](maintenance-partition-tables-indexes.md), [4.4.7.2.2](maintenance-partition-tables-indexes.md), [4.4.10](maintenance-partition-tables-indexes.md), [4.4.11.2.2](maintenance-partition-tables-indexes.md)
+- MODIFY SUBPARTITION clause [4.4.7.2.3](maintenance-partition-tables-indexes.md)
+- monitoring
+  - parallel processing [8.7](monitor-parallel-performance.md), [8.7.1](monitor-parallel-performance.md)
+- MOVE PARTITION clause [4.4.7.2](maintenance-partition-tables-indexes.md), [4.4.10](maintenance-partition-tables-indexes.md)
+- MOVE SUBPARTITION clause [4.4.7.2](maintenance-partition-tables-indexes.md), [4.4.10.2](maintenance-partition-tables-indexes.md)
+- multi-column list partitioning
+  - creating tables using [4.1.4.4](partition-create-tables-indexes.md)
+- multiple archiver processes [8.8.4.5](parallel-exec-tips.md)
+- multiple block sizes
+  - restrictions on partitioning [4.1.16](partition-create-tables-indexes.md)
+- multiple parallelizers [8.1.7](parallel-exec-intro.md)
+- multiple partitions
+  - adding [4.4.2.10](maintenance-partition-tables-indexes.md)
+  - dropping [4.4.4.4](maintenance-partition-tables-indexes.md)
+  - merging [4.4.6.7](maintenance-partition-tables-indexes.md)
+  - splitting [4.4.13.8](maintenance-partition-tables-indexes.md)
+  - truncating [4.4.14.2](maintenance-partition-tables-indexes.md)
+
+------------------------------------------------------------------------
+
+## N
+
+- NO_STATEMENT_QUEUING
+  - parallel statement queuing hint [8.4.3](about-parallel-queuing.md)
+- NOLOGGING clause [8.8.4.7](parallel-exec-tips.md)
+- NOLOGGING mode
+  - parallel DDL [8.5.2.1](types-parallelism.md), [8.5.2.3](types-parallelism.md)
+- nonpartitioned indexes [6.3.3.2](partition-warehouse.md)
+- nonpartitioned tables
+  - changing to partitioned tables [4.6](evolve-nopartition-table.md)
+- non-partitioned tables
+  - converting to partitioned tables [4.6.2](evolve-nopartition-table.md)
+- nonprefixed indexes [2.5.2](partition-concepts.md), [3.3.1.2](index-partitioning.md)
+  - global partitioned indexes [3.3.2.1](index-partitioning.md)
+- nonprefixed indexes_importance [3.3.4](index-partitioning.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- object types
+  - parallel queries [8.5.1.4](types-parallelism.md)
+  - restrictions on parallel DDL statements [8.5.2.1](types-parallelism.md)
+  - restrictions on parallel DML operations [8.5.3.9](types-parallelism.md)
+  - restrictions on parallel queries [8.5.1.4](types-parallelism.md)
+- of ALTER TABLE statement [4.4.7.1.2](maintenance-partition-tables-indexes.md)
+- OLTP database
+  - batch jobs [8.5.3.1.5](types-parallelism.md)
+  - parallel DML operations [8.5.3.1](types-parallelism.md)
+  - partitioning indexes [3.3.7](index-partitioning.md)
+- Online Transaction Processing (OLTP)
+  - about [7.1](partition-oltp.md)
+  - common partition maintenance operations [7.3.3](partition-oltp.md)
+  - partitioning, and [7](partition-oltp.md)
+  - when to partition indexes [7.2.1](partition-oltp.md)
+- operating system statistics
+  - monitoring for parallel processing [8.7.4](monitor-parallel-performance.md)
+- operations
+  - partition-wise [3.2](partition-wise-joins.md)
+- optimization
+  - partitioned indexes [3.3.5](index-partitioning.md)
+  - partition pruning and indexes [3.3.5](index-partitioning.md)
+- optimizations
+  - parallel SQL [8.1.4.1](parallel-exec-intro.md)
+- ORA_ARCHIVE_STATE
+  - In-Database Archiving [5.3.1](control-validity-visibility-data.md)
+- Oracle Automatic Storage Management settings
+  - very large databases (VLDBs) [10.4](vldb-storage.md)
+- Oracle Database File System
+  - very large databases (VLDBs) [10.2.6](vldb-storage.md)
+- Oracle Database Resource Manager
+  - managing parallel statement queue [8.4.1](about-parallel-queuing.md)
+- Oracle Real Application Clusters
+  - instance groups [8.1.8](parallel-exec-intro.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- PARALLEL_DEGREE_POLICY initialization parameter
+  - automatic degree of parallelism [8.2.3](degree-parallel.md)
+  - controlling automatic DOP [8.2.5](degree-parallel.md)
+- PARALLEL_EXECUTION_MESSAGE_SIZE initialization parameter [8.6.3.2.1](parameters-parallel-exec.md), [8.6.3.2.2](parameters-parallel-exec.md)
+- PARALLEL_FORCE_LOCAL initialization parameter [8.6.3.1.1](parameters-parallel-exec.md)
+- PARALLEL_MAX_SERVERS initialization parameter [8.6.3.1.2](parameters-parallel-exec.md)
+  - parallel execution [8.6.3.1.2](parameters-parallel-exec.md)
+- PARALLEL_MIN_PERCENT initialization parameter [8.6.3.1.3](parameters-parallel-exec.md)
+- PARALLEL_MIN_SERVERS initialization parameter [8.1.5](parallel-exec-intro.md), [8.6.3.1.4](parameters-parallel-exec.md)
+- PARALLEL_MIN_TIME_THRESHOLD initialization parameter [8.6.3.1.5](parameters-parallel-exec.md)
+- PARALLEL_SERVERS_TARGET initialization parameter [8.6.3.1.6](parameters-parallel-exec.md)
+- PARALLEL clause [8.8.6.1](parallel-exec-tips.md)
+- parallel DDL statements [8.5.2](types-parallelism.md)
+  - extent allocation [8.5.2.6](types-parallelism.md)
+  - partitioned tables and indexes [8.5.2.1](types-parallelism.md)
+  - restrictions on LOBs [8.5.2.1](types-parallelism.md)
+  - restrictions on object types [8.5.1.4](types-parallelism.md), [8.5.2.1](types-parallelism.md)
+- parallel delete [8.5.3.3](types-parallelism.md)
+- parallel DELETE statement [8.5.3.3](types-parallelism.md)
+- parallel DML
+  - considerations for parallel execution [8.8.4](parallel-exec-tips.md)
+- parallel DML and DDL statements
+  - functions [8.5.4.2](types-parallelism.md)
+- parallel DML operations [8.5.3](types-parallelism.md)
+  - applications [8.5.3.1](types-parallelism.md)
+  - enabling PARALLEL DML [8.5.3.2](types-parallelism.md)
+  - recovery [8.5.3.7](types-parallelism.md)
+  - restrictions [8.5.3.9](types-parallelism.md)
+  - restrictions on LOB data types [8.5.3.9](types-parallelism.md)
+  - restrictions on object types [8.5.1.4](types-parallelism.md), [8.5.3.9](types-parallelism.md)
+  - restrictions on remote transactions [8.5.3.12](types-parallelism.md)
+  - transaction model [8.5.3.5](types-parallelism.md)
+- parallel execution
+  - about [8](using-parallel.md), [8.1](parallel-exec-intro.md), [8.1.4](parallel-exec-intro.md)
+  - adaptive parallelism [8.2.6](degree-parallel.md)
+  - bandwidth [8.1.1](parallel-exec-intro.md)
+  - benefits [8.1.1](parallel-exec-intro.md)
+  - considerations for parallel DML [8.8.4](parallel-exec-tips.md)
+  - CPU utilization [8.1.1](parallel-exec-intro.md)
+  - CREATE TABLE AS SELECT statement [8.8.2](parallel-exec-tips.md)
+  - DB_BLOCK_SIZE initialization parameter [8.6.3.3.2](parameters-parallel-exec.md)
+  - DB_CACHE_SIZE initialization parameter [8.6.3.3.1](parameters-parallel-exec.md)
+  - DB_FILE_MULTIBLOCK_READ_COUNT initialization parameter [8.6.3.3.3](parameters-parallel-exec.md)
+  - default parameter settings [8.6.1](parameters-parallel-exec.md)
+  - DISK_ASYNCH_IO initialization parameter [8.6.3.3.4](parameters-parallel-exec.md)
+  - forcing for a session [8.6.2](parameters-parallel-exec.md)
+  - full table scans [8.1.2](parallel-exec-intro.md)
+  - functions [8.5.4](types-parallelism.md)
+  - fundamental hardware requirements [8.1.3](parallel-exec-intro.md)
+  - I/O [8.1.1](parallel-exec-intro.md)
+  - I/O parameters [8.6.3.3](parameters-parallel-exec.md)
+  - index creation [8.8.5](parallel-exec-tips.md)
+  - initializing parameters [8.6](parameters-parallel-exec.md)
+  - in-memory [8.3](inmemory-parallel-exec.md)
+  - inter-operator parallelism [8.1.4.2](parallel-exec-intro.md)
+  - intra-operator parallelism [8.1.4.2](parallel-exec-intro.md)
+  - massively parallel systems [8.1.1](parallel-exec-intro.md)
+  - new features ,
+  - Oracle RAC [8.1.8](parallel-exec-intro.md)
+  - parallel load [8.5.5](types-parallelism.md)
+  - parallel propagation [8.5.5](types-parallelism.md)
+  - parallel recovery [8.5.5](types-parallelism.md)
+  - parallel replication [8.5.5](types-parallelism.md)
+  - parameters for establishing resource limits [8.6.3.1](parameters-parallel-exec.md)
+  - resource parameters [8.6.3.2](parameters-parallel-exec.md)
+  - symmetric multiprocessors [8.1.1](parallel-exec-intro.md)
+  - TAPE_ASYNCH_IO initialization parameter [8.6.3.3.4](parameters-parallel-exec.md)
+  - tips for tuning [8.8](parallel-exec-tips.md)
+  - tuning general parameters [8.6.3](parameters-parallel-exec.md)
+  - tuning parameters [8.6](parameters-parallel-exec.md)
+  - using [8](using-parallel.md)
+  - when not to use [8.1.2](parallel-exec-intro.md)
+- parallel execution strategy
+  - implementing [8.8.1](parallel-exec-tips.md)
+- PARALLEL hint
+  - UPDATE, MERGE, and DELETE [8.5.3.3](types-parallelism.md)
+- parallelism
+  - about [8.1.4](parallel-exec-intro.md)
+  - adaptive [8.2.6](degree-parallel.md)
+  - degree [8.2](degree-parallel.md)
+  - inter-operator [8.1.4.2](parallel-exec-intro.md)
+  - intra-operator [8.1.4.2](parallel-exec-intro.md)
+  - other types [8.5](types-parallelism.md)
+  - parallel DDL statements [8.5](types-parallelism.md)
+  - parallel DML operations [8.5](types-parallelism.md)
+  - parallel execution of functions [8.5](types-parallelism.md)
+  - parallel queries [8.5](types-parallelism.md)
+  - types [8.5](types-parallelism.md)
+- parallelization
+  - methods for specifying precedence [8.5.6](types-parallelism.md)
+  - rules for SQL operations [8.5.6](types-parallelism.md)
+- parallel partition-wise joins
+  - performance considerations [6.3.2.4](partition-warehouse.md)
+- parallel processing
+  - monitoring [8.7](monitor-parallel-performance.md)
+  - monitoring operating system statistics [8.7.4](monitor-parallel-performance.md)
+  - monitoring session statistics [8.7.2](monitor-parallel-performance.md)
+  - monitoring system statistics [8.7.3](monitor-parallel-performance.md)
+  - monitoring with GV\$FILESTAT view [8.7.1](monitor-parallel-performance.md)
+  - monitoring with performance views [8.7.1](monitor-parallel-performance.md)
+- parallel queries [8.5.1](types-parallelism.md)
+  - functions [8.5.4.1](types-parallelism.md)
+  - index-organized tables [8.5.1.1](types-parallelism.md)
+  - object types [8.5.1.4](types-parallelism.md)
+  - restrictions on object types [8.5.1.4](types-parallelism.md)
+- parallel query
+  - integrating with the automatic big table caching [8.3.2](inmemory-parallel-exec.md)
+  - parallelism type [8.5.1](types-parallelism.md)
+- parallel server resources
+  - limiting for a consumer group [8.4.1.2](about-parallel-queuing.md)
+- parallel servers
+  - asynchronous communication [8.1.4.5](parallel-exec-intro.md)
+- parallel SQL
+  - allocating rows to parallel execution servers [8.1.4.4](parallel-exec-intro.md)
+  - distribution methods [8.1.4.4](parallel-exec-intro.md)
+  - instance groups [8.1.8](parallel-exec-intro.md)
+  - number of parallel execution servers [8.1.5](parallel-exec-intro.md)
+  - optimizer [8.1.4.1](parallel-exec-intro.md)
+- parallel statement queue
+  - about [8.4](about-parallel-queuing.md)
+  - grouping parallel statements [8.4.2](about-parallel-queuing.md)
+  - hints [8.4.3](about-parallel-queuing.md)
+  - limiting parallel server resources [8.4.1.2](about-parallel-queuing.md)
+  - managing for consumer groups [8.4.1](about-parallel-queuing.md)
+  - managing the order of dequeuing [8.4.1.1](about-parallel-queuing.md)
+  - managing with Oracle Database Resource Manager [8.4.1](about-parallel-queuing.md)
+  - NO_STATEMENT_QUEUING hint [8.4.3](about-parallel-queuing.md)
+  - PARALLEL_DEGREE_POLICY [8.4](about-parallel-queuing.md)
+  - sample scenario for managing parallel statements [8.4.1.6](about-parallel-queuing.md)
+  - setting order of parallel statements [8.4.1](about-parallel-queuing.md)
+  - specifying a critical consumer group [8.4.1.5](about-parallel-queuing.md)
+  - specifying a DOP limit for a consumer group [8.4.1.4](about-parallel-queuing.md)
+  - specifying a timeout for a consumer group [8.4.1.3](about-parallel-queuing.md)
+  - STATEMENT_QUEUING hint [8.4.3](about-parallel-queuing.md)
+  - using BEGIN_SQL_BLOCK to group statements [8.4.2](about-parallel-queuing.md)
+- parallel update [8.5.3.3](types-parallelism.md)
+- parallel UPDATE statement [8.5.3.3](types-parallelism.md)
+- parameters
+  - Automatic Data Optimization [5.2.2.7](ilm-strategy-heatmap-ado.md)
+- partial indexes
+  - on partitioned tables [2.5.6](partition-concepts.md)
+- partial partition-wise joins [6.3.2.2](partition-warehouse.md)
+  - about [3.2.2](partition-wise-joins.md)
+  - composite [3.2.2.2](partition-wise-joins.md)
+  - single-level [3.2.2.1](partition-wise-joins.md)
+- PARTITION_START
+  - partition pruning [3.1.3](partition-pruning.md)
+- PARTITION_STOP
+  - partition pruning [3.1.3](partition-pruning.md)
+- Partition Advisor
+  - manageability [2.4.1.2](partition-concepts.md)
+- partition bound
+  - range-partitioned tables [4.1.1.1](partition-create-tables-indexes.md)
+- PARTITION BY HASH clause [4.1.3](partition-create-tables-indexes.md)
+- PARTITION BY LIST clause [4.1.4](partition-create-tables-indexes.md)
+- PARTITION BY RANGE clause [4.1.1](partition-create-tables-indexes.md)
+  - for composite-partitioned tables [4.2](create-composite-partition-table.md)
+- PARTITION BY REFERENCE clause [4.1.5](partition-create-tables-indexes.md)
+- PARTITION clause
+  - for composite-partitioned tables [4.2](create-composite-partition-table.md)
+  - for hash partitions [4.1.3](partition-create-tables-indexes.md)
+  - for list partitions [4.1.4](partition-create-tables-indexes.md)
+  - for range partitions [4.1.1](partition-create-tables-indexes.md)
+- partitioned external tables
+  - creating [4.1.9](partition-create-tables-indexes.md)
+- partitioned indexes
+  - about [2.5](partition-concepts.md)
+  - adding partitions [4.4.2.9](maintenance-partition-tables-indexes.md)
+  - administration [4](partition-admin.md)
+  - composite partitions [2.5.7](partition-concepts.md)
+  - creating hash-partitioned global [4.1.3.2](partition-create-tables-indexes.md)
+  - creating local index on composite partitioned table [4.2.4.1.3](create-composite-partition-table.md)
+  - creating local index on hash partitioned table [4.1.3.1](partition-create-tables-indexes.md)
+  - creating range partitions [4.1.1.3](partition-create-tables-indexes.md)
+  - dropping partitions [4.4.4.3](maintenance-partition-tables-indexes.md)
+  - key compression [4.1.13](partition-create-tables-indexes.md)
+  - maintenance operations [4.3](maintenance-partition-can-be-performed.md), [4.4](maintenance-partition-tables-indexes.md)
+  - maintenance operations that can be performed [4.3](maintenance-partition-can-be-performed.md)
+  - modifying partition default attributes [4.4.7.1.3](maintenance-partition-tables-indexes.md)
+  - modifying real attributes of partitions [4.4.7.2.4](maintenance-partition-tables-indexes.md)
+  - moving partitions [4.4.10.3](maintenance-partition-tables-indexes.md)
+  - Online Transaction Processing (OLTP) [7.2.1](partition-oltp.md)
+  - rebuilding index partitions [4.4.11](maintenance-partition-tables-indexes.md)
+  - renaming index partitions/subpartitions [4.4.12.3](maintenance-partition-tables-indexes.md)
+  - secondary indexes on index-organized tables [4.1.15.1](partition-create-tables-indexes.md)
+  - splitting partitions [4.4.13.7](maintenance-partition-tables-indexes.md)
+  - views [4.8](view-info-partition-tables-indexes.md)
+  - which type to use [2.5.1](partition-concepts.md)
+- partitioned tables
+  - adding partitions [4.4.2](maintenance-partition-tables-indexes.md)
+  - adding subpartitions [4.4.2.5.2](maintenance-partition-tables-indexes.md), [4.4.2.6.2](maintenance-partition-tables-indexes.md), [4.4.2.7.2](maintenance-partition-tables-indexes.md)
+  - administration [4](partition-admin.md)
+  - coalescing partitions [4.4.3](maintenance-partition-tables-indexes.md)
+  - converting to from non-partitioned tables [4.6.2](evolve-nopartition-table.md)
+  - creating automatic list partitions [4.1.4.3](partition-create-tables-indexes.md)
+  - creating composite [4.2](create-composite-partition-table.md)
+  - creating composite interval [4.2.2](create-composite-partition-table.md)
+  - creating composite list [4.2.3](create-composite-partition-table.md)
+  - creating hash partitions [4.1.3](partition-create-tables-indexes.md)
+  - creating interval-hash partitions [4.2.2.1](create-composite-partition-table.md)
+  - creating interval-list partitions [4.2.2.2](create-composite-partition-table.md)
+  - creating interval partitions [4.1.2](partition-create-tables-indexes.md)
+  - creating interval-range partitions [4.2.2.3](create-composite-partition-table.md)
+  - creating list-hash partitions [4.2.3.1](create-composite-partition-table.md)
+  - creating list-list partitions [4.2.3.2](create-composite-partition-table.md)
+  - creating list partitions [4.1.4](partition-create-tables-indexes.md)
+  - creating list-range partitions [4.2.3.3](create-composite-partition-table.md)
+  - creating multi-column list partitions [4.1.4.4](partition-create-tables-indexes.md)
+  - creating range-hash partitions [4.2.4.1](create-composite-partition-table.md)
+  - creating range-list partitions [4.2.4.2](create-composite-partition-table.md)
+  - creating range partitions [4.1.1](partition-create-tables-indexes.md), [4.1.1.3](partition-create-tables-indexes.md)
+  - creating range-range partitions [4.2.4.3](create-composite-partition-table.md)
+  - creating reference partitions [4.1.5](partition-create-tables-indexes.md)
+  - data warehouses [3.5.1](recommendations-partition-strategy.md)
+  - DISABLE ROW MOVEMENT [4.1](partition-create-tables-indexes.md)
+  - dropping [4.5](drop-partition-table.md)
+  - dropping partitions [4.4.4](maintenance-partition-tables-indexes.md)
+  - ENABLE ROW MOVEMENT [4.1](partition-create-tables-indexes.md)
+  - exchanging partitions and subpartitions [4.4.5](maintenance-partition-tables-indexes.md)
+  - exchanging partitions of a referenced-partition table [4.4.5.4](maintenance-partition-tables-indexes.md)
+  - exchanging partitions with a cascade option [4.4.5.12](maintenance-partition-tables-indexes.md)
+  - exchanging subpartitions [4.4.5.7](maintenance-partition-tables-indexes.md), [4.4.5.9](maintenance-partition-tables-indexes.md), [4.4.5.11](maintenance-partition-tables-indexes.md)
+  - filtering maintenance operations [4.3.4](maintenance-partition-can-be-performed.md)
+  - FOR EXCHANGE WITH [4.4.5.1](maintenance-partition-tables-indexes.md)
+  - global indexes [7.3.2](partition-oltp.md)
+  - incremental statistics and partition exchange operations [4.4.5](maintenance-partition-tables-indexes.md)
+  - index-organized tables [4.1](partition-create-tables-indexes.md), [4.1.15.1](partition-create-tables-indexes.md), [4.1.15.2](partition-create-tables-indexes.md), [4.1.15.3](partition-create-tables-indexes.md)
+  - in-memory column store [4.1.7](partition-create-tables-indexes.md)
+  - INTERVAL clause of CREATE TABLE [4.1.2](partition-create-tables-indexes.md)
+  - interval-reference [4.1.6](partition-create-tables-indexes.md)
+  - local indexes [7.3.1](partition-oltp.md)
+  - maintenance operations [4.4](maintenance-partition-tables-indexes.md)
+  - maintenance operations that can be performed [4.3](maintenance-partition-can-be-performed.md)
+  - maintenance operations with global indexes [7.3.2](partition-oltp.md)
+  - maintenance operations with local indexes [7.3.1](partition-oltp.md)
+  - marking indexes UNUSABLE [4.4.13](maintenance-partition-tables-indexes.md)
+  - merging partitions [4.4.6](maintenance-partition-tables-indexes.md)
+  - modifying default attributes [4.4.7.1](maintenance-partition-tables-indexes.md)
+  - modifying real attributes of partitions [4.4.7.2](maintenance-partition-tables-indexes.md)
+  - modifying real attributes of subpartitions [4.4.7.2.3](maintenance-partition-tables-indexes.md)
+  - moving partitions [4.4.10](maintenance-partition-tables-indexes.md)
+  - moving subpartitions [4.4.10.2](maintenance-partition-tables-indexes.md)
+  - multicolumn partitioning keys [4.1.10](partition-create-tables-indexes.md)
+  - partition bound [4.1.1.1](partition-create-tables-indexes.md)
+  - partitioning columns [4.1.1.1](partition-create-tables-indexes.md)
+  - partitioning keys [4.1.1.1](partition-create-tables-indexes.md)
+  - read-only status [4.1.8](partition-create-tables-indexes.md)
+  - rebuilding index partitions [4.4.11](maintenance-partition-tables-indexes.md)
+  - redefining partitions online [4.6.1](evolve-nopartition-table.md)
+  - renaming partitions [4.4.12](maintenance-partition-tables-indexes.md)
+  - renaming subpartitions [4.4.12.2](maintenance-partition-tables-indexes.md)
+  - splitting partitions [4.4.13](maintenance-partition-tables-indexes.md)
+  - truncating partitions [4.4.14](maintenance-partition-tables-indexes.md)
+  - truncating partitions with the cascade option [4.4.14.4](maintenance-partition-tables-indexes.md)
+  - truncating subpartitions [4.4.14.3](maintenance-partition-tables-indexes.md)
+  - updating global indexes automatically [4.3.1](maintenance-partition-can-be-performed.md)
+  - views [4.8](view-info-partition-tables-indexes.md)
+- partition exchange load
+  - manageability [6.4.1](partition-warehouse.md)
+- partition granules [8.1.4.3.2](parallel-exec-intro.md)
+- partitioning
+  - about [1.1](partition-intro.md)
+  - administration of indexes [4](partition-admin.md)
+  - administration of tables [4](partition-admin.md)
+  - advanced index compression [3.3.6](index-partitioning.md)
+  - advantages [1.1](partition-intro.md)
+  - availability [2.2.3](partition-concepts.md), [3](partition-availability.md)
+  - basics [2.1.1](partition-concepts.md)
+  - benefits [2.2](partition-concepts.md)
+  - bitmap indexes [3.4.1](partition-table-compression.md)
+  - collections in XMLType and object data [2.1.11](partition-concepts.md)
+  - composite [2.3.2](partition-concepts.md)
+  - composite list-hash [2.3.2.5](partition-concepts.md)
+  - composite list-list [2.3.2.6](partition-concepts.md)
+  - composite list-range [2.3.2.4](partition-concepts.md)
+  - composite range-hash [2.3.2.2](partition-concepts.md)
+  - composite range-list [2.3.2.3](partition-concepts.md)
+  - composite range-range [2.3.2.1](partition-concepts.md)
+  - concepts [2](partition-concepts.md)
+  - creating a partitioned index [4.1](partition-create-tables-indexes.md)
+  - creating a partitioned table [4.1](partition-create-tables-indexes.md)
+  - creating indexes on partitioned tables [2.5.5](partition-concepts.md)
+  - databases, and [1.4](partition-intro.md)
+  - data segment compression [3.4](partition-table-compression.md), [3.4.1](partition-table-compression.md)
+  - data segment compression example [3.4.2](partition-table-compression.md)
+  - data warehouses [6](partition-warehouse.md)
+  - data warehouses and scalability [6.2](partition-warehouse.md)
+  - default partition [4.1.4.2](partition-create-tables-indexes.md)
+  - default subpartition [4.2.4.2.2](create-composite-partition-table.md)
+  - deferred segments [4.1.14.1](partition-create-tables-indexes.md)
+  - EXCHANGE PARTITION clause [4.4.5.2](maintenance-partition-tables-indexes.md)
+  - exchanging a hash partitioned table [4.4.5.6](maintenance-partition-tables-indexes.md)
+  - exchanging a range partitioned table [4.4.5.10](maintenance-partition-tables-indexes.md)
+  - exchanging interval partitions [4.4.5.3](maintenance-partition-tables-indexes.md)
+  - extensions [2.4](partition-concepts.md)
+  - global hash partitioned indexes [2.5.3.2](partition-concepts.md)
+  - global indexes [3.3.2](index-partitioning.md)
+  - global nonpartitioned indexes [2.5.4](partition-concepts.md)
+  - global partitioned indexes [2.5.3](partition-concepts.md)
+  - global range partitioned indexes [2.5.3.1](partition-concepts.md)
+  - guidelines for indexes [3.3.7](index-partitioning.md)
+  - hash [2.3.1.2](partition-concepts.md)
+  - Hybrid Columnar Compression example [3.4.2](partition-table-compression.md)
+  - indexes [2.1.3.2](partition-concepts.md), [2.5](partition-concepts.md), [3.3](index-partitioning.md)
+  - index-organized tables [2.1.4](partition-concepts.md), [4.1](partition-create-tables-indexes.md), [4.1.15.1](partition-create-tables-indexes.md), [4.1.15.2](partition-create-tables-indexes.md), [4.1.15.3](partition-create-tables-indexes.md)
+  - Information Lifecycle Management [2.1.6](partition-concepts.md)
+  - Information Lifecycle Management, and [1.3](partition-intro.md)
+  - interval [2.4.1.1](partition-concepts.md), [2.4.1.2](partition-concepts.md)
+  - interval-hash [4.2.2.1](create-composite-partition-table.md)
+  - interval-list [4.2.2.2](create-composite-partition-table.md)
+  - interval-range [4.2.2.3](create-composite-partition-table.md)
+  - key [2.1.2](partition-concepts.md)
+  - key extensions [2.4.2](partition-concepts.md)
+  - list [2.3.1.3](partition-concepts.md), [4.4.8.1](maintenance-partition-tables-indexes.md), [4.4.8.2](maintenance-partition-tables-indexes.md)
+  - list-hash [4.2.3.1](create-composite-partition-table.md)
+  - list-list [4.2.3.2](create-composite-partition-table.md)
+  - list-range [4.2.3.3](create-composite-partition-table.md)
+  - LOB data [2.1.8](partition-concepts.md)
+  - local indexes [3.3.1](index-partitioning.md)
+  - local partitioned indexes [2.5.2](partition-concepts.md)
+  - maintaining partitions [4.4](maintenance-partition-tables-indexes.md)
+  - maintenance procedures for segment creation [4.1.14.3](partition-create-tables-indexes.md)
+  - manageability [2.2.2](partition-concepts.md), [3](partition-availability.md)
+  - manageability extensions [2.4.1](partition-concepts.md)
+  - manageability with indexes [6.4.2](partition-warehouse.md)
+  - managing partitions [3.3.2.2](index-partitioning.md)
+  - modifying attributes [4.4.7](maintenance-partition-tables-indexes.md)
+  - modifying list partitions [4.4.8](maintenance-partition-tables-indexes.md)
+  - modifying the strategy [4.4.9](maintenance-partition-tables-indexes.md)
+  - new features ,
+  - nonprefixed indexes [3.3.1.2](index-partitioning.md), [3.3.2.1](index-partitioning.md), [3.3.4](index-partitioning.md)
+  - Online Transaction Processing (OLTP) [7](partition-oltp.md)
+  - overview [2](partition-concepts.md), [2.1](partition-concepts.md)
+  - partial indexes on partitioned tables [2.5.6](partition-concepts.md)
+  - Partition Advisor [2.4.1.2](partition-concepts.md)
+  - partitioned indexes on composite partitions [2.5.7](partition-concepts.md)
+  - partition-wise joins [2.2.1.2](partition-concepts.md)
+  - performance [2.2.1](partition-concepts.md), [3](partition-availability.md), [3.5](recommendations-partition-strategy.md)
+  - performance considerations [3.5](recommendations-partition-strategy.md)
+  - performance considerations for composite [3.5.4](recommendations-partition-strategy.md)
+  - performance considerations for composite list-hash [3.5.4.4](recommendations-partition-strategy.md)
+  - performance considerations for composite list-list [3.5.4.5](recommendations-partition-strategy.md)
+  - performance considerations for composite list-range [3.5.4.6](recommendations-partition-strategy.md)
+  - performance considerations for composite range-hash [3.5.4.1](recommendations-partition-strategy.md)
+  - performance considerations for composite range-list [3.5.4.2](recommendations-partition-strategy.md)
+  - performance considerations for composite range-range [3.5.4.3](recommendations-partition-strategy.md)
+  - performance considerations for hash [3.5.2](recommendations-partition-strategy.md)
+  - performance considerations for interval [3.5.5](recommendations-partition-strategy.md)
+  - performance considerations for list [3.5.3](recommendations-partition-strategy.md)
+  - performance considerations for range [3.5.6](recommendations-partition-strategy.md)
+  - performance considerations for virtual columns [3.5.7](recommendations-partition-strategy.md)
+  - placement with striping [10.2.4](vldb-storage.md)
+  - prefixed indexes [3.3.1.1](index-partitioning.md), [3.3.2.1](index-partitioning.md)
+  - pruning [2.2.1.1](partition-concepts.md), [3.1](partition-pruning.md)
+  - range [2.3.1.1](partition-concepts.md)
+  - range-hash [4.2.4.1](create-composite-partition-table.md)
+  - range-list [4.2.4.2](create-composite-partition-table.md)
+  - range-range [4.2.4.3](create-composite-partition-table.md)
+  - reference [2.4.2.1](partition-concepts.md)
+  - removing data from tables [6.4.3](partition-warehouse.md)
+  - restrictions for multiple block sizes [4.1.16](partition-create-tables-indexes.md)
+  - segments [4.1.14](partition-create-tables-indexes.md)
+  - single-level [2.3.1](partition-concepts.md)
+  - strategies [2.3](partition-concepts.md), [3.5](recommendations-partition-strategy.md)
+  - subpartition templates [4.2.5](create-composite-partition-table.md)
+  - system [2.1.5](partition-concepts.md), [2.4](partition-concepts.md), [2.4.1](partition-concepts.md), [2.4.2](partition-concepts.md)
+  - tables [2.1.3](partition-concepts.md), [2.1.3.1](partition-concepts.md)
+  - truncating segments [4.1.14.2](partition-create-tables-indexes.md)
+  - type of index to use [2.5.1](partition-concepts.md)
+  - very large databases (VLDBs), and [1.2](partition-intro.md)
+  - virtual columns [2.4.2.2](partition-concepts.md)
+- partitioning and data compression
+  - data warehouses [6.4.4](partition-warehouse.md)
+- partitioning and materialized views
+  - data warehouses [6.3.4](partition-warehouse.md)
+- partitioning columns
+  - range-partitioned tables [4.1.1.1](partition-create-tables-indexes.md)
+- partitioning keys
+  - range-partitioned tables [4.1.1.1](partition-create-tables-indexes.md)
+- partitioning materialized views
+  - data warehouses [6.3.4.1](partition-warehouse.md)
+- partitioning of XMLIndex
+  - binary XML tables [4.1.17.2](partition-create-tables-indexes.md)
+- partition maintenance operations [7.3.1](partition-oltp.md), [7.3.2](partition-oltp.md)
+  - merging older partitions [7.3.3.2](partition-oltp.md)
+  - moving older partitions [7.3.3.2](partition-oltp.md)
+  - Online Transaction Processing (OLTP) [7.3.3](partition-oltp.md)
+  - removing old data [7.3.3.1](partition-oltp.md)
+- partition pruning
+  - about [3.1](partition-pruning.md)
+  - benefits [3.1.1](partition-pruning.md)
+  - collection tables [3.1.7.3](partition-pruning.md)
+  - data type conversions [3.1.7.1](partition-pruning.md)
+  - dynamic [3.1.5](partition-pruning.md)
+  - dynamic with bind variables [3.1.5.1](partition-pruning.md)
+  - dynamic with nested loop joins [3.1.5.4](partition-pruning.md)
+  - dynamic with star transformation [3.1.5.3](partition-pruning.md)
+  - dynamic with subqueries [3.1.5.2](partition-pruning.md)
+  - function calls [3.1.7.2](partition-pruning.md)
+  - identifying [3.1.3](partition-pruning.md)
+  - information for pruning [3.1.2](partition-pruning.md)
+  - PARTITION_START [3.1.3](partition-pruning.md)
+  - PARTITION_STOP [3.1.3](partition-pruning.md)
+  - static [3.1.4](partition-pruning.md)
+  - tips and considerations [3.1.7](partition-pruning.md)
+  - with zone maps [3.1.6](partition-pruning.md)
+- partitions [1.1](partition-intro.md)
+  - advanced index compression [3.3.6](index-partitioning.md)
+  - equipartitioning
+    - examples [3.3.1.1](index-partitioning.md)
+    - local indexes [3.3.1](index-partitioning.md)
+  - global indexes [3.3.2](index-partitioning.md), [6.3.3.3](partition-warehouse.md)
+  - guidelines for partitioning indexes [3.3.7](index-partitioning.md)
+  - indexes [3.3](index-partitioning.md)
+  - local indexes [3.3.1](index-partitioning.md), [6.3.3.1](partition-warehouse.md)
+  - nonprefixed indexes [2.5.2](partition-concepts.md), [3.3.1.2](index-partitioning.md), [3.3.4](index-partitioning.md)
+  - on indexes [6.3.3](partition-warehouse.md)
+  - parallel DDL statements [8.5.2.1](types-parallelism.md)
+  - physical attributes [3.3.8](index-partitioning.md)
+  - prefixed indexes [3.3.1.1](index-partitioning.md)
+- PARTITIONS clause
+  - for hash partitions [4.1.3](partition-create-tables-indexes.md)
+- partition-wise joins [3.2](partition-wise-joins.md)
+  - benefits [6.3.2](partition-warehouse.md), [6.3.2.3](partition-warehouse.md)
+  - full [3.2.1](partition-wise-joins.md), [6.3.2.1](partition-warehouse.md)
+  - parallel execution [6.3.2.4](partition-warehouse.md)
+  - partial [3.2.2](partition-wise-joins.md), [6.3.2.2](partition-warehouse.md)
+- partition-wise operations [3.2](partition-wise-joins.md)
+- performance
+  - DSS database [8.5.3.1](types-parallelism.md)
+  - prefixed and nonprefixed indexes [3.3.5](index-partitioning.md)
+  - very large databases (VLDBs) [10.2](vldb-storage.md)
+- predicates
+  - index partition pruning [3.3.5](index-partitioning.md)
+- prefixed indexes [3.3.1.1](index-partitioning.md), [3.3.3](index-partitioning.md)
+  - partition pruning [3.3.5](index-partitioning.md)
+- processes
+  - memory contention in parallel processing [8.6.3.1.2](parameters-parallel-exec.md)
+- process monitor process (PMON)
+  - parallel DML process recovery [8.5.3.7.2](types-parallelism.md)
+- producer operations [8.1.4.2](parallel-exec-intro.md)
+- pruning partitions
+  - about [3.1](partition-pruning.md)
+  - benefits [3.1.1](partition-pruning.md)
+  - indexes and performance [3.3.5](index-partitioning.md)
+
+------------------------------------------------------------------------
+
+## Q
+
+- queries
+  - ad hoc [8.5.2.2](types-parallelism.md)
+- queuing
+  - parallel statements [8.4](about-parallel-queuing.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- range-hash partitioning
+  - creating tables using [4.2.4.1](create-composite-partition-table.md)
+  - subpartitioning template [4.2.5.1](create-composite-partition-table.md)
+- range-list partitioning
+  - creating tables using [4.2.4.2](create-composite-partition-table.md)
+  - subpartitioning template [4.2.5.2](create-composite-partition-table.md)
+- range-partitioned tables
+  - adding partitions [4.4.2.1](maintenance-partition-tables-indexes.md)
+  - splitting partitions [4.4.13.1](maintenance-partition-tables-indexes.md), [4.4.13.6](maintenance-partition-tables-indexes.md)
+- range partitioning [2.3.1.1](partition-concepts.md)
+  - creating tables using [4.1.1](partition-create-tables-indexes.md)
+  - index-organized tables [4.1.15.1](partition-create-tables-indexes.md)
+  - multicolumn partitioning keys [4.1.10](partition-create-tables-indexes.md)
+  - performance considerations [3.5.1](recommendations-partition-strategy.md), [3.5.6](recommendations-partition-strategy.md)
+- range-range partitioning
+  - creating tables using [4.2.4.3](create-composite-partition-table.md)
+- read-only status
+  - tables, partitions, and subpartitions [4.1.8](partition-create-tables-indexes.md)
+- read-only tablespaces
+  - performance considerations [3.5.8](recommendations-partition-strategy.md)
+- REBUILD PARTITION clause [4.4.10.3](maintenance-partition-tables-indexes.md), [4.4.11.2.1](maintenance-partition-tables-indexes.md)
+- REBUILD UNUSABLE LOCAL INDEXES clause [4.4.11.2.2](maintenance-partition-tables-indexes.md)
+- recovery
+  - parallel DML operations [8.5.3.7](types-parallelism.md)
+- reference-partitioned tables
+  - adding partitions [4.4.2.8](maintenance-partition-tables-indexes.md)
+- reference partitioning
+  - creating tables using [4.1.5](partition-create-tables-indexes.md)
+  - key extension [2.4.2.1](partition-concepts.md)
+- RENAME PARTITION clause [4.4.12.1](maintenance-partition-tables-indexes.md), [4.4.12.3.1](maintenance-partition-tables-indexes.md)
+- RENAME SUBPARTITION clause [4.4.12.2](maintenance-partition-tables-indexes.md)
+- replication
+  - restrictions on parallel DML [8.5.3.9](types-parallelism.md)
+- resources
+  - consumption, parameters affecting [8.6.3.2](parameters-parallel-exec.md), [8.6.3.2.3](parameters-parallel-exec.md)
+  - limiting for users [8.6.3.1.2](parameters-parallel-exec.md)
+  - limits [8.6.3.1.2](parameters-parallel-exec.md)
+  - parallel query usage [8.6.3.2](parameters-parallel-exec.md)
+- restrictions
+  - direct-path INSERT [8.5.3.9](types-parallelism.md)
+  - parallel DDL statements [8.5.2.1](types-parallelism.md)
+  - parallel DML operations [8.5.3.9](types-parallelism.md)
+  - parallel DML operations and remote transactions [8.5.3.12](types-parallelism.md)
+- ROW ARCHIVAL VISIBILITY
+  - In-Database Archiving [5.3.1](control-validity-visibility-data.md)
+- row-level compression tiering
+  - Automatic Data Optimization [5.2.2.6](ilm-strategy-heatmap-ado.md)
+- row movement clause for partitioned tables [4.1](partition-create-tables-indexes.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- scalability
+  - batch jobs [8.5.3.1.5](types-parallelism.md)
+  - parallel DML operations [8.5.3.1](types-parallelism.md)
+- scalability and manageability
+  - very large databases (VLDBs) [10.3](vldb-storage.md)
+- scans
+  - parallel query on full table [8.1.2](parallel-exec-intro.md)
+- segment-level compression tiering
+  - Automatic Data Optimization [5.2.2.5](ilm-strategy-heatmap-ado.md)
+- segments
+  - creating on demand [4.1.14.3](partition-create-tables-indexes.md)
+  - deferred [4.1.14.1](partition-create-tables-indexes.md)
+  - partitioning [4.1.14](partition-create-tables-indexes.md)
+  - truncating [4.1.14.2](partition-create-tables-indexes.md)
+- sessions
+  - enabling parallel DML operations [8.5.3.2](types-parallelism.md)
+- session statistics
+  - monitoring for parallel processing [8.7.2](monitor-parallel-performance.md)
+- SET INTERVAL clause [4.4.2.4](maintenance-partition-tables-indexes.md)
+- SHARED_POOL_SIZE initialization parameter [8.6.3.1.7](parameters-parallel-exec.md)
+- single-level partitioning [2.3.1](partition-concepts.md)
+- skewing parallel DML workload [8.1.6](parallel-exec-intro.md)
+- SORT_AREA_SIZE initialization parameter
+  - parallel execution [8.6.3.2.1.2](parameters-parallel-exec.md)
+- space management
+  - MINIMUM EXTENT parameter [8.5.2.6](types-parallelism.md)
+  - parallel DDL [8.5.2.4](types-parallelism.md)
+- SPLIT PARTITION clause [4.4.2.1](maintenance-partition-tables-indexes.md), [4.4.13](maintenance-partition-tables-indexes.md)
+- SPLIT PARTITION operations
+  - optimizing [4.4.13.9](maintenance-partition-tables-indexes.md)
+- SPLIT SUBPARTITION operations
+  - optimizing [4.4.13.9](maintenance-partition-tables-indexes.md)
+- splitting multiple partitions [4.4.13.8](maintenance-partition-tables-indexes.md)
+- splitting partitions and subpartitions [4.4.13](maintenance-partition-tables-indexes.md)
+- SQL statementsSQL statements
+  - data flow operations [8.1.4.1](parallel-exec-intro.md)
+  - parallelizing [8.1.4.1](parallel-exec-intro.md)
+- STATEMENT_QUEUING
+  - parallel statement queuing hint [8.4.3](about-parallel-queuing.md)
+- statistics
+  - operating system [8.7.4](monitor-parallel-performance.md)
+- storage
+  - fragmentation in parallel DDL [8.5.2.6](types-parallelism.md)
+  - index partitions [3.3.8](index-partitioning.md)
+- STORAGE clause
+  - parallel execution [8.5.2.5](types-parallelism.md)
+- storage management
+  - very large databases (VLDBs) [10](vldb-storage.md)
+- STORE IN clause
+  - partitions [4.2.4.1.2](create-composite-partition-table.md)
+- stripe and mirror everything
+  - very large databases (VLDBs) [10.3.1](vldb-storage.md)
+- striping
+  - Information Lifecycle Management [10.2.3](vldb-storage.md)
+  - partitioning placement [10.2.4](vldb-storage.md)
+- striping with Oracle ASM
+  - very large databases (VLDBs) [10.2.2](vldb-storage.md)
+- SUBPARTITION BY HASH clause
+  - for composite-partitioned tables [4.2](create-composite-partition-table.md)
+- SUBPARTITION clause [4.4.2.5.1](maintenance-partition-tables-indexes.md), [4.4.2.6.1](maintenance-partition-tables-indexes.md), [4.4.2.7.1](maintenance-partition-tables-indexes.md), [4.4.13.4](maintenance-partition-tables-indexes.md)
+  - for composite-partitioned tables [4.2](create-composite-partition-table.md)
+- SUBPARTITIONS clause [4.4.2.5.1](maintenance-partition-tables-indexes.md), [4.4.13.4](maintenance-partition-tables-indexes.md)
+  - for composite-partitioned tables [4.2](create-composite-partition-table.md)
+- subpartition templates [4.2.5](create-composite-partition-table.md)
+  - modifying [4.3.3](maintenance-partition-can-be-performed.md)
+- subqueries
+  - in DDL statements [8.5.2.2](types-parallelism.md)
+- system monitor process (SMON)
+  - parallel DML system recovery [8.5.3.7.3](types-parallelism.md)
+- system partitioning [2.1.5](partition-concepts.md)
+- system statistics
+  - monitoring for parallel processing [8.7.3](monitor-parallel-performance.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- table compression
+  - partitioning [4.1.12](partition-create-tables-indexes.md)
+- table queues
+  - monitoring parallel processing [8.7.1.7](monitor-parallel-performance.md)
+- tables
+  - creating and populating in parallel [8.8.2](parallel-exec-tips.md)
+  - creating composite partitioned [4.2](create-composite-partition-table.md)
+  - full partition-wise joins [3.2.1](partition-wise-joins.md), [6.3.2.1](partition-warehouse.md)
+  - historical [8.5.3.1.4](types-parallelism.md)
+  - index-organized, partitioning [4.1.15](partition-create-tables-indexes.md)
+  - parallel creation [8.5.2.2](types-parallelism.md)
+  - parallel DDL storage [8.5.2.6](types-parallelism.md)
+  - partial partition-wise joins [3.2.2](partition-wise-joins.md), [6.3.2.2](partition-warehouse.md)
+  - partitioning [2.1.3](partition-concepts.md)
+  - partitions [1.1](partition-intro.md)
+  - refreshing in data warehouse [8.5.3.1.1](types-parallelism.md)
+  - STORAGE clause with parallel execution [8.5.2.5](types-parallelism.md)
+  - summary [8.5.2.2](types-parallelism.md)
+  - when to partition [2.1.3.1](partition-concepts.md)
+- tables for exchange
+  - with partitioned tables [4.4.5.1](maintenance-partition-tables-indexes.md)
+- TAPE_ASYNCH_IO initialization parameter
+  - parallel query [8.6.3.3.4](parameters-parallel-exec.md)
+- temporal validity
+  - creating a table with [5.3.3](control-validity-visibility-data.md)
+- Temporal Validity
+  - DBMS_FLASHBACK_ARCHIVE package ENABLE_AT_VALID_TIME procedure [5.3.2](control-validity-visibility-data.md)
+  - limitations [5.3.4](control-validity-visibility-data.md)
+  - managing data validity [5.3.2](control-validity-visibility-data.md)
+  - valid-time period [5.3.2](control-validity-visibility-data.md)
+- temporary segments
+  - parallel DDL [8.5.2.6](types-parallelism.md)
+- time-based information
+  - Information Lifecycle Management [5](time-based-info.md)
+- transactions
+  - distributed and parallel DML restrictions [8.5.3.12](types-parallelism.md)
+- triggers
+  - restrictions [8.5.3.11](types-parallelism.md)
+  - restrictions on parallel DML [8.5.3.9](types-parallelism.md)
+- TRUNCATE PARTITION clause [4.4.14](maintenance-partition-tables-indexes.md), [4.4.14.1](maintenance-partition-tables-indexes.md), [4.4.14.1.1](maintenance-partition-tables-indexes.md)
+- TRUNCATE SUBPARTITION clause [4.4.14.3](maintenance-partition-tables-indexes.md)
+- truncating multiple partitions [4.4.14.2](maintenance-partition-tables-indexes.md)
+- truncating partitions
+  - asynchronous global index maintenance [4.3.2](maintenance-partition-can-be-performed.md)
+  - cascade option [4.4.14.4](maintenance-partition-tables-indexes.md)
+  - marking indexes UNUSABLE [4.4.14](maintenance-partition-tables-indexes.md)
+- truncating segments
+  - partitioning [4.1.14.2](partition-create-tables-indexes.md)
+- two-phase commit [8.6.3.2.3.1](parameters-parallel-exec.md)
+- types of parallelism [8.5](types-parallelism.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- UNION ALL
+  - concurrent execution [8.5.3.14](types-parallelism.md)
+- UPDATE GLOBAL INDEX clause
+  - of ALTER TABLE [4.3.1](maintenance-partition-can-be-performed.md)
+- UPDATE statement
+  - parallel UPDATE statement [8.5.3.3](types-parallelism.md)
+- updating indexes automatically [4.3.1](maintenance-partition-can-be-performed.md)
+- user resources
+  - limiting [8.6.3.1.2](parameters-parallel-exec.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- V\$PQ_SESSTAT view
+  - monitoring parallel processing [8.7.1.6](monitor-parallel-performance.md)
+- V\$PQ_TQSTAT view
+  - monitoring parallel processing [8.7.1.7](monitor-parallel-performance.md)
+- V\$PX_BUFFER_ADVICE view
+  - monitoring parallel processing [8.7.1.1](monitor-parallel-performance.md)
+- V\$PX_PROCESS_SYSSTAT view
+  - monitoring parallel processing [8.7.1.5](monitor-parallel-performance.md)
+- V\$PX_PROCESS view
+  - monitoring parallel processing [8.7.1.4](monitor-parallel-performance.md)
+- V\$PX_SESSION view
+  - monitoring parallel processing [8.7.1.2](monitor-parallel-performance.md)
+- V\$PX_SESSTAT view
+  - monitoring parallel processing [8.7.1.3](monitor-parallel-performance.md)
+- V\$RSRC_CONS_GROUP_HISTORY view
+  - monitoring parallel processing [8.7.1.8](monitor-parallel-performance.md)
+- V\$RSRC_CONSUMER_GROUP view
+  - monitoring parallel processing [8.7.1.9](monitor-parallel-performance.md)
+- V\$RSRC_PLAN_HISTORY view
+  - monitoring parallel processing [8.7.1.11](monitor-parallel-performance.md)
+- V\$RSRC_PLAN view
+  - monitoring parallel processing [8.7.1.10](monitor-parallel-performance.md)
+- V\$RSRC_SESSION_INFO view
+  - parallel statement queuing metrics [8.7.1.12](monitor-parallel-performance.md)
+- V\$RSRCMGRMETRIC view
+  - parallel statement queuing statistics [8.7.1.13](monitor-parallel-performance.md)
+- V\$SESSTAT view [8.7.4](monitor-parallel-performance.md)
+- V\$SYSSTAT view [8.8.4.6](parallel-exec-tips.md)
+- valid-time period
+  - Temporal Validity [5.3.2](control-validity-visibility-data.md)
+- very large databases (VLDBs)
+  - about [1](partition-intro.md)
+  - backing up and recovering [9](vldb-backup.md)
+  - backup tools [9.2.3](vldb-backup.md)
+  - backup types [9.2.2](vldb-backup.md)
+  - bigfile tablespaces [10.2.5](vldb-storage.md)
+  - database structures for recovering data [9.2.1](vldb-backup.md)
+  - hardware-based mirroring [10.1.1](vldb-storage.md)
+  - hardware-based striping [10.2.1](vldb-storage.md)
+  - high availability [10.1](vldb-storage.md)
+  - introduction [1](partition-intro.md)
+  - mirroring with Oracle ASM [10.1.2](vldb-storage.md)
+  - new features ,
+  - Oracle Automatic Storage Management settings [10.4](vldb-storage.md)
+  - Oracle Backup and Recovery [9.2](vldb-backup.md)
+  - Oracle Database File System [10.2.6](vldb-storage.md)
+  - Oracle Data Pump [9.2.3](vldb-backup.md), [9.2.3.2](vldb-backup.md)
+  - Oracle Recovery Manager [9.2.3.1](vldb-backup.md)
+  - partitioning, and [1.2](partition-intro.md)
+  - performance [10.2](vldb-storage.md)
+  - physical and logical backups [9.2.2](vldb-backup.md)
+  - RAID 0 striping [10.2.1.1](vldb-storage.md)
+  - RAID 1 mirroring [10.1.1.1](vldb-storage.md)
+  - RAID 5 mirroring [10.1.1.2](vldb-storage.md)
+  - RAID 5 striping [10.2.1.2](vldb-storage.md)
+  - RMAN [9.2.3](vldb-backup.md)
+  - scalability and manageability [10.3](vldb-storage.md)
+  - storage management [10](vldb-storage.md)
+  - stripe and mirror everything [10.3.1](vldb-storage.md)
+  - striping with Oracle ASM [10.2.2](vldb-storage.md)
+  - user-managed backups [9.2.3](vldb-backup.md), [9.2.3.3](vldb-backup.md)
+- views
+  - parallel processing monitoring [8.7.1](monitor-parallel-performance.md)
+  - partitioned tables and indexes [4.8](view-info-partition-tables-indexes.md)
+  - V\$SESSTAT [8.7.4](monitor-parallel-performance.md)
+  - V\$SYSSTAT [8.8.4.6](parallel-exec-tips.md)
+- views for ILM policies
+  - Automatic Data Optimization [5.2.2.9](ilm-strategy-heatmap-ado.md)
+- virtual column-based partitioning
+  - about [4.1.11](partition-create-tables-indexes.md)
+  - key extension [2.4.2.2](partition-concepts.md)
+  - using for the subpartitioning key [4.1.11](partition-create-tables-indexes.md)
+- virtual column partitioning
+  - performance considerations [3.5.7](recommendations-partition-strategy.md)
+- VLDBs
+  - very large databases [1](partition-intro.md)
+
+------------------------------------------------------------------------
+
+## W
+
+- workloads
+  - skewing [8.1.6](parallel-exec-intro.md)
+
+------------------------------------------------------------------------
+
+## X
+
+- XMLType collections
+  - partitioning [4.1.17](partition-create-tables-indexes.md)
+- XMLType objects [2.1.11](partition-concepts.md)
