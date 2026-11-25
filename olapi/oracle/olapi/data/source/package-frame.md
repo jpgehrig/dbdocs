@@ -1,0 +1,50 @@
+# [oracle.olapi.data.source](package-summary.md)
+
+## Interfaces
+
+- [CompoundCursorInfoSpecification](CompoundCursorInfoSpecification.md)
+- [CursorInfoSpecification](CursorInfoSpecification.md)
+- [Model](Model.md)
+- [SourceGenerator](SourceGenerator.md)
+- [SpecifiedCursorManager](SpecifiedCursorManager.md)
+- [SQLCursorManager](SQLCursorManager.md)
+- [ValueCursorInfoSpecification](ValueCursorInfoSpecification.md)
+
+## Classes
+
+- [Assignment](Assignment.md)
+- [BooleanParameter](BooleanParameter.md)
+- [BooleanSource](BooleanSource.md)
+- [BuildProperties](BuildProperties.md)
+- [BuildResult](BuildResult.md)
+- [CompoundCursorSpecification](CompoundCursorSpecification.md)
+- [CursorSpecification](CursorSpecification.md)
+- [CursorSpecificationVisitor](CursorSpecificationVisitor.md)
+- [CustomModel](CustomModel.md)
+- [DataProvider](DataProvider.md)
+- [DateParameter](DateParameter.md)
+- [DateSource](DateSource.md)
+- [DynamicDefinition](DynamicDefinition.md)
+- [FundamentalMetadataObject](FundamentalMetadataObject.md)
+- [FundamentalMetadataProvider](FundamentalMetadataProvider.md)
+- [LiteralQualification](LiteralQualification.md)
+- [NumberParameter](NumberParameter.md)
+- [NumberSource](NumberSource.md)
+- [Parameter](Parameter.md)
+- [ParameterVisitor](ParameterVisitor.md)
+- [Qualification](Qualification.md)
+- [Source](Source.md)
+- [SourceDefinition](SourceDefinition.md)
+- [StringParameter](StringParameter.md)
+- [StringSource](StringSource.md)
+- [Template](Template.md)
+- [ValueCursorSpecification](ValueCursorSpecification.md)
+
+## Exceptions
+
+- [BuildWarningsException](BuildWarningsException.md)
+- [CursorLockException](CursorLockException.md)
+- [DataProviderMismatchException](DataProviderMismatchException.md)
+- [IncorrectDataValueException](IncorrectDataValueException.md)
+- [ServerVersionException](ServerVersionException.md)
+- [UnmatchedInputsException](UnmatchedInputsException.md)

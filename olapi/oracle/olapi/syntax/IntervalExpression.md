@@ -1,0 +1,272 @@
+Skip navigation links
+
+- [Overview](../../../overview-summary.md)
+- [Package](package-summary.md)
+- Class
+- [Tree](package-tree.md)
+- [Deprecated](../../../deprecated-list.md)
+- [Index](../../../index-all.md)
+- [Help](../../../help-doc.md)
+
+**Oracle® OLAP Java API Reference
+19c**
+E96404-01
+
+- [Prev Class](IdentifierArgument.md)
+- [Next Class](IntervalLiteralExpression.md)
+
+<!-- -->
+
+- [Frames](../../../index.md)
+- No Frames
+
+<!-- -->
+
+- [All Classes](../../../allclasses-noframe.md)
+
+<!-- -->
+
+- Summary: 
+- Nested \| 
+- Field \| 
+- Constr \| 
+- Method
+
+<!-- -->
+
+- Detail: 
+- Field \| 
+- Constr \| 
+- Method
+
+oracle.olapi.syntax
+
+## Class IntervalExpression
+
+- java.lang.Object
+
+- - [oracle.olapi.syntax.SyntaxObject](SyntaxObject.md)
+
+  - - [oracle.olapi.syntax.DataObject](DataObject.md)
+
+    - - [oracle.olapi.syntax.Expression](Expression.md)
+
+      - - [oracle.olapi.syntax.TypedExpression](TypedExpression.md)
+
+        - - [oracle.olapi.syntax.RowExpression](RowExpression.md)
+
+          - - oracle.olapi.syntax.IntervalExpression
+
+<!-- -->
+
+- All Implemented Interfaces:
+  [FunctionArgument](FunctionArgument.md)
+
+  ------------------------------------------------------------------------
+
+
+
+      public final class IntervalExpression
+      extends RowExpression
+
+  A `RowExpression` that represents an interval expression, which is similar to a SQL interval expression. An `IntervalExpression` resolves to a value that has a data type of `INTERVAL_YEAR_TO_MONTH` or `INTERVAL_DAY_TO_SECOND`. For more information, see Interval Expressions in *Oracle Database SQL Language Reference*.
+
+<!-- -->
+
+- - ### Field Summary
+
+    **Fields**
+
+    | Modifier and Type         | Field and Description                                                                                   |
+    |---------------------------|---------------------------------------------------------------------------------------------------------|
+    | `static java.lang.String` | `DAY_TO_SECOND`<br>A constant that represents the `DAY_TO_SECOND` operator for an `IntervalExpression`. |
+    | `static java.lang.String` | `YEAR_TO_MONTH`<br>A constant that represents the `YEAR_TO_MONTH` operator for an `IntervalExpression`. |
+
+  <!-- -->
+
+  - ### Constructor Summary
+
+    **Constructors**
+
+    | Constructor and Description                                                                                                                                                                                                                                                                                                   |
+    |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | `IntervalExpression``(`[`TypedExpression`](TypedExpression.md)` base, java.lang.String operator, `[`TypedExpression`](TypedExpression.md)` firstPrecision, `[`TypedExpression`](TypedExpression.md)` secondPrecision)`<br>Creates an `IntervalExpression` with the specified base expression, operator, and precision values. |
+
+  <!-- -->
+
+  - ### Method Summary
+
+    **All Methods[Instance Methods](javascript:show(2);)[Concrete Methods](javascript:show(8);)**
+
+    | Modifier and Type                       | Method and Description                                                                                                                                                                                                                      |
+    |-----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | [`TypedExpression`](TypedExpression.md) | `getBaseExpression``()`<br>Gets the base expression of this `IntervalExpression`.                                                                                                                                                           |
+    | [`TypedExpression`](TypedExpression.md) | `getFirstPrecisionExpression``()`<br>Gets the first, or leading field, precision value of this `IntervalExpression`.                                                                                                                        |
+    | `java.lang.String`                      | `getOperator``()`<br>Gets the operator for this `IntervalExpression`.                                                                                                                                                                       |
+    | [`TypedExpression`](TypedExpression.md) | `getSecondPrecisionExpression``()`<br>Gets the second, or fractional second, precision value of this `IntervalExpression`.                                                                                                                  |
+    | `java.lang.Object`                      | `visit``(`[`SyntaxObjectVisitor`](SyntaxObjectVisitor.md)` visitor, java.lang.Object context)`<br>Calls the `visitIntervalExpression` method of the `SyntaxObjectVisitor` and passes that method this `IntervalExpression` and an `Object`. |
+
+    - ### Methods inherited from class oracle.olapi.syntax.[RowExpression](RowExpression.md)
+
+      [`isCompositeObject`](RowExpression.md)
+
+    <!-- -->
+
+    - ### Methods inherited from class oracle.olapi.syntax.[TypedExpression](TypedExpression.md)
+
+      [`abs`](TypedExpression.md)`, `[`acos`](TypedExpression.md)`, `[`addMonths`](TypedExpression.md)`, `[`addMonths`](TypedExpression.md)`, `[`ascii`](TypedExpression.md)`, `[`asciiStr`](TypedExpression.md)`, `[`asin`](TypedExpression.md)`, `[`atan`](TypedExpression.md)`, `[`atan2`](TypedExpression.md)`, `[`between`](TypedExpression.md)`, `[`binToNum`](TypedExpression.md)`, `[`bitAnd`](TypedExpression.md)`, `[`cast`](TypedExpression.md)`, `[`ceil`](TypedExpression.md)`, `[`charToROWID`](TypedExpression.md)`, `[`chr`](TypedExpression.md)`, `[`chr`](TypedExpression.md)`, `[`coalesce`](TypedExpression.md)`, `[`compose`](TypedExpression.md)`, `[`concat`](TypedExpression.md)`, `[`concat`](TypedExpression.md)`, `[`convert`](TypedExpression.md)`, `[`convert`](TypedExpression.md)`, `[`cos`](TypedExpression.md)`, `[`cosh`](TypedExpression.md)`, `[`currentDate`](TypedExpression.md)`, `[`currentTime`](TypedExpression.md)`, `[`dbTimeZone`](TypedExpression.md)`, `[`decode`](TypedExpression.md)`, `[`decompose`](TypedExpression.md)`, `[`deref`](TypedExpression.md)`, `[`div`](TypedExpression.md)`, `[`div`](TypedExpression.md)`, `[`div`](TypedExpression.md)`, `[`div`](TypedExpression.md)`, `[`div`](TypedExpression.md)`, `[`dump`](TypedExpression.md)`, `[`eq`](TypedExpression.md)`, `[`eq`](TypedExpression.md)`, `[`eq`](TypedExpression.md)`, `[`eq`](TypedExpression.md)`, `[`eq`](TypedExpression.md)`, `[`exp`](TypedExpression.md)`, `[`extractDay`](TypedExpression.md)`, `[`extractHour`](TypedExpression.md)`, `[`extractMinute`](TypedExpression.md)`, `[`extractMonth`](TypedExpression.md)`, `[`extractSecond`](TypedExpression.md)`, `[`extractTimeZoneAbbr`](TypedExpression.md)`, `[`extractTimeZoneHour`](TypedExpression.md)`, `[`extractTimeZoneMinute`](TypedExpression.md)`, `[`extractTimeZoneRegion`](TypedExpression.md)`, `[`extractYear`](TypedExpression.md)`, `[`floor`](TypedExpression.md)`, `[`fromTZ`](TypedExpression.md)`, `[`ge`](TypedExpression.md)`, `[`ge`](TypedExpression.md)`, `[`ge`](TypedExpression.md)`, `[`ge`](TypedExpression.md)`, `[`ge`](TypedExpression.md)`, `[`getDataType`](TypedExpression.md)`, `[`greatest`](TypedExpression.md)`, `[`gt`](TypedExpression.md)`, `[`gt`](TypedExpression.md)`, `[`gt`](TypedExpression.md)`, `[`gt`](TypedExpression.md)`, `[`gt`](TypedExpression.md)`, `[`hexToRAW`](TypedExpression.md)`, `[`in`](TypedExpression.md)`, `[`initcap`](TypedExpression.md)`, `[`instr`](TypedExpression.md)`, `[`instr2`](TypedExpression.md)`, `[`instr4`](TypedExpression.md)`, `[`instrB`](TypedExpression.md)`, `[`instrC`](TypedExpression.md)`, `[`isInfinite`](TypedExpression.md)`, `[`isNAN`](TypedExpression.md)`, `[`isNotNull`](TypedExpression.md)`, `[`isNull`](TypedExpression.md)`, `[`lastDay`](TypedExpression.md)`, `[`le`](TypedExpression.md)`, `[`le`](TypedExpression.md)`, `[`le`](TypedExpression.md)`, `[`le`](TypedExpression.md)`, `[`le`](TypedExpression.md)`, `[`least`](TypedExpression.md)`, `[`length`](TypedExpression.md)`, `[`length2`](TypedExpression.md)`, `[`length4`](TypedExpression.md)`, `[`lengthB`](TypedExpression.md)`, `[`lengthC`](TypedExpression.md)`, `[`like`](TypedExpression.md)`, `[`like`](TypedExpression.md)`, `[`like2`](TypedExpression.md)`, `[`like4`](TypedExpression.md)`, `[`likeC`](TypedExpression.md)`, `[`ln`](TypedExpression.md)`, `[`localTimestamp`](TypedExpression.md)`, `[`log`](TypedExpression.md)`, `[`lower`](TypedExpression.md)`, `[`lpad`](TypedExpression.md)`, `[`lt`](TypedExpression.md)`, `[`lt`](TypedExpression.md)`, `[`lt`](TypedExpression.md)`, `[`lt`](TypedExpression.md)`, `[`lt`](TypedExpression.md)`, `[`ltrim`](TypedExpression.md)`, `[`minus`](TypedExpression.md)`, `[`minus`](TypedExpression.md)`, `[`minus`](TypedExpression.md)`, `[`minus`](TypedExpression.md)`, `[`minus`](TypedExpression.md)`, `[`minus`](TypedExpression.md)`, `[`mod`](TypedExpression.md)`, `[`monthsBetween`](TypedExpression.md)`, `[`nanvl`](TypedExpression.md)`, `[`ne`](TypedExpression.md)`, `[`ne`](TypedExpression.md)`, `[`ne`](TypedExpression.md)`, `[`ne`](TypedExpression.md)`, `[`ne`](TypedExpression.md)`, `[`newTime`](TypedExpression.md)`, `[`nextDay`](TypedExpression.md)`, `[`nlsCharsetDeclLen`](TypedExpression.md)`, `[`nlsCharsetID`](TypedExpression.md)`, `[`nlsCharsetName`](TypedExpression.md)`, `[`nlsInitcap`](TypedExpression.md)`, `[`nlsLower`](TypedExpression.md)`, `[`nlsSort`](TypedExpression.md)`, `[`nlsUpper`](TypedExpression.md)`, `[`notIn`](TypedExpression.md)`, `[`nullIf`](TypedExpression.md)`, `[`numToDSInterval`](TypedExpression.md)`, `[`numToYMInterval`](TypedExpression.md)`, `[`nvl`](TypedExpression.md)`, `[`nvl2`](TypedExpression.md)`, `[`oraHash`](TypedExpression.md)`, `[`plus`](TypedExpression.md)`, `[`plus`](TypedExpression.md)`, `[`plus`](TypedExpression.md)`, `[`plus`](TypedExpression.md)`, `[`plus`](TypedExpression.md)`, `[`power`](TypedExpression.md)`, `[`rawToHex`](TypedExpression.md)`, `[`rawToNHex`](TypedExpression.md)`, `[`regexpInstr`](TypedExpression.md)`, `[`regexpReplace`](TypedExpression.md)`, `[`regexpSubstr`](TypedExpression.md)`, `[`remainder`](TypedExpression.md)`, `[`replace`](TypedExpression.md)`, `[`round`](TypedExpression.md)`, `[`rowIDToChar`](TypedExpression.md)`, `[`rowIDToNChar`](TypedExpression.md)`, `[`rpad`](TypedExpression.md)`, `[`rtrim`](TypedExpression.md)`, `[`scnToTimestamp`](TypedExpression.md)`, `[`sessionTimeZone`](TypedExpression.md)`, `[`sign`](TypedExpression.md)`, `[`sin`](TypedExpression.md)`, `[`sinh`](TypedExpression.md)`, `[`soundex`](TypedExpression.md)`, `[`sqrt`](TypedExpression.md)`, `[`substr`](TypedExpression.md)`, `[`substr2`](TypedExpression.md)`, `[`substr4`](TypedExpression.md)`, `[`substrB`](TypedExpression.md)`, `[`substrC`](TypedExpression.md)`, `[`sysContext`](TypedExpression.md)`, `[`sysDate`](TypedExpression.md)`, `[`sysExtractUTC`](TypedExpression.md)`, `[`sysGUID`](TypedExpression.md)`, `[`sysTimestamp`](TypedExpression.md)`, `[`sysTypeID`](TypedExpression.md)`, `[`tan`](TypedExpression.md)`, `[`tanh`](TypedExpression.md)`, `[`times`](TypedExpression.md)`, `[`times`](TypedExpression.md)`, `[`times`](TypedExpression.md)`, `[`times`](TypedExpression.md)`, `[`times`](TypedExpression.md)`, `[`timestampToSCN`](TypedExpression.md)`, `[`toBinaryDouble`](TypedExpression.md)`, `[`toBinaryFloat`](TypedExpression.md)`, `[`toChar`](TypedExpression.md)`, `[`toChar`](TypedExpression.md)`, `[`toCLOB`](TypedExpression.md)`, `[`toDate`](TypedExpression.md)`, `[`toDate`](TypedExpression.md)`, `[`toDSInterval`](TypedExpression.md)`, `[`toLOB`](TypedExpression.md)`, `[`toMultiByte`](TypedExpression.md)`, `[`toNChar`](TypedExpression.md)`, `[`toNChar`](TypedExpression.md)`, `[`toNCLOB`](TypedExpression.md)`, `[`toNumber`](TypedExpression.md)`, `[`toNumber`](TypedExpression.md)`, `[`toNumber`](TypedExpression.md)`, `[`toSingleByte`](TypedExpression.md)`, `[`toTimestamp`](TypedExpression.md)`, `[`toTimestampTZ`](TypedExpression.md)`, `[`toYMInterval`](TypedExpression.md)`, `[`translate`](TypedExpression.md)`, `[`translateUsingCharCS`](TypedExpression.md)`, `[`translateUsingNCharCS`](TypedExpression.md)`, `[`treat`](TypedExpression.md)`, `[`trim`](TypedExpression.md)`, `[`trimLeading`](TypedExpression.md)`, `[`trimTrailing`](TypedExpression.md)`, `[`trunc`](TypedExpression.md)`, `[`tzOffset`](TypedExpression.md)`, `[`UID`](TypedExpression.md)`, `[`unistr`](TypedExpression.md)`, `[`upper`](TypedExpression.md)`, `[`USER`](TypedExpression.md)`, `[`userEnv`](TypedExpression.md)`, `[`vsize`](TypedExpression.md)`, `[`widthBucket`](TypedExpression.md)
+
+    <!-- -->
+
+    - ### Methods inherited from class oracle.olapi.syntax.[SyntaxObject](SyntaxObject.md)
+
+      [`equals`](SyntaxObject.md)`, `[`equals`](SyntaxObject.md)`, `[`fromSyntax`](SyntaxObject.md)`, `[`fromSyntax`](SyntaxObject.md)`, `[`fromSyntax`](SyntaxObject.md)`, `[`fromSyntax`](SyntaxObject.md)`, `[`fromSyntax`](SyntaxObject.md)`, `[`isValid`](SyntaxObject.md)`, `[`toSyntax`](SyntaxObject.md)`, `[`toSyntax`](SyntaxObject.md)`, `[`toSyntax`](SyntaxObject.md)`, `[`toSyntax`](SyntaxObject.md)`, `[`toSyntax`](SyntaxObject.md)`, `[`toSyntax`](SyntaxObject.md)
+
+    <!-- -->
+
+    - ### Methods inherited from class java.lang.Object
+
+      `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+
+<!-- -->
+
+- - ### Field Detail
+
+    - #### DAY_TO_SECOND
+
+          public static final java.lang.String DAY_TO_SECOND
+
+      A constant that represents the `DAY_TO_SECOND` operator for an `IntervalExpression`.
+      See Also:
+      [Constant Field Values](../../../constant-values.md)
+
+    <!-- -->
+
+    - #### YEAR_TO_MONTH
+
+          public static final java.lang.String YEAR_TO_MONTH
+
+      A constant that represents the `YEAR_TO_MONTH` operator for an `IntervalExpression`.
+      See Also:
+      [Constant Field Values](../../../constant-values.md)
+
+  <!-- -->
+
+  - ### Constructor Detail
+
+    - #### IntervalExpression
+
+          public IntervalExpression(TypedExpression base,
+                                    java.lang.String operator,
+                                    TypedExpression firstPrecision,
+                                    TypedExpression secondPrecision)
+
+      Creates an `IntervalExpression` with the specified base expression, operator, and precision values.
+      Parameters:
+      `base` - A `TypedExpression` that is the base of the interval expression. In the SQL language reference, this is the *interval_value_expr* expression.
+
+      `operator` - One of the constants of this class.
+
+      `firstPrecision` - A `TypedExpression` that resolves to an integer value from 0 to 9. In the SQL language reference, this is the *leading_field_precision* value.
+
+      `secondPrecision` - A `TypedExpression` that resolves to an integer value from 0 to 9. In the SQL language reference, this is the *fractional_second_precision* value. Use this parameter only with the `DAY_TO_SECOND` operator. If the operator is `MONTH_TO_YEAR`, then specify `null` for this parameter.
+
+  <!-- -->
+
+  - ### Method Detail
+
+    - #### visit
+
+          public java.lang.Object visit(SyntaxObjectVisitor visitor,
+                                        java.lang.Object context)
+
+      Calls the `visitIntervalExpression` method of the `SyntaxObjectVisitor` and passes that method this `IntervalExpression` and an `Object`.
+      Specified by:
+      [`visit`](SyntaxObject.md) in class [`SyntaxObject`](SyntaxObject.md)
+
+      Parameters:
+      `visitor` - A `SyntaxObjectVisitor`.
+
+      `context` - An `Object`.
+
+      Returns:
+      The `Object` returned by the `visitIntervalExpression` method.
+
+    <!-- -->
+
+    - #### getOperator
+
+          public java.lang.String getOperator()
+
+      Gets the operator for this `IntervalExpression`.
+      Returns:
+      A `String` that contains the operator for this `IntervalExpression`, which is the value of one of the constants of this class.
+
+    <!-- -->
+
+    - #### getBaseExpression
+
+          public TypedExpression getBaseExpression()
+
+      Gets the base expression of this `IntervalExpression`.
+      Returns:
+      A `TypedExpression` that resolves to an interval value expression.
+
+    <!-- -->
+
+    - #### getFirstPrecisionExpression
+
+          public TypedExpression getFirstPrecisionExpression()
+
+      Gets the first, or leading field, precision value of this `IntervalExpression`.
+      Returns:
+      A `TypedExpression` that resolves to an integer value.
+
+    <!-- -->
+
+    - #### getSecondPrecisionExpression
+
+          public TypedExpression getSecondPrecisionExpression()
+
+      Gets the second, or fractional second, precision value of this `IntervalExpression`. This parameter is valid only for an interval expression with the `DAY_TO_SECOND` operator.
+      Returns:
+      A `TypedExpression` that resolves to an integer value.
+
+Skip navigation links
+
+- [Overview](../../../overview-summary.md)
+- [Package](package-summary.md)
+- Class
+- [Tree](package-tree.md)
+- [Deprecated](../../../deprecated-list.md)
+- [Index](../../../index-all.md)
+- [Help](../../../help-doc.md)
+
+Copyright © 2002, 2018, Oracle. All rights reserved.
+
+- [Prev Class](IdentifierArgument.md)
+- [Next Class](IntervalLiteralExpression.md)
+
+<!-- -->
+
+- [Frames](../../../index.md)
+- No Frames
+
+<!-- -->
+
+- [All Classes](../../../allclasses-noframe.md)
+
+<!-- -->
+
+- Summary: 
+- Nested \| 
+- Field \| 
+- Constr \| 
+- Method
+
+<!-- -->
+
+- Detail: 
+- Field \| 
+- Constr \| 
+- Method
