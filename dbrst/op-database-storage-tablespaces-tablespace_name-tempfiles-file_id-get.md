@@ -1,0 +1,189 @@
+Returns data from DBA_TEMP_FILES for a specific tablespace and file. A client requires SQL Administrator role to invoke this service.
+
+### Request
+
+Supported Media Types
+
+- application/json
+
+Path Parameters
+
+- file_id: string
+  File identifier.
+- tablespace_name: string
+  Name of the tablespace.
+
+Back to Top
+
+### Response
+
+Supported Media Types
+
+- application/json
+
+#### 200 Response
+
+Information about the specified temporary file.
+
+Body ()
+
+Root Schema : DatabaseTablespaceTempfilesItem
+
+Type: `object`
+
+Describes a temporary file in the database.
+
+Show Source
+
+- autoextensible(optional): string
+  Indicates whether the file is autoextensible (YES) or not (NO).
+- blocks(optional): integer
+  Size of the file (in Oracle blocks).
+- bytes(optional): integer
+  Size of the file (in bytes).
+- file_id(optional): integer
+  File identifier number of the database temp file.
+- file_name(optional): string
+  Name of the database file.
+- increment_by(optional): integer
+  Default increment for autoextension (in Oracle blocks).
+- inst_id(optional): integer
+  Instance ID of the instance to which the temp file belongs. This column has a NULL value for temp files that belong to shared tablespaces.
+- links(optional): array links
+- maxblocks(optional): integer
+  Maximum size of the file (in Oracle blocks).
+- maxbytes(optional): integer
+  Maximum size of the file (in bytes).
+- relative_fno(optional): integer
+  Tablespace-relative file number.
+- shared(optional): string
+  Type of tablespace this file belongs to.
+- status(optional): string
+  File status.
+- tablespace_name(optional): string
+  Name of the tablespace.
+- user_blocks(optional): integer
+  Size of the useful portion of the file (in Oracle blocks).
+- user_bytes(optional): integer
+  The size of the file available for user data. The actual size of the file minus the USER_BYTES value is used to store file related metadata.
+
+<!-- -->
+
+    {
+        "type":"object",
+        "description":"Describes a temporary file in the database.",
+        "properties":{
+            "file_name":{
+                "type":"string",
+                "description":"Name of the database file."
+            },
+            "file_id":{
+                "type":"integer",
+                "description":"File identifier number of the database temp file."
+            },
+            "tablespace_name":{
+                "type":"string",
+                "description":"Name of the tablespace."
+            },
+            "bytes":{
+                "type":"integer",
+                "description":"Size of the file (in bytes)."
+            },
+            "blocks":{
+                "type":"integer",
+                "description":"Size of the file (in Oracle blocks)."
+            },
+            "status":{
+                "type":"string",
+                "description":"File status."
+            },
+            "relative_fno":{
+                "type":"integer",
+                "description":"Tablespace-relative file number."
+            },
+            "autoextensible":{
+                "type":"string",
+                "description":"Indicates whether the file is autoextensible (YES) or not (NO)."
+            },
+            "maxbytes":{
+                "type":"integer",
+                "description":"Maximum size of the file (in bytes)."
+            },
+            "maxblocks":{
+                "type":"integer",
+                "description":"Maximum size of the file (in Oracle blocks)."
+            },
+            "increment_by":{
+                "type":"integer",
+                "description":"Default increment for autoextension (in Oracle blocks)."
+            },
+            "user_bytes":{
+                "type":"integer",
+                "description":"The size of the file available for user data. The actual size of the file minus the USER_BYTES value is used to store file related metadata."
+            },
+            "user_blocks":{
+                "type":"integer",
+                "description":"Size of the useful portion of the file (in Oracle blocks)."
+            },
+            "shared":{
+                "type":"string",
+                "description":"Type of tablespace this file belongs to."
+            },
+            "inst_id":{
+                "type":"integer",
+                "description":"Instance ID of the instance to which the temp file belongs. This column has a NULL value for temp files that belong to shared tablespaces."
+            },
+            "links":{
+                "type":"array",
+                "items":{
+                    "$ref":"#/definitions/LinkRelation"
+                }
+            }
+        }
+    }
+
+Nested Schema : links
+
+Type: `array`
+
+Show Source
+
+- Array of: object LinkRelation
+
+<!-- -->
+
+    {
+        "type":"array",
+        "items":{
+            "$ref":"#/definitions/LinkRelation"
+        }
+    }
+
+Nested Schema : LinkRelation
+
+Type: `object`
+
+Show Source
+
+- href: string
+- rel: string
+
+<!-- -->
+
+    {
+        "type":"object",
+        "properties":{
+            "rel":{
+                "type":"string"
+            },
+            "href":{
+                "type":"string"
+            }
+        },
+        "required":[
+            "rel",
+            "href"
+        ]
+    }
+
+Back to Top

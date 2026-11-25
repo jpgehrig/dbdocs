@@ -1,0 +1,207 @@
+Returns the corresponding record from DBA_PROCEDURES or ALL_PROCEDURES view depending on role at runtime. Records included in the response are where OBJECT_TYPE = 'PACKAGE' and PROCEDURE_NAME is not null. A client requires SQL Administrator or SQL Developer role to invoke this service.
+
+### Request
+
+Supported Media Types
+
+- application/json
+
+Path Parameters
+
+- object_id: number
+  Object identifier for the package the procedure belongs to.
+- subprogram_id: number
+  Subprogram identfier for the procedure.
+
+Back to Top
+
+### Response
+
+Supported Media Types
+
+- application/json
+
+#### 200 Response
+
+Information on the specified procedure.
+
+Body ()
+
+Root Schema : DatabaseObjectsProceduresItem
+
+Type: `object`
+
+Describes a procedure available in the database, along with associated properties. The list of attributes may vary depending on database version.
+
+Show Source
+
+- aggregate(optional): string
+  Indicates whether the procedure is an aggregate function (YES) or not (NO).
+- authid(optional): string
+  Indicates whether the procedure/function is declared to execute as DEFINER or CURRENT_USER (invoker).
+- deterministic(optional): string
+  YES, if the procedure/function is declared to be deterministic; otherwise NO.
+- impltypename(optional): string
+  Name of the implementation type, if any.
+- impltypeowner(optional): string
+  Owner of the implementation type, if any.
+- interface(optional): string
+  YES, if the procedure/function is a table function implemented using the ODCI interface; otherwise NO.
+- links(optional): array links
+- object_id(optional): integer
+  Object number of the object.
+- object_name(optional): string
+  Name of the procedure package.
+- object_type(optional): string
+  The typename of the object.
+- origin_con_id(optional): integer
+  The ID of the container where the data originates.
+- overload(optional): string
+  Overload unique identifier.
+- owner(optional): string
+  Owner of the procedure.
+- parallel(optional): string
+  Indicates whether the procedure or function is parallel-enabled (YES) or not (NO).
+- pipelined(optional): string
+  Indicates whether the procedure is a pipelined table function (YES) or not (NO).
+- polymorphic(optional): string
+  The type of polymorphic table function.
+- procedure_name(optional): string
+  Name of the procedure.
+- result_cache(optional): string
+  Indicates whether the function is result???cached (YES) or not (NO).
+- subprogram_id(optional): integer
+  Unique subprogram identifier.
+
+<!-- -->
+
+    {
+        "type":"object",
+        "description":"Describes a procedure available in the database, along with associated properties. The list of attributes may vary depending on database version.",
+        "properties":{
+            "owner":{
+                "type":"string",
+                "description":"Owner of the procedure."
+            },
+            "object_name":{
+                "type":"string",
+                "description":"Name of the procedure package."
+            },
+            "procedure_name":{
+                "type":"string",
+                "description":"Name of the procedure."
+            },
+            "object_id":{
+                "type":"integer",
+                "description":"Object number of the object."
+            },
+            "subprogram_id":{
+                "type":"integer",
+                "description":"Unique subprogram identifier."
+            },
+            "overload":{
+                "type":"string",
+                "description":"Overload unique identifier."
+            },
+            "object_type":{
+                "type":"string",
+                "description":"The typename of the object."
+            },
+            "aggregate":{
+                "type":"string",
+                "description":"Indicates whether the procedure is an aggregate function (YES) or not (NO)."
+            },
+            "pipelined":{
+                "type":"string",
+                "description":"Indicates whether the procedure is a pipelined table function (YES) or not (NO)."
+            },
+            "impltypeowner":{
+                "type":"string",
+                "description":"Owner of the implementation type, if any."
+            },
+            "impltypename":{
+                "type":"string",
+                "description":"Name of the implementation type, if any."
+            },
+            "parallel":{
+                "type":"string",
+                "description":"Indicates whether the procedure or function is parallel-enabled (YES) or not (NO)."
+            },
+            "interface":{
+                "type":"string",
+                "description":"YES, if the procedure/function is a table function implemented using the ODCI interface; otherwise NO."
+            },
+            "deterministic":{
+                "type":"string",
+                "description":"YES, if the procedure/function is declared to be deterministic; otherwise NO."
+            },
+            "authid":{
+                "type":"string",
+                "description":"Indicates whether the procedure/function is declared to execute as DEFINER or CURRENT_USER (invoker)."
+            },
+            "result_cache":{
+                "type":"string",
+                "description":"Indicates whether the function is result???cached (YES) or not (NO)."
+            },
+            "origin_con_id":{
+                "type":"integer",
+                "description":"The ID of the container where the data originates."
+            },
+            "polymorphic":{
+                "type":"string",
+                "description":"The type of polymorphic table function."
+            },
+            "links":{
+                "type":"array",
+                "items":{
+                    "$ref":"#/definitions/LinkRelation"
+                }
+            }
+        }
+    }
+
+Nested Schema : links
+
+Type: `array`
+
+Show Source
+
+- Array of: object LinkRelation
+
+<!-- -->
+
+    {
+        "type":"array",
+        "items":{
+            "$ref":"#/definitions/LinkRelation"
+        }
+    }
+
+Nested Schema : LinkRelation
+
+Type: `object`
+
+Show Source
+
+- href: string
+- rel: string
+
+<!-- -->
+
+    {
+        "type":"object",
+        "properties":{
+            "rel":{
+                "type":"string"
+            },
+            "href":{
+                "type":"string"
+            }
+        },
+        "required":[
+            "rel",
+            "href"
+        ]
+    }
+
+Back to Top
