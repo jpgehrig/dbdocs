@@ -1,0 +1,3 @@
+- [8-1        ALTER TYPE Options for Type Evolution](type-evolution.md)
+- [8-2        Generic SQL Types](transient-and-generic-types.md)
+- [9-1        Differences Between SQLJ and Custom Object Types](design-consideration-tips-and-techniques.md)

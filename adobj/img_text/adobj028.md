@@ -1,0 +1,1 @@
+The figure shows a type hierarchy of four types. `Person_typ` is the base or root type. `Student_typ` and `Employee_typ` are subtypes of `Person_typ`. `PartTimeStudent_typ` is a subtype of `Student_typ`.
