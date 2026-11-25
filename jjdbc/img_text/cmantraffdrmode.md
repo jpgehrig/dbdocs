@@ -1,0 +1,1 @@
+This image describes the architecture of the Oracle Connection Manager in Traffic Director Mode. It illustrates how Oracle Database communicates with applications and application servers through Oracle Connection Manager in Traffic Director Mode.
