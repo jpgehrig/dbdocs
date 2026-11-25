@@ -1,0 +1,3 @@
+This is an illustration of a clustered Oracle ASM configuration with three single-instance Oracle Databases at the top of the illustration. Below these are three clustered Oracle ASM instances, one for each database. Because the three Oracle ASM instances are clustered Oracle ASM instances, they interoperate to serve all three of the Oracle Databases.
+
+All three of the databases share access to an Oracle ASM clustered pool of storage that appears at the bottom of the diagram. The clustered storage pool has two disk groups, disk group A and disk group B. Disk group A has four disks and disk group B has two disks.

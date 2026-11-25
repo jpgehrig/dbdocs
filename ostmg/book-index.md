@@ -1,0 +1,2245 @@
+Symbols  A  B  C  D  E  F  G  H  I  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  
+
+------------------------------------------------------------------------
+
+## Symbols
+
+- .ACFS directory
+  - Oracle ACFS snapshots [11.2.9](understand-acfs-concepts.md), [16.11.2](acfs-commands-snapshots.md)
+
+------------------------------------------------------------------------
+
+## A
+
+- accelerator volume
+  - Oracle ADVM [11.3.15](understand-acfs-admin.md), [16.2.3](acfs-commands-linux.md)
+- ACCESS_CONTROL.ENABLED disk group attribute [4.1.2.1](manage-diskgroup-attributes.md), [4.9.2](asm-access-control-diskgroups.md)
+- ACCESS_CONTROL.UMASK disk group attribute [4.1.2.2](manage-diskgroup-attributes.md), [4.9.2](asm-access-control-diskgroups.md)
+- access control
+  - disk groups [4.9](asm-access-control-diskgroups.md)
+- ACFS
+  - See: Oracle Automatic Storage Management Cluster File System
+- acfschkdsk command [16.5.1](acfs-commands-windows.md)
+- acfsdismount command [16.5.2](acfs-commands-windows.md)
+- acfsdriverstate
+  - Oracle ACFS driver command [17.9.2](acfs-advanced-topics.md)
+- acfsfileid_lookup
+  - Oracle ACFS Plug-in APIs [17.10.2](acfs-advanced-topics.md)
+- acfsformat command [16.5.3](acfs-commands-windows.md)
+- acfsgettag
+  - Oracle ACFS tagging API [17.11.3](acfs-advanced-topics.md)
+- acfslisttags
+  - Oracle ACFS tagging API [17.11.4](acfs-advanced-topics.md)
+- acfsload
+  - Oracle ACFS driver command [17.9.1](acfs-advanced-topics.md)
+  - Oracle ASM Filter Driver command [21.9.1](administer-filter-driver.md)
+- AcfsMaxCachedFiles
+  - Oracle ACFS tunable parameter [17.12.9](acfs-advanced-topics.md)
+- AcfsMaxOpenFiles
+  - Oracle ACFS tunable parameter [17.12.9](acfs-advanced-topics.md)
+- acfsmountvol command [16.5.4](acfs-commands-windows.md)
+- acfsplugin_metrics
+  - Oracle ACFS Plug-in APIs [17.10.2](acfs-advanced-topics.md)
+- acfsremote installed command [16.13.1](acfs-commands-cluster-domain.md)
+- acfsremote loaded command [16.13.2](acfs-commands-cluster-domain.md)
+- acfsremote supported command [16.13.3](acfs-commands-cluster-domain.md)
+- acfsremovetag
+  - Oracle ACFS tagging API [17.11.5](acfs-advanced-topics.md)
+- acfssettag
+  - Oracle ACFS tagging API [17.11.6](acfs-advanced-topics.md)
+- acfsutil accel replace command [16.14.1](acfs-commands-utilities.md)
+- acfsutil acfsdbg command [17.12.1](acfs-advanced-topics.md)
+- acfsutil audit archive command [16.8.1](acfs-commands-audit.md)
+- acfsutil audit disable command [16.8.2](acfs-commands-audit.md)
+- acfsutil audit enable command [16.8.3](acfs-commands-audit.md)
+- acfsutil audit info command [16.8.4](acfs-commands-audit.md)
+- acfsutil audit init command [16.8.5](acfs-commands-audit.md)
+- acfsutil audit purge command [16.8.6](acfs-commands-audit.md)
+- acfsutil audit read command [16.8.7](acfs-commands-audit.md)
+- acfsutil blog command [17.12.2](acfs-advanced-topics.md)
+- acfsutil cluster credential command [16.13.4](acfs-commands-cluster-domain.md)
+- acfsutil cluster info command [16.13.5](acfs-commands-cluster-domain.md)
+- acfsutil command-line tools
+  - running on Windows [16.1.1](steps-manage-acfs.md)
+- acfsutil compat get command [16.14.2](acfs-commands-utilities.md)
+- acfsutil compat set command [16.14.3](acfs-commands-utilities.md)
+- acfsutil compress copy command [16.12.1](acfs-commands-compression.md)
+- acfsutil compress info command [16.12.2](acfs-commands-compression.md)
+- acfsutil compress off command [16.12.3](acfs-commands-compression.md)
+- acfsutil compress on command [16.12.4](acfs-commands-compression.md)
+- acfsutil defrag dir command [16.14.4](acfs-commands-utilities.md)
+- acfsutil defrag file command [16.14.5](acfs-commands-utilities.md)
+- acfsutil detach command [16.5.5](acfs-commands-windows.md)
+- acfsutil dumpstate command [17.12.3](acfs-advanced-topics.md)
+- acfsutil encr command [16.10.4](acfs-commands-encryption.md)
+- acfsutil encr info command [16.10.1](acfs-commands-encryption.md)
+- acfsutil encr init command [16.10.2](acfs-commands-encryption.md)
+- acfsutil encr off command [16.10.3](acfs-commands-encryption.md)
+- acfsutil encr rekey command [16.10.5](acfs-commands-encryption.md)
+- acfsutil encr set command [16.10.6](acfs-commands-encryption.md)
+- acfsutil freeze command [16.14.6](acfs-commands-utilities.md)
+- acfsutil info file command [16.14.7](acfs-commands-utilities.md)
+- acfsutil info fs command [16.14.8](acfs-commands-utilities.md)
+- acfsutil info ftrace command [17.12.4](acfs-advanced-topics.md)
+- acfsutil info id command [16.14.9](acfs-commands-utilities.md)
+- acfsutil info storage [16.14.10](acfs-commands-utilities.md)
+- acfsutil keystore migrate command [16.10.7](acfs-commands-encryption.md)
+- acfsutil lockstats command [17.12.5](acfs-advanced-topics.md)
+- acfsutil log command [17.12.6](acfs-advanced-topics.md)
+- acfsutil meta command [17.12.7](acfs-advanced-topics.md)
+- acfsutil plogconfig command [17.12.8](acfs-advanced-topics.md)
+- acfsutil plugin disable command [16.14.11](acfs-commands-utilities.md)
+- acfsutil plugin enable command [16.14.12](acfs-commands-utilities.md)
+- acfsutil plugin info command [16.14.13](acfs-commands-utilities.md)
+- acfsutil registry command [16.14.14](acfs-commands-utilities.md)
+- acfsutil remote clear command [16.13.6](acfs-commands-cluster-domain.md)
+- acfsutil remote set command [16.13.7](acfs-commands-cluster-domain.md)
+- acfsutil repl bg command [16.7.1](acfs-commands-replication.md)
+- acfsutil repl compare [16.7.2](acfs-commands-replication.md)
+- acfsutil repl failover command [16.7.3](acfs-commands-replication.md)
+- acfsutil repl info command [16.7.4](acfs-commands-replication.md)
+- acfsutil repl init command [16.7.5](acfs-commands-replication.md)
+- acfsutil repl pause command [16.7.6](acfs-commands-replication.md)
+- acfsutil repl resume command [16.7.7](acfs-commands-replication.md)
+- acfsutil repl reverse command [16.7.8](acfs-commands-replication.md)
+- acfsutil repl sync command [16.7.9](acfs-commands-replication.md)
+- acfsutil repl terminate command [16.7.10](acfs-commands-replication.md)
+- acfsutil repl trace command [16.7.11](acfs-commands-replication.md)
+- acfsutil repl update command [16.7.12](acfs-commands-replication.md)
+- acfsutil repl upgrade command [16.7.13](acfs-commands-replication.md)
+- acfsutil rmfs command [16.14.15](acfs-commands-utilities.md)
+- acfsutil scrub command [16.14.16](acfs-commands-utilities.md)
+- acfsutil sec admin add command [16.9.1](acfs-commands-security.md)
+- acfsutil sec admin info command [16.9.2](acfs-commands-security.md)
+- acfsutil sec admin password command [16.9.3](acfs-commands-security.md)
+- acfsutil sec admin remove command [16.9.4](acfs-commands-security.md)
+- acfsutil sec batch command [16.9.5](acfs-commands-security.md)
+- acfsutil sec disable command [16.9.6](acfs-commands-security.md)
+- acfsutil sec enable command [16.9.7](acfs-commands-security.md)
+- acfsutil sec info command [16.9.8](acfs-commands-security.md)
+- acfsutil sec info file command [16.9.9](acfs-commands-security.md)
+- acfsutil sec init command [16.9.10](acfs-commands-security.md)
+- acfsutil sec load command [16.9.11](acfs-commands-security.md)
+- acfsutil sec prepare command [16.9.12](acfs-commands-security.md)
+- acfsutil sec realm add command [16.9.13](acfs-commands-security.md)
+- acfsutil sec realm audit disable command [16.9.14](acfs-commands-security.md)
+- acfsutil sec realm audit enable command [16.9.15](acfs-commands-security.md)
+- acfsutil sec realm audit info command [16.9.16](acfs-commands-security.md)
+- acfsutil sec realm clone command [16.9.17](acfs-commands-security.md)
+- acfsutil sec realm create command [16.9.18](acfs-commands-security.md)
+- acfsutil sec realm delete command [16.9.19](acfs-commands-security.md)
+- acfsutil sec realm destroy command [16.9.20](acfs-commands-security.md)
+- acfsutil sec rule clone command [16.9.21](acfs-commands-security.md)
+- acfsutil sec rule create command [16.9.22](acfs-commands-security.md)
+- acfsutil sec rule destroy command [16.9.23](acfs-commands-security.md)
+- acfsutil sec rule edit command [16.9.24](acfs-commands-security.md)
+- acfsutil sec ruleset clone command [16.9.25](acfs-commands-security.md)
+- acfsutil sec ruleset create command [16.9.26](acfs-commands-security.md)
+- acfsutil sec ruleset destroy command [16.9.27](acfs-commands-security.md)
+- acfsutil sec ruleset edit command [16.9.28](acfs-commands-security.md)
+- acfsutil sec save command [16.9.29](acfs-commands-security.md)
+- acfsutil size command [16.14.17](acfs-commands-utilities.md)
+  - automatic and manual resizing [16.14.17](acfs-commands-utilities.md)
+- acfsutil snap convert command [16.11.1](acfs-commands-snapshots.md)
+- acfsutil snap create command [16.11.2](acfs-commands-snapshots.md)
+- acfsutil snap delete command [16.11.3](acfs-commands-snapshots.md)
+- acfsutil snap duplicate apply command [16.11.4](acfs-commands-snapshots.md)
+- acfsutil snap duplicate create command [16.11.5](acfs-commands-snapshots.md)
+- acfsutil snap info command [16.11.6](acfs-commands-snapshots.md)
+- acfsutil snap link [16.11.7](acfs-commands-snapshots.md)
+- acfsutil snap quota command [16.11.8](acfs-commands-snapshots.md)
+- acfsutil snap remaster command [16.11.9](acfs-commands-snapshots.md)
+- acfsutil snap rename command [16.11.10](acfs-commands-snapshots.md)
+- acfsutil tag info command [16.6.1](acfs-commands-tagging.md)
+- acfsutil tag set command [16.6.2](acfs-commands-tagging.md)
+- acfsutil tag unset command [16.6.3](acfs-commands-tagging.md)
+- acfsutil thaw command [16.14.18](acfs-commands-utilities.md)
+- acfsutil tune command [17.12.9](acfs-advanced-topics.md)
+- acfsutil version command [16.14.19](acfs-commands-utilities.md)
+- active session history sampling
+  - Oracle Automatic Storage Management [3.3.7](admin-asm-instance.md)
+- adding aliases
+  - Oracle ASM [5.4.1](asm-files-directories-templates.md)
+- adding disks
+  - disk groups [4.3.2](alter-diskgroups.md)
+- adding disks to a disk group [1.4.3](asm-intro.md)
+- adding disks to a disk group with Oracle Enterprise Manager [7.4.2](admin-asm-em.md)
+- adding disks to an Oracle ASM disk group
+  - Oracle ASM Configuration Assistant [9.3.2.5](manage-asm-asmca.md)
+- adding objects to security realms
+  - Oracle ACFS [16.1.5](steps-manage-acfs.md)
+- adding security administrators
+  - Oracle ACFS file systems [16.1.5](steps-manage-acfs.md)
+- adding templates to a disk group [5.8.2](asm-files-directories-templates.md)
+- administering
+  - disk groups [4](admin-asm-diskgroups.md)
+  - Oracle ACFS [11.3](understand-acfs-admin.md)
+- advanced topics
+  - Oracle ACFS [17](acfs-advanced-topics.md)
+- advmutil canonical command [16.14.20](acfs-commands-utilities.md)
+- advmutil dismount command [16.5.6](acfs-commands-windows.md)
+- advmutil export create command [16.13.8](acfs-commands-cluster-domain.md)
+- advmutil export list command [16.13.9](acfs-commands-cluster-domain.md)
+- advmutil export lsof command [16.13.10](acfs-commands-cluster-domain.md)
+- advmutil export mapping command [16.13.11](acfs-commands-cluster-domain.md)
+- advmutil export remove command [16.13.12](acfs-commands-cluster-domain.md)
+- advmutil export resize command [16.13.13](acfs-commands-cluster-domain.md)
+- advmutil list command [16.5.7](acfs-commands-windows.md)
+- advmutil mount command [16.5.8](acfs-commands-windows.md)
+- advmutil session list command [16.13.14](acfs-commands-cluster-domain.md)
+- advmutil transport create command [16.13.15](acfs-commands-cluster-domain.md)
+- advmutil transport list command [16.13.16](acfs-commands-cluster-domain.md)
+- advmutil tune command [17.12.10](acfs-advanced-topics.md)
+- advmutil volinfo command [16.14.21](acfs-commands-utilities.md)
+- advumutil transport remove command [16.13.17](acfs-commands-cluster-domain.md)
+- afd_configure command
+  - ASMCMD utility [10.4.1](asmcmd-filterdriver-commands.md)
+- afd_deconfigure command
+  - ASMCMD utility [10.4.2](asmcmd-filterdriver-commands.md)
+- afd_di command
+  - ASMCMD utility [10.4.3](asmcmd-filterdriver-commands.md)
+- afd_dsget command
+  - ASMCMD utility [10.4.4](asmcmd-filterdriver-commands.md)
+- afd_dsset command
+  - ASMCMD utility [10.4.5](asmcmd-filterdriver-commands.md)
+- afd_filter command
+  - ASMCMD utility [10.4.6](asmcmd-filterdriver-commands.md)
+- afd_label command
+  - ASMCMD utility [10.4.7](asmcmd-filterdriver-commands.md)
+- afd_lsdsk command
+  - ASMCMD utility [10.4.8](asmcmd-filterdriver-commands.md)
+- afd_lslbl command
+  - ASMCMD utility [10.4.9](asmcmd-filterdriver-commands.md)
+- afd_refresh command
+  - ASMCMD utility [10.4.10](asmcmd-filterdriver-commands.md)
+- afd_scan command
+  - ASMCMD utility [10.4.11](asmcmd-filterdriver-commands.md)
+- afd_state command
+  - ASMCMD utility [10.4.12](asmcmd-filterdriver-commands.md)
+- afd_unlabel command
+  - ASMCMD utility [10.4.13](asmcmd-filterdriver-commands.md)
+- afddriverstate
+  - Oracle ASM Filter Driver command [21.9.2](administer-filter-driver.md)
+- AIX
+  - Oracle ACFS command-line tools [16.4](acfs-commands-aix.md)
+- aliases
+  - adding for an Oracle ASM file name [5.4.1](asm-files-directories-templates.md)
+  - dropping from a disk group [5.4.4](asm-files-directories-templates.md)
+- alias file names
+  - Oracle ASM [5.2.4](asm-files-directories-templates.md)
+- ALL command rule [16.9.13](acfs-commands-security.md)
+- allocation units
+  - Oracle ASM [1.3.5](asm-intro.md)
+  - size for disk groups [4.1.2.3](manage-diskgroup-attributes.md)
+- ALTER DISKGROUP command [4.3](alter-diskgroups.md)
+- altering disk groups
+  - replacing disks [4.3.3](alter-diskgroups.md)
+- amdu_extract command
+  - ASMCMD utility [10.6.1](asmcmd-file-commands.md)
+- APPENDFILE command rule [16.9.13](acfs-commands-security.md)
+- archive log files
+  - creating in Oracle ASM [22.5](create-db-asm-sqlplus.md)
+- ASM
+  - See: Oracle Automatic Storage Management
+- ASM_DISKGROUPS initialization parameter
+  - Oracle ASM instance [3.2.5.1](init-params-asm-instance.md)
+- ASM_DISKSTRING initialization parameter
+  - discovering disks [1.4.1](asm-intro.md)
+  - Oracle ASM instance [3.2.5.2](init-params-asm-instance.md)
+- ASM_IO_PROCESSES initialization parameter
+  - Oracle IOServer [3.2.5.3](init-params-asm-instance.md)
+- ASM_POWER_LIMIT initialization parameter
+  - Oracle ASM instance [3.2.5.4](init-params-asm-instance.md)
+  - rebalancing process [3.2.5.4](init-params-asm-instance.md)
+- ASM_PREFERRED_READ_FAILURE_GROUPS initialization parameter
+  - Oracle ASM instance [3.2.5.5](init-params-asm-instance.md)
+- asmadmin group [3.5.1.2](authenticate-access-asm-instance.md)
+- ASMCA
+  - See: Oracle ASM Configuration Assistant
+- ASMCMD utility
+  - about [10.1](about-asmcmd.md)
+  - afd_configure command [10.4.1](asmcmd-filterdriver-commands.md)
+  - afd_deconfigure command [10.4.2](asmcmd-filterdriver-commands.md)
+  - afd_di command [10.4.3](asmcmd-filterdriver-commands.md)
+  - afd_dsget command [10.4.4](asmcmd-filterdriver-commands.md)
+  - afd_dsset command [10.4.5](asmcmd-filterdriver-commands.md)
+  - afd_filter command [10.4.6](asmcmd-filterdriver-commands.md)
+  - afd_label command [10.4.7](asmcmd-filterdriver-commands.md)
+  - afd_lsdsk command [10.4.8](asmcmd-filterdriver-commands.md)
+  - afd_lslbl command [10.4.9](asmcmd-filterdriver-commands.md)
+  - afd_refresh command [10.4.10](asmcmd-filterdriver-commands.md)
+  - afd_scan command [10.4.11](asmcmd-filterdriver-commands.md)
+  - afd_state command [10.4.12](asmcmd-filterdriver-commands.md)
+  - afd_unlabel command [10.4.13](asmcmd-filterdriver-commands.md)
+  - aliases, and [10.1.2.3](about-asmcmd.md)
+  - amdu_extract command [10.6.1](asmcmd-file-commands.md)
+  - audcleanaudittrail command [10.5.1](manage-asm-asmcmd.md)
+  - audclearproperty command [10.5.2](manage-asm-asmcmd.md)
+  - audcleartimestamp command [10.5.3](manage-asm-asmcmd.md)
+  - audcreatejob command [10.5.4](manage-asm-asmcmd.md)
+  - auddropjob command [10.5.5](manage-asm-asmcmd.md)
+  - audit files management commands [10.5](manage-asm-asmcmd.md)
+  - audsetdebug command [10.5.6](manage-asm-asmcmd.md)
+  - audsetjobinterval command [10.5.7](manage-asm-asmcmd.md)
+  - audsetjobstatus command [10.5.8](manage-asm-asmcmd.md)
+  - audsetproperty command [10.5.9](manage-asm-asmcmd.md)
+  - audsettimestamp command [10.5.10](manage-asm-asmcmd.md)
+  - audshowtimestamp command [10.5.11](manage-asm-asmcmd.md)
+  - cd command [10.6.2](asmcmd-file-commands.md)
+  - chcc command [10.3.1](asmcmd-cluster-commands.md)
+  - chdg command [10.7.1](asmcmd-diskgroup-commands.md)
+  - chfg command [10.8.1](asmcmd-filegroup-commands.md)
+  - chgrp command [10.10.1](asmcmd-accesscontrol-commands.md)
+  - chkdg command [10.7.2](asmcmd-diskgroup-commands.md)
+  - chmod command [10.10.2](asmcmd-accesscontrol-commands.md)
+  - chown command [10.10.3](asmcmd-accesscontrol-commands.md)
+  - chqg command [10.8.2](asmcmd-filegroup-commands.md)
+  - chtmpl command [10.9.1](asmcmd-template-commands.md)
+  - command-line utility [10](manage-asm-asmcmd.md)
+  - commands for Oracle ACFS and Oracle ADVM [15](manage-advm-asmcmd.md), [15.1](manage-advm-asmcmd.md)
+  - cp command [10.6.3](asmcmd-file-commands.md)
+  - directories, and [10.1.2.2](about-asmcmd.md)
+  - disk group management commands [10.7](asmcmd-diskgroup-commands.md)
+  - displaying the version number [10.1.4.6](about-asmcmd.md)
+  - dropdg command [10.7.3](asmcmd-diskgroup-commands.md)
+  - dsget command [10.2.1](asmcmd-instance-commands.md)
+  - dsset command [10.2.2](asmcmd-instance-commands.md)
+  - du command [10.6.4](asmcmd-file-commands.md)
+  - exit command [10.1.4.2](about-asmcmd.md)
+  - file access control commands [10.10](asmcmd-accesscontrol-commands.md)
+  - file group commands [10.8](asmcmd-filegroup-commands.md)
+  - file management commands [10.6](asmcmd-file-commands.md)
+  - find command [10.6.5](asmcmd-file-commands.md)
+  - groups command [10.10.4](asmcmd-accesscontrol-commands.md)
+  - grpmod command [10.10.5](asmcmd-accesscontrol-commands.md)
+  - help command [10.1.6](about-asmcmd.md)
+  - including directory in prompt [10.1.4.5](about-asmcmd.md)
+  - instance management commands [10.2](asmcmd-instance-commands.md)
+  - iostat command [10.7.4](asmcmd-diskgroup-commands.md)
+  - lsattr command [10.7.5](asmcmd-diskgroup-commands.md)
+  - lsaudcleanupjobs command [10.5.12](manage-asm-asmcmd.md)
+  - lsaudconfigparams command [10.5.13](manage-asm-asmcmd.md)
+  - lscc command [10.3.2](asmcmd-cluster-commands.md)
+  - ls command [10.6.6](asmcmd-file-commands.md)
+  - lsct command [10.2.3](asmcmd-instance-commands.md)
+  - lsdg command [10.7.6](asmcmd-diskgroup-commands.md)
+  - lsdsk command [10.7.7](asmcmd-diskgroup-commands.md)
+  - lsfg command [10.8.3](asmcmd-filegroup-commands.md)
+  - lsgrp command [10.10.6](asmcmd-accesscontrol-commands.md)
+  - lsod command [10.7.8](asmcmd-diskgroup-commands.md)
+  - lsof command [10.6.7](asmcmd-file-commands.md)
+  - lsop command [10.2.4](asmcmd-instance-commands.md)
+  - lspwusr command [10.2.5](asmcmd-instance-commands.md)
+  - lsqg command [10.8.4](asmcmd-filegroup-commands.md)
+  - lstmpl command [10.9.2](asmcmd-template-commands.md)
+  - lsusr command [10.10.7](asmcmd-accesscontrol-commands.md)
+  - md_backup command [10.7.9](asmcmd-diskgroup-commands.md)
+  - md_restore command [10.7.10](asmcmd-diskgroup-commands.md)
+  - member cluster management commands [10.3](asmcmd-cluster-commands.md)
+  - mkalias command [10.6.8](asmcmd-file-commands.md)
+  - mkcc command [10.3.3](asmcmd-cluster-commands.md)
+  - mkdg command [10.7.11](asmcmd-diskgroup-commands.md)
+  - mkdir command [10.6.9](asmcmd-file-commands.md)
+  - mkfg command [10.8.5](asmcmd-filegroup-commands.md)
+  - mkgrp command [10.10.8](asmcmd-accesscontrol-commands.md)
+  - mkqg command [10.8.6](asmcmd-filegroup-commands.md)
+  - mktmpl command [10.9.3](asmcmd-template-commands.md)
+  - mkusr command [10.10.9](asmcmd-accesscontrol-commands.md)
+  - mount command [10.7.12](asmcmd-diskgroup-commands.md)
+  - mvfg command [10.8.7](asmcmd-filegroup-commands.md)
+  - mvfile command [10.8.8](asmcmd-filegroup-commands.md)
+  - offline command [10.7.13](asmcmd-diskgroup-commands.md)
+  - online command [10.7.14](asmcmd-diskgroup-commands.md)
+  - Oracle ADVM volume management commands [15](manage-advm-asmcmd.md), [15.1](manage-advm-asmcmd.md)
+  - Oracle ASM Filter Driver management commands [10.4](asmcmd-filterdriver-commands.md)
+  - orapwusr command [10.2.6](asmcmd-instance-commands.md)
+  - passwd command [10.10.10](asmcmd-accesscontrol-commands.md)
+  - preparing to run [10.1.3](about-asmcmd.md)
+  - pwcopy command [10.2.7](asmcmd-instance-commands.md)
+  - pwcreate command [10.2.8](asmcmd-instance-commands.md)
+  - pwd command [10.6.10](asmcmd-file-commands.md)
+  - pwdelete command [10.2.9](asmcmd-instance-commands.md)
+  - pwget command [10.2.10](asmcmd-instance-commands.md)
+  - pwmove command [10.2.11](asmcmd-instance-commands.md)
+  - pwset command [10.2.12](asmcmd-instance-commands.md)
+  - rebal command [10.7.15](asmcmd-diskgroup-commands.md)
+  - remap command [10.7.16](asmcmd-diskgroup-commands.md)
+  - rmalias command [10.6.12](asmcmd-file-commands.md)
+  - rmcc command [10.3.4](asmcmd-cluster-commands.md)
+  - rm command [10.6.11](asmcmd-file-commands.md)
+  - rmfg command [10.8.9](asmcmd-filegroup-commands.md)
+  - rmgrp command [10.10.11](asmcmd-accesscontrol-commands.md)
+  - rmqg command [10.8.10](asmcmd-filegroup-commands.md)
+  - rmtmpl command [10.9.4](asmcmd-template-commands.md)
+  - rmusr command [10.10.12](asmcmd-accesscontrol-commands.md)
+  - rpusr command [10.10.13](asmcmd-accesscontrol-commands.md)
+  - running in a database home [10.1.3](about-asmcmd.md)
+  - running in an Oracle grid infrastructure home [10.1.3](about-asmcmd.md)
+  - running in interactive mode [10.1.4](about-asmcmd.md)
+  - running in noninteractive mode [10.1.5](about-asmcmd.md)
+  - running without any options [10.1.4.2](about-asmcmd.md)
+  - setattr command [10.7.18](asmcmd-diskgroup-commands.md)
+  - setsparseparent command [10.7.17](asmcmd-diskgroup-commands.md)
+  - showclustermode command [10.2.13](asmcmd-instance-commands.md)
+  - showclusterstate command [10.2.14](asmcmd-instance-commands.md)
+  - showpatches command [10.2.15](asmcmd-instance-commands.md)
+  - showversion command [10.2.16](asmcmd-instance-commands.md)
+  - shutdown command [10.2.17](asmcmd-instance-commands.md)
+  - spbackup command [10.2.18](asmcmd-instance-commands.md)
+  - spcopy command [10.2.19](asmcmd-instance-commands.md)
+  - specifying the verbose mode [10.1.4.4](about-asmcmd.md)
+  - spget command [10.2.20](asmcmd-instance-commands.md)
+  - spmove command [10.2.21](asmcmd-instance-commands.md)
+  - spset command [10.2.22](asmcmd-instance-commands.md)
+  - stamp command [10.7.19](asmcmd-diskgroup-commands.md)
+  - stamplist command [10.7.20](asmcmd-diskgroup-commands.md)
+  - startup command [10.2.23](asmcmd-instance-commands.md)
+  - syntax for starting in interactive mode [10.1.4.1](about-asmcmd.md)
+  - SYSASM privilege [10.1.4.3](about-asmcmd.md)
+  - system-generated file names, and [10.1.2.1](about-asmcmd.md)
+  - template management commands [10.9](asmcmd-template-commands.md)
+  - type of connection [10.1.4.3](about-asmcmd.md)
+  - types of commands [10.1.1](about-asmcmd.md)
+  - umount command [10.7.21](asmcmd-diskgroup-commands.md)
+  - using quotes for wildcards in noninteractive mode [10.1.5](about-asmcmd.md)
+  - using with absolute and relative paths [10.1.2.4](about-asmcmd.md)
+  - using with wildcard characters [10.1.2.5](about-asmcmd.md)
+  - volcreate command [15.1.1](manage-advm-asmcmd.md)
+  - voldelete command [15.1.2](manage-advm-asmcmd.md)
+  - voldisable command [15.1.3](manage-advm-asmcmd.md)
+  - volenable command [15.1.4](manage-advm-asmcmd.md)
+  - volinfo command [15.1.5](manage-advm-asmcmd.md)
+  - volresize command [15.1.6](manage-advm-asmcmd.md)
+  - volset command [15.1.7](manage-advm-asmcmd.md)
+  - volstat command [15.1.8](manage-advm-asmcmd.md)
+- asmdba group [3.5.1.2](authenticate-access-asm-instance.md)
+- ASMFD
+  - configuring [21.2](administer-filter-driver.md)
+  - configuring after installation [21.2.2](administer-filter-driver.md)
+  - configuring during installation [21.2.1](administer-filter-driver.md)
+- asmoper group [3.5.1.2](authenticate-access-asm-instance.md)
+- ASMSNMP user
+  - for monitoring the Oracle ASM instance [3.5.1](authenticate-access-asm-instance.md)
+  - Oracle ASM [9.2.1](manage-asm-asmca.md)
+  - Oracle ASM in Oracle Enterprise Manager [7.3](admin-asm-em.md)
+- attributes
+  - DISK_REPAIR_TIME [4.6.3](mirroring-diskgroup-redundancy.md)
+  - disk group compatibility [4.8.2](diskgroup-compatibility.md)
+  - disk groups [4.1](manage-diskgroup-attributes.md)
+  - for disk groups [4.2.2](create-diskgroups.md)
+  - in templates for Oracle Automatic Storage Management [5.8.1](asm-files-directories-templates.md)
+  - list of for disk groups [4.1.2](manage-diskgroup-attributes.md)
+  - setting for disk groups [4.1.1](manage-diskgroup-attributes.md)
+  - viewing for disk groups [4.1.1](manage-diskgroup-attributes.md)
+- AU_SIZE disk group attribute [1.3.5](asm-intro.md), [4.1.2.3](manage-diskgroup-attributes.md), [4.2.2](create-diskgroups.md)
+  - different sizes enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- audcleanaudittrail command
+  - ASMCMD utility [10.5.1](manage-asm-asmcmd.md)
+- audclearproperty command
+  - ASMCMD utility [10.5.2](manage-asm-asmcmd.md)
+- audcleartimestamp command
+  - ASMCMD utility [10.5.3](manage-asm-asmcmd.md)
+- audcreatejob command
+  - ASMCMD utility [10.5.4](manage-asm-asmcmd.md)
+- auddropjob command
+  - ASMCMD utility [10.5.5](manage-asm-asmcmd.md)
+- auditing
+  - Oracle ACFS audit trail file [11.3.10.2](understand-acfs-admin.md)
+  - Oracle ACFS command-line tools [16.8](acfs-commands-audit.md)
+  - Oracle ACFS evaluation result events [11.3.10.5](understand-acfs-admin.md)
+  - Oracle ACFS file access events [11.3.10.3](understand-acfs-admin.md)
+  - Oracle ACFS privilege use events [11.3.10.4](understand-acfs-admin.md)
+  - Oracle ACFS security and encryption [11.3.10](understand-acfs-admin.md)
+  - Oracle ASM Cluster File System [11.3.10.1](understand-acfs-admin.md)
+- audsetdebug command
+  - ASMCMD utility [10.5.6](manage-asm-asmcmd.md)
+- audsetjobinterval command
+  - ASMCMD utility [10.5.7](manage-asm-asmcmd.md)
+- audsetjobstatus command
+  - ASMCMD utility [10.5.8](manage-asm-asmcmd.md)
+- audsetproperty command
+  - ASMCMD utility [10.5.9](manage-asm-asmcmd.md)
+- audsettimestamp command
+  - ASMCMD utility [10.5.10](manage-asm-asmcmd.md)
+- audshowtimestamp command
+  - ASMCMD utility [10.5.11](manage-asm-asmcmd.md)
+- authentication
+  - operating system with Oracle ASM [3.5.3](authenticate-access-asm-instance.md)
+  - Oracle ASM [3.5](authenticate-access-asm-instance.md)
+  - password file with Oracle ASM [3.5.4](authenticate-access-asm-instance.md)
+- Automatic Storage Management
+  - home page on Oracle Enterprise Manager [13](administer-acfs-advm-em.md)
+
+------------------------------------------------------------------------
+
+## B
+
+- backing up Oracle ASM files
+  - Oracle Enterprise Manager [7.10](admin-asm-em.md)
+- backup and restore
+  - Oracle ACFS [11.2.10](understand-acfs-concepts.md)
+- bad block recovery in Oracle ASM disks
+  - Oracle Enterprise Manager [7.11](admin-asm-em.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- capacity
+  - managing in disk groups [4.5](capacity-diskgroups.md)
+- cd command
+  - ASMCMD utility [10.6.2](asmcmd-file-commands.md)
+- CELL.SMART_SCAN_CAPABLE disk group attribute [4.1.2.4](manage-diskgroup-attributes.md)
+- CELL.SPARSE_DG disk group attribute [4.1.2.5](manage-diskgroup-attributes.md)
+- changing tag names
+  - Oracle ACFS [16.1.7](steps-manage-acfs.md)
+- chcc command
+  - ASMCMD utility [10.3.1](asmcmd-cluster-commands.md)
+- chdg command
+  - ASMCMD utility [10.7.1](asmcmd-diskgroup-commands.md)
+- checking Oracle ASM disk group integrity
+  - Oracle Enterprise Manager [7.9.2](admin-asm-em.md)
+- chfg command
+  - ASMCMD utility [10.8.1](asmcmd-filegroup-commands.md)
+- chgrp command
+  - ASMCMD utility [10.10.1](asmcmd-accesscontrol-commands.md)
+- CHGRP command rule [16.9.13](acfs-commands-security.md)
+- chkdg command
+  - ASMCMD utility [10.7.2](asmcmd-diskgroup-commands.md)
+- chmod command
+  - ASMCMD utility [10.10.2](asmcmd-accesscontrol-commands.md)
+- CHMOD command rule [16.9.13](acfs-commands-security.md)
+- chown command
+  - ASMCMD utility [10.10.3](asmcmd-accesscontrol-commands.md)
+- CHOWN command rule [16.9.13](acfs-commands-security.md)
+- chqg command
+  - ASMCMD utility [10.8.2](asmcmd-filegroup-commands.md)
+- chtmpl command
+  - ASMCMD utility [10.9.1](asmcmd-template-commands.md)
+- cluster domain
+  - Oracle ACFS [11.2.8](understand-acfs-concepts.md), [11.3.17](understand-acfs-admin.md)
+- command-line tools
+  - Oracle ACFS [16](manage-acfs-advm-commands.md)
+  - Oracle ACFS auditing [16.8](acfs-commands-audit.md)
+  - Oracle ACFS compression [16.12](acfs-commands-compression.md)
+  - Oracle ACFS encryption [16.10](acfs-commands-encryption.md)
+  - Oracle ACFS for auditing [16.8](acfs-commands-audit.md)
+  - Oracle ACFS in the cluster domain [16.13](acfs-commands-cluster-domain.md)
+  - Oracle ACFS remote service [16.13](acfs-commands-cluster-domain.md)
+  - Oracle ACFS security [16.9](acfs-commands-security.md)
+  - Oracle ACFS snapshots [16.11](acfs-commands-snapshots.md)
+- command-line tools for replication
+  - Oracle ACFS [16.7](acfs-commands-replication.md)
+- command-line tools for tagging
+  - Oracle ACFS [16.6](acfs-commands-tagging.md)
+- command-line utilities
+  - Oracle ACFS [16.14](acfs-commands-utilities.md)
+- command rules
+  - ALL [16.9.13](acfs-commands-security.md)
+  - APPENDFILE [16.9.13](acfs-commands-security.md)
+  - CHGRP [16.9.13](acfs-commands-security.md)
+  - CHMOD [16.9.13](acfs-commands-security.md)
+  - CHOWN [16.9.13](acfs-commands-security.md)
+  - CREATEFILE [16.9.13](acfs-commands-security.md)
+  - DELETEFILE [16.9.13](acfs-commands-security.md)
+  - EXTEND [16.9.13](acfs-commands-security.md)
+  - IMMUTABLE [16.9.13](acfs-commands-security.md)
+  - LINKFILE [16.9.13](acfs-commands-security.md)
+  - MKDIR [16.9.13](acfs-commands-security.md)
+  - MMAPREAD [16.9.13](acfs-commands-security.md)
+  - MMAPWRITE [16.9.13](acfs-commands-security.md)
+  - OPENFILE [16.9.13](acfs-commands-security.md)
+  - Oracle ACFS security [16.9.13](acfs-commands-security.md)
+  - OVERWRITE [16.9.13](acfs-commands-security.md)
+  - READ [16.9.13](acfs-commands-security.md)
+  - READDIR [16.9.13](acfs-commands-security.md)
+  - RENAME [16.9.13](acfs-commands-security.md)
+  - RMDIR [16.9.13](acfs-commands-security.md)
+  - SYMLINK [16.9.13](acfs-commands-security.md)
+  - TRUNCATE [16.9.13](acfs-commands-security.md)
+  - WRITE [16.9.13](acfs-commands-security.md)
+- commands
+  - Oracle ASM Filter Driver command [21.9](administer-filter-driver.md)
+- compatibility
+  - disk groups [4.8.1](diskgroup-compatibility.md), [7.4.1](admin-asm-em.md)
+  - Oracle ASM and database instances [3.1](different-releases-asm-db-instances.md)
+  - reverting disk groups to previous settings [4.8.3.5](diskgroup-compatibility.md)
+- COMPATIBLE
+  - database initialization parameter [4.8.2](diskgroup-compatibility.md)
+- COMPATIBLE.ADVM disk group attribute [4.1.2.8](manage-diskgroup-attributes.md), [4.2.2](create-diskgroups.md), [4.8.2](diskgroup-compatibility.md)
+  - default value [4.8.2](diskgroup-compatibility.md)
+- COMPATIBLE.ASM disk group attribute [4.1.2.6](manage-diskgroup-attributes.md), [4.2.2](create-diskgroups.md), [4.8.2](diskgroup-compatibility.md)
+  - default value [4.8.2](diskgroup-compatibility.md)
+- COMPATIBLE.RDBMS disk group attribute [4.1.2.7](manage-diskgroup-attributes.md), [4.2.2](create-diskgroups.md), [4.8.2](diskgroup-compatibility.md)
+  - default value [4.8.2](diskgroup-compatibility.md)
+- components
+  - Oracle ASM [1.3](asm-intro.md)
+- concepts
+  - Oracle ASM [1](asm-intro.md)
+- configuration page
+  - Oracle ASM on Oracle Enterprise Manager [7.2](admin-asm-em.md)
+- configuring an Oracle ASM instance
+  - Oracle ASM Configuration Assistant [9.3.2.1](manage-asm-asmca.md)
+  - Oracle Enterprise Manager [7.2](admin-asm-em.md)
+- configuring parameters for an Oracle ASM instance
+  - Oracle ASM Configuration Assistant [9.3.2.2](manage-asm-asmca.md)
+- configuring snapshot-based replication [18](configure-acfs-replication.md)
+- configuring ssh with snapshot-based replication [18.1](configure-acfs-replication.md)
+- CONTENT_HARDCHECK.CHECK disk group attribute [4.1.2.11](manage-diskgroup-attributes.md)
+- CONTENT.CHECK disk group attribute [4.1.2.9](manage-diskgroup-attributes.md)
+- CONTENT.TYPE disk group attribute [4.1.2.10](manage-diskgroup-attributes.md)
+- control file
+  - creating in Oracle ASM [22.4](create-db-asm-sqlplus.md)
+- cp command
+  - ASMCMD utility [10.6.3](asmcmd-file-commands.md)
+- CREATEFILE command rule [16.9.13](acfs-commands-security.md)
+- createFileGroups [9.3.2.9](manage-asm-asmca.md)
+- createLabel [9.3.2.7](manage-asm-asmca.md)
+- createQuotaGroups [9.3.2.11](manage-asm-asmca.md)
+- creating a database home
+  - with Oracle ASMCA [14.1.4](manage-acfs-advm-asmca.md)
+- creating a database using Oracle ASM [22.1](create-db-asm-sqlplus.md)
+- creating a new directory
+  - Oracle ASM [5.5.1](asm-files-directories-templates.md)
+- creating an Oracle ACFS file system
+  - Oracle ASM Configuration Assistant [14.2.1.4](manage-acfs-advm-asmca.md)
+- creating an Oracle ACFS file system snapshot
+  - Oracle ASM Configuration Assistant [14.2.1.1](manage-acfs-advm-asmca.md)
+- creating an Oracle ADVM volume
+  - Oracle ASM Configuration Assistant [14.2.1.3](manage-acfs-advm-asmca.md)
+- creating an Oracle ASM disk group
+  - Oracle ASM Configuration Assistant [9.3.2.4](manage-asm-asmca.md)
+- creating database files in Oracle ASM [22](create-db-asm-sqlplus.md)
+- creating disk groups [4.2](create-diskgroups.md), [4.2.1](create-diskgroups.md)
+- creating disk groups and adding disks [4.2.1](create-diskgroups.md)
+- creating disk groups and attributes [4.2.1](create-diskgroups.md)
+- creating disk groups and failure groups [4.2.1](create-diskgroups.md)
+- creating disk groups and failure group types [4.2.1](create-diskgroups.md)
+- creating disk groups and redundancy level [4.2.1](create-diskgroups.md)
+- creating disk groups in a new installation [4.2.3](create-diskgroups.md)
+- creating files in the database
+  - Oracle ASM [5.3](asm-files-directories-templates.md)
+- creating files using a default file location
+  - Oracle ASM [5.3.1](asm-files-directories-templates.md)
+- creating Oracle ACFS file systems [16.1.2](steps-manage-acfs.md)
+- creating security realms
+  - Oracle ACFS [16.1.5](steps-manage-acfs.md)
+- creating security rules
+  - Oracle ACFS [16.1.5](steps-manage-acfs.md)
+- creating security rule sets
+  - Oracle ACFS [16.1.5](steps-manage-acfs.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- database files
+  - Oracle ACFS on Oracle Exadata [11.2.3](understand-acfs-concepts.md)
+- data files
+  - moving between disk groups [5.3.3](asm-files-directories-templates.md)
+- data files with alias names
+  - Oracle ASM [5.2.5](asm-files-directories-templates.md)
+- DB_CACHE_SIZE initialization parameter
+  - Oracle ASM instance [3.2.5.6](init-params-asm-instance.md)
+- default configuration
+  - Oracle ADVM [15.1.1](manage-advm-asmcmd.md), [17.2](acfs-advanced-topics.md)
+- DELETEFILE command rule [16.9.13](acfs-commands-security.md)
+- deleting an Oracle ACFS file system snapshot
+  - Oracle ASM Configuration Assistant [14.2.1.2](manage-acfs-advm-asmca.md)
+- deleting Oracle ASM instances
+  - Oracle ASM Configuration Assistant [9.3.2.3](manage-asm-asmca.md)
+- deregistering file systems
+  - Oracle ACFS [16.1.9](steps-manage-acfs.md)
+- determining the volume device name
+  - Oracle ACFS [16.1.2](steps-manage-acfs.md)
+- DIAGNOSTIC_DEST initialization parameter
+  - Oracle ASM instance [3.2.5.7](init-params-asm-instance.md)
+- diagnostic commands
+  - Oracle ACFS [17.12](acfs-advanced-topics.md)
+- diagnostic directory
+  - Oracle ASM instance [3.2.5.7](init-params-asm-instance.md)
+- directories
+  - ACFS for snapshots [11.2.9](understand-acfs-concepts.md), [16.11.2](acfs-commands-snapshots.md)
+  - creating disk group [5.5.1](asm-files-directories-templates.md)
+  - dropping disk group [5.5.3](asm-files-directories-templates.md)
+  - managing disk group [5.5](asm-files-directories-templates.md)
+  - Oracle ASM [5.5](asm-files-directories-templates.md)
+  - renaming disk group [5.5.2](asm-files-directories-templates.md)
+- disabling a volume
+  - Oracle ACFS [16.1.9](steps-manage-acfs.md)
+- DISK_REPAIR_TIME disk group attribute [4.1.2.12](manage-diskgroup-attributes.md)
+  - fast disk resync [4.6.3](mirroring-diskgroup-redundancy.md)
+- disk discovery
+  - about [4.4.1](asm-disk-discovery.md)
+  - improving time [4.4.3](asm-disk-discovery.md)
+  - in Oracle ASM [4.4](asm-disk-discovery.md)
+  - Oracle ASM [1.4.1](asm-intro.md)
+  - rules [4.4.2](asm-disk-discovery.md)
+- disk failures
+  - in Oracle Automatic Storage Management [4.6.1.2](mirroring-diskgroup-redundancy.md)
+- disk group compatibility
+  - configuring with Oracle Enterprise Manager [7.4.8.1](admin-asm-em.md)
+  - considerations about file sizes [4.8.5](diskgroup-compatibility.md)
+  - considerations in a replicated environments [4.8.5](diskgroup-compatibility.md)
+  - considerations when setting [4.8.5](diskgroup-compatibility.md)
+  - Oracle ACFS features enabled by settings [11.3.4](understand-acfs-admin.md)
+  - Oracle ASM features enabled by settings [4.8.4](diskgroup-compatibility.md)
+  - setting [4.8.3](diskgroup-compatibility.md)
+  - setting in Oracle Enterprise Manager [7.4.1](admin-asm-em.md)
+  - setting with ALTER DISKGROUP [4.8.3.3](diskgroup-compatibility.md)
+  - setting with CREATE DISKGROUP [4.8.3.2](diskgroup-compatibility.md)
+  - valid combinations [4.8.3.1](diskgroup-compatibility.md)
+  - viewing compatibility settings [4.8.3.4](diskgroup-compatibility.md)
+- disk group management commands
+  - ASMCMD utility [10.7](asmcmd-diskgroup-commands.md)
+- disk group properties
+  - configuring with Oracle Enterprise Manager [7.4.8](admin-asm-em.md)
+- disk group repair time
+  - configuring with Oracle Enterprise Manager [7.4.8.2](admin-asm-em.md)
+- disk groups [3.3.2.4](admin-asm-instance.md)
+  - about sharing a password file in [3.5.5.1](authenticate-access-asm-instance.md)
+  - ACCESS_CONTROL.ENABLED attribute [4.9.2](asm-access-control-diskgroups.md)
+  - ACCESS_CONTROL.UMASK attribute [4.9.2](asm-access-control-diskgroups.md)
+  - access control [4.9](asm-access-control-diskgroups.md)
+  - adding disks [4.3.2](alter-diskgroups.md)
+  - adding disks to with Oracle ASM Configuration Assistant [9.3.2.5](manage-asm-asmca.md)
+  - adding disks to with Oracle Enterprise Manager [7.4.2](admin-asm-em.md)
+  - adding templates to [5.8.2](asm-files-directories-templates.md)
+  - administering [4](admin-asm-diskgroups.md)
+  - allocation unit size [4.1.2.3](manage-diskgroup-attributes.md)
+  - altering membership of [4.3](alter-diskgroups.md)
+  - attributes [4.1](manage-diskgroup-attributes.md), [4.2.2](create-diskgroups.md)
+  - backing up and restoring a password file in [3.5.5.3](authenticate-access-asm-instance.md)
+  - checking internal consistency [4.10.3](maintain-diskgroups.md)
+  - compatibility [4.8.1](diskgroup-compatibility.md)
+  - compatibility attributes [4.8.2](diskgroup-compatibility.md)
+  - converting to flex disk groups [4.11.1](asm-filegroups.md)
+  - creating [4.2](create-diskgroups.md)
+  - creating and adding disks [4.2.1](create-diskgroups.md)
+  - creating and attributes [4.2.1](create-diskgroups.md)
+  - creating and failure groups [4.2.1](create-diskgroups.md)
+  - creating and failure group types [4.2.1](create-diskgroups.md)
+  - creating and redundancy level [4.2.1](create-diskgroups.md)
+  - creating a password file in [3.5.5.2](authenticate-access-asm-instance.md)
+  - creating for a new installation [4.2.3](create-diskgroups.md)
+  - creating Oracle Enterprise Manager [7.4.1](admin-asm-em.md)
+  - creating with Oracle ASM Configuration Assistant [9.3.2.4](manage-asm-asmca.md)
+  - creating with SQL\*Plus [4.2.1](create-diskgroups.md)
+  - determining the number of [4.7.1](performance-scability-diskgroup.md)
+  - directories [5.5](asm-files-directories-templates.md)
+  - discovering disks [4.4.1](asm-disk-discovery.md)
+  - dismounting [1.4.2](asm-intro.md)
+  - dismounting with Oracle Enterprise Manager [7.4.7](admin-asm-em.md)
+  - dropping [4.10.4](maintain-diskgroups.md)
+  - dropping disks from [4.3.5](alter-diskgroups.md)
+  - dropping disks with Oracle Enterprise Manager [7.4.4](admin-asm-em.md)
+  - dropping in Oracle Enterprise Manager [7.4.5](admin-asm-em.md)
+  - failure groups [4.6.1](mirroring-diskgroup-redundancy.md), [4.6.1.1](mirroring-diskgroup-redundancy.md)
+  - flex disk groups [4.11.1](asm-filegroups.md)
+  - list of attributes [4.1.2](manage-diskgroup-attributes.md)
+  - logical sector size [4.2.4](create-diskgroups.md)
+  - managing a shared password file [3.5.5](authenticate-access-asm-instance.md)
+  - managing capacity in [4.5](capacity-diskgroups.md)
+  - manually rebalancing [4.3.8](alter-diskgroups.md)
+  - migrating to flex disk groups [4.11.1](asm-filegroups.md)
+  - mirroring [4.6](mirroring-diskgroup-redundancy.md), [4.6.1](mirroring-diskgroup-redundancy.md)
+  - monitoring disk space usage in Oracle Enterprise Manager [7.4.6](admin-asm-em.md)
+  - mounting [1.4.2](asm-intro.md)
+  - mounting and dismounting [4.10.1](maintain-diskgroups.md)
+  - mounting at startup [3.3.2.3](admin-asm-instance.md)
+  - mounting with force [4.10.2](maintain-diskgroups.md)
+  - mounting with Oracle Enterprise Manager [7.4.7](admin-asm-em.md)
+  - moving data files between [5.3.3](asm-files-directories-templates.md)
+  - names [4.2.1](create-diskgroups.md)
+  - Oracle ASM [1.3.2](asm-intro.md)
+  - Oracle Cluster Registry (OCR), and [4.2.5](create-diskgroups.md)
+  - performance and scalability [4.7](performance-scability-diskgroup.md)
+  - performance characteristics when grouping disks [4.7.2](performance-scability-diskgroup.md)
+  - preferred read [3.2.5.5](init-params-asm-instance.md)
+  - quorum failure groups [4.2.5](create-diskgroups.md)
+  - rebalancing [1.4.4](asm-intro.md)
+  - redundancy [4.6](mirroring-diskgroup-redundancy.md), [4.6.1](mirroring-diskgroup-redundancy.md)
+  - renamedg [4.10.5](maintain-diskgroups.md)
+  - renaming [4.10.5](maintain-diskgroups.md)
+  - renaming disks [4.3.4](alter-diskgroups.md)
+  - replacing disks [4.3.3](alter-diskgroups.md)
+  - resizing disks in [4.3.6](alter-diskgroups.md)
+  - reverting compatibility [4.8.3.5](diskgroup-compatibility.md)
+  - scrubbing [4.3.10](alter-diskgroups.md)
+  - sector size [4.2.4](create-diskgroups.md)
+  - setting attributes [4.1.1](manage-diskgroup-attributes.md)
+  - storage limits [4.7.3](performance-scability-diskgroup.md)
+  - tracking the replication status [4.1.2.16](manage-diskgroup-attributes.md)
+  - undropping disks in [4.3.7](alter-diskgroups.md)
+  - validations for logical sector size [4.2.4](create-diskgroups.md)
+  - validations for sector size [4.2.4](create-diskgroups.md)
+  - viewing attributes [4.1.1](manage-diskgroup-attributes.md)
+  - voting files, and [4.2.5](create-diskgroups.md)
+  - when to use external, normal, or high redundancy [4.6.1.4](mirroring-diskgroup-redundancy.md)
+- disk group smart scan compatibility
+  - configuring with Oracle Enterprise Manager [7.4.8.3](admin-asm-em.md)
+- disk partitions
+  - storage resources [2.1](considerations-asm-storage.md)
+- disks
+  - adding to a disk group [1.4.3](asm-intro.md)
+  - discovering [1.4.1](asm-intro.md), [4.4](asm-disk-discovery.md), [4.4.1](asm-disk-discovery.md)
+  - dropping from a disk group [1.4.3](asm-intro.md)
+  - Oracle ASM [1.3.4](asm-intro.md)
+- dismounting disk groups [1.4.2](asm-intro.md)
+- dismounting file systems
+  - Oracle ACFS [16.1.9](steps-manage-acfs.md)
+- dismounting or shutting down
+  - Oracle ACFS [11.3.6](understand-acfs-admin.md)
+- displaying encryption information
+  - Oracle ACFS [16.1.6](steps-manage-acfs.md)
+- displaying security information
+  - Oracle ACFS [16.1.5](steps-manage-acfs.md)
+- displaying tagging information
+  - Oracle ACFS [16.1.7](steps-manage-acfs.md)
+- driver commands
+  - acfsdriverstate [17.9.2](acfs-advanced-topics.md)
+  - acfsload [17.9.1](acfs-advanced-topics.md)
+  - afddriverstate [21.9.2](administer-filter-driver.md)
+  - afdload [21.9.1](administer-filter-driver.md)
+  - Oracle ACFS [17.9](acfs-advanced-topics.md)
+  - Oracle ASM Filter Driver [21.9](administer-filter-driver.md)
+- driver model
+  - Oracle ACFS [11.2.6](understand-acfs-concepts.md)
+- drivers resource
+  - Oracle ACFS [17.5](acfs-advanced-topics.md)
+- dropdg command
+  - ASMCMD utility [10.7.3](asmcmd-diskgroup-commands.md)
+- dropFileGroups [9.3.2.10](manage-asm-asmca.md)
+- dropLabel [9.3.2.8](manage-asm-asmca.md)
+- dropping a directory
+  - Oracle ASM [5.5.3](asm-files-directories-templates.md)
+- dropping aliases
+  - Oracle ASM [5.4.3](asm-files-directories-templates.md)
+- dropping aliases from a disk group [5.4.4](asm-files-directories-templates.md)
+- dropping disk groups [4.10.4](maintain-diskgroups.md)
+- dropping disks from a disk group [1.4.3](asm-intro.md), [4.3.5](alter-diskgroups.md)
+- dropping disks from disk groups in Oracle Enterprise Manager [7.4.4](admin-asm-em.md)
+- dropping files from a disk group
+  - Oracle ASM [5.4.4](asm-files-directories-templates.md)
+- dropping Oracle ASM templates [5.8.4](asm-files-directories-templates.md)
+- dropQuotaGroups [9.3.2.12](manage-asm-asmca.md)
+- dsget command
+  - ASMCMD utility [10.2.1](asmcmd-instance-commands.md)
+- dsset command
+  - ASMCMD utility [10.2.2](asmcmd-instance-commands.md)
+- du command
+  - ASMCMD utility [10.6.4](asmcmd-file-commands.md)
+- dynamic views [12](views-acfs-advm-info.md)
+  - Oracle ASM [6](views-asm-info.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- editDiskGroupAttributes [9.3.2.6](manage-asm-asmca.md)
+- enabling encryption
+  - Oracle ACFS [16.1.6](steps-manage-acfs.md)
+- encrypting file systems
+  - Oracle ACFS [16.1.6](steps-manage-acfs.md)
+- encrypting secure file systems
+  - Oracle ACFS [16.1.5](steps-manage-acfs.md)
+- encryption
+  - configuring with Oracle ASMCA [14.1.3](manage-acfs-advm-asmca.md)
+  - Oracle ACFS [11.3.8](understand-acfs-admin.md)
+  - Oracle ACFS and snapshots [11.2.9](understand-acfs-concepts.md)
+  - Oracle ACFS command-line tools [16.10](acfs-commands-encryption.md)
+- encryption keys
+  - Oracle ACFS [11.3.8](understand-acfs-admin.md)
+- Enterprise Manager
+  - See: Oracle Enterprise Manager
+- Enterprise Manager Cloud Control
+  - See: Oracle Enterprise Manager
+- error handling
+  - Oracle ACFS [17.1.2](acfs-advanced-topics.md)
+- exit command
+  - ASMCMD utility [10.1.4.2](about-asmcmd.md)
+- EXTEND command rule [16.9.13](acfs-commands-security.md)
+- Extended Attributes
+  - requirements for tagging [11.3.12](understand-acfs-admin.md)
+- extents
+  - Oracle ASM [1.3.5](asm-intro.md), [1.3.6.1](asm-intro.md)
+  - variable size [1.3.5](asm-intro.md), [1.3.6.1](asm-intro.md), [4.5](capacity-diskgroups.md)
+- external tables
+  - and Oracle ACFS [11.2.12](understand-acfs-concepts.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- FAILGROUP_REPAIR_TIME disk group attribute [4.1.2.13](manage-diskgroup-attributes.md)
+  - fast disk resync [4.6.3](mirroring-diskgroup-redundancy.md)
+- failure groups
+  - about [4.6.1.1](mirroring-diskgroup-redundancy.md)
+  - disk failures [4.6.1.2](mirroring-diskgroup-redundancy.md)
+  - guidelines [4.6.1.3](mirroring-diskgroup-redundancy.md)
+  - how many to create [4.6.1.4](mirroring-diskgroup-redundancy.md)
+  - minimum recommended [4.6.1.1](mirroring-diskgroup-redundancy.md)
+  - mirroring [4.6](mirroring-diskgroup-redundancy.md)
+  - mirroring, and [4.6.1](mirroring-diskgroup-redundancy.md)
+  - Oracle ASM [1.3.3](asm-intro.md)
+  - preferred read [4.6.4](mirroring-diskgroup-redundancy.md)
+  - quorum type [4.2.5](create-diskgroups.md)
+  - simultaneous failure [4.6.1.4](mirroring-diskgroup-redundancy.md)
+  - when to use external, normal, or high redundancy [4.6.1.4](mirroring-diskgroup-redundancy.md)
+- fast mirror resync [4.6.3](mirroring-diskgroup-redundancy.md)
+  - managing with Oracle Enterprise Manager [7.4.3](admin-asm-em.md)
+- file access and security
+  - Oracle ACFS [11.3.1](understand-acfs-admin.md)
+- file access control
+  - enabling with Oracle Enterprise Manager [7.4.8.4](admin-asm-em.md)
+  - managing with SQL statements [4.9.3](asm-access-control-diskgroups.md)
+  - Oracle Automatic Storage Management [4.9](asm-access-control-diskgroups.md)
+  - restricting access to files [4.9.1](asm-access-control-diskgroups.md)
+  - setting up for files in a disk group [4.9.1](asm-access-control-diskgroups.md)
+  - setting with SQL statements [4.9.2](asm-access-control-diskgroups.md)
+- file management commands
+  - ASMCMD utility [10.6](asmcmd-file-commands.md)
+- file names
+  - Oracle ASM [5.2](asm-files-directories-templates.md)
+  - Oracle Automatic Storage Management [5.2](asm-files-directories-templates.md)
+- file names in SQL statements
+  - Oracle ASM [5.3.2](asm-files-directories-templates.md)
+- file names with template form
+  - Oracle ASM [5.2.6](asm-files-directories-templates.md)
+- files
+  - Oracle ASM [1.3.6](asm-intro.md)
+  - templates [1.3.6.3](asm-intro.md)
+- file templates
+  - understanding [1.3.6.3](asm-intro.md)
+- file types supported
+  - Oracle ASM [5.1](asm-files-directories-templates.md)
+- filter driver
+  - Oracle ASM [21.1](administer-filter-driver.md)
+- find command
+  - ASMCMD utility [10.6.5](asmcmd-file-commands.md)
+- flex disk groups
+  - Oracle ASM [4.11.1](asm-filegroups.md)
+- fsck command
+  - AIX [16.4.1](acfs-commands-aix.md)
+  - offline mode in Linux environments [16.2.1](acfs-commands-linux.md)
+  - online mode in Linux environments [16.2.2](acfs-commands-linux.md)
+  - Solaris [16.3.1](acfs-commands-solaris.md)
+- fully qualified file names
+  - Oracle ASM [5.2.3](asm-files-directories-templates.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- grid infrastructure configuration
+  - Oracle ACFS [11.3.3](understand-acfs-admin.md)
+- grid infrastructure installation
+  - Oracle ACFS [11.3.2](understand-acfs-admin.md)
+- grid plug and play (GPnP)
+  - retrieving the location of an ASM SPFILE [10.2.20](asmcmd-instance-commands.md)
+  - setting the location of the ASM SPFILE [10.2.22](asmcmd-instance-commands.md)
+- groups
+  - OSASM [3.5](authenticate-access-asm-instance.md), [3.5.2](authenticate-access-asm-instance.md), [3.5.3](authenticate-access-asm-instance.md), [3.5.4](authenticate-access-asm-instance.md)
+- groups command
+  - ASMCMD utility [10.10.4](asmcmd-accesscontrol-commands.md)
+- grpmod command
+  - ASMCMD utility [10.10.5](asmcmd-accesscontrol-commands.md)
+
+------------------------------------------------------------------------
+
+## H
+
+- help command
+  - ASMCMD utility [10.1.6](about-asmcmd.md)
+- High Availability NFS for Oracle Grid Home
+  - notes [11.3.16](understand-acfs-admin.md)
+  - Oracle ACFS [11.3.16](understand-acfs-admin.md)
+  - setting up for an Oracle ACFS file system [11.3.16](understand-acfs-admin.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- I/O failure console messages
+  - Oracle ACFS [17.13](acfs-advanced-topics.md)
+- IDP.BOUNDARY disk group attribute [4.1.2.14](manage-diskgroup-attributes.md)
+- IDP.TYPE disk group attribute [4.1.2.14](manage-diskgroup-attributes.md)
+- IMMUTABLE command rule [16.9.13](acfs-commands-security.md)
+- incomplete file name template form
+  - Oracle ASM [5.2.8](asm-files-directories-templates.md)
+- individual file system resource
+  - Oracle ACFS [17.7](acfs-advanced-topics.md)
+- initialization parameter files
+  - backing up, copying, and moving [3.2.2](init-params-asm-instance.md)
+  - creating an SPFILE in a disk group [3.2.2.1](init-params-asm-instance.md)
+  - Oracle ASM [3.2.1](init-params-asm-instance.md)
+  - search order for Oracle ASM [3.2.1](init-params-asm-instance.md)
+- initialization parameters
+  - COMPATIBLE [4.8.2](diskgroup-compatibility.md)
+  - database for use with Oracle ASM instance [3.2.6](init-params-asm-instance.md)
+  - Oracle ASM instance [3.2.5](init-params-asm-instance.md)
+  - Oracle Automatic Storage Management [3.2](init-params-asm-instance.md)
+  - setting for Oracle ASM instance [3.2.3](init-params-asm-instance.md)
+- initializing encryption on file systems
+  - Oracle ACFS [16.1.6](steps-manage-acfs.md)
+- initializing security
+  - Oracle ACFS file systems [16.1.5](steps-manage-acfs.md)
+- installing ssh and Cygwin for use with snapshot-based replication [18.2](configure-acfs-replication.md)
+- INSTANCE_TYPE initialization parameter
+  - Oracle ASM instance [3.2.5.8](init-params-asm-instance.md)
+- instance management commands
+  - ASMCMD utility [10.2](asmcmd-instance-commands.md)
+- instances
+  - Oracle ASM [1.3.1](asm-intro.md)
+- iostat command
+  - ASMCMD utility [10.7.4](asmcmd-diskgroup-commands.md)
+
+------------------------------------------------------------------------
+
+## K
+
+- keys
+  - encryption [11.3.8](understand-acfs-admin.md)
+
+------------------------------------------------------------------------
+
+## L
+
+- LARGE_POOL_SIZE initialization parameter
+  - Oracle ASM instance [3.2.5.9](init-params-asm-instance.md)
+- limits
+  - Oracle ACFS [17.1](acfs-advanced-topics.md)
+  - Oracle ADVM [17.2](acfs-advanced-topics.md)
+- LINKFILE command rule [16.9.13](acfs-commands-security.md)
+- Linux environments
+  - Oracle ACFS command-line tools [16.2](acfs-commands-linux.md)
+- LOGICAL_SECTOR_SIZE disk group attribute [4.1.2.15](manage-diskgroup-attributes.md)
+- logical sector size
+  - disk groups [4.2.4](create-diskgroups.md)
+  - validations for disk groups [4.2.4](create-diskgroups.md)
+- logical support for sector size of the Oracle ADVM volume
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- logical unit number
+  - storage resources [2.1](considerations-asm-storage.md)
+- logical volumes
+  - storage resources [2.1](considerations-asm-storage.md)
+- lsattr command
+  - ASMCMD utility [10.7.5](asmcmd-diskgroup-commands.md)
+- lsaudcleanupjobs command
+  - ASMCMD utility [10.5.12](manage-asm-asmcmd.md)
+- lsaudconfigparams command
+  - ASMCMD utility [10.5.13](manage-asm-asmcmd.md)
+- lscc command
+  - ASMCMD utility [10.3.2](asmcmd-cluster-commands.md)
+- ls command
+  - ASMCMD utility [10.6.6](asmcmd-file-commands.md)
+- lsct command
+  - ASMCMD utility [10.2.3](asmcmd-instance-commands.md)
+- lsdg command
+  - ASMCMD utility [10.7.6](asmcmd-diskgroup-commands.md)
+- lsdsk command
+  - ASMCMD utility [10.7.7](asmcmd-diskgroup-commands.md)
+- lsfg command
+  - ASMCMD utility [10.8.3](asmcmd-filegroup-commands.md)
+- lsgrp command
+  - ASMCMD utility [10.10.6](asmcmd-accesscontrol-commands.md)
+- lsod command
+  - ASMCMD utility [10.7.8](asmcmd-diskgroup-commands.md)
+- lsof command
+  - ASMCMD utility [10.6.7](asmcmd-file-commands.md)
+- lsop command
+  - ASMCMD utility [10.2.4](asmcmd-instance-commands.md)
+- lspwusr command
+  - ASMCMD utility [10.2.5](asmcmd-instance-commands.md)
+- lsqg command
+  - ASMCMD utility [10.8.4](asmcmd-filegroup-commands.md)
+- lstmpl command
+  - ASMCMD utility [10.9.2](asmcmd-template-commands.md)
+- lsusr command
+  - ASMCMD utility [10.10.7](asmcmd-accesscontrol-commands.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- managing aliases
+  - Oracle ASM [5.4](asm-files-directories-templates.md)
+- managing capacity in disk groups [4.5](capacity-diskgroups.md)
+- managing file access control
+  - Oracle Enterprise Manager [7.5](admin-asm-em.md)
+- managing file access control for disk groups
+  - Oracle Enterprise Manager [7.5](admin-asm-em.md)
+- managing Oracle ASM files
+  - Oracle Enterprise Manager [7.6](admin-asm-em.md)
+- managing Oracle ASM templates
+  - Oracle Enterprise Manager [7.7](admin-asm-em.md)
+- managing Oracle ASM templates page
+  - Oracle Enterprise Manager [7.7](admin-asm-em.md)
+- managing templates
+  - Oracle Automatic Storage Management [5.8](asm-files-directories-templates.md)
+- managing users
+  - Oracle ASM in Oracle Enterprise Manager [7.3](admin-asm-em.md)
+- md_backup command
+  - ASMCMD utility [10.7.9](asmcmd-diskgroup-commands.md)
+- md_restore command
+  - ASMCMD utility [10.7.10](asmcmd-diskgroup-commands.md)
+- member cluster management commands
+  - ASMCMD utility [10.3](asmcmd-cluster-commands.md)
+  - Oracle ASM remote instances [10.3](asmcmd-cluster-commands.md)
+- memory management
+  - Oracle Automatic Storage Management [3.2.4](init-params-asm-instance.md)
+- metadata block size
+  - Oracle ACFS [16.2.3](acfs-commands-linux.md), [16.5.3](acfs-commands-windows.md)
+- migrating a database
+  - to Oracle ASM [3.6](migrate-db-to-asm.md)
+- migrating data
+  - Oracle ASM with Recovery Manager [8.1](asm-migration-rman.md)
+- migrating data to alternative storage
+  - Oracle ASM [8.4](asm-migration-rman.md)
+- migrating data to Oracle ASM
+  - with Recovery Manager [8.3](asm-migration-rman.md)
+- migrating to Oracle ASM
+  - Oracle Enterprise Manager [7.12](admin-asm-em.md)
+- mirror
+  - fast resync [4.6.3](mirroring-diskgroup-redundancy.md), [7.4.3](admin-asm-em.md)
+- mirroring
+  - failure groups [4.6](mirroring-diskgroup-redundancy.md)
+  - failure groups, and [4.6.1](mirroring-diskgroup-redundancy.md)
+  - Oracle ASM [1.3.3](asm-intro.md)
+  - with failure groups [1.3.3](asm-intro.md)
+- mkalias command
+  - ASMCMD utility [10.6.8](asmcmd-file-commands.md)
+- mkcc command
+  - ASMCMD utility [10.3.3](asmcmd-cluster-commands.md)
+- mkdg command
+  - ASMCMD utility [10.7.11](asmcmd-diskgroup-commands.md)
+- mkdir command
+  - ASMCMD utility [10.6.9](asmcmd-file-commands.md)
+- MKDIR command rule [16.9.13](acfs-commands-security.md)
+- mkfg command
+  - ASMCMD utility [10.8.5](asmcmd-filegroup-commands.md)
+- mkfs command
+  - AIX [16.4.2](acfs-commands-aix.md)
+  - Linux environments [16.2.3](acfs-commands-linux.md)
+  - Solaris [16.3.2](acfs-commands-solaris.md)
+- mkgrp command
+  - ASMCMD utility [10.10.8](asmcmd-accesscontrol-commands.md)
+- mkqg command
+  - ASMCMD utility [10.8.6](asmcmd-filegroup-commands.md)
+- mktmpl command
+  - ASMCMD utility [10.9.3](asmcmd-template-commands.md)
+- mkusr command
+  - ASMCMD utility [10.10.9](asmcmd-accesscontrol-commands.md)
+- MMAPREAD command rule [16.9.13](acfs-commands-security.md)
+- MMAPWRITE command rule [16.9.13](acfs-commands-security.md)
+- monitoring Oracle ASM performance
+  - Oracle Enterprise Manager [7.9.1](admin-asm-em.md)
+- monitoring Oracle Flex ASM
+  - Oracle Enterprise Manager [7.14](admin-asm-em.md)
+- mount command
+  - AIX [16.4.3](acfs-commands-aix.md)
+  - ASMCMD utility [10.7.12](asmcmd-diskgroup-commands.md)
+  - Linux environments [16.2.4](acfs-commands-linux.md)
+  - Solaris [16.3.3](acfs-commands-solaris.md)
+- mounting and dismounting disk groups [4.10.1](maintain-diskgroups.md)
+- mounting disk groups [1.4.2](asm-intro.md)
+  - using force [4.10.2](maintain-diskgroups.md)
+- mounting Oracle ACFS file systems [16.1.2](steps-manage-acfs.md)
+- mount model
+  - Oracle ACFS [11.2.2](understand-acfs-concepts.md)
+- mount registry
+  - Oracle ACFS [11.2.7](understand-acfs-concepts.md)
+- moving data between disk groups
+  - Oracle ASM [8.5](asm-migration-rman.md)
+- multipathing
+  - with Oracle ASM [2.2](considerations-asm-storage.md)
+- multiple file creation form
+  - Oracle ASM [5.2.2](asm-files-directories-templates.md)
+- mvfg command
+  - ASMCMD utility [10.8.7](asmcmd-filegroup-commands.md)
+- mvfile command
+  - ASMCMD utility [10.8.8](asmcmd-filegroup-commands.md)
+
+------------------------------------------------------------------------
+
+## N
+
+- namespace
+  - Oracle ACFS [11.2.2](understand-acfs-concepts.md)
+- naming
+  - disk groups [4.2.1](create-diskgroups.md)
+- network file systems
+  - storage resources [2.1](considerations-asm-storage.md)
+- NFS
+  - and Oracle ACFS [17.1.3](acfs-advanced-topics.md)
+- NOWAIT keyword
+  - in REBALANCE clause [4.3](alter-diskgroups.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- offline command
+  - ASMCMD utility [10.7.13](asmcmd-diskgroup-commands.md)
+- online command
+  - ASMCMD utility [10.7.14](asmcmd-diskgroup-commands.md)
+- OPENFILE command rule [16.9.13](acfs-commands-security.md)
+- open files
+  - and chgrp command [10.10.1](asmcmd-accesscontrol-commands.md)
+  - and chmod command [10.10.2](asmcmd-accesscontrol-commands.md)
+  - and chown command [10.10.3](asmcmd-accesscontrol-commands.md)
+- operating system authentication
+  - for Oracle Automatic Storage Management [3.5.3](authenticate-access-asm-instance.md)
+  - Oracle ASM [3.5.3](authenticate-access-asm-instance.md)
+  - SYSASM [3.5.3](authenticate-access-asm-instance.md)
+- ora.diskgroup.volume.acfs file system resource
+  - Oracle ACFS [11.3.5.1](understand-acfs-admin.md)
+- ora.drivers.acfs drivers resource
+  - Oracle ACFS [11.3.5.1](understand-acfs-admin.md)
+- ORACLE_HOME
+  - Oracle ASM [3.3.2.1](admin-asm-instance.md)
+- ORACLE_SID
+  - Oracle ASM [3.3.2.1](admin-asm-instance.md)
+- Oracle ACFS
+  - See: Oracle Automatic Storage Management Cluster File System
+
+  <!-- -->
+
+  - command-line tools for replication [16.7](acfs-commands-replication.md)
+  - command-line tools for tagging [16.6](acfs-commands-tagging.md)
+- Oracle ACFS acfsutil command-line tools
+  - displaying help information [16.1.1](steps-manage-acfs.md)
+  - managing trace files [16.1.1](steps-manage-acfs.md)
+  - privileges to run [16.1.1](steps-manage-acfs.md)
+  - using [16.1.1](steps-manage-acfs.md)
+  - version information [16.1.1](steps-manage-acfs.md)
+- Oracle ACFS command-line tools
+  - in the cluster domain [16.13](acfs-commands-cluster-domain.md)
+  - Oracle ACFS remote service [16.13](acfs-commands-cluster-domain.md)
+- Oracle ACFS Compression
+  - overview [11.3.9](understand-acfs-admin.md)
+- Oracle ACFS loopback support [17.4](acfs-advanced-topics.md)
+- Oracle ACFS NAS Maximum Availability eXtensions
+  - Oracle ACFS [11.3.16](understand-acfs-admin.md)
+- Oracle ACFS remote service
+  - Oracle ACFS [11.3.17](understand-acfs-admin.md)
+- Oracle ACFS replication
+  - configuring snapshot-based replication [18](configure-acfs-replication.md)
+  - configuring ssh for use with snapshot-based replication [18.1](configure-acfs-replication.md)
+  - installing ssh and Cygwin on Windows [18.2](configure-acfs-replication.md)
+  - upgrading to snapshot-based replication [18.3](configure-acfs-replication.md)
+- Oracle ACFS security
+  - command rules [16.9.13](acfs-commands-security.md)
+- Oracle ADVM
+  - See: Oracle Automatic Storage Management Dynamic Volume Manager
+- Oracle ADVM volume devices
+  - creating [16.1.2](steps-manage-acfs.md)
+- Oracle ADVM volumes
+  - managing [4.3.1](alter-diskgroups.md)
+- Oracle ASM
+  - See: Oracle Automatic Storage Management
+
+  <!-- -->
+
+  - instance administration [3.3](admin-asm-instance.md)
+- Oracle ASM audit files commands
+  - ASMCMD utility [10.5](manage-asm-asmcmd.md)
+- Oracle ASM Cluster File System
+  - cluster domain [11.2.8](understand-acfs-concepts.md), [11.3.17](understand-acfs-admin.md)
+  - Oracle ACFS remote service [11.3.17](understand-acfs-admin.md)
+  - remote service [11.2.8](understand-acfs-concepts.md)
+- Oracle ASM Configuration Assistant
+  - about [9](manage-asm-asmca.md), [14](manage-acfs-advm-asmca.md)
+  - addDisk command [9.3.2.5](manage-asm-asmca.md)
+  - commands to manage Oracle ACFS [14.2.1](manage-acfs-advm-asmca.md)
+  - commands to manage Oracle ASM [9.3.2](manage-asm-asmca.md)
+  - configureASM command [9.3.2.1](manage-asm-asmca.md)
+  - configureParameter command [9.3.2.2](manage-asm-asmca.md)
+  - configuring an Oracle ACFS [14.1.2](manage-acfs-advm-asmca.md)
+  - configuring an Oracle ADVM volume [14.1.1](manage-acfs-advm-asmca.md)
+  - configuring disk groups [9.2.2](manage-asm-asmca.md)
+  - configuring Oracle ACFS encryption [14.1.3](manage-acfs-advm-asmca.md)
+  - configuring Oracle ACFS for a database home [14.1.4](manage-acfs-advm-asmca.md)
+  - configuring Oracle ACFS security [14.1.3](manage-acfs-advm-asmca.md)
+  - createACFS command [14.2.1.4](manage-acfs-advm-asmca.md)
+  - createACFSSnapshot command [14.2.1.1](manage-acfs-advm-asmca.md)
+  - createDiskGroup command [9.3.2.4](manage-asm-asmca.md)
+  - createVolume command [14.2.1.3](manage-acfs-advm-asmca.md)
+  - creating a database home on Oracle ACFS [14.1.4](manage-acfs-advm-asmca.md)
+  - creating an Oracle ACFS file system [14.1.2](manage-acfs-advm-asmca.md)
+  - creating an Oracle ADVM volume [14.1.1](manage-acfs-advm-asmca.md)
+  - creating an Oracle ASM instance [9.2.1](manage-asm-asmca.md)
+  - creating disk groups [9.2.2](manage-asm-asmca.md)
+  - deleteACFSSnapshot command [14.2.1.2](manage-acfs-advm-asmca.md)
+  - deleteASM command [9.3.2.3](manage-asm-asmca.md)
+  - mounting or dismounting an Oracle ACFS [14.1.2](manage-acfs-advm-asmca.md)
+  - running in command-line mode [9.3.1](manage-asm-asmca.md)
+  - running in silent mode [9.3.1](manage-asm-asmca.md)
+  - starting [9.1](manage-asm-asmca.md)
+  - updating Oracle ASM instance parameters [9.2.1](manage-asm-asmca.md)
+- Oracle ASM directories
+  - administering [5](asm-files-directories-templates.md)
+- Oracle ASM Dynamic Volume Manager
+  - overview [11](intro-acfs-advm.md)
+- Oracle ASM Extended Disk Groups [4.11.5](asm-filegroups.md)
+- Oracle ASM file access control commands
+  - ASMCMD utility [10.10](asmcmd-accesscontrol-commands.md)
+- Oracle ASM file group commands
+  - ASMCMD utility [10.8](asmcmd-filegroup-commands.md)
+- Oracle ASM File Groups [4.11](asm-filegroups.md), [4.11.2](asm-filegroups.md)
+  - properties [4.11.3](asm-filegroups.md)
+  - quota groups [4.11.4](asm-filegroups.md)
+- Oracle ASM files
+  - administering [5](asm-files-directories-templates.md)
+- Oracle ASM Filter Driver
+  - about [21.1](administer-filter-driver.md)
+  - and extended partition tables [21.1](administer-filter-driver.md)
+  - and Oracle ASMLIB [21.1](administer-filter-driver.md)
+  - configuring [21.2](administer-filter-driver.md)
+  - configuring after installation [21.2.2](administer-filter-driver.md)
+  - configuring during installation [21.2.1](administer-filter-driver.md)
+  - deconfiguring [21.8](administer-filter-driver.md)
+  - determining the state [21.4](administer-filter-driver.md)
+  - managed by Oracle Enterprise Manager [7.8](admin-asm-em.md)
+  - managing labels [21.7](administer-filter-driver.md)
+  - migrating [21.3](administer-filter-driver.md)
+  - overview [21](administer-filter-driver.md)
+  - post-installation configuration [21.2.2](administer-filter-driver.md)
+  - pre-installation configuration [21.2](administer-filter-driver.md), [21.2.1](administer-filter-driver.md)
+  - updating AFD_DISKSTRING [21.5](administer-filter-driver.md)
+  - updating ASM_DISKSTRING [21.6](administer-filter-driver.md)
+- Oracle ASM Filter Driver management commands
+  - ASMCMD utility [10.4](asmcmd-filterdriver-commands.md)
+- Oracle ASM flex disk groups
+  - point-in-time database clones [4.11.6](asm-filegroups.md)
+- Oracle ASM Flex Disk Groups [4.11](asm-filegroups.md)
+  - about [4.11.1](asm-filegroups.md)
+- Oracle ASM instances
+  - administration [3.3](admin-asm-instance.md)
+- Oracle ASM performance
+  - Oracle Enterprise Manager [7.9.1](admin-asm-em.md)
+- Oracle ASM preferred read
+  - failure groups [4.6.4](mirroring-diskgroup-redundancy.md)
+- Oracle ASM proxy instance
+  - Oracle ACFS and Oracle ADVM [20.1](manage-flex-asm.md)
+- Oracle ASM Quota Groups [4.11](asm-filegroups.md)
+- Oracle ASM templates
+  - administering [5](asm-files-directories-templates.md)
+- Oracle Automatic Storage Management
+  - accessing files with the XML DB virtual folder [5.6](asm-files-directories-templates.md)
+  - active session history sampling [3.3.7](admin-asm-instance.md)
+  - adding aliases [5.4.1](asm-files-directories-templates.md)
+  - administering [3](asm-instance.md)
+  - administering Oracle Flex ASM [20.3](manage-flex-asm.md)
+  - advanced topics [IV](part-advanced-topics.md)
+  - aliases [5.4](asm-files-directories-templates.md)
+  - alias file names [5.2.4](asm-files-directories-templates.md)
+  - and Oracle Enterprise Manager [7](admin-asm-em.md)
+  - ASM_POWER_LIMIT initialization parameter [3.2.5.4](init-params-asm-instance.md)
+  - ASM_PREFERRED_READ_FAILURE_GROUPS initialization parameter [3.2.5.5](init-params-asm-instance.md)
+  - ASMSNMP [9.2.1](manage-asm-asmca.md)
+  - ASMSNMP user in Oracle Enterprise Manager [7.3](admin-asm-em.md)
+  - authentication [3.5](authenticate-access-asm-instance.md)
+  - backing up initialization parameter files [3.2.2](init-params-asm-instance.md)
+  - command-line utility [10](manage-asm-asmcmd.md)
+  - components [1.3](asm-intro.md)
+  - concepts [1](asm-intro.md)
+  - configuring initialization parameters [3.2](init-params-asm-instance.md)
+  - connecting to an instance [3.3.2.1](admin-asm-instance.md)
+  - copying initialization parameter files [3.2.2](init-params-asm-instance.md)
+  - creating a database example [22.1](create-db-asm-sqlplus.md)
+  - creating a database in [22.1](create-db-asm-sqlplus.md)
+  - creating a new directory [5.5.1](asm-files-directories-templates.md)
+  - creating archive log files in [22.5](create-db-asm-sqlplus.md)
+  - creating control file example [22.4](create-db-asm-sqlplus.md)
+  - creating control file in [22.4](create-db-asm-sqlplus.md)
+  - creating database files in [22](create-db-asm-sqlplus.md)
+  - creating files in the database [5.3](asm-files-directories-templates.md)
+  - creating files using a default file location [5.3.1](asm-files-directories-templates.md)
+  - creating redo logs in [22.3](create-db-asm-sqlplus.md)
+  - creating SPFILE in a disk group [3.2.2.1](init-params-asm-instance.md)
+  - creating tablespaces in [22.2](create-db-asm-sqlplus.md)
+  - database initialization parameters [3.2.6](init-params-asm-instance.md)
+  - data files with alias names [5.2.5](asm-files-directories-templates.md)
+  - DB_CACHE_SIZE initialization parameter [3.2.5.6](init-params-asm-instance.md)
+  - DIAGNOSTIC_DEST initialization parameter [3.2.5.7](init-params-asm-instance.md)
+  - diagnostic directory [3.2.5.7](init-params-asm-instance.md)
+  - directories [5.5](asm-files-directories-templates.md)
+  - discovering disks [1.4.1](asm-intro.md), [4.4](asm-disk-discovery.md)
+  - disk discovery [4.4](asm-disk-discovery.md)
+  - disk discovery string [1.4.1](asm-intro.md)
+  - disk failures in [4.6.1.2](mirroring-diskgroup-redundancy.md)
+  - disk groups [1.3.2](asm-intro.md)
+  - disk partitions for storage resources [2.1](considerations-asm-storage.md)
+  - disks [1.3.4](asm-intro.md)
+  - dropping a directory [5.5.3](asm-files-directories-templates.md)
+  - dropping aliases [5.4.3](asm-files-directories-templates.md)
+  - dropping files [5.4.4](asm-files-directories-templates.md)
+  - extents [1.3.6.1](asm-intro.md)
+  - failure groups [4.6.1.1](mirroring-diskgroup-redundancy.md)
+  - failure groups recommendations [4.6.1.1](mirroring-diskgroup-redundancy.md)
+  - file access control [4.9](asm-access-control-diskgroups.md)
+  - file names [5.2](asm-files-directories-templates.md)
+  - file names with template form [5.2.6](asm-files-directories-templates.md)
+  - files [1.3.6](asm-intro.md)
+  - file templates [1.3.6.3](asm-intro.md)
+  - file types supported [5.1](asm-files-directories-templates.md)
+  - fully qualified file names [5.2.3](asm-files-directories-templates.md)
+  - home page on Oracle Enterprise Manager [7.1](admin-asm-em.md)
+  - incomplete file name form [5.2.7](asm-files-directories-templates.md)
+    - Oracle ASM [5.2.7](asm-files-directories-templates.md)
+  - incomplete file name template form [5.2.8](asm-files-directories-templates.md)
+  - initialization parameter files [3.2.1](init-params-asm-instance.md)
+  - initialization parameters [3.2.5](init-params-asm-instance.md)
+  - INSTANCE_TYPE initialization parameter [3.2.5.8](init-params-asm-instance.md)
+  - instances [1.3.1](asm-intro.md)
+  - integration with Oracle ACFS [11.2.11](understand-acfs-concepts.md)
+  - LARGE_POOL_SIZE initialization parameter [3.2.5.9](init-params-asm-instance.md)
+  - logical volumes for storage resources [2.1](considerations-asm-storage.md)
+  - LUNs for storage resources [2.1](considerations-asm-storage.md)
+  - managing aliases [5.4](asm-files-directories-templates.md)
+  - memory management [3.2.4](init-params-asm-instance.md)
+  - migrating a database to [3.6](migrate-db-to-asm.md)
+  - migrating data [8](asm-migration-rman.md), [8.1.3](asm-migration-rman.md)
+  - migrating data to [8.3](asm-migration-rman.md)
+  - migrating data to alternative storage [8.4](asm-migration-rman.md)
+  - mirroring and failure groups [1.3.3](asm-intro.md)
+  - moving data between disk groups [8.5](asm-migration-rman.md)
+  - moving initialization parameter files [3.2.2](init-params-asm-instance.md)
+  - multipathing [2.2](considerations-asm-storage.md)
+  - multiple file creation form [5.2.2](asm-files-directories-templates.md)
+  - network file systems for storage resources [2.1](considerations-asm-storage.md)
+  - new features ,
+  - one operating system group for all privileges [3.5.1.1](authenticate-access-asm-instance.md)
+  - operating system authentication for [3.5.3](authenticate-access-asm-instance.md)
+  - ORACLE_HOME [3.3.2.1](admin-asm-instance.md)
+  - ORACLE_SID [3.3.2.1](admin-asm-instance.md)
+  - Oracle Database file mapping [5.3.4](asm-files-directories-templates.md)
+  - Oracle Flex ASM [20](manage-flex-asm.md), [20.1](manage-flex-asm.md)
+  - Oracle IOServer [20.1](manage-flex-asm.md)
+  - overview [1.1](asm-intro.md)
+  - password file authentication for [3.5.4](authenticate-access-asm-instance.md)
+  - preparing storage resources [2.1](considerations-asm-storage.md)
+  - privileges [3.5.1](authenticate-access-asm-instance.md)
+  - PROCESSES initialization parameter [3.2.5.10](init-params-asm-instance.md)
+  - recommendations for storage preparation [2.3](considerations-asm-storage.md)
+  - Recovery Manager, and [8](asm-migration-rman.md), [8.1.3](asm-migration-rman.md)
+  - referencing files in the database [5.3](asm-files-directories-templates.md)
+  - REMOTE_LOGIN_PASSWORDFILE initialization parameter [3.2.5.11](init-params-asm-instance.md)
+  - renaming a directory [5.5.2](asm-files-directories-templates.md)
+  - renaming aliases [5.4.2](asm-files-directories-templates.md)
+  - rolling patches [3.4.2](upgrade-patch-asm.md)
+  - rolling upgrades [3.4.1](upgrade-patch-asm.md)
+  - search order for initialization parameter files [3.2.1](init-params-asm-instance.md)
+  - separate operating system groups for privileges [3.5.1.2](authenticate-access-asm-instance.md)
+  - setting initialization parameters [3.2.3](init-params-asm-instance.md)
+  - setting up Oracle Flex ASM [20.2](manage-flex-asm.md)
+  - SHARED_POOL_SIZE initialization parameter [3.2.5.12](init-params-asm-instance.md)
+  - shutting down an instance [3.3.3](admin-asm-instance.md)
+  - shutting down an instance with OCR or voting files in a disk group [3.3.3](admin-asm-instance.md)
+  - shutting down an instance with Oracle ACFS [3.3.3](admin-asm-instance.md)
+  - single file creation form [5.2.1](asm-files-directories-templates.md)
+  - starting up an instance [3.3.2.1](admin-asm-instance.md)
+  - starting up an instance with incorrect SPFILE path [3.3.2.2](admin-asm-instance.md)
+  - storage considerations [2](considerations-asm-storage.md)
+  - storage limits [4.7.3](performance-scability-diskgroup.md)
+  - storage resources [2.1](considerations-asm-storage.md)
+  - striping [1.3.6.2](asm-intro.md)
+  - types of ASMCMD commands [10.1.1](about-asmcmd.md)
+  - users page in Oracle Enterprise Manager [7.3](admin-asm-em.md)
+  - using file names in SQL statements [5.3.2](asm-files-directories-templates.md)
+  - views [6.1](views-asm-info.md)
+  - XML DB virtual folder [5.6](asm-files-directories-templates.md)
+- Oracle Automatic Storage Management Cluster File System
+  - about [11.2.1](understand-acfs-concepts.md)
+  - about using [16.1.1](steps-manage-acfs.md)
+  - accelerator volume [11.3.15](understand-acfs-admin.md), [16.2.3](acfs-commands-linux.md)
+  - adding objects to security realms [16.1.5](steps-manage-acfs.md)
+  - adding security administrators [16.1.5](steps-manage-acfs.md)
+  - administering [11.3](understand-acfs-admin.md)
+  - advanced topics [IV](part-advanced-topics.md), [17](acfs-advanced-topics.md)
+  - and external tables on Windows [11.2.12](understand-acfs-concepts.md)
+  - and NFS [17.1.3](acfs-advanced-topics.md)
+  - and Oracle Enterprise Manager [13](administer-acfs-advm-em.md)
+  - and Oracle patching [17.14](acfs-advanced-topics.md), [19](oracle-patching-and-oracle-acfs.md)
+  - and Oracle Restart [17.8](acfs-advanced-topics.md)
+  - auditing [11.3.10.1](understand-acfs-admin.md)
+  - auditing security and encryption [11.3.10](understand-acfs-admin.md)
+  - backup and restore [11.2.10](understand-acfs-concepts.md)
+  - basic steps to access a file system [16.1.3](steps-manage-acfs.md)
+  - basic steps to create a file system [16.1.2](steps-manage-acfs.md)
+  - basic steps to deregister, dismount, and disable a volume and file system [16.1.9](steps-manage-acfs.md)
+  - basic steps to manage snapshots [16.1.4](steps-manage-acfs.md)
+  - basic steps to manage with command-line tools [16.1](steps-manage-acfs.md)
+  - basic steps to remove a file system and volume [16.1.10](steps-manage-acfs.md)
+  - changing tag names [16.1.7](steps-manage-acfs.md)
+  - command-line tools [16](manage-acfs-advm-commands.md)
+  - command-line tools for auditing [16.8](acfs-commands-audit.md)
+  - command-line tools for encryption [16.10](acfs-commands-encryption.md)
+  - command-line tools for security [16.9](acfs-commands-security.md)
+  - command-line tools for snapshots [16.11](acfs-commands-snapshots.md)
+  - creating file systems [16.1.2](steps-manage-acfs.md)
+  - creating security realms [16.1.5](steps-manage-acfs.md)
+  - creating security rules [16.1.5](steps-manage-acfs.md)
+  - creating security rule sets [16.1.5](steps-manage-acfs.md)
+  - creating snapshots with Oracle Enterprise Manager [13.2](administer-acfs-advm-em.md), [13.2.1](administer-acfs-advm-em.md)
+  - creating volumes and file systems with Oracle Enterprise Manager [13.1.1](administer-acfs-advm-em.md)
+  - database files with Oracle Exadata [11.2.3](understand-acfs-concepts.md)
+  - deregistering file systems [16.1.9](steps-manage-acfs.md)
+  - determining the Oracle ADVM volume device name [16.1.2](steps-manage-acfs.md)
+  - disabling a volume [16.1.9](steps-manage-acfs.md)
+  - disk group compatibility [16.1.2](steps-manage-acfs.md)
+  - dismounting file systems [16.1.9](steps-manage-acfs.md)
+  - dismount or shut down [11.3.6](understand-acfs-admin.md)
+  - displaying encryption information [16.1.6](steps-manage-acfs.md)
+  - displaying security information [16.1.5](steps-manage-acfs.md)
+  - displaying tagging information [16.1.7](steps-manage-acfs.md)
+  - driver commands [17.9](acfs-advanced-topics.md)
+  - driver model [11.2.6](understand-acfs-concepts.md)
+  - drivers resource [17.5](acfs-advanced-topics.md)
+  - enabling encryption [16.1.6](steps-manage-acfs.md)
+  - encrypting file systems [16.1.6](steps-manage-acfs.md)
+  - encrypting secure file systems [16.1.5](steps-manage-acfs.md)
+  - encryption [11.3.8](understand-acfs-admin.md)
+  - encryption keys [11.3.8](understand-acfs-admin.md)
+  - error handling [17.1.2](acfs-advanced-topics.md)
+  - file access and security [11.3.1](understand-acfs-admin.md)
+  - file mapping [12.2](views-acfs-advm-info.md)
+  - file systems on other nodes [16.1.3](steps-manage-acfs.md)
+  - grid infrastructure configuration [11.3.3](understand-acfs-admin.md)
+  - grid infrastructure installation [11.3.2](understand-acfs-admin.md)
+  - High Availability NFS for Oracle Grid Home [11.3.16](understand-acfs-admin.md)
+  - I/O failure console messages [17.13](acfs-advanced-topics.md)
+  - important considerations with database files [11.2.3](understand-acfs-concepts.md)
+  - important general considerations [11.1](overview-acfs-advm.md)
+  - individual file system resource [17.7](acfs-advanced-topics.md)
+  - initializing encryption on file systems [16.1.6](steps-manage-acfs.md)
+  - initializing security on file systems [16.1.5](steps-manage-acfs.md)
+  - integration with Oracle ASM [11.2.11](understand-acfs-concepts.md)
+  - limit on the number of snapshots [11.2.9](understand-acfs-concepts.md)
+  - limits [17.1](acfs-advanced-topics.md)
+  - managing encryption with Oracle Enterprise Manager [13.4](administer-acfs-advm-em.md)
+  - mounting file systems [16.1.2](steps-manage-acfs.md)
+  - mount model [11.2.2](understand-acfs-concepts.md)
+  - mount point and Oracle Database homes [11.2.4](understand-acfs-concepts.md)
+  - mount registry [11.2.7](understand-acfs-concepts.md)
+  - namespace [11.2.2](understand-acfs-concepts.md)
+  - new features ,
+  - ora.diskgroup.volume.acfs file system resource [11.3.5.1](understand-acfs-admin.md)
+  - ora.drivers.acfs drivers resource [11.3.5.1](understand-acfs-admin.md)
+  - Oracle ACFS NAS Maximum Availability eXtensions [11.3.16](understand-acfs-admin.md)
+  - Oracle ADVM [11.4](overview-advm.md)
+  - Oracle ADVM volume devices [16.1.2](steps-manage-acfs.md)
+  - Oracle ASM proxy instance [20.1](manage-flex-asm.md)
+  - Oracle Clusterware resource types [11.3.5](understand-acfs-admin.md)
+  - Oracle Database homes, and [11.2.4](understand-acfs-concepts.md)
+  - overview [1.2](asm-intro.md), [11](intro-acfs-advm.md), [11.1](overview-acfs-advm.md)
+  - patching overview [17.14.1](acfs-advanced-topics.md), [19.1](oracle-patching-and-oracle-acfs.md)
+  - plug-in API [17.10](acfs-advanced-topics.md)
+  - plugins [11.3.14](understand-acfs-admin.md)
+  - preparing security on file systems [16.1.5](steps-manage-acfs.md)
+  - privileges to run acfsutil command-line tools [16.1.1](steps-manage-acfs.md)
+  - read-only and read-write snapshots [11.2.9](understand-acfs-concepts.md)
+  - read-write snapshots [11.2.9](understand-acfs-concepts.md)
+  - registering file systems [16.1.2](steps-manage-acfs.md)
+  - registry resource [17.6](acfs-advanced-topics.md)
+  - removing tag names [16.1.7](steps-manage-acfs.md)
+  - replicating file systems [16.1.8](steps-manage-acfs.md)
+  - replication [11.3.11](understand-acfs-admin.md)
+  - replication with auditing, encryption, and security [11.3.13](understand-acfs-admin.md)
+  - restrictions for storage resource [2.1](considerations-asm-storage.md)
+  - running acfsutil command-line tools on Windows [16.1.1](steps-manage-acfs.md)
+  - saving security information [16.1.5](steps-manage-acfs.md)
+  - securing file systems [16.1.5](steps-manage-acfs.md)
+  - security [11.3.7](understand-acfs-admin.md)
+  - setting encryption parameters [16.1.6](steps-manage-acfs.md)
+  - snapshots [16.11.2](acfs-commands-snapshots.md), [16.11.4](acfs-commands-snapshots.md), [16.11.5](acfs-commands-snapshots.md)
+  - space usage [17.1.1](acfs-advanced-topics.md)
+  - specifying tag names for file systems [16.1.7](steps-manage-acfs.md)
+  - supported file types [11.1](overview-acfs-advm.md)
+  - system-created security realms [16.9.12](acfs-commands-security.md)
+  - tagging [11.3.12](understand-acfs-admin.md)
+  - tagging API [17.11](acfs-advanced-topics.md)
+  - tagging file systems [16.1.7](steps-manage-acfs.md)
+  - updating Oracle Grid Infrastructure files [17.14.2](acfs-advanced-topics.md), [19.2](oracle-patching-and-oracle-acfs.md)
+  - verifying patching [17.14.3](acfs-advanced-topics.md), [19.3](oracle-patching-and-oracle-acfs.md)
+  - viewing and modifying snapshots with Oracle Enterprise Manager [13.2](administer-acfs-advm-em.md), [13.2.1](administer-acfs-advm-em.md)
+  - viewing and modifying volumes and file systems with Oracle Enterprise Manager [13.1.2](administer-acfs-advm-em.md)
+  - views [12.1](views-acfs-advm-info.md)
+- Oracle Automatic Storage Management Dynamic Volume Manager
+  - accelerator volume [11.3.15](understand-acfs-admin.md), [16.2.3](acfs-commands-linux.md)
+  - default configuration [15.1.1](manage-advm-asmcmd.md), [17.2](acfs-advanced-topics.md)
+  - limits [17.2](acfs-advanced-topics.md)
+  - Oracle ACFS [11.4](overview-advm.md)
+  - overview [11.2.5](understand-acfs-concepts.md), [11.4](overview-advm.md)
+- Oracle Cluster Registry (OCR)
+  - in disk groups [4.2.5](create-diskgroups.md)
+- Oracle Clusterware resource types
+  - Kernel Services Driver (OKS) [11.3.5](understand-acfs-admin.md)
+  - Oracle ACFS [11.3.5](understand-acfs-admin.md)
+  - Oracle ADVM [11.3.5](understand-acfs-admin.md)
+- Oracle Database file mapping
+  - with Oracle ACFS [12.2](views-acfs-advm-info.md)
+  - with Oracle ASM [5.3.4](asm-files-directories-templates.md)
+- Oracle Database homes
+  - Oracle ACFS, and [11.2.4](understand-acfs-concepts.md)
+- Oracle Enterprise Manager
+  - accessing the Oracle ASM home page [7.1](admin-asm-em.md), [13](administer-acfs-advm-em.md)
+  - adding disks to a disk group [7.4.2](admin-asm-em.md)
+  - and Oracle ACFS [13](administer-acfs-advm-em.md)
+  - and Oracle ASM [7](admin-asm-em.md)
+  - backing up Oracle ASM files [7.10](admin-asm-em.md)
+  - bad block recovery in Oracle ASM disks [7.11](admin-asm-em.md)
+  - checking Oracle ASM disk group integrity [7.9.2](admin-asm-em.md)
+  - creating disk groups [7.4.1](admin-asm-em.md)
+  - creating Oracle ACFS file systems [13.1.1](administer-acfs-advm-em.md)
+  - creating Oracle ACFS snapshots [13.2](administer-acfs-advm-em.md), [13.2.1](administer-acfs-advm-em.md)
+  - creating Oracle ACFS volumes [13.1.1](administer-acfs-advm-em.md)
+  - disk group compatibility [7.4.8.1](admin-asm-em.md)
+  - disk group file access control [7.4.8.4](admin-asm-em.md)
+  - disk group properties [7.4.8](admin-asm-em.md)
+  - disk group repair time [7.4.8.2](admin-asm-em.md)
+  - disk group smart scan compatibility [7.4.8.3](admin-asm-em.md)
+  - dismounting disk groups [7.4.7](admin-asm-em.md)
+  - dropping disk groups [7.4.5](admin-asm-em.md)
+  - dropping disks from disk groups [7.4.4](admin-asm-em.md)
+  - managing fast mirror resync [7.4.3](admin-asm-em.md)
+  - managing file access control for disk groups [7.5](admin-asm-em.md)
+  - managing Oracle ACFS encryption [13.4](administer-acfs-advm-em.md)
+  - managing Oracle ASM files [7.6](admin-asm-em.md)
+  - managing Oracle ASM Filter Driver [7.8](admin-asm-em.md)
+  - managing Oracle ASM templates [7.7](admin-asm-em.md)
+  - migrating to Oracle ASM [7.12](admin-asm-em.md)
+  - monitoring Oracle ASM disk group space usage [7.4.6](admin-asm-em.md)
+  - monitoring Oracle Flex ASM [7.14](admin-asm-em.md)
+  - mounting disk groups [7.4.7](admin-asm-em.md)
+  - Oracle ASM configuration page [7.2](admin-asm-em.md)
+  - Oracle ASM performance page [7.9.1](admin-asm-em.md)
+  - Oracle ASM users page [7.3](admin-asm-em.md)
+  - setting disk group compatibility [7.4.1](admin-asm-em.md)
+  - support workbench for Oracle ASM [7.13](admin-asm-em.md)
+  - viewing and modifying Oracle ACFS snapshots [13.2](administer-acfs-advm-em.md), [13.2.1](administer-acfs-advm-em.md)
+  - viewing and modifying Oracle ACFS volumes and file systems [13.1.2](administer-acfs-advm-em.md)
+- Oracle Flex ASM
+  - administering [20.3](manage-flex-asm.md)
+  - database clients [20.1](manage-flex-asm.md)
+  - direct Oracle ASM clients [20.1](manage-flex-asm.md)
+  - INSTANCE_TYPE initialization parameter [20.1](manage-flex-asm.md)
+  - local Oracle ASM clients [20.1](manage-flex-asm.md)
+  - managing [20](manage-flex-asm.md)
+  - multiple Oracle ASM instances [20.1](manage-flex-asm.md)
+  - Oracle ASM proxy instance [20.1](manage-flex-asm.md)
+  - overview [20.1](manage-flex-asm.md)
+  - relocating clients [20.3](manage-flex-asm.md)
+  - setting up [20.2](manage-flex-asm.md)
+- Oracle Grid Infrastructure for a standalone server
+  - with Oracle ASM [3.3.1](admin-asm-instance.md)
+- Oracle Grid Infrastructure for independent servers
+  - See: Oracle Grid Infrastructure for a standalone server
+
+  <!-- -->
+
+  - Oracle Restart [3.3.1](admin-asm-instance.md)
+- Oracle Home user on Windows
+  - lower privileged user [3.3.8](admin-asm-instance.md)
+- Oracle IOServer
+  - ASM_IO_PROCESSES initialization parameter [3.2.5.3](init-params-asm-instance.md)
+  - Oracle Flex ASM [20.1](manage-flex-asm.md)
+- Oracle Restart
+  - See: Oracle Grid Infrastructure for a standalone server
+
+  <!-- -->
+
+  - and Oracle ACFS [17.8](acfs-advanced-topics.md)
+- Oracle support for ACFS Defragger
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- orapwusr command
+  - ASMCMD utility [10.2.6](asmcmd-instance-commands.md)
+- OSASM group [3.5](authenticate-access-asm-instance.md), [3.5.1.2](authenticate-access-asm-instance.md), [3.5.2](authenticate-access-asm-instance.md), [3.5.3](authenticate-access-asm-instance.md), [3.5.4](authenticate-access-asm-instance.md)
+- OSDBA group [3.5.1.2](authenticate-access-asm-instance.md)
+- OSOPER group [3.5.1.2](authenticate-access-asm-instance.md)
+- overview
+  - See: Oracle Automatic Storage Management Cluster File System
+
+  <!-- -->
+
+  - ACFS
+    - See: Oracle Automatic Storage Management Cluster File System
+  - Oracle ACFS [1.2](asm-intro.md), [11.1](overview-acfs-advm.md)
+    - See: Oracle Automatic Storage Management Cluster File System
+  - Oracle ACFS and Oracle ADVM [11](intro-acfs-advm.md)
+  - Oracle ADVM [11.2.5](understand-acfs-concepts.md)
+  - Oracle ASM [1.1](asm-intro.md)
+- OVERWRITE command rule [16.9.13](acfs-commands-security.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- passwd command
+  - ASMCMD utility [10.10.10](asmcmd-accesscontrol-commands.md)
+- password file
+  - backing up and restoring in a disk group [3.5.5.3](authenticate-access-asm-instance.md)
+  - creating in a disk group [3.5.5.2](authenticate-access-asm-instance.md)
+- password file authentication
+  - for Oracle Automatic Storage Management [3.5.4](authenticate-access-asm-instance.md)
+  - Oracle ASM [3.5.4](authenticate-access-asm-instance.md)
+- PHYS_META_REPLICATED disk group attribute [4.1.2.16](manage-diskgroup-attributes.md)
+- plug-in API
+  - Oracle ACFS [17.10](acfs-advanced-topics.md)
+  - Oracle ACFS pre-defined metric type [17.10.1](acfs-advanced-topics.md)
+- plug-in APIs
+  - acfsfileid_lookup [17.10.2](acfs-advanced-topics.md)
+  - acfsplugin_metrics [17.10.2](acfs-advanced-topics.md)
+- plugins
+  - Oracle ACFS [11.3.14](understand-acfs-admin.md)
+  - Oracle ADVM [11.3.14](understand-acfs-admin.md)
+- point-in-time database clones
+  - and flex disk groups [4.11.6](asm-filegroups.md)
+- pre-defined metric type
+  - Oracle ACFS plug-in API [17.10.1](acfs-advanced-topics.md)
+- PREFERRED_READ.ENABLED disk group attribute [4.1.2.17](manage-diskgroup-attributes.md)
+- preferred read
+  - failure groups [4.6.4](mirroring-diskgroup-redundancy.md)
+- preferred read failure groups [3.2.5.5](init-params-asm-instance.md), [4.6.4](mirroring-diskgroup-redundancy.md)
+  - administering [4.6.4](mirroring-diskgroup-redundancy.md)
+- preparing security on file systems
+  - Oracle ACFS [16.1.5](steps-manage-acfs.md)
+- privileges
+  - ASMCMD utility [10.1.4.3](about-asmcmd.md)
+  - for one operating system group [3.5.1.1](authenticate-access-asm-instance.md)
+  - Oracle ASM [3.5.1](authenticate-access-asm-instance.md)
+  - separate operating system groups [3.5.1.2](authenticate-access-asm-instance.md)
+  - SYSASM [3.5.1.3](authenticate-access-asm-instance.md), [3.5.2](authenticate-access-asm-instance.md), [3.5.4](authenticate-access-asm-instance.md)
+  - SYSASM and Oracle Enterprise Manager [7.1](admin-asm-em.md), [7.3](admin-asm-em.md)
+  - SYSASM in Oracle Enterprise Manager [7.4.1](admin-asm-em.md), [7.4.2](admin-asm-em.md)
+  - SYSDBA with Oracle ASM [3.5.1.4](authenticate-access-asm-instance.md)
+- PROCESSES initialization parameter
+  - Oracle ASM instance [3.2.5.10](init-params-asm-instance.md)
+- pwcopy command
+  - ASMCMD utility [10.2.7](asmcmd-instance-commands.md)
+- pwcreate command
+  - ASMCMD utility [10.2.8](asmcmd-instance-commands.md)
+- pwd command
+  - ASMCMD utility [10.6.10](asmcmd-file-commands.md)
+- pwdelete command
+  - ASMCMD utility [10.2.9](asmcmd-instance-commands.md)
+- pwget command
+  - ASMCMD utility [10.2.10](asmcmd-instance-commands.md)
+- pwmove command
+  - ASMCMD utility [10.2.11](asmcmd-instance-commands.md)
+- pwset command
+  - ASMCMD utility [10.2.12](asmcmd-instance-commands.md)
+
+------------------------------------------------------------------------
+
+## Q
+
+- quorum failure group [4.2.5](create-diskgroups.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- READ command rule [16.9.13](acfs-commands-security.md)
+- READDIR command rule [16.9.13](acfs-commands-security.md)
+- read errors
+  - recovery [4.6.2](mirroring-diskgroup-redundancy.md)
+- realms
+  - system-created security [16.9.12](acfs-commands-security.md)
+- rebalance
+  - and CONTENT.CHECK disk group attribute [4.3.9](alter-diskgroups.md)
+  - and THIN_PROVISIONED disk group attribute [4.3.9](alter-diskgroups.md)
+- REBALANCE NOWAIT clause [4.3](alter-diskgroups.md)
+- REBALANCE WAIT clause [4.3](alter-diskgroups.md)
+- rebalancing
+  - BALANCE phase [4.3.8](alter-diskgroups.md)
+  - COMPACT phase [4.3.8](alter-diskgroups.md)
+  - disk groups [1.4.4](asm-intro.md), [4.3.8](alter-diskgroups.md)
+  - phases of operation [4.3.8](alter-diskgroups.md)
+  - PREPARE phase [4.3.8](alter-diskgroups.md)
+  - RESTORE phase [4.3.8](alter-diskgroups.md)
+  - RESYNC, RESILVER, and REBUILD operations [4.3.8](alter-diskgroups.md)
+- rebalancing disk groups
+  - tuning [4.3.9](alter-diskgroups.md)
+- rebalancing process
+  - ASM_POWER_LIMIT initialization parameter [3.2.5.4](init-params-asm-instance.md)
+- rebal command
+  - ASMCMD utility [10.7.15](asmcmd-diskgroup-commands.md)
+- recommendations for storage preparation
+  - for Oracle ASM [2.3](considerations-asm-storage.md)
+- recovery
+  - read errors [4.6.2](mirroring-diskgroup-redundancy.md)
+  - write errors [4.6.2](mirroring-diskgroup-redundancy.md)
+- redo logs
+  - creating in Oracle ASM [22.3](create-db-asm-sqlplus.md)
+- redundancy
+  - disk groups [4.6](mirroring-diskgroup-redundancy.md)
+- referencing files in the database
+  - Oracle ASM [5.3](asm-files-directories-templates.md)
+- registering
+  - Oracle ACFS file system [16.1.2](steps-manage-acfs.md)
+- registry resource
+  - Oracle ACFS [17.6](acfs-advanced-topics.md)
+- remap command
+  - ASMCMD utility [10.7.16](asmcmd-diskgroup-commands.md)
+- REMOTE_LOGIN_PASSWORDFILE initialization parameter
+  - Oracle ASM instance [3.2.5.11](init-params-asm-instance.md)
+- remote instances
+  - ASMCMD member cluster management commands [10.3](asmcmd-cluster-commands.md)
+- remote service
+  - Oracle ACFS [11.2.8](understand-acfs-concepts.md)
+- removing tag names
+  - Oracle ACFS [16.1.7](steps-manage-acfs.md)
+- RENAME command rule [16.9.13](acfs-commands-security.md)
+- renamedg tool
+  - renaming disk groups [4.10.5](maintain-diskgroups.md)
+  - updating resources [4.10.5](maintain-diskgroups.md)
+- renaming a directory
+  - Oracle ASM [5.5.2](asm-files-directories-templates.md)
+- renaming aliases
+  - Oracle ASM [5.4.2](asm-files-directories-templates.md)
+- renaming disk groups [4.10.5](maintain-diskgroups.md)
+  - renamedg and updating resources [4.10.5](maintain-diskgroups.md)
+- renaming disks in a disk group [4.3.4](alter-diskgroups.md)
+- replacing disks
+  - altering disk groups [4.3.3](alter-diskgroups.md)
+- replacing disks in a disk group [4.3.3](alter-diskgroups.md)
+- replicated environments
+  - disk group compatibility considerations [4.8.5](diskgroup-compatibility.md)
+- replicating file systems
+  - calculating storage requirements [16.1.8](steps-manage-acfs.md)
+  - Oracle ACFS [16.1.8](steps-manage-acfs.md)
+- replication
+  - initiating [16.7.5](acfs-commands-replication.md)
+  - Oracle ACFS [11.3.11](understand-acfs-admin.md)
+  - storage requirements for Oracle ACFS file systems [16.1.8](steps-manage-acfs.md)
+  - using with Oracle ACFS auditing, encryption, and security [11.3.13](understand-acfs-admin.md)
+- resizing disks in disk groups [4.3.6](alter-diskgroups.md)
+- restricting at startup [3.3.2.4](admin-asm-instance.md)
+- resync
+  - fast mirror [4.6.3](mirroring-diskgroup-redundancy.md), [7.4.3](admin-asm-em.md)
+- reverting compatibility settings
+  - disk groups [4.8.3.5](diskgroup-compatibility.md)
+- rmalias command
+  - ASMCMD utility [10.6.12](asmcmd-file-commands.md)
+- rmcc command
+  - ASMCMD utility [10.3.4](asmcmd-cluster-commands.md)
+- rm command
+  - ASMCMD utility [10.6.11](asmcmd-file-commands.md)
+- RMDIR command rule [16.9.13](acfs-commands-security.md)
+- rmfg command
+  - ASMCMD utility [10.8.9](asmcmd-filegroup-commands.md)
+- rmgrp command
+  - ASMCMD utility [10.10.11](asmcmd-accesscontrol-commands.md)
+- rmqg command
+  - ASMCMD utility [10.8.10](asmcmd-filegroup-commands.md)
+- rmtmpl command
+  - ASMCMD utility [10.9.4](asmcmd-template-commands.md)
+- rmusr command
+  - ASMCMD utility [10.10.12](asmcmd-accesscontrol-commands.md)
+- rolling patches
+  - Oracle ASM [3.4.2](upgrade-patch-asm.md)
+- rolling upgrades
+  - Oracle Automatic Storage Management [3.4.1](upgrade-patch-asm.md)
+- rpusr command
+  - ASMCMD utility [10.10.13](asmcmd-accesscontrol-commands.md)
+- running
+  - ASMCMD utility [10.1.3](about-asmcmd.md)
+  - ASMCMD utility in a database home [10.1.3](about-asmcmd.md)
+  - ASMCMD utility in an Oracle grid infrastructure [10.1.3](about-asmcmd.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- saving security information
+  - Oracle ACFS [16.1.5](steps-manage-acfs.md)
+- SCRUB_ASYNC_LIMIT disk group attribute [4.1.2.18](manage-diskgroup-attributes.md)
+- scrubbing disk groups [4.3.10](alter-diskgroups.md)
+- SECTOR_SIZE disk group attribute [4.1.2.19](manage-diskgroup-attributes.md)
+- sector size
+  - disk groups [4.2.4](create-diskgroups.md)
+  - validations for disk groups [4.2.4](create-diskgroups.md)
+- securing file systems
+  - Oracle ACFS [16.1.5](steps-manage-acfs.md)
+- security
+  - configuring with Oracle ASMCA [14.1.3](manage-acfs-advm-asmca.md)
+  - Oracle ACFS [11.3.7](understand-acfs-admin.md)
+  - Oracle ACFS and snapshots [11.2.9](understand-acfs-concepts.md)
+  - Oracle ACFS command-line tools [16.9](acfs-commands-security.md)
+  - system-created realms [16.9.12](acfs-commands-security.md)
+- setattr command
+  - ASMCMD utility [10.7.18](asmcmd-diskgroup-commands.md)
+- setsparseparent command
+  - ASMCMD utility [10.7.17](asmcmd-diskgroup-commands.md)
+- setting encryption parameters
+  - Oracle ACFS [16.1.6](steps-manage-acfs.md)
+- SHARED_POOL_SIZE initialization parameter
+  - Oracle ASM instance [3.2.5.12](init-params-asm-instance.md)
+- shared password file
+  - for Oracle ASM instance [3.5.5](authenticate-access-asm-instance.md), [3.5.5.1](authenticate-access-asm-instance.md)
+  - for Oracle Database instance [3.5.5.1](authenticate-access-asm-instance.md)
+  - in a disk group [3.5.5.1](authenticate-access-asm-instance.md)
+  - managing in a disk group [3.5.5](authenticate-access-asm-instance.md)
+- showclustermode command
+  - ASMCMD utility [10.2.13](asmcmd-instance-commands.md)
+- showclusterstate command
+  - ASMCMD utility [10.2.14](asmcmd-instance-commands.md)
+- showpatches command
+  - ASMCMD utility [10.2.15](asmcmd-instance-commands.md)
+- showversion command
+  - ASMCMD utility [10.2.16](asmcmd-instance-commands.md)
+- shutdown command
+  - ASMCMD utility [10.2.17](asmcmd-instance-commands.md)
+- shutting down an Oracle ASM instance
+  - about [3.3.3](admin-asm-instance.md)
+  - with OCR or voting files in a disk group [3.3.3](admin-asm-instance.md)
+  - with Oracle ACFS file system mounted [3.3.3](admin-asm-instance.md)
+- single file creation form
+  - Oracle ASM [5.2.1](asm-files-directories-templates.md)
+- snapshot-based replication
+  - Oracle ACFS [11.3.11](understand-acfs-admin.md)
+- snapshots
+  - .ACFS directory [11.2.9](understand-acfs-concepts.md), [16.11.2](acfs-commands-snapshots.md)
+  - converting format of an existing Oracle ACFS snapshot [11.2.9](understand-acfs-concepts.md)
+  - creating from existing Oracle ACFS snapshot [11.2.9](understand-acfs-concepts.md)
+  - creating Oracle ACFS read-only [16.11.2](acfs-commands-snapshots.md)
+  - creating Oracle ACFS read-write [16.11.2](acfs-commands-snapshots.md)
+  - duplicating [16.11.4](acfs-commands-snapshots.md), [16.11.5](acfs-commands-snapshots.md)
+  - limit on the number of [11.2.9](understand-acfs-concepts.md)
+  - Oracle ACFS [11.2.9](understand-acfs-concepts.md), [16.11.2](acfs-commands-snapshots.md)
+  - Oracle ACFS and encryption [11.2.9](understand-acfs-concepts.md)
+  - Oracle ACFS and security [11.2.9](understand-acfs-concepts.md)
+  - Oracle ACFS command-line tools [16.11](acfs-commands-snapshots.md)
+  - read-write in Oracle ACFS [11.2.9](understand-acfs-concepts.md)
+  - snap directory [11.2.9](understand-acfs-concepts.md)
+  - snaps directory [16.11.2](acfs-commands-snapshots.md)
+- Solaris
+  - Oracle ACFS command-line tools [16.3](acfs-commands-solaris.md)
+- space usage
+  - Oracle ACFS [17.1.1](acfs-advanced-topics.md)
+- spbackup command
+  - ASMCMD utility [10.2.18](asmcmd-instance-commands.md)
+  - backing up an Oracle ASM SPFILE [10.2.18](asmcmd-instance-commands.md)
+- spcopy command
+  - ASMCMD utility [10.2.19](asmcmd-instance-commands.md)
+  - copying an Oracle ASM SPFILE [10.2.19](asmcmd-instance-commands.md)
+- specifying tag names for file systems
+  - Oracle ACFS [16.1.7](steps-manage-acfs.md)
+- spget command
+  - ASMCMD utility [10.2.20](asmcmd-instance-commands.md)
+  - retrieving the location of an ASM SPFILE [10.2.20](asmcmd-instance-commands.md)
+- spmove command
+  - ASMCMD utility [10.2.21](asmcmd-instance-commands.md)
+  - moving an Oracle ASM SPFILE [10.2.21](asmcmd-instance-commands.md)
+- spset command
+  - ASMCMD utility [10.2.22](asmcmd-instance-commands.md)
+  - setting the location of an ASM SPFILE [10.2.22](asmcmd-instance-commands.md)
+- stamp command
+  - ASMCMD utility [10.7.19](asmcmd-diskgroup-commands.md)
+- stamplist command
+  - ASMCMD utility [10.7.20](asmcmd-diskgroup-commands.md)
+- standalone servers
+  - Grid Infrastructure for a standalone server [3.3.1](admin-asm-instance.md)
+- starting up an Oracle ASM instance
+  - about [3.3.2](admin-asm-instance.md)
+  - with incorrect SPFILE path [3.3.2.2](admin-asm-instance.md)
+- startup
+  - mounting disk groups [3.3.2.3](admin-asm-instance.md)
+  - restricting disk groups [3.3.2.4](admin-asm-instance.md)
+- startup command
+  - ASMCMD utility [10.2.23](asmcmd-instance-commands.md)
+- STORAGE.TYPE disk group attribute [4.1.2.20](manage-diskgroup-attributes.md)
+- storage considerations
+  - for Oracle ASM [2](considerations-asm-storage.md)
+- storage limits
+  - disk groups [4.7.3](performance-scability-diskgroup.md)
+  - Oracle ASM disks [4.7.3](performance-scability-diskgroup.md)
+  - Oracle Automatic Storage Management [4.7.3](performance-scability-diskgroup.md)
+- storage resources
+  - disk partitions and Oracle ASM [2.1](considerations-asm-storage.md)
+  - for Oracle ASM [2.1](considerations-asm-storage.md)
+  - logical volumes and Oracle ASM [2.1](considerations-asm-storage.md)
+  - LUNs and Oracle ASM [2.1](considerations-asm-storage.md)
+  - network file systems and Oracle ASM [2.1](considerations-asm-storage.md)
+  - preparation for Oracle ASM [2.1](considerations-asm-storage.md)
+  - restrictions for Oracle ACFS [2.1](considerations-asm-storage.md)
+- striping
+  - files [1.3.6.2](asm-intro.md)
+  - Oracle ASM [1.3.6.2](asm-intro.md)
+- supported file types
+  - Oracle ACFS [11.1](overview-acfs-advm.md)
+- support for 1023 snapshots
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for allocation units
+  - different sizes enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for altering sector size
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for an Oracle ADVM volume on a flex disk group
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for appliance mode for Oracle Data Appliance (ODA)
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for appliance mode for Oracle Exadata (no fixed partnering)
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for ASM_POWER_LIMIT initialization parameter
+  - values enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for ASM SPFILE in a disk group
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for content type of a disk group
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for converting normal or high redundancy disk groups to flex disk groups without restricted mount
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for converting snapshots
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for creating from existing snapshots
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for double parity redundancy in flex disk groups
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for encryption
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for Exadata storage
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for extents
+  - variable size [4.8.4](diskgroup-compatibility.md)
+- support for fast mirror resync
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for file access control
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for fixed partnering for Oracle Exadata
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for greater than 2 TB Oracle ASM disks
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for LOGICAL_SECTOR_SIZE
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for managing a shared password file in a disk group
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for metadata on Oracle ADVM accelerator volume
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for OCR in disk groups
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for Oracle ACFS automatic resize
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for Oracle ACFS compression
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for Oracle ACFS on Exadata (Linux) storage [11.3.4](understand-acfs-admin.md)
+- support for Oracle ACFS replication role reversal
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for Oracle ACFS snaphot-based replication
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for Oracle ACFS snapshot duplication
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for Oracle ACFS snapshot links
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for Oracle ACFS snapshot quotas
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for Oracle ACFS snapshot remastering
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for Oracle ACFS sparse files
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for Oracle ACFS support for 4 K sectors
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for Oracle ADVM accelerator volume
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for Oracle ASM flex and extended disk groups
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for Oracle ASM flex group multitenant cloning
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for Oracle Exadata sparse disk groups
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for performance and scalability improvements for ls and find
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for PREFERRED_READ.ENABLED
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for read-only snapshots
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for read-write snapshots
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for reducing the size of an Oracle ACFS file system
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for replication
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for replication status of a disk group
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for resync checkpoint
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for SCRUB_ASYNC_LIMIT
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for sector size
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for security
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for single parity redundancy in flex disk groups
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for space usage information by individual Oracle ACFS snapshots
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for storage conversion for member clusters
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for storing database files in Oracle ACFS file systems
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for storing data files and redo logs in Oracle ACFS file systems
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for tagging
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for unlimited file system expansion
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support for V\$ASM_ATTRIBUTE view
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for Virtual Allocation Metadata (VAM) on non-sparse normal and high redundancy disk groups
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- support for volumes
+  - enabled by compatibility attributes [11.3.4](understand-acfs-admin.md)
+- support workbench for Oracle ASM
+  - Oracle Enterprise Manager [7.13](admin-asm-em.md)
+- SYMLINK command rule [16.9.13](acfs-commands-security.md)
+- SYSASM privilege [3.5.1.3](authenticate-access-asm-instance.md), [3.5.2](authenticate-access-asm-instance.md), [3.5.4](authenticate-access-asm-instance.md)
+  - accessing the Oracle ASM home page in Oracle Enterprise Manager [7.1](admin-asm-em.md)
+  - Oracle Enterprise Manager [7.3](admin-asm-em.md), [7.4.1](admin-asm-em.md), [7.4.2](admin-asm-em.md)
+- SYSDBA privilege with Oracle ASM [3.5.1.4](authenticate-access-asm-instance.md)
+- system-created realms
+  - security [16.9.12](acfs-commands-security.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- tablespaces
+  - creating in Oracle ASM [22.2](create-db-asm-sqlplus.md)
+- tagging
+  - Extended Attributes requirements [11.3.12](understand-acfs-admin.md)
+  - Oracle ACFS [11.3.12](understand-acfs-admin.md)
+  - requirements for Oracle ACFS [11.3.12](understand-acfs-admin.md)
+- tagging API
+  - Oracle ACFS [17.11](acfs-advanced-topics.md)
+- tagging error values
+  - Oracle ACFS [17.11.2](acfs-advanced-topics.md)
+- tagging file systems
+  - Oracle ACFS [16.1.7](steps-manage-acfs.md)
+- tagging name specification
+  - Oracle ACFS [17.11.1](acfs-advanced-topics.md)
+- template management commands
+  - ASMCMD utility [10.9](asmcmd-template-commands.md)
+- templates
+  - adding to a disk group [5.8.2](asm-files-directories-templates.md)
+  - attributes [5.8.1](asm-files-directories-templates.md)
+  - dropping [5.8.4](asm-files-directories-templates.md)
+  - for specifying redundancy and striping [5.8.5](asm-files-directories-templates.md)
+  - managing Oracle ASM [5.8](asm-files-directories-templates.md)
+  - modifying an Oracle ASM [5.8.3](asm-files-directories-templates.md)
+  - Oracle ASM [1.3.6.3](asm-intro.md)
+  - user-defined for Oracle ASM [5.8.5](asm-files-directories-templates.md)
+- THIN_PROVISIONED disk group attribute [4.1.2.21](manage-diskgroup-attributes.md)
+- tracking the replication status
+  - for disk groups [4.1.2.16](manage-diskgroup-attributes.md)
+- TRUNCATE command rule [16.9.13](acfs-commands-security.md)
+- tuning rebalance operations [4.3.9](alter-diskgroups.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- umountall command
+  - AIX [16.4.4](acfs-commands-aix.md)
+  - Solaris [16.3.4](acfs-commands-solaris.md)
+- umount command
+  - AIX [16.4.4](acfs-commands-aix.md)
+  - ASMCMD utility [10.7.21](asmcmd-diskgroup-commands.md)
+  - Linux environments [16.2.5](acfs-commands-linux.md)
+  - Solaris [16.3.4](acfs-commands-solaris.md)
+- undropping disks in disk groups [4.3.7](alter-diskgroups.md)
+- unlimited file system expansion
+  - acfsutil size command [16.14.17](acfs-commands-utilities.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- V\$ASM_ACFS_ENCRYPTION_INFO view [12.1](views-acfs-advm-info.md)
+- V\$ASM_ACFS_SEC_ADMIN view [12.1](views-acfs-advm-info.md)
+- V\$ASM_ACFS_SEC_CMDRULE view [12.1](views-acfs-advm-info.md)
+- V\$ASM_ACFS_SEC_REALM_FILTER view [12.1](views-acfs-advm-info.md)
+- V\$ASM_ACFS_SEC_REALM_GROUP view [12.1](views-acfs-advm-info.md)
+- V\$ASM_ACFS_SEC_REALM_USER view [12.1](views-acfs-advm-info.md)
+- V\$ASM_ACFS_SEC_REALM view [12.1](views-acfs-advm-info.md)
+- V\$ASM_ACFS_SEC_RULESET_RULE view [12.1](views-acfs-advm-info.md)
+- V\$ASM_ACFS_SEC_RULESET view [12.1](views-acfs-advm-info.md)
+- V\$ASM_ACFS_SEC_RULE view [12.1](views-acfs-advm-info.md)
+- V\$ASM_ACFS_SECURITY_INFO view [12.1](views-acfs-advm-info.md)
+- V\$ASM_ACFSREPLTAG view [12.1](views-acfs-advm-info.md)
+- V\$ASM_ACFSREPL view [12.1](views-acfs-advm-info.md)
+- V\$ASM_ACFSSNAPSHOTS view [12.1](views-acfs-advm-info.md)
+- V\$ASM_ACFSTAG view [12.1](views-acfs-advm-info.md)
+- V\$ASM_ACFSVOLUMES view [12.1](views-acfs-advm-info.md)
+- V\$ASM_ALIAS view [6.1](views-asm-info.md)
+- V\$ASM_ATTRIBUTE view [4.8.3.4](diskgroup-compatibility.md), [6.1](views-asm-info.md)
+- V\$ASM_AUDIT_CLEANUP_JOBS view [6.1](views-asm-info.md)
+- V\$ASM_AUDIT_CONFIG_PARAMS view [6.1](views-asm-info.md)
+- V\$ASM_AUDIT_LAST_ARCH_TS view [6.1](views-asm-info.md)
+- V\$ASM_CLIENT view [6.1](views-asm-info.md)
+- V\$ASM_DBCLONE_INFO view [6.1](views-asm-info.md)
+- V\$ASM_DISK_IOSTAT view [6.1](views-asm-info.md)
+- V\$ASM_DISK_STAT view [6.1](views-asm-info.md)
+- V\$ASM_DISKGROUP_STAT view [6.1](views-asm-info.md)
+- V\$ASM_DISKGROUP view [4.8.3.4](diskgroup-compatibility.md), [6.1](views-asm-info.md)
+- V\$ASM_DISK view [6.1](views-asm-info.md)
+- V\$ASM_ESTIMATE view [6.1](views-asm-info.md)
+- V\$ASM_FILEGROUP_FILE view [6.1](views-asm-info.md)
+- V\$ASM_FILEGROUP_PROPERTY view [6.1](views-asm-info.md)
+- V\$ASM_FILEGROUP view [6.1](views-asm-info.md)
+- V\$ASM_FILESYSTEM view [12.1](views-acfs-advm-info.md)
+- V\$ASM_FILE view [6.1](views-asm-info.md)
+- V\$ASM_OPERATION view [6.1](views-asm-info.md)
+- V\$ASM_QUOTAGROUP view [6.1](views-asm-info.md)
+- V\$ASM_TEMPLATE view [6.1](views-asm-info.md)
+- V\$ASM_USERGROUP_MEMBER view [6.1](views-asm-info.md)
+- V\$ASM_USERGROUP view [6.1](views-asm-info.md)
+- V\$ASM_USER view [6.1](views-asm-info.md)
+- V\$ASM_VOLUME_STAT view [12.1](views-acfs-advm-info.md)
+- V\$ASM_VOLUME view [12.1](views-acfs-advm-info.md)
+- VAM_MIGRATION_DONE disk group attribute [4.1.2.22](manage-diskgroup-attributes.md)
+- variable size extents [1.3.5](asm-intro.md), [1.3.6.1](asm-intro.md), [4.5](capacity-diskgroups.md)
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+- views
+  - displaying Oracle ACFS information [12](views-acfs-advm-info.md)
+  - displaying Oracle ASM information [6](views-asm-info.md)
+- volcreate command
+  - ASMCMD utility [15.1.1](manage-advm-asmcmd.md)
+- voldelete command
+  - ASMCMD utility [15.1.2](manage-advm-asmcmd.md)
+- voldisable command
+  - ASMCMD utility [15.1.3](manage-advm-asmcmd.md)
+- volenable command
+  - ASMCMD utility [15.1.4](manage-advm-asmcmd.md)
+- volinfo command
+  - ASMCMD utility [15.1.5](manage-advm-asmcmd.md)
+- volresize command
+  - ASMCMD utility [15.1.6](manage-advm-asmcmd.md)
+- volset command
+  - ASMCMD utility [15.1.7](manage-advm-asmcmd.md)
+- volstat command
+  - ASMCMD utility [15.1.8](manage-advm-asmcmd.md)
+- volume management commands
+  - ASMCMD utility [15](manage-advm-asmcmd.md), [15.1](manage-advm-asmcmd.md)
+- voting files in disk groups [4.2.5](create-diskgroups.md)
+  - enabled by compatibility attributes [4.8.4](diskgroup-compatibility.md)
+
+------------------------------------------------------------------------
+
+## W
+
+- WAIT keyword
+  - in REBALANCE clause [4.3](alter-diskgroups.md)
+- wildcard characters
+  - using quotes in ASMCMD commands [10.1.5](about-asmcmd.md)
+- Windows
+  - Oracle ACFS command-line tools [16.5](acfs-commands-windows.md)
+- WRITE command rule [16.9.13](acfs-commands-security.md)
+- write errors
+  - recovery [4.6.2](mirroring-diskgroup-redundancy.md)
+
+------------------------------------------------------------------------
+
+## X
+
+- XML DB
+  - virtual folder for Oracle ASM [5.6](asm-files-directories-templates.md)
