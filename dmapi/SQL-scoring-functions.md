@@ -1,0 +1,35 @@
+Data Mining functions are single-row functions that use Oracle Data Mining to score data. The functions can apply a mining model schema object to the data, or they can dynamically mine the data by executing an analytic clause.
+
+- [CLUSTER_DETAILS](CLUSTER_DETAILS.md)
+
+- [CLUSTER_DISTANCE](CLUSTER_DISTANCE.md)
+
+- [CLUSTER_ID](CLUSTER_ID.md)
+
+- [CLUSTER_PROBABILITY](CLUSTER_PROBABILITY.md)
+
+- [CLUSTER_SET](CLUSTER_SET.md)
+
+- [FEATURE_COMPARE](FEATURE_COMPARE.md)
+
+- [FEATURE_DETAILS](FEATURE_DETAILS.md)
+
+- [FEATURE_ID](FEATURE_ID.md)
+
+- [FEATURE_SET](FEATURE_SET.md)
+
+- [FEATURE_VALUE](FEATURE_VALUE.md)
+
+- [ORA_DM_PARTITION_NAME](ORA_DM_PARTITION_NAME.md)
+
+- [PREDICTION](PREDICTION.md)
+
+- [PREDICTION_BOUNDS](PREDICTION_BOUNDS.md)
+
+- [PREDICTION_COST](PREDICTION_COST.md)
+
+- [PREDICTION_DETAILS](PREDICTION_DETAILS.md)
+
+- [PREDICTION_PROBABILITY](PREDICTION_PROBABILITY.md)
+
+- [PREDICTION_SET](PREDICTION_SET.md)
