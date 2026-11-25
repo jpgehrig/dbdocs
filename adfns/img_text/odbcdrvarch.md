@@ -1,0 +1,9 @@
+# Description of the illustration odbcdrvarch.gif
+
+This graphic shows mirror images of the Oracle ODBC Driver architecture as a series of boxes connected by arrows pointing in both directions between the boxes to show the flow of information as requests to the server and responses from the server. The left side shows the UNIX platform and the right side shows the Windows platform.
+
+An ODBC application represented as the top-most box sends a request using the ODBC API to the ODBC Driver Manager, represented as the next box. The ODBC Driver Manager is the unixODBC Driver Manager (libodbc.so) for UNIX and the Microsoft Driver Manager (ODBC32.DLL) for Windows. The ODBC Driver Manager in turn sends the request using the ODBC API to the ODBC Driver represented as the next box. The ODBC Driver is libsqora.so.11.1 for UNIX and SQORA32.DLL for Windows. The Oracle ODBC Driver translates ODBC SQL syntax into syntax that can be used to access the data source and sends the request to the OCI client represented as the next box. The OCI client in turn sends the request over the network transport, represented by a squiggly line to the database listener, represented as a box. The database listener passes the request on to the Database server, which is the data source and is represented by a series of cylinders lying atop one another.
+
+The SQL query received as the request is run on the Database server and the results are returned from the data source through the OCI client over the network transport back to the Oracle ODBC Driver, which translates the results back to ODBC SQL syntax. The ODBC Driver then passes the translated results using the ODBC API on to the ODBC Driver Manager, which in turn passes the results back to the ODBC application.
+
+Thus, the Oracle ODBC Driver enables ODBC applications read and write access to Oracle databases through the ODBC interface.
