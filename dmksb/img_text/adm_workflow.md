@@ -1,0 +1,1 @@
+This figure explains the workflow used in creating an application data model. ADM stores the metadata that are either imported or user-specified. The ADM also does a sensitive data discovery for the metadata that is collected.
