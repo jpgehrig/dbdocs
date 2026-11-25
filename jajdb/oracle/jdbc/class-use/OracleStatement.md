@@ -1,0 +1,72 @@
+Skip navigation links
+
+- [Overview](../../../overview-summary.md)
+- [Package](../package-summary.md)
+- [Class](../OracleStatement.md)
+- Use
+- [Tree](../package-tree.md)
+- [Deprecated](../../../deprecated-list.md)
+- [Index](../../../index-all.md)
+- [Help](../../../help-doc.md)
+
+Oracle JDBC Java API Reference
+19*c* Release
+E96460-08
+
+- Prev
+- Next
+
+<!-- -->
+
+- [Frames](../../../index.md)
+- No Frames
+
+<!-- -->
+
+- [All Classes](../../../allclasses-noframe.md)
+
+## Uses of Interface oracle.jdbc.OracleStatement
+
+- **Packages that use [OracleStatement](../OracleStatement.md)**
+
+  | Package     | Description                                                                                       |
+  |-------------|---------------------------------------------------------------------------------------------------|
+  | oracle.jdbc | Beginning in Oracle9*i*, the Oracle extensions to JDBC are captured in the package `oracle.jdbc`. |
+
+- - ### Uses of [OracleStatement](../OracleStatement.md) in [oracle.jdbc](../package-summary.md)
+
+    **Subinterfaces of [OracleStatement](../OracleStatement.md) in [oracle.jdbc](../package-summary.md)**
+
+    | Modifier and Type | Interface and Description                                                                                                                                                                                                           |
+    |-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | `interface `      | [`OracleCallableStatement`](../OracleCallableStatement.md)<br>This interface extends the `OraclePreparedStatement` (which extends the `OracleStatement` interface) and incorporates standard JDBC callable statement functionality. |
+    | `interface `      | [`OraclePreparedStatement`](../OraclePreparedStatement.md)<br>This interface defines the Oracle extensions to the standard JDBC interface `java.sql.PreparedStatement`.                                                             |
+
+Skip navigation links
+
+- [Overview](../../../overview-summary.md)
+- [Package](../package-summary.md)
+- [Class](../OracleStatement.md)
+- Use
+- [Tree](../package-tree.md)
+- [Deprecated](../../../deprecated-list.md)
+- [Index](../../../index-all.md)
+- [Help](../../../help-doc.md)
+
+Oracle JDBC Java API Reference
+19*c* Release
+E96460-08
+
+- Prev
+- Next
+
+<!-- -->
+
+- [Frames](../../../index.md)
+- No Frames
+
+<!-- -->
+
+- [All Classes](../../../allclasses-noframe.md)
+
+Copyright © 2008, 2022, Oracle and/or its affiliates.
