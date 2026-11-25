@@ -1,0 +1,3 @@
+# Description of the illustration inheritance_clauses.eps
+
+    { [ NOT ] { OVERRIDING | FINAL | INSTANTIABLE } }...

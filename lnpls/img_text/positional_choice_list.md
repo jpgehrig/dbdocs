@@ -1,0 +1,3 @@
+# Description of the illustration positional_choice_list
+
+    expr [,] +...

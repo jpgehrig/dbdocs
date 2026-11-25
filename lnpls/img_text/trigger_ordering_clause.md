@@ -1,0 +1,3 @@
+# Description of the illustration trigger_ordering_clause.eps
+
+    { FOLLOWS | PRECEDES } [ schmema.] trigger [ , [ schmema.] trigger ]...

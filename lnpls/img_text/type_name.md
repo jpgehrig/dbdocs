@@ -1,0 +1,3 @@
+# Description of the illustration type_name
+
+    identifier [.] +...
