@@ -1,0 +1,3 @@
+# Description of the illustration join_condition.eps
+
+    join_condition_elem [AND join_condition_elem]…

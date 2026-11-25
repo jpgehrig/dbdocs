@@ -1,0 +1,3 @@
+# Description of the illustration plsql_declarations.eps
+
+    { function_declaration | procedure_declaration }...

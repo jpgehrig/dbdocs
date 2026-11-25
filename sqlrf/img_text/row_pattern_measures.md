@@ -1,0 +1,3 @@
+# Description of the illustration row_pattern_measures.eps
+
+    MEASURES row_pattern_measure_column [, row_pattern_measure_column ]...

@@ -1,0 +1,3 @@
+# Description of the illustration revoke_roles_from_programs.eps
+
+    { role [, role ]... | ALL } FROM program_unit [, program_unit ]...

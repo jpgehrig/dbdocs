@@ -1,0 +1,5662 @@
+## Index
+
+Symbols  Numerics  A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Z  
+
+------------------------------------------------------------------------
+
+## Symbols
+
+- \+ (plus sign) in Oracle Automatic Storage Management filenames [8.4](file_specification.md)
+
+------------------------------------------------------------------------
+
+## Numerics
+
+- 20th century [2.4.2.4](Format-Models.md)
+- 21st century [2.4.2.4](Format-Models.md)
+- 3GL functions and procedures, calling [14.1](CREATE-LIBRARY.md)
+
+------------------------------------------------------------------------
+
+## A
+
+- ABORT LOGICAL STANDBY clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- ABS function [7.9](ABS.md)
+- ACCESSED GLOBALLY clause
+  - of CREATE CONTEXT [13.6](CREATE-CONTEXT.md)
+- ACCOUNT LOCK clause
+  - of ALTER USER. See CREATE USER [12.8](ALTER-USER.md)
+  - of CREATE USER [15.10](CREATE-USER.md)
+- ACCOUNT UNLOCK clause
+  - of ALTER USER. See CREATE USER [12.8](ALTER-USER.md)
+  - of CREATE USER [15.10](CREATE-USER.md)
+- ACOS function [7.10](ACOS.md)
+- ACTIVATE STANDBY DATABASE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- AD and A.D. datetime format elements [2.4.2.2](Format-Models.md)
+- ADD_MONTHS function [7.11](ADD_MONTHS.md)
+- ADD clause
+  - of ALTER DIMENSION [10.11](ALTER-DIMENSION.md)
+  - of ALTER INDEXTYPE [10.17](ALTER-INDEXTYPE.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of ALTER VIEW [12.9](ALTER-VIEW.md)
+- ADD DATAFILE clause
+  - of ALTER TABLESPACE [12.4](ALTER-TABLESPACE.md)
+- adding a constraint to a table [12.3](ALTER-TABLE.md)
+- ADD LOGFILE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- ADD LOGFILE GROUP clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- ADD LOGFILE INSTANCE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- ADD LOGFILE MEMBER clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- ADD LOGFILE THREAD clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- ADD MEASURES keywords [19.9](SELECT.md)
+- ADD OVERFLOW clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- ADD PARTITION clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- ADD PRIMARY KEY clause
+  - of ALTER MATERIALIZED VIEW LOG [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+- ADD ROWID clause
+  - of ALTER MATERIALIZED VIEW [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+- ADD SUPPLEMENTAL LOG DATA clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- ADD SUPPLEMENTAL LOG GROUP clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- ADD TEMPFILE clause
+  - of ALTER TABLESPACE [12.4](ALTER-TABLESPACE.md)
+- ADD VALUES clause
+  - of ALTER TABLE ... MODIFY PARTITION [12.3](ALTER-TABLE.md)
+- ADMINISTER ANY SQL TUNING SET system privilege [18.12](GRANT.md)
+- ADMINISTER KEY MANAGEMENT statement [10.3](ADMINISTER-KEY-MANAGEMENT.md)
+- ADMINISTER KEY MANAGEMENT system privilege [18.12](GRANT.md)
+- ADMINISTER SQL MANAGEMENT OBJECT system privilege [18.12](GRANT.md)
+- ADMINISTER SQL TUNING SET system privilege [18.12](GRANT.md)
+- ADMIN USER clause
+  - of CREATE PLUGGABLE DATABASE [14.11](CREATE-PLUGGABLE-DATABASE.md)
+- advanced index compression
+  - definition [13.17](CREATE-INDEX.md)
+  - disabling [13.17](CREATE-INDEX.md)
+  - enabling [10.16](ALTER-INDEX.md)
+  - of index rebuild [10.16](ALTER-INDEX.md)
+- Advanced Row Compression [15.4](CREATE-TABLE.md)
+- ADVISE clause
+  - of ALTER SESSION [11.16](ALTER-SESSION.md)
+- aggregate functions [7.3](Aggregate-Functions.md)
+- alias
+  - for a column [9.2](Creating-Simple-Queries.md)
+  - for an expressions in a view query [15.11](CREATE-VIEW.md)
+  - specifying in queries and subqueries [19.9](SELECT.md)
+- ALL_COL_COMMENTS data dictionary view [12.15](COMMENT.md)
+- ALL_INDEXTYPE_COMMENTS data dictionary view [12.15](COMMENT.md)
+- ALL_MVIEW_COMMENTS data dictionary view [12.15](COMMENT.md)
+- ALL_OPERATOR_COMMENTS data dictionary view [12.15](COMMENT.md)
+- ALL_ROWS hint [2.6.4.1](Comments.md)
+- ALL_TAB_COMMENTS data dictionary view [12.15](COMMENT.md)
+- ALL clause
+  - of SELECT [19.9](SELECT.md)
+  - of SET CONSTRAINTS [19.10](SET-CONSTRAINTS.md)
+  - of SET ROLE [19.11](SET-ROLE.md)
+- all-column wildcard [19.9](SELECT.md)
+- ALLOCATE EXTENT clause
+  - of ALTER CLUSTER [10.7](ALTER-CLUSTER.md)
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- ALL operator [6.2](Comparison-Conditions.md)
+- ALLOW CORRUPTION clause
+  - of ALTER DATABASE ... RECOVER [10.8](ALTER-DATABASE.md)
+- ALL PRIVILEGES clause
+  - of GRANT [18.12](GRANT.md)
+  - of REVOKE [19.6](REVOKE.md)
+- ALL PRIVILEGES shortcut
+  - of AUDIT [12.12](AUDIT-Traditional-Auditing.md)
+- ALL shortcut
+  - of AUDIT [12.12](AUDIT-Traditional-Auditing.md)
+- alter_external_table clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- ALTER ANALYTIC VIEW statement [10.4](ALTER-ANALYTIC-VIEW.md)
+- ALTER ANY SQL PROFILE system privilege [18.12](GRANT.md)
+- ALTER ATTRIBUTE DIMENSION statement [10.5](ALTER-ATTRIBUTE-DIMENSION.md)
+- ALTER AUDIT POLICY statement [10.6](ALTER-AUDIT-POLICY-Unified-Auditing.md)
+- ALTER CLUSTER statement [10.7](ALTER-CLUSTER.md)
+- ALTER DATABASE LINK system privilege [18.12](GRANT.md)
+- ALTER DATABASE statement [10.8](ALTER-DATABASE.md)
+- ALTER DIMENSION statement [10.11](ALTER-DIMENSION.md)
+- ALTER DISKGROUP statement [10.12](ALTER-DISKGROUP.md)
+- ALTER FLASHBACK ARCHIVE statement [10.13](ALTER-FLASHBACK-ARCHIVE.md)
+- ALTER FUNCTION statement [10.14](ALTER-FUNCTION.md)
+- ALTER HIERARCHY statement [10.15](ALTER-HIERARCHY.md)
+- ALTER INDEX statement [10.16](ALTER-INDEX.md)
+- ALTER INDEXTYPE statement [10.17](ALTER-INDEXTYPE.md)
+- altering storage
+  - of PDBs [11.9](ALTER-PLUGGABLE-DATABASE.md)
+- ALTER INMEMORY JOIN GROUP statement [10.18](ALTER-INMEMORY-JOIN-GROUP.md)
+- ALTER JAVA CLASS statement [10.19](ALTER-JAVA.md)
+- ALTER JAVA SOURCE statement [10.19](ALTER-JAVA.md)
+- ALTER LIBRARY statement [11.1](ALTER-LIBRARY.md)
+- ALTER LOCKDOWN PROFILE statement [11.2](ALTER-LOCKDOWN-PROFILE.md)
+- ALTER MATERIALIZED VIEW LOG statement [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+- ALTER MATERIALIZED VIEW statement [11.3](ALTER-MATERIALIZED-VIEW.md)
+- ALTER MATERIALIZED ZONEMAP statement [11.5](ALTER-MATERIALIZED-ZONEMAP.md)
+- ALTER object privilege
+  - on a SQL translation profile [18.12](GRANT.md)
+- ALTER OPERATOR statement [11.6](ALTER-OPERATOR.md)
+- ALTER OUTLINE statement [11.7](ALTER-OUTLINE.md)
+- ALTER PACKAGE statement [11.8](ALTER-PACKAGE.md)
+- ALTER PLUGGABLE DATABASE statement [11.9](ALTER-PLUGGABLE-DATABASE.md)
+- ALTER PROCEDURE statement [11.10](ALTER-PROCEDURE.md)
+- ALTER PROFILE statement [11.11](ALTER-PROFILE.md)
+- ALTER PUBLIC DATABASE LINK system privilege [18.12](GRANT.md)
+- ALTER RESOURCE COST statement [11.12](ALTER-RESOURCE-COST.md)
+- ALTER ROLE statement [11.13](ALTER-ROLE.md)
+- ALTER ROLLBACK SEGMENT statement [11.14](ALTER-ROLLBACK-SEGMENT.md)
+- ALTER SEQUENCE statement [11.15](ALTER-SEQUENCE.md)
+- ALTER SESSION statement [11.16](ALTER-SESSION.md)
+- ALTER SNAPSHOT
+  - See: ALTER MATERIALIZED VIEW
+- ALTER SNAPSHOT LOG
+  - See: ALTER MATERIALIZED VIEW LOG
+- ALTER SYSTEM statement [12.2](ALTER-SYSTEM.md)
+- ALTER TABLESPACE SET statement [12.5](ALTER-TABLESPACE-SET.md)
+- ALTER TABLESPACE statement [12.4](ALTER-TABLESPACE.md)
+- ALTER TABLE statement [12.3](ALTER-TABLE.md)
+- ALTER TRIGGER statement [12.6](ALTER-TRIGGER.md)
+- ALTER TYPE statement [12.7](ALTER-TYPE.md)
+- ALTER USER statement [12.8](ALTER-USER.md)
+- ALTER VIEW statement [12.9](ALTER-VIEW.md)
+- AM and A.M. datetime format elements [2.4.2.2](Format-Models.md)
+- American National Standards Institute (ANSI)
+  - data types [2.1.3](Data-Types.md)
+    - conversion to Oracle data types [2.1.3](Data-Types.md)
+  - standards [1.2](SQL-Standards.md), [C.1](ANSI-Standards.md)
+  - supported data types [2.1](Data-Types.md)
+- analytic functions [7.4](Analytic-Functions.md)
+- analytic views
+  - adding measures in a query of [19.9](SELECT.md)
+  - altering [10.4](ALTER-ANALYTIC-VIEW.md)
+  - creating [13.2](CREATE-ANALYTIC-VIEW.md)
+  - dropping [15.14](DROP-ANALYTIC-VIEW.md)
+  - filtering facts in a query of [19.9](SELECT.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - inline [19.9](SELECT.md)
+  - measure expressions [5.3](analytic-view-measure-expressions.md)
+  - retrieving data from [19.9](SELECT.md)
+  - transitory [19.9](SELECT.md)
+- ANALYZE CLUSTER statement [12.10](ANALYZE.md)
+- ANALYZE INDEX statement [12.10](ANALYZE.md)
+- ANALYZE TABLE statement [12.10](ANALYZE.md)
+- ANCILLARY TO clause
+  - of CREATE OPERATOR [14.6](CREATE-OPERATOR.md)
+- AND condition [6.4](Logical-Conditions.md)
+- AND DATAFILES clause
+  - of DROP TABLESPACE [18.2](DROP-TABLESPACE.md)
+- annotations_clause [8.10](annotations_clause.md)
+- ANSI
+  - See: American National Standards Institute (ANSI)
+- antijoins [9.6.8](Joins.md)
+- ANY_VALUE function [7.12](any_value.md)
+- ANY operator [6.2](Comparison-Conditions.md)
+- APPEND_VALUES hint [2.6.4.3](Comments.md)
+- APPEND hint [2.6.4.2](Comments.md)
+- applications
+  - allowing connection as user [12.8](ALTER-USER.md)
+  - securing [13.6](CREATE-CONTEXT.md)
+  - validating [13.6](CREATE-CONTEXT.md)
+- application servers
+  - allowing connection as user [12.8](ALTER-USER.md)
+- APPROX_COUNT_DISTINCT_AGG function [7.15](APPROX_COUNT_DISTINCT_AGG.md)
+- APPROX_COUNT_DISTINCT_DETAIL function [7.16](APPROX_COUNT_DISTINCT_DETAIL.md)
+- APPROX_COUNT_DISTINCT function [7.14](APPROX_COUNT_DISTINCT.md)
+- APPROX_MEDIAN function [7.17](APPROX_MEDIAN.md)
+- APPROX_PERCENTILE_AGG function [7.19](APPROX_PERCENTILE_AGG.md)
+- APPROX_PERCENTILE_DETAIL function [7.20](APPROX_PERCENTILE_DETAIL.md)
+- APPROX_PERCENTILE function [7.18](APPROX_PERCENTILE.md)
+- archived redo logs
+  - location [10.8](ALTER-DATABASE.md)
+- ARCHIVELOG clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+  - of CREATE CONTROLFILE [13.7](CREATE-CONTROLFILE.md)
+  - of CREATE DATABASE [13.8](CREATE-DATABASE.md)
+- ARCHIVE LOG clause
+  - of ALTER SYSTEM [12.2](ALTER-SYSTEM.md)
+- archive mode
+  - specifying [13.8](CREATE-DATABASE.md)
+- arguments
+  - of operators [4](Operators.md)
+- arithmetic
+  - with DATE values [2.1.1.4.7](Data-Types.md)
+- arithmetic operators [4.2](Arithmetic-Operators.md)
+- ASC clause
+  - of CREATE INDEX [13.17](CREATE-INDEX.md)
+- ASCII function [7.23](ASCII.md)
+- ASCIISTR function [7.24](ASCIISTR.md)
+- AS CLONE clause
+  - of CREATE PLUGGABLE DATABASE [14.11](CREATE-PLUGGABLE-DATABASE.md)
+- ASIN function [7.25](ASIN.md)
+- ASSOCIATE STATISTICS statement [12.11](ASSOCIATE-STATISTICS.md)
+- AS source_char clause
+  - of CREATE JAVA [13.20](CREATE-JAVA.md)
+- AS subquery clause
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+  - of CREATE VIEW [15.11](CREATE-VIEW.md)
+- asterisk
+  - all-column wildcard in queries [19.9](SELECT.md)
+- asynchronous commit [13.1](COMMIT.md)
+- ATAN2 function [7.27](ATAN2.md)
+- ATAN function [7.26](ATAN.md)
+- ATTRIBUTE clause
+  - of ALTER DIMENSION [10.11](ALTER-DIMENSION.md)
+  - of CREATE DIMENSION [13.10](CREATE-DIMENSION.md)
+- attribute clustering [15.4](CREATE-TABLE.md)
+- attribute dimensions
+  - altering [10.5](ALTER-ATTRIBUTE-DIMENSION.md)
+  - creating [13.3](CREATE-ATTRIBUTE-DIMENSION.md)
+  - dropping [15.15](DROP-ATTRIBUTE-DIMENSION.md)
+  - granting system privileges for [18.12](GRANT.md)
+- attributes
+  - adding to a dimension [10.11](ALTER-DIMENSION.md)
+  - dropping from a dimension [10.11](ALTER-DIMENSION.md)
+  - maximum number of in object type [15.4](CREATE-TABLE.md)
+  - of dimensions, defining [13.10](CREATE-DIMENSION.md)
+  - of disk groups [10.12](ALTER-DISKGROUP.md), [13.12](CREATE-DISKGROUP.md)
+- auditing
+  - options
+    - for SQL statements [12.12](AUDIT-Traditional-Auditing.md)
+  - policies
+    - value-based [12.12](AUDIT-Traditional-Auditing.md)
+  - SQL statements [12.12](AUDIT-Traditional-Auditing.md)
+    - by a proxy [12.12](AUDIT-Traditional-Auditing.md)
+    - by a user [12.12](AUDIT-Traditional-Auditing.md)
+    - on a directory [12.12](AUDIT-Traditional-Auditing.md)
+    - on a schema [12.12](AUDIT-Traditional-Auditing.md)
+    - stopping [19.2](NOAUDIT-Traditional-Auditing.md)
+  - system privileges [12.12](AUDIT-Traditional-Auditing.md)
+- audit policies
+  - comments on [12.15](COMMENT.md)
+  - creating [13.4](CREATE-AUDIT-POLICY-Unified-Auditing.md)
+  - dropping [15.16](DROP-AUDIT-POLICY-Unified-Auditing.md)
+  - modifying [10.6](ALTER-AUDIT-POLICY-Unified-Auditing.md)
+- AUDIT statement [12.12](AUDIT-Traditional-Auditing.md)
+  - for unified auditing [12.13](AUDIT-Unified-Auditing.md)
+  - locks [B.2.2](Automatic-Locks-in-DDL-Operations.md)
+- AUTHENTICATED BY clause
+  - of CREATE DATABASE LINK [13.9](CREATE-DATABASE-LINK.md)
+- AUTHENTICATED clause
+  - of ALTER USER [12.8](ALTER-USER.md)
+- AUTHENTICATION REQUIRED clause
+  - of ALTER USER [12.8](ALTER-USER.md)
+- AUTHID CURRENT_USER clause
+  - of ALTER JAVA [10.19](ALTER-JAVA.md)
+  - of CREATE JAVA [13.20](CREATE-JAVA.md)
+- AUTHID DEFINER clause
+  - of ALTER JAVA [10.19](ALTER-JAVA.md)
+  - of CREATE JAVA [13.20](CREATE-JAVA.md)
+- AUTOALLOCATE clause
+  - of CREATE TABLESPACE [15.5](CREATE-TABLESPACE.md)
+- AUTOEXTEND clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+  - of CREATE DATABASE [13.8](CREATE-DATABASE.md)
+- automatic segment-space management [15.5](CREATE-TABLESPACE.md)
+- automatic undo mode [11.14](ALTER-ROLLBACK-SEGMENT.md), [13.8](CREATE-DATABASE.md)
+- AVG function [7.28](AVG.md)
+
+------------------------------------------------------------------------
+
+## B
+
+- BACKUP CONTROLFILE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- backups [10.8](ALTER-DATABASE.md)
+- band joins [9.6.3](Joins.md)
+- basic table compression [15.4](CREATE-TABLE.md)
+- BC and B.C. datetime format elements [2.4.2.2](Format-Models.md)
+- BECOME USER system privilege [18.12](GRANT.md)
+- BEGIN BACKUP clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+  - of ALTER TABLESPACE [12.4](ALTER-TABLESPACE.md)
+- BEQUEATH clause
+  - of CREATE VIEW [15.11](CREATE-VIEW.md)
+- BETWEEN condition [6.12](BETWEEN-Condition.md)
+- BFILE
+  - data type [2.1.1.6.1](Data-Types.md)
+  - locators [2.1.1.6.1](Data-Types.md)
+- BFILENAME function [7.29](BFILENAME.md)
+- BIN_TO_NUM function [7.30](BIN_TO_NUM.md)
+- binary large objects
+  - See: BLOB
+- binary operators [4.1.1](About-SQL-Operators.md)
+- binary XML format [15.4](CREATE-TABLE.md)
+- binary XML storage [15.4](CREATE-TABLE.md)
+- bindings
+  - adding to an operator [11.6](ALTER-OPERATOR.md)
+  - dropping from an operator [11.6](ALTER-OPERATOR.md)
+- BITAND function [7.31](BITAND.md)
+- BITMAP clause
+  - of CREATE INDEX [13.17](CREATE-INDEX.md)
+- bitmap indexes [13.17](CREATE-INDEX.md)
+  - creating join indexes [13.17](CREATE-INDEX.md)
+- bit vectors
+  - converting to numbers [7.30](BIN_TO_NUM.md)
+- blank padding
+  - specifying in format models [2.4.3](Format-Models.md)
+  - suppressing [2.4.3](Format-Models.md)
+- BLOB data type [2.1.1.6.2](Data-Types.md)
+- BLOCKSIZE clause
+  - of CREATE TABLESPACE [15.5](CREATE-TABLESPACE.md)
+- bottom-N reporting [7.76](DENSE_RANK.md), [7.178](RANK.md), [7.194](ROW_NUMBER.md)
+- BUFFER_POOL parameter
+  - of STORAGE clause [8.9](storage_clause.md)
+- buffer cache
+  - flushing [12.2](ALTER-SYSTEM.md)
+- BUILD DEFERRED clause
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+- BUILD IMMEDIATE clause
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+- BY ACCESS clause
+  - of AUDIT [12.12](AUDIT-Traditional-Auditing.md)
+- BY SESSION clause
+  - of AUDIT [12.12](AUDIT-Traditional-Auditing.md)
+- BYTE character semantics [2.1.1.1.1](Data-Types.md), [2.1.1.1.5](Data-Types.md)
+- BYTE length semantics [12.3](ALTER-TABLE.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- CACHE clause
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of ALTER MATERIALIZED VIEW LOG [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+  - of ALTER TABLE [15.4](CREATE-TABLE.md)
+  - of CREATE CLUSTER [13.5](CREATE-CLUSTER.md)
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - of CREATE MATERIALIZED VIEW LOG [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+- cached cursors
+  - execution plan for [18.9](EXPLAIN-PLAN.md)
+- CACHE hint [2.6.4.4](Comments.md)
+- CACHE parameter
+  - of ALTER SEQUENCE. See CREATE SEQUENCE [11.15](ALTER-SEQUENCE.md)
+  - of CREATE SEQUENCE [15.1](CREATE-SEQUENCE.md)
+- CACHE READS clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- calculated measure expressions [5.3](analytic-view-measure-expressions.md), [5.3.1](analytic-view-measure-expressions.md)
+- calls
+  - limiting CPU time for [14.13](CREATE-PROFILE.md)
+  - limiting data blocks read [14.13](CREATE-PROFILE.md)
+- call spec
+  - See: call specifications
+- call specifications
+  - in procedures [14.12](CREATE-PROCEDURE.md)
+- CALL statement [12.14](CALL.md)
+- CARDINALITY function [7.37](CARDINALITY.md)
+- Cartesian products [9.6.5](Joins.md)
+- CASCADE clause
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+  - of DROP PROFILE [17.11](DROP-PROFILE.md)
+  - of DROP USER [18.7](DROP-USER.md)
+- CASCADE CONSTRAINTS clause
+  - of DROP CLUSTER [15.17](DROP-CLUSTER.md)
+  - of DROP TABLE [18.1](DROP-TABLE.md)
+  - of DROP TABLESPACE [18.2](DROP-TABLESPACE.md)
+  - of DROP VIEW [18.8](DROP-VIEW.md)
+  - of REVOKE [19.6](REVOKE.md)
+- CASE expressions [5.5](CASE-Expressions.md)
+  - searched [5.5](CASE-Expressions.md)
+  - simple [5.5](CASE-Expressions.md)
+- CAST function [7.38](CAST.md)
+- CATSEARCH condition [6.1](About-SQL-Conditions.md)
+- CATSEARCH operator [4.1](About-SQL-Operators.md)
+- CDBs
+  - creating [13.8](CREATE-DATABASE.md)
+  - modifying [10.8](ALTER-DATABASE.md)
+- CEIL function [7.39](CEIL.md)
+- chained rows
+  - listing [12.10](ANALYZE.md)
+  - of clusters [12.10](ANALYZE.md)
+- CHANGE_DUPKEY_ERROR_INDEX hint [2.6.4.5](Comments.md)
+- CHANGE CATEGORY clause
+  - of ALTER OUTLINE [11.7](ALTER-OUTLINE.md)
+- CHANGE NOTIFICATION system privilege [18.12](GRANT.md)
+- changing state
+  - of a PDB [11.9](ALTER-PLUGGABLE-DATABASE.md)
+  - of multiple PDBs [11.9](ALTER-PLUGGABLE-DATABASE.md)
+- character functions
+  - returning character values [7.2.2](Single-Row-Functions.md)
+  - returning number values [7.2.3](Single-Row-Functions.md)
+- character large objects
+  - See: CLOB
+- character length semantics [12.3](ALTER-TABLE.md)
+- character literal
+  - See: text
+- character set
+  - changing [10.8](ALTER-DATABASE.md)
+- character set functions [7.2.4](Single-Row-Functions.md)
+- CHARACTER SET parameter
+  - of CREATE CONTROLFILE [13.7](CREATE-CONTROLFILE.md)
+  - of CREATE DATABASE [13.8](CREATE-DATABASE.md)
+- character sets
+  - database, specifying [13.8](CREATE-DATABASE.md)
+  - multibyte characters [2.8.1](Database-Object-Names-and-Qualifiers.md)
+  - specifying for database [13.8](CREATE-DATABASE.md)
+- character strings
+  - comparison rules [2.2.4](Data-Type-Comparison-Rules.md)
+  - exact matching [2.4.3](Format-Models.md)
+  - fixed-length [2.1.1.1.1](Data-Types.md)
+  - national character set [2.1.1.1.2](Data-Types.md)
+  - variable-length [2.1.1.1.3](Data-Types.md), [2.1.1.3](Data-Types.md)
+- CHAR character semantics [2.1.1.1.1](Data-Types.md), [2.1.1.1.5](Data-Types.md)
+- CHAR data type [2.1.1.1.1](Data-Types.md)
+  - converting to VARCHAR2 [2.4.1](Format-Models.md)
+- CHAR length semantics [12.3](ALTER-TABLE.md)
+- CHARTOROWID function [7.40](CHARTOROWID.md)
+- CHECK clause
+  - of constraints [8.2](constraint.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- check constraints [8.2](constraint.md)
+- CHECK DATAFILES clause
+  - of ALTER SYSTEM [12.2](ALTER-SYSTEM.md)
+- CHECKPOINT clause
+  - of ALTER SYSTEM [12.2](ALTER-SYSTEM.md)
+- checkpoints
+  - forcing [12.2](ALTER-SYSTEM.md)
+- CHR function [7.41](CHR.md)
+- CHUNK clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- CLEAR LOGFILE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- CLOB data type [2.1.1.6.3](Data-Types.md)
+- clone databases
+  - mounting [10.8](ALTER-DATABASE.md)
+- CLOSE DATABASE LINK clause
+  - of ALTER SESSION [11.16](ALTER-SESSION.md)
+- CLUSTER_DETAILS function [7.42](CLUSTER_DETAILS.md)
+- CLUSTER_DISTANCE function [7.43](CLUSTER_DISTANCE.md)
+- CLUSTER_ID function [7.44](CLUSTER_ID.md)
+- CLUSTER_PROBABILITY function [7.45](CLUSTER_PROBABILITY.md)
+- CLUSTER_SET function [7.46](CLUSTER_SET.md)
+- CLUSTER clause
+  - of ANALYZE [12.10](ANALYZE.md)
+  - of CREATE INDEX [13.17](CREATE-INDEX.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+  - of TRUNCATE [19.13](TRUNCATE-CLUSTER.md)
+- CLUSTER hint [2.6.4.6](Comments.md)
+- CLUSTERING hint [2.6.4.7](Comments.md)
+- clusters
+  - assigning tables to [15.4](CREATE-TABLE.md)
+  - caching retrieved blocks [13.5](CREATE-CLUSTER.md)
+  - cluster indexes [13.17](CREATE-INDEX.md)
+  - collecting statistics on [12.10](ANALYZE.md)
+  - creating [13.5](CREATE-CLUSTER.md)
+  - deallocating unused extents [10.7](ALTER-CLUSTER.md)
+  - degree of parallelism
+    - changing [10.7](ALTER-CLUSTER.md)
+    - when creating [13.5](CREATE-CLUSTER.md)
+  - dropping tables [15.17](DROP-CLUSTER.md)
+  - extents, allocating [10.7](ALTER-CLUSTER.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - hash [13.5](CREATE-CLUSTER.md)
+    - single-table [13.5](CREATE-CLUSTER.md)
+    - sorted [13.5](CREATE-CLUSTER.md), [15.4](CREATE-TABLE.md)
+  - indexed [13.5](CREATE-CLUSTER.md)
+  - key values
+    - allocating space for [13.5](CREATE-CLUSTER.md)
+    - modifying space for [10.7](ALTER-CLUSTER.md)
+  - migrated and chained rows in [12.10](ANALYZE.md)
+  - modifying [10.7](ALTER-CLUSTER.md)
+  - physical attributes
+    - changing [10.7](ALTER-CLUSTER.md)
+    - specifying [13.5](CREATE-CLUSTER.md)
+  - releasing unused space [10.7](ALTER-CLUSTER.md)
+  - removing from the database [15.17](DROP-CLUSTER.md)
+  - SQL examples [15.17](DROP-CLUSTER.md)
+  - storage attributes
+    - changing [10.7](ALTER-CLUSTER.md)
+  - storage characteristics
+    - changing [10.7](ALTER-CLUSTER.md)
+  - tablespace in which created [13.5](CREATE-CLUSTER.md)
+  - validating structure [12.10](ANALYZE.md)
+- COALESCE clause
+  - for partitions [12.3](ALTER-TABLE.md)
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of ALTER TABLESPACE [12.4](ALTER-TABLESPACE.md)
+- COALESCE function [7.47](COALESCE.md)
+  - as a variety of CASE expression [7.47](COALESCE.md)
+- COALESCE SUBPARTITION clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- COLLATE operator [4.3](COLLATE-Operator.md)
+- COLLATION function [7.48](COLLATION.md)
+- collation functions [7.2.5](Single-Row-Functions.md)
+- COLLECT function [7.49](COLLECT.md)
+- collection functions [7.2.10](Single-Row-Functions.md)
+- collections
+  - inserting rows into [18.13](INSERT.md)
+  - modifying [12.3](ALTER-TABLE.md)
+  - modifying retrieval method [12.3](ALTER-TABLE.md)
+  - nested tables [2.1.4.4](Data-Types.md)
+  - testing for empty [6.6.2](Multiset-Conditions.md)
+  - treating as a table [18.13](INSERT.md), [19.9](SELECT.md), [19.15](UPDATE.md)
+  - unnesting [19.9](SELECT.md)
+    - examples [19.9](SELECT.md)
+  - varrays [2.1.4.3](Data-Types.md)
+- collection-typed values
+  - converting to data types [7.38](CAST.md)
+- collection types
+  - multilevel [15.4](CREATE-TABLE.md)
+- COLUMN_VALUE pseudocolumn [3.4](COLUMN_VALUE-Pseudocolumn.md)
+- column expressions [5.6](Column-Expressions.md)
+- column REF constraints [8.2](constraint.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- columns
+  - adding [12.3](ALTER-TABLE.md)
+  - aliases for [9.2](Creating-Simple-Queries.md)
+  - altering storage [12.3](ALTER-TABLE.md)
+  - associating statistics types with [12.11](ASSOCIATE-STATISTICS.md)
+  - basing an index on [13.17](CREATE-INDEX.md)
+  - comments on [12.15](COMMENT.md)
+  - creating comments about [12.15](COMMENT.md)
+  - defining [15.4](CREATE-TABLE.md)
+  - disassociating statistics types from [15.13](DISASSOCIATE-STATISTICS.md)
+  - dropping from a table [12.3](ALTER-TABLE.md)
+  - LOB
+    - storage attributes [12.3](ALTER-TABLE.md)
+  - maximum number of [15.4](CREATE-TABLE.md)
+  - modifying existing [12.3](ALTER-TABLE.md)
+  - parent-child relationships between [13.10](CREATE-DIMENSION.md)
+  - properties, altering [12.3](ALTER-TABLE.md)
+  - qualifying names of [9.2](Creating-Simple-Queries.md)
+  - REF
+    - describing [8.2](constraint.md)
+  - renaming [12.3](ALTER-TABLE.md)
+  - restricting values for [8.2](constraint.md)
+  - specifying
+    - as primary key [8.2](constraint.md)
+    - constraints on [15.4](CREATE-TABLE.md)
+    - default values [15.4](CREATE-TABLE.md)
+  - storage properties [15.4](CREATE-TABLE.md)
+  - substitutable, identifying type [7.228](SYS_TYPEID.md)
+  - virtual
+    - adding to a table [12.3](ALTER-TABLE.md)
+    - creating [15.4](CREATE-TABLE.md)
+    - modifying [12.3](ALTER-TABLE.md)
+- COLUMNS clause
+  - of ASSOCIATE STATISTICS [12.11](ASSOCIATE-STATISTICS.md)
+  - of DISASSOCIATE STATISTICS [15.13](DISASSOCIATE-STATISTICS.md)
+- column values
+  - unpivoting into rows [19.9](SELECT.md)
+- COMMENT clause
+  - of COMMIT [13.1](COMMIT.md)
+- comments [2.6](Comments.md)
+  - adding to objects [12.15](COMMENT.md)
+  - associating with a transaction [13.1](COMMIT.md)
+  - dropping from objects [12.15](COMMENT.md)
+  - in SQL statements [2.6.1](Comments.md)
+  - on editions [12.15](COMMENT.md)
+  - on indextypes [12.15](COMMENT.md)
+  - on mining models [12.15](COMMENT.md)
+  - on operators [12.15](COMMENT.md)
+  - on schema objects [2.6.2](Comments.md)
+  - on table columns [12.15](COMMENT.md)
+  - on tables [12.15](COMMENT.md)
+  - on unified audit policies [12.15](COMMENT.md)
+  - removing from the data dictionary [12.15](COMMENT.md)
+  - specifying [2.6.1](Comments.md)
+  - viewing [12.15](COMMENT.md)
+- COMMENT statement [12.15](COMMENT.md)
+- commit
+  - asynchronous [13.1](COMMIT.md)
+  - automatic [13.1](COMMIT.md)
+- COMMIT IN PROCEDURE clause
+  - of ALTER SESSION [11.16](ALTER-SESSION.md)
+- COMMIT statement [13.1](COMMIT.md)
+- COMMIT TO SWITCHOVER clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- Common SQL DDL Clauses
+  - annotations_clause [8.10](annotations_clause.md)
+- comparison conditions [6.2](Comparison-Conditions.md)
+- comparison functions [7.2.7](Single-Row-Functions.md)
+- comparison semantics
+  - of character strings [2.2.4](Data-Type-Comparison-Rules.md)
+- COMPILE clause
+  - of ALTER DIMENSION [10.11](ALTER-DIMENSION.md)
+  - of ALTER JAVA SOURCE [10.19](ALTER-JAVA.md)
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of ALTER VIEW [12.9](ALTER-VIEW.md)
+  - of CREATE JAVA [13.20](CREATE-JAVA.md)
+- COMPOSE function [7.50](COMPOSE.md)
+- COMPOSITE_LIMIT parameter
+  - of ALTER PROFILE [11.11](ALTER-PROFILE.md)
+  - of CREATE PROFILE [14.13](CREATE-PROFILE.md)
+- composite foreign keys [8.2](constraint.md)
+- composite partitioning
+  - range-list [12.3](ALTER-TABLE.md), [15.4](CREATE-TABLE.md)
+  - when creating a table [15.4](CREATE-TABLE.md)
+- composite primary keys [8.2](constraint.md)
+- composite range partitions [15.4](CREATE-TABLE.md)
+- compound conditions [6.11](Compound-Conditions.md)
+- compound expressions [5.4](Compound-Expressions.md)
+- COMPRESS clause
+  - of ALTER INDEX ... REBUILD [13.17](CREATE-INDEX.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- compression
+  - of index keys [10.16](ALTER-INDEX.md)
+  - of tables [15.4](CREATE-TABLE.md)
+  - of tablespaces [15.4](CREATE-TABLE.md)
+- CON_DBID_TO_ID function [7.51](CON_DBID_TO_ID.md)
+- CON_GUID_TO_ID function [7.52](CON_GUID_TO_ID.md)
+- CON_ID_TO_CON_NAME function [7.53](con_id_to_con_name.md)
+- CON_ID_TO_DBID function [7.54](con_id_to_dbid.md)
+- CON_NAME_TO_ID function [7.55](CON_NAME_TO_ID.md)
+- CON_UID_TO_ID function [7.56](CON_UID_TO_ID.md)
+- concatenation operator [4.4](Concatenation-Operator.md)
+- CONCAT function [7.57](CONCAT.md)
+- conditions
+  - BETWEEN [6.12](BETWEEN-Condition.md)
+  - comparison [6.2](Comparison-Conditions.md)
+  - compound [6.11](Compound-Conditions.md)
+  - EXISTS [6.9.1](XML-Conditions.md), [6.13](EXISTS-Condition.md)
+  - floating-point [6.3](Floating-Point-Conditions.md)
+  - group comparison [6.2.2](Comparison-Conditions.md)
+  - IN [6.14](IN-Condition.md)
+  - in SQL syntax [6](Conditions.md)
+  - interval [6.12](BETWEEN-Condition.md)
+  - IS \[NOT\] EMPTY [6.6.2](Multiset-Conditions.md)
+  - IS ANY [6.5.1](Model-Conditions.md)
+  - IS JSON [6.10.1](SQL-JSON-Conditions.md)
+  - IS OF type [6.15](IS-OF-type-Condition.md)
+  - IS PRESENT [6.5.2](Model-Conditions.md)
+  - JSON_EXISTS [6.10.3](SQL-JSON-Conditions.md)
+  - JSON_TEXTCONTAINS [6.10.4](SQL-JSON-Conditions.md)
+  - LIKE [6.7.1](Pattern-matching-Conditions.md)
+  - logical [6.4](Logical-Conditions.md)
+  - MEMBER [6.6.3](Multiset-Conditions.md)
+  - membership [6.6.3](Multiset-Conditions.md), [6.14](IN-Condition.md)
+  - model [6.5](Model-Conditions.md)
+  - multiset [6.6](Multiset-Conditions.md)
+  - null [6.8](Null-Conditions.md)
+  - pattern matching [6.7](Pattern-matching-Conditions.md)
+  - range [6.12](BETWEEN-Condition.md)
+  - REGEXP_LIKE [6.7.2](Pattern-matching-Conditions.md)
+  - SET [6.6.1](Multiset-Conditions.md)
+  - simple comparison [6.2.1](Comparison-Conditions.md)
+  - SQL For JSON [6.10](SQL-JSON-Conditions.md)
+  - SUBMULTISET [6.6.4](Multiset-Conditions.md)
+  - UNDER_PATH [6.9.2](XML-Conditions.md)
+  - XML [6.9](XML-Conditions.md)
+- CONNECT_BY_ISCYCLE pseudocolumn [3.1.1](Hierarchical-Query-Pseudocolumns.md)
+- CONNECT_BY_ISLEAF pseudocolumn [3.1.2](Hierarchical-Query-Pseudocolumns.md)
+- CONNECT_BY_ROOT operator [4.5.2](Hierarchical-Query-Operators.md)
+- CONNECT_TIME parameter
+  - of ALTER PROFILE [11.11](ALTER-PROFILE.md)
+  - of ALTER RESOURCE COST [11.12](ALTER-RESOURCE-COST.md)
+- CONNECT BY clause
+  - of queries and subqueries [19.9](SELECT.md)
+  - of SELECT [9.3](Hierarchical-Queries.md), [19.9](SELECT.md)
+- CONNECT clause
+  - of SELECT and subqueries [19.9](SELECT.md)
+- connection qualifier [2.9.3.1.1](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md)
+- CONNECT TO clause
+  - of CREATE DATABASE LINK [13.9](CREATE-DATABASE-LINK.md)
+- CONSIDER FRESH clause
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+- constant values
+  - See: literals
+- CONSTRAINT(S) session parameter [11.16.2](ALTER-SESSION.md)
+- constraints
+  - adding to a table [12.3](ALTER-TABLE.md)
+  - altering [12.3](ALTER-TABLE.md)
+  - check [8.2](constraint.md)
+  - checking
+    - at end of transaction [8.2](constraint.md)
+    - at start of transaction [8.2](constraint.md)
+    - at the end of each DML statement [8.2](constraint.md)
+  - column REF [8.2](constraint.md)
+  - deferrable [8.2](constraint.md), [19.10](SET-CONSTRAINTS.md)
+    - enforcing [11.16.2](ALTER-SESSION.md)
+  - defining [8.2](constraint.md), [15.4](CREATE-TABLE.md)
+    - for a table [15.4](CREATE-TABLE.md)
+    - on a column [15.4](CREATE-TABLE.md)
+  - disabling [15.4](CREATE-TABLE.md)
+    - after table creation [12.3](ALTER-TABLE.md)
+    - cascading [15.4](CREATE-TABLE.md)
+    - during table creation [15.4](CREATE-TABLE.md)
+  - dropping [12.3](ALTER-TABLE.md), [18.2](DROP-TABLESPACE.md)
+  - enabling [15.4](CREATE-TABLE.md)
+    - after table creation [12.3](ALTER-TABLE.md)
+    - during table creation [15.4](CREATE-TABLE.md)
+  - foreign key [8.2](constraint.md)
+  - modifying existing [12.3](ALTER-TABLE.md)
+  - on views
+    - dropping [12.9](ALTER-VIEW.md), [18.8](DROP-VIEW.md)
+  - partitioning referential [12.3](ALTER-TABLE.md), [15.4](CREATE-TABLE.md)
+  - primary key [8.2](constraint.md)
+    - attributes of index [8.2](constraint.md)
+    - enabling [15.4](CREATE-TABLE.md)
+  - referential integrity [8.2](constraint.md)
+  - renaming [12.3](ALTER-TABLE.md)
+  - restrictions [8.2](constraint.md)
+  - setting state for a transaction [19.10](SET-CONSTRAINTS.md)
+  - storing rows in violation [12.3](ALTER-TABLE.md)
+  - table REF [8.2](constraint.md)
+  - unique
+    - attributes of index [8.2](constraint.md)
+    - enabling [15.4](CREATE-TABLE.md)
+- CONTAINER hint [2.6.4.8](Comments.md)
+- CONTAINS condition [6.1](About-SQL-Conditions.md)
+- CONTAINS operator [4.1](About-SQL-Operators.md)
+- context namespaces
+  - accessible to instance [13.6](CREATE-CONTEXT.md)
+  - associating with package [13.6](CREATE-CONTEXT.md)
+  - initializing using OCI [13.6](CREATE-CONTEXT.md)
+  - initializing using the LDAP directory [13.6](CREATE-CONTEXT.md)
+  - removing from the database [16.1](DROP-CONTEXT.md)
+- contexts
+  - creating namespaces for [13.6](CREATE-CONTEXT.md)
+  - granting system privileges for [18.12](GRANT.md)
+- control file clauses
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- CONTROLFILE REUSE clause
+  - of CREATE DATABASE [13.8](CREATE-DATABASE.md)
+- control files
+  - allowing reuse [13.7](CREATE-CONTROLFILE.md), [13.8](CREATE-DATABASE.md)
+  - backing up [10.8](ALTER-DATABASE.md)
+  - force logging mode [13.7](CREATE-CONTROLFILE.md)
+  - re-creating [13.7](CREATE-CONTROLFILE.md)
+  - standby, creating [10.8](ALTER-DATABASE.md)
+- conversion
+  - functions [7.2.8](Single-Row-Functions.md)
+  - rules, string to date [2.4.4](Format-Models.md)
+- CONVERT function [7.58](CONVERT.md)
+- COPY clause
+  - of CREATE PLUGGABLE DATABASE [14.11](CREATE-PLUGGABLE-DATABASE.md)
+- CORR_K function [7.60.2](CORR_A.md)
+- CORR_S function [7.60.1](CORR_A.md)
+- correlated subqueries [9.7](Using-Subqueries.md)
+- correlation functions
+  - Kendall’s tau-b [7.60](CORR_A.md)
+  - Pearson’s [7.59](CORR.md)
+  - Spearman’s rho [7.60](CORR_A.md)
+- correlation names
+  - in DELETE [15.12](DELETE.md)
+  - in SELECT [19.9](SELECT.md)
+- CORR function [7.59](CORR.md)
+- COS function [7.61](COS.md)
+- COSH function [7.62](COSH.md)
+- COUNT function [7.63](COUNT.md)
+- COVAR_POP function [7.64](COVAR_POP.md)
+- COVAR_SAMP function [7.65](COVAR_SAMP.md)
+- CPU_PER_CALL parameter
+  - of ALTER PROFILE [11.11](ALTER-PROFILE.md)
+  - of CREATE PROFILE [14.13](CREATE-PROFILE.md)
+- CPU_PER_SESSION parameter
+  - of ALTER PROFILE [11.11](ALTER-PROFILE.md)
+  - of ALTER RESOURCE COST [11.12](ALTER-RESOURCE-COST.md)
+  - of CREATE PROFILE [14.13](CREATE-PROFILE.md)
+- CREATE ANALYTIC VIEW statement [13.2](CREATE-ANALYTIC-VIEW.md)
+- CREATE ANY SQL PROFILE system privilege [18.12](GRANT.md)
+- CREATE ATTRIBUTE DIMENSION statement [13.3](CREATE-ATTRIBUTE-DIMENSION.md)
+- CREATE AUDIT POLICY statement [13.4](CREATE-AUDIT-POLICY-Unified-Auditing.md)
+- CREATE CLUSTER statement [13.5](CREATE-CLUSTER.md)
+- CREATE CONTEXT statement [13.6](CREATE-CONTEXT.md)
+- CREATE CONTROLFILE statement [13.7](CREATE-CONTROLFILE.md)
+- CREATE DATABASE LINK statement [13.9](CREATE-DATABASE-LINK.md)
+- CREATE DATABASE statement [13.8](CREATE-DATABASE.md)
+- CREATE DATAFILE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- CREATE DIMENSION statement [13.10](CREATE-DIMENSION.md)
+- CREATE DIRECTORY statement [13.11](CREATE-DIRECTORY.md)
+- CREATE DISKGROUP statement [13.12](CREATE-DISKGROUP.md)
+- CREATE FLASHBACK ARCHIVE statement [13.14](CREATE-FLASHBACK-ARCHIVE.md)
+- CREATE FUNCTION statement [13.15](CREATE-FUNCTION.md)
+- CREATE HIERARCHY statement [13.16](CREATE-HIERARCHY.md)
+- CREATE INDEX statement [13.17](CREATE-INDEX.md)
+- CREATE INDEXTYPE statement [13.18](CREATE-INDEXTYPE.md)
+- CREATE INMEMORY JOIN GROUP statement [13.19](CREATE-INMEMORY-JOIN-GROUP.md)
+- CREATE JAVA statement [13.20](CREATE-JAVA.md)
+- CREATE LIBRARY statement [14.1](CREATE-LIBRARY.md)
+- CREATE LOCKDOWN PROFILE statement [14.2](CREATE-LOCKDOWN-PROFILE.md)
+- CREATE MATERIALIZED VIEW LOG statement [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+- CREATE MATERIALIZED VIEW statement [14.3](CREATE-MATERIALIZED-VIEW.md)
+- CREATE MATERIALIZED ZONEMAP statement [14.5](CREATE-MATERIALIZED-ZONEMAP.md)
+- CREATE OPERATOR statement [14.6](CREATE-OPERATOR.md)
+- CREATE OUTLINE statement [14.7](CREATE-OUTLINE.md)
+- CREATE PACKAGE BODY statement [14.9](CREATE-PACKAGE-BODY.md)
+- CREATE PACKAGE statement [14.8](CREATE-PACKAGE.md)
+  - locks [B.2.2](Automatic-Locks-in-DDL-Operations.md)
+- CREATE PFILE statement [14.10](CREATE-PFILE.md)
+- CREATE PLUGGABLE DATABASE statement [14.11](CREATE-PLUGGABLE-DATABASE.md)
+- CREATE PLUGGABLE DATABASE system privilege [18.12](GRANT.md)
+- CREATE PROCEDURE statement [14.12](CREATE-PROCEDURE.md)
+  - locks [B.2.2](Automatic-Locks-in-DDL-Operations.md)
+- CREATE PROFILE statement [14.13](CREATE-PROFILE.md)
+- CREATE RESTORE POINT statement [14.14](CREATE-RESTORE-POINT.md)
+- CREATE ROLE statement [14.15](CREATE-ROLE.md)
+- CREATE ROLLBACK SEGMENT statement [14.16](CREATE-ROLLBACK-SEGMENT.md)
+- CREATE SCHEMA statement [14.17](CREATE-SCHEMA.md)
+- CREATE SEQUENCE statement [15.1](CREATE-SEQUENCE.md)
+- CREATE SPFILE statement [15.2](CREATE-SPFILE.md)
+- CREATE STANDBY CONTROLFILE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- CREATE SYNONYM statement [15.3](CREATE-SYNONYM.md)
+- CREATE TABLESPACE SET statement [15.6](CREATE-TABLESPACE-SET.md)
+- CREATE TABLESPACE statement [15.5](CREATE-TABLESPACE.md)
+- CREATE TABLE statement [15.4](CREATE-TABLE.md)
+- CREATE TRIGGER statement [15.7](CREATE-TRIGGER.md)
+- CREATE TYPE BODY statement [15.9](CREATE-TYPE-BODY.md)
+- CREATE TYPE statement [15.8](CREATE-TYPE.md)
+- CREATE USER statement [15.10](CREATE-USER.md)
+- CREATE VIEW statement [15.11](CREATE-VIEW.md)
+- cross joins [19.9](SELECT.md)
+- CUBE_TABLE function [7.66](CUBE_TABLE.md)
+- CUBE clause
+  - of SELECT statements [19.9](SELECT.md)
+- cubes
+  - extracting data [7.66](CUBE_TABLE.md)
+- CUME_DIST function [7.67](CUME_DIST.md)
+- cumulative distributions [7.67](CUME_DIST.md)
+- currency
+  - group separators [2.4.1.1](Format-Models.md)
+- currency symbol
+  - ISO [2.4.1.1](Format-Models.md)
+  - local [2.4.1.1](Format-Models.md)
+  - union [2.4.1.1](Format-Models.md)
+- CURRENT_DATE function [7.68](CURRENT_DATE.md)
+- CURRENT_SCHEMA session parameter [11.16.2](ALTER-SESSION.md)
+- CURRENT_TIMESTAMP function [7.69](CURRENT_TIMESTAMP.md)
+- CURRENT_USER clause
+  - of CREATE DATABASE LINK [13.9](CREATE-DATABASE-LINK.md)
+- CURRVAL pseudocolumn [3.2](Sequence-Pseudocolumns.md), [15.1](CREATE-SEQUENCE.md)
+- CURSOR_SHARING_EXACT hint [2.6.4.9](Comments.md)
+- CURSOR expressions [5.7](CURSOR-Expressions.md)
+- cursors
+  - cached [18.9](EXPLAIN-PLAN.md)
+- CV function [7.70](CV.md)
+- CYCLE parameter
+  - of ALTER SEQUENCE. See CREATE SEQUENCE [11.15](ALTER-SEQUENCE.md)
+  - of CREATE SEQUENCE [15.1](CREATE-SEQUENCE.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- data
+  - aggregation
+    - composite columns of GROUP BY [19.9](SELECT.md)
+    - concatenated grouping sets of GROUP BY [19.9](SELECT.md)
+    - grouping sets [19.9](SELECT.md)
+  - analyzing a subset [7.159](ORA_HASH.md)
+  - caching frequently used [15.4](CREATE-TABLE.md)
+  - independence [15.3](CREATE-SYNONYM.md)
+  - integrity checking on input [2.1.1.2.1](Data-Types.md)
+  - locks on [B.1](Automatic-Locks-in-DML-Operations.md)
+  - pivoting [19.9](SELECT.md)
+  - retrieving [9.1](About-Queries-and-Subqueries.md)
+  - specifying as temporary [15.4](CREATE-TABLE.md)
+  - undo
+    - preserving [12.4](ALTER-TABLESPACE.md), [15.5](CREATE-TABLESPACE.md)
+  - unpivoting [19.9](SELECT.md)
+- database links [9.10](Distributed-Queries.md)
+  - altering [10.10](ALTER-DATABASE-LINK.md)
+  - closing [11.16](ALTER-SESSION.md)
+  - creating [2.9.3.1](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md), [13.9](CREATE-DATABASE-LINK.md)
+  - creating synonyms with [15.3](CREATE-SYNONYM.md)
+  - current user [13.9](CREATE-DATABASE-LINK.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - naming [2.9.3.1.1](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md)
+  - public [13.9](CREATE-DATABASE-LINK.md)
+    - dropping [16.3](DROP-DATABASE-LINK.md)
+  - referring to [2.9.3.2](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md)
+  - removing from the database [16.3](DROP-DATABASE-LINK.md)
+  - shared [13.9](CREATE-DATABASE-LINK.md)
+  - syntax [2.9.3.1.1](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md)
+  - updating passwords [10.10](ALTER-DATABASE-LINK.md)
+  - username and password [2.9.3.1.2](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md)
+- database objects
+  - dropping [18.7](DROP-USER.md)
+  - nonschema [2.7.2](Database-Objects.md)
+  - schema [2.7.1](Database-Objects.md)
+- databases
+  - accounts
+    - creating [15.10](CREATE-USER.md)
+  - allowing changes to [11.16](ALTER-SESSION.md)
+  - allowing generation of redo logs [10.8](ALTER-DATABASE.md)
+  - allowing reuse of control files [13.8](CREATE-DATABASE.md)
+  - allowing unlimited resources to users [14.13](CREATE-PROFILE.md)
+  - archive mode, specifying [13.8](CREATE-DATABASE.md)
+  - beginning backup of [10.8](ALTER-DATABASE.md)
+  - blocks
+    - specifying size [15.5](CREATE-TABLESPACE.md)
+  - cancel-based recovery
+    - terminating [10.8](ALTER-DATABASE.md)
+  - changing characteristics [13.7](CREATE-CONTROLFILE.md)
+  - changing global name [10.8](ALTER-DATABASE.md)
+  - changing name [13.7](CREATE-CONTROLFILE.md)
+  - character set, specifying [13.8](CREATE-DATABASE.md)
+  - committing to standby status [10.8](ALTER-DATABASE.md)
+  - connect strings [2.9.3.1.3](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md)
+  - controlling use [10.8](ALTER-DATABASE.md)
+  - create script for [10.8](ALTER-DATABASE.md)
+  - creating [13.8](CREATE-DATABASE.md)
+  - data files
+    - modifying [10.8](ALTER-DATABASE.md)
+    - specifying [13.8](CREATE-DATABASE.md)
+  - default edition, setting [10.8](ALTER-DATABASE.md)
+  - designing media recovery [10.8](ALTER-DATABASE.md)
+  - dropping [16.2](DROP-DATABASE.md)
+  - ending backup of [10.8](ALTER-DATABASE.md)
+  - erasing all data from [13.8](CREATE-DATABASE.md)
+  - flashing back [18.10](FLASHBACK-DATABASE.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - in FLASHBACK mode [10.8](ALTER-DATABASE.md)
+  - in FORCE LOGGING mode [10.8](ALTER-DATABASE.md), [13.7](CREATE-CONTROLFILE.md), [13.8](CREATE-DATABASE.md)
+  - instances of [13.8](CREATE-DATABASE.md)
+  - limiting resources for users [14.13](CREATE-PROFILE.md)
+  - log files
+    - modifying [10.8](ALTER-DATABASE.md)
+    - specifying [13.8](CREATE-DATABASE.md)
+  - managed recovery [10.8](ALTER-DATABASE.md)
+  - modifying [10.8](ALTER-DATABASE.md)
+  - mounting [10.8](ALTER-DATABASE.md), [13.8](CREATE-DATABASE.md)
+  - moving a subset to a different database [12.3](ALTER-TABLE.md)
+  - namespaces [2.8.1](Database-Object-Names-and-Qualifiers.md)
+  - naming [10.8](ALTER-DATABASE.md), [11.9](ALTER-PLUGGABLE-DATABASE.md)
+  - national character set, specifying [13.8](CREATE-DATABASE.md)
+  - no-data-loss mode [10.8](ALTER-DATABASE.md)
+  - online
+    - adding log files [10.8](ALTER-DATABASE.md)
+  - opening [10.8](ALTER-DATABASE.md), [13.8](CREATE-DATABASE.md)
+  - prepare to re-create [10.8](ALTER-DATABASE.md)
+  - preventing changes to [10.8](ALTER-DATABASE.md)
+  - protection mode of [10.8](ALTER-DATABASE.md)
+  - quiesced state [12.2](ALTER-SYSTEM.md)
+  - read/write [10.8](ALTER-DATABASE.md)
+  - read-only [10.8](ALTER-DATABASE.md)
+  - reconstructing damaged [10.8](ALTER-DATABASE.md)
+  - recovering [10.8](ALTER-DATABASE.md)
+  - recovery
+    - allowing corrupt blocks [10.8](ALTER-DATABASE.md)
+    - testing [10.8](ALTER-DATABASE.md)
+    - with backup control file [10.8](ALTER-DATABASE.md)
+  - re-creating control file for [13.7](CREATE-CONTROLFILE.md)
+  - remote
+    - accessing [9.10](Distributed-Queries.md)
+    - authenticating users to [13.9](CREATE-DATABASE-LINK.md)
+    - connecting to [13.9](CREATE-DATABASE-LINK.md)
+    - inserting into [18.13](INSERT.md)
+    - service name of [13.9](CREATE-DATABASE-LINK.md)
+    - table locks on [18.14](LOCK-TABLE.md)
+  - restoring earlier version of [10.8](ALTER-DATABASE.md), [12.4](ALTER-TABLESPACE.md), [15.5](CREATE-TABLESPACE.md)
+  - restricting users to read-only transactions [10.8](ALTER-DATABASE.md)
+  - resuming activity [12.2](ALTER-SYSTEM.md)
+  - returning to a past time [18.10](FLASHBACK-DATABASE.md)
+  - standby
+    - adding log files [10.8](ALTER-DATABASE.md)
+  - suspending activity [12.2](ALTER-SYSTEM.md)
+  - system user passwords [13.8](CREATE-DATABASE.md)
+  - temp files
+    - modifying [10.8](ALTER-DATABASE.md)
+  - time zone
+    - determining [7.73](DBTIMEZONE.md)
+    - setting, valid values for [10.8](ALTER-DATABASE.md), [13.8](CREATE-DATABASE.md)
+- Database Smart Flash Cache [8.9](storage_clause.md)
+- database triggers
+  - See: triggers
+- data cartridge functions [7.8](Data-Cartridge-Functions.md)
+- data conversion [2.2.8](Data-Type-Comparison-Rules.md)
+  - between character data types [2.2.8.2](Data-Type-Comparison-Rules.md)
+  - implicit
+    - disadvantages [2.2.8.1](Data-Type-Comparison-Rules.md)
+  - implicit versus explicit [2.2.8.1](Data-Type-Comparison-Rules.md)
+  - when performed implicitly [2.2.8.2](Data-Type-Comparison-Rules.md), [2.2.8.3](Data-Type-Comparison-Rules.md)
+  - when specified explicitly [2.2.8.4](Data-Type-Comparison-Rules.md)
+- data definition language
+  - locks [B.2](Automatic-Locks-in-DDL-Operations.md)
+- data definition language (DDL)
+  - statements [10.1.1](Types-of-SQL-Statements.md)
+    - and implicit commit [10.1.1](Types-of-SQL-Statements.md)
+    - causing recompilation [10.1.1](Types-of-SQL-Statements.md)
+    - PL/SQL support [10.1.1](Types-of-SQL-Statements.md)
+  - statements requiring exclusive access [10.1.1](Types-of-SQL-Statements.md)
+- data dictionary
+  - adding comments to [12.15](COMMENT.md)
+  - locks [B.2](Automatic-Locks-in-DDL-Operations.md)
+- DATAFILE clause
+  - of CREATE DATABASE [13.8](CREATE-DATABASE.md)
+- DATAFILE clauses
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- DATAFILE OFFLINE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- DATAFILE ONLINE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- DATAFILE RESIZE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- data files
+  - bringing online [10.8](ALTER-DATABASE.md)
+  - changing size of [10.8](ALTER-DATABASE.md)
+  - creating new [10.8](ALTER-DATABASE.md)
+  - defining for a tablespace [15.5](CREATE-TABLESPACE.md)
+  - defining for the database [13.8](CREATE-DATABASE.md)
+  - designing media recovery [10.8](ALTER-DATABASE.md)
+  - dropping [12.4](ALTER-TABLESPACE.md), [18.2](DROP-TABLESPACE.md)
+  - enabling autoextend [8.4](file_specification.md)
+  - end online backup of [10.8](ALTER-DATABASE.md), [12.4](ALTER-TABLESPACE.md)
+  - extending automatically [8.4](file_specification.md)
+  - online, updating information on [12.2](ALTER-SYSTEM.md)
+  - online backup of [12.4](ALTER-TABLESPACE.md)
+  - putting online [10.8](ALTER-DATABASE.md)
+  - recover damaged [10.8](ALTER-DATABASE.md)
+  - recovering [10.8](ALTER-DATABASE.md)
+  - re-creating lost or damaged [10.8](ALTER-DATABASE.md)
+  - renaming [10.8](ALTER-DATABASE.md)
+  - resizing [10.8](ALTER-DATABASE.md)
+  - reusing [8.4](file_specification.md)
+  - size of [8.4](file_specification.md)
+  - specifying [8.4](file_specification.md)
+    - for a tablespace [15.5](CREATE-TABLESPACE.md)
+    - for database [13.8](CREATE-DATABASE.md)
+  - system generated [10.8](ALTER-DATABASE.md)
+  - taking offline [10.8](ALTER-DATABASE.md)
+  - temporary
+    - shrinking [12.4](ALTER-TABLESPACE.md)
+- data manipulation language (DML)
+  - allowing during indexing [10.16](ALTER-INDEX.md)
+  - operations
+    - during index creation [13.17](CREATE-INDEX.md)
+    - during index rebuild [12.3](ALTER-TABLE.md)
+    - restricting [12.2](ALTER-SYSTEM.md)
+  - parallelizing [15.4](CREATE-TABLE.md)
+  - retrieving rows affected by [15.12](DELETE.md), [18.13](INSERT.md), [19.15](UPDATE.md)
+  - statements [10.1.2](Types-of-SQL-Statements.md)
+    - PL/SQL support [10.1.2](Types-of-SQL-Statements.md)
+- data mining functions [7.2.12](Single-Row-Functions.md)
+- DATAOBJ_TO_MAT_PARTITION function [7.71](DATAOBJ_TO_MAT_PARTITION.md)
+- DATAOBJ_TO_PARTITION function [7.72](DATAOBJ_TO_PARTITION.md)
+- data redaction
+  - granting system privileges for [18.12](GRANT.md)
+- data types [2.1](Data-Types.md)
+  - "Any" types [2.1.6](Data-Types.md)
+  - ANSI-supported [2.1](Data-Types.md)
+  - BFILE [2.1.1.6.1](Data-Types.md)
+  - BLOB [2.1.1.6.2](Data-Types.md)
+  - built-in [2.1.1](Data-Types.md)
+  - CHAR [2.1.1.1.1](Data-Types.md)
+  - character [2.1.1.1](Data-Types.md)
+  - CLOB [2.1.1.6.3](Data-Types.md)
+  - comparison rules [2.2](Data-Type-Comparison-Rules.md)
+  - converting to collection-typed values [7.38](CAST.md)
+  - converting to other data types [7.38](CAST.md)
+  - DATE [2.1.1.4.1](Data-Types.md)
+  - datetime [2.1.1.4](Data-Types.md)
+  - interval [2.1.1.4](Data-Types.md)
+  - INTERVAL DAY TO SECOND [2.1.1.4.6](Data-Types.md)
+  - INTERVAL YEAR TO MONTH [2.1.1.4.5](Data-Types.md)
+  - length semantics [2.1.1.1.1](Data-Types.md), [2.1.1.1.5](Data-Types.md)
+  - LONG [2.1.1.3](Data-Types.md)
+  - LONG RAW [2.1.1.5](Data-Types.md)
+  - NCHAR [2.1.1.1.2](Data-Types.md)
+  - NCLOB [2.1.1.6.4](Data-Types.md)
+  - NUMBER [2.1.1.2.1](Data-Types.md)
+  - numeric [2.1.1.2](Data-Types.md)
+  - NVARCHAR2 [2.1.1.1.5](Data-Types.md)
+  - Oracle-supplied types [2.1.5](Data-Types.md)
+  - RAW [2.1.1.5](Data-Types.md)
+  - ROWID [2.1.2](Data-Types.md)
+  - SDO_TOPO_GEOMETRY [2.1.8.2](Data-Types.md)
+  - spatial types [2.1.8](Data-Types.md)
+  - TIMESTAMP [2.1.1.4.2](Data-Types.md)
+  - TIMESTAMP WITH LOCAL TIME ZONE [2.1.1.4.4](Data-Types.md)
+  - TIMESTAMP WITH TIME ZONE [2.1.1.4.3](Data-Types.md)
+  - UROWID [2.1.2.2](Data-Types.md)
+  - user-defined [2.1.4](Data-Types.md)
+  - VARCHAR [2.1.1.1.4](Data-Types.md)
+  - VARCHAR2 [2.1.1.1.3](Data-Types.md)
+  - XML types [2.1.7](Data-Types.md)
+- DATE columns
+  - converting to datetime columns [12.3](ALTER-TABLE.md)
+- DATE data type [2.1.1.4.1](Data-Types.md)
+  - julian [2.1.1.4.1.1](Data-Types.md)
+- date format models [2.4.2](Format-Models.md), [2.4.2.1.2](Format-Models.md)
+  - long [2.4.2.1.2](Format-Models.md)
+  - punctuation in [2.4.2.1.2](Format-Models.md)
+  - short [2.4.2.1.2](Format-Models.md)
+  - text in [2.4.2.1.2](Format-Models.md)
+- date functions [7.2.6](Single-Row-Functions.md)
+- dates
+  - arithmetic [2.1.1.4.7](Data-Types.md)
+  - comparison rules [2.2.2](Data-Type-Comparison-Rules.md)
+- datetime arithmetic [2.1.1.4.7](Data-Types.md)
+  - boundary cases [11.16.2](ALTER-SESSION.md)
+  - calculating daylight saving time [2.1.1.4.8](Data-Types.md)
+- datetime columns
+  - creating from DATE columns [12.3](ALTER-TABLE.md)
+- datetime data types [2.1.1.4](Data-Types.md)
+  - daylight saving time [2.1.1.4.8](Data-Types.md)
+- datetime expressions [5.8](Datetime-Expressions.md)
+- datetime field
+  - extracting from a datetime or interval value [7.83](EXTRACT-datetime.md)
+- datetime format elements [2.4.2.1](Format-Models.md)
+  - and Globalization Support [2.4.2.2](Format-Models.md)
+  - capitalization [2.4.2.1.1](Format-Models.md)
+  - ISO standard [2.4.2.3](Format-Models.md)
+  - RR [2.4.2.4](Format-Models.md)
+  - suffixes [2.4.2.5](Format-Models.md)
+- datetime functions [7.2.6](Single-Row-Functions.md)
+- datetime literals [2.3.3](Literals.md)
+- DAY datetime format element [2.4.2.2](Format-Models.md)
+- daylight saving time [2.1.1.4.8](Data-Types.md)
+  - boundary cases [2.1.1.4.8](Data-Types.md)
+  - going into or coming out of effect [2.1.1.4.8](Data-Types.md)
+- DB2 data types [2.1.3](Data-Types.md)
+  - restrictions on [2.1.3](Data-Types.md)
+- DBA_2PC_PENDING data dictionary view [11.16](ALTER-SESSION.md)
+- DBA_COL_COMMENTS data dictionary view [12.15](COMMENT.md)
+- DBA_INDEXTYPE_COMMENTS data dictionary view [12.15](COMMENT.md)
+- DBA_MVIEW_COMMENTS data dictionary view [12.15](COMMENT.md)
+- DBA_OPERATOR_COMMENTS data dictionary view [12.15](COMMENT.md)
+- DBA_ROLLBACK_SEGS data dictionary view [17.14](DROP-ROLLBACK-SEGMENT.md)
+- DBA_TAB_COMMENTS data dictionary view [12.15](COMMENT.md)
+- DBMS_ROWID package
+  - and extended rowids [2.1.2.1](Data-Types.md)
+- DBTIMEZONE function [7.73](DBTIMEZONE.md)
+- DDL
+  - See: data definition language (DDL)
+- DEALLOCATE UNUSED clause
+  - of ALTER CLUSTER [10.7](ALTER-CLUSTER.md)
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- debugging
+  - granting system privileges for [18.12](GRANT.md)
+- decimal characters
+  - specifying [2.4.1.1](Format-Models.md)
+- DECODE function [7.74](DECODE.md)
+- decoding functions [7.2.15](Single-Row-Functions.md)
+- DECOMPOSE function [7.75](DECOMPOSE.md)
+- DEFAULT clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- DEFAULT COST clause
+  - of ASSOCIATE STATISTICS [12.11](ASSOCIATE-STATISTICS.md)
+- default index, suppressing [14.3](CREATE-MATERIALIZED-VIEW.md)
+- DEFAULT profile
+  - assigning to users [17.11](DROP-PROFILE.md)
+- DEFAULT ROLE clause
+  - of ALTER USER [12.8](ALTER-USER.md)
+- DEFAULT SELECTIVITY clause
+  - of ASSOCIATE STATISTICS [12.11](ASSOCIATE-STATISTICS.md)
+- default tablespace [13.8](CREATE-DATABASE.md)
+- DEFAULT TABLESPACE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+  - of ALTER PLUGGABLE DATABASE [11.9](ALTER-PLUGGABLE-DATABASE.md)
+  - of ALTER USER [12.8](ALTER-USER.md)
+  - of ALTER USER. See CREATE USER [12.8](ALTER-USER.md)
+  - of CREATE USER [15.10](CREATE-USER.md)
+- default tablespaces
+  - specifying for a user [12.8](ALTER-USER.md)
+- DEFAULT TEMPORARY TABLESPACE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+  - of ALTER PLUGGABLE DATABASE [11.9](ALTER-PLUGGABLE-DATABASE.md)
+  - of CREATE DATABASE [13.8](CREATE-DATABASE.md)
+- DEFERRABLE clause
+  - of constraints [8.2](constraint.md)
+- deferrable constraints [19.10](SET-CONSTRAINTS.md)
+- DEFERRED clause
+  - of SET CONSTRAINTS [19.10](SET-CONSTRAINTS.md)
+- definer’s rights views [15.11](CREATE-VIEW.md)
+- DELETE statement [15.12](DELETE.md)
+  - error logging [15.12](DELETE.md)
+- DELETE STATISTICS clause
+  - of ANALYZE [12.10](ANALYZE.md)
+- DENSE_RANK function [7.76](DENSE_RANK.md)
+- DEPTH function [7.77](DEPTH.md)
+- DEREF function [7.78](DEREF.md)
+- DESC clause
+  - of CREATE INDEX [13.17](CREATE-INDEX.md)
+- dictionaries
+  - granting system privileges for [18.12](GRANT.md)
+- dimensional objects
+  - extracting data [7.66](CUBE_TABLE.md)
+- dimensions
+  - attributes
+    - adding [10.11](ALTER-DIMENSION.md)
+    - changing [10.11](ALTER-DIMENSION.md)
+    - defining [13.10](CREATE-DIMENSION.md)
+    - dropping [10.11](ALTER-DIMENSION.md)
+  - compiling invalidated [10.11](ALTER-DIMENSION.md)
+  - creating [13.10](CREATE-DIMENSION.md)
+  - defining levels [13.10](CREATE-DIMENSION.md)
+  - examples [13.10](CREATE-DIMENSION.md)
+  - extracting data [7.66](CUBE_TABLE.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - hierarchies
+    - adding [10.11](ALTER-DIMENSION.md)
+    - changing [10.11](ALTER-DIMENSION.md)
+    - defining [13.10](CREATE-DIMENSION.md)
+    - dropping [10.11](ALTER-DIMENSION.md)
+  - levels
+    - adding [10.11](ALTER-DIMENSION.md)
+    - defining [13.10](CREATE-DIMENSION.md)
+    - dropping [10.11](ALTER-DIMENSION.md)
+    - parent-child hierarchy [13.10](CREATE-DIMENSION.md)
+  - removing from the database [16.4](DROP-DIMENSION.md)
+- directories
+  - See: directory objects
+- directory objects
+  - as aliases for operating system directories [13.11](CREATE-DIRECTORY.md)
+  - auditing [12.12](AUDIT-Traditional-Auditing.md)
+  - creating [13.11](CREATE-DIRECTORY.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - redefining [13.11](CREATE-DIRECTORY.md)
+  - removing from the database [16.5](DROP-DIRECTORY.md)
+- direct-path INSERT [2.6.4.2](Comments.md), [2.6.4.3](Comments.md), [18.13](INSERT.md)
+- DISABLE_PARALLEL_DML hint [2.6.4.10](Comments.md)
+- DISABLE ALL TRIGGERS clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- DISABLE clause
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- DISABLE DISTRIBUTED RECOVERY clause
+  - of ALTER SYSTEM [12.2](ALTER-SYSTEM.md)
+- DISABLE PARALLEL DML clause
+  - of ALTER SESSION [11.16](ALTER-SESSION.md)
+- DISABLE QUERY REWRITE clause
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+- DISABLE RESTRICTED SESSION clause
+  - of ALTER SYSTEM [12.2](ALTER-SYSTEM.md)
+- DISABLE RESUMABLE clause
+  - of ALTER SESSION [11.16](ALTER-SESSION.md)
+- DISABLE ROW MOVEMENT clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- DISABLE STORAGE IN ROW clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- DISABLE TABLE LOCK clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- DISASSOCIATE STATISTICS statement [15.13](DISASSOCIATE-STATISTICS.md)
+- DISCONNECT SESSION clause
+  - of ALTER SYSTEM [12.2](ALTER-SYSTEM.md)
+- disk group files
+  - changing permission settings [10.12](ALTER-DISKGROUP.md)
+  - Intelligent Data Placement [10.12](ALTER-DISKGROUP.md)
+  - setting owner or user group [10.12](ALTER-DISKGROUP.md)
+- disk groups
+  - altering [10.12](ALTER-DISKGROUP.md)
+  - creating [13.12](CREATE-DISKGROUP.md)
+    - a tablespace in [15.5](CREATE-TABLESPACE.md)
+    - failure groups [10.12](ALTER-DISKGROUP.md), [13.12](CREATE-DISKGROUP.md)
+    - files in [8.4](file_specification.md)
+  - dropping [16.6](DROP-DISKGROUP.md)
+  - managing Oracle ADVM volumes [10.12](ALTER-DISKGROUP.md)
+  - rebalancing [10.12](ALTER-DISKGROUP.md)
+  - setting attributes [10.12](ALTER-DISKGROUP.md), [13.12](CREATE-DISKGROUP.md)
+  - specifying files in [8.4](file_specification.md)
+  - specifying files in control files [13.7](CREATE-CONTROLFILE.md)
+- disks
+  - bringing online [10.12](ALTER-DISKGROUP.md)
+  - QUORUM [13.12](CREATE-DISKGROUP.md)
+  - regions [10.12](ALTER-DISKGROUP.md)
+  - REGULAR [13.12](CREATE-DISKGROUP.md)
+  - replacing [10.12](ALTER-DISKGROUP.md)
+  - taking offline [10.12](ALTER-DISKGROUP.md)
+- dispatcher processes
+  - creating additional [12.2](ALTER-SYSTEM.md)
+  - terminating [12.2](ALTER-SYSTEM.md)
+- DISTINCT clause
+  - of SELECT [19.9](SELECT.md)
+- distinct queries [19.9](SELECT.md)
+- distributed queries [9.10](Distributed-Queries.md)
+  - restrictions on [9.10](Distributed-Queries.md)
+- distribution
+  - hints for [2.6.4.82](Comments.md)
+- DML
+  - See: data manipulation language (DML)
+- domain_index_clause
+  - of CREATE INDEX [13.17](CREATE-INDEX.md)
+- domain indexes [13.17](CREATE-INDEX.md), [13.18](CREATE-INDEXTYPE.md)
+  - and LONG columns [12.3](ALTER-TABLE.md)
+  - associating statistics types with [12.11](ASSOCIATE-STATISTICS.md)
+  - creating, prerequisites [13.17](CREATE-INDEX.md)
+  - determining user-defined CPU and I/O costs [18.9](EXPLAIN-PLAN.md)
+  - disassociating statistics types from [15.13](DISASSOCIATE-STATISTICS.md), [16.11](DROP-INDEX.md)
+  - example [F.1](Using-Extensible-Indexing.md)
+  - invoking drop routines for [18.1](DROP-TABLE.md)
+  - local partitioned [13.17](CREATE-INDEX.md)
+  - modifying [10.16](ALTER-INDEX.md)
+  - parallelizing creation of [13.17](CREATE-INDEX.md)
+  - rebuilding [10.16](ALTER-INDEX.md)
+  - removing from the database [16.11](DROP-INDEX.md)
+  - system managed [13.18](CREATE-INDEXTYPE.md)
+- DOWNGRADE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- DROP ANALYTIC VIEW statement [15.14](DROP-ANALYTIC-VIEW.md)
+- DROP ANY SQL PROFILE system privilege [18.12](GRANT.md)
+- DROP ATTRIBUTE DIMENSION statement [15.15](DROP-ATTRIBUTE-DIMENSION.md)
+- DROP AUDIT POLICY statement [15.16](DROP-AUDIT-POLICY-Unified-Auditing.md)
+- DROP clause
+  - of ALTER DIMENSION [10.11](ALTER-DIMENSION.md)
+  - of ALTER INDEXTYPE [10.17](ALTER-INDEXTYPE.md)
+- DROP CLUSTER statement [15.17](DROP-CLUSTER.md)
+- DROP COLUMN clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- DROP constraint clause
+  - of ALTER VIEW [12.9](ALTER-VIEW.md)
+- DROP CONSTRAINT clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- DROP CONTEXT statement [16.1](DROP-CONTEXT.md)
+- DROP DATABASE LINK statement [16.3](DROP-DATABASE-LINK.md)
+- DROP DATABASE statement [16.2](DROP-DATABASE.md)
+- DROP DIMENSION statement [16.4](DROP-DIMENSION.md)
+- DROP DIRECTORY statement [16.5](DROP-DIRECTORY.md)
+- DROP DISKGROUP statement [16.6](DROP-DISKGROUP.md)
+- DROP FLASHBACK ARCHIVE statement [16.8](DROP-FLASHBACK-ARCHIVE.md)
+- DROP FUNCTION statement [16.9](DROP-FUNCTION.md)
+- DROP HIERARCHY statement [16.10](DROP-HIERARCHY.md)
+- DROP INDEX statement [16.11](DROP-INDEX.md)
+- DROP INDEXTYPE statement [16.12](DROP-INDEXTYPE.md)
+- DROP INMEMORY JOIN GROUP statement [16.13](DROP-INMEMORY-JOIN-GROUP.md)
+- DROP JAVA statement [16.14](DROP-JAVA.md)
+- DROP LIBRARY statement [17.1](DROP-LIBRARY.md)
+- DROP LOCKDOWN PROFILE statement [17.2](DROP-LOCKDOWN-PROFILE.md)
+- DROP LOGFILE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- DROP LOGFILE MEMBER clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- DROP MATERIALIZED VIEW LOG statement [17.4](DROP-MATERIALIZED-VIEW-LOG.md)
+- DROP MATERIALIZED VIEW statement [17.3](DROP-MATERIALIZED-VIEW.md)
+- DROP MATERIALIZED ZONEMAP statement [17.5](DROP-MATERIALIZED-ZONEMAP.md)
+- DROP OPERATOR statement [17.6](DROP-OPERATOR.md)
+- DROP OUTLINE statement [17.7](DROP-OUTLINE.md)
+- DROP PACKAGE BODY statement [17.8](DROP-PACKAGE.md)
+- DROP PACKAGE statement [17.8](DROP-PACKAGE.md)
+- DROP PARTITION clause
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- DROP PLUGGABLE DATABASE statement [17.9](DROP-PLUGGABLE-DATABASE.md)
+- DROP PRIMARY constraint clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- DROP PROCEDURE statement [17.10](DROP-PROCEDURE.md)
+- DROP PROFILE statement [17.11](DROP-PROFILE.md)
+- DROP RESTORE POINT statement [17.12](DROP-RESTORE-POINT.md)
+- DROP ROLE statement [17.13](DROP-ROLE.md)
+- DROP ROLLBACK SEGMENT statement [17.14](DROP-ROLLBACK-SEGMENT.md)
+- DROP SEQUENCE statement [17.15](DROP-SEQUENCE.md)
+- DROP SUPPLEMENTAL LOG DATA clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- DROP SUPPLEMENTAL LOG GROUP clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- DROP SYNONYM statement [17.16](DROP-SYNONYM.md)
+- DROP TABLESPACE SET statement [18.3](DROP-TABLESPACE-SET.md)
+- DROP TABLESPACE statement [18.2](DROP-TABLESPACE.md)
+- DROP TABLE statement [18.1](DROP-TABLE.md)
+- DROP TRIGGER statement [18.4](DROP-TRIGGER.md)
+- DROP TYPE BODY statement [18.6](DROP-TYPE-BODY.md)
+- DROP TYPE statement [18.5](DROP-TYPE.md)
+- DROP UNIQUE constraint clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- DROP USER statement [18.7](DROP-USER.md)
+- DROP VALUES clause
+  - of ALTER TABLE ... MODIFY PARTITION [12.3](ALTER-TABLE.md)
+- DROP VIEW statement [18.8](DROP-VIEW.md)
+- DUAL dummy table [2.8.1](Database-Object-Names-and-Qualifiers.md), [9.9](Selecting-from-the-DUAL-Table.md)
+- DUMP function [7.79](DUMP.md)
+- DY datetime format element [2.4.2.2](Format-Models.md)
+- DYNAMIC_SAMPLING hint [2.6.4.12](Comments.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- editioning views [15.11](CREATE-VIEW.md)
+- editions
+  - comments on [12.15](COMMENT.md)
+  - creating [13.13](CREATE-EDITION.md)
+  - dropping [16.7](DROP-EDITION.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - setting default for a PDB [11.9](ALTER-PLUGGABLE-DATABASE.md)
+  - setting default for database [10.8](ALTER-DATABASE.md)
+  - setting for a session [11.16](ALTER-SESSION.md)
+- embedded SQL [10.1.6](Types-of-SQL-Statements.md)
+  - precompiler support [10.1.6](Types-of-SQL-Statements.md)
+- EMPTY_BLOB function [7.80](EMPTY_BLOB-EMPTY_CLOB.md)
+- EMPTY_CLOB function [7.80](EMPTY_BLOB-EMPTY_CLOB.md)
+- ENABLE_PARALLEL_DML hint [2.6.4.13](Comments.md)
+- ENABLE ALL TRIGGERS clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- ENABLE clause
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+  - of ALTER TRIGGER [12.6](ALTER-TRIGGER.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- ENABLE DISTRIBUTED RECOVERY clause
+  - of ALTER SYSTEM [12.2](ALTER-SYSTEM.md)
+- ENABLE NOVALIDATE constraint state [8.2](constraint.md)
+- ENABLE PARALLEL DML clause
+  - of ALTER SESSION [11.16](ALTER-SESSION.md)
+- ENABLE QUERY REWRITE clause
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+- ENABLE RESTRICTED SESSION clause
+  - of ALTER SYSTEM [12.2](ALTER-SYSTEM.md)
+- ENABLE RESUMABLE clause
+  - of ALTER SESSION [11.16](ALTER-SESSION.md)
+- ENABLE ROW MOVEMENT clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- ENABLE STORAGE IN ROW clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- ENABLE TABLE LOCK clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- ENABLE VALIDATE constraint state [8.2](constraint.md)
+- encoding functions [7.2.15](Single-Row-Functions.md)
+- encryption [15.4](CREATE-TABLE.md)
+  - of tablespaces [8.9](storage_clause.md)
+- encryption keys
+  - managing [10.3](ADMINISTER-KEY-MANAGEMENT.md)
+- END BACKUP clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+  - of ALTER DATABASE ... DATAFILE [10.8](ALTER-DATABASE.md)
+  - of ALTER TABLESPACE [12.4](ALTER-TABLESPACE.md)
+- enterprise users
+  - allowing connection as database users [12.8](ALTER-USER.md)
+- environment functions [7.2.17](Single-Row-Functions.md)
+- equality test [6.2](Comparison-Conditions.md)
+- equijoins [9.6.2](Joins.md)
+  - defining for a dimension [13.10](CREATE-DIMENSION.md)
+- equivalency tests [6.14](IN-Condition.md)
+- ERROR_ON_OVERLAP_TIME session parameter [11.16.2](ALTER-SESSION.md)
+- error logging
+  - of DELETE operations [15.12](DELETE.md)
+  - of INSERT operations [18.13](INSERT.md)
+  - of MERGE operations [19.1](MERGE.md)
+- EXCEPTIONS INTO clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- EXCHANGE PARTITION clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- EXCHANGE SUBPARTITION clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- exchanging partitions
+  - restrictions on [12.3](ALTER-TABLE.md)
+- EXCLUDING NEW VALUES clause
+  - of ALTER MATERIALIZED VIEW LOG [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+  - of CREATE MATERIALIZED VIEW LOG [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+- EXCLUSIVE lock mode [18.14](LOCK-TABLE.md)
+- exclusive locks
+  - row locks (TX) [B.1](Automatic-Locks-in-DML-Operations.md)
+  - table locks (TM) [B.1](Automatic-Locks-in-DML-Operations.md)
+- EXECUTE object privilege
+  - on a directory [18.12](GRANT.md)
+- execution plans
+  - determining [18.9](EXPLAIN-PLAN.md)
+  - dropping outlines for [17.7](DROP-OUTLINE.md)
+  - saving [14.7](CREATE-OUTLINE.md)
+- EXISTS condition [6.9.1](XML-Conditions.md), [6.13](EXISTS-Condition.md)
+- EXISTSNODE function [7.81](EXISTSNODE.md)
+- EXP function [7.82](EXP.md)
+- EXPLAIN PLAN statement [18.9](EXPLAIN-PLAN.md)
+- explicit data conversion [2.2.8.1](Data-Type-Comparison-Rules.md), [2.2.8.4](Data-Type-Comparison-Rules.md)
+- expressions
+  - analytic view [5.3](analytic-view-measure-expressions.md), [5.3.1](analytic-view-measure-expressions.md)
+  - CASE [5.5](CASE-Expressions.md)
+  - changing declared type of [7.264](TREAT.md)
+  - column [5.6](Column-Expressions.md)
+  - comparing [7.74](DECODE.md)
+  - compound [5.4](Compound-Expressions.md)
+  - computing with the DUAL table [9.9](Selecting-from-the-DUAL-Table.md)
+  - CURSOR [5.7](CURSOR-Expressions.md)
+  - datetime [5.8](Datetime-Expressions.md)
+  - in SQL syntax [5.1](About-SQL-Expressions.md)
+  - interval [5.10](Interval-Expressions.md)
+  - lists of [5.17](Expression-Lists.md)
+  - model [5.12](Model-Expressions.md)
+  - object access [5.13](Object-Access-Expressions.md)
+  - placeholder [5.14](Placeholder-Expressions.md)
+  - scalar subqueries as [5.15](Scalar-Subquery-Expressions.md)
+  - simple [5.2](Simple-Expressions.md)
+  - type constructor [5.16](Type-Constructor-Expressions.md)
+- extended rowids
+  - base 64 [2.1.2.1](Data-Types.md)
+  - not directly available [2.1.2.1](Data-Types.md)
+- extensible indexing
+  - example [F.1](Using-Extensible-Indexing.md)
+- EXTENT MANAGEMENT clause
+  - of CREATE DATABASE [13.8](CREATE-DATABASE.md)
+  - of CREATE TABLESPACE [15.5](CREATE-TABLESPACE.md)
+- EXTENT MANAGEMENT DICTIONARY clause
+  - of CREATE TABLESPACE [15.5](CREATE-TABLESPACE.md)
+- EXTENT MANAGEMENT LOCAL clause
+  - of CREATE DATABASE [13.8](CREATE-DATABASE.md)
+- extents
+  - allocating for partitions [12.3](ALTER-TABLE.md)
+  - allocating for subpartitions [12.3](ALTER-TABLE.md)
+  - allocating for tables [12.3](ALTER-TABLE.md)
+  - restricting access by instances [10.16](ALTER-INDEX.md)
+  - specifying maximum number for an object [8.9](storage_clause.md)
+  - specifying number allocated upon object creation [8.9](storage_clause.md)
+  - specifying the first for an object [8.9](storage_clause.md)
+  - specifying the percentage of size increase [8.9](storage_clause.md)
+  - specifying the second for an object [8.9](storage_clause.md)
+- external functions [13.15](CREATE-FUNCTION.md), [14.12](CREATE-PROCEDURE.md)
+- external LOBs [2.1.1.6](Data-Types.md)
+- external procedures [14.12](CREATE-PROCEDURE.md)
+- external tables [15.4](CREATE-TABLE.md)
+  - access drivers [15.4](CREATE-TABLE.md)
+  - altering [12.3](ALTER-TABLE.md)
+  - creating [15.4](CREATE-TABLE.md)
+  - ORACLE_DATAPUMP access driver [15.4](CREATE-TABLE.md)
+  - ORACLE_HDFS access driver [15.4](CREATE-TABLE.md)
+  - ORACLE_HIVE access driver [15.4](CREATE-TABLE.md)
+  - ORACLE_LOADER access driver [15.4](CREATE-TABLE.md)
+  - restrictions on [15.4](CREATE-TABLE.md)
+- external users [14.15](CREATE-ROLE.md), [15.10](CREATE-USER.md)
+- EXTRACT (datetime) function [7.83](EXTRACT-datetime.md)
+- EXTRACT (XML) function [7.84](EXTRACT-XML.md)
+- EXTRACTVALUE function [7.85](EXTRACTVALUE.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- FACT hint [2.6.4.14](Comments.md)
+- FAILED_LOGIN_ATTEMPTS parameter
+  - of ALTER PROFILE [11.11](ALTER-PROFILE.md)
+  - of CREATE PROFILE [14.13](CREATE-PROFILE.md)
+- failure groups
+  - creating for a disk group [10.12](ALTER-DISKGROUP.md), [13.12](CREATE-DISKGROUP.md)
+- fast refresh [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+- FEATURE_DETAILS function [7.87](FEATURE_DETAILS.md)
+- FEATURE_ID function [7.88](FEATURE_ID.md)
+- FEATURE_SET function [7.89](FEATURE_SET.md)
+- FEATURE_VALUE function [7.90](FEATURE_VALUE.md)
+- FETCH
+  - row_limiting_clause [19.9](SELECT.md)
+- files
+  - specifying as a redo log file group [8.4](file_specification.md)
+  - specifying as data files [8.4](file_specification.md)
+  - specifying as temp files [8.4](file_specification.md)
+- FILTER FACT keywords [19.9](SELECT.md)
+- FIPS
+  - compliance [C.11](Oracle-Compliance-with-FIPS-127-2.md)
+  - flagging [11.16.2](ALTER-SESSION.md)
+- FIRST_ROWS(n) hint [2.6.4.15](Comments.md)
+- FIRST_VALUE function [7.92](FIRST_VALUE.md)
+- FIRST function [7.91](FIRST.md)
+- FLAGGER session parameter [11.16.2](ALTER-SESSION.md)
+- FLASH_CACHE parameter
+  - of STORAGE clause [8.9](storage_clause.md)
+- FLASHBACK ARCHIVE object privilege [18.12](GRANT.md)
+- flashback data archives
+  - creating [13.14](CREATE-FLASHBACK-ARCHIVE.md)
+  - dropping [16.8](DROP-FLASHBACK-ARCHIVE.md)
+  - modifying [10.13](ALTER-FLASHBACK-ARCHIVE.md)
+  - privileges for [18.12](GRANT.md)
+  - specifying for a table [12.3](ALTER-TABLE.md), [15.4](CREATE-TABLE.md)
+- FLASHBACK DATABASE statement [18.10](FLASHBACK-DATABASE.md)
+- flashback queries [19.9](SELECT.md)
+  - pseudocolumns for [3.3](Version-Query-Pseudocolumns.md)
+  - using with inserts [18.13](INSERT.md), [19.15](UPDATE.md)
+- FLASHBACK TABLE statement [18.11](FLASHBACK-TABLE.md)
+- flash cache [8.9](storage_clause.md)
+- floating-point conditions [6.3](Floating-Point-Conditions.md)
+- floating-point numbers [2.1.1.2.3](Data-Types.md)
+  - converting to [7.238](TO_BINARY_DOUBLE.md), [7.239](TO_BINARY_FLOAT.md)
+  - handling NaN [7.135](NANVL.md)
+- FLOOR function [7.93](FLOOR.md)
+- FLUSH BUFFER_CACHE clause
+  - of ALTER SYSTEM [12.2](ALTER-SYSTEM.md)
+- FLUSH GLOBAL CONTEXT clause
+  - of ALTER SYSTEM [12.2](ALTER-SYSTEM.md)
+- FLUSH REDO clause
+  - of ALTER SYSTEM [12.2](ALTER-SYSTEM.md)
+- FLUSH SHARED_POOL clause
+  - of ALTER SYSTEM [12.2](ALTER-SYSTEM.md)
+- FM format model modifier [2.4.3](Format-Models.md)
+- FORCE clause
+  - of COMMIT [13.1](COMMIT.md)
+  - of CREATE VIEW [15.11](CREATE-VIEW.md)
+  - of DISASSOCIATE STATISTICS [15.13](DISASSOCIATE-STATISTICS.md)
+  - of DROP INDEX [16.11](DROP-INDEX.md)
+  - of DROP INDEXTYPE [16.12](DROP-INDEXTYPE.md)
+  - of DROP OPERATOR [17.6](DROP-OPERATOR.md)
+  - of DROP TYPE [18.5](DROP-TYPE.md)
+  - of REVOKE [19.6](REVOKE.md)
+  - of ROLLBACK [18.11](FLASHBACK-TABLE.md), [19.7](ROLLBACK.md)
+- force full database caching [10.8](ALTER-DATABASE.md)
+- FORCE LOGGING clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+  - of ALTER TABLESPACE [12.4](ALTER-TABLESPACE.md)
+  - of CREATE CONTROLFILE [13.7](CREATE-CONTROLFILE.md)
+  - of CREATE DATABASE [13.8](CREATE-DATABASE.md)
+  - of CREATE TABLESPACE [15.5](CREATE-TABLESPACE.md)
+- FORCE PARALLEL DML clause
+  - of ALTER SESSION [11.16](ALTER-SESSION.md)
+- FOR clause
+  - of CREATE INDEXTYPE [13.18](CREATE-INDEXTYPE.md)
+  - of EXPLAIN PLAN [18.9](EXPLAIN-PLAN.md), [18.11](FLASHBACK-TABLE.md)
+- foreign key constraints [8.2](constraint.md)
+- foreign tables
+  - rowids of [2.1.2.2](Data-Types.md)
+- format models [2.4](Format-Models.md)
+  - changing the return format [2.4.3.1](Format-Models.md)
+  - date [2.4.2](Format-Models.md)
+    - changing [2.4.2](Format-Models.md)
+    - default format [2.4.2](Format-Models.md)
+    - format elements [2.4.2.1](Format-Models.md)
+    - maximum length [2.4.2](Format-Models.md)
+  - modifiers [2.4.3](Format-Models.md)
+  - number [2.4.1](Format-Models.md)
+  - number, elements of [2.4.1.1](Format-Models.md)
+  - specifying [2.4.3.1](Format-Models.md)
+  - XML [2.4.5](Format-Models.md)
+- formats
+  - for dates and numbers. See format models [2.4](Format-Models.md)
+  - of return values from the database [2.4](Format-Models.md)
+  - of values stored in the database [2.4](Format-Models.md)
+- FOR UPDATE clause
+  - of SELECT [19.9](SELECT.md)
+- FREELIST GROUPS parameter
+  - of STORAGE clause [8.9](storage_clause.md)
+- free lists
+  - specifying for a table, partition, cluster, or index [8.9](storage_clause.md)
+  - specifying for LOBs [15.4](CREATE-TABLE.md)
+- FREELISTS parameter
+  - of STORAGE clause [8.9](storage_clause.md)
+- FREEPOOLS parameter
+  - of LOB storage [15.4](CREATE-TABLE.md)
+- FRESH_MV hint [2.6.4.16](Comments.md)
+- FROM_TZ function [7.94](FROM_TZ.md)
+- FROM clause
+  - of CREATE PLUGGABLE DATABASE [14.11](CREATE-PLUGGABLE-DATABASE.md)
+  - of queries [9.6.4](Joins.md)
+- FROM COLUMNS clause
+  - of DISASSOCIATE STATISTICS [15.13](DISASSOCIATE-STATISTICS.md)
+- FROM FUNCTIONS clause
+  - of DISASSOCIATE STATISTICS [15.13](DISASSOCIATE-STATISTICS.md)
+- FROM INDEXES clause
+  - of DISASSOCIATE STATISTICS [15.13](DISASSOCIATE-STATISTICS.md)
+- FROM INDEXTYPES clause
+  - of DISASSOCIATE STATISTICS [15.13](DISASSOCIATE-STATISTICS.md)
+- FROM PACKAGES clause
+  - of DISASSOCIATE STATISTICS [15.13](DISASSOCIATE-STATISTICS.md)
+- FROM TYPES clause
+  - of DISASSOCIATE STATISTICS [15.13](DISASSOCIATE-STATISTICS.md)
+- FULL hint [2.6.4.17](Comments.md)
+- full indexes [13.17](CREATE-INDEX.md)
+- full outer joins [19.9](SELECT.md)
+- function-based indexes [13.17](CREATE-INDEX.md)
+  - creating [13.17](CREATE-INDEX.md)
+  - disabling [10.16](ALTER-INDEX.md)
+  - enabling [10.16](ALTER-INDEX.md)
+  - refreshing [10.8](ALTER-DATABASE.md)
+- function expressions
+  - built-in [5.9](Function-Expressions.md)
+  - user-defined [5.9](Function-Expressions.md)
+- functions [7.302](About-User-Defined-Functions.md)
+  - See also: SQL functions
+
+  <!-- -->
+
+  - 3GL,calling [14.1](CREATE-LIBRARY.md)
+  - associating statistics types with [12.11](ASSOCIATE-STATISTICS.md)
+  - avoiding run-time compilation [10.14](ALTER-FUNCTION.md)
+  - built_in
+    - as expressions [5.9](Function-Expressions.md)
+  - calling [12.14](CALL.md)
+  - changing the declaration of [13.15](CREATE-FUNCTION.md)
+  - changing the definition of [13.15](CREATE-FUNCTION.md)
+  - defining an index on [13.17](CREATE-INDEX.md)
+  - disassociating statistics types from [15.13](DISASSOCIATE-STATISTICS.md)
+  - executing [12.14](CALL.md)
+  - external [13.15](CREATE-FUNCTION.md), [14.12](CREATE-PROCEDURE.md)
+  - inverse distribution [7.164](PERCENTILE_CONT.md), [7.165](PERCENTILE_DISC.md)
+  - issuing COMMIT or ROLLBACK statements [11.16](ALTER-SESSION.md)
+  - linear regression [7.188](REGR_-Linear-Regression-Functions.md)
+  - naming rules [2.8.1](Database-Object-Names-and-Qualifiers.md)
+  - OLAP [7.7](OLAP-Functions.md)
+  - recompiling invalid [10.14](ALTER-FUNCTION.md)
+  - re-creating [13.15](CREATE-FUNCTION.md), [13.20](CREATE-JAVA.md)
+  - removing from the database [16.9](DROP-FUNCTION.md)
+  - statistics, assigning default cost [12.11](ASSOCIATE-STATISTICS.md)
+  - statistics, defining default selectivity [12.11](ASSOCIATE-STATISTICS.md)
+  - stored [13.15](CREATE-FUNCTION.md)
+  - storing return value of [12.14](CALL.md)
+  - synonyms for [15.3](CREATE-SYNONYM.md)
+  - user-defined [7.302](About-User-Defined-Functions.md)
+    - as expressions [5.9](Function-Expressions.md)
+  - XML [7.2.13](Single-Row-Functions.md)
+- FUNCTIONS clause
+  - of ASSOCIATE STATISTICS [12.11](ASSOCIATE-STATISTICS.md)
+  - of DISASSOCIATE STATISTICS [15.13](DISASSOCIATE-STATISTICS.md)
+- FX format model modifier [2.4.3](Format-Models.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- GATHER_OPTIMIZER_STATISTICS hint [2.6.4.18](Comments.md)
+- general comparison functions [7.2.7](Single-Row-Functions.md)
+- general recovery clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- geoimaging [2.1.8](Data-Types.md)
+- GLOBAL_TOPIC_ENABLED system parameter [12.2](ALTER-SYSTEM.md)
+- global indexes
+  - See: indexes, globally partitioned
+- globally partitioned indexes [13.17](CREATE-INDEX.md)
+- GLOBAL parameter
+  - of CREATE SEQUENCE [15.1](CREATE-SEQUENCE.md)
+- GLOBAL PARTITION BY HASH clause
+  - of CREATE INDEX [13.17](CREATE-INDEX.md)
+- GLOBAL PARTITION BY RANGE clause
+  - of CREATE INDEX [13.17](CREATE-INDEX.md)
+- global sequences [15.1](CREATE-SEQUENCE.md)
+- GLOBAL TEMPORARY clause
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- global users [14.15](CREATE-ROLE.md), [15.10](CREATE-USER.md)
+- GRANT CONNECT THROUGH clause
+  - of ALTER USER [12.8](ALTER-USER.md)
+- GRANT statement
+  - locks [B.2.2](Automatic-Locks-in-DDL-Operations.md)
+- GRAPHIC data type
+  - DB2 [2.1.3](Data-Types.md)
+  - SQL/DS [2.1.3](Data-Types.md)
+- greater than or equal to tests [6.2](Comparison-Conditions.md)
+- greater than tests [6.2](Comparison-Conditions.md)
+- GREATEST function [7.95](GREATEST.md)
+- GROUP_ID function [7.96](GROUP_ID.md)
+- GROUP BY clause
+  - CUBE extension [19.9](SELECT.md)
+  - identifying duplicate groupings [7.96](GROUP_ID.md)
+  - of SELECT and subqueries [19.9](SELECT.md)
+  - ROLLUP extension of [19.9](SELECT.md)
+- group comparison conditions [6.2.2](Comparison-Conditions.md)
+- GROUPING [2.6.4.19](Comments.md)
+- GROUPING_ID function [7.98](GROUPING_ID.md)
+- GROUPING function [7.97](GROUPING.md)
+- GROUPING Hint [2.6.4.19](Comments.md)
+- groupings
+  - filtering out duplicate [7.96](GROUP_ID.md)
+- grouping sets [19.9](SELECT.md)
+- GROUPING SETS clause
+  - of SELECT and subqueries [19.9](SELECT.md)
+- group separator
+  - specifying [2.4.1.1](Format-Models.md)
+- GUARD ALL clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- GUARD clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+    - overriding [11.16](ALTER-SESSION.md)
+- GUARD NONE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- GUARD STANDBY clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+
+------------------------------------------------------------------------
+
+## H
+
+- hash clusters
+  - creating [13.5](CREATE-CLUSTER.md)
+  - range-partitioned [13.5](CREATE-CLUSTER.md)
+  - single-table, creating [13.5](CREATE-CLUSTER.md)
+  - specifying hash function for [13.5](CREATE-CLUSTER.md)
+- HASH hint [2.6.4.20](Comments.md)
+- HASH IS clause
+  - of CREATE CLUSTER [13.5](CREATE-CLUSTER.md)
+- HASHKEYS clause
+  - of CREATE CLUSTER [13.5](CREATE-CLUSTER.md)
+- hash partitioning clause
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- hash partitions
+  - adding [12.3](ALTER-TABLE.md)
+  - coalescing [12.3](ALTER-TABLE.md)
+- HAVING condition
+  - of GROUP BY clause [19.9](SELECT.md)
+- heap-organized tables
+  - creating [15.4](CREATE-TABLE.md)
+- hexadecimal value
+  - returning [2.4.1.1](Format-Models.md)
+- HEXTORAW function [7.99](HEXTORAW.md)
+- hierarchical functions [7.2.11](Single-Row-Functions.md)
+- hierarchical queries [9.3](Hierarchical-Queries.md), [19.9](SELECT.md)
+  - child rows [3.1.3](Hierarchical-Query-Pseudocolumns.md), [9.3](Hierarchical-Queries.md)
+  - illustrated [3.1.3](Hierarchical-Query-Pseudocolumns.md)
+  - leaf rows [3.1.3](Hierarchical-Query-Pseudocolumns.md)
+  - operators in [4.5](Hierarchical-Query-Operators.md)
+    - CONNECT_BY_ROOT [4.5.2](Hierarchical-Query-Operators.md)
+    - PRIOR [4.5.1](Hierarchical-Query-Operators.md)
+  - ordering [19.9](SELECT.md)
+  - parent rows [3.1.3](Hierarchical-Query-Pseudocolumns.md), [9.3](Hierarchical-Queries.md)
+  - pseudocolumns in [3.1](Hierarchical-Query-Pseudocolumns.md)
+    - CONNECT_BY_ISCYCLE [3.1.1](Hierarchical-Query-Pseudocolumns.md)
+    - CONNECT_BY_ISLEAF [3.1.2](Hierarchical-Query-Pseudocolumns.md)
+    - LEVEL [3.1.3](Hierarchical-Query-Pseudocolumns.md)
+  - retrieving root and node values [7.222](SYS_CONNECT_BY_PATH.md)
+- hierarchical query clause
+  - of SELECT and subqueries [19.9](SELECT.md)
+- hierarchies
+  - adding to a dimension [10.11](ALTER-DIMENSION.md)
+  - altering [10.15](ALTER-HIERARCHY.md)
+  - creating [13.16](CREATE-HIERARCHY.md)
+  - dropping [16.10](DROP-HIERARCHY.md)
+  - dropping from a dimension [10.11](ALTER-DIMENSION.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - of dimensions, defining [13.10](CREATE-DIMENSION.md)
+  - retrieving data from [19.9](SELECT.md)
+- HIERARCHY clause
+  - of CREATE DIMENSION [13.10](CREATE-DIMENSION.md)
+- hierarchy expressions
+  - analytic view [5.3](analytic-view-measure-expressions.md)
+- high water mark
+  - of clusters [10.7](ALTER-CLUSTER.md)
+  - of indexes [10.16](ALTER-INDEX.md)
+  - of tables [12.3](ALTER-TABLE.md), [12.10](ANALYZE.md)
+- hints [9.2](Creating-Simple-Queries.md)
+  - ALL_ROWS [2.6.4.1](Comments.md)
+  - APPEND [2.6.4.2](Comments.md)
+  - APPEND_VALUES [2.6.4.3](Comments.md)
+  - CACHE [2.6.4.4](Comments.md)
+  - CLUSTER [2.6.4.6](Comments.md)
+  - CLUSTERING [2.6.4.7](Comments.md)
+  - CONTAINER [2.6.4.8](Comments.md)
+  - CURSOR_SHARING_EXACT [2.6.4.9](Comments.md)
+  - DISABLE_PARALLEL_DML [2.6.4.10](Comments.md)
+  - DYNAMIC_SAMPLING [2.6.4.12](Comments.md)
+  - ENABLE_PARALLEL_DML [2.6.4.13](Comments.md)
+  - FACT [2.6.4.14](Comments.md)
+  - FIRST_ROWS(n) [2.6.4.15](Comments.md)
+  - FRESH_MV [2.6.4.16](Comments.md)
+  - FULL [2.6.4.17](Comments.md)
+  - GATHER_OPTIMIZER_STATISTICS [2.6.4.18](Comments.md)
+  - HASH [2.6.4.20](Comments.md)
+  - INDEX [2.6.4.22](Comments.md)
+  - INDEX_ASC [2.6.4.23](Comments.md)
+  - INDEX_COMBINE [2.6.4.24](Comments.md)
+  - INDEX_DESC [2.6.4.25](Comments.md)
+  - INDEX_FFS [2.6.4.26](Comments.md)
+  - INDEX_JOIN [2.6.4.27](Comments.md)
+  - INDEX_SS [2.6.4.28](Comments.md)
+  - INDEX_SS_ASC [2.6.4.29](Comments.md)
+  - INDEX_SS_DESC [2.6.4.30](Comments.md)
+  - INMEMORY [2.6.4.31](Comments.md)
+  - INMEMORY_PRUNING [2.6.4.32](Comments.md)
+  - in SQL statements [2.6.3](Comments.md)
+  - LEADING [2.6.4.33](Comments.md)
+  - location syntax [2.6.3](Comments.md)
+  - MERGE [2.6.4.34](Comments.md)
+  - MODEL_MIN_ANALYSIS [2.6.4.35](Comments.md)
+  - MONITOR [2.6.4.36](Comments.md)
+  - NO_CLUSTERING [2.6.4.40](Comments.md)
+  - NO_EXPAND [2.6.4.41](Comments.md)
+  - NO_FACT [2.6.4.42](Comments.md)
+  - NO_GATHER_OPTIMIZER_STATISTICS [2.6.4.43](Comments.md)
+  - NO_INDEX [2.6.4.44](Comments.md)
+  - NO_INDEX_FFS [2.6.4.45](Comments.md)
+  - NO_INDEX_SS [2.6.4.46](Comments.md)
+  - NO_INMEMORY [2.6.4.47](Comments.md)
+  - NO_INMEMORY_PRUNING [2.6.4.48](Comments.md)
+  - NO_MERGE [2.6.4.49](Comments.md)
+  - NO_MONITOR [2.6.4.50](Comments.md)
+  - NO_PARALLEL [2.6.4.52](Comments.md)
+  - NO_PARALLEL_INDEX [2.6.4.54](Comments.md)
+  - NO_PQ_CONCURRENT_UNION [2.6.4.56](Comments.md)
+  - NO_PQ_SKEW [2.6.4.57](Comments.md)
+  - NO_PUSH_PRED [2.6.4.58](Comments.md)
+  - NO_PUSH_SUBQ [2.6.4.59](Comments.md)
+  - NO_PX_JOIN_FILTER [2.6.4.60](Comments.md)
+  - NO_QUERY_TRANSFORMATION [2.6.4.61](Comments.md)
+  - NO_RESULT_CACHE [2.6.4.62](Comments.md)
+  - NO_REWRITE [2.6.4.63](Comments.md)
+  - NO_STAR_TRANSFORMATION [2.6.4.65](Comments.md)
+  - NO_STATEMENT_QUEUING [2.6.4.66](Comments.md)
+  - NO_UNNEST [2.6.4.67](Comments.md)
+  - NO_USE_BAND [2.6.4.68](Comments.md)
+  - NO_USE_CUBE [2.6.4.69](Comments.md)
+  - NO_USE_HASH [2.6.4.70](Comments.md)
+  - NO_USE_MERGE [2.6.4.71](Comments.md)
+  - NO_USE_NL [2.6.4.72](Comments.md)
+  - NO_XML_QUERY_REWRITE [2.6.4.73](Comments.md)
+  - NO_XMLINDEX_REWRITE [2.6.4.74](Comments.md)
+  - NO_ZONEMAP [2.6.4.75](Comments.md)
+  - NOCACHE [2.6.4.39](Comments.md)
+  - NOPARALLEL [2.6.4.52](Comments.md)
+  - NOPARALLEL_INDEX [2.6.4.54](Comments.md)
+  - NOREWRITE [2.6.4.63](Comments.md)
+  - OPT_PARAM [2.6.4.77](Comments.md)
+  - ORDERED [2.6.4.78](Comments.md)
+  - PARALLEL [2.6.4.79](Comments.md)
+  - PARALLEL_INDEX [2.6.4.80](Comments.md)
+  - passing to the optimizer [19.15](UPDATE.md)
+  - PQ_CONCURRENT_UNION [2.6.4.81](Comments.md)
+  - PQ_DISTRIBUTE [2.6.4.82](Comments.md)
+  - PQ_FILTER [2.6.4.83](Comments.md)
+  - PQ_SKEW [2.6.4.84](Comments.md)
+  - PUSH_PRED [2.6.4.85](Comments.md)
+  - PUSH_SUBQ [2.6.4.86](Comments.md)
+  - PX_JOIN_FILTER [2.6.4.87](Comments.md)
+  - QB_NAME [2.6.4.88](Comments.md)
+  - REWRITE [2.6.4.91](Comments.md)
+  - specifying a query block [2.6.3](Comments.md)
+  - STAR_TRANSFORMATION [2.6.4.92](Comments.md)
+  - STATEMENT_QUEUING [2.6.4.93](Comments.md)
+  - syntax [2.6.3](Comments.md)
+  - UNNEST [2.6.4.94](Comments.md)
+  - USE_BAND [2.6.4.95](Comments.md)
+  - USE_CONCAT [2.6.4.96](Comments.md)
+  - USE_CUBE [2.6.4.97](Comments.md)
+  - USE_HASH [2.6.4.98](Comments.md)
+  - USE_MERGE [2.6.4.99](Comments.md)
+  - USE_NL [2.6.4.100](Comments.md)
+  - USE_NL_WITH_INDEX [2.6.4.101](Comments.md)
+- histograms
+  - creating equiwidth [7.280](WIDTH_BUCKET.md)
+- Hybrid Columnar Compression [15.4](CREATE-TABLE.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- IDENTIFIED BY clause
+  - of ALTER ROLE. See CREATE ROLE [11.13](ALTER-ROLE.md)
+  - of CREATE DATABASE LINK [13.9](CREATE-DATABASE-LINK.md)
+- IDENTIFIED EXTERNALLY clause
+  - of ALTER ROLE. See CREATE ROLE [11.13](ALTER-ROLE.md), [14.15](CREATE-ROLE.md)
+  - of ALTER USER. See CREATE USER [15.10](CREATE-USER.md)
+  - of CREATE ROLE [14.15](CREATE-ROLE.md)
+  - of CREATE USER [15.10](CREATE-USER.md)
+- IDENTIFIED GLOBALLY clause
+  - of ALTER ROLE. See CREATE ROLE [11.13](ALTER-ROLE.md)
+  - of CREATE ROLE [14.15](CREATE-ROLE.md)
+  - of CREATE USER [15.10](CREATE-USER.md)
+- identifier functions [7.2.17](Single-Row-Functions.md)
+- identity column [15.4](CREATE-TABLE.md)
+- IDLE_TIME parameter
+  - of ALTER PROFILE [11.11](ALTER-PROFILE.md)
+- IEEE754
+  - floating-point arithmetic [2.1.1.2.3.3](Data-Types.md)
+  - Oracle conformance with [2.1.1.2.3.3](Data-Types.md)
+- IGNORE_ROW_ON_DUPKEY_INDEX hint [2.6.4.21](Comments.md)
+- IMMEDIATE clause
+  - of SET CONSTRAINTS [19.10](SET-CONSTRAINTS.md)
+- implicit data conversion [2.2.8.1](Data-Type-Comparison-Rules.md), [2.2.8.2](Data-Type-Comparison-Rules.md), [2.2.8.3](Data-Type-Comparison-Rules.md)
+- INCLUDING CONTENTS clause
+  - of DROP TABLESPACE [18.2](DROP-TABLESPACE.md)
+- INCLUDING DATAFILES clause
+  - of ALTER DATABASE TEMPFILE DROP clause [10.8](ALTER-DATABASE.md)
+- INCLUDING NEW VALUES clause
+  - of ALTER MATERIALIZED VIEW LOG [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+  - of CREATE MATERIALIZED VIEW LOG [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+- INCLUDING TABLES clause
+  - of DROP CLUSTER [15.17](DROP-CLUSTER.md)
+- incomplete object types [15.8](CREATE-TYPE.md)
+  - creating [15.8](CREATE-TYPE.md)
+- IN conditions [6.14](IN-Condition.md)
+- incremental
+  - and block change tracking [10.8](ALTER-DATABASE.md)
+- INCREMENT BY clause
+  - of ALTER SEQUENCE. See CREATE SEQUENCE [11.15](ALTER-SEQUENCE.md)
+- INCREMENT BY parameter
+  - of CREATE SEQUENCE [15.1](CREATE-SEQUENCE.md)
+- INDEX_ASC hint [2.6.4.23](Comments.md)
+- INDEX_COMBINE hint [2.6.4.24](Comments.md)
+- INDEX_DESC hint [2.6.4.25](Comments.md)
+- INDEX_FFS hint [2.6.4.26](Comments.md)
+- INDEX_JOIN hint [2.6.4.27](Comments.md)
+- INDEX_SS_ASC hint [2.6.4.29](Comments.md)
+- INDEX_SS_DESC hint [2.6.4.30](Comments.md)
+- INDEX_SS hint [2.6.4.28](Comments.md)
+- INDEX clause
+  - of ANALYZE [12.10](ANALYZE.md)
+  - of CREATE CLUSTER [13.5](CREATE-CLUSTER.md)
+- indexed clusters
+  - creating [13.5](CREATE-CLUSTER.md)
+- indexes [10.16](ALTER-INDEX.md)
+  - advanced index compression, enabling [10.16](ALTER-INDEX.md)
+  - advanced index compression of [13.17](CREATE-INDEX.md)
+  - allocating new extents for [10.16](ALTER-INDEX.md)
+  - application-specific [13.18](CREATE-INDEXTYPE.md)
+  - ascending [13.17](CREATE-INDEX.md)
+  - based on indextypes [13.17](CREATE-INDEX.md)
+  - bitmap [13.17](CREATE-INDEX.md)
+  - bitmap join [13.17](CREATE-INDEX.md)
+  - B-tree [13.17](CREATE-INDEX.md)
+  - changing attributes [10.16](ALTER-INDEX.md)
+  - changing parallelism of [10.16](ALTER-INDEX.md)
+  - collecting statistics on [12.10](ANALYZE.md)
+  - creating [13.17](CREATE-INDEX.md)
+  - creating as usable or unusable [13.17](CREATE-INDEX.md)
+  - creating on a cluster [13.17](CREATE-INDEX.md)
+  - creating on a table [13.17](CREATE-INDEX.md)
+  - deallocating unused space from [10.16](ALTER-INDEX.md)
+  - descending [13.17](CREATE-INDEX.md)
+    - and query rewrite [13.17](CREATE-INDEX.md)
+    - as function-based indexes [13.17](CREATE-INDEX.md)
+  - direct-path inserts, logging [10.16](ALTER-INDEX.md)
+  - domain [13.17](CREATE-INDEX.md), [13.18](CREATE-INDEXTYPE.md)
+  - domain, example [F.1](Using-Extensible-Indexing.md)
+  - dropping index partitions [16.11](DROP-INDEX.md)
+  - examples [13.17](CREATE-INDEX.md)
+  - full [13.17](CREATE-INDEX.md)
+  - full fast scans [2.6.4.26](Comments.md)
+  - function-based [13.17](CREATE-INDEX.md)
+    - creating [13.17](CREATE-INDEX.md)
+  - globally partitioned [13.17](CREATE-INDEX.md)
+    - updating [12.3](ALTER-TABLE.md)
+  - global partitioned, creating [13.17](CREATE-INDEX.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - invisible to the optimizer [10.16](ALTER-INDEX.md), [13.17](CREATE-INDEX.md)
+  - join, bitmap [13.17](CREATE-INDEX.md)
+  - local domain [13.17](CREATE-INDEX.md)
+  - locally partitioned [13.17](CREATE-INDEX.md)
+  - logging rebuild operations [10.16](ALTER-INDEX.md)
+  - marking as USABLE or UNUSABLE [10.16](ALTER-INDEX.md)
+  - merging block contents [10.16](ALTER-INDEX.md)
+  - merging contents of index blocks [10.16](ALTER-INDEX.md)
+  - merging contents of index partition blocks [10.16](ALTER-INDEX.md)
+  - modifying attributes [10.16](ALTER-INDEX.md)
+  - moving [10.16](ALTER-INDEX.md)
+  - on clusters [13.17](CREATE-INDEX.md)
+  - on composite-partitioned tables [13.17](CREATE-INDEX.md)
+  - on composite-partitioned tables, creating [13.17](CREATE-INDEX.md)
+  - on hash-partitioned tables [13.17](CREATE-INDEX.md)
+    - creating [13.17](CREATE-INDEX.md)
+  - on index-organized tables [13.17](CREATE-INDEX.md)
+  - online [13.17](CREATE-INDEX.md)
+  - on list-partitioned tables
+    - creating [13.17](CREATE-INDEX.md)
+  - on nested table storage tables [13.17](CREATE-INDEX.md)
+  - on partitioned tables [13.17](CREATE-INDEX.md)
+  - on range-partitioned tables [13.17](CREATE-INDEX.md)
+  - on range-partitioned tables, creating [13.17](CREATE-INDEX.md)
+  - on scalar typed object attributes [13.17](CREATE-INDEX.md)
+  - on table columns [13.17](CREATE-INDEX.md)
+  - on XMLType tables [13.17](CREATE-INDEX.md)
+  - parallelizing creation of [13.17](CREATE-INDEX.md)
+  - partial [13.17](CREATE-INDEX.md)
+  - partitioned [2.9.4](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md), [13.17](CREATE-INDEX.md)
+    - user-defined [13.17](CREATE-INDEX.md)
+  - partitioning [13.17](CREATE-INDEX.md)
+  - partitions [13.17](CREATE-INDEX.md)
+    - adding hash [10.16](ALTER-INDEX.md)
+    - adding new [10.16](ALTER-INDEX.md)
+    - changing default attributes [10.16](ALTER-INDEX.md)
+    - changing physical attributes [10.16](ALTER-INDEX.md)
+    - changing storage characteristics [10.16](ALTER-INDEX.md)
+    - coalescing hash partitions [10.16](ALTER-INDEX.md)
+    - deallocating unused space from [10.16](ALTER-INDEX.md)
+    - dropping [10.16](ALTER-INDEX.md)
+    - marking UNUSABLE [10.16](ALTER-INDEX.md), [12.3](ALTER-TABLE.md)
+    - modifying the real characteristics [10.16](ALTER-INDEX.md)
+    - preventing use of [10.16](ALTER-INDEX.md)
+    - rebuilding [10.16](ALTER-INDEX.md)
+    - rebuilding unusable [12.3](ALTER-TABLE.md)
+    - re-creating [10.16](ALTER-INDEX.md)
+    - removing [10.16](ALTER-INDEX.md)
+    - renaming [10.16](ALTER-INDEX.md)
+    - specifying tablespace for [10.16](ALTER-INDEX.md)
+    - splitting [10.16](ALTER-INDEX.md)
+  - prefix compression, enabling [10.16](ALTER-INDEX.md)
+  - prefix compression of [13.17](CREATE-INDEX.md)
+  - preventing use of [10.16](ALTER-INDEX.md)
+  - purging from the recycle bin [19.4](PURGE.md)
+  - rebuilding [10.16](ALTER-INDEX.md)
+  - re-creating [10.16](ALTER-INDEX.md)
+  - removing from the database [16.11](DROP-INDEX.md)
+  - renaming [10.16](ALTER-INDEX.md)
+  - reverse [10.16](ALTER-INDEX.md), [13.17](CREATE-INDEX.md)
+  - specifying tablespace for [10.16](ALTER-INDEX.md)
+  - statistics on usage [10.16](ALTER-INDEX.md)
+  - subpartitions
+    - allocating extents for [10.16](ALTER-INDEX.md)
+    - changing default attributes [10.16](ALTER-INDEX.md)
+    - changing physical attributes [10.16](ALTER-INDEX.md)
+    - changing storage characteristics [10.16](ALTER-INDEX.md)
+    - deallocating unused space from [10.16](ALTER-INDEX.md)
+    - marking UNUSABLE [10.16](ALTER-INDEX.md)
+    - modifying [10.16](ALTER-INDEX.md)
+    - moving [10.16](ALTER-INDEX.md)
+    - preventing use of [10.16](ALTER-INDEX.md)
+    - rebuilding [10.16](ALTER-INDEX.md)
+    - re-creating [10.16](ALTER-INDEX.md)
+    - renaming [10.16](ALTER-INDEX.md)
+    - specifying tablespace for [10.16](ALTER-INDEX.md)
+  - tablespace containing [13.17](CREATE-INDEX.md)
+  - unique [13.17](CREATE-INDEX.md)
+  - unsorted [13.17](CREATE-INDEX.md)
+  - used to enforce constraints [12.3](ALTER-TABLE.md), [15.4](CREATE-TABLE.md)
+  - validating structure [12.10](ANALYZE.md)
+- INDEXES clause
+  - of ASSOCIATE STATISTICS [12.11](ASSOCIATE-STATISTICS.md)
+  - of DISASSOCIATE STATISTICS [15.13](DISASSOCIATE-STATISTICS.md)
+- INDEX hint [2.6.4.22](Comments.md)
+- indexing property [15.4](CREATE-TABLE.md)
+- index keys
+  - compression [10.16](ALTER-INDEX.md)
+- index-organized tables
+  - bitmap indexes on, creating [15.4](CREATE-TABLE.md)
+  - creating [15.4](CREATE-TABLE.md)
+  - mapping tables [12.3](ALTER-TABLE.md)
+    - creating [15.4](CREATE-TABLE.md)
+    - moving [12.3](ALTER-TABLE.md)
+  - merging contents of index blocks [12.3](ALTER-TABLE.md)
+  - modifying [12.3](ALTER-TABLE.md)
+  - moving [12.3](ALTER-TABLE.md)
+  - overflow segments
+    - specifying storage [12.3](ALTER-TABLE.md), [15.4](CREATE-TABLE.md)
+  - partitioned, updating secondary indexes [10.16](ALTER-INDEX.md)
+  - PCT_ACCESS_DIRECT statistics [12.10](ANALYZE.md)
+  - primary key indexes
+    - coalescing [12.3](ALTER-TABLE.md)
+  - rebuilding [12.3](ALTER-TABLE.md)
+  - rowids of [2.1.2.2](Data-Types.md)
+  - secondary indexes, updating [10.16](ALTER-INDEX.md)
+- index partitions
+  - creating subpartitions [13.17](CREATE-INDEX.md)
+- index subpartitions [13.17](CREATE-INDEX.md)
+- INDEXTYPE clause
+  - of CREATE INDEX [13.17](CREATE-INDEX.md)
+- indextypes
+  - adding operators [10.17](ALTER-INDEXTYPE.md)
+  - altering [10.17](ALTER-INDEXTYPE.md)
+  - associating statistics types with [12.11](ASSOCIATE-STATISTICS.md)
+  - changing implementation type [10.17](ALTER-INDEXTYPE.md)
+  - comments on [12.15](COMMENT.md)
+  - creating [13.18](CREATE-INDEXTYPE.md)
+  - disassociating statistics types from [15.13](DISASSOCIATE-STATISTICS.md), [16.12](DROP-INDEXTYPE.md)
+  - drop routines, invoking [16.11](DROP-INDEX.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - indexes based on [13.17](CREATE-INDEX.md)
+  - instances [13.17](CREATE-INDEX.md)
+  - removing from the database [16.12](DROP-INDEXTYPE.md)
+- INDEXTYPES clause
+  - of ASSOCIATE STATISTICS [12.11](ASSOCIATE-STATISTICS.md)
+  - of DISASSOCIATE STATISTICS [15.13](DISASSOCIATE-STATISTICS.md)
+- in-doubt transactions
+  - forcing [13.1](COMMIT.md)
+  - forcing commit of [13.1](COMMIT.md)
+  - forcing rollback [18.11](FLASHBACK-TABLE.md), [19.7](ROLLBACK.md)
+  - rolling back [19.7](ROLLBACK.md)
+- inequality test [6.2](Comparison-Conditions.md)
+- INHERIT PRIVILEGES object privilege
+  - on a user [18.12](GRANT.md)
+- INITCAP function [7.100](INITCAP.md)
+- initialization parameters
+  - changing session settings [11.16](ALTER-SESSION.md)
+  - setting using ALTER SESSION [11.16.1](ALTER-SESSION.md)
+- INITIALIZED EXTERNALLY clause
+  - of CREATE CONTEXT [13.6](CREATE-CONTEXT.md)
+- INITIALIZED GLOBALLY clause
+  - of CREATE CONTEXT [13.6](CREATE-CONTEXT.md)
+- INITIALLY DEFERRED clause
+  - of constraints [8.2](constraint.md)
+- INITIALLY IMMEDIATE clause
+  - of constraints [8.2](constraint.md)
+- INITIAL parameter
+  - of STORAGE clause [8.9](storage_clause.md)
+- INITRANS parameter
+  - of ALTER CLUSTER [10.7](ALTER-CLUSTER.md)
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+  - of ALTER MATERIALIZED VIEW LOG [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of CREATE INDEX. See CREATE TABLE [13.17](CREATE-INDEX.md)
+  - of CREATE MATERIALIZED VIEW. See CREATE TABLE [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - of CREATE MATERIALIZED VIEW LOG. See CREATE TABLE [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+  - of CREATE TABLE [8.7](physical_attributes_clause.md)
+- inline analytic views [19.9](SELECT.md)
+- inline constraints
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- inline views [9.7](Using-Subqueries.md)
+  - lateral [19.9](SELECT.md)
+- INMEMORY_PRUNING hint [2.6.4.32](Comments.md)
+- INMEMORY hint [2.6.4.31](Comments.md)
+- inner joins [9.6.6](Joins.md), [19.9](SELECT.md)
+- inner-N reporting [7.194](ROW_NUMBER.md)
+- INSERT
+  - direct-path versus conventional [18.13](INSERT.md)
+- INSERT clause
+  - of MERGE [19.1](MERGE.md)
+- inserts
+  - and simultaneous update [19.1](MERGE.md)
+  - conditional [18.13](INSERT.md)
+  - conventional [18.13](INSERT.md)
+  - direct-path [18.13](INSERT.md)
+  - multitable [18.13](INSERT.md)
+    - examples [18.13](INSERT.md)
+  - single-table [18.13](INSERT.md)
+  - using MERGE [19.1](MERGE.md)
+- INSERT statement [18.13](INSERT.md)
+  - append [2.6.4.2](Comments.md), [2.6.4.3](Comments.md)
+  - error logging [18.13](INSERT.md)
+- instance recovery
+  - continue after interruption [10.8](ALTER-DATABASE.md)
+- instances
+  - making index extents available to [10.16](ALTER-INDEX.md)
+  - setting parameters for [12.2](ALTER-SYSTEM.md)
+- INSTANCE session parameter [11.16.2](ALTER-SESSION.md)
+- INSTR2 function [7.101](INSTR.md)
+- INSTR4 function [7.101](INSTR.md)
+- INSTRB function [7.101](INSTR.md)
+- INSTRC function [7.101](INSTR.md)
+- INSTR function [7.101](INSTR.md)
+- integers
+  - generating unique [15.1](CREATE-SEQUENCE.md)
+  - in SQL syntax [2.3.2.1](Literals.md)
+  - precision of [2.3.2.1](Literals.md)
+  - syntax of [2.3.2.1](Literals.md)
+- integrity constraints
+  - See: constraints
+- internal LOBs [2.1.1.6](Data-Types.md)
+- International Organization for Standardization (ISO)
+  - standards [1.2](SQL-Standards.md), [C.1](ANSI-Standards.md)
+- INTERSECT set operator [4.6](Set-Operators.md)
+- interval
+  - arithmetic [2.1.1.4.7](Data-Types.md)
+  - data types [2.1.1.4](Data-Types.md)
+  - literals [2.3.4](Literals.md)
+- interval conditions [6.12](BETWEEN-Condition.md)
+- INTERVAL DAY TO SECOND data type [2.1.1.4.6](Data-Types.md)
+- INTERVAL expressions [5.10](Interval-Expressions.md)
+- interval partitioning [12.3](ALTER-TABLE.md), [15.4](CREATE-TABLE.md)
+  - changing the interval [12.3](ALTER-TABLE.md)
+- INTERVAL YEAR TO MONTH data type [2.1.1.4.5](Data-Types.md)
+- INTO clause
+  - of EXPLAIN PLAN [18.9](EXPLAIN-PLAN.md)
+  - of INSERT [18.13](INSERT.md)
+- INVALIDATE GLOBAL INDEXES clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- inverse distribution functions [7.164](PERCENTILE_CONT.md), [7.165](PERCENTILE_DISC.md)
+- invoker rights
+  - altering for a Java class [10.19](ALTER-JAVA.md)
+  - defining for a Java class [13.20](CREATE-JAVA.md)
+- invoker’s rights views [15.11](CREATE-VIEW.md)
+- IS \[NOT\] EMPTY conditions [6.6.2](Multiset-Conditions.md)
+- IS ANY condition [6.5.1](Model-Conditions.md)
+- IS JSON condition [6.10.1](SQL-JSON-Conditions.md)
+- ISO
+  - See: International Organization for Standardization (ISO)
+- IS OF type condition [6.15](IS-OF-type-Condition.md)
+- IS PRESENT condition [6.5.2](Model-Conditions.md)
+- ITERATION_NUMBER function [7.102](ITERATION_NUMBER.md)
+
+------------------------------------------------------------------------
+
+## J
+
+- Java
+  - class
+    - creating [13.20](CREATE-JAVA.md)
+    - dropping [16.14](DROP-JAVA.md)
+    - resolving [10.19](ALTER-JAVA.md), [13.20](CREATE-JAVA.md)
+  - Java source schema object
+    - creating [13.20](CREATE-JAVA.md)
+  - resource
+    - creating [13.20](CREATE-JAVA.md)
+    - dropping [16.14](DROP-JAVA.md)
+  - schema object
+    - name resolution of [13.20](CREATE-JAVA.md)
+  - source
+    - compiling [10.19](ALTER-JAVA.md), [13.20](CREATE-JAVA.md)
+    - creating [13.20](CREATE-JAVA.md)
+    - dropping [16.14](DROP-JAVA.md)
+- job scheduler object privileges [18.12](GRANT.md)
+- JOIN clause
+  - of CREATE DIMENSION [13.10](CREATE-DIMENSION.md)
+- join groups
+  - altering [10.18](ALTER-INMEMORY-JOIN-GROUP.md)
+  - creating [13.19](CREATE-INMEMORY-JOIN-GROUP.md)
+  - dropping [16.13](DROP-INMEMORY-JOIN-GROUP.md)
+- JOIN KEY clause
+  - of ALTER DIMENSION [10.11](ALTER-DIMENSION.md)
+  - of CREATE DIMENSION [13.10](CREATE-DIMENSION.md)
+- joins [9.6](Joins.md)
+  - antijoins [9.6.8](Joins.md)
+  - band [9.6.3](Joins.md)
+  - conditions
+    - defining [9.6.1](Joins.md)
+  - cross [19.9](SELECT.md)
+  - equijoins [9.6.2](Joins.md)
+  - full outer [19.9](SELECT.md)
+  - inner [9.6.6](Joins.md), [19.9](SELECT.md)
+  - left outer [19.9](SELECT.md)
+  - natural [19.9](SELECT.md)
+  - outer [9.6.7](Joins.md)
+    - and data densification [9.6.7](Joins.md)
+    - on grouped tables [9.6.7](Joins.md)
+    - restrictions [9.6.7](Joins.md)
+  - parallel [2.6.4.82](Comments.md)
+  - right outer [19.9](SELECT.md)
+  - self [9.6.4](Joins.md)
+  - semijoins [9.6.9](Joins.md)
+  - without join conditions [9.6.5](Joins.md)
+- join views
+  - example [15.11](CREATE-VIEW.md)
+  - making updatable [15.11](CREATE-VIEW.md)
+  - modifying [15.12](DELETE.md), [18.13](INSERT.md), [19.15](UPDATE.md)
+- JSON_ARRAYAGG function [7.104](JSON_ARRAYAGG.md)
+- JSON_ARRAY function [7.103](JSON_ARRAY.md)
+- JSON_DATAGUIDE function [7.105](JSON_DATAGUIDE.md)
+- JSON_EXISTS condition [6.10.3](SQL-JSON-Conditions.md)
+- JSON_OBJECTAGG function [7.108](JSON_OBJECTAGG.md)
+- JSON_OBJECT function [7.107](JSON_OBJECT.md)
+- JSON_QUERY function [7.109](JSON_QUERY.md)
+- JSON_SERIALIZE function [7.110](JSON_SERIALIZE.md)
+- JSON_TABLE function [7.111](JSON_TABLE.md)
+- JSON_TEXTCONTAINS condition [6.10.4](SQL-JSON-Conditions.md)
+- JSON_VALUE function [7.113](JSON_VALUE.md)
+- Julian dates [2.1.1.4.1.1](Data-Types.md)
+
+------------------------------------------------------------------------
+
+## K
+
+- KEEP DATAFILES clause
+  - of DROP PLUGGABLE DATABASE [17.9](DROP-PLUGGABLE-DATABASE.md)
+- KEEP keyword
+  - of FIRST function [7.91](FIRST.md)
+  - of LAST function [7.91](FIRST.md)
+  - with aggregate functions [7.3](Aggregate-Functions.md)
+- KEEP parameter
+  - of CREATE SEQUENCE [15.1](CREATE-SEQUENCE.md)
+- KEEP SEQUENCE object privilege
+  - on a sequence [18.12](GRANT.md)
+- key compression
+  - See: prefix compression
+- key management framework
+  - granting system privileges for [18.12](GRANT.md)
+  - managing [10.3](ADMINISTER-KEY-MANAGEMENT.md)
+- key-preserved tables [15.11](CREATE-VIEW.md)
+- keys, eliminating repetition [10.16](ALTER-INDEX.md)
+- keywords [2.8.1](Database-Object-Names-and-Qualifiers.md)
+  - in object names [2.8.1](Database-Object-Names-and-Qualifiers.md)
+  - optional [A.1.2](Graphic-Syntax-Diagrams.md)
+  - required [A.1.1](Graphic-Syntax-Diagrams.md)
+- KILL SESSION clause
+  - of ALTER SYSTEM [12.2](ALTER-SYSTEM.md)
+
+------------------------------------------------------------------------
+
+## L
+
+- LAG function [7.114](LAG.md)
+- large object functions [7.2.9](Single-Row-Functions.md)
+- large objects
+  - See: LOB data types
+- LAST_DAY function [7.116](LAST_DAY.md)
+- LAST_VALUE function [7.117](LAST_VALUE.md)
+- LAST function [7.115](LAST.md)
+- lateral inline views [19.9](SELECT.md)
+- LEAD function [7.118](LEAD.md)
+- LEADING hint [2.6.4.33](Comments.md)
+- LEAST function [7.119](LEAST.md)
+- left outer joins [19.9](SELECT.md)
+- LENGTH2 function [7.120](LENGTH.md)
+- LENGTH4 function [7.120](LENGTH.md)
+- LENGTHB function [7.120](LENGTH.md)
+- LENGTHC function [7.120](LENGTH.md)
+- LENGTH function [7.120](LENGTH.md)
+- less than tests [6.2](Comparison-Conditions.md)
+- LEVEL clause
+  - of ALTER DIMENSION [10.11](ALTER-DIMENSION.md)
+  - of CREATE DIMENSION [13.10](CREATE-DIMENSION.md)
+- level columns
+  - specifying default values [15.4](CREATE-TABLE.md)
+- LEVEL pseudocolumn [3.1.3](Hierarchical-Query-Pseudocolumns.md), [19.9](SELECT.md)
+- levels
+  - adding to a dimension [10.11](ALTER-DIMENSION.md)
+  - dropping from a dimension [10.11](ALTER-DIMENSION.md)
+  - of dimensions, defining [13.10](CREATE-DIMENSION.md)
+- libraries
+  - creating [14.1](CREATE-LIBRARY.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - re-creating [14.1](CREATE-LIBRARY.md)
+  - removing from the database [17.1](DROP-LIBRARY.md)
+- library units
+  - See: Java schema objects
+- LIKE conditions [6.7.1](Pattern-matching-Conditions.md)
+- linear regression functions [7.188](REGR_-Linear-Regression-Functions.md)
+- LISTAGG function [7.121](LISTAGG.md)
+- LIST CHAINED ROWS clause
+  - of ANALYZE [12.10](ANALYZE.md)
+- listeners
+  - registering [12.2](ALTER-SYSTEM.md)
+- list partitioning
+  - adding default partition [12.3](ALTER-TABLE.md)
+  - adding partitions [12.3](ALTER-TABLE.md)
+  - adding values [12.3](ALTER-TABLE.md)
+  - creating a default partition [15.4](CREATE-TABLE.md)
+  - creating partitions [15.4](CREATE-TABLE.md)
+  - dropping values [12.3](ALTER-TABLE.md)
+  - merging default with nondefault partitions [12.3](ALTER-TABLE.md)
+  - splitting default partition [12.3](ALTER-TABLE.md)
+- list subpartitions
+  - adding [12.3](ALTER-TABLE.md)
+- literals [2.3](Literals.md)
+  - datetime [2.3.3](Literals.md)
+  - interval [2.3.4](Literals.md)
+- LN function [7.122](LN.md)
+- LNNVL function [7.123](LNNVL.md)
+- LOB columns
+  - adding [12.3](ALTER-TABLE.md)
+  - compressing [15.4](CREATE-TABLE.md)
+  - creating from LONG columns [2.1.1.3](Data-Types.md), [12.3](ALTER-TABLE.md)
+  - deduplication [15.4](CREATE-TABLE.md)
+  - defining properties
+    - for materialized views [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - encrypting [15.4](CREATE-TABLE.md)
+  - modifying [12.3](ALTER-TABLE.md)
+  - modifying storage [12.3](ALTER-TABLE.md)
+  - restricted in joins [9.6.1](Joins.md)
+  - restrictions on [2.1.1.6](Data-Types.md)
+  - storage characteristics of materialized views [11.3](ALTER-MATERIALIZED-VIEW.md)
+- LOB data types [2.1.1.6](Data-Types.md)
+- LOBs
+  - attributes, initializing [2.1.1.6](Data-Types.md)
+  - columns
+    - difference from LONG and LONG RAW [2.1.1.6](Data-Types.md)
+    - populating [2.1.1.6](Data-Types.md)
+  - external [2.1.1.6](Data-Types.md)
+  - internal [2.1.1.6](Data-Types.md)
+  - locators [2.1.1.6](Data-Types.md)
+  - logging attribute [15.4](CREATE-TABLE.md)
+  - modifying physical attributes [12.3](ALTER-TABLE.md)
+  - number of bytes manipulated in [15.4](CREATE-TABLE.md)
+  - saving old versions [15.4](CREATE-TABLE.md)
+  - saving values in a cache [12.3](ALTER-TABLE.md), [15.4](CREATE-TABLE.md)
+  - specifying directories for [13.11](CREATE-DIRECTORY.md)
+  - storage
+    - attributes [15.4](CREATE-TABLE.md)
+    - characteristics [8.7](physical_attributes_clause.md)
+    - in-line [15.4](CREATE-TABLE.md)
+  - tablespace for
+    - defining [15.4](CREATE-TABLE.md)
+- LOB storage clause
+  - for partitions [12.3](ALTER-TABLE.md)
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- LOCAL clause
+  - of CREATE INDEX [13.17](CREATE-INDEX.md)
+- locale independent [2.4.2.1.2](Format-Models.md)
+- locally managed tablespaces
+  - altering [12.4](ALTER-TABLESPACE.md)
+  - storage attributes [8.9](storage_clause.md)
+- locally partitioned indexes [13.17](CREATE-INDEX.md)
+- LOCALTIMESTAMP function [7.124](LOCALTIMESTAMP.md)
+- local users [14.15](CREATE-ROLE.md), [15.10](CREATE-USER.md)
+- location transparency [15.3](CREATE-SYNONYM.md)
+- locking, overriding automatic [18.14](LOCK-TABLE.md)
+- locks
+  - See: table locks
+
+  <!-- -->
+
+  - data [B.1](Automatic-Locks-in-DML-Operations.md)
+  - dictionary [B.2](Automatic-Locks-in-DDL-Operations.md)
+  - row (TX) [B.1](Automatic-Locks-in-DML-Operations.md)
+  - table (TM) [B.1](Automatic-Locks-in-DML-Operations.md)
+- LOCK TABLE statement [18.14](LOCK-TABLE.md)
+- log data
+  - collection during update operations [10.8](ALTER-DATABASE.md)
+- LOGFILE clause
+  - OF CREATE DATABASE [13.8](CREATE-DATABASE.md)
+- log file clauses
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- LOGFILE GROUP clause
+  - of CREATE CONTROLFILE [13.7](CREATE-CONTROLFILE.md)
+- log files
+  - adding [10.8](ALTER-DATABASE.md)
+  - dropping [10.8](ALTER-DATABASE.md)
+  - modifying [10.8](ALTER-DATABASE.md)
+  - registering [10.8](ALTER-DATABASE.md)
+  - renaming [10.8](ALTER-DATABASE.md)
+  - specifying for the database [13.8](CREATE-DATABASE.md)
+- LOG function [7.125](LOG.md)
+- logging
+  - and redo log size [8.5](logging_clause.md)
+  - specifying minimal [8.5](logging_clause.md)
+  - supplemental
+    - dropping [10.8](ALTER-DATABASE.md)
+  - supplemental, adding log groups [12.3](ALTER-TABLE.md)
+  - supplemental, dropping log groups [12.3](ALTER-TABLE.md)
+- LOGGING clause
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of ALTER MATERIALIZED VIEW LOG [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of ALTER TABLESPACE [12.4](ALTER-TABLESPACE.md)
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - of CREATE MATERIALIZED VIEW LOG [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+  - of CREATE TABLESPACE [15.5](CREATE-TABLESPACE.md)
+- log groups
+  - adding [12.3](ALTER-TABLE.md)
+  - dropping [12.3](ALTER-TABLE.md)
+- LOGICAL_READS_PER_CALL parameter
+  - of ALTER PROFILE [11.11](ALTER-PROFILE.md)
+- LOGICAL_READS_PER_SESSION parameter
+  - of ALTER PROFILE [11.11](ALTER-PROFILE.md)
+  - of ALTER RESOURCE COST [11.12](ALTER-RESOURCE-COST.md)
+- logical conditions [6.4](Logical-Conditions.md)
+- logical standby database
+  - aborting [10.8](ALTER-DATABASE.md)
+  - activating [10.8](ALTER-DATABASE.md)
+  - stopping [10.8](ALTER-DATABASE.md)
+- LogMiner
+  - granting system privileges for [18.12](GRANT.md)
+  - supplemental logging [12.3](ALTER-TABLE.md), [15.4](CREATE-TABLE.md)
+- LONG columns
+  - and domain indexes [12.3](ALTER-TABLE.md)
+  - converting to LOB [2.1.1.3](Data-Types.md), [12.3](ALTER-TABLE.md)
+  - restrictions on [2.1.1.3](Data-Types.md)
+  - to store text strings [2.1.1.3](Data-Types.md)
+  - to store view definitions [2.1.1.3](Data-Types.md)
+  - where referenced from [2.1.1.3](Data-Types.md)
+- LONG data type [2.1.1.3](Data-Types.md)
+  - in triggers [2.1.1.3](Data-Types.md)
+- LONG RAW data type [2.1.1.5](Data-Types.md)
+  - converting from CHAR data [2.1.1.5](Data-Types.md)
+- LONG VARGRAPHIC data type
+  - DB2 [2.1.3](Data-Types.md)
+  - SQL/DS [2.1.3](Data-Types.md)
+- LOWER function [7.126](LOWER.md)
+- LPAD function [7.127](LPAD.md)
+- LTRIM function [7.128](LTRIM.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- MAKE_REF function [7.129](MAKE_REF.md)
+- managed recovery
+  - of database [10.8](ALTER-DATABASE.md)
+- managed standby recovery
+  - as background process [10.8](ALTER-DATABASE.md)
+  - create a logical standby from the physical standby [10.8](ALTER-DATABASE.md)
+  - overriding delays [10.8](ALTER-DATABASE.md)
+  - returning control during [10.8](ALTER-DATABASE.md)
+  - terminating existing [10.8](ALTER-DATABASE.md)
+- MANAGED STANDBY RECOVERY clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- MAPPING TABLE clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- mapping tables
+  - of index-organized tables [12.3](ALTER-TABLE.md), [15.4](CREATE-TABLE.md)
+    - modifying [12.3](ALTER-TABLE.md)
+- master databases [14.3](CREATE-MATERIALIZED-VIEW.md)
+- master tables [14.3](CREATE-MATERIALIZED-VIEW.md)
+- MATCHES condition [6.1](About-SQL-Conditions.md)
+- MATCHES operator [4.1](About-SQL-Operators.md)
+- materialized join views [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+- materialized view logs [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+  - creating [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+  - excluding new values from [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+  - logging changes to [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+  - object ID based [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+  - parallelizing creation [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+  - partition attributes, changing [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+  - partitioned [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+  - physical attributes
+    - changing [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+    - specifying [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+  - purging [11.4](ALTER-MATERIALIZED-VIEW-LOG.md), [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+  - refreshing [11.4](ALTER-MATERIALIZED-VIEW-LOG.md), [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+  - removing from the database [17.4](DROP-MATERIALIZED-VIEW-LOG.md)
+  - required for fast refresh [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+  - required for synchronous refresh [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+  - rowid based [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+  - saving new values in [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+  - saving old values in [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+  - staging logs [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+  - storage attributes
+    - specifying [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+- materialized views [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - changing from rowid-based to primary-key-based [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - changing to primary-key-based [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+  - complete refresh [11.3](ALTER-MATERIALIZED-VIEW.md), [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - compression of [11.3](ALTER-MATERIALIZED-VIEW.md), [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - constraints on [8.2](constraint.md)
+  - creating [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - creating comments about [12.15](COMMENT.md)
+  - degree of parallelism [11.3](ALTER-MATERIALIZED-VIEW.md), [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+    - during creation [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - enabling and disabling query rewrite [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - examples [14.3](CREATE-MATERIALIZED-VIEW.md), [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+  - fast refresh [11.3](ALTER-MATERIALIZED-VIEW.md), [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - forced refresh [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - for data warehousing [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - for replication [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - index characteristics
+    - changing [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - indexes that maintain [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - join [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+  - LOB storage attributes [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - logging changes to [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - master table, dropping [17.3](DROP-MATERIALIZED-VIEW.md)
+  - object type, creating [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - partitions [11.3](ALTER-MATERIALIZED-VIEW.md)
+    - compression of [11.3](ALTER-MATERIALIZED-VIEW.md), [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - physical attributes [14.3](CREATE-MATERIALIZED-VIEW.md)
+    - changing [11.3](ALTER-MATERIALIZED-VIEW.md), [11.5](ALTER-MATERIALIZED-ZONEMAP.md)
+  - primary key [14.3](CREATE-MATERIALIZED-VIEW.md)
+    - recording values in master table [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+  - query rewrite
+    - eligibility for [8.2](constraint.md)
+    - enabling and disabling [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - re-creating during refresh [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - refresh [10.8](ALTER-DATABASE.md)
+    - after DML on master table [11.3](ALTER-MATERIALIZED-VIEW.md), [14.3](CREATE-MATERIALIZED-VIEW.md)
+    - mode, changing [11.3](ALTER-MATERIALIZED-VIEW.md)
+    - on next COMMIT [11.3](ALTER-MATERIALIZED-VIEW.md), [14.3](CREATE-MATERIALIZED-VIEW.md)
+    - using trusted constraints [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - refresh, time, changing [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - refreshing [10.8](ALTER-DATABASE.md)
+  - removing from the database [17.3](DROP-MATERIALIZED-VIEW.md)
+  - restricting scope of [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - retrieving data from [19.9](SELECT.md)
+  - revalidating [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - rowid [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - rowid values
+    - recording in master table [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+  - saving blocks in a cache [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - storage attributes [14.3](CREATE-MATERIALIZED-VIEW.md)
+    - changing [11.3](ALTER-MATERIALIZED-VIEW.md), [11.5](ALTER-MATERIALIZED-ZONEMAP.md)
+  - subquery [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - suppressing creation of default index [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - synonyms for [15.3](CREATE-SYNONYM.md)
+  - when to populate [14.3](CREATE-MATERIALIZED-VIEW.md)
+- MAXDATAFILES parameter
+  - of CREATE CONTROLFILE [13.7](CREATE-CONTROLFILE.md)
+  - of CREATE DATABASE [13.8](CREATE-DATABASE.md)
+- MAXEXTENTS parameter
+  - of STORAGE clause [8.9](storage_clause.md)
+- MAX function [7.130](MAX.md)
+- MAXINSTANCES parameter
+  - of CREATE CONTROLFILE [13.7](CREATE-CONTROLFILE.md)
+  - OF CREATE DATABASE [13.8](CREATE-DATABASE.md)
+- MAXLOGFILES parameter
+  - of CREATE CONTROLFILE [13.7](CREATE-CONTROLFILE.md)
+  - of CREATE DATABASE [13.8](CREATE-DATABASE.md)
+- MAXLOGHISTORY parameter
+  - of CREATE CONTROLFILE [13.7](CREATE-CONTROLFILE.md)
+  - of CREATE DATABASE [13.8](CREATE-DATABASE.md)
+- MAXLOGMEMBERS parameter
+  - of CREATE CONTROLFILE [13.7](CREATE-CONTROLFILE.md)
+  - of CREATE DATABASE [13.8](CREATE-DATABASE.md)
+- MAXSIZE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- MAXTRANS parameter
+  - of physical_attributes_clause [8.7](physical_attributes_clause.md)
+- MAXVALUE parameter
+  - of ALTER SEQUENCE. See CREATE SEQUENCE [11.15](ALTER-SEQUENCE.md)
+  - of CREATE SEQUENCE [15.1](CREATE-SEQUENCE.md)
+- measure expressions
+  - analytic view [5.3](analytic-view-measure-expressions.md)
+- MEDIAN function [7.131](MEDIAN.md)
+- median values [7.165](PERCENTILE_DISC.md)
+- media recovery
+  - avoid on startup [10.8](ALTER-DATABASE.md)
+  - designing [10.8](ALTER-DATABASE.md)
+  - disabling [10.8](ALTER-DATABASE.md)
+  - from specified redo logs [10.8](ALTER-DATABASE.md)
+  - of database [10.8](ALTER-DATABASE.md)
+  - of data files [10.8](ALTER-DATABASE.md)
+  - of standby database [10.8](ALTER-DATABASE.md)
+  - of tablespaces [10.8](ALTER-DATABASE.md)
+  - performing ongoing [10.8](ALTER-DATABASE.md)
+  - preparing for [10.8](ALTER-DATABASE.md)
+  - restrictions [10.8](ALTER-DATABASE.md)
+  - sustained standby recovery [10.8](ALTER-DATABASE.md)
+- MEMBER conditions [6.6.3](Multiset-Conditions.md)
+- membership conditions [6.6.3](Multiset-Conditions.md), [6.14](IN-Condition.md)
+- merge_insert_clause
+  - of MERGE [19.1](MERGE.md)
+- MERGE ANY VIEW system privilege [18.12](GRANT.md)
+- MERGE hint [2.6.4.34](Comments.md)
+- MERGE PARTITIONS clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- MERGE statement [19.1](MERGE.md)
+  - deletes during [19.1](MERGE.md)
+  - error logging [19.1](MERGE.md)
+  - inserts during [19.1](MERGE.md)
+  - updates during [19.1](MERGE.md)
+- MERGE VIEW object privilege on a view [18.12](GRANT.md)
+- migrated rows
+  - listing [12.10](ANALYZE.md)
+  - of clusters [12.10](ANALYZE.md)
+- MINEXTENTS parameter
+  - of STORAGE clause [8.9](storage_clause.md)
+- MIN function [7.132](MIN.md)
+- MINIMIZE RECORDS PER BLOCK clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- MINIMUM EXTENT clause
+  - of ALTER TABLESPACE [12.4](ALTER-TABLESPACE.md)
+  - of CREATE TABLESPACE [15.5](CREATE-TABLESPACE.md)
+- mining models
+  - auditing [12.12](AUDIT-Traditional-Auditing.md)
+  - comments on [12.15](COMMENT.md)
+- MINUS set operator [4.6](Set-Operators.md)
+- MINVALUE parameter
+  - of ALTER SEQUENCE. See CREATE SEQUENCE [11.15](ALTER-SEQUENCE.md)
+  - of CREATE SEQUENCE [15.1](CREATE-SEQUENCE.md)
+- MODE clause
+  - of LOCK TABLE [18.14](LOCK-TABLE.md)
+- MODEL_MIN_ANALYSIS hint [2.6.4.35](Comments.md)
+- MODEL clause
+  - of SELECT [19.9](SELECT.md)
+- model conditions [6.5](Model-Conditions.md)
+  - IS ANY [6.5.1](Model-Conditions.md)
+  - IS PRESENT [6.5.2](Model-Conditions.md)
+- model expression [5.12](Model-Expressions.md)
+- model functions [7.6](Model-Functions.md)
+- MOD function [7.133](MOD.md)
+- MODIFY clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- MODIFY CONSTRAINT clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of ALTER VIEW [12.9](ALTER-VIEW.md)
+- MODIFY DEFAULT ATTRIBUTES clause
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- MODIFY LOB storage clause
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- MODIFY NESTED TABLE clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- MODIFY PARTITION clause
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- MODIFY scoped_table_ref_constraint clause
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+- MODIFY SUBPARTITION clause
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+- MODIFY VARRAY clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- MON datetime format element [2.4.2.2](Format-Models.md)
+- MONITOR hint [2.6.4.36](Comments.md)
+- MONITORING USAGE clause
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+- MONTH datetime format element [2.4.2.2](Format-Models.md)
+- MONTHS_BETWEEN function [7.134](MONTHS_BETWEEN.md)
+- MOUNT clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- MOVE clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of CREATE PLUGGABLE DATABASE [14.11](CREATE-PLUGGABLE-DATABASE.md)
+- MOVE ONLINE clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- MOVE SUBPARTITION clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- MTS
+  - See: shared server
+- multilevel collections [15.4](CREATE-TABLE.md)
+- multiset conditions [6.6](Multiset-Conditions.md)
+- MULTISET EXCEPT operator [4.7.1](Multiset-Operators.md)
+- MULTISET INTERSECT operator [4.7.2](Multiset-Operators.md)
+- MULTISET keyword
+  - of CAST function [7.38](CAST.md)
+- multiset operators [4.7](Multiset-Operators.md)
+  - MULTISET EXCEPT [4.7.1](Multiset-Operators.md)
+  - MULTISET INTERSECT [4.7.2](Multiset-Operators.md)
+  - MULTISET UNION [4.7.3](Multiset-Operators.md)
+- MULTISET UNION operator [4.7.3](Multiset-Operators.md)
+- multitable inserts [18.13](INSERT.md)
+  - conditional [18.13](INSERT.md)
+  - examples [18.13](INSERT.md)
+  - unconditional [18.13](INSERT.md)
+- multitenant container databases
+  - See: CDBs
+- multi-threaded server
+  - See: shared server
+
+------------------------------------------------------------------------
+
+## N
+
+- NAME clause
+  - of SET TRANSACTION [19.12](SET-TRANSACTION.md)
+- NAMED clause
+  - of CREATE JAVA [13.20](CREATE-JAVA.md)
+- namespaces
+  - and object naming rules [2.8.1](Database-Object-Names-and-Qualifiers.md)
+  - database [2.8.1](Database-Object-Names-and-Qualifiers.md)
+  - for nonschema objects [2.8.1](Database-Object-Names-and-Qualifiers.md)
+  - for schema objects [2.8.1](Database-Object-Names-and-Qualifiers.md)
+- NANVL function [7.135](NANVL.md)
+- national character set
+  - changing [10.8](ALTER-DATABASE.md)
+  - multibyte character data [2.1.1.6.4](Data-Types.md)
+  - variable-length strings [2.1.1.1.5](Data-Types.md)
+- NATIONAL CHARACTER SET parameter
+  - of CREATE DATABASE [13.8](CREATE-DATABASE.md)
+- natural joins [19.9](SELECT.md)
+- NCHAR data type [2.1.1.1.2](Data-Types.md)
+- NCHR function [7.136](NCHR.md)
+- NCLOB data type [2.1.1.6.4](Data-Types.md)
+- nested subqueries [9.7](Using-Subqueries.md)
+- NESTED TABLE clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- nested tables [2.1.4.4](Data-Types.md), [6.6.1](Multiset-Conditions.md), [7.167](POWERMULTISET.md), [7.201](SET.md)
+  - changing returned value [12.3](ALTER-TABLE.md)
+  - combining [4.7](Multiset-Operators.md)
+  - compared with varrays [2.2.6](Data-Type-Comparison-Rules.md)
+  - comparison rules [2.2.6](Data-Type-Comparison-Rules.md)
+  - creating [15.8](CREATE-TYPE.md)
+  - creating from existing columns [7.49](COLLECT.md)
+  - defining as index-organized tables [12.3](ALTER-TABLE.md)
+  - determining hierarchy [6.6.4](Multiset-Conditions.md)
+  - dropping the body of [18.6](DROP-TYPE-BODY.md)
+  - dropping the specification of [18.5](DROP-TYPE.md)
+  - indexing columns of [13.17](CREATE-INDEX.md)
+  - in materialized views [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - modifying [12.3](ALTER-TABLE.md)
+  - modifying column properties [12.3](ALTER-TABLE.md)
+  - multilevel [15.4](CREATE-TABLE.md)
+  - partitioned nested table columns [12.3](ALTER-TABLE.md)
+  - storage characteristics of [12.3](ALTER-TABLE.md), [15.4](CREATE-TABLE.md)
+- NEW_TIME function [7.137](NEW_TIME.md)
+- NEXT_DAY function [7.138](NEXT_DAY.md)
+- NEXT clause
+  - of ALTER MATERIALIZED VIEW ... REFRESH [11.3](ALTER-MATERIALIZED-VIEW.md)
+- NEXT parameter
+  - of STORAGE clause [8.9](storage_clause.md)
+- NEXTVAL pseudocolumn [3.2](Sequence-Pseudocolumns.md), [15.1](CREATE-SEQUENCE.md)
+- NLS_CHARSET_DECL_LEN function [7.139](NLS_CHARSET_DECL_LEN.md)
+- NLS_CHARSET_ID function [7.140](NLS_CHARSET_ID.md)
+- NLS_CHARSET_NAME function [7.141](NLS_CHARSET_NAME.md)
+- NLS_COLLATION_ID function [7.142](NLS_COLLATION_ID.md)
+- NLS_COLLATION_NAME function [7.143](NLS_COLLATION_NAME.md)
+- NLS_DATE_LANGUAGE initialization parameter [2.4.2.2](Format-Models.md)
+- NLS_INITCAP function [7.144](NLS_INITCAP.md)
+- NLS_LANGUAGE initialization parameter [2.4.2.2](Format-Models.md)
+- NLS_LOWER function [7.145](NLS_LOWER.md)
+- NLS_TERRITORY initialization parameter [2.4.2.2](Format-Models.md)
+- NLS_UPPER function [7.146](NLS_UPPER.md)
+- NLSSORT function [7.147](NLSSORT.md)
+- NO_CLUSTERING hint [2.6.4.40](Comments.md)
+- NO_EXPAND hint [2.6.4.41](Comments.md)
+- NO_FACT hint [2.6.4.42](Comments.md)
+- NO_GATHER_OPTIMIZER_STATISTICS hint [2.6.4.43](Comments.md)
+- NO_INDEX_FFS hint [2.6.4.45](Comments.md)
+- NO_INDEX_SS hint [2.6.4.46](Comments.md)
+- NO_INDEX hint [2.6.4.44](Comments.md)
+- NO_INMEMORY_PRUNING hint [2.6.4.48](Comments.md)
+- NO_INMEMORY hint [2.6.4.47](Comments.md)
+- NO_MERGE hint [2.6.4.49](Comments.md)
+- NO_MONITOR hint [2.6.4.50](Comments.md)
+- NO_PARALLEL_INDEX [2.6.4.54](Comments.md)
+- NO_PARALLEL hint [2.6.4.52](Comments.md)
+- NO_PQ_CONCURRENT_UNION hint [2.6.4.56](Comments.md)
+- NO_PQ_SKEW hint [2.6.4.57](Comments.md)
+- NO_PUSH_PRED hint [2.6.4.58](Comments.md)
+- NO_PUSH_SUBQ hint [2.6.4.59](Comments.md)
+- NO_PX_JOIN_FILTER hint [2.6.4.60](Comments.md)
+- NO_QUERY_TRANSFORMATION hint [2.6.4.61](Comments.md)
+- NO_RESULT_CACHE hint [2.6.4.62](Comments.md)
+- NO_REWRITE hint [2.6.4.63](Comments.md)
+- NO_STAR_TRANSFORMATION hint [2.6.4.65](Comments.md)
+- NO_STATEMENT_QUEUING hint [2.6.4.66](Comments.md)
+- NO_UNNEST hint [2.6.4.67](Comments.md)
+- NO_USE_BAND hint [2.6.4.68](Comments.md)
+- NO_USE_CUBE hint [2.6.4.69](Comments.md)
+- NO_USE_HASH hint [2.6.4.70](Comments.md)
+- NO_USE_MERGE hint [2.6.4.71](Comments.md)
+- NO_USE_NL hint [2.6.4.72](Comments.md)
+- NO_XML_QUERY_REWRITE hint [2.6.4.73](Comments.md)
+- NO_XMLINDEX_REWRITE hint [2.6.4.74](Comments.md)
+- NO_ZONEMAP hint [2.6.4.75](Comments.md)
+- NOARCHIVELOG clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+  - of CREATE CONTROLFILE [13.7](CREATE-CONTROLFILE.md)
+  - OF CREATE DATABASE [10.8](ALTER-DATABASE.md), [13.8](CREATE-DATABASE.md)
+- NOAUDIT statement [19.2](NOAUDIT-Traditional-Auditing.md)
+  - for unified auditing [19.3](NOAUDIT-Unified-Auditing.md)
+  - locks [B.2.2](Automatic-Locks-in-DDL-Operations.md)
+- NOCACHE clause
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of ALTER MATERIALIZED VIEW LOG [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+  - of ALTER SEQUENCE. See CREATE SEQUENCE [11.15](ALTER-SEQUENCE.md)
+  - of ALTER TABLE [15.4](CREATE-TABLE.md)
+  - of CREATE CLUSTER [13.5](CREATE-CLUSTER.md)
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - of CREATE MATERIALIZED VIEW LOG [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+  - of CREATE SEQUENCE [15.1](CREATE-SEQUENCE.md)
+- NOCACHE hint [2.6.4.39](Comments.md)
+- NOCOMPRESS clause
+  - of ALTER INDEX ... REBUILD [13.17](CREATE-INDEX.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- NOCOPY clause
+  - of CREATE PLUGGABLE DATABASE [14.11](CREATE-PLUGGABLE-DATABASE.md)
+- NOCYCLE parameter
+  - of ALTER SEQUENCE. See CREATE SEQUENCE [11.15](ALTER-SEQUENCE.md)
+  - of CREATE SEQUENCE [15.1](CREATE-SEQUENCE.md)
+- NOFORCE clause
+  - of CREATE JAVA [13.20](CREATE-JAVA.md)
+  - of CREATE VIEW [15.11](CREATE-VIEW.md)
+- NO FORCE LOGGING clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+  - of ALTER TABLESPACE [12.4](ALTER-TABLESPACE.md)
+- NOKEEP parameter
+  - of CREATE SEQUENCE [15.1](CREATE-SEQUENCE.md)
+- NOLOGGING mode
+  - and force logging mode [8.5](logging_clause.md)
+  - for nonpartitioned objects [8.5](logging_clause.md)
+  - for partitioned objects [8.5](logging_clause.md)
+- NOMAXVALUE parameter
+  - of ALTER SEQUENCE. See CREATE SEQUENCE [11.15](ALTER-SEQUENCE.md)
+  - of CREATE SEQUENCE [15.1](CREATE-SEQUENCE.md)
+- NOMINIMIZE RECORDS PER BLOCK clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- NOMINVALUE parameter
+  - of ALTER SEQUENCE. See CREATE SEQUENCE [11.15](ALTER-SEQUENCE.md)
+  - of CREATE SEQUENCE [15.1](CREATE-SEQUENCE.md)
+- NOMONITORING USAGE clause
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+- NONE clause
+  - of SET ROLE [19.11](SET-ROLE.md)
+- nonempty subsets of [7.167](POWERMULTISET.md)
+- nonequivalency tests [6.14](IN-Condition.md)
+- nonschema objects
+  - list of [2.7.2](Database-Objects.md)
+  - namespaces [2.8.1](Database-Object-Names-and-Qualifiers.md)
+- NOORDER parameter
+  - of ALTER SEQUENCE. See CREATE SEQUENCE [11.15](ALTER-SEQUENCE.md)
+  - of CREATE SEQUENCE [15.1](CREATE-SEQUENCE.md)
+- NOPARALLEL_INDEX hint [2.6.4.54](Comments.md)
+- NOPARALLEL clause
+  - of CREATE INDEX [8.6](parallel_clause.md), [15.4](CREATE-TABLE.md)
+- NOPARALLEL hint [2.6.4.52](Comments.md)
+- NORELY clause
+  - of constraints [8.2](constraint.md)
+- NORESETLOGS clause
+  - of CREATE CONTROLFILE [13.7](CREATE-CONTROLFILE.md)
+- NOREVERSE parameter
+  - of ALTER INDEX ... REBUILD [10.16](ALTER-INDEX.md)
+- NOREWRITE hint [2.6.4.63](Comments.md)
+- NOROWDEPENDENCIES clause
+  - of CREATE CLUSTER [13.5](CREATE-CLUSTER.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- NOSORT clause
+  - of ALTER INDEX [13.17](CREATE-INDEX.md)
+- NOT condition [6.4](Logical-Conditions.md)
+- NOT DEFERRABLE clause
+  - of constraints [8.2](constraint.md)
+- NOT IDENTIFIED clause
+  - of ALTER ROLE. See CREATE ROLE [11.13](ALTER-ROLE.md)
+  - of CREATE ROLE [14.15](CREATE-ROLE.md)
+- NOT IN subqueries
+  - converting to NOT EXISTS subqueries [7.123](LNNVL.md)
+- NOT NULL clause
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- NOWAIT clause
+  - of LOCK TABLE [18.14](LOCK-TABLE.md)
+- NTH_VALUE function [7.148](NTH_VALUE.md)
+- NTILE function [7.149](NTILE.md)
+- null [2.5](Nulls.md)
+  - difference from zero [2.5](Nulls.md)
+  - in conditions [2.5.3](Nulls.md)
+    - table of [2.5.3](Nulls.md)
+  - in functions [7.1](About-SQL-Functions.md)
+  - with comparison conditions [2.5.2](Nulls.md)
+- null conditions [6.8](Null-Conditions.md)
+- NULLIF function [7.150](NULLIF.md)
+  - as a form of CASE expression [7.150](NULLIF.md)
+- NULL-related functions [7.2.16](Single-Row-Functions.md)
+- NUMBER data type [2.1.1.2.1](Data-Types.md)
+  - converting to VARCHAR2 [2.4.1](Format-Models.md)
+  - precision [2.1.1.2.1](Data-Types.md)
+  - scale [2.1.1.2.1](Data-Types.md)
+- number format models [2.4.1](Format-Models.md)
+- number functions [7.2.1](Single-Row-Functions.md)
+- numbers
+  - comparison rules [2.2.1](Data-Type-Comparison-Rules.md)
+  - floating-point [2.1.1.2.1](Data-Types.md), [2.1.1.2.3](Data-Types.md)
+  - in SQL syntax [2.3.2](Literals.md)
+  - precision of [2.3.2.2](Literals.md)
+  - spelling out [2.4.2.5](Format-Models.md)
+  - syntax of [2.3.2.2](Literals.md)
+- numeric data type [2.1.1.2](Data-Types.md)
+- numeric functions [7.2.1](Single-Row-Functions.md)
+- numeric precedence [2.1.1.2.4](Data-Types.md)
+- NUMTODSINTERVAL function [7.151](NUMTODSINTERVAL.md)
+- NUMTOYMINTERVAL function [7.152](NUMTOYMINTERVAL.md)
+- NVARCHAR2 data type [2.1.1.1.5](Data-Types.md)
+- NVL2 function [7.154](NVL2.md)
+- NVL function [7.153](NVL.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- OBJECT_ID pseudocolumn [3.5](OBJECT_ID-Pseudocolumn.md), [15.4](CREATE-TABLE.md), [15.11](CREATE-VIEW.md)
+- OBJECT_VALUE pseudocolumn [3.6](OBJECT_VALUE-Pseudocolumn.md)
+- object access expressions [5.13](Object-Access-Expressions.md)
+- OBJECT IDENTIFIER clause
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- object identifiers
+  - contained in REFs [2.1.4.2](Data-Types.md)
+  - primary key [15.4](CREATE-TABLE.md)
+  - specifying [15.4](CREATE-TABLE.md)
+  - specifying an index on [15.4](CREATE-TABLE.md)
+  - system-generated [15.4](CREATE-TABLE.md)
+- object instances
+  - types of [6.15](IS-OF-type-Condition.md)
+- object privileges
+  - granting [14.15](CREATE-ROLE.md)
+    - multiple [14.17](CREATE-SCHEMA.md)
+    - on specific columns [18.12](GRANT.md)
+  - on a database object
+    - revoking [19.6](REVOKE.md)
+  - revoking [19.6](REVOKE.md)
+    - from a role [19.6](REVOKE.md)
+    - from a user [19.6](REVOKE.md)
+    - from PUBLIC [19.6](REVOKE.md)
+- object reference functions [7.5](Object-Reference-Functions.md)
+- objects
+  - See: object types or database objects
+- object tables
+  - adding rows to [18.13](INSERT.md)
+  - as part of hierarchy [15.4](CREATE-TABLE.md)
+  - creating [15.4](CREATE-TABLE.md)
+  - querying [15.4](CREATE-TABLE.md)
+  - system-generated column name [15.4](CREATE-TABLE.md), [15.11](CREATE-VIEW.md)
+  - updating to latest version [12.3](ALTER-TABLE.md)
+  - upgrading [12.3](ALTER-TABLE.md)
+- object type columns
+  - defining properties
+    - for materialized views [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - in a type hierarchy [15.4](CREATE-TABLE.md)
+  - membership in hierarchy [12.3](ALTER-TABLE.md)
+  - modifying properties
+    - for tables [12.3](ALTER-TABLE.md)
+  - substitutability [12.3](ALTER-TABLE.md)
+- object type materialized views
+  - creating [14.3](CREATE-MATERIALIZED-VIEW.md)
+- object types [2.1.4.1](Data-Types.md)
+  - associating statistics types with [12.11](ASSOCIATE-STATISTICS.md)
+  - attributes [2.9.5](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md)
+    - in a type hierarchy [15.4](CREATE-TABLE.md)
+    - membership in hierarchy [12.3](ALTER-TABLE.md)
+    - substitutability [12.3](ALTER-TABLE.md)
+  - bodies
+    - creating [15.9](CREATE-TYPE-BODY.md)
+    - re-creating [15.9](CREATE-TYPE-BODY.md)
+  - comparison rules [2.2.5](Data-Type-Comparison-Rules.md)
+    - MAP function [2.2.5](Data-Type-Comparison-Rules.md)
+    - ORDER function [2.2.5](Data-Type-Comparison-Rules.md)
+  - components of [2.1.4.1](Data-Types.md)
+  - creating [15.8](CREATE-TYPE.md)
+  - defining member methods of [15.9](CREATE-TYPE-BODY.md)
+  - disassociating statistics types from [15.13](DISASSOCIATE-STATISTICS.md), [18.5](DROP-TYPE.md)
+  - dropping the body of [18.6](DROP-TYPE-BODY.md)
+  - dropping the specification of [18.5](DROP-TYPE.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - identifiers [3.5](OBJECT_ID-Pseudocolumn.md)
+  - incomplete [15.8](CREATE-TYPE.md)
+  - methods [2.9.5](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md)
+  - privileges on subtypes [18.12](GRANT.md)
+  - references to. See REFs [2.1.4.2](Data-Types.md)
+  - statistics types [12.11](ASSOCIATE-STATISTICS.md)
+  - values of [3.6](OBJECT_VALUE-Pseudocolumn.md)
+- object views [15.11](CREATE-VIEW.md)
+  - base tables
+    - adding rows [18.13](INSERT.md)
+  - creating [15.11](CREATE-VIEW.md)
+  - defining [15.11](CREATE-VIEW.md)
+  - querying [15.11](CREATE-VIEW.md)
+- ODCIIndexInsert method
+  - indextype support of [10.17](ALTER-INDEXTYPE.md), [13.18](CREATE-INDEXTYPE.md)
+- OF clause
+  - of CREATE VIEW [15.11](CREATE-VIEW.md)
+- of CREATE OPERATOR [14.6](CREATE-OPERATOR.md)
+- OFFLINE clause
+  - of ALTER TABLESPACE [12.4](ALTER-TABLESPACE.md)
+  - of CREATE TABLESPACE [15.5](CREATE-TABLESPACE.md)
+- OFFSET
+  - row_limiting_clause [19.9](SELECT.md)
+- OIDINDEX clause
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- OIDs
+  - See: object identifiers
+- OLAP functions [7.7](OLAP-Functions.md)
+- ON clause
+  - of CREATE OUTLINE [14.7](CREATE-OUTLINE.md)
+- ON COMMIT clause
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- ON DEFAULT clause
+  - of AUDIT [12.12](AUDIT-Traditional-Auditing.md)
+  - of NOAUDIT [19.2](NOAUDIT-Traditional-Auditing.md)
+- ON DELETE CASCADE clause
+  - of constraints [8.2](constraint.md)
+- ON DELETE SET NULL clause
+  - of constraints [8.2](constraint.md)
+- ON DIRECTORY clause
+  - of AUDIT [12.12](AUDIT-Traditional-Auditing.md)
+  - of NOAUDIT [19.2](NOAUDIT-Traditional-Auditing.md)
+- online backup
+  - of tablespaces, ending [12.4](ALTER-TABLESPACE.md)
+- ONLINE clause
+  - of ALTER TABLESPACE [12.4](ALTER-TABLESPACE.md)
+  - of CREATE INDEX [13.17](CREATE-INDEX.md)
+  - of CREATE TABLESPACE [15.5](CREATE-TABLESPACE.md)
+- online indexes [13.17](CREATE-INDEX.md)
+  - rebuilding [12.3](ALTER-TABLE.md)
+- online redo logs
+  - reinitializing [10.8](ALTER-DATABASE.md)
+- ON MINING MODEL clause
+  - of AUDIT [12.12](AUDIT-Traditional-Auditing.md)
+- ON object clause
+  - of NOAUDIT [19.2](NOAUDIT-Traditional-Auditing.md)
+  - of REVOKE [19.6](REVOKE.md)
+- ON PREBUILT TABLE clause
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+- OPEN clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- OPEN READ ONLY clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- OPEN READ WRITE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- operands [4](Operators.md)
+- operating system files
+  - dropping [18.2](DROP-TABLESPACE.md)
+  - removing [10.8](ALTER-DATABASE.md)
+- operators [4](Operators.md)
+  - adding to indextypes [10.17](ALTER-INDEXTYPE.md)
+  - altering [11.6](ALTER-OPERATOR.md)
+  - arithmetic [4.2](Arithmetic-Operators.md)
+  - binary [4.1.1](About-SQL-Operators.md)
+  - COLLATE [4.3](COLLATE-Operator.md)
+  - comments on [12.15](COMMENT.md)
+  - concatenation [4.4](Concatenation-Operator.md)
+  - CONNECT_BY_ROOT [4.5.2](Hierarchical-Query-Operators.md)
+  - dropping from indextypes [10.17](ALTER-INDEXTYPE.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - MULTISET EXCEPT [4.7.1](Multiset-Operators.md)
+  - MULTISET INTERSECT [4.7.2](Multiset-Operators.md)
+  - MULTISET UNION [4.7.3](Multiset-Operators.md)
+  - precedence [4.1.2](About-SQL-Operators.md)
+  - PRIOR [4.5.1](Hierarchical-Query-Operators.md)
+  - set [4.6](Set-Operators.md)
+  - specifying implementation of [14.6](CREATE-OPERATOR.md)
+  - unary [4.1.1](About-SQL-Operators.md)
+  - user-defined [4.8](User-Defined-Operators.md)
+    - binding to a function [11.6](ALTER-OPERATOR.md), [14.6](CREATE-OPERATOR.md)
+    - compiling [11.6](ALTER-OPERATOR.md)
+    - creating [14.6](CREATE-OPERATOR.md)
+    - dropping [17.6](DROP-OPERATOR.md)
+    - how bindings are implemented [14.6](CREATE-OPERATOR.md)
+    - implementation type [14.6](CREATE-OPERATOR.md)
+- OPT_PARAM hint [2.6.4.77](Comments.md)
+- OPTIMAL parameter
+  - of STORAGE clause [8.9](storage_clause.md)
+- ORA_DST_AFFECTED function [7.156](ORA_DST_AFFECTED.md)
+- ORA_DST_CONVERT function [7.157](ORA_DST_CONVERT.md)
+- ORA_DST_ERROR function [7.158](ORA_DST_ERROR.md)
+- ORA_HASH function [7.159](ORA_HASH.md)
+- ORA_INVOKING_USER function [7.160](ORA_INVOKING_USER.md)
+- ORA_INVOKING_USERID function [7.161](ORA_INVOKING_USERID.md)
+- ORA_ROWSCN pseudocolumn [3.7](ORA_ROWSCN-Pseudocolumn.md)
+- Oracle ADVM volumes [10.12](ALTER-DISKGROUP.md)
+- Oracle Automatic Storage Management
+  - migrating nodes in a cluster [12.2](ALTER-SYSTEM.md)
+- Oracle Call Interface [1.5](Tools-Support.md)
+- Oracle reserved words [E.1](Oracle-SQL-Reserved-Words.md)
+- Oracle Text
+  - built-in conditions [6.1](About-SQL-Conditions.md)
+  - CATSEARCH [6.1](About-SQL-Conditions.md)
+  - CONTAINS [6.1](About-SQL-Conditions.md)
+  - creating domain indexes [13.17](CREATE-INDEX.md)
+  - MATCHES [6.1](About-SQL-Conditions.md)
+  - operators [4.1](About-SQL-Operators.md)
+    - CATSEARCH [4.1](About-SQL-Operators.md)
+    - CONTAINS [4.1](About-SQL-Operators.md)
+    - MATCHES [4.1](About-SQL-Operators.md)
+    - SCORE [4.1](About-SQL-Operators.md)
+- Oracle Tools
+  - support of SQL [1.5](Tools-Support.md)
+- OR condition [6.4](Logical-Conditions.md)
+- ORDER BY clause
+  - of queries [9.5](Sorting-Query-Results.md)
+  - of SELECT [9.5](Sorting-Query-Results.md), [19.9](SELECT.md)
+    - with ROWNUM [3.9](ROWNUM-Pseudocolumn.md)
+- ORDER clause
+  - of ALTER SEQUENCE. See CREATE SEQUENCE [11.15](ALTER-SEQUENCE.md)
+- ORDERED hint [2.6.4.78](Comments.md)
+- ORDER parameter
+  - of CREATE SEQUENCE [15.1](CREATE-SEQUENCE.md)
+- ORDER SIBLINGS BY clause
+  - of SELECT [19.9](SELECT.md)
+- ordinal numbers
+  - specifying [2.4.2.5](Format-Models.md)
+  - spelling out [2.4.2.5](Format-Models.md)
+- ORGANIZATION EXTERNAL clause
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- ORGANIZATION HEAP clause
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- ORGANIZATION INDEX clause
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- OR REPLACE clause
+  - of CREATE CONTEXT [13.6](CREATE-CONTEXT.md)
+  - of CREATE DIRECTORY [13.11](CREATE-DIRECTORY.md)
+  - of CREATE FUNCTION [13.15](CREATE-FUNCTION.md), [13.20](CREATE-JAVA.md)
+  - of CREATE LIBRARY [14.1](CREATE-LIBRARY.md)
+  - of CREATE OUTLINE [14.7](CREATE-OUTLINE.md)
+  - of CREATE PACKAGE [14.8](CREATE-PACKAGE.md)
+  - of CREATE PACKAGE BODY [14.9](CREATE-PACKAGE-BODY.md)
+  - of CREATE PROCEDURE [14.12](CREATE-PROCEDURE.md)
+  - of CREATE TRIGGER [15.7](CREATE-TRIGGER.md)
+  - of CREATE TYPE [15.8](CREATE-TYPE.md)
+  - of CREATE TYPE BODY [15.9](CREATE-TYPE-BODY.md)
+  - of CREATE VIEW [15.11](CREATE-VIEW.md)
+- outer joins [9.6.7](Joins.md)
+  - restrictions [9.6.7](Joins.md)
+- outlines
+  - assigning to a different category [11.7](ALTER-OUTLINE.md), [11.8](ALTER-PACKAGE.md)
+  - assign to a different category [11.7](ALTER-OUTLINE.md)
+  - copying [14.7](CREATE-OUTLINE.md)
+  - creating [14.7](CREATE-OUTLINE.md)
+  - creating on statements [14.7](CREATE-OUTLINE.md)
+  - dropping from the database [17.7](DROP-OUTLINE.md)
+  - enabling and disabling dynamically [14.7](CREATE-OUTLINE.md)
+  - for use by current session [14.7](CREATE-OUTLINE.md)
+  - for use by PUBLIC [14.7](CREATE-OUTLINE.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - private, use by the optimizer [11.16.2](ALTER-SESSION.md)
+  - rebuilding [11.7](ALTER-OUTLINE.md), [11.8](ALTER-PACKAGE.md)
+  - recompiling [11.7](ALTER-OUTLINE.md)
+  - renaming [11.7](ALTER-OUTLINE.md), [11.8](ALTER-PACKAGE.md)
+  - replacing [14.7](CREATE-OUTLINE.md)
+  - storing groups of [14.7](CREATE-OUTLINE.md)
+  - use by the optimizer [12.2](ALTER-SYSTEM.md)
+  - used to generate execution plans [14.7](CREATE-OUTLINE.md)
+  - use to generate execution plans [11.16.2](ALTER-SESSION.md)
+- out-of-line constraints
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- OVER clause
+  - of analytic functions [7.4](Analytic-Functions.md)
+- OVERFLOW clause
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- P.M. datetime format element [2.4.2.2](Format-Models.md)
+- package bodies
+  - creating [14.9](CREATE-PACKAGE-BODY.md)
+  - re-creating [14.9](CREATE-PACKAGE-BODY.md)
+  - removing from the database [17.8](DROP-PACKAGE.md)
+- packaged procedures
+  - dropping [17.10](DROP-PROCEDURE.md)
+- packages
+  - associating statistics types with [12.11](ASSOCIATE-STATISTICS.md)
+  - creating [14.8](CREATE-PACKAGE.md)
+  - disassociating statistics types from [15.13](DISASSOCIATE-STATISTICS.md), [17.8](DROP-PACKAGE.md)
+  - redefining [14.8](CREATE-PACKAGE.md)
+  - removing from the database [17.8](DROP-PACKAGE.md)
+  - synonyms for [15.3](CREATE-SYNONYM.md)
+- PACKAGES clause
+  - of ASSOCIATE STATISTICS [12.11](ASSOCIATE-STATISTICS.md)
+  - of DISASSOCIATE STATISTICS [15.13](DISASSOCIATE-STATISTICS.md)
+- PARALLEL_INDEX hint [2.6.4.80](Comments.md)
+- PARALLEL clause
+  - of ALTER CLUSTER [10.7](ALTER-CLUSTER.md)
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of ALTER MATERIALIZED VIEW LOG [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of CREATE CLUSTER [13.5](CREATE-CLUSTER.md)
+  - of CREATE INDEX [13.17](CREATE-INDEX.md)
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - of CREATE MATERIALIZED VIEW LOG [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- parallel execution [8.6](parallel_clause.md)
+  - hints [2.6.4.79](Comments.md)
+  - of DDL statements [11.16](ALTER-SESSION.md)
+  - of DML statements [11.16](ALTER-SESSION.md)
+- PARALLEL hint [2.6.4.79](Comments.md)
+- parameter files
+  - creating [14.10](CREATE-PFILE.md)
+    - from memory [14.10](CREATE-PFILE.md)
+- parameters
+  - in syntax
+    - optional [A.1.2](Graphic-Syntax-Diagrams.md)
+    - required [A.1.1](Graphic-Syntax-Diagrams.md)
+- PARAMETERS clause
+  - of CREATE INDEX [13.17](CREATE-INDEX.md)
+- partial indexes [13.17](CREATE-INDEX.md)
+- PARTITION ... LOB storage clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- PARTITION BY HASH clause
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- PARTITION BY LIST clause
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- PARTITION BY RANGE clause
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- PARTITION BY REFERENCE clause
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- PARTITION clause
+  - of ANALYZE [12.10](ANALYZE.md)
+  - of CREATE INDEX [13.17](CREATE-INDEX.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+  - of DELETE [15.12](DELETE.md)
+  - of INSERT [18.13](INSERT.md)
+  - of LOCK TABLE [18.14](LOCK-TABLE.md)
+  - of UPDATE [19.15](UPDATE.md)
+- partitioned indexes [2.9.4](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md), [13.17](CREATE-INDEX.md)
+  - local, creating [13.17](CREATE-INDEX.md)
+  - user-defined [13.17](CREATE-INDEX.md)
+- partitioned index-organized tables
+  - secondary indexes, updating [10.16](ALTER-INDEX.md)
+- partitioned tables [2.9.4](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md)
+- partition-extended table names
+  - in DML statements [2.9.4](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md)
+  - restrictions on [2.9.4](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md)
+  - syntax [2.9.4](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md)
+- partitioning
+  - by hash [15.4](CREATE-TABLE.md)
+  - by list [15.4](CREATE-TABLE.md)
+  - by range [15.4](CREATE-TABLE.md)
+  - by reference [15.4](CREATE-TABLE.md)
+  - clauses
+    - of ALTER INDEX [10.16](ALTER-INDEX.md)
+    - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - interval [15.4](CREATE-TABLE.md)
+  - of materialized view logs [11.4](ALTER-MATERIALIZED-VIEW-LOG.md), [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+  - of materialized views [11.3](ALTER-MATERIALIZED-VIEW.md), [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - range with interval partitions [15.4](CREATE-TABLE.md)
+  - referential constraint [12.3](ALTER-TABLE.md), [15.4](CREATE-TABLE.md)
+  - system [15.4](CREATE-TABLE.md)
+- partitions
+  - adding [12.3](ALTER-TABLE.md)
+  - adding rows to [18.13](INSERT.md)
+  - allocating extents for [12.3](ALTER-TABLE.md)
+  - based on literal values [15.4](CREATE-TABLE.md)
+  - composite
+    - specifying [15.4](CREATE-TABLE.md)
+  - converting into nonpartitioned tables [12.3](ALTER-TABLE.md)
+  - deallocating unused space from [12.3](ALTER-TABLE.md)
+  - dropping [12.3](ALTER-TABLE.md)
+  - exchanging with tables [12.3](ALTER-TABLE.md)
+  - extents
+    - allocating for an index [10.16](ALTER-INDEX.md)
+  - hash
+    - adding [12.3](ALTER-TABLE.md)
+    - coalescing [12.3](ALTER-TABLE.md)
+    - specifying [15.4](CREATE-TABLE.md)
+  - index [13.17](CREATE-INDEX.md)
+  - inserting rows into [18.13](INSERT.md)
+  - list, adding [12.3](ALTER-TABLE.md)
+  - LOB storage characteristics of [12.3](ALTER-TABLE.md)
+  - locking [18.14](LOCK-TABLE.md)
+  - logging attribute [15.4](CREATE-TABLE.md)
+  - logging insert operations [12.3](ALTER-TABLE.md)
+  - merging [12.3](ALTER-TABLE.md)
+  - modifying [12.3](ALTER-TABLE.md)
+  - physical attributes
+    - changing [12.3](ALTER-TABLE.md)
+  - range
+    - adding [12.3](ALTER-TABLE.md)
+    - specifying [15.4](CREATE-TABLE.md)
+  - removing rows from [12.3](ALTER-TABLE.md), [15.12](DELETE.md)
+  - renaming [12.3](ALTER-TABLE.md)
+  - revising values in [19.15](UPDATE.md)
+  - splitting [12.3](ALTER-TABLE.md)
+  - storage characteristics [8.7](physical_attributes_clause.md)
+  - tablespace for
+    - defining [15.4](CREATE-TABLE.md)
+- PASSWORD_GRACE_TIME parameter
+  - of ALTER PROFILE [11.11](ALTER-PROFILE.md)
+  - of CREATE PROFILE [14.13](CREATE-PROFILE.md)
+- PASSWORD_LIFE_TIME parameter
+  - of ALTER PROFILE [11.11](ALTER-PROFILE.md)
+  - of CREATE PROFILE [14.13](CREATE-PROFILE.md)
+- PASSWORD_LOCK_TIME parameter
+  - of ALTER PROFILE [11.11](ALTER-PROFILE.md)
+  - of CREATE PROFILE [14.13](CREATE-PROFILE.md)
+- PASSWORD_REUSE_MAX parameter
+  - of ALTER PROFILE [11.11](ALTER-PROFILE.md)
+  - of CREATE PROFILE [14.13](CREATE-PROFILE.md)
+- PASSWORD_REUSE_TIME parameter
+  - of ALTER PROFILE [11.11](ALTER-PROFILE.md)
+  - of CREATE PROFILE [14.13](CREATE-PROFILE.md)
+- PASSWORD_VERIFY_FUNCTION parameter
+  - of ALTER PROFILE [11.11](ALTER-PROFILE.md)
+  - of CREATE PROFILE [14.13](CREATE-PROFILE.md)
+- PASSWORD EXPIRE clause
+  - of ALTER USER. See CREATE USER [12.8](ALTER-USER.md)
+  - of CREATE USER [15.10](CREATE-USER.md)
+- passwords
+  - expiration of [15.10](CREATE-USER.md)
+  - grace period [14.13](CREATE-PROFILE.md)
+  - guaranteeing complexity [14.13](CREATE-PROFILE.md)
+  - limiting use and reuse [14.13](CREATE-PROFILE.md)
+  - locking [14.13](CREATE-PROFILE.md)
+  - making unavailable [14.13](CREATE-PROFILE.md)
+  - parameters
+    - of CREATE PROFILE [14.13](CREATE-PROFILE.md)
+  - special characters in [15.10](CREATE-USER.md)
+- PATH_VIEW [6.9.1](XML-Conditions.md), [6.9.2](XML-Conditions.md)
+- PATH function [7.162](PATH.md)
+- pattern-matching conditions [6.7](Pattern-matching-Conditions.md)
+- PCT_ACCESS_DIRECT statistics
+  - for index-organized tables [12.10](ANALYZE.md)
+- PCTFREE parameter
+  - of ALTER CLUSTER [10.7](ALTER-CLUSTER.md)
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+  - of ALTER MATERIALIZED VIEW LOG [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of CREATE MATERIALIZED VIEW. See CREATE TABLE. [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - of CREATE MATERIALIZED VIEW LOG. See CREATE TABLE. [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+  - of CREATE TABLE [8.7](physical_attributes_clause.md)
+- PCTINCREASE parameter
+  - of STORAGE clause [8.9](storage_clause.md)
+- PCTTHRESHOLD parameter
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- PCTUSED parameter
+  - of ALTER CLUSTER [10.7](ALTER-CLUSTER.md)
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+  - of ALTER MATERIALIZED VIEW LOG [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of CREATE INDEX. See CREATE TABLE [13.17](CREATE-INDEX.md)
+  - of CREATE MATERIALIZED VIEW. See CREATE TABLE. [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - of CREATE MATERIALIZED VIEW LOG. See CREATE TABLE. [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+  - of CREATE TABLE [8.7](physical_attributes_clause.md)
+- PCTVERSION parameter
+  - of LOB storage [15.4](CREATE-TABLE.md)
+  - of LOB storage clause [12.3](ALTER-TABLE.md)
+- PDBs
+  - administrative user [14.11](CREATE-PLUGGABLE-DATABASE.md)
+  - backup [11.9](ALTER-PLUGGABLE-DATABASE.md)
+  - changing
+    - global name [11.9](ALTER-PLUGGABLE-DATABASE.md)
+    - state [11.9](ALTER-PLUGGABLE-DATABASE.md)
+    - storage limits [11.9](ALTER-PLUGGABLE-DATABASE.md)
+  - cloning [14.11](CREATE-PLUGGABLE-DATABASE.md)
+  - creating
+    - by cloning a source PDB [14.11](CREATE-PLUGGABLE-DATABASE.md)
+    - using the seed database [14.11](CREATE-PLUGGABLE-DATABASE.md)
+  - default edition, setting [11.9](ALTER-PLUGGABLE-DATABASE.md)
+  - examples
+    - creating [14.11](CREATE-PLUGGABLE-DATABASE.md)
+    - dropping [17.9](DROP-PLUGGABLE-DATABASE.md)
+    - modifying [11.9](ALTER-PLUGGABLE-DATABASE.md)
+  - generating file names [14.11](CREATE-PLUGGABLE-DATABASE.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - modifying data files [11.9](ALTER-PLUGGABLE-DATABASE.md)
+  - modifying temporary files [11.9](ALTER-PLUGGABLE-DATABASE.md)
+  - plugging into a CDB [14.11](CREATE-PLUGGABLE-DATABASE.md)
+  - recovery [11.9](ALTER-PLUGGABLE-DATABASE.md)
+  - setting the time zone of [11.9](ALTER-PLUGGABLE-DATABASE.md)
+  - storage limits [14.11](CREATE-PLUGGABLE-DATABASE.md)
+  - unplugging [11.9](ALTER-PLUGGABLE-DATABASE.md)
+  - XML file for plugging in [14.11](CREATE-PLUGGABLE-DATABASE.md)
+- PERCENT_RANK function [7.163](PERCENT_RANK.md)
+- PERCENTILE_CONT function [7.164](PERCENTILE_CONT.md)
+- PERCENTILE_DISC function [7.165](PERCENTILE_DISC.md)
+- PERMANENT clause
+  - of ALTER TABLESPACE [12.4](ALTER-TABLESPACE.md)
+- physical attributes clause
+  - of ALTER CLUSTER [10.7](ALTER-CLUSTER.md)
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+  - of ALTER MATERIALIZED VIEW LOG [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of CREATE CLUSTER [13.5](CREATE-CLUSTER.md)
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- physical standby database
+  - activating [10.8](ALTER-DATABASE.md)
+  - converting to snapshot standby database [10.8](ALTER-DATABASE.md)
+- pivot operations [19.9](SELECT.md)
+  - examples [19.9](SELECT.md)
+  - syntax [19.9](SELECT.md)
+- placeholder expressions [5.14](Placeholder-Expressions.md)
+- PLAN_TABLE sample table [18.9](EXPLAIN-PLAN.md)
+- plan management
+  - granting system privileges for [18.12](GRANT.md)
+- plan stability [14.7](CREATE-OUTLINE.md)
+- pluggable databases
+  - See: PDBs
+- PM datetime format element [2.4.2.2](Format-Models.md)
+- POSIX regular expression standard [D](Oracle-Regular-Expression-Support.md)
+- POWER function [7.166](POWER.md)
+- POWERMULTISET_BY_CARDINALITY function [7.168](POWERMULTISET_BY_CARDINALITY.md)
+- POWERMULTISET function [7.167](POWERMULTISET.md)
+- PQ_CONCURRENT_UNION hint [2.6.4.81](Comments.md)
+- PQ_DISTRIBUTE hint [2.6.4.82](Comments.md)
+- PQ_FILTER hint [2.6.4.83](Comments.md)
+- PQ_SKEW hint [2.6.4.84](Comments.md)
+- precedence
+  - of conditions [6.1.1](About-SQL-Conditions.md)
+  - of numbers [2.1.1.2.4](Data-Types.md)
+  - of operators [4.1.2](About-SQL-Operators.md)
+- precision
+  - number of digits of [2.3.2.2](Literals.md)
+  - of NUMBER data type [2.1.1.2.1](Data-Types.md)
+- precompilers [1.5](Tools-Support.md)
+- predefined roles [18.12](GRANT.md)
+- PREDICTION_BOUNDS function [7.170](PREDICTION_BOUNDS.md)
+- PREDICTION_COST function [7.171](PREDICTION_COST.md)
+- PREDICTION_DETAILS function [7.172](PREDICTION_DETAILS.md)
+- PREDICTION_PROBABILITY function [7.173](PREDICTION_PROBABILITY.md)
+- PREDICTION_SET function [7.174](PREDICTION_SET.md)
+- PREDICTION function [7.169](PREDICTION.md)
+- prefix compression [15.4](CREATE-TABLE.md)
+  - definition [13.17](CREATE-INDEX.md)
+  - disabling [13.17](CREATE-INDEX.md)
+  - enabling [10.16](ALTER-INDEX.md)
+  - of index-organized tables [15.4](CREATE-TABLE.md)
+  - of index rebuild [10.16](ALTER-INDEX.md)
+- PREPARE TO SWITCHOVER clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- PRESENTNNV function [7.175](PRESENTNNV.md)
+- PRESENTV function [7.176](PRESENTV.md)
+- pretty-printing of XML output [7.298](XMLSERIALIZE.md)
+- PREVIOUS function [7.177](PREVIOUS.md)
+- primary database
+  - converting to physical standby database [10.8](ALTER-DATABASE.md)
+- PRIMARY KEY clause
+  - of constraints [8.2](constraint.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- primary key constraints [8.2](constraint.md)
+  - enabling [15.4](CREATE-TABLE.md)
+  - index on [15.4](CREATE-TABLE.md)
+- primary keys
+  - generating values for [15.1](CREATE-SEQUENCE.md)
+- PRIOR clause
+  - of hierarchical queries [9.3](Hierarchical-Queries.md)
+- PRIOR operator [4.5.1](Hierarchical-Query-Operators.md)
+- PRIVATE_SGA parameter
+  - of ALTER PROFILE [11.11](ALTER-PROFILE.md)
+  - of ALTER RESOURCE COST [11.12](ALTER-RESOURCE-COST.md)
+- PRIVATE clause
+  - of CREATE OUTLINE [14.7](CREATE-OUTLINE.md)
+- private outlines
+  - use by the optimizer [11.16.2](ALTER-SESSION.md)
+- privileges [14.15](CREATE-ROLE.md)
+  - See also: system privileges or object privileges
+
+  <!-- -->
+
+  - on subtypes of object types [18.12](GRANT.md)
+  - revoking from a grantee [19.6](REVOKE.md)
+- procedures
+  - 3GL,calling [14.1](CREATE-LIBRARY.md)
+  - calling [12.14](CALL.md)
+  - creating [14.12](CREATE-PROCEDURE.md)
+  - executing [12.14](CALL.md)
+  - external [14.12](CREATE-PROCEDURE.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - invalidating local objects dependent on [17.10](DROP-PROCEDURE.md)
+  - issuing COMMIT or ROLLBACK statements [11.16](ALTER-SESSION.md)
+  - naming rules [2.8.1](Database-Object-Names-and-Qualifiers.md)
+  - recompiling [11.10](ALTER-PROCEDURE.md)
+  - re-creating [14.12](CREATE-PROCEDURE.md)
+  - removing from the database [17.10](DROP-PROCEDURE.md)
+  - synonyms for [15.3](CREATE-SYNONYM.md)
+- PROFILE clause
+  - of ALTER USER. See CREATE USER [12.8](ALTER-USER.md)
+  - of CREATE USER [15.10](CREATE-USER.md)
+- profiles
+  - adding resource limits [11.11](ALTER-PROFILE.md)
+  - assigning to a user [15.10](CREATE-USER.md)
+  - changing resource limits [11.11](ALTER-PROFILE.md)
+  - creating [14.13](CREATE-PROFILE.md)
+    - examples [14.13](CREATE-PROFILE.md)
+  - deassigning from users [17.11](DROP-PROFILE.md)
+  - dropping resource limits [11.11](ALTER-PROFILE.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - modifying, examples [11.11](ALTER-PROFILE.md)
+  - removing from the database [17.11](DROP-PROFILE.md)
+- proxy clause
+  - of ALTER USER [12.8](ALTER-USER.md)
+- pseudocolumns [3](Pseudocolumns.md)
+  - COLUMN_VALUE [3.4](COLUMN_VALUE-Pseudocolumn.md)
+  - CONNECT_BY_ISCYCLE [3.1.1](Hierarchical-Query-Pseudocolumns.md)
+  - CONNECT_BY_ISLEAF [3.1.2](Hierarchical-Query-Pseudocolumns.md)
+  - CURRVAL [3.2](Sequence-Pseudocolumns.md)
+  - flashback queries [3.3](Version-Query-Pseudocolumns.md)
+  - in hierarchical queries [3.1](Hierarchical-Query-Pseudocolumns.md)
+  - LEVEL [3.1.3](Hierarchical-Query-Pseudocolumns.md)
+  - NEXTVAL [3.2](Sequence-Pseudocolumns.md)
+  - OBJECT_ID [3.5](OBJECT_ID-Pseudocolumn.md), [15.4](CREATE-TABLE.md), [15.11](CREATE-VIEW.md)
+  - OBJECT_VALUE [3.6](OBJECT_VALUE-Pseudocolumn.md)
+  - ORA_ROWSCN [3.7](ORA_ROWSCN-Pseudocolumn.md)
+  - ROWID [3.8](ROWID-Pseudocolumn.md)
+  - ROWNUM [3.9](ROWNUM-Pseudocolumn.md)
+  - version queries [3.3](Version-Query-Pseudocolumns.md)
+  - XMLDATA [3.10](XMLDATA-Pseudocolumn.md)
+- PUBLIC clause
+  - of CREATE OUTLINE [14.7](CREATE-OUTLINE.md)
+  - of CREATE SYNONYM [15.3](CREATE-SYNONYM.md)
+  - of DROP DATABASE LINK [16.3](DROP-DATABASE-LINK.md)
+- public database links
+  - dropping [16.3](DROP-DATABASE-LINK.md)
+- public synonyms [15.3](CREATE-SYNONYM.md)
+  - dropping [17.16](DROP-SYNONYM.md)
+- PURGE statement [19.4](PURGE.md)
+- PUSH_PRED hint [2.6.4.85](Comments.md)
+- PUSH_SUBQ hint [2.6.4.86](Comments.md)
+- PX_JOIN_FILTER hint [2.6.4.87](Comments.md)
+
+------------------------------------------------------------------------
+
+## Q
+
+- QB_NAME hint [2.6.4.88](Comments.md)
+- queries [9.1](About-Queries-and-Subqueries.md), [19.9](SELECT.md)
+  - comments in [9.2](Creating-Simple-Queries.md)
+  - compound [9.5](Sorting-Query-Results.md)
+  - correlated
+    - left correlation [19.9](SELECT.md)
+  - default locking of [B.1](Automatic-Locks-in-DML-Operations.md)
+  - defined [9.1](About-Queries-and-Subqueries.md)
+  - distributed [9.10](Distributed-Queries.md)
+  - grouping returned rows on a value [19.9](SELECT.md)
+  - hierarchical, ordering [19.9](SELECT.md)
+  - hierarchical. See hierarchical queries [9.3](Hierarchical-Queries.md)
+  - hints in [9.2](Creating-Simple-Queries.md)
+  - join [9.6](Joins.md), [19.9](SELECT.md)
+  - locking rows during [19.9](SELECT.md)
+  - multiple versions of rows [19.9](SELECT.md)
+  - of past data [19.9](SELECT.md)
+  - ordering returned rows [19.9](SELECT.md)
+  - outer joins in [19.9](SELECT.md)
+  - referencing multiple tables [9.6](Joins.md)
+  - selecting all columns [19.9](SELECT.md)
+  - selecting from a random sample of rows [19.9](SELECT.md)
+  - select lists of [9.2](Creating-Simple-Queries.md)
+  - sorting results [9.5](Sorting-Query-Results.md)
+  - syntax [9.1](About-Queries-and-Subqueries.md)
+  - top-level [9.1](About-Queries-and-Subqueries.md)
+  - top-N [3.9](ROWNUM-Pseudocolumn.md), [19.9](SELECT.md)
+- query rewrite
+  - and dimensions [13.10](CREATE-DIMENSION.md)
+  - defined [19.9](SELECT.md)
+- QUIESCE RESTRICTED clause
+  - of ALTER SYSTEM [12.2](ALTER-SYSTEM.md)
+- QUOTA clause
+  - of ALTER USER. See CREATE USER [12.8](ALTER-USER.md)
+  - of CREATE USER [15.10](CREATE-USER.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- range conditions [6.12](BETWEEN-Condition.md)
+- range partitioning
+  - converting to interval partitioning [12.3](ALTER-TABLE.md)
+- range partitions
+  - adding [12.3](ALTER-TABLE.md)
+  - creating [15.4](CREATE-TABLE.md)
+  - values of [15.4](CREATE-TABLE.md)
+- RANK function [7.178](RANK.md)
+- RATIO_TO_REPORT function [7.179](RATIO_TO_REPORT.md)
+- RAW data type [2.1.1.5](Data-Types.md)
+  - converting from CHAR data [2.1.1.5](Data-Types.md)
+- RAWTOHEX function [7.180](RAWTOHEX.md)
+- RAWTONHEX function [7.181](RAWTONHEX.md)
+- READ ANY TABLE system privilege [18.12](GRANT.md)
+- READ object privilege
+  - on a materialized view [18.12](GRANT.md)
+  - on a table [18.12](GRANT.md)
+  - on a view [18.12](GRANT.md)
+- READ ONLY clause
+  - of ALTER TABLESPACE [12.4](ALTER-TABLESPACE.md)
+  - of ALTER VIEW [12.9](ALTER-VIEW.md)
+- READ WRITE clause
+  - of ALTER TABLESPACE [12.4](ALTER-TABLESPACE.md)
+  - of ALTER VIEW [12.9](ALTER-VIEW.md)
+- REBUILD clause
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+  - of ALTER OUTLINE [11.7](ALTER-OUTLINE.md)
+- REBUILD PARTITION clause
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+- REBUILD SUBPARTITION clause
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+- REBUILD UNUSABLE LOCAL INDEXES clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- RECOVERABLE [10.16](ALTER-INDEX.md), [15.4](CREATE-TABLE.md)
+  - See also: LOGGING clause
+- RECOVER AUTOMATIC clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- RECOVER CANCEL clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- RECOVER clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- RECOVER CONTINUE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- RECOVER DATABASE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- RECOVER DATAFILE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- RECOVER LOGFILE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- RECOVER MANAGED STANDBY DATABASE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- RECOVER TABLESPACE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- recovery
+  - discarding data [10.8](ALTER-DATABASE.md)
+  - distributed, enabling [12.2](ALTER-SYSTEM.md)
+  - instance, continue after interruption [10.8](ALTER-DATABASE.md)
+  - media, designing [10.8](ALTER-DATABASE.md)
+  - media, performing ongoing [10.8](ALTER-DATABASE.md)
+  - of database [10.8](ALTER-DATABASE.md)
+- recovery clauses
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- recursive subquery factoring [19.9](SELECT.md)
+- recycle bin
+  - purging objects from [19.4](PURGE.md)
+- redo log files
+  - specifying [8.4](file_specification.md)
+  - specifying for a control file [13.7](CREATE-CONTROLFILE.md)
+- redo logs [10.8](ALTER-DATABASE.md)
+  - adding [10.8](ALTER-DATABASE.md)
+  - applying to logical standby database [10.8](ALTER-DATABASE.md)
+  - archive location [12.2](ALTER-SYSTEM.md)
+  - automatic archiving [12.2](ALTER-SYSTEM.md)
+  - automatic name generation [10.8](ALTER-DATABASE.md)
+  - clearing [10.8](ALTER-DATABASE.md)
+  - dropping [10.8](ALTER-DATABASE.md)
+  - enabling and disabling thread [10.8](ALTER-DATABASE.md)
+  - manual archiving [12.2](ALTER-SYSTEM.md)
+    - all [12.2](ALTER-SYSTEM.md)
+    - by group number [12.2](ALTER-SYSTEM.md)
+    - by SCN [12.2](ALTER-SYSTEM.md)
+    - current [12.2](ALTER-SYSTEM.md)
+    - next [12.2](ALTER-SYSTEM.md)
+    - with sequence numbers [12.2](ALTER-SYSTEM.md)
+  - members
+    - adding to existing groups [10.8](ALTER-DATABASE.md)
+    - dropping [10.8](ALTER-DATABASE.md)
+    - renaming [10.8](ALTER-DATABASE.md)
+  - remove changes from [10.8](ALTER-DATABASE.md)
+  - reusing [8.4](file_specification.md)
+  - size of [8.4](file_specification.md)
+  - specifying [8.4](file_specification.md), [13.8](CREATE-DATABASE.md)
+    - for media recovery [10.8](ALTER-DATABASE.md)
+  - specifying archive mode [13.8](CREATE-DATABASE.md)
+  - switching groups [12.2](ALTER-SYSTEM.md)
+- REF columns
+  - rescoping [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - specifying [15.4](CREATE-TABLE.md)
+  - specifying from table or column [15.4](CREATE-TABLE.md)
+- REF constraints
+  - defining scope, for materialized views [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- reference-partitioned tables [12.3](ALTER-TABLE.md)
+  - maintenance operations [12.3](ALTER-TABLE.md)
+- reference partitioning [15.4](CREATE-TABLE.md)
+- REFERENCES clause
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- referential integrity constraints [8.2](constraint.md)
+- REF function [7.182](REF.md)
+- REFRESH clause
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+- REFRESH COMPLETE clause
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+- REFRESH FAST clause
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+- REFRESH FORCE clause
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+- REFRESH ON COMMIT clause
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+- REFRESH ON DEMAND clause
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+- REFs [2.1.4.2](Data-Types.md), [8.2](constraint.md)
+  - as containers for object identifiers [2.1.4.2](Data-Types.md)
+  - dangling [12.10](ANALYZE.md)
+  - updating [12.10](ANALYZE.md)
+  - validating [12.10](ANALYZE.md)
+- REFTOHEX function [7.183](REFTOHEX.md)
+- REGEXP_COUNT function [7.184](REGEXP_COUNT.md)
+- REGEXP_INSTR function [7.185](REGEXP_INSTR.md)
+- REGEXP_LIKE condition [6.7.2](Pattern-matching-Conditions.md)
+- REGEXP_REPLACE function [7.186](REGEXP_REPLACE.md)
+- REGEXP_SUBSTR function [7.187](REGEXP_SUBSTR.md)
+- REGISTER clause
+  - of ALTER SYSTEM [12.2](ALTER-SYSTEM.md)
+- REGISTER LOGFILE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- REGR_AVGX function [7.188](REGR_-Linear-Regression-Functions.md)
+- REGR_AVGY function [7.188](REGR_-Linear-Regression-Functions.md)
+- REGR_COUNT function [7.188](REGR_-Linear-Regression-Functions.md)
+- REGR_INTERCEPT function [7.188](REGR_-Linear-Regression-Functions.md)
+- REGR_R2 function [7.188](REGR_-Linear-Regression-Functions.md)
+- REGR_SLOPE function [7.188](REGR_-Linear-Regression-Functions.md)
+- REGR_SXX function [7.188](REGR_-Linear-Regression-Functions.md)
+- REGR_SXY function [7.188](REGR_-Linear-Regression-Functions.md)
+- REGR_SYY function [7.188](REGR_-Linear-Regression-Functions.md)
+- regular expressions
+  - multilingual syntax [D.1](Multilingual-Regular-Expression-Syntax.md)
+  - operators, multilingual enhancements [D.2](Regular-Expression-Operator-Multilingual-Enhancements.md)
+  - Oracle support of [D](Oracle-Regular-Expression-Support.md)
+  - Perl-influenced operators [D.3](Perl-influenced-Extensions-in-Oracle-Regular-Expressions.md)
+  - subexpressions [7.185](REGEXP_INSTR.md), [7.187](REGEXP_SUBSTR.md)
+- relational tables
+  - creating [15.4](CREATE-TABLE.md)
+- RELY clause
+  - of constraints [8.2](constraint.md)
+- REMAINDER function [7.189](REMAINDER.md)
+- RENAME clause
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+  - of ALTER OUTLINE [11.7](ALTER-OUTLINE.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of ALTER TABLESPACE [12.4](ALTER-TABLESPACE.md)
+  - of ALTER TRIGGER [12.6](ALTER-TRIGGER.md)
+- RENAME CONSTRAINT clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- RENAME DATAFILE clause
+  - of ALTER TABLESPACE [12.4](ALTER-TABLESPACE.md)
+- RENAME FILE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- RENAME GLOBAL_NAME clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+  - of ALTER PLUGGABLE DATABASE [11.9](ALTER-PLUGGABLE-DATABASE.md)
+- RENAME PARTITION clause
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- RENAME statement [19.5](RENAME.md)
+- RENAME SUBPARTITION clause
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- REPLACE function [7.190](REPLACE.md)
+- replication
+  - row-level dependency tracking [13.5](CREATE-CLUSTER.md), [15.4](CREATE-TABLE.md)
+- reserved words [2.8.1](Database-Object-Names-and-Qualifiers.md), [E.1](Oracle-SQL-Reserved-Words.md)
+- RESETLOGS parameter
+  - of CREATE CONTROLFILE [13.7](CREATE-CONTROLFILE.md)
+- reset sequence of [10.8](ALTER-DATABASE.md)
+- RESOLVE clause
+  - of ALTER JAVA CLASS [10.19](ALTER-JAVA.md)
+  - of CREATE JAVA [13.20](CREATE-JAVA.md)
+- RESOLVER clause
+  - of CREATE JAVA [13.20](CREATE-JAVA.md)
+- RESOURCE_VIEW [6.9.1](XML-Conditions.md), [6.9.2](XML-Conditions.md)
+- Resource Manager [12.2](ALTER-SYSTEM.md)
+- resource parameters
+  - of CREATE PROFILE [14.13](CREATE-PROFILE.md)
+- response time
+  - optimizing [2.6.4.15](Comments.md)
+- restore points
+  - guaranteed [14.14](CREATE-RESTORE-POINT.md)
+  - preserved [14.14](CREATE-RESTORE-POINT.md)
+  - using
+    - to flash back a table [18.11](FLASHBACK-TABLE.md)
+    - to flashback the database [18.10](FLASHBACK-DATABASE.md)
+- RESULT_CACHE hint [2.6.4.89](Comments.md)
+- result cache [15.4](CREATE-TABLE.md)
+- resumable space allocation [11.16](ALTER-SESSION.md)
+- RESUME clause
+  - of ALTER SYSTEM [12.2](ALTER-SYSTEM.md)
+- RETENTION parameter
+  - of LOB storage [15.4](CREATE-TABLE.md)
+- RETRY_ON_ROW_CHANGE hint [2.6.4.90](Comments.md)
+- RETURNING clause
+  - of DELETE [15.12](DELETE.md)
+  - of INSERT [18.13](INSERT.md)
+  - of UPDATE [19.15](UPDATE.md)
+- REUSE clause
+  - of CREATE CONTROLFILE [13.7](CREATE-CONTROLFILE.md)
+  - of file specifications [8.4](file_specification.md)
+- REVERSE clause
+  - of CREATE INDEX [13.17](CREATE-INDEX.md)
+- reverse indexes [13.17](CREATE-INDEX.md)
+- REVERSE parameter
+  - of ALTER INDEX ... REBUILD [10.16](ALTER-INDEX.md)
+- REVOKE CONNECT THROUGH clause
+  - of ALTER USER [12.8](ALTER-USER.md)
+- REVOKE statement [19.6](REVOKE.md)
+  - locks [B.2.2](Automatic-Locks-in-DDL-Operations.md)
+- REWRITE hint [2.6.4.91](Comments.md)
+- right outer joins [19.9](SELECT.md)
+- roles [18.12](GRANT.md)
+  - authorization
+    - by an external service [14.15](CREATE-ROLE.md)
+    - by a password [14.15](CREATE-ROLE.md)
+    - by the database [14.15](CREATE-ROLE.md)
+    - by the enterprise directory service [14.15](CREATE-ROLE.md)
+    - changing [11.13](ALTER-ROLE.md)
+  - creating [14.15](CREATE-ROLE.md)
+  - disabling
+    - for the current session [19.11](SET-ROLE.md)
+  - enabling
+    - for the current session [19.11](SET-ROLE.md)
+  - granting [18.12](GRANT.md)
+    - system privileges for [18.12](GRANT.md)
+    - to another role [18.12](GRANT.md)
+    - to a user [18.12](GRANT.md)
+    - to PUBLIC [18.12](GRANT.md)
+  - identifying by password [14.15](CREATE-ROLE.md)
+  - identifying externally [14.15](CREATE-ROLE.md)
+  - identifying through enterprise directory service [14.15](CREATE-ROLE.md)
+  - identifying using a package [14.15](CREATE-ROLE.md)
+  - removing from the database [17.13](DROP-ROLE.md)
+  - revoking [19.6](REVOKE.md)
+    - from another role [17.13](DROP-ROLE.md), [19.6](REVOKE.md)
+    - from PUBLIC [19.6](REVOKE.md)
+    - from users [17.13](DROP-ROLE.md), [19.6](REVOKE.md)
+- ROLES clause
+  - of CREATE PLUGGABLE DATABASE [14.11](CREATE-PLUGGABLE-DATABASE.md)
+- rollback segments
+  - removing from the database [17.14](DROP-ROLLBACK-SEGMENT.md)
+  - specifying optimal size of [8.9](storage_clause.md)
+- rollback segments granting
+  - system privileges for [18.12](GRANT.md)
+- ROLLBACK statement [19.7](ROLLBACK.md)
+- rollback undo [11.14](ALTER-ROLLBACK-SEGMENT.md), [13.8](CREATE-DATABASE.md)
+- ROLLUP clause
+  - of SELECT statements [19.9](SELECT.md)
+- ROUND (date) function [7.191](ROUND-date.md)
+  - format models [7.301](ROUND-and-TRUNC-Date-Functions.md)
+- ROUND (number) function [7.192](ROUND-number.md)
+- routines
+  - calling [12.14](CALL.md)
+  - executing [12.14](CALL.md)
+- ROW_NUMBER function [7.194](ROW_NUMBER.md)
+- row constructor [5.17](Expression-Lists.md)
+- ROWDEPENDENCIES clause
+  - of CREATE CLUSTER [13.5](CREATE-CLUSTER.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- ROW EXCLUSIVE lock mode [18.14](LOCK-TABLE.md)
+- ROWID data type [2.1.2](Data-Types.md), [2.1.2.1](Data-Types.md)
+- ROWID pseudocolumn [2.1.2](Data-Types.md), [2.1.2.2](Data-Types.md), [3.8](ROWID-Pseudocolumn.md)
+- rowids [2.1.2](Data-Types.md)
+  - description of [2.1.2](Data-Types.md)
+  - extended
+    - base 64 [2.1.2.1](Data-Types.md)
+    - not directly available [2.1.2.1](Data-Types.md)
+  - nonphysical [2.1.2.2](Data-Types.md)
+  - of foreign tables [2.1.2.2](Data-Types.md)
+  - of index-organized tables [2.1.2.2](Data-Types.md)
+  - uses for [3.8](ROWID-Pseudocolumn.md)
+- ROWIDTOCHAR function [7.195](ROWIDTOCHAR.md)
+- ROWIDTONCHAR function [7.196](ROWIDTONCHAR.md)
+- row-level dependency tracking [13.5](CREATE-CLUSTER.md), [15.4](CREATE-TABLE.md)
+- row-level locking [B.1](Automatic-Locks-in-DML-Operations.md)
+- row limiting [19.9](SELECT.md)
+- row locking [B.1](Automatic-Locks-in-DML-Operations.md)
+- ROWNUM pseudocolumn [3.9](ROWNUM-Pseudocolumn.md)
+- rows
+  - adding to a table [18.13](INSERT.md)
+  - allowing movement of between partitions [15.4](CREATE-TABLE.md)
+  - inserting
+    - into partitions [18.13](INSERT.md)
+    - into remote databases [18.13](INSERT.md)
+    - into subpartitions [18.13](INSERT.md)
+  - locking [B.1](Automatic-Locks-in-DML-Operations.md)
+  - locks on [B.1](Automatic-Locks-in-DML-Operations.md)
+  - movement between partitions [15.4](CREATE-TABLE.md)
+  - removing
+    - from a cluster [19.13](TRUNCATE-CLUSTER.md), [19.14](TRUNCATE-TABLE.md)
+    - from a table [19.13](TRUNCATE-CLUSTER.md), [19.14](TRUNCATE-TABLE.md)
+    - from partitions and subpartitions [15.12](DELETE.md)
+    - from tables and views [15.12](DELETE.md)
+  - selecting in hierarchical order [9.3](Hierarchical-Queries.md)
+  - specifying constraints on [8.2](constraint.md)
+  - storing if in violation of constraints [12.3](ALTER-TABLE.md)
+- ROW SHARE lock mode [18.14](LOCK-TABLE.md)
+- row value constructor [5.17](Expression-Lists.md)
+- row values
+  - pivoting into columns [19.9](SELECT.md)
+- RPAD function [7.197](RPAD.md)
+- RR datetime format element [2.4.2.4](Format-Models.md)
+- RTRIM function [7.198](RTRIM.md)
+- run-time compilation
+  - avoiding [11.10](ALTER-PROCEDURE.md), [12.9](ALTER-VIEW.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- SAMPLE clause
+  - of SELECT [19.9](SELECT.md)
+  - of SELECT and subqueries [19.9](SELECT.md)
+- savepoints
+  - erasing [13.1](COMMIT.md)
+  - rolling back to [19.7](ROLLBACK.md)
+  - specifying [19.8](SAVEPOINT.md)
+- SAVEPOINT statement [19.8](SAVEPOINT.md)
+- scalar subqueries [5.15](Scalar-Subquery-Expressions.md)
+- scale
+  - greater than precision [2.1.1.2.1](Data-Types.md)
+  - of NUMBER data type [2.1.1.2.1](Data-Types.md)
+- SCHEMA clause
+  - of CREATE JAVA [13.20](CREATE-JAVA.md)
+- schema objects [2.7.1](Database-Objects.md)
+  - defining default buffer pool for [8.9](storage_clause.md)
+  - dropping [18.7](DROP-USER.md)
+  - in other schemas [2.9.2](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md)
+  - list of [2.7.1](Database-Objects.md)
+  - name resolution [2.9.1](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md)
+  - namespaces [2.8.1](Database-Object-Names-and-Qualifiers.md)
+  - naming
+    - examples [2.8.2](Database-Object-Names-and-Qualifiers.md)
+    - guidelines [2.8.3](Database-Object-Names-and-Qualifiers.md)
+    - rules [2.8.1](Database-Object-Names-and-Qualifiers.md)
+  - object types [2.1.4.1](Data-Types.md)
+  - on remote databases [2.9.3](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md)
+  - partitioned indexes [2.9.4](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md)
+  - partitioned tables [2.9.4](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md)
+  - parts of [2.8](Database-Object-Names-and-Qualifiers.md)
+  - protecting location [15.3](CREATE-SYNONYM.md)
+  - protecting owner [15.3](CREATE-SYNONYM.md)
+  - providing alternate names for [15.3](CREATE-SYNONYM.md)
+  - reauthorizing [10.1.1](Types-of-SQL-Statements.md)
+  - recompiling [10.1.1](Types-of-SQL-Statements.md)
+  - referring to [2.9](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md), [11.16.2](ALTER-SESSION.md)
+  - remote, accessing [13.9](CREATE-DATABASE-LINK.md)
+  - validating structure [12.10](ANALYZE.md)
+- schemas
+  - changing for a session [11.16.2](ALTER-SESSION.md)
+  - creating [14.17](CREATE-SCHEMA.md)
+  - definition of [2.7.1](Database-Objects.md)
+- scientific notation [2.4.1.1](Format-Models.md)
+- SCN_TO_TIMESTAMP function [7.199](SCN_TO_TIMESTAMP.md)
+- SCOPE FOR clause
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+- SCORE operator [4.1](About-SQL-Operators.md)
+- SDO_GEOMETRY data type [2.1.8](Data-Types.md)
+- SDO_GEORASTER data type [2.1.8](Data-Types.md)
+- SDO_TOPO_GEOMETRY data type [2.1.8.2](Data-Types.md)
+- security
+  - enforcing [15.7](CREATE-TRIGGER.md)
+- security clauses
+  - of ALTER SYSTEM [12.2](ALTER-SYSTEM.md)
+- segment attributes clause
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- SEGMENT MANAGEMENT clause
+  - of CREATE TABLESPACE [15.5](CREATE-TABLESPACE.md)
+- segments
+  - space management
+    - automatic [15.5](CREATE-TABLESPACE.md)
+    - manual [15.5](CREATE-TABLESPACE.md)
+    - using bitmaps [15.5](CREATE-TABLESPACE.md)
+    - using free lists [15.5](CREATE-TABLESPACE.md)
+  - table
+    - compacting [10.16](ALTER-INDEX.md), [11.3](ALTER-MATERIALIZED-VIEW.md), [11.4](ALTER-MATERIALIZED-VIEW-LOG.md), [12.3](ALTER-TABLE.md)
+- select lists [9.2](Creating-Simple-Queries.md)
+  - ordering [9.5](Sorting-Query-Results.md)
+- SELECT object privilege
+  - granting on a view [18.12](GRANT.md)
+- SELECT statement [9.1](About-Queries-and-Subqueries.md), [19.9](SELECT.md)
+- self joins [9.6.4](Joins.md)
+- semijoins [9.6.9](Joins.md)
+- sequences [3.2](Sequence-Pseudocolumns.md), [15.1](CREATE-SEQUENCE.md)
+  - accessing values of [15.1](CREATE-SEQUENCE.md)
+  - changing
+    - the increment value [11.15](ALTER-SEQUENCE.md)
+  - creating [15.1](CREATE-SEQUENCE.md)
+  - creating without limit [15.1](CREATE-SEQUENCE.md)
+  - global [15.1](CREATE-SEQUENCE.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - guarantee consecutive values [15.1](CREATE-SEQUENCE.md)
+  - how to use [3.2.2](Sequence-Pseudocolumns.md)
+  - incrementing [15.1](CREATE-SEQUENCE.md)
+  - increment value, setting [15.1](CREATE-SEQUENCE.md)
+  - initial value, setting [15.1](CREATE-SEQUENCE.md)
+  - keeping values during transaction replay [15.1](CREATE-SEQUENCE.md)
+  - maximum value
+    - eliminating [11.15](ALTER-SEQUENCE.md)
+    - setting [15.1](CREATE-SEQUENCE.md)
+    - setting or changing [11.15](ALTER-SEQUENCE.md)
+  - minimum value
+    - eliminating [11.15](ALTER-SEQUENCE.md)
+    - setting [15.1](CREATE-SEQUENCE.md)
+    - setting or changing [11.15](ALTER-SEQUENCE.md)
+  - number of cached values, changing [11.15](ALTER-SEQUENCE.md)
+  - ordering values [11.15](ALTER-SEQUENCE.md)
+  - preallocating values [15.1](CREATE-SEQUENCE.md)
+  - recycling values [11.15](ALTER-SEQUENCE.md)
+  - removing from the database [17.15](DROP-SEQUENCE.md)
+  - renaming [19.5](RENAME.md)
+  - restarting [17.15](DROP-SEQUENCE.md)
+    - at a predefined limit [15.1](CREATE-SEQUENCE.md)
+    - values [15.1](CREATE-SEQUENCE.md)
+  - reusing [15.1](CREATE-SEQUENCE.md)
+  - session [15.1](CREATE-SEQUENCE.md)
+  - stopping at a predefined limit [15.1](CREATE-SEQUENCE.md)
+  - synonyms for [15.3](CREATE-SYNONYM.md)
+  - where to use [3.2.1](Sequence-Pseudocolumns.md)
+- server parameter files
+  - creating [15.2](CREATE-SPFILE.md)
+    - from memory [15.2](CREATE-SPFILE.md)
+- service name
+  - of remote database [13.9](CREATE-DATABASE-LINK.md)
+- SESSION_ROLES view [19.11](SET-ROLE.md)
+- session control statements [10.1.4](Types-of-SQL-Statements.md)
+  - PL/SQL support of [10.1.4](Types-of-SQL-Statements.md)
+- session locks
+  - releasing [12.2](ALTER-SYSTEM.md)
+- SESSION parameter
+  - of CREATE SEQUENCE [15.1](CREATE-SEQUENCE.md)
+- session parameters
+  - changing settings [11.16.2](ALTER-SESSION.md)
+  - INSTANCE [11.16.2](ALTER-SESSION.md)
+- sessions
+  - calculating resource cost limits [11.12](ALTER-RESOURCE-COST.md)
+  - changing resource cost limits [11.12](ALTER-RESOURCE-COST.md)
+  - disconnecting [12.2](ALTER-SYSTEM.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - limiting CPU time [11.12](ALTER-RESOURCE-COST.md)
+  - limiting data block reads [11.12](ALTER-RESOURCE-COST.md)
+  - limiting inactive periods [11.11](ALTER-PROFILE.md)
+  - limiting private SGA space [11.12](ALTER-RESOURCE-COST.md)
+  - limiting resource costs [11.12](ALTER-RESOURCE-COST.md)
+  - limiting total elapsed time [11.12](ALTER-RESOURCE-COST.md)
+  - limiting total resources [11.11](ALTER-PROFILE.md)
+  - modifying characteristics of [11.16](ALTER-SESSION.md)
+  - restricting [12.2](ALTER-SYSTEM.md)
+  - restricting to privileged users [12.2](ALTER-SYSTEM.md)
+  - switching to a different instance [11.16.2](ALTER-SESSION.md)
+  - terminating [12.2](ALTER-SYSTEM.md)
+  - terminating across instances [12.2](ALTER-SYSTEM.md)
+  - time zone setting [11.16.2](ALTER-SESSION.md)
+- SESSIONS_PER_USER parameter
+  - of ALTER PROFILE [11.11](ALTER-PROFILE.md)
+- session sequences [15.1](CREATE-SEQUENCE.md)
+- SESSIONTIMEZONE function [7.200](SESSIONTIMEZONE.md)
+- SET clause
+  - of ALTER SESSION [11.16](ALTER-SESSION.md)
+  - of ALTER SYSTEM [12.2](ALTER-SYSTEM.md)
+- SET conditions [6.6.1](Multiset-Conditions.md)
+- SET CONSTRAINT(S) statement [19.10](SET-CONSTRAINTS.md)
+- SET CONTAINER system privilege [18.12](GRANT.md)
+- SET DANGLING TO NULL clause
+  - of ANALYZE [12.10](ANALYZE.md)
+- SET DATABASE clause
+  - of CREATE CONTROLFILE [13.7](CREATE-CONTROLFILE.md)
+- SET function [7.201](SET.md)
+- set operators [4.6](Set-Operators.md)
+  - INTERSECT [4.6](Set-Operators.md)
+  - MINUS [4.6](Set-Operators.md)
+  - UNION [4.6](Set-Operators.md)
+  - UNION ALL [4.6](Set-Operators.md)
+- SET ROLE statement [19.11](SET-ROLE.md)
+- SET STANDBY DATABASE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- SET STATEMENT_ID clause
+  - of EXPLAIN PLAN [18.9](EXPLAIN-PLAN.md)
+- SET TIME_ZONE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+  - of ALTER PLUGGABLE DATABASE [11.9](ALTER-PLUGGABLE-DATABASE.md)
+  - of ALTER SESSION [11.16.2](ALTER-SESSION.md)
+  - of CREATE DATABASE [13.8](CREATE-DATABASE.md)
+- SET TRANSACTION statement [19.12](SET-TRANSACTION.md)
+- SET UNUSED clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- SGA
+  - See: system global area (SGA)
+- SHARED clause
+  - of CREATE DATABASE LINK [13.9](CREATE-DATABASE-LINK.md)
+- shared pool
+  - flushing [12.2](ALTER-SYSTEM.md)
+- shared server
+  - processes
+    - creating additional [12.2](ALTER-SYSTEM.md)
+    - terminating [12.2](ALTER-SYSTEM.md)
+  - system parameters [12.2](ALTER-SYSTEM.md)
+- SHARE ROW EXCLUSIVE lock mode [18.14](LOCK-TABLE.md)
+- SHARE UPDATE lock mode [18.14](LOCK-TABLE.md)
+- short-circuit evaluation
+  - DECODE function [7.74](DECODE.md)
+- SHRINK SPACE clause
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of ALTER MATERIALIZED VIEW LOG [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- SHUTDOWN clause
+  - of ALTER SYSTEM [12.2](ALTER-SYSTEM.md)
+- siblings
+  - ordering in a hierarchical query [19.9](SELECT.md)
+- SIGN function [7.202](SIGN.md)
+- simple comparison conditions [6.2.1](Comparison-Conditions.md)
+- simple expressions [5.2](Simple-Expressions.md)
+- SIN function [7.203](SIN.md)
+- single-row functions [7.2](Single-Row-Functions.md)
+- SINGLE TABLE clause
+  - of CREATE CLUSTER [13.5](CREATE-CLUSTER.md)
+- single-table insert [18.13](INSERT.md)
+- SINH function [7.204](SINH.md)
+- SIZE clause
+  - of ALTER CLUSTER [10.7](ALTER-CLUSTER.md)
+  - of CREATE CLUSTER [13.5](CREATE-CLUSTER.md)
+  - of file specifications [8.4](file_specification.md)
+- SOME operator [6.2](Comparison-Conditions.md)
+- SOUNDEX function [7.205](SOUNDEX.md)
+- SOURCE_FILE_NAME_CONVERT clause
+  - of CREATE PLUGGABLE DATABASE [14.11](CREATE-PLUGGABLE-DATABASE.md)
+- SP datetime format element suffix [2.4.2.5](Format-Models.md)
+- special characters
+  - in passwords [14.13](CREATE-PROFILE.md)
+- spelled numbers
+  - specifying [2.4.2.5](Format-Models.md)
+- SPLIT PARTITION clause
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- SPTH datetime format element suffix [2.4.2.5](Format-Models.md)
+- SQL
+  - See: Structured Query Language (SQL)
+- SQL/DS data types [2.1.3](Data-Types.md)
+  - restrictions on [2.1.3](Data-Types.md)
+- SQL\*Loader inserts, logging [10.16](ALTER-INDEX.md)
+- SQL Developer [1.5](Tools-Support.md)
+- SQL For JSON
+  - conditions [6.10](SQL-JSON-Conditions.md)
+- SQL Function
+  - Data Mining [7.86](FEATURE_COMPARE.md)
+  - FEATURE_COMPARE [7.86](FEATURE_COMPARE.md)
+- SQL functions [7.1](About-SQL-Functions.md)
+  - ABS [7.9](ABS.md)
+  - ACOS [7.10](ACOS.md)
+  - ADD_MONTHS [7.11](ADD_MONTHS.md)
+  - aggregate functions [7.3](Aggregate-Functions.md)
+  - analytic functions [7.4](Analytic-Functions.md)
+  - applied to LOB columns [7.1](About-SQL-Functions.md)
+  - APPROX_COUNT_DISTINCT [7.14](APPROX_COUNT_DISTINCT.md)
+  - APPROX_COUNT_DISTINCT_AGG [7.15](APPROX_COUNT_DISTINCT_AGG.md)
+  - APPROX_COUNT_DISTINCT_DETAIL [7.16](APPROX_COUNT_DISTINCT_DETAIL.md)
+  - APPROX_MEDIAN [7.17](APPROX_MEDIAN.md)
+  - APPROX_PERCENTILE [7.18](APPROX_PERCENTILE.md)
+  - APPROX_PERCENTILE_AGG [7.19](APPROX_PERCENTILE_AGG.md)
+  - APPROX_PERCENTILE_DETAIL [7.20](APPROX_PERCENTILE_DETAIL.md)
+  - ASCII [7.23](ASCII.md)
+  - ASCIISTR [7.24](ASCIISTR.md)
+  - ASIN [7.25](ASIN.md)
+  - ATAN [7.26](ATAN.md)
+  - ATAN2 [7.27](ATAN2.md)
+  - AVG [7.28](AVG.md)
+  - BFILENAME [7.29](BFILENAME.md)
+  - BIN_TO_NUM [7.30](BIN_TO_NUM.md)
+  - BITAND [7.31](BITAND.md)
+  - CARDINALITY [7.37](CARDINALITY.md)
+  - CAST [7.38](CAST.md)
+  - CEIL [7.39](CEIL.md)
+  - character functions
+    - returning character values [7.2.2](Single-Row-Functions.md)
+    - returning number values [7.2.3](Single-Row-Functions.md)
+  - character set functions [7.2.4](Single-Row-Functions.md)
+  - CHARTOROWID [7.40](CHARTOROWID.md)
+  - CHR [7.41](CHR.md)
+  - CLUSTER_DETAILS [7.42](CLUSTER_DETAILS.md)
+  - CLUSTER_DISTANCE [7.43](CLUSTER_DISTANCE.md)
+  - CLUSTER_ID [7.44](CLUSTER_ID.md)
+  - CLUSTER_PROBABILITY [7.45](CLUSTER_PROBABILITY.md)
+  - CLUSTER_SET [7.46](CLUSTER_SET.md)
+  - COALESCE [7.47](COALESCE.md)
+  - COLLATION [7.48](COLLATION.md)
+  - collation functions [7.2.5](Single-Row-Functions.md)
+  - COLLECT [7.49](COLLECT.md)
+  - collection functions [7.2.10](Single-Row-Functions.md)
+  - COMPOSE [7.50](COMPOSE.md)
+  - CON_DBID_TO_ID [7.51](CON_DBID_TO_ID.md)
+  - CON_GUID_TO_ID [7.52](CON_GUID_TO_ID.md)
+  - CON_ID_TO_CON_NAME [7.53](con_id_to_con_name.md)
+  - CON_ID_TO_DBID [7.54](con_id_to_dbid.md)
+  - CON_NAME_TO_ID [7.55](CON_NAME_TO_ID.md)
+  - CON_UID_TO_ID [7.56](CON_UID_TO_ID.md)
+  - CONCAT [7.57](CONCAT.md)
+  - conversion functions [7.2.8](Single-Row-Functions.md)
+  - CONVERT [7.58](CONVERT.md)
+  - CORR [7.59](CORR.md)
+  - CORR_K [7.60.2](CORR_A.md)
+  - CORR_S [7.60.1](CORR_A.md)
+  - COS [7.61](COS.md)
+  - COSH [7.62](COSH.md)
+  - COUNT [7.63](COUNT.md)
+  - COVAR_POP [7.64](COVAR_POP.md)
+  - COVAR_SAMP [7.65](COVAR_SAMP.md)
+  - CUBE_TABLE [7.66](CUBE_TABLE.md)
+  - CUME_DIST [7.67](CUME_DIST.md)
+  - CURRRENT_DATE [7.68](CURRENT_DATE.md)
+  - CURRRENT_TIMESTAMP [7.69](CURRENT_TIMESTAMP.md)
+  - CV [7.70](CV.md)
+  - data cartridge functions [7.8](Data-Cartridge-Functions.md)
+  - data mining functions [7.2.12](Single-Row-Functions.md)
+  - DATAOBJ_TO_MAT_PARTITION [7.71](DATAOBJ_TO_MAT_PARTITION.md)
+  - DATAOBJ_TO_PARTITION [7.72](DATAOBJ_TO_PARTITION.md)
+  - datetime functions [7.2.6](Single-Row-Functions.md)
+  - DBTIMEZONE [7.73](DBTIMEZONE.md)
+  - DECODE [7.74](DECODE.md)
+  - DECOMPOSE [7.75](DECOMPOSE.md)
+  - DENSE_RANK [7.76](DENSE_RANK.md)
+  - DEPTH [7.77](DEPTH.md)
+  - DEREF [7.78](DEREF.md)
+  - DUMP [7.79](DUMP.md)
+  - EMPTY_BLOB [7.80](EMPTY_BLOB-EMPTY_CLOB.md)
+  - EMPTY_CLOB [7.80](EMPTY_BLOB-EMPTY_CLOB.md)
+  - encoding and decoding functions [7.2.15](Single-Row-Functions.md)
+  - environment and identifier functions [7.2.17](Single-Row-Functions.md)
+  - EXISTSNODE [7.81](EXISTSNODE.md)
+  - EXP [7.82](EXP.md)
+  - EXTRACT (datetime) [7.83](EXTRACT-datetime.md)
+  - EXTRACT (XML) [7.84](EXTRACT-XML.md)
+  - EXTRACTVALUE [7.85](EXTRACTVALUE.md)
+  - FEATURE_DETAILS [7.87](FEATURE_DETAILS.md)
+  - FEATURE_ID [7.88](FEATURE_ID.md)
+  - FEATURE_SET [7.89](FEATURE_SET.md)
+  - FEATURE_VALUE [7.90](FEATURE_VALUE.md)
+  - FIRST [7.91](FIRST.md)
+  - FIRST_VALUE [7.92](FIRST_VALUE.md)
+  - FLOOR [7.93](FLOOR.md)
+  - FROM_TZ [7.94](FROM_TZ.md)
+  - general comparison functions [7.2.7](Single-Row-Functions.md)
+  - GREATEST [7.95](GREATEST.md)
+  - GROUP_ID [7.96](GROUP_ID.md)
+  - GROUPING [7.97](GROUPING.md)
+  - GROUPING_ID [7.98](GROUPING_ID.md)
+  - HEXTORAW [7.99](HEXTORAW.md)
+  - hierarchical functions [7.2.11](Single-Row-Functions.md)
+  - INITCAP [7.100](INITCAP.md)
+  - INSTR [7.101](INSTR.md)
+  - INSTR2 [7.101](INSTR.md)
+  - INSTR4 [7.101](INSTR.md)
+  - INSTRB [7.101](INSTR.md)
+  - INSTRC [7.101](INSTR.md)
+  - ITERATION_NUMBER [7.102](ITERATION_NUMBER.md)
+  - JSON_ARRAY [7.103](JSON_ARRAY.md)
+  - JSON_ARRAYAGG [7.104](JSON_ARRAYAGG.md)
+  - JSON_DATAGUIDE [7.105](JSON_DATAGUIDE.md)
+  - JSON_OBJECT [7.107](JSON_OBJECT.md)
+  - JSON_OBJECTAGG [7.108](JSON_OBJECTAGG.md)
+  - JSON_QUERY [7.109](JSON_QUERY.md)
+  - JSON_SERIALIZE [7.110](JSON_SERIALIZE.md)
+  - JSON_TABLE [7.111](JSON_TABLE.md)
+  - JSON_VALUE [7.113](JSON_VALUE.md)
+  - LAG [7.114](LAG.md)
+  - large object functions [7.2.9](Single-Row-Functions.md)
+  - LAST [7.115](LAST.md)
+  - LAST_DAY [7.116](LAST_DAY.md)
+  - LAST_VALUE [7.117](LAST_VALUE.md)
+  - LEAD [7.118](LEAD.md)
+  - LEAST [7.119](LEAST.md)
+  - LENGTH [7.120](LENGTH.md)
+  - LENGTH2 [7.120](LENGTH.md)
+  - LENGTH4 [7.120](LENGTH.md)
+  - LENGTHB [7.120](LENGTH.md)
+  - LENGTHC [7.120](LENGTH.md)
+  - linear regression [7.188](REGR_-Linear-Regression-Functions.md)
+  - LISTAGG [7.121](LISTAGG.md)
+  - LN [7.122](LN.md)
+  - LNNVL [7.123](LNNVL.md)
+  - LOCALTIMESTAMP [7.124](LOCALTIMESTAMP.md)
+  - LOG [7.125](LOG.md)
+  - LOWER [7.126](LOWER.md)
+  - LPAD [7.127](LPAD.md)
+  - LTRIM [7.128](LTRIM.md)
+  - MAKE_REF [7.129](MAKE_REF.md)
+  - MAX [7.130](MAX.md)
+  - MEDIAN [7.131](MEDIAN.md)
+  - MIN [7.132](MIN.md)
+  - MOD [7.133](MOD.md)
+  - model functions [7.6](Model-Functions.md)
+  - MONTHS_BETWEEN [7.134](MONTHS_BETWEEN.md)
+  - NANVL [7.135](NANVL.md)
+  - NCHR [7.136](NCHR.md)
+  - NEW_TIME [7.137](NEW_TIME.md)
+  - NEXT_DAY [7.138](NEXT_DAY.md)
+  - NLS_CHARSET_DECL_LEN [7.139](NLS_CHARSET_DECL_LEN.md)
+  - NLS_CHARSET_ID [7.140](NLS_CHARSET_ID.md)
+  - NLS_CHARSET_NAME [7.141](NLS_CHARSET_NAME.md)
+  - NLS_COLLATION_ID [7.142](NLS_COLLATION_ID.md)
+  - NLS_COLLATION_NAME [7.143](NLS_COLLATION_NAME.md)
+  - NLS_INITCAP [7.144](NLS_INITCAP.md)
+  - NLS_LOWER [7.145](NLS_LOWER.md)
+  - NLS_UPPER [7.146](NLS_UPPER.md)
+  - NLSSORT [7.147](NLSSORT.md)
+  - NTH_VALUE [7.148](NTH_VALUE.md)
+  - NTILE [7.149](NTILE.md)
+  - NULLIF [7.150](NULLIF.md)
+  - NULL-related functions [7.2.16](Single-Row-Functions.md)
+  - numeric functions [7.2.1](Single-Row-Functions.md)
+  - NUMTODSINTERVAL [7.151](NUMTODSINTERVAL.md)
+  - NUMTOYMINTERVAL [7.152](NUMTOYMINTERVAL.md)
+  - NVL [7.153](NVL.md)
+  - NVL2 [7.154](NVL2.md)
+  - object reference functiions [7.5](Object-Reference-Functions.md)
+  - OLAP functions [7.7](OLAP-Functions.md)
+  - ORA_DM_PARTITION_NAME [7.155](ORA_DM_PARTITION_NAME.md)
+  - ORA_DST_AFFECTED [7.156](ORA_DST_AFFECTED.md)
+  - ORA_DST_CONVERT [7.157](ORA_DST_CONVERT.md)
+  - ORA_DST_ERROR [7.158](ORA_DST_ERROR.md)
+  - ORA_HASH [7.159](ORA_HASH.md)
+  - ORA_INVOKING_USER [7.160](ORA_INVOKING_USER.md)
+  - ORA_INVOKING_USERID [7.161](ORA_INVOKING_USERID.md)
+  - PATH [7.162](PATH.md)
+  - PERCENT_RANK [7.163](PERCENT_RANK.md)
+  - PERCENTILE_CONT [7.164](PERCENTILE_CONT.md)
+  - PERCENTILE_DISC [7.165](PERCENTILE_DISC.md)
+  - POWER [7.166](POWER.md)
+  - POWERMULTISET [7.167](POWERMULTISET.md)
+  - POWERMULTISET_BY_CARDINALITY [7.168](POWERMULTISET_BY_CARDINALITY.md)
+  - PREDICTION [7.169](PREDICTION.md)
+  - PREDICTION_BOUNDS [7.170](PREDICTION_BOUNDS.md)
+  - PREDICTION_COST [7.171](PREDICTION_COST.md)
+  - PREDICTION_DETAILS [7.172](PREDICTION_DETAILS.md)
+  - PREDICTION_PROBABILITY [7.173](PREDICTION_PROBABILITY.md)
+  - PREDICTION_SET [7.174](PREDICTION_SET.md)
+  - PRESENTNNV [7.175](PRESENTNNV.md)
+  - PRESENTV [7.176](PRESENTV.md)
+  - PREVIOUS [7.177](PREVIOUS.md)
+  - RANK [7.178](RANK.md)
+  - RATIO_TO_REPORT [7.179](RATIO_TO_REPORT.md)
+  - RAWTOHEX [7.180](RAWTOHEX.md)
+  - RAWTONHEX [7.181](RAWTONHEX.md)
+  - REF [7.182](REF.md)
+  - REFTOHEX [7.183](REFTOHEX.md)
+  - REGEXP_COUNT [7.184](REGEXP_COUNT.md)
+  - REGEXP_INSTR [7.185](REGEXP_INSTR.md)
+  - REGEXP_REPLACE [7.186](REGEXP_REPLACE.md)
+  - REGEXP_SUBSTR [7.187](REGEXP_SUBSTR.md)
+  - REGR_AVGX [7.188](REGR_-Linear-Regression-Functions.md)
+  - REGR_AVGY [7.188](REGR_-Linear-Regression-Functions.md)
+  - REGR_COUNT [7.188](REGR_-Linear-Regression-Functions.md)
+  - REGR_INTERCEPT [7.188](REGR_-Linear-Regression-Functions.md)
+  - REGR_R2 [7.188](REGR_-Linear-Regression-Functions.md)
+  - REGR_SLOPE [7.188](REGR_-Linear-Regression-Functions.md)
+  - REGR_SXX [7.188](REGR_-Linear-Regression-Functions.md)
+  - REGR_SXY [7.188](REGR_-Linear-Regression-Functions.md)
+  - REGR_SYY [7.188](REGR_-Linear-Regression-Functions.md)
+  - REMAINDER [7.189](REMAINDER.md)
+  - REPLACE [7.190](REPLACE.md)
+  - ROUND (date) [7.191](ROUND-date.md)
+  - ROUND (number) [7.192](ROUND-number.md)
+  - ROW_NUMBER [7.194](ROW_NUMBER.md)
+  - ROWIDTOCHAR [7.195](ROWIDTOCHAR.md)
+  - ROWIDTONCHAR [7.196](ROWIDTONCHAR.md)
+  - RPAD [7.197](RPAD.md)
+  - RTRIM [7.198](RTRIM.md)
+  - SCN_TO_TIMESTAMP [7.199](SCN_TO_TIMESTAMP.md)
+  - SESSIONTIMEZONE [7.200](SESSIONTIMEZONE.md)
+  - SET [7.201](SET.md)
+  - SIGN [7.202](SIGN.md)
+  - SIN [7.203](SIN.md)
+  - single-row functions [7.2](Single-Row-Functions.md)
+  - SINH [7.204](SINH.md)
+  - SOUNDEX [7.205](SOUNDEX.md)
+  - SQRT [7.206](SQRT.md)
+  - STANDARD_HASH [7.207](STANDARD_HASH.md)
+  - STATS_BINOMIAL_TEST [7.208](STATS_BINOMIAL_TEST.md)
+  - STATS_CROSSTAB [7.209](STATS_CROSSTAB.md)
+  - STATS_F_TEST [7.210](STATS_F_TEST.md)
+  - STATS_KS_TEST [7.211](STATS_KS_TEST.md)
+  - STATS_MODE [7.212](STATS_MODE.md)
+  - STATS_MW_TEST [7.213](STATS_MW_TEST.md)
+  - STATS_ONE_WAY_ANOVA [7.214](STATS_ONE_WAY_ANOVA.md)
+  - STATS_T_TEST_INDEP [7.215](STATS_T_TEST_.md), [7.215.3](STATS_T_TEST_.md)
+  - STATS_T_TEST_INDEPU [7.215](STATS_T_TEST_.md), [7.215.3](STATS_T_TEST_.md)
+  - STATS_T_TEST_ONE [7.215](STATS_T_TEST_.md), [7.215.1](STATS_T_TEST_.md)
+  - STATS_T_TEST_PAIRED [7.215](STATS_T_TEST_.md), [7.215.2](STATS_T_TEST_.md)
+  - STATS_WSR_TEST [7.216](STATS_WSR_TEST.md)
+  - STDDEV [7.217](STDDEV.md)
+  - STDDEV_POP [7.218](STDDEV_POP.md)
+  - STDDEV_SAMP [7.219](STDDEV_SAMP.md)
+  - SUBSTR [7.220](SUBSTR.md)
+  - SUBSTR2 [7.220](SUBSTR.md)
+  - SUBSTR4 [7.220](SUBSTR.md)
+  - SUBSTRB [7.220](SUBSTR.md)
+  - SUBSTRC [7.220](SUBSTR.md)
+  - SUM [7.221](SUM.md)
+  - SYS_CONNECT_BY_PATH [7.222](SYS_CONNECT_BY_PATH.md)
+  - SYS_CONTEXT [7.223](SYS_CONTEXT.md)
+  - SYS_DBURIGEN [7.224](SYS_DBURIGEN.md)
+  - SYS_EXTRACT_UTC [7.225](SYS_EXTRACT_UTC.md)
+  - SYS_GUID [7.226](SYS_GUID.md)
+  - SYS_OP_ZONE_ID [7.227](SYS_OP_ZONE_ID.md)
+  - SYS_TYPEID [7.228](SYS_TYPEID.md)
+  - SYS_XMLAGG [7.229](SYS_XMLAGG.md)
+  - SYS_XMLGEN [7.230](SYS_XMLGEN.md)
+  - SYSDATE [7.231](SYSDATE.md)
+  - SYSTIMESTAMP [7.232](SYSTIMESTAMP.md)
+  - TAN [7.233](TAN.md)
+  - TANH [7.234](TANH.md)
+  - TIMESTAMP_TO_SCN [7.235](TIMESTAMP_TO_SCN.md)
+  - TO_APPROX_COUNT_DISTINCT [7.236](TO_APPROX_COUNT_DISTINCT.md)
+  - TO_APPROX_PERCENTILE [7.237](TO_APPROX_PERCENTILE.md)
+  - TO_BINARY_DOUBLE [7.238](TO_BINARY_DOUBLE.md)
+  - TO_BINARY_FLOAT [7.239](TO_BINARY_FLOAT.md)
+  - TO_BLOB (bfile) [7.240](TO_BLOB-bfile.md)
+  - TO_BLOB (raw) [7.241](TO_BLOB-raw.md)
+  - TO_CHAR (bfile\|blob) [7.242](TO_CHAR-bfile-blob.md)
+  - TO_CHAR (character) [7.243](TO_CHAR-character.md)
+  - TO_CHAR (datetime) [7.244](TO_CHAR-datetime.md)
+  - TO_CHAR (number) [7.245](TO_CHAR-number.md)
+  - TO_CLOB (bfile\|blob) [7.246](TO_CLOB-bfile-blob.md)
+  - TO_CLOB (character) [7.247](TO_CLOB-character.md)
+  - TO_DATE [7.248](TO_DATE.md)
+  - TO_DSINTERVAL [7.249](TO_DSINTERVAL.md)
+  - TO_LOB [7.250](TO_LOB.md)
+  - TO_MULTI_BYTE [7.251](TO_MULTI_BYTE.md)
+  - TO_NCHAR (character) [7.252](TO_NCHAR-character.md)
+  - TO_NCHAR (datetime) [7.253](TO_NCHAR-datetime.md)
+  - TO_NCHAR (number) [7.254](TO_NCHAR-number.md)
+  - TO_NCLOB [7.255](TO_NCLOB.md)
+  - TO_NUMBER [7.256](TO_NUMBER.md)
+  - TO_SINGLE_BYTE [7.257](TO_SINGLE_BYTE.md)
+  - TO_TIMESTAMP [7.258](TO_TIMESTAMP.md)
+  - TO_TIMESTAMP_TZ [7.259](TO_TIMESTAMP_TZ.md)
+  - TO_YMINTERVAL [7.261](TO_YMINTERVAL.md)
+  - TRANSLATE [7.262](TRANSLATE.md)
+  - TRANSLATE ... USING [7.263](TRANSLATE-USING.md)
+  - TREAT [7.264](TREAT.md)
+  - TRIM [7.265](TRIM.md)
+  - TRUNC (date) [7.266](TRUNC-date.md)
+  - TRUNC (number) [7.267](TRUNC-number.md)
+  - t-test [7.215](STATS_T_TEST_.md)
+  - TZ_OFFSET [7.268](TZ_OFFSET.md)
+  - UID [7.269](UID.md)
+  - UNISTR [7.270](UNISTR.md)
+  - UPPER [7.271](UPPER.md)
+  - USER [7.272](USER.md)
+  - USERENV [7.273](USERENV.md)
+  - VALIDATE_CONVERSION [7.274](VALIDATE_CONVERSION.md)
+  - VALUE [7.275](VALUE.md)
+  - VAR_POP [7.276](VAR_POP.md)
+  - VAR_SAMP [7.277](VAR_SAMP.md)
+  - VARIANCE [7.278](VARIANCE.md)
+  - VSIZE [7.279](VSIZE.md)
+  - WIDTH_BUCKET [7.280](WIDTH_BUCKET.md)
+  - XMLAGG [7.281](XMLAGG.md)
+  - XMLCAST [7.282](XMLCAST.md)
+  - XMLCDATA [7.283](XMLCDATA.md)
+  - XMLCOLATTVAL [7.284](XMLCOLATTVAL.md)
+  - XMLCOMMENT [7.285](XMLCOMMENT.md)
+  - XMLCONCAT [7.286](XMLCONCAT.md)
+  - XMLDIFF [7.287](XMLDIFF.md)
+  - XMLELEMENT [7.288](XMLELEMENT.md)
+  - XMLEXISTS [7.289](XMLEXISTS.md)
+  - XMLFOREST [7.290](XMLFOREST.md)
+  - XML functions [7.2.13](Single-Row-Functions.md)
+  - XMLISVALID [7.291](XMLISVALID.md)
+  - XMLPARSE [7.292](XMLPARSE.md)
+  - XMLPATCH [7.293](XMLPATCH.md)
+  - XMLPI [7.294](XMLPI.md)
+  - XMLQUERY [7.295](XMLQUERY.md)
+  - XMLROOT [7.296](XMLROOT.md)
+  - XMLSEQUENCE [7.297](XMLSEQUENCE.md)
+  - XMLSERIALIZE [7.298](XMLSERIALIZE.md)
+  - XMLTABLE [7.299](XMLTABLE.md)
+  - XMLTRANSFORM [7.300](XMLTRANSFORM.md)
+- SQL statements
+  - ALTER FLASHBACK ARCHIVE [10.13](ALTER-FLASHBACK-ARCHIVE.md)
+  - auditing
+    - by access [12.12](AUDIT-Traditional-Auditing.md)
+    - by session [12.12](AUDIT-Traditional-Auditing.md)
+    - stopping [19.2](NOAUDIT-Traditional-Auditing.md)
+    - successful [12.12](AUDIT-Traditional-Auditing.md)
+  - CREATE FLASHBACK ARCHIVE [13.14](CREATE-FLASHBACK-ARCHIVE.md)
+  - DDL [10.1.1](Types-of-SQL-Statements.md)
+  - determining the execution plan for [18.9](EXPLAIN-PLAN.md)
+  - DML [10.1.2](Types-of-SQL-Statements.md)
+  - DROP FLASHBACK ARCHIVE [16.8](DROP-FLASHBACK-ARCHIVE.md)
+  - organization of [10.2](How-the-SQL-Statement-Chapters-are-Organized.md)
+  - rolling back [19.7](ROLLBACK.md)
+  - session control [10.1.4](Types-of-SQL-Statements.md)
+  - space allocation, resumable [11.16](ALTER-SESSION.md)
+  - storage in the result cache [15.4](CREATE-TABLE.md)
+  - suspending and completing [11.16](ALTER-SESSION.md)
+  - system control [10.1.5](Types-of-SQL-Statements.md)
+  - tracking the occurrence in a session [12.12](AUDIT-Traditional-Auditing.md)
+  - transaction control [10.1.3](Types-of-SQL-Statements.md)
+  - type of [10.1](Types-of-SQL-Statements.md)
+  - undoing [19.7](ROLLBACK.md)
+- SQL translation profiles
+  - auditing [12.12](AUDIT-Traditional-Auditing.md)
+  - granting object privileges for [18.12](GRANT.md)
+  - granting system privileges for [18.12](GRANT.md)
+- SQRT function [7.206](SQRT.md)
+- staging log [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+- standalone procedures
+  - dropping [17.10](DROP-PROCEDURE.md)
+- STANDARD_HASH function [7.207](STANDARD_HASH.md)
+- standard SQL [C](Oracle-and-Standard-SQL.md)
+  - Oracle extensions to [C.12](Oracle-Extensions-to-Standard-SQL.md)
+- standby database
+  - synchronizing with primary database [11.16](ALTER-SESSION.md)
+- standby databases
+  - activating [10.8](ALTER-DATABASE.md)
+  - and Data Guard [10.8](ALTER-DATABASE.md)
+  - committing to primary status [10.8](ALTER-DATABASE.md)
+  - controlling use [10.8](ALTER-DATABASE.md)
+  - converting to physical standby [10.8](ALTER-DATABASE.md)
+  - designing media recovery [10.8](ALTER-DATABASE.md)
+  - mounting [10.8](ALTER-DATABASE.md)
+  - recovering [10.8](ALTER-DATABASE.md)
+- STAR_TRANSFORMATION hint [2.6.4.92](Comments.md)
+- START LOGICAL STANDBY APPLY clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- startup_clauses
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- START WITH clause
+  - of ALTER MATERIALIZED VIEW ... REFRESH [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of queries and subqueries [19.9](SELECT.md)
+  - of SELECT and subqueries [19.9](SELECT.md)
+- START WITH parameter
+  - of CREATE SEQUENCE [15.1](CREATE-SEQUENCE.md)
+- STATEMENT_QUEUING hint [2.6.4.93](Comments.md)
+- statistics
+  - collection during index rebuild [10.16](ALTER-INDEX.md)
+  - deleting from the data dictionary [12.10](ANALYZE.md)
+  - forcing disassociation [15.13](DISASSOCIATE-STATISTICS.md)
+  - gathering for bulk loads [2.6.4.18](Comments.md), [2.6.4.43](Comments.md)
+  - on index usage [10.16](ALTER-INDEX.md)
+  - on scalar object attributes
+    - collecting [12.10](ANALYZE.md)
+  - on schema objects
+    - collecting [12.10](ANALYZE.md)
+    - deleting [12.10](ANALYZE.md)
+  - user-defined
+    - dropping [16.11](DROP-INDEX.md), [16.12](DROP-INDEXTYPE.md), [17.8](DROP-PACKAGE.md), [18.1](DROP-TABLE.md), [18.5](DROP-TYPE.md)
+- statistics types
+  - associating
+    - with columns [12.11](ASSOCIATE-STATISTICS.md)
+    - with domain indexes [12.11](ASSOCIATE-STATISTICS.md)
+    - with functions [12.11](ASSOCIATE-STATISTICS.md)
+    - with indextypes [12.11](ASSOCIATE-STATISTICS.md)
+    - with object types [12.11](ASSOCIATE-STATISTICS.md)
+    - with packages [12.11](ASSOCIATE-STATISTICS.md)
+  - disassociating
+    - from columns [15.13](DISASSOCIATE-STATISTICS.md)
+    - from domain indexes [15.13](DISASSOCIATE-STATISTICS.md)
+    - from functions [15.13](DISASSOCIATE-STATISTICS.md)
+    - from indextypes [15.13](DISASSOCIATE-STATISTICS.md)
+    - from object types [15.13](DISASSOCIATE-STATISTICS.md)
+    - from packages [15.13](DISASSOCIATE-STATISTICS.md)
+- STATS_BINOMIAL_TEST function [7.208](STATS_BINOMIAL_TEST.md)
+- STATS_CROSSTAB function [7.209](STATS_CROSSTAB.md)
+- STATS_F_TEST function [7.210](STATS_F_TEST.md)
+- STATS_KS_TEST function [7.211](STATS_KS_TEST.md)
+- STATS_MODE function [7.212](STATS_MODE.md)
+- STATS_MW_TEST function [7.213](STATS_MW_TEST.md)
+- STATS_ONE_WAY_ANOVA function [7.214](STATS_ONE_WAY_ANOVA.md)
+- STATS_T_TEST_INDEP function [7.215](STATS_T_TEST_.md), [7.215.3](STATS_T_TEST_.md)
+- STATS_T_TEST_INDEPU function [7.215](STATS_T_TEST_.md), [7.215.3](STATS_T_TEST_.md)
+- STATS_T_TEST_ONE function [7.215](STATS_T_TEST_.md), [7.215.1](STATS_T_TEST_.md)
+- STATS_T_TEST_PAIRED function [7.215](STATS_T_TEST_.md), [7.215.2](STATS_T_TEST_.md)
+- STATS_WSR_TEST function [7.216](STATS_WSR_TEST.md)
+- STDDEV_POP function [7.218](STDDEV_POP.md)
+- STDDEV_SAMP function [7.219](STDDEV_SAMP.md)
+- STDDEV function [7.217](STDDEV.md)
+- STOP LOGICAL STANDBY clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- STORAGE clause
+  - of ALTER CLUSTER [10.7](ALTER-CLUSTER.md)
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+  - of ALTER MATERIALIZED VIEW LOG [11.4](ALTER-MATERIALIZED-VIEW-LOG.md)
+  - of CREATE MATERIALIZED VIEW LOG. See CREATE TABLE [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+  - of CREATE TABLE [8.7](physical_attributes_clause.md)
+- storage parameters
+  - resetting [19.13](TRUNCATE-CLUSTER.md), [19.14](TRUNCATE-TABLE.md)
+- stored functions [13.15](CREATE-FUNCTION.md)
+- STORE IN clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md), [15.4](CREATE-TABLE.md)
+- string literals
+  - See: text literals.
+- strings
+  - See: text literals.
+
+  <!-- -->
+
+  - converting to ASCII values [7.24](ASCIISTR.md)
+  - converting to unicode [7.50](COMPOSE.md)
+- Structured Query Language (SQL)
+  - description [1](Introduction-to-Oracle-SQL.md)
+  - functions [7.1](About-SQL-Functions.md)
+  - keywords [A.1.1](Graphic-Syntax-Diagrams.md)
+  - Oracle Tools support of [1.5](Tools-Support.md)
+  - parameters [A.1.1](Graphic-Syntax-Diagrams.md)
+  - standards [1.2](SQL-Standards.md), [C](Oracle-and-Standard-SQL.md)
+  - statements
+    - determining the cost of [18.9](EXPLAIN-PLAN.md)
+  - syntax [10.2](How-the-SQL-Statement-Chapters-are-Organized.md), [A.1](Graphic-Syntax-Diagrams.md)
+- structures
+  - locking [B.2](Automatic-Locks-in-DDL-Operations.md)
+- subexpressions
+  - of regular expressions [7.185](REGEXP_INSTR.md), [7.187](REGEXP_SUBSTR.md)
+- SUBMULTISET condition [6.6.4](Multiset-Conditions.md)
+- SUBPARTITION BY HASH clause
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- SUBPARTITION BY LIST clause
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- SUBPARTITION clause
+  - of ANALYZE [12.10](ANALYZE.md)
+  - of DELETE [15.12](DELETE.md)
+  - of INSERT [18.13](INSERT.md)
+  - of LOCK TABLE [18.14](LOCK-TABLE.md)
+  - of UPDATE [19.15](UPDATE.md)
+- subpartition-extended table names
+  - in DML statements [2.9.4](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md)
+  - restrictions on [2.9.4](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md)
+  - syntax [2.9.4](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md)
+- subpartitions
+  - adding [12.3](ALTER-TABLE.md)
+  - adding rows to [18.13](INSERT.md)
+  - allocating extents for [12.3](ALTER-TABLE.md)
+  - coalescing [12.3](ALTER-TABLE.md)
+  - converting into nonpartitioned tables [12.3](ALTER-TABLE.md)
+  - creating [15.4](CREATE-TABLE.md)
+  - creating a template for [12.3](ALTER-TABLE.md), [15.4](CREATE-TABLE.md)
+  - deallocating unused space from [12.3](ALTER-TABLE.md)
+  - exchanging with tables [12.3](ALTER-TABLE.md)
+  - hash [15.4](CREATE-TABLE.md)
+  - inserting rows into [18.13](INSERT.md)
+  - list [15.4](CREATE-TABLE.md)
+  - list, adding [12.3](ALTER-TABLE.md)
+  - locking [18.14](LOCK-TABLE.md)
+  - logging insert operations [12.3](ALTER-TABLE.md)
+  - moving to a different segment [12.3](ALTER-TABLE.md)
+  - physical attributes
+    - changing [12.3](ALTER-TABLE.md)
+  - removing rows from [12.3](ALTER-TABLE.md), [15.12](DELETE.md)
+  - renaming [12.3](ALTER-TABLE.md)
+  - revising values in [19.15](UPDATE.md)
+  - specifying [15.4](CREATE-TABLE.md)
+  - template, creating [15.4](CREATE-TABLE.md)
+  - template, dropping [12.3](ALTER-TABLE.md)
+  - template, replacing [12.3](ALTER-TABLE.md)
+- subpartition template
+  - creating [12.3](ALTER-TABLE.md)
+  - replacing [12.3](ALTER-TABLE.md)
+- subqueries [9.1](About-Queries-and-Subqueries.md), [9.7](Using-Subqueries.md), [19.9](SELECT.md)
+  - containing subqueries [9.7](Using-Subqueries.md)
+  - correlated [9.7](Using-Subqueries.md)
+  - defined [9.1](About-Queries-and-Subqueries.md)
+  - extended subquery unnesting [9.8](Unnesting-of-Nested-Subqueries.md)
+  - inline views [9.7](Using-Subqueries.md)
+  - nested [9.7](Using-Subqueries.md)
+  - of past data [19.9](SELECT.md)
+  - scalar [5.15](Scalar-Subquery-Expressions.md)
+  - to insert table data [15.4](CREATE-TABLE.md)
+  - unnesting [9.8](Unnesting-of-Nested-Subqueries.md)
+  - using in place of expressions [5.15](Scalar-Subquery-Expressions.md)
+- SUBSTR2 function [7.220](SUBSTR.md)
+- SUBSTR4 function [7.220](SUBSTR.md)
+- SUBSTRB function [7.220](SUBSTR.md)
+- SUBSTRC function [7.220](SUBSTR.md)
+- SUBSTR function [7.220](SUBSTR.md)
+- subtotal values
+  - deriving [19.9](SELECT.md)
+- subtypes
+  - dropping safely [18.5](DROP-TYPE.md)
+- SUM function [7.221](SUM.md)
+- supplemental logging
+  - identification key (full) [10.8](ALTER-DATABASE.md)
+  - minimal [10.8](ALTER-DATABASE.md)
+- SUSPEND clause
+  - of ALTER SYSTEM [12.2](ALTER-SYSTEM.md)
+- sustained standby recovery mode [10.8](ALTER-DATABASE.md)
+- SWITCH LOGFILE clause
+  - of ALTER SYSTEM [12.2](ALTER-SYSTEM.md)
+- synchronous refresh [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+- SYNC WITH PRIMARY
+  - clause of ALTER SESSION [11.16](ALTER-SESSION.md)
+- synonyms
+  - changing the definition of [17.16](DROP-SYNONYM.md)
+  - creating [15.3](CREATE-SYNONYM.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - local [15.3](CREATE-SYNONYM.md)
+  - private, dropping [17.16](DROP-SYNONYM.md)
+  - public [15.3](CREATE-SYNONYM.md)
+    - dropping [17.16](DROP-SYNONYM.md)
+  - remote [15.3](CREATE-SYNONYM.md)
+  - removing from the database [17.16](DROP-SYNONYM.md)
+  - renaming [19.5](RENAME.md)
+  - synonyms for [15.3](CREATE-SYNONYM.md)
+- syntax diagrams [A.1](Graphic-Syntax-Diagrams.md)
+  - loops [A.1.3](Graphic-Syntax-Diagrams.md)
+  - multipart diagrams [A.1.4](Graphic-Syntax-Diagrams.md)
+- SYS_CONNECT_BY_PATH function [7.222](SYS_CONNECT_BY_PATH.md)
+- SYS_CONTEXT function [7.223](SYS_CONTEXT.md)
+- SYS_DBURIGEN function [7.224](SYS_DBURIGEN.md)
+- SYS_EXTRACT_UTC function [7.225](SYS_EXTRACT_UTC.md)
+- SYS_GUID function [7.226](SYS_GUID.md)
+- SYS_NC_ROWINFO\$ column [15.4](CREATE-TABLE.md), [15.11](CREATE-VIEW.md)
+- SYS_OP_ZONE_ID function [7.227](SYS_OP_ZONE_ID.md)
+- SYS_SESSION_ROLES namespace [7.223](SYS_CONTEXT.md)
+- SYS_TYPEID function [7.228](SYS_TYPEID.md)
+- SYS_XMLAGG function [7.229](SYS_XMLAGG.md)
+- SYS_XMLGEN function [7.230](SYS_XMLGEN.md)
+- SYSAUX clause
+  - of CREATE DATABASE [13.8](CREATE-DATABASE.md)
+- SYSAUX tablespace
+  - creating [13.8](CREATE-DATABASE.md)
+- SYSDATE function [7.231](SYSDATE.md)
+- system change numbers
+  - obtaining [3.7](ORA_ROWSCN-Pseudocolumn.md)
+- system control statements [10.1.5](Types-of-SQL-Statements.md)
+  - PL/SQL support of [10.1.5](Types-of-SQL-Statements.md)
+- system global area
+  - flushing [12.2](ALTER-SYSTEM.md)
+  - updating [12.2](ALTER-SYSTEM.md)
+- system parameters
+  - GLOBAL_TOPIC_ENABLED [12.2](ALTER-SYSTEM.md)
+- system partitioning [15.4](CREATE-TABLE.md)
+- system privileges
+  - ADMINISTER ANY SQL TUNING SET [18.12](GRANT.md)
+  - ADMINISTER KEY MANAGEMENT [18.12](GRANT.md)
+  - ADMINISTER SQL MANAGEMENT OBJECT [18.12](GRANT.md)
+  - ADMINISTER SQL TUNING SET [18.12](GRANT.md)
+  - ALTER ANY SQL PROFILE [18.12](GRANT.md)
+  - ALTER DATABASE LINK [18.12](GRANT.md)
+  - ALTER PUBLIC DATABASE LINK [18.12](GRANT.md)
+  - BECOME USER [18.12](GRANT.md)
+  - CHANGE NOTIFICATION [18.12](GRANT.md)
+  - CREATE ANY SQL PROFILE [18.12](GRANT.md)
+  - CREATE PLUGGABLE DATABASE [18.12](GRANT.md)
+  - DROP ANY SQL PROFILE [18.12](GRANT.md)
+  - for job scheduler tasks [18.12](GRANT.md)
+  - for the Advisor framework [18.12](GRANT.md)
+  - granting [14.15](CREATE-ROLE.md), [18.12](GRANT.md)
+    - to a role [18.12](GRANT.md)
+    - to a user [18.12](GRANT.md)
+    - to PUBLIC [18.12](GRANT.md)
+  - list of [12.12](AUDIT-Traditional-Auditing.md)
+  - MERGE ANY VIEW [18.12](GRANT.md)
+  - READ ANY TABLE [18.12](GRANT.md)
+  - revoking [19.6](REVOKE.md)
+    - from a role [19.6](REVOKE.md)
+    - from a user [19.6](REVOKE.md)
+    - from PUBLIC [19.6](REVOKE.md)
+  - SET CONTAINER [18.12](GRANT.md)
+- SYSTEM tablespace
+  - locally managed [13.8](CREATE-DATABASE.md)
+- SYSTEM user
+  - assigning password for [13.8](CREATE-DATABASE.md)
+- SYSTIMESTAMP function [7.232](SYSTIMESTAMP.md)
+- SYS user
+  - assigning password for [13.8](CREATE-DATABASE.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- TABLE clause
+  - of ANALYZE [12.10](ANALYZE.md)
+  - of INSERT [18.13](INSERT.md)
+  - of SELECT [19.9](SELECT.md)
+  - of TRUNCATE [19.14](TRUNCATE-TABLE.md)
+  - of UPDATE [19.15](UPDATE.md)
+- TABLE collection expression [19.9](SELECT.md)
+- table compression [11.3](ALTER-MATERIALIZED-VIEW.md), [12.3](ALTER-TABLE.md), [14.3](CREATE-MATERIALIZED-VIEW.md), [15.4](CREATE-TABLE.md)
+  - Advanced Row Compression [15.4](CREATE-TABLE.md)
+  - basic [15.4](CREATE-TABLE.md)
+  - during bulk load operations [15.4](CREATE-TABLE.md)
+  - for archiving data [15.4](CREATE-TABLE.md)
+  - Hybrid Columnar [15.4](CREATE-TABLE.md)
+- table locks
+  - and queries [18.14](LOCK-TABLE.md)
+  - disabling [12.3](ALTER-TABLE.md)
+  - duration of [18.14](LOCK-TABLE.md)
+  - enabling [12.3](ALTER-TABLE.md)
+  - EXCLUSIVE [18.14](LOCK-TABLE.md)
+  - modes of [18.14](LOCK-TABLE.md)
+  - on partitions [18.14](LOCK-TABLE.md)
+  - on remote database [18.14](LOCK-TABLE.md)
+  - on subpartitions [18.14](LOCK-TABLE.md)
+  - ROW EXCLUSIVE [18.14](LOCK-TABLE.md)
+  - ROW SHARE [18.14](LOCK-TABLE.md)
+  - SHARE [18.14](LOCK-TABLE.md)
+  - SHARE ROW EXCLUSIVE [18.14](LOCK-TABLE.md)
+  - SHARE UPDATE [18.14](LOCK-TABLE.md)
+- table partitions
+  - compression of [12.3](ALTER-TABLE.md), [15.4](CREATE-TABLE.md)
+- table REF constraints [8.2](constraint.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- tables
+  - adding a constraint to [12.3](ALTER-TABLE.md)
+  - adding rows to [18.13](INSERT.md)
+  - aliases [2.9.5](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md)
+    - in DELETE [15.12](DELETE.md)
+  - allocating extents for [12.3](ALTER-TABLE.md)
+  - assigning to a cluster [15.4](CREATE-TABLE.md)
+  - changing degree of parallelism on [12.3](ALTER-TABLE.md)
+  - changing existing values in [19.15](UPDATE.md)
+  - collecting statistics on [12.10](ANALYZE.md)
+  - comments on [12.15](COMMENT.md)
+  - compression of [12.3](ALTER-TABLE.md), [15.4](CREATE-TABLE.md)
+  - creating [15.4](CREATE-TABLE.md)
+    - multiple [14.17](CREATE-SCHEMA.md)
+  - creating comments about [12.15](COMMENT.md)
+  - data stored outside database [15.4](CREATE-TABLE.md)
+  - deallocating unused space from [12.3](ALTER-TABLE.md)
+  - default physical attributes
+    - changing [12.3](ALTER-TABLE.md)
+  - degree of parallelism
+    - specifying [15.4](CREATE-TABLE.md)
+  - disassociating statistics types from [18.1](DROP-TABLE.md)
+  - dropping
+    - along with cluster [15.17](DROP-CLUSTER.md)
+    - along with owner [18.7](DROP-USER.md)
+    - indexes of [18.1](DROP-TABLE.md)
+    - partitions of [18.1](DROP-TABLE.md)
+  - enabling tracking [15.4](CREATE-TABLE.md)
+  - external [15.4](CREATE-TABLE.md)
+    - creating [15.4](CREATE-TABLE.md)
+    - restrictions on [15.4](CREATE-TABLE.md)
+  - externally organized [15.4](CREATE-TABLE.md)
+  - flashing back to an earlier version [18.11](FLASHBACK-TABLE.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - heap organized [15.4](CREATE-TABLE.md)
+  - index-organized [15.4](CREATE-TABLE.md)
+    - overflow segment for [15.4](CREATE-TABLE.md)
+    - space in index block [15.4](CREATE-TABLE.md)
+  - inserting rows with a subquery [15.4](CREATE-TABLE.md)
+  - inserting using the direct-path method [18.13](INSERT.md)
+  - joining in a query [19.9](SELECT.md)
+  - LOB storage of [8.7](physical_attributes_clause.md)
+  - locking [18.14](LOCK-TABLE.md)
+  - logging
+    - insert operations [12.3](ALTER-TABLE.md)
+    - table creation [15.4](CREATE-TABLE.md)
+  - migrated and chained rows in [12.10](ANALYZE.md)
+  - moving [12.3](ALTER-TABLE.md)
+  - moving, index-organized [12.3](ALTER-TABLE.md)
+  - moving to a new segment [12.3](ALTER-TABLE.md)
+  - nested
+    - storage characteristics [15.4](CREATE-TABLE.md)
+  - object
+    - creating [15.4](CREATE-TABLE.md)
+    - querying [15.4](CREATE-TABLE.md)
+  - of XMLType, creating [15.4](CREATE-TABLE.md)
+  - organization, defining [15.4](CREATE-TABLE.md)
+  - parallel creation of [15.4](CREATE-TABLE.md)
+  - parallelism
+    - setting default degree [15.4](CREATE-TABLE.md)
+  - partition attributes of [12.3](ALTER-TABLE.md)
+  - partitioning [2.9.4](Syntax-for-Schema-Objects-and-Parts-in-SQL-Statements.md), [15.4](CREATE-TABLE.md)
+    - allowing rows to move between partitions [12.3](ALTER-TABLE.md)
+    - default attributes of [12.3](ALTER-TABLE.md)
+  - physical attributes
+    - changing [12.3](ALTER-TABLE.md)
+  - purging from the recycle bin [19.4](PURGE.md)
+  - read/write mode [12.3](ALTER-TABLE.md)
+  - read-only mode [12.3](ALTER-TABLE.md)
+  - reference-partitioned [12.3](ALTER-TABLE.md), [15.4](CREATE-TABLE.md)
+  - relational
+    - creating [15.4](CREATE-TABLE.md)
+  - remote, accessing [13.9](CREATE-DATABASE-LINK.md)
+  - removing from the database [18.1](DROP-TABLE.md)
+  - removing rows from [15.12](DELETE.md)
+  - renaming [12.3](ALTER-TABLE.md), [19.5](RENAME.md)
+  - restricting
+    - records in a block [12.3](ALTER-TABLE.md)
+  - retrieving data from [19.9](SELECT.md)
+  - saving blocks in a cache [15.4](CREATE-TABLE.md)
+  - SQL examples [15.4](CREATE-TABLE.md)
+  - storage attributes
+    - defining [15.4](CREATE-TABLE.md)
+  - storage characteristics
+    - defining [8.7](physical_attributes_clause.md)
+  - storage properties of [15.4](CREATE-TABLE.md)
+  - subpartition attributes of [12.3](ALTER-TABLE.md)
+  - synonyms for [15.3](CREATE-SYNONYM.md)
+  - tablespace for
+    - defining [15.4](CREATE-TABLE.md)
+  - temporary
+    - duration of data [15.4](CREATE-TABLE.md)
+    - session-specific [15.4](CREATE-TABLE.md)
+    - transaction specific [15.4](CREATE-TABLE.md)
+  - unclustering [15.17](DROP-CLUSTER.md)
+  - updating through views [15.11](CREATE-VIEW.md)
+  - validating structure [12.10](ANALYZE.md)
+  - XMLType, querying [15.4](CREATE-TABLE.md)
+- TABLESPACE clause
+  - of ALTER INDEX ... REBUILD [10.16](ALTER-INDEX.md)
+  - of CREATE CLUSTER [13.5](CREATE-CLUSTER.md)
+  - of CREATE INDEX [13.17](CREATE-INDEX.md)
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - of CREATE MATERIALIZED VIEW LOG [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- tablespaces
+  - allocating space for users [15.10](CREATE-USER.md)
+  - allowing write operations on [12.4](ALTER-TABLESPACE.md)
+  - automatic segment-space management [15.5](CREATE-TABLESPACE.md)
+  - backing up data files [12.4](ALTER-TABLESPACE.md)
+  - bigfile [15.5](CREATE-TABLESPACE.md)
+    - database default [13.8](CREATE-DATABASE.md)
+    - default temporary [13.8](CREATE-DATABASE.md)
+    - resizing [12.4](ALTER-TABLESPACE.md)
+    - undo [13.8](CREATE-DATABASE.md)
+  - bringing online [12.4](ALTER-TABLESPACE.md), [15.5](CREATE-TABLESPACE.md)
+  - coalescing free extents [12.4](ALTER-TABLESPACE.md)
+  - converting
+    - from permanent to temporary [12.4](ALTER-TABLESPACE.md)
+    - from temporary to permanent [12.4](ALTER-TABLESPACE.md)
+  - creating [15.5](CREATE-TABLESPACE.md)
+  - data files
+    - adding [12.4](ALTER-TABLESPACE.md)
+    - renaming [12.4](ALTER-TABLESPACE.md)
+  - default [10.8](ALTER-DATABASE.md)
+    - specifying for a user [12.8](ALTER-USER.md)
+  - default permanent [13.8](CREATE-DATABASE.md)
+  - default temporary [10.8](ALTER-DATABASE.md)
+    - learning name of [10.8](ALTER-DATABASE.md)
+  - designing media recovery [10.8](ALTER-DATABASE.md)
+  - dropping contents [18.2](DROP-TABLESPACE.md)
+  - encrypting [8.9](storage_clause.md)
+  - ending online backup [12.4](ALTER-TABLESPACE.md)
+  - extent size [15.5](CREATE-TABLESPACE.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - in FLASHBACK mode [12.4](ALTER-TABLESPACE.md), [15.5](CREATE-TABLESPACE.md)
+  - in FORCE LOGGING mode [12.4](ALTER-TABLESPACE.md), [15.5](CREATE-TABLESPACE.md)
+  - locally managed [8.9](storage_clause.md)
+    - altering [12.4](ALTER-TABLESPACE.md)
+  - logging attribute [12.4](ALTER-TABLESPACE.md), [15.5](CREATE-TABLESPACE.md)
+  - managing extents of [15.5](CREATE-TABLESPACE.md)
+  - read only [12.4](ALTER-TABLESPACE.md)
+  - reconstructing lost or damaged [10.8](ALTER-DATABASE.md)
+  - recovering [10.8](ALTER-DATABASE.md)
+  - removing from the database [18.2](DROP-TABLESPACE.md)
+  - renaming [12.4](ALTER-TABLESPACE.md)
+  - size of free extents in [12.4](ALTER-TABLESPACE.md)
+  - smallfile [15.5](CREATE-TABLESPACE.md)
+    - database default [13.8](CREATE-DATABASE.md)
+    - default temporary [13.8](CREATE-DATABASE.md)
+    - undo [13.8](CREATE-DATABASE.md)
+  - specifying
+    - data files for [15.5](CREATE-TABLESPACE.md)
+    - for a table [15.4](CREATE-TABLE.md)
+    - for a user [15.10](CREATE-USER.md)
+    - for index rebuild [12.3](ALTER-TABLE.md)
+  - taking offline [12.4](ALTER-TABLESPACE.md), [15.5](CREATE-TABLESPACE.md)
+  - temp files
+    - adding [12.4](ALTER-TABLESPACE.md)
+  - temporary
+    - creating [15.5](CREATE-TABLESPACE.md)
+    - defining for the database [13.8](CREATE-DATABASE.md)
+    - shrinking [12.4](ALTER-TABLESPACE.md)
+    - specifying for a user [12.8](ALTER-USER.md), [15.10](CREATE-USER.md)
+  - undo
+    - altering [12.4](ALTER-TABLESPACE.md)
+    - creating [13.8](CREATE-DATABASE.md), [15.5](CREATE-TABLESPACE.md)
+    - dropping [18.2](DROP-TABLESPACE.md)
+- TAN function [7.233](TAN.md)
+- TANH function [7.234](TANH.md)
+- TDE
+  - See: Transparent Data Encryption
+- TEMPFILE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+- temp files
+  - bringing online [10.8](ALTER-DATABASE.md)
+  - defining for a tablespace [15.5](CREATE-TABLESPACE.md)
+  - defining for the database [13.8](CREATE-DATABASE.md)
+  - disabling autoextend [10.8](ALTER-DATABASE.md)
+  - dropping [10.8](ALTER-DATABASE.md), [12.4](ALTER-TABLESPACE.md)
+  - enabling autoextend [8.4](file_specification.md), [10.8](ALTER-DATABASE.md)
+  - extending automatically [8.4](file_specification.md)
+  - renaming [10.8](ALTER-DATABASE.md)
+  - resizing [10.8](ALTER-DATABASE.md)
+  - reusing [8.4](file_specification.md)
+  - shrinking [12.4](ALTER-TABLESPACE.md)
+  - size of [8.4](file_specification.md)
+  - specifying [8.4](file_specification.md)
+  - taking offline [10.8](ALTER-DATABASE.md)
+- TEMPORARY clause
+  - of ALTER TABLESPACE [12.4](ALTER-TABLESPACE.md)
+  - of CREATE TABLESPACE [15.5](CREATE-TABLESPACE.md)
+- temporary tables
+  - creating [15.4](CREATE-TABLE.md)
+  - session-specific [15.4](CREATE-TABLE.md)
+  - transaction-specific [15.4](CREATE-TABLE.md)
+- TEMPORARY TABLESPACE clause
+  - of ALTER USER [12.8](ALTER-USER.md)
+  - of ALTER USER. See CREATE USER [12.8](ALTER-USER.md)
+  - of CREATE USER [15.10](CREATE-USER.md)
+- temporary tablespace groups
+  - reassigning for a user [12.8](ALTER-USER.md)
+  - specifying for a user [15.10](CREATE-USER.md)
+- temporary tablespaces
+  - creating [15.5](CREATE-TABLESPACE.md)
+  - default [10.8](ALTER-DATABASE.md)
+  - specifying extent management during database creation [13.8](CREATE-DATABASE.md)
+  - specifying for a user [12.8](ALTER-USER.md), [15.10](CREATE-USER.md)
+- TEST clause
+  - of ALTER DATABASE ... RECOVER [10.8](ALTER-DATABASE.md)
+- testing for a set [6.6.1](Multiset-Conditions.md)
+- text
+  - date and number formats [2.4](Format-Models.md)
+  - literals
+    - in SQL syntax [2.3.1](Literals.md)
+  - properties of CHAR and VARCHAR2 data types [2.3.1](Literals.md)
+  - syntax of [2.3.1](Literals.md)
+- text literals
+  - conversion to database character set [2.3.1](Literals.md)
+- TH datetime format element suffix [2.4.2.5](Format-Models.md)
+- throughput
+  - optimizing [2.6.4.1](Comments.md)
+- THSP datetime format element suffix [2.4.2.5](Format-Models.md)
+- TIME_ZONE session parameter [11.16.2](ALTER-SESSION.md)
+- TIME data type
+  - DB2 [2.1.3](Data-Types.md)
+  - SQL/DS [2.1.3](Data-Types.md)
+- time format models
+  - short [2.4.1.1](Format-Models.md), [2.4.2.1.2](Format-Models.md)
+- timestamp
+  - converting to local time zone [5.8](Datetime-Expressions.md)
+- TIMESTAMP_TO_SCN function [7.235](TIMESTAMP_TO_SCN.md)
+- TIMESTAMP data type [2.1.1.4.2](Data-Types.md)
+  - DB2 [2.1.3](Data-Types.md)
+  - SQL/DS [2.1.3](Data-Types.md)
+- TIMESTAMP WITH LOCAL TIME ZONE data type [2.1.1.4.4](Data-Types.md)
+- TIMESTAMP WITH TIME ZONE data type [2.1.1.4.3](Data-Types.md)
+- time zone
+  - changing time zone data file [7.156](ORA_DST_AFFECTED.md)
+  - converting data to particular [5.8](Datetime-Expressions.md)
+  - determining for session [7.200](SESSIONTIMEZONE.md)
+  - formatting [2.4.2.1.2](Format-Models.md)
+  - setting for the database [13.8](CREATE-DATABASE.md)
+- TO_APPROX_COUNT_DISTINCT function [7.236](TO_APPROX_COUNT_DISTINCT.md)
+- TO_APPROX_PERCENTILE function [7.237](TO_APPROX_PERCENTILE.md)
+- TO_BINARY_DOUBLE function [7.238](TO_BINARY_DOUBLE.md)
+- TO_BINARY_FLOAT function [7.239](TO_BINARY_FLOAT.md)
+- TO_BLOB (bfile) function [7.240](TO_BLOB-bfile.md)
+- TO_BLOB (raw) function [7.241](TO_BLOB-raw.md)
+- TO_CHAR (bfile\|blob) function [7.242](TO_CHAR-bfile-blob.md)
+- TO_CHAR (character) function [7.243](TO_CHAR-character.md)
+- TO_CHAR (datetime) function [7.244](TO_CHAR-datetime.md)
+  - format models [2.4.2](Format-Models.md), [2.4.3](Format-Models.md)
+- TO_CHAR (number) function [7.245](TO_CHAR-number.md)
+  - format models [2.4.1](Format-Models.md), [2.4.3](Format-Models.md)
+- TO_CLOB (bfile\|blob) function [7.246](TO_CLOB-bfile-blob.md)
+- TO_CLOB (character) function [7.247](TO_CLOB-character.md)
+- TO_DATE function [7.248](TO_DATE.md)
+  - format models [2.4.2](Format-Models.md), [2.4.2.4](Format-Models.md), [2.4.3](Format-Models.md)
+- TO_DSINTERVAL function [7.249](TO_DSINTERVAL.md)
+- TO_LOB function [7.250](TO_LOB.md)
+- TO_MULTI_BYTE function [7.251](TO_MULTI_BYTE.md)
+- TO_NCHAR (character) function [7.252](TO_NCHAR-character.md)
+- TO_NCHAR (datetime) function [7.253](TO_NCHAR-datetime.md)
+- TO_NCHAR (number) function [7.254](TO_NCHAR-number.md)
+- TO_NCLOB function [7.255](TO_NCLOB.md)
+- TO_NUMBER function [7.256](TO_NUMBER.md)
+  - format models [2.4.1](Format-Models.md)
+- TO_SINGLE_BYTE function [7.257](TO_SINGLE_BYTE.md)
+- TO_TIMESTAMP_TZ function [7.259](TO_TIMESTAMP_TZ.md)
+- TO_TIMESTAMP function [7.258](TO_TIMESTAMP.md)
+- TO_YMINTERVAL function [7.261](TO_YMINTERVAL.md)
+- top-level SQL statements [12.12](AUDIT-Traditional-Auditing.md)
+- top-N reporting [3.9](ROWNUM-Pseudocolumn.md), [7.76](DENSE_RANK.md), [7.178](RANK.md), [7.194](ROW_NUMBER.md), [19.9](SELECT.md)
+- TO SAVEPOINT clause
+  - of ROLLBACK [19.7](ROLLBACK.md)
+- tracking
+  - enabling for a table [12.3](ALTER-TABLE.md), [15.4](CREATE-TABLE.md)
+- transaction control statements [10.1.3](Types-of-SQL-Statements.md)
+  - PL/SQL support of [10.1.3](Types-of-SQL-Statements.md)
+- transactions
+  - allowing to complete [12.2](ALTER-SYSTEM.md)
+  - assigning
+    - rollback segment to [19.12](SET-TRANSACTION.md)
+  - automatically committing [13.1](COMMIT.md)
+  - changes, making permanent [13.1](COMMIT.md)
+  - commenting on [13.1](COMMIT.md)
+  - distributed, forcing [11.16](ALTER-SESSION.md)
+  - ending [13.1](COMMIT.md)
+  - implicit commit of [10.1.1](Types-of-SQL-Statements.md), [10.1.2](Types-of-SQL-Statements.md), [10.1.4](Types-of-SQL-Statements.md), [10.1.5](Types-of-SQL-Statements.md)
+  - in-doubt
+    - committing [13.1](COMMIT.md)
+    - forcing [13.1](COMMIT.md)
+    - resolving [19.12](SET-TRANSACTION.md)
+  - isolation level [19.12](SET-TRANSACTION.md)
+  - locks, releasing [13.1](COMMIT.md)
+  - naming [19.12](SET-TRANSACTION.md)
+  - read/write [19.12](SET-TRANSACTION.md)
+  - read-only [19.12](SET-TRANSACTION.md)
+  - rolling back [12.2](ALTER-SYSTEM.md), [19.7](ROLLBACK.md)
+    - to a savepoint [19.7](ROLLBACK.md)
+  - savepoints for [19.8](SAVEPOINT.md)
+- TRANSLATE ... USING function [7.263](TRANSLATE-USING.md)
+- TRANSLATE function [7.262](TRANSLATE.md)
+- TRANSLATE SQL object privilege
+  - on a user [18.12](GRANT.md)
+- Transparent Data Encryption [15.4](CREATE-TABLE.md)
+  - key management [10.3](ADMINISTER-KEY-MANAGEMENT.md)
+- TREAT function [7.264](TREAT.md)
+- triggers
+  - compiling [12.6](ALTER-TRIGGER.md)
+  - creating [15.7](CREATE-TRIGGER.md)
+  - database
+    - altering [12.6](ALTER-TRIGGER.md)
+    - dropping [18.4](DROP-TRIGGER.md), [18.7](DROP-USER.md)
+  - disabling [12.3](ALTER-TABLE.md), [12.6](ALTER-TRIGGER.md)
+  - enabling [12.3](ALTER-TABLE.md), [12.6](ALTER-TRIGGER.md), [15.7](CREATE-TRIGGER.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - INSTEAD OF
+    - dropping [15.11](CREATE-VIEW.md)
+  - re-creating [15.7](CREATE-TRIGGER.md)
+  - removing from the database [18.4](DROP-TRIGGER.md)
+  - renaming [12.6](ALTER-TRIGGER.md)
+- TRIM function [7.265](TRIM.md)
+- TRUNC (date) function [7.266](TRUNC-date.md)
+  - format models [7.301](ROUND-and-TRUNC-Date-Functions.md)
+- TRUNC (number) function [7.267](TRUNC-number.md)
+- TRUNCATE_CLUSTER statement [19.13](TRUNCATE-CLUSTER.md)
+- TRUNCATE_TABLE statement [19.14](TRUNCATE-TABLE.md)
+- TRUNCATE PARTITION clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- TRUNCATE SUBPARTITION clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- type constructor expressions [5.16](Type-Constructor-Expressions.md)
+- types
+  - See: object types or data types
+- TYPES clause
+  - of ASSOCIATE STATISTICS [12.11](ASSOCIATE-STATISTICS.md)
+  - of DISASSOCIATE STATISTICS [15.13](DISASSOCIATE-STATISTICS.md)
+- TZ_OFFSET function [7.268](TZ_OFFSET.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- UID function [7.269](UID.md)
+- unary operators [4.1.1](About-SQL-Operators.md)
+- UNDER_PATH condition [6.9.2](XML-Conditions.md)
+- UNDER object privilege
+  - on a view [18.12](GRANT.md)
+- undo
+  - rollback [11.14](ALTER-ROLLBACK-SEGMENT.md), [13.8](CREATE-DATABASE.md)
+  - system managed [11.14](ALTER-ROLLBACK-SEGMENT.md), [13.8](CREATE-DATABASE.md)
+- UNDO_RETENTION initialization parameter
+  - setting with ALTER SYSTEM [18.11](FLASHBACK-TABLE.md)
+- UNDO tablespace clause
+  - of CREATE DATABASE [13.8](CREATE-DATABASE.md)
+  - of CREATE TABLESPACE [15.5](CREATE-TABLESPACE.md)
+- undo tablespaces
+  - creating [13.8](CREATE-DATABASE.md), [15.5](CREATE-TABLESPACE.md)
+  - dropping [18.2](DROP-TABLESPACE.md)
+  - modifying [12.4](ALTER-TABLESPACE.md)
+  - preserving unexpired data [12.4](ALTER-TABLESPACE.md), [15.5](CREATE-TABLESPACE.md)
+- unified auditing
+  - ALTER AUDIT POLICY statement [10.6](ALTER-AUDIT-POLICY-Unified-Auditing.md)
+  - AUDIT statement [12.13](AUDIT-Unified-Auditing.md)
+  - CREATE AUDIT POLICY statement [13.4](CREATE-AUDIT-POLICY-Unified-Auditing.md)
+  - DROP AUDIT POLICY statement [15.16](DROP-AUDIT-POLICY-Unified-Auditing.md)
+  - NOAUDIT statement [19.3](NOAUDIT-Unified-Auditing.md)
+- unified audit policies
+  - comments on [12.15](COMMENT.md)
+  - creating [13.4](CREATE-AUDIT-POLICY-Unified-Auditing.md)
+  - dropping [15.16](DROP-AUDIT-POLICY-Unified-Auditing.md)
+  - modifying [10.6](ALTER-AUDIT-POLICY-Unified-Auditing.md)
+- UNIFORM clause
+  - of CREATE TABLESPACE [15.5](CREATE-TABLESPACE.md)
+- UNION ALL set operator [4.6](Set-Operators.md)
+- UNION set operator [4.6](Set-Operators.md)
+- UNIQUE clause
+  - of CREATE INDEX [13.17](CREATE-INDEX.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+  - of SELECT [19.9](SELECT.md)
+- unique constraints
+  - conditional [13.17](CREATE-INDEX.md)
+  - enabling [15.4](CREATE-TABLE.md)
+  - index on [15.4](CREATE-TABLE.md)
+- unique elements of [7.201](SET.md)
+- unique indexes [13.17](CREATE-INDEX.md)
+- unique queries [19.9](SELECT.md)
+- UNISTR function [7.270](UNISTR.md)
+- universal rowids
+  - See: urowids
+- UNNEST hint [2.6.4.94](Comments.md)
+- unnesting collections [19.9](SELECT.md)
+  - examples [19.9](SELECT.md)
+- unnesting subqueries [9.8](Unnesting-of-Nested-Subqueries.md)
+- unpivot operations [19.9](SELECT.md)
+  - examples [19.9](SELECT.md)
+  - syntax [19.9](SELECT.md)
+- UNQUIESCE clause
+  - of ALTER SYSTEM [12.2](ALTER-SYSTEM.md)
+- UNRECOVERABLE [10.16](ALTER-INDEX.md), [15.4](CREATE-TABLE.md)
+  - See also: NOLOGGING clause
+- unsorted indexes [13.17](CREATE-INDEX.md)
+- UNUSABLE clause
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+- UNUSABLE LOCAL INDEXES clause
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- UPDATE BLOCK REFERENCES clause
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+- UPDATE GLOBAL INDEXES clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- update operations
+  - collecting supplemental log data for [10.8](ALTER-DATABASE.md)
+- updates
+  - and simultaneous insert [19.1](MERGE.md)
+  - using MERGE [19.1](MERGE.md)
+- UPDATE SET clause
+  - of MERGE [19.1](MERGE.md)
+- UPDATE statement [19.15](UPDATE.md)
+- UPGRADE clause
+  - of ALTER DATABASE [10.8](ALTER-DATABASE.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- UPPER function [7.271](UPPER.md)
+- URLs
+  - generating [7.224](SYS_DBURIGEN.md)
+- UROWID data type [2.1.2.2](Data-Types.md)
+- urowids
+  - and foreign tables [2.1.2.2](Data-Types.md)
+  - and index-organized tables [2.1.2.2](Data-Types.md)
+  - description of [2.1.2.2](Data-Types.md)
+- USABLE clause
+  - of ALTER INDEX [10.16](ALTER-INDEX.md)
+- USE_BAND hint [2.6.4.95](Comments.md)
+- USE_CONCAT hint [2.6.4.96](Comments.md)
+- USE_CUBE hint [2.6.4.97](Comments.md)
+- USE_HASH hint [2.6.4.98](Comments.md)
+- USE_MERGE hint [2.6.4.99](Comments.md)
+- USE_NL_WITH_INDEX hint [2.6.4.101](Comments.md)
+- USE_NL hint [2.6.4.100](Comments.md)
+- USE_PRIVATE_OUTLINES session parameter [11.16.2](ALTER-SESSION.md)
+- USE_STORED_OUTLINES session parameter [11.16.2](ALTER-SESSION.md), [12.2](ALTER-SYSTEM.md)
+- USE object privilege
+  - on a SQL translation profile [18.12](GRANT.md)
+- USER_COL_COMMENTS data dictionary view [12.15](COMMENT.md)
+- USER_INDEXTYPE_COMMENTS data dictionary view [12.15](COMMENT.md)
+- USER_MVIEW_COMMENTS data dictionary view [12.15](COMMENT.md)
+- USER_OPERATOR_COMMENTS data dictionary view [12.15](COMMENT.md)
+- USER_TAB_COMMENTS data dictionary view [12.15](COMMENT.md)
+- user-defined functions [7.302](About-User-Defined-Functions.md)
+  - name precedence of [7.302.2](About-User-Defined-Functions.md)
+  - naming conventions [7.302.2.1](About-User-Defined-Functions.md)
+- user-defined operators [4.8](User-Defined-Operators.md)
+- user-defined statistics
+  - dropping [16.11](DROP-INDEX.md), [16.12](DROP-INDEXTYPE.md), [17.8](DROP-PACKAGE.md), [18.1](DROP-TABLE.md), [18.5](DROP-TYPE.md)
+- user-defined types [2.1.4](Data-Types.md)
+- USERENV function [7.273](USERENV.md)
+- USERENV namespace [7.223](SYS_CONTEXT.md)
+- USER function [7.272](USER.md)
+- user groups
+  - adding or dropping a member [10.12](ALTER-DISKGROUP.md)
+  - adding to a disk group [10.12](ALTER-DISKGROUP.md)
+  - dropping from a disk group [10.12](ALTER-DISKGROUP.md)
+- users
+  - allocating space for [15.10](CREATE-USER.md)
+  - and database links [13.9](CREATE-DATABASE-LINK.md)
+  - assigning
+    - default roles [12.8](ALTER-USER.md)
+    - profiles [15.10](CREATE-USER.md)
+  - authenticating [12.8](ALTER-USER.md)
+  - authenticating to a remote server [13.9](CREATE-DATABASE-LINK.md)
+  - changing authentication [12.8](ALTER-USER.md)
+  - creating [15.10](CREATE-USER.md)
+  - default tablespaces for [12.8](ALTER-USER.md), [15.10](CREATE-USER.md)
+  - denying access to tables and views [18.14](LOCK-TABLE.md)
+  - external [14.15](CREATE-ROLE.md), [15.10](CREATE-USER.md)
+  - global [14.15](CREATE-ROLE.md), [15.10](CREATE-USER.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - local [14.15](CREATE-ROLE.md), [15.10](CREATE-USER.md)
+  - locking accounts [15.10](CREATE-USER.md)
+  - operating system
+    - adding to a disk group [10.12](ALTER-DISKGROUP.md)
+    - dropping from a disk group [10.12](ALTER-DISKGROUP.md)
+  - password expiration of [15.10](CREATE-USER.md)
+  - removing from the database [18.7](DROP-USER.md)
+  - SQL examples [15.10](CREATE-USER.md)
+  - temporary tablespaces for [12.8](ALTER-USER.md), [15.10](CREATE-USER.md)
+- USER SYS clause
+  - of CREATE DATABASE [13.8](CREATE-DATABASE.md)
+- USER SYSTEM clause
+  - of CREATE DATABASE [13.8](CREATE-DATABASE.md)
+- USING BFILE clause
+  - of CREATE JAVA [13.20](CREATE-JAVA.md)
+- USING BLOB clause
+  - of CREATE JAVA [13.20](CREATE-JAVA.md)
+- USING clause
+  - of ALTER INDEXTYPE [10.17](ALTER-INDEXTYPE.md)
+  - of ASSOCIATE STATISTICS [12.11](ASSOCIATE-STATISTICS.md)
+  - of CREATE DATABASE LINK [13.9](CREATE-DATABASE-LINK.md)
+  - of CREATE INDEXTYPE [13.18](CREATE-INDEXTYPE.md)
+  - of CREATE PLUGGABLE DATABASE [14.11](CREATE-PLUGGABLE-DATABASE.md)
+- USING CLOB clause
+  - of CREATE JAVA [13.20](CREATE-JAVA.md)
+- USING INDEX clause
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of constraints [8.2](constraint.md)
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- USING NO INDEX clause
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+- USING ROLLBACK SEGMENT clause
+  - of ALTER MATERIALIZED VIEW ... REFRESH [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+- UTC
+  - extracting from a datetime value [7.225](SYS_EXTRACT_UTC.md)
+- UTC offset
+  - replacing with time zone region name [2.3.3](Literals.md)
+- UTLCHN.SQL script [12.10](ANALYZE.md)
+- UTLEXPT1.SQL script [12.3](ALTER-TABLE.md)
+- UTLXPLAN.SQL script [18.9](EXPLAIN-PLAN.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- VALIDATE_CONVERSION function [7.274](VALIDATE_CONVERSION.md)
+- VALIDATE clause
+  - of DROP TYPE [18.5](DROP-TYPE.md)
+- VALIDATE REF UPDATE clause
+  - of ANALYZE [12.10](ANALYZE.md)
+- VALIDATE STRUCTURE clause
+  - of ANALYZE [12.10](ANALYZE.md)
+- validation
+  - of clusters [12.10](ANALYZE.md)
+  - of database objects
+    - offline [12.10](ANALYZE.md)
+  - of database objects, online [12.10](ANALYZE.md)
+  - of indexes [12.10](ANALYZE.md)
+  - of tables [12.10](ANALYZE.md)
+- VALUE function [7.275](VALUE.md)
+- VALUES clause
+  - of CREATE INDEX [13.17](CREATE-INDEX.md)
+  - of INSERT [18.13](INSERT.md)
+- VALUES LESS THAN clause
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- VAR_POP function [7.276](VAR_POP.md)
+- VAR_SAMP function [7.277](VAR_SAMP.md)
+- VARCHAR2 data type [2.1.1.1.3](Data-Types.md)
+  - converting to NUMBER [2.4.1](Format-Models.md)
+- VARCHAR data type [2.1.1.1.4](Data-Types.md)
+- VARGRAPHIC data type
+  - DB2 [2.1.3](Data-Types.md)
+  - SQL/DS [2.1.3](Data-Types.md)
+- VARIANCE function [7.278](VARIANCE.md)
+- VARRAY clause
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+- VARRAY column properties
+  - of ALTER TABLE [12.3](ALTER-TABLE.md)
+  - of CREATE MATERIALIZED VIEW [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- varrays [2.1.4.3](Data-Types.md)
+  - changing returned value [12.3](ALTER-TABLE.md)
+  - compared with nested tables [2.2.6](Data-Type-Comparison-Rules.md)
+  - comparison rules [2.2.6](Data-Type-Comparison-Rules.md)
+  - creating [15.8](CREATE-TYPE.md)
+  - dropping the body of [18.6](DROP-TYPE-BODY.md)
+  - dropping the specification of [18.5](DROP-TYPE.md)
+  - modifying column properties [12.3](ALTER-TABLE.md)
+  - storage characteristics [12.3](ALTER-TABLE.md), [15.4](CREATE-TABLE.md)
+  - storing out of line [2.1.4.3](Data-Types.md)
+- varying arrays
+  - See: varrays
+- version queries
+  - pseudocolumns for [3.3](Version-Query-Pseudocolumns.md)
+- view constraints [8.2](constraint.md), [15.11](CREATE-VIEW.md)
+  - and materialized views [8.2](constraint.md)
+  - dropping [18.8](DROP-VIEW.md)
+  - modifying [12.9](ALTER-VIEW.md)
+- views
+  - base tables
+    - adding rows [18.13](INSERT.md)
+  - changing
+    - definition [18.8](DROP-VIEW.md)
+    - values in base tables [19.15](UPDATE.md)
+  - creating
+    - before base tables [15.11](CREATE-VIEW.md)
+    - comments about [12.15](COMMENT.md)
+    - multiple [14.17](CREATE-SCHEMA.md)
+  - definer’s rights [15.11](CREATE-VIEW.md)
+  - defining [15.11](CREATE-VIEW.md)
+  - dropping constraints on [12.9](ALTER-VIEW.md)
+  - editioning [15.11](CREATE-VIEW.md)
+  - granting system privileges for [18.12](GRANT.md)
+  - invoker’s rights [15.11](CREATE-VIEW.md)
+  - modifying constraints on [12.9](ALTER-VIEW.md)
+  - object, creating [15.11](CREATE-VIEW.md)
+  - recompiling [12.9](ALTER-VIEW.md)
+  - re-creating [15.11](CREATE-VIEW.md)
+  - remote, accessing [13.9](CREATE-DATABASE-LINK.md)
+  - removing
+    - from the database [18.8](DROP-VIEW.md)
+    - rows from the base table of [15.12](DELETE.md)
+  - renaming [19.5](RENAME.md)
+  - retrieving data from [19.9](SELECT.md)
+  - subquery of [15.11](CREATE-VIEW.md)
+    - restricting [15.11](CREATE-VIEW.md)
+  - synonyms for [15.3](CREATE-SYNONYM.md)
+  - updatable [15.11](CREATE-VIEW.md)
+  - with joins
+    - and key-preserved tables [15.11](CREATE-VIEW.md)
+    - making updatable [15.11](CREATE-VIEW.md)
+  - XMLType [15.11](CREATE-VIEW.md)
+  - XMLType, creating [15.11](CREATE-VIEW.md)
+  - XMLType, querying [15.11](CREATE-VIEW.md)
+- virtual columns
+  - adding to a table [12.3](ALTER-TABLE.md)
+  - creating [15.4](CREATE-TABLE.md)
+  - modifying [12.3](ALTER-TABLE.md)
+- VSIZE function [7.279](VSIZE.md)
+
+------------------------------------------------------------------------
+
+## W
+
+- WHENEVER SUCCESSFUL clause
+  - of AUDIT sql_statements [12.12](AUDIT-Traditional-Auditing.md)
+- WHERE clause
+  - of DELETE [15.12](DELETE.md)
+  - of queries and subqueries [19.9](SELECT.md)
+  - of SELECT [9.3](Hierarchical-Queries.md)
+  - of UPDATE [19.15](UPDATE.md)
+- WIDTH_BUCKET function [7.280](WIDTH_BUCKET.md)
+- WITH ... AS clause
+  - of SELECT [19.9](SELECT.md)
+- WITH ADMIN OPTION clause
+  - of GRANT [18.12](GRANT.md)
+- WITH CHECK OPTION clause
+  - of CREATE VIEW [15.11](CREATE-VIEW.md)
+  - of DELETE [15.12](DELETE.md)
+  - of INSERT [18.13](INSERT.md)
+  - of SELECT [19.9](SELECT.md)
+  - of UPDATE [19.15](UPDATE.md)
+- WITH clause
+  - of SELECT [19.9](SELECT.md)
+- WITH GRANT OPTION clause
+  - of GRANT [18.12](GRANT.md)
+- WITH HIERARCHY OPTION
+  - of GRANT [18.12](GRANT.md)
+- WITH INDEX CONTEXT clause
+  - of CREATE OPERATOR [14.6](CREATE-OPERATOR.md)
+- WITH OBJECT ID clause
+  - of CREATE MATERIALIZED VIEW LOG [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+- WITH PRIMARY KEY clause
+  - of ALTER MATERIALIZED VIEW [11.3](ALTER-MATERIALIZED-VIEW.md)
+  - of CREATE MATERIALIZED VIEW ... REFRESH [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - of CREATE MATERIALIZED VIEW LOG [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+- WITH READ ONLY clause
+  - of CREATE VIEW [15.11](CREATE-VIEW.md)
+  - of DELETE [15.12](DELETE.md)
+  - of INSERT [18.13](INSERT.md)
+  - of SELECT [19.9](SELECT.md)
+  - of UPDATE [19.15](UPDATE.md)
+- WITH ROWID clause
+  - of column ref constraints [8.2](constraint.md)
+  - of CREATE MATERIALIZED VIEW ... REFRESH [14.3](CREATE-MATERIALIZED-VIEW.md)
+  - of CREATE MATERIALIZED VIEW LOG [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+- WITH SEQUENCE clause
+  - of CREATE MATERIALIZED VIEW LOG [14.4](CREATE-MATERIALIZED-VIEW-LOG.md)
+- WRITE clause
+  - of COMMIT [13.1](COMMIT.md)
+
+------------------------------------------------------------------------
+
+## X
+
+- XML
+  - conditions [6.9](XML-Conditions.md)
+  - data
+    - storage of [15.4](CREATE-TABLE.md)
+  - database repository
+    - SQL access to [6.9.1](XML-Conditions.md), [6.9.2](XML-Conditions.md)
+  - documents
+    - producing from XML fragments [7.229](SYS_XMLAGG.md)
+    - retrieving from the database [7.224](SYS_DBURIGEN.md)
+  - examples [F.2](Using-XML-in-SQL-Statements.md)
+  - format models [2.4.5](Format-Models.md)
+  - fragments [7.84](EXTRACT-XML.md)
+  - functions [7.2.13](Single-Row-Functions.md)
+- XMLAGG function [7.281](XMLAGG.md)
+- XMLCAST function [7.282](XMLCAST.md)
+- XMLCDATA function [7.283](XMLCDATA.md)
+- XMLCOLATTVAL function [7.284](XMLCOLATTVAL.md)
+- XMLCOMMENT function [7.285](XMLCOMMENT.md)
+- XMLCONCAT function [7.286](XMLCONCAT.md)
+- XMLDATA pseudocolumn [3.10](XMLDATA-Pseudocolumn.md)
+- XMLDIFF function [7.287](XMLDIFF.md)
+- XMLELEMENT function [7.288](XMLELEMENT.md)
+- XMLEXISTS function [7.289](XMLEXISTS.md)
+- XMLFOREST function [7.290](XMLFOREST.md)
+- XMLGenFormatType object [2.4.5](Format-Models.md)
+- XMLIndex
+  - creating [13.17](CREATE-INDEX.md)
+  - modifying [10.16](ALTER-INDEX.md)
+- XMLISVALID function [7.291](XMLISVALID.md)
+- XMLPARSE function [7.292](XMLPARSE.md)
+- XMLPATCH function [7.293](XMLPATCH.md)
+- XMLPI function [7.294](XMLPI.md)
+- XMLQUERY function [7.295](XMLQUERY.md)
+- XMLROOT function [7.296](XMLROOT.md)
+- XMLSchemas
+  - adding to a table [15.4](CREATE-TABLE.md)
+  - single and multiple [15.4](CREATE-TABLE.md)
+- XMLSEQUENCE function [7.297](XMLSEQUENCE.md)
+- XMLSERIALIZE function [7.298](XMLSERIALIZE.md)
+- XMLTABLE function [7.299](XMLTABLE.md)
+- XMLTRANSFORM function [7.300](XMLTRANSFORM.md)
+- XMLType columns
+  - properties of [12.3](ALTER-TABLE.md), [15.4](CREATE-TABLE.md)
+  - storage of [15.4](CREATE-TABLE.md)
+  - storing in binary XML format [15.4](CREATE-TABLE.md)
+- XMLType storage clause
+  - of CREATE TABLE [15.4](CREATE-TABLE.md)
+- XMLType tables
+  - creating [15.4](CREATE-TABLE.md)
+  - creating index on [13.17](CREATE-INDEX.md)
+- XMLType views [15.11](CREATE-VIEW.md)
+  - querying [15.11](CREATE-VIEW.md)
+
+------------------------------------------------------------------------
+
+## Z
+
+- zone maps
+  - creating [14.5](CREATE-MATERIALIZED-ZONEMAP.md)
+  - modifying [11.5](ALTER-MATERIALIZED-ZONEMAP.md)
+  - removing from the database [17.5](DROP-MATERIALIZED-ZONEMAP.md)

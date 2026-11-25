@@ -1,0 +1,3 @@
+# Description of the illustration integer.eps
+
+    [ + | - ] digit [ digit ]...

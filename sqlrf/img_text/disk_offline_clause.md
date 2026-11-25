@@ -1,0 +1,6 @@
+# Description of the illustration disk_offline_clause.eps
+
+    OFFLINE
+      { [ QUORUM | REGULAR ] DISK disk_name [, disk_name ]...
+      | DISKS IN [ QUORUM | REGULAR ] FAILGROUP failgroup_name [, failgroup_name ]...
+      }... [ timeout_clause ]

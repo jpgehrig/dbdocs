@@ -1,0 +1,3 @@
+# Description of the illustration drop_diskgroup_file_clause.eps
+
+    DROP FILE 'filename' [, 'filename' ]...

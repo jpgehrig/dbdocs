@@ -1,0 +1,3 @@
+# Description of the illustration grantee_identified_by.eps
+
+    user [, user ]... IDENTIFIED BY password [, password ]...

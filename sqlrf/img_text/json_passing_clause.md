@@ -1,0 +1,3 @@
+# Description of the illustration json_passing_clause.eps
+
+    PASSING expr AS identifier [, expr AS identifier ]...

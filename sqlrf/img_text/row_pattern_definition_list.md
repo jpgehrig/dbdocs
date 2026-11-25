@@ -1,0 +1,3 @@
+# Description of the illustration row_pattern_definition_list.eps
+
+    row_pattern_definition [, row_pattern_definition ]...

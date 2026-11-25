@@ -1,0 +1,3 @@
+#
+
+    { RANK | DENSE_RANK | AVERAGE_RANK | ROW_NUMBER }

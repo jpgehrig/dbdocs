@@ -1,0 +1,3 @@
+# Description of the illustration grouping_expression_list.eps
+
+    expression_list [, expression_list ]...

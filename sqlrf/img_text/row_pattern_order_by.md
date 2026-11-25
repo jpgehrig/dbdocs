@@ -1,0 +1,3 @@
+# Description of the illustration row_pattern_order_by.eps
+
+    ORDER BY column [, column ]...

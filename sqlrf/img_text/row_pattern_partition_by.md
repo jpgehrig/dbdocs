@@ -1,0 +1,3 @@
+# Description of the illustration row_pattern_partition_by.eps
+
+    PARTITION BY column [, column ]...

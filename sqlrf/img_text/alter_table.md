@@ -1,0 +1,21 @@
+# Description of alter_table
+
+    ALTER TABLE [ schema. ] table
+      [ memoptimize_read_clause ]
+      [ memoptimize_write_clause ]
+      [ alter_table_properties
+      | column_clauses
+      | constraint_clauses
+      | alter_table_partitioning
+      | alter_external_table
+      | move_table_clause
+      | modify_to_partitioned
+      | modify_opaque_type
+      | immutable_table_clauses
+      | blockchain_table_clauses
+      ]
+      [ enable_disable_clause
+      | { ENABLE | DISABLE }
+        { TABLE LOCK | ALL TRIGGERS | CONTAINER_MAP | CONTAINERS_DEFAULT }
+      ] ...
+      ;

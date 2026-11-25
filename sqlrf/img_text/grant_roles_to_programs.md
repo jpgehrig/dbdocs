@@ -1,0 +1,3 @@
+# Description of the illustration grant_roles_to_programs.eps
+
+    role [, role ]... TO program_unit [, program_unit ]...

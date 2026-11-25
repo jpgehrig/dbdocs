@@ -1,0 +1,6 @@
+# Description of the illustration usergroup_clauses.eps
+
+    { ADD USERGROUP 'usergroup' WITH MEMBER 'user' [, 'user']...
+    | MODIFY USERGROUP 'usergroup' { ADD | DROP } MEMBER 'user' [, 'user']...
+    | DROP USERGROUP 'usergroup'
+    }

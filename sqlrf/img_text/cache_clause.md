@@ -1,0 +1,3 @@
+# Description of the illustration cache_clause.eps
+
+    CACHE cache_specification [, cache_specification]...

@@ -1,0 +1,3 @@
+# Description of the illustration by_users_with_roles.eps
+
+    BY USERS WITH GRANTED ROLES role [, role]...

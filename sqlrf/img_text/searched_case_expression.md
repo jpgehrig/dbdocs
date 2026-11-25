@@ -1,0 +1,3 @@
+# Description of the illustration searched_case_expression.eps
+
+    { WHEN condition THEN return_expr }...

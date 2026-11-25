@@ -1,0 +1,3 @@
+# Description of the illustration auditing_by_clause.eps
+
+    BY user [, user ]...

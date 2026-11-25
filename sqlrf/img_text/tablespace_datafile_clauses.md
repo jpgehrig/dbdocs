@@ -1,0 +1,3 @@
+# Description of the illustration tablespace_datafile_clauses.eps
+
+    DATAFILES { SIZE size_clause | autoextend_clause }...

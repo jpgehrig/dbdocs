@@ -1,0 +1,3 @@
+# Description of the illustration attr_dim_attributes_clause.eps
+
+    [ alias. ] column [ [ AS ] attribute_name ] [ classification_clause ]...

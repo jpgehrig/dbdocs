@@ -1,0 +1,3 @@
+# Description of the illustration action_audit_clause.eps
+
+    { standard_actions | component_actions }...

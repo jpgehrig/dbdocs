@@ -1,0 +1,3 @@
+# Description of the illustration row_pattern_subset_clause.eps
+
+    SUBSET row_pattern_subset_item [, row_pattern_subset_item ]...

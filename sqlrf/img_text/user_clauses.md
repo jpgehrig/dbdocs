@@ -1,0 +1,6 @@
+# Description of the illustration user_clauses.eps
+
+    { ADD USER 'user' [, 'user']...
+    | DROP USER 'user' [, 'user']... [CASCADE]
+    | REPLACE USER 'old_user' WITH 'new_user' [, 'old_user' WITH 'new_user']...
+    }

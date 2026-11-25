@@ -1,0 +1,3 @@
+# Description of the illustration role_audit_clause.eps
+
+    ROLES role [, role ]...

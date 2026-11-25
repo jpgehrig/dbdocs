@@ -1,0 +1,6 @@
+# Description of the illustration diskgroup_template_clauses.eps
+
+    { { ADD | MODIFY } TEMPLATE template_name qualified_template_clause
+          [, template_name qualified_template_clause ]...
+    | DROP TEMPLATE template_name [, template_name ]...
+    }

@@ -1,0 +1,3 @@
+# Description of the illustration json_object_access_expr.eps
+
+    table_alias.JSON_column [.JSON_object_key [ array_step ]... ]...

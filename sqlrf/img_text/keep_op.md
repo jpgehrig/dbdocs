@@ -1,0 +1,3 @@
+# Description of keep_op
+
+      KEEP ( pathExpr [( IGNORE | ERROR ) ON MISSING ] ) ...

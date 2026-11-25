@@ -1,0 +1,3 @@
+# Description of the illustration hier_attr_clause.eps
+
+    hier_attr_name [ classification_clause ]...

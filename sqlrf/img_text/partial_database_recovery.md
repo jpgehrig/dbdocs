@@ -1,0 +1,6 @@
+# Description of the illustration partial_database_recovery.eps
+
+    { TABLESPACE tablespace [, tablespace ]...
+    | DATAFILE { 'filename' | filenumber }
+                 [, 'filename' | filenumber ]...
+    }

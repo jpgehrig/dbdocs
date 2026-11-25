@@ -1,0 +1,6 @@
+# Description of the illustration add_disk_clause.eps
+
+    ADD
+      { SITE sitename [ QUORUM | REGULAR ] [ FAILGROUP failgroup_name ]
+        DISK qualified_disk_clause [, qualified_disk_clause ]...
+      }...

@@ -1,0 +1,13 @@
+# Description of the illustration column_clauses.eps
+
+    { { add_column_clause
+      | modify_column_clauses
+      | drop_column_clause
+      | add_period_clause
+      | drop_period_clause
+      }...
+    | rename_column_clause
+    | { modify_collection_retrieval }...
+    | { modify_LOB_storage_clause }...
+    | { alter_varray_col_properties }...
+    }

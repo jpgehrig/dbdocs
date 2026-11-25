@@ -1,0 +1,3 @@
+# Description of the illustration privilege_audit_clause.eps
+
+    PRIVILEGES system_privilege [, system_privilege ]...
