@@ -1,0 +1,1 @@
+This figure shows the data transfer process. The components are the client application, Oracle Database, the agent process, and the non-Oracle system. HS_RPC_FETCH_SIZE and HS_FDS_FETCH_ROWS parameters are set to optimize the transfer. The data transfer process is described in the text preceding the image.

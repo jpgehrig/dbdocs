@@ -1,0 +1,8 @@
+- [3-1        DBMS_HS_PASSTHROUGH Functions and Procedures](passthrough-sql.md)
+- [4-1        Agent Self-Registration](registering-agents.md)
+- [4-2        Data Dictionary Views for Heterogeneous Services](heterogeneous-services-data-dictionary-views.md)
+- [4-3        Common Views for All Services](heterogeneous-services-data-dictionary-views.md)
+- [4-4        Transaction Service Views](heterogeneous-services-data-dictionary-views.md)
+- [4-5        Important Columns in the V\$HS_AGENT View](heterogeneous-services-dynamic-performance-views.md)
+- [4-6        Important Columns in the V\$HS_SESSION View](heterogeneous-services-dynamic-performance-views.md)
+- [4-7        Important Columns in the V\$HS_PARAMETER View](heterogeneous-services-dynamic-performance-views.md)

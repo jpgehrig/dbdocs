@@ -1,0 +1,1 @@
+This figure shows the client application accessing multiple non-Oracle instances. A client application is sent to Oracle Database and goes through multiple agents to access multiple non-Oracle systems.

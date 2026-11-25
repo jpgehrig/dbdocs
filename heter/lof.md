@@ -1,0 +1,6 @@
+- [2-1        Oracle Heterogeneous Connectivity Process Architecture](heterogeneous-connectivity-process-architecture.md)
+- [2-2        Accessing Multiple Non-Oracle Instances](heterogeneous-services-data-dictionary.md)
+- [2-3        Gateway Process Flow](gateway-process-flow.md)
+- [3-1        Flow Diagram for Nonquery Passthrough SQL](passthrough-sql.md)
+- [3-2        Passthrough SQL for Queries](passthrough-sql.md)
+- [4-1        Optimizing Data Transfers](optimize-data-transfers-using-bulk-fetch.md)
