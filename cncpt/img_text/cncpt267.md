@@ -1,0 +1,3 @@
+# Description of the illustration cncpt267.eps
+
+On the left of this diagram is a box labeled "Data File" with a line leading to a box labeled "File System." The other boxes in the diagram are within a dotted-line box labeled "Oracle ASM." The Data File box has a one-to-one line leading to a box labeled "ASM File." This box has a many-to-one line leading to a box labeled "ASM Disk Group," which has a one-to-many line leading to a box labeled "ASM Disk." The ASM File box has a one-to-many line leading to a box labeled "ASM Allocation Unit," which has a one-to-many line leading to box labeled "ASM Extent."

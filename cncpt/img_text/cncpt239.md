@@ -1,0 +1,3 @@
+# Description of the illustration cncpt239.eps
+
+This graphic shows a block labeled Employees and a white block labeled Jobs. The Jobs table contains the job_id, job_title, min_salary, and max_salary columns. The job_title column is shaded. The Employees box is linked by a crow's foot to the Jobs table, with the fee on the Employees box. On the bottom right, a shaded box contains the CREATE BITMAP INDEX statement given in the preceding text. An arrow points from the Employees box to the ON line of the statement with the label: "Indexed table is employees." An arrow leads from the shaded box in Jobs to the (jobs.job_title) part of the ON line.

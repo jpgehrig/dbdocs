@@ -1,0 +1,3 @@
+# Description of the illustration cncpt287.eps
+
+This graphic shows the optimizer components in a box with a dotted border. The box contains three boxes vertically arranged: Query Transformer, Estimator, and Plan Generator. A Parsed Query enters from the top. An arrow leading from Query Transformer to Estimator is labeled Transformed query. An arrow leading from Estimator to Plan Generator is labeled "Query + estimated." An arrow leading from Plan Generator to the bottom of the figure is labeled "Query Plan (to Row Source Generator)." A box labeled Data Dictionary points to the Estimator box in the middle. The arrow is labeled "statistics."

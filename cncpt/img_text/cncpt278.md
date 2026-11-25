@@ -1,0 +1,3 @@
+# Description of the illustration cncpt278.eps
+
+The graphic contains two data files as vertical rectangles. The data file on the left is named users01.dbf. The top slab is all black. Below is a row of 12 blocks labeled Initial Extent. Halfway down the file is another slab labeled Incremental Extent. On the bottom left corner are three white blocks. The data file on the right is named users02.dbf. The top slab is all black. Partway down is a slab of 12 blocks labeled Incremental Extent. Beneath this slab is a white slab. The white slab is "Free (Formatted, Never Used)." The slabs of 12 blocks are labeled "Used."

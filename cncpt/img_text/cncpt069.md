@@ -1,0 +1,3 @@
+# Description of the illustration cncpt069.eps
+
+This graphic shows a SELECT statement at the top with "SCN 10023" written underneath it. Under the statement is a column of blocks, each with a different SCN: 10021, 10021, 10024 (this block is shaded), 10008, 10024 (this block is shaded), 10011, 10021. An arrow labeled "Scan Path" goes from the SELECT statement through the column to the end, but the arrow veers out to the right of the shaded blocks and goes through blocks that hover to the right of the column: one with SCN 10006 and another with SCN 10021. A circle labeled Undo Segment points to these two blocks.

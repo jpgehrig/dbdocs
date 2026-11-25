@@ -1,0 +1,3 @@
+# Description of the illustration cncpt057.eps
+
+This graphic shows the employees table. The employee_id column is labeled "Primary Key of referenced table." Below it is the employees table labeled "Referenced or Parent Table." The manager_id column points to the employee_id column. The manager_id column is labeled "Foreign Key (values in dependent table must match a value in unique key or primary key of referenced table)." Below the employees table is an insert of a single row. The row contains 400 for a manager_id. The callout says: "This row violates the referential constraint because '400' is not present in the referenced table's primary key; therefore, the row is not allowed in the table."

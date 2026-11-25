@@ -1,0 +1,5 @@
+# Description of the illustration cncpt290.eps
+
+The graphic shows four icons representing tables. The upper left table is labeled Employees and above it is the title Projection. Part of a statement is shown: "SELECT last_name, email". The last_name points to the second column in the table. The email in the statement points to the four column in the table. To the right of the Employees icon is the following partial SQL statement: "Where department_name = 'Shipping' AND salary \> 6000". To the right of this fragment is the Employees table icon. Arrows lead from the fragment pointing to rows in the Employees table.
+
+In the lower left is the Employees table icon. To the lower right is the Departments table icon. Between the icons is the following SQL statement fragment: "FROM employees JOIN departments ON employees.department_id = departments.department_id". The statement points to the last column on the Employees table and the first column in the Departments table. Between the two table icons is a Join arrow.

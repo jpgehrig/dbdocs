@@ -1,0 +1,3 @@
+# Description of the illustration cncpt252.eps
+
+This graphic shows a large shared box named Instance. Inside the Instance box is an SGA box that contains a Shared Pool. Within the Shared Pool is the Library Cache, which in turn contains a Shared SQL Area box. The Shared SQL Area box contains the following statement: SELECT \* FROM employees. Two Server Process boxes are attached to the Instance box. A Client Process icon is attached to each Server Process box. A PGA box containing a Private SQL Area box is attached to each Server Process box. Each Private SQL Area box contains the following statement: SELECT \* FROM employees.

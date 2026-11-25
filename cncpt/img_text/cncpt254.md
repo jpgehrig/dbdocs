@@ -1,0 +1,3 @@
+# Description of the illustration cncpt254.eps
+
+The figure illustrates the conceptual view of the main components of Oracle JVM and how they interact with each other. Oracle JVM consists of an interpreter and run-time system that interprets the code and store the native code in the natively compiled code area in Oracle JVM. It also contains the memory, garbage collector, and the class loader. The class loader interacts with the RDBMS library manager, and the garbage collector interacts with the RDBMS memory manager. The SQL and IIOP calls are routed to the interpreter and run-time system, and the loadjava tool and CREATE JAVA statement calls are routed to the RDBMS library manager.

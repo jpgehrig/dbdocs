@@ -1,0 +1,3 @@
+# Description of the illustration cncpt236.eps
+
+The figure illustrates a traditional two-tier client/server configuration. The server comprises Oracle Database, which has relational data, object-relational data, Java stored procedures, and PL/SQL stored procedures. There are three types of clients shown in the figure: Thin clients, such as Java applet and JDBC driver, Thick clients, such as Oracle Call Interface (OCI) and Open Database Connectivity (ODBC) client, and Oracle Forms and Oracle Reports. All these clients connect to Oracle Database through Oracle Net Services Connection Manager. Oracle Net Services Connection Manager combines multiple connections from different clients into a single connection to Oracle Database.

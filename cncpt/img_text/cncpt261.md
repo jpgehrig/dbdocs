@@ -1,0 +1,3 @@
+# Description of the illustration cncpt261.eps
+
+At the top of this figure are the Oracle Data Pump Export and Oracle Data Pump Import icons. Each has a two-way arrow to Data Pump API (DBMS_DATAPUMP), which is inside a large rectangle with a dotted border. This rectangle is labeled Data Pump. The Data Pump API has a two-way arrow going to External Table API, which is next to Direct Path API and Metadata API (DBMLS_METADATA). Underneath the dotted rectangle is a SQL\*Loader icon and Other Clients icons. SQL\*Loader has a two-way arrow going to External Table API and Direct Path API. Other Client has an arrow pointing to Direct Path API and a double-arrow pointing to Data Pump API. Other Clients has a two-way arrow pointing to Metadata API (DBMS_METADATA).
