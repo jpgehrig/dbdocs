@@ -1,0 +1,2605 @@
+## Index
+
+Symbols  Numerics  A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  
+
+------------------------------------------------------------------------
+
+## Symbols
+
+- \* parameter\* parameter
+  - field_definitions Clause [15.4.5.3](oracle_loader-access-driver.md)
+  - pos_spec Clause [15.4.5.3](oracle_loader-access-driver.md)
+
+------------------------------------------------------------------------
+
+## Numerics
+
+- 1291 ORA-01291: missing logfile [23.7.3](oracle-logminer-utility.md)
+
+------------------------------------------------------------------------
+
+## A
+
+- ABORT_STEP parameter
+  - Data Pump Export utility [2.4.2](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.2](datapump-import-utility.md)
+- ACCESS_METHOD parameter
+  - Data Pump Export utility [2.4.3](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.3](datapump-import-utility.md)
+- ACCESS PARAMETERS clause
+  - special characters [17.3.1](oracle_bigdata_access_driver.md)
+- access privileges
+  - Export and Import [25.2.4](oracle-original-export-utility.md)
+- ADD_FILE parameter
+  - Data Pump Export utility
+    - interactive-command mode [2.5.2](oracle-data-pump-export-utility.md)
+- ADR
+  - See: automatic diagnostic repository
+- ADR base
+  - in ADRCI utility [20.2](oracle-adr-command-interpreter-adrci.md)
+- ADRCI
+  - troubleshooting [20.10](oracle-adr-command-interpreter-adrci.md)
+- ADRCI help [20.3.2](oracle-adr-command-interpreter-adrci.md)
+- ADRCI utility [20](oracle-adr-command-interpreter-adrci.md)
+  - ADR base [20.2](oracle-adr-command-interpreter-adrci.md)
+  - ADR home [20.2](oracle-adr-command-interpreter-adrci.md)
+  - batch mode [20.3.3](oracle-adr-command-interpreter-adrci.md)
+  - commands [20.9](oracle-adr-command-interpreter-adrci.md)
+  - getting help [20.3](oracle-adr-command-interpreter-adrci.md)
+  - homepath [20.2](oracle-adr-command-interpreter-adrci.md)
+  - interactive mode [20.3.1](oracle-adr-command-interpreter-adrci.md)
+  - starting [20.3](oracle-adr-command-interpreter-adrci.md)
+- ADR home
+  - in ADRCI utility [20.2](oracle-adr-command-interpreter-adrci.md)
+- Advanced Queuing
+  - exporting advanced queue tables [25.14.10](oracle-original-export-utility.md)
+  - importing advanced queue tables [26.16.10](oracle-original-import-utility.md)
+- aliases
+  - directory
+    - exporting [25.14.5](oracle-original-export-utility.md)
+    - importing [26.16.5](oracle-original-import-utility.md)
+- analyzer statistics [26.24](oracle-original-import-utility.md)
+- analyzing redo log files [23](oracle-logminer-utility.md)
+- ANYDATA type
+  - using SQL strings to load [10.14.6](oracle-sql-loader-field-list-contents.md)
+- APPEND parameter
+  - SQL\*Loader utility [9.19.2](oracle-sql-loader-control-file-contents.md)
+- append to table
+  - SQL\*Loader [9.18.2.2.1](oracle-sql-loader-control-file-contents.md)
+- archived LOBs
+  - restrictions on export [2.4.51](oracle-data-pump-export-utility.md)
+- archive logging
+  - disabling in Data Pump jobs [3.4.53](datapump-import-utility.md)
+  - enabling in Data Pump jobs [3.4.53](datapump-import-utility.md)
+- archiving
+  - disabling
+    - effect on direct path loads [12.6.5.1](oracle-sql-loader-conventional-and-direct-loads.md)
+- arrays
+  - committing after insert [26.7.2](oracle-original-import-utility.md)
+- atomic null [11.1.5.2](loading-objects-oracle-sql-loader.md)
+- attaching to an existing job
+  - Data Pump Export utility [2.4.4](oracle-data-pump-export-utility.md)
+- ATTACH parameter
+  - Data Pump Export utility [2.4.4](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.4](datapump-import-utility.md)
+- attributes
+  - null [11.1.5.1](loading-objects-oracle-sql-loader.md)
+- attribute-value constructors
+  - overriding [11.1.6](loading-objects-oracle-sql-loader.md)
+- auditing Data Pump jobs
+  - unified auditing
+    - Data Pump [1.13](oracle-data-pump-overview.md)
+- auditing direct path loads
+  - when using SQL\*Loader [12.5.9](oracle-sql-loader-conventional-and-direct-loads.md)
+- automatic diagnostic repository [20.2](oracle-adr-command-interpreter-adrci.md)
+
+------------------------------------------------------------------------
+
+## B
+
+- backslash escape character [9.4.3.2](oracle-sql-loader-control-file-contents.md)
+- backups
+  - restoring dropped snapshots
+    - Import [26.18.2.1](oracle-original-import-utility.md)
+- BADFILE parameter
+  - SQL\*Loader utility [9.11.1](oracle-sql-loader-control-file-contents.md)
+- bad files
+  - specifying for SQL\*Loader [9.11.1](oracle-sql-loader-control-file-contents.md)
+- BAD parameter
+  - SQL\*Loader command line [8.2.1](oracle-sql-loader-commands.md)
+  - SQL\*Loader express mode [13.3.1](oracle-sql-loader-express-mode.md)
+- BEGINDATA parameter
+  - SQL\*Loader control file [9.9](oracle-sql-loader-control-file-contents.md)
+- BFILEs
+  - in original Export [25.14.6](oracle-original-export-utility.md)
+  - in original Import [26.16.5](oracle-original-import-utility.md)
+  - loading with SQL\*Loader [11.4](loading-objects-oracle-sql-loader.md)
+- big-endian data
+  - external tables [15.3.11](oracle_loader-access-driver.md)
+- BINARY_DOUBLE
+  - Floating-Point Numbers [15.4.6.6](oracle_loader-access-driver.md)
+- BINARY_FLOAT
+  - Floating-Point Numbers [15.4.6.6](oracle_loader-access-driver.md)
+- bind arrays
+  - determining size of for SQL\*Loader [9.21.4](oracle-sql-loader-control-file-contents.md)
+  - minimizing SQL\*Loader memory requirements [9.21.5](oracle-sql-loader-control-file-contents.md)
+  - minimum requirements [9.21.1](oracle-sql-loader-control-file-contents.md)
+  - size with multiple SQL\*Loader INTO TABLE statements [9.21.6](oracle-sql-loader-control-file-contents.md)
+  - specifying maximum size [8.2.2](oracle-sql-loader-commands.md)
+  - specifying number of rows [8.2.31](oracle-sql-loader-commands.md)
+  - SQL\*Loader performance implications [9.21.2](oracle-sql-loader-control-file-contents.md)
+- BINDSIZE parameter
+  - SQL\*Loader command line [8.2.2](oracle-sql-loader-commands.md), [9.21.3](oracle-sql-loader-control-file-contents.md)
+- blanks
+  - loading fields consisting of blanks [10.10](oracle-sql-loader-field-list-contents.md)
+  - SQL\*Loader BLANKS parameter for field comparison [10.5.2](oracle-sql-loader-field-list-contents.md)
+  - trailing [10.4.6.4](oracle-sql-loader-field-list-contents.md)
+  - trimming [10.11](oracle-sql-loader-field-list-contents.md)
+    - external tables [8.2.38](oracle-sql-loader-commands.md), [13.3.21](oracle-sql-loader-express-mode.md), [15.4.2](oracle_loader-access-driver.md)
+  - whitespace [10.11](oracle-sql-loader-field-list-contents.md)
+- BLANKS parameter
+  - SQL\*Loader utility [10.5.2](oracle-sql-loader-field-list-contents.md)
+- BLOBs
+  - loading with SQL\*Loader [11.4](loading-objects-oracle-sql-loader.md)
+- buffer cache size
+  - and Data Pump operations involving GoldenGate Replication [5.3.1](oracle-data-pump-performance-tips.md)
+- BUFFER parameter
+  - Export utility [25.5.1](oracle-original-export-utility.md)
+  - Import utility [26.7.1](oracle-original-import-utility.md)
+- buffers
+  - calculating for export [25.5.1](oracle-original-export-utility.md)
+  - specifying with SQL\*Loader BINDSIZE parameter [9.21.4](oracle-sql-loader-control-file-contents.md)
+- byte order [10.9.1](oracle-sql-loader-field-list-contents.md)
+  - big-endian [10.9.1](oracle-sql-loader-field-list-contents.md)
+  - little-endian [10.9.1](oracle-sql-loader-field-list-contents.md)
+  - specifying in SQL\*Loader control file [10.9.2](oracle-sql-loader-field-list-contents.md)
+- BYTEORDERMARK parameter
+  - SQL\*Loader utility [10.9.4](oracle-sql-loader-field-list-contents.md)
+- byte order marks [10.9.3](oracle-sql-loader-field-list-contents.md)
+  - precedence
+    - for first primary datafile [10.9.3](oracle-sql-loader-field-list-contents.md)
+    - for LOBFILEs and SDFs [10.9.3](oracle-sql-loader-field-list-contents.md)
+  - suppressing checks for [10.9.4](oracle-sql-loader-field-list-contents.md)
+- BYTEORDER parameter
+  - SQL\*Loader utility [10.9.2](oracle-sql-loader-field-list-contents.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- cached sequence numbers
+  - Export [25.14.1](oracle-original-export-utility.md)
+- catalog.sql script
+  - preparing database for Export and Import [25.2.2](oracle-original-export-utility.md), [26.2.1](oracle-original-import-utility.md)
+- catexp.sql script
+  - preparing database for Export and Import [25.2.2](oracle-original-export-utility.md), [26.2.1](oracle-original-import-utility.md)
+- CDBs
+  - Oracle Data Pump support [1.3](oracle-data-pump-overview.md)
+  - using Data Pump to move data into [1.3.2](oracle-data-pump-overview.md)
+- changing a database ID [22.5.1](oracle-dbnewid-utility.md)
+- changing a database name [22.5.3](oracle-dbnewid-utility.md)
+- character fields
+  - delimiters and SQL\*Loader [10.4.3](oracle-sql-loader-field-list-contents.md), [10.4.6](oracle-sql-loader-field-list-contents.md)
+  - determining length for SQL\*Loader [10.4.8](oracle-sql-loader-field-list-contents.md)
+  - SQL\*Loader data types [10.4.3](oracle-sql-loader-field-list-contents.md)
+- character-length semantics [9.15.5.4](oracle-sql-loader-control-file-contents.md)
+- CHARACTERSET parameter
+  - SQL\*Loader express mode [13.3.2](oracle-sql-loader-express-mode.md)
+  - SQL\*Loader utility [9.15.5.2](oracle-sql-loader-control-file-contents.md), [13.3.2](oracle-sql-loader-express-mode.md)
+- character sets
+  - conversion
+    - during Export and Import [25.12.1](oracle-original-export-utility.md), [26.14.1](oracle-original-import-utility.md)
+  - eight-bit to seven-bit conversions
+    - Export/Import [25.12.3](oracle-original-export-utility.md), [26.14.3](oracle-original-import-utility.md)
+  - identifying for external tables [15.3.6](oracle_loader-access-driver.md)
+  - multibyte
+    - Export/Import [25.12.4](oracle-original-export-utility.md)
+    - SQL\*Loader [9.15.1](oracle-sql-loader-control-file-contents.md)
+  - single-byte
+    - Export/Import [25.12.3](oracle-original-export-utility.md), [26.14.3](oracle-original-import-utility.md)
+  - SQL\*Loader control file [9.15.5.3](oracle-sql-loader-control-file-contents.md)
+  - SQL\*Loader conversion between [9.15](oracle-sql-loader-control-file-contents.md)
+  - Unicode [9.15.2](oracle-sql-loader-control-file-contents.md)
+- character strings
+  - external tables
+    - specifying bytes or characters [15.3.13](oracle_loader-access-driver.md)
+  - SQL\*Loader [10.5.3](oracle-sql-loader-field-list-contents.md)
+- CHAR data type
+  - delimited form and SQL\*Loader [10.4.6](oracle-sql-loader-field-list-contents.md)
+- check constraints
+  - overriding disabling of [12.9.1.2](oracle-sql-loader-conventional-and-direct-loads.md)
+- CLOBs
+  - loading with SQL\*Loader [11.4](loading-objects-oracle-sql-loader.md)
+- CLUSTER parameter
+  - Data Pump Export utility [2.4.5](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.5](datapump-import-utility.md)
+- collections [7.10](oracle-sql-loader-concepts.md)
+  - loading [11.6](loading-objects-oracle-sql-loader.md)
+- collection types supported by SQL\*Loader [7.10.2](oracle-sql-loader-concepts.md)
+- column array rows
+  - specifying number of [12.6.6](oracle-sql-loader-conventional-and-direct-loads.md)
+- COLUMNARRAYROWS parameter
+  - SQL\*Loader command line [8.2.3](oracle-sql-loader-commands.md)
+- column objects
+  - loading [11.1](loading-objects-oracle-sql-loader.md)
+    - with user-defined constructors [11.1.6](loading-objects-oracle-sql-loader.md)
+- columns
+  - exporting LONG data types [25.14.2](oracle-original-export-utility.md)
+  - loading REF columns [11.3](loading-objects-oracle-sql-loader.md)
+  - naming
+    - SQL\*Loader [10.3](oracle-sql-loader-field-list-contents.md)
+  - objects
+    - loading nested column objects [11.1.3](loading-objects-oracle-sql-loader.md)
+    - stream record format [11.1.1](loading-objects-oracle-sql-loader.md)
+    - variable record format [11.1.2](loading-objects-oracle-sql-loader.md)
+  - reordering before Import [26.3.1](oracle-original-import-utility.md)
+  - setting to a constant value with SQL\*Loader [10.15.2](oracle-sql-loader-field-list-contents.md)
+  - setting to an expression value with SQL\*Loader [10.15.3](oracle-sql-loader-field-list-contents.md)
+  - setting to a unique sequence number with SQL\*Loader [10.15.6](oracle-sql-loader-field-list-contents.md)
+  - setting to null with SQL\*Loader [10.15.2.1](oracle-sql-loader-field-list-contents.md)
+  - setting to the current date with SQL\*Loader [10.15.5](oracle-sql-loader-field-list-contents.md)
+  - setting to the datafile record number with SQL\*Loader [10.15.4](oracle-sql-loader-field-list-contents.md)
+  - specifying
+    - SQL\*Loader [10.3](oracle-sql-loader-field-list-contents.md)
+  - specifying as PIECED
+    - SQL\*Loader [12.5.8](oracle-sql-loader-conventional-and-direct-loads.md)
+  - using SQL\*Loader [10.15.3](oracle-sql-loader-field-list-contents.md)
+- comments
+  - in Export and Import parameter files [25.3.3](oracle-original-export-utility.md), [26.5.2](oracle-original-import-utility.md)
+  - with external tables [15.2](oracle_loader-access-driver.md), [16.2.1](oracle_datapump-access-driver.md)
+- COMMIT parameter
+  - Import utility [26.7.2](oracle-original-import-utility.md)
+- COMPILE parameter
+  - Import utility [26.7.3](oracle-original-import-utility.md)
+- completion messages
+  - Export [25.7.4](oracle-original-export-utility.md)
+  - Import [25.7.4](oracle-original-export-utility.md)
+- compression
+  - specifying algorithm in Data Pump jobs [2.4.7](oracle-data-pump-export-utility.md)
+  - specifying for tables in Data Pump jobs [3.4.53](datapump-import-utility.md)
+  - specifying level for external tables [16.2.2](oracle_datapump-access-driver.md)
+- COMPRESSION_ALGORITHM parameter
+  - Data Pump Export utility [2.4.7](oracle-data-pump-export-utility.md)
+- compression algorithms
+  - specifying in Data Pump jobs [2.4.7](oracle-data-pump-export-utility.md)
+- COMPRESSION parameter
+  - Data Pump Export utility [2.4.6](oracle-data-pump-export-utility.md)
+- COMPRESS parameter
+  - Export utility [25.5.2](oracle-original-export-utility.md)
+- CONCATENATE parameter
+  - SQL\*Loader utility [9.17](oracle-sql-loader-control-file-contents.md)
+- concurrent conventional path loads [12.9.4](oracle-sql-loader-conventional-and-direct-loads.md)
+- configuration
+  - of LogMiner utility [23.2.1.1](oracle-logminer-utility.md)
+- CONSISTENT parameter
+  - Export utility [25.5.3](oracle-original-export-utility.md)
+    - nested tables and [25.5.3](oracle-original-export-utility.md)
+    - partitioned table and [25.5.3](oracle-original-export-utility.md)
+- consolidating
+  - extents [25.5.2](oracle-original-export-utility.md)
+- CONSTANT parameter
+  - SQL\*Loader [10.15.2](oracle-sql-loader-field-list-contents.md)
+- constraints
+  - automatic integrity and SQL\*Loader [12.9.2.2](oracle-sql-loader-conventional-and-direct-loads.md)
+  - direct path load [12.9](oracle-sql-loader-conventional-and-direct-loads.md)
+  - disabling referential constraints [26.3.2](oracle-original-import-utility.md)
+  - enabling
+    - after a parallel direct path load [12.10.8](oracle-sql-loader-conventional-and-direct-loads.md)
+  - enforced on a direct load [12.9.1.1](oracle-sql-loader-conventional-and-direct-loads.md)
+  - failed
+    - Import [26.10.1.1](oracle-original-import-utility.md)
+  - load method [12.4.9](oracle-sql-loader-conventional-and-direct-loads.md)
+- CONSTRAINTS parameter
+  - Export utility [25.5.4](oracle-original-export-utility.md)
+  - Import utility [26.7.4](oracle-original-import-utility.md)
+- constructors
+  - attribute-value [11.1.6](loading-objects-oracle-sql-loader.md)
+    - overriding [11.1.6](loading-objects-oracle-sql-loader.md)
+  - user-defined [11.1.6](loading-objects-oracle-sql-loader.md)
+    - loading column objects with [11.1.6](loading-objects-oracle-sql-loader.md)
+- CONTENT parameter
+  - Data Pump Export utility [2.4.8](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.4](datapump-import-utility.md)
+- CONTINUE_CLIENT parameter
+  - Data Pump Export utility
+    - interactive-command mode [2.5.3](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility
+    - interactive-command mode [3.5.2](datapump-import-utility.md)
+- CONTINUEIF parameter
+  - SQL\*Loader utility [9.17](oracle-sql-loader-control-file-contents.md)
+- control files
+  - character sets [9.15.5.3](oracle-sql-loader-control-file-contents.md)
+  - data definition language syntax [9.1](oracle-sql-loader-control-file-contents.md)
+  - specifying data [9.9](oracle-sql-loader-control-file-contents.md)
+  - specifying SQL\*Loader discard file [9.12.1](oracle-sql-loader-control-file-contents.md)
+  - SQL\*Loader [9.1](oracle-sql-loader-control-file-contents.md)
+- CONTROL parameter
+  - SQL\*Loader command line [8.2.4](oracle-sql-loader-commands.md)
+- conventional path Export
+  - compared to direct path [25.9](oracle-original-export-utility.md)
+- conventional path loads
+  - behavior when discontinued [9.16.1](oracle-sql-loader-control-file-contents.md)
+  - compared to direct path loads [12.4.8](oracle-sql-loader-conventional-and-direct-loads.md)
+  - concurrent [12.10.2](oracle-sql-loader-conventional-and-direct-loads.md)
+  - of a single partition [12.3](oracle-sql-loader-conventional-and-direct-loads.md)
+  - SQL\*Loader bind array [9.21.2](oracle-sql-loader-control-file-contents.md)
+  - when to use [12.3.2](oracle-sql-loader-conventional-and-direct-loads.md)
+- conversion of character sets
+  - during Export/Import [25.12.1](oracle-original-export-utility.md), [26.14.1](oracle-original-import-utility.md)
+  - effect of character set sorting on [25.12.1.1](oracle-original-export-utility.md), [26.14.1.1](oracle-original-import-utility.md)
+- conversion of data
+  - during direct path loads [12.4.2](oracle-sql-loader-conventional-and-direct-loads.md)
+- conversion of input characters [9.15.5](oracle-sql-loader-control-file-contents.md)
+- CREATE REPORT command, ADRCI utility [20.9.1](oracle-adr-command-interpreter-adrci.md)
+- CREATE SESSION privilege
+  - Export [25.2.4](oracle-original-export-utility.md), [26.2.2](oracle-original-import-utility.md)
+  - Import [25.2.4](oracle-original-export-utility.md), [26.2.2](oracle-original-import-utility.md)
+- creating
+  - incident package [20.8.2](oracle-adr-command-interpreter-adrci.md)
+  - tables
+    - manually, before import [26.3.1](oracle-original-import-utility.md)
+- CREDENTIAL parameter
+  - Data Pump Import utility [3.4.7](datapump-import-utility.md)
+- CSV parameter
+  - SQL\*Loader express mode [13.3.3](oracle-sql-loader-express-mode.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- data
+  - conversion
+    - direct path load [12.4.2](oracle-sql-loader-conventional-and-direct-loads.md)
+  - delimiter marks in data and SQL\*Loader [10.4.6.2](oracle-sql-loader-field-list-contents.md)
+  - distinguishing different input formats for SQL\*Loader [9.20](oracle-sql-loader-control-file-contents.md)
+  - distinguishing different input row object subtypes [9.20](oracle-sql-loader-control-file-contents.md), [9.20.3](oracle-sql-loader-control-file-contents.md)
+  - exporting [25.5.24](oracle-original-export-utility.md)
+  - generating unique values with SQL\*Loader [10.15.6](oracle-sql-loader-field-list-contents.md)
+  - including in control files [9.9](oracle-sql-loader-control-file-contents.md)
+  - loading data contained in the SQL\*Loader control file [10.15.1](oracle-sql-loader-field-list-contents.md)
+  - loading in sections
+    - SQL\*Loader [12.5.8](oracle-sql-loader-conventional-and-direct-loads.md)
+  - loading into more than one table
+    - SQL\*Loader [9.20](oracle-sql-loader-control-file-contents.md)
+  - maximum length of delimited data for SQL\*Loader [10.4.6.3](oracle-sql-loader-field-list-contents.md)
+  - moving between operating systems using SQL\*Loader [10.8](oracle-sql-loader-field-list-contents.md)
+  - recovery
+    - SQL\*Loader direct path load [12.5.6](oracle-sql-loader-conventional-and-direct-loads.md)
+  - saving in a direct path load [12.5.5.1](oracle-sql-loader-conventional-and-direct-loads.md)
+  - saving rows
+    - SQL\*Loader [12.6.4](oracle-sql-loader-conventional-and-direct-loads.md)
+  - unsorted
+    - SQL\*Loader [12.6.3.3](oracle-sql-loader-conventional-and-direct-loads.md)
+  - values optimized for SQL\*Loader performance [10.15.1](oracle-sql-loader-field-list-contents.md)
+- DATA_OPTIONS parameter
+  - Data Pump Export utility [2.4.9](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.8](datapump-import-utility.md)
+- database ID (DBID)
+  - changing [22.5.1](oracle-dbnewid-utility.md)
+- database identifier
+  - changing [22.5.1](oracle-dbnewid-utility.md)
+- database migration
+  - partitioning of [25.17](oracle-original-export-utility.md), [26.25](oracle-original-import-utility.md)
+- database name (DBNAME)
+  - changing [22.5.3](oracle-dbnewid-utility.md)
+- database objects
+  - exporting LONG columns [25.14.2](oracle-original-export-utility.md)
+- databases
+  - changing the database ID [22.5.1](oracle-dbnewid-utility.md)
+  - changing the name [22.5.3](oracle-dbnewid-utility.md)
+  - exporting entire [25.5.11](oracle-original-export-utility.md)
+  - full import [26.7.12](oracle-original-import-utility.md)
+  - privileges for exporting and importing [25.2.4](oracle-original-export-utility.md), [26.2.2](oracle-original-import-utility.md)
+  - reusing existing datafiles
+    - Import [26.7.7](oracle-original-import-utility.md)
+- data fields
+  - specifying the SQL\*Loader data type [10.3.2](oracle-sql-loader-field-list-contents.md)
+- datafiles
+  - preventing overwrite during import [26.7.7](oracle-original-import-utility.md)
+  - reusing during import [26.7.7](oracle-original-import-utility.md)
+  - specifying [8.2.5](oracle-sql-loader-commands.md), [13.3.4](oracle-sql-loader-express-mode.md)
+  - specifying format for SQL\*Loader [9.10](oracle-sql-loader-control-file-contents.md)
+- data files
+  - specifying buffering for SQL\*Loader [9.10](oracle-sql-loader-control-file-contents.md)
+  - specifying for SQL\*Loader [9.7.1](oracle-sql-loader-control-file-contents.md)
+- DATAFILES parameter
+  - Import utility [26.7.6](oracle-original-import-utility.md)
+- DATA parameter
+  - SQL\*Loader command line [8.2.5](oracle-sql-loader-commands.md), [13.3.4](oracle-sql-loader-express-mode.md)
+  - SQL\*Loader express mode [13.3.4](oracle-sql-loader-express-mode.md)
+- DATAPUMP_EXP_FULL_DATABASE role [1.5](oracle-data-pump-overview.md)
+- DATAPUMP_IMP_FULL_DATABASE role [1.5](oracle-data-pump-overview.md)
+- Data Pump Export utility
+  - ABORT_STEP parameter [2.4.2](oracle-data-pump-export-utility.md)
+  - ACCESS_METHOD parameter [2.4.3](oracle-data-pump-export-utility.md)
+  - adding additional dump files [1.9.2](oracle-data-pump-overview.md)
+  - ATTACH parameter [2.4.4](oracle-data-pump-export-utility.md)
+  - CLUSTER parameter [2.4.5](oracle-data-pump-export-utility.md)
+  - command-line mode [2.4.1](oracle-data-pump-export-utility.md), [3.4](datapump-import-utility.md)
+  - COMPRESSION_ALGORITHM parameter [2.4.7](oracle-data-pump-export-utility.md)
+  - COMPRESSION parameter [2.4.6](oracle-data-pump-export-utility.md)
+  - CONTENT parameter [2.4.8](oracle-data-pump-export-utility.md)
+  - controlling resource consumption [5.2.1](oracle-data-pump-performance-tips.md)
+  - DATA_OPTIONS parameter [2.4.9](oracle-data-pump-export-utility.md)
+  - DIRECTORY parameter [2.4.10](oracle-data-pump-export-utility.md)
+  - DUMPFILE parameter [2.4.11](oracle-data-pump-export-utility.md)
+  - dump file set [2.1](oracle-data-pump-export-utility.md)
+  - ENCRYPTION_ALGORITHM parameter [2.4.14](oracle-data-pump-export-utility.md)
+  - ENCRYPTION_MODE parameter [2.4.15](oracle-data-pump-export-utility.md)
+  - ENCRYPTION_PASSWORD parameter [2.4.16](oracle-data-pump-export-utility.md)
+  - ENCRYPTION_PWD_PROMPT parameter [2.4.17](oracle-data-pump-export-utility.md)
+  - encryption of SecureFiles [2.4.13](oracle-data-pump-export-utility.md)
+  - ENCRYPTION parameter [2.4.13](oracle-data-pump-export-utility.md)
+  - ESTIMATE_ONLY parameter [2.4.19](oracle-data-pump-export-utility.md)
+  - ESTIMATE parameter [2.4.18](oracle-data-pump-export-utility.md)
+  - EXCLUDE parameter [2.4.20](oracle-data-pump-export-utility.md)
+  - excluding objects [2.4.20](oracle-data-pump-export-utility.md)
+  - export modes [2.2.2](oracle-data-pump-export-utility.md)
+  - FILESIZE command
+    - interactive-command mode [2.5.5](oracle-data-pump-export-utility.md)
+  - FILESIZE parameter [2.4.21](oracle-data-pump-export-utility.md)
+  - filtering data that is exported
+    - using EXCLUDE parameter [2.4.20](oracle-data-pump-export-utility.md)
+    - using INCLUDE parameter [2.4.26](oracle-data-pump-export-utility.md)
+  - FLASHBACK_SCN parameter [2.4.22](oracle-data-pump-export-utility.md)
+  - FLASHBACK_TIME parameter [2.4.23](oracle-data-pump-export-utility.md)
+  - FULL parameter [2.4.24](oracle-data-pump-export-utility.md)
+  - HELP parameter
+    - interactive-command mode [2.5.6](oracle-data-pump-export-utility.md)
+  - INCLUDE parameter [2.4.26](oracle-data-pump-export-utility.md)
+  - interactive-command mode [2.5](oracle-data-pump-export-utility.md)
+    - ADD_FILE parameter [2.5.2](oracle-data-pump-export-utility.md)
+    - CONTINUE_CLIENT parameter [2.5.3](oracle-data-pump-export-utility.md)
+    - EXIT_CLIENT parameter [2.5.4](oracle-data-pump-export-utility.md)
+    - FILESIZE [2.5.5](oracle-data-pump-export-utility.md)
+    - HELP parameter [2.5.6](oracle-data-pump-export-utility.md)
+    - KILL_JOB parameter [2.5.7](oracle-data-pump-export-utility.md)
+    - PARALLEL parameter [2.5.8](oracle-data-pump-export-utility.md)
+    - START_JOB parameter [2.5.9](oracle-data-pump-export-utility.md)
+    - STATUS parameter [2.5.10](oracle-data-pump-export-utility.md), [3.5.8](datapump-import-utility.md)
+    - STOP_JOB parameter [2.5.11](oracle-data-pump-export-utility.md), [3.5.9](datapump-import-utility.md)
+  - interfaces [2.2.1](oracle-data-pump-export-utility.md)
+  - invoking
+    - as SYSDBA [3.2](datapump-import-utility.md)
+  - JOB_NAME parameter [2.4.27](oracle-data-pump-export-utility.md)
+  - job names
+    - specifying [2.4.27](oracle-data-pump-export-utility.md)
+  - KEEP_MASTER parameter [2.4.28](oracle-data-pump-export-utility.md)
+  - LOGFILE parameter [2.4.29](oracle-data-pump-export-utility.md)
+  - LOGTIME parameter [2.4.30](oracle-data-pump-export-utility.md)
+  - METRICS parameter [2.4.31](oracle-data-pump-export-utility.md)
+  - NETWORK_LINK parameter [2.4.32](oracle-data-pump-export-utility.md)
+  - NOLOGFILE parameter [2.4.33](oracle-data-pump-export-utility.md)
+  - PARALLEL_THRESHOLD parameter
+    - command-line mode [2.4.35](oracle-data-pump-export-utility.md)
+  - PARALLEL parameter
+    - command-line mode [2.4.34](oracle-data-pump-export-utility.md)
+    - interactive-command mode [2.5.8](oracle-data-pump-export-utility.md)
+  - PARFILE parameter [2.4.36](oracle-data-pump-export-utility.md)
+  - QUERY parameter [2.4.37](oracle-data-pump-export-utility.md)
+  - REMAP_DATA parameter [2.4.38](oracle-data-pump-export-utility.md)
+  - REUSE_DUMPFILES parameter [2.4.39](oracle-data-pump-export-utility.md)
+  - SAMPLE parameter [2.4.40](oracle-data-pump-export-utility.md)
+  - SCHEMAS parameter [2.4.41](oracle-data-pump-export-utility.md)
+  - SecureFiles LOB considerations [1.11](oracle-data-pump-overview.md)
+  - SERVICE_NAME parameter [2.4.42](oracle-data-pump-export-utility.md)
+  - SOURCE_EDITION parameter [2.4.43](oracle-data-pump-export-utility.md)
+  - specifying a job name [2.4.27](oracle-data-pump-export-utility.md)
+  - starting
+    - as SYSDBA [2.2](oracle-data-pump-export-utility.md)
+  - STATUS parameter [2.4.44](oracle-data-pump-export-utility.md)
+  - syntax diagrams [2.7](oracle-data-pump-export-utility.md)
+  - TABLESPACES parameter [2.4.46](oracle-data-pump-export-utility.md)
+  - TABLES parameter [2.4.45](oracle-data-pump-export-utility.md)
+  - transparent data encryption [2.4.16](oracle-data-pump-export-utility.md)
+  - TRANSPORT_FULL_CHECK parameter [2.4.47](oracle-data-pump-export-utility.md)
+  - TRANSPORT_TABLESPACES parameter [2.4.48](oracle-data-pump-export-utility.md)
+  - TRANSPORTABLE parameter [2.4.49](oracle-data-pump-export-utility.md)
+  - TTS_CLOSURE_CHECK parameter [2.4.50](oracle-data-pump-export-utility.md)
+  - versioning [1.10](oracle-data-pump-overview.md)
+  - VERSION parameter [2.4.51](oracle-data-pump-export-utility.md)
+  - VIEWS_AS_TABLES parameter [2.4.52](oracle-data-pump-export-utility.md)
+- Data Pump Import utility
+  - ABORT_STEP parameter [3.4.2](datapump-import-utility.md)
+  - ACCESS_METHOD parameter [3.4.3](datapump-import-utility.md)
+  - attaching to an existing job [3.4.4](datapump-import-utility.md)
+  - ATTACH parameter [3.4.4](datapump-import-utility.md)
+  - changing name of source datafile [3.4.36](datapump-import-utility.md)
+  - CLUSTER parameter [3.4.5](datapump-import-utility.md)
+  - CONTENT parameter [3.4.6](datapump-import-utility.md)
+  - controlling resource consumption [5.2.1](oracle-data-pump-performance-tips.md)
+  - CREDENTIAL parameter [3.4.7](datapump-import-utility.md)
+  - DATA_OPTIONS parameter [3.4.8](datapump-import-utility.md)
+  - DIRECTORY parameter [3.4.9](datapump-import-utility.md)
+  - DUMPFILE parameter [3.4.10](datapump-import-utility.md)
+  - ENCRYPTION_PASSWORD parameter [3.4.12](datapump-import-utility.md)
+  - ENCRYPTION_PWD_PROMPT parameter [3.4.13](datapump-import-utility.md)
+  - ESTIMATE parameter [3.4.14](datapump-import-utility.md)
+  - estimating size of job [3.4.14](datapump-import-utility.md)
+  - EXCLUDE parameter [3.4.15](datapump-import-utility.md)
+  - filtering data that is imported
+    - using EXCLUDE parameter [3.4.15](datapump-import-utility.md)
+    - using INCLUDE parameter [3.4.20](datapump-import-utility.md)
+  - FLASHBACK_SCN parameter [3.4.16](datapump-import-utility.md)
+  - FLASHBACK_TIME parameter [3.4.17](datapump-import-utility.md)
+  - full import mode [3.2.2.2](datapump-import-utility.md)
+  - FULL parameter [3.4.18](datapump-import-utility.md)
+  - HELP parameter
+    - command-line mode [3.4.19](datapump-import-utility.md)
+    - interactive-command mode [3.5.4](datapump-import-utility.md)
+  - INCLUDE parameter [3.4.20](datapump-import-utility.md)
+  - INDEX_THRESHOLD parameter
+    - command-line mode [3.4.21](datapump-import-utility.md)
+  - interactive-command mode [3.5.1](datapump-import-utility.md)
+    - CONTINUE_CLIENT parameter [3.5.2](datapump-import-utility.md)
+    - EXIT_CLIENT parameter [3.5.3](datapump-import-utility.md)
+    - HELP parameter [3.5.4](datapump-import-utility.md)
+    - KILL_JOB parameter [3.5.5](datapump-import-utility.md)
+    - PARALLEL parameter [3.5.6](datapump-import-utility.md)
+    - START_JOB parameter [3.5.7](datapump-import-utility.md)
+    - STATUS [3.5.8](datapump-import-utility.md)
+    - STOP_JOB parameter [3.5.9](datapump-import-utility.md)
+  - interfaces [3.2.1](datapump-import-utility.md)
+  - JOB_NAME parameter [3.4.22](datapump-import-utility.md)
+  - KEEP_MASTER parameter [3.4.23](datapump-import-utility.md)
+  - LOGTIME parameter [3.4.25](datapump-import-utility.md)
+  - MASTER_ONLY parameter [3.4.26](datapump-import-utility.md)
+  - METRICS parameter [3.4.27](datapump-import-utility.md)
+  - NETWORK_LINK parameter [3.4.28](datapump-import-utility.md)
+  - NOLOGFILE parameter [3.4.29](datapump-import-utility.md)
+  - PARALLEL_THRESHOLD parameter
+    - command-line mode [3.4.31](datapump-import-utility.md)
+  - PARALLEL parameter
+    - command-line mode [3.4.30](datapump-import-utility.md)
+  - PARFILE parameter [3.4.32](datapump-import-utility.md)
+  - PARTITION_OPTIONS parameter [3.4.33](datapump-import-utility.md)
+  - QUERY parameter [3.4.34](datapump-import-utility.md)
+  - REMAP_DATAFILE parameter [3.4.36](datapump-import-utility.md)
+  - REMAP_DATA parameter [3.4.35](datapump-import-utility.md)
+  - REMAP_SCHEMA parameter [3.4.38](datapump-import-utility.md)
+  - REMAP_TABLE parameter [3.4.39](datapump-import-utility.md)
+  - REMAP_TABLESPACE parameter [3.4.40](datapump-import-utility.md)
+  - REUSE_DATAFILES parameter [3.4.49](datapump-import-utility.md)
+  - schema mode [3.2.2.3](datapump-import-utility.md)
+  - SCHEMAS parameter [3.4.41](datapump-import-utility.md)
+  - SERVICE_NAME parameter [3.4.42](datapump-import-utility.md)
+  - SKIP_UNUSABLE_INDEXES parameter [3.4.43](datapump-import-utility.md)
+  - SOURCE_EDITION parameter [3.4.44](datapump-import-utility.md)
+  - specifying a job name [3.4.22](datapump-import-utility.md)
+  - specifying credential object name to process [3.4.7](datapump-import-utility.md)
+  - specifying dump file set to import [3.4.10](datapump-import-utility.md)
+  - SQLFILE parameter [3.4.45](datapump-import-utility.md)
+  - STATUS parameter [3.4.46](datapump-import-utility.md)
+  - STREAMS_CONFIGURATION parameter [3.4.47](datapump-import-utility.md)
+  - syntax diagrams [3.7](datapump-import-utility.md)
+  - TABLE_EXISTS_ACTION parameter [3.4.48](datapump-import-utility.md)
+  - table mode [3.2.2.4](datapump-import-utility.md)
+  - tablespace mode [3.2.2.5](datapump-import-utility.md)
+  - TABLESPACES parameter [3.4.51](datapump-import-utility.md)
+  - TABLES parameter [3.4.50](datapump-import-utility.md)
+  - TARGET_EDITION parameter [3.4.52](datapump-import-utility.md)
+  - TRANSFORM parameter [3.4.53](datapump-import-utility.md)
+  - transparent data encryption [3.4.12](datapump-import-utility.md)
+  - TRANSPORT_FULL_CHECK parameter [3.4.55](datapump-import-utility.md)
+  - TRANSPORT_TABLESPACES parameter [3.4.56](datapump-import-utility.md)
+  - TRANSPORTABLE parameter [3.4.57](datapump-import-utility.md)
+  - transportable tablespace mode [3.2.2.6](datapump-import-utility.md)
+  - versioning [1.10](oracle-data-pump-overview.md)
+  - VERSION parameter [3.4.58](datapump-import-utility.md)
+  - VIEWS_AS_TABLES parameter (Network Import) [3.4.59](datapump-import-utility.md)
+- data types
+  - BFILEs
+    - in original Export [25.14.6](oracle-original-export-utility.md)
+    - in original Import [26.16.5](oracle-original-import-utility.md)
+    - loading with SQL\*Loader [11.4](loading-objects-oracle-sql-loader.md)
+  - BLOBs
+    - loading with SQL\*Loader [11.4](loading-objects-oracle-sql-loader.md)
+  - CLOBs
+    - loading with SQL\*Loader [11.4](loading-objects-oracle-sql-loader.md)
+  - converting SQL\*Loader [10.4.4](oracle-sql-loader-field-list-contents.md)
+  - describing for external table fields [15.4.6.1](oracle_loader-access-driver.md)
+  - determining character field lengths for SQL\*Loader [10.4.8](oracle-sql-loader-field-list-contents.md)
+  - determining DATE length [10.4.8.3](oracle-sql-loader-field-list-contents.md)
+  - identifying for external tables [15.4.4](oracle_loader-access-driver.md)
+  - native
+    - conflicting length specifications in SQL\*Loader [10.4.3.10](oracle-sql-loader-field-list-contents.md)
+  - NCLOBs
+    - loading with SQL\*Loader [11.4](loading-objects-oracle-sql-loader.md)
+  - nonscalar [11.1.5](loading-objects-oracle-sql-loader.md)
+  - specifying in SQL\*Loader [10.3.2](oracle-sql-loader-field-list-contents.md)
+  - supported by the LogMiner utility [23.14.1](oracle-logminer-utility.md)
+  - types used by SQL\*Loader [10.4](oracle-sql-loader-field-list-contents.md)
+  - unsupported by LogMiner utility [23.14.2](oracle-logminer-utility.md)
+- DATE_CACHE parameter
+  - SQL\*Loader utility [8.2.6](oracle-sql-loader-commands.md)
+- DATE_FORMAT parameter
+  - SQL\*Loader express mode [13.3.5](oracle-sql-loader-express-mode.md)
+- date cache feature
+  - DATE_CACHE parameter [8.2.6](oracle-sql-loader-commands.md)
+  - external tables [15.7](oracle_loader-access-driver.md)
+  - SQL\*Loader [12.6.7](oracle-sql-loader-conventional-and-direct-loads.md)
+- DATE data type
+  - delimited form and SQL\*Loader [10.4.6](oracle-sql-loader-field-list-contents.md)
+  - determining length [10.4.8.3](oracle-sql-loader-field-list-contents.md)
+  - mask
+    - SQL\*Loader [10.4.8.3](oracle-sql-loader-field-list-contents.md)
+- DBID (database identifier)
+  - changing [22.5.1](oracle-dbnewid-utility.md)
+- DBMS_LOGMNR_D.ADD_LOGFILES PL/SQL procedure
+  - LogMiner utility and [23.2.2](oracle-logminer-utility.md)
+- DBMS_LOGMNR_D.BUILD PL/SQL procedure
+  - LogMiner utility and [23.2.2](oracle-logminer-utility.md)
+- DBMS_LOGMNR_D.END_LOGMNR PL/SQL procedure
+  - LogMiner utility and [23.2.2](oracle-logminer-utility.md)
+- DBMS_LOGMNR_D PL/SQL procedure
+  - LogMiner utility and [23.2.2](oracle-logminer-utility.md)
+- DBMS_LOGMNR.COLUMN_PRESENT function [23.6.2](oracle-logminer-utility.md)
+- DBMS_LOGMNR.MINE_VALUE function [23.6.2](oracle-logminer-utility.md)
+  - null values and [23.6.2.1](oracle-logminer-utility.md)
+- DBMS_LOGMNR.START_LOGMNR PL/SQL procedure [23.5](oracle-logminer-utility.md)
+  - calling multiple times [23.9](oracle-logminer-utility.md)
+  - COMMITTED_DATA_ONLY option [23.7.1](oracle-logminer-utility.md)
+  - LogMiner utility and [23.2.2](oracle-logminer-utility.md)
+  - options for [23.5](oracle-logminer-utility.md)
+  - PRINT_PRETTY_SQL option [23.7.6](oracle-logminer-utility.md)
+  - SKIP_CORRUPTION option [23.7.2](oracle-logminer-utility.md)
+- DBMS_LOGMNR.START_LOGMNR procedure
+  - ENDTIME parameter [23.7.3](oracle-logminer-utility.md)
+  - STARTTIME parameter [23.7.3](oracle-logminer-utility.md)
+- DBMS_LOGMNR PL/SQL procedure
+  - LogMiner utility and [23.2.2](oracle-logminer-utility.md)
+- DBMS_METADATA PL/SQL package [24.3.1](using-oracle-dbms_metadata-api.md)
+- DBNAME
+  - changing [22.5.3](oracle-dbnewid-utility.md)
+- DBNEWID utility [22](oracle-dbnewid-utility.md)
+  - changing a database ID [22.5.1](oracle-dbnewid-utility.md)
+  - changing a database name [22.5.3](oracle-dbnewid-utility.md)
+  - effect on global database names [22.3](oracle-dbnewid-utility.md)
+  - restrictions [22.6.2](oracle-dbnewid-utility.md)
+  - syntax [22.6](oracle-dbnewid-utility.md)
+  - troubleshooting a database ID change [22.5.4](oracle-dbnewid-utility.md)
+- DBVERIFY utility
+  - output [21.1.3](oracle-dbverify-utility.md)
+  - restrictions [21](oracle-dbverify-utility.md)
+  - syntax [21.1.1](oracle-dbverify-utility.md)
+  - validating a segment [21.2](oracle-dbverify-utility.md)
+  - validating disk blocks [21.1](oracle-dbverify-utility.md)
+- DEFAULTIF parameter
+  - SQL\*Loader [10.5](oracle-sql-loader-field-list-contents.md)
+- default schema
+  - as determined by SQL\*Loader [9.18.1.1](oracle-sql-loader-control-file-contents.md)
+- DEGREE_OF_PARALLELISM parameter
+  - SQL\*Loader command line [8.2.8](oracle-sql-loader-commands.md)
+  - SQL\*Loader express mode [13.3.6](oracle-sql-loader-express-mode.md)
+- DELETE ANY TABLE privilege
+  - SQL\*Loader [9.18.2.2.4](oracle-sql-loader-control-file-contents.md)
+- DELETE CASCADE
+  - effect on loading nonempty tables [9.18.2.2.2](oracle-sql-loader-control-file-contents.md)
+  - SQL\*Loader [9.18.2.2.4](oracle-sql-loader-control-file-contents.md)
+- DELETE privilege
+  - SQL\*Loader [9.18.2.2.2](oracle-sql-loader-control-file-contents.md)
+- delimited data
+  - maximum length for SQL\*Loader [10.4.6.3](oracle-sql-loader-field-list-contents.md)
+- delimited fields
+  - field length [10.4.8.2](oracle-sql-loader-field-list-contents.md)
+- delimited LOBs [11.4.2.2.3](loading-objects-oracle-sql-loader.md)
+- delimiters
+  - in external tables [15.3.4](oracle_loader-access-driver.md)
+  - loading trailing blanks [10.4.6.4](oracle-sql-loader-field-list-contents.md)
+  - marks in data and SQL\*Loader [10.4.6.2](oracle-sql-loader-field-list-contents.md)
+  - specifying for external tables [15.4.1](oracle_loader-access-driver.md)
+  - specifying for SQL\*Loader [9.18.5](oracle-sql-loader-control-file-contents.md), [10.4.6](oracle-sql-loader-field-list-contents.md)
+  - SQL\*Loader enclosure [10.11.2.2](oracle-sql-loader-field-list-contents.md)
+  - SQL\*Loader field specifications [10.11.2.2](oracle-sql-loader-field-list-contents.md)
+  - termination [10.11.2.2](oracle-sql-loader-field-list-contents.md)
+- DESTROY parameter
+  - Import utility [26.7.7](oracle-original-import-utility.md)
+- dictionary
+  - requirements for LogMiner utility [23.2.1.3](oracle-logminer-utility.md)
+- dictionary version mismatch [23.10.4](oracle-logminer-utility.md)
+- Direct NFS Client
+  - using with external tables [15.3.28](oracle_loader-access-driver.md)
+- directory aliases
+  - exporting [25.14.5](oracle-original-export-utility.md)
+  - importing [26.16.5](oracle-original-import-utility.md)
+- directory objects
+  - using with Data Pump
+    - effect of Oracle ASM [1.9.3.3](oracle-data-pump-overview.md)
+- DIRECTORY parameter
+  - Data Pump Export utility [2.4.10](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.9](datapump-import-utility.md)
+- DIRECT parameter
+  - Export utility [25.5.5](oracle-original-export-utility.md)
+  - SQL\*Loader command-line [8.2.9](oracle-sql-loader-commands.md)
+  - SQL\*Loader express mode [13.3.7](oracle-sql-loader-express-mode.md)
+- direct path Export [25.9](oracle-original-export-utility.md), [25.10](oracle-original-export-utility.md)
+  - compared to conventional path [25.9](oracle-original-export-utility.md)
+  - effect of EXEMPT ACCESS POLICY privilege [25.10.1](oracle-original-export-utility.md)
+  - performance issues [25.10.2](oracle-original-export-utility.md)
+  - restrictions [25.10.3](oracle-original-export-utility.md)
+  - security considerations [25.10.1](oracle-original-export-utility.md)
+- direct path load
+  - advantages [12.4.5](oracle-sql-loader-conventional-and-direct-loads.md)
+  - behavior when discontinued [9.16.2](oracle-sql-loader-control-file-contents.md)
+  - choosing sort order
+    - SQL\*Loader [12.6.3.5](oracle-sql-loader-conventional-and-direct-loads.md)
+  - compared to conventional path load [12.4.8](oracle-sql-loader-conventional-and-direct-loads.md)
+  - concurrent [12.10.4](oracle-sql-loader-conventional-and-direct-loads.md)
+  - conditions for use [12.4.6](oracle-sql-loader-conventional-and-direct-loads.md)
+  - data saves [12.5.5.1](oracle-sql-loader-conventional-and-direct-loads.md), [12.6.4](oracle-sql-loader-conventional-and-direct-loads.md)
+  - dropping indexes [12.8](oracle-sql-loader-conventional-and-direct-loads.md)
+  - effect of disabling archiving [12.6.5](oracle-sql-loader-conventional-and-direct-loads.md)
+  - effect of PRIMARY KEY constraints [12.10.9](oracle-sql-loader-conventional-and-direct-loads.md)
+  - effect of UNIQUE KEY constraints [12.10.9](oracle-sql-loader-conventional-and-direct-loads.md)
+  - field defaults [12.4.10](oracle-sql-loader-conventional-and-direct-loads.md)
+  - improper sorting
+    - SQL\*Loader [12.6.3.3](oracle-sql-loader-conventional-and-direct-loads.md)
+  - indexes [12.5.3](oracle-sql-loader-conventional-and-direct-loads.md)
+  - instance recovery [12.5.6](oracle-sql-loader-conventional-and-direct-loads.md)
+  - intersegment concurrency [12.10.4](oracle-sql-loader-conventional-and-direct-loads.md)
+  - intrasegment concurrency [12.10.4](oracle-sql-loader-conventional-and-direct-loads.md)
+  - location of data conversion [12.4.2](oracle-sql-loader-conventional-and-direct-loads.md)
+  - media recovery [12.5.6.1](oracle-sql-loader-conventional-and-direct-loads.md)
+  - optimizing on multiple-CPU systems [12.7](oracle-sql-loader-conventional-and-direct-loads.md)
+  - partitioned load
+    - SQL\*Loader [12.9.4](oracle-sql-loader-conventional-and-direct-loads.md)
+  - performance [12.5.3](oracle-sql-loader-conventional-and-direct-loads.md), [12.6.1](oracle-sql-loader-conventional-and-direct-loads.md)
+  - preallocating storage [12.6.2](oracle-sql-loader-conventional-and-direct-loads.md)
+  - presorting data [12.6.3](oracle-sql-loader-conventional-and-direct-loads.md)
+  - recovery [12.5.6](oracle-sql-loader-conventional-and-direct-loads.md)
+  - ROWS command-line parameter [12.5.5.2](oracle-sql-loader-conventional-and-direct-loads.md)
+  - setting up [12.5.1](oracle-sql-loader-conventional-and-direct-loads.md)
+  - specifying [12.5.2](oracle-sql-loader-conventional-and-direct-loads.md)
+  - specifying number of rows to be read [8.2.31](oracle-sql-loader-commands.md)
+  - SQL\*Loader data loading method [7.9.2](oracle-sql-loader-concepts.md)
+  - table insert triggers [12.9.2](oracle-sql-loader-conventional-and-direct-loads.md)
+  - temporary segment storage requirements [12.5.3.2](oracle-sql-loader-conventional-and-direct-loads.md)
+  - triggers [12.9](oracle-sql-loader-conventional-and-direct-loads.md)
+  - using [12.4.8](oracle-sql-loader-conventional-and-direct-loads.md), [12.5](oracle-sql-loader-conventional-and-direct-loads.md)
+  - version requirements [12.4.6](oracle-sql-loader-conventional-and-direct-loads.md)
+- disabled unique indexes
+  - loading tables with [1.2](oracle-data-pump-overview.md)
+- discarded SQL\*Loader records [7.7](oracle-sql-loader-concepts.md)
+  - causes [9.12.5](oracle-sql-loader-control-file-contents.md)
+  - discard file [9.12.1](oracle-sql-loader-control-file-contents.md)
+  - limiting [9.12.3](oracle-sql-loader-control-file-contents.md)
+- discard files
+  - SQL\*Loader [9.12.1](oracle-sql-loader-control-file-contents.md)
+    - specifying a maximum [9.12.7](oracle-sql-loader-control-file-contents.md)
+- DISCARDMAX parameter
+  - SQL\*Loader command-line [8.2.12](oracle-sql-loader-commands.md)
+- DISCARD parameter
+  - SQL\*Loader command-line [8.2.11](oracle-sql-loader-commands.md)
+- discontinued loads [9.16](oracle-sql-loader-control-file-contents.md)
+  - continuing [9.16.5](oracle-sql-loader-control-file-contents.md)
+  - conventional path behavior [9.16.1](oracle-sql-loader-control-file-contents.md)
+  - direct path behavior [9.16.2](oracle-sql-loader-control-file-contents.md)
+- DNFS_ENABLE parameter
+  - SQL\*Loader command-line [8.2.13](oracle-sql-loader-commands.md)
+  - SQL\*Loader express mode [13.3.8](oracle-sql-loader-express-mode.md)
+- DNFS_READBUFFERS parameter
+  - record_format_info clause [15.3.29](oracle_loader-access-driver.md)
+  - SQL\*Loader command-line [8.2.14](oracle-sql-loader-commands.md)
+  - SQL\*Loader express mode [13.3.9](oracle-sql-loader-express-mode.md)
+- DOUBLE
+  - Floating-Point Numbers [15.4.6.6](oracle_loader-access-driver.md)
+- DOUBLE nonportable data type
+  - SQL\*Loader data type [10.4.2.6](oracle-sql-loader-field-list-contents.md)
+- dropped snapshots
+  - Import [26.18.2.1](oracle-original-import-utility.md)
+- DUMPFILE parameter
+  - Data Pump Export utility [2.4.11](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.10](datapump-import-utility.md)
+- dump files
+  - maximum size [25.5.8](oracle-original-export-utility.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- EBCDIC character set
+  - Import [25.12.3](oracle-original-export-utility.md), [26.14.3](oracle-original-import-utility.md)
+- ECHO command, ADRCI utility [20.9.2](oracle-adr-command-interpreter-adrci.md)
+- eight-bit character set support [25.12.3](oracle-original-export-utility.md), [26.14.3](oracle-original-import-utility.md)
+- ENCLOSED_BY parameter
+  - SQL\*Loader express mode [13.3.10](oracle-sql-loader-express-mode.md)
+- enclosed fields
+  - whitespace [10.11.6](oracle-sql-loader-field-list-contents.md)
+- enclosure delimiters [10.4.6](oracle-sql-loader-field-list-contents.md)
+  - SQL\*Loader [10.11.2.2](oracle-sql-loader-field-list-contents.md)
+- encrypted columns
+  - in external tables [16.2.7](oracle_datapump-access-driver.md)
+- ENCRYPTION_ALGORITHM parameter
+  - Data Pump Export utility [2.4.14](oracle-data-pump-export-utility.md)
+- ENCRYPTION_MODE parameter
+  - Data Pump Export utility [2.4.15](oracle-data-pump-export-utility.md)
+- ENCRYPTION_PASSWORD parameter
+  - Data Pump Export utility [2.4.16](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.12](datapump-import-utility.md)
+- ENCRYPTION_PWD_PROMPT parameter
+  - Data Pump Export utility [2.4.17](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.13](datapump-import-utility.md)
+- ENCRYPTION parameter
+  - Data Pump Export utility [2.4.13](oracle-data-pump-export-utility.md)
+- encryption password
+  - Data Pump export [2.4.17](oracle-data-pump-export-utility.md)
+  - Data Pump Import [3.4.13](datapump-import-utility.md)
+- end parameter
+  - field_definitions Clause [15.4.5.5](oracle_loader-access-driver.md)
+  - pos_spec Clause [15.4.5.5](oracle_loader-access-driver.md)
+- errors
+  - caused by tab characters in SQL\*Loader data [10.2.1](oracle-sql-loader-field-list-contents.md)
+  - LONG data [26.10.1.2](oracle-original-import-utility.md)
+  - object creation [26.10.2.1](oracle-original-import-utility.md)
+    - Import parameter IGNORE [26.7.15](oracle-original-import-utility.md)
+  - resource errors on import [26.10.2.3](oracle-original-import-utility.md)
+  - writing to export log file [25.5.15](oracle-original-export-utility.md)
+- ERRORS parameter
+  - SQL\*Loader command line [8.2.16](oracle-sql-loader-commands.md)
+- escape character
+  - quoted strings and [9.4.3.2](oracle-sql-loader-control-file-contents.md)
+  - usage in Data Pump Export [2.4.1](oracle-data-pump-export-utility.md)
+  - usage in Data Pump Import [3.4](datapump-import-utility.md)
+  - usage in Export [25.5.26](oracle-original-export-utility.md), [25.5.26.1](oracle-original-export-utility.md)
+  - usage in Import [26.7.30](oracle-original-import-utility.md)
+- ESTIMATE_ONLY parameter
+  - Data Pump Export utility [2.4.19](oracle-data-pump-export-utility.md)
+- ESTIMATE parameter
+  - Data Pump Export utility [2.4.18](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.14](datapump-import-utility.md)
+- estimating size of job
+  - Data Pump Export utility [2.4.18](oracle-data-pump-export-utility.md)
+- EVALUATE CHECK_CONSTRAINTS clause [12.9.1.2](oracle-sql-loader-conventional-and-direct-loads.md)
+- EXCLUDE parameter
+  - Data Pump Export utility [2.4.20](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.15](datapump-import-utility.md)
+- existing object tables
+  - importing [26.16.2](oracle-original-import-utility.md)
+- EXIT_CLIENT parameter
+  - Data Pump Export utility
+    - interactive-command mode [2.5.4](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility
+    - interactive-command mode [3.5.3](datapump-import-utility.md)
+- exit codes
+  - Export and Import [25.8](oracle-original-export-utility.md), [26.9](oracle-original-import-utility.md)
+  - SQL\*Loader [1.12](oracle-data-pump-overview.md), [8.3](oracle-sql-loader-commands.md)
+- EXIT command, ADRCI utility [20.9.3](oracle-adr-command-interpreter-adrci.md)
+- EXP_FULL_DATABASE role
+  - assigning in Export [25.2.2](oracle-original-export-utility.md), [26.2.1](oracle-original-import-utility.md)
+- expdat.dmp
+  - Export output file [25.5.7](oracle-original-export-utility.md)
+- Export
+  - BUFFER parameter [25.5.1](oracle-original-export-utility.md)
+  - character set conversion [25.12.1](oracle-original-export-utility.md), [26.14.1](oracle-original-import-utility.md)
+  - COMPRESS parameter [25.5.2](oracle-original-export-utility.md)
+  - CONSISTENT parameter [25.5.3](oracle-original-export-utility.md)
+  - CONSTRAINTS parameter [25.5.4](oracle-original-export-utility.md)
+  - conventional path [25.9](oracle-original-export-utility.md)
+  - creating
+    - necessary privileges [25.2.2](oracle-original-export-utility.md), [26.2.1](oracle-original-import-utility.md)
+    - necessary views [25.2.2](oracle-original-export-utility.md), [26.2.1](oracle-original-import-utility.md)
+  - DIRECT parameter [25.5.5](oracle-original-export-utility.md)
+  - direct path [25.9](oracle-original-export-utility.md)
+  - displaying online help [25.5.13](oracle-original-export-utility.md)
+  - example sessions [25.6](oracle-original-export-utility.md)
+    - full database mode [25.6.1](oracle-original-export-utility.md)
+    - partition-level [25.6.4](oracle-original-export-utility.md)
+    - table mode [25.6.3](oracle-original-export-utility.md)
+    - user mode [25.5.17](oracle-original-export-utility.md), [25.6.2](oracle-original-export-utility.md)
+  - exit codes [25.8](oracle-original-export-utility.md), [26.9](oracle-original-import-utility.md)
+  - exporting an entire database [25.5.11](oracle-original-export-utility.md)
+  - exporting indexes [25.5.14](oracle-original-export-utility.md)
+  - exporting sequence numbers [25.14.1](oracle-original-export-utility.md)
+  - exporting synonyms [25.14.11](oracle-original-export-utility.md)
+  - exporting to another operating system [25.5.20](oracle-original-export-utility.md), [26.7.20](oracle-original-import-utility.md)
+  - FEEDBACK parameter [25.5.6](oracle-original-export-utility.md)
+  - FILE parameter [25.5.7](oracle-original-export-utility.md)
+  - FILESIZE parameter [25.5.8](oracle-original-export-utility.md)
+  - FLASHBACK_SCN parameter [25.5.9](oracle-original-export-utility.md)
+  - FLASHBACK_TIME parameter [25.5.10](oracle-original-export-utility.md)
+  - full database mode
+    - example [25.6.1](oracle-original-export-utility.md)
+  - FULL parameter [25.5.11](oracle-original-export-utility.md)
+  - GRANTS parameter [25.5.12](oracle-original-export-utility.md)
+  - HELP parameter [25.5.13](oracle-original-export-utility.md)
+  - INDEXES parameter [25.5.14](oracle-original-export-utility.md)
+  - invoking [25.3](oracle-original-export-utility.md), [26.5](oracle-original-import-utility.md)
+  - log files
+    - specifying [25.5.15](oracle-original-export-utility.md)
+  - logging error messages [25.5.15](oracle-original-export-utility.md)
+  - LOG parameter [25.5.15](oracle-original-export-utility.md)
+  - LONG columns [25.14.2](oracle-original-export-utility.md)
+  - OBJECT_CONSISTENT parameter [25.5.16](oracle-original-export-utility.md)
+  - online help [25.3.5](oracle-original-export-utility.md)
+  - OWNER parameter [25.5.17](oracle-original-export-utility.md)
+  - parameter file [25.5.18](oracle-original-export-utility.md)
+    - maximum size [25.3.3](oracle-original-export-utility.md), [26.5.2](oracle-original-import-utility.md)
+  - parameter syntax [25.5](oracle-original-export-utility.md)
+  - PARFILE parameter [25.5.18](oracle-original-export-utility.md)
+  - partitioning a database migration [25.17](oracle-original-export-utility.md), [26.25](oracle-original-import-utility.md)
+  - QUERY parameter [25.5.19](oracle-original-export-utility.md)
+  - RECORDLENGTH parameter [25.5.20](oracle-original-export-utility.md)
+  - redirecting output to a log file [25.7.1](oracle-original-export-utility.md)
+  - remote operation [25.11.2](oracle-original-export-utility.md), [26.13](oracle-original-import-utility.md)
+  - restrictions based on privileges [25.2.4](oracle-original-export-utility.md)
+  - RESUMABLE_NAME parameter [25.5.22](oracle-original-export-utility.md)
+  - RESUMABLE_TIMEOUT parameter [25.5.23](oracle-original-export-utility.md)
+  - RESUMABLE parameter [25.5.21](oracle-original-export-utility.md)
+  - ROWS parameter [25.5.24](oracle-original-export-utility.md)
+  - sequence numbers [25.14.1](oracle-original-export-utility.md)
+  - storage requirements [25.2.3](oracle-original-export-utility.md)
+  - table mode
+    - example session [25.6.3](oracle-original-export-utility.md)
+  - table name restrictions [25.5.26](oracle-original-export-utility.md), [25.5.26.1](oracle-original-export-utility.md)
+  - TABLESPACES parameter [25.5.27](oracle-original-export-utility.md)
+  - TABLES parameter [25.5.26](oracle-original-export-utility.md)
+  - TRANSPORT_TABLESPACE parameter [25.5.28](oracle-original-export-utility.md)
+  - TRIGGERS parameter [25.5.29](oracle-original-export-utility.md)
+  - TTS_FULL_CHECK parameter [25.5.30](oracle-original-export-utility.md)
+  - user access privileges [25.2.4](oracle-original-export-utility.md), [26.2.2](oracle-original-import-utility.md)
+  - USERID parameter [25.5.31](oracle-original-export-utility.md)
+  - user mode
+    - example session [25.5.17](oracle-original-export-utility.md), [25.6.2](oracle-original-export-utility.md)
+    - specifying [25.5.17](oracle-original-export-utility.md)
+  - VOLSIZE parameter [25.5.32](oracle-original-export-utility.md)
+- export dump file
+  - importing the entire file [26.7.12](oracle-original-import-utility.md)
+- export file
+  - listing contents before importing [26.7.25](oracle-original-import-utility.md)
+  - specifying [25.5.7](oracle-original-export-utility.md)
+- exporting
+  - archived LOBs [2.4.51](oracle-data-pump-export-utility.md)
+- EXPRESSION parameter
+  - SQL\*Loader [10.15.3](oracle-sql-loader-field-list-contents.md), [10.15.3.1](oracle-sql-loader-field-list-contents.md)
+- extents
+  - consolidating [25.5.2](oracle-original-export-utility.md)
+- EXTERNAL_TABLE parameter
+  - SQL\*Loader command line [8.2.17](oracle-sql-loader-commands.md)
+  - SQL\*Loader express mode [13.3.11](oracle-sql-loader-express-mode.md)
+- EXTERNAL parameter
+  - SQL\*Loader [10.4.3.6](oracle-sql-loader-field-list-contents.md)
+- EXTERNAL SQL\*Loader data types
+  - numeric
+    - determining len [10.4.8](oracle-sql-loader-field-list-contents.md)
+- external tables [14](oracle-external-tables-concepts.md)
+  - access parameters [14.6](oracle-external-tables-concepts.md), [15.2](oracle_loader-access-driver.md), [16.2](oracle_datapump-access-driver.md)
+  - and encrypted columns [16.2.7](oracle_datapump-access-driver.md)
+  - big-endian data [15.3.11](oracle_loader-access-driver.md)
+  - cacheing data during reads [15.3.27](oracle_loader-access-driver.md)
+  - column_transforms clause [15.2](oracle_loader-access-driver.md)
+  - data types [15.4.6.1](oracle_loader-access-driver.md)
+  - date cache feature [15.7](oracle_loader-access-driver.md)
+  - delimiters [15.3.4](oracle_loader-access-driver.md)
+  - describing data type of a field [15.4.6.1](oracle_loader-access-driver.md)
+  - field_definitions clause [15.2](oracle_loader-access-driver.md), [15.4](oracle_loader-access-driver.md)
+  - fixed-length records [15.3.2](oracle_loader-access-driver.md)
+  - identifying character sets [15.3.6](oracle_loader-access-driver.md)
+  - identifying data types [15.4.4](oracle_loader-access-driver.md)
+  - improving performance when using
+    - date cache feature [15.7](oracle_loader-access-driver.md)
+  - IO_OPTIONS clause [15.3.27](oracle_loader-access-driver.md)
+  - little-endian data [15.3.11](oracle_loader-access-driver.md)
+  - opaque_format_spec [14.6](oracle-external-tables-concepts.md), [15.2](oracle_loader-access-driver.md), [16.2](oracle_datapump-access-driver.md)
+  - preprocessing data [15.3.8](oracle_loader-access-driver.md)
+  - record_format_info clause [15.2](oracle_loader-access-driver.md), [15.3.1](oracle_loader-access-driver.md)
+  - reserved words [15.8](oracle_loader-access-driver.md), [16.7](oracle_datapump-access-driver.md)
+  - restrictions [15.8](oracle_loader-access-driver.md)
+  - setting a field to a default value [15.4.7](oracle_loader-access-driver.md)
+  - setting a field to null [15.4.7](oracle_loader-access-driver.md)
+  - skipping records when loading data [15.3.18](oracle_loader-access-driver.md)
+  - specifying compression level [16.2.2](oracle_datapump-access-driver.md)
+  - specifying delimiters [15.4.1](oracle_loader-access-driver.md)
+  - specifying load conditions [15.3.14](oracle_loader-access-driver.md)
+  - trimming blanks [8.2.38](oracle-sql-loader-commands.md), [13.3.21](oracle-sql-loader-express-mode.md), [15.4.2](oracle_loader-access-driver.md)
+  - use of SQL strings [15.8](oracle_loader-access-driver.md)
+  - using comments [15.2](oracle_loader-access-driver.md), [16.2.1](oracle_datapump-access-driver.md)
+  - variable-length records [15.3.3](oracle_loader-access-driver.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- fatal errors
+  - See: nonrecoverable error messages
+- FEEDBACK parameter
+  - Export utility [25.5.6](oracle-original-export-utility.md)
+  - Import utility [26.7.8](oracle-original-import-utility.md)
+- field_definitions clause
+  - FLOAT \[EXTERNAL\] [15.4.6.8](oracle_loader-access-driver.md)
+- FIELD_NAMES parameter
+  - SQL\*Loader express mode [13.3.12](oracle-sql-loader-express-mode.md)
+- field conditions
+  - specifying for SQL\*Loader [10.5](oracle-sql-loader-field-list-contents.md)
+- field length
+  - SQL\*Loader specifications [10.11.2](oracle-sql-loader-field-list-contents.md)
+- Field lengths for Length-Value portable data types
+  - SQL\*Loader data type [10.4.3.11](oracle-sql-loader-field-list-contents.md)
+- field location
+  - SQL\*Loader [10.2](oracle-sql-loader-field-list-contents.md)
+- fields
+  - comparing to literals with SQL\*Loader [10.5.3](oracle-sql-loader-field-list-contents.md)
+  - delimited
+    - determining length [10.4.8.2](oracle-sql-loader-field-list-contents.md)
+    - SQL\*Loader [10.4.6](oracle-sql-loader-field-list-contents.md)
+  - loading all blanks [10.10](oracle-sql-loader-field-list-contents.md)
+  - predetermined size
+    - length [10.4.8.1](oracle-sql-loader-field-list-contents.md)
+    - SQL\*Loader [10.11.2.1](oracle-sql-loader-field-list-contents.md)
+  - relative positioning and SQL\*Loader [10.11.3](oracle-sql-loader-field-list-contents.md)
+  - specifying default delimiters for SQL\*Loader [9.18.5](oracle-sql-loader-control-file-contents.md)
+  - specifying for SQL\*Loader [10.3](oracle-sql-loader-field-list-contents.md)
+  - SQL\*Loader delimited
+    - specifications [10.11.2.2](oracle-sql-loader-field-list-contents.md)
+- FIELDS clause
+  - SQL\*Loader [9.18.5](oracle-sql-loader-control-file-contents.md)
+- file allocation in Data Pump
+  - adding dump files [1.9.2](oracle-data-pump-overview.md)
+  - default file locations [1.9.3.1](oracle-data-pump-overview.md)
+  - NFS errors [1.9](oracle-data-pump-overview.md)
+- file names
+  - quotation marks and [9.4.3.1](oracle-sql-loader-control-file-contents.md)
+  - specifying multiple SQL\*Loader [9.7.3](oracle-sql-loader-control-file-contents.md)
+  - SQL\*Loader [9.4](oracle-sql-loader-control-file-contents.md)
+  - SQL\*Loader bad file [9.11.1](oracle-sql-loader-control-file-contents.md)
+- FILE parameter
+  - Export utility [25.5.7](oracle-original-export-utility.md)
+  - Import utility [26.7.9](oracle-original-import-utility.md)
+  - SQL\*Loader command line [8.2.18](oracle-sql-loader-commands.md)
+  - SQL\*Loader utility [12.10.7.1](oracle-sql-loader-conventional-and-direct-loads.md)
+- FILESIZE parameter
+  - Data Pump Export utility [2.4.21](oracle-data-pump-export-utility.md)
+  - Export utility [25.5.8](oracle-original-export-utility.md)
+  - Import utility [26.7.10](oracle-original-import-utility.md)
+- FILLER field
+  - using as argument to init_spec [10.3.1](oracle-sql-loader-field-list-contents.md)
+- filtering data
+  - using Data Pump Export utility [2.1](oracle-data-pump-export-utility.md)
+  - using Data Pump Import utility [3.1](datapump-import-utility.md)
+- filtering metadata that is imported
+  - Data Pump Import utility [3.4.15](datapump-import-utility.md)
+- finalizing
+  - in ADRCI utility [20.2](oracle-adr-command-interpreter-adrci.md)
+- fine-grained access support
+  - Export and Import [26.17](oracle-original-import-utility.md)
+- fixed-format records [7.4.1](oracle-sql-loader-concepts.md)
+- fixed-length records
+  - external tables [15.3.2](oracle_loader-access-driver.md)
+- FLASHBACK_SCN parameter
+  - Data Pump Export utility [2.4.22](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.16](datapump-import-utility.md)
+  - Export utility [25.5.9](oracle-original-export-utility.md)
+- FLASHBACK_TIME parameter
+  - Data Pump Export utility [2.4.23](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.17](datapump-import-utility.md)
+  - Export utility [25.5.10](oracle-original-export-utility.md)
+- FLOAT
+  - Floating-Point Numbers [15.4.6.6](oracle_loader-access-driver.md)
+- FLOAT \[EXTERNAL\] parameter
+  - datatype_spec clause [15.4.6.8](oracle_loader-access-driver.md)
+- Floating-Point Numbers
+  - datatype_spec clause [15.4.6.6](oracle_loader-access-driver.md)
+- foreign function libraries
+  - exporting [25.14.3](oracle-original-export-utility.md)
+  - importing [26.16.6](oracle-original-import-utility.md), [26.16.9](oracle-original-import-utility.md)
+- formats
+  - SQL\*Loader input records and [9.20.2](oracle-sql-loader-control-file-contents.md)
+- formatting errors
+  - SQL\*Loader [9.11.1](oracle-sql-loader-control-file-contents.md)
+- FROMUSER parameter
+  - Import utility [26.7.11](oracle-original-import-utility.md)
+- full database mode
+  - Import [26.7.12](oracle-original-import-utility.md)
+  - specifying with FULL [25.5.11](oracle-original-export-utility.md)
+- full export mode
+  - Data Pump Export utility [2.2.2.1](oracle-data-pump-export-utility.md)
+- FULL parameter
+  - Data Pump Export utility [2.4.24](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.18](datapump-import-utility.md)
+  - Export utility [25.5.11](oracle-original-export-utility.md)
+  - Import utility [26.7.12](oracle-original-import-utility.md)
+- full transportable export [2.2.2.1](oracle-data-pump-export-utility.md)
+- full transportable import [3.2.2.2](datapump-import-utility.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- globalization
+  - SQL\*Loader [9.15](oracle-sql-loader-control-file-contents.md)
+- GoldenGate Replication environment in Data Pump
+  - setting buffer cache size [5.3.1](oracle-data-pump-performance-tips.md)
+- grants
+  - exporting [25.5.12](oracle-original-export-utility.md)
+  - importing [26.7.13](oracle-original-import-utility.md)
+- GRANTS parameter
+  - Export utility [25.5.12](oracle-original-export-utility.md)
+  - Import utility [26.7.13](oracle-original-import-utility.md)
+- GRAPHIC [10.4.3.4](oracle-sql-loader-field-list-contents.md)
+- GRAPHIC data type [10.4.3.4](oracle-sql-loader-field-list-contents.md)
+
+------------------------------------------------------------------------
+
+## H
+
+- HELP parameter
+  - Data Pump Export utility
+    - command-line mode [2.4.25](oracle-data-pump-export-utility.md)
+    - interactive-command mode [2.5.6](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility
+    - command-line mode [3.4.19](datapump-import-utility.md)
+    - interactive-command mode [3.5.4](datapump-import-utility.md)
+  - Export utility [25.5.13](oracle-original-export-utility.md)
+  - Import utility [26.7.14](oracle-original-import-utility.md)
+- hexadecimal strings
+  - SQL\*Loader [10.5.3](oracle-sql-loader-field-list-contents.md)
+- homepath
+  - in ADRCI utility [20.2](oracle-adr-command-interpreter-adrci.md)
+- HOST command, ADRCI utility [20.9.4](oracle-adr-command-interpreter-adrci.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- IGNORE parameter
+  - Import utility [26.7.15](oracle-original-import-utility.md)
+- IMP_FULL_DATABASE role
+  - assigning in Import [25.2.2](oracle-original-export-utility.md), [26.2.1](oracle-original-import-utility.md)
+- Import
+  - BUFFER parameter [26.7.1](oracle-original-import-utility.md)
+  - character set conversion [25.12.1](oracle-original-export-utility.md), [26.14.1](oracle-original-import-utility.md), [25.12.3](oracle-original-export-utility.md), [26.14.3](oracle-original-import-utility.md)
+  - COMMIT parameter [26.7.2](oracle-original-import-utility.md)
+  - committing after array insert [26.7.2](oracle-original-import-utility.md)
+  - COMPILE parameter [26.7.3](oracle-original-import-utility.md)
+  - CONSTRAINTS parameter [26.7.4](oracle-original-import-utility.md)
+  - creating
+    - necessary privileges [25.2.2](oracle-original-export-utility.md), [26.2.1](oracle-original-import-utility.md)
+    - necessary views [25.2.2](oracle-original-export-utility.md), [26.2.1](oracle-original-import-utility.md)
+  - creating an index-creation SQL script [26.7.17](oracle-original-import-utility.md)
+  - database optimizer statistics [26.7.27](oracle-original-import-utility.md)
+  - DATAFILES parameter [26.7.6](oracle-original-import-utility.md)
+  - DESTROY parameter [26.7.7](oracle-original-import-utility.md)
+  - disabling referential constraints [26.3.2](oracle-original-import-utility.md)
+  - displaying online help [26.7.14](oracle-original-import-utility.md)
+  - dropping a tablespace [26.22](oracle-original-import-utility.md)
+  - errors importing database objects [26.10.2](oracle-original-import-utility.md)
+  - example sessions [26.8](oracle-original-import-utility.md)
+    - all tables from one user to another [26.8.3](oracle-original-import-utility.md)
+    - selected tables for specific user [26.8.1](oracle-original-import-utility.md)
+    - tables exported by another user [26.8.2](oracle-original-import-utility.md)
+    - using partition-level Import [26.8.4](oracle-original-import-utility.md)
+  - exit codes [25.8](oracle-original-export-utility.md), [26.9](oracle-original-import-utility.md)
+  - export file
+    - importing the entire file [26.7.12](oracle-original-import-utility.md)
+    - listing contents before import [26.7.25](oracle-original-import-utility.md)
+  - FEEDBACK parameter [26.7.8](oracle-original-import-utility.md)
+  - FILE parameter [26.7.9](oracle-original-import-utility.md)
+  - FILESIZE parameter [26.7.10](oracle-original-import-utility.md)
+  - FROMUSER parameter [26.7.11](oracle-original-import-utility.md)
+  - FULL parameter [26.7.12](oracle-original-import-utility.md)
+  - grants
+    - specifying for import [26.7.13](oracle-original-import-utility.md)
+  - GRANTS parameter [26.7.13](oracle-original-import-utility.md)
+  - HELP parameter [26.7.14](oracle-original-import-utility.md)
+  - IGNORE parameter [26.7.15](oracle-original-import-utility.md)
+  - importing grants [26.7.13](oracle-original-import-utility.md)
+  - importing objects into other schemas [26.2.2.3](oracle-original-import-utility.md)
+  - importing tables [26.7.30](oracle-original-import-utility.md)
+  - INDEXFILE parameter [26.7.17](oracle-original-import-utility.md)
+  - INSERT errors [26.10.1.2](oracle-original-import-utility.md)
+  - invalid data [26.10.1.2](oracle-original-import-utility.md)
+  - invoking [25.3](oracle-original-export-utility.md), [26.5](oracle-original-import-utility.md)
+  - LOG parameter [26.7.18](oracle-original-import-utility.md)
+  - LONG columns [26.16.11](oracle-original-import-utility.md)
+  - manually creating tables before import [26.3.1](oracle-original-import-utility.md)
+  - manually ordering tables [26.3.3](oracle-original-import-utility.md)
+  - NLS_LANG environment variable [25.12.3](oracle-original-export-utility.md), [26.14.3](oracle-original-import-utility.md)
+  - object creation errors [26.7.15](oracle-original-import-utility.md)
+  - online help [25.3.5](oracle-original-export-utility.md)
+  - parameter file [26.7.19](oracle-original-import-utility.md)
+    - maximum size [25.3.3](oracle-original-export-utility.md), [26.5.2](oracle-original-import-utility.md)
+  - parameter syntax [26.7](oracle-original-import-utility.md)
+  - PARFILE parameter [26.7.19](oracle-original-import-utility.md)
+  - Partitioned tables [26.16.14](oracle-original-import-utility.md)
+  - partition-level [26.11](oracle-original-import-utility.md)
+  - pattern matching of table names [26.7.30](oracle-original-import-utility.md)
+  - read-only tablespaces [26.21](oracle-original-import-utility.md)
+  - RECORDLENGTH parameter [26.7.20](oracle-original-import-utility.md)
+  - records
+    - specifying length [26.7.20](oracle-original-import-utility.md)
+  - redirecting output to a log file [25.7.1](oracle-original-export-utility.md)
+  - REF data [26.16.4](oracle-original-import-utility.md)
+  - refresh error [26.18.1](oracle-original-import-utility.md)
+  - remote operation [25.11.2](oracle-original-export-utility.md), [26.13](oracle-original-import-utility.md)
+  - reorganizing tablespace during [26.23](oracle-original-import-utility.md)
+  - resource errors [26.10.2.3](oracle-original-import-utility.md)
+  - restrictions
+    - importing into own schema [26.2.2.1](oracle-original-import-utility.md)
+  - RESUMABLE_NAME parameter [26.7.22](oracle-original-import-utility.md)
+  - RESUMABLE_TIMEOUT parameter [26.7.23](oracle-original-import-utility.md)
+  - RESUMABLE parameter [26.7.21](oracle-original-import-utility.md)
+  - reusing existing datafiles [26.7.7](oracle-original-import-utility.md)
+  - schema objects [26.2.2.3](oracle-original-import-utility.md)
+  - sequences [26.10.2.2](oracle-original-import-utility.md)
+  - SHOW parameter [26.7.25](oracle-original-import-utility.md)
+  - single-byte character sets [25.12.3](oracle-original-export-utility.md), [26.14.3](oracle-original-import-utility.md)
+  - SKIP_UNUSABLE_INDEXES parameter [26.7.26](oracle-original-import-utility.md)
+  - snapshot master table [26.18.1](oracle-original-import-utility.md)
+  - snapshots [26.18](oracle-original-import-utility.md)
+    - restoring dropped [26.18.2.1](oracle-original-import-utility.md)
+  - specifying by user [26.7.11](oracle-original-import-utility.md)
+  - specifying index creation commands [26.7.17](oracle-original-import-utility.md)
+  - specifying the export file [26.7.9](oracle-original-import-utility.md)
+  - STATISTICS parameter [26.7.27](oracle-original-import-utility.md)
+  - storage parameters
+    - overriding [26.20.3](oracle-original-import-utility.md)
+  - stored functions [26.16.7](oracle-original-import-utility.md)
+  - stored procedures [26.16.7](oracle-original-import-utility.md)
+  - STREAMS_CONFIGURATION parameter [26.7.28](oracle-original-import-utility.md)
+  - STREAMS_INSTANTIATION parameter [26.7.29](oracle-original-import-utility.md)
+  - system objects [26.2.2.4](oracle-original-import-utility.md)
+  - table-level [26.11](oracle-original-import-utility.md)
+  - table name restrictions [2.4.45](oracle-data-pump-export-utility.md), [3.4.50](datapump-import-utility.md), [26.7.30.1](oracle-original-import-utility.md)
+  - table objects
+    - import order [26.1.1](oracle-original-import-utility.md)
+  - TABLESPACES parameter [26.7.31](oracle-original-import-utility.md)
+  - TABLES parameter [26.7.30](oracle-original-import-utility.md)
+  - TOID_NOVALIDATE parameter [26.7.32](oracle-original-import-utility.md)
+  - TOUSER parameter [26.7.33](oracle-original-import-utility.md)
+  - TRANSPORT_TABLESPACE parameter [26.7.34](oracle-original-import-utility.md)
+  - TTS_OWNER parameter [26.7.35](oracle-original-import-utility.md)
+  - tuning considerations [26.26](oracle-original-import-utility.md)
+  - user access privileges [25.2.4](oracle-original-export-utility.md), [26.2.2](oracle-original-import-utility.md)
+  - USERID parameter [26.7.36](oracle-original-import-utility.md)
+  - Views [26.16.13](oracle-original-import-utility.md)
+  - VOLSIZE parameter [26.7.37](oracle-original-import-utility.md)
+- incident
+  - fault diagnosability infrastructure [20.2](oracle-adr-command-interpreter-adrci.md)
+  - packaging [20.8](oracle-adr-command-interpreter-adrci.md)
+- incident package
+  - fault diagnosability infrastructure [20.2](oracle-adr-command-interpreter-adrci.md)
+- INCLUDE parameter
+  - Data Pump Export utility [2.4.26](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.20](datapump-import-utility.md)
+- increment parameter
+  - field_definitions Clause [15.4.5.4](oracle_loader-access-driver.md)
+  - pos_spec Clause [15.4.5.4](oracle_loader-access-driver.md)
+- indexes
+  - creating manually [26.7.17](oracle-original-import-utility.md)
+  - direct path load
+    - left in direct load state [12.5.4](oracle-sql-loader-conventional-and-direct-loads.md)
+  - dropping
+    - SQL\*Loader [12.8](oracle-sql-loader-conventional-and-direct-loads.md)
+  - estimating storage requirements [12.5.3.1](oracle-sql-loader-conventional-and-direct-loads.md)
+  - exporting [25.5.14](oracle-original-export-utility.md)
+  - index-creation commands
+    - Import [26.7.17](oracle-original-import-utility.md)
+  - left in unusable state [9.16.3](oracle-sql-loader-control-file-contents.md), [12.6.3.3](oracle-sql-loader-conventional-and-direct-loads.md)
+  - multiple-column
+    - SQL\*Loader [12.6.3.4](oracle-sql-loader-conventional-and-direct-loads.md)
+  - presorting data
+    - SQL\*Loader [12.6.3](oracle-sql-loader-conventional-and-direct-loads.md)
+  - skipping unusable [8.2.36](oracle-sql-loader-commands.md)
+  - SQL\*Loader [9.19](oracle-sql-loader-control-file-contents.md)
+  - state after discontinued load [9.16.3](oracle-sql-loader-control-file-contents.md)
+  - unique [26.7.16](oracle-original-import-utility.md)
+- INDEXES parameter
+  - Export utility [25.5.14](oracle-original-export-utility.md)
+- INDEXFILE parameter
+  - Import utility [26.7.17](oracle-original-import-utility.md)
+- index options
+  - SORTED INDEXES with SQL\*Loader [9.19.1](oracle-sql-loader-control-file-contents.md)
+  - SQL\*Loader SINGLEROW parameter [9.19.2](oracle-sql-loader-control-file-contents.md)
+- Index Unusable state
+  - indexes left in Index Unusable state [9.16.3](oracle-sql-loader-control-file-contents.md), [12.5.4](oracle-sql-loader-conventional-and-direct-loads.md)
+- INFILE parameter
+  - SQL\*Loader utility [9.7.1](oracle-sql-loader-control-file-contents.md)
+- initialization parameters
+  - MAX_DATAPUMP_JOBS_PER_PDB [5.3.2](oracle-data-pump-performance-tips.md)
+  - MAX_DATAPUMP_PARALLEL_PER_JOB [5.3.2](oracle-data-pump-performance-tips.md)
+- insert errors
+  - Import [26.10.1.2](oracle-original-import-utility.md)
+  - specifying [8.2.16](oracle-sql-loader-commands.md)
+- INSERT into table
+  - SQL\*Loader [9.18.2.1](oracle-sql-loader-control-file-contents.md)
+- instance affinity
+  - Export and Import [25.13](oracle-original-export-utility.md)
+- instance recovery [12.5.6.2](oracle-sql-loader-conventional-and-direct-loads.md)
+- integrity constraints
+  - disabled during direct path load [12.9.1.2](oracle-sql-loader-conventional-and-direct-loads.md)
+  - enabled during direct path load [12.9.1.1](oracle-sql-loader-conventional-and-direct-loads.md)
+  - failed on Import [26.10.1.1](oracle-original-import-utility.md)
+  - load method [12.4.9](oracle-sql-loader-conventional-and-direct-loads.md)
+- interactive method
+  - Data Pump Export utility [2.2.1](oracle-data-pump-export-utility.md)
+- internal LOBs
+  - loading [11.4.1](loading-objects-oracle-sql-loader.md)
+- interrupted loads [9.16](oracle-sql-loader-control-file-contents.md)
+- INTERVAL clause
+  - date_format_spec [15.4.6.13.4](oracle_loader-access-driver.md)
+- INTERVAL DAY TO SECOND
+  - data type [10.4.3.3.9](oracle-sql-loader-field-list-contents.md)
+- INTO TABLE statement
+  - effect on bind array size [9.21.6](oracle-sql-loader-control-file-contents.md)
+  - multiple statements with SQL\*Loader [9.20](oracle-sql-loader-control-file-contents.md)
+  - SQL\*Loader [9.18](oracle-sql-loader-control-file-contents.md)
+    - column names [10.3](oracle-sql-loader-field-list-contents.md)
+    - discards [9.12.5](oracle-sql-loader-control-file-contents.md)
+- invalid data
+  - Import [26.10.1.2](oracle-original-import-utility.md)
+- invoking
+  - Export [25.3](oracle-original-export-utility.md), [26.5](oracle-original-import-utility.md)
+    - at the command line [25.3.2](oracle-original-export-utility.md), [26.5.1](oracle-original-import-utility.md)
+    - direct path [25.10](oracle-original-export-utility.md)
+    - interactively [25.3.4](oracle-original-export-utility.md), [26.5.3](oracle-original-import-utility.md)
+    - with a parameter file [25.3.3](oracle-original-export-utility.md), [26.5.2](oracle-original-import-utility.md)
+  - Import [25.3](oracle-original-export-utility.md), [26.5](oracle-original-import-utility.md)
+    - as SYSDBA [25.3.1](oracle-original-export-utility.md), [26.5.4](oracle-original-import-utility.md)
+    - at the command line [25.3.2](oracle-original-export-utility.md), [26.5.1](oracle-original-import-utility.md)
+    - interactively [25.3.4](oracle-original-export-utility.md), [26.5.3](oracle-original-import-utility.md)
+    - with a parameter file [25.3.3](oracle-original-export-utility.md), [26.5.2](oracle-original-import-utility.md)
+- IPS command, ADRCI utility [20.9.5](oracle-adr-command-interpreter-adrci.md)
+- IPS SHOW FILES
+  - IPS [20.9.5.18](oracle-adr-command-interpreter-adrci.md)
+
+------------------------------------------------------------------------
+
+## J
+
+- Java Objects
+  - importing [26.16.8](oracle-original-import-utility.md)
+- JAVAVM [19.10.23](premigration-advisor-tool.md)
+- JOB_NAME parameter
+  - Data Pump Export utility [2.4.27](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.22](datapump-import-utility.md)
+
+------------------------------------------------------------------------
+
+## K
+
+- KEEP_MASTER parameter
+  - Data Pump Export utility [2.4.28](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.23](datapump-import-utility.md)
+- key values
+  - generating with SQL\*Loader [10.15.6](oracle-sql-loader-field-list-contents.md)
+- KILL_JOB parameter
+  - Data Pump Export utility
+    - interactive-command mode [2.5.7](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.5.5](datapump-import-utility.md)
+
+------------------------------------------------------------------------
+
+## L
+
+- leading whitespace
+  - definition [10.11.1](oracle-sql-loader-field-list-contents.md)
+  - trimming and SQL\*Loader [10.11.4](oracle-sql-loader-field-list-contents.md)
+- legacy mode in Oracle Data Pump [4](oracle-data-pump-legacy-mode.md)
+- length indicator
+  - determining size [9.21.4.1](oracle-sql-loader-control-file-contents.md)
+- length parameter
+  - field_definitions Clause [15.4.5.6](oracle_loader-access-driver.md)
+  - pos_spec Clause [15.4.5.6](oracle_loader-access-driver.md)
+- length-value pair specified LOBs [11.4.2.2.4](loading-objects-oracle-sql-loader.md)
+- libraries
+  - foreign function
+    - exporting [25.14.3](oracle-original-export-utility.md)
+    - importing [26.16.6](oracle-original-import-utility.md), [26.16.9](oracle-original-import-utility.md)
+- little-endian data
+  - external tables [15.3.11](oracle_loader-access-driver.md)
+- loading
+  - collections [11.6](loading-objects-oracle-sql-loader.md)
+  - column objects [11.1](loading-objects-oracle-sql-loader.md)
+    - in variable record format [11.1.2](loading-objects-oracle-sql-loader.md)
+    - with a derived subtype [11.1.4](loading-objects-oracle-sql-loader.md)
+    - with user-defined constructors [11.1.6](loading-objects-oracle-sql-loader.md)
+  - datafiles containing tabs
+    - SQL\*Loader [10.2.1](oracle-sql-loader-field-list-contents.md)
+  - external table data
+    - skipping records [15.3.18](oracle_loader-access-driver.md)
+    - specifying conditions [15.3.11](oracle_loader-access-driver.md), [15.3.24](oracle_loader-access-driver.md)
+  - LOBs [11.4](loading-objects-oracle-sql-loader.md)
+  - nested column objects [11.1.3](loading-objects-oracle-sql-loader.md)
+  - object tables [11.2](loading-objects-oracle-sql-loader.md)
+  - object tables with a subtype [11.2.1](loading-objects-oracle-sql-loader.md)
+  - REF columns [11.3](loading-objects-oracle-sql-loader.md)
+  - subpartitioned tables [12.4.3](oracle-sql-loader-conventional-and-direct-loads.md)
+  - tables [12.4.3](oracle-sql-loader-conventional-and-direct-loads.md)
+- LOAD parameter
+  - SQL\*Loader command line [8.2.20](oracle-sql-loader-commands.md), [13.3.13](oracle-sql-loader-express-mode.md)
+  - SQL\*Loader express mode [13.3.13](oracle-sql-loader-express-mode.md)
+- LOB Columns
+  - importing LOB columns [26.16.12](oracle-original-import-utility.md)
+- LOB data
+  - in delimited fields [11.4.1.2](loading-objects-oracle-sql-loader.md)
+  - in length-value pair fields [11.4.1.3](loading-objects-oracle-sql-loader.md)
+  - in predetermined size fields [11.4.1.1](loading-objects-oracle-sql-loader.md)
+  - loading with SQL\*Loader [11.4](loading-objects-oracle-sql-loader.md)
+  - no compression during export [25.5.2](oracle-original-export-utility.md)
+  - size of read buffer [8.2.27](oracle-sql-loader-commands.md)
+  - specifying storage in Data Pump [3.4.53](datapump-import-utility.md)
+  - types supported by SQL\*Loader [7.10.3](oracle-sql-loader-concepts.md), [11.4](loading-objects-oracle-sql-loader.md)
+- LOB data types [7.5](oracle-sql-loader-concepts.md)
+- LOBFILEs [7.5](oracle-sql-loader-concepts.md), [11.4](loading-objects-oracle-sql-loader.md), [11.4.2](loading-objects-oracle-sql-loader.md)
+- LOGFILE parameter
+  - Data Pump Export utility [2.4.29](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.24](datapump-import-utility.md)
+    - LOGFILE parameter [3.4.24](datapump-import-utility.md)
+- log files
+  - after a discontinued load [9.16.4](oracle-sql-loader-control-file-contents.md)
+  - Export [25.5.15](oracle-original-export-utility.md), [25.7.1](oracle-original-export-utility.md)
+  - Import [25.7.1](oracle-original-export-utility.md), [26.7.18](oracle-original-import-utility.md)
+  - limiting data written to by Data Pump [3.4.53](datapump-import-utility.md)
+  - specifying for SQL\*Loader [8.2.21](oracle-sql-loader-commands.md)
+  - SQL\*Loader [7.8](oracle-sql-loader-concepts.md)
+- logical records
+  - consolidating multiple physical records using SQL\*Loader [9.17](oracle-sql-loader-control-file-contents.md)
+- LogMiner utility
+  - accessing redo data of interest [23.6](oracle-logminer-utility.md)
+  - adjusting redo log file list [23.9](oracle-logminer-utility.md)
+  - analyzing output [23.6.1](oracle-logminer-utility.md)
+  - configuration [23.2.1.1](oracle-logminer-utility.md)
+  - considerations for reapplying DDL statements [23.8](oracle-logminer-utility.md)
+  - current log file list
+    - stored information about [23.11.2](oracle-logminer-utility.md)
+  - DBMS_LOGMNR_D.ADD_LOGFILES PL/SQL procedure and [23.2.2](oracle-logminer-utility.md)
+  - DBMS_LOGMNR_D.BUILD PL/SQL procedure and [23.2.2](oracle-logminer-utility.md)
+  - DBMS_LOGMNR_D.END_LOGMNR PL/SQL procedure and [23.2.2](oracle-logminer-utility.md)
+  - DBMS_LOGMNR_D PL/SQL procedure and [23.2.2](oracle-logminer-utility.md)
+  - DBMS_LOGMNR.START_LOGMNR PL/SQL procedure and [23.2.2](oracle-logminer-utility.md)
+  - DBMS_LOGMNR PL/SQL procedure and [23.2.2](oracle-logminer-utility.md)
+  - DDL tracking
+    - time or SCN ranges [23.10.6](oracle-logminer-utility.md)
+  - determining redo log files being analyzed [23.4.2](oracle-logminer-utility.md)
+  - dictionary
+    - purpose of [23.2.1.1](oracle-logminer-utility.md)
+  - dictionary extracted to flat file
+    - stored information about [23.11](oracle-logminer-utility.md)
+  - dictionary options [23.4.1](oracle-logminer-utility.md)
+    - flat file and [23.4.1](oracle-logminer-utility.md)
+    - online catalog and [23.4.1](oracle-logminer-utility.md)
+    - redo log files and [23.4.1](oracle-logminer-utility.md)
+  - ending a session [23.12.7](steps-in-a-typical-logminer-session.md)
+  - executing reconstructed SQL [23.7.5](oracle-logminer-utility.md)
+  - extracting data values from redo logs [23.6.2](oracle-logminer-utility.md)
+  - filtering data by SCN [23.7.4](oracle-logminer-utility.md)
+  - filtering data by time [23.7.3](oracle-logminer-utility.md)
+  - formatting returned data [23.7.6](oracle-logminer-utility.md)
+  - graphical user interface [23](oracle-logminer-utility.md)
+  - levels of supplemental logging [23.10](oracle-logminer-utility.md)
+  - LogMiner dictionary defined [23.2.1.1](oracle-logminer-utility.md)
+  - mining a subset of data in redo log files [23.9](oracle-logminer-utility.md)
+  - mining database definition for [23.2.1.1](oracle-logminer-utility.md)
+  - Object or Data type Unsupported [23.2.1.3](oracle-logminer-utility.md)
+  - operations overview [23.2.2](oracle-logminer-utility.md)
+  - parameters
+    - stored information about [23.11](oracle-logminer-utility.md)
+  - redo log files
+    - on a remote database [23.9](oracle-logminer-utility.md)
+    - stored information about [23.11](oracle-logminer-utility.md)
+  - requirements for dictionary [23.2.1.3](oracle-logminer-utility.md)
+  - requirements for redo log files [23.2.1.3](oracle-logminer-utility.md)
+  - requirements for source and mining databases [23.2.1.3](oracle-logminer-utility.md)
+  - restrictions with XMLType data [23.6.3.2](oracle-logminer-utility.md)
+  - sample configuration [23.2.1.2](oracle-logminer-utility.md)
+  - showing committed transactions only [23.7.1](oracle-logminer-utility.md)
+  - skipping corruptions [23.7.2](oracle-logminer-utility.md)
+  - source database definition for [23.2.1.1](oracle-logminer-utility.md)
+  - specifying redo log files to mine [23.4.2](oracle-logminer-utility.md)
+    - automatically [23.4.2](oracle-logminer-utility.md)
+    - manually [23.4.2](oracle-logminer-utility.md)
+  - specifying redo logs for analysis [23.12.4](steps-in-a-typical-logminer-session.md)
+  - starting [23.5](oracle-logminer-utility.md), [23.12.5](steps-in-a-typical-logminer-session.md)
+  - starting multiple times within a session [23.9](oracle-logminer-utility.md)
+  - steps for extracting dictionary to a flat file [23.4.1.3](oracle-logminer-utility.md)
+  - steps for extracting dictionary to redo log files [23.4.1.2](oracle-logminer-utility.md)
+  - steps for using dictionary in online catalog [23.4.1.1](oracle-logminer-utility.md)
+  - steps in a typical session [23.12.1](steps-in-a-typical-logminer-session.md)
+  - supplemental logging [23.10](oracle-logminer-utility.md)
+    - database level [23.10.1](oracle-logminer-utility.md)
+    - database-level identification keys [23.10.1.2](oracle-logminer-utility.md)
+    - disabling database-level [23.10.2](oracle-logminer-utility.md)
+    - interactions with DDL tracking [23.10.5](oracle-logminer-utility.md)
+    - log groups [23.10](oracle-logminer-utility.md)
+    - minimal [23.10.1.1](oracle-logminer-utility.md)
+    - stored information about [23.11](oracle-logminer-utility.md)
+    - table-level identification keys [23.10.3.1](oracle-logminer-utility.md)
+    - table-level log groups [23.10.3.2](oracle-logminer-utility.md)
+    - user-defined log groups [23.10.3.3](oracle-logminer-utility.md)
+  - supplemental log groups [23.10](oracle-logminer-utility.md)
+    - conditional [23.10](oracle-logminer-utility.md)
+    - unconditional [23.10](oracle-logminer-utility.md)
+  - supported database versions [23.14.3](oracle-logminer-utility.md)
+  - supported data types [23.14.1](oracle-logminer-utility.md)
+  - supported redo log file versions [23.14.3](oracle-logminer-utility.md)
+  - support for transparent data encryption [23.6](oracle-logminer-utility.md)
+  - suppressing delimiters in SQL_REDO and SQL_UNDO [23.7.5](oracle-logminer-utility.md)
+  - table-level supplemental logging [23.10.3](oracle-logminer-utility.md)
+  - tracking DDL statements [23.10.4](oracle-logminer-utility.md)
+    - requirements [23.10.4](oracle-logminer-utility.md)
+  - unsupported data types [23.14.2](oracle-logminer-utility.md)
+  - using in a CDB [23.3](oracle-logminer-utility.md)
+  - using the online catalog [23.4.1.1](oracle-logminer-utility.md)
+  - using to analyze redo log files [23](oracle-logminer-utility.md)
+  - V\$DATABASE view [23.11](oracle-logminer-utility.md)
+  - V\$LOGMNR_CONTENTS view [23.2.2](oracle-logminer-utility.md), [23.6.1](oracle-logminer-utility.md), [23.7](oracle-logminer-utility.md)
+  - V\$LOGMNR_LOGS view
+    - querying [23.11.2](oracle-logminer-utility.md)
+  - views [23.11](oracle-logminer-utility.md)
+- LogMiner Viewer [23](oracle-logminer-utility.md)
+- LOG parameter
+  - Export utility [25.5.15](oracle-original-export-utility.md)
+  - Import utility [26.7.18](oracle-original-import-utility.md)
+  - SQL\*Loader command line [8.2.21](oracle-sql-loader-commands.md)
+- LOGTIME parameter
+  - Data Pump Export utility [2.4.30](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.25](datapump-import-utility.md)
+- LONG data
+  - exporting [25.14.2](oracle-original-export-utility.md)
+  - importing [26.16.11](oracle-original-import-utility.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- MASTER_ONLY parameter
+  - Data Pump Import utility [3.4.26](datapump-import-utility.md)
+- master tables
+  - snapshots
+    - original Import [26.18.1](oracle-original-import-utility.md)
+- materialized views [26.18](oracle-original-import-utility.md)
+- MAX_DATAPUMP_JOBS_PER_PDB initialization parameter [5.3.2](oracle-data-pump-performance-tips.md)
+- MAX_DATAPUMP_PARALLEL_PER_JOB initialization parameter [5.3.2](oracle-data-pump-performance-tips.md)
+- media recovery
+  - direct path load [12.5.6.1](oracle-sql-loader-conventional-and-direct-loads.md)
+- Metadata API
+  - enhancing performance [24.7](using-oracle-dbms_metadata-api.md)
+  - retrieving collections [24.5](using-oracle-dbms_metadata-api.md)
+  - using to retrieve object metadata [24.3](using-oracle-dbms_metadata-api.md)
+- METRICS parameter
+  - Data Pump Export utility [2.4.31](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.27](datapump-import-utility.md)
+- missing data columns
+  - SQL\*Loader [9.18.6](oracle-sql-loader-control-file-contents.md)
+- multibyte character sets
+  - blanks with SQL\*Loader [10.5.2](oracle-sql-loader-field-list-contents.md)
+  - SQL\*Loader [9.15.1](oracle-sql-loader-control-file-contents.md)
+- multiple-column indexes
+  - SQL\*Loader [12.6.3.4](oracle-sql-loader-conventional-and-direct-loads.md)
+- multiple-CPU systems
+  - optimizing direct path loads [12.7](oracle-sql-loader-conventional-and-direct-loads.md)
+- multiple-table load
+  - generating unique sequence numbers using SQL\*Loader [10.15.7](oracle-sql-loader-field-list-contents.md)
+  - SQL\*Loader control file specification [9.20](oracle-sql-loader-control-file-contents.md)
+- multitenant architecture [23.3.2](oracle-logminer-utility.md)
+- multitenant container databases [1.3](oracle-data-pump-overview.md), [23.3](oracle-logminer-utility.md)
+- multithreading
+  - on multiple-CPU systems [12.7](oracle-sql-loader-conventional-and-direct-loads.md)
+- MULTITHREADING parameter
+  - SQL\*Loader command line [8.2.22](oracle-sql-loader-commands.md)
+
+------------------------------------------------------------------------
+
+## N
+
+- named pipes
+  - external table loads [7.9.4](oracle-sql-loader-concepts.md)
+- native data types
+  - conflicting length specifications
+    - SQL\*Loader [10.4.3.10](oracle-sql-loader-field-list-contents.md)
+- NCLOBs
+  - loading with SQL\*Loader [11.4](loading-objects-oracle-sql-loader.md)
+- nested column objects
+  - loading [11.1.3](loading-objects-oracle-sql-loader.md)
+- nested tables
+  - exporting [25.14.9](oracle-original-export-utility.md)
+    - consistency and [25.5.3](oracle-original-export-utility.md)
+  - importing [26.16.3](oracle-original-import-utility.md)
+- NETWORK_LINK parameter
+  - Data Pump Export utility [2.4.32](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.28](datapump-import-utility.md)
+- networks
+  - Export and Import [25.11](oracle-original-export-utility.md), [26.13](oracle-original-import-utility.md)
+- NFS errors when using Data Pump [1.9](oracle-data-pump-overview.md)
+- NLS_LANG environment variable [25.12.2](oracle-original-export-utility.md), [26.14.2](oracle-original-import-utility.md)
+  - with Export and Import [25.12.3](oracle-original-export-utility.md), [26.14.3](oracle-original-import-utility.md)
+- NO_INDEX_ERRORS parameter
+  - SQL\*Loader command line [8.2.23](oracle-sql-loader-commands.md)
+- NOLOGFILE parameter
+  - Data Pump Export utility [2.4.33](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.29](datapump-import-utility.md)
+- nonrecoverable error messages
+  - Export [25.7.3](oracle-original-export-utility.md)
+  - Import [25.7.3](oracle-original-export-utility.md)
+- nonscalar data types [11.1.5](loading-objects-oracle-sql-loader.md)
+- NOT NULL constraint
+  - load method [12.4.9](oracle-sql-loader-conventional-and-direct-loads.md)
+- null data
+  - missing columns at end of record during load [9.18.6](oracle-sql-loader-control-file-contents.md)
+  - unspecified columns and SQL\*Loader [10.3](oracle-sql-loader-field-list-contents.md)
+- NULLIF
+  - at character field [9.13](oracle-sql-loader-control-file-contents.md)
+- NULLIF...BLANKS clause
+  - SQL\*Loader [10.5.2](oracle-sql-loader-field-list-contents.md)
+- NULLIF clause
+  - SQL\*Loader [10.5](oracle-sql-loader-field-list-contents.md), [10.10](oracle-sql-loader-field-list-contents.md)
+- NULLIF parameter
+  - SQL\*Loader express mode [13.3.14](oracle-sql-loader-express-mode.md)
+- nulls
+  - atomic [11.1.5.2](loading-objects-oracle-sql-loader.md)
+  - attribute [11.1.5.1](loading-objects-oracle-sql-loader.md)
+- NULL values
+  - objects [11.1.5](loading-objects-oracle-sql-loader.md)
+- NUMBER data type
+  - SQL\*Loader [10.4.4](oracle-sql-loader-field-list-contents.md), [10.4.5](oracle-sql-loader-field-list-contents.md)
+- numeric EXTERNAL data types
+  - delimited form and SQL\*Loader [10.4.6](oracle-sql-loader-field-list-contents.md)
+  - determining length [10.4.8](oracle-sql-loader-field-list-contents.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- OBJECT_CONSISTENT parameter
+  - Export utility [25.5.16](oracle-original-export-utility.md)
+- object identifiers [11.2](loading-objects-oracle-sql-loader.md)
+  - importing [26.16.1](oracle-original-import-utility.md)
+- object names
+  - SQL\*Loader [9.4](oracle-sql-loader-control-file-contents.md)
+- objects [7.10](oracle-sql-loader-concepts.md)
+  - creation errors [26.10.2.1](oracle-original-import-utility.md)
+  - ignoring existing objects during import [26.7.15](oracle-original-import-utility.md)
+  - import creation errors [26.7.15](oracle-original-import-utility.md)
+  - loading nested column objects [11.1.3](loading-objects-oracle-sql-loader.md)
+  - NULL values [11.1.5](loading-objects-oracle-sql-loader.md)
+  - stream record format [11.1.1](loading-objects-oracle-sql-loader.md)
+  - variable record format [11.1.2](loading-objects-oracle-sql-loader.md)
+- object tables
+  - loading [11.2](loading-objects-oracle-sql-loader.md)
+  - with a subtype
+    - loading [11.2.1](loading-objects-oracle-sql-loader.md)
+- object type definitions
+  - exporting [25.14.8](oracle-original-export-utility.md)
+- object types supported by SQL\*Loader [7.10.1](oracle-sql-loader-concepts.md)
+- offline locally-managed tablespaces
+  - exporting [25.14.4](oracle-original-export-utility.md)
+- OID
+  - See: object identifiers
+- online help
+  - Export and Import [25.3.5](oracle-original-export-utility.md)
+- opaque_format_spec [14.6](oracle-external-tables-concepts.md), [15.2](oracle_loader-access-driver.md), [16.2](oracle_datapump-access-driver.md)
+- operating systems
+  - moving data to different systems using SQL\*Loader [10.8](oracle-sql-loader-field-list-contents.md)
+- OPTIMAL storage parameter
+  - used with Export/Import [26.20.1](oracle-original-import-utility.md)
+- optimizer statistics [26.24](oracle-original-import-utility.md)
+- optimizing
+  - direct path loads [12.6.1](oracle-sql-loader-conventional-and-direct-loads.md)
+  - SQL\*Loader input file processing [9.10](oracle-sql-loader-control-file-contents.md)
+- OPTIONALLY_ENCLOSED_BY parameter
+  - SQL\*Loader express mode [13.3.15](oracle-sql-loader-express-mode.md)
+- OPTIONALLY ENCLOSED BY clause
+  - SQL\*Loader [10.11.2.2](oracle-sql-loader-field-list-contents.md)
+- OPTIONS parameter
+  - for parallel loads [9.18.3](oracle-sql-loader-control-file-contents.md)
+  - SQL\*Loader utility [9.3.1](oracle-sql-loader-control-file-contents.md)
+- ORA-00959 tablespace does not exist [19.10.13](premigration-advisor-tool.md), [19.10.14](premigration-advisor-tool.md), [19.10.17](premigration-advisor-tool.md), [19.10.18](premigration-advisor-tool.md), [19.10.19](premigration-advisor-tool.md), [19.10.22](premigration-advisor-tool.md)
+- ORA-01536: space quota exceeded for tablespace [19.10.69](premigration-advisor-tool.md)
+- ORA-01555: snapshot too old: rollback segment number with name "" too small [2.6.7](oracle-data-pump-export-utility.md)
+- ORA-1578 [2.6.7](oracle-data-pump-export-utility.md)
+- ORA-22922 [2.6.7](oracle-data-pump-export-utility.md)
+- ORA-22924 [2.6.7](oracle-data-pump-export-utility.md)
+- ORA-27486: insufficient privileges [19.10.31](premigration-advisor-tool.md), [19.10.32](premigration-advisor-tool.md), [19.10.33](premigration-advisor-tool.md)
+- ORA-31620: job does not exist [2.4.27](oracle-data-pump-export-utility.md), [3.4.22](datapump-import-utility.md)
+- ORA-39083: Object type INDEX_STATISTICS failed to create with error. [19.10.49](premigration-advisor-tool.md)
+- ora-39095: dump file space has been exhausted [2.4.34](oracle-data-pump-export-utility.md)
+- ORA-39127: unexpected error from call [19.10.34](premigration-advisor-tool.md), [19.10.35](premigration-advisor-tool.md), [19.10.36](premigration-advisor-tool.md), [19.10.37](premigration-advisor-tool.md), [19.10.38](premigration-advisor-tool.md)
+- ORA-39173: Encrypted data has been stored unencrypted in dump file set. [1.14](oracle-data-pump-overview.md)
+- ORA-39181: Only Partial Data Exported Due to Fine Grain Access Control [1.5](oracle-data-pump-overview.md)
+- ORA-39346 [1.10](oracle-data-pump-overview.md)
+- ORA-39346: data loss in character set conversion for object [19.10.39](premigration-advisor-tool.md)
+- ORA-39357: Warning: Oracle Data Pump operations are not typically needed when connected to the root or seed of a container database [1.3.1](oracle-data-pump-overview.md)
+- ORA-39460: cannot create password verification function string due to lockdown [19.10.70](premigration-advisor-tool.md)
+- ORA-39777
+  - long varchar data [8.2.31](oracle-sql-loader-commands.md)
+- ORA-65094:invalid local user or role name [1.3.3](oracle-data-pump-overview.md)
+- ORACLE_DATAPUMP access driver
+  - effect of SQL ENCRYPT clause on [16.2.7](oracle_datapump-access-driver.md)
+  - reserved words [16](oracle_datapump-access-driver.md), [16.8](oracle_datapump-access-driver.md)
+- ORACLE_LOADER access driver
+  - DNFS_READBUFFERS parameter [15.3.29](oracle_loader-access-driver.md)
+  - reserved words [15](oracle_loader-access-driver.md), [15.9](oracle_loader-access-driver.md)
+- Oracle Advanced Queuing
+  - See: Advanced Queuing
+- Oracle Automatic Storage Management (ASM)
+  - Data Pump and [1.9.3.3](oracle-data-pump-overview.md)
+- Oracle Autonomous Database
+  - and DBMS_CLOUD.CREATE_CREDENTIAL() [3.4.7](datapump-import-utility.md)
+  - imports [3.6.4](datapump-import-utility.md)
+- Oracle binary JSON (OSON) [12.4.1](oracle-sql-loader-conventional-and-direct-loads.md)
+- Oracle Data Pump
+  - direct path loads
+    - restrictions [1.2.2](oracle-data-pump-overview.md)
+  - parent job table [1.6.2](oracle-data-pump-overview.md)
+  - tuning performance [5.2](oracle-data-pump-performance-tips.md)
+- Oracle Data Pump API [6](using-oracle_datapump-api.md)
+  - client interface [6.1](using-oracle_datapump-api.md)
+  - job states [6.1.1](using-oracle_datapump-api.md)
+  - monitoring job progress [1.8](oracle-data-pump-overview.md)
+- Oracle Data Pump legacy mode [4](oracle-data-pump-legacy-mode.md)
+- OSON (Orcle binary JSON [12.4.1](oracle-sql-loader-conventional-and-direct-loads.md)
+- OWNER parameter
+  - Export utility [25.5.17](oracle-original-export-utility.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- packages
+  - creating [20.8.2](oracle-adr-command-interpreter-adrci.md)
+- padding of literal strings
+  - SQL\*Loader [10.5.3](oracle-sql-loader-field-list-contents.md)
+- PARALLEL_THRESHOLD parameter
+  - Data Pump Export utility
+    - command-line interface [2.4.35](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility
+    - command-line interface [3.4.31](datapump-import-utility.md)
+- parallel loads [12.10.1](oracle-sql-loader-conventional-and-direct-loads.md)
+  - restrictions on direct path [12.10.5](oracle-sql-loader-conventional-and-direct-loads.md)
+  - when using PREPROCESSOR clause [15.3.8](oracle_loader-access-driver.md), [15.3.8.1](oracle_loader-access-driver.md)
+- PARALLEL parameter
+  - Data Pump Export utility
+    - command-line interface [2.4.34](oracle-data-pump-export-utility.md)
+    - interactive-command mode [2.5.8](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility
+    - command-line mode [3.4.30](datapump-import-utility.md)
+    - interactive-command mode [3.5.6](datapump-import-utility.md)
+  - SQL\*Loader command line [8.2.24](oracle-sql-loader-commands.md)
+- parameter files
+  - Export [25.5.18](oracle-original-export-utility.md)
+  - Export and Import
+    - comments in [25.3.3](oracle-original-export-utility.md), [26.5.2](oracle-original-import-utility.md)
+    - maximum size [25.3.3](oracle-original-export-utility.md), [26.5.2](oracle-original-import-utility.md)
+  - Import [26.7.19](oracle-original-import-utility.md)
+  - SQL\*Loader [8.2.25](oracle-sql-loader-commands.md)
+- parent job tables
+  - Oracle Data Pump API [1.6.2](oracle-data-pump-overview.md)
+- PARFILE parameter
+  - Data Pump Export utility [2.4.36](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.32](datapump-import-utility.md)
+  - Export command line [25.5.18](oracle-original-export-utility.md)
+  - Import command line [26.7.19](oracle-original-import-utility.md)
+  - SQL\*Loader express mode [13.3.16](oracle-sql-loader-express-mode.md)
+- PARTITION_MEMORY parameter
+  - SQL\*Loader utility [8.2.26](oracle-sql-loader-commands.md)
+- PARTITION_OPTIONS parameter
+  - Data Pump Import utility [3.4.33](datapump-import-utility.md)
+- partitioned loads
+  - concurrent conventional path loads [12.9.4](oracle-sql-loader-conventional-and-direct-loads.md)
+  - SQL\*Loader [12.9.4](oracle-sql-loader-conventional-and-direct-loads.md)
+- partitioned object support in SQL\*Loader [7.11](oracle-sql-loader-concepts.md)
+- partitioned tables
+  - export consistency and [25.5.3](oracle-original-export-utility.md)
+  - exporting [25.4.1](oracle-original-export-utility.md)
+  - importing [26.8.1](oracle-original-import-utility.md), [26.11.1](oracle-original-import-utility.md)
+  - loading [12.4.3](oracle-sql-loader-conventional-and-direct-loads.md)
+- Partitioned tables
+  - importing [26.16.14](oracle-original-import-utility.md)
+- partitioning a database migration [25.17](oracle-original-export-utility.md), [26.25](oracle-original-import-utility.md)
+  - advantages of [25.17](oracle-original-export-utility.md), [26.25](oracle-original-import-utility.md)
+  - disadvantages of [25.17](oracle-original-export-utility.md), [26.25](oracle-original-import-utility.md)
+  - procedure during export [17.2.1](oracle_bigdata_access_driver.md), [17.2.2](oracle_bigdata_access_driver.md), [25.17.3](oracle-original-export-utility.md), [26.25.3](oracle-original-import-utility.md)
+- partition-level Export [25.4.1](oracle-original-export-utility.md)
+  - example session [25.6.4](oracle-original-export-utility.md)
+- partition-level Import [26.11](oracle-original-import-utility.md)
+  - specifying [25.5.26](oracle-original-export-utility.md)
+- pattern matching
+  - table names during import [26.7.30](oracle-original-import-utility.md)
+- performance
+  - improving when using integrity constraints [12.9.4](oracle-sql-loader-conventional-and-direct-loads.md)
+  - optimizing for direct path loads [12.6.1](oracle-sql-loader-conventional-and-direct-loads.md)
+  - optimizing reading of SQL\*Loader data files [9.10](oracle-sql-loader-control-file-contents.md)
+  - tuning original Import [26.26](oracle-original-import-utility.md)
+- PIECED parameter
+  - SQL\*Loader [12.5.8](oracle-sql-loader-conventional-and-direct-loads.md)
+- Portable data type [10.4.3.4](oracle-sql-loader-field-list-contents.md)
+- POSITION parameter
+  - using with data containing tabs [10.2.1](oracle-sql-loader-field-list-contents.md)
+  - with multiple SQL\*Loader INTO TABLE clauses [9.20.2.1](oracle-sql-loader-control-file-contents.md), [10.2](oracle-sql-loader-field-list-contents.md), [10.2.2](oracle-sql-loader-field-list-contents.md)
+- predetermined size fields
+  - SQL\*Loader [10.11.2.1](oracle-sql-loader-field-list-contents.md)
+- predetermined size LOBs [11.4.2.2.2](loading-objects-oracle-sql-loader.md)
+- premigration -config-
+  - clear_recovery_data [19.9.2.2](premigration-advisor-tool.md)
+  - -console [19.9.2.2](premigration-advisor-tool.md)
+  - -debug [19.9.2.2](premigration-advisor-tool.md)
+  - -mode [19.9.2.2](premigration-advisor-tool.md)
+  - -noconsole [19.9.2.2](premigration-advisor-tool.md)
+  - -restore_on_fail [19.9.2.2](premigration-advisor-tool.md)
+  - -zip [19.9.2.2](premigration-advisor-tool.md)
+- preprocessing data for external tables [15.3.8](oracle_loader-access-driver.md)
+  - effects of parallel processing [15.3.8](oracle_loader-access-driver.md), [15.3.8.1](oracle_loader-access-driver.md)
+- prerequisites
+  - SQL\*Loader [12.1](oracle-sql-loader-conventional-and-direct-loads.md)
+- PRESERVE parameter [9.17.2](oracle-sql-loader-control-file-contents.md)
+- preserving
+  - whitespace [10.12](oracle-sql-loader-field-list-contents.md)
+- PRIMARY KEY constraints
+  - effect on direct path load [12.10.9](oracle-sql-loader-conventional-and-direct-loads.md)
+- primary key OIDs
+  - example [11.2](loading-objects-oracle-sql-loader.md)
+- primary key REF columns [11.3.3](loading-objects-oracle-sql-loader.md)
+- privileges
+  - EXEMPT ACCESS POLICY
+    - effect on direct path export [25.10.1](oracle-original-export-utility.md)
+  - required for Export and Import [25.2.2](oracle-original-export-utility.md), [26.2.1](oracle-original-import-utility.md)
+  - required for SQL\*Loader [12.1](oracle-sql-loader-conventional-and-direct-loads.md)
+- problem
+  - fault diagnosability infrastructure [20.2](oracle-adr-command-interpreter-adrci.md)
+- problem key
+  - fault diagnosability infrastructure [20.2](oracle-adr-command-interpreter-adrci.md)
+- PURGE command, ADRCI utility [20.9.6](oracle-adr-command-interpreter-adrci.md)
+
+------------------------------------------------------------------------
+
+## Q
+
+- QUERY parameter
+  - Data Pump Export utility [2.4.37](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.34](datapump-import-utility.md)
+  - Export utility [25.5.19](oracle-original-export-utility.md)
+    - restrictions [25.5.19.1](oracle-original-export-utility.md)
+- QUIT command, ADRCI utility [20.9.7](oracle-adr-command-interpreter-adrci.md)
+- quotation marks
+  - escape characters and [9.4.3.2](oracle-sql-loader-control-file-contents.md)
+  - file names and [9.4.3.1](oracle-sql-loader-control-file-contents.md)
+  - SQL strings and [9.4.2](oracle-sql-loader-control-file-contents.md)
+  - table names and [2.4.45](oracle-data-pump-export-utility.md), [3.4.50](datapump-import-utility.md), [25.5.26](oracle-original-export-utility.md), [25.5.26.1](oracle-original-export-utility.md), [26.7.30.1](oracle-original-import-utility.md)
+  - usage in Data Pump Export [2.4.1](oracle-data-pump-export-utility.md)
+  - usage in Data Pump Import [3.4](datapump-import-utility.md)
+  - use with database object names [9.4.1](oracle-sql-loader-control-file-contents.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- read-consistent export [25.5.3](oracle-original-export-utility.md)
+- read-only tablespaces
+  - Import [26.21](oracle-original-import-utility.md)
+- READSIZE parameter
+  - SQL\*Loader command line [8.2.27](oracle-sql-loader-commands.md)
+    - effect on LOBs [8.2.27](oracle-sql-loader-commands.md)
+    - maximum size [8.2.27](oracle-sql-loader-commands.md)
+- RECNUM parameter
+  - use with SQL\*Loader SKIP parameter [10.15.4](oracle-sql-loader-field-list-contents.md)
+- RECORDLENGTH parameter
+  - Export utility [25.5.20](oracle-original-export-utility.md)
+  - Import utility [26.7.20](oracle-original-import-utility.md)
+- records
+  - consolidating into a single logical record
+    - SQL\*Loader [9.17](oracle-sql-loader-control-file-contents.md)
+  - discarded by SQL\*Loader [7.7](oracle-sql-loader-concepts.md), [9.12.1](oracle-sql-loader-control-file-contents.md)
+  - distinguishing different formats for SQL\*Loader [9.20.2](oracle-sql-loader-control-file-contents.md)
+  - extracting multiple logical records using SQL\*Loader [9.20](oracle-sql-loader-control-file-contents.md)
+  - fixed format [7.4.1](oracle-sql-loader-concepts.md)
+  - missing data columns during load [9.18.6](oracle-sql-loader-control-file-contents.md)
+  - rejected by SQL\*Loader [7.7](oracle-sql-loader-concepts.md), [7.7.1.1](oracle-sql-loader-concepts.md), [7.7.1.2](oracle-sql-loader-concepts.md), [9.11.1](oracle-sql-loader-control-file-contents.md)
+  - setting column to record number with SQL\*Loader [10.15.4](oracle-sql-loader-field-list-contents.md)
+  - specifying how to load [8.2.20](oracle-sql-loader-commands.md), [13.3.13](oracle-sql-loader-express-mode.md)
+  - specifying length for export [25.5.20](oracle-original-export-utility.md)
+  - specifying length for import [26.7.20](oracle-original-import-utility.md)
+  - stream record format [7.4.3](oracle-sql-loader-concepts.md)
+- recovery
+  - direct path load
+    - SQL\*Loader [12.5.6](oracle-sql-loader-conventional-and-direct-loads.md)
+  - replacing rows [9.18.2.2](oracle-sql-loader-control-file-contents.md)
+- redo log file
+  - LogMiner utility
+    - versions supported [23.14.3](oracle-logminer-utility.md)
+- redo log files
+  - analyzing [23](oracle-logminer-utility.md)
+  - requirements for LogMiner utility [23.2.1.3](oracle-logminer-utility.md)
+  - specifying for the LogMiner utility [23.4.2](oracle-logminer-utility.md)
+- redo logs
+  - direct path load [12.5.6.1](oracle-sql-loader-conventional-and-direct-loads.md)
+  - instance and media recovery
+    - SQL\*Loader [12.5.6.1](oracle-sql-loader-conventional-and-direct-loads.md)
+  - minimizing use during direct path loads [12.6.5](oracle-sql-loader-conventional-and-direct-loads.md)
+  - saving space
+    - direct path load [12.6.5.2](oracle-sql-loader-conventional-and-direct-loads.md)
+- REF columns [11.3](loading-objects-oracle-sql-loader.md)
+  - loading [11.3](loading-objects-oracle-sql-loader.md)
+  - primary key [11.3.3](loading-objects-oracle-sql-loader.md)
+  - system-generated [11.3.2](loading-objects-oracle-sql-loader.md)
+- REF Data
+  - importing [26.16.4](oracle-original-import-utility.md)
+- referential integrity constraints
+  - disabling for import [26.3.2](oracle-original-import-utility.md)
+  - SQL\*Loader [12.9](oracle-sql-loader-conventional-and-direct-loads.md)
+- refresh error
+  - snapshots
+    - Import [26.18.1](oracle-original-import-utility.md)
+- rejected records
+  - SQL\*Loader [7.7](oracle-sql-loader-concepts.md), [9.11.1](oracle-sql-loader-control-file-contents.md)
+- reject files
+  - specifying for SQL\*Loader [9.11.1](oracle-sql-loader-control-file-contents.md)
+- relative field positioning
+  - where a field starts and SQL\*Loader [10.11.3](oracle-sql-loader-field-list-contents.md)
+  - with multiple SQL\*Loader INTO TABLE clauses [9.20.1.1](oracle-sql-loader-control-file-contents.md)
+- REMAP_DATAFILE parameter
+  - Data Pump Import utility [3.4.36](datapump-import-utility.md)
+- REMAP_DATA parameter
+  - Data Pump Export utility [2.4.38](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.35](datapump-import-utility.md)
+- REMAP_SCHEMA parameter
+  - Data Pump Import utility [3.4.38](datapump-import-utility.md)
+- REMAP_TABLE parameter
+  - Data Pump Import utility [3.4.39](datapump-import-utility.md)
+- REMAP_TABLESPACE parameter
+  - Data Pump Import utility [3.4.40](datapump-import-utility.md)
+- remote operation
+  - Export/Import [25.11.2](oracle-original-export-utility.md), [26.13](oracle-original-import-utility.md)
+- REPLACE table
+  - replacing a table using SQL\*Loader [9.18.2.2.2](oracle-sql-loader-control-file-contents.md)
+- reserved words
+  - external tables [15.8](oracle_loader-access-driver.md), [16.7](oracle_datapump-access-driver.md)
+  - ORACLE_DATAPUMP access driver [16](oracle_datapump-access-driver.md), [16.8](oracle_datapump-access-driver.md)
+  - ORACLE_LOADER access driver [15](oracle_loader-access-driver.md), [15.9](oracle_loader-access-driver.md)
+  - SQL\*Loader [7.3](oracle-sql-loader-concepts.md)
+- resource consumption
+  - controlling in Data Pump Export utility [5.2.1](oracle-data-pump-performance-tips.md)
+  - controlling in Data Pump Import utility [5.2.1](oracle-data-pump-performance-tips.md)
+- resource errors
+  - Import [26.10.2.3](oracle-original-import-utility.md)
+- RESOURCE role [26.2.2.1](oracle-original-import-utility.md)
+- resource usage limitations
+  - and Data Pump support [5.3.2](oracle-data-pump-performance-tips.md)
+- restrictions
+  - importing into another user’s schema [26.2.2.3](oracle-original-import-utility.md)
+  - table names in Export parameter file [25.5.26](oracle-original-export-utility.md), [25.5.26.1](oracle-original-export-utility.md)
+  - table names in Import parameter file [2.4.45](oracle-data-pump-export-utility.md), [3.4.50](datapump-import-utility.md), [26.7.30.1](oracle-original-import-utility.md)
+- RESUMABLE_NAME parameter
+  - Export utility [25.5.22](oracle-original-export-utility.md)
+  - Import utility [26.7.22](oracle-original-import-utility.md)
+  - SQL\*Loader command line [8.2.29](oracle-sql-loader-commands.md)
+- RESUMABLE_TIMEOUT parameter
+  - Export utility [25.5.23](oracle-original-export-utility.md)
+  - Import utility [26.7.23](oracle-original-import-utility.md)
+  - SQL\*Loader command line [8.2.30](oracle-sql-loader-commands.md)
+- RESUMABLE parameter
+  - Export utility [25.5.21](oracle-original-export-utility.md)
+  - Import utility [26.7.21](oracle-original-import-utility.md)
+  - SQL\*Loader command line [8.2.28](oracle-sql-loader-commands.md)
+- resumable space allocation
+  - enabling and disabling [8.2.28](oracle-sql-loader-commands.md), [25.5.21](oracle-original-export-utility.md), [26.7.21](oracle-original-import-utility.md)
+- retrieving object metadata
+  - using Metadata API [24.3](using-oracle-dbms_metadata-api.md)
+- REUSE_DATAFILES parameter
+  - Data Pump Import utility [3.4.49](datapump-import-utility.md)
+- REUSE_DUMPFILES parameter
+  - Data Pump Export utility [2.4.39](oracle-data-pump-export-utility.md)
+- roles
+  - DATAPUMP_EXP_FULL_DATABASE [1.5](oracle-data-pump-overview.md)
+  - DATAPUMP_IMP_FULL_DATABASE [1.5](oracle-data-pump-overview.md)
+  - EXP_FULL_DATABASE [25.2.2](oracle-original-export-utility.md)
+  - IMP_FULL_DATABASE [26.2.1](oracle-original-import-utility.md)
+  - RESOURCE [26.2.2.1](oracle-original-import-utility.md)
+- rollback segments
+  - effects of CONSISTENT Export parameter [25.5.3](oracle-original-export-utility.md)
+- row errors
+  - Import [26.10.1.1](oracle-original-import-utility.md)
+- ROWID columns
+  - loading with SQL\*Loader [12.2](oracle-sql-loader-conventional-and-direct-loads.md)
+- rows
+  - choosing which to load using SQL\*Loader [9.18.4](oracle-sql-loader-control-file-contents.md)
+  - exporting [25.5.24](oracle-original-export-utility.md)
+  - specifying number to insert before save
+    - SQL\*Loader [12.5.5.2](oracle-sql-loader-conventional-and-direct-loads.md)
+  - updates to existing rows with SQL\*Loader [9.18.2.2.3](oracle-sql-loader-control-file-contents.md)
+- ROWS parameter
+  - Export utility [25.5.24](oracle-original-export-utility.md)
+  - performance issues
+    - SQL\*Loader [12.6.4](oracle-sql-loader-conventional-and-direct-loads.md)
+  - SQL\*Loader command line [8.2.31](oracle-sql-loader-commands.md)
+  - using to specify when data saves occur [12.5.5.2](oracle-sql-loader-conventional-and-direct-loads.md)
+- RUN command, ADRCI utility [20.9.8](oracle-adr-command-interpreter-adrci.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- SAMPLE parameter
+  - Data Pump Export utility [2.4.40](oracle-data-pump-export-utility.md)
+- schema mode export
+  - Data Pump Export utility [2.2.2.2](oracle-data-pump-export-utility.md)
+- schemas
+  - specifying for Export [25.5.26](oracle-original-export-utility.md)
+- SCHEMAS parameter
+  - Data Pump Export utility [2.4.41](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.41](datapump-import-utility.md)
+- scientific notation for FLOAT EXTERNAL [10.4.3.6](oracle-sql-loader-field-list-contents.md)
+- script files
+  - running before Export and Import [25.2.2](oracle-original-export-utility.md), [26.2.1](oracle-original-import-utility.md)
+- SDFs
+  - See: secondary datafiles
+- secondary datafiles [7.5](oracle-sql-loader-concepts.md), [11.6.2](loading-objects-oracle-sql-loader.md)
+- SecureFiles
+  - encryption during Data Pump export [2.4.13](oracle-data-pump-export-utility.md)
+- SecureFiles LOB
+  - export considerations [1.11](oracle-data-pump-overview.md)
+- security considerations
+  - direct path export [25.10.1](oracle-original-export-utility.md)
+- segments
+  - temporary
+    - FILE parameter in SQL\*Loader [12.10.7.1](oracle-sql-loader-conventional-and-direct-loads.md)
+- SELECT command, ADRCI utility [20.9.9](oracle-adr-command-interpreter-adrci.md)
+  - functions [20.9.9](oracle-adr-command-interpreter-adrci.md)
+- sequence numb [10.15.6](oracle-sql-loader-field-list-contents.md)
+- sequence numbers
+  - cached [25.14.1](oracle-original-export-utility.md)
+  - exporting [25.14.1](oracle-original-export-utility.md)
+  - for multiple tables and SQL\*Loader [10.15.7](oracle-sql-loader-field-list-contents.md)
+  - generated, not read and SQL\*Loader [10.3](oracle-sql-loader-field-list-contents.md)
+  - generated by SQL\*Loader SEQUENCE clause [10.15.6](oracle-sql-loader-field-list-contents.md)
+- SERVICE_NAME parameter
+  - Data Pump Export utility [2.4.42](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.42](datapump-import-utility.md)
+- SET BASE command, ADRCI utility [20.9.10](oracle-adr-command-interpreter-adrci.md)
+- SET BROWSER command, ADRCI utility [20.9.11](oracle-adr-command-interpreter-adrci.md)
+- SET CONTROL command, ADRCI utility [20.9.12](oracle-adr-command-interpreter-adrci.md)
+- SET ECHO command, ADRCI utility [20.9.13](oracle-adr-command-interpreter-adrci.md)
+- SET EDITOR command, ADRCI utility [20.9.14](oracle-adr-command-interpreter-adrci.md)
+- SET HOMEPATH command, ADRCI utility [20.9.15](oracle-adr-command-interpreter-adrci.md)
+- SET TERMOUT command, ADRCI utility [20.9.16](oracle-adr-command-interpreter-adrci.md)
+- short records with missing data
+  - SQL\*Loader [9.18.6](oracle-sql-loader-control-file-contents.md)
+- SHOW ALERT command, ADRCI utility [20.9.17](oracle-adr-command-interpreter-adrci.md)
+- SHOW BASE command, ADRCI utility [20.9.18](oracle-adr-command-interpreter-adrci.md)
+- SHOW CONTROL command, ADRCI utility [20.9.19](oracle-adr-command-interpreter-adrci.md)
+- SHOW HM_RUN command, ADRCI utility [20.9.20](oracle-adr-command-interpreter-adrci.md)
+- SHOW HOMEPATH command, ADRCI utility [20.9.21](oracle-adr-command-interpreter-adrci.md)
+- SHOW HOMES command, ADRCI utility [20.9.22](oracle-adr-command-interpreter-adrci.md)
+- SHOW INCDIR command, ADRCI utility [20.9.23](oracle-adr-command-interpreter-adrci.md)
+- SHOW INCIDENT command, ADRCI utility [20.9.24](oracle-adr-command-interpreter-adrci.md)
+- SHOW LOG command, ADRCI utility [20.9.25](oracle-adr-command-interpreter-adrci.md)
+- SHOW parameter
+  - Import utility [26.7.25](oracle-original-import-utility.md)
+- SHOW PROBLEM command, ADRCI utility [20.9.26](oracle-adr-command-interpreter-adrci.md)
+- SHOW REPORT command, ADRCI utility [20.9.27](oracle-adr-command-interpreter-adrci.md)
+- SHOW TRACEFILE command, ADRCI utility [20.9.28](oracle-adr-command-interpreter-adrci.md)
+- SILENT parameter
+  - SQL\*Loader command line [13.3.17](oracle-sql-loader-express-mode.md)
+  - SQL\*Loader express mode [13.3.17](oracle-sql-loader-express-mode.md)
+- single-byte character sets
+  - Export and Import [25.12.3](oracle-original-export-utility.md), [26.14.3](oracle-original-import-utility.md)
+- SINGLEROW parameter [9.19.2](oracle-sql-loader-control-file-contents.md)
+- single-table loads
+  - continuing [9.16.5](oracle-sql-loader-control-file-contents.md)
+- SKIP_INDEX_MAINTENANCE parameter
+  - SQL\*Loader command line [8.2.35](oracle-sql-loader-commands.md)
+- SKIP_UNUSABLE_INDEXES parameter
+  - Import utility [26.7.26](oracle-original-import-utility.md)
+  - SQL\*Loader command line [8.2.36](oracle-sql-loader-commands.md)
+- SKIP_USABLE_INDEXES parameter
+  - Data Pump Import utility [3.4.43](datapump-import-utility.md)
+- SKIP parameter
+  - effect on SQL\*Loader RECNUM specification [10.15.4](oracle-sql-loader-field-list-contents.md)
+  - SQL\*Loader command line [8.2.34](oracle-sql-loader-commands.md)
+- skipping unusable indexes [8.2.36](oracle-sql-loader-commands.md)
+- snapshot log
+  - Import [26.18.1](oracle-original-import-utility.md)
+- snapshots [26.18.2](oracle-original-import-utility.md)
+  - importing [26.18](oracle-original-import-utility.md)
+  - master table
+    - Import [26.18.1](oracle-original-import-utility.md)
+  - restoring dropped
+    - Import [26.18.2.1](oracle-original-import-utility.md)
+- SORTED INDEXES clause
+  - direct path loads [9.19.1](oracle-sql-loader-control-file-contents.md)
+  - SQL\*Loader [12.6.3.2](oracle-sql-loader-conventional-and-direct-loads.md)
+- sorting
+  - multiple-column indexes
+    - SQL\*Loader [12.6.3.4](oracle-sql-loader-conventional-and-direct-loads.md)
+  - optimum sort order
+    - SQL\*Loader [12.6.3.5](oracle-sql-loader-conventional-and-direct-loads.md)
+  - presorting in direct path load [12.6.3](oracle-sql-loader-conventional-and-direct-loads.md)
+  - SORTED INDEXES clause
+    - SQL\*Loader [12.6.3.2](oracle-sql-loader-conventional-and-direct-loads.md)
+- SOURCE_EDITION parameter
+  - Data Pump Export utility [2.4.43](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.44](datapump-import-utility.md)
+- SPOOL command, ADRCI utility [20.9.29](oracle-adr-command-interpreter-adrci.md)
+- SQL\*Loader
+  - and OSON [12.4.1](oracle-sql-loader-conventional-and-direct-loads.md)
+  - appending rows to tables [9.18.2.2.1](oracle-sql-loader-control-file-contents.md)
+  - auditing direct path loads [12.5.9](oracle-sql-loader-conventional-and-direct-loads.md)
+  - BAD command-line parameter [8.2.1](oracle-sql-loader-commands.md)
+  - bad file [13.3.1](oracle-sql-loader-express-mode.md)
+  - BADFILE parameter [9.11.1](oracle-sql-loader-control-file-contents.md)
+  - bad files [8.2.1](oracle-sql-loader-commands.md)
+  - bind arrays and performance [9.21.2](oracle-sql-loader-control-file-contents.md)
+  - BINDSIZE command-line parameter [8.2.2](oracle-sql-loader-commands.md), [9.21.3](oracle-sql-loader-control-file-contents.md)
+  - choosing which rows to load [9.18.4](oracle-sql-loader-control-file-contents.md)
+  - COLUMNARRAYROWS command-line parameter [8.2.3](oracle-sql-loader-commands.md)
+  - command-line parameters [8.1](oracle-sql-loader-commands.md)
+  - continuing single-table loads [9.16.5](oracle-sql-loader-control-file-contents.md)
+  - CONTROL command-line parameter [8.2.4](oracle-sql-loader-commands.md)
+  - control file [9.1](oracle-sql-loader-control-file-contents.md)
+  - conventional path loads [7.9.1](oracle-sql-loader-concepts.md), [12.3](oracle-sql-loader-conventional-and-direct-loads.md)
+  - DATA command-line parameter [8.2.5](oracle-sql-loader-commands.md), [13.3.4](oracle-sql-loader-express-mode.md)
+  - data conversion [7.6](oracle-sql-loader-concepts.md)
+  - data definition language
+    - syntax diagrams [A](oracle-sql-loader-syntax-diagrams.md)
+  - data type specifications [7.6](oracle-sql-loader-concepts.md)
+  - DATE_CACHE command-line parameter [8.2.6](oracle-sql-loader-commands.md)
+  - DEGREE_OF_PARALLELISM command-line parameter [8.2.8](oracle-sql-loader-commands.md)
+  - determining default schema [9.18.1.1](oracle-sql-loader-control-file-contents.md)
+  - DIRECT command-line parameter [8.2.9](oracle-sql-loader-commands.md)
+  - direct path method [7.9.2](oracle-sql-loader-concepts.md)
+    - auditing [12.5.9](oracle-sql-loader-conventional-and-direct-loads.md)
+    - using the date cache feature to improve performance [12.6.7](oracle-sql-loader-conventional-and-direct-loads.md)
+  - DISCARD command-line parameter [8.2.11](oracle-sql-loader-commands.md)
+  - discarded records [7.7](oracle-sql-loader-concepts.md)
+  - DISCARDFILE parameter [9.12.2](oracle-sql-loader-control-file-contents.md)
+  - DISCARDMAX command-line parameter [8.2.12](oracle-sql-loader-commands.md)
+  - DISCARDMAX parameter [9.12.3](oracle-sql-loader-control-file-contents.md)
+  - DISCARDS parameter [9.12.3](oracle-sql-loader-control-file-contents.md)
+  - DNFS_ENABLE command-line parameter [8.2.13](oracle-sql-loader-commands.md)
+  - DNFS_READBUFFERS command-line parameter [8.2.14](oracle-sql-loader-commands.md)
+  - DOUBLE nonportable data type [10.4.2.6](oracle-sql-loader-field-list-contents.md)
+  - errors caused by tabs [10.2.1](oracle-sql-loader-field-list-contents.md)
+  - ERRORS command-line parameter [8.2.16](oracle-sql-loader-commands.md)
+  - exclusive access [12.9.3](oracle-sql-loader-conventional-and-direct-loads.md)
+  - express mode [13](oracle-sql-loader-express-mode.md)
+  - EXTERNAL_TABLE command-line parameter [8.2.17](oracle-sql-loader-commands.md)
+  - external table loads [7.9.4](oracle-sql-loader-concepts.md)
+  - FILE command-line parameter [8.2.18](oracle-sql-loader-commands.md)
+  - file names [9.4](oracle-sql-loader-control-file-contents.md)
+  - globalization technology [9.15](oracle-sql-loader-control-file-contents.md)
+  - index options [9.19](oracle-sql-loader-control-file-contents.md)
+  - inserting rows into tables [9.18.2.1](oracle-sql-loader-control-file-contents.md)
+  - INTO TABLE statement [9.18](oracle-sql-loader-control-file-contents.md)
+  - Length-Value portable data type [10.4.3.11](oracle-sql-loader-field-list-contents.md)
+  - LOAD command-line parameter [8.2.20](oracle-sql-loader-commands.md), [13.3.13](oracle-sql-loader-express-mode.md)
+  - loading column objects [11.1](loading-objects-oracle-sql-loader.md)
+  - loading data across different platforms [10.8](oracle-sql-loader-field-list-contents.md)
+  - loading data contained in the control file [10.15.1](oracle-sql-loader-field-list-contents.md)
+  - loading object tables [11.2](loading-objects-oracle-sql-loader.md)
+  - load methods [12.1](oracle-sql-loader-conventional-and-direct-loads.md)
+  - LOG command-line parameter [8.2.21](oracle-sql-loader-commands.md)
+  - log files [7.8](oracle-sql-loader-concepts.md)
+  - methods of loading data [7.9](oracle-sql-loader-concepts.md)
+  - multiple INTO TABLE statements [9.20](oracle-sql-loader-control-file-contents.md)
+  - MULTITHREADING command-line parameter [8.2.22](oracle-sql-loader-commands.md)
+  - NO_INDEX_ERRORS command-line parameter [8.2.23](oracle-sql-loader-commands.md)
+  - object names [9.4](oracle-sql-loader-control-file-contents.md)
+  - PARALLEL command-line parameter [8.2.24](oracle-sql-loader-commands.md)
+  - parallel data loading [12.10.1](oracle-sql-loader-conventional-and-direct-loads.md), [12.10.4](oracle-sql-loader-conventional-and-direct-loads.md), [12.11](oracle-sql-loader-conventional-and-direct-loads.md)
+  - portable data types [10.4.3](oracle-sql-loader-field-list-contents.md)
+  - READSIZE command-line parameter [8.2.27](oracle-sql-loader-commands.md)
+    - maximum size [8.2.27](oracle-sql-loader-commands.md)
+  - rejected records [7.7](oracle-sql-loader-concepts.md)
+  - replacing rows in tables [9.18.2.2.2](oracle-sql-loader-control-file-contents.md)
+  - required privileges [12.1](oracle-sql-loader-conventional-and-direct-loads.md)
+  - RESUMABLE_NAME command-line parameter [8.2.29](oracle-sql-loader-commands.md)
+  - RESUMABLE_TIMEOUT command-line parameter [8.2.30](oracle-sql-loader-commands.md)
+  - RESUMABLE command-line parameter [8.2.28](oracle-sql-loader-commands.md)
+  - ROWS command-line parameter [8.2.31](oracle-sql-loader-commands.md)
+  - SILENT command-line parameter [13.3.17](oracle-sql-loader-express-mode.md)
+  - SINGLEROW parameter [9.19.2](oracle-sql-loader-control-file-contents.md)
+  - SKIP_UNUSABLE_INDEXES command-line parameter [8.2.36](oracle-sql-loader-commands.md)
+  - SKIP command-line parameter [8.2.34](oracle-sql-loader-commands.md)
+  - SORTED INDEXES during direct path loads [9.19.1](oracle-sql-loader-control-file-contents.md)
+  - specifying columns [10.3](oracle-sql-loader-field-list-contents.md)
+  - specifying data files [9.7.1](oracle-sql-loader-control-file-contents.md)
+  - specifying field conditions [10.5](oracle-sql-loader-field-list-contents.md)
+  - specifying fields [10.3](oracle-sql-loader-field-list-contents.md)
+  - specifying load method [8.2.9](oracle-sql-loader-commands.md)
+  - specifying more than one data file [9.7.3](oracle-sql-loader-control-file-contents.md)
+  - STREAMSIZE command-line parameter [8.2.37](oracle-sql-loader-commands.md)
+  - suppressing messages [13.3.17](oracle-sql-loader-express-mode.md)
+  - TRIM command-line parameter [8.2.38](oracle-sql-loader-commands.md)
+  - USERID command-line parameter [8.2.39](oracle-sql-loader-commands.md), [13.3.22](oracle-sql-loader-express-mode.md)
+- SQL\*Loader control files
+  - guidelines when creating [7.3](oracle-sql-loader-concepts.md)
+- SQL\*Loader data type [10.4.3.4](oracle-sql-loader-field-list-contents.md)
+- SQL\*Loader data types
+  - nonportable [10.4.2](oracle-sql-loader-field-list-contents.md)
+- SQL\*Loader express mode [13](oracle-sql-loader-express-mode.md), [13.2](oracle-sql-loader-express-mode.md)
+  - BAD parameter [13.3.1](oracle-sql-loader-express-mode.md)
+  - byte-order handling [13.2.2](oracle-sql-loader-express-mode.md)
+  - CHARACTERSET parameter [13.3.2](oracle-sql-loader-express-mode.md)
+  - CSV parameter [13.3.3](oracle-sql-loader-express-mode.md)
+  - DATA parameter [13.3.4](oracle-sql-loader-express-mode.md)
+  - DATE_FORMAT parameter [13.3.5](oracle-sql-loader-express-mode.md)
+  - default values [13.2.1](oracle-sql-loader-express-mode.md)
+  - DEGREE_OF_PARALLELISM parameter [13.3.6](oracle-sql-loader-express-mode.md)
+  - DIRECT parameter [13.3.7](oracle-sql-loader-express-mode.md)
+  - DNFS_ENABLE parameter [13.3.8](oracle-sql-loader-express-mode.md)
+  - DNFS_READBUFFERS parameter [13.3.9](oracle-sql-loader-express-mode.md)
+  - ENCLOSED_BY parameter [13.3.10](oracle-sql-loader-express-mode.md)
+  - EXTERNAL_TABLE parameter [13.3.11](oracle-sql-loader-express-mode.md)
+  - FIELD_NAMES parameter [13.3.12](oracle-sql-loader-express-mode.md)
+  - LOAD parameter [13.3.13](oracle-sql-loader-express-mode.md)
+  - NULLIF parameter [13.3.14](oracle-sql-loader-express-mode.md)
+  - OPTIONALLY_ENCLOSED_BY parameter [13.3.15](oracle-sql-loader-express-mode.md)
+  - PARFILE parameter [13.3.16](oracle-sql-loader-express-mode.md)
+  - SILENT parameter [13.3.17](oracle-sql-loader-express-mode.md)
+  - syntax diagrams [13.4](oracle-sql-loader-express-mode.md)
+  - TABLE parameter [13.3.18](oracle-sql-loader-express-mode.md)
+  - TERMINATED_BY parameter [13.3.19](oracle-sql-loader-express-mode.md)
+  - TIMESTAMP_FORMAT parameter [13.3.20](oracle-sql-loader-express-mode.md)
+  - TRIM parameter [13.3.21](oracle-sql-loader-express-mode.md)
+  - USERID parameter [13.3.22](oracle-sql-loader-express-mode.md)
+- SQL\*Loader utility
+  - PARTITION_MEMORY parameter [8.2.26](oracle-sql-loader-commands.md)
+- SQLFILE parameter
+  - Data Pump Import utility [3.4.45](datapump-import-utility.md)
+- SQL operators
+  - applying to fields [10.14](oracle-sql-loader-field-list-contents.md)
+- SQL strings
+  - applying SQL operators to fields [10.14](oracle-sql-loader-field-list-contents.md)
+  - quotation marks and [9.4.2](oracle-sql-loader-control-file-contents.md)
+- START_JOB parameter
+  - Data Pump Export utility
+    - interactive-command mode [2.5.9](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility
+    - interactive-command mode [3.5.7](datapump-import-utility.md)
+- starting
+  - LogMiner utility [23.5](oracle-logminer-utility.md)
+- start parameter
+  - field_definitions Clause [15.4.5.2](oracle_loader-access-driver.md)
+  - pos_spec Clause [15.4.5.2](oracle_loader-access-driver.md)
+- statistics
+  - analyzer [26.24](oracle-original-import-utility.md)
+  - optimizer [26.24](oracle-original-import-utility.md)
+  - specifying for Import [26.7.27](oracle-original-import-utility.md)
+- STATISTICS parameter
+  - Import utility [26.7.27](oracle-original-import-utility.md)
+- STATUS parameter
+  - Data Pump Export utility [2.4.44](oracle-data-pump-export-utility.md)
+    - interactive-command mode [2.5.10](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.46](datapump-import-utility.md)
+    - interactive-command mode [3.5.8](datapump-import-utility.md)
+- STOP_JOB parameter
+  - Data Pump Export utility
+    - interactive-command mode [2.5.11](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility
+    - interactive-command mode [3.5.9](datapump-import-utility.md)
+- storage parameters
+  - estimating export requirements [25.2.3](oracle-original-export-utility.md)
+  - OPTIMAL parameter [26.20.1](oracle-original-import-utility.md)
+  - overriding
+    - Import [26.20.3](oracle-original-import-utility.md)
+  - preallocating
+    - direct path load [12.6.2](oracle-sql-loader-conventional-and-direct-loads.md)
+  - temporary for a direct path load [12.5.3.2](oracle-sql-loader-conventional-and-direct-loads.md)
+  - using with Export/Import [26.20](oracle-original-import-utility.md)
+- stored functions
+  - importing [26.16.7](oracle-original-import-utility.md)
+    - effect of COMPILE parameter [26.16.7](oracle-original-import-utility.md)
+- stored package [26.16.7](oracle-original-import-utility.md)
+- stored packages
+  - importing [26.16.7](oracle-original-import-utility.md)
+- stored procedures
+  - direct path load [12.9.2.6](oracle-sql-loader-conventional-and-direct-loads.md)
+  - importing [26.16.7](oracle-original-import-utility.md)
+    - effect of COMPILE parameter [26.16.7](oracle-original-import-utility.md)
+- stream buffer
+  - specifying size for direct path [12.6.6](oracle-sql-loader-conventional-and-direct-loads.md)
+- stream record format [7.4.3](oracle-sql-loader-concepts.md)
+  - loading column objects in [11.1.1](loading-objects-oracle-sql-loader.md)
+- STREAMS_CONFIGURATION parameter
+  - Data Pump Import utility [3.4.47](datapump-import-utility.md)
+  - Import utility [26.7.28](oracle-original-import-utility.md)
+- STREAMS_INSTANTIATION parameter
+  - Import utility [26.7.29](oracle-original-import-utility.md)
+- STREAMSIZE parameter
+  - SQL\*Loader command line [8.2.37](oracle-sql-loader-commands.md)
+- string comparisons
+  - SQL\*Loader [10.5.3](oracle-sql-loader-field-list-contents.md)
+- subpartitioned tables
+  - loading [12.4.3](oracle-sql-loader-conventional-and-direct-loads.md)
+- subtypes
+  - loading multiple [9.20.3](oracle-sql-loader-control-file-contents.md)
+- supplemental logging [23.10](oracle-logminer-utility.md)
+  - See also: LogMiner utility
+
+  <!-- -->
+
+  - LogMiner utility [23.10](oracle-logminer-utility.md)
+    - database-level identification keys [23.10.1.2](oracle-logminer-utility.md)
+    - log groups [23.10](oracle-logminer-utility.md)
+    - table-level [23.10.3](oracle-logminer-utility.md)
+    - table-level identification keys [23.10.3.1](oracle-logminer-utility.md)
+    - table-level log groups [23.10.3.2](oracle-logminer-utility.md)
+- synonyms
+  - exporting [25.14.11](oracle-original-export-utility.md)
+- syntax diagrams
+  - Data Pump Export [2.7](oracle-data-pump-export-utility.md)
+  - Data Pump Import [3.7](datapump-import-utility.md)
+  - SQL\*Loader [A](oracle-sql-loader-syntax-diagrams.md)
+  - SQL\*Loader express mode [13.4](oracle-sql-loader-express-mode.md)
+- SYSDATE parameter
+  - SQL\*Loader [10.15.5](oracle-sql-loader-field-list-contents.md)
+- system-generated OID REF columns [11.3.2](loading-objects-oracle-sql-loader.md)
+- system objects
+  - importing [26.2.2.4](oracle-original-import-utility.md)
+- system triggers
+  - effect on import [26.4](oracle-original-import-utility.md)
+  - testing [26.4](oracle-original-import-utility.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- TABLE_EXISTS_ACTION parameter
+  - Data Pump Import utility [3.4.48](datapump-import-utility.md)
+- table compression
+  - specifying type in Data Pump jobs [3.4.53](datapump-import-utility.md)
+- table-level Export [25.4.1](oracle-original-export-utility.md)
+- table-level Import [26.11](oracle-original-import-utility.md)
+- table-mode Export
+  - Data Pump Export utility [2.2.2.3](oracle-data-pump-export-utility.md)
+  - specifying [25.5.26](oracle-original-export-utility.md)
+- table-mode Import
+  - examples [26.8.1](oracle-original-import-utility.md)
+- table names
+  - preserving case sensitivity [25.5.26](oracle-original-export-utility.md), [25.5.26.1](oracle-original-export-utility.md)
+- TABLE parameter
+  - SQL\*Loader express mode [13.3.18](oracle-sql-loader-express-mode.md)
+- tables
+  - Advanced Queuing
+    - exporting [25.14.10](oracle-original-export-utility.md)
+    - importing [26.16.10](oracle-original-import-utility.md)
+  - appending rows with SQL\*Loader [9.18.2.2.1](oracle-sql-loader-control-file-contents.md)
+  - containing object types
+    - importing [26.16.2](oracle-original-import-utility.md)
+  - defining before Import [26.3.1](oracle-original-import-utility.md)
+  - definitions
+    - creating before Import [26.3.1](oracle-original-import-utility.md)
+  - exclusive access during direct path loads
+    - SQL\*Loader [12.9.3](oracle-sql-loader-conventional-and-direct-loads.md)
+  - external [14](oracle-external-tables-concepts.md)
+  - importing [26.7.30](oracle-original-import-utility.md)
+  - inserting rows using SQL\*Loader [9.18.2.1](oracle-sql-loader-control-file-contents.md)
+  - insert triggers
+    - direct path load in SQL\*Loader [12.9.2](oracle-sql-loader-conventional-and-direct-loads.md)
+  - loading data into more than one table using SQL\*Loader [9.20](oracle-sql-loader-control-file-contents.md)
+  - loading object tables [11.2](loading-objects-oracle-sql-loader.md)
+  - maintaining consistency during Export [25.5.3](oracle-original-export-utility.md)
+  - manually ordering for Import [26.3.3](oracle-original-import-utility.md)
+  - master table
+    - Import [26.18.1](oracle-original-import-utility.md)
+  - name restrictions
+    - Export [25.5.26](oracle-original-export-utility.md), [25.5.26.1](oracle-original-export-utility.md)
+    - Import [2.4.45](oracle-data-pump-export-utility.md), [3.4.50](datapump-import-utility.md), [26.7.30](oracle-original-import-utility.md), [26.7.30.1](oracle-original-import-utility.md)
+  - nested
+    - exporting [25.14.9](oracle-original-export-utility.md)
+    - importing [26.16.3](oracle-original-import-utility.md)
+  - objects
+    - order of import [26.1.1](oracle-original-import-utility.md)
+  - partitioned [25.4.1](oracle-original-export-utility.md)
+  - replacing rows using SQL\*Loader [9.18.2.2.2](oracle-sql-loader-control-file-contents.md)
+  - specifying for export [25.5.26](oracle-original-export-utility.md)
+  - specifying table-mode Export [25.5.26](oracle-original-export-utility.md)
+  - SQL\*Loader method for individual tables [9.18.2](oracle-sql-loader-control-file-contents.md)
+  - truncating
+    - SQL\*Loader [9.18.2.2.4](oracle-sql-loader-control-file-contents.md)
+  - updating existing rows using SQL\*Loader [9.18.2.2.3](oracle-sql-loader-control-file-contents.md)
+- tablespace mode Export
+  - Data Pump Export utility [2.2.2.4](oracle-data-pump-export-utility.md)
+- tablespaces
+  - dropping during import [26.22](oracle-original-import-utility.md)
+  - exporting a set of [25.15](oracle-original-export-utility.md), [26.19](oracle-original-import-utility.md)
+  - metadata
+    - transporting [26.7.34](oracle-original-import-utility.md)
+  - read-only
+    - Import [26.21](oracle-original-import-utility.md)
+  - reorganizing
+    - Import [26.23](oracle-original-import-utility.md)
+- TABLESPACES parameter
+  - Data Pump Export utility [2.4.46](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.51](datapump-import-utility.md)
+  - Export utility [25.5.27](oracle-original-export-utility.md)
+  - Import utility [26.7.31](oracle-original-import-utility.md)
+- TABLES parameter
+  - Data Pump Export utility [2.4.45](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.50](datapump-import-utility.md)
+  - Export utility [25.5.26](oracle-original-export-utility.md)
+  - Import utility [26.7.30](oracle-original-import-utility.md)
+- tabs
+  - loading datafiles containing tabs [10.2.1](oracle-sql-loader-field-list-contents.md)
+  - trimming [10.11](oracle-sql-loader-field-list-contents.md)
+  - whitespace [10.11](oracle-sql-loader-field-list-contents.md)
+- TARGET_EDITION parameter
+  - Data Pump Import utility [3.4.52](datapump-import-utility.md)
+- temporary segments [12.10.7.1](oracle-sql-loader-conventional-and-direct-loads.md)
+  - FILE parameter
+    - SQL\*Loader [12.10.7.1](oracle-sql-loader-conventional-and-direct-loads.md)
+- temporary storage in a direct path load [12.5.3.2](oracle-sql-loader-conventional-and-direct-loads.md)
+- TERMINATED_BY parameter
+  - SQL\*Loader express mode [13.3.19](oracle-sql-loader-express-mode.md)
+- TERMINATED BY clause
+  - with OPTIONALLY ENCLOSED BY [10.11.2.2](oracle-sql-loader-field-list-contents.md)
+- terminated fields
+  - specified with a delimiter [10.11.2.2](oracle-sql-loader-field-list-contents.md)
+- threshold for parallel import of indexes
+  - Data Pump Import utility
+    - command-line mode [3.4.21](datapump-import-utility.md)
+- TIMESTAMP_FORMAT parameter
+  - SQL\*Loader express mode [13.3.20](oracle-sql-loader-express-mode.md)
+- timestamps
+  - on Data Pump Export operations [2.4.30](oracle-data-pump-export-utility.md)
+  - on Data Pump Import operations [3.4.25](datapump-import-utility.md)
+- TOID_NOVALIDATE parameter
+  - Import utility [26.7.32](oracle-original-import-utility.md)
+- TOUSER parameter
+  - Import utility [26.7.33](oracle-original-import-utility.md)
+- trace files
+  - viewing with ADRCI [20.6](oracle-adr-command-interpreter-adrci.md)
+- trailing blanks
+  - loading with delimiters [10.4.6.4](oracle-sql-loader-field-list-contents.md)
+- TRAILING NULLCOLS parameter
+  - SQL\*Loader utility [9.1](oracle-sql-loader-control-file-contents.md), [9.18.6.1](oracle-sql-loader-control-file-contents.md)
+- trailing whitespace
+  - trimming [10.11.5](oracle-sql-loader-field-list-contents.md)
+- TRANSFORM parameter
+  - Data Pump Import utility [3.4.53](datapump-import-utility.md)
+- transparent data encryption
+  - as handled by Data Pump Export [2.4.16](oracle-data-pump-export-utility.md)
+  - as handled by Data Pump Import [3.4.12](datapump-import-utility.md)
+  - LogMiner support [23.6](oracle-logminer-utility.md)
+- TRANSPORT_DATAFILES parameter
+  - Data Pump Import utility [3.4.54](datapump-import-utility.md)
+- TRANSPORT_FULL_CHECK parameter
+  - Data Pump Export utility [2.4.47](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.55](datapump-import-utility.md)
+- TRANSPORT_TABLESPACE parameter
+  - Export utility [25.5.28](oracle-original-export-utility.md)
+  - Import utility [26.7.34](oracle-original-import-utility.md)
+- TRANSPORT_TABLESPACES parameter
+  - Data Pump Export utility [2.4.48](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.56](datapump-import-utility.md)
+- transportable option
+  - used during full-mode export [2.2.2.1](oracle-data-pump-export-utility.md)
+  - used during full-mode import [3.2.2.2](datapump-import-utility.md)
+  - used during table-mode export [2.4.45](oracle-data-pump-export-utility.md)
+- TRANSPORTABLE parameter
+  - Data Pump Export utility [2.4.49](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.57](datapump-import-utility.md)
+- transportable-tablespace mode Export
+  - Data Pump Export utility [2.2.2.5](oracle-data-pump-export-utility.md)
+- transportable tablespaces [25.15](oracle-original-export-utility.md), [26.19](oracle-original-import-utility.md)
+- triggers
+  - database insert [12.9.2](oracle-sql-loader-conventional-and-direct-loads.md)
+  - LOB columns
+    - importing [26.16.12](oracle-original-import-utility.md)
+  - logon
+    - effect in SQL\*Loader [9.18.1.1](oracle-sql-loader-control-file-contents.md)
+  - permanently disabled [12.9.3](oracle-sql-loader-conventional-and-direct-loads.md)
+  - replacing with integrity constraints [12.9.2.1](oracle-sql-loader-conventional-and-direct-loads.md)
+  - system
+    - testing [26.4](oracle-original-import-utility.md)
+  - update
+    - SQL\*Loader [12.9.2.4](oracle-sql-loader-conventional-and-direct-loads.md)
+- TRIGGERS parameter
+  - Export utility [25.5.29](oracle-original-export-utility.md)
+- trimming
+  - summary [10.11](oracle-sql-loader-field-list-contents.md)
+  - trailing whitespace
+    - SQL\*Loader [10.11.5](oracle-sql-loader-field-list-contents.md)
+- TRIM parameter
+  - SQL\*Loader command line [8.2.38](oracle-sql-loader-commands.md)
+  - SQL\*Loader express mode [13.3.21](oracle-sql-loader-express-mode.md)
+- troubleshooting
+  - ORA-39346 [1.10](oracle-data-pump-overview.md)
+- troubleshooting incidents [20.9.9](oracle-adr-command-interpreter-adrci.md)
+- TTS_CLOSURE_CHECK parameter
+  - Data Pump Export utility [2.4.50](oracle-data-pump-export-utility.md)
+- TTS_FULL_CHECK parameter
+  - Export utility [25.5.30](oracle-original-export-utility.md)
+- TTS_OWNERS parameter
+  - Import utility [26.7.35](oracle-original-import-utility.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- unified auditing
+  - during SQL\*Loader operations [12.5.9](oracle-sql-loader-conventional-and-direct-loads.md)
+- UNIQUE KEY constraints
+  - effect on direct path load [12.10.9](oracle-sql-loader-conventional-and-direct-loads.md)
+- unique values
+  - generating with SQL\*Loader [10.15.6](oracle-sql-loader-field-list-contents.md)
+- unloading entire database
+  - Data Pump Export utility [2.2.2.1](oracle-data-pump-export-utility.md)
+- UNRECOVERABLE clause
+  - SQL\*Loader [12.6.5.2](oracle-sql-loader-conventional-and-direct-loads.md)
+- unsorted data
+  - direct path load
+    - SQL\*Loader [12.6.3.3](oracle-sql-loader-conventional-and-direct-loads.md)
+- USER_SEGMENTS view
+  - Export and [25.2.3](oracle-original-export-utility.md)
+- user-defined constructors [11.1.6](loading-objects-oracle-sql-loader.md)
+  - loading column objects with [11.1.6](loading-objects-oracle-sql-loader.md)
+- USERID parameter
+  - Export utility [25.5.31](oracle-original-export-utility.md)
+  - Import utility [26.7.36](oracle-original-import-utility.md)
+  - SQL\*Loader command line [8.2.39](oracle-sql-loader-commands.md), [13.3.22](oracle-sql-loader-express-mode.md)
+  - SQL\*Loader express mode [13.3.22](oracle-sql-loader-express-mode.md)
+- user mode export
+  - specifying [25.5.17](oracle-original-export-utility.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- V\$DATABASE view [23.11](oracle-logminer-utility.md)
+- V\$LOGMNR_CONTENTS view [23.6.1](oracle-logminer-utility.md)
+  - formatting information returned to [23.7](oracle-logminer-utility.md)
+  - impact of querying [23.6.1](oracle-logminer-utility.md)
+  - information within [23.6](oracle-logminer-utility.md)
+  - limiting information returned to [23.7](oracle-logminer-utility.md)
+  - LogMiner utility [23.2.2](oracle-logminer-utility.md)
+  - requirements for querying [23.5](oracle-logminer-utility.md), [23.6.1](oracle-logminer-utility.md)
+- V\$LOGMNR_LOGS view [23.4.2](oracle-logminer-utility.md)
+  - querying [23.11.2](oracle-logminer-utility.md)
+- V\$SESSION_LONGOPS view
+  - monitoring Data Pump jobs with [1.8](oracle-data-pump-overview.md)
+- VARCHAR2 data type
+  - SQL\*Loader [10.4.4](oracle-sql-loader-field-list-contents.md)
+- variable-length records
+  - external tables [15.3.3](oracle_loader-access-driver.md)
+- variable records [7.4.2](oracle-sql-loader-concepts.md)
+  - format [11.1.2](loading-objects-oracle-sql-loader.md)
+- VARRAY columns
+  - memory issues when loading [11.8.1](loading-objects-oracle-sql-loader.md)
+- VERSION parameter
+  - Data Pump Export utility [2.4.51](oracle-data-pump-export-utility.md)
+  - Data Pump Import utility [3.4.58](datapump-import-utility.md)
+- viewing
+  - trace files with ADRCI [20.6](oracle-adr-command-interpreter-adrci.md)
+- views
+  - exporting as tables [2.4.52](oracle-data-pump-export-utility.md)
+- Views
+  - importing [26.16.13](oracle-original-import-utility.md)
+- VIEWS_AS_TABLES
+  - Data Pump Export parameter [2.4.52](oracle-data-pump-export-utility.md)
+- VIEWS_AS_TABLES (Network Import)
+  - Data Pump Import parameter [3.4.59](datapump-import-utility.md)
+- VIEWS_AS_TABLES parameter
+  - Data Pump Export utility [2.4.52](oracle-data-pump-export-utility.md)
+- VIEWS_AS_TABLES parameter (Network Import)
+  - Data Pump Import utility [3.4.59](datapump-import-utility.md)
+- VOLSIZE parameter
+  - Export utility [25.5.32](oracle-original-export-utility.md)
+  - Import utility [26.7.37](oracle-original-import-utility.md)
+
+------------------------------------------------------------------------
+
+## W
+
+- warning messages
+  - Export [25.7.2](oracle-original-export-utility.md)
+  - Import [25.7.2](oracle-original-export-utility.md)
+- WHEN clause
+  - SQL\*Loader [9.18.4](oracle-sql-loader-control-file-contents.md), [10.5](oracle-sql-loader-field-list-contents.md)
+  - SQL\*Loader discards resulting from [9.12.5](oracle-sql-loader-control-file-contents.md)
+- whitespace
+  - included in a field [10.11.4](oracle-sql-loader-field-list-contents.md)
+  - leading [10.11.1](oracle-sql-loader-field-list-contents.md)
+  - preserving [10.12](oracle-sql-loader-field-list-contents.md)
+  - terminating a field [10.11.4.1](oracle-sql-loader-field-list-contents.md)
+  - trimming [10.11](oracle-sql-loader-field-list-contents.md)
+
+------------------------------------------------------------------------
+
+## X
+
+- XML columns
+  - loading with SQL\*Loader [11.4](loading-objects-oracle-sql-loader.md)
+  - treatment by SQL\*Loader [11.4](loading-objects-oracle-sql-loader.md)
+- XMLTYPE clause
+  - in SQL\*Loader control file [9.5](oracle-sql-loader-control-file-contents.md)
+- XML type tables
+  - identifying in SQL\*Loader [9.5](oracle-sql-loader-control-file-contents.md)

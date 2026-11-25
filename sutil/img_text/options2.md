@@ -1,0 +1,17 @@
+#
+
+    options2 ::=
+
+    (
+    READSIZE = n
+    RESUMABLE = {TRUE | FALSE}
+    RESUMABLE_NAME = 'text string'
+    RESUMABLE_TIMEOUT = n
+    ROWS = n
+    SILENT = {HEADER | FEEDBACK| ERRORS | DISCARDS | PARTITIONS | ALL}
+    SKIP = n
+    SKIP_INDEX_MAINTENANCE = {TRUE | FALSE}
+    SKIP_UNUSABLE_INDEXES = {TRUE | FALSE}
+    STREAMSIZE = n
+    TRIM = {LRTRIM | NOTRIM | TRIM | RTRIM | LDRTRIM}
+    )

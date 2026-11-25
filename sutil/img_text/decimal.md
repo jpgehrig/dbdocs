@@ -1,0 +1,5 @@
+#
+
+    decimal ::=
+
+      DECIMAL (precision [ , scale ])

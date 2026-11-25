@@ -1,0 +1,5 @@
+#
+
+    into_table4 ::=
+
+      [ [EVALUATE CHECK_CONSTRAINTS] [REENABLE] [DISABLED_CONSTRAINTS] ]
