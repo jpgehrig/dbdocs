@@ -1,0 +1,1 @@
+HR web Application has several functionalities. “List All” is the functionality where the details of employees such as Employee_id, First_name, Last_Name, Email, Phone_number, Job_id, Salary etc., are retrieved from the “Employees” table and shown on a web page. See the screenshot below that shows “List All” functionality.
