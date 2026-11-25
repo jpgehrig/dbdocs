@@ -1,0 +1,12 @@
+Learn how to make volume-based backups of a NOARCHIVELOG database.
+
+To back up the database by volume:
+
+1.  Start a SQL\*Plus session on the target database and place the database in a consistent state. For example, enter the following commands:
+        SHUTDOWN
+        STARTUP MOUNT
+2.  Use a third-party VSS requester to select the volumes where the data files, control files, and server parameter file are physically located.
+3.  Create a volume-based VSS snapshot.
+    Oracle VSS writer includes the server parameter file, control file, and data files in the snapshot. The online redo logs are not included in the snapshot. Note that you can restore the server parameter file individually, but the control files and data files must be always restored together.
+
+**Parent topic:** [About Backing Up a Database in NOARCHIVELOG Mode](about-backing-up-a-database-in-noarchivelog-mode.md)

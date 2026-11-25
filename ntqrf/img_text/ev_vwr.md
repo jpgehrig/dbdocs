@@ -1,0 +1,1 @@
+Screen shot of the Windows Event Viewer. Menu options are File, Action, View, and Help. Each event is a row in a table with fields listed and described in the table. Each event has a color-coded icon to indicate the type (or severity) of the event.

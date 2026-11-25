@@ -1,0 +1,961 @@
+A  B  C  D  E  F  H  I  L  M  N  O  P  Q  R  S  T  U  V  W  
+
+------------------------------------------------------------------------
+
+## A
+
+- Access Control Lists (ACL)
+  - adding and deleting security group members [1](adding-and-deleting-security-group-members.md)
+  - available security groups [1](overview-of-access-control-list-management-for-oracle-directory-objects.md)
+  - setting NTFS ACLs manually [1](setting-file-system-acls-manually.md)
+  - setting on Net Service directory objects [1](setting-acls-on-net-service-entries.md)
+- accessing Active Directory [1](about-accessing-active-directory.md)
+- ACLs
+  - adding and deleting security group members [1](adding-and-deleting-security-group-members.md)
+  - available security groups [1](overview-of-access-control-list-management-for-oracle-directory-objects.md)
+  - setting NTFS ACLs manually [1](setting-file-system-acls-manually.md)
+  - setting on Net Service directory objects [1](setting-acls-on-net-service-entries.md)
+- Active Directory
+  - adding and deleting security group members [1](adding-and-deleting-security-group-members.md)
+  - automatic discovery of directory servers [1](about-automatic-discovery-of-directory-servers.md)
+  - how Oracle directory objects appear [1](overview-of-oracle-directory-objects-in-active-directory.md)
+  - integration with Oracle objects [1](about-integration-with-windows-tools.md)
+  - managing Access Control Lists [1](overview-of-access-control-list-management-for-oracle-directory-objects.md)
+  - managing security groups [1](overview-of-access-control-list-management-for-oracle-directory-objects.md)
+  - testing connectivity with SQL\*Plus [1](about-user-interface-extensions-for-oracle-net-directory-naming.md)
+  - testing database connectivity [1](about-user-interface-extensions-for-oracle-net-directory-naming.md)
+  - user interface extensions [1](about-user-interface-extensions-for-oracle-net-directory-naming.md)
+- adding and deleting users
+  - Net Service Objects [1](adding-and-deleting-security-group-members.md)
+  - OracleDBCreators [1](adding-and-deleting-security-group-members.md)
+  - OracleNetAdmins [1](adding-and-deleting-security-group-members.md)
+- adding executables [1](overview-of-different-executables.md)
+  - firewall exceptions for Oracle Clusterware and Oracle ASM [1](about-firewall-exceptions-for-oracle-clusterware-and-oracle-asm.md)
+  - firewall exceptions for Oracle Database [1](about-firewall-exceptions-for-oracle-database.md)
+  - firewall exceptions for Oracle Database Examples [1](about-firewall-exceptions-for-oracle-database-examples.md)
+  - firewall exceptions for Oracle Gateways [1](about-firewall-exceptions-for-oracle-gateways.md)
+  - firewall exceptions for other Oracle Products [1](about-firewall-exceptions-for-other-oracle-products.md)
+- administering external roles [1](overview-of-manually-administering-external-users-and-roles.md)
+- administration tools prompting for password
+  - Domain User Account [1](starting-database-tools.md)
+  - Local User Account [1](starting-database-tools.md)
+  - password not stored in Oracle Wallet [1](starting-database-tools.md)
+- administrator
+  - starting ASMCA tool
+    - member of ORA_ASMADMIN [1](starting-database-tools.md)
+  - starting DBCA tool
+    - member of ORA_DBA [1](starting-database-tools.md)
+  - starting DBUA tool
+    - member of ORA_ASMADMIN [1](starting-database-tools.md)
+- Administrators group
+  - running configuration tools [1](running-tools-with-windows-user-account-control.md)
+- advanced replication
+  - about [1](about-advanced-replication-on-windows.md)
+  - configuring
+    - adding and modifying initialization parameters [1](adding-and-modifying-initialization-parameters.md)
+    - checking tablespace [1](about-checking-tablespace-and-rollback-segment-requirements.md)
+    - monitoring data dictionary tables [1](monitoring-data-dictionary-tables.md)
+- alert logs
+  - monitoring a database [1](overview-of-database-monitoring-tools.md)
+  - using [1](about-trace-files.md)
+- archiving mode
+  - controlling [1](archiving-redo-log-files.md), [2](about-archiving-redo-log-files.md)
+  - custom database [1](archiving-redo-log-files.md), [2](about-archiving-redo-log-files.md)
+  - starter database [1](archiving-redo-log-files.md), [2](about-archiving-redo-log-files.md)
+- archiving procedures
+  - for redo log files [1](archiving-redo-log-files.md), [2](about-archiving-redo-log-files.md)
+- archiving redo log files [1](archiving-redo-log-files.md), [2](about-archiving-redo-log-files.md)
+- AUDIT_FILE_DEST [1](managing-event-viewer.md), [2](overview-of-initialization-parameters-without-windows-specific-values.md)
+- audit trail
+  - managing [1](managing-event-viewer.md)
+  - operating system [1](using-event-viewer-to-monitor-a-database.md)
+- Authenticated Users [1](about-windows-authenticated-users.md)
+  - permissions for Oracle Database Client Oracle home [1](about-default-file-permissions-set-by-oracle-universal-installer.md)
+  - permissions for Oracle Database Oracle home [1](about-default-file-permissions-set-by-oracle-universal-installer.md)
+  - permissions for Oracle Grid Infrastructure Oracle home [1](about-default-file-permissions-set-by-oracle-universal-installer.md)
+- Authenticated Users group [1](about-default-file-permissions-set-by-oracle-universal-installer.md)
+- authentication
+  - automatically enabling during installation [1](overview-of-operating-system-authentication-enabled-at-installation.md)
+  - enhancements [1](about-user-authentication-and-role-authorization-methods.md)
+  - OSAUTH_PREFIX_DOMAIN parameter [1](performing-external-user-authentication-tasks-on-the-oracle-database-server.md)
+  - overview [1](overview-of-windows-native-authentication.md), [2](configuring-client-computers-and-oracle-database-to-use-active-directory.md)
+  - using a password file [1](creating-and-populating-password-files.md)
+  - using Windows native authentication methods [1](configuring-client-computers-and-oracle-database-to-use-active-directory.md)
+  - using Windows native methods [1](overview-of-windows-native-authentication.md)
+- auto-starting Oracle Database services [1](auto-starting-oracle-database-services.md)
+  - using Control Panel [1](auto-starting-oracle-database-services.md)
+  - using Oracle Administration Assistant [1](auto-starting-oracle-database-services.md)
+
+------------------------------------------------------------------------
+
+## B
+
+- backing up database
+  - 32-bit Oracle Database [1](backing-up-a-32-bit-oracle-database.md)
+  - about [1](backing-up-a-database.md), [2](about-backing-up-a-database.md)
+  - in archivelog mode
+    - component-based [1](backing-up-a-database.md), [2](about-backing-up-a-database.md), [3](about-backing-up-a-database-in-archivelog-mode.md)
+    - volume-based [1](backing-up-a-database.md), [2](about-backing-up-a-database.md), [3](about-backing-up-a-database-in-archivelog-mode.md)
+  - in noarchivelog mode
+    - component-based [1](about-backing-up-a-database-in-noarchivelog-mode.md)
+    - volume-based [1](about-backing-up-a-database-in-noarchivelog-mode.md)
+  - new database [1](backing-up-the-new-database.md)
+- blocks for each file, maximum [1](about-calculating-database-limits.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- command-line tool
+  - ORADIM [1](about-administering-an-oracle-database-instance-using-oradim.md)
+- commands
+  - CREATE DATABASE [1](putting-the-create-database-statement-in-a-script.md)
+  - CREATE LIBRARY [1](registering-an-external-procedure.md)
+  - NET START [1](running-the-create-database-script.md)
+  - REGEDT32 [1](updating-oracle-sid-in-the-registry.md)
+  - SET INSTANCE [1](running-system-privilege-authentication-tasks-on-the-client-computer.md)
+  - SET ROLE [1](performing-external-role-authorization-tasks-on-the-oracle-database-server.md)
+- configuration parameters
+  - defined [1](about-configuration-arameters.md)
+  - LOCAL [1](about-local-parameter.md)
+  - registry, defined [1](about-configuration-arameters.md)
+  - TNS_ADMIN [1](about-tns-admin-parameter.md)
+  - USE_SHARED_SOCKET [1](about-use-shared-socket-parameter.md)
+- configuring
+  - advanced replication [1](about-checking-tablespace-and-rollback-segment-requirements.md)
+    - adding and modifying initialization parameters [1](adding-and-modifying-initialization-parameters.md)
+    - monitoring data dictionary tables [1](monitoring-data-dictionary-tables.md)
+  - Named Pipes Protocol Adapter [1](about-configuring-security-for-named-pipes-protocol.md)
+  - Oracle Multimedia [1](configuring-oracle-multimedia-on-windows.md)
+  - Oracle Spatial and Graph [1](about-oracle-spatial-and-graph-on-windows.md)
+    - automatically [1](configuring-oracle-spatial-and-graph-on-windows-automatically.md)
+  - Oracle Text [1](about-oracle-text-on-windows.md)
+  - Windows firewall exceptions [1](configuring-windows-firewall-exceptions-for-successful-connections-to-oracle-software.md)
+  - Windows firewall postinstallation [1](configuring-the-windows-firewall-postinstallation.md)
+- configuring Oracle Net Services for external procedures [1](configuring-oracle-net-services.md)
+- configuring Oracle Text
+  - using Database Configuration Assistant [1](about-oracle-text-on-windows.md)
+  - using DBCA [1](about-oracle-text-on-windows.md)
+- CONNECT /AS SYSDBA
+  - connecting without a password [1](overview-of-operating-system-authentication-enabled-at-installation.md)
+  - using [1](starting-and-shutting-down-a-database-with-sql-plus.md)
+- connecting
+  - LOCAL parameter [1](about-local-parameter.md)
+  - to active directory using Windows login credentials [1](about-integration-with-windows-login-credentials.md)
+  - to a database [1](starting-and-shutting-down-a-database-with-sql-plus.md)
+- CREATE LIBRARY command [1](registering-an-external-procedure.md)
+- creating
+  - an Oracle Context [1](creating-an-oraclecontext.md)
+  - external operating system users [1](about-manually-creating-an-external-operating-system-user.md)
+  - external roles manually [1](overview-of-manually-creating-an-external-role.md)
+  - ORACLE_SID parameter [1](creating-the-oracle-sid-parameter.md)
+  - Oracle Schema objects [1](creating-oracle-schema-objects.md)
+- custom database
+  - archiving mode [1](archiving-redo-log-files.md), [2](about-archiving-redo-log-files.md)
+  - noarchiving mode [1](archiving-redo-log-files.md), [2](about-archiving-redo-log-files.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- database administrator (DBA) privileges
+  - for ASM [1](overview-of-manually-granting-administrator-operator-and-task-specific-privileges-for-databases.md)
+  - for databases [1](overview-of-manually-granting-administrator-operator-and-task-specific-privileges-for-databases.md)
+- database connection error messages [1](database-connection-issues.md)
+- database monitoring
+  - with alert logs [1](about-trace-files.md)
+  - with trace files [1](about-trace-files.md)
+- database operator privileges
+  - for databases [1](overview-of-manually-granting-administrator-operator-and-task-specific-privileges-for-databases.md)
+- databases
+  - backing up [1](backing-up-the-new-database.md)
+  - connecting to [1](starting-and-shutting-down-a-database-with-sql-plus.md)
+  - creating manually [1](overview-of-database-creation-tasks-on-windows-using-command-line-tools.md)
+  - deleting [1](deleting-database-files.md)
+  - exporting [1](about-exporting-an-existing-database.md)
+  - importing [1](about-importing-a-database.md)
+  - monitoring [1](overview-of-database-monitoring-tools.md)
+  - naming conventions [1](overview-of-the-naming-conventions-for-oracle-database.md)
+  - password encryption [1](about-verifying-a-remote-database-using-encrypted-passwords.md)
+  - shutting down [1](starting-and-shutting-down-a-database-with-sql-plus.md), [2](starting-and-shutting-down-a-database-using-services.md)
+  - starting [1](starting-and-shutting-down-a-database-with-sql-plus.md)
+- database tools
+  - operating system compatibility [1](database-tools-and-operating-system-compatibility.md)
+  - running with administrator privileges [1](running-tools-with-windows-user-account-control.md)
+  - running with Windows User Account Control [1](running-tools-with-windows-user-account-control.md)
+  - starting ASMCA [1](starting-database-tools-from-the-start-menu.md)
+  - starting DBCA [1](starting-database-tools-from-the-start-menu.md), [2](overview-of-database-creation-on-windows-using-oracle-database-configuration-assistant.md)
+  - starting from the command line [1](starting-database-tools-from-the-command-line.md)
+  - starting from the Start Menu [1](starting-database-tools-from-the-start-menu.md)
+  - starting in multiple Oracle Homes [1](starting-database-tools-in-multiple-oracle-homes.md)
+  - starting Microsoft ODBC Administration [1](starting-database-tools-from-the-start-menu.md)
+  - starting NetCA [1](starting-database-tools-from-the-start-menu.md), [2](running-oracle-network-configuration-assistant.md)
+  - starting Oracle Directory Manager [1](starting-database-tools-from-the-start-menu.md)
+  - starting Oracle Net Manager [1](starting-database-tools-from-the-start-menu.md)
+  - starting Oracle Wallet Manager [1](starting-database-tools-from-the-start-menu.md)
+- data dictionary tables [1](monitoring-data-dictionary-tables.md)
+- Data Pump Export, starting [1](starting-database-tools-from-the-command-line.md)
+- Data Pump Import, starting [1](starting-database-tools-from-the-command-line.md)
+- DBCA prompts for password
+  - Domain User Account [1](overview-of-database-creation-on-windows-using-oracle-database-configuration-assistant.md)
+  - Local User Account [1](overview-of-database-creation-on-windows-using-oracle-database-configuration-assistant.md)
+  - password not stored in Oracle Wallet [1](overview-of-database-creation-on-windows-using-oracle-database-configuration-assistant.md)
+- debugging external procedures [1](about-debugging-external-procedures.md)
+- deleting database files [1](deleting-database-files.md)
+- developing applications for Windows [1](about-finding-information-on-application-development-for-windows.md)
+- directory naming software requirements [1](about-directory-naming-software-requirements.md)
+- directory servers
+  - automatic discovery of directory servers [1](about-automatic-discovery-of-directory-servers.md)
+  - features integrated with Oracle Database 11g [1](about-directory-naming.md)
+  - how Oracle directory objects display in Active Directory [1](overview-of-oracle-directory-objects-in-active-directory.md)
+  - managing Access Control Lists [1](overview-of-access-control-list-management-for-oracle-directory-objects.md)
+  - user interface extensions [1](about-user-interface-extensions-for-oracle-net-directory-naming.md)
+- DLLs
+  - compared to UNIX shared libraries [1](dynamic-link-libraries.md)
+  - Oracle Real Application Clusters [1](overview-of-oracle-rac-registry.md)
+- dnfs_batch_size parameter
+  - default value is 4096 [1](file-io-enhancements.md)
+  - recommended setting [1](file-io-enhancements.md)
+  - to control the number of queued asynchronous I/Os [1](file-io-enhancements.md)
+- duplicating a database
+  - creating a nonstandby database from shadow copies [1](creating-a-nonstandby-database-from-shadow-copies.md)
+  - creating a standby database from shadow copies [1](creating-a-standby-database-from-shadow-copies.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- encrypting, database passwords [1](about-verifying-a-remote-database-using-encrypted-passwords.md)
+- enhanced security [1](setting-windows-registry.md), [2](setting-file-permissions.md)
+- enhancing Oracle directory object type descriptions [1](about-enhancement-of-directory-object-type-descriptions.md)
+- error messages
+  - DIM-00000 to DIM-00228 [1](oradim-command-syntax-errors.md)
+  - ORA-01102 [1](overview-of-the-naming-conventions-for-oracle-database.md)
+  - ORA-09275 [1](connect-internal-no-longer-supported.md)
+  - ORA-12560 [1](database-connection-issues.md)
+  - ORA-15252 to ORA-15266 [1](user-replacement-failure-on-windows.md)
+  - ORA-15301 to ORA-15302 [1](failure-to-modify-ownership-group-and-permission-of-opened-files.md)
+  - OSD-04000 to OSD-04099 [1](file-io-errors.md)
+  - OSD-04100 to OSD-04199 [1](memory-errors.md)
+  - OSD-04200 to OSD-04299 [1](process-errors.md)
+  - OSD-04300 to OSD-04399 [1](loader-errors.md)
+  - OSD-04400 to OSD-04499 [1](semaphore-errors.md)
+  - OSD-04500 to OSD-04599 [1](miscellaneous-errors.md)
+- Event Viewer
+  - defined [1](using-event-viewer-to-monitor-a-database.md)
+  - for monitoring a database [1](overview-of-database-monitoring-tools.md)
+  - integration with Oracle Database [1](using-event-viewer-to-monitor-a-database.md)
+  - logging operating system audit trail [1](using-event-viewer-to-monitor-a-database.md)
+  - managing [1](managing-event-viewer.md)
+  - reading [1](reading-event-viewer.md)
+  - starting [1](starting-windows-tools.md)
+- EXECUTE privileges, on a PL/SQL library [1](registering-an-external-procedure.md)
+- exporting
+  - databases [1](about-exporting-an-existing-database.md)
+  - interactive mode [1](about-exporting-an-existing-database.md)
+  - parameter mode [1](about-exporting-an-existing-database.md)
+  - preferred tools [1](starting-database-tools-from-the-command-line.md)
+- Export parameter mode [1](about-exporting-an-existing-database.md)
+- Export Wizard [1](preferred-database-tools.md)
+- extended partition [1](raw-partition-overview.md)
+- EXTERNAL clause [1](registering-an-external-procedure.md)
+- external operating system users
+  - administering [1](overview-of-manually-administering-external-users-and-roles.md)
+  - authentication [1](performing-external-user-authentication-tasks-on-the-oracle-database-server.md)
+  - authentication on client computer [1](performing-external-user-authentication-tasks-on-the-oracle-client-computer.md)
+  - creating [1](about-manually-creating-an-external-operating-system-user.md)
+  - migrating manually [1](about-manually-migrating-users.md)
+- external procedures
+  - advantages [1](external-procedures-overview.md)
+  - creating [1](about-building-external-procedures.md)
+  - creating a PL/SQL library [1](registering-an-external-procedure.md)
+  - debugging [1](about-debugging-external-procedures.md)
+  - executing [1](executing-an-external-procedure.md)
+  - EXTERNAL clause [1](registering-an-external-procedure.md)
+  - granting EXECUTE privileges [1](registering-an-external-procedure.md)
+  - registering with Oracle Database [1](registering-an-external-procedure.md)
+  - using [1](about-building-external-procedures.md)
+  - using EXTPROC [1](configuring-oracle-net-services.md)
+  - writing [1](writing-an-external-procedure.md)
+- external roles
+  - administering [1](overview-of-manually-administering-external-users-and-roles.md)
+  - authorization on client computer [1](performing-external-role-authorization-tasks-on-the-oracle-client-computer.md)
+  - authorization on Oracle database server [1](performing-external-role-authorization-tasks-on-the-oracle-database-server.md)
+  - creating manually [1](overview-of-manually-creating-an-external-role.md)
+- EXTPROC agent
+  - authentication using CREATE LIBRARY extension
+    - CREDENTIAL clause [1](registering-an-external-procedure.md)
+    - DIRECTORY object [1](registering-an-external-procedure.md)
+  - example [1](writing-an-external-procedure.md)
+  - explained [1](installing-oracle-database.md)
+  - responsibilities [1](configuring-oracle-net-services.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- failure to modify ownership, group, and permission of open files [1](failure-to-modify-ownership-group-and-permission-of-opened-files.md)
+- features supporting large user population
+  - Oracle Database Shared Server Process [1](large-user-populations.md)
+  - Oracle Net multiplexing and connection pooling [1](large-user-populations.md)
+  - Oracle RAC [1](large-user-populations.md)
+- file I/O enhancements [1](file-io-enhancements.md)
+- file permissions [1](setting-windows-registry.md), [2](setting-file-permissions.md)
+- files
+  - maximum number for each database [1](about-calculating-database-limits.md)
+  - maximum size possible [1](about-calculating-database-limits.md)
+  - sample init.ora [1](using-sample-file-for-database-creation.md)
+  - trace [1](about-trace-files.md)
+- finding information on application development for Windows [1](about-finding-information-on-application-development-for-windows.md)
+- FSEEK line terminators [1](about-accessing-text-files-with-utl-file.md)
+
+------------------------------------------------------------------------
+
+## H
+
+- hiding password file
+  - using command prompt [1](viewing-and-hiding-the-password-file.md)
+  - using Windows Explorer [1](viewing-and-hiding-the-password-file.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- importing
+  - databases [1](about-importing-a-database.md)
+  - parameter mode [1](about-importing-a-database.md)
+  - preferred tools [1](preferred-database-tools.md)
+- Import Wizard [1](preferred-database-tools.md)
+- initialization parameter file
+  - defined [1](initialization-parameter-file-overview.md)
+  - displaying values [1](displaying-initialization-parameter-values.md)
+  - editing [1](about-editing-the-initialization-parameter-file.md)
+  - location [1](about-the-location-of-the-initialization-parameter-file.md)
+  - operating system specific [1](overview-of-initialization-parameters-without-windows-specific-values.md)
+  - unmodifiable [1](about-unmodifiable-database-initialization-parameters.md)
+  - using Advanced Replication Support [1](adding-and-modifying-initialization-parameters.md)
+- initialization parameters
+  - OS_ROLES [1](about-user-authentication-and-role-authorization-methods.md)
+  - path in registry [1](ora-sid-pfile.md)
+- instances
+  - modifying [1](editing-an-instance-using-oradim.md)
+  - Oracle Database [1](thread-based-architecture.md)
+  - running multiple instances [1](starting-multiple-instances.md)
+- integration with Windows
+  - Oracle Fail Safe [1](oracle-fail-safe-integration-with-windows.md)
+  - Oracle PKI [1](oracle-public-key-infrastructure-integration-with-windows.md)
+  - Oracle Services for MTS [1](oracle-services-for-microsoft-transaction-server.md)
+
+------------------------------------------------------------------------
+
+## L
+
+- large page support
+  - enabling [1](enabling-large-page-support.md)
+  - overview [1](overview-of-large-page-support.md)
+  - running as user [1](overview-of-large-page-support.md)
+- listener requirements [1](about-listener-requirements.md)
+- LOCAL networking parameter [1](about-local-parameter.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- manually migrating external operating system users [1](about-manually-migrating-users.md)
+- maximum file size of control files [1](about-calculating-database-limits.md)
+- memory usage [1](about-configuring-windows-server-to-be-an-application-server.md)
+- Microsoft Active Directory [1](about-microsoft-active-directory.md)
+- Microsoft Certificate Services [1](about-microsoft-certificate-services.md)
+- Microsoft Certificate Stores [1](about-microsoft-certificate-stores.md)
+- Microsoft Management Console (MMC)
+  - defined [1](using-microsoft-management-console-to-administer-a-database.md)
+  - integration with Oracle Database [1](using-microsoft-management-console-to-administer-a-database.md)
+  - starting [1](starting-windows-tools.md)
+- migrating
+  - Oracle Database 11g or earlier [1](migrating-an-oracle-database-11g-release-2-11.2-or-ealier-database.md)
+  - Oracle Database 12c from Oracle Database 11g [1](migration-considerations.md)
+- Migration Utility tool [1](preferred-database-tools.md)
+- MMC
+  - See: Microsoft Management Console
+- modifying executable images [1](thread-based-architecture.md)
+- monitoring
+  - alert logs [1](overview-of-database-monitoring-tools.md)
+  - Event Viewer [1](overview-of-database-monitoring-tools.md)
+  - Management Pack [1](overview-of-database-monitoring-tools.md)
+  - trace files [1](overview-of-database-monitoring-tools.md)
+- monitoring data dictionary tables [1](monitoring-data-dictionary-tables.md)
+- multiple instances, running [1](starting-multiple-instances.md)
+- multithreaded agent architecture [1](overview-of-multithreaded-agent-architecture.md)
+
+------------------------------------------------------------------------
+
+## N
+
+- Named Pipes Protocol Adapter [1](about-configuring-security-for-named-pipes-protocol.md)
+- Named Pipes Protocol Adapter with an Oracle Names Server [1](about-configuring-security-for-named-pipes-protocol.md)
+- naming conventions for multiple Oracle homes [1](overview-of-oracle-database-service-naming-conventions-for-multiple-oracle-homes.md)
+- Net Service Objects security group [1](about-oracle-net-services-objects.md)
+- networking parameters
+  - LOCAL [1](about-local-parameter.md)
+  - TNS_ADMIN [1](about-tns-admin-parameter.md)
+  - USE_SHARED_SOCKET [1](about-use-shared-socket-parameter.md)
+- noarchiving mode
+  - custom database [1](archiving-redo-log-files.md), [2](about-archiving-redo-log-files.md)
+- NTFS file system permission setting [1](overview-of-ntfs-file-system-and-windows-registry-permissions.md)
+- NTLM (NT Lan Manager)
+  - authenticating Windows domain users [1](about-windows-authentication-protocols.md)
+  - authenticating Windows local users [1](about-windows-authentication-protocols.md)
+  - deprecation [1](about-windows-authentication-protocols.md)
+- NTS
+  - See: Windows native authentication
+
+------------------------------------------------------------------------
+
+## O
+
+- operating system authentication
+  - automatically enabling during installation [1](overview-of-operating-system-authentication-enabled-at-installation.md)
+  - connecting as SYSDBA without a password [1](overview-of-operating-system-authentication-enabled-at-installation.md)
+  - OSAUTH_PREFIX_DOMAIN parameter [1](performing-external-user-authentication-tasks-on-the-oracle-database-server.md)
+- operating systems
+  - audit trail [1](using-event-viewer-to-monitor-a-database.md)
+  - authentication overview [1](overview-of-windows-native-authentication.md), [2](configuring-client-computers-and-oracle-database-to-use-active-directory.md)
+- OPER privileges [1](overview-of-manually-granting-administrator-operator-and-task-specific-privileges-for-databases.md)
+- ORA_DBA local group [1](overview-of-operating-system-authentication-enabled-at-installation.md)
+- ORACLE_SID [1](updating-oracle-sid-in-the-registry.md), [2](starting-multiple-instances.md)
+- Oracle ASM Configuration Assistant (ASMCA) [1](running-tools-with-windows-user-account-control.md)
+- Oracle ASM File Access Control
+  - managing [1](creation-of-new-user-groups-and-users-for-separation-of-database-administration.md), [2](about-disk-group-user-replacement.md), [3](about-changing-file-access-control.md)
+- Oracle Automatic Storage Management (Oracle ASM)
+  - about [1](oracle-automatic-storage-management.md)
+  - configuring disks [1](configuring-disks-for-oracle-automatic-storage-management.md)
+- Oracle Automatic Storage Management Configuration Assistant (ASMCA) [1](starting-database-tools-from-the-start-menu.md)
+- Oracle Database
+  - connecting remotely using SYSDBA privileges [1](connecting-to-a-database-using-sysdba-privileges.md)
+  - connecting to [1](starting-and-shutting-down-a-database-with-sql-plus.md)
+  - password encryption [1](about-verifying-a-remote-database-using-encrypted-passwords.md)
+  - shutting down [1](starting-and-shutting-down-a-database-with-sql-plus.md), [2](starting-and-shutting-down-a-database-using-services.md)
+  - specifications [1](about-calculating-database-limits.md)
+  - starting [1](starting-and-shutting-down-a-database-with-sql-plus.md)
+  - verifying remotely [1](about-verifying-a-remote-database-using-encrypted-passwords.md)
+- Oracle Database Configuration Assistant (DBCA) [1](running-tools-with-windows-user-account-control.md)
+  - preferred tools [1](preferred-database-tools.md)
+  - registering a database object in a directory server [1](about-integration-with-windows-login-credentials.md)
+  - starting [1](starting-database-tools-from-the-start-menu.md)
+- Oracle Database services
+  - auto-starting [1](auto-starting-oracle-database-services.md)
+    - using Control Panel [1](auto-starting-oracle-database-services.md)
+    - using Oracle Administration Assistant [1](auto-starting-oracle-database-services.md)
+  - naming conventions for multiple Oracle homes [1](overview-of-oracle-database-service-naming-conventions-for-multiple-oracle-homes.md)
+  - Oracle VSS Writer
+    - command-line syntaxes [1](about-installing-and-uninstalling-the-oracle-vss-writer-service.md)
+    - installing and uninstalling [1](about-installing-and-uninstalling-the-oracle-vss-writer-service.md)
+    - integrating with third-party requester applications [1](running-writer-control-commands.md), [2](controlling-commands-for-database-or-all-tablespaces-component.md)
+    - options [1](about-installing-and-uninstalling-the-oracle-vss-writer-service.md)
+  - privileges
+    - SeBackupPrivilege [1](additonal-privileges-required-by-oracle-database-services.md)
+    - SeBatchLogonRight [1](additonal-privileges-required-by-oracle-database-services.md)
+    - SeIncreaseBasePriorityPrivilege [1](additonal-privileges-required-by-oracle-database-services.md)
+    - SeLockMemoryPrivilege [1](granting-lock-pages-in-memory-privilege.md)
+  - run under
+    - LocalService Account [1](supporting-oracle-home-user-on-windows.md)
+    - NetworkService Account [1](supporting-oracle-home-user-on-windows.md)
+    - Windows User Account [1](supporting-oracle-home-user-on-windows.md)
+  - shutting down a database [1](starting-and-shutting-down-a-database-using-services.md)
+  - starting [1](starting-oracle-database-services.md)
+    - using command prompt [1](starting-oracle-database-services.md)
+    - using Control Panel [1](starting-oracle-database-services.md)
+    - using Oracle Administration Assistant [1](starting-oracle-database-services.md)
+  - stopping [1](stopping-oracle-database-services.md)
+    - using command prompt [1](stopping-oracle-database-services.md)
+    - using Control Panel [1](stopping-oracle-database-services.md)
+    - using Oracle Administration Assistant [1](stopping-oracle-database-services.md)
+- Oracle Database Upgrade Assistant (DBUA) [1](running-tools-with-windows-user-account-control.md)
+- OracleDBCreator security group [1](about-oracledbcreators.md)
+- Oracle Enterprise Manager Console
+  - preferred tools [1](preferred-database-tools.md)
+- Oracle Enterprise Manager Database Management Pack [1](overview-of-database-monitoring-tools.md)
+- OracleHOMENAMEClientCache [1](about-oracle-net-service-subkeys.md)
+- OracleHOMENAMECMAdmin [1](about-oracle-net-service-subkeys.md)
+- OracleHOMENAMECMan [1](about-oracle-net-service-subkeys.md)
+- OracleHOMENAMETNSListener [1](about-oracle-net-service-subkeys.md)
+- OracleHOMENAMETNSListener service [1](about-configuring-security-for-named-pipes-protocol.md)
+- Oracle Home User
+  - comparison with Linux/UNIX Oracle User [1](oracle-home-user-and-oracle-user.md)
+  - permissions [1](about-default-file-permissions-set-by-oracle-universal-installer.md)
+- Oracle Home User Control tool
+  - command-line tool [1](using-the-oracle-home-user-control-tool.md)
+  - updates password of Oracle Home User [1](using-the-oracle-home-user-control-tool.md)
+- Oracle Installation User
+  - permissions [1](about-default-file-permissions-set-by-oracle-universal-installer.md)
+- Oracle Locale Builder [1](starting-database-tools-from-the-start-menu.md)
+- Oracle Managed Files [1](putting-the-create-database-statement-in-a-script.md)
+- Oracle Multimedia
+  - about [1](about-oracle-multimedia-on-windows.md)
+  - configuring [1](configuring-oracle-multimedia-on-windows.md)
+  - enabling Oracle Database to store, manage, and retrieve images [1](about-oracle-multimedia-on-windows.md)
+- OracleNetAdmins security group [1](about-oraclenetadmins.md)
+- Oracle Net Configuration Assistant
+  - configuring Oracle software with a directory server [1](about-automatic-discovery-of-directory-servers.md), [2](about-integration-with-windows-login-credentials.md)
+  - creating Oracle Context [1](overview-of-requirements-for-using-oracle-database-with-active-directory.md)
+  - creating Oracle schema object [1](overview-of-requirements-for-using-oracle-database-with-active-directory.md)
+- Oracle Net Configuration Assistant (NetCA) [1](running-tools-with-windows-user-account-control.md), [2](starting-database-tools-from-the-start-menu.md)
+- Oracle Net mutiplexing and connection pooling [1](large-user-populations.md)
+- Oracle Net Services
+  - advanced configuration [1](overview-of-advanced-network-configuration.md)
+  - running CMADMIN [1](running-oracle-net-services.md)
+  - running CMAN [1](running-oracle-net-services.md)
+  - running Oracle Listener [1](running-oracle-net-services.md)
+- Oracle Public Key Infrastructure [1](about-oracle-public-key-infrastructure.md)
+- Oracle RAC [1](large-user-populations.md)
+- Oracle Real Application Clusters
+  - See: Oracle RAC
+
+  <!-- -->
+
+  - allows multiple server computers to access the same database files [1](large-user-populations.md)
+  - increases the number of user connections [1](large-user-populations.md)
+  - registry values [1](overview-of-oracle-rac-registry.md)
+- Oracle Scheduler [1](about-configuring-external-job-support-for-the-scheduler-on-windows.md)
+- Oracle Spatial and Graph configuring [1](about-oracle-spatial-and-graph-on-windows.md)
+- Oracle Text
+  - about [1](about-oracle-text-on-windows.md)
+  - configuring [1](about-oracle-text-on-windows.md)
+  - enables text queries through SQL and PL/SQL [1](about-oracle-text-on-windows.md)
+- Oracle VSS writer
+  - command-line syntaxes [1](about-installing-and-uninstalling-the-oracle-vss-writer-service.md)
+  - component-based backup [1](backing-up-a-database.md), [2](about-backing-up-a-database.md), [3](about-component-based-backups.md)
+  - installing and uninstalling [1](about-installing-and-uninstalling-the-oracle-vss-writer-service.md)
+  - options [1](about-installing-and-uninstalling-the-oracle-vss-writer-service.md)
+  - volume-based backup [1](backing-up-a-database.md), [2](about-backing-up-a-database.md)
+- Oracle VSS Writer
+  - shadow copies
+    - component-based [1](componentbased-shadow-copies.md)
+    - volume-based [1](volume-based-shadow-copies.md)
+- Oracle Wallet Manager
+  - about [1](about-oracle-wallet-manager.md)
+  - starting [1](starting-database-tools-from-the-start-menu.md)
+- Oracle Wallets [1](about-registry-parameters-for-wallet-storage.md)
+  - creating [1](access-to-oracle-wallets-in-a-file-system-for-oracle-database-services.md)
+  - for Oracle Database Services [1](access-to-oracle-wallets-in-a-file-system-for-oracle-database-services.md)
+  - storing in the registry [1](about-registry-parameters-for-wallet-storage.md)
+  - storing private keys and trust points [1](about-storing-private-keys-and-trust-points.md)
+- ORADIM
+  - accepts operating system user name and password if no /ospass option after osusr [1](about-administering-an-oracle-database-instance-using-oradim.md), [2](about-windows-services-for-oracle-database.md)
+  - command syntax errors [1](oradim-command-syntax-errors.md)
+  - creates Oracle Database service [1](about-administering-an-oracle-database-instance-using-oradim.md), [2](about-windows-services-for-oracle-database.md)
+  - creates Oracle Scheduler service [1](about-administering-an-oracle-database-instance-using-oradim.md), [2](about-windows-services-for-oracle-database.md)
+  - creates Oracle VSS Writer service [1](about-administering-an-oracle-database-instance-using-oradim.md), [2](about-windows-services-for-oracle-database.md)
+  - moving or copying password files [1](creating-and-populating-password-files.md)
+  - preferred tools [1](preferred-database-tools.md)
+  - starting [1](starting-database-tools-from-the-command-line.md)
+  - using operating system user name and password [1](preferred-database-tools.md)
+- ORAPWD
+  - creating password files [1](creating-and-populating-password-files.md)
+  - starting [1](starting-database-tools-from-the-command-line.md)
+- OS_AUTHENT_PREFIX parameter
+  - case-insensitive [1](performing-external-user-authentication-tasks-on-the-oracle-database-server.md)
+  - using [1](performing-external-user-authentication-tasks-on-the-oracle-database-server.md)
+- OS_ROLES parameter
+  - using with external roles [1](about-user-authentication-and-role-authorization-methods.md)
+- OSAUTH_PREFIX_DOMAIN [1](performing-external-user-authentication-tasks-on-the-oracle-database-server.md)
+- OSAUTH_PREFIX_DOMAIN parameter [1](performing-external-user-authentication-tasks-on-the-oracle-database-server.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- parameter mode
+  - Export [1](about-exporting-an-existing-database.md)
+  - Import [1](about-importing-a-database.md)
+- parameters
+  - AUDIT_FILE_DEST [1](managing-event-viewer.md)
+  - INST_LOC [1](inst-loc.md)
+  - LOCAL [1](about-local-parameter.md)
+  - MSHELP_TOOLS [1](mshelp-tools.md)
+  - NLS_LANG and Other Globalization Parameters [1](nls-lang-and-other-globalization-parameters.md)
+  - ORA_AFFINITY [1](oracle-affinity.md)
+  - ORA_CWD [1](ora-cwd.md)
+  - ORA_HOMENAME [1](oracle-homename.md)
+  - ORA_SID_AUTOSTART [1](ora-sid-autostart.md)
+  - ORA_SID_PFILE [1](ora-sid-pfile.md)
+  - ORA_SID_SHUTDOWN [1](ora-sid-shutdown.md)
+  - ORA_TZFILE [1](ora-tzfile.md)
+  - ORACLE_BASE [1](oraclebase.md)
+  - ORACLE_GROUP_NAME [1](oracle-group-name.md)
+  - ORACLE_HOME [1](oraclehome.md)
+  - ORACLE_HOME_KEY [1](oracle-home-key.md)
+  - ORACLE_HOME_USER [1](oracle-home-user.md)
+  - ORACLE_PRIORITY [1](oracle-prrity.md)
+  - ORACLE_SID [1](updating-oracle-sid-in-the-registry.md), [2](starting-multiple-instances.md), [3](oracle-sid.md)
+  - OSAUTH_PREFIX_DOMAIN [1](performing-external-user-authentication-tasks-on-the-oracle-database-server.md), [2](osauth-prefix-domain.md)
+  - RDBMS_ARCHIVE [1](rdbms-archive.md)
+  - RDBMS_CONTROL [1](rdbms-control.md)
+  - REMOTE_LOGIN_PASSWORDFILE [1](creating-and-populating-password-files.md)
+  - SGA_MAX_SIZE [1](about-sga-max-size-parameter.md)
+  - SQLPATH [1](sqlpath.md)
+  - TNS_ADMIN [1](about-tns-admin-parameter.md)
+  - USE_SHARED_SOCKET [1](about-use-shared-socket-parameter.md)
+- partitions
+  - extended [1](raw-partition-overview.md)
+  - logical partition [1](about-logical-partitiion.md)
+  - physical disk [1](about-physical-disk.md)
+  - raw [1](raw-partition-overview.md)
+- password
+  - encryption [1](about-verifying-a-remote-database-using-encrypted-passwords.md)
+  - not needed with SYSDBA [1](overview-of-operating-system-authentication-enabled-at-installation.md)
+  - utility [1](creating-and-populating-password-files.md)
+- password file
+  - authenticating database administrators [1](creating-and-populating-password-files.md)
+  - creating [1](creating-and-populating-password-files.md)
+  - hiding [1](creating-and-populating-password-files.md)
+    - using command prompt [1](viewing-and-hiding-the-password-file.md)
+    - using Windows Explorer [1](viewing-and-hiding-the-password-file.md)
+  - viewing
+    - using command prompt [1](viewing-and-hiding-the-password-file.md)
+    - using Windows Explorer [1](viewing-and-hiding-the-password-file.md)
+- permissions
+  - Administrators [1](about-default-file-permissions-set-by-oracle-universal-installer.md)
+  - Oracle Home User [1](about-default-file-permissions-set-by-oracle-universal-installer.md)
+  - Oracle Installation User [1](about-default-file-permissions-set-by-oracle-universal-installer.md)
+  - SYSTEM [1](about-default-file-permissions-set-by-oracle-universal-installer.md)
+- PhysicalDrive [1](about-physical-disk.md)
+- PL/SQL Embedded Gateway [1](about-support-for-internet-applications.md)
+- postinstallation
+  - setting NTFS file system permissions [1](overview-of-ntfs-file-system-and-windows-registry-permissions.md)
+  - setting NTFS File System security [1](setting-ntfs-file-system-security.md)
+  - setting permissions for Windows Registry Entries [1](setting-permissions-for-windows-registry-entries.md)
+  - setting permissions for Windows Service Entries [1](setting-permissions-for-windows-service-entries.md)
+  - setting Windows registry security [1](setting-windows-registry.md)
+- preferred tools
+  - Backup Wizard [1](preferred-database-tools.md)
+  - Load Wizard [1](preferred-database-tools.md)
+  - OCOPY [1](preferred-database-tools.md)
+  - Recovery Manager [1](preferred-database-tools.md)
+  - Recovery Wizard [1](preferred-database-tools.md)
+  - SQL\*Loader [1](preferred-database-tools.md)
+- privileges [1](running-tools-with-windows-user-account-control.md)
+- PWDSID.ORA file [1](creating-and-populating-password-files.md)
+
+------------------------------------------------------------------------
+
+## Q
+
+- querying background processes [1](thread-based-architecture.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- raw partition
+  - considerations [1](about-physical-disk-and-logical-partition-considerations.md)
+  - defined [1](raw-partition-overview.md)
+  - logical partition [1](about-logical-partitiion.md)
+  - overview [1](raw-partition-overview.md)
+  - physical disk [1](about-physical-disk.md)
+- Recovery Manager
+  - preferred tools [1](preferred-database-tools.md)
+  - starting [1](starting-database-tools-from-the-command-line.md)
+- registering an external procedure [1](registering-an-external-procedure.md)
+- registry
+  - adding parameters [1](adding-a-registry-parameter-with-regedit.md)
+  - and Oracle Real Application Clusters [1](overview-of-oracle-rac-registry.md)
+  - configuration parameters, defined [1](about-configuration-arameters.md)
+  - editor [1](registry-overview.md)
+  - editor, starting [1](starting-windows-tools.md)
+  - INST_LOC [1](inst-loc.md)
+  - keys, defined [1](registry-overview.md)
+  - modifying values [1](managing-registry-parameters-with-regedit.md)
+  - MSHELP_TOOLS [1](mshelp-tools.md)
+  - NLS_LANG and Other Globalization Parameters [1](nls-lang-and-other-globalization-parameters.md)
+  - ORA_AFFINITY [1](oracle-affinity.md)
+  - ORA_CWD [1](ora-cwd.md)
+  - ORA_HOMENAME [1](oracle-homename.md)
+  - ORA_SID_AUTOSTART [1](ora-sid-autostart.md)
+  - ORA_SID_PFILE [1](ora-sid-pfile.md)
+  - ORA_SID_SHUTDOWN [1](ora-sid-shutdown.md)
+  - ORA_SID_SHUTDOWN_TIMEOUT [1](ora-sid-shutdown-timeout.md)
+  - ORA_SID_SHUTDOWNTYPE [1](ora-sid-shutdowntype.md)
+  - ORA_TZFILE [1](ora-tzfile.md)
+  - ORACLE_BASE [1](oraclebase.md)
+  - ORACLE_GROUP_NAME [1](oracle-group-name.md)
+  - ORACLE_HOME [1](oraclehome.md)
+  - ORACLE_HOME_KEY [1](oracle-home-key.md)
+  - ORACLE_HOME_USER [1](oracle-home-user.md)
+  - ORACLE_PRIORITY [1](oracle-prrity.md)
+  - ORACLE_SID [1](oracle-sid.md)
+  - OracleHOMENAMEClientCache [1](about-oracle-net-service-subkeys.md)
+  - OracleHOMENAMECMAdmin [1](about-oracle-net-service-subkeys.md)
+  - OracleHOMENAMECMan [1](about-oracle-net-service-subkeys.md)
+  - OracleHOMENAMETNSListener [1](about-oracle-net-service-subkeys.md)
+  - OSAUTH_PREFIX_DOMAIN [1](performing-external-user-authentication-tasks-on-the-oracle-database-server.md), [2](osauth-prefix-domain.md)
+  - RDBMS_ARCHIVE [1](rdbms-archive.md)
+  - RDBMS_CONTROL [1](rdbms-control.md)
+  - REG_BINARY [1](registry-overview.md), [2](adding-a-registry-parameter-with-regedit.md)
+  - REG_DWORD [1](registry-overview.md), [2](adding-a-registry-parameter-with-regedit.md)
+  - REG_EXPAND_SZ [1](registry-overview.md), [2](adding-a-registry-parameter-with-regedit.md)
+  - REG_MULTI_SZ [1](registry-overview.md), [2](adding-a-registry-parameter-with-regedit.md)
+  - REG_QWORD [1](registry-overview.md), [2](adding-a-registry-parameter-with-regedit.md)
+  - REG_SZ [1](registry-overview.md), [2](adding-a-registry-parameter-with-regedit.md)
+  - REGEDT32 [1](modifying-a-parameter-value-with-regedit.md), [2](adding-a-registry-parameter-with-regedit.md)
+  - setting security [1](setting-windows-registry.md)
+  - SQLPATH [1](sqlpath.md)
+  - update ORACLE_SID [1](updating-oracle-sid-in-the-registry.md)
+- registry keys [1](registry-overview.md)
+- registry parameters for storing an Oracle Wallet [1](about-registry-parameters-for-wallet-storage.md)
+- REMOTE_LOGIN_PASSWORDFILE [1](creating-and-populating-password-files.md)
+- resetting passwords for default accounts [1](about-the-need-to-reset-passwords-for-default-accounts.md)
+- resolving database connection issue
+  - OEM failure [1](about-administering-an-oracle-database-instance-using-oradim.md)
+  - OID failure [1](about-administering-an-oracle-database-instance-using-oradim.md)
+  - startup mode set to automatic [1](about-administering-an-oracle-database-instance-using-oradim.md)
+- Restoring and Recovering a Database
+  - archivelog mode
+    - performing disaster recovery [1](performing-disaster-recovery.md)
+    - recovering all tablespaces [1](recovering-all-tablespaces.md)
+    - recovering from the loss of all multiplexed control files [1](recovering-from-the-loss-of-all-control-files.md)
+    - recovering tablespaces or datafiles [1](recovering-tablespaces-or-data-files.md)
+    - restoring server parameter file [1](restoring-the-server-parameter-file.md)
+  - noarchivelog mode
+    - restoring component-based backups [1](restoring-a-database-in-noarchivelog.md)
+    - restoring volume-based backups [1](restoring-a-database-in-noarchivelog.md)
+- role authorization
+  - description [1](about-user-authentication-and-role-authorization-methods.md)
+  - method enhancements [1](about-user-authentication-and-role-authorization-methods.md)
+- running SYSASM
+  - authentication on Oracle database server [1](running-system-privilege-authentication-tasks-on-the-database-server.md)
+- running SYSDBA
+  - authentication on Oracle database server [1](running-system-privilege-authentication-tasks-on-the-database-server.md)
+- running SYSOPER
+  - authentication on Oracle database server [1](running-system-privilege-authentication-tasks-on-the-database-server.md)
+- running tools with Windows User Account Control [1](running-tools-with-windows-user-account-control.md)
+- running windows services [1](about-running-windows-services-in-oracle-home.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- services [1](overview-of-oracle-database-service-naming-conventions-for-multiple-oracle-homes.md)
+  - auto-starting [1](auto-starting-oracle-database-services.md)
+  - shutting down a database [1](starting-and-shutting-down-a-database-using-services.md)
+  - starting [1](starting-oracle-database-services.md)
+  - stopping [1](stopping-oracle-database-services.md)
+- SET ORACLE_SID=SID [1](starting-multiple-instances.md)
+- SET ROLE command [1](performing-external-role-authorization-tasks-on-the-oracle-database-server.md)
+- setting file permissions
+  - Database Upgrade Assistant [1](setting-file-permissions.md)
+  - Oracle Database Configuration Assistant [1](setting-file-permissions.md)
+  - Oracle Universal Installer [1](setting-file-permissions.md)
+- setting registry parameters
+  - for starting Oracle Database [1](starting-and-shutting-down-a-database-using-services.md)
+  - for stopping Oracle Database [1](starting-and-shutting-down-a-database-using-services.md)
+  - optional
+    - ORA_SID_SHUTDOWN_TIMEOUT [1](starting-and-shutting-down-a-database-using-services.md), [2](ora-sid-shutdown-timeout.md)
+    - ORA_SID_SHUTDOWNTYPE [1](starting-and-shutting-down-a-database-using-services.md), [2](ora-sid-shutdowntype.md)
+  - ORA_SHUTDOWN [1](starting-and-shutting-down-a-database-using-services.md)
+  - ORA_SID_AUTOSTART [1](starting-and-shutting-down-a-database-using-services.md)
+  - ORA_SID_PFILE [1](starting-and-shutting-down-a-database-using-services.md)
+  - ORA_SID_SHUTDOWN [1](starting-and-shutting-down-a-database-using-services.md)
+- Shared Server Process [1](large-user-populations.md)
+- shutting down databases [1](starting-and-shutting-down-a-database-with-sql-plus.md), [2](starting-and-shutting-down-a-database-using-services.md)
+- SQL\*Loader
+  - control file conventions [1](control-file-conventions.md)
+  - preferred tools [1](preferred-database-tools.md)
+  - starting [1](starting-database-tools-from-the-command-line.md)
+- SQL\*Plus
+  - connecting to a database through Active Directory [1](about-user-interface-extensions-for-oracle-net-directory-naming.md)
+  - preferred tools [1](preferred-database-tools.md)
+  - shutting down the database [1](starting-and-shutting-down-a-database-with-sql-plus.md)
+  - starting [1](starting-database-tools-from-the-start-menu.md), [2](starting-database-tools-from-the-command-line.md), [3](starting-and-shutting-down-a-database-with-sql-plus.md)
+  - starting the database [1](starting-and-shutting-down-a-database-with-sql-plus.md)
+- SQL\*Plus Worksheet
+  - preferred tools [1](preferred-database-tools.md)
+- sqlnet.ora file
+  - and Windows native authentication [1](running-system-privilege-authentication-tasks-on-the-client-computer.md), [2](performing-external-role-authorization-tasks-on-the-oracle-database-server.md)
+  - location of [1](running-system-privilege-authentication-tasks-on-the-client-computer.md), [2](performing-external-role-authorization-tasks-on-the-oracle-database-server.md)
+- starting
+  - Oracle Database [1](starting-and-shutting-down-a-database-using-services.md)
+  - Oracle Database services [1](starting-oracle-database-services.md)
+    - using command prompt [1](starting-oracle-database-services.md)
+    - using Control Panel [1](starting-oracle-database-services.md), [2](starting-and-shutting-down-a-database-using-services.md)
+    - using Oracle Administration Assistant [1](starting-oracle-database-services.md)
+  - SQL\*Plus [1](starting-and-shutting-down-a-database-with-sql-plus.md)
+  - TKPROF [1](starting-database-tools-from-the-command-line.md)
+- starting an Oracle Database instance [1](starting-an-oracle-database-instance.md)
+- starting Oracle Database [1](starting-and-shutting-down-a-database-using-services.md)
+- stopping
+  - Oracle Database [1](starting-and-shutting-down-a-database-using-services.md)
+  - Oracle Database services [1](stopping-oracle-database-services.md)
+    - using command prompt [1](stopping-oracle-database-services.md)
+    - using Control Panel [1](stopping-oracle-database-services.md), [2](starting-and-shutting-down-a-database-using-services.md)
+    - using Oracle Administration Assistant [1](stopping-oracle-database-services.md)
+- stopping Oracle Database [1](starting-and-shutting-down-a-database-using-services.md)
+- storing an Oracle Wallet [1](about-registry-parameters-for-wallet-storage.md)
+- SYSDBA privileges
+  - connecting without a password [1](overview-of-operating-system-authentication-enabled-at-installation.md)
+  - member of
+    - ORA_DBA [1](overview-of-operating-system-authentication-enabled-at-installation.md)
+    - ORA_HOMENAME_DBA [1](overview-of-operating-system-authentication-enabled-at-installation.md)
+- SYSTEM user
+  - permissions [1](about-default-file-permissions-set-by-oracle-universal-installer.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- Task Manager
+  - starting [1](starting-windows-tools.md)
+  - using [1](using-task-manager-to-monitor-applications-and-processes.md)
+- testing connectivity
+  - from client computers [1](testing-connectivity-from-client-computers.md)
+  - from Microsoft tools [1](testing-connectivity-from-microsoft-tools.md)
+- thread-based architecture [1](thread-based-architecture.md)
+- threads
+  - and Microsoft Management Console [1](using-microsoft-management-console-to-administer-a-database.md)
+  - and multiple Oracle Database instances [1](thread-based-architecture.md)
+  - and ORASTACK [1](thread-based-architecture.md)
+  - and shared server process [1](large-user-populations.md)
+  - defined [1](thread-based-architecture.md)
+  - optional and required [1](thread-based-architecture.md)
+  - process errors [1](windows-specific-oracle-database-messages.md)
+  - processor affinity [1](oracle-affinity.md)
+  - scheduling priority [1](oracle-prrity.md)
+- TNS_ADMIN networking parameter [1](about-tns-admin-parameter.md)
+- tools, starting
+  - asmtool [1](starting-database-tools-from-the-command-line.md)
+  - asmtoolg [1](starting-database-tools-from-the-command-line.md)
+  - Database Configuration Assistant [1](starting-database-tools-from-the-start-menu.md)
+  - Data Pump Export [1](starting-database-tools-from-the-command-line.md)
+  - Data Pump Import [1](starting-database-tools-from-the-command-line.md)
+  - DBVERIFY [1](starting-database-tools-from-the-command-line.md)
+  - Event Viewer [1](starting-windows-tools.md)
+  - Export [1](starting-database-tools-from-the-command-line.md)
+  - Microsoft Management Console [1](starting-windows-tools.md)
+  - Microsoft ODBC Administration [1](starting-database-tools-from-the-start-menu.md)
+  - Oracle Automatic Storage Management Configuration Assistant (ASMCA) [1](starting-database-tools-from-the-start-menu.md)
+  - Oracle Directory Manager [1](starting-database-tools-from-the-start-menu.md)
+  - Oracle Locale Builder [1](starting-database-tools-from-the-start-menu.md)
+  - Oracle Net Configuration Assistant [1](starting-database-tools-from-the-start-menu.md)
+  - Oracle Net Manager [1](starting-database-tools-from-the-start-menu.md)
+  - Oracle Wallet Manager [1](starting-database-tools-from-the-start-menu.md)
+  - ORADIM [1](starting-database-tools-from-the-command-line.md)
+  - ORAPWD [1](starting-database-tools-from-the-command-line.md)
+  - Recovery Manager [1](starting-database-tools-from-the-command-line.md)
+  - Registry Editor [1](starting-windows-tools.md)
+  - SQL\*Loader [1](starting-database-tools-from-the-command-line.md)
+  - SQL\*Plus [1](starting-database-tools-from-the-start-menu.md), [2](starting-database-tools-from-the-command-line.md)
+  - Task Manager [1](starting-windows-tools.md)
+  - TKPROF [1](starting-database-tools-from-the-command-line.md)
+- trace files
+  - for monitoring a database [1](overview-of-database-monitoring-tools.md)
+  - using [1](about-trace-files.md)
+- troubleshooting
+  - ORA-12560 error [1](database-connection-issues.md)
+  - ORA-28575 error [1](database-connection-issues.md)
+  - TNS-12203 error [1](database-connection-issues.md)
+  - Windows firewall exceptions [1](troubleshooting-windows-firewall-exceptions.md)
+- tuning Windows Server operating system [1](overview-of-windows-tuning.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- UNIX and Windows, Oracle Database differences [1](oracle-database-differences-on-windows-and-unix.md)
+- USE_SHARED_SOCKET networking parameter [1](about-use-shared-socket-parameter.md)
+- user authentication
+  - description [1](about-user-authentication-and-role-authorization-methods.md)
+  - enhancement methods [1](about-user-authentication-and-role-authorization-methods.md)
+- user group privileges
+  - ORA_ASMADMIN [1](overview-of-manually-granting-administrator-operator-and-task-specific-privileges-for-databases.md)
+  - ORA_ASMDBA [1](overview-of-manually-granting-administrator-operator-and-task-specific-privileges-for-databases.md)
+  - ORA_ASMOPER [1](overview-of-manually-granting-administrator-operator-and-task-specific-privileges-for-databases.md)
+  - ORA_DBA [1](overview-of-manually-granting-administrator-operator-and-task-specific-privileges-for-databases.md)
+  - ORA_HOMENAME_DBA [1](overview-of-manually-granting-administrator-operator-and-task-specific-privileges-for-databases.md)
+  - ORA_HOMENAME_OPER [1](overview-of-manually-granting-administrator-operator-and-task-specific-privileges-for-databases.md)
+  - ORA_HOMENAME_SYSBACKUP [1](overview-of-manually-granting-administrator-operator-and-task-specific-privileges-for-databases.md)
+  - ORA_HOMENAME_SYSDG [1](overview-of-manually-granting-administrator-operator-and-task-specific-privileges-for-databases.md)
+  - ORA_HOMENAME_SYSKM [1](overview-of-manually-granting-administrator-operator-and-task-specific-privileges-for-databases.md)
+  - ORA_OPER [1](overview-of-manually-granting-administrator-operator-and-task-specific-privileges-for-databases.md)
+- user replacement failure on Windows [1](user-replacement-failure-on-windows.md)
+- using Oracle Administration Assistant
+  - start Oracle Database [1](starting-and-shutting-down-a-database-using-services.md)
+  - stop Oracle Database [1](starting-and-shutting-down-a-database-using-services.md)
+- using ORADIM
+  - creating an Oracle Database instance [1](creating-an-instance-using-oradim.md)
+  - modifying an instance [1](editing-an-instance-using-oradim.md)
+  - starting an Oracle Database instance [1](starting-an-instance-and-services-using-oradim.md)
+  - starting services [1](starting-an-instance-and-services-using-oradim.md)
+- using UTL_FILE [1](about-accessing-text-files-with-utl-file.md)
+- using VSS
+  - database backup and recovery
+    - concepts [1](basic-concepts-of-database-backup-and-recovery-with-vss.md)
+    - purpose [1](purpose-of-database-backup-and-recovery-with-vss.md)
+    - scope [1](overview-of-database-backup-and-recovery-with-vss.md)
+    - steps [1](basic-steps-of-backup-and-recovery-with-vss.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- viewing password file
+  - using command prompt [1](viewing-and-hiding-the-password-file.md)
+  - using Windows Explorer [1](viewing-and-hiding-the-password-file.md)
+- Volume Shadow Copy Service (VSS) [1](purpose-of-database-backup-and-recovery-with-vss.md)
+- VSS
+  - Oracle VSS Writer [1](basic-concepts-of-database-backup-and-recovery-with-vss.md)
+    - backup [1](oracle-vss-backup-types.md)
+  - VSS provider [1](basic-concepts-of-database-backup-and-recovery-with-vss.md)
+  - VSS requester [1](basic-concepts-of-database-backup-and-recovery-with-vss.md)
+
+------------------------------------------------------------------------
+
+## W
+
+- Wallet Resource Locator [1](using-microsoft-certificate-stores-with-oracle-pki-applications.md)
+- Windows
+  - and UNIX, Oracle Database differences [1](oracle-database-differences-on-windows-and-unix.md)
+- Windows 32-bit operating system features
+  - large user populations [1](large-user-populations.md)
+  - Oracle PKI [1](oracle-public-key-infrastructure-integration-with-windows.md)
+- Windows domains
+  - administering external users and roles [1](overview-of-manually-administering-external-users-and-roles.md)
+  - basic features [1](about-user-authentication-and-role-authorization-methods.md)
+- Windows firewall exceptions
+  - configuring [1](configuring-windows-firewall-exceptions-for-successful-connections-to-oracle-software.md)
+  - troubleshooting [1](troubleshooting-windows-firewall-exceptions.md)
+- Windows firewall postinstallation [1](configuring-the-windows-firewall-postinstallation.md)
+- Windows local groups [1](overview-of-operating-system-authentication-enabled-at-installation.md)
+- Windows local groups with DBA privileges [1](performing-external-role-authorization-tasks-on-the-oracle-database-server.md)
+- Windows native authentication
+  - benefits [1](overview-of-windows-native-authentication.md), [2](configuring-client-computers-and-oracle-database-to-use-active-directory.md)
+  - enhancements [1](about-user-authentication-and-role-authorization-methods.md)
+  - installation of [1](overview-of-windows-native-authentication.md), [2](configuring-client-computers-and-oracle-database-to-use-active-directory.md)
+  - methods and use of [1](overview-of-windows-native-authentication.md), [2](configuring-client-computers-and-oracle-database-to-use-active-directory.md)
+  - overview [1](overview-of-windows-native-authentication.md), [2](configuring-client-computers-and-oracle-database-to-use-active-directory.md)
+  - role authorization enhancements [1](about-user-authentication-and-role-authorization-methods.md)
+  - setting the sqlnet.ora file [1](running-system-privilege-authentication-tasks-on-the-client-computer.md), [2](performing-external-role-authorization-tasks-on-the-oracle-database-server.md)
+  - user and role requirements [1](about-user-authentication-and-role-authorization-methods.md)
+  - user authentication enhancements [1](about-user-authentication-and-role-authorization-methods.md)
+- Windows-specific
+  - audit trail [1](reading-event-viewer.md)
+  - initialization parameter file [1](initialization-parameter-file-overview.md)
+  - parameter file location [1](about-the-location-of-the-initialization-parameter-file.md)
+  - parameter filename and location [1](initialization-parameter-file-overview.md)
+  - password filename and location [1](creating-and-populating-password-files.md)
+  - role syntax [1](performing-external-role-authorization-tasks-on-the-oracle-database-server.md)
+  - trace file names [1](about-trace-files.md)
+- Windows tuning
+  - applying latest service packs [1](overview-of-latest-reliable-windows-server-service-pack.md)
+  - closing unnecessary foreground applications [1](closing-all-unnecessary-foreground-applications.md)
+  - configuring server to be an application server [1](about-configuring-windows-server-to-be-an-application-server.md)
+  - disabling unnecessary services [1](about-disabling-unnecessary-services.md)
+  - foreground applications [1](about-reducing-priority-of-foreground-applications-on-server-console.md)
+  - multiple striped volumes for sequential and random access [1](about-multiple-striped-volumes-for-sequential-and-random-access.md)
+  - multiplex windows server virtual memory paging file [1](about-multiplex-windows-server-virtual-memory-paging-file.md)
+  - overview [1](overview-of-windows-tuning.md)
+  - removing unused network protocols [1](about-the-necessity-to-remove-unused-network-protocols.md)
+  - resetting the network protocol bind order [1](about-the-necessity-to-reset-network-protocol-bind-order.md)
+  - setting the order of multiple network interface cards [1](setting-the-order-of-multiple-network-interface-cards.md)
+  - using hardware and operating system striping [1](overview-of-hardware-or-operating-system-striping.md)
+- Windows utility tool
+  - ORADIM [1](about-administering-an-oracle-database-instance-using-oradim.md)
