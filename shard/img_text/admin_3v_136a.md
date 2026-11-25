@@ -1,0 +1,3 @@
+# Description of illustration admin_3v_136a
+
+This image illustrates how Data Guard replication is used with system-managed sharding. In the example in the figure there is a primary shardgroup, Shardgroup 1, and two standby shardgroups, Shardgroup 2 and Shardgroup 3. Shardgroup 1 consists of Data Guard primary databases (shards 1-3). Shardgroup 2 consists of local standby databases (shards 4-6) which are located in the same datacenter, Datacenter 1, and configured for synchronous replication. Shardgroup 3 consists of remote standbys (shards 7-9) located in a different datacenter, Datacenter 2, and configured for asynchronous replication. Oracle Active Data Guard is enabled in this configuration, so each standby is open read-only
