@@ -1,0 +1,51 @@
+The gateway converts Informix data types to Oracle data types as follows:
+
+In addition to the rules shown in the preceding table, if the maximum size for an Informix data type is smaller or larger than the corresponding Oracle data type, data might be lost. For example, if an Oracle table is defined with a column of `VARCHAR2(300)` and you use the `COPY` statement to copy the Oracle table to the Informix table where the Informix column is defined as `VARCHAR(255)`, the data might be truncated.
+
+Table A-1 Data Type Mapping and Restrictions
+
+| Informix                        | Oracle                   | Criteria                                                                                                          | If Oracle uses large varchar (32k) |
+|:--------------------------------|:-------------------------|:------------------------------------------------------------------------------------------------------------------|:-----------------------------------|
+| `BLOB`                          | `LONG RAW`               | \-                                                                                                                |                                    |
+| `BOOLEAN`                       | `NUMBER(3)`              |                                                                                                                   |                                    |
+| `BYTE`                          | `LONG RAW`               | \-                                                                                                                |                                    |
+| `CLOB`                          | `LONG`                   | \-                                                                                                                |                                    |
+| `CHAR`                          | `CHAR`                   | \-                                                                                                                |                                    |
+| `DATE`                          | `DATE`                   | \-                                                                                                                |                                    |
+| `DATETIME YEAR TO DAY`          | `DATE`                   |                                                                                                                   |                                    |
+| `DATETIME YEAR TO FRACTION`     | `DATE`                   |                                                                                                                   |                                    |
+| `DATETIME YEAR TO SECOND`       | `DATE`                   |                                                                                                                   |                                    |
+| `DATETIME HOUR TO SECOND`       | `CHAR(15)`               |                                                                                                                   |                                    |
+| `DATETIME HOUR TO FRACTION`     | `CHAR(15)`               |                                                                                                                   |                                    |
+| `DECIMAL`                       | `NUMBER(p[,s])`          | \-                                                                                                                |                                    |
+| `FLOAT`                         | `FLOAT(53)`              | \-                                                                                                                |                                    |
+| `INT`8                          | `NUMBER(19)`             |                                                                                                                   |                                    |
+| `INTEGER`                       | `NUMBER(10)`             | `NUMBER` range is `-2,147,483,647` to `2,147,483,647`                                                             |                                    |
+| `INTERVAL YEAR() TO YEAR`       | `INTERVAL YEAR TO MONTH` |                                                                                                                   |                                    |
+| `INTERVAL MONTH() TO MONTH`     | `INTERVAL YEAR TO MONTH` |                                                                                                                   |                                    |
+| `INTERVAL YEAR() TO MONTH`      | `INTERVAL YEAR TO MONTH` |                                                                                                                   |                                    |
+| `INTERVAL DAY() TO DAY`         | `INTERVAL DAY TO SECOND` |                                                                                                                   |                                    |
+| `INTERVAL HOUR() TO HOUR`       | `INTERVAL DAY TO SECOND` |                                                                                                                   |                                    |
+| `INTERVAL MINUTE() TO MINUTE`   | `INTERVAL DAY TO SECOND` |                                                                                                                   |                                    |
+| `INTERVAL SECOND() TO SECOND`   | `INTERVAL DAY TO SECOND` |                                                                                                                   |                                    |
+| `INTERVAL SECOND() TO FRACTION` | `INTERVAL DAY TO SECOND` |                                                                                                                   |                                    |
+| `INTERVAL FRACTION TO FRACTION` | `INTERVAL DAY TO SECOND` |                                                                                                                   |                                    |
+| `INTERVAL DAY() TO HOUR`        | `INTERVAL DAY TO SECOND` |                                                                                                                   |                                    |
+| `INTERVAL DAY() TO MINUTE`      | `INTERVAL DAY TO SECOND` |                                                                                                                   |                                    |
+| `INTERVAL DAY() TO SECOND`      | `INTERVAL DAY TO SECOND` |                                                                                                                   |                                    |
+| `INTERVAL DAY() TO FRACTION`    | `INTERVAL DAY TO SECOND` |                                                                                                                   |                                    |
+| `INTERVAL HOUR() TO MINUTE`     | `INTERVAL DAY TO SECOND` |                                                                                                                   |                                    |
+| `INTERVAL HOUR() TO SECOND`     | `INTERVAL DAY TO SECOND` |                                                                                                                   |                                    |
+| `INTERVAL HOUR() TO FRACTION`   | `INTERVAL DAY TO SECOND` |                                                                                                                   |                                    |
+| `INTERVAL MINUTE() TO SECOND`   | `INTERVAL DAY TO SECOND` |                                                                                                                   |                                    |
+| `INTERVAL MINUTE() TO FRACTION` | `INTERVAL DAY TO SECOND` |                                                                                                                   |                                    |
+| `LVARCHAR`                      | `VARCHAR2`               | `N` \< = `4000`                                                                                                   | `N` \<= `32767`                    |
+| `MONEY`                         | `NUMBER(p[,s])`          | \-                                                                                                                |                                    |
+| `NCHAR`                         | `CHAR`                   | \-                                                                                                                |                                    |
+| `NVARCHAR`                      | `VARCHAR2`               | `N` \< = `4000`                                                                                                   | `N` \<= `32767`                    |
+| `SERIAL`                        | `NUMBER(10)`             | `NUMBER` range is `-2,147,483,647` to `2,147,483,647`                                                             |                                    |
+| `SERIAL8`                       | `NUMBER(19)`             | \-                                                                                                                |                                    |
+| `SMALLFLOAT`                    | `FLOAT(24)`              | Precision is `6`                                                                                                  |                                    |
+| `SMALLINT`                      | `NUMBER(5)`              |                                                                                                                   |                                    |
+| `TEXT`                          | `LONG`                   | \-                                                                                                                |                                    |
+| `VARCHAR`                       | `VARCHAR2`               | `N` \< = `4000`<br>If a length is not specified as part of `VARCHAR`, the data type is converted to `VARCHAR2(1)` | `N` \<= `32767`                    |
