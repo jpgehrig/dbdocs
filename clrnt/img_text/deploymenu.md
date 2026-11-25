@@ -1,0 +1,1 @@
+This screen shot shows the Build menu, which includes Build Solution, Rebuild Solution, Deploy Solution, Build, Rebuild, and Deploy the example solution CLRLibrary1, and Batch Build... and Configuration Manager.

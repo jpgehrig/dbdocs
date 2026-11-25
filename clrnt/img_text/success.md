@@ -1,0 +1,1 @@
+This screen shot shows the Output window with a grid labeled parameters, to display the result. The headings are Name, Direction, Data Type, and Value. The first line shows Return Value, RETURN VALUE, NUMBER, and 10. The second line shows the input values, EMPNO, IN, NUMBER, and 7934.

@@ -1,0 +1,6 @@
+- [2-1        OraClrAgnt Service Parameters](install.md)
+- [2-2        Registry Options](install.md)
+- [A-1        Mapping of Oracle Native Data Type to .NET Framework Data Types](datatype-conversion.md)
+- [A-2        Mapping of .NET Framework Data Types to Oracle Native Data Types](datatype-conversion.md)
+- [A-3        Mapping of Oracle Native Data Types to ODP.NET Data Types](datatype-conversion.md)
+- [A-4        Mapping of ODP.NET Data Types to Oracle Native Data Types](datatype-conversion.md)
