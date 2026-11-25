@@ -1,0 +1,3342 @@
+Numerics  A  B  C  D  E  F  G  H  I  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  
+
+------------------------------------------------------------------------
+
+## Numerics
+
+- 64-bit integer support [5.3.3](data-types.md)
+
+------------------------------------------------------------------------
+
+## A
+
+- administration handle [16.1](database-startup-and-shutdown.md)
+  - attributes [A.6](handle-and-descriptor-attributes.md)
+  - description [16.1](database-startup-and-shutdown.md)
+- ADR [3.8.1](build-and-configure-oci-applications.md)
+- ADR, controlling creation [3.8.4](build-and-configure-oci-applications.md)
+- ADR base location [3.8.2](build-and-configure-oci-applications.md)
+- ADRCI command-line tool [3.8.3](build-and-configure-oci-applications.md)
+- ADT
+  - See: object type
+- advanced queuing
+  - agent descriptor [4.2.1.13](oci-programming-basics.md)
+  - dequeue options descriptor [4.2.1.13](oci-programming-basics.md)
+  - descriptor [4.2.1.13.7](oci-programming-basics.md)
+  - enqueue options descriptor [4.2.1.13](oci-programming-basics.md)
+  - listen options descriptor [4.2.1.13](oci-programming-basics.md)
+  - message properties descriptor [4.2.1.13](oci-programming-basics.md)
+  - notification descriptor [4.2.1.13](oci-programming-basics.md)
+- advantages
+  - OCI [1.1](introduction.md)
+- Agent Control Utility (agtctl)
+  - commands
+    - in shell mode [F.3.3](multithreaded-extproc-agent.md)
+    - in single-line mode [F.3.2](multithreaded-extproc-agent.md)
+    - list of [F.3.1](multithreaded-extproc-agent.md)
+  - extproc administration and [F.3](multithreaded-extproc-agent.md)
+  - extproc architecture and [F.2](multithreaded-extproc-agent.md)
+- allocation duration
+  - example [22.1.9.1](object-advanced-topics-in-oci.md)
+  - of objects [22.1.9](object-advanced-topics-in-oci.md)
+- alternatives to OCI
+  - OCCI [1.3](introduction.md)
+  - ODPI-C [1.3](introduction.md)
+  - Pro\*C/C++ [1.3](introduction.md)
+- ALTER SESSION SET CONTAINER [17.2](support-for-pluggable-databases.md), [17.4](support-for-pluggable-databases.md)
+  - enhancements on OCI calls with [17.2](support-for-pluggable-databases.md)
+  - restrictions on OCI calls with [17.4](support-for-pluggable-databases.md)
+- ALTER SESSION SWITCH CONTAINER SWITCH SERVICE
+  - restrictions on OCI calls with [17.5](support-for-pluggable-databases.md)
+- ANSI DATE descriptor [4.2.1.13](oci-programming-basics.md)
+- AnyData [20.13](object-relational-data-types-in-oci.md)
+- AnyDataSet [20.13](object-relational-data-types-in-oci.md)
+- AnyType [20.13](object-relational-data-types-in-oci.md)
+- application context [10.6](managing-scalable-platforms.md)
+- Application Continuity [12.5](high-availability-in-oci.md)
+  - constructs not supported [12.5.6.2](high-availability-in-oci.md)
+  - failed replay [12.5.5](high-availability-in-oci.md)
+  - following a recoverable error [12.5.2](high-availability-in-oci.md)
+  - successful replay criteria [12.5.3](high-availability-in-oci.md)
+  - successful replay side effects to be aware of [12.5.6.3](high-availability-in-oci.md)
+  - supported OCI functions for fail over [12.5.6.1](high-availability-in-oci.md)
+  - what disables it in OCI [12.5.4](high-availability-in-oci.md)
+  - when it is most effective [12.5.6](high-availability-in-oci.md)
+- application initialization [4.3.1.3](oci-programming-basics.md)
+- AQ
+  - See: Oracle Database Advanced Queuing.
+- argument attributes [8.2.11](describing-schema-metadata.md)
+- arrays
+  - binds [20.14.4](object-relational-data-types-in-oci.md)
+  - defines [20.15.3.1](object-relational-data-types-in-oci.md)
+  - DML, maximum rows [7.1.2](binding-and-defining-in-oci.md)
+  - skip parameter for [7.5.1.1](binding-and-defining-in-oci.md)
+- arrays of structures [7.5](binding-and-defining-in-oci.md)
+  - indicator variables [7.5.3](binding-and-defining-in-oci.md)
+  - OCI calls used [7.5.2](binding-and-defining-in-oci.md)
+  - skip parameters [7.5.1](binding-and-defining-in-oci.md)
+- atomic NULLs [19.3.14](oci-object-relational-programming.md)
+- attribute descriptor object [20.12.1](object-relational-data-types-in-oci.md)
+- attributes
+  - administration handle [A.6](handle-and-descriptor-attributes.md)
+  - authentication handle [A.5.1](handle-and-descriptor-attributes.md)
+  - authentication information handle [A.5.2](handle-and-descriptor-attributes.md)
+  - bind handle [A.10](handle-and-descriptor-attributes.md)
+  - complex object retrieval (COR) descriptor [A.20.2](handle-and-descriptor-attributes.md)
+  - complex object retrieval (COR) handle [A.20.1](handle-and-descriptor-attributes.md)
+  - connection pool handle [A.7](handle-and-descriptor-attributes.md)
+  - continuous query notification [A.22.1](handle-and-descriptor-attributes.md)
+  - continuous query notification descriptor [A.22.2](handle-and-descriptor-attributes.md)
+  - define handle [A.11](handle-and-descriptor-attributes.md)
+    - description [A.11](handle-and-descriptor-attributes.md)
+  - describe handle [A.12](handle-and-descriptor-attributes.md)
+  - direct path loading
+    - column array handle [A.23.3](handle-and-descriptor-attributes.md)
+    - column parameter [A.23.5](handle-and-descriptor-attributes.md)
+    - context handle [A.23.1](handle-and-descriptor-attributes.md)
+    - function context handle [A.23.2](handle-and-descriptor-attributes.md)
+    - handle [A.23](handle-and-descriptor-attributes.md)
+    - stream handle [A.23.4](handle-and-descriptor-attributes.md)
+  - environment handle [A.2](handle-and-descriptor-attributes.md)
+  - error handle [A.3](handle-and-descriptor-attributes.md)
+  - event handle [A.25](handle-and-descriptor-attributes.md)
+  - LOB locator [A.19](handle-and-descriptor-attributes.md)
+  - notification descriptor [A.22.3](handle-and-descriptor-attributes.md)
+  - OCIAQAgent descriptor [A.21.4](handle-and-descriptor-attributes.md)
+  - OCIAQDeqOptions descriptor [A.21.2](handle-and-descriptor-attributes.md)
+  - OCIAQEnqOptions descriptor [A.21.1](handle-and-descriptor-attributes.md)
+  - OCIAQMsgProperties descriptor [A.21.3](handle-and-descriptor-attributes.md)
+  - OCIServerDNs descriptor [A.21.5](handle-and-descriptor-attributes.md)
+  - of handles [4.2.1.12](oci-programming-basics.md)
+  - of objects [19.3.9](oci-object-relational-programming.md)
+  - of parameter descriptors [8.2](describing-schema-metadata.md)
+  - of parameters [8.2](describing-schema-metadata.md)
+  - parameter descriptor [A.13](handle-and-descriptor-attributes.md)
+  - process handle [A.24](handle-and-descriptor-attributes.md)
+  - server handle [A.5](handle-and-descriptor-attributes.md)
+  - service context handle [A.4](handle-and-descriptor-attributes.md)
+  - session pool handle [A.7.1](handle-and-descriptor-attributes.md)
+  - Shard Instance Descriptor [A.14](handle-and-descriptor-attributes.md)
+  - statement handle [A.9](handle-and-descriptor-attributes.md)
+  - subscription handle [A.22](handle-and-descriptor-attributes.md)
+  - transaction handle [A.8](handle-and-descriptor-attributes.md)
+  - user session handle [A.5.2](handle-and-descriptor-attributes.md)
+- authentication
+  - by Distinguished Name [10.4.1.3](managing-scalable-platforms.md)
+  - by X.509 Certificate [10.4.1.4](managing-scalable-platforms.md)
+  - management [10.3.1](managing-scalable-platforms.md)
+- authentication handle
+  - attributes [A.5.1](handle-and-descriptor-attributes.md)
+- authentication information handle [4.2.1](oci-programming-basics.md)
+- authorize functions [25.2](connect-authorize-and-initialize-functions.md)
+- auto_tune [15.5.3.2](performance-topics.md)
+- Automatic Diagnostic Repository (ADR) [3.8.1](build-and-configure-oci-applications.md)
+- auto-tuning
+  - client session features
+    - comparison of auto-tuning parameters [15.5.3.3](performance-topics.md)
+    - enabling and disabling [15.5.5](performance-topics.md)
+    - usage examples of client attributes [15.5.4](performance-topics.md)
+  - OCI client attributes [15.5.3](performance-topics.md)
+  - OCI client session features
+    - benefits of [15.5.2](performance-topics.md)
+  - OCI client statement cache [15.5](performance-topics.md)
+
+------------------------------------------------------------------------
+
+## B
+
+- BASICFILE parameter [9.10](lobs-and-bfile-operations.md)
+- batch error mode [6.4.2.1](using-sql_statements-in-oci.md)
+- batch jobs, authenticating users in [10.3.3](managing-scalable-platforms.md)
+- BFILE
+  - data type [5.3.22.1](data-types.md)
+- BFILE data type locator descriptor [4.2.1.13](oci-programming-basics.md)
+- BINARY_DOUBLE data type [5.2.4](data-types.md)
+- BINARY_FLOAT data type [5.2.4](data-types.md)
+- bind and define in statement caching [15.1.4](performance-topics.md)
+- bind functions [25.4](bind-define-describe-functions.md)
+- bind handle
+  - attributes [A.10](handle-and-descriptor-attributes.md)
+  - description [4.2.1.5](oci-programming-basics.md)
+- binding
+  - arrays [20.14.4](object-relational-data-types-in-oci.md)
+  - buffer expansion [7.8.3.3](binding-and-defining-in-oci.md)
+  - multiple buffers [7.6](binding-and-defining-in-oci.md)
+  - OCINumber [20.16.1](object-relational-data-types-in-oci.md)
+  - PL/SQL placeholders [4.5](oci-programming-basics.md)
+  - summary [7.2](binding-and-defining-in-oci.md)
+- bind operations [6.3](using-sql_statements-in-oci.md), [7.1](binding-and-defining-in-oci.md), [20.14](object-relational-data-types-in-oci.md)
+  - associations made [7.1](binding-and-defining-in-oci.md)
+  - example [7.1.4](binding-and-defining-in-oci.md)
+  - initializing variables [7.1](binding-and-defining-in-oci.md)
+  - LOBs [7.2.1](binding-and-defining-in-oci.md)
+  - named data types [20.14.1](object-relational-data-types-in-oci.md)
+  - named versus positional [7.1.1](binding-and-defining-in-oci.md)
+  - OCI_DATA_AT_EXEC mode [7.2.2](binding-and-defining-in-oci.md)
+  - OCI array interface [7.1.2](binding-and-defining-in-oci.md)
+  - PL/SQL [7.1.3](binding-and-defining-in-oci.md)
+  - positional versus named [7.1.1](binding-and-defining-in-oci.md)
+  - REF CURSOR variables [7.2.3](binding-and-defining-in-oci.md)
+  - REFs [20.14.2](object-relational-data-types-in-oci.md)
+  - steps used [7.1.4](binding-and-defining-in-oci.md)
+- bind placeholders [6.3.1](using-sql_statements-in-oci.md)
+- BLOB data type [5.3.22.2](data-types.md)
+- blocking modes [4.4.9](oci-programming-basics.md)
+- branches
+  - detaching [10.2.3.5](managing-scalable-platforms.md)
+  - preparing multiple [10.2.3.8](managing-scalable-platforms.md)
+  - resuming [10.2.3.5](managing-scalable-platforms.md)
+- buffered messaging [13.3.4](notification-streams-advanced-queuing.md)
+- buffer expansion during binding [7.8.3.3](binding-and-defining-in-oci.md)
+- buffering LOB operations [9.7.2](lobs-and-bfile-operations.md)
+- building OCI applications [B](oci-demo-programs.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- cache, client result [15.4](performance-topics.md)
+- cache functions
+  - server round-trips [C.3](oci-function-server-round-trips.md)
+- callbacks
+  - dynamic registrations [14.1.6](user-defined-callback-functions.md)
+  - for LOB operations [9.7.4](lobs-and-bfile-operations.md)
+  - for reading LOBs [9.7.4.2](lobs-and-bfile-operations.md)
+  - for writing LOBs [9.7.4.3](lobs-and-bfile-operations.md)
+  - from external procedures [14.2](user-defined-callback-functions.md)
+  - LOB streaming interface [9.7.4.1](lobs-and-bfile-operations.md)
+  - parameter modes [25.4.11](bind-define-describe-functions.md)
+  - registration for transparent application failover [12.3.5](high-availability-in-oci.md)
+  - restrictions [14.1.11](user-defined-callback-functions.md)
+  - user-defined functions [14](user-defined-callback-functions.md)
+- canceling a cursor [26.2.2](statement-functions.md)
+- canceling OCI calls [4.4.5](oci-programming-basics.md)
+- cartridge functions [29](oci-cartridge-functions.md)
+- CASE OTT parameter [24.7.2.10](using-object-type-translator-in-oci.md)
+- C data types
+  - manipulating with OCI [20.3](object-relational-data-types-in-oci.md)
+- CDBs
+  - enhancements on OCI API calls with [17.1](support-for-pluggable-databases.md)
+  - restrictions on OCI API calls with [17.3](support-for-pluggable-databases.md)
+- change notification descriptor [4.2.1.13](oci-programming-basics.md)
+- CHAR
+  - external data type [5.3.17](data-types.md)
+- character-length semantics [7.8.3.3.1](binding-and-defining-in-oci.md), [7.8.3.3.3](binding-and-defining-in-oci.md), [7.8.3.4.1](binding-and-defining-in-oci.md), [8.3](describing-schema-metadata.md)
+- character set conversion of Unicode [4.6.10](oci-programming-basics.md)
+- character set form [7.8.1](binding-and-defining-in-oci.md)
+- character set ID [7.8.1](binding-and-defining-in-oci.md)
+  - Unicode [A.10](handle-and-descriptor-attributes.md), [A.11](handle-and-descriptor-attributes.md)
+- character sets
+  - OCI SODA client [36.1](oci-SODA-functions.md)
+  - XStream OCI interface [34.1.4](about-XStream-interface.md)
+- CHARZ
+  - external data type [5.3.18](data-types.md)
+- checkerr() listing [26.9.3](miscellaneous-functions.md)
+- client and server interoperability [3.7.1](build-and-configure-oci-applications.md)
+- client auto-tuning
+  - comparison of auto-tuning parameters [15.5.3.3](performance-topics.md)
+  - OCI client attributes [15.5.3](performance-topics.md)
+  - session features
+    - benefits of [15.5.2](performance-topics.md)
+    - enabling and disabling [15.5.5](performance-topics.md)
+  - usage examples of client attributes [15.5.4](performance-topics.md)
+- CLIENTCONTEXT namespace [10.6.1](managing-scalable-platforms.md)
+- client result cache [15.4](performance-topics.md)
+- client statement cache auto-tuning
+  - OCI client session feature [15.5](performance-topics.md)
+- CLOB
+  - data type [5.3.22.3](data-types.md)
+- code
+  - example programs [B](oci-demo-programs.md)
+  - list of demonstration programs [B](oci-demo-programs.md)
+- CODE OTT parameter [24.7.2.4](using-object-type-translator-in-oci.md)
+- coding guidelines
+  - reserved words [4.4.7](oci-programming-basics.md)
+- coherency
+  - of object cache [22.1.1](object-advanced-topics-in-oci.md)
+- collections
+  - attributes [8.2.7](describing-schema-metadata.md)
+  - data manipulation functions [20.9.2](object-relational-data-types-in-oci.md)
+  - describing [8.1](describing-schema-metadata.md)
+  - description [20.9](object-relational-data-types-in-oci.md)
+  - functions for manipulating [20.9.1](object-relational-data-types-in-oci.md)
+  - multilevel [20.10](object-relational-data-types-in-oci.md)
+  - scanning functions [20.9.3](object-relational-data-types-in-oci.md)
+- column objects
+  - direct path loading of [21.2.2](direct-path-load-interface.md)
+- columns
+  - attributes [8.1.2.3](describing-schema-metadata.md), [8.2.10](describing-schema-metadata.md)
+- commit [4.3.3](oci-programming-basics.md)
+  - in object applications [22.1.8](object-advanced-topics-in-oci.md)
+  - one-phase for global transactions [10.2.3.7](managing-scalable-platforms.md)
+  - two-phase for global transactions [10.2.3.7](managing-scalable-platforms.md)
+- compatibility
+  - of releases in OCI [3.7](build-and-configure-oci-applications.md)
+- compiling
+  - OCI application [D.4](getting-started-with-oci-for-windows.md)
+  - OCI with Oracle XA [D.7.1](getting-started-with-oci-for-windows.md)
+  - XA Library [D.7](getting-started-with-oci-for-windows.md)
+- complex object descriptor [4.2.1.13](oci-programming-basics.md)
+- complex object retrieval [19.3.10](oci-object-relational-programming.md)
+  - descriptor attributes [A.20.2](handle-and-descriptor-attributes.md)
+  - handle [4.2.1.7](oci-programming-basics.md)
+  - handle attributes [A.20.1](handle-and-descriptor-attributes.md)
+  - implementing [19.3.10.2](oci-object-relational-programming.md)
+  - navigational prefetching [19.3.11](oci-object-relational-programming.md)
+- complex object retrieval (COR) descriptor [4.2.1.13.6](oci-programming-basics.md)
+- CONFIG OTT parameter [24.7.2.8](using-object-type-translator-in-oci.md)
+- connect functions [25.2](connect-authorize-and-initialize-functions.md)
+- connection [4.3.1.3](oci-programming-basics.md)
+- connection mode
+  - nonblocking [4.4.9](oci-programming-basics.md)
+- connection pool handle
+  - attributes [A.7](handle-and-descriptor-attributes.md)
+  - description [4.2.1.11](oci-programming-basics.md)
+  - initializing [11.4.2.2](session-and-connection-pooling.md)
+- connection pooling [11.4](session-and-connection-pooling.md), [11.5](session-and-connection-pooling.md)
+  - code example [11.4.3](session-and-connection-pooling.md)
+  - creating [11.4.2.2](session-and-connection-pooling.md)
+  - database resident [11.2](session-and-connection-pooling.md)
+- connection pools and TAF [11.4.1.4](session-and-connection-pooling.md)
+- consistency
+  - of object cache [22.1.1](object-advanced-topics-in-oci.md)
+- continuous query notification [13.1](notification-streams-advanced-queuing.md)
+  - attributes [A.22.1](handle-and-descriptor-attributes.md)
+  - descriptor attributes [A.22.2](handle-and-descriptor-attributes.md)
+- copying
+  - objects [19.3.15](oci-object-relational-programming.md)
+- COR
+  - See: complex object retrieval
+- creating
+  - objects [19.3.15](oci-object-relational-programming.md)
+- cursor cancellation [26.2.2](statement-functions.md)
+- custom pools [18.2](oci-interface-for-using-shards.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- database connection
+  - for object applications [19.3.3](oci-object-relational-programming.md)
+- database resident connection pooling [11.2](session-and-connection-pooling.md)
+- databases
+  - attributes [8.2.14](describing-schema-metadata.md)
+  - describing [8.1](describing-schema-metadata.md)
+  - shutting down [16.1](database-startup-and-shutdown.md)
+  - starting up [16.1](database-startup-and-shutdown.md)
+- database type attributes
+  - type OCI_PTYPE_DATABASE [8.2.14](describing-schema-metadata.md)
+- data cartridges
+  - OCI functions [4](oci-programming-basics.md), [29](oci-cartridge-functions.md)
+- data definition language
+  - SQL statements [1.4.1](introduction.md)
+- data manipulation language
+  - SQL statements [1.4.3](introduction.md)
+- data structures [4.2](oci-programming-basics.md)
+  - See also: descriptors, handles
+- data types
+  - ANSI DATE [5.3.23.1](data-types.md)
+  - BFILE [5.3.22.1](data-types.md)
+  - binding and defining [20.16](object-relational-data-types-in-oci.md)
+  - BLOBs (binary large objects) [5.3.22.2](data-types.md)
+  - CLOB [5.3.22.3](data-types.md)
+  - conversions [5.4](data-types.md)
+  - direct path loading [21.1.1](direct-path-load-interface.md), [A.23.5.1](handle-and-descriptor-attributes.md)
+  - external [5.1.1](data-types.md), [5.3](data-types.md)
+  - FILE [5.3.22.1](data-types.md)
+  - for piecewise operations [7.11.1](binding-and-defining-in-oci.md)
+  - internal [5.2](data-types.md)
+  - internal codes [5.2](data-types.md)
+  - INTERVAL DAY TO SECOND [5.3.23.6](data-types.md)
+  - INTERVAL YEAR TO MONTH [5.3.23.5](data-types.md)
+  - manipulating with OCI [20.3](object-relational-data-types-in-oci.md)
+  - mapping, Oracle methodology [20.2.1](object-relational-data-types-in-oci.md)
+  - mapping, OTT utility [24.4](using-object-type-translator-in-oci.md)
+  - mapping and manipulation functions [C.5](oci-function-server-round-trips.md)
+  - mapping from Oracle to C [20.2](object-relational-data-types-in-oci.md)
+  - NCLOB [5.3.22.4](data-types.md)
+  - Oracle [5.1](data-types.md)
+  - TIMESTAMP [5.3.23.2](data-types.md)
+  - TIMESTAMP WITH LOCAL TIME ZONE [5.3.23.4](data-types.md)
+  - TIMESTAMP WITH TIME ZONE [5.3.23.3](data-types.md)
+- DATE
+  - external data type [5.3.10](data-types.md)
+- DATE, ANSI
+  - data type [5.3.23.1](data-types.md)
+- date cache [21.1.6](direct-path-load-interface.md)
+- date descriptor [4.2.1.13.5](oci-programming-basics.md)
+- datetime
+  - avoiding unexpected results [5.3.23.7](data-types.md)
+- datetime and date
+  - migration rules [5.4.3](data-types.md)
+- datetime descriptor [4.2.1.13.5](oci-programming-basics.md)
+- DDL
+  - See: data definition language
+- DEDUPLICATE [9.10](lobs-and-bfile-operations.md)
+- default file name extensions
+  - OTT utility [24.7.7](using-object-type-translator-in-oci.md)
+- default name mapping
+  - OTT utility [24.7.7](using-object-type-translator-in-oci.md)
+- define
+  - arrays [20.15.3.1](object-relational-data-types-in-oci.md)
+  - return and error codes [4.3.5.1](oci-programming-basics.md)
+- define functions [25.4](bind-define-describe-functions.md)
+- define handle
+  - attributes [A.11](handle-and-descriptor-attributes.md)
+  - description [4.2.1.5](oci-programming-basics.md)
+- define operations [6.6](using-sql_statements-in-oci.md), [7.3](binding-and-defining-in-oci.md), [20.15](object-relational-data-types-in-oci.md)
+  - example [7.3.1](binding-and-defining-in-oci.md)
+  - LOBs [7.4.1](binding-and-defining-in-oci.md)
+  - named data types [20.15.1](object-relational-data-types-in-oci.md)
+  - piecewise fetch [7.4.3](binding-and-defining-in-oci.md)
+  - PL/SQL output variables [7.4.2](binding-and-defining-in-oci.md)
+  - REFs [20.15.2](object-relational-data-types-in-oci.md)
+  - steps used [7.3.1](binding-and-defining-in-oci.md)
+- defining
+  - multiple buffers [7.6](binding-and-defining-in-oci.md)
+  - OCINumber [20.16.1](object-relational-data-types-in-oci.md)
+- deletes
+  - positioned [4.4.6](oci-programming-basics.md)
+- demonstration files location [3.1](build-and-configure-oci-applications.md)
+- demonstration programs [B](oci-demo-programs.md), [D.3](getting-started-with-oci-for-windows.md)
+  - list [B](oci-demo-programs.md)
+- describe
+  - explicit [6.5](using-sql_statements-in-oci.md), [6.5.2](using-sql_statements-in-oci.md)
+  - explicit and implicit [8.1.2.3](describing-schema-metadata.md)
+  - implicit [6.5](using-sql_statements-in-oci.md), [6.5.1](using-sql_statements-in-oci.md)
+  - of collections [8.1](describing-schema-metadata.md)
+  - of databases [8.1](describing-schema-metadata.md)
+  - of packages [8.1](describing-schema-metadata.md)
+  - of schemas [8.1](describing-schema-metadata.md)
+  - of sequences [8.1](describing-schema-metadata.md)
+  - of stored functions [8.1](describing-schema-metadata.md)
+  - of stored procedures [8.1](describing-schema-metadata.md)
+  - of synonyms [8.1](describing-schema-metadata.md)
+  - of tables [8.1](describing-schema-metadata.md)
+  - of types [8.1](describing-schema-metadata.md)
+  - of views [8.1](describing-schema-metadata.md)
+  - select list [6.5](using-sql_statements-in-oci.md)
+- describe functions [25.4](bind-define-describe-functions.md)
+- describe handle
+  - attributes [A.12](handle-and-descriptor-attributes.md)
+  - description [4.2.1.6](oci-programming-basics.md)
+- describe operation
+  - server round-trips [C.4](oci-function-server-round-trips.md)
+- describing the stored procedure
+  - example [8.4.2](describing-schema-metadata.md)
+- descriptor [4.2.1.13](oci-programming-basics.md)
+  - advanced queuing
+    - agent [4.2.1.13](oci-programming-basics.md)
+    - dequeue options [4.2.1.13](oci-programming-basics.md)
+    - enqueue options [4.2.1.13](oci-programming-basics.md)
+    - listen options [4.2.1.13](oci-programming-basics.md)
+    - message properties [4.2.1.13](oci-programming-basics.md)
+    - notification [4.2.1.13](oci-programming-basics.md)
+  - allocating [4.3.1.2](oci-programming-basics.md)
+  - ANSI DATE [4.2.1.13](oci-programming-basics.md)
+  - BFILE data type locator [4.2.1.13](oci-programming-basics.md)
+  - change notification [4.2.1.13](oci-programming-basics.md)
+  - complex object [4.2.1.13](oci-programming-basics.md)
+  - complex object retrieval [4.2.1.13.6](oci-programming-basics.md)
+  - distinguished names of the database servers in a registration request [4.2.1.13](oci-programming-basics.md)
+  - functions [25.3](handle-and-descriptor-functions.md)
+  - INTERVAL DAY TO SECOND [4.2.1.13](oci-programming-basics.md)
+  - INTERVAL YEAR TO MONTH [4.2.1.13](oci-programming-basics.md)
+  - LOB data type locator [4.2.1.13](oci-programming-basics.md)
+  - objects [20.12.1](object-relational-data-types-in-oci.md)
+  - parameter [4.2.1.13.3](oci-programming-basics.md)
+  - read-only parameter [4.2.1.13](oci-programming-basics.md)
+  - result set [4.2.1.13](oci-programming-basics.md)
+  - row change [4.2.1.13](oci-programming-basics.md)
+  - ROWID [4.2.1.13](oci-programming-basics.md), [4.2.1.13.4](oci-programming-basics.md)
+  - shard key and shard group key [4.2.1.13](oci-programming-basics.md)
+  - snapshot [4.2.1.13](oci-programming-basics.md), [4.2.1.13.1](oci-programming-basics.md)
+  - table change [4.2.1.13](oci-programming-basics.md)
+  - TIMESTAMP [4.2.1.13](oci-programming-basics.md)
+  - TIMESTAMP WITH LOCAL TIME ZONE [4.2.1.13](oci-programming-basics.md)
+  - TIMESTAMP WITH TIME ZONE [4.2.1.13](oci-programming-basics.md)
+  - user callback [4.2.1.13](oci-programming-basics.md)
+- detaching branches [10.2.3.5](managing-scalable-platforms.md)
+- DIAG_ADR_ENABLED sqlnet.ora parameter [3.8.4](build-and-configure-oci-applications.md)
+- DIAG_DDE_ENABLED sqlnet.ora parameter [3.8.4](build-and-configure-oci-applications.md)
+- DIAG_RESTRICTED [3.8.4](build-and-configure-oci-applications.md)
+- DIAG_SIGHANDLER_ENABLED [3.8.4](build-and-configure-oci-applications.md)
+- directory structures [D.2](getting-started-with-oci-for-windows.md)
+- direct path loading [21.1](direct-path-load-interface.md)
+  - attribute
+    - OCI_ATTR_DIRPATH_NO_INDEX_ERRORS [21.4.2.4](direct-path-load-interface.md)
+  - column array handle attributes [A.23.3](handle-and-descriptor-attributes.md)
+  - column parameter attributes [A.23.5](handle-and-descriptor-attributes.md)
+  - context handle attributes [A.23.1](handle-and-descriptor-attributes.md)
+  - data types of columns [21.1.1](direct-path-load-interface.md), [A.23.5.1](handle-and-descriptor-attributes.md)
+  - direct path column array handle [21.1.2.3](direct-path-load-interface.md)
+  - direct path context handle [21.1.2.1](direct-path-load-interface.md)
+  - direct path function context [21.1.2.2](direct-path-load-interface.md)
+  - direct path stream handle [21.1.2.4](direct-path-load-interface.md)
+  - example [21.1.5](direct-path-load-interface.md)
+  - function context handle attributes [A.23.2](handle-and-descriptor-attributes.md)
+  - functions [21.1.3](direct-path-load-interface.md), [26.5](direct-path-loading-functions.md)
+  - handle attributes [A.23](handle-and-descriptor-attributes.md)
+  - handles [4.2.1.10](oci-programming-basics.md), [21.1.2](direct-path-load-interface.md)
+  - in pieces [21.3](direct-path-load-interface.md)
+  - limitations [21.1.4](direct-path-load-interface.md)
+  - of date columns [21.1.6](direct-path-load-interface.md)
+  - stream handle attributes [A.23.4](handle-and-descriptor-attributes.md)
+- dispatcher thread [F.2](multithreaded-extproc-agent.md)
+- distinguished names of the database servers in a registration request descriptor [4.2.1.13](oci-programming-basics.md)
+- DML
+  - See: data manipulation language
+- DRCP (database resident connection pooling) [11.2](session-and-connection-pooling.md)
+- duration
+  - example [22.1.9.1](object-advanced-topics-in-oci.md)
+  - of objects [22.1.9](object-advanced-topics-in-oci.md)
+- dynamically linked applications [3.7.2](build-and-configure-oci-applications.md)
+- dynamic registration
+  - Oracle XA Library [D.7.2](getting-started-with-oci-for-windows.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- edition-based redefinition [10.7](managing-scalable-platforms.md)
+- editions [10.7](managing-scalable-platforms.md)
+- embedded objects
+  - fetching [19.3.8](oci-object-relational-programming.md)
+- embedded SQL [1.4.6](introduction.md)
+  - mixing with OCI calls [1.4.6](introduction.md)
+- empty LOB, inserting [9.8.1](lobs-and-bfile-operations.md)
+- enable [15.5.3.2.1](performance-topics.md)
+- enhanced DML array
+  - feature [6.4.2.1](using-sql_statements-in-oci.md)
+- enhancements
+  - on OCI API calls with CDBs in general [17.1](support-for-pluggable-databases.md)
+  - on OCI calls with ALTER SESSION SET CONTAINER [17.2](support-for-pluggable-databases.md)
+- environment handle
+  - attributes [A.2](handle-and-descriptor-attributes.md)
+  - description [4.2.1.2](oci-programming-basics.md)
+- environment handle attribute [4.6.5](oci-programming-basics.md)
+- error checking example [26.9.3](miscellaneous-functions.md)
+- error codes
+  - define calls [4.3.5.1](oci-programming-basics.md)
+  - navigational functions [27.1.7](intro-to-navigational-and-type-functions.md)
+- error handle
+  - attributes [A.3](handle-and-descriptor-attributes.md)
+  - description [4.2.1.3](oci-programming-basics.md)
+- errors
+  - handling [4.3.5](oci-programming-basics.md)
+  - handling in object applications [19.3.19](oci-object-relational-programming.md)
+- ERRTYPE OTT parameter [24.7.2.9](using-object-type-translator-in-oci.md)
+- evaluation context
+  - attributes [8.2.17](describing-schema-metadata.md)
+- evaluation context attributes [8.2.17](describing-schema-metadata.md)
+- event handle attributes [A.25](handle-and-descriptor-attributes.md)
+- example
+  - demonstration programs [B](oci-demo-programs.md)
+- executing SQL statements [6.4](using-sql_statements-in-oci.md)
+- execution
+  - against multiple servers [6.2.1](using-sql_statements-in-oci.md)
+  - modes [6.4.2](using-sql_statements-in-oci.md)
+  - snapshots [6.4.1](using-sql_statements-in-oci.md)
+- explicit describe [6.5](using-sql_statements-in-oci.md), [8.3.2](describing-schema-metadata.md)
+- extensions
+  - OTT utility default file name [24.7.7](using-object-type-translator-in-oci.md)
+- external data types [5.1.1](data-types.md), [5.3](data-types.md)
+  - CHAR [5.3.17](data-types.md)
+  - CHARZ [5.3.18](data-types.md)
+  - conversions [5.4](data-types.md)
+  - DATE [5.3.10](data-types.md)
+  - FLOAT [5.3.5](data-types.md)
+  - INTEGER [5.3.4](data-types.md)
+  - LOB [5.3.22](data-types.md)
+  - LONG [5.3.8](data-types.md)
+  - LONG RAW [5.3.13](data-types.md)
+  - LONG VARCHAR [5.3.15](data-types.md)
+  - LONG VARRAW [5.3.16](data-types.md)
+  - named data types [5.3.19](data-types.md)
+  - NUMBER [5.3.2](data-types.md)
+  - RAW [5.3.11](data-types.md)
+  - REF [5.3.20](data-types.md)
+  - ROWID [5.3.21](data-types.md)
+  - SQLT_BLOB [5.3.22](data-types.md)
+  - SQLT_CLOB [5.3.22](data-types.md)
+  - SQLT_NCLOB [5.3.22](data-types.md)
+  - SQLT_NTY [5.3.19](data-types.md)
+  - SQLT_REF [5.3.20](data-types.md)
+  - STRING [5.3.6](data-types.md)
+  - UNSIGNED [5.3.14](data-types.md)
+  - VARCHAR [5.3.9](data-types.md)
+  - VARCHAR2 [5.3.1](data-types.md)
+  - VARNUM [5.3.7](data-types.md)
+  - VARRAW [5.3.12](data-types.md)
+- externally initialized context [10.5](managing-scalable-platforms.md)
+- external procedure functions
+  - return codes [29.1.1](intro-to-external-procedure-and-cartridge-services-functions.md)
+  - with_context type [29.1.1](intro-to-external-procedure-and-cartridge-services-functions.md)
+- external procedures
+  - OCI callbacks [14.2](user-defined-callback-functions.md)
+- extproc agent [F](multithreaded-extproc-agent.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- failover
+  - callback example [12.3.6](high-availability-in-oci.md)
+- failover callbacks [12.3](high-availability-in-oci.md)
+  - structure and parameters [12.3.4](high-availability-in-oci.md)
+- fault diagnosability [3.8.1](build-and-configure-oci-applications.md)
+  - read or write client driver layer name [A.5.2](handle-and-descriptor-attributes.md)
+- featureRelease, client library version [26.9.2](miscellaneous-functions.md)
+- fetch
+  - piecewise [7.11](binding-and-defining-in-oci.md), [7.11.6](binding-and-defining-in-oci.md)
+- fetch operation [6.7](using-sql_statements-in-oci.md)
+  - LOB data [6.7.1](using-sql_statements-in-oci.md)
+  - setting prefetch count [6.7.2](using-sql_statements-in-oci.md)
+- FILE
+  - associating with operating system file [9.3](lobs-and-bfile-operations.md)
+  - data type [5.3.22.1](data-types.md)
+- FLOAT
+  - external data type [5.3.5](data-types.md)
+- flushing [22.1.6.1](object-advanced-topics-in-oci.md)
+  - object changes [19.3.7](oci-object-relational-programming.md)
+  - objects [22.1.6.1](object-advanced-topics-in-oci.md)
+- freeing
+  - objects [19.3.15](oci-object-relational-programming.md), [22.1.4.3](object-advanced-topics-in-oci.md)
+- functions
+  - attributes [8.2.2](describing-schema-metadata.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- generic documentation references
+  - compiling and linking OCI application [D.4](getting-started-with-oci-for-windows.md), [D.5](getting-started-with-oci-for-windows.md)
+  - demonstration programs [D.3](getting-started-with-oci-for-windows.md)
+  - invoking OTT from the command line [D.8](getting-started-with-oci-for-windows.md)
+  - XA linking file names [D.7](getting-started-with-oci-for-windows.md)
+- globalization support [4.6](oci-programming-basics.md)
+  - byte order is native to machine
+    - on which the application is running [4.6.8](oci-programming-basics.md)
+  - OCI functions [4](oci-programming-basics.md)
+- global transactions [10.2.3](managing-scalable-platforms.md)
+- GTRID
+  - See: transaction identifier
+
+------------------------------------------------------------------------
+
+## H
+
+- HA event notification [12.2](high-availability-in-oci.md)
+- handle attributes [4.2.1.12](oci-programming-basics.md)
+  - SODA collection [A.16](handle-and-descriptor-attributes.md)
+  - SODA document [A.15](handle-and-descriptor-attributes.md)
+- handle functions [25.3](handle-and-descriptor-functions.md)
+- handles [4.2.1](oci-programming-basics.md)
+  - administration handle [16.1](database-startup-and-shutdown.md), [A.6](handle-and-descriptor-attributes.md)
+  - advantages of [4.2.1.1](oci-programming-basics.md)
+  - allocating [4.2.1.1](oci-programming-basics.md), [4.3.1.2](oci-programming-basics.md)
+  - bind handle [4.2.1.5](oci-programming-basics.md), [A.10](handle-and-descriptor-attributes.md)
+  - C data types [4.2.1](oci-programming-basics.md)
+  - child freed when parent freed [4.2.1.1](oci-programming-basics.md)
+  - complex object retrieval handle [4.2.1.7](oci-programming-basics.md), [A.20.1](handle-and-descriptor-attributes.md)
+  - connection pool handle [4.2.1.11](oci-programming-basics.md), [11.4.2.2](session-and-connection-pooling.md), [A.7](handle-and-descriptor-attributes.md)
+  - define handle [4.2.1.5](oci-programming-basics.md), [A.11](handle-and-descriptor-attributes.md)
+  - describe handle [4.2.1.6](oci-programming-basics.md), [A.12](handle-and-descriptor-attributes.md)
+  - direct path loading [4.2.1.10](oci-programming-basics.md)
+  - environment handle [4.2.1.2](oci-programming-basics.md), [A.2](handle-and-descriptor-attributes.md)
+  - error handle [4.2.1.3](oci-programming-basics.md), [A.3](handle-and-descriptor-attributes.md)
+  - freeing [4.2.1.1](oci-programming-basics.md)
+  - process attributes [A.24](handle-and-descriptor-attributes.md)
+  - server handle [4.2.1.4](oci-programming-basics.md), [A.5](handle-and-descriptor-attributes.md)
+  - service context handle [4.2.1.4](oci-programming-basics.md), [A.4](handle-and-descriptor-attributes.md)
+  - statement handle [4.2.1.5](oci-programming-basics.md), [A.9](handle-and-descriptor-attributes.md)
+  - subscription [4.2.1.9](oci-programming-basics.md), [13.2.1.1](notification-streams-advanced-queuing.md)
+  - transaction handle [4.2.1.4](oci-programming-basics.md), [A.8](handle-and-descriptor-attributes.md)
+  - types [4.2.1](oci-programming-basics.md)
+  - user session handle [4.2.1.4](oci-programming-basics.md), [A.5.2](handle-and-descriptor-attributes.md)
+- handle type constants [4.2.1](oci-programming-basics.md)
+- header files
+  - location of [1.12](introduction.md), [3.1](build-and-configure-oci-applications.md), [D.4](getting-started-with-oci-for-windows.md)
+  - oratypes.h [5.6](data-types.md)
+- HFILE OTT parameter [24.7.2.7](using-object-type-translator-in-oci.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- implicit describe [8.3.1](describing-schema-metadata.md)
+- implicit results
+  - OCI support for [15.3](performance-topics.md)
+- inbound servers
+  - OCI interface [34.1.2](about-XStream-interface.md)
+- indicator variables [4.4.4](oci-programming-basics.md)
+  - arrays of structures [7.5.3](binding-and-defining-in-oci.md)
+  - for named data types [4.4.3](oci-programming-basics.md), [4.4.4.3](oci-programming-basics.md)
+  - for REFs [4.4.3](oci-programming-basics.md), [4.4.4.3](oci-programming-basics.md)
+  - named data type defines [20.15.3](object-relational-data-types-in-oci.md)
+  - PL/SQL OUT binds [20.15.3](object-relational-data-types-in-oci.md)
+  - REF defines [20.15.3](object-relational-data-types-in-oci.md)
+  - with named data type bind [20.14.3](object-relational-data-types-in-oci.md)
+  - with REF bind [20.14.3](object-relational-data-types-in-oci.md)
+- init.ora security parameters [10.8](managing-scalable-platforms.md)
+- INITFILE OTT parameter [24.7.2.5](using-object-type-translator-in-oci.md)
+- INITFUNC OTT parameter [24.7.2.6](using-object-type-translator-in-oci.md)
+- initialize
+  - all buffers [7.1.3](binding-and-defining-in-oci.md)
+  - functions [25.2](connect-authorize-and-initialize-functions.md)
+- inserting an empty LOB [9.8.1](lobs-and-bfile-operations.md)
+- inserts
+  - piecewise [7.11](binding-and-defining-in-oci.md), [7.11.3](binding-and-defining-in-oci.md)
+- Instant Client [2.1](instant-client.md)
+- Instant Client Light (English) [2.6](instant-client.md)
+- INTEGER external data type [5.3.4](data-types.md)
+- interacting with Oracle Database [D.7](getting-started-with-oci-for-windows.md)
+- internal codes for data types [5.2](data-types.md)
+- internal data types [5.2](data-types.md)
+  - conversions [5.4](data-types.md)
+- INTERVAL DAY TO SECOND data type [5.3.23.6](data-types.md)
+- INTERVAL DAY TO SECOND descriptor [4.2.1.13](oci-programming-basics.md)
+- interval descriptor [4.2.1.13.5](oci-programming-basics.md)
+- INTERVAL YEAR TO MONTH data type [5.3.23.5](data-types.md)
+- INTERVAL YEAR TO MONTH descriptor [4.2.1.13](oci-programming-basics.md)
+- intype file
+  - providing when running OTT utility [24.3](using-object-type-translator-in-oci.md)
+  - structure of [24.7.4](using-object-type-translator-in-oci.md)
+- INTYPE File Assistant [D.8](getting-started-with-oci-for-windows.md)
+- INTYPE OTT parameter [24.7.2.2](using-object-type-translator-in-oci.md)
+- IP address
+  - IPv4 [A.22](handle-and-descriptor-attributes.md)
+  - IPv6 [A.22](handle-and-descriptor-attributes.md)
+- IPv6 addressing [13.2.1.1](notification-streams-advanced-queuing.md), [A.22](handle-and-descriptor-attributes.md)
+
+------------------------------------------------------------------------
+
+## K
+
+- KEEP_DUPLICATES [9.10](lobs-and-bfile-operations.md)
+- key words [4.4.7](oci-programming-basics.md)
+
+------------------------------------------------------------------------
+
+## L
+
+- LCR column flags [35.3.9](oci-XStream-functions.md), [35.3.11](oci-XStream-functions.md), [35.3.12](oci-XStream-functions.md), [35.3.30](oci-XStream-functions.md), [35.3.38](oci-XStream-functions.md)
+- LDAP registration of publish-subscribe notification [13.2.1.3](notification-streams-advanced-queuing.md)
+- libraries
+  - oci.lib [D.5](getting-started-with-oci-for-windows.md)
+- linking
+  - OCI application [D.5](getting-started-with-oci-for-windows.md)
+  - OCI with Oracle XA [D.7.1](getting-started-with-oci-for-windows.md)
+  - XA Library [D.7](getting-started-with-oci-for-windows.md)
+- list attributes
+  - type OCI_PTYPE_LIST [8.2.12](describing-schema-metadata.md)
+- lists
+  - attributes [8.2.12](describing-schema-metadata.md)
+- lmsgen utility [4.6.12](oci-programming-basics.md)
+- LoadLibrary [D.5.2](getting-started-with-oci-for-windows.md)
+- LOB and LONG bind restrictions [7.2.1.2.1](binding-and-defining-in-oci.md)
+- LOB data type locator descriptor [4.2.1.13](oci-programming-basics.md)
+- LOB functions [26.3](lob-functions.md)
+  - server round-trips [C.2](oci-function-server-round-trips.md)
+- LOB locator [4.2.1.13.2](oci-programming-basics.md)
+  - attributes [A.19](handle-and-descriptor-attributes.md)
+- LOBs
+  - amount and offset parameters [26.3](lob-functions.md)
+  - attributes of transient objects [9.4.2](lobs-and-bfile-operations.md)
+  - binding [7.2.1](binding-and-defining-in-oci.md)
+  - buffering [9.7.2](lobs-and-bfile-operations.md)
+  - callbacks [9.7.4](lobs-and-bfile-operations.md)
+  - character sets [26.3](lob-functions.md)
+  - creating [9.2](lobs-and-bfile-operations.md)
+  - creating temporary [9.8.1](lobs-and-bfile-operations.md)
+  - defining [7.4.1](binding-and-defining-in-oci.md)
+  - duration of temporary [9.8.2](lobs-and-bfile-operations.md)
+  - example of temporary [9.8.5](lobs-and-bfile-operations.md)
+  - external data types [5.3.22](data-types.md)
+  - failover does not work [12.3.7](high-availability-in-oci.md)
+  - fetching data [6.7.1](using-sql_statements-in-oci.md)
+  - fixed-width character sets [26.3](lob-functions.md)
+  - freeing temporary [9.8.1](lobs-and-bfile-operations.md)
+  - greater than 4 GB [9.6](lobs-and-bfile-operations.md)
+  - locator [4.2.1.13.2](oci-programming-basics.md)
+  - modifying [9.2](lobs-and-bfile-operations.md)
+  - OCI functions [9.7](lobs-and-bfile-operations.md)
+  - prefetching [9.9](lobs-and-bfile-operations.md)
+  - size maximum [9.6](lobs-and-bfile-operations.md)
+  - temporary [9.8](lobs-and-bfile-operations.md)
+  - varying-width character sets [26.3](lob-functions.md)
+- locator [4.2.1.13](oci-programming-basics.md)
+  - for LOB data type [4.2.1.13.2](oci-programming-basics.md)
+- locking [22.1.7.2](object-advanced-topics-in-oci.md)
+  - objects [22.1.7.2](object-advanced-topics-in-oci.md)
+  - optimistic model [22.1.7.4](object-advanced-topics-in-oci.md)
+- logical transaction ID (LTXID)
+  - Transaction Guard [12.4](high-availability-in-oci.md)
+- LONG
+  - external data type [5.3.8](data-types.md)
+- LONG RAW
+  - external data type [5.3.13](data-types.md)
+- LONG VARCHAR
+  - external data type [5.3.15](data-types.md)
+- LONG VARRAW
+  - external data type [5.3.16](data-types.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- makefiles [3.1](build-and-configure-oci-applications.md), [B](oci-demo-programs.md)
+- marking objects [22.1.5.1](object-advanced-topics-in-oci.md)
+- memory_target [15.5.3.2.3](performance-topics.md)
+- meta-attributes
+  - of objects [19.3.9](oci-object-relational-programming.md)
+  - of persistent objects [19.3.9.1](oci-object-relational-programming.md)
+  - of transient objects [19.3.9.3](oci-object-relational-programming.md)
+- method descriptor object [20.12.1](object-relational-data-types-in-oci.md)
+- method results
+  - type OCI_PTYPE_TYPE_RESULT [8.2.11](describing-schema-metadata.md)
+- migration
+  - session [10.3.1](managing-scalable-platforms.md), [25.2.15](connect-authorize-and-initialize-functions.md)
+- miscellaneous functions [26.9](miscellaneous-functions.md)
+- mode
+  - agtctl command [F.3](multithreaded-extproc-agent.md)
+- monitor thread [F.2](multithreaded-extproc-agent.md)
+- multiple servers
+  - executing statement against [6.2.1](using-sql_statements-in-oci.md)
+- multi-property tags [11.1.3.1](session-and-connection-pooling.md)
+  - PL/SQL fix-up callback example [11.1.3.1.1](session-and-connection-pooling.md)
+- multithreaded development
+  - basic concepts [10.9](managing-scalable-platforms.md)
+- multithreaded extproc agent [F](multithreaded-extproc-agent.md)
+- multithreading [10.9](managing-scalable-platforms.md)
+- mutexes [10.9](managing-scalable-platforms.md)
+
+------------------------------------------------------------------------
+
+## N
+
+- named data types
+  - binding [20.14.1](object-relational-data-types-in-oci.md)
+  - binding and defining [20.16](object-relational-data-types-in-oci.md)
+  - defining [20.15.1](object-relational-data-types-in-oci.md)
+  - definition [5.3.19](data-types.md)
+  - external data types [5.3.19](data-types.md)
+  - indicator variables [4.4.4.3](oci-programming-basics.md)
+  - indicator variables for [4.4.3](oci-programming-basics.md)
+- name-value pair attributes
+  - type OCI_PTYPE_NAME_VALUE [8.2.20](describing-schema-metadata.md)
+- native double [5.3.24](data-types.md)
+- native float [5.3.24](data-types.md)
+- navigation [22.2](object-advanced-topics-in-oci.md)
+- navigational functions
+  - error codes [27.1.7](intro-to-navigational-and-type-functions.md)
+  - return values [27.1.5](intro-to-navigational-and-type-functions.md)
+  - terminology [27.1.2](intro-to-navigational-and-type-functions.md)
+- NCHAR
+  - issues [7.8](binding-and-defining-in-oci.md)
+- NCLOB
+  - data type [5.3.22.4](data-types.md)
+- nested table
+  - direct path loading of [21.2.1](direct-path-load-interface.md)
+  - element ordering [20.9.5.1](object-relational-data-types-in-oci.md)
+  - functions for manipulating [20.9.5](object-relational-data-types-in-oci.md)
+- new release, relinking [3.7.2](build-and-configure-oci-applications.md)
+- NLS_LANG [4.6.1](oci-programming-basics.md)
+- NLS_NCHAR [4.6.1](oci-programming-basics.md)
+- NOCOMPRESS [9.10](lobs-and-bfile-operations.md)
+- nonblocking mode [4.4.9](oci-programming-basics.md)
+- non-deferred linkage no longer supported [10.8.3](managing-scalable-platforms.md)
+- nonfinal object tables
+  - direct path loading of [21.2.7](direct-path-load-interface.md)
+- notification descriptor attributes [A.22.3](handle-and-descriptor-attributes.md)
+- NULL indicator
+  - setting for an object attribute [19.3.14](oci-object-relational-programming.md)
+- NULL indicator struct [19.3.14](oci-object-relational-programming.md)
+  - generated by OTT [19.3.1](oci-object-relational-programming.md)
+- nullness
+  - of objects [19.3.14](oci-object-relational-programming.md)
+- NULLs
+  - atomic [19.3.14](oci-object-relational-programming.md)
+  - inserting [4.4.4.1](oci-programming-basics.md)
+  - inserting into database [4.4.3](oci-programming-basics.md)
+  - inserting using indicator variables [4.4.3](oci-programming-basics.md)
+- NUMBER
+  - external data type [5.3.2](data-types.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- object applications
+  - commit [22.1.8](object-advanced-topics-in-oci.md)
+  - database connection [19.3.3](oci-object-relational-programming.md)
+  - rollback [22.1.8](object-advanced-topics-in-oci.md)
+- object cache [22.1](object-advanced-topics-in-oci.md)
+  - coherency [22.1.1](object-advanced-topics-in-oci.md)
+  - consistency [22.1.1](object-advanced-topics-in-oci.md)
+  - initializing [19.3.2](oci-object-relational-programming.md)
+  - loading objects [22.1.4](object-advanced-topics-in-oci.md)
+  - memory parameters [22.1.2](object-advanced-topics-in-oci.md)
+  - operations on [22.1.3](object-advanced-topics-in-oci.md)
+  - removing objects [22.1.4](object-advanced-topics-in-oci.md)
+  - setting the size of [22.1.2](object-advanced-topics-in-oci.md)
+- object functions
+  - server round-trips [C.3](oci-function-server-round-trips.md)
+- object identifiers [19.3.17](oci-object-relational-programming.md), [19.3.18](oci-object-relational-programming.md)
+  - for persistent objects [19.2.2](oci-object-relational-programming.md)
+- object references [19.3.17](oci-object-relational-programming.md)
+  - See: REFs
+- object run-time environment
+  - initializing [19.3.2](oci-object-relational-programming.md)
+- objects
+  - accessing with OCI [24.6.1](using-object-type-translator-in-oci.md)
+  - allocation duration [22.1.9](object-advanced-topics-in-oci.md)
+  - array pin [19.3.5.1](oci-object-relational-programming.md)
+  - attributes [19.3.9](oci-object-relational-programming.md)
+    - manipulating [19.3.6](oci-object-relational-programming.md)
+  - client-side cache [22.1](object-advanced-topics-in-oci.md)
+  - copying [19.3.15](oci-object-relational-programming.md)
+  - creating [19.3.15](oci-object-relational-programming.md)
+  - duration [22.1.9](object-advanced-topics-in-oci.md)
+  - flushing [22.1.6.1](object-advanced-topics-in-oci.md)
+  - flushing changes [19.3.7](oci-object-relational-programming.md)
+  - freeing [19.3.15](oci-object-relational-programming.md), [22.1.4.3](object-advanced-topics-in-oci.md)
+  - lifetime [27.1.1](intro-to-navigational-and-type-functions.md)
+  - LOB attributes of transient objects [9.4.2](lobs-and-bfile-operations.md)
+  - locking [22.1.7.2](object-advanced-topics-in-oci.md)
+  - manipulating with OCI [24.6.1](using-object-type-translator-in-oci.md)
+  - marking [19.3.7](oci-object-relational-programming.md), [22.1.5.1](object-advanced-topics-in-oci.md)
+  - memory layout of instance [22.1.10](object-advanced-topics-in-oci.md)
+  - memory management [22.1](object-advanced-topics-in-oci.md)
+  - meta-attributes [19.3.9](oci-object-relational-programming.md)
+  - navigation [22.2](object-advanced-topics-in-oci.md)
+    - simple [22.2.1](object-advanced-topics-in-oci.md)
+  - NCHAR and NVARCHAR2 attribute of [20.2](object-relational-data-types-in-oci.md)
+  - NULL values [19.3.14](oci-object-relational-programming.md)
+  - OCI object application structure [19.2.1](oci-object-relational-programming.md)
+  - persistent [19.2.2](oci-object-relational-programming.md), [19.2.2.1](oci-object-relational-programming.md)
+  - pin count [19.3.13](oci-object-relational-programming.md)
+  - pin duration [22.1.9](object-advanced-topics-in-oci.md)
+  - pinning [19.3.5](oci-object-relational-programming.md), [22.1.4.1](object-advanced-topics-in-oci.md)
+  - refreshing [22.1.6.2](object-advanced-topics-in-oci.md)
+  - secondary memory [22.1.10](object-advanced-topics-in-oci.md)
+  - terminology [19.2.2](oci-object-relational-programming.md), [27.1.1](intro-to-navigational-and-type-functions.md)
+  - top-level memory [22.1.10](object-advanced-topics-in-oci.md)
+  - transient [19.2.2](oci-object-relational-programming.md), [19.2.2.2](oci-object-relational-programming.md)
+  - types [19.2.2](oci-object-relational-programming.md), [27.1.1](intro-to-navigational-and-type-functions.md)
+  - unmarking [22.1.5.2](object-advanced-topics-in-oci.md)
+  - unpinning [22.1.4.2](object-advanced-topics-in-oci.md)
+  - use with OCI [19.1](oci-object-relational-programming.md)
+- object tables
+  - direct path loading of [21.2.6](direct-path-load-interface.md)
+- object type
+  - representing in C applications [19.3.1](oci-object-relational-programming.md)
+- Object Type Translator utility
+  - See: OTT utility
+- object view [19.3.9.1](oci-object-relational-programming.md)
+- OCCI
+  - alternative to OCI [1.3](introduction.md)
+- OCI
+  - aborting calls [4.4.5](oci-programming-basics.md)
+  - accessing and manipulating objects [24.6.1](using-object-type-translator-in-oci.md)
+  - advantages [1.1](introduction.md)
+  - object support [1.6](introduction.md)
+  - Oracle XA Library [D.7.1](getting-started-with-oci-for-windows.md)
+  - overview [1.1](introduction.md)
+  - parts of [1.1](introduction.md)
+  - sample programs [D.3](getting-started-with-oci-for-windows.md)
+- OCI_ATTR_ACCESS_BANNER [10.8.2](managing-scalable-platforms.md)
+  - server handle attribute [A.5](handle-and-descriptor-attributes.md)
+- OCI_ATTR_ACTION [10.5.2.3](managing-scalable-platforms.md)
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_ADMIN_PFILE
+  - administration handle attribute [A.6](handle-and-descriptor-attributes.md)
+- OCI_ATTR_AGENT_ADDRESS
+  - OCIAQAgent descriptor attribute [A.21.4](handle-and-descriptor-attributes.md)
+- OCI_ATTR_AGENT_NAME
+  - OCIAQAgent descriptor attribute [A.21.4](handle-and-descriptor-attributes.md)
+- OCI_ATTR_AGENT_PROTOCOL
+  - OCIAQAgent descriptor attribute [A.21.4](handle-and-descriptor-attributes.md)
+- OCI_ATTR_ALLOC_DURATION
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_APPCTX_ATTR [10.5.1.3](managing-scalable-platforms.md)
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_APPCTX_LIST [10.5.1.2](managing-scalable-platforms.md)
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_APPCTX_NAME [10.5.1.3](managing-scalable-platforms.md)
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_APPCTX_SIZE [10.5.1.1](managing-scalable-platforms.md), [25.2.17](connect-authorize-and-initialize-functions.md)
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_APPCTX_VALUE [10.5.1.3](managing-scalable-platforms.md)
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_AQ_NTFN_GROUPING_COUNT
+  - notification descriptor attribute [A.22.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_AQ_NTFN_GROUPING\_ MSGID_ARRAY
+  - notification descriptor attribute [A.22.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_ATTEMPTS
+  - OCIAQMsgProperties descriptor attribute [A.21.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_AUDIT_BANNER
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_AUTOCOMMIT_DDL
+  - attribute [8.2.14](describing-schema-metadata.md)
+- OCI_ATTR_AUTOTUNING_ENABLED
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_BIND_COUNT
+  - statement handle attribute [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_BIND_DN
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_BREAK_ON_NET_TIMEOUT
+  - server handle attribute [A.5](handle-and-descriptor-attributes.md)
+- OCI_ATTR_BUF_ADDR
+  - direct path loading stream handle attribute [A.23.4](handle-and-descriptor-attributes.md)
+- OCI_ATTR_BUF_SIZE
+  - direct path loading
+    - context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+    - stream handle attribute [A.23.4](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CACHE
+  - attribute [8.2.9](describing-schema-metadata.md)
+- OCI_ATTR_CACHE_ARRAYFLUSH [22.1.6.1](object-advanced-topics-in-oci.md)
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CACHE_MAX_SIZE [22.1.2](object-advanced-topics-in-oci.md)
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CACHE_OPT_SIZE [22.1.2](object-advanced-topics-in-oci.md)
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CALL_TIME [10.5.2.2](managing-scalable-platforms.md)
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CALL_TIMEOUT
+  - service contect handle attribute [A.4](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CATALOG_LOCATION
+  - attribute [8.2.14](describing-schema-metadata.md)
+- OCI_ATTR_CERTIFICATE [10.4.1.4](managing-scalable-platforms.md), [25.2.17](connect-authorize-and-initialize-functions.md)
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CHAR_COUNT
+  - bind handle attribute [A.10](handle-and-descriptor-attributes.md)
+  - define handle attribute [A.11](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CHAR_SIZE [8.2.10](describing-schema-metadata.md)
+  - attribute [8.3](describing-schema-metadata.md), [8.3.2](describing-schema-metadata.md)
+- OCI_ATTR_CHAR_USED [8.2.10](describing-schema-metadata.md)
+  - attribute [8.3](describing-schema-metadata.md)
+- OCI_ATTR_CHARSET_FORM [7.8.1.1](binding-and-defining-in-oci.md)
+  - attribute [8.2.5](describing-schema-metadata.md), [8.2.7](describing-schema-metadata.md), [8.2.10](describing-schema-metadata.md), [8.2.11](describing-schema-metadata.md)
+  - bind handle attribute [A.10](handle-and-descriptor-attributes.md)
+  - define handle attribute [A.11](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CHARSET_ID
+  - attribute [8.2.5](describing-schema-metadata.md), [8.2.7](describing-schema-metadata.md), [8.2.10](describing-schema-metadata.md), [8.2.11](describing-schema-metadata.md), [8.2.14](describing-schema-metadata.md)
+  - bind handle attribute [A.10](handle-and-descriptor-attributes.md)
+  - define handle attribute [A.11](handle-and-descriptor-attributes.md)
+  - direct path loading
+    - column parameter attribute [A.23.5.1](handle-and-descriptor-attributes.md)
+    - context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CHDES_DBNAME
+  - continuous query notification descriptor attribute [A.22.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CHDES_NFTYPE
+  - continuous query notification descriptor attribute [A.22.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CHDES_ROW_OPFLAGS
+  - continuous query notification descriptor attribute [A.22.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CHDES_ROW_ROWID
+  - continuous query notification descriptor attribute [A.22.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CHDES_TABLE_CHANGES
+  - continuous query notification descriptor attribute [A.22.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CHDES_TABLE_NAME
+  - continuous query notification descriptor attribute [A.22.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CHDES_TABLE_OPFLAGS
+  - continuous query notification descriptor attribute [A.22.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CHDES_TABLE_ROW_CHANGES
+  - continuous query notification descriptor attribute [A.22.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CHNF_CHANGELAG
+  - continuous query notification attribute [A.22.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CHNF_OPERATIONS
+  - continuous query notification attribute [A.22.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CHNF_REGHANDLE
+  - statement handle attribute [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CHNF_ROWIDS
+  - continuous query notification attribute [A.22.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CHNF_TABLENAMES
+  - continuous query notification attribute [A.22.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CLIENT_IDENTIFIER [10.4.1.6](managing-scalable-platforms.md)
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CLIENT_INFO [10.5.2.3](managing-scalable-platforms.md), [25.2.17](connect-authorize-and-initialize-functions.md)
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CLUSTERED
+  - attribute [8.2.1](describing-schema-metadata.md)
+- OCI_ATTR_COL_COUNT
+  - direct path loading column array handle attribute [A.23.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_COL_PROPERTIES [8.2.10](describing-schema-metadata.md)
+- OCI_ATTR_COLLATION_ID [8.2.10](describing-schema-metadata.md)
+  - bind handle attribute [A.10](handle-and-descriptor-attributes.md)
+- OCI_ATTR_COLLECT_CALL_TIME [10.5.2.1](managing-scalable-platforms.md)
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_COLLECTION_ELEMENT
+  - attribute [8.2.4](describing-schema-metadata.md)
+- OCI_ATTR_COLLECTION_TYPECODE
+  - attribute [8.2.4](describing-schema-metadata.md)
+- OCI_ATTR_COMMENT
+  - attribute [8.2.15](describing-schema-metadata.md), [8.2.16](describing-schema-metadata.md), [8.2.17](describing-schema-metadata.md)
+- OCI_ATTR_COMPLEXOBJECT\_ COLL_OUTOFLINE
+  - COR handle attribute [A.20.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_COMPLEXOBJECT_LEVEL
+  - COR handle attribute [A.20.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_COMPLEXOBJECTCOMP_TYPE
+  - COR descriptor attribute [A.20.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_COMPLEXOBJECTCOMP \_TYPE_LEVEL
+  - COR descriptor attribute [A.20.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CONDITION
+  - attribute [8.2.15](describing-schema-metadata.md)
+- OCI_ATTR_CONN_BUSY_COUNT
+  - connection pool handle attribute [A.7](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CONN_INCR
+  - connection pool handle attribute [A.7](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CONN_MAX
+  - connection pool handle attribute [A.7](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CONN_MIN
+  - connection pool handle attribute [A.7](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CONN_NOWAIT
+  - connection pool handle attribute [A.7](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CONN_OPEN_COUNT
+  - connection pool handle attribute [A.7](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CONN_TIMEOUT
+  - connection pool handle attribute [A.7](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CONNECTION_CLASS
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CONSUMER_NAME [A.21.2](handle-and-descriptor-attributes.md)
+  - notification descriptor attribute [A.22.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CORRELATION
+  - OCIAQDeqOptions descriptor attribute [A.21.2](handle-and-descriptor-attributes.md)
+  - OCIAQMsgProperties descriptor attribute [A.21.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CQ_QUERYID
+  - statement handle attribute [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CQDES_OPERATION
+  - direct path loading handle attribute [A.22.4](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CQDES_QUERYID
+  - direct path loading handle attribute [A.22.4](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CQDES_TABLE_CHANGES
+  - direct path loading handle attribute [A.22.4](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CURRENT_POSITION
+  - attribute [6.8](using-sql_statements-in-oci.md)
+  - statement handle attribute [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CURRENT_SCHEMA [17.4](support-for-pluggable-databases.md), [25.2.17](connect-authorize-and-initialize-functions.md)
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_CURSOR_COMMIT\_ BEHAVIOR
+  - attribute [8.2.14](describing-schema-metadata.md)
+- OCI_ATTR_DATA_SIZE [8.3](describing-schema-metadata.md)
+  - attribute [8.2.5](describing-schema-metadata.md), [8.2.7](describing-schema-metadata.md), [8.2.10](describing-schema-metadata.md), [8.2.11](describing-schema-metadata.md), [8.3.2](describing-schema-metadata.md)
+  - direct path loading column parameter attribute [A.23.5.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DATA_TYPE
+  - attribute [8.1.2.1](describing-schema-metadata.md), [8.2.5](describing-schema-metadata.md), [8.2.7](describing-schema-metadata.md), [8.2.10](describing-schema-metadata.md), [8.2.11](describing-schema-metadata.md)
+  - direct path loading column parameter attribute [A.23.5.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DATEFORMAT
+  - direct path loading
+    - column parameter attribute [A.23.5.1](handle-and-descriptor-attributes.md)
+    - context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DBDOMAIN
+  - event handle attribute [A.25](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DBNAME
+  - event handle attribute [A.25](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DBOP [10.5.2.3](managing-scalable-platforms.md), [25.2.17](connect-authorize-and-initialize-functions.md)
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DEFAULT_LOBPREFETCH_SIZE
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DELAY
+  - OCIAQMsgProperties descriptor attribute [A.21.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DEQ_MODE
+  - OCIAQDeqOptions descriptor attribute [A.21.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DEQ_MSGID
+  - OCIAQDeqOptions descriptor attribute [A.21.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DEQCOND
+  - OCIAQDeqOptions descriptor attribute [A.21.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DESC_PUBLIC [25.4.13](bind-define-describe-functions.md)
+- OCI_ATTR_DIRPATH_DCACHE_DISABLE [21.1.6.5](direct-path-load-interface.md)
+  - direct path loading context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DIRPATH_DCACHE_HITS [21.1.6.4](direct-path-load-interface.md)
+  - direct path loading context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DIRPATH_DCACHE_MISSES [21.1.6.3](direct-path-load-interface.md)
+  - direct path loading context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DIRPATH_DCACHE_NUM [21.1.6.2](direct-path-load-interface.md)
+  - direct path loading context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DIRPATH_DCACHE_SIZE [21.1.6.1](direct-path-load-interface.md)
+  - direct path loading context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DIRPATH_DEF_EXP_CACHE_SIZE
+  - direct path loading context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DIRPATH_DEFAULTS
+  - direct path loading context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DIRPATH_EXPR_TYPE
+  - direct path function context handle attribute [A.23.2](handle-and-descriptor-attributes.md)
+  - function context attribute [21.4.2.3](direct-path-load-interface.md)
+- OCI_ATTR_DIRPATH_FLAGS
+  - direct path loading context handle attribute [21.1.7](direct-path-load-interface.md), [A.23.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DIRPATH_INDEX_MAINT_METHOD
+  - direct path loading context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DIRPATH_MODE
+  - direct path loading context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DIRPATH_NO_INDEX_ERRORS [21.4.2.4](direct-path-load-interface.md)
+  - direct path loading context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DIRPATH_NOLOG
+  - direct path loading context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DIRPATH_OBJ_CONSTR [21.4.2.1](direct-path-load-interface.md)
+  - direct path context attribute [21.4.1.1](direct-path-load-interface.md)
+  - direct path loading context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DIRPATH_OID
+  - direct path loading column parameter attribute [A.23.5.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DIRPATH_PARALLEL [21.1](direct-path-load-interface.md)
+  - direct path loading context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DIRPATH_PGA_LIM
+  - direct path loading context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DIRPATH_REJECT_ROWS_REPCH
+  - direct path loading context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DIRPATH_SID
+  - column array attribute [21.4.3.2](direct-path-load-interface.md)
+  - direct path loading column parameter attribute [A.23.5.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DIRPATH_SKIPINDEX_METHOD
+  - direct path loading context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DISTINGUISHED_NAME [10.4.1.3](managing-scalable-platforms.md)
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DML_ROW_COUNT_ARRAY
+  - statement handle attribute [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DML_ROW_OFFSET
+  - error handle attribute [A.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DN_COUNT
+  - OCIServerDNs descriptor attribute [A.21.5](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DRIVER_NAME [25.2.17](connect-authorize-and-initialize-functions.md)
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_DURATION
+  - attribute [8.2.1](describing-schema-metadata.md)
+- OCI_ATTR_EDITION [17.4](support-for-pluggable-databases.md)
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_ENCAPSULATION
+  - attribute [8.2.6](describing-schema-metadata.md)
+- OCI_ATTR_ENQ_TIME
+  - OCIAQMsgProperties descriptor attribute [A.21.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_ENV
+  - server handle attribute [A.5](handle-and-descriptor-attributes.md)
+  - service context handle attribute [A.4](handle-and-descriptor-attributes.md)
+  - statement handle attribute [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_ENV_CHARSET_ID
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_ENV_NCHARSET_ID [4.6.2](oci-programming-basics.md)
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_ENV_NLS_LANGUAGE
+  - environment handle attribute [4.6.5](oci-programming-basics.md), [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_ENV_NLS_TERRITORY [4.6.5](oci-programming-basics.md)
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_ENV_UTF16
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_EVAL_CONTEXT_NAME
+  - attribute [8.2.15](describing-schema-metadata.md), [8.2.16](describing-schema-metadata.md)
+- OCI_ATTR_EVAL_CONTEXT_OWNER
+  - attribute [8.2.15](describing-schema-metadata.md), [8.2.16](describing-schema-metadata.md)
+- OCI_ATTR_EVALUATION_FUNCTION
+  - attribute [8.2.17](describing-schema-metadata.md)
+- OCI_ATTR_EVENTTYPE
+  - event handle attribute [A.25](handle-and-descriptor-attributes.md)
+- OCI_ATTR_EVTCBK [12.2.4](high-availability-in-oci.md)
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_EVTCTX [12.2.4](high-availability-in-oci.md)
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_EXCEPTION_QUEUE
+  - OCIAQMsgProperties descriptor attribute [A.21.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_EXPIRATION
+  - OCIAQMsgProperties descriptor attribute [A.21.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_EXTERNAL_NAME [10.2.3.6](managing-scalable-platforms.md)
+  - server handle attribute [A.5](handle-and-descriptor-attributes.md)
+- OCI_ATTR_FETCH_ROWID
+  - statement handle attribute [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_FIXUP_CALLBACK
+  - authentication handle attribute [11.1.3.1.1](session-and-connection-pooling.md), [A.5.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_FOCBK
+  - server handle attribute [A.5](handle-and-descriptor-attributes.md)
+  - session pool handle attribute [A.7.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_FSPRECISION
+  - attribute [8.2.5](describing-schema-metadata.md)
+- OCI_ATTR_HA_SOURCE
+  - event handle attribute [A.25](handle-and-descriptor-attributes.md)
+- OCI_ATTR_HA_SRVFIRST
+  - event handle attribute [A.25](handle-and-descriptor-attributes.md)
+- OCI_ATTR_HA_SRVNEXT [12.2.4](high-availability-in-oci.md)
+  - event handle attribute [A.25](handle-and-descriptor-attributes.md)
+- OCI_ATTR_HA_STATUS
+  - event handle attribute [A.25](handle-and-descriptor-attributes.md)
+- OCI_ATTR_HA_TIMESTAMP
+  - event handle attribute [A.25](handle-and-descriptor-attributes.md)
+- OCI_ATTR_HAS_DEFAULT
+  - attribute [8.2.11](describing-schema-metadata.md)
+- OCI_ATTR_HAS_FILE
+  - attribute [8.2.4](describing-schema-metadata.md)
+- OCI_ATTR_HAS_LOB
+  - attribute [8.2.4](describing-schema-metadata.md)
+- OCI_ATTR_HAS_NESTED_TABLE
+  - attribute [8.2.4](describing-schema-metadata.md)
+- OCI_ATTR_HEAPALLOC
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_HOSTNAME
+  - event handle attribute [A.25](handle-and-descriptor-attributes.md)
+- OCI_ATTR_HW_MARK
+  - attribute [8.2.9](describing-schema-metadata.md)
+- OCI_ATTR_IMPLICIT_RSET_COUNT [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_IN_V8_MODE
+  - server handle attribute [A.5](handle-and-descriptor-attributes.md)
+  - service context handle attribute [A.4](handle-and-descriptor-attributes.md)
+- OCI_ATTR_INCR
+  - attribute [8.2.9](describing-schema-metadata.md)
+- OCI_ATTR_INDEX_ONLY
+  - attribute [8.2.1](describing-schema-metadata.md)
+- OCI_ATTR_INITIAL_CLIENT_ROLES [10.4.1.5](managing-scalable-platforms.md), [17.4](support-for-pluggable-databases.md)
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_INSTNAME [18.2](oci-interface-for-using-shards.md)
+  - event handle attribute [A.25](handle-and-descriptor-attributes.md)
+  - server handle attribute [A.5](handle-and-descriptor-attributes.md)
+  - service context handle attribute [A.4](handle-and-descriptor-attributes.md)
+  - shard instance descriptor attribute [A.14](handle-and-descriptor-attributes.md)
+- OCI_ATTR_INSTSTARTTIME
+  - event handle attribute [A.25](handle-and-descriptor-attributes.md)
+- OCI_ATTR_INTERNAL_NAME
+  - server handle attribute [A.5](handle-and-descriptor-attributes.md)
+- OCI_ATTR_IOMODE
+  - attribute [8.2.11](describing-schema-metadata.md)
+- OCI_ATTR_IS_CONSTRUCTOR
+  - attribute [8.2.6](describing-schema-metadata.md)
+- OCI_ATTR_IS_DESTRUCTOR
+  - attribute [8.2.6](describing-schema-metadata.md)
+- OCI_ATTR_IS_FINAL_METHOD
+  - attribute [8.2.6](describing-schema-metadata.md)
+- OCI_ATTR_IS_FINAL_TYPE
+  - attribute [8.2.4](describing-schema-metadata.md)
+- OCI_ATTR_IS_INCOMPLETE_TYPE
+  - attribute [8.2.4](describing-schema-metadata.md)
+- OCI_ATTR_IS_INSTANTIABLE_METHOD
+  - attribute [8.2.6](describing-schema-metadata.md)
+- OCI_ATTR_IS_INSTANTIABLE_TYPE
+  - attribute [8.2.4](describing-schema-metadata.md)
+- OCI_ATTR_IS_INVOKER_RIGHTS
+  - attribute [8.2.2](describing-schema-metadata.md), [8.2.3](describing-schema-metadata.md), [8.2.4](describing-schema-metadata.md)
+- OCI_ATTR_IS_MAP
+  - attribute [8.2.6](describing-schema-metadata.md)
+- OCI_ATTR_IS_NULL
+  - attribute [8.2.10](describing-schema-metadata.md), [8.2.11](describing-schema-metadata.md)
+- OCI_ATTR_IS_OPERATOR
+  - attribute [8.2.6](describing-schema-metadata.md)
+- OCI_ATTR_IS_ORDER
+  - attribute [8.2.6](describing-schema-metadata.md)
+- OCI_ATTR_IS_OVERRIDING_METHOD
+  - attribute [8.2.6](describing-schema-metadata.md)
+- OCI_ATTR_IS_PREDEFINED_TYPE
+  - attribute [8.2.4](describing-schema-metadata.md)
+- OCI_ATTR_IS_RECOVERABLE [A.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_IS_RNDS
+  - attribute [8.2.6](describing-schema-metadata.md)
+- OCI_ATTR_IS_RNPS
+  - attribute [8.2.6](describing-schema-metadata.md)
+- OCI_ATTR_IS_SELFISH
+  - attribute [8.2.6](describing-schema-metadata.md)
+- OCI_ATTR_IS_SUBTYPE
+  - attribute [8.2.4](describing-schema-metadata.md)
+- OCI_ATTR_IS_SYSTEM_GENERATED_TYPE
+  - attribute [8.2.4](describing-schema-metadata.md)
+- OCI_ATTR_IS_SYSTEM_TYPE
+  - attribute [8.2.4](describing-schema-metadata.md)
+- OCI_ATTR_IS_TEMPORARY
+  - attribute [8.2.1](describing-schema-metadata.md)
+- OCI_ATTR_IS_TRANSIENT_TYPE
+  - attribute [8.2.4](describing-schema-metadata.md)
+- OCI_ATTR_IS_WNDS
+  - attribute [8.2.6](describing-schema-metadata.md)
+- OCI_ATTR_IS_WNPS
+  - attribute [8.2.6](describing-schema-metadata.md)
+- OCI_ATTR_LDAP_AUTH
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_LDAP_CRED
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_LDAP_CTX
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_LDAP_HOST
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_LDAP_PORT
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_LEVEL
+  - attribute [8.2.11](describing-schema-metadata.md)
+- OCI_ATTR_LFPRECISION
+  - attribute [8.2.5](describing-schema-metadata.md)
+- OCI_ATTR_LINK
+  - attribute [8.2.8](describing-schema-metadata.md), [8.2.11](describing-schema-metadata.md)
+- OCI_ATTR_LIST_ACTION_CONTEXT
+  - attribute [8.2.15](describing-schema-metadata.md)
+- OCI_ATTR_LIST_ARGUMENTS
+  - attribute [8.1.2.4](describing-schema-metadata.md), [8.2.2](describing-schema-metadata.md), [8.2.6](describing-schema-metadata.md)
+- OCI_ATTR_LIST_COLUMNS
+  - attribute [8.2.1](describing-schema-metadata.md)
+  - direct path loading
+    - context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+    - function context handle attribute [A.23.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_LIST_OBJECTS
+  - attribute [8.2.13](describing-schema-metadata.md)
+- OCI_ATTR_LIST_RULES
+  - attribute [8.2.16](describing-schema-metadata.md)
+- OCI_ATTR_LIST_SCHEMAS
+  - attribute [8.2.14](describing-schema-metadata.md)
+- OCI_ATTR_LIST_SUBPROGRAMS
+  - attribute [8.2.3](describing-schema-metadata.md)
+- OCI_ATTR_LIST_TABLE_ALIASES
+  - attribute [8.2.17](describing-schema-metadata.md)
+- OCI_ATTR_LIST_TYPE
+  - attribute [8.2.12](describing-schema-metadata.md)
+- OCI_ATTR_LIST_TYPE_ATTRS
+  - attribute [8.2.4](describing-schema-metadata.md)
+- OCI_ATTR_LIST_TYPE_METHODS
+  - attribute [8.2.4](describing-schema-metadata.md)
+- OCI_ATTR_LIST_VARIABLE_TYPES
+  - attribute [8.2.17](describing-schema-metadata.md)
+- OCI_ATTR_LOB_REMOTE
+  - LOB locator attribute [A.19](handle-and-descriptor-attributes.md)
+- OCI_ATTR_LOB_TYPE
+  - LOB descriptor attribute [A.19](handle-and-descriptor-attributes.md)
+- OCI_ATTR_LOBEMPTY
+  - LOB locator attribute [A.19](handle-and-descriptor-attributes.md)
+- OCI_ATTR_LOBPREFETCH_LENGTH [9.9](lobs-and-bfile-operations.md)
+  - define handle attribute [A.11](handle-and-descriptor-attributes.md)
+- OCI_ATTR_LOBPREFETCH_SIZE
+  - define handle attribute [A.11](handle-and-descriptor-attributes.md)
+- OCI_ATTR_LOCKING_MODE
+  - attribute [8.2.14](describing-schema-metadata.md)
+- OCI_ATTR_LTXID [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_MAP_METHOD
+  - attribute [8.2.4](describing-schema-metadata.md)
+- OCI_ATTR_MAX
+  - attribute [8.2.9](describing-schema-metadata.md)
+- OCI_ATTR_MAX_CATALOG\_ NAMELEN
+  - attribute [8.2.14](describing-schema-metadata.md)
+- OCI_ATTR_MAX_CHARSET_RATIO
+  - service context handle attribute [A.4](handle-and-descriptor-attributes.md)
+- OCI_ATTR_MAX_COLUMN\_ NAMELEN
+  - attribute [8.2.14](describing-schema-metadata.md)
+- OCI_ATTR_MAX_NCHARSET_RATIO
+  - service context handle attribute [A.4](handle-and-descriptor-attributes.md)
+- OCI_ATTR_MAX_OPEN_CURSORS [17.4](support-for-pluggable-databases.md), [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_MAX_PROC_LEN
+  - attribute [8.2.14](describing-schema-metadata.md)
+- OCI_ATTR_MAXCHAR_SIZE
+  - attribute [7.8.3](binding-and-defining-in-oci.md), [7.8.3.2](binding-and-defining-in-oci.md)
+  - bind handle attribute [A.10](handle-and-descriptor-attributes.md)
+  - define handle attribute [A.11](handle-and-descriptor-attributes.md)
+- OCI_ATTR_MAXDATA_SIZE
+  - attribute [7.8.3](binding-and-defining-in-oci.md)
+  - bind handle attribute [A.10](handle-and-descriptor-attributes.md)
+  - use with binding [7.8.3.1](binding-and-defining-in-oci.md)
+- OCI_ATTR_MEMPOOL_APPNAME
+  - process handle attribute [A.24](handle-and-descriptor-attributes.md)
+- OCI_ATTR_MEMPOOL_HOMENAME
+  - process handle attribute [A.24](handle-and-descriptor-attributes.md)
+- OCI_ATTR_MEMPOOL_INSTNAME
+  - process handle attribute [A.24](handle-and-descriptor-attributes.md)
+- OCI_ATTR_MEMPOOL_SIZE
+  - process handle attribute [A.24](handle-and-descriptor-attributes.md)
+- OCI_ATTR_MIGSESSION
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_MIN
+  - attribute [8.2.9](describing-schema-metadata.md)
+- OCI_ATTR_MODULE [10.5.2.3](managing-scalable-platforms.md)
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_MSG_DELIVERY_MODE [26.4.1](streams-advanced-queueing-and-publish-subscribe-functions.md), [26.4.2](streams-advanced-queueing-and-publish-subscribe-functions.md)
+  - OCIAQDeqOptions descriptor attribute [A.21.2](handle-and-descriptor-attributes.md)
+  - OCIAQEnqOptions descriptor attribute [A.21.1](handle-and-descriptor-attributes.md)
+  - OCIAQMsgProperties descriptor attribute [A.21.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_MSG_PROP
+  - notification descriptor attribute [A.22.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_MSG_STATE
+  - OCIAQMsgProperties descriptor attribute [A.21.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_NAME
+  - attribute [8.2.2](describing-schema-metadata.md), [8.2.4](describing-schema-metadata.md), [8.2.5](describing-schema-metadata.md), [8.2.6](describing-schema-metadata.md), [8.2.7](describing-schema-metadata.md), [8.2.8](describing-schema-metadata.md), [8.2.10](describing-schema-metadata.md), [8.2.11](describing-schema-metadata.md), [8.2.18](describing-schema-metadata.md), [8.2.20](describing-schema-metadata.md)
+  - column array attribute [21.4.3.1](direct-path-load-interface.md)
+  - direct path loading
+    - column parameter attribute [A.23.5.1](handle-and-descriptor-attributes.md)
+    - context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+    - function context attribute [21.4.2.2](direct-path-load-interface.md)
+    - function context handle attribute [A.23.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_NAVIGATION
+  - OCIAQDeqOptions descriptor attribute [A.21.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_NCHARSET_ID
+  - attribute [8.2.14](describing-schema-metadata.md)
+- OCI_ATTR_NFY_FLAGS
+  - notification descriptor attribute [A.22.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_NFY_MSGID
+  - notification descriptor attribute [A.22.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_NONBLOCKING_MODE
+  - server handle attribute [4.4.10](oci-programming-basics.md), [A.5](handle-and-descriptor-attributes.md)
+- OCI_ATTR_NOWAIT_SUPPORT
+  - attribute [8.2.14](describing-schema-metadata.md)
+- OCI_ATTR_NUM_COLS
+  - attribute [8.2.1](describing-schema-metadata.md)
+  - direct path loading
+    - column array handle attribute [A.23.3](handle-and-descriptor-attributes.md)
+    - function context attribute [21.4.2.5](direct-path-load-interface.md)
+    - function context handle attribute [A.23.2](handle-and-descriptor-attributes.md)
+  - direct path loading context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_NUM_DML_ERRORS
+  - statement handle attribute [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_NUM_ELEMS
+  - attribute [8.2.7](describing-schema-metadata.md)
+- OCI_ATTR_NUM_HANDLES attribute [8.2.12](describing-schema-metadata.md)
+- OCI_ATTR_NUM_ROWS
+  - attribute [21.4.4.1](direct-path-load-interface.md)
+  - direct path loading
+    - column array handle attribute [A.23.3](handle-and-descriptor-attributes.md)
+    - context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+    - function context handle attribute [A.23.2](handle-and-descriptor-attributes.md)
+  - function context attribute [21.4.2.6](direct-path-load-interface.md)
+- OCI_ATTR_NUM_TYPE_ATTRS
+  - attribute [8.2.4](describing-schema-metadata.md)
+- OCI_ATTR_NUM_TYPE_METHODS
+  - attribute [8.2.4](describing-schema-metadata.md)
+- OCI_ATTR_OBJ_ID
+  - attribute [8.2](describing-schema-metadata.md)
+- OCI_ATTR_OBJ_NAME
+  - attribute [8.2](describing-schema-metadata.md)
+- OCI_ATTR_OBJ_SCHEMA
+  - attribute [8.2](describing-schema-metadata.md)
+- OCI_ATTR_OBJECT
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_OBJECT_DETECTCHANGE
+  - environment handle attribute [22.1.7.4](object-advanced-topics-in-oci.md), [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_OBJECT_NEWNOTNULL [27.5.8](oci-miscellaneous-object-functions.md)
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_OBJID
+  - attribute [8.2.1](describing-schema-metadata.md), [8.2.8](describing-schema-metadata.md), [8.2.9](describing-schema-metadata.md)
+- OCI_ATTR_ORA_DBUG_JDWP
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_ORDER
+  - attribute [8.2.9](describing-schema-metadata.md)
+- OCI_ATTR_ORDER_METHOD
+  - attribute [8.2.4](describing-schema-metadata.md)
+- OCI_ATTR_ORIGINAL_MSGID
+  - OCIAQMsgProperties descriptor attribute [A.21.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_PARAM
+  - describe handle attribute [A.12](handle-and-descriptor-attributes.md)
+  - use when an attribute is itself a descriptor [25.3.3](handle-and-descriptor-functions.md)
+- OCI_ATTR_PARAM_COUNT
+  - describe handle attribute [A.12](handle-and-descriptor-attributes.md)
+  - statement handle attribute [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_PARSE_ERROR_OFFSET statement handle attribute [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_PARTITIONED
+  - attribute [8.2.1](describing-schema-metadata.md)
+- OCI_ATTR_PASSWORD [10.4.1.7](managing-scalable-platforms.md)
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_PDPRC
+  - bind handle attribute [A.10](handle-and-descriptor-attributes.md)
+  - define handle attribute [A.11](handle-and-descriptor-attributes.md)
+- OCI_ATTR_PDSCL
+  - bind handle attribute [A.10](handle-and-descriptor-attributes.md)
+  - define handle attribute [A.11](handle-and-descriptor-attributes.md)
+- OCI_ATTR_PIN_DURATION
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_PINOPTION
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_POSITION
+  - attribute [8.2.11](describing-schema-metadata.md)
+- OCI_ATTR_PRECISION
+  - attribute [8.1.2.3](describing-schema-metadata.md), [8.2.5](describing-schema-metadata.md), [8.2.7](describing-schema-metadata.md), [8.2.10](describing-schema-metadata.md), [8.2.11](describing-schema-metadata.md)
+  - direct path loading column parameter attribute [A.23.5.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_PREFETCH_MEMORY
+  - statement handle attribute [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_PREFETCH_ROWS
+  - statement handle attribute [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_PRIORITY
+  - OCIAQMsgProperties descriptor attribute [A.21.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_PROC_MODE
+  - process handle attribute [A.24](handle-and-descriptor-attributes.md)
+- OCI_ATTR_PROXY_CLIENT
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_PROXY_CREDENTIALS [10.4.1.2](managing-scalable-platforms.md)
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_PTYPE
+  - attribute [8.2](describing-schema-metadata.md)
+  - possible values of [8.2](describing-schema-metadata.md)
+- OCI_ATTR_PURITY [25.2.17](connect-authorize-and-initialize-functions.md)
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_QUEUE_NAME
+  - notification descriptor attribute [A.22.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_RADIX
+  - attribute [8.2.11](describing-schema-metadata.md)
+- OCI_ATTR_RDBA
+  - attribute [8.2.1](describing-schema-metadata.md)
+- OCI_ATTR_RECEIVE_TIMEOUT
+  - server handle attribute [A.5](handle-and-descriptor-attributes.md)
+- OCI_ATTR_RECIPIENT_LIST
+  - OCIAQMsgProperties descriptor attribute [A.21.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_REF_TDO
+  - attribute [8.2.1](describing-schema-metadata.md), [8.2.4](describing-schema-metadata.md), [8.2.5](describing-schema-metadata.md), [8.2.7](describing-schema-metadata.md), [8.2.10](describing-schema-metadata.md), [8.2.11](describing-schema-metadata.md)
+- OCI_ATTR_RELATIVE_MSGID
+  - OCIAQEnqOptions descriptor attribute [A.21.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_ROW_COUNT [6.8](using-sql_statements-in-oci.md)
+  - direct path loading
+    - column array handle attribute [A.23.3](handle-and-descriptor-attributes.md)
+    - stream handle attribute [A.23.4](handle-and-descriptor-attributes.md)
+  - statement handle attribute [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_ROWID
+  - statement handle attribute [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_ROWS_FETCHED [6.8](using-sql_statements-in-oci.md)
+  - statement handle attribute [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_ROWS_RETURNED
+  - bind handle attribute [A.10](handle-and-descriptor-attributes.md)
+  - use with callbacks [7.7.5](binding-and-defining-in-oci.md)
+- OCI_ATTR_SAVEPOINT_SUPPORT
+  - attribute [8.2.14](describing-schema-metadata.md)
+- OCI_ATTR_SCALE
+  - attribute [8.2.5](describing-schema-metadata.md), [8.2.7](describing-schema-metadata.md), [8.2.10](describing-schema-metadata.md), [8.2.11](describing-schema-metadata.md)
+  - direct path loading column parameter attribute [A.23.5.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SCHEMA_NAME
+  - attribute [8.2.4](describing-schema-metadata.md), [8.2.5](describing-schema-metadata.md), [8.2.7](describing-schema-metadata.md), [8.2.8](describing-schema-metadata.md), [8.2.10](describing-schema-metadata.md), [8.2.11](describing-schema-metadata.md)
+  - direct path loading context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SEND_TIMEOUT
+  - server handle attribute [A.5](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SENDER_ID
+  - OCIAQMsgProperties descriptor attribute [A.21.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SEQ
+  - attributes [8.2.9](describing-schema-metadata.md)
+- OCI_ATTR_SEQUENCE_DEVIATION
+  - OCIAQEnqOptions descriptor attribute [A.21.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SEQUENCE enqueue option [13.3.3](notification-streams-advanced-queuing.md)
+- OCI_ATTR_SERVER
+  - service context handle attribute [A.4](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SERVER_DN
+  - OCIServerDNs descriptor attribute [A.21.5](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SERVER_DNS
+  - subscription handle attribute [A.22](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SERVER_GROUP [10.3.4](managing-scalable-platforms.md)
+  - server handle attribute [A.5](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SERVER_STATUS [4.3.5](oci-programming-basics.md)
+  - server handle attribute [A.5](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SERVICENAME
+  - event handle attribute [A.25](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SESSION
+  - service context handle attribute [A.4](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SESSION_STATE
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SHARD_HAS_WRITABLECHUNK
+  - shard instance descriptor attribute [A.14](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SHARDING_KEY [18](oci-interface-for-using-shards.md), [18.1](oci-interface-for-using-shards.md), [18.2](oci-interface-for-using-shards.md)
+  - service context handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SHARDING_KEY_64
+  - service context handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SHARED_HEAPALLOC
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SHOW_INVISIBLE_COLUMNS [A.12](handle-and-descriptor-attributes.md)
+  - attribute [8.4.6](describing-schema-metadata.md)
+- OCI_ATTR_SODA_COLL_NAME
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_CONTENT
+  - SODA document handle attributes [A.15](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_CREATE_TIMESTAMP
+  - SODA document handle attributes [A.15](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_CRTIME_COL_NAME
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_CTNT_CACHE
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_CTNT_COL_NAME
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_CTNT_COMPRESS
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_CTNT_ENCRYPT
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_CTNT_MAX_LEN
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_CTNT_SQL_TYPE
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_CTNT_VALIDATION
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_DESCRIPTOR
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_DETECT_JSON_ENC
+  - SODA document handle attributes [A.15](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_JSON_CHARSET_ID
+  - SODA document handle attributes [A.15](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_KEY
+  - SODA document handle attributes [A.15](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_KEY_ASSIGN_METHOD
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_KEY_COL_NAME
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_KEY_MAX_LEN
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_KEY_SEQ_NAME
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_KEY_SQL_TYPE
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_LASTMOD_TIMESTAMP
+  - SODA document handle attributes [A.15](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_MEDIA_TYPE
+  - SODA document handle attributes [A.15](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_MODTIME_COL_NAME
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_MODTIME_INDEX
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_MTYPE_COL_NAME
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_READONLY
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_SCHEMA
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_TABLE_NAME
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_VERSION
+  - SODA document handle attributes [A.15](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_VERSION_COL_NAME
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_VERSION_METHOD
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SODA_VIEW_NAME
+  - SODA collection handle attribute [A.16](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SPOOL_AUTH
+  - session pool handle attribute [11.1.3.1.1](session-and-connection-pooling.md), [A.7.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SPOOL_BUSY_COUNT
+  - session pool handle attribute [A.7.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SPOOL_GETMODE
+  - session pool handle attribute [A.7.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SPOOL_INCR
+  - session pool handle attribute [A.7.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SPOOL_MAX
+  - session pool handle attribute [A.7.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SPOOL_MAX_LIFETIME_SESSION
+  - session pool handle attribute [A.7.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SPOOL_MAX_USE_SESSION
+  - session pool handle attribute [A.7.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SPOOL_MIN
+  - session pool handle attribute [A.7.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SPOOL_OPEN_COUNT
+  - session pool handle attribute [A.7.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SPOOL_STMTCACHESIZE
+  - session pool handle attribute [A.7.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SPOOL_TIMEOUT
+  - session pool handle attribute [A.7.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SPOOL_WAIT_TIMEOUT
+  - session pool handle attribute [A.7.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SQL_ID
+  - statement handle attribute [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SQLFNCODE
+  - statement handle attribute [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_STATEMENT
+  - statement handle attribute [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_STMT_STATE
+  - statement handle attribute [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_STMT_TYPE
+  - statement handle attribute [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_STMTCACHE_CBK
+  - service context handle attribute [A.4](handle-and-descriptor-attributes.md)
+- OCI_ATTR_STMTCACHE_CBKCTX
+  - statement handle attribute [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_STMTCACHESIZE [15.1.3](performance-topics.md), [25.2.15](connect-authorize-and-initialize-functions.md)
+  - service context handle attribute [A.4](handle-and-descriptor-attributes.md)
+- OCI_ATTR_STREAM_OFFSET
+  - direct path loading stream handle attribute [A.23.4](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SUB_NAME
+  - attribute [8.2.11](describing-schema-metadata.md)
+  - direct path loading context handle attribute [A.23.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SUBSCR_CALLBACK
+  - subscription handle attribute [A.22](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SUBSCR_CQ_QOSFLAGS
+  - subscription handle attribute [A.22](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SUBSCR_CTX
+  - subscription handle attribute [A.22](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SUBSCR_HOSTADDR
+  - subscription handle attribute [A.22](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SUBSCR_IPADDR
+  - subscription handle attribute [A.22](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SUBSCR_NAME
+  - subscription handle attribute [A.22](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SUBSCR_NAMESPACE [13.2.1.1](notification-streams-advanced-queuing.md), [13.2.1.3](notification-streams-advanced-queuing.md)
+  - subscription handle attribute [A.22](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SUBSCR_NTFN_GROUPING_CLASS [A.22](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SUBSCR_NTFN_GROUPING_REPEAT_COUNT
+  - subscription handle attribute [A.22](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SUBSCR_NTFN_GROUPING_START_TIME
+  - subscription handle attribute [A.22](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SUBSCR_NTFN_GROUPING_TYPE
+  - subscription handle attribute [A.22](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SUBSCR_NTFN_GROUPING_VALUE
+  - subscription handle attribute [A.22](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SUBSCR_PAYLOAD
+  - subscription handle attribute [A.22](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SUBSCR_PORTNO
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SUBSCR_QOSFLAGS
+  - subscription handle attribute [A.22](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SUBSCR_RECPT
+  - subscription handle attribute [A.22](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SUBSCR_RECPTPRES
+  - subscription handle attribute [A.22](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SUBSCR_RECPTPROTO
+  - subscription handle attribute [A.22](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SUBSCR_SERVER_DN
+  - descriptor handle [13.2.1.3](notification-streams-advanced-queuing.md)
+- OCI_ATTR_SUBSCR_TIMEOUT
+  - subscription handle attribute [A.22](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SUPER_SHARDING_KEY [18](oci-interface-for-using-shards.md), [18.2](oci-interface-for-using-shards.md)
+  - service context handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_SUPER_SHARDINGING_KEY [18.1](oci-interface-for-using-shards.md)
+- OCI_ATTR_SUPERTYPE_NAME
+  - attribute [8.2.4](describing-schema-metadata.md)
+- OCI_ATTR_SUPERTYPE_SCHEMA_NAME
+  - attribute [8.2.4](describing-schema-metadata.md)
+- OCI_ATTR_TABLE_NAME
+  - attribute [8.2.18](describing-schema-metadata.md)
+- OCI_ATTR_TABLESPACE
+  - attribute [8.2.1](describing-schema-metadata.md)
+- OCI_ATTR_TAF_ENABLED
+  - server handle attribute [A.5](handle-and-descriptor-attributes.md)
+- OCI_ATTR_TIMESTAMP
+  - attribute [8.2](describing-schema-metadata.md)
+- OCI_ATTR_TRANS
+  - service context handle attribute [A.4](handle-and-descriptor-attributes.md)
+- OCI_ATTR_TRANS_NAME [10.2.3.1](managing-scalable-platforms.md)
+  - transaction handle attribute [A.8](handle-and-descriptor-attributes.md)
+- OCI_ATTR_TRANS_PROFILE_FOREIGN
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_TRANS_TIMEOUT
+  - transaction handle attribute [A.8](handle-and-descriptor-attributes.md)
+- OCI_ATTR_TRANSACTION_IN_PROGRESS
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_TRANSACTION_NO
+  - OCIAQMsgProperties descriptor attribute [A.21.3](handle-and-descriptor-attributes.md)
+- OCI_ATTR_TRANSFORMATION (dequeue)
+  - OCIAQDeqOptions descriptor attribute [A.21.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_TRANSFORMATION (enqueue)
+  - OCIAQEnqOptions descriptor attribute [A.21.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_TYPE_NAME
+  - attribute [8.2.5](describing-schema-metadata.md), [8.2.7](describing-schema-metadata.md), [8.2.10](describing-schema-metadata.md), [8.2.11](describing-schema-metadata.md)
+- OCI_ATTR_TYPECODE
+  - attribute [8.1.2.1](describing-schema-metadata.md), [8.2.4](describing-schema-metadata.md), [8.2.5](describing-schema-metadata.md), [8.2.7](describing-schema-metadata.md), [8.2.11](describing-schema-metadata.md)
+- OCI_ATTR_UB8_ROW_COUNT [6.8](using-sql_statements-in-oci.md)
+  - statement handle attribute [A.9](handle-and-descriptor-attributes.md)
+- OCI_ATTR_USER_MEMORY [12.2.5](high-availability-in-oci.md)
+  - server handle attribute [A.5](handle-and-descriptor-attributes.md)
+- OCI_ATTR_USERNAME
+  - OCIAuthInfo handle attributes [A.5.2](handle-and-descriptor-attributes.md)
+  - user session handle attribute [A.5.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_VALUE
+  - attribute [8.2.20](describing-schema-metadata.md)
+- OCI_ATTR_VARTYPE_MAXLEN_COMPAT
+  - service context handle attribute [A.4](handle-and-descriptor-attributes.md)
+- OCI_ATTR_VERSION
+  - attribute [8.2.14](describing-schema-metadata.md)
+- OCI_ATTR_VISIBILITY
+  - OCIAQDeqOptions descriptor attribute [A.21.2](handle-and-descriptor-attributes.md)
+  - OCIAQEnqOptions descriptor attribute [A.21.1](handle-and-descriptor-attributes.md)
+- OCI_ATTR_WAIT
+  - OCIAQDeqOptions descriptor attribute [A.21.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_WALL_LOC
+  - environment handle attribute [A.2](handle-and-descriptor-attributes.md)
+- OCI_ATTR_XID [10.2.3.1](managing-scalable-platforms.md)
+  - transaction handle attribute [A.8](handle-and-descriptor-attributes.md)
+- OCI_ATTR_XSTREAM_ACK_INTERVAL [34.2.2.1](handler-and-descriptor-attributes.md)
+- OCI_ATTR_XSTREAM_IDLE_TIMEOUT [34.2.2.2](handler-and-descriptor-attributes.md)
+- OCI_BIND_SOFT [25.4.2](bind-define-describe-functions.md), [25.4.3](bind-define-describe-functions.md), [25.4.4](bind-define-describe-functions.md), [25.4.5](bind-define-describe-functions.md)
+- OCI_CONTINUE [4.3.5](oci-programming-basics.md)
+- OCI_CPOOL_REINITIALIZE [25.2.3](connect-authorize-and-initialize-functions.md)
+- OCI_CRED_EXT [25.2.15](connect-authorize-and-initialize-functions.md)
+- OCI_CRED_PROXY [10.4.1.1](managing-scalable-platforms.md)
+- OCI_CRED_RDBMS [10.4.1.1](managing-scalable-platforms.md), [25.2.15](connect-authorize-and-initialize-functions.md)
+- OCI_DATA_AT_EXEC [25.4.2](bind-define-describe-functions.md), [25.4.3](bind-define-describe-functions.md), [25.4.4](bind-define-describe-functions.md), [25.4.5](bind-define-describe-functions.md)
+- OCI_DEFAULT [10.9.3](managing-scalable-platforms.md), [25.2.3](connect-authorize-and-initialize-functions.md), [25.2.8](connect-authorize-and-initialize-functions.md)
+- OCI_DEFAULT mode for OCIDefineByPos() [25.4.9](bind-define-describe-functions.md)
+- OCI_DEFAULT mode for OCIDefineByPos2() [25.4.10](bind-define-describe-functions.md)
+- OCI_DEFINE_SOFT [25.4.9](bind-define-describe-functions.md), [25.4.10](bind-define-describe-functions.md)
+- OCI_DESCRIBE_ONLY [26.2.1](statement-functions.md)
+- OCI_DIRPATH_COL_ERROR [21.2.2.4](direct-path-load-interface.md)
+- OCI_DIRPATH_DATASAVE_FINISH [26.5.7](direct-path-loading-functions.md)
+- OCI_DIRPATH_DATASAVE_SAVEONLY [26.5.7](direct-path-loading-functions.md)
+- OCI_DIRPATH_EXPR_OBJ_CONSTR [21.4.2.3](direct-path-load-interface.md)
+- OCI_DIRPATH_EXPR_REF_TBLNAME [21.2.4.1](direct-path-load-interface.md), [21.4.2.3](direct-path-load-interface.md)
+- OCI_DIRPATH_EXPR_SQL [21.4.2.3](direct-path-load-interface.md)
+- OCI_DIRPATH_OID column array attribute [21.4.3.3](direct-path-load-interface.md)
+- OCI_DTYPE_AQAGENT [4.2.1.13](oci-programming-basics.md)
+- OCI_DTYPE_AQDEQ_OPTIONS [4.2.1.13](oci-programming-basics.md)
+- OCI_DTYPE_AQENQ_OPTIONS [4.2.1.13](oci-programming-basics.md)
+- OCI_DTYPE_AQMSG_PROPERTIES [4.2.1.13](oci-programming-basics.md)
+- OCI_DTYPE_AQNFY [4.2.1.13](oci-programming-basics.md)
+- OCI_DTYPE_CHDES [4.2.1.13](oci-programming-basics.md)
+- OCI_DTYPE_COMPLEXOBJECTCOMP [4.2.1.13](oci-programming-basics.md)
+- OCI_DTYPE_DATE [4.2.1.13](oci-programming-basics.md)
+- OCI_DTYPE_FILE [4.2.1.13](oci-programming-basics.md)
+- OCI_DTYPE_INTERVAL_DS [4.2.1.13](oci-programming-basics.md)
+- OCI_DTYPE_INTERVAL_YM [4.2.1.13](oci-programming-basics.md)
+- OCI_DTYPE_LOB [4.2.1.13](oci-programming-basics.md)
+- OCI_DTYPE_PARAM [4.2.1.13](oci-programming-basics.md), [25.3.3](handle-and-descriptor-functions.md), [25.3.9](handle-and-descriptor-functions.md)
+  - when used [25.3.3](handle-and-descriptor-functions.md)
+- OCI_DTYPE_ROWID [4.2.1.13](oci-programming-basics.md)
+- OCI_DTYPE_SHARD_KEY [4.2.1.13](oci-programming-basics.md)
+- OCI_DTYPE_SNAP [4.2.1.13](oci-programming-basics.md)
+- OCI_DTYPE_SRVDN [4.2.1.13](oci-programming-basics.md)
+- OCI_DTYPE_TIMESTAMP [4.2.1.13](oci-programming-basics.md)
+- OCI_DTYPE_TIMESTAMP_LTZ [4.2.1.13](oci-programming-basics.md)
+- OCI_DTYPE_TIMESTAMP_TZ [4.2.1.13](oci-programming-basics.md)
+- OCI_DURATION_DEFAULT [27.6.5](oci-pin-unpin-and-free-functions.md)
+- OCI_DURATION_SESSION [22.1.4.1](object-advanced-topics-in-oci.md), [26.3.1](lob-functions.md), [29.3.1](cartridge-services-memory-services.md), [30.2.2](oci-type-interface-functions.md), [30.3.4](oci-any-data-interface-functions.md), [30.3.7](oci-any-data-interface-functions.md), [30.4.2](oci-any-data-set-interface-functions.md)
+- OCI_DURATION_STATEMENT [26.3.1](lob-functions.md), [29.3.1](cartridge-services-memory-services.md), [30.2.2](oci-type-interface-functions.md), [30.3.4](oci-any-data-interface-functions.md), [30.3.7](oci-any-data-interface-functions.md), [30.4.2](oci-any-data-set-interface-functions.md)
+- OCI_DURATION_TRANS [8.2.1](describing-schema-metadata.md), [22.1.4.1](object-advanced-topics-in-oci.md)
+  - possible value of OCI_ATTR_DURATION [8.2.1](describing-schema-metadata.md)
+- OCI_DYNAMIC_FETCH [25.4.9](bind-define-describe-functions.md), [25.4.10](bind-define-describe-functions.md)
+- OCI_ENV_NO_MUTEX [10.9.3](managing-scalable-platforms.md)
+- OCI_ERROR [4.3.5](oci-programming-basics.md), [10.2.3.7](managing-scalable-platforms.md)
+- OCI_EVENTS [25.2.8](connect-authorize-and-initialize-functions.md)
+  - mode for receiving notifications [13.2.1.1](notification-streams-advanced-queuing.md)
+- OCI_FOREIGN_SYNTAX [26.2.5](statement-functions.md), [E.2.2](deprecated-oci-functions.md)
+- OCI_HTYPE_ADMIN [4.2.1](oci-programming-basics.md), [16.1](database-startup-and-shutdown.md)
+- OCI_HTYPE_AUTHINFO [4.2.1](oci-programming-basics.md), [11.1.4.2](session-and-connection-pooling.md)
+- OCI_HTYPE_BIND [4.2.1](oci-programming-basics.md)
+- OCI_HTYPE_COMPLEXOBJECT [4.2.1](oci-programming-basics.md)
+- OCI_HTYPE_COR [25.3.9](handle-and-descriptor-functions.md)
+- OCI_HTYPE_CPOOL [4.2.1](oci-programming-basics.md), [11.4.2.1](session-and-connection-pooling.md)
+- OCI_HTYPE_DEFINE [4.2.1](oci-programming-basics.md)
+- OCI_HTYPE_DESCRIBE [4.2.1](oci-programming-basics.md)
+- OCI_HTYPE_DIRPATH_COLUMN_ARRAY [4.2.1](oci-programming-basics.md)
+- OCI_HTYPE_DIRPATH_CTX [4.2.1](oci-programming-basics.md)
+- OCI_HTYPE_DIRPATH_FN_COL_ARRAY [21.2.2.2](direct-path-load-interface.md), [21.4.2.6](direct-path-load-interface.md)
+- OCI_HTYPE_DIRPATH_FN_CTX [4.2.1](oci-programming-basics.md)
+- OCI_HTYPE_DIRPATH_STREAM [4.2.1](oci-programming-basics.md)
+- OCI_HTYPE_ENV [4.2.1](oci-programming-basics.md)
+- OCI_HTYPE_ERROR [4.2.1](oci-programming-basics.md)
+- OCI_HTYPE_PROC [4.2.1](oci-programming-basics.md)
+- OCI_HTYPE_SERVER [4.2.1](oci-programming-basics.md)
+- OCI_HTYPE_SESSION [4.2.1](oci-programming-basics.md)
+- OCI_HTYPE_SODA_COLLECTION [4.2.1](oci-programming-basics.md)
+- OCI_HTYPE_SODA_CURSOR [4.2.1](oci-programming-basics.md)
+- OCI_HTYPE_SODA_DOCUMENT [4.2.1](oci-programming-basics.md)
+- OCI_HTYPE_SPOOL [4.2.1](oci-programming-basics.md)
+- OCI_HTYPE_STMT [4.2.1](oci-programming-basics.md), [25.3.3](handle-and-descriptor-functions.md), [25.3.9](handle-and-descriptor-functions.md)
+- OCI_HTYPE_SUBSCRIPTION [4.2.1](oci-programming-basics.md)
+- OCI_HTYPE_SVCCTX [4.2.1](oci-programming-basics.md)
+- OCI_HTYPE_TRANS [4.2.1](oci-programming-basics.md)
+- OCI_IND_NULL [19.3.14](oci-object-relational-programming.md)
+- OCI_INVALID_HANDLE [4.3.5](oci-programming-basics.md)
+- OCI_IOV [7.6](binding-and-defining-in-oci.md), [25.4.9](bind-define-describe-functions.md), [25.4.10](bind-define-describe-functions.md)
+- OCI_LOCK_NONE [22.1.7.1](object-advanced-topics-in-oci.md)
+- OCI_LOCK_X [22.1.7.1](object-advanced-topics-in-oci.md)
+- OCI_LOCK_X_NOWAIT [22.1.7.1](object-advanced-topics-in-oci.md)
+  - parameter usage [22.1.7.3](object-advanced-topics-in-oci.md)
+- OCI_LOGON2_STMTCACHE [15.1.2](performance-topics.md)
+- OCI_LTYPE_ARG_FUNC list attribute [8.2.12](describing-schema-metadata.md)
+- OCI_LTYPE_ARG_PROC list attribute [8.2.12](describing-schema-metadata.md)
+- OCI_LTYPE_DB_SCH list attribute [8.2.12](describing-schema-metadata.md)
+- OCI_LTYPE_SCH_OBJ list attribute [8.2.12](describing-schema-metadata.md)
+- OCI_LTYPE_SUBPRG list attribute [8.2.12](describing-schema-metadata.md)
+- OCI_LTYPE_TYPE_ARG_FUNC list attribute [8.2.12](describing-schema-metadata.md)
+- OCI_LTYPE_TYPE_ARG_PROC list attribute [8.2.12](describing-schema-metadata.md)
+- OCI_LTYPE_TYPE_ATTR list attribute [8.2.12](describing-schema-metadata.md)
+- OCI_LTYPE_TYPE_METHOD list attribute [8.2.12](describing-schema-metadata.md)
+- OCI_MIGRATE
+  - OCISessionBegin() mode [10.3.1](managing-scalable-platforms.md), [25.2.15](connect-authorize-and-initialize-functions.md)
+- OCI_NEED_DATA [4.3.5](oci-programming-basics.md)
+- OCI_NEW_LENGTH_SEMANTICS [25.2.7](connect-authorize-and-initialize-functions.md)
+- OCI_NO_DATA [4.3.5](oci-programming-basics.md)
+- OCI_NO_UCB [25.2.8](connect-authorize-and-initialize-functions.md)
+- OCI_OBJECT [25.2.8](connect-authorize-and-initialize-functions.md)
+- OCI_PIN_ANY [22.1.4.1](object-advanced-topics-in-oci.md)
+- OCI_PIN_LATEST [22.1.4.1](object-advanced-topics-in-oci.md)
+- OCI_PIN_RECENT [22.1.4.1](object-advanced-topics-in-oci.md)
+- OCI_PREP2_IMPL_RESULTS_CLIENT [E.2.2](deprecated-oci-functions.md)
+- OCI_PTYPE_ARG
+  - attributes [8.2.11](describing-schema-metadata.md)
+  - possible value of OCI_ATTR_PTYPE [8.2](describing-schema-metadata.md)
+- OCI_PTYPE_COL
+  - attributes [8.2.10](describing-schema-metadata.md)
+- OCI_PTYPE_COLL
+  - attributes [8.2.7](describing-schema-metadata.md)
+- OCI_PTYPE_DATABASE
+  - attributes [8.2.14](describing-schema-metadata.md)
+- OCI_PTYPE_EVALUATION CONTEXT
+  - attributes [8.2.17](describing-schema-metadata.md)
+- OCI_PTYPE_FUNC
+  - attributes [8.2.2](describing-schema-metadata.md)
+  - possible value of OCI_ATTR_PTYPE [8.2](describing-schema-metadata.md)
+- OCI_PTYPE_LIST
+  - attributes [8.2.12](describing-schema-metadata.md)
+- OCI_PTYPE_NAME_VALUE
+  - attributes [8.2.20](describing-schema-metadata.md)
+- OCI_PTYPE_PKG
+  - attributes [8.2.3](describing-schema-metadata.md)
+- OCI_PTYPE_PROC
+  - attributes [8.2.2](describing-schema-metadata.md)
+- OCI_PTYPE_RULE_SET
+  - attributes [8.2.16](describing-schema-metadata.md)
+- OCI_PTYPE_RULES
+  - attributes [8.2.15](describing-schema-metadata.md)
+- OCI_PTYPE_SCHEMA
+  - attributes [8.2.13](describing-schema-metadata.md)
+- OCI_PTYPE_SYN
+  - attributes [8.2.8](describing-schema-metadata.md)
+- OCI_PTYPE_TABLE
+  - attributes [8.2.1](describing-schema-metadata.md)
+- OCI_PTYPE_TABLE_ALIAS
+  - attributes [8.2.18](describing-schema-metadata.md)
+- OCI_PTYPE_TYPE
+  - attributes [8.2.4](describing-schema-metadata.md)
+- OCI_PTYPE_TYPE_ATTR
+  - attributes [8.2.5](describing-schema-metadata.md)
+- OCI_PTYPE_TYPE_COLL
+  - possible value of OCI_ATTR_PTYPE [8.2](describing-schema-metadata.md)
+- OCI_PTYPE_TYPE_FUNC
+  - attributes [8.2.6](describing-schema-metadata.md)
+- OCI_PTYPE_TYPE_METHOD [8.2.6](describing-schema-metadata.md)
+- OCI_PTYPE_TYPE_PROC
+  - attributes [8.2.6](describing-schema-metadata.md)
+- OCI_PTYPE_UNK
+  - possible value of OCI_ATTR_PTYPE [8.2](describing-schema-metadata.md)
+- OCI_PTYPE_VARIABLE_TYPE
+  - attributes [8.2.19](describing-schema-metadata.md)
+- OCI_PTYPE_VIEW
+  - attributes [8.2.1](describing-schema-metadata.md)
+  - possible value of OCI_ATTR_PTYPE [8.2](describing-schema-metadata.md)
+- OCI_ROWCBK_DONE [4.3.5](oci-programming-basics.md)
+- OCI_SESSGET_CUSTOM_POOL mode, OCISessionGet() [18.2](oci-interface-for-using-shards.md)
+- OCI_SESSRLS_RETAG [25.2.20](connect-authorize-and-initialize-functions.md)
+- OCI_STILL_EXECUTING [4.3.5](oci-programming-basics.md)
+- OCI_SUBSCR_NAMESPACE_ANONYMOUS [A.22](handle-and-descriptor-attributes.md)
+- OCI_SUBSCR_PROTO_HTTP [A.22](handle-and-descriptor-attributes.md)
+- OCI_SUBSCR_PROTO_MAIL [A.22](handle-and-descriptor-attributes.md)
+- OCI_SUBSCR_PROTO_OCI [A.22](handle-and-descriptor-attributes.md)
+- OCI_SUBSCR_PROTO_SERVER [A.22](handle-and-descriptor-attributes.md)
+- OCI_SUBSCR_QOS_PURGE_ON_NTFN [13.2.1.4](notification-streams-advanced-queuing.md)
+- OCI_SUBSCR_QOS_RELIABLE [13.2.1.4](notification-streams-advanced-queuing.md)
+- OCI_SUCCESS [4.3.5](oci-programming-basics.md), [10.2.3.7](managing-scalable-platforms.md)
+- OCI_SUCCESS_WITH_INFO [4.3.5](oci-programming-basics.md)
+- OCI_SUPPRESS_NLS_VALIDATION [25.2.7](connect-authorize-and-initialize-functions.md), [25.2.8](connect-authorize-and-initialize-functions.md)
+- OCI_SYSASM
+  - OCISessionBegin() mode [10.3.1](managing-scalable-platforms.md), [25.2.15](connect-authorize-and-initialize-functions.md)
+- OCI_SYSBKP
+  - OCISessionBegin() mode [10.3.1](managing-scalable-platforms.md), [25.2.15](connect-authorize-and-initialize-functions.md)
+- OCI_SYSDBA
+  - OCISessionBegin() mode [10.3.1](managing-scalable-platforms.md), [25.2.15](connect-authorize-and-initialize-functions.md)
+- OCI_SYSDGD
+  - OCISessionBegin() mode [10.3.1](managing-scalable-platforms.md), [25.2.15](connect-authorize-and-initialize-functions.md)
+- OCI_SYSKMT
+  - OCISessionBegin() mode [10.3.1](managing-scalable-platforms.md), [25.2.15](connect-authorize-and-initialize-functions.md)
+- OCI_SYSOPER
+  - OCISessionBegin() mode [10.3.1](managing-scalable-platforms.md), [25.2.15](connect-authorize-and-initialize-functions.md)
+- OCI_SYSRAC
+  - OCISessionBegin() mode [10.3.1](managing-scalable-platforms.md), [25.2.15](connect-authorize-and-initialize-functions.md)
+- OCI_THREADED [10.9.3](managing-scalable-platforms.md), [25.2.8](connect-authorize-and-initialize-functions.md)
+- OCI_TRANS_LOOSE [10.2.3.3](managing-scalable-platforms.md)
+- OCI_TRANS_NEW [10.2.5.1](managing-scalable-platforms.md)
+- OCI_TRANS_READONLY [10.2.5.3](managing-scalable-platforms.md)
+- OCI_TRANS_RESUME [10.2.5.2](managing-scalable-platforms.md)
+- OCI_TRANS_SERIALIZABLE [10.2.2](managing-scalable-platforms.md)
+- OCI_TRANS_TWOPHASE [10.2.5.2](managing-scalable-platforms.md)
+- OCI_TYPECODE [8.1.2.1](describing-schema-metadata.md)
+  - values [5.5](data-types.md), [5.5.1](data-types.md)
+- OCI_TYPECODE_ITABLE
+  - possible value of OCI_ATTR_COLLECTION_TYPECODE [8.2.4](describing-schema-metadata.md)
+- OCI_TYPECODE_NCHAR [20.13.3](object-relational-data-types-in-oci.md)
+- OCI_UTF16ID [4.6.1](oci-programming-basics.md)
+- oci.lib [D.5](getting-started-with-oci-for-windows.md)
+- OCIAnyDataAccess() [30.3.1](oci-any-data-interface-functions.md)
+- OCIAnyDataAttrGet() [30.3.2](oci-any-data-interface-functions.md)
+- OCIAnyDataAttrSet() [30.3.3](oci-any-data-interface-functions.md)
+- OCIAnyDataBeginCreate() [30.3.4](oci-any-data-interface-functions.md)
+- OCIAnyDataCollAddElem() [30.3.5](oci-any-data-interface-functions.md)
+- OCIAnyDataCollGetElem() [30.3.6](oci-any-data-interface-functions.md)
+- OCIAnyDataConvert() [30.3.7](oci-any-data-interface-functions.md)
+- OCIAnyDataDestroy() [30.3.8](oci-any-data-interface-functions.md)
+- OCIAnyDataEndCreate() [30.3.9](oci-any-data-interface-functions.md)
+- OCIAnyDataGetCurrAttrNum() [30.3.10](oci-any-data-interface-functions.md)
+- OCIAnyDataGetType() [30.3.11](oci-any-data-interface-functions.md)
+- OCIAnyDataIsNull() [30.3.12](oci-any-data-interface-functions.md)
+- OCIAnyDataSetAddInstance() [30.4.1](oci-any-data-set-interface-functions.md)
+- OCIAnyDataSetBeginCreate() [30.4.2](oci-any-data-set-interface-functions.md)
+- OCIAnyDataSetDestroy() [30.4.3](oci-any-data-set-interface-functions.md)
+- OCIAnyDataSetEndCreate() [30.4.4](oci-any-data-set-interface-functions.md)
+- OCIAnyDataSetGetCount() [30.4.5](oci-any-data-set-interface-functions.md)
+- OCIAnyDataSetGetInstance() [30.4.6](oci-any-data-set-interface-functions.md)
+- OCIAnyDataSetGetType() [30.4.7](oci-any-data-set-interface-functions.md)
+- OCIAnyDataTypeCodeToSqlt() [20.13.3](object-relational-data-types-in-oci.md), [30.3.13](oci-any-data-interface-functions.md)
+- OCIAppCtxClearAll() [25.2.1](connect-authorize-and-initialize-functions.md)
+- OCIAppCtxSet() [25.2.2](connect-authorize-and-initialize-functions.md)
+- OCI applications
+  - compiling [1.2](introduction.md), [D.4](getting-started-with-oci-for-windows.md)
+  - general structure [4.1](oci-programming-basics.md)
+  - initialization example [4.3.1.3.3](oci-programming-basics.md)
+  - linking [1.2](introduction.md), [D.5](getting-started-with-oci-for-windows.md)
+  - running [D.6](getting-started-with-oci-for-windows.md)
+  - steps [4.3](oci-programming-basics.md)
+  - structure [4.1](oci-programming-basics.md)
+  - structure using objects [19.2.1](oci-object-relational-programming.md)
+  - terminating [4.3.4](oci-programming-basics.md)
+  - using the OTT utility with [24.6](using-object-type-translator-in-oci.md)
+  - with objects
+    - initializing [19.3.2](oci-object-relational-programming.md)
+- OCIAQAgent
+  - descriptor attributes [A.21.4](handle-and-descriptor-attributes.md)
+- OCIAQDeq() [26.4.1](streams-advanced-queueing-and-publish-subscribe-functions.md)
+- OCIAQDeqArray() [26.4.2](streams-advanced-queueing-and-publish-subscribe-functions.md)
+- OCIAQDeqOptions
+  - descriptor attributes [A.21.2](handle-and-descriptor-attributes.md)
+- OCIAQEnq() [26.4.3](streams-advanced-queueing-and-publish-subscribe-functions.md)
+- OCIAQEnqArray() [26.4.4](streams-advanced-queueing-and-publish-subscribe-functions.md)
+- OCIAQEnqOptions
+  - descriptor attributes [A.21.1](handle-and-descriptor-attributes.md)
+- OCIAQListen() [E.4.1](deprecated-oci-functions.md)
+- OCIAQListen2() [26.4.5](streams-advanced-queueing-and-publish-subscribe-functions.md)
+- OCIAQMsgProperties
+  - descriptor attributes [A.21.3](handle-and-descriptor-attributes.md)
+- OCIArray [20.9](object-relational-data-types-in-oci.md)
+  - binding and defining [20.9](object-relational-data-types-in-oci.md), [20.16](object-relational-data-types-in-oci.md)
+- OCIArrayDescriptorAlloc() [25.3.1](handle-and-descriptor-functions.md)
+- OCIArrayDescriptorFree() [25.3.2](handle-and-descriptor-functions.md)
+- OCIArray manipulation
+  - code example [20.9.4](object-relational-data-types-in-oci.md)
+- OCIAttrGet() [17.4](support-for-pluggable-databases.md), [25.3.3](handle-and-descriptor-functions.md)
+  - used for describing [6.5.1](using-sql_statements-in-oci.md)
+- OCIAttrSet() [25.3.4](handle-and-descriptor-functions.md)
+- OCIAuthInfo definition [11.1.4.2](session-and-connection-pooling.md)
+- OCIBindArrayOfStruct() [25.4.1](bind-define-describe-functions.md)
+- OCIBindByName() [25.4.2](bind-define-describe-functions.md)
+- OCIBindByName2() [25.4.3](bind-define-describe-functions.md)
+- OCIBindByPos() [25.4.4](bind-define-describe-functions.md)
+- OCIBindByPos2() [25.4.5](bind-define-describe-functions.md)
+- OCIBindDynamic() [25.4.6](bind-define-describe-functions.md)
+- OCIBindObject() [25.4.7](bind-define-describe-functions.md)
+- OCIBinXmlCreateReposCtxFromConn() [32.2.1](oci-xml-db-functions.md)
+- OCIBinXmlCreateReposCtxFromCPool() [32.2.2](oci-xml-db-functions.md)
+- OCIBinXmlSetFormatPref() [23.4.6](oci-support-for-xml.md), [32.2.3](oci-xml-db-functions.md)
+- OCIBinXmlSetReposCtxForConn() [32.2.4](oci-xml-db-functions.md)
+- OCIBreak() [26.9.1](miscellaneous-functions.md)
+  - use of [4.4.5](oci-programming-basics.md), [4.4.11](oci-programming-basics.md)
+- OCICacheFlush() [27.2.1](oci-flush-or-refresh-functions.md)
+- OCICacheFree() [27.6.1](oci-pin-unpin-and-free-functions.md)
+- OCICacheRefresh() [27.2.2](oci-flush-or-refresh-functions.md)
+- OCICacheUnmark() [27.3.1](oci-mark-or-unmark-object-cache-functions.md)
+- OCICacheUnpin() [27.6.2](oci-pin-unpin-and-free-functions.md)
+- OCICharSetConversionIsReplacementUsed() [31.6.1](oci-character-set-conversion-functions.md)
+- OCICharSetToUnicode() [31.6.2](oci-character-set-conversion-functions.md)
+- OCIClientVersion() [26.9.2](miscellaneous-functions.md)
+- OCIColl [20.9](object-relational-data-types-in-oci.md)
+  - binding and defining [20.9](object-relational-data-types-in-oci.md)
+- OCICollAppend() [28.2.1](oci-collection-and-iterator-functions.md)
+- OCICollAssign() [28.2.2](oci-collection-and-iterator-functions.md)
+- OCICollAssignElem() [28.2.3](oci-collection-and-iterator-functions.md)
+- OCICollGetElem() [28.2.4](oci-collection-and-iterator-functions.md)
+- OCICollGetElemArray() [28.2.5](oci-collection-and-iterator-functions.md)
+- OCICollIsLocator() [28.2.6](oci-collection-and-iterator-functions.md)
+- OCICollMax() [28.2.7](oci-collection-and-iterator-functions.md)
+- OCICollSize() [28.2.8](oci-collection-and-iterator-functions.md)
+- OCICollTrim() [28.2.9](oci-collection-and-iterator-functions.md)
+- OCIComplexObject
+  - use of [19.3.10.2](oci-object-relational-programming.md)
+- OCIComplexObjectComp
+  - use of [19.3.10.2](oci-object-relational-programming.md)
+- OCIConnectionPoolCreate() [25.2.3](connect-authorize-and-initialize-functions.md)
+- OCIConnectionPoolDestroy() [25.2.4](connect-authorize-and-initialize-functions.md)
+- OCIContextClearValue() [29.4.1](cartridge-services-maintaining-context.md)
+- OCIContextGenerateKey() [29.4.2](cartridge-services-maintaining-context.md)
+- OCIContextGetValue() [29.4.3](cartridge-services-maintaining-context.md)
+- OCIContextSetValue() [29.4.4](cartridge-services-maintaining-context.md)
+- OCIDate [20.4](object-relational-data-types-in-oci.md)
+  - binding and defining [20.4](object-relational-data-types-in-oci.md), [20.16](object-relational-data-types-in-oci.md)
+  - manipulation usage example [20.4.1](object-relational-data-types-in-oci.md)
+- OCIDateAddDays() [28.3.1](oci-date-datetime-and-interval-functions.md)
+- OCIDateAddMonths() [28.3.2](oci-date-datetime-and-interval-functions.md)
+- OCIDateAssign() [28.3.3](oci-date-datetime-and-interval-functions.md)
+- OCIDateCheck() [28.3.4](oci-date-datetime-and-interval-functions.md)
+- OCIDateCompare() [28.3.5](oci-date-datetime-and-interval-functions.md)
+- OCIDateDaysBetween() [28.3.6](oci-date-datetime-and-interval-functions.md)
+- OCIDateFromText() [28.3.7](oci-date-datetime-and-interval-functions.md)
+- OCIDateGetDate() [28.3.8](oci-date-datetime-and-interval-functions.md)
+- OCIDateGetTime() [28.3.9](oci-date-datetime-and-interval-functions.md)
+- OCIDateLastDay() [28.3.10](oci-date-datetime-and-interval-functions.md)
+- OCIDateNextDay() [28.3.11](oci-date-datetime-and-interval-functions.md)
+- OCIDateSetDate() [28.3.12](oci-date-datetime-and-interval-functions.md)
+- OCIDateSetTime() [28.3.13](oci-date-datetime-and-interval-functions.md)
+- OCIDateSysDate() [28.3.14](oci-date-datetime-and-interval-functions.md)
+- OCIDateTimeAssign() [28.3.15](oci-date-datetime-and-interval-functions.md)
+- OCIDateTimeCheck() [28.3.16](oci-date-datetime-and-interval-functions.md)
+- OCIDateTimeCompare() [28.3.17](oci-date-datetime-and-interval-functions.md)
+- OCIDateTimeConstruct() [28.3.18](oci-date-datetime-and-interval-functions.md)
+- OCIDateTimeConvert() [28.3.19](oci-date-datetime-and-interval-functions.md)
+- OCIDateTimeFromArray() [28.3.20](oci-date-datetime-and-interval-functions.md)
+- OCIDateTimeFromText() [28.3.21](oci-date-datetime-and-interval-functions.md)
+- OCIDateTimeGetDate() [28.3.22](oci-date-datetime-and-interval-functions.md)
+- OCIDateTimeGetTime() [28.3.23](oci-date-datetime-and-interval-functions.md)
+- OCIDateTimeGetTimeZoneName() [28.3.24](oci-date-datetime-and-interval-functions.md)
+- OCIDateTimeGetTimeZoneOffset() [28.3.25](oci-date-datetime-and-interval-functions.md)
+- OCIDateTimeIntervalAdd() [28.3.26](oci-date-datetime-and-interval-functions.md)
+- OCIDateTimeIntervalSub() [28.3.27](oci-date-datetime-and-interval-functions.md)
+- OCIDateTimeSubtract() [28.3.28](oci-date-datetime-and-interval-functions.md)
+- OCIDateTimeSysTimeStamp() [28.3.29](oci-date-datetime-and-interval-functions.md)
+- OCIDateTimeToArray() [28.3.30](oci-date-datetime-and-interval-functions.md)
+- OCIDateTimeToText() [28.3.31](oci-date-datetime-and-interval-functions.md)
+- OCIDateToText() [28.3.32](oci-date-datetime-and-interval-functions.md)
+- OCIDateZoneToZone() [28.3.33](oci-date-datetime-and-interval-functions.md)
+- OCIDBShutdown() [25.2.5](connect-authorize-and-initialize-functions.md)
+- OCIDBStartup() [25.2.6](connect-authorize-and-initialize-functions.md)
+- OCIDefineArrayOfStruct() [25.4.8](bind-define-describe-functions.md)
+- OCIDefineByPos() [25.4.9](bind-define-describe-functions.md)
+- OCIDefineByPos2() [25.4.10](bind-define-describe-functions.md)
+- OCIDefineDynamic() [25.4.11](bind-define-describe-functions.md)
+- OCIDefineObject() [25.4.12](bind-define-describe-functions.md)
+- OCI demonstration programs
+  - demo subdirectory [3.2.2](build-and-configure-oci-applications.md)
+- OCIDescribeAny() [25.4.13](bind-define-describe-functions.md)
+  - limitations [8.1.1](describing-schema-metadata.md)
+  - overview [8.1](describing-schema-metadata.md)
+  - usage examples [8.4](describing-schema-metadata.md)
+- OCIDescriptorAlloc() [25.3.5](handle-and-descriptor-functions.md)
+- OCIDescriptorFree() [25.3.6](handle-and-descriptor-functions.md)
+- OCIDirPathAbort() [26.5.1](direct-path-loading-functions.md)
+- OCIDirPathColArrayEntryGet() [26.5.2](direct-path-loading-functions.md)
+- OCIDirPathColArrayEntrySet() [26.5.3](direct-path-loading-functions.md)
+- OCIDirPathColArrayReset() [26.5.4](direct-path-loading-functions.md)
+- OCIDirPathColArrayRowGet() [26.5.5](direct-path-loading-functions.md)
+- OCIDirPathColArrayToStream() [26.5.6](direct-path-loading-functions.md)
+- OCIDirPathDataSave() [26.5.7](direct-path-loading-functions.md)
+- OCIDirPathFinish() [26.5.8](direct-path-loading-functions.md)
+- OCIDirPathFlushRow() [26.5.9](direct-path-loading-functions.md)
+- OCIDirPathLoadStream() [26.5.10](direct-path-loading-functions.md)
+- OCIDirPathPrepare() [26.5.11](direct-path-loading-functions.md)
+- OCIDirPathStreamReset() [26.5.12](direct-path-loading-functions.md)
+- OCIDuration
+  - use of [22.1.4.1](object-advanced-topics-in-oci.md)
+- OCIDurationBegin() [26.3.1](lob-functions.md), [29.3.1](cartridge-services-memory-services.md)
+- OCIDurationEnd() [26.3.2](lob-functions.md), [29.3.2](cartridge-services-memory-services.md)
+- OCIEnvCreate() [25.2.7](connect-authorize-and-initialize-functions.md)
+- OCIEnvInit() [E.1.1](deprecated-oci-functions.md)
+- OCI environment
+  - initializing for objects [19.3.2](oci-object-relational-programming.md)
+- OCIEnvNlsCreate() [4.6.1](oci-programming-basics.md), [25.2.8](connect-authorize-and-initialize-functions.md)
+- OCIErrorGet() [26.9.3](miscellaneous-functions.md)
+- OCIEvent handle [12.2.1](high-availability-in-oci.md)
+- OCIExtProcAllocCallMemory() [29.2.1](cartridge-services-oci-external-procedures.md)
+- OCIExtProcGetEnv() [29.2.2](cartridge-services-oci-external-procedures.md)
+- OCIExtProcRaiseExcp() [29.2.3](cartridge-services-oci-external-procedures.md)
+- OCIExtProcRaiseExcpWithMsg() [29.2.4](cartridge-services-oci-external-procedures.md)
+- OCIExtractFromFile() [29.5.1](cartridge-services-parameter-manager-interface.md)
+- OCIExtractFromList() [29.5.2](cartridge-services-parameter-manager-interface.md)
+- OCIExtractFromStr() [29.5.3](cartridge-services-parameter-manager-interface.md)
+- OCIExtractInit() [29.5.4](cartridge-services-parameter-manager-interface.md)
+- OCIExtractReset() [29.5.5](cartridge-services-parameter-manager-interface.md)
+- OCIExtractSetKey() [29.5.6](cartridge-services-parameter-manager-interface.md)
+- OCIExtractSetNumKeys() [29.5.7](cartridge-services-parameter-manager-interface.md)
+- OCIExtractTerm() [29.5.8](cartridge-services-parameter-manager-interface.md)
+- OCIExtractToBool() [29.5.9](cartridge-services-parameter-manager-interface.md)
+- OCIExtractToInt() [29.5.10](cartridge-services-parameter-manager-interface.md)
+- OCIExtractToList() [29.5.11](cartridge-services-parameter-manager-interface.md)
+- OCIExtractToOCINum() [29.5.12](cartridge-services-parameter-manager-interface.md)
+- OCIExtractToStr() [29.5.13](cartridge-services-parameter-manager-interface.md)
+- OCIFileClose() [29.6.1](cartridge-services-file-io-interface.md)
+- OCIFileExists() [29.6.2](cartridge-services-file-io-interface.md)
+- OCIFileFlush() [29.6.3](cartridge-services-file-io-interface.md)
+- OCIFileGetLength() [29.6.4](cartridge-services-file-io-interface.md)
+- OCIFileInit() [29.6.5](cartridge-services-file-io-interface.md)
+- OCIFileObject data structure [29.6](cartridge-services-file-io-interface.md)
+- OCIFileOpen() [29.6.6](cartridge-services-file-io-interface.md)
+- OCIFileRead() [29.6.7](cartridge-services-file-io-interface.md)
+- OCIFileSeek() [29.6.8](cartridge-services-file-io-interface.md)
+- OCIFileTerm() [29.6.9](cartridge-services-file-io-interface.md)
+- OCIFileWrite() [29.6.10](cartridge-services-file-io-interface.md)
+- OCIFormatInit() [29.7.1](cartridge-services-string-formatting-interface.md)
+- OCIFormatString() [29.7.2](cartridge-services-string-formatting-interface.md)
+- OCIFormatTerm() [29.7.3](cartridge-services-string-formatting-interface.md)
+- OCI functions
+  - canceling calls [4.4.5](oci-programming-basics.md)
+  - data cartridges [4](oci-programming-basics.md)
+  - globalization [4](oci-programming-basics.md)
+  - not supported [3.7.5](build-and-configure-oci-applications.md)
+  - obsolescent [3.7.4](build-and-configure-oci-applications.md)
+  - return codes [4.3.5](oci-programming-basics.md), [4.3.5.2](oci-programming-basics.md)
+- OCIHandleAlloc() [25.3.7](handle-and-descriptor-functions.md)
+- OCIHandleFree() [25.3.8](handle-and-descriptor-functions.md)
+- OCI handle types [4.2.1](oci-programming-basics.md)
+- OCIInd
+  - use of [19.3.14](oci-object-relational-programming.md)
+- OCIInitialize() [E.1.2](deprecated-oci-functions.md)
+- OCI interface
+  - XStream [34](intro-to-oci-interface-for-XStream.md)
+- OCIIntervalAdd() [28.3.34](oci-date-datetime-and-interval-functions.md)
+- OCIIntervalAssign() [28.3.35](oci-date-datetime-and-interval-functions.md)
+- OCIIntervalCheck() [28.3.36](oci-date-datetime-and-interval-functions.md)
+- OCIIntervalCompare() [28.3.37](oci-date-datetime-and-interval-functions.md)
+- OCIIntervalDivide() [28.3.38](oci-date-datetime-and-interval-functions.md)
+- OCIIntervalFromNumber() [28.3.39](oci-date-datetime-and-interval-functions.md)
+- OCIIntervalFromText() [28.3.40](oci-date-datetime-and-interval-functions.md)
+- OCIIntervalFromTZ() [28.3.41](oci-date-datetime-and-interval-functions.md)
+- OCIIntervalGetDaySecond() [28.3.42](oci-date-datetime-and-interval-functions.md)
+- OCIIntervalGetYearMonth() [28.3.43](oci-date-datetime-and-interval-functions.md)
+- OCIIntervalMultiply() [28.3.44](oci-date-datetime-and-interval-functions.md)
+- OCIIntervalSetDaySecond() [28.3.45](oci-date-datetime-and-interval-functions.md)
+- OCIIntervalSetYearMonth() [28.3.46](oci-date-datetime-and-interval-functions.md)
+- OCIIntervalSubtract() [28.3.47](oci-date-datetime-and-interval-functions.md)
+- OCIIntervalToNumber() [28.3.48](oci-date-datetime-and-interval-functions.md)
+- OCIIntervalToText() [28.3.49](oci-date-datetime-and-interval-functions.md)
+- OCIIOV struct [7.6](binding-and-defining-in-oci.md)
+- OCIIter [20.9](object-relational-data-types-in-oci.md)
+  - binding and defining [20.9](object-relational-data-types-in-oci.md)
+  - usage example [20.9.4](object-relational-data-types-in-oci.md)
+- OCIIterCreate() [28.2.10](oci-collection-and-iterator-functions.md)
+- OCIIterDelete() [28.2.11](oci-collection-and-iterator-functions.md)
+- OCIIterGetCurrent() [28.2.12](oci-collection-and-iterator-functions.md)
+- OCIIterInit() [28.2.13](oci-collection-and-iterator-functions.md)
+- OCIIterNext() [28.2.14](oci-collection-and-iterator-functions.md)
+- OCIIterPrev() [28.2.15](oci-collection-and-iterator-functions.md)
+- OCILCRAttributesGet() [35.3.1](oci-XStream-functions.md)
+- OCILCRAttributesSet() [35.3.2](oci-XStream-functions.md)
+- OCILCRComparePosition() [35.3.3](oci-XStream-functions.md)
+- OCILCRConvertPosition() [35.3.4](oci-XStream-functions.md)
+- OCILCRDDLInfoGet() [35.3.6](oci-XStream-functions.md)
+- OCILCRDDLInfoSet() [35.3.13](oci-XStream-functions.md)
+- OCILCRFree() [35.3.5](oci-XStream-functions.md)
+- OCILCRGetLCRIDVersion() [35.3.14](oci-XStream-functions.md)
+- OCILCRHeaderGet() [35.3.7](oci-XStream-functions.md)
+- OCILCRHeaderSet() [35.3.15](oci-XStream-functions.md)
+- OCILCRLobInfoGet() [35.3.16](oci-XStream-functions.md)
+- OCILCRLobInfoSet() [35.3.17](oci-XStream-functions.md)
+- OCILCRNew() [35.3.10](oci-XStream-functions.md)
+- OCILCRNumberFromPosition() [35.3.18](oci-XStream-functions.md)
+- OCILCRRowColumnInfoGet() [35.3.11](oci-XStream-functions.md)
+- OCILCRRowColumnInfoSet() [35.3.12](oci-XStream-functions.md)
+- OCILCRRowStmtGet() [35.3.8](oci-XStream-functions.md)
+- OCILCRRowStmtWithBindVarGet() [35.3.9](oci-XStream-functions.md)
+- OCILCRSCNToPosition() [35.3.19](oci-XStream-functions.md)
+- OCILCRScnToPosition2() [35.3.20](oci-XStream-functions.md)
+- OCILCRWhereClauseGet() [35.3.21](oci-XStream-functions.md)
+- OCILCRWhereClauseWithBindVarGet() [35.3.22](oci-XStream-functions.md)
+- OCILdaToSvcCtx() [26.9.4](miscellaneous-functions.md)
+- OCILobAppend() [26.3.3](lob-functions.md)
+- OCILobArrayRead() [9.9](lobs-and-bfile-operations.md), [26.3.4](lob-functions.md)
+- OCILobArrayWrite() [26.3.5](lob-functions.md)
+- OCILobAssign() [26.3.6](lob-functions.md)
+- OCILobCharSetForm() [26.3.7](lob-functions.md)
+- OCILobCharSetId() [26.3.8](lob-functions.md)
+- OCILobClose() [26.3.9](lob-functions.md)
+- OCILobCopy() [E.3.1](deprecated-oci-functions.md)
+- OCILobCopy2() [26.3.10](lob-functions.md)
+- OCILobCreateTemporary() [26.3.11](lob-functions.md)
+- OCILobDisableBuffering() [E.3.2](deprecated-oci-functions.md)
+- OCILobEnableBuffering() [E.3.3](deprecated-oci-functions.md)
+- OCILobErase() [E.3.4](deprecated-oci-functions.md)
+- OCILobErase2() [26.3.12](lob-functions.md)
+- OCILobFileClose() [26.3.13](lob-functions.md)
+- OCILobFileCloseAll() [26.3.14](lob-functions.md)
+- OCILobFileExists() [26.3.15](lob-functions.md)
+- OCILobFileGetName() [26.3.16](lob-functions.md)
+- OCILobFileIsOpen() [26.3.17](lob-functions.md)
+- OCILobFileOpen() [26.3.18](lob-functions.md)
+- OCILobFileSetName() [26.3.19](lob-functions.md)
+- OCILobFlushBuffer() [E.3.5](deprecated-oci-functions.md)
+- OCILobFreeTemporary() [26.3.20](lob-functions.md)
+- OCILobGetChunkSize() [26.3.21](lob-functions.md)
+- OCILobGetContentType() [26.3.22](lob-functions.md)
+- OCILobGetLength() [E.3.6](deprecated-oci-functions.md)
+- OCILobGetLength2() [26.3.23](lob-functions.md)
+- OCILobGetOptions() [26.3.24](lob-functions.md)
+- OCILobGetStorageLimit() [26.3.25](lob-functions.md)
+- OCILobIsEqual() [26.3.26](lob-functions.md)
+- OCILobIsOpen() [26.3.27](lob-functions.md)
+- OCILobIsTemporary() [26.3.28](lob-functions.md)
+- OCILobLoadFromFile() [E.3.7](deprecated-oci-functions.md)
+- OCILobLoadFromFile2() [26.3.29](lob-functions.md)
+- OCILobLocatorAssign() [26.3.30](lob-functions.md)
+- OCILobLocatorIsInit() [26.3.31](lob-functions.md)
+- OCILobOpen() [26.3.32](lob-functions.md)
+- OCILobRead() [E.3.8](deprecated-oci-functions.md)
+- OCILobRead2() [26.3.33](lob-functions.md)
+- OCILobSetContentType() [26.3.34](lob-functions.md)
+- OCILobSetOptions() [26.3.35](lob-functions.md)
+- OCILobTrim() [E.3.9](deprecated-oci-functions.md)
+- OCILobTrim2() [26.3.36](lob-functions.md)
+- OCILobWrite() [E.3.10](deprecated-oci-functions.md)
+- OCILobWrite2() [26.3.37](lob-functions.md)
+- OCILobWriteAppend() [E.3.11](deprecated-oci-functions.md)
+- OCILobWriteAppend2() [26.3.38](lob-functions.md)
+- OCILockOpt
+  - possible values [27.4.2](oci-get-object-status-functions.md), [27.6.5](oci-pin-unpin-and-free-functions.md)
+- OCILogoff() [25.2.9](connect-authorize-and-initialize-functions.md)
+- OCILogon() [25.2.10](connect-authorize-and-initialize-functions.md)
+  - using [4.3.1.3.1](oci-programming-basics.md)
+- OCILogon2() [25.2.11](connect-authorize-and-initialize-functions.md)
+- OCIMemoryAlloc() [29.3.3](cartridge-services-memory-services.md)
+- OCIMemoryFree() [29.3.4](cartridge-services-memory-services.md)
+- OCIMemoryResize() [29.3.5](cartridge-services-memory-services.md)
+- OCIMessageClose() [31.7.1](oci-messaging-functions.md)
+- OCIMessageGet() [31.7.2](oci-messaging-functions.md)
+- OCIMessageOpen() [31.7.3](oci-messaging-functions.md)
+- OCIMultiByteInSizeToWideChar() [31.4.1](oci-string-manipulation-functions.md)
+- OCIMultiByteStrCaseConversion() [31.4.2](oci-string-manipulation-functions.md)
+- OCIMultiByteStrcat() [31.4.3](oci-string-manipulation-functions.md)
+- OCIMultiByteStrcmp() [31.4.4](oci-string-manipulation-functions.md)
+- OCIMultiByteStrcpy() [31.4.5](oci-string-manipulation-functions.md)
+- OCIMultiByteStrlen() [31.4.6](oci-string-manipulation-functions.md)
+- OCIMultiByteStrncat() [31.4.7](oci-string-manipulation-functions.md)
+- OCIMultiByteStrncmp() [31.4.8](oci-string-manipulation-functions.md)
+- OCIMultiByteStrncpy() [31.4.9](oci-string-manipulation-functions.md)
+- OCIMultiByteStrnDisplayLength() [31.4.10](oci-string-manipulation-functions.md)
+- OCIMultiByteToWideChar() [31.4.11](oci-string-manipulation-functions.md)
+- OCI navigational functions [22.3](object-advanced-topics-in-oci.md)
+  - flush functions [22.3.2](object-advanced-topics-in-oci.md)
+  - mark functions [22.3.3](object-advanced-topics-in-oci.md)
+  - meta-attribute accessor functions [22.3.4](object-advanced-topics-in-oci.md)
+  - miscellaneous functions [22.3.5](object-advanced-topics-in-oci.md)
+  - naming scheme [22.3](object-advanced-topics-in-oci.md)
+  - pin/unpin/free functions [22.3.1](object-advanced-topics-in-oci.md)
+- OCINlsCharSetConvert() [31.6.3](oci-character-set-conversion-functions.md)
+- OCINlsCharSetIdToName() [31.2.1](oci-locale-functions.md)
+- OCINlsCharSetNameTold() [31.2.2](oci-locale-functions.md)
+- OCINlsEnvironmentVariableGet() [31.2.3](oci-locale-functions.md)
+- OCINlsGetInfo() [31.2.4](oci-locale-functions.md)
+- OCINlsNameMap() [31.3.1](oci-locale-mapping-function.md)
+- OCINlsNumericInfoGet() [31.2.5](oci-locale-functions.md)
+- OCINumber [20.6](object-relational-data-types-in-oci.md)
+  - bind example [20.16.1](object-relational-data-types-in-oci.md)
+  - binding and defining [20.6](object-relational-data-types-in-oci.md), [20.16](object-relational-data-types-in-oci.md)
+  - define example [20.16.1](object-relational-data-types-in-oci.md)
+  - usage examples [20.6.1](object-relational-data-types-in-oci.md)
+- OCINumberAbs() [28.4.1](oci-NUMBER-functions.md)
+- OCINumberAdd() [28.4.2](oci-NUMBER-functions.md)
+- OCINumberArcCos() [28.4.3](oci-NUMBER-functions.md)
+- OCINumberArcSin() [28.4.4](oci-NUMBER-functions.md)
+- OCINumberArcTan() [28.4.5](oci-NUMBER-functions.md)
+- OCINumberArcTan2() [28.4.6](oci-NUMBER-functions.md)
+- OCINumberAssign() [28.4.7](oci-NUMBER-functions.md)
+- OCINumberCeil() [28.4.8](oci-NUMBER-functions.md)
+- OCINumberCmp() [28.4.9](oci-NUMBER-functions.md)
+- OCINumberCos() [28.4.10](oci-NUMBER-functions.md)
+- OCINumberDec() [28.4.11](oci-NUMBER-functions.md)
+- OCINumberDiv() [28.4.12](oci-NUMBER-functions.md)
+- OCINumberExp() [28.4.13](oci-NUMBER-functions.md)
+- OCINumberFloor() [28.4.14](oci-NUMBER-functions.md)
+- OCINumberFromInt() [28.4.15](oci-NUMBER-functions.md)
+- OCINumberFromReal() [28.4.16](oci-NUMBER-functions.md)
+- OCINumberFromText() [28.4.17](oci-NUMBER-functions.md)
+- OCINumberHypCos() [28.4.18](oci-NUMBER-functions.md)
+- OCINumberHypSin() [28.4.19](oci-NUMBER-functions.md)
+- OCINumberHypTan() [28.4.20](oci-NUMBER-functions.md)
+- OCINumberInc() [28.4.21](oci-NUMBER-functions.md)
+- OCINumberIntPower() [28.4.22](oci-NUMBER-functions.md)
+- OCINumberIsInt() [28.4.23](oci-NUMBER-functions.md)
+- OCINumberIsZero() [28.4.24](oci-NUMBER-functions.md)
+- OCINumberLn() [28.4.25](oci-NUMBER-functions.md)
+- OCINumberLog() [28.4.26](oci-NUMBER-functions.md)
+- OCINumberMod() [28.4.27](oci-NUMBER-functions.md)
+- OCINumberMul() [28.4.28](oci-NUMBER-functions.md)
+- OCINumberNeg() [28.4.29](oci-NUMBER-functions.md)
+- OCINumberPower() [28.4.30](oci-NUMBER-functions.md)
+- OCINumberPrec() [28.4.31](oci-NUMBER-functions.md)
+- OCINumberRound() [28.4.32](oci-NUMBER-functions.md)
+- OCINumberSetPi() [28.4.33](oci-NUMBER-functions.md)
+- OCINumberSetZero() [28.4.34](oci-NUMBER-functions.md)
+- OCINumberShift() [28.4.35](oci-NUMBER-functions.md)
+- OCINumberSign() [28.4.36](oci-NUMBER-functions.md)
+- OCINumberSin() [28.4.37](oci-NUMBER-functions.md)
+- OCINumberSqrt() [28.4.38](oci-NUMBER-functions.md)
+- OCINumberSub() [28.4.39](oci-NUMBER-functions.md)
+- OCINumberTan() [28.4.40](oci-NUMBER-functions.md)
+- OCINumberToInt() [28.4.41](oci-NUMBER-functions.md)
+- OCINumberToReal() [28.4.42](oci-NUMBER-functions.md)
+- OCINumberToRealArray() [28.4.43](oci-NUMBER-functions.md)
+- OCINumberToText() [28.4.44](oci-NUMBER-functions.md)
+- OCINumberTrunc() [28.4.45](oci-NUMBER-functions.md)
+- OCIObjectArrayPin() [27.6.3](oci-pin-unpin-and-free-functions.md)
+- OCIObjectCopy() [27.5.1](oci-miscellaneous-object-functions.md)
+- OCIObjectExists() [27.4.1](oci-get-object-status-functions.md)
+- OCIObjectFlush() [27.2.3](oci-flush-or-refresh-functions.md)
+- OCIObjectFree() [27.6.4](oci-pin-unpin-and-free-functions.md)
+- OCIObjectGetAttr() [27.5.2](oci-miscellaneous-object-functions.md)
+- OCIObjectGetInd() [27.5.3](oci-miscellaneous-object-functions.md)
+  - example of use [19.3.14](oci-object-relational-programming.md)
+- OCIObjectGetObjectRef() [27.5.4](oci-miscellaneous-object-functions.md)
+- OCIObjectGetProperty() [27.4.2](oci-get-object-status-functions.md)
+- OCIObjectGetTypeRef() [27.5.5](oci-miscellaneous-object-functions.md)
+- OCIObjectIsDirty() [27.4.3](oci-get-object-status-functions.md)
+- OCIObjectIsLocked() [27.4.4](oci-get-object-status-functions.md)
+- OCIObjectLifetime
+  - possible values [27.4.2](oci-get-object-status-functions.md)
+- OCIObjectLock() [27.5.6](oci-miscellaneous-object-functions.md)
+- OCIObjectLockNoWait() [27.5.7](oci-miscellaneous-object-functions.md)
+- OCIObjectMarkDelete() [27.3.2](oci-mark-or-unmark-object-cache-functions.md)
+- OCIObjectMarkDeleteByRef() [27.3.3](oci-mark-or-unmark-object-cache-functions.md)
+- OCIObjectMarkStatus
+  - possible values [27.4.2](oci-get-object-status-functions.md)
+- OCIObjectMarkUpdate() [27.3.4](oci-mark-or-unmark-object-cache-functions.md)
+- OCIObjectNew() [27.5.8](oci-miscellaneous-object-functions.md)
+- OCIObjectPin() [27.6.5](oci-pin-unpin-and-free-functions.md)
+- OCIObjectPinCountReset() [27.6.6](oci-pin-unpin-and-free-functions.md)
+- OCIObjectPinTable() [27.6.7](oci-pin-unpin-and-free-functions.md)
+- OCIObjectRefresh() [27.2.4](oci-flush-or-refresh-functions.md)
+- OCIObjectSetAttr() [27.5.9](oci-miscellaneous-object-functions.md)
+- OCIObjectUnmark() [27.3.5](oci-mark-or-unmark-object-cache-functions.md)
+- OCIObjectUnmarkByRef() [27.3.6](oci-mark-or-unmark-object-cache-functions.md)
+- OCIObjectUnpin() [27.6.8](oci-pin-unpin-and-free-functions.md)
+- OCIParamGet() [25.3.9](handle-and-descriptor-functions.md)
+  - used for describing [6.5.1](using-sql_statements-in-oci.md)
+- OCIParamSet() [25.3.10](handle-and-descriptor-functions.md)
+- OCIPasswordChange() [26.9.5](miscellaneous-functions.md)
+- OCIPing() [26.9.6](miscellaneous-functions.md)
+- OCIPinOpt
+  - use of [22.1.4.1](object-advanced-topics-in-oci.md)
+- OCI process
+  - initializing for objects [19.3.2](oci-object-relational-programming.md)
+- OCI program
+  - See: OCI applications
+- OCIRaw [20.8](object-relational-data-types-in-oci.md)
+  - binding and defining [20.8](object-relational-data-types-in-oci.md), [20.16](object-relational-data-types-in-oci.md)
+  - manipulation usage example [20.8.2](object-relational-data-types-in-oci.md)
+- OCIRawAllocSize() [28.5.1](oci-raw-functions.md)
+- OCIRawAssignBytes() [28.5.2](oci-raw-functions.md)
+- OCIRawAssignRaw() [28.5.3](oci-raw-functions.md)
+- OCIRawPtr() [28.5.4](oci-raw-functions.md)
+- OCIRawResize() [28.5.5](oci-raw-functions.md)
+- OCIRawSize() [28.5.6](oci-raw-functions.md)
+- OCIRef [20.11](object-relational-data-types-in-oci.md)
+  - binding and defining [20.11](object-relational-data-types-in-oci.md)
+  - usage example [20.11.2](object-relational-data-types-in-oci.md)
+- OCIRefAssign() [28.6.1](oci-REF-functions.md)
+- OCIRefClear() [28.6.2](oci-REF-functions.md)
+- OCIRefFromHex() [28.6.3](oci-REF-functions.md)
+- OCIRefHexSize() [28.6.4](oci-REF-functions.md)
+- OCIRefIsEqual() [28.6.5](oci-REF-functions.md)
+- OCIRefIsNull() [28.6.6](oci-REF-functions.md)
+- OCIRefToHex() [28.6.7](oci-REF-functions.md)
+- OCI relational functions
+  - connect, authorize, and initialize [25.2](connect-authorize-and-initialize-functions.md)
+  - guide to reference entries [29.1.1](intro-to-external-procedure-and-cartridge-services-functions.md)
+  - Oracle Database Advanced Queuing and publish-subscribe [26.4](streams-advanced-queueing-and-publish-subscribe-functions.md)
+  - Oracle Streams Advanced Queuing and publish-subscribe [E.4](deprecated-oci-functions.md)
+- OCIRequestEnd() [25.2.12](connect-authorize-and-initialize-functions.md)
+- OCIReset() [26.9.7](miscellaneous-functions.md)
+  - use of [4.4.11](oci-programming-basics.md)
+- OCIRowid ROWID descriptor [4.2.1.13.4](oci-programming-basics.md)
+- OCIRowidToChar() [26.9.8](miscellaneous-functions.md)
+- OCIServerAttach() [25.2.13](connect-authorize-and-initialize-functions.md)
+  - shadow processes [25.2.13](connect-authorize-and-initialize-functions.md)
+- OCIServerDetach() [25.2.14](connect-authorize-and-initialize-functions.md)
+- OCIServerDNs descriptor attributes [A.21.5](handle-and-descriptor-attributes.md)
+- OCIServerRelease() [26.9.9](miscellaneous-functions.md)
+- OCIServerRelease2() [26.9.10](miscellaneous-functions.md)
+- OCIServerVersion() [26.9.11](miscellaneous-functions.md)
+- OCISessionBegin() [10.3.1](managing-scalable-platforms.md), [25.2.15](connect-authorize-and-initialize-functions.md)
+- OCISessionEnd() [25.2.16](connect-authorize-and-initialize-functions.md)
+- OCISessionGet() [25.2.17](connect-authorize-and-initialize-functions.md)
+- OCI session pool [18.1](oci-interface-for-using-shards.md)
+- OCI session pool configuration
+  - using oraaccess.xml [3.6.7](build-and-configure-oci-applications.md)
+- OCISessionPoolCreate() [25.2.18](connect-authorize-and-initialize-functions.md)
+- OCISessionPoolDestroy() [25.2.19](connect-authorize-and-initialize-functions.md)
+- OCISessionRelease() [25.2.20](connect-authorize-and-initialize-functions.md)
+- OCIShardingKeyColumnAdd() [26.8.1](shard-functions.md)
+- OCIShardingkeyReset() [26.8.2](shard-functions.md)
+- OCIShardingKeyReset() [18](oci-interface-for-using-shards.md)
+- OCIShardInstancesGet() [18.2](oci-interface-for-using-shards.md), [26.8.3](shard-functions.md)
+- OCISodaAsOfScnGet () [36.2.15](oci-SODA-functions-listed.md)
+- OCISodaAsOfTimestampGet () [36.2.14](oci-SODA-functions-listed.md)
+- OCISodaBulkInsert() [36.2.1](oci-SODA-functions-listed.md)
+- OCISodaBulkInsertAndGet() [36.2.2](oci-SODA-functions-listed.md)
+- OCISodaBulkInsertAndGetWithCont() [36.2.4](oci-SODA-functions-listed.md)
+- OCISodaBulkInsertAndGetWithOpts() [36.2.3](oci-SODA-functions-listed.md)
+- OCISodaBulkInsertWithCtnt() [36.2.5](oci-SODA-functions-listed.md)
+- OCISodaCollCreate() [36.2.6](oci-SODA-functions-listed.md)
+- OCISodaCollCreateWithMetadata() [36.2.7](oci-SODA-functions-listed.md)
+- OCISodaCollDrop() [36.2.8](oci-SODA-functions-listed.md)
+- OCISodaCollList() [36.2.10](oci-SODA-functions-listed.md)
+- OCISodaCollOpen() [36.2.11](oci-SODA-functions-listed.md)
+- OCISodaCollTruncate() [36.2.45](oci-SODA-functions-listed.md)
+- OCISodaDataGuideGet() [36.2.12](oci-SODA-functions-listed.md)
+- OCISodaDataGuideGetWithOpts() [36.2.13](oci-SODA-functions-listed.md)
+- OCISodaDocCount() [36.2.16](oci-SODA-functions-listed.md)
+- OCISodaDocCountWithFilter() [36.2.17](oci-SODA-functions-listed.md)
+- OCISodaDocCreate() [36.2.18](oci-SODA-functions-listed.md)
+- OCISodaDocCreateWithKey() [36.2.19](oci-SODA-functions-listed.md)
+- OCISodaDocCreateWithKeyAndMType() [36.2.20](oci-SODA-functions-listed.md)
+- OCISodaDocGetNext() [36.2.21](oci-SODA-functions-listed.md)
+- OCISodaFind() [36.2.22](oci-SODA-functions-listed.md)
+- OCISodaFindOne() [36.2.23](oci-SODA-functions-listed.md)
+- OCISodaFindOneWithKey() [36.2.24](oci-SODA-functions-listed.md)
+- OCI SODA functions [36.2](oci-SODA-functions-listed.md)
+- OCISodaIndexCreate() [36.2.25](oci-SODA-functions-listed.md)
+- OCISodaIndexDrop() [36.2.26](oci-SODA-functions-listed.md)
+- OCISodaInsert() [36.2.27](oci-SODA-functions-listed.md)
+- OCISodaInsertAndGet() [36.2.28](oci-SODA-functions-listed.md)
+- OCISodaInsertAndGetWithCtnt() [36.2.30](oci-SODA-functions-listed.md)
+- OCISodaInsertAndGetWithOpts() [36.2.29](oci-SODA-functions-listed.md)
+- OCISodaInsertWithCtnt() [36.2.31](oci-SODA-functions-listed.md)
+- OCISodaRemove() [36.2.32](oci-SODA-functions-listed.md)
+- OCISodaRemoveOneWithKey() [36.2.33](oci-SODA-functions-listed.md)
+- OCISodaReplOne() [36.2.34](oci-SODA-functions-listed.md)
+- OCISodaReplOneAndGet() [36.2.35](oci-SODA-functions-listed.md)
+- OCISodaReplOneAndGetWithCtnt() [36.2.36](oci-SODA-functions-listed.md)
+- OCISodaReplOneAndGetWithKey() [36.2.37](oci-SODA-functions-listed.md)
+- OCISodaReplOneWithCont() [36.2.38](oci-SODA-functions-listed.md)
+- OCISodaReplOneWithKey() [36.2.39](oci-SODA-functions-listed.md)
+- OCISodaSave() [36.2.40](oci-SODA-functions-listed.md)
+- OCISodaSaveAndGet() [36.2.41](oci-SODA-functions-listed.md)
+- OCISodaSaveAndGetWithCtnt() [36.2.44](oci-SODA-functions-listed.md)
+- OCISodaSaveAndGetWithOpts() [36.2.42](oci-SODA-functions-listed.md)
+- OCISodaSaveWithCtnt() [36.2.43](oci-SODA-functions-listed.md)
+- OCIStmtExecute() [26.2.1](statement-functions.md)
+  - prefetch during [6.4](using-sql_statements-in-oci.md)
+  - use of iters parameter [6.4](using-sql_statements-in-oci.md)
+- OCIStmtFetch() [17.4](support-for-pluggable-databases.md), [E.2.1](deprecated-oci-functions.md)
+- OCIStmtFetch2() [17.4](support-for-pluggable-databases.md), [26.2.2](statement-functions.md)
+- OCIStmtGetBindInfo() [25.4.14](bind-define-describe-functions.md)
+- OCIStmtGetNextResult () [26.2.3](statement-functions.md)
+- OCIStmtGetPieceInfo() [26.2.4](statement-functions.md)
+- OCIStmtPrepare() [E.2.2](deprecated-oci-functions.md)
+- OCIStmtPrepare2() [26.2.5](statement-functions.md)
+  - preparing SQL statements [6.2](using-sql_statements-in-oci.md)
+- OCIStmtRelease() [26.2.6](statement-functions.md)
+- OCIStmtSetPieceInfo() [26.2.7](statement-functions.md)
+- OCIString [20.7](object-relational-data-types-in-oci.md)
+  - binding and defining [20.7](object-relational-data-types-in-oci.md), [20.16](object-relational-data-types-in-oci.md)
+  - manipulation usage example [20.7.2](object-relational-data-types-in-oci.md)
+- OCIStringAllocSize() [28.7.1](oci-string-functions.md)
+- OCIStringAssign() [28.7.2](oci-string-functions.md)
+- OCIStringAssignText() [28.7.3](oci-string-functions.md)
+- OCIStringPtr() [28.7.4](oci-string-functions.md)
+- OCIStringResize() [28.7.5](oci-string-functions.md)
+- OCIStringSize() [28.7.6](oci-string-functions.md)
+- OCISubscriptionDisable() [26.4.6](streams-advanced-queueing-and-publish-subscribe-functions.md)
+- OCISubscriptionEnable() [26.4.7](streams-advanced-queueing-and-publish-subscribe-functions.md)
+- OCISubscriptionPost() [26.4.8](streams-advanced-queueing-and-publish-subscribe-functions.md)
+- OCISubscriptionRegister() [17.4](support-for-pluggable-databases.md), [26.4.9](streams-advanced-queueing-and-publish-subscribe-functions.md)
+- OCISubscriptionUnRegister() [17.4](support-for-pluggable-databases.md), [26.4.10](streams-advanced-queueing-and-publish-subscribe-functions.md)
+- OCI support for implicit results [15.3](performance-topics.md)
+- OCISvcCtxToLda() [26.9.12](miscellaneous-functions.md)
+- OCITable [20.9](object-relational-data-types-in-oci.md)
+  - binding and defining [20.9](object-relational-data-types-in-oci.md), [20.16](object-relational-data-types-in-oci.md)
+- OCITableDelete() [28.8.1](oci-table-functions.md)
+- OCITableExists() [28.8.2](oci-table-functions.md)
+- OCITableFirst() [28.8.3](oci-table-functions.md)
+- OCITableLast() [28.8.4](oci-table-functions.md)
+- OCITableNext() [28.8.5](oci-table-functions.md)
+- OCITablePrev() [28.8.6](oci-table-functions.md)
+- OCITableSize() [28.8.7](oci-table-functions.md)
+- OCITerminate() [25.2.21](connect-authorize-and-initialize-functions.md)
+- OCIThreadClose() [26.6.1](thread-management-functions.md)
+- OCIThreadCreate() [26.6.2](thread-management-functions.md)
+- OCIThreadHandleGet() [26.6.3](thread-management-functions.md)
+- OCIThreadHndDestroy() [26.6.4](thread-management-functions.md)
+- OCIThreadHndInit() [26.6.5](thread-management-functions.md)
+- OCIThreadIdDestroy() [26.6.6](thread-management-functions.md)
+- OCIThreadIdGet() [26.6.7](thread-management-functions.md)
+- OCIThreadIdInit() [26.6.8](thread-management-functions.md)
+- OCIThreadIdNull() [26.6.9](thread-management-functions.md)
+- OCIThreadIdSame() [26.6.10](thread-management-functions.md)
+- OCIThreadIdSet() [26.6.11](thread-management-functions.md)
+- OCIThreadIdSetNull() [26.6.12](thread-management-functions.md)
+- OCIThreadInit() [26.6.13](thread-management-functions.md)
+- OCIThreadIsMulti() [26.6.14](thread-management-functions.md)
+- OCIThreadJoin() [26.6.15](thread-management-functions.md)
+- OCIThreadKeyDestroy() [26.6.16](thread-management-functions.md)
+- OCIThreadKeyGet() [26.6.17](thread-management-functions.md)
+- OCIThreadKeyInit() [26.6.18](thread-management-functions.md)
+- OCIThreadKeySet() [26.6.19](thread-management-functions.md)
+- OCIThreadMutexAcquire() [26.6.20](thread-management-functions.md)
+- OCIThreadMutexDestroy() [26.6.21](thread-management-functions.md)
+- OCIThreadMutexInit() [26.6.22](thread-management-functions.md)
+- OCIThreadMutexRelease() [26.6.23](thread-management-functions.md)
+- OCIThread package [10.10](managing-scalable-platforms.md)
+- OCIThreadProcessInit() [26.6.24](thread-management-functions.md)
+- OCIThreadTerm() [26.6.25](thread-management-functions.md)
+- OCITransCommit() [17.4](support-for-pluggable-databases.md), [26.7.1](transaction-functions.md)
+- OCITransDetach() [17.4](support-for-pluggable-databases.md), [26.7.2](transaction-functions.md)
+- OCITransForget() [17.4](support-for-pluggable-databases.md), [26.7.3](transaction-functions.md)
+- OCITransMultiPrepare() [17.4](support-for-pluggable-databases.md), [26.7.4](transaction-functions.md)
+- OCITransPrepare() [17.4](support-for-pluggable-databases.md), [26.7.5](transaction-functions.md)
+- OCITransRollback() [17.4](support-for-pluggable-databases.md), [26.7.6](transaction-functions.md)
+- OCITransStart() [17.4](support-for-pluggable-databases.md), [26.7.7](transaction-functions.md)
+- OCIType
+  - description [20.12.1](object-relational-data-types-in-oci.md)
+- OCITypeAddAttr() [30.2.1](oci-type-interface-functions.md)
+- OCITypeArrayByFullName() [27.7.2](oci-type-information-accessor-functions.md)
+- OCITypeArrayByName() [27.7.1](oci-type-information-accessor-functions.md)
+- OCITypeArrayByRef() [27.7.3](oci-type-information-accessor-functions.md)
+- OCITypeBeginCreate() [30.2.2](oci-type-interface-functions.md)
+- OCITypeByName() [27.7.5](oci-type-information-accessor-functions.md)
+- OCITypeByRef() [27.7.6](oci-type-information-accessor-functions.md)
+- OCITypeCode [5.5](data-types.md)
+- OCITypeElem
+  - description [20.12.1](object-relational-data-types-in-oci.md)
+- OCITypeEndCreate() [30.2.3](oci-type-interface-functions.md)
+- OCITypeMethod
+  - description [20.12.1](object-relational-data-types-in-oci.md)
+- OCITypePackage() [27.7.7](oci-type-information-accessor-functions.md)
+- OCITypeSetBuiltin() [30.2.4](oci-type-interface-functions.md)
+- OCITypeSetCollection() [30.2.5](oci-type-interface-functions.md)
+- OCIUnicodeToCharSet() [31.6.4](oci-character-set-conversion-functions.md)
+- OCIUserCallbackGet() [26.9.13](miscellaneous-functions.md)
+- OCIUserCallbackRegister() [26.9.14](miscellaneous-functions.md)
+- OCIWchar data type [4.6.9](oci-programming-basics.md)
+- OCIWideCharInSizeToMultiByte() [31.4.12](oci-string-manipulation-functions.md)
+- OCIWideCharIsAlnum() [31.5.1](oci-character-classification-functions.md)
+- OCIWideCharIsAlpha() [31.5.2](oci-character-classification-functions.md)
+- OCIWideCharIsCntrl() [31.5.3](oci-character-classification-functions.md)
+- OCIWideCharIsDigit() [31.5.4](oci-character-classification-functions.md)
+- OCIWideCharIsGraph() [31.5.5](oci-character-classification-functions.md)
+- OCIWideCharIsLower() [31.5.6](oci-character-classification-functions.md)
+- OCIWideCharIsPrint() [31.5.7](oci-character-classification-functions.md)
+- OCIWideCharIsPunct() [31.5.8](oci-character-classification-functions.md)
+- OCIWideCharIsSingleByte() [31.5.9](oci-character-classification-functions.md)
+- OCIWideCharIsSpace() [31.5.10](oci-character-classification-functions.md)
+- OCIWideCharIsUpper() [31.5.11](oci-character-classification-functions.md)
+- OCIWideCharIsXdigit() [31.5.12](oci-character-classification-functions.md)
+- OCIWideCharMultiByteLength() [31.4.13](oci-string-manipulation-functions.md)
+- OCIWideCharStrCaseConversion() [31.4.14](oci-string-manipulation-functions.md)
+- OCIWideCharStrcat() [31.4.15](oci-string-manipulation-functions.md)
+- OCIWideCharStrchr() [31.4.16](oci-string-manipulation-functions.md)
+- OCIWideCharStrcmp() [31.4.17](oci-string-manipulation-functions.md)
+- OCIWideCharStrcpy() [31.4.18](oci-string-manipulation-functions.md)
+- OCIWideCharStrlen() [31.4.19](oci-string-manipulation-functions.md)
+- OCIWideCharStrncat() [31.4.20](oci-string-manipulation-functions.md)
+- OCIWideCharStrncmp() [31.4.21](oci-string-manipulation-functions.md)
+- OCIWideCharStrncpy() [31.4.22](oci-string-manipulation-functions.md)
+- OCIWideCharStrrchr() [31.4.23](oci-string-manipulation-functions.md)
+- OCIWideCharToLower() [31.4.24](oci-string-manipulation-functions.md)
+- OCIWideCharToMultiByte() [31.4.25](oci-string-manipulation-functions.md)
+- OCIWideCharToUpper() [31.4.26](oci-string-manipulation-functions.md)
+- ocixmldb.h header file [23.3](oci-support-for-xml.md)
+- OCIXmlDbFreeXmlCtx() [32.2.5](oci-xml-db-functions.md)
+- OCIXmlDbInitXmlCtx() [32.2.6](oci-xml-db-functions.md)
+- OCIXStreamInAttach() [35.3.23](oci-XStream-functions.md)
+- OCIXStreamInChunkSend() [35.3.30](oci-XStream-functions.md)
+- OCIXStreamInCommit() [35.3.31](oci-XStream-functions.md)
+- OCIXStreamInDetach() [35.3.24](oci-XStream-functions.md)
+- OCIXStreamInErrorGet() [35.3.28](oci-XStream-functions.md)
+- OCIXStreamInFlush() [35.3.29](oci-XStream-functions.md)
+- OCIXStreamInLCRCallbackSend() [35.3.26](oci-XStream-functions.md)
+- OCIXStreamInLCRSend() [35.3.25](oci-XStream-functions.md)
+- OCIXStreamInProcessedLWMGet() [35.3.27](oci-XStream-functions.md)
+- OCIXStreamInSessionSet() [35.3.32](oci-XStream-functions.md)
+- OCIXStreamOutAttach() [35.3.33](oci-XStream-functions.md)
+- OCIXStreamOutChunkReceive() [35.3.38](oci-XStream-functions.md)
+- OCIXStreamOutDetach() [35.3.34](oci-XStream-functions.md)
+- OCIXStreamOutGetNextChunk() [35.3.39](oci-XStream-functions.md)
+- OCIXStreamOutLCRCallbackReceive() [35.3.36](oci-XStream-functions.md)
+- OCIXStreamOutLCRReceive() [35.3.35](oci-XStream-functions.md)
+- OCIXStreamOutProcessedLWMSet() [35.3.37](oci-XStream-functions.md)
+- OCIXStreamOutSessionSet() [35.3.40](oci-XStream-functions.md)
+- ODPI-C
+  - alternative to OCI [1.3](introduction.md)
+  - for Oracle Database drivers [1.3](introduction.md)
+  - for user applications [1.3](introduction.md)
+- OID
+  - See: object identifiers
+- opaque, definition of [1.1](introduction.md)
+- optimistic locking
+  - implementing [22.1.7.4](object-advanced-topics-in-oci.md)
+- ORA_NCHAR_LITERAL_REPLACE [25.2.7](connect-authorize-and-initialize-functions.md)
+- ORA-25219 error during enqueue [13.3.3](notification-streams-advanced-queuing.md)
+- Oracle Call Interface
+  - See: OCI
+- Oracle Connection Manager in Traffic Director Mode [11.3](session-and-connection-pooling.md)
+- Oracle Database [D.7](getting-started-with-oci-for-windows.md)
+- Oracle Database Advanced Queuing
+  - dequeue function [26.4.1](streams-advanced-queueing-and-publish-subscribe-functions.md)
+  - description [13.3](notification-streams-advanced-queuing.md)
+  - descriptor attributes [A.21](handle-and-descriptor-attributes.md)
+  - enqueue function [26.4.3](streams-advanced-queueing-and-publish-subscribe-functions.md)
+  - functions [26.4](streams-advanced-queueing-and-publish-subscribe-functions.md), [E.4](deprecated-oci-functions.md)
+  - OCI and [13.3](notification-streams-advanced-queuing.md)
+  - OCI versus PL/SQL [13.3.3](notification-streams-advanced-queuing.md)
+  - publish-subscribe notification in OCI [13.2](notification-streams-advanced-queuing.md)
+- Oracle data types [5.1](data-types.md)
+  - mapping to C [20.2](object-relational-data-types-in-oci.md)
+- Oracle directory structure [3.2.1](build-and-configure-oci-applications.md)
+- Oracle ODBC Driver
+  - for user ODBC applications [1.3](introduction.md)
+- Oracle RAC [12.1](high-availability-in-oci.md)
+- Oracle Real Application Clusters [12.1](high-availability-in-oci.md)
+- Oracle Streams Advanced Queuing
+  - OCI descriptors for [13.3.2](notification-streams-advanced-queuing.md)
+  - OCI functions for [13.3.1](notification-streams-advanced-queuing.md)
+- Oracle XA Library
+  - additional documentation [D.7.3](getting-started-with-oci-for-windows.md)
+  - compiling and linking an OCI program [D.7.1](getting-started-with-oci-for-windows.md)
+  - dynamic registration [D.7.2](getting-started-with-oci-for-windows.md)
+- Oracle XML DB OCI functions [23](oci-support-for-xml.md), [32.2](oci-xml-db-functions.md)
+- oratypes.h
+  - as parameter source in OCI [5.6](data-types.md)
+  - contents [5.6](data-types.md)
+  - definitions in [5.6](data-types.md)
+- ORE
+  - See: object runtime environment
+- OTT
+  - See: OTT utility
+- OTT parameters [24.7.1](using-object-type-translator-in-oci.md), [24.7.2](using-object-type-translator-in-oci.md)
+  - CASE [24.7.2.10](using-object-type-translator-in-oci.md)
+  - CODE [24.7.2.4](using-object-type-translator-in-oci.md)
+  - CONFIG [24.7.2.8](using-object-type-translator-in-oci.md)
+  - ERRTYPE [24.7.2.9](using-object-type-translator-in-oci.md)
+  - HFILE [24.7.2.7](using-object-type-translator-in-oci.md)
+  - INITFILE [24.7.2.5](using-object-type-translator-in-oci.md)
+  - INITFUNC [24.7.2.6](using-object-type-translator-in-oci.md)
+  - INTYPE [24.7.2.2](using-object-type-translator-in-oci.md)
+  - OUTTYPE [24.7.2.3](using-object-type-translator-in-oci.md)
+  - SCHEMA_NAMES [24.7.2.11](using-object-type-translator-in-oci.md)
+  - TRANSITIVE [24.7.2.12](using-object-type-translator-in-oci.md)
+  - URL [24.7.2.13](using-object-type-translator-in-oci.md)
+  - USERID [24.7.2.1](using-object-type-translator-in-oci.md)
+  - where they appear [24.7.3](using-object-type-translator-in-oci.md)
+- OTT utility
+  - command line [24.2](using-object-type-translator-in-oci.md), [D.8](getting-started-with-oci-for-windows.md)
+  - command-line syntax [24.7.1](using-object-type-translator-in-oci.md)
+  - creating types in the database [24.1.1](using-object-type-translator-in-oci.md)
+  - data type mappings [24.4](using-object-type-translator-in-oci.md)
+  - initialization function
+    - calling [24.6.2](using-object-type-translator-in-oci.md)
+    - tasks of [24.6.3](using-object-type-translator-in-oci.md)
+  - intype file [24.7.4](using-object-type-translator-in-oci.md)
+  - outtype file [24.5](using-object-type-translator-in-oci.md)
+  - overview [24.1](using-object-type-translator-in-oci.md)
+  - parameters [24.7.2](using-object-type-translator-in-oci.md)
+    - See OTT parameters [24.7.2](using-object-type-translator-in-oci.md)
+  - providing an intype file [24.3](using-object-type-translator-in-oci.md)
+  - reference [24.7](using-object-type-translator-in-oci.md)
+  - restriction [24.7.8](using-object-type-translator-in-oci.md)
+  - sample output [19.3.1](oci-object-relational-programming.md)
+  - use with OCI [19.3.1](oci-object-relational-programming.md)
+  - using [24](using-object-type-translator-in-oci.md), [24.1](using-object-type-translator-in-oci.md)
+- outbound servers
+  - OCI interface [34.1.1](about-XStream-interface.md)
+- outtype file [24.7.4](using-object-type-translator-in-oci.md)
+  - when running OTT utility [24.5](using-object-type-translator-in-oci.md)
+- OUTTYPE OTT parameter [24.7.2.3](using-object-type-translator-in-oci.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- packages
+  - attributes [8.2.3](describing-schema-metadata.md)
+  - describing [8.1](describing-schema-metadata.md)
+- parameter descriptor [4.2.1.13.3](oci-programming-basics.md)
+  - attributes [8.2](describing-schema-metadata.md), [A.13](handle-and-descriptor-attributes.md)
+  - object [20.12.1](object-relational-data-types-in-oci.md)
+- parameters
+  - attributes [8.2](describing-schema-metadata.md)
+  - buffer lengths [25.1.9](introduction-to-relational-functions.md)
+  - modes [25.1.4](introduction-to-relational-functions.md)
+  - passing strings [4.4.2.3](oci-programming-basics.md)
+  - string length [25.1.9](introduction-to-relational-functions.md)
+- password management [10.3](managing-scalable-platforms.md), [10.3.2](managing-scalable-platforms.md)
+- persistent objects [19.2.2.1](oci-object-relational-programming.md)
+  - meta-attributes [19.3.9.1](oci-object-relational-programming.md)
+- piecewise
+  - binds and defines for LOBs [7.11.7](binding-and-defining-in-oci.md)
+  - fetch [7.11.6](binding-and-defining-in-oci.md)
+- piecewise operations [7.11.3](binding-and-defining-in-oci.md)
+  - fetch [7.11](binding-and-defining-in-oci.md), [7.11.6.1](binding-and-defining-in-oci.md)
+  - in PL/SQL [7.11.4](binding-and-defining-in-oci.md)
+  - insert [7.11](binding-and-defining-in-oci.md)
+  - update [7.11](binding-and-defining-in-oci.md)
+  - valid data types [7.11.1](binding-and-defining-in-oci.md)
+- pin count [19.3.13](oci-object-relational-programming.md)
+- pin duration
+  - example [22.1.9.1](object-advanced-topics-in-oci.md)
+  - of objects [22.1.9](object-advanced-topics-in-oci.md)
+- pinning objects [22.1.4.1](object-advanced-topics-in-oci.md)
+- PL/SQL [1.4.5](introduction.md)
+  - binding and defining nested tables [7.9](binding-and-defining-in-oci.md)
+  - binding and defining REF CURSORS [7.9](binding-and-defining-in-oci.md)
+  - binding placeholders [4.5](oci-programming-basics.md)
+  - defining output variables [7.4.2](binding-and-defining-in-oci.md)
+  - piecewise operations [7.11.4](binding-and-defining-in-oci.md)
+  - uses in OCI applications [4.5](oci-programming-basics.md)
+  - using in OCI applications [4.5](oci-programming-basics.md)
+  - using in OCI programs [7.1.5](binding-and-defining-in-oci.md)
+- PL/SQL Callback
+  - for session state fix up [11.1.3.1.1](session-and-connection-pooling.md)
+- placeholders
+  - rules [6.3.1](using-sql_statements-in-oci.md)
+- pluggable databases
+  - OCI support for [17](support-for-pluggable-databases.md)
+- polling mode [4.4.8](oci-programming-basics.md)
+- positioned deletes [4.4.6](oci-programming-basics.md)
+- positioned updates [4.4.6](oci-programming-basics.md)
+- prefetching
+  - during OCIStmtExecute() [6.4](using-sql_statements-in-oci.md)
+  - LOBs [9.9](lobs-and-bfile-operations.md)
+  - OCI_ATTR_DEFAULT_LOBPREFETCH_SIZE [9.9](lobs-and-bfile-operations.md)
+  - setting prefetch memory size [6.7.2](using-sql_statements-in-oci.md)
+  - setting row count [6.7.2](using-sql_statements-in-oci.md)
+- Pro\*C/C++
+  - alternative to OCI [1.3](introduction.md)
+- procedures
+  - attributes [8.2.2](describing-schema-metadata.md)
+- process
+  - handle attributes [A.24](handle-and-descriptor-attributes.md)
+- proxy access [4.3.1.3.2](oci-programming-basics.md)
+- proxy authentication [4.3.1.3.2](oci-programming-basics.md), [10.4.1.7](managing-scalable-platforms.md)
+- publish-subscribe
+  - \_SYSTEM_TRIG_ENABLED parameter [13.2.4](notification-streams-advanced-queuing.md)
+  - COMPATIBLE parameter [13.2.1.1](notification-streams-advanced-queuing.md)
+  - example [13.2.4](notification-streams-advanced-queuing.md)
+  - functions [13.2.1](notification-streams-advanced-queuing.md), [26.4](streams-advanced-queueing-and-publish-subscribe-functions.md), [E.4](deprecated-oci-functions.md)
+  - handle attributes [13.2.1.1](notification-streams-advanced-queuing.md), [A.22](handle-and-descriptor-attributes.md)
+  - LDAP registration [13.2.1.3](notification-streams-advanced-queuing.md)
+  - notification callback [13.2.2](notification-streams-advanced-queuing.md)
+  - notification in OCI [13.2](notification-streams-advanced-queuing.md)
+  - subscription handle [13.2.1.1](notification-streams-advanced-queuing.md)
+
+------------------------------------------------------------------------
+
+## Q
+
+- query
+  - See: SQL query
+
+  <!-- -->
+
+  - explicit describe [6.5.2](using-sql_statements-in-oci.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- ram_threshold [15.5.3.2.2](performance-topics.md)
+- RAW
+  - external data type [5.3.11](data-types.md)
+- read-only parameter descriptor [4.2.1.13](oci-programming-basics.md)
+- REF
+  - external data type [5.3.20](data-types.md)
+- REF columns
+  - direct path loading of [21.2.4](direct-path-load-interface.md)
+- REF CURSOR variables
+  - binding and defining [7.9](binding-and-defining-in-oci.md)
+- references to objects
+  - See: REFs
+- refreshing [22.1.6.2](object-advanced-topics-in-oci.md)
+  - objects [22.1.6.2](object-advanced-topics-in-oci.md)
+- REFs
+  - binding [20.14.2](object-relational-data-types-in-oci.md)
+  - CURSOR variables, binding [7.2.3](binding-and-defining-in-oci.md)
+  - defining [20.15.2](object-relational-data-types-in-oci.md)
+  - external data type [5.3.20](data-types.md)
+  - indicator variables for [4.4.3](oci-programming-basics.md), [4.4.4.3](oci-programming-basics.md)
+  - retrieving from server [19.3.4](oci-object-relational-programming.md)
+- registering
+  - user callbacks [14.1](user-defined-callback-functions.md)
+- registry
+  - REGEDT32 [D.7.2.3](getting-started-with-oci-for-windows.md)
+- relational functions [C.7](oci-function-server-round-trips.md)
+  - server round-trips [C.1](oci-function-server-round-trips.md)
+- relinking, need for [3.7.2](build-and-configure-oci-applications.md)
+- required support files [D.1](getting-started-with-oci-for-windows.md)
+- reserved namespaces [4.4.7.1](oci-programming-basics.md)
+- reserved words [4.4.7](oci-programming-basics.md)
+- restrictions
+  - on OCI API calls with CDBs in general [17.3](support-for-pluggable-databases.md)
+  - on OCI calls with ALTER SESSION SET CONTAINER [17.4](support-for-pluggable-databases.md)
+  - on OCI calls with ALTER SESSION SWITCH CONTAINER SWITCH SERVICE [17.5](support-for-pluggable-databases.md)
+- result cache [15.4](performance-topics.md)
+- result set [6.8](using-sql_statements-in-oci.md)
+- result set descriptor [4.2.1.13](oci-programming-basics.md)
+- resuming branches [10.2.3.5](managing-scalable-platforms.md)
+- retrieving attributes of an object type
+  - example [8.4.3](describing-schema-metadata.md)
+- retrieving column data types for a table
+  - example [8.4.1](describing-schema-metadata.md)
+- retrieving the collection element’s data type of a named collection type
+  - example [8.4.4](describing-schema-metadata.md)
+- RETURNING clause
+  - binding with [7.7.2](binding-and-defining-in-oci.md)
+  - error handling [7.7.3](binding-and-defining-in-oci.md)
+  - initializing variables [7.7.2](binding-and-defining-in-oci.md)
+  - using with OCI [7.7](binding-and-defining-in-oci.md)
+  - with REFs [7.7.4](binding-and-defining-in-oci.md)
+- return values
+  - navigational functions [27.1.5](intro-to-navigational-and-type-functions.md)
+- rollback [4.3.3](oci-programming-basics.md)
+  - in object applications [22.1.8](object-advanced-topics-in-oci.md)
+- row change descriptor [4.2.1.13](oci-programming-basics.md)
+- ROWID
+  - external data type [5.3.21](data-types.md)
+  - implicit fetching [15.2](performance-topics.md)
+  - logical [5.2.3](data-types.md)
+  - OCIRowid descriptor [4.2.1.13.4](oci-programming-basics.md)
+  - Universal ROWID [5.2.3](data-types.md)
+  - used for positioned updates and deletes [4.4.6](oci-programming-basics.md)
+- ROWID descriptor [4.2.1.13](oci-programming-basics.md)
+- RSFs [D.1](getting-started-with-oci-for-windows.md)
+- rules
+  - attributes [8.2.15](describing-schema-metadata.md)
+    - type OCI_PTYPE_RULE [8.2.15](describing-schema-metadata.md)
+- rule sets
+  - attributes [8.2.16](describing-schema-metadata.md)
+    - type OCI_PTYPE_RULE_SET [8.2.16](describing-schema-metadata.md)
+- running OCI application [D.6](getting-started-with-oci-for-windows.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- sample programs [B](oci-demo-programs.md), [D.3](getting-started-with-oci-for-windows.md)
+- samples directory [D.2](getting-started-with-oci-for-windows.md)
+- sb1
+  - definition [5.6](data-types.md)
+- sb2
+  - definition [5.6](data-types.md)
+- sb4
+  - definition [5.6](data-types.md)
+- scatter/gather for binds/defines [7.6](binding-and-defining-in-oci.md)
+- SCHEMA_NAMES OTT parameter [24.7.2.11](using-object-type-translator-in-oci.md)
+  - usage [24.7.6](using-object-type-translator-in-oci.md)
+- schemas
+  - attributes [8.2.13](describing-schema-metadata.md), [8.2.15](describing-schema-metadata.md), [8.2.16](describing-schema-metadata.md), [8.2.17](describing-schema-metadata.md), [8.2.18](describing-schema-metadata.md), [8.2.19](describing-schema-metadata.md), [8.2.20](describing-schema-metadata.md)
+  - describing [8.1](describing-schema-metadata.md)
+- schema type attributes
+  - type OCI_PTYPE_SCHEMA [8.2.13](describing-schema-metadata.md)
+- scripts
+  - authenticating users in [10.3.3](managing-scalable-platforms.md)
+- scrollable cursor
+  - example [6.8.2](using-sql_statements-in-oci.md)
+  - increasing performance [6.8.1](using-sql_statements-in-oci.md)
+  - in OCI [6.8](using-sql_statements-in-oci.md)
+- SDK for Instant Client Light [2.5](instant-client.md)
+- secondary memory
+  - of object [22.1.10](object-advanced-topics-in-oci.md)
+- SECUREFILE parameter [9.10](lobs-and-bfile-operations.md)
+- SecureFiles [9.10](lobs-and-bfile-operations.md)
+  - OCILobGetContentType() [26.3.22](lob-functions.md)
+  - OCILobSetContentType() [26.3.34](lob-functions.md)
+- SecureFiles LOBs [9.10](lobs-and-bfile-operations.md)
+- security
+  - init.ora parameters [10.8](managing-scalable-platforms.md)
+  - OCI enhancements [10.8](managing-scalable-platforms.md)
+- select list
+  - describing [6.5](using-sql_statements-in-oci.md)
+  - implicit describe [6.5](using-sql_statements-in-oci.md)
+- sequences
+  - attributes [8.2.9](describing-schema-metadata.md)
+  - describing [8.1](describing-schema-metadata.md)
+- server handle
+  - attributes [A.5](handle-and-descriptor-attributes.md)
+  - description [4.2.1.4](oci-programming-basics.md)
+  - setting in service context [4.2.1.4](oci-programming-basics.md)
+- server round-trips
+  - cache functions [C.3](oci-function-server-round-trips.md)
+  - data type mapping and manipulation functions [C.5](oci-function-server-round-trips.md)
+  - definition of [C](oci-function-server-round-trips.md)
+  - describe operation [C.4](oci-function-server-round-trips.md)
+  - LOB functions [C.2](oci-function-server-round-trips.md)
+  - object functions [C.3](oci-function-server-round-trips.md)
+  - relational functions [C.7](oci-function-server-round-trips.md)
+- service context handle
+  - attributes [A.4](handle-and-descriptor-attributes.md)
+  - description [4.2.1.4](oci-programming-basics.md)
+  - elements of [4.2.1.4](oci-programming-basics.md)
+- session creation [4.3.1.3](oci-programming-basics.md)
+- session management [10.3](managing-scalable-platforms.md), [10.3.4](managing-scalable-platforms.md)
+- session migration [10.3.1](managing-scalable-platforms.md), [25.2.15](connect-authorize-and-initialize-functions.md)
+- session pool handle
+  - attributes [A.7.1](handle-and-descriptor-attributes.md)
+- session pooling [11.1](session-and-connection-pooling.md), [11.5](session-and-connection-pooling.md)
+  - example [11.1.7](session-and-connection-pooling.md)
+  - functionality [11.1.1](session-and-connection-pooling.md)
+  - runtime connection load balancing [12.1](high-availability-in-oci.md)
+  - tagging [11.1](session-and-connection-pooling.md)
+- shard [18](oci-interface-for-using-shards.md)
+- sharding functions [26.8](shard-functions.md)
+- sharding key [18](oci-interface-for-using-shards.md)
+- Shard Instance Descriptor
+  - attributes [A.14](handle-and-descriptor-attributes.md)
+- shard key or group key descriptor [4.2.1.13](oci-programming-basics.md)
+- shutting down databases [16](database-startup-and-shutdown.md)
+- signal handler [10.9](managing-scalable-platforms.md)
+- skip parameters
+  - for arrays of structures [7.5.1](binding-and-defining-in-oci.md)
+  - for standard arrays [7.5.1.1](binding-and-defining-in-oci.md)
+- snapshot descriptor [4.2.1.13](oci-programming-basics.md), [4.2.1.13.1](oci-programming-basics.md)
+- snapshots
+  - executing against [6.4.1](using-sql_statements-in-oci.md)
+- SODA collection handle attributes [A.16](handle-and-descriptor-attributes.md)
+- SODA document handle attributes [A.15](handle-and-descriptor-attributes.md)
+- SODA OCI client
+  - character sets [36.1](oci-SODA-functions.md)
+- specifying a sharding key [18.1](oci-interface-for-using-shards.md)
+- specifying a super sharding key [18.1](oci-interface-for-using-shards.md)
+- SQLCS_IMPLICIT [7.8.1.1](binding-and-defining-in-oci.md), [26.3.4](lob-functions.md), [26.3.5](lob-functions.md), [26.3.7](lob-functions.md), [26.3.11](lob-functions.md), [26.3.37](lob-functions.md), [26.3.38](lob-functions.md), [E.3.8](deprecated-oci-functions.md), [E.3.10](deprecated-oci-functions.md), [E.3.11](deprecated-oci-functions.md)
+- SQLCS_NCHAR [26.3.5](lob-functions.md), [26.3.7](lob-functions.md), [26.3.11](lob-functions.md), [26.3.33](lob-functions.md), [26.3.37](lob-functions.md), [E.3.10](deprecated-oci-functions.md), [E.3.11](deprecated-oci-functions.md)
+- sqlnet.ora, controlling ADR [3.8.4](build-and-configure-oci-applications.md)
+- SQL query
+  - binding placeholders
+    - See bind operations [6.7](using-sql_statements-in-oci.md)
+  - defining output variables [6.6](using-sql_statements-in-oci.md), [7.3](binding-and-defining-in-oci.md), [20.15](object-relational-data-types-in-oci.md)
+    - See define operations [6.7](using-sql_statements-in-oci.md)
+  - fetching results [6.7](using-sql_statements-in-oci.md)
+  - statement type [1.4.4](introduction.md)
+- SQL statements [1.4](introduction.md)
+  - binding placeholders in [6.3](using-sql_statements-in-oci.md), [7.1](binding-and-defining-in-oci.md), [20.14](object-relational-data-types-in-oci.md)
+  - determining type prepared [6.2](using-sql_statements-in-oci.md)
+  - executing [6.4](using-sql_statements-in-oci.md)
+  - preparing for execution [6.2](using-sql_statements-in-oci.md)
+  - processing [6.1](using-sql_statements-in-oci.md)
+  - types
+    - control statements [1.4.2](introduction.md)
+    - data definition language [1.4.1](introduction.md)
+    - data manipulation language [1.4.3](introduction.md)
+    - embedded SQL [1.4.6](introduction.md)
+    - PL/SQL [1.4.5](introduction.md)
+    - queries [1.4.4](introduction.md)
+- SQLT_BDOUBLE [5.3.24](data-types.md)
+- SQLT_BFLOAT [5.3.24](data-types.md)
+- SQLT_CHR [A.23.1](handle-and-descriptor-attributes.md)
+- SQLT_IBDOUBLE [5.2.4](data-types.md), [8.2.10](describing-schema-metadata.md)
+- SQLT_IBFLOAT [5.2.4](data-types.md), [8.2.10](describing-schema-metadata.md)
+- SQLT_NTY
+  - bind example [20.17.1](object-relational-data-types-in-oci.md)
+  - define example [20.17.2](object-relational-data-types-in-oci.md)
+  - description [5.3.19](data-types.md)
+  - preallocating object memory [20.15.3](object-relational-data-types-in-oci.md)
+- SQLT_REF
+  - definition [5.3.20](data-types.md)
+  - description [5.3.20](data-types.md)
+- SQLT typecodes [5.5.1](data-types.md)
+- starting up databases [16](database-startup-and-shutdown.md)
+- stateful sessions [11.4.1.2](session-and-connection-pooling.md)
+- stateless sessions [11.4.1.2](session-and-connection-pooling.md)
+- statement_cache [15.5.3.1](performance-topics.md)
+- statement caching [15.1](performance-topics.md)
+  - code example [15.1.5](performance-topics.md)
+- statement handle
+  - attributes [A.9](handle-and-descriptor-attributes.md)
+  - description [4.2.1.5](oci-programming-basics.md)
+- statically linked applications [3.7.2](build-and-configure-oci-applications.md)
+- stored functions
+  - describing [8.1](describing-schema-metadata.md)
+- stored procedures
+  - describing [8.1](describing-schema-metadata.md)
+- STRING
+  - external data type [5.3.6](data-types.md)
+- strings
+  - passing as parameters [4.4.2.3](oci-programming-basics.md)
+- structures
+  - arrays of [7.5](binding-and-defining-in-oci.md)
+- subprogram attributes [8.2.2](describing-schema-metadata.md)
+- subscription handle [4.2.1.9](oci-programming-basics.md)
+  - attributes [A.22](handle-and-descriptor-attributes.md)
+- super sharding key [18](oci-interface-for-using-shards.md)
+- supporting UTF-16 Unicode in OCI [4.6.1](oci-programming-basics.md), [4.6.6](oci-programming-basics.md), [4.6.9](oci-programming-basics.md), [4.6.10](oci-programming-basics.md)
+- sword
+  - definition in oratypes.h file [5.6](data-types.md)
+- synonyms
+  - attributes [8.2.8](describing-schema-metadata.md)
+  - describing [8.1](describing-schema-metadata.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- table alias
+  - attributes
+    - type OCI_PTYPE_TABLE_ALIAS [8.2.18](describing-schema-metadata.md)
+- table change descriptor [4.2.1.13](oci-programming-basics.md)
+- tables
+  - attributes [8.2.1](describing-schema-metadata.md)
+  - describing [8.1](describing-schema-metadata.md)
+  - limitations on OCIDescribeAny() and OCIStmtExecute() [8.1.1](describing-schema-metadata.md)
+- TAF (transparent application failover)
+  - callback registration [12.3.5](high-availability-in-oci.md)
+  - callbacks [12.3](high-availability-in-oci.md)
+  - connections enabled by [12.2.6](high-availability-in-oci.md)
+  - in connection pools [11.4.1.4](session-and-connection-pooling.md)
+  - OCI callbacks [12.3](high-availability-in-oci.md)
+- TAF failover callback
+  - structure and parameters [12.3.3](high-availability-in-oci.md)
+- tagging
+  - custom pooling [12.2.5](high-availability-in-oci.md)
+  - session pooling [11.1](session-and-connection-pooling.md), [25.2.17](connect-authorize-and-initialize-functions.md), [25.2.20](connect-authorize-and-initialize-functions.md)
+- task thread [F.2](multithreaded-extproc-agent.md)
+- TDO
+  - definition [20.14.1](object-relational-data-types-in-oci.md)
+  - description [20.12.1](object-relational-data-types-in-oci.md)
+  - in the object cache [22.4](object-advanced-topics-in-oci.md)
+  - obtaining [20.12.1](object-relational-data-types-in-oci.md)
+- terminology
+  - navigational functions [27.1.2](intro-to-navigational-and-type-functions.md)
+  - used in this manual [1.4.7](introduction.md)
+- thread
+  - dispatcher [F.2](multithreaded-extproc-agent.md)
+  - monitor [F.2](multithreaded-extproc-agent.md)
+  - task [F.2](multithreaded-extproc-agent.md)
+- thread handle description [4.2.1.8](oci-programming-basics.md), [10.10.3.1](managing-scalable-platforms.md)
+- thread management functions [26.6](thread-management-functions.md)
+- thread safety [10.9](managing-scalable-platforms.md)
+  - advantages of [10.9.1](managing-scalable-platforms.md)
+  - basic concepts [10.9](managing-scalable-platforms.md)
+  - implementing with OCI [10.9.3](managing-scalable-platforms.md)
+  - mixing 7.x and 8.0 calls [10.9.3.2](managing-scalable-platforms.md)
+  - required OCI calls [10.9.3](managing-scalable-platforms.md)
+  - three-tier architectures [10.9.2](managing-scalable-platforms.md)
+- threads package [10.10](managing-scalable-platforms.md)
+- three-tier architectures
+  - thread safety [10.9.2](managing-scalable-platforms.md)
+- TIMESTAMP data type [5.3.23.2](data-types.md)
+- TIMESTAMP descriptor [4.2.1.13](oci-programming-basics.md)
+- TIMESTAMP WITH LOCAL TIME ZONE data type [5.3.23.4](data-types.md)
+- TIMESTAMP WITH LOCAL TIME ZONE descriptor [4.2.1.13](oci-programming-basics.md)
+- TIMESTAMP WITH TIME ZONE data type [5.3.23.3](data-types.md)
+- TIMESTAMP WITH TIME ZONE descriptor [4.2.1.13](oci-programming-basics.md)
+- TimesTen In-Memory Database access from OCI [1.1](introduction.md), [15](performance-topics.md)
+- time zone files differ on client and server [3.5](build-and-configure-oci-applications.md)
+- TNS_ADMIN [2.4](instant-client.md), [3.4](build-and-configure-oci-applications.md)
+- tnsnames.ora file [2.2](instant-client.md)
+- top-level memory
+  - of object [22.1.10](object-advanced-topics-in-oci.md)
+- transactional complexity
+  - levels in OCI [10.2](managing-scalable-platforms.md)
+- Transaction Guard
+  - logical transaction ID (LTXID) [12.4](high-availability-in-oci.md)
+- transaction handle
+  - attributes [A.8](handle-and-descriptor-attributes.md)
+  - description [4.2.1.4](oci-programming-basics.md)
+- transaction identifier [10.2.3.1](managing-scalable-platforms.md)
+- transaction processing monitor [D.7](getting-started-with-oci-for-windows.md)
+  - additional documentation [D.7.3](getting-started-with-oci-for-windows.md)
+  - types [D.7](getting-started-with-oci-for-windows.md)
+- transactions
+  - committing [4.3.3](oci-programming-basics.md)
+  - functions [26.7](transaction-functions.md)
+  - global [10.2.3](managing-scalable-platforms.md)
+    - branches [10.2.3.3](managing-scalable-platforms.md)
+    - branch states [10.2.3.4](managing-scalable-platforms.md)
+    - one-phase commit [10.2.3.7](managing-scalable-platforms.md)
+    - transactions identifier [10.2.3.1](managing-scalable-platforms.md)
+    - two-phase commit [10.2.3.7](managing-scalable-platforms.md)
+  - global examples [10.2.4](managing-scalable-platforms.md)
+  - initialization parameters [10.2.5](managing-scalable-platforms.md)
+  - local [10.2.1](managing-scalable-platforms.md)
+  - OCI functions for
+    - transactions [10.1](managing-scalable-platforms.md)
+  - read-only [10.2.2](managing-scalable-platforms.md)
+  - rolling back [4.3.3](oci-programming-basics.md)
+  - serializable [10.2.2](managing-scalable-platforms.md)
+- transient objects [19.2.2.2](oci-object-relational-programming.md)
+  - LOBs
+    - attributes [9.4.2](lobs-and-bfile-operations.md)
+  - meta-attributes [19.3.9.3](oci-object-relational-programming.md)
+- TRANSITIVE OTT parameter [24.3](using-object-type-translator-in-oci.md), [24.4.2](using-object-type-translator-in-oci.md), [24.7.2.12](using-object-type-translator-in-oci.md)
+- transparent application failover
+  - See: TAF
+- type attributes
+  - attributes [8.2.5](describing-schema-metadata.md)
+- typecodes [5.5](data-types.md)
+- type descriptor object [19.3.1](oci-object-relational-programming.md), [20.12.1](object-relational-data-types-in-oci.md)
+- type evolution [19.5](oci-object-relational-programming.md)
+  - object cache [22.4](object-advanced-topics-in-oci.md)
+- type functions
+  - attributes [8.2.6](describing-schema-metadata.md)
+- type inheritance
+  - OTT utility support [24.4.4](using-object-type-translator-in-oci.md)
+- type method attributes [8.2.6](describing-schema-metadata.md)
+- type procedures
+  - attributes [8.2.6](describing-schema-metadata.md)
+- type reference [19.3.17](oci-object-relational-programming.md)
+- types
+  - attributes [8.2.4](describing-schema-metadata.md)
+  - describing [8.1](describing-schema-metadata.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- ub1
+  - definition [5.6](data-types.md)
+- ub2
+  - definition [5.6](data-types.md)
+- UB2MAXVAL [25.4.5](bind-define-describe-functions.md)
+- ub4
+  - definition [5.6](data-types.md)
+- UB4MAXVAL [6.8](using-sql_statements-in-oci.md)
+- Unicode
+  - character set ID [A.10](handle-and-descriptor-attributes.md), [A.11](handle-and-descriptor-attributes.md)
+  - data buffer alignment [4.6.10](oci-programming-basics.md)
+  - OCILobRead() [E.3.8](deprecated-oci-functions.md)
+  - OCILobWrite() [26.3.5](lob-functions.md), [26.3.37](lob-functions.md), [E.3.10](deprecated-oci-functions.md)
+- Universal ROWID [5.2.3](data-types.md)
+- unmarking objects [22.1.5.2](object-advanced-topics-in-oci.md)
+- unpinning objects [19.3.13](oci-object-relational-programming.md), [22.1.4.2](object-advanced-topics-in-oci.md)
+- UNSIGNED
+  - external data type [5.3.14](data-types.md)
+- updates
+  - piecewise [7.11](binding-and-defining-in-oci.md), [7.11.3](binding-and-defining-in-oci.md)
+  - positioned [4.4.6](oci-programming-basics.md)
+- upgrading OCI [3.7](build-and-configure-oci-applications.md)
+- URL OTT parameter [24.7.2.13](using-object-type-translator-in-oci.md)
+- UROWID
+  - Universal ROWID [5.2.3](data-types.md)
+- user callback descriptor [4.2.1.13](oci-programming-basics.md)
+- user-defined callback functions [14](user-defined-callback-functions.md)
+  - registering [14.1](user-defined-callback-functions.md)
+- USERID OTT parameter [24.7.2.1](using-object-type-translator-in-oci.md)
+- user memory
+  - allocating [4.2.1.13.8](oci-programming-basics.md)
+- user session handle
+  - attributes [A.5.2](handle-and-descriptor-attributes.md)
+  - description [4.2.1.4](oci-programming-basics.md)
+  - setting in service context [4.2.1.4](oci-programming-basics.md)
+- using an explicit describe on a named collection type
+  - example [8.4.4](describing-schema-metadata.md)
+- using an explicit describe on a named object type
+  - example [8.4.3](describing-schema-metadata.md)
+- using an explicit describe to retrieve column data types for a table
+  - example [8.4.1](describing-schema-metadata.md)
+- utext
+  - Unicode data type [7.8.2](binding-and-defining-in-oci.md), [7.8.3.5.2](binding-and-defining-in-oci.md)
+- UTF-16 data, sample code [7.8.3.5.2](binding-and-defining-in-oci.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- validating format for
+  - Oracle NUMBER and DATE data [21.1.7](direct-path-load-interface.md)
+- values [19.2.2](oci-object-relational-programming.md)
+  - in object applications [19.2.2.3](oci-object-relational-programming.md)
+- VARCHAR
+  - external data type [5.3.9](data-types.md)
+- VARCHAR2
+  - external data type [5.3.1](data-types.md)
+- variable type attributes
+  - type OCI_PTYPE_VARIABLE_TYPE [8.2.19](describing-schema-metadata.md)
+- VARNUM
+  - external data type [5.3.7](data-types.md)
+- VARRAW
+  - external data type [5.3.12](data-types.md)
+- varrays [5.3.19](data-types.md)
+  - as objects [19.1](oci-object-relational-programming.md)
+  - C mapping [24.4.1](using-object-type-translator-in-oci.md)
+  - define calls [20.15.1](object-relational-data-types-in-oci.md)
+  - iterator [28.2.10](oci-collection-and-iterator-functions.md)
+  - NULLs [19.3.14](oci-object-relational-programming.md)
+  - or collection Iterator example [20.9.4](object-relational-data-types-in-oci.md)
+  - scan [28.2.13](oci-collection-and-iterator-functions.md)
+- version compatibility [3.7.2](build-and-configure-oci-applications.md)
+- views
+  - attributes [8.2.1](describing-schema-metadata.md)
+  - describing [8.1](describing-schema-metadata.md)
+
+------------------------------------------------------------------------
+
+## W
+
+- wchar_t data type [4.6.9](oci-programming-basics.md), [7.8.3.5.2](binding-and-defining-in-oci.md), [31.4](oci-string-manipulation-functions.md)
+- with_context
+  - argument to external procedure functions [29.1.1](intro-to-external-procedure-and-cartridge-services-functions.md)
+
+------------------------------------------------------------------------
+
+## X
+
+- xa.h header [1.12](introduction.md)
+- XA Library
+  - compiling and linking an OCI program [D.7.1](getting-started-with-oci-for-windows.md)
+  - functions [D.7](getting-started-with-oci-for-windows.md)
+  - OCI support [1.12](introduction.md)
+  - overview [D.7](getting-started-with-oci-for-windows.md)
+- XA specification [10.2.3.1](managing-scalable-platforms.md)
+- XID
+  - See: transaction identifier
+- XML DB functions [23.3](oci-support-for-xml.md), [32.2](oci-xml-db-functions.md)
+- XML support in OCI [23](oci-support-for-xml.md), [32.1](intro-to-xml-db-support-in-oci.md)
+- XStream
+  - OCI interface [34](intro-to-oci-interface-for-XStream.md)
+    - character sets [34.1.4](about-XStream-interface.md)
+    - functions [35](oci-XStream.md)
+    - handler and descriptor attributes [34.2](handler-and-descriptor-attributes.md)
+    - XStream In [34.1.2](about-XStream-interface.md)
+    - XStream Out [34.1.1](about-XStream-interface.md)
+- xtramem_sz parameter
+  - using [4.2.1.13.8](oci-programming-basics.md)

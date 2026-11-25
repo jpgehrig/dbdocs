@@ -1,0 +1,3 @@
+# Description of the illustration lnoci032.eps
+
+This illustration depicts classification of instances by type and lifetime. At the top of the illustration is a box labelled instance and descending from this box are two divergent arrows each pointing to a term describing the type classification. The left arrow is pointing to the term object and the right arrow is pointing to the term value, indicating that the type can be an object or the value of an object. Descending from the term object are two divergent arrows each pointing to a term describing the lifetime classification. The left arrow is pointing to the term persistent and the right arrow is pointing to the term transient, indicating that the lifetime of an object can be persistent or transient.

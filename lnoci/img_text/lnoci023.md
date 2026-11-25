@@ -1,0 +1,3 @@
+# Description of the illustration lnoci023.eps
+
+This illustration depicts multiple tightly coupled branches. The illustrations shows two separate sessions as ellipses labeled S1 and S2 connected with downward pointing arrows to two rectangles labeled B1 and B2, which are branches (XIDs of the two branches share the same gtrid) that point downward with arrows to the same transaction shown as a triangle labeled T because they are each operating on the same transaction. The global transaction identifiers (XIDs) of the two branches have different branch qualifiers (bqual) because they are on separate branches.

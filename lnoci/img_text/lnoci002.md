@@ -1,0 +1,3 @@
+# Description of the illustration lnoci002.eps
+
+This illustration describes how to determine the size of skip parameters for an array of structures. If each structure consists of three fields, the the sum of the sizes (in bytes) of the three fields represents the size of the skip parameter. In this illustration, three structures are shown side-by-side with each structure consisting of 3 fields that are also shown side-by-side. The sizes of the fields are: field 1 (2 bytes), field 2 (4 bytes), and field 3 (2 bytes). The skip parameter is sum of the sizes of each of the three fields, which is 8 bytes.

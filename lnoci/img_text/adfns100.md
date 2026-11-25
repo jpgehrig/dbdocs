@@ -1,0 +1,3 @@
+# Description of the illustration adfns100.eps
+
+This illustration shows that user sessions can spawn multiple threads to the multithreaded agent process, to make calls to DLLs. It shows two user sessions as boxes composed of an Oracle Server and an HS. There are arrows from each of the user sessions to dispatcher threads in an agent process - one thread per user session. There are arrows from each of the dispatcher threads to task threads, also within the agent process. One of the task threads is shown handling requests from both user sessions (through both dispatcher threads). There are arrows from each of the task threads to a collection of DLLs (outside the agent process).

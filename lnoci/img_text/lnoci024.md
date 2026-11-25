@@ -1,0 +1,3 @@
+# Description of the illustration lnoci024.eps
+
+This illustration depicts a single session operating on multiple branches. The illustrations shows a single session as an ellipse labeled S1 connected with a downward pointing arrows to two rectangles labeled B1 and B2, which are branches (the gtrid components of the XIDs of the two branches are different because they represent separate global transactions) that point downward with arrows to two different transactions shown as a triangles labeled T1 and T2. The global transaction identifiers (XIDs) of the two branches also have different branch qualifiers (bqual) because they are on separate branches.
