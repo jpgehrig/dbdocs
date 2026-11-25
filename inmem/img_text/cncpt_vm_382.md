@@ -1,0 +1,3 @@
+#
+
+At the top of this graphic is a box labeled “In-Memory Column Store.” Inside the box are column icons. To the right of the box is the text: “Find Sales with promo_id = 9999.” The fourth column from the left points down to a larger image of a column, subdivided into 8 boxes topped by one header box. The large column is labeled “Load Multiple promo_id Values.” Each box within the column icon points to a large right-facing arrow icon labeled “CPU.” Inside the arrow is the text “VECTOR REGISTER.” The arrow points to a column icon that also contains 8 boxes. The 1st, 3rd, 4th, and 7th box contain the number “9999.” The column is labeled “Use Vectors to Compare All Values in One Cycle.”

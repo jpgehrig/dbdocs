@@ -1,0 +1,3 @@
+#
+
+This illustration depicts the process of hashing two data sets. In the lower left is a Vehicles table icon. The callout says “1. Table Scan. Scan the table, decompress matching rows, and then send them to the hash join.” In the top center is a PGA icon. The callout says “2. Has Table. Build a hash table using uncompressed join column values from VEHICLES.” In the lower right is a Sales table icon. The callout says “3. Table Scan. Scan SALES, and filter rows based on query predicates.” Another callout pointing to Sales says “4. Row Sent to Hash Join. Decompress only matching rows, hash them, and then send to hash join.” A final callout points to PGA and says “5. Hash Join. Use the vehicle ID to probe the hash table and find matching rows.”

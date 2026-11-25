@@ -1,0 +1,3 @@
+# Description of the illustration tgsql_vm_078.eps
+
+This graphic is a process diagram. From the bottom to top on the left side are boxes DFO 1, which contains the "temporary table 1" oval, and DFO 3, which contains the "temporary table 2" oval. From the bottom to top on the right side are boxes DFO 0 and DF0 2. DFO 0 contains the following ovals, from bottom to top: fact scan, KEY VECTOR USE 1, KEY VECTOR USE 2, and vector group by. DFO 2 contains the following ovals, from bottom to top: hash GROUP BY, and hash join 1. At the very top in the center is the box DFO 4, which contains the oval "hash join 2."
