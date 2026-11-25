@@ -1,0 +1,7 @@
+- [Title and Copyright Information](index.md)
+- [Preface](preface.md)
+  - [Use Case Scenario for this Document](preface.md)
+  - [Documentation Accessibility](preface.md)
+- [1 Upgrading Multitenant Architecture In Parallel](upgrading-multitenant-architecture-in-parallel.md)
+  - [About Upgrading Pluggable Databases (PDBs) In Parallel](about-upgrading-pluggable-databases-in-parallel.md)
+  - [Upgrading Multitenant Container Databases In Parallel](upgrading-multitenant-container-databases-in-parallel.md)
