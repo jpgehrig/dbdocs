@@ -1,0 +1,1137 @@
+## Index
+
+A  C  D  E  F  G  I  J  M  N  O  P  R  S  T  U  V  W  X  
+
+------------------------------------------------------------------------
+
+## A
+
+- access control entry (ACE)
+  - about [1.2.5](indroducing-oracle-database-real-application-security.md)
+  - definition [4.3.1](configuring-application-privileges-and-access-contol-lists.md)
+- access control lists (ACL)
+  - about [1.2.6](indroducing-oracle-database-real-application-security.md)
+  - directories
+    - trace files, using to resolve predicate errors [5.4.3](configuring-data-security.md)
+  - dynamic data realm constraints
+    - about [5.4.2](configuring-data-security.md)
+    - ACL evaluation order [5.6.3](configuring-data-security.md)
+  - evaluation order [5.6.3](configuring-data-security.md)
+  - static data realm constraints
+    - ACL evaluation order [5.6.3](configuring-data-security.md)
+  - static data realms
+    - about [5.4.2](configuring-data-security.md)
+  - user-managed
+    - example [5.6.2](configuring-data-security.md)
+- ACE
+  - definition [4.3.1](configuring-application-privileges-and-access-contol-lists.md)
+  - evaluation order [4.3.9](configuring-application-privileges-and-access-contol-lists.md)
+- acl
+  - troubleshooting [D.2.4](troubleshooting_real_application_security.md)
+- ACL
+  - adding ACE [4.3.4](configuring-application-privileges-and-access-contol-lists.md)
+  - binding [4.5](configuring-application-privileges-and-access-contol-lists.md)
+  - changing security class [4.3.4](configuring-application-privileges-and-access-contol-lists.md)
+  - constraining inheritance [4.3.10.2](configuring-application-privileges-and-access-contol-lists.md)
+  - create [4.3.2](configuring-application-privileges-and-access-contol-lists.md)
+  - extending inheritance [4.3.10.1](configuring-application-privileges-and-access-contol-lists.md)
+  - identifiers
+    - master-detail tables, retrieving ACL identifiers for [10.4](real-application-security-sql-functions.md)
+  - inheritance [4.3.10](configuring-application-privileges-and-access-contol-lists.md)
+    - constraining [4.3.10.2](configuring-application-privileges-and-access-contol-lists.md)
+    - extending [4.3.10.1](configuring-application-privileges-and-access-contol-lists.md)
+  - inheritance\|ACL
+    - changing parent ACL [4.3.4](configuring-application-privileges-and-access-contol-lists.md)
+  - multilevel authentication [4.3.6](configuring-application-privileges-and-access-contol-lists.md)
+  - removing ACL [4.3.4](configuring-application-privileges-and-access-contol-lists.md)
+  - scope
+    - definition [4.2.3](configuring-application-privileges-and-access-contol-lists.md)
+- ACLS
+  - See: access control lists
+- ACLs and ACEs
+  - about [4.3.1](configuring-application-privileges-and-access-contol-lists.md)
+  - creating [4.3.2](configuring-application-privileges-and-access-contol-lists.md)
+- aggregate privilege
+  - about [1.2.3](indroducing-oracle-database-real-application-security.md)
+  - benefits [1.2.3](indroducing-oracle-database-real-application-security.md)
+  - definition [4.1.1](configuring-application-privileges-and-access-contol-lists.md)
+- ALL_XDS_ACL_REFRESH view [9.54](real-application-security-data-dictionary-views.md)
+- ALL_XDS_ACL_REFSTAT view [9.55](real-application-security-data-dictionary-views.md)
+- ALL_XDS_LATEST_ACL_REFSTAT view [9.56](real-application-security-data-dictionary-views.md)
+- ALL_XS_ACES view [9.29](real-application-security-data-dictionary-views.md)
+- ALL_XS_ACL_PARAMETERS view [9.41](real-application-security-data-dictionary-views.md)
+- ALL_XS_ACLS view [9.26](real-application-security-data-dictionary-views.md)
+- ALL_XS_APPLIED_POLICIES view [9.46](real-application-security-data-dictionary-views.md)
+- ALL_XS_COLUMN_CONSTRAINTS view [9.44](real-application-security-data-dictionary-views.md)
+- ALL_XS_IMPLIED_PRIVILEGES view [9.16](real-application-security-data-dictionary-views.md)
+- ALL_XS_INHERITED_REALMS view [9.38](real-application-security-data-dictionary-views.md)
+- ALL_XS_POLICIES view [9.32](real-application-security-data-dictionary-views.md)
+- ALL_XS_PRIVILEGES view [9.13](real-application-security-data-dictionary-views.md)
+- ALL_XS_REALM_CONSTRAINTS view [9.35](real-application-security-data-dictionary-views.md)
+- ALL_XS_SECURITY_CLASS_DEP view [9.23](real-application-security-data-dictionary-views.md)
+- ALL_XS_SECURITY_CLASSES view [9.20](real-application-security-data-dictionary-views.md)
+- ALL grant [4.1.1.1](configuring-application-privileges-and-access-contol-lists.md)
+- ALL privilege [4.1.1.1](configuring-application-privileges-and-access-contol-lists.md)
+- anonymous user [7.1](oracle-fusion-middleware-integration-with-real-application-security.md)
+- application integration
+  - support for external users and roles [7.1](oracle-fusion-middleware-integration-with-real-application-security.md)
+- application privileges
+  - about [1.2.3](indroducing-oracle-database-real-application-security.md)
+  - granting to principles [2.4](configuring-application-users-and-application-roles.md)
+- application roles
+  - about [1.2.2](indroducing-oracle-database-real-application-security.md), [2.2.1](configuring-application-users-and-application-roles.md)
+  - creating dynamic role [2.2.2.2](configuring-application-users-and-application-roles.md), [2.2.3.2](configuring-application-users-and-application-roles.md)
+  - creating regular role [2.2.2.1](configuring-application-users-and-application-roles.md), [2.2.3.1](configuring-application-users-and-application-roles.md)
+  - granting database role to an application role [2.4.3](configuring-application-users-and-application-roles.md)
+  - granting to another application role [2.4.2](configuring-application-users-and-application-roles.md)
+  - granting to existing application user [2.4.1.2](configuring-application-users-and-application-roles.md)
+  - granting to new application user [2.4.1.1](configuring-application-users-and-application-roles.md)
+  - using effective dates [2.3](configuring-application-users-and-application-roles.md)
+  - validating [2.2.3.3](configuring-application-users-and-application-roles.md)
+- application sessions
+  - about [3.1](configuring-application-sessions.md)
+  - advantages [3.1.2](configuring-application-sessions.md)
+  - attaching [3.2.3](configuring-application-sessions.md)
+  - cookies, setting for [3.2.4](configuring-application-sessions.md)
+  - creating [3.1.1](configuring-application-sessions.md), [3.2.1](configuring-application-sessions.md), [11.1.4.1](DBMS_XS_SESSION-package.md)
+  - creating anonymous application session [3.2.2](configuring-application-sessions.md)
+  - database session
+    - attaching to [11.1.4.2](DBMS_XS_SESSION-package.md)
+    - detaching from [11.1.4.18](DBMS_XS_SESSION-package.md)
+  - destroying [11.1.4.19](DBMS_XS_SESSION-package.md)
+  - event handling [3.2.8](configuring-application-sessions.md)
+  - global callback events, using [3.2.8](configuring-application-sessions.md)
+  - namespace
+    - creating [11.1.4.5](DBMS_XS_SESSION-package.md)
+    - deleting [11.1.4.11](DBMS_XS_SESSION-package.md)
+  - namespaces
+    - attributes, getting [3.3.4](configuring-application-sessions.md)
+    - attributes, setting [3.3.3](configuring-application-sessions.md)
+    - attribute values, getting [11.1.4.8](DBMS_XS_SESSION-package.md)
+    - attribute values, setting [11.1.4.7](DBMS_XS_SESSION-package.md)
+    - deleting [3.3.6](configuring-application-sessions.md)
+  - roles
+    - disabling for specified session [11.1.4.13](DBMS_XS_SESSION-package.md)
+    - enabling for specified session [11.1.4.12](DBMS_XS_SESSION-package.md)
+  - roles, disabling from session [3.3.8](configuring-application-sessions.md)
+  - roles, enabling for session [3.3.7](configuring-application-sessions.md)
+  - saving [11.1.4.17](DBMS_XS_SESSION-package.md)
+  - security context, setting [11.1.4.4](DBMS_XS_SESSION-package.md)
+  - session cookie
+    - setting [11.1.4.14](DBMS_XS_SESSION-package.md)
+  - session state manipulating [3.3](configuring-application-sessions.md)
+  - switch user [11.1.4.4](DBMS_XS_SESSION-package.md)
+  - troubleshooting [D.2.1](troubleshooting_real_application_security.md)
+  - users, assigning to [3.2.5](configuring-application-sessions.md)
+  - users, creating namespace templates [3.3.1.3](configuring-application-sessions.md)
+  - users, custom attributes [3.3.5](configuring-application-sessions.md)
+  - users, destroying [3.2.11](configuring-application-sessions.md)
+  - users, detaching from [3.2.10](configuring-application-sessions.md)
+  - users, initializing namespaces [3.3.2.1](configuring-application-sessions.md), [3.3.2.2](configuring-application-sessions.md), [3.3.2.3](configuring-application-sessions.md), [3.3.2.4](configuring-application-sessions.md)
+  - users, initializing namespaces explicitly [3.3.2.5](configuring-application-sessions.md)
+  - users, switching to [3.2.6](configuring-application-sessions.md)
+- application sessions in the database
+  - architecture figure [3.1.1](configuring-application-sessions.md)
+- application user roles
+  - application sessions, disabling from [3.3.8](configuring-application-sessions.md)
+  - application sessions, enabling for [3.3.7](configuring-application-sessions.md)
+  - disabling for specified session [11.1.4.13](DBMS_XS_SESSION-package.md)
+  - enabling for specified session [11.1.4.12](DBMS_XS_SESSION-package.md)
+- application users
+  - about [1.2.2](indroducing-oracle-database-real-application-security.md), [2.1.1](configuring-application-users-and-application-roles.md)
+  - application sessions, assigning to [3.2.5](configuring-application-sessions.md)
+  - application sessions, creating namespace templates [3.3.1.3](configuring-application-sessions.md)
+  - application sessions, custom attributes [3.3.5](configuring-application-sessions.md)
+  - application sessions, destroying [3.2.11](configuring-application-sessions.md)
+  - application sessions, detaching from [3.2.10](configuring-application-sessions.md)
+  - application sessions, initializing namespaces [3.3.2.1](configuring-application-sessions.md), [3.3.2.2](configuring-application-sessions.md), [3.3.2.3](configuring-application-sessions.md), [3.3.2.4](configuring-application-sessions.md)
+  - application sessions, initializing namespaces explicitly [3.3.2.5](configuring-application-sessions.md)
+  - application sessions, switching to [3.2.6](configuring-application-sessions.md)
+  - compared with database user [1.2.2.1](indroducing-oracle-database-real-application-security.md)
+  - creating [2.1.1.1](configuring-application-users-and-application-roles.md)
+    - direct login users [2.1.3.2](configuring-application-users-and-application-roles.md)
+  - creating direct login user [2.1.3.1](configuring-application-users-and-application-roles.md)
+  - definition [1.2.2](indroducing-oracle-database-real-application-security.md)
+  - general procedure [2.1.1.1](configuring-application-users-and-application-roles.md)
+  - modifying [2.1.1.1](configuring-application-users-and-application-roles.md)
+  - validating [2.1.6](configuring-application-users-and-application-roles.md)
+- application users and roles
+  - troubleshooting [D.2.2](troubleshooting_real_application_security.md)
+- applying
+  - additional application privileges
+    - to a column [5.5](configuring-data-security.md)
+- assigning
+  - an application user to an anonymous application session [3.2.5](configuring-application-sessions.md)
+- attaching
+  - an application session [3.2.3](configuring-application-sessions.md)
+- auditing
+  - DBA_XS_AUDIT_POLICY_OPTIONS view [1.6](indroducing-oracle-database-real-application-security.md)
+  - DBA_XS_AUDIT_TRAIL view [1.6](indroducing-oracle-database-real-application-security.md)
+  - DBA_XS_ENB_AUDIT_POLICIES view [1.6](indroducing-oracle-database-real-application-security.md)
+  - in an Oracle Database Real Application Security environment [1.6](indroducing-oracle-database-real-application-security.md)
+  - unified auditing [1.6](indroducing-oracle-database-real-application-security.md), [9](real-application-security-data-dictionary-views.md)
+- authentication
+  - multilevel [4.3.6](configuring-application-privileges-and-access-contol-lists.md)
+  - strong [4.3.6](configuring-application-privileges-and-access-contol-lists.md)
+  - weak [4.3.6](configuring-application-privileges-and-access-contol-lists.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- callback event handler procedure
+  - creating [3.2.7](configuring-application-sessions.md)
+- checking
+  - ACLs for a privilege [4.3.5](configuring-application-privileges-and-access-contol-lists.md)
+- checking security attribute
+  - using getSecurityAttribute method
+    - SecurityAttribute returns value ENABLED [B.2.1](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+    - SecurityAttribute returns value NONE [B.2.1](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+    - SecurityAttribute returns value UNKNOWN [B.2.1](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+- checking user authorization indicator
+  - using getAuthorizationIndicator method
+    - AuthorizationIndicator returns value NONE [B.2.2](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+    - AuthorizationIndicator returns value UNAUTHORIZED [B.2.2](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+    - AuthorizationIndicator returns value UNKNOWN [B.2.2](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+- COLUMN_AUTH_INDICATOR function [10.1](real-application-security-sql-functions.md)
+- column authorization
+  - JDBCI interface [B.2](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+  - OCI interface [B.1](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+- column-level security [5.5](configuring-data-security.md)
+- configuring
+  - an application role [2.2.3](configuring-application-users-and-application-roles.md)
+  - application roles [2.2](configuring-application-users-and-application-roles.md)
+  - application users [2.1](configuring-application-users-and-application-roles.md)
+  - application user switch
+    - proxying an application user [2.1.5](configuring-application-users-and-application-roles.md)
+  - global callback event handlers
+    - for an application session [3.2.8](configuring-application-sessions.md)
+- constraining ACL inheritance
+  - definition [4.3.10.2](configuring-application-privileges-and-access-contol-lists.md)
+- cookies
+  - application sessions, setting for [3.2.4](configuring-application-sessions.md)
+- create views
+  - using BEQUEATH clause [5.9](configuring-data-security.md)
+- creating
+  - ACLs and ACEs [4.3.2](configuring-application-privileges-and-access-contol-lists.md)
+  - anonymous application session [3.2.2](configuring-application-sessions.md)
+  - application sessions [3.2.1](configuring-application-sessions.md)
+  - application user accounts [2.1.1.1](configuring-application-users-and-application-roles.md)
+  - application users [2.1.1.1](configuring-application-users-and-application-roles.md)
+  - custom attributes
+    - in application session [3.3.5](configuring-application-sessions.md)
+  - direct login user [2.1.3.1](configuring-application-users-and-application-roles.md)
+  - dynamic application role [2.2.2.2](configuring-application-users-and-application-roles.md), [2.2.3.2](configuring-application-users-and-application-roles.md)
+  - namespaces
+    - using namespace templates [3.3.1](configuring-application-sessions.md)
+  - namespace templates [3.3.1.3](configuring-application-sessions.md)
+  - regular application role [2.2.2.1](configuring-application-users-and-application-roles.md), [2.2.3.1](configuring-application-users-and-application-roles.md)
+  - security class [4.2.2](configuring-application-privileges-and-access-contol-lists.md)
+  - simple application user account [2.1.2](configuring-application-users-and-application-roles.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- database role
+  - about [1.2.2](indroducing-oracle-database-real-application-security.md)
+- database user
+  - about [1.2.2](indroducing-oracle-database-real-application-security.md)
+  - compared with application user [1.2.2.1](indroducing-oracle-database-real-application-security.md)
+- data realm constraints
+  - affect on database tables [5.6.2](configuring-data-security.md)
+  - membership methods [5.4.1](configuring-data-security.md)
+  - membership rule (WHERE predicate)
+    - about [5.4.1](configuring-data-security.md)
+  - membership rules
+    - session variables, guideline for [5.4.1](configuring-data-security.md)
+  - parameterized
+    - about [5.4.1](configuring-data-security.md)
+  - types defined by WHERE predicates [5.4.1](configuring-data-security.md)
+- data realms [5.4.2](configuring-data-security.md)
+  - See also: dynamic data realms, static data realms
+
+  <!-- -->
+
+  - about [5.1](configuring-data-security.md)
+  - definition [4.4.1](configuring-application-privileges-and-access-contol-lists.md)
+  - structure [5.4.1](configuring-data-security.md)
+- data security
+  - about [5.1](configuring-data-security.md)
+  - ACLs [4.4](configuring-application-privileges-and-access-contol-lists.md)
+  - automatic refreshment for static ACL [11.5.3.1](XS_DATA_SECURITY_UTIL-package.md)
+  - troubleshooting [D.2.5](troubleshooting_real_application_security.md)
+  - with Oracle Database Real Application Security [1.2.1](indroducing-oracle-database-real-application-security.md)
+- data security documents
+  - example [5.3](configuring-data-security.md)
+  - privileges
+    - security checks, how handled [5.8.1](configuring-data-security.md)
+  - privileges, column-level security [5.5](configuring-data-security.md)
+- DataSecurity module [4.4.1](configuring-application-privileges-and-access-contol-lists.md)
+- data security policy
+  - tables
+    - enabling [11.4.3.13](XS_DATA_SECURITY-package.md)
+    - removing from [11.4.3.12](XS_DATA_SECURITY-package.md)
+- data security privileges
+  - alter refreshment for static ACL [11.3.4.2](XS_ADMIN_UTIL-package.md), [11.5.3.2](XS_DATA_SECURITY_UTIL-package.md)
+  - automatic refreshment for static ACL [11.3.4.1](XS_ADMIN_UTIL-package.md)
+- DBA_XDS_ACL_REFRESH view [9.57](real-application-security-data-dictionary-views.md)
+- DBA_XDS_ACL_REFSTAT view [9.58](real-application-security-data-dictionary-views.md)
+- DBA_XDS_LATEST_ACL_REFSTAT view [9.59](real-application-security-data-dictionary-views.md)
+- DBA_XS_ACES view [4.3.1](configuring-application-privileges-and-access-contol-lists.md), [4.3.11](configuring-application-privileges-and-access-contol-lists.md), [9.27](real-application-security-data-dictionary-views.md)
+- DBA_XS_ACL_PARAMETERS view [9.39](real-application-security-data-dictionary-views.md)
+- DBA_XS_ACLS view [4.3.11](configuring-application-privileges-and-access-contol-lists.md), [9.24](real-application-security-data-dictionary-views.md)
+- DBA_XS_ACTIVE_SESSIONS view [9.49](real-application-security-data-dictionary-views.md)
+- DBA_XS_APPLIED_POLICIES view [9.45](real-application-security-data-dictionary-views.md)
+- DBA_XS_AUDIT_POLICY_OPTIONS view [1.6](indroducing-oracle-database-real-application-security.md), [9](real-application-security-data-dictionary-views.md)
+- DBA_XS_AUDIT_TRAIL view [1.6](indroducing-oracle-database-real-application-security.md), [9](real-application-security-data-dictionary-views.md)
+- DBA_XS_COLUMN_CONSTRAINTS view [9.42](real-application-security-data-dictionary-views.md)
+- DBA_XS_DYNAMIC_ROLES view [9.8](real-application-security-data-dictionary-views.md)
+- DBA_XS_ENB_AUDIT_POLICIES view [1.6](indroducing-oracle-database-real-application-security.md), [9](real-application-security-data-dictionary-views.md)
+- DBA_XS_EXTERNAL_PRINICIPALS view [9.3](real-application-security-data-dictionary-views.md)
+- DBA_XS_IMPLIED_PRIVILEGES view [9.14](real-application-security-data-dictionary-views.md)
+- DBA_XS_INHERITED_REALMS view [9.36](real-application-security-data-dictionary-views.md)
+- DBA_XS_MODIFIED_POLICIES view [9.47](real-application-security-data-dictionary-views.md)
+- DBA_XS_NS_TEMPLATE_ATTRIBUTES view [9.53](real-application-security-data-dictionary-views.md)
+- DBA_XS_NS_TEMPLATES view [9.52](real-application-security-data-dictionary-views.md)
+- DBA_XS_OBJECTS view [9.1](real-application-security-data-dictionary-views.md)
+- DBA_XS_POLICIES view [9.30](real-application-security-data-dictionary-views.md)
+- DBA_XS_PRINICIPALS view [9.2](real-application-security-data-dictionary-views.md)
+- DBA_XS_PRIVILEGE_GRANTS view [9.17](real-application-security-data-dictionary-views.md)
+- DBA_XS_PRIVILEGES view [4.3.12](configuring-application-privileges-and-access-contol-lists.md), [9.11](real-application-security-data-dictionary-views.md)
+- DBA_XS_PROXY_ROLES view [9.9](real-application-security-data-dictionary-views.md)
+- DBA_XS_REALM_CONSTRAINTS view [9.33](real-application-security-data-dictionary-views.md)
+- DBA_XS_ROLE_GRANTS view [9.10](real-application-security-data-dictionary-views.md)
+- DBA_XS_ROLES view [9.7](real-application-security-data-dictionary-views.md)
+- DBA_XS_SECURITY_CLASS_DEP view [4.3.12](configuring-application-privileges-and-access-contol-lists.md), [9.21](real-application-security-data-dictionary-views.md)
+- DBA_XS_SECURITY_CLASSES view [4.3.12](configuring-application-privileges-and-access-contol-lists.md), [9.18](real-application-security-data-dictionary-views.md)
+- DBA_XS_SESSION_NS_ATTRIBUTES view [9.51](real-application-security-data-dictionary-views.md)
+- DBA_XS_SESSION_ROLES view [9.50](real-application-security-data-dictionary-views.md)
+- DBA_XS_SESSIONS view [9.48](real-application-security-data-dictionary-views.md)
+- DBA_XS_USERS view [9.4](real-application-security-data-dictionary-views.md)
+- DBMS_XS_SESSIONS PL/SQL package
+  - about [11.1](DBMS_XS_SESSION-package.md)
+  - ADD_GLOBAL_CALLBACK [11.1.4.20](DBMS_XS_SESSION-package.md)
+  - ASSIGN_USER [3.3.2.3](configuring-application-sessions.md)
+  - ATTACH_SESSION [3.3.2.2](configuring-application-sessions.md)
+  - constants [11.1.2](DBMS_XS_SESSION-package.md)
+  - CREATE_ATTRIBUTE [3.3.5](configuring-application-sessions.md)
+  - CREATE_NAMESPACE [3.3.2.5](configuring-application-sessions.md)
+  - CREATE_SESSION [3.3.2.1](configuring-application-sessions.md)
+  - DELETE_GLOBAL_CALLBACK [3.2.8](configuring-application-sessions.md), [11.1.4.22](DBMS_XS_SESSION-package.md)
+  - DELETE_NAMESPACE [3.3.6](configuring-application-sessions.md)
+  - DESTROY_SESSION [3.2.11](configuring-application-sessions.md)
+  - DETACH_SESSION [3.2.10](configuring-application-sessions.md)
+  - DISABLE_ROLE [3.3.8](configuring-application-sessions.md)
+  - ENABLE_GLOBAL_CALLBACK [11.1.4.21](DBMS_XS_SESSION-package.md)
+  - ENABLE_ROLE [3.3.7](configuring-application-sessions.md)
+  - GET_ATTRIBUTE [3.3.4](configuring-application-sessions.md)
+  - object types, constructor functions [11.1.3](DBMS_XS_SESSION-package.md)
+  - SAVE_SESSION [3.2.9](configuring-application-sessions.md)
+  - security model [11.1.1](DBMS_XS_SESSION-package.md)
+  - SET_ATTRIBUTE [3.3.3](configuring-application-sessions.md)
+  - SWITCH_USER [2.1.5](configuring-application-users-and-application-roles.md), [3.3.2.4](configuring-application-sessions.md)
+- default security class
+  - definition [4.2.3](configuring-application-privileges-and-access-contol-lists.md)
+- defining a basic data security policy
+  - implementation tasks [5.10.1](configuring-data-security.md)
+    - disable a data security policy for a table [5.10.1.6](configuring-data-security.md)
+  - use case [5.10](configuring-data-security.md)
+- deleting
+  - namespaces
+    - in application session [3.3.6](configuring-application-sessions.md)
+- destroying
+  - application session [3.2.11](configuring-application-sessions.md)
+- detaching
+  - application session
+    - from a traditional database session [3.2.10](configuring-application-sessions.md)
+- determining
+  - invoker’s rights use for nested program units
+    - using BEQUEATH clause when creating views [5.9](configuring-data-security.md)
+  - the invoking application user
+    - using SQL functions [5.9.1](configuring-data-security.md)
+- direct application user accounts
+  - setting password verifiers [2.1.3.3](configuring-application-users-and-application-roles.md)
+- disabling
+  - application roles
+    - for an application session [3.3.8](configuring-application-sessions.md)
+- displaying secure column values
+  - using SQL\*Plus SET SECUREDCOL command [5.8.2](configuring-data-security.md)
+- dynamic application role [2.2.2.2](configuring-application-users-and-application-roles.md)
+- dynamic application roles
+  - predefined [2.2.4](configuring-application-users-and-application-roles.md)
+- dynamic data realm constraints
+  - about [5.4.2](configuring-data-security.md)
+  - ACL evaluation order [5.6.3](configuring-data-security.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- enabling
+  - application roles
+    - for application session [3.3.7](configuring-application-sessions.md)
+- event-based tracing
+  - about [D.1.5](troubleshooting_real_application_security.md)
+  - components [D.2](troubleshooting_real_application_security.md)
+- event handlers [11.1.4.20](DBMS_XS_SESSION-package.md)
+  - See also: global callback events
+- examples
+  - JDBC
+    - security attributes, checking [B.2.3](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+    - user authorization, checking [B.2.3](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+  - OCI return codes [B.1.1](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+  - Real Application Security policy on master-detail related tables [5.7.3](configuring-data-security.md)
+- exception dumps [D.3](troubleshooting_real_application_security.md)
+- exception state dumps [D.1.4](troubleshooting_real_application_security.md)
+- extending ACL inheritance
+  - definition [4.3.10.1](configuring-application-privileges-and-access-contol-lists.md)
+- external roles [7.1](oracle-fusion-middleware-integration-with-real-application-security.md)
+- external users [7.1](oracle-fusion-middleware-integration-with-real-application-security.md)
+  - namespaces for [7.2.1](oracle-fusion-middleware-integration-with-real-application-security.md)
+  - session modes [7.1](oracle-fusion-middleware-integration-with-real-application-security.md)
+    - secure mode [7.1](oracle-fusion-middleware-integration-with-real-application-security.md)
+    - trusted mode [7.1](oracle-fusion-middleware-integration-with-real-application-security.md)
+- external users and external roles
+  - createSession method [7.2.2](oracle-fusion-middleware-integration-with-real-application-security.md)
+  - for application integration [7.1](oracle-fusion-middleware-integration-with-real-application-security.md)
+  - session APIs for [7.2](oracle-fusion-middleware-integration-with-real-application-security.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- firewall [4.3.6](configuring-application-privileges-and-access-contol-lists.md)
+  - authentication [4.3.10.2](configuring-application-privileges-and-access-contol-lists.md)
+- foreign_key
+  - specifies foreign key of detail table [5.7.2](configuring-data-security.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- getting
+  - session attributes
+    - in application session [3.3.4](configuring-application-sessions.md)
+- global callback events
+  - about [3.2.8](configuring-application-sessions.md)
+  - adding [11.1.4.20](DBMS_XS_SESSION-package.md)
+  - deleting [11.1.4.22](DBMS_XS_SESSION-package.md)
+  - enable or disable [11.1.4.21](DBMS_XS_SESSION-package.md)
+- granting
+  - application privileges to principles [2.4](configuring-application-users-and-application-roles.md)
+  - application role
+    - to existing application user [2.4.1.2](configuring-application-users-and-application-roles.md)
+    - to new application role [2.4.2](configuring-application-users-and-application-roles.md)
+    - to new application user [2.4.1.1](configuring-application-users-and-application-roles.md)
+  - database role
+    - to an application role [2.4.3](configuring-application-users-and-application-roles.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- inheritance
+  - master-detail related tables [5.7.1](configuring-data-security.md)
+- inheritedFrom element, components [5.7.2](configuring-data-security.md)
+- initializing
+  - namaspace
+    - when session is attached [3.3.2.2](configuring-application-sessions.md)
+  - namespace [3.3.2.3](configuring-application-sessions.md)
+    - application user is switched in application session [3.3.2.4](configuring-application-sessions.md)
+    - when session is created [3.3.2.1](configuring-application-sessions.md)
+  - namespaces
+    - explicitly [3.3.2.5](configuring-application-sessions.md)
+- in-memory tracing [D.1.6](troubleshooting_real_application_security.md)
+
+------------------------------------------------------------------------
+
+## J
+
+- Java environment
+  - aborting a session [7.2.5](oracle-fusion-middleware-integration-with-real-application-security.md)
+  - assigning a user to a session [7.2.4](oracle-fusion-middleware-integration-with-real-application-security.md)
+  - assigning or switching an application user [6.2.3](using-real-application-security-in-java-applications.md)
+  - attaching an application session [7.2.3](oracle-fusion-middleware-integration-with-real-application-security.md)
+    - external role behavior [7.2.3](oracle-fusion-middleware-integration-with-real-application-security.md)
+  - attachng an application session [6.2.2](using-real-application-security-in-java-applications.md)
+  - authenticating users using Java APIs [6.3](using-real-application-security-in-java-applications.md)
+  - authorizing application users using ACLs [6.4](using-real-application-security-in-java-applications.md)
+  - changing the middle-tier cache size [6.1.3](using-real-application-security-in-java-applications.md)
+    - clearing the cache [6.1.3.6](using-real-application-security-in-java-applications.md)
+    - getting the maximum cache idle time [6.1.3.3](using-real-application-security-in-java-applications.md)
+    - getting the maximum cache size [6.1.3.4](using-real-application-security-in-java-applications.md)
+    - removing entries from the cache [6.1.3.5](using-real-application-security-in-java-applications.md)
+    - removing entries from the cache, getting the high watermark for cache [6.1.3.5.2](using-real-application-security-in-java-applications.md)
+    - removing entries from the cache, getting the low watermark for cache [6.1.3.5.3](using-real-application-security-in-java-applications.md)
+    - removing entries from the cache, setting the watermark [6.1.3.5.1](using-real-application-security-in-java-applications.md)
+    - setting the maximum cache size [6.1.3.2](using-real-application-security-in-java-applications.md)
+    - setting the middle-tier cache idle time [6.1.3.1](using-real-application-security-in-java-applications.md)
+  - checking if application role is enabled [6.2.4.3](using-real-application-security-in-java-applications.md)
+  - constructing an ACL identifier [6.4.1](using-real-application-security-in-java-applications.md)
+  - creating an application session [7.2.2](oracle-fusion-middleware-integration-with-real-application-security.md)
+  - creating a session namespace attribute [6.2.5.4.1](using-real-application-security-in-java-applications.md)
+  - creating a user session [6.2.1](using-real-application-security-in-java-applications.md)
+  - creating namespaces [6.2.5.1](using-real-application-security-in-java-applications.md)
+  - deleting namespaces [6.2.5.2](using-real-application-security-in-java-applications.md)
+  - deleting session namespace attributes [6.2.5.4.6](using-real-application-security-in-java-applications.md)
+  - destroying an application session [6.2.9](using-real-application-security-in-java-applications.md)
+  - detaching an application session [6.2.8](using-real-application-security-in-java-applications.md)
+  - disabling application roles [6.2.4.2](using-real-application-security-in-java-applications.md)
+  - enabling and disabling application roles [6.2.4](using-real-application-security-in-java-applications.md)
+  - enabling application roles [6.2.4.1](using-real-application-security-in-java-applications.md)
+  - getting a session namespace attribute [6.2.5.4.3](using-real-application-security-in-java-applications.md)
+  - getting data privileges associated with a specific ACL [6.4.3](using-real-application-security-in-java-applications.md)
+  - getting the application user ID for the session [6.2.7.2](using-real-application-security-in-java-applications.md)
+  - getting the Oracle connection associated with the session [6.2.7.1](using-real-application-security-in-java-applications.md)
+  - getting the session cookie [6.2.7.5](using-real-application-security-in-java-applications.md)
+  - getting the session ID for the session [6.2.7.3](using-real-application-security-in-java-applications.md)
+  - getting the string representation of the session [6.2.7.4](using-real-application-security-in-java-applications.md)
+  - implicitly creating namespaces [6.2.5.3](using-real-application-security-in-java-applications.md)
+  - initializing the middle tier [6.1](using-real-application-security-in-java-applications.md)
+    - mid-tier configuration mode [6.1.1](using-real-application-security-in-java-applications.md)
+    - privileges for the session manager [6.1.2](using-real-application-security-in-java-applications.md)
+    - roles for the session manager [6.1.2](using-real-application-security-in-java-applications.md)
+    - using getSessionManager method [6.1.2](using-real-application-security-in-java-applications.md)
+  - listing session namespace attributes [6.2.5.4.4](using-real-application-security-in-java-applications.md)
+  - performing namespace operations as session manager [6.2.6](using-real-application-security-in-java-applications.md)
+  - performing namespace operations as session user [6.2.5](using-real-application-security-in-java-applications.md)
+  - resetting session namespace attributes [6.2.5.4.5](using-real-application-security-in-java-applications.md)
+  - saving a session [7.2.5](oracle-fusion-middleware-integration-with-real-application-security.md)
+  - setting a session namespace attribute [6.2.5.4.2](using-real-application-security-in-java-applications.md)
+  - setting session cookie as session manager [6.2.7.7](using-real-application-security-in-java-applications.md)
+  - setting session inactivity timeout as session manager [6.2.7.6](using-real-application-security-in-java-applications.md)
+  - using namespace attributes [6.2.5.4](using-real-application-security-in-java-applications.md)
+  - using the checkAcl method [6.4.2](using-real-application-security-in-java-applications.md)
+- JDBC
+  - column authorization, interface for [B.2](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- master detail data realm
+  - foreign_key
+    - specifies foreign key of detail table [5.7.2](configuring-data-security.md)
+  - parentObjectName element
+    - specifies name of master table [5.7.2](configuring-data-security.md)
+  - parentSchemaName element
+    - specifies name of schema containing master table [5.7.2](configuring-data-security.md)
+  - primary_key
+    - specifies primary key from master table [5.7.2](configuring-data-security.md)
+  - when element
+    - specifies a predicate for detail table [5.7.2](configuring-data-security.md)
+- master-detail tables
+  - ACL
+    - identifiers, retrieving [10.4](real-application-security-sql-functions.md)
+  - inheritedFrom element, components [5.7.2](configuring-data-security.md)
+  - Real Application Security policies
+    - about [5.7.1](configuring-data-security.md)
+    - creating for [5.7.3](configuring-data-security.md)
+- Materialized View [5.4.2](configuring-data-security.md)
+- membership rules (WHERE predicate) in data realm constraints
+  - about [5.4.1](configuring-data-security.md)
+- membership rules in data realm constraints
+  - session variables, guideline for [5.4.1](configuring-data-security.md)
+- modifying
+  - application users [2.1.1.1](configuring-application-users-and-application-roles.md)
+- multilevel authentication [4.3.6](configuring-application-privileges-and-access-contol-lists.md)
+  - definition [4.3.6](configuring-application-privileges-and-access-contol-lists.md)
+  - using [4.3.6](configuring-application-privileges-and-access-contol-lists.md)
+
+------------------------------------------------------------------------
+
+## N
+
+- namespaces
+  - application sessions
+    - attributes, getting [3.3.4](configuring-application-sessions.md)
+    - attributes, setting [3.3.3](configuring-application-sessions.md)
+    - creating [11.1.4.5](DBMS_XS_SESSION-package.md)
+    - deleting [3.3.6](configuring-application-sessions.md), [11.1.4.11](DBMS_XS_SESSION-package.md)
+  - attributes
+    - creating [11.1.4.6](DBMS_XS_SESSION-package.md)
+    - deleting [11.1.4.10](DBMS_XS_SESSION-package.md)
+    - resetting [11.1.4.9](DBMS_XS_SESSION-package.md)
+  - attribute values
+    - getting [11.1.4.8](DBMS_XS_SESSION-package.md)
+    - setting [11.1.4.7](DBMS_XS_SESSION-package.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- OCI parameter handle attribute
+  - OCI_ATTR_XDS_POLICY_STATUS [B.1.4](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+    - OCI_XDS_POLICY_ENABLED value [B.1.4](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+    - OCI_XDS_POLICY_NONE value [B.1.4](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+    - OCI_XDS_POLICY_UNKNOWN value [B.1.4](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+- OCI return codes
+  - ORA-24530
+    - column value is unauthorized to the user [B.1.1](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+  - ORA-24531
+    - column value authorization is unknown [B.1.1](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+  - ORA-24536
+    - column authorization unknown [B.1.1](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+- ORA_CHECK_ACL function [10.3](real-application-security-sql-functions.md), [D.1.3](troubleshooting_real_application_security.md)
+- ORA_CHECK_PRIVILEGE function [10.5](real-application-security-sql-functions.md)
+- ORA_GET_ACLIDS function
+  - See: ORA_GET_ACLIDS function
+- ORA_INVOKING_USER function
+  - returns name of current database user [5.9.1](configuring-data-security.md)
+- ORA_INVOKING_USERID function
+  - returns ID of current database user [5.9.1](configuring-data-security.md)
+- ORA_INVOKING_XS_USER_GUID function
+  - returns ID of current Real Application Security application user [5.9.1](configuring-data-security.md)
+- ORA_INVOKING_XS_USER function
+  - returns name of current Real Application Security application user [5.9.1](configuring-data-security.md)
+- ORA-24530
+  - column value is unauthorized to the user
+    - OCI return code [B.1.1](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+- ORA-24531
+  - column value authorization is unknown
+    - OCI return code [B.1.1](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+- ORA-24536
+  - column authorization unknown
+    - OCI return code [B.1.1](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+- ORA-28113((colon)) policy predicate has error message [5.4.3](configuring-data-security.md)
+- oracle.jdbc.OracleResultSetMetaData interface
+  - getAuthorizationIndicator method
+    - about [B.2.2](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+    - example [B.2.3](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+  - getSecurityAttribute method
+    - about [B.2.1](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+    - example [B.2.3](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+- Oracle Call Interface (OCI)
+  - column authorization, interface for [B.1](configuring-oci-and-jdbc-applications-for-column-authorization.md)
+- Oracle Database Real Application Security
+  - about data security [1.2.1](indroducing-oracle-database-real-application-security.md)
+  - access control entry (ACE) [1.2.5](indroducing-oracle-database-real-application-security.md)
+  - access control list (ACL) [1.2.6](indroducing-oracle-database-real-application-security.md)
+  - advantages of [1.1.2](indroducing-oracle-database-real-application-security.md)
+  - aggregate privilege [1.2.3](indroducing-oracle-database-real-application-security.md)
+  - application privileges [1.2.3](indroducing-oracle-database-real-application-security.md)
+  - application session concepts [1.3](indroducing-oracle-database-real-application-security.md)
+  - architecture [1.1.3](indroducing-oracle-database-real-application-security.md)
+  - data security concepts [1.2](indroducing-oracle-database-real-application-security.md)
+  - data security policy [1.2.7](indroducing-oracle-database-real-application-security.md)
+  - flow of design and development [1.4](indroducing-oracle-database-real-application-security.md)
+  - principals
+    - users and roles [1.2.2](indroducing-oracle-database-real-application-security.md)
+  - security classes [1.2.4](indroducing-oracle-database-real-application-security.md)
+  - security components of [1.1.3](indroducing-oracle-database-real-application-security.md)
+  - use case scenario example policy [1.5](indroducing-oracle-database-real-application-security.md)
+    - component requirements [1.5.2](indroducing-oracle-database-real-application-security.md)
+    - description and security requirements [1.5.1](indroducing-oracle-database-real-application-security.md)
+    - implementation overview [1.5.2](indroducing-oracle-database-real-application-security.md)
+  - what is [1.1](indroducing-oracle-database-real-application-security.md)
+- Oracle Label Security
+  - context established during attach session [2.1.3.4](configuring-application-users-and-application-roles.md)
+  - context established in application session [3.2.3](configuring-application-sessions.md)
+  - context established in named user’s application session [3.2.5](configuring-application-sessions.md)
+  - context switches to target_user session [3.2.6](configuring-application-sessions.md)
+- Oracle Virtual Private Database (VPD)
+  - extended for Real Application Security [5.1](configuring-data-security.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- parameterized ACL [4.4.2](configuring-application-privileges-and-access-contol-lists.md)
+- parameterized data realm constraints
+  - about [5.4.1](configuring-data-security.md)
+- parentObjectName element
+  - specifies name of master table [5.7.2](configuring-data-security.md)
+- parentSchemaName element
+  - specifies name of schema containing master table [5.7.2](configuring-data-security.md)
+- password verifiers
+  - direct application user accounts [2.1.3.3](configuring-application-users-and-application-roles.md)
+- PL/SQL functions
+  - COLUMN_AUTH_INDICATOR [10.1](real-application-security-sql-functions.md)
+  - XS_SYS_CONTEXT [10.2](real-application-security-sql-functions.md)
+- pluggable databases
+  - Oracle Real Application Security support for [1.7](indroducing-oracle-database-real-application-security.md)
+- predefined objects
+  - ACLs
+    - NS_UNRESTRICTED_ACL [A.5](predefined-objects-in-real-application-security.md)
+    - SESSIONACL [A.5](predefined-objects-in-real-application-security.md)
+    - SYSTEMACL [A.5](predefined-objects-in-real-application-security.md)
+  - database roles
+    - PROVISIONER [A.2.3](predefined-objects-in-real-application-security.md)
+    - XS_CACHE_ADMIN [A.2.3](predefined-objects-in-real-application-security.md)
+    - XS_NAMESPACE_ADMIN [A.2.3](predefined-objects-in-real-application-security.md)
+    - XS_SESSION_ADMIN [A.2.3](predefined-objects-in-real-application-security.md)
+  - dynamic application roles [2.2.4](configuring-application-users-and-application-roles.md)
+    - DBMS_AUTH [A.2.2](predefined-objects-in-real-application-security.md)
+    - DBMS_PASSWD [A.2.2](predefined-objects-in-real-application-security.md)
+    - EXTERNAL_DBMS_AUTH [A.2.2](predefined-objects-in-real-application-security.md)
+    - MIDTIER_AUTH [A.2.2](predefined-objects-in-real-application-security.md)
+    - XSAUTHENTICATED [A.2.2](predefined-objects-in-real-application-security.md)
+    - XSSWITCH [A.2.2](predefined-objects-in-real-application-security.md)
+  - namespaces
+    - XS\$GLOBAL_VAR [A.3](predefined-objects-in-real-application-security.md)
+    - XS\$SESSION [A.3](predefined-objects-in-real-application-security.md)
+  - regular application roles
+    - XSBYPASS [A.2.1](predefined-objects-in-real-application-security.md)
+    - XSCACHEADMIN [A.2.1](predefined-objects-in-real-application-security.md)
+    - XSCONNECT [A.2.1](predefined-objects-in-real-application-security.md)
+    - XSDISPATCHER [A.2.1](predefined-objects-in-real-application-security.md)
+    - XSNAMESPACEADMIN [A.2.1](predefined-objects-in-real-application-security.md)
+    - XSPROVISIONER [A.2.1](predefined-objects-in-real-application-security.md)
+    - XSPUBLIC [A.2.1](predefined-objects-in-real-application-security.md)
+    - XSSESSIONADMIN [A.2.1](predefined-objects-in-real-application-security.md)
+  - security classes
+    - DML [A.4](predefined-objects-in-real-application-security.md)
+    - NSTEMPLATE_SC [A.4](predefined-objects-in-real-application-security.md)
+    - SESSION [A.4](predefined-objects-in-real-application-security.md)
+    - SYSTEM [A.4](predefined-objects-in-real-application-security.md)
+  - users
+    - XSGUEST [A.1](predefined-objects-in-real-application-security.md)
+- primary_key
+  - specifies primary key from master table [5.7.2](configuring-data-security.md)
+- principals
+  - about [1.2.2](indroducing-oracle-database-real-application-security.md)
+- privileges
+  - about application [1.2.3](indroducing-oracle-database-real-application-security.md)
+  - check [4.3.5](configuring-application-privileges-and-access-contol-lists.md)
+  - constrain [4.3.10.2](configuring-application-privileges-and-access-contol-lists.md)
+  - data security documents
+    - columns, applying additional to [5.5](configuring-data-security.md)
+    - security checks, how handled [5.8.1](configuring-data-security.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- regular application role [2.2.2.1](configuring-application-users-and-application-roles.md)
+- roles [1.2.2](indroducing-oracle-database-real-application-security.md), [2.2.1](configuring-application-users-and-application-roles.md)
+  - See also: application roles
+
+  <!-- -->
+
+  - dynamic
+    - assigning to user [11.1.4.3](DBMS_XS_SESSION-package.md)
+    - removing from user [11.1.4.3](DBMS_XS_SESSION-package.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- scope, ACL
+  - definition [4.2.3](configuring-application-privileges-and-access-contol-lists.md)
+- security class
+  - about [1.2.4](indroducing-oracle-database-real-application-security.md)
+  - adding parent\|security class
+    - inheritance [4.2.6](configuring-application-privileges-and-access-contol-lists.md)
+  - configuration [4.2](configuring-application-privileges-and-access-contol-lists.md)
+  - create [4.2.2](configuring-application-privileges-and-access-contol-lists.md)
+  - definition [4.2.1](configuring-application-privileges-and-access-contol-lists.md)
+  - inheritance [4.2.2](configuring-application-privileges-and-access-contol-lists.md)
+  - inheritance\|security class
+    - adding privileges [4.2.6](configuring-application-privileges-and-access-contol-lists.md)
+    - deleting [4.2.6](configuring-application-privileges-and-access-contol-lists.md)
+    - description string [4.2.6](configuring-application-privileges-and-access-contol-lists.md)
+    - removing implied privileges [4.2.6](configuring-application-privileges-and-access-contol-lists.md)
+    - removing parent [4.2.6](configuring-application-privileges-and-access-contol-lists.md)
+    - removing privileges [4.2.6](configuring-application-privileges-and-access-contol-lists.md)
+  - manipulating [4.2.6](configuring-application-privileges-and-access-contol-lists.md)
+  - troubleshooting [D.2.3](troubleshooting_real_application_security.md)
+- session [3](configuring-application-sessions.md)
+  - See also: application sessions
+
+  <!-- -->
+
+  - application [3](configuring-application-sessions.md)
+  - IDs
+    - authentication time, updating [11.1.4.15](DBMS_XS_SESSION-package.md)
+    - time-out values, setting [11.1.4.16](DBMS_XS_SESSION-package.md)
+  - statistics [D.4](troubleshooting_real_application_security.md)
+- Session
+  - isRoleEnabled [6.2.4.3](using-real-application-security-in-java-applications.md)
+  - setCookie [6.2.7.7](using-real-application-security-in-java-applications.md)
+  - setInactivityTimeout [6.2.7.6](using-real-application-security-in-java-applications.md)
+- session cookie
+  - application sessions
+    - setting [11.1.4.14](DBMS_XS_SESSION-package.md)
+- SessionNamespace
+  - deleteAttribute [6.2.5.4.6](using-real-application-security-in-java-applications.md)
+  - toString [6.2.5.3](using-real-application-security-in-java-applications.md)
+- session privilege scoping through ACL [3.5](configuring-application-sessions.md)
+- session service
+  - application configuration of the session filter [8.5](application-session-service-in-oracle-fusion-middleware.md)
+  - authorization (checkACL) [8.2](application-session-service-in-oracle-fusion-middleware.md)
+  - check privilege API [8.7.4](application-session-service-in-oracle-fusion-middleware.md)
+  - deployment [8.4](application-session-service-in-oracle-fusion-middleware.md)
+  - domain configuration [8.6](application-session-service-in-oracle-fusion-middleware.md)
+    - automatic [8.6.3](application-session-service-in-oracle-fusion-middleware.md)
+    - manual [8.6.2](application-session-service-in-oracle-fusion-middleware.md)
+    - prerequisites [8.6.1](application-session-service-in-oracle-fusion-middleware.md)
+  - namespace APIs [8.7.3](application-session-service-in-oracle-fusion-middleware.md)
+  - namespace operations [8.2](application-session-service-in-oracle-fusion-middleware.md)
+  - Oracle Platform Security Service (OPSS) [8](application-session-service-in-oracle-fusion-middleware.md)
+  - privilege elevation [8.2](application-session-service-in-oracle-fusion-middleware.md)
+  - privilege elevation API [8.7.2](application-session-service-in-oracle-fusion-middleware.md)
+  - Real Application Security servlet filter [8.2](application-session-service-in-oracle-fusion-middleware.md)
+  - session APIs [8.2](application-session-service-in-oracle-fusion-middleware.md), [8.7.1](application-session-service-in-oracle-fusion-middleware.md)
+  - session filter [8.3](application-session-service-in-oracle-fusion-middleware.md)
+  - session filter operation [8.3.1](application-session-service-in-oracle-fusion-middleware.md)
+  - supports JavaEE web application
+    - using OPSS as application security provider [8](application-session-service-in-oracle-fusion-middleware.md)
+- SET SECUREDCOL command
+  - SQL\*Plus
+    - displaying secure column values [5.8.2](configuring-data-security.md)
+- setting
+  - a cookie for an application session [3.2.4](configuring-application-sessions.md)
+  - password verifiers [2.1.3.3](configuring-application-users-and-application-roles.md)
+  - session attributes
+    - in application session [3.3.3](configuring-application-sessions.md)
+- SQL functions
+  - ORA_CHECK_ACL [10.3](real-application-security-sql-functions.md), [D.1.3](troubleshooting_real_application_security.md)
+  - ORA_CHECK_PRIVILEGE [10.5](real-application-security-sql-functions.md)
+  - ORA_INVOKING_USER
+    - returns name of current datanase user [5.9.1](configuring-data-security.md)
+  - ORA_INVOKING_USERID
+    - returns ID of current database user [5.9.1](configuring-data-security.md)
+  - ORA_INVOKING_XS_USER
+    - returns name of current Real Application Security application user [5.9.1](configuring-data-security.md)
+  - ORA_INVOKING_XS_USER_GUID
+    - returns ID of current Real Application Security application user [5.9.1](configuring-data-security.md)
+  - TO_ACLID [10.6](real-application-security-sql-functions.md)
+- SQL operators
+  - ORA_CHECK_ACL
+    - checking ACLs for a privilege [4.3.5](configuring-application-privileges-and-access-contol-lists.md)
+- static data realms
+  - about [5.4.2](configuring-data-security.md)
+  - constraints
+    - ACL evaluation order [5.6.3](configuring-data-security.md)
+- statistics in troubleshooting [D.1.7](troubleshooting_real_application_security.md)
+- switching
+  - application users
+    - in current application session [3.2.6](configuring-application-sessions.md)
+- SYS_GET_ACLIDS function
+  - See: ORA_GET_ACLIDS function
+- system-constraining ACL
+  - about [4.3.6](configuring-application-privileges-and-access-contol-lists.md)
+  - definition [4.3.6](configuring-application-privileges-and-access-contol-lists.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- tables
+  - data security policy
+    - enabling [11.4.3.13](XS_DATA_SECURITY-package.md)
+    - removing from [11.4.3.12](XS_DATA_SECURITY-package.md)
+  - master-detail tables, Real Application Security policies
+    - about [5.7.1](configuring-data-security.md)
+    - creating for [5.7.3](configuring-data-security.md)
+- time-out values
+  - session
+    - IDs, setting for [11.1.4.16](DBMS_XS_SESSION-package.md)
+- TO_ACLID function [10.6](real-application-security-sql-functions.md)
+- trace files
+  - acl [D.2.4](troubleshooting_real_application_security.md)
+  - application roles [D.2.2](troubleshooting_real_application_security.md)
+  - application sessions [D.2.1](troubleshooting_real_application_security.md)
+  - application users [D.2.2](troubleshooting_real_application_security.md)
+  - data security [D.2.5](troubleshooting_real_application_security.md)
+  - policy predicate errors [5.4.3](configuring-data-security.md)
+  - Real Application Security components [D.2](troubleshooting_real_application_security.md)
+  - security classes [D.2.3](troubleshooting_real_application_security.md)
+- tracing
+  - event and in-memory [D.1.6](troubleshooting_real_application_security.md)
+- traditional security model
+  - manging application users
+    - disadvantages of [1.1.1](indroducing-oracle-database-real-application-security.md)
+- troubleshooting
+  - acl [D.2.4](troubleshooting_real_application_security.md)
+  - application principals [D.2.2](troubleshooting_real_application_security.md)
+  - application sessions [D.2.1](troubleshooting_real_application_security.md)
+  - data security [D.2.5](troubleshooting_real_application_security.md)
+  - event-based tracing
+    - about [D.1.5](troubleshooting_real_application_security.md)
+    - components [D.2](troubleshooting_real_application_security.md)
+  - exception dumps [D.3](troubleshooting_real_application_security.md)
+  - exception state dumps [D.1.4](troubleshooting_real_application_security.md)
+  - in-memory tracing [D.1.6](troubleshooting_real_application_security.md)
+  - Real Application Security diagnostics [D.1](troubleshooting_real_application_security.md)
+  - security classes [D.2.3](troubleshooting_real_application_security.md)
+  - session statistics [D.4](troubleshooting_real_application_security.md)
+  - statistics [D.1.7](troubleshooting_real_application_security.md)
+  - using the ORA_CHECK_ACL function [D.1.3](troubleshooting_real_application_security.md)
+  - using the ORA_GET_ACLIDS function [D.1.2](troubleshooting_real_application_security.md)
+  - using validation APIs [D.1.1](troubleshooting_real_application_security.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- use case scenario example policy
+  - human resources administration of employee information [1.5](indroducing-oracle-database-real-application-security.md)
+    - component requirements [1.5.2](indroducing-oracle-database-real-application-security.md)
+    - description and security requirements [1.5.1](indroducing-oracle-database-real-application-security.md)
+    - implementation overview [1.5.2](indroducing-oracle-database-real-application-security.md)
+  - Java implementation [6.5](using-real-application-security-in-java-applications.md)
+    - authorizing with middle-tier API [6.5](using-real-application-security-in-java-applications.md)
+    - main method [6.5](using-real-application-security-in-java-applications.md)
+    - performing cleanup operations [6.5](using-real-application-security-in-java-applications.md)
+    - running a query on the database [6.5](using-real-application-security-in-java-applications.md)
+    - setting up connection [6.5](using-real-application-security-in-java-applications.md)
+    - setting up session [6.5](using-real-application-security-in-java-applications.md)
+- USER_XDS_ACL_REFRESH view [9.60](real-application-security-data-dictionary-views.md)
+- USER_XDS_ACL_REFSTAT view [9.61](real-application-security-data-dictionary-views.md)
+- USER_XDS_LATEST_ACL_REFSTAT view [9.62](real-application-security-data-dictionary-views.md)
+- USER_XS_ACES view [9.28](real-application-security-data-dictionary-views.md)
+- USER_XS_ACL_PARAMETERS view [9.40](real-application-security-data-dictionary-views.md)
+- USER_XS_ACLS view [9.25](real-application-security-data-dictionary-views.md)
+- USER_XS_COLUMN_CONSTRAINTS view [9.43](real-application-security-data-dictionary-views.md)
+- USER_XS_IMPLIED_PRIVILEGES view [9.15](real-application-security-data-dictionary-views.md)
+- USER_XS_INHERITED_REALMS view [9.37](real-application-security-data-dictionary-views.md)
+- USER_XS_PASSWORD_LIMITS view [9.6](real-application-security-data-dictionary-views.md)
+- USER_XS_POLICIES view [9.31](real-application-security-data-dictionary-views.md)
+- USER_XS_PRIVILEGES view [9.12](real-application-security-data-dictionary-views.md)
+- USER_XS_REALM_CONSTRAINTS view [9.34](real-application-security-data-dictionary-views.md)
+- USER_XS_SECURITY_CLASS_DEP view [9.22](real-application-security-data-dictionary-views.md)
+- USER_XS_SECURITY_CLASSES view [9.19](real-application-security-data-dictionary-views.md)
+- USER_XS_USERS view [9.5](real-application-security-data-dictionary-views.md)
+- users [2.1.1.1](configuring-application-users-and-application-roles.md)
+  - See also: application users
+- user sessions [3](configuring-application-sessions.md)
+  - See also: application sessions
+- using
+  - constraining application privilege [4.3.10.2](configuring-application-privileges-and-access-contol-lists.md)
+  - effective dates with application roles [2.3](configuring-application-users-and-application-roles.md)
+  - multilevel authentication [4.3.6](configuring-application-privileges-and-access-contol-lists.md)
+  - ORA_CHECK_ACL SQL operator [4.3.5](configuring-application-privileges-and-access-contol-lists.md)
+  - SQL functions
+    - to determine the invoking application user [5.9.1](configuring-data-security.md)
+  - XS_DIAG.VALIDATE_PRINCIPAL function [2.1.6](configuring-application-users-and-application-roles.md), [2.2.3.3](configuring-application-users-and-application-roles.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- V\$XS_SESSION_NS_ATTRIBUTES view [9.63](real-application-security-data-dictionary-views.md)
+- V\$XS_SESSION_ROLES view [9.64](real-application-security-data-dictionary-views.md)
+- validating
+  - ACLs [4.3.3](configuring-application-privileges-and-access-contol-lists.md), [11.6.2.3](XS_DIAG-package.md)
+  - application roles [2.2.3.3](configuring-application-users-and-application-roles.md)
+  - application users [2.1.6](configuring-application-users-and-application-roles.md)
+  - data security policy [5.2](configuring-data-security.md), [11.6.2.4](XS_DIAG-package.md)
+  - namespaces [11.6.2.5](XS_DIAG-package.md)
+  - principals [11.6.2.1](XS_DIAG-package.md)
+  - security classes [4.2.5](configuring-application-privileges-and-access-contol-lists.md), [11.6.2.2](XS_DIAG-package.md)
+  - workspace objects [11.6.2.6](XS_DIAG-package.md)
+- views [9](real-application-security-data-dictionary-views.md)
+  - ALL_XDS_ACL_REFRESH [9.54](real-application-security-data-dictionary-views.md)
+  - ALL_XDS_ACL_REFSTAT [9.55](real-application-security-data-dictionary-views.md)
+  - ALL_XDS_LATEST_ACL_REFSTAT [9.56](real-application-security-data-dictionary-views.md)
+  - ALL_XS_ACES [9.29](real-application-security-data-dictionary-views.md)
+  - ALL_XS_ACL_PARAMETERS [9.41](real-application-security-data-dictionary-views.md)
+  - ALL_XS_ACLS [9.26](real-application-security-data-dictionary-views.md)
+  - ALL_XS_APPLIED_POLICIES [9.46](real-application-security-data-dictionary-views.md)
+  - ALL_XS_COLUMN_CONSTRAINTS [9.44](real-application-security-data-dictionary-views.md)
+  - ALL_XS_IMPLIED_PRIVILEGES [9.16](real-application-security-data-dictionary-views.md)
+  - ALL_XS_INHERITED_REALMS [9.38](real-application-security-data-dictionary-views.md)
+  - ALL_XS_POLICIES [9.32](real-application-security-data-dictionary-views.md)
+  - ALL_XS_PRIVILEGES [9.13](real-application-security-data-dictionary-views.md)
+  - ALL_XS_REALM_CONSTRAINTS [9.35](real-application-security-data-dictionary-views.md)
+  - ALL_XS_SECURITY_CLASS_DEP [9.23](real-application-security-data-dictionary-views.md)
+  - ALL_XS_SECURITY_CLASSES [9.20](real-application-security-data-dictionary-views.md)
+  - DBA_XDS_ACL_REFRESH [9.57](real-application-security-data-dictionary-views.md)
+  - DBA_XDS_ACL_REFSTAT [9.58](real-application-security-data-dictionary-views.md)
+  - DBA_XDS_LATEST_ACL_REFSTAT [9.59](real-application-security-data-dictionary-views.md)
+  - DBA_XS_ACES [9.27](real-application-security-data-dictionary-views.md)
+  - DBA_XS_ACL_PARAMETERS [9.39](real-application-security-data-dictionary-views.md)
+  - DBA_XS_ACLS [9.24](real-application-security-data-dictionary-views.md)
+  - DBA_XS_ACTIVE_SESSIONS [9.49](real-application-security-data-dictionary-views.md)
+  - DBA_XS_APPLIED_POLICIES [9.45](real-application-security-data-dictionary-views.md)
+  - DBA_XS_COLUMN_CONSTRAINTS [9.42](real-application-security-data-dictionary-views.md)
+  - DBA_XS_DYNAMIC_ROLES [9.8](real-application-security-data-dictionary-views.md)
+  - DBA_XS_EXTERNAL_PRINCIPALS [9.3](real-application-security-data-dictionary-views.md)
+  - DBA_XS_IMPLIED_PRIVILEGES [9.14](real-application-security-data-dictionary-views.md)
+  - DBA_XS_INHERITED_REALMS [9.36](real-application-security-data-dictionary-views.md)
+  - DBA_XS_MODIFIED_POLICIES [9.47](real-application-security-data-dictionary-views.md)
+  - DBA_XS_NS_TEMPLATE_ATTRIBUTES [9.53](real-application-security-data-dictionary-views.md)
+  - DBA_XS_NS_TEMPLATES [9.52](real-application-security-data-dictionary-views.md)
+  - DBA_XS_OBJECTS [9.1](real-application-security-data-dictionary-views.md)
+  - DBA_XS_POLICIES [9.30](real-application-security-data-dictionary-views.md)
+  - DBA_XS_PRINCIPALS [9.2](real-application-security-data-dictionary-views.md)
+  - DBA_XS_PRIVILEGE_GRANTS [9.17](real-application-security-data-dictionary-views.md)
+  - DBA_XS_PRIVILEGES [9.11](real-application-security-data-dictionary-views.md)
+  - DBA_XS_PROXY_ROLES [9.9](real-application-security-data-dictionary-views.md)
+  - DBA_XS_REALM_CONSTRAINTS [9.33](real-application-security-data-dictionary-views.md)
+  - DBA_XS_ROLE_GRANTS [9.10](real-application-security-data-dictionary-views.md)
+  - DBA_XS_ROLES [9.7](real-application-security-data-dictionary-views.md)
+  - DBA_XS_SECURITY_CLASS_DEP [9.21](real-application-security-data-dictionary-views.md)
+  - DBA_XS_SECURITY_CLASSES [9.18](real-application-security-data-dictionary-views.md)
+  - DBA_XS_SESSION_NS_ATTRIBUTES [9.51](real-application-security-data-dictionary-views.md)
+  - DBA_XS_SESSION_ROLES [9.50](real-application-security-data-dictionary-views.md)
+  - DBA_XS_SESSIONS [9.48](real-application-security-data-dictionary-views.md)
+  - DBA_XS_USERS [9.4](real-application-security-data-dictionary-views.md)
+  - privileges in data security documents [5.8.1](configuring-data-security.md)
+  - USER_XDS_ACL_REFRESH [9.60](real-application-security-data-dictionary-views.md)
+  - USER_XDS_ACL_REFSTAT [9.61](real-application-security-data-dictionary-views.md)
+  - USER_XDS_LATEST_ACL_REFSTAT [9.62](real-application-security-data-dictionary-views.md)
+  - USER_XS_ACES [9.28](real-application-security-data-dictionary-views.md)
+  - USER_XS_ACL_PARAMETERS [9.40](real-application-security-data-dictionary-views.md)
+  - USER_XS_ACLS [9.25](real-application-security-data-dictionary-views.md)
+  - USER_XS_COLUMN_CONSTRAINTS [9.43](real-application-security-data-dictionary-views.md)
+  - USER_XS_IMPLIED_PRIVILEGES [9.15](real-application-security-data-dictionary-views.md)
+  - USER_XS_INHERITED_REALMS [9.37](real-application-security-data-dictionary-views.md)
+  - USER_XS_PASSWORD_LIMITS [9.6](real-application-security-data-dictionary-views.md)
+  - USER_XS_POLICIES [9.31](real-application-security-data-dictionary-views.md)
+  - USER_XS_PRIVILEGES [9.12](real-application-security-data-dictionary-views.md)
+  - USER_XS_REALM_CONSTRAINTS [9.34](real-application-security-data-dictionary-views.md)
+  - USER_XS_SECURITY_CLASS_DEP [9.22](real-application-security-data-dictionary-views.md)
+  - USER_XS_SECURITY_CLASSES [9.19](real-application-security-data-dictionary-views.md)
+  - USER_XS_USERS [9.5](real-application-security-data-dictionary-views.md)
+  - V\$XS_SESSION_NS_ATTRIBUTES [9.63](real-application-security-data-dictionary-views.md)
+  - V\$XS_SESSION_ROLES [9.64](real-application-security-data-dictionary-views.md)
+
+------------------------------------------------------------------------
+
+## W
+
+- when element
+  - specifies a predicate for detail table [5.7.2](configuring-data-security.md)
+
+------------------------------------------------------------------------
+
+## X
+
+- XS_ACL PL/SQL package
+  - about [11.2](XS_ACL-package.md)
+  - ADD_ACL_PARAMETER [11.2.4.6](XS_ACL-package.md)
+  - APPEND_ACES [4.3.4](configuring-application-privileges-and-access-contol-lists.md), [11.2.4.2](XS_ACL-package.md)
+  - constants [11.2.2](XS_ACL-package.md)
+  - CREATE_ACL [11.2.4.1](XS_ACL-package.md)
+  - DELETE_ACL [11.2.4.9](XS_ACL-package.md)
+  - object types, constructor functions [11.2.3](XS_ACL-package.md)
+  - REMOVE_ACES [4.3.4](configuring-application-privileges-and-access-contol-lists.md), [11.2.4.3](XS_ACL-package.md)
+  - REMOVE_ACL_PARAMETERS [11.2.4.7](XS_ACL-package.md)
+  - security model [11.2.1](XS_ACL-package.md)
+  - SET_DESCRIPTION [11.2.4.8](XS_ACL-package.md)
+  - SET_PARENT_ACL [4.3.4](configuring-application-privileges-and-access-contol-lists.md), [4.3.10.1](configuring-application-privileges-and-access-contol-lists.md), [4.3.10.2](configuring-application-privileges-and-access-contol-lists.md), [11.2.4.5](XS_ACL-package.md)
+  - SET_SECURITY_CLASS [4.3.4](configuring-application-privileges-and-access-contol-lists.md), [11.2.4.4](XS_ACL-package.md)
+- XS_ADMIN_UTIL PL/SQL package
+  - about [11.3](XS_ADMIN_UTIL-package.md)
+  - constants [11.3.2](XS_ADMIN_UTIL-package.md)
+  - GRANT_SYSTEM_PRIVILEGE [11.3.4.1](XS_ADMIN_UTIL-package.md)
+  - object types [11.3.3](XS_ADMIN_UTIL-package.md)
+  - REVOKE_SYSTEM_PRIVILEGE [11.3.4.2](XS_ADMIN_UTIL-package.md)
+  - security model [11.3.1](XS_ADMIN_UTIL-package.md)
+- XS_DATA_SECURITY_UTIL PL/SQL package
+  - about [11.5](XS_DATA_SECURITY_UTIL-package.md)
+  - ALTER_STATIC_ACL_REFRESH Procedure [11.5.3.2](XS_DATA_SECURITY_UTIL-package.md)
+  - constants [11.5.2](XS_DATA_SECURITY_UTIL-package.md)
+  - SCHEDULE_STATIC_ACL_REFRESH Procedure [11.5.3.1](XS_DATA_SECURITY_UTIL-package.md)
+  - security model [11.5.1](XS_DATA_SECURITY_UTIL-package.md)
+- XS_DATA_SECURITY PL/SQL package
+  - about [11.4](XS_DATA_SECURITY-package.md)
+  - ADD_COLUMN_CONSTRAINTS Procedure [11.4.3.4](XS_DATA_SECURITY-package.md)
+  - APPEND_REALM_CONSTRAINTS Procedure [11.4.3.2](XS_DATA_SECURITY-package.md)
+  - APPLY_OBJECT_POLICY [5.6.2](configuring-data-security.md)
+  - APPLY_OBJECT_POLICY Procedure [11.4.3.13](XS_DATA_SECURITY-package.md)
+  - CREATE_ACL_PARAMETER Procedure [11.4.3.6](XS_DATA_SECURITY-package.md)
+  - CREATE_POLICY Procedure [11.4.3.1](XS_DATA_SECURITY-package.md)
+  - DELETE_ACL_PARAMETER Procedure [11.4.3.7](XS_DATA_SECURITY-package.md)
+  - DELETE_POLICY Procedure [11.4.3.9](XS_DATA_SECURITY-package.md)
+  - DISABLE_OBJECT_POLICY Procedure [11.4.3.11](XS_DATA_SECURITY-package.md)
+  - ENABLE_OBJECT_POLICY
+    - affect on database tables [5.6.2](configuring-data-security.md)
+  - ENABLE_OBJECT_POLICY Procedure [11.4.3.10](XS_DATA_SECURITY-package.md)
+  - object types, constructor functions [11.4.2](XS_DATA_SECURITY-package.md)
+  - REMOVE_COLUMN_CONSTRAINTS Procedure [11.4.3.5](XS_DATA_SECURITY-package.md)
+  - REMOVE_OBJECT_POLICY Procedure [11.4.3.12](XS_DATA_SECURITY-package.md)
+  - REMOVE_REALM_CONSTRAINTS Procedure [11.4.3.3](XS_DATA_SECURITY-package.md)
+  - security model [11.4.1](XS_DATA_SECURITY-package.md)
+  - SET_DESCRIPTION Procedure [11.4.3.8](XS_DATA_SECURITY-package.md)
+- XS_DIAG PL/SQL package
+  - about [11.6](XS_DIAG-package.md)
+  - security model [11.6.1](XS_DIAG-package.md)
+  - VALIDATE_ACL [4.3.3](configuring-application-privileges-and-access-contol-lists.md)
+  - VALIDATE_ACL Function [11.6.2.3](XS_DIAG-package.md)
+  - VALIDATE_DATA_SECURITY [5.2](configuring-data-security.md)
+  - VALIDATE_DATA_SECURITY Function [11.6.2.4](XS_DIAG-package.md)
+  - VALIDATE_PRINCIPAL [2.1.6](configuring-application-users-and-application-roles.md), [2.2.3.3](configuring-application-users-and-application-roles.md)
+  - VALIDATE_PRINCIPAL Function [11.6.2.1](XS_DIAG-package.md)
+  - VALIDATE_SECURITY_CLASS [4.2.5](configuring-application-privileges-and-access-contol-lists.md)
+  - VALIDATE_SECURITY_CLASS Function [11.6.2.2](XS_DIAG-package.md)
+  - VALIDATE_WORKSPACE Function [11.6.2.6](XS_DIAG-package.md)
+- XS_DIAG PL/SQL PL/SQL package
+  - VALIDATE_NAMESPACE_TEMPLATE Function [11.6.2.5](XS_DIAG-package.md)
+- XS_NAMESPACE PL/SQL package
+  - about [11.7](XS_NAMESPACE-package.md)
+  - ADD_ATTRIBUTES Procedure [11.7.4.2](XS_NAMESPACE-package.md)
+  - constants [11.7.2](XS_NAMESPACE-package.md)
+  - CREATE_TEMPLATE [3.3.1.3](configuring-application-sessions.md)
+  - CREATE_TEMPLATE Procedure [11.7.4.1](XS_NAMESPACE-package.md)
+  - DELETE_TEMPLATE [11.7.4.6](XS_NAMESPACE-package.md)
+  - object types, constructor functions [11.7.3](XS_NAMESPACE-package.md)
+  - REMOVE_ATTRIBUTES Procedure [11.7.4.3](XS_NAMESPACE-package.md)
+  - security model [11.7.1](XS_NAMESPACE-package.md)
+  - SET_DESCRIPTION Procedure [11.7.4.5](XS_NAMESPACE-package.md)
+  - SET_HANDLER Procedure [11.7.4.4](XS_NAMESPACE-package.md)
+- XS_PRINCIPAL PL/SQL package
+  - about [11.8](XS_PRINCIPAL-package.md)
+  - ADD_PROXY_TO_DBUSER Procedure [11.8.4.8](XS_PRINCIPAL-package.md)
+  - ADD_PROXY_USER [2.1.5](configuring-application-users-and-application-roles.md)
+  - ADD_PROXY_USER Procedure [11.8.4.6](XS_PRINCIPAL-package.md)
+  - constants [11.8.2](XS_PRINCIPAL-package.md)
+  - CREATE_DYNAMIC_ROLE [2.2.3.2](configuring-application-users-and-application-roles.md)
+  - CREATE_DYNAMIC_ROLE Procedure [11.8.4.3](XS_PRINCIPAL-package.md)
+  - CREATE_ROLE [2.2.3.1](configuring-application-users-and-application-roles.md)
+  - CREATE_ROLE Procedure [11.8.4.2](XS_PRINCIPAL-package.md)
+  - CREATE_USER [2.1.3.2](configuring-application-users-and-application-roles.md), [2.3](configuring-application-users-and-application-roles.md)
+  - CREATE_USER Procedure [11.8.4.1](XS_PRINCIPAL-package.md)
+  - DELETE_PRINCIPAL Procedure [11.8.4.23](XS_PRINCIPAL-package.md)
+  - ENABLE_BY_DEFAULT Procedure [11.8.4.13](XS_PRINCIPAL-package.md)
+  - ENABLE_ROLES_BY_DEFAULT Procedure [11.8.4.14](XS_PRINCIPAL-package.md)
+  - GRANT_ROLES [2.4.1.2](configuring-application-users-and-application-roles.md), [2.4.2](configuring-application-users-and-application-roles.md)
+  - GRANT_ROLES Procedure [11.8.4.4](XS_PRINCIPAL-package.md)
+  - object types, constructor functions [11.8.3](XS_PRINCIPAL-package.md)
+  - REMOVE_PROXY_FROM_DBUSER Procedure [11.8.4.9](XS_PRINCIPAL-package.md)
+  - REMOVE_PROXY_USERS Procedure [11.8.4.7](XS_PRINCIPAL-package.md)
+  - REVOKE_ROLES Procedure [11.8.4.5](XS_PRINCIPAL-package.md)
+  - security model [11.8.1](XS_PRINCIPAL-package.md)
+  - SET_ACL Procedure [11.8.4.17](XS_PRINCIPAL-package.md)
+  - SET_DESCRIPTION Procedure [11.8.4.22](XS_PRINCIPAL-package.md)
+  - SET_DYNAMIC_ROLE_DURATION Procedure [11.8.4.11](XS_PRINCIPAL-package.md)
+  - SET_DYNAMIC_ROLE_SCOPE Procedure [11.8.4.12](XS_PRINCIPAL-package.md)
+  - SET_EFFECTIVE_DATES Procedure [11.8.4.10](XS_PRINCIPAL-package.md)
+  - SET_GUID Procedure [11.8.4.16](XS_PRINCIPAL-package.md)
+  - SET_PASSWORD [2.1.3.2](configuring-application-users-and-application-roles.md)
+  - SET_PASSWORD Procedure [11.8.4.20](XS_PRINCIPAL-package.md)
+  - SET_PROFILE [2.1.3.2](configuring-application-users-and-application-roles.md)
+  - SET_PROFILE Procedure [11.8.4.18](XS_PRINCIPAL-package.md)
+  - SET_USER_SCHEMA Procedure [11.8.4.15](XS_PRINCIPAL-package.md)
+  - SET_USER_STATUS Procedure [11.8.4.19](XS_PRINCIPAL-package.md)
+  - SET_VERIFIER [2.1.3.3](configuring-application-users-and-application-roles.md)
+  - SET_VERIFIER Procedure [11.8.4.21](XS_PRINCIPAL-package.md)
+- XS_SECURITY_CLASS PL/SQL package
+  - about [11.9](XS_SECURITY_CLASS-package.md)
+  - ADD_IMPLIED_PRIVILEGES [4.1.1](configuring-application-privileges-and-access-contol-lists.md), [4.2.6](configuring-application-privileges-and-access-contol-lists.md)
+  - ADD_IMPLIED_PRIVILEGES Procedure [11.9.2.6](XS_SECURITY_CLASS-package.md)
+  - ADD_PARENTS [4.2.6](configuring-application-privileges-and-access-contol-lists.md)
+  - ADD_PARENTS Procedure [11.9.2.2](XS_SECURITY_CLASS-package.md)
+  - ADD_PRIVILEGES [4.1.1](configuring-application-privileges-and-access-contol-lists.md), [4.2.6](configuring-application-privileges-and-access-contol-lists.md)
+  - ADD_PRIVILEGES Procedure [11.9.2.4](XS_SECURITY_CLASS-package.md)
+  - CREATE_SECURITY_CLASS Procedure [11.9.2.1](XS_SECURITY_CLASS-package.md)
+  - DELETE_SECURITY_CLASS [4.2.6](configuring-application-privileges-and-access-contol-lists.md)
+  - DELETE_SECURITY_CLASS Procedure [11.9.2.9](XS_SECURITY_CLASS-package.md)
+  - REMOVE_IMPLIED_PRIVILEGES [4.2.6](configuring-application-privileges-and-access-contol-lists.md)
+  - REMOVE_IMPLIED_PRIVILEGES Procedure [11.9.2.7](XS_SECURITY_CLASS-package.md)
+  - REMOVE_PARENTS [4.2.6](configuring-application-privileges-and-access-contol-lists.md)
+  - REMOVE_PARENTS Procedure [11.9.2.3](XS_SECURITY_CLASS-package.md)
+  - REMOVE_PRIVILEGES [4.2.6](configuring-application-privileges-and-access-contol-lists.md)
+  - REMOVE_PRIVILEGES Procedure [11.9.2.5](XS_SECURITY_CLASS-package.md)
+  - security model [11.9.1](XS_SECURITY_CLASS-package.md)
+  - SET_DESCRIPTION [4.2.6](configuring-application-privileges-and-access-contol-lists.md)
+  - SET_DESCRIPTION Procedure [11.9.2.8](XS_SECURITY_CLASS-package.md)
+- XS_SYS_CONTEXT function [10.2](real-application-security-sql-functions.md)
+- XSSessionManager
+  - clearCache [6.1.3.6](using-real-application-security-in-java-applications.md)
+  - createAnonymousSession [6.2.1](using-real-application-security-in-java-applications.md)
+  - createSession [6.2.1](using-real-application-security-in-java-applications.md)
+  - getLowWaterMark [6.1.3.5.3](using-real-application-security-in-java-applications.md)
