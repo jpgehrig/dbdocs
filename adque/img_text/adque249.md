@@ -1,0 +1,1 @@
+Unlabeled applications, two at the left and two at the right of the illustration, are linked to a database labeled Oracle Advanced Queues in the middle. The two links at the left are double-headed arrows labeled Publish. The two links at the right are double-headed arrows labeled Subscribe and Publish/Subscribe respectively.

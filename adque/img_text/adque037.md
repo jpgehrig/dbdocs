@@ -1,0 +1,1 @@
+Applications at the top and bottom of the illustration are linked by arrows with a queue labeled Multiple Consumer Queue in the middle. At the top, Application A is linked to the queue with a downward-pointing arrow labeled Enqueue. At the bottom, Application B and Application C are each linked to the queue with downward-pointing arrows labeled Dequeue.

@@ -1,0 +1,1 @@
+A CRM Application at the left of the illustration is linked to a Web Application at the right by right-pointing arrows through an Integration Hub in the middle. Inside the Integration Hub, also linked together by right-pointing arrows, are Out Queue on the left, then Routing and Transformation, Propagation, and finally In Queue.

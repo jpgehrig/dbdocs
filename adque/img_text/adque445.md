@@ -1,0 +1,1 @@
+An arrow points from a Job Queue Process on a Source Database to an AQ Queue in the same database. A second arrow from the Job Queue Process points to an AQ Servlet on a Web Server. A third arrow points from the AQ Servlet to an AQ Queue on a Destination Database.

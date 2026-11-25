@@ -1,0 +1,3 @@
+Applications at the top and bottom of the illustration are linked by arrows with two queues in the middle of the illustration. The application at the top is labeled Application A, Consumer and Producer and Client. It is linked to a queue labeled Request Queue by a downward-pointing arrow labeled Enqueue and to a queue labeled Response Queue by an upward-pointing arrow labeled Dequeue.
+
+The application at the bottom of the illustration is labeled Application B, Producer and Consumer and Server. It is linked to Request Queue by a downward-pointing arrow labeled Dequeue and to Response Queue by an upward-pointing arrow labeled Enqueue.
