@@ -1,0 +1,4008 @@
+## Index
+
+Symbols  Numerics  A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  
+
+------------------------------------------------------------------------
+
+## Symbols
+
+- "all permissions" [A.3](keeping-your-oracle-database-secure.md)
+
+------------------------------------------------------------------------
+
+## Numerics
+
+- 12C password hash version
+  - about [3.2.8.1](configuring-authentication.md)
+- 12C password version
+  - recommended by Oracle [3.2.8.1](configuring-authentication.md)
+
+------------------------------------------------------------------------
+
+## A
+
+- about [6.1.1](integrating_mads_with_oracle_database.md), [9.8.1](managing-security-for-definers-rights-and-invokers-rights.md)
+- about connection [6.2.1](integrating_mads_with_oracle_database.md)
+- ACCEPT_MD5_CERTS sqlnet.ora parameter [F.6](using-the-orapki-utility-to-manage-pki-elements.md)
+- ACCEPT_SHA1_CERTS sqlnet.ora parameter [F.6](using-the-orapki-utility-to-manage-pki-elements.md)
+- access configuration, DBCA [6.2.2.7.3](integrating_mads_with_oracle_database.md)
+- access configuration, silent mode [6.2.2.7.4](integrating_mads_with_oracle_database.md)
+- access configuration, system parameters [6.2.2.7.2](integrating_mads_with_oracle_database.md)
+- access control
+  - encryption, problems not solved by [17.1.1](manually-encrypting-data.md)
+  - enforcing [A.9.1](keeping-your-oracle-database-secure.md)
+  - object privileges [4.10.1](configuring-privilege-and-role-authorization.md)
+  - password encryption [3.2.1](configuring-authentication.md)
+- access control list (ACL) [10.5.1](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+  - examples
+    - external network connection for email alert [27.4.8.1](configuring-audit-policies.md)
+    - external network connections [10.7](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - wallet access [10.7](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+  - external network services
+    - about [10.2](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - advantages [10.1](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - affect of upgrade from earlier release [10.4](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - email alert for audit violation tutorial [27.4.8.1](configuring-audit-policies.md)
+    - finding information about [10.13](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - network hosts, using wildcards to specify [10.8](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - ORA-06512 error [10.12](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - ORA-24247 error [10.12](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - ORA-24247 errors [10.4](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - order of precedence, hosts [10.9](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - port ranges [10.10](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - privilege assignments, about [10.11.1](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - privilege assignments, database administrators checking [10.11.2](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - privilege assignments, users checking [10.11.4](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - revoking privileges [10.5.4](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+  - wallet access
+    - about [10.3](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - advantages [10.3](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - client certificate credentials, using [10.6.1](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - finding information about [10.13](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - non-shared wallets [10.6.1](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - password credentials [10.6.1](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - password credentials, using [10.6.1](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - revoking [10.6.5](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - revoking access [10.6.5](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - shared database session [10.6.1](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - wallets without sensitive information [10.6.1](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - wallets with sensitive information [10.6.1](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+- ACCHK_READ role [4.8.2](configuring-privilege-and-role-authorization.md)
+- accounting, RADIUS [24.5.1.4](configuring-radius-authentication.md), [24.5.2.4](configuring-radius-authentication.md)
+- account locking
+  - example [3.2.4.8](configuring-authentication.md)
+  - explicit [3.2.4.9](configuring-authentication.md)
+  - PASSWORD_LOCK_TIME profile parameter [3.2.4.7](configuring-authentication.md)
+  - password management [3.2.4.7](configuring-authentication.md)
+- activating checksumming and encryption [18.6.1](configuring-network-data-encryption-and-integrity.md)
+- adapters [20.5](introduction-to-strong-authentication.md)
+- ADD_SSLV3_TO_DEFAULT sqlnet.ora parameter [23.9.1.7](configuring-secure-sockets-layer-authentication.md)
+- ADG_ACCOUNT_INFO_TRACKING initialization parameter
+  - guideline for securing [A.9.1](keeping-your-oracle-database-secure.md)
+- ad hoc tools
+  - database access, security problems of [4.8.7.1](configuring-privilege-and-role-authorization.md)
+- ADM_PARALLEL_EXECUTE_TASK role
+  - about [4.8.2](configuring-privilege-and-role-authorization.md)
+- administrative accounts
+  - about [2.6.2](managing-security-for-oracle-database-users.md)
+  - predefined, listed [2.6.2](managing-security-for-oracle-database-users.md)
+- administrative privileges
+  - about [4.4.1](configuring-privilege-and-role-authorization.md)
+  - granting to users [4.4.2](configuring-privilege-and-role-authorization.md)
+  - SYSBACKUP privilege [4.4.5](configuring-privilege-and-role-authorization.md)
+  - SYSDBA privilege [4.4.3](configuring-privilege-and-role-authorization.md)
+  - SYSDG privilege [4.4.6](configuring-privilege-and-role-authorization.md)
+  - SYSKM privilege [4.4.7](configuring-privilege-and-role-authorization.md)
+  - SYSOPER privilege [4.4.3](configuring-privilege-and-role-authorization.md)
+  - SYSRAC privilege [4.4.8](configuring-privilege-and-role-authorization.md)
+- administrative user passwords
+  - default, importance of changing [A.5](keeping-your-oracle-database-secure.md)
+- administrative users
+  - auditing [27.2.6.1](configuring-audit-policies.md)
+  - last successful login time [3.2.10.4](configuring-authentication.md)
+  - locked or expired accounts [3.2.10.2](configuring-authentication.md)
+  - mandatorily audited [28.1.2](administering-the-audit-trail.md)
+  - password complexity verification functions [3.2.10.8](configuring-authentication.md)
+  - password files, managing [3.2.10.5](configuring-authentication.md)
+  - password files, multitenant environment [3.2.10.7](configuring-authentication.md)
+  - password management [3.2.10.1](configuring-authentication.md)
+  - password profile limits [3.2.10.3](configuring-authentication.md)
+- administrator privileges
+  - access [A.9.2](keeping-your-oracle-database-secure.md)
+  - operating system authentication [3.3.3](configuring-authentication.md)
+  - passwords [3.3.4](configuring-authentication.md), [A.5](keeping-your-oracle-database-secure.md)
+  - SYSDBA and SYSOPER access, centrally controlling [3.3.2.1](configuring-authentication.md)
+  - write, on listener.ora file [A.9.2](keeping-your-oracle-database-secure.md)
+- ADMIN OPTION
+  - about [4.15.1.4](configuring-privilege-and-role-authorization.md)
+  - revoking privileges [4.16.1](configuring-privilege-and-role-authorization.md)
+  - revoking roles [4.16.1](configuring-privilege-and-role-authorization.md)
+  - roles [4.8.5.2](configuring-privilege-and-role-authorization.md)
+  - system privileges [4.5.4](configuring-privilege-and-role-authorization.md)
+- Advanced Encryption Standard (AES)
+  - about [18.1.2](configuring-network-data-encryption-and-integrity.md)
+- Advanced Networking Option (ANO) (Oracle native encryption) [18.6.3.3.1](configuring-network-data-encryption-and-integrity.md)
+- AES256 algorithm
+  - converting to in Oracle wallets [F.7.2.8](using-the-orapki-utility-to-manage-pki-elements.md)
+- alerts, used in fine-grained audit policy [27.4.8.1](configuring-audit-policies.md)
+- ALTER ANY LIBRARY statement
+  - security guidelines [A.3](keeping-your-oracle-database-secure.md)
+- ALTER DATABASE DICTIONARY DELETE CREDENTIALS statement [12.5.2](managing-security-for-application-developers.md)
+- ALTER DATABASE DICTIONARY ENCRYPT CREDENTIALS statement [12.5.2](managing-security-for-application-developers.md)
+- ALTER DATABASE DICTIONARY REKEY CREDENTIALS statement [12.5.2](managing-security-for-application-developers.md)
+- altering users [2.3.1](managing-security-for-oracle-database-users.md)
+- ALTER PROCEDURE statement
+  - used for compiling procedures [4.13.4](configuring-privilege-and-role-authorization.md)
+- ALTER PROFILE statement
+  - password management [3.2.4.1](configuring-authentication.md)
+- ALTER RESOURCE COST statement [2.4.4.5](managing-security-for-oracle-database-users.md), [2.4.4.6](managing-security-for-oracle-database-users.md)
+- ALTER ROLE statement
+  - changing authorization method [4.8.3.5](configuring-privilege-and-role-authorization.md)
+- ALTER SESSION statement
+  - schema, setting current [12.10.1](managing-security-for-application-developers.md)
+- ALTER USER privilege [2.3.1](managing-security-for-oracle-database-users.md)
+- ALTER USER statement
+  - changing SYS password with [2.3.4.1](managing-security-for-oracle-database-users.md)
+  - default roles [4.19.3](configuring-privilege-and-role-authorization.md)
+  - explicit account unlocking [3.2.4.9](configuring-authentication.md)
+  - profiles, changing [3.2.4.14](configuring-authentication.md)
+  - REVOKE CONNECT THROUGH clause [3.14.1.6](configuring-authentication.md)
+- ANO encryption
+  - configuring with SSL authentication [18.6.3.3.2](configuring-network-data-encryption-and-integrity.md)
+- anonymous [23.9.1.3.1](configuring-secure-sockets-layer-authentication.md)
+- ANONYMOUS user account [2.6.2](managing-security-for-oracle-database-users.md)
+- ANSI operations
+  - Oracle Virtual Private Database affect on [14.5.3](using-oracle-vpd-to-control-data-access.md)
+- ANY system privilege
+  - guidelines for security [A.6](keeping-your-oracle-database-secure.md)
+- application common users
+  - about [2.2.1.1](managing-security-for-oracle-database-users.md)
+- application containers
+  - application contexts [13.1.6](using-application-contexts-to-retrieve-user-information.md)
+  - Transport Layer Security [23.1.2](configuring-secure-sockets-layer-authentication.md)
+  - Virtual Private Database policies [14.1.6](using-oracle-vpd-to-control-data-access.md)
+- application contexts [13.4.1](using-application-contexts-to-retrieve-user-information.md)
+  - See also: client session-based application contexts, database session-based application contexts, global application contexts
+
+  <!-- -->
+
+  - about [13.1.1](using-application-contexts-to-retrieve-user-information.md)
+  - application containers [13.1.6](using-application-contexts-to-retrieve-user-information.md)
+  - as secure data cache [13.1.4](using-application-contexts-to-retrieve-user-information.md)
+  - benefits of using [13.1.4](using-application-contexts-to-retrieve-user-information.md)
+  - bind variables [14.1.5](using-oracle-vpd-to-control-data-access.md)
+  - components [13.1.2](using-application-contexts-to-retrieve-user-information.md)
+  - creating session based [13.3.3.2](using-application-contexts-to-retrieve-user-information.md)
+  - DBMS_SESSION.SET_CONTEXT procedure [13.3.4.7](using-application-contexts-to-retrieve-user-information.md)
+  - driving context [13.6](using-application-contexts-to-retrieve-user-information.md)
+  - editions, affect on [13.1.5](using-application-contexts-to-retrieve-user-information.md)
+  - finding errors by checking trace files [13.6](using-application-contexts-to-retrieve-user-information.md)
+  - finding information about [13.6](using-application-contexts-to-retrieve-user-information.md)
+  - global application contexts
+    - authenticating user for multiple applications [13.4.6.6](using-application-contexts-to-retrieve-user-information.md)
+    - creating [13.4.5.2](using-application-contexts-to-retrieve-user-information.md)
+  - logon trigger, creating [13.3.5](using-application-contexts-to-retrieve-user-information.md)
+  - Oracle Virtual Private Database, used with [14.1.5](using-oracle-vpd-to-control-data-access.md)
+  - performance [14.4.2.9](using-oracle-vpd-to-control-data-access.md)
+  - policy groups, used in [14.3.7.1](using-oracle-vpd-to-control-data-access.md)
+  - returning predicate [14.1.5](using-oracle-vpd-to-control-data-access.md)
+  - session information, retrieving [13.3.4.2](using-application-contexts-to-retrieve-user-information.md)
+  - support for database links [13.3.10.1](using-application-contexts-to-retrieve-user-information.md)
+  - types [13.2](using-application-contexts-to-retrieve-user-information.md)
+  - users, nondatabase connections [13.4.2](using-application-contexts-to-retrieve-user-information.md), [13.4.6.7](using-application-contexts-to-retrieve-user-information.md)
+  - where values are stored [13.1.3](using-application-contexts-to-retrieve-user-information.md)
+- application developers
+  - CONNECT role change [A.12.3.2](keeping-your-oracle-database-secure.md)
+- applications
+  - about security policies for [12.1](managing-security-for-application-developers.md)
+  - database users [12.2.1](managing-security-for-application-developers.md)
+  - enhancing security with [4.8.1.3](configuring-privilege-and-role-authorization.md)
+  - object privileges [12.11.1](managing-security-for-application-developers.md)
+  - object privileges permitting SQL statements [12.11.2](managing-security-for-application-developers.md)
+  - One Big Application User authentication
+    - security considerations [12.2.2](managing-security-for-application-developers.md)
+    - security risks of [12.2.1](managing-security-for-application-developers.md)
+  - Oracle Virtual Private Database, how it works with [14.5.4](using-oracle-vpd-to-control-data-access.md)
+  - password handling, guidelines [12.3.1.2](managing-security-for-application-developers.md)
+  - password protection strategies [12.3](managing-security-for-application-developers.md)
+  - privileges, managing [12.6](managing-security-for-application-developers.md)
+  - roles
+    - multiple [4.8.1.5](configuring-privilege-and-role-authorization.md)
+    - privileges, associating with database roles [12.9](managing-security-for-application-developers.md)
+  - security [4.8.7](configuring-privilege-and-role-authorization.md), [12.2.2](managing-security-for-application-developers.md)
+  - security considerations for use [12.2](managing-security-for-application-developers.md)
+  - security limitations [14.5.4](using-oracle-vpd-to-control-data-access.md)
+  - security policies [14.3.7.3](using-oracle-vpd-to-control-data-access.md)
+  - validating with security policies [14.3.7.5](using-oracle-vpd-to-control-data-access.md)
+- application security
+  - finding privilege use by users [5.1.2.1](performing-privilege-analysis-identify-privilege-use.md)
+  - restricting wallet access to current application [10.6.1](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+  - revoking access control privileges from Oracle wallets [10.6.5](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+  - sharing wallet with other applications [10.6.1](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+  - specifying attributes [13.3.3.3](using-application-contexts-to-retrieve-user-information.md)
+- application users who are database users
+  - Oracle Virtual Private Database, how it works with [14.5.9](using-oracle-vpd-to-control-data-access.md)
+- APPQOSSYS user account [2.6.2](managing-security-for-oracle-database-users.md)
+- architecture [6.1.3](integrating_mads_with_oracle_database.md)
+- archiving
+  - operating system audit files [28.2.1](administering-the-audit-trail.md)
+  - standard audit trail [28.2.2](administering-the-audit-trail.md)
+  - timestamping audit trail [28.3.3.4](administering-the-audit-trail.md)
+- ASMSNMP user account [2.6.2](managing-security-for-oracle-database-users.md)
+- asymmetric key operations [17.4](manually-encrypting-data.md)
+- asynchronous authentication mode in RADIUS [24.3.2](configuring-radius-authentication.md)
+- attacks
+  - See: security attacks
+- AUDIT_ADMIN role [4.8.2](configuring-privilege-and-role-authorization.md)
+- AUDIT_VIEWER role [4.8.2](configuring-privilege-and-role-authorization.md)
+- audit files
+  - operating system audit trail
+    - archiving, setting timestamp [28.3.3.4](administering-the-audit-trail.md)
+  - operating system file
+    - archiving [28.2.1](administering-the-audit-trail.md)
+  - standard audit trail
+    - archiving, setting timestamp [28.3.3.4](administering-the-audit-trail.md)
+    - records, archiving [28.2.2](administering-the-audit-trail.md)
+- auditing [27.1](configuring-audit-policies.md)
+  - See also: unified audit policies
+
+  <!-- -->
+
+  - administrators, Database Vault [27.2.14.2](configuring-audit-policies.md)
+  - audit options [27.1](configuring-audit-policies.md)
+  - audit trail, sensitive data in [A.11](keeping-your-oracle-database-secure.md)
+  - CDBs [26.9](introduction-to-auditing.md)
+  - committed data [A.11.2](keeping-your-oracle-database-secure.md)
+  - cursors, affect on auditing [28.1.3](administering-the-audit-trail.md)
+  - databases, when unavailable [28.1.7](administering-the-audit-trail.md)
+  - database user names [3.7](configuring-authentication.md)
+  - Database Vault administrators [27.2.14.2](configuring-audit-policies.md)
+  - distributed databases and [26.10](introduction-to-auditing.md)
+  - DV_ADMIN role user [27.2.14.2](configuring-audit-policies.md)
+  - DV_OWNER role user [27.2.14.2](configuring-audit-policies.md)
+  - finding information about audit management [28.4](administering-the-audit-trail.md)
+  - finding information about usage [27.5](configuring-audit-policies.md)
+  - fine-grained
+    - See fine-grained auditing [27.4.1](configuring-audit-policies.md)
+  - functions [27.2.7.11](configuring-audit-policies.md)
+  - functions, Oracle Virtual Private Database [27.2.7.13](configuring-audit-policies.md)
+  - general steps
+    - commonly used security-relevant activities [27.1.2](configuring-audit-policies.md)
+    - specific fine-grained activities [27.1.3](configuring-audit-policies.md)
+    - SQL statements and other general activities [27.1.1](configuring-audit-policies.md)
+  - general steps for [27.1](configuring-audit-policies.md)
+  - guidelines for security [A.11](keeping-your-oracle-database-secure.md)
+  - historical information [A.11.2](keeping-your-oracle-database-secure.md)
+  - INHERIT PRIVILEGE privilege [9.5.8](managing-security-for-definers-rights-and-invokers-rights.md)
+  - keeping information manageable [A.11.1](keeping-your-oracle-database-secure.md)
+  - loading audit records to unified audit trail [28.1.7](administering-the-audit-trail.md)
+  - mandatory auditing [28.1.2](administering-the-audit-trail.md)
+  - multitier environments
+    - See standard auditing [27.2.9](configuring-audit-policies.md)
+  - One Big Application User authentication, compromised by [12.2.1](managing-security-for-application-developers.md)
+  - operating-system user names [3.7](configuring-authentication.md)
+  - Oracle Virtual Private Database policy functions [27.2.7.13](configuring-audit-policies.md)
+  - packages [27.2.7.11](configuring-audit-policies.md)
+  - performance [26.3](introduction-to-auditing.md)
+  - PL/SQL packages [27.2.7.11](configuring-audit-policies.md)
+  - predefined policies
+    - general steps for using [27.1.2](configuring-audit-policies.md)
+  - privileges required [26.8](introduction-to-auditing.md)
+  - procedures [27.2.7.11](configuring-audit-policies.md)
+  - purging records
+    - example [28.3.6](administering-the-audit-trail.md)
+    - general steps for manual purges [28.3.2.2](administering-the-audit-trail.md)
+    - general steps for scheduled purges [28.3.2.1](administering-the-audit-trail.md)
+  - range of focus [27.1](configuring-audit-policies.md)
+  - READ object privileges in policies [27.2.8.2](configuring-audit-policies.md)
+  - READ privileges
+    - about [27.2.8.1](configuring-audit-policies.md)
+    - how recorded in audit trail [27.2.8.3](configuring-audit-policies.md)
+  - recommended settings [A.11.5](keeping-your-oracle-database-secure.md)
+  - Sarbanes-Oxley Act
+    - auditing, meeting compliance through [26.1](introduction-to-auditing.md)
+  - SELECT privileges
+    - about [27.2.8.1](configuring-audit-policies.md)
+    - how recorded in audit trail [27.2.8.3](configuring-audit-policies.md)
+  - sensitive data [A.11.4](keeping-your-oracle-database-secure.md)
+  - suspicious activity [A.11.3](keeping-your-oracle-database-secure.md)
+  - traditional [27.2.20.2](configuring-audit-policies.md)
+  - triggers [27.2.7.11](configuring-audit-policies.md)
+  - unified audit trail
+    - about [26.4](introduction-to-auditing.md)
+  - VPD predicates
+    - fine-grained audit policies [27.4.4](configuring-audit-policies.md)
+    - unified audit policies [27.2.7.12](configuring-audit-policies.md)
+  - when audit options take effect [28.1.1](administering-the-audit-trail.md)
+  - when records are created [28.1.1](administering-the-audit-trail.md)
+- auditing, purging records
+  - about [28.3.1](administering-the-audit-trail.md)
+  - cancelling archive timestamp [28.3.5.4](administering-the-audit-trail.md)
+  - creating audit trail
+    - purge job [28.3.3.1](administering-the-audit-trail.md)
+  - creating the purge job [28.3.3.5](administering-the-audit-trail.md)
+  - DBMS_SCHEDULER package [28.3.3.1](administering-the-audit-trail.md)
+  - deleting a purge job [28.3.5.3](administering-the-audit-trail.md)
+  - disabling purge jobs [28.3.5.1](administering-the-audit-trail.md)
+  - enabling purge jobs [28.3.5.1](administering-the-audit-trail.md)
+  - general steps for [28.3.2](administering-the-audit-trail.md)
+  - purging audit trail manually [28.3.4.1](administering-the-audit-trail.md)
+  - roadmap [28.3.2](administering-the-audit-trail.md)
+  - scheduling the purge job [28.3.3.5](administering-the-audit-trail.md)
+  - setting archive timestamp [28.3.3.4](administering-the-audit-trail.md)
+  - time interval for named purge job [28.3.5.2](administering-the-audit-trail.md)
+- audit policies [26.1](introduction-to-auditing.md)
+  - See also: unified audit policies
+- audit policies, application contexts
+  - about [27.2.11.1](configuring-audit-policies.md)
+  - appearance in audit trail [27.2.11.6](configuring-audit-policies.md)
+  - configuring [27.2.11.2](configuring-audit-policies.md)
+  - disabling [27.2.11.3](configuring-audit-policies.md)
+  - examples [27.2.11.4](configuring-audit-policies.md)
+- audit records
+  - when written to OS files [28.1.6](administering-the-audit-trail.md)
+- audit trail
+  - archiving [28.2.2](administering-the-audit-trail.md)
+  - capturing syslog records [28.1.5.2](administering-the-audit-trail.md)
+  - capturing Windows Event Viewer records [28.1.5.2](administering-the-audit-trail.md)
+  - finding information about audit management [28.4](administering-the-audit-trail.md)
+  - finding information about usage [27.5](configuring-audit-policies.md)
+  - SYSLOG records [28.1.5.1](administering-the-audit-trail.md)
+  - unified
+    - archiving [28.2.2](administering-the-audit-trail.md)
+- AUDSYS user account [2.6.2](managing-security-for-oracle-database-users.md)
+- AUTHENTICATEDUSER role [4.8.2](configuring-privilege-and-role-authorization.md)
+- authentication [3.2.1](configuring-authentication.md), [20.5](introduction-to-strong-authentication.md)
+  - See also: passwords, proxy authentication
+
+  <!-- -->
+
+  - about [3.1](configuring-authentication.md)
+  - administrators
+    - operating system [3.3.3](configuring-authentication.md)
+    - passwords [3.3.4](configuring-authentication.md)
+    - SYSDBA and SYSOPER access, centrally controlling [3.3.2.1](configuring-authentication.md)
+  - by database [3.4](configuring-authentication.md)
+  - by SSL [3.10.2.1](configuring-authentication.md)
+  - client [A.9.1](keeping-your-oracle-database-secure.md)
+  - client-to-middle tier process [3.14.1.8](configuring-authentication.md)
+  - configuring multiple methods [25.3](customizing-the-use-of-strong-authentication.md)
+  - database administrators [3.3.1](configuring-authentication.md)
+  - databases, using
+    - about [3.4.1](configuring-authentication.md)
+    - advantages [3.4.2](configuring-authentication.md)
+    - procedure [3.4.3](configuring-authentication.md)
+  - directory-based services [3.8.2.4](configuring-authentication.md)
+  - directory service [3.10.2](configuring-authentication.md)
+  - external authentication
+    - about [3.11.1](configuring-authentication.md)
+    - advantages [3.11.2](configuring-authentication.md)
+    - operating system authentication [3.11.5](configuring-authentication.md)
+    - user creation [3.11.4](configuring-authentication.md)
+  - global authentication
+    - about [3.10.1](configuring-authentication.md)
+    - advantages [3.10.3](configuring-authentication.md)
+    - user creation for private schemas [3.10.2.1](configuring-authentication.md)
+    - user creation for shared schemas [3.10.2.2](configuring-authentication.md)
+  - methods [20.4](introduction-to-strong-authentication.md)
+  - middle-tier authentication
+    - proxies, example [3.14.1.10](configuring-authentication.md)
+  - modes in RADIUS [24.3](configuring-radius-authentication.md)
+  - multitier [3.12](configuring-authentication.md)
+  - network authentication
+    - third-party services [3.8.2.1](configuring-authentication.md)
+    - Transport Layer Security [3.8.1](configuring-authentication.md)
+  - One Big Application User, compromised by [12.2.1](managing-security-for-application-developers.md)
+  - operating system authentication [3.9.1](configuring-authentication.md)
+    - about [3.7](configuring-authentication.md)
+    - advantages [3.7](configuring-authentication.md)
+    - disadvantages [3.7](configuring-authentication.md)
+  - operating system user in PDBs [3.9.1](configuring-authentication.md)
+  - ORA-28040 errors [3.2.8.3](configuring-authentication.md)
+  - PDBs [3.9.1](configuring-authentication.md)
+  - proxy user authentication
+    - about [3.14.1.1](configuring-authentication.md)
+    - expired passwords [3.14.1.6](configuring-authentication.md)
+  - public key infrastructure [3.8.2.5](configuring-authentication.md)
+  - RADIUS [3.8.2.3](configuring-authentication.md)
+  - remote [A.9.1](keeping-your-oracle-database-secure.md)
+  - schema-only accounts [3.6](configuring-authentication.md)
+    - about [3.6.1](configuring-authentication.md)
+    - altering [3.6.3](configuring-authentication.md)
+    - creating users [3.6.2](configuring-authentication.md)
+  - schema-only accounts, users created with [3.6.1](configuring-authentication.md)
+  - specifying when creating a user [2.2.5](managing-security-for-oracle-database-users.md)
+  - strong [A.5](keeping-your-oracle-database-secure.md)
+  - SYSDBA on Windows systems [3.3.3](configuring-authentication.md)
+  - Windows native authentication [3.3.3](configuring-authentication.md)
+- AUTHENTICATION parameter [C.2.2](kerberos-ssl-and-radius-authentication-parameters.md)
+- authentication types [6.1.4](integrating_mads_with_oracle_database.md)
+- AUTHID DEFINER clause
+  - used with Oracle Virtual Private Database functions [14.1.4](using-oracle-vpd-to-control-data-access.md)
+- authorization
+  - about [4](configuring-privilege-and-role-authorization.md)
+  - changing for roles [4.8.3.5](configuring-privilege-and-role-authorization.md)
+  - global
+    - about [3.10.1](configuring-authentication.md)
+    - advantages [3.10.3](configuring-authentication.md)
+  - multitier [3.12](configuring-authentication.md)
+  - omitting for roles [4.8.3.1](configuring-privilege-and-role-authorization.md)
+  - operating system [4.8.4.4](configuring-privilege-and-role-authorization.md)
+  - roles, about [4.8.4](configuring-privilege-and-role-authorization.md)
+- automatic reparse
+  - Oracle Virtual Private Database, how it works with [14.5.5](using-oracle-vpd-to-control-data-access.md)
+
+------------------------------------------------------------------------
+
+## B
+
+- banners
+  - auditing user actions, configuring [12.12.5](managing-security-for-application-developers.md)
+  - unauthorized access, configuring [12.12.5](managing-security-for-application-developers.md)
+- BFILEs
+  - guidelines for security [A.6](keeping-your-oracle-database-secure.md)
+- bind variables
+  - application contexts, used with [14.1.5](using-oracle-vpd-to-control-data-access.md)
+  - sensitive columns [15.10.2.1](using-transparent-sensitive-data-protection.md)
+- BLOBS
+  - encrypting [17.2.6](manually-encrypting-data.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- CAPTURE_ADMIN role [4.8.2](configuring-privilege-and-role-authorization.md)
+- cascading revokes [4.16.3](configuring-privilege-and-role-authorization.md)
+- catpvf.sql script (password complexity functions) [3.2.6.2](configuring-authentication.md)
+- CDB_DBA role [4.8.2](configuring-privilege-and-role-authorization.md)
+- CDB common users
+  - about [2.2.1.1](managing-security-for-oracle-database-users.md)
+  - plug-in operations [2.2.1.2](managing-security-for-oracle-database-users.md)
+- CDBs
+  - auditing
+    - how affects [26.9](introduction-to-auditing.md)
+    - traditional [27.2.20.2](configuring-audit-policies.md)
+  - CBAC role grants with DELEGATE option [9.7.5](managing-security-for-definers-rights-and-invokers-rights.md)
+  - common privilege grants [4.6.1](configuring-privilege-and-role-authorization.md)
+  - granting privileges and roles [4.6.4](configuring-privilege-and-role-authorization.md)
+  - local privilege grants [4.6.1](configuring-privilege-and-role-authorization.md)
+  - object privileges [4.6.3](configuring-privilege-and-role-authorization.md)
+  - PDB lockdown profiles [4.9.1](configuring-privilege-and-role-authorization.md), [4.9.2](configuring-privilege-and-role-authorization.md)
+  - privilege management [4.6](configuring-privilege-and-role-authorization.md)
+  - privilege profiles [5.1.5](performing-privilege-analysis-identify-privilege-use.md)
+  - revoking privileges [4.6.4](configuring-privilege-and-role-authorization.md)
+  - roles
+    - altering [4.8.3.5](configuring-privilege-and-role-authorization.md)
+    - creating common [4.7.6](configuring-privilege-and-role-authorization.md)
+    - creating local [4.7.8](configuring-privilege-and-role-authorization.md)
+    - granting common [4.7.9](configuring-privilege-and-role-authorization.md)
+    - how common roles work [4.7.2](configuring-privilege-and-role-authorization.md)
+    - managing [4.7](configuring-privilege-and-role-authorization.md)
+    - privileges required to manage [4.7.4](configuring-privilege-and-role-authorization.md)
+    - rules for creating common [4.7.5](configuring-privilege-and-role-authorization.md)
+  - SYSLOG capture of unified audit records [28.1.5.2](administering-the-audit-trail.md)
+  - system privileges [4.6.2](configuring-privilege-and-role-authorization.md)
+  - transparent sensitive data protection [15.5](using-transparent-sensitive-data-protection.md)
+  - user accounts
+    - creating [2.2.10](managing-security-for-oracle-database-users.md)
+    - local [2.2.1.3](managing-security-for-oracle-database-users.md)
+  - user privileges, how affects [4.3](configuring-privilege-and-role-authorization.md)
+  - users
+    - CDB common [2.2.1.1](managing-security-for-oracle-database-users.md)
+    - common [2.2.1.1](managing-security-for-oracle-database-users.md)
+  - viewing information about [4.6.6.1](configuring-privilege-and-role-authorization.md)
+  - Virtual Private Database
+    - policies [14.1.6](using-oracle-vpd-to-control-data-access.md)
+- Center for Internet Security (CIS) [27.3.5](configuring-audit-policies.md)
+- centrally managed users
+  - Oracle Autonomous Database [6.7](integrating_mads_with_oracle_database.md)
+- certificate [23.4.2.2](configuring-secure-sockets-layer-authentication.md)
+- certificate authority [23.4.2.1](configuring-secure-sockets-layer-authentication.md)
+- certificate key algorithm
+  - Transport Layer Security [A.9.3](keeping-your-oracle-database-secure.md)
+- certificate revocation list (CRL)
+  - deleting [F.10.3](using-the-orapki-utility-to-manage-pki-elements.md)
+  - displaying [F.10.4](using-the-orapki-utility-to-manage-pki-elements.md)
+  - displaying list of [F.10.6](using-the-orapki-utility-to-manage-pki-elements.md)
+  - hash value generation [F.10.5](using-the-orapki-utility-to-manage-pki-elements.md)
+  - uploading [F.10.7](using-the-orapki-utility-to-manage-pki-elements.md)
+- certificate revocation lists [23.4.2.3](configuring-secure-sockets-layer-authentication.md)
+  - manipulating with orapki tool [23.14.5.1](configuring-secure-sockets-layer-authentication.md)
+  - uploading to LDAP directory [23.14.5.1](configuring-secure-sockets-layer-authentication.md)
+  - where to store them [23.14.3](configuring-secure-sockets-layer-authentication.md)
+- certificate revocation status checking
+  - disabling on server [23.14.4.2](configuring-secure-sockets-layer-authentication.md), [23.14.4.3](configuring-secure-sockets-layer-authentication.md)
+- certificates [6.2.2.5](integrating_mads_with_oracle_database.md)
+  - adding to wallet using orapki [F.5](using-the-orapki-utility-to-manage-pki-elements.md)
+  - creating signed with orapki [F.3](using-the-orapki-utility-to-manage-pki-elements.md)
+  - Oracle Real Application Clusters components that need certificates [23.11.3.1](configuring-secure-sockets-layer-authentication.md)
+- certificate validation error message
+  - CRL could not be found [23.14.7](configuring-secure-sockets-layer-authentication.md)
+  - CRL date verification failed with RSA status [23.14.7](configuring-secure-sockets-layer-authentication.md)
+  - CRL signature verification failed with RSA status [23.14.7](configuring-secure-sockets-layer-authentication.md)
+  - Fetch CRL from CRL DP
+    - No CRLs found [23.14.7](configuring-secure-sockets-layer-authentication.md)
+  - OID hostname or port number not set [23.14.7](configuring-secure-sockets-layer-authentication.md)
+- challenge-response authentication in RADIUS [24.3.2](configuring-radius-authentication.md)
+- change_on_install default password [A.5](keeping-your-oracle-database-secure.md)
+- character sets
+  - role names, multibyte characters in [4.8.3.1](configuring-privilege-and-role-authorization.md)
+  - role passwords, multibyte characters in [4.8.4.1](configuring-privilege-and-role-authorization.md)
+- Cipher Block Chaining (CBC) mode, defined [18.1.2](configuring-network-data-encryption-and-integrity.md)
+- cipher suites
+  - about [23.9.1.3.1](configuring-secure-sockets-layer-authentication.md)
+  - authentication methods [23.9.1.3.2](configuring-secure-sockets-layer-authentication.md)
+  - data integrity [23.9.1.3.2](configuring-secure-sockets-layer-authentication.md)
+  - encryption algorithms used by [23.9.1.3.2](configuring-secure-sockets-layer-authentication.md)
+  - procedure for specifying for server [23.9.1.3.3](configuring-secure-sockets-layer-authentication.md)
+  - TLS compatibility [23.9.1.3.2](configuring-secure-sockets-layer-authentication.md)
+  - Transport Layer Security [A.9.3](keeping-your-oracle-database-secure.md)
+  - Transport Layer Security (TLS) [C.2.4](kerberos-ssl-and-radius-authentication-parameters.md)
+- Cipher Suites
+  - FIPS 140-2 settings [E.3.2](oracle-database-fips-140-settings.md)
+- CLIENT_IDENTIFIER USERENV attribute [3.14.2.4](configuring-authentication.md)
+  - See also: USERENV namespace
+
+  <!-- -->
+
+  - setting and clearing with DBMS_SESSION package [3.14.2.6](configuring-authentication.md)
+  - setting with OCI user session handle attribute [3.14.2.5](configuring-authentication.md)
+- client authentication in TLS [23.9.1.5](configuring-secure-sockets-layer-authentication.md)
+- client connections
+  - guidelines for security [A.9.1](keeping-your-oracle-database-secure.md)
+  - secure external password store [3.2.9.3](configuring-authentication.md)
+  - securing [A.9.1](keeping-your-oracle-database-secure.md)
+- CLIENTID_OVERWRITE event [3.14.2.6](configuring-authentication.md)
+- client identifier
+  - setting for applications that use JDBC [3.14.2.5](configuring-authentication.md)
+- client identifiers [13.4.2](using-application-contexts-to-retrieve-user-information.md)
+  - See also: nondatabase users
+
+  <!-- -->
+
+  - about [3.14.2.1](configuring-authentication.md)
+  - auditing users [27.2.9](configuring-audit-policies.md)
+  - consistency between DBMS_SESSION.SET_IDENTIFIER and DBMS_APPLICATION_INFO.SET_CLIENT_INFO [3.14.2.6](configuring-authentication.md)
+  - global application context, independent of [3.14.2.4](configuring-authentication.md)
+  - setting with DBMS_SESSION.SET_IDENTIFIER procedure [13.4.3](using-application-contexts-to-retrieve-user-information.md)
+- client session-based application contexts [13.5.1](using-application-contexts-to-retrieve-user-information.md)
+  - See also: application contexts
+
+  <!-- -->
+
+  - about [13.5.1](using-application-contexts-to-retrieve-user-information.md)
+  - CLIENTCONTEXT namespace, clearing value from [13.5.5](using-application-contexts-to-retrieve-user-information.md)
+  - CLIENTCONTEXT namespace, setting value in [13.5.2](using-application-contexts-to-retrieve-user-information.md)
+  - retrieving CLIENTCONTEXT namespace [13.5.3](using-application-contexts-to-retrieve-user-information.md)
+- code based access control (CBAC)
+  - about [9.7.1](managing-security-for-definers-rights-and-invokers-rights.md)
+  - granting and revoking roles to program unit [9.7.6](managing-security-for-definers-rights-and-invokers-rights.md)
+  - how works with definers rights [9.7.4](managing-security-for-definers-rights-and-invokers-rights.md)
+  - how works with invoker’s rights [9.7.3](managing-security-for-definers-rights-and-invokers-rights.md)
+  - privileges [9.7.2](managing-security-for-definers-rights-and-invokers-rights.md)
+  - tutorial [9.7.7](managing-security-for-definers-rights-and-invokers-rights.md)
+- column masking behavior [14.3.6.4](using-oracle-vpd-to-control-data-access.md)
+  - column specification [14.3.6.5](using-oracle-vpd-to-control-data-access.md)
+  - restrictions [14.3.6.5](using-oracle-vpd-to-control-data-access.md)
+- columns
+  - granting privileges for selected [4.15.2.4](configuring-privilege-and-role-authorization.md)
+  - granting privileges on [4.15.2.4](configuring-privilege-and-role-authorization.md)
+  - INSERT privilege and [4.15.2.4](configuring-privilege-and-role-authorization.md)
+  - listing users granted to [4.20.4](configuring-privilege-and-role-authorization.md)
+  - privileges [4.15.2.4](configuring-privilege-and-role-authorization.md)
+  - pseudo columns
+    - USER [4.12.3](configuring-privilege-and-role-authorization.md)
+  - revoking privileges on [4.16.2.4](configuring-privilege-and-role-authorization.md)
+- command line recall attacks [12.3.1.1](managing-security-for-application-developers.md), [12.3.1.4](managing-security-for-application-developers.md)
+- committed data
+  - auditing [A.11.2](keeping-your-oracle-database-secure.md)
+- common privilege grants
+  - about [4.6.1](configuring-privilege-and-role-authorization.md)
+  - granting [4.6.4](configuring-privilege-and-role-authorization.md)
+  - revoking [4.6.4](configuring-privilege-and-role-authorization.md)
+  - with object privileges [4.6.3](configuring-privilege-and-role-authorization.md)
+  - with system privileges [4.6.2](configuring-privilege-and-role-authorization.md)
+- common roles
+  - about [4.7.1](configuring-privilege-and-role-authorization.md)
+  - auditing [27.2.4.1](configuring-audit-policies.md)
+  - creating [4.7.6](configuring-privilege-and-role-authorization.md)
+  - granting [4.7.9](configuring-privilege-and-role-authorization.md)
+  - how they work [4.7.2](configuring-privilege-and-role-authorization.md)
+  - privileges required to manage [4.7.4](configuring-privilege-and-role-authorization.md)
+  - rules for creating [4.7.5](configuring-privilege-and-role-authorization.md)
+- common user accounts
+  - creating [2.2.10.1](managing-security-for-oracle-database-users.md)
+  - enabling access to other PDBs [4.6.6](configuring-privilege-and-role-authorization.md)
+  - granting privileges to [4.6](configuring-privilege-and-role-authorization.md)
+- common users
+  - accessing data in PDBs [4.6.6.2](configuring-privilege-and-role-authorization.md)
+  - altering [2.3.2](managing-security-for-oracle-database-users.md)
+- configuration
+  - guidelines for security [A.8](keeping-your-oracle-database-secure.md)
+- configuration files
+  - Kerberos [C.1](kerberos-ssl-and-radius-authentication-parameters.md)
+  - listener.ora [A.9.2](keeping-your-oracle-database-secure.md)
+  - RADIUS [24.4.1](configuring-radius-authentication.md)
+  - sample listener.ora file [A.9.2](keeping-your-oracle-database-secure.md)
+  - server.key encryption file [A.9.3](keeping-your-oracle-database-secure.md)
+  - tsnames.ora [A.9.3](keeping-your-oracle-database-secure.md)
+  - typical directory [A.9.3](keeping-your-oracle-database-secure.md)
+- configuring
+  - Kerberos authentication service parameters [22.1.6.1](configuring-kerberos-authentication.md)
+  - RADIUS authentication [24.5.1.1](configuring-radius-authentication.md), [24.5.2.1](configuring-radius-authentication.md)
+  - thin JDBC support [19.1](configuring-thin-jdbc-client-network.md)
+  - TLS [23.9](configuring-secure-sockets-layer-authentication.md)
+    - on the client [23.9.2](configuring-secure-sockets-layer-authentication.md)
+    - on the server [23.9.1](configuring-secure-sockets-layer-authentication.md)
+- connecting
+  - with username and password [25.1](customizing-the-use-of-strong-authentication.md)
+- connection pooling
+  - about [3.12](configuring-authentication.md)
+  - finding unnecessarily granted privileges [5.1.2.1](performing-privilege-analysis-identify-privilege-use.md)
+  - global application contexts [13.4.2](using-application-contexts-to-retrieve-user-information.md)
+  - nondatabase users [13.4.6.7](using-application-contexts-to-retrieve-user-information.md)
+  - proxy authentication [3.14.1.8](configuring-authentication.md)
+- CONNECT role
+  - about [A.12](keeping-your-oracle-database-secure.md)
+  - applications
+    - account provisioning [A.12.2.2](keeping-your-oracle-database-secure.md)
+    - affects of [A.12.2](keeping-your-oracle-database-secure.md)
+    - database upgrades [A.12.2.1](keeping-your-oracle-database-secure.md)
+    - installation of [A.12.2.3](keeping-your-oracle-database-secure.md)
+  - script to create [4.8.2](configuring-privilege-and-role-authorization.md)
+  - users
+    - application developers, impact [A.12.3.2](keeping-your-oracle-database-secure.md)
+    - client-server applications, impact [A.12.3.3](keeping-your-oracle-database-secure.md)
+    - general users, impact [A.12.3.1](keeping-your-oracle-database-secure.md)
+    - how affects [A.12.3](keeping-your-oracle-database-secure.md)
+  - why changed [A.12.1](keeping-your-oracle-database-secure.md)
+- CONTAINER_DATA objects
+  - viewing information about [4.6.6](configuring-privilege-and-role-authorization.md)
+- container database (CDB)
+  - See: CDBs
+- container data objects
+  - about [4.6.6.1](configuring-privilege-and-role-authorization.md)
+- context profiles
+  - privilege analysis [5.1.4](performing-privilege-analysis-identify-privilege-use.md)
+- controlled step-in procedures [9.3](managing-security-for-definers-rights-and-invokers-rights.md)
+- CPU time limit [2.4.2.3](managing-security-for-oracle-database-users.md)
+- CREATE ANY LIBRARY statement
+  - security guidelines [A.3](keeping-your-oracle-database-secure.md)
+- CREATE ANY PROCEDURE system privilege [4.13.3](configuring-privilege-and-role-authorization.md)
+- CREATE CONTEXT statement
+  - example [13.3.3.1](using-application-contexts-to-retrieve-user-information.md)
+- CREATE LOCKDOWN PROFILE statement [4.9.4](configuring-privilege-and-role-authorization.md)
+- CREATE PROCEDURE system privilege [4.13.3](configuring-privilege-and-role-authorization.md)
+- CREATE PROFILE statement
+  - password aging and expiration [3.2.4.11](configuring-authentication.md)
+  - password management [3.2.4.1](configuring-authentication.md)
+  - passwords, example [3.2.4.14](configuring-authentication.md)
+- CREATE ROLE statement
+  - IDENTIFIED EXTERNALLY option [4.8.4.3](configuring-privilege-and-role-authorization.md)
+- CREATE SCHEMA statement
+  - securing [12.10.1](managing-security-for-application-developers.md)
+- CREATE SESSION statement
+  - CONNECT role privilege [A.4](keeping-your-oracle-database-secure.md)
+  - securing [12.10.1](managing-security-for-application-developers.md)
+- CREATE USER statement
+  - explicit account locking [3.2.4.9](configuring-authentication.md)
+  - IDENTIFIED BY option [2.2.5](managing-security-for-oracle-database-users.md)
+  - IDENTIFIED EXTERNALLY option [2.2.5](managing-security-for-oracle-database-users.md)
+- creating Oracle service directory user account [6.2.2.1](integrating_mads_with_oracle_database.md)
+- CRL [23.4.2.3](configuring-secure-sockets-layer-authentication.md)
+- CRLAdmins directory administrative group [F.10.7](using-the-orapki-utility-to-manage-pki-elements.md)
+- CRLs
+  - disabling on server [23.14.4.2](configuring-secure-sockets-layer-authentication.md), [23.14.4.3](configuring-secure-sockets-layer-authentication.md)
+  - where to store them [23.14.3](configuring-secure-sockets-layer-authentication.md)
+- cryptographic hardware devices [23.4.2.5](configuring-secure-sockets-layer-authentication.md)
+- cryptographic libraries
+  - FIPS 140-2 [E.1](oracle-database-fips-140-settings.md)
+- CSW_USR_ROLE role [4.8.2](configuring-privilege-and-role-authorization.md)
+- CTXAPP role [4.8.2](configuring-privilege-and-role-authorization.md)
+- CTXSYS user account [2.6.2](managing-security-for-oracle-database-users.md)
+- cursors
+  - affect on auditing [28.1.3](administering-the-audit-trail.md)
+  - reparsing, for application contexts [13.3.5](using-application-contexts-to-retrieve-user-information.md)
+  - shared, used with Virtual Private Database [14.1.5](using-oracle-vpd-to-control-data-access.md)
+- CWM_USER role [4.8.2](configuring-privilege-and-role-authorization.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- database administrators (DBAs)
+  - access, controlling [17.1.2](manually-encrypting-data.md)
+  - authentication [3.3.1](configuring-authentication.md)
+  - malicious, encryption not solved by [17.1.2](manually-encrypting-data.md)
+- Database Configuration Assistant (DBCA)
+  - default passwords, changing [A.5](keeping-your-oracle-database-secure.md)
+  - user accounts, automatically locking and expiring [A.3](keeping-your-oracle-database-secure.md)
+- database links [6.1.7](integrating_mads_with_oracle_database.md)
+  - application contexts [13.3.4.6](using-application-contexts-to-retrieve-user-information.md)
+  - application context support [13.3.10.1](using-application-contexts-to-retrieve-user-information.md)
+  - authenticating with Kerberos [3.8.2.2](configuring-authentication.md)
+  - authenticating with third-party services [3.8.2.1](configuring-authentication.md)
+  - definer’s rights procedures [9.8.1](managing-security-for-definers-rights-and-invokers-rights.md)
+  - global user authentication [3.10.3](configuring-authentication.md)
+  - object privileges [4.10.1](configuring-privilege-and-role-authorization.md)
+  - operating system accounts, care needed [3.7](configuring-authentication.md)
+  - Oracle DBaaS-to-IAM connections [7.7](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - RADIUS not supported [24.1](configuring-radius-authentication.md)
+  - sensitive credential data
+    - about [16.1](encrypt-sensitive-data.md)
+    - data dictionary views [16.7](encrypt-sensitive-data.md)
+    - deleting [16.5](encrypt-sensitive-data.md)
+    - encrypting [16.3](encrypt-sensitive-data.md)
+    - multitenant environment [16.2](encrypt-sensitive-data.md)
+    - rekeying [16.4](encrypt-sensitive-data.md)
+    - restoring functioning of after lost keystore [16.6](encrypt-sensitive-data.md)
+  - session-based application contexts, accessing [13.3.4.6](using-application-contexts-to-retrieve-user-information.md)
+- databases
+  - access control
+    - password encryption [3.2.1](configuring-authentication.md)
+  - additional security products [1.2](introduction-to-oracle-database-security.md)
+  - authentication [3.4](configuring-authentication.md)
+  - database user and application user [12.2.1](managing-security-for-application-developers.md)
+  - default password security settings [3.2.4.5](configuring-authentication.md)
+    - DBCA-created databases [3.2.4.5](configuring-authentication.md)
+    - manually-created databases [3.2.4.5](configuring-authentication.md)
+  - default security features, summary [1.1](introduction-to-oracle-database-security.md)
+  - granting privileges [4.15](configuring-privilege-and-role-authorization.md)
+  - granting roles [4.15](configuring-privilege-and-role-authorization.md)
+  - limitations on usage [2.4.1](managing-security-for-oracle-database-users.md)
+  - schema-only accounts [3.6](configuring-authentication.md)
+  - security and schemas [12.10](managing-security-for-application-developers.md)
+  - security embedded, advantages of [12.2.2](managing-security-for-application-developers.md)
+  - security policies based on [14.1.2.1](using-oracle-vpd-to-control-data-access.md)
+- database session-based application contexts [13.3.1](using-application-contexts-to-retrieve-user-information.md)
+  - See also: application contexts
+
+  <!-- -->
+
+  - about [13.3.1](using-application-contexts-to-retrieve-user-information.md)
+  - cleaning up after user exits [13.3.1](using-application-contexts-to-retrieve-user-information.md)
+  - components [13.3.2](using-application-contexts-to-retrieve-user-information.md)
+  - database links [13.3.4.6](using-application-contexts-to-retrieve-user-information.md)
+  - dynamic SQL [13.3.4.4](using-application-contexts-to-retrieve-user-information.md)
+  - externalized, using [13.3.12](using-application-contexts-to-retrieve-user-information.md)
+  - how to use [13.3](using-application-contexts-to-retrieve-user-information.md)
+  - initializing externally [13.3.10.1](using-application-contexts-to-retrieve-user-information.md)
+  - initializing globally [13.3.11.1](using-application-contexts-to-retrieve-user-information.md)
+  - ownership [13.3.3.1](using-application-contexts-to-retrieve-user-information.md)
+  - parallel queries [13.3.4.5](using-application-contexts-to-retrieve-user-information.md)
+  - PL/SQL package creation [13.3.4](using-application-contexts-to-retrieve-user-information.md)
+  - session information, setting [13.3.4.7](using-application-contexts-to-retrieve-user-information.md)
+  - SYS_CONTEXT function [13.3.4.2](using-application-contexts-to-retrieve-user-information.md)
+  - trusted procedure [13.1.2](using-application-contexts-to-retrieve-user-information.md)
+  - tutorial [13.3.9](using-application-contexts-to-retrieve-user-information.md)
+- database upgrades and CONNECT role [A.12.2.1](keeping-your-oracle-database-secure.md)
+- data definition language (DDL)
+  - roles and privileges [4.8.1.9](configuring-privilege-and-role-authorization.md)
+- data dictionary
+  - about [16.1](encrypt-sensitive-data.md)
+  - data dictionary views [16.7](encrypt-sensitive-data.md)
+  - deleting [16.5](encrypt-sensitive-data.md)
+  - encrypting sensitive information in [16.1](encrypt-sensitive-data.md), [16.2](encrypt-sensitive-data.md), [16.5](encrypt-sensitive-data.md), [16.3](encrypt-sensitive-data.md), [16.4](encrypt-sensitive-data.md), [16.6](encrypt-sensitive-data.md), [16.7](encrypt-sensitive-data.md)
+  - multitenant environment [16.2](encrypt-sensitive-data.md)
+  - procedure [16.3](encrypt-sensitive-data.md)
+  - protecting [A.6](keeping-your-oracle-database-secure.md)
+  - rekeying [16.4](encrypt-sensitive-data.md)
+  - restoring lost keystore [16.6](encrypt-sensitive-data.md)
+- data encryption and integrity parameters
+  - about [B.3.1](data-encryption-and-integrity-parameters.md)
+  - SQLNET.CRYPTO_CHECKSUM_CLIENT [B.3.5](data-encryption-and-integrity-parameters.md)
+  - SQLNET.CRYPTO_CHECKSUM_SERVER [B.3.4](data-encryption-and-integrity-parameters.md)
+  - SQLNET.CRYPTO_CHECKSUM_TYPES_CLIENT [B.3.9](data-encryption-and-integrity-parameters.md)
+  - SQLNET.CRYPTO_CHECKSUM_TYPES_SERVER [B.3.8](data-encryption-and-integrity-parameters.md)
+  - SQLNET.ENCRYPTION_CLIENT [B.3.3](data-encryption-and-integrity-parameters.md)
+  - SQLNET.ENCRYPTION_SERVER [B.3.2](data-encryption-and-integrity-parameters.md)
+  - SQLNET.ENCRYPTION_TYPES_CLIENT [B.3.7](data-encryption-and-integrity-parameters.md)
+  - SQLNET.ENCRYPTION_TYPES_SERVER [B.3.6](data-encryption-and-integrity-parameters.md)
+- Data Encryption Standard (DES)
+  - DES40 encryption algorithm [18.1.3](configuring-network-data-encryption-and-integrity.md)
+  - Triple-DES encryption algorithm [18.1.3](configuring-network-data-encryption-and-integrity.md)
+- data files [A.6](keeping-your-oracle-database-secure.md)
+  - guidelines for security [A.6](keeping-your-oracle-database-secure.md)
+- data manipulation language (DML)
+  - privileges controlling [4.11.1](configuring-privilege-and-role-authorization.md)
+- DATAPUMP_EXP_FULL_DATABASE role [4.8.2](configuring-privilege-and-role-authorization.md)
+- DATAPUMP_IMP_FULL_DATABASE role [4.8.2](configuring-privilege-and-role-authorization.md)
+- data security
+  - encryption, problems not solved by [17.1.3](manually-encrypting-data.md)
+- DBA_CONTAINER_DATA data dictionary view [4.6.6.1](configuring-privilege-and-role-authorization.md)
+- DBA_ROLE_PRIVS view
+  - application privileges, finding [12.7](managing-security-for-application-developers.md)
+- DBA_ROLES data dictionary view
+  - PUBLIC role [4.5.5](configuring-privilege-and-role-authorization.md)
+- DBA role
+  - about [4.8.2](configuring-privilege-and-role-authorization.md)
+- DBFS_ROLE role [4.8.2](configuring-privilege-and-role-authorization.md)
+- DBMS_CREDENTIAL.CREATE_CREDENTIAL procedure [12.4.4](managing-security-for-application-developers.md)
+- DBMS_CRYPTO package
+  - asymmetric key operations [17.4](manually-encrypting-data.md)
+  - data encryption storage [17.3](manually-encrypting-data.md)
+  - examples [17.6.1](manually-encrypting-data.md)
+  - supported cryptographic algorithms [17.3](manually-encrypting-data.md)
+- DBMS_CRYPTO PL/SQL package
+  - enabling for FIPS 140-2 [E.2](oracle-database-fips-140-settings.md)
+- DBMS_FGA package
+  - about [27.4.7.1](configuring-audit-policies.md)
+  - ADD_POLICY procedure [27.4.7.4.1](configuring-audit-policies.md)
+  - DISABLE_POLICY procedure [27.4.7.6](configuring-audit-policies.md)
+  - DROP_POLICY procedure [27.4.7.8](configuring-audit-policies.md)
+  - editions [27.4.7.2](configuring-audit-policies.md)
+  - ENABLE_POLICY procedure [27.4.7.7](configuring-audit-policies.md)
+  - PDBs [27.4.7.3](configuring-audit-policies.md)
+- DBMS_NETWORK_ACL_ADMIN.REMOVE_HOST_ACE procedure [10.5.4](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+- DBMS_PRIVILEGE_CAPTURE PL/SQL package [5.2.1](performing-privilege-analysis-identify-privilege-use.md)
+- DBMS_RLS.ADD_POLICY
+  - sec_relevant_cols_opt parameter [14.3.6.5](using-oracle-vpd-to-control-data-access.md)
+  - sec_relevant_cols parameter [14.3.6.1](using-oracle-vpd-to-control-data-access.md)
+- DBMS_RLS.ADD_POLICY procedure
+  - transparent sensitive data protection polices [15.12.2](using-transparent-sensitive-data-protection.md)
+- DBMS_SESSION.SET_CONTEXT procedure
+  - about [13.3.4.7](using-application-contexts-to-retrieve-user-information.md)
+  - syntax [13.3.4.7](using-application-contexts-to-retrieve-user-information.md)
+  - username and client_id settings [13.4.6.3](using-application-contexts-to-retrieve-user-information.md)
+- DBMS_SESSION.SET_IDENTIFIER procedure
+  - client session ID, setting [13.4.3](using-application-contexts-to-retrieve-user-information.md)
+  - DBMS_APPLICATION.SET_CLIENT_INFO value, overwritten by [3.14.2.6](configuring-authentication.md)
+- DBMS_SESSION package
+  - client identifiers, using [3.14.2.6](configuring-authentication.md)
+  - global application context, used in [13.4.6.1](using-application-contexts-to-retrieve-user-information.md)
+  - SET_CONTEXT procedure
+    - about [13.3.4.7](using-application-contexts-to-retrieve-user-information.md)
+- DBSFWUSER user account [2.6.2](managing-security-for-oracle-database-users.md)
+- DBSNMP user account
+  - about [2.6.2](managing-security-for-oracle-database-users.md)
+  - password usage [A.5](keeping-your-oracle-database-secure.md)
+- DDL
+  - See: data definition language
+- debugging
+  - Java stored procedures [10.12](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+  - PL/SQL stored procedures [10.12](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+- default command rules
+  - ORA_DV_AUDPOL2 predefined audit policy for [27.3.8](configuring-audit-policies.md)
+- default passwords [A.5](keeping-your-oracle-database-secure.md)
+  - change_on_install or manager passwords [A.5](keeping-your-oracle-database-secure.md)
+  - changing, importance of [3.2.4.2](configuring-authentication.md)
+  - finding [3.2.4.2](configuring-authentication.md)
+- default permissions [A.6](keeping-your-oracle-database-secure.md)
+- default profiles
+  - about [3.2.4.3](configuring-authentication.md)
+- default realms
+  - ORA_DV_AUDPOL2 predefined audit policy for [27.3.8](configuring-audit-policies.md)
+- default roles
+  - setting for user [2.2.11](managing-security-for-oracle-database-users.md)
+  - specifying [4.19.3](configuring-privilege-and-role-authorization.md)
+- defaults
+  - tablespace quota [2.2.7.1](managing-security-for-oracle-database-users.md)
+  - user tablespaces [2.2.6.1](managing-security-for-oracle-database-users.md)
+- default users
+  - accounts [A.3](keeping-your-oracle-database-secure.md)
+  - Enterprise Manager accounts [A.3](keeping-your-oracle-database-secure.md)
+  - passwords [A.5](keeping-your-oracle-database-secure.md)
+- definers’s rights, database links
+  - about [9.8.1](managing-security-for-definers-rights-and-invokers-rights.md)
+  - ORA-25433 error [9.8.1](managing-security-for-definers-rights-and-invokers-rights.md)
+- definer’s rights
+  - about [9.2](managing-security-for-definers-rights-and-invokers-rights.md)
+  - code based access control
+    - about [9.7.1](managing-security-for-definers-rights-and-invokers-rights.md)
+    - granting and revoking roles to program unit [9.7.6](managing-security-for-definers-rights-and-invokers-rights.md)
+    - how code based access control works [9.7.4](managing-security-for-definers-rights-and-invokers-rights.md)
+  - compared with invoker’s rights [9.1](managing-security-for-definers-rights-and-invokers-rights.md)
+  - example of when to use [9.2](managing-security-for-definers-rights-and-invokers-rights.md)
+  - procedure privileges, used with [9.2](managing-security-for-definers-rights-and-invokers-rights.md)
+  - procedure security [9.2](managing-security-for-definers-rights-and-invokers-rights.md)
+  - schema privileges for [9.2](managing-security-for-definers-rights-and-invokers-rights.md)
+  - secure application roles [12.8.2.1](managing-security-for-application-developers.md)
+  - used with Oracle Virtual Private Database functions [14.1.4](using-oracle-vpd-to-control-data-access.md)
+  - views [9.6.1](managing-security-for-definers-rights-and-invokers-rights.md)
+- definer’s rights, database links
+  - grants of INHERIT ANY REMOTE PRIVILEGES [9.8.4](managing-security-for-definers-rights-and-invokers-rights.md)
+  - grants of INHERIT ANY REMOTE PRIVILEGES on connected user to current user, example [9.8.3](managing-security-for-definers-rights-and-invokers-rights.md)
+  - grants of INHERIT REMOTE PRIVILEGES to other users [9.8.2](managing-security-for-definers-rights-and-invokers-rights.md)
+  - revokes of INHERIT \[ANY\] REMOTE PRIVILEGES [9.8.5](managing-security-for-definers-rights-and-invokers-rights.md)
+  - revoking INHERIT REMOTE PRIVILEGES from PUBLIC, example [9.8.7](managing-security-for-definers-rights-and-invokers-rights.md)
+  - revoking INHERIT REMOTE PRIVILEGES on connecting user from procedure owner, example [9.8.6](managing-security-for-definers-rights-and-invokers-rights.md)
+  - tutorial [9.8.8.1](managing-security-for-definers-rights-and-invokers-rights.md)
+- denial of service (DoS) attacks
+  - about
+- denial-of-service (DoS) attacks
+  - bad packets, preventing [12.12.1](managing-security-for-application-developers.md)
+  - networks, securing [A.9.2](keeping-your-oracle-database-secure.md)
+  - password concurrent guesses [3.2.1](configuring-authentication.md)
+- Department of Defense Database Security Technical Implementation Guide [3.2.6.5](configuring-authentication.md), [3.2.6.6](configuring-authentication.md)
+- dictionary tables
+  - auditing [27.2.7.4](configuring-audit-policies.md)
+- Diffie-Hellman [23.9.1.3.1](configuring-secure-sockets-layer-authentication.md)
+- Diffie-Hellman key negotiation algorithm [18.5](configuring-network-data-encryption-and-integrity.md)
+- DIP user account [2.6.3](managing-security-for-oracle-database-users.md)
+- directories
+  - auditing [27.2.7.2](configuring-audit-policies.md)
+- directory authentication, configuring for SYSDBA or SYSOPER access [3.3.2.2](configuring-authentication.md)
+- directory-based services authentication [3.8.2.4](configuring-authentication.md)
+- directory objects
+  - granting EXECUTE privilege on [4.15.1.3](configuring-privilege-and-role-authorization.md)
+- direct path load
+  - fine-grained auditing effects on [27.4.1](configuring-audit-policies.md)
+- disabling unnecessary services
+  - FTP, TFTP, TELNET [A.9.2](keeping-your-oracle-database-secure.md)
+- dispatcher processes (Dnnn)
+  - limiting SGA space for each session [2.4.2.5](managing-security-for-oracle-database-users.md)
+- distributed databases
+  - auditing and [26.10](introduction-to-auditing.md)
+- DML
+  - See: data manipulation language
+- driving context [13.6](using-application-contexts-to-retrieve-user-information.md)
+- DROP PROFILE statement
+  - example [2.4.4.6](managing-security-for-oracle-database-users.md)
+- DROP ROLE statement
+  - example [4.8.6](configuring-privilege-and-role-authorization.md)
+  - security domain, affected [4.8.6](configuring-privilege-and-role-authorization.md)
+- DROP USER statement
+  - about [2.5.3](managing-security-for-oracle-database-users.md)
+  - schema objects of dropped user [2.5.4](managing-security-for-oracle-database-users.md)
+- dsi.ora file
+  - about [6.2.2.4.2](integrating_mads_with_oracle_database.md)
+  - changing contents of [6.2.2.4.2](integrating_mads_with_oracle_database.md)
+  - compared with ldap.ora [6.2.2.4.1](integrating_mads_with_oracle_database.md)
+  - multitenant environment [6.2.2.4.2](integrating_mads_with_oracle_database.md)
+  - placement of [6.2.2.4.2](integrating_mads_with_oracle_database.md)
+  - search order for [6.2.2.4.2](integrating_mads_with_oracle_database.md)
+  - WALLET_LOCATION parameter and [6.2.2.4.2](integrating_mads_with_oracle_database.md)
+  - when to use [6.2.2.4.2](integrating_mads_with_oracle_database.md)
+- DVF schema
+  - ORA_DV_AUDPOL predefined audit policy for [27.3.7](configuring-audit-policies.md)
+- DVSYS schema
+  - ORA_DV_AUDPOL predefined audit policy for [27.3.7](configuring-audit-policies.md)
+- dynamic Oracle Virtual Private Database policy types [14.3.8.2](using-oracle-vpd-to-control-data-access.md)
+- DYNAMIC policy type [14.3.8.2](using-oracle-vpd-to-control-data-access.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- ECB ciphertext encryption mode [17.5](manually-encrypting-data.md)
+- editions
+  - application contexts, how affects [13.1.5](using-application-contexts-to-retrieve-user-information.md)
+  - fine-grained auditing packages, results in [13.4.6.2](using-application-contexts-to-retrieve-user-information.md)
+  - global application contexts, how affects [13.4.6.2](using-application-contexts-to-retrieve-user-information.md)
+  - Oracle Virtual Private Database packages, results in [13.4.6.2](using-application-contexts-to-retrieve-user-information.md)
+- EJBCLIENT role [4.8.2](configuring-privilege-and-role-authorization.md)
+- EM_EXPRESS_ALL role [4.8.2](configuring-privilege-and-role-authorization.md)
+- EM_EXPRESS_BASIC role [4.8.2](configuring-privilege-and-role-authorization.md)
+- email alert example [27.4.8.1](configuring-audit-policies.md)
+- encrypting information in [16.1](encrypt-sensitive-data.md)
+- encryption
+  - access control [17.1.1](manually-encrypting-data.md)
+  - BLOBS [17.2.6](manually-encrypting-data.md)
+  - challenges [17.2](manually-encrypting-data.md)
+  - data security, problems not solved by [17.1.3](manually-encrypting-data.md)
+  - data transfer [A.9.2](keeping-your-oracle-database-secure.md)
+  - deleted encrypted data [A.6](keeping-your-oracle-database-secure.md)
+  - examples [17.6.1](manually-encrypting-data.md)
+  - finding information about [17.7](manually-encrypting-data.md)
+  - indexed data [17.2.1](manually-encrypting-data.md)
+  - key generation [17.2.2](manually-encrypting-data.md)
+  - keys, changing [17.2.5](manually-encrypting-data.md)
+  - key storage [17.2.4.1](manually-encrypting-data.md)
+  - key transmission [17.2.3](manually-encrypting-data.md)
+  - malicious database administrators [17.1.2](manually-encrypting-data.md)
+  - network encryption [18.6](configuring-network-data-encryption-and-integrity.md)
+  - network traffic [A.9.2](keeping-your-oracle-database-secure.md)
+  - problems not solved by [17.1](manually-encrypting-data.md)
+  - Transparent Data Encryption [17.2.4.5](manually-encrypting-data.md)
+  - transparent tablespace encryption [17.2.4.5](manually-encrypting-data.md)
+- encryption and checksumming
+  - activating [18.6.1](configuring-network-data-encryption-and-integrity.md)
+  - applying patch \<number\> [18.3.2](configuring-network-data-encryption-and-integrity.md)
+  - negotiating [18.6.2.1](configuring-network-data-encryption-and-integrity.md)
+  - parameter settings [18.6.3](configuring-network-data-encryption-and-integrity.md)
+  - patching to use improved algorithms [18.3.1](configuring-network-data-encryption-and-integrity.md)
+- encryption of data dictionary sensitive data [16.1](encrypt-sensitive-data.md)
+- ENFORCE_CREDENTIAL configuration parameter
+  - security guideline [A.10](keeping-your-oracle-database-secure.md)
+- enterprise directory service [4.8.4.6](configuring-privilege-and-role-authorization.md)
+- enterprise roles [3.10.1](configuring-authentication.md), [4.8.4.6](configuring-privilege-and-role-authorization.md)
+- enterprise user management [12.2.1](managing-security-for-application-developers.md)
+- enterprise users
+  - centralized management [3.10.1](configuring-authentication.md)
+  - global role, creating [4.8.4.6](configuring-privilege-and-role-authorization.md)
+  - One Big Application User authentication, compromised by [12.2.1](managing-security-for-application-developers.md)
+  - proxy authentication [3.14.1.1](configuring-authentication.md)
+  - shared schemas, protecting users [12.10.2](managing-security-for-application-developers.md)
+- Enterprise User Security
+  - application context, globally initialized [13.3.11.3](using-application-contexts-to-retrieve-user-information.md)
+  - proxy authentication
+    - Oracle Virtual Private Database, how it works with [14.5.9](using-oracle-vpd-to-control-data-access.md)
+- error messages
+  - ORA-12650 [18.6.1](configuring-network-data-encryption-and-integrity.md), [18.6.2.2](configuring-network-data-encryption-and-integrity.md), [18.6.2.3](configuring-network-data-encryption-and-integrity.md), [B.3.6](data-encryption-and-integrity-parameters.md), [B.3.7](data-encryption-and-integrity-parameters.md), [B.3.9](data-encryption-and-integrity-parameters.md)
+  - ORA-25433 [9.8.1](managing-security-for-definers-rights-and-invokers-rights.md)
+- errors
+  - ORA-00036 [27.4.7.4.2](configuring-audit-policies.md)
+  - ORA-01720 [4.12.1](configuring-privilege-and-role-authorization.md)
+  - ORA-01994 [2.3.4.1](managing-security-for-oracle-database-users.md)
+  - ORA-06512 [10.12](managing-fine-grained-access-in-pl-sql-packages-and-types.md), [27.4.8.6](configuring-audit-policies.md)
+  - ORA-06598 [9.5.2](managing-security-for-definers-rights-and-invokers-rights.md)
+  - ORA-1000 [27.4.7.4.2](configuring-audit-policies.md)
+  - ORA-1536 [2.2.7.3](managing-security-for-oracle-database-users.md)
+  - ORA-24247 [10.4](managing-fine-grained-access-in-pl-sql-packages-and-types.md), [10.12](managing-fine-grained-access-in-pl-sql-packages-and-types.md), [27.4.8.6](configuring-audit-policies.md)
+  - ORA-28017 [2.3.4.1](managing-security-for-oracle-database-users.md)
+  - ORA-28040 [3.2.8.3](configuring-authentication.md), [3.4.1](configuring-authentication.md)
+  - ORA-28046 [2.3.4.1](managing-security-for-oracle-database-users.md)
+  - ORA-28144 [27.4.7.4.2](configuring-audit-policies.md)
+  - ORA-28575 [12.4.3](managing-security-for-application-developers.md)
+  - ORA-45622 [15.6.6.2](using-transparent-sensitive-data-protection.md)
+- example, basic [27.2.19.3](configuring-audit-policies.md)
+- example, comparison [27.2.19.4](configuring-audit-policies.md)
+- examples [14.4](using-oracle-vpd-to-control-data-access.md)
+  - See also: tutorials
+
+  <!-- -->
+
+  - access control lists
+    - external network connections [10.7](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - wallet access [10.7](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+  - account locking [3.2.4.8](configuring-authentication.md)
+  - auditing GRANT operations [27.2.7.6](configuring-audit-policies.md)
+  - auditing REVOKE operations [27.2.7.6](configuring-audit-policies.md)
+  - auditing user SYS [27.2.5.5](configuring-audit-policies.md)
+  - audit trail, purging unified trail [28.3.6](administering-the-audit-trail.md)
+  - data encryption
+    - encrypting and decrypting BLOB data [17.6.3](manually-encrypting-data.md)
+    - encrypting and decrypting procedure with AES 256-Bit [17.6.2](manually-encrypting-data.md)
+  - directory objects, granting EXECUTE privilege on [4.15.1.3](configuring-privilege-and-role-authorization.md)
+  - encrypting procedure [17.6.1](manually-encrypting-data.md)
+  - Java code to read passwords [12.3.4](managing-security-for-application-developers.md)
+  - locking an account with CREATE PROFILE [3.2.4.8](configuring-authentication.md)
+  - login attempt grace period [3.2.4.14](configuring-authentication.md)
+  - nondatabase user authentication [13.4.6.7](using-application-contexts-to-retrieve-user-information.md)
+  - passwords
+    - aging and expiration [3.2.4.12](configuring-authentication.md)
+    - changing [2.3.3.1](managing-security-for-oracle-database-users.md)
+    - creating for user [2.2.5](managing-security-for-oracle-database-users.md)
+  - privileges
+    - granting ADMIN OPTION [4.15.1.4](configuring-privilege-and-role-authorization.md)
+    - views [4.20.1](configuring-privilege-and-role-authorization.md)
+  - procedure privileges affecting packages [4.13.5.2](configuring-privilege-and-role-authorization.md), [4.13.5.3](configuring-privilege-and-role-authorization.md)
+  - profiles, assigning to user [2.2.9](managing-security-for-oracle-database-users.md)
+  - roles
+    - altering for external authorization [4.8.3.5](configuring-privilege-and-role-authorization.md)
+    - creating for application authorization [4.8.4.2](configuring-privilege-and-role-authorization.md)
+    - creating for external authorization [4.8.4.3](configuring-privilege-and-role-authorization.md)
+    - creating for password authorization [4.8.3.2](configuring-privilege-and-role-authorization.md), [4.8.3.3](configuring-privilege-and-role-authorization.md)
+    - default, setting [4.19.3](configuring-privilege-and-role-authorization.md)
+    - external [4.8.3.4](configuring-privilege-and-role-authorization.md)
+    - global [4.8.3.4](configuring-privilege-and-role-authorization.md)
+    - using SET ROLE for password-authenticated roles [4.8.4.1](configuring-privilege-and-role-authorization.md)
+    - views [4.20.1](configuring-privilege-and-role-authorization.md)
+  - secure external password store [3.2.9.2](configuring-authentication.md)
+  - session ID of user
+    - finding [2.5.2](managing-security-for-oracle-database-users.md)
+  - system privilege and role, granting [4.15.1.2](configuring-privilege-and-role-authorization.md)
+  - tablespaces
+    - assigning default to user [2.2.6.2](managing-security-for-oracle-database-users.md)
+    - quota, assigning to user [2.2.7.2](managing-security-for-oracle-database-users.md)
+    - temporary [2.2.8.2](managing-security-for-oracle-database-users.md)
+  - type creation [4.14.5](configuring-privilege-and-role-authorization.md)
+  - users
+    - account creation [2.2.3](managing-security-for-oracle-database-users.md)
+    - creating with GRANT statement [4.15.1.5](configuring-privilege-and-role-authorization.md)
+    - dropping [2.5.4](managing-security-for-oracle-database-users.md)
+    - middle-tier server proxying a client [3.14.1.5](configuring-authentication.md)
+    - object privileges granted to [4.15.2.1](configuring-privilege-and-role-authorization.md)
+    - proxy user, connecting as [3.14.1.5](configuring-authentication.md)
+- exceptions
+  - WHEN NO DATA FOUND, used in application context package [13.3.9.3](using-application-contexts-to-retrieve-user-information.md)
+  - WHEN OTHERS, used in triggers
+    - development environment (debugging) example [13.3.8](using-application-contexts-to-retrieve-user-information.md)
+    - production environment example [13.3.7](using-application-contexts-to-retrieve-user-information.md)
+- Exclusive Mode
+  - SHA-2 password hashing algorithm, enabling [3.2.8.2](configuring-authentication.md)
+- EXECUTE_CATALOG_ROLE role
+  - SYS schema objects, enabling access to [4.5.2.2](configuring-privilege-and-role-authorization.md)
+- EXECUTE ANY LIBRARY statement
+  - security guidelines [A.3](keeping-your-oracle-database-secure.md)
+- EXEMPT ACCESS POLICY privilege
+  - Oracle Virtual Private Database enforcements, exemption [14.5.7.2](using-oracle-vpd-to-control-data-access.md)
+- EXP_FULL_DATABASE role
+  - about [4.8.2](configuring-privilege-and-role-authorization.md)
+- expiring a password
+  - explicitly [3.2.4.14](configuring-authentication.md)
+- exporting data
+  - direct path export impact on Oracle Virtual Private Database [14.5.7.2](using-oracle-vpd-to-control-data-access.md)
+  - policy enforcement [14.5.7.2](using-oracle-vpd-to-control-data-access.md)
+- extended data objects
+  - views and Virtual Private Database [14.3.2](using-oracle-vpd-to-control-data-access.md)
+- external authentication
+  - about [3.11.1](configuring-authentication.md)
+  - advantages [3.11.2](configuring-authentication.md)
+  - network [3.11.6](configuring-authentication.md)
+  - operating system [3.11.5](configuring-authentication.md)
+  - user creation [3.11.4](configuring-authentication.md)
+- external network services
+  - enabling listener for [10.5.2](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+- external network services, fine-grained access to
+  - See: access control list (ACL)
+- external network services, syntax for [10.5.1](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+- external procedures
+  - configuring extproc process for [12.4.4](managing-security-for-application-developers.md)
+  - credentials [12.4.1](managing-security-for-application-developers.md)
+  - DBMS_CREDENTIAL.CREATE_CREDENTIAL procedure [12.4.4](managing-security-for-application-developers.md)
+  - legacy applications [12.4.5](managing-security-for-application-developers.md)
+  - security guideline [A.10](keeping-your-oracle-database-secure.md)
+- external roles [4.8.3.4](configuring-privilege-and-role-authorization.md)
+- external tables [A.6](keeping-your-oracle-database-secure.md)
+- extproc process
+  - about [12.4.1](managing-security-for-application-developers.md)
+  - configuring credential for [12.4.4](managing-security-for-application-developers.md)
+  - legacy applications [12.4.5](managing-security-for-application-developers.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- failed login attempts
+  - account locking [3.2.4.7](configuring-authentication.md)
+  - password management [3.2.4.7](configuring-authentication.md)
+  - resetting [3.2.4.7](configuring-authentication.md)
+- fallback authentication, Kerberos [22.5](configuring-kerberos-authentication.md)
+- Federal Information Processing Standard (FIPS)
+  - DBMS_CRYPTO package [E.2](oracle-database-fips-140-settings.md)
+  - FIPS 140-2
+    - Cipher Suites [E.3.2](oracle-database-fips-140-settings.md)
+    - postinstallation checks [E.5](oracle-database-fips-140-settings.md)
+    - SQLNET.FIPS_140 [E.4.2](oracle-database-fips-140-settings.md)
+    - SSLFIPS_140 [E.3.1](oracle-database-fips-140-settings.md)
+    - SSLFIPS_LIB [E.3.1](oracle-database-fips-140-settings.md), [E.4.2](oracle-database-fips-140-settings.md)
+    - verifying connections for DBMS_CRYPTO [E.6.3](oracle-database-fips-140-settings.md)
+    - verifying connections for network native encryption [E.6.2](oracle-database-fips-140-settings.md)
+    - verifying connections for TLS [E.6.1](oracle-database-fips-140-settings.md)
+  - Transparent Data Encryption [E.2](oracle-database-fips-140-settings.md)
+- files
+  - BFILEs
+    - operating system access, restricting [A.6](keeping-your-oracle-database-secure.md)
+  - BLOB [17.2.6](manually-encrypting-data.md)
+  - keys [17.2.4.3](manually-encrypting-data.md)
+  - listener.ora file
+    - guidelines for security [A.9.2](keeping-your-oracle-database-secure.md), [A.9.3](keeping-your-oracle-database-secure.md)
+  - restrict listener access [A.9.2](keeping-your-oracle-database-secure.md)
+  - server.key encryption file [A.9.3](keeping-your-oracle-database-secure.md)
+  - symbolic links, restricting [A.6](keeping-your-oracle-database-secure.md)
+  - tnsnames.ora [A.9.3](keeping-your-oracle-database-secure.md)
+- fine-grained access control
+  - See: Oracle Virtual Private Database (VPD)
+- fine-grained auditing
+  - about [27.4.1](configuring-audit-policies.md)
+  - alerts, adding to policy [27.4.8.1](configuring-audit-policies.md)
+  - archiving audit trail [28.2.2](administering-the-audit-trail.md)
+  - columns, specific [27.4.7.4.3](configuring-audit-policies.md)
+  - DBMS_FGA package [27.4.7.1](configuring-audit-policies.md)
+  - direct loads of data [27.4.1](configuring-audit-policies.md)
+  - edition-based redefinitions [27.4.6](configuring-audit-policies.md)
+  - editions, results in [13.4.6.2](using-application-contexts-to-retrieve-user-information.md)
+  - finding errors by checking trace files [27.5](configuring-audit-policies.md)
+  - how audit records are generated [27.4.2](configuring-audit-policies.md)
+  - how to use [27.4.1](configuring-audit-policies.md)
+  - policies
+    - adding [27.4.7.4.1](configuring-audit-policies.md)
+    - disabling [27.4.7.6](configuring-audit-policies.md)
+    - dropping [27.4.7.8](configuring-audit-policies.md)
+    - enabling [27.4.7.7](configuring-audit-policies.md)
+    - modifying [27.4.7.4.1](configuring-audit-policies.md)
+  - policy creation syntax [27.4.7.4.2](configuring-audit-policies.md)
+  - privileges required [27.4.3](configuring-audit-policies.md)
+  - records
+    - archiving [28.2.2](administering-the-audit-trail.md)
+  - transparent sensitive data protection policy settings [15.14.2](using-transparent-sensitive-data-protection.md)
+  - TSDP policies and [15.14.1](using-transparent-sensitive-data-protection.md)
+  - VPD predicates [27.4.4](configuring-audit-policies.md)
+- fips.ora file [E.3.1](oracle-database-fips-140-settings.md), [E.4.2](oracle-database-fips-140-settings.md)
+- FIPS 140-2 cryptographic libraries
+  - about [E.1](oracle-database-fips-140-settings.md)
+  - native network encryption [E.4.1](oracle-database-fips-140-settings.md)
+- FIPS parameter
+  - configuring [E.3](oracle-database-fips-140-settings.md)
+- firewalls
+  - advice about using [A.9.2](keeping-your-oracle-database-secure.md)
+  - database server location [A.9.2](keeping-your-oracle-database-secure.md)
+  - ports [A.9.3](keeping-your-oracle-database-secure.md)
+  - supported types [A.9.2](keeping-your-oracle-database-secure.md)
+- flashback query
+  - Oracle Virtual Private Database, how it works with [14.5.6](using-oracle-vpd-to-control-data-access.md)
+- foreign keys
+  - privilege to use parent key [4.11.2](configuring-privilege-and-role-authorization.md)
+- FTP service [A.9.2](keeping-your-oracle-database-secure.md)
+- functions
+  - auditing [27.2.7.2](configuring-audit-policies.md), [27.2.7.11](configuring-audit-policies.md)
+  - granting roles to [4.8.5.3](configuring-privilege-and-role-authorization.md)
+  - Oracle Virtual Private Database
+    - components of [14.2.1](using-oracle-vpd-to-control-data-access.md)
+    - privileges used to run [14.1.4](using-oracle-vpd-to-control-data-access.md)
+  - privileges for [4.13.1](configuring-privilege-and-role-authorization.md)
+  - roles [4.8.1.8](configuring-privilege-and-role-authorization.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- GATHER_SYSTEM_STATISTICS role [4.8.2](configuring-privilege-and-role-authorization.md)
+- GLOBAL_AQ_USER_ROLE role [4.8.2](configuring-privilege-and-role-authorization.md)
+- GLOBAL_EXTPROC_CREDENTIAL configuration parameter
+  - security guideline [12.4.5](managing-security-for-application-developers.md)
+- global application contexts [13.4.1](using-application-contexts-to-retrieve-user-information.md)
+  - See also: application contexts
+
+  <!-- -->
+
+  - about [13.4.1](using-application-contexts-to-retrieve-user-information.md)
+  - authenticating nondatabase users [13.4.6.7](using-application-contexts-to-retrieve-user-information.md)
+  - checking values set globally for all users [13.4.6.5](using-application-contexts-to-retrieve-user-information.md)
+  - clearing values set globally for all users [13.4.6.5](using-application-contexts-to-retrieve-user-information.md)
+  - components [13.4.3](using-application-contexts-to-retrieve-user-information.md)
+  - editions, affect on [13.4.6.2](using-application-contexts-to-retrieve-user-information.md)
+  - example of authenticating nondatabase users [13.4.6.8](using-application-contexts-to-retrieve-user-information.md)
+  - example of authenticating user moving to different application [13.4.6.6](using-application-contexts-to-retrieve-user-information.md)
+  - example of setting values for all users [13.4.6.5](using-application-contexts-to-retrieve-user-information.md)
+  - Oracle RAC environment [13.4.4](using-application-contexts-to-retrieve-user-information.md)
+  - Oracle RAC instances [13.4.1](using-application-contexts-to-retrieve-user-information.md)
+  - ownership [13.4.5.1](using-application-contexts-to-retrieve-user-information.md)
+  - PL/SQL package creation [13.4.6.1](using-application-contexts-to-retrieve-user-information.md)
+  - process, lightweight users [13.4.9.2](using-application-contexts-to-retrieve-user-information.md)
+  - process, standard [13.4.9.1](using-application-contexts-to-retrieve-user-information.md)
+  - sharing values globally for all users [13.4.6.4](using-application-contexts-to-retrieve-user-information.md)
+  - system global area [13.4.1](using-application-contexts-to-retrieve-user-information.md)
+  - tutorial for client session IDs [13.4.8.1](using-application-contexts-to-retrieve-user-information.md)
+  - used for One Big Application User scenarios [14.5.9](using-oracle-vpd-to-control-data-access.md)
+  - uses for [14.5.9](using-oracle-vpd-to-control-data-access.md)
+- global authentication
+  - about [3.10.1](configuring-authentication.md)
+  - advantages [3.10.3](configuring-authentication.md)
+  - user creation for private schemas [3.10.2.1](configuring-authentication.md)
+  - user creation for shared schemas [3.10.2.2](configuring-authentication.md)
+- global authorization
+  - about [3.10.1](configuring-authentication.md)
+  - advantages [3.10.3](configuring-authentication.md)
+  - role creation [4.8.4.6](configuring-privilege-and-role-authorization.md)
+  - roles [3.10.1](configuring-authentication.md)
+- global roles [4.8.3.4](configuring-privilege-and-role-authorization.md)
+  - about [4.8.4.6](configuring-privilege-and-role-authorization.md)
+- global users [3.10.1](configuring-authentication.md)
+- grace period for login attempts
+  - example [3.2.4.14](configuring-authentication.md)
+- grace period for password expiration [3.2.4.14](configuring-authentication.md)
+- gradual database password rollover
+  - about [3.2.5.1](configuring-authentication.md)
+  - actions permitted during [3.2.5.7](configuring-authentication.md)
+  - changing password during rollover period [3.2.5.5](configuring-authentication.md)
+  - changing password to begin rollover period [3.2.5.4](configuring-authentication.md)
+  - enabling [3.2.5.3](configuring-authentication.md)
+  - finding users who use old passwords [3.2.5.12](configuring-authentication.md)
+  - manually ending the password before rollover period [3.2.5.6](configuring-authentication.md)
+  - Oracle Data Guard [3.2.5.11](configuring-authentication.md)
+  - Oracle Data Pump exports [3.2.5.10](configuring-authentication.md)
+  - password change life cycle [3.2.5.2](configuring-authentication.md)
+  - passwords, compromised [3.2.5.9](configuring-authentication.md)
+  - server behavior after rollover ends [3.2.5.8](configuring-authentication.md)
+- GRANT ALL PRIVILEGES statement
+  - SELECT ANY DICTIONARY privilege, exclusion of [A.6](keeping-your-oracle-database-secure.md)
+- GRANT ANY PRIVILEGE system privilege [4.5.4](configuring-privilege-and-role-authorization.md)
+- GRANT CONNECT THROUGH clause
+  - consideration when setting FAILED_LOGIN_ATTEMPTS parameter [3.2.4.3](configuring-authentication.md)
+  - for proxy authorization [3.14.1.5](configuring-authentication.md)
+- granting privileges and roles
+  - about [4.5.3](configuring-privilege-and-role-authorization.md)
+  - specifying ALL [4.10.3.2](configuring-privilege-and-role-authorization.md)
+- GRANT statement [4.15.1.1](configuring-privilege-and-role-authorization.md)
+  - ADMIN OPTION [4.15.1.4](configuring-privilege-and-role-authorization.md)
+  - creating a new user [4.15.1.5](configuring-privilege-and-role-authorization.md)
+  - object privileges [4.15.2.1](configuring-privilege-and-role-authorization.md), [12.11.1](managing-security-for-application-developers.md)
+  - system privileges and roles [4.15](configuring-privilege-and-role-authorization.md)
+  - when takes effect [4.19.1](configuring-privilege-and-role-authorization.md)
+  - WITH GRANT OPTION [4.15.2.2](configuring-privilege-and-role-authorization.md)
+- GSMROOTUSER user account [2.6.2](managing-security-for-oracle-database-users.md)
+- guidelines
+  - handling compromised passwords [3.2.5.9](configuring-authentication.md)
+- guidelines for security
+  - auditing [A.11](keeping-your-oracle-database-secure.md)
+  - custom installation [A.8](keeping-your-oracle-database-secure.md)
+  - data files and directories [A.6](keeping-your-oracle-database-secure.md)
+  - encrypting sensitive data [A.6](keeping-your-oracle-database-secure.md)
+  - guidelines for security
+    - custom installation [A.8](keeping-your-oracle-database-secure.md)
+  - installation and configuration [A.8](keeping-your-oracle-database-secure.md)
+  - networking security [A.9](keeping-your-oracle-database-secure.md)
+  - operating system accounts, limiting privileges [A.6](keeping-your-oracle-database-secure.md)
+  - operating system users, limiting number of [A.6](keeping-your-oracle-database-secure.md)
+  - ORACLE_DATAPUMP access driver [A.7](keeping-your-oracle-database-secure.md)
+  - Oracle home default permissions, disallowing modification [A.6](keeping-your-oracle-database-secure.md)
+  - passwords [A.5](keeping-your-oracle-database-secure.md)
+  - products and options
+    - install only as necessary [A.8](keeping-your-oracle-database-secure.md)
+  - sample schemas [A.8](keeping-your-oracle-database-secure.md)
+  - Sample Schemas
+    - remove or relock for production [A.8](keeping-your-oracle-database-secure.md)
+    - test database [A.8](keeping-your-oracle-database-secure.md)
+  - symbolic links, restricting [A.6](keeping-your-oracle-database-secure.md)
+  - Transport Layer Security
+    - mode [A.9.3](keeping-your-oracle-database-secure.md)
+    - TCPS protocol [A.9.3](keeping-your-oracle-database-secure.md)
+  - user accounts and privileges [A.3](keeping-your-oracle-database-secure.md)
+
+------------------------------------------------------------------------
+
+## H
+
+- hackers
+  - See: security attacks
+- handshake
+  - TLS [23.3](configuring-secure-sockets-layer-authentication.md)
+- how it works [6.1.2](integrating_mads_with_oracle_database.md)
+- HR user account [2.6.4](managing-security-for-oracle-database-users.md)
+- HS_ADMIN_EXECUTE_ROLE role
+  - about [4.8.2](configuring-privilege-and-role-authorization.md)
+- HS_ADMIN_ROLE role
+  - about [4.8.2](configuring-privilege-and-role-authorization.md)
+- HS_ADMIN_SELECT_ROLE role
+  - about [4.8.2](configuring-privilege-and-role-authorization.md)
+- HTTP authentication
+  - See: access control lists (ACL), wallet access
+- HTTPS
+  - port, correct running on [A.9.3](keeping-your-oracle-database-secure.md)
+- HTTP verifier removal [A.5](keeping-your-oracle-database-secure.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- IMP_FULL_DATABASE role
+  - about [4.8.2](configuring-privilege-and-role-authorization.md)
+- INACTIVE_ACCOUNT_TIME profile parameter [3.2.4.6](configuring-authentication.md)
+- inactive user accounts, locking automatically [3.2.4.6](configuring-authentication.md)
+- indexed data
+  - encryption [17.2.1](manually-encrypting-data.md)
+- indirectly granted roles [4.8.1.2](configuring-privilege-and-role-authorization.md)
+- INHERIT ANY PRIVILEGES privilege
+  - about [9.5.2](managing-security-for-definers-rights-and-invokers-rights.md)
+  - managing [9.5.8](managing-security-for-definers-rights-and-invokers-rights.md)
+  - revoking from powerful users [9.5.7](managing-security-for-definers-rights-and-invokers-rights.md)
+  - when it should be granted [9.5.6](managing-security-for-definers-rights-and-invokers-rights.md)
+- INHERIT ANY REMOTE PRIVILEGES [9.8.1](managing-security-for-definers-rights-and-invokers-rights.md)
+- INHERIT PRIVILEGES privilege
+  - about [9.5.2](managing-security-for-definers-rights-and-invokers-rights.md)
+  - auditing [9.5.8](managing-security-for-definers-rights-and-invokers-rights.md)
+  - managing [9.5.8](managing-security-for-definers-rights-and-invokers-rights.md)
+  - when it should be granted [9.5.3](managing-security-for-definers-rights-and-invokers-rights.md)
+- INHERIT REMOTE PRIVILEGES
+  - about [9.8.1](managing-security-for-definers-rights-and-invokers-rights.md)
+- initialization parameter file
+  - parameters for clients and servers using Kerberos [C.1](kerberos-ssl-and-radius-authentication-parameters.md)
+  - parameters for clients and servers using RADIUS [24.4.1](configuring-radius-authentication.md), [C.3](kerberos-ssl-and-radius-authentication-parameters.md)
+  - parameters for clients and servers using TLS [C.2](kerberos-ssl-and-radius-authentication-parameters.md)
+- initialization parameters
+  - application protection [12.12](managing-security-for-application-developers.md)
+  - MAX_ENABLED_ROLES [4.19.4](configuring-privilege-and-role-authorization.md)
+  - OS_AUTHENT_PREFIX [3.11.3](configuring-authentication.md)
+  - OS_ROLES [4.8.4.4](configuring-privilege-and-role-authorization.md)
+  - SEC_MAX_FAILED_LOGIN_ATTEMPTS [12.12.3](managing-security-for-application-developers.md)
+  - SEC_RETURN_SERVER_RELEASE_BANNER [12.12.4](managing-security-for-application-developers.md)
+  - SEC_USER_AUDIT_ACTION_BANNER [12.12.5](managing-security-for-application-developers.md)
+  - SEC_USER_UNAUTHORIZED_ACCESS_BANNER [12.12.5](managing-security-for-application-developers.md)
+- INSERT privilege
+  - granting [4.15.2.4](configuring-privilege-and-role-authorization.md)
+  - revoking [4.16.2.4](configuring-privilege-and-role-authorization.md)
+- installation
+  - guidelines for security [A.8](keeping-your-oracle-database-secure.md)
+- intruders
+  - See: security attacks
+- invoker’s rights
+  - about [9.3](managing-security-for-definers-rights-and-invokers-rights.md)
+  - code based access control
+    - about [9.7.1](managing-security-for-definers-rights-and-invokers-rights.md)
+    - granting and revoking roles to program unit [9.7.6](managing-security-for-definers-rights-and-invokers-rights.md)
+    - how code based access control works [9.7.3](managing-security-for-definers-rights-and-invokers-rights.md)
+    - tutorial [9.7.7](managing-security-for-definers-rights-and-invokers-rights.md)
+  - compared with definer’s rights [9.1](managing-security-for-definers-rights-and-invokers-rights.md)
+  - controlled step-in [9.3](managing-security-for-definers-rights-and-invokers-rights.md)
+  - procedure privileges, used with [9.2](managing-security-for-definers-rights-and-invokers-rights.md)
+  - procedure security [9.3](managing-security-for-definers-rights-and-invokers-rights.md)
+  - secure application roles [12.8.2.1](managing-security-for-application-developers.md)
+  - secure application roles, requirement for enabling [12.8.2.1](managing-security-for-application-developers.md)
+  - security risk [9.5.1](managing-security-for-definers-rights-and-invokers-rights.md)
+  - views
+    - about [9.6.1](managing-security-for-definers-rights-and-invokers-rights.md)
+    - finding user who invoked invoker’s right view [9.6.3](managing-security-for-definers-rights-and-invokers-rights.md)
+- IP addresses
+  - falsifying [A.9.2](keeping-your-oracle-database-secure.md)
+- IX user account [2.6.4](managing-security-for-oracle-database-users.md)
+
+------------------------------------------------------------------------
+
+## J
+
+- JAVA_ADMIN role [4.8.2](configuring-privilege-and-role-authorization.md)
+- JAVA_RESTRICT initialization parameter
+  - security guideline [A.6](keeping-your-oracle-database-secure.md)
+- Java Byte Code Obfuscation [19.5](configuring-thin-jdbc-client-network.md)
+- Java Database Connectivity (JDBC)
+  - configuration parameters [19.6.1](configuring-thin-jdbc-client-network.md)
+  - Oracle extensions [19.2](configuring-thin-jdbc-client-network.md)
+  - thin driver features [19.3](configuring-thin-jdbc-client-network.md)
+- JAVADEBUGPRIV role [4.8.2](configuring-privilege-and-role-authorization.md)
+- Java Debug Wire Protocol (JDWP)
+  - network access for debugging operations [10.12](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+- JAVAIDPRIV role [4.8.2](configuring-privilege-and-role-authorization.md)
+- Java schema objects
+  - auditing [27.2.7.2](configuring-audit-policies.md)
+- Java stored procedures
+  - network access for debugging operations [10.12](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+- JAVASYSPRIV role [4.8.2](configuring-privilege-and-role-authorization.md)
+- JAVAUSERPRIV role [4.8.2](configuring-privilege-and-role-authorization.md)
+- JDBC
+  - See: Java Database Connectivity
+- JDBC connections
+  - JDBC/OCI proxy authentication [3.14.1.1](configuring-authentication.md)
+    - multiple user sessions [3.14.1.8](configuring-authentication.md)
+    - Oracle Virtual Private Database [14.5.9](using-oracle-vpd-to-control-data-access.md)
+  - JDBC Thin Driver proxy authentication
+    - configuring [3.14.1.1](configuring-authentication.md)
+    - with real user [3.14.1.8](configuring-authentication.md)
+- JDeveloper
+  - debugging using Java Debug Wire Protocol [10.12](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+- JMXSERVER role [4.8.2](configuring-privilege-and-role-authorization.md)
+
+------------------------------------------------------------------------
+
+## K
+
+- Kerberos [20.4.1](introduction-to-strong-authentication.md)
+  - authentication adapter utilities [22.2](configuring-kerberos-authentication.md)
+  - authentication fallback behavior [22.5](configuring-kerberos-authentication.md)
+  - configuring authentication [22.1](configuring-kerberos-authentication.md), [22.1.6.1](configuring-kerberos-authentication.md)
+  - configuring for database server [22.1.2](configuring-kerberos-authentication.md)
+  - configuring for Windows 2008 Domain Controller KDC [22.4](configuring-kerberos-authentication.md)
+  - connecting to database [22.3](configuring-kerberos-authentication.md)
+  - interoperability with Windows Server Domain Controller KDC [22.4.1](configuring-kerberos-authentication.md)
+  - kinstance [22.1.2](configuring-kerberos-authentication.md)
+  - kservice [22.1.2](configuring-kerberos-authentication.md)
+  - realm [22.1.2](configuring-kerberos-authentication.md)
+  - sqlnet.ora file sample [B.2](data-encryption-and-integrity-parameters.md)
+  - system requirements [20.6](introduction-to-strong-authentication.md)
+- Kerberos authentication [3.8.2.2](configuring-authentication.md)
+  - configuring for SYSDBA or SYSOPER access [3.3.2.3](configuring-authentication.md)
+  - password management [A.5](keeping-your-oracle-database-secure.md)
+- Kerberos Key Distribution Center (KDC) [22.4](configuring-kerberos-authentication.md)
+- key generation
+  - encryption [17.2.2](manually-encrypting-data.md)
+- key storage
+  - encryption [17.2.4.1](manually-encrypting-data.md)
+- key transmission
+  - encryption [17.2.3](manually-encrypting-data.md)
+- kinstance (Kerberos) [22.1.2](configuring-kerberos-authentication.md)
+- kservice (Kerberos) [22.1.2](configuring-kerberos-authentication.md)
+
+------------------------------------------------------------------------
+
+## L
+
+- large objects (LOBs)
+  - about securing [12.5.1](managing-security-for-application-developers.md)
+  - encryption management [12.5.2](managing-security-for-application-developers.md)
+- LBAC_DBA role [4.8.2](configuring-privilege-and-role-authorization.md)
+- LBACSYS.ORA_GET_AUDITED_LABEL function
+  - about [27.2.15.9](configuring-audit-policies.md)
+- LBACSYS schema
+  - ORA_DV_AUDPOL predefined audit policy for [27.3.7](configuring-audit-policies.md)
+- LBACSYS user account [2.6.2](managing-security-for-oracle-database-users.md)
+- ldap.ora
+  - which directory SSL port to use for no authentication [23.14.5.4](configuring-secure-sockets-layer-authentication.md)
+- ldap.ora file
+  - about [6.2.2.4.4](integrating_mads_with_oracle_database.md)
+  - benefit of [6.2.2.4.4](integrating_mads_with_oracle_database.md)
+  - changing contents of [6.2.2.4.4](integrating_mads_with_oracle_database.md)
+  - compared with dsi.ora [6.2.2.4.1](integrating_mads_with_oracle_database.md)
+  - creating for Microsoft Active Directory services [6.2.2.4.3](integrating_mads_with_oracle_database.md), [6.2.2.4.5](integrating_mads_with_oracle_database.md)
+  - placement of [6.2.2.4.4](integrating_mads_with_oracle_database.md)
+  - search order for [6.2.2.4.4](integrating_mads_with_oracle_database.md)
+- least privilege principle [A.3](keeping-your-oracle-database-secure.md)
+  - about [A.3](keeping-your-oracle-database-secure.md)
+  - granting user privileges [A.3](keeping-your-oracle-database-secure.md)
+  - middle-tier privileges [3.14.1.9](configuring-authentication.md)
+- libraries
+  - auditing [27.2.7.2](configuring-audit-policies.md)
+- lightweight users
+  - example using a global application context [13.4.8.1](using-application-contexts-to-retrieve-user-information.md)
+  - Lightweight Directory Access Protocol (LDAP) [14.4.2.9](using-oracle-vpd-to-control-data-access.md)
+- listener
+  - endpoint
+    - TLS configuration [23.9.1.8](configuring-secure-sockets-layer-authentication.md)
+  - not an Oracle owner [A.9.2](keeping-your-oracle-database-secure.md)
+  - preventing online administration [A.9.2](keeping-your-oracle-database-secure.md)
+  - restrict privileges [A.9.2](keeping-your-oracle-database-secure.md)
+  - secure administration [A.9.2](keeping-your-oracle-database-secure.md)
+- listener.ora file
+  - administering remotely [A.9.2](keeping-your-oracle-database-secure.md)
+  - default location [A.9.3](keeping-your-oracle-database-secure.md)
+  - FIPS 140-2 Cipher Suite settings [E.3.2](oracle-database-fips-140-settings.md)
+  - online administration, preventing [A.9.2](keeping-your-oracle-database-secure.md)
+  - Oracle wallet setting [C.2.8](kerberos-ssl-and-radius-authentication-parameters.md)
+  - TCPS, securing [A.9.3](keeping-your-oracle-database-secure.md)
+- lists data dictionary
+  - See: views
+
+  <!-- -->
+
+  - data dictionary views
+    - See: views
+  - granting privileges and roles
+    - finding information about [4.20.1](configuring-privilege-and-role-authorization.md)
+  - privileges
+    - finding information about [4.20.1](configuring-privilege-and-role-authorization.md)
+  - roles
+    - finding information about [4.20.1](configuring-privilege-and-role-authorization.md)
+  - views
+    - privileges [4.20.1](configuring-privilege-and-role-authorization.md)
+    - roles [4.20.1](configuring-privilege-and-role-authorization.md)
+- LOB_SIGNATURE_ENABLE initialization parameter [12.5.1](managing-security-for-application-developers.md)
+- LOBs
+  - about securing [12.5.1](managing-security-for-application-developers.md)
+  - encryption management [12.5.2](managing-security-for-application-developers.md)
+- local privilege grants
+  - about [4.6.1](configuring-privilege-and-role-authorization.md)
+  - granting [4.6.4](configuring-privilege-and-role-authorization.md)
+  - revoking [4.6.4](configuring-privilege-and-role-authorization.md)
+- local roles
+  - about [4.7.1](configuring-privilege-and-role-authorization.md)
+  - creating [4.7.8](configuring-privilege-and-role-authorization.md)
+  - rules for creating [4.7.7](configuring-privilege-and-role-authorization.md)
+- local user accounts
+  - creating [2.2.10.3](managing-security-for-oracle-database-users.md)
+- local users
+  - about [2.2.1.3](managing-security-for-oracle-database-users.md)
+- lock and expire
+  - default accounts [A.3](keeping-your-oracle-database-secure.md)
+  - predefined user accounts [A.3](keeping-your-oracle-database-secure.md)
+- lockdown profiles, PDB [4.9.1](configuring-privilege-and-role-authorization.md)
+- locking inactive user accounts automatically [3.2.4.6](configuring-authentication.md)
+- log files
+  - owned by trusted user [A.6](keeping-your-oracle-database-secure.md)
+- logical reads limit [2.4.2.4](managing-security-for-oracle-database-users.md)
+- logon triggers
+  - externally initialized application contexts [13.3.5](using-application-contexts-to-retrieve-user-information.md)
+  - for application context packages [13.3.5](using-application-contexts-to-retrieve-user-information.md)
+  - running database session application context package [13.3.5](using-application-contexts-to-retrieve-user-information.md)
+  - secure application roles [4.8.8](configuring-privilege-and-role-authorization.md)
+- LOGSTDBY_ADMINISTRATOR role [4.8.2](configuring-privilege-and-role-authorization.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- malicious database administrators [17.1.2](manually-encrypting-data.md)
+  - See also: security attacks
+- manager default password [A.5](keeping-your-oracle-database-secure.md)
+- managing roles with RADIUS server [24.5.1.8](configuring-radius-authentication.md), [24.5.2.8](configuring-radius-authentication.md)
+- materialized views
+  - auditing [27.2.7.2](configuring-audit-policies.md)
+- MD5 message digest algorithm [18.4](configuring-network-data-encryption-and-integrity.md)
+- MDDATA user account [2.6.3](managing-security-for-oracle-database-users.md)
+- MDSYS user account [2.6.2](managing-security-for-oracle-database-users.md)
+- memory
+  - users, viewing [2.7.5](managing-security-for-oracle-database-users.md)
+- MERGE INTO statement, affected by DBMS_RLS.ADD_POLICY statement_types parameter [14.3.4](using-oracle-vpd-to-control-data-access.md)
+- metadata links
+  - privilege management [4.10.6.1](configuring-privilege-and-role-authorization.md)
+- methods
+  - privileges on [4.14](configuring-privilege-and-role-authorization.md)
+- Microsoft Active Directory services [6.1.3](integrating_mads_with_oracle_database.md), [6.1.4](integrating_mads_with_oracle_database.md), [6.1.5](integrating_mads_with_oracle_database.md), [6.1.6](integrating_mads_with_oracle_database.md), [6.2.1](integrating_mads_with_oracle_database.md), [6.2.2.1](integrating_mads_with_oracle_database.md), [6.2.2.5](integrating_mads_with_oracle_database.md), [6.2.2.7.2](integrating_mads_with_oracle_database.md), [6.2.2.7.3](integrating_mads_with_oracle_database.md)
+  - about configuring connection [6.2.2.7.1](integrating_mads_with_oracle_database.md)
+  - about password authentication [6.3.1.1](integrating_mads_with_oracle_database.md)
+  - access, Kerberos authentication [6.3.2](integrating_mads_with_oracle_database.md)
+  - access, PKI authentication [6.3.3](integrating_mads_with_oracle_database.md)
+  - access configuration, Oracle wallet verification [6.2.2.8](integrating_mads_with_oracle_database.md)
+  - access configuration, testing integration [6.2.2.9](integrating_mads_with_oracle_database.md)
+  - account policies [6.6](integrating_mads_with_oracle_database.md)
+  - administrative user configuration, exclusive mapping [6.4.6.2](integrating_mads_with_oracle_database.md)
+  - administrative user configuration, shared access accounts [6.4.6.1](integrating_mads_with_oracle_database.md)
+  - dsi.ora file, about [6.2.2.4.2](integrating_mads_with_oracle_database.md)
+  - dsi.ora file, compared with ldap.ora [6.2.2.4.1](integrating_mads_with_oracle_database.md)
+  - extending Active Directory schema [6.2.2.2](integrating_mads_with_oracle_database.md)
+  - ldap.ora file, about [6.2.2.4.4](integrating_mads_with_oracle_database.md)
+  - ldap.ora file, compared with dsi.ora [6.2.2.4.1](integrating_mads_with_oracle_database.md)
+  - ldap.ora file, creating [6.2.2.4.3](integrating_mads_with_oracle_database.md), [6.2.2.4.5](integrating_mads_with_oracle_database.md)
+  - logon user name with password authentication [6.3.1.3](integrating_mads_with_oracle_database.md)
+  - user authorization, about [6.4.1](integrating_mads_with_oracle_database.md)
+  - user authorization, mapping Directory user group to global role [6.4.3](integrating_mads_with_oracle_database.md)
+  - user authorization, verifying [6.4.7](integrating_mads_with_oracle_database.md)
+  - user management, altering mapping definition [6.4.5](integrating_mads_with_oracle_database.md)
+  - user management, exclusively mapping Directory user to database global user [6.4.4](integrating_mads_with_oracle_database.md)
+  - user management, mapping group to shared global user [6.4.2](integrating_mads_with_oracle_database.md)
+  - user management, migrating mapping definition [6.4.5](integrating_mads_with_oracle_database.md)
+- Microsoft Active Directory services integration [6.1.1](integrating_mads_with_oracle_database.md), [6.1.2](integrating_mads_with_oracle_database.md), [6.1.7](integrating_mads_with_oracle_database.md)
+- Microsoft Azure AD token
+  - checking version of [8.6.3](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+- Microsoft Directory Access services [6.2.2.7.4](integrating_mads_with_oracle_database.md)
+- Microsoft Windows
+  - Kerberos
+    - configuring for Windows 2008 Domain Controller KDC [22.4](configuring-kerberos-authentication.md)
+- middle-tier systems
+  - client identifiers [3.14.2.2](configuring-authentication.md)
+  - enterprise user connections [3.14.1.14](configuring-authentication.md)
+  - password-based proxy authentication [3.14.1.13](configuring-authentication.md)
+  - privileges, limiting [3.14.1.9](configuring-authentication.md)
+  - proxies authenticating users [3.14.1.10](configuring-authentication.md)
+  - proxying but not authenticating users [3.14.1.11](configuring-authentication.md)
+  - reauthenticating user to database [3.14.1.12](configuring-authentication.md)
+  - USERENV namespace attributes, accessing [13.3.10.5](using-application-contexts-to-retrieve-user-information.md)
+- mining models
+  - auditing [27.2.7.2](configuring-audit-policies.md)
+- mixed mode auditing capabilities [26.7.4](introduction-to-auditing.md)
+- monitoring user actions [26.1](introduction-to-auditing.md)
+  - See also: auditing, standard auditing, fine-grained auditing
+- multiplex multiple-client network sessions [A.9.2](keeping-your-oracle-database-secure.md)
+- multitenant container database (CDB)
+  - See: CDBs
+- multitenant option [6.1.6](integrating_mads_with_oracle_database.md)
+- My Oracle Support
+  - security patches, downloading [A.2.1](keeping-your-oracle-database-secure.md)
+  - user account for logging service requests [2.6.3](managing-security-for-oracle-database-users.md)
+
+------------------------------------------------------------------------
+
+## N
+
+- native network encryption
+  - compared with Transport Layer Security [18.1.4](configuring-network-data-encryption-and-integrity.md)
+  - FIPS 140-2 [E.4.1](oracle-database-fips-140-settings.md)
+  - FIPS library location setting (SSLFIPS_LIB) [E.4.2](oracle-database-fips-140-settings.md)
+  - FIPS mode setting (FIPS_140) [E.4.2](oracle-database-fips-140-settings.md)
+- native network enryption
+  - disabling [25.2](customizing-the-use-of-strong-authentication.md)
+- nCipher hardware security module
+  - using Oracle Net tracing to troubleshoot [23.15.4.1](configuring-secure-sockets-layer-authentication.md)
+- Net8
+  - See: Oracle Net
+- Netscape Communications Corporation [23.1](configuring-secure-sockets-layer-authentication.md)
+- network authentication
+  - external authentication [3.11.6](configuring-authentication.md)
+  - guidelines for securing [A.5](keeping-your-oracle-database-secure.md)
+  - roles, granting using [4.18.1](configuring-privilege-and-role-authorization.md)
+  - smart cards [A.5](keeping-your-oracle-database-secure.md)
+  - third-party services [3.8.2.1](configuring-authentication.md)
+  - token cards [A.5](keeping-your-oracle-database-secure.md)
+  - Transport Layer Security [3.8.1](configuring-authentication.md)
+  - X.509 certificates [A.5](keeping-your-oracle-database-secure.md)
+- network connections
+  - denial-of-service (DoS) attacks, addressing [A.9.2](keeping-your-oracle-database-secure.md)
+  - guidelines for security [A.9](keeping-your-oracle-database-secure.md), [A.9.1](keeping-your-oracle-database-secure.md), [A.9.2](keeping-your-oracle-database-secure.md)
+  - securing [A.9.2](keeping-your-oracle-database-secure.md)
+- network encryption
+  - about [18.6](configuring-network-data-encryption-and-integrity.md)
+  - configuring [18.6](configuring-network-data-encryption-and-integrity.md)
+- network IP addresses
+  - guidelines for security [A.9.2](keeping-your-oracle-database-secure.md)
+- network traffic encryption [A.9.2](keeping-your-oracle-database-secure.md)
+- nondatabase users [13.4.2](using-application-contexts-to-retrieve-user-information.md)
+  - See also: application contexts, client identifiers
+
+  <!-- -->
+
+  - about [13.4.2](using-application-contexts-to-retrieve-user-information.md)
+  - auditing [27.2.25](configuring-audit-policies.md)
+  - clearing session data [13.4.6.9](using-application-contexts-to-retrieve-user-information.md)
+  - creating client session-based application contexts [13.5.1](using-application-contexts-to-retrieve-user-information.md)
+  - global application contexts
+    - package example [13.4.6.8](using-application-contexts-to-retrieve-user-information.md)
+    - reason for using [13.4.2](using-application-contexts-to-retrieve-user-information.md)
+    - setting [13.4.6.7](using-application-contexts-to-retrieve-user-information.md)
+    - tutorial [13.4.8.1](using-application-contexts-to-retrieve-user-information.md)
+  - One Big Application User authentication
+    - about [14.5.9](using-oracle-vpd-to-control-data-access.md)
+    - features compromised by [12.2.1](managing-security-for-application-developers.md)
+    - security risks [12.2.1](managing-security-for-application-developers.md)
+  - Oracle Virtual Private Database
+    - how it works with [14.5.9](using-oracle-vpd-to-control-data-access.md)
+    - tutorial for creating a policy group [14.4.3.1](using-oracle-vpd-to-control-data-access.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- obfuscation [19.5](configuring-thin-jdbc-client-network.md)
+- object privileges [4.10.1](configuring-privilege-and-role-authorization.md), [A.3](keeping-your-oracle-database-secure.md)
+  - See also: schema object privileges
+
+  <!-- -->
+
+  - about [4.10.1](configuring-privilege-and-role-authorization.md)
+  - granting on behalf of the owner [4.15.2.3](configuring-privilege-and-role-authorization.md)
+  - managing [12.11](managing-security-for-application-developers.md)
+  - revoking [4.16.2.1](configuring-privilege-and-role-authorization.md)
+  - revoking on behalf of owner [4.16.2.3](configuring-privilege-and-role-authorization.md)
+  - schema object privileges [4.10.1](configuring-privilege-and-role-authorization.md)
+  - synonyms [4.10.5](configuring-privilege-and-role-authorization.md)
+  - with common privilege grants [4.6.3](configuring-privilege-and-role-authorization.md)
+- objects
+  - applications, managing privileges in [12.11](managing-security-for-application-developers.md)
+  - granting privileges [12.11.2](managing-security-for-application-developers.md)
+  - privileges
+    - applications [12.11.1](managing-security-for-application-developers.md)
+    - managing [4.14](configuring-privilege-and-role-authorization.md)
+  - protecting in shared schemas [12.10.2](managing-security-for-application-developers.md)
+  - protecting in unique schemas [12.10.1](managing-security-for-application-developers.md)
+  - SYS schema, access to [4.5.2.2](configuring-privilege-and-role-authorization.md)
+- object types
+  - auditing [27.2.7.2](configuring-audit-policies.md)
+- OEM_ADVISOR role [4.8.2](configuring-privilege-and-role-authorization.md)
+- OEM_MONITOR role [4.8.2](configuring-privilege-and-role-authorization.md)
+- OE user account [2.6.4](managing-security-for-oracle-database-users.md)
+- OFB ciphertext encryption mode [17.5](manually-encrypting-data.md)
+- OJVMSYS user account [2.6.2](managing-security-for-oracle-database-users.md)
+- okcreate
+  - Kerberos adapter utility [22.2](configuring-kerberos-authentication.md)
+- okcreate options [22.2.4](configuring-kerberos-authentication.md)
+- okdstry
+  - Kerberos adapter utility [22.2](configuring-kerberos-authentication.md)
+- okdstry options [22.2.3](configuring-kerberos-authentication.md)
+- okinit
+  - Kerberos adapter utility [22.2](configuring-kerberos-authentication.md)
+- okinit utility options [22.2.1](configuring-kerberos-authentication.md)
+- oklist
+  - Kerberos adapter utility [22.2](configuring-kerberos-authentication.md)
+- OLAP_DBA role [4.8.2](configuring-privilege-and-role-authorization.md)
+- OLAP_USER role [4.8.2](configuring-privilege-and-role-authorization.md)
+- OLAP_XS_ADMIN role [4.8.2](configuring-privilege-and-role-authorization.md)
+- OLAPSYS user account [2.6.2](managing-security-for-oracle-database-users.md)
+- One Big Application User authentication
+  - See: nondatabase users
+- openssl utility
+  - creating PKCS#12 wallet with [F.7.2.2](using-the-orapki-utility-to-manage-pki-elements.md)
+- operating system
+  - audit files written to [28.1.6](administering-the-audit-trail.md)
+- operating systems [3.9.1](configuring-authentication.md)
+  - accounts [4.18.2](configuring-privilege-and-role-authorization.md)
+  - authentication
+    - about [3.7](configuring-authentication.md)
+    - advantages [3.7](configuring-authentication.md)
+    - disadvantages [3.7](configuring-authentication.md)
+    - external [3.11.5](configuring-authentication.md)
+    - operating system user for PDB [3.9.1](configuring-authentication.md)
+    - roles, using [4.18.1](configuring-privilege-and-role-authorization.md)
+  - default permissions [A.6](keeping-your-oracle-database-secure.md)
+  - enabling and disabling roles [4.18.5](configuring-privilege-and-role-authorization.md)
+  - operating system account privileges, limiting [A.6](keeping-your-oracle-database-secure.md)
+  - role identification [4.18.2](configuring-privilege-and-role-authorization.md)
+  - roles, granting using [4.18.1](configuring-privilege-and-role-authorization.md)
+  - roles and [4.8.1.10](configuring-privilege-and-role-authorization.md)
+  - users, limiting number of [A.6](keeping-your-oracle-database-secure.md)
+- operating system users
+  - configuring for PDBs [3.9.2](configuring-authentication.md)
+- OPTIMIZER_PROCESSING_RATE role [4.8.2](configuring-privilege-and-role-authorization.md)
+- ORA_ACCOUNT_MGMT predefined unified audit policy [27.3.4](configuring-audit-policies.md)
+- ORA_CIS_RECOMMENDATIONS predefined unified audit policy [27.3.5](configuring-audit-policies.md)
+- ORA_DATABASE_PARAMETER predefined unified audit policy [27.3.3](configuring-audit-policies.md)
+- ORA_DV_AUDPOL2 predefined unified audit policy [27.3.8](configuring-audit-policies.md)
+- ORA_DV_AUDPOL predefined unified audit policy [27.3.7](configuring-audit-policies.md)
+- ORA_LOGON_FAILURES predefined unified audit policy [27.3.1](configuring-audit-policies.md)
+- ORA_SECURECONFIG predefined unified audit policy [27.3.2](configuring-audit-policies.md)
+- ORA_STIG_PROFILE profile [3.2.6.5](configuring-authentication.md)
+- ORA\$DEPENDENCY profile [5.1.6](performing-privilege-analysis-identify-privilege-use.md)
+- ORA-01017 errors in Oracle Cloud Infrastructure-IAM integration [7.8.3](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+- ORA-01017 errors in Oracle DBaaS-IAM integration
+  - client-side [7.8.1](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - IAM administrator actions to remedy [7.8.6](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - IAM user configurations [7.8.4](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+- ORA-01720 error [4.12.1](configuring-privilege-and-role-authorization.md)
+- ORA-01994 [2.3.4.1](managing-security-for-oracle-database-users.md)
+- ORA-03114 error [7.8.5](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md), [8.6.2](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+- ORA-06512 error [10.12](managing-fine-grained-access-in-pl-sql-packages-and-types.md), [27.4.8.6](configuring-audit-policies.md)
+- ORA-06598 error [9.5.2](managing-security-for-definers-rights-and-invokers-rights.md)
+- ORA-12599 error [7.8.5](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md), [8.6.2](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+- ORA-12650 error [B.3.7](data-encryption-and-integrity-parameters.md)
+- ORA-1536 error [2.2.7.3](managing-security-for-oracle-database-users.md)
+- ORA-24247 error [10.4](managing-fine-grained-access-in-pl-sql-packages-and-types.md), [10.12](managing-fine-grained-access-in-pl-sql-packages-and-types.md), [27.4.8.6](configuring-audit-policies.md)
+- ORA-28017 error [2.3.4.1](managing-security-for-oracle-database-users.md)
+- ORA-28040 error [3.2.8.3](configuring-authentication.md), [3.4.1](configuring-authentication.md)
+- ORA-28046 error [2.3.4.1](managing-security-for-oracle-database-users.md)
+- ORA-28575 error [12.4.3](managing-security-for-application-developers.md)
+- ORA-29024 error [10.6.6](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+- ORA-40300 error [23.15.4.2](configuring-secure-sockets-layer-authentication.md)
+- ORA-40301 error [23.15.4.2](configuring-secure-sockets-layer-authentication.md)
+- ORA-40302 error [23.15.4.2](configuring-secure-sockets-layer-authentication.md)
+- ORA-45622 errors [15.6.6.2](using-transparent-sensitive-data-protection.md)
+- ORA-64219: invalid LOB locator encountered [12.5.1](managing-security-for-application-developers.md)
+- ORACLE_DATAPUMP access driver
+  - guidelines for security [A.7](keeping-your-oracle-database-secure.md)
+- ORACLE_OCM user account [2.6.3](managing-security-for-oracle-database-users.md)
+- Oracle Advanced Security
+  - checksum sample for sqlnet.ora file [B.2](data-encryption-and-integrity-parameters.md)
+  - configuration parameters [19.6.1](configuring-thin-jdbc-client-network.md)
+  - encryption sample for sqlnet.ora file [B.2](data-encryption-and-integrity-parameters.md)
+  - Java implementation [19.4](configuring-thin-jdbc-client-network.md)
+  - network authentication services [A.5](keeping-your-oracle-database-secure.md)
+  - TLS features [23.2](configuring-secure-sockets-layer-authentication.md)
+  - user access to application schemas [12.10.2](managing-security-for-application-developers.md)
+- Oracle Audit Vault and Database Firewall
+  - schema-only accounts [3.6.1](configuring-authentication.md)
+- Oracle Autonomous Database
+  - centrally managed users [6.7](integrating_mads_with_oracle_database.md)
+- Oracle Call Interface (OCI)
+  - application contexts, client session-based [13.5.1](using-application-contexts-to-retrieve-user-information.md)
+  - proxy authentication [3.14.1.1](configuring-authentication.md)
+    - Oracle Virtual Private Database, how it works with [14.5.9](using-oracle-vpd-to-control-data-access.md)
+  - proxy authentication with real user [3.14.1.8](configuring-authentication.md)
+  - security-related initialization parameters [12.12](managing-security-for-application-developers.md)
+- Oracle Connection Manager
+  - securing client networks with [A.9.2](keeping-your-oracle-database-secure.md)
+- Oracle Database Enterprise User Security
+  - password security threats [3.2.8.1](configuring-authentication.md)
+- Oracle Database Real Application Clusters
+  - archive timestamp for audit records [28.3.3.4](administering-the-audit-trail.md)
+  - global contexts [13.4.1](using-application-contexts-to-retrieve-user-information.md)
+- Oracle Database Real Application Security
+  - ALL audit events [27.2.12.6](configuring-audit-policies.md)
+  - auditing [27.2.12](configuring-audit-policies.md)
+  - security class and ACL audit events [27.2.12.4](configuring-audit-policies.md)
+  - session audit events [27.2.12.5](configuring-audit-policies.md)
+  - user, privilege, and role audit events [27.2.12.3](configuring-audit-policies.md)
+- Oracle Database-to-Azure AD authorizations
+  - disabling [8.2.6](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - enabling [8.2.5](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+- Oracle Database-to-IAM
+  - trace files for client side [8.6.1.2](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+- Oracle Database-to-Microsoft Azure Active Directory
+  - about [8.1.1](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - architecture [8.1.2](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - assigning app role to service principal [8.2.4.3](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - assigning users and groups to Azure AD app roles [8.2.4.2](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - Azure AD token, checking version of [8.6.3](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - configuring v2 tokens [8.2.3](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - creating Azure AD app roles [8.2.4.1](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - exclusive mapping between database schema and Azure AD user [8.3.1](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - mapping Oracle roles with Azure AD roles [8.3.3](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - on-premises requirements [8.2.1](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - Oracle schema-to-Azure AD application role mapping [8.3.2](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - registering database instance to Microsoft Azure tenancy [8.2.2](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - trace files for client, levels [8.6.1.1](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - trace files for client, setting [8.6.1.2](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - use cases [8.1.4](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - user and group mappings [8.1.3](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md), [8.1.5](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+- Oracle Database-to-Microsoft Azure Active directory client connections
+  - direct token retrievals [8.4.9](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+- Oracle Database-to-Microsoft Azure Active Directory client connections
+  - about [8.4.1](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - confidential client registration [8.4.5.1](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - curl used to get Azure AD token [8.4.6.3](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - MSAL in Python [8.4.6.2](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - network proxies [8.4.8.1](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - network proxy for default database [8.4.8.3](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - network proxy for Oracle Real Application Clusters [8.4.8.4](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - operational flow [8.4.4](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - public client registration [8.4.5.1](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - retrieving token using Azure CLI [8.4.6.4](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - ROPC used to get Azure AD token [8.4.6.1](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - SQL\*Plus using Azure AD token [8.4.7](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - supported drivers [8.4.2](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - testing Azure endpoint accessibility [8.4.8.2](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+- Oracle Database-to-Microsoft Azure AD client connections
+  - net naming for IAM [7.5.3](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md), [8.4.3](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - network proxy for Windows [8.4.8.5](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - secrets for IAM [7.5.3](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md), [8.4.3](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+- Oracle Database-to-Microsoft Entra ID client connections
+  - creating a client app registration [8.4.5.2](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+- Oracle Database Vault
+  - auditing [27.2.14](configuring-audit-policies.md)
+  - command rules, audit events [27.2.14.6](configuring-audit-policies.md)
+  - Data Pump, audit events [27.2.14.10](configuring-audit-policies.md)
+  - enable and disable, audit events [27.2.14.11](configuring-audit-policies.md)
+  - factors, audit events [27.2.14.7](configuring-audit-policies.md)
+  - OLS, audit events [27.2.14.9](configuring-audit-policies.md)
+  - realms, audit events [27.2.14.4](configuring-audit-policies.md)
+  - rule sets and rules, audit events [27.2.14.5](configuring-audit-policies.md)
+  - secure application roles, audit events [27.2.14.8](configuring-audit-policies.md)
+- Oracle Data Guard
+  - gradual database password rollover [3.2.5.11](configuring-authentication.md)
+  - SYSDG administrative privilege [4.4.6](configuring-privilege-and-role-authorization.md)
+- Oracle Data Mining
+  - audit events [27.2.16.2](configuring-audit-policies.md)
+- Oracle Data Pump
+  - audit events [27.2.17.2](configuring-audit-policies.md)
+  - exported data from VPD policies [14.5.8](using-oracle-vpd-to-control-data-access.md)
+  - exports during gradual database password rollover [3.2.5.10](configuring-authentication.md)
+  - unified audit trail [28.1.8](administering-the-audit-trail.md)
+- Oracle DBaaS client connections
+  - supported drivers [7.5.2](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+- Oracle DBaaS-to-Azure AD proxy authentication
+  - about [8.5.1](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - configuring [8.5.2](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+  - validating [8.5.3](authenticating-and-authorizing-microsoft-entra-id-ms-ei-users-oracle-databases-oracle-exadata.md)
+- Oracle DBaaS-to-IAM
+  - about [7.1.1](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md), [7.5.1](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - about token requests using passwords or SEPS [7.5.5.1](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - architecture [7.1.2](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - cross-tenancy, about [7.6.1](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - cross-tenancy access examples [7.6.2.3](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - database clients for cross-tenancy access [7.6.4](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - parameters for setting password or SEPS token requests [7.5.5.2](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - requesting cross-tenancy tokens [7.6.5](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - trace files for client side [7.8.2](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - troubleshooting client side [7.8.2](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+- Oracle DBaaS-to-IAM authorizations
+  - about [7.2.2.1](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - altering [7.2.2.5](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - creating IAM database password [7.3.2](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - creating policies for authenticating users [7.3.1](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - enabling [7.2.1](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - IAM group to database global role [7.2.2.3](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - IAM user to database global user [7.2.2.4](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - instance principals [7.2.2.6](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - mapping schemas and roles to users and groups in another tenancy [7.6.3](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - migrating [7.2.2.5](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - resource principals [7.2.2.6](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - shared database global user [7.2.2.2](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - source user tenancy [7.6.2.1](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - target database resource tenancy [7.6.2.2](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - token requested by IAM user name and password [7.5.5.4](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - token requested by IAM user name and secure external password store (SEPS) [7.5.5.3](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - user authorization, verifying [7.2.2.7](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+- Oracle DBaaS-to-IAM client connections
+  - IAM token [7.5.8.2](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - password verifier [7.5.4](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - SQL\*Plus using an IAM database password [7.5.8.1](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - token [7.5.6](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+- Oracle DBaaS-to-IAM connections
+  - about [7.1.3](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - connection pools using instance or resource principals [7.4](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - database links [7.7](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - walletless connections [7.5.7](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+- Oracle DBaaS-to-IAM proxy authentication
+  - about [7.2.3.1](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - configuring [7.2.3.2](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+  - validating [7.2.3.3](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+- Oracle Developer Tools For Visual Studio (ODT)
+  - debugging using Java Debug Wire Protocol [10.12](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+- Oracle E-Business Suite
+  - schema-only accounts [3.6.1](configuring-authentication.md)
+- Oracle Enterprise Manager
+  - PDBs [11](managing-security-for-multitenant-environment-in-em.md)
+  - statistics monitor [2.4.3](managing-security-for-oracle-database-users.md)
+- Oracle Enterprise Security Manager
+  - role management with [3.8.2.4](configuring-authentication.md)
+- Oracle home
+  - default permissions, disallowing modification [A.6](keeping-your-oracle-database-secure.md)
+- Oracle Internet Directory
+  - Diffie-Hellman TLS port [23.14.5.4](configuring-secure-sockets-layer-authentication.md)
+- Oracle Internet Directory (OID)
+  - authenticating with directory-based service [3.8.2.4](configuring-authentication.md)
+  - SYSDBA and SYSOPER access, controlling [3.3.2.1](configuring-authentication.md)
+- Oracle Java Virtual Machine
+  - JAVA_RESTRICT initialization parameter security guideline [A.6](keeping-your-oracle-database-secure.md)
+- Oracle Java Virtual Machine (OJVM)
+  - permissions, restricting [A.3](keeping-your-oracle-database-secure.md)
+- Oracle Label Security
+  - audit events [27.2.15.2](configuring-audit-policies.md)
+  - auditing [27.2.15](configuring-audit-policies.md)
+  - auditing internal predicates in policies [27.2.7.12](configuring-audit-policies.md)
+  - user session label audit events [27.2.15.3](configuring-audit-policies.md)
+- Oracle Label Security (OLS)
+  - Oracle Virtual Private Database, using with [14.5.7.1](using-oracle-vpd-to-control-data-access.md)
+- OracleMetaLink
+  - See: My Oracle Support
+- Oracle native encryption
+  - configured with SSL authentication [18.6.3.3.1](configuring-network-data-encryption-and-integrity.md)
+- Oracle Net
+  - firewall support [A.9.2](keeping-your-oracle-database-secure.md)
+- Oracle parameters
+  - authentication [25.4](customizing-the-use-of-strong-authentication.md)
+- Oracle Password Protocol [19.4](configuring-thin-jdbc-client-network.md)
+- Oracle RAC
+  - Transport Layer Security [23.11.1](configuring-secure-sockets-layer-authentication.md)
+- Oracle Real Application Clusters
+  - components that need certificates [23.11.3.1](configuring-secure-sockets-layer-authentication.md)
+  - global application contexts [13.4.4](using-application-contexts-to-retrieve-user-information.md)
+  - SYSRAC administrative privilege [4.4.8](configuring-privilege-and-role-authorization.md)
+- Oracle Real Application Security
+  - auditing internal predicates in policies [27.2.7.12](configuring-audit-policies.md)
+- Oracle Recovery Manager
+  - audit events [27.2.13.2](configuring-audit-policies.md)
+  - auditing [27.2.13](configuring-audit-policies.md)
+  - SYSBACKUP administrative privilege [4.4.5](configuring-privilege-and-role-authorization.md)
+- Oracle Scheduler
+  - sensitive credential data
+    - about [16.1](encrypt-sensitive-data.md)
+    - data dictionary views [16.7](encrypt-sensitive-data.md)
+    - deleting [16.5](encrypt-sensitive-data.md)
+    - encrypting [16.3](encrypt-sensitive-data.md)
+    - multitenant environment [16.2](encrypt-sensitive-data.md)
+    - rekeying [16.4](encrypt-sensitive-data.md)
+    - restoring functioning of lost keystore [16.6](encrypt-sensitive-data.md)
+- Oracle SQL\*Loader
+  - Direct Load Path audit events [27.2.18.2](configuring-audit-policies.md)
+- Oracle Technology Network
+  - security alerts [A.2.1](keeping-your-oracle-database-secure.md)
+- Oracle Virtual Private Database
+  - exporting data using Data Pump Export [14.5.8](using-oracle-vpd-to-control-data-access.md)
+- Oracle Virtual Private Database (VPD)
+  - about [14.1.1](using-oracle-vpd-to-control-data-access.md)
+  - ANSI operations [14.5.3](using-oracle-vpd-to-control-data-access.md)
+  - application containers [14.1.6](using-oracle-vpd-to-control-data-access.md)
+  - application contexts
+    - tutorial [14.4.2.1](using-oracle-vpd-to-control-data-access.md)
+    - used with [14.1.5](using-oracle-vpd-to-control-data-access.md)
+  - applications
+    - how it works with [14.5.4](using-oracle-vpd-to-control-data-access.md)
+    - users who are database users, how it works with [14.5.9](using-oracle-vpd-to-control-data-access.md)
+  - applications using for security [12.2.2](managing-security-for-application-developers.md)
+  - automatic reparsing, how it works with [14.5.5](using-oracle-vpd-to-control-data-access.md)
+  - benefits [14.1.2](using-oracle-vpd-to-control-data-access.md)
+  - CDBs [14.1.6](using-oracle-vpd-to-control-data-access.md)
+  - column level [14.3.6.1](using-oracle-vpd-to-control-data-access.md)
+  - column-level display [14.3.6.1](using-oracle-vpd-to-control-data-access.md)
+  - column masking behavior
+    - enabling [14.3.6.4](using-oracle-vpd-to-control-data-access.md)
+    - restrictions [14.3.6.5](using-oracle-vpd-to-control-data-access.md)
+  - components [14.2](using-oracle-vpd-to-control-data-access.md)
+  - configuring [14.3](using-oracle-vpd-to-control-data-access.md)
+  - cursors, shared [14.1.5](using-oracle-vpd-to-control-data-access.md)
+  - edition-based redefinitions [14.5.1](using-oracle-vpd-to-control-data-access.md)
+  - editions, results in [13.4.6.2](using-application-contexts-to-retrieve-user-information.md)
+  - Enterprise User Security proxy authentication, how it works with [14.5.9](using-oracle-vpd-to-control-data-access.md)
+  - exporting data [14.5.7.2](using-oracle-vpd-to-control-data-access.md)
+  - extended data objects in views [14.3.2](using-oracle-vpd-to-control-data-access.md)
+  - finding information about [14.6](using-oracle-vpd-to-control-data-access.md)
+  - flashback query, how it works with [14.5.6](using-oracle-vpd-to-control-data-access.md)
+  - function
+    - components [14.2.1](using-oracle-vpd-to-control-data-access.md)
+    - how it is executed [14.1.4](using-oracle-vpd-to-control-data-access.md)
+  - JDBC proxy authentication, how it works with [14.5.9](using-oracle-vpd-to-control-data-access.md)
+  - nondatabase user applications, how works with [14.5.9](using-oracle-vpd-to-control-data-access.md)
+  - OCI proxy authentication, how it works with [14.5.9](using-oracle-vpd-to-control-data-access.md)
+  - Oracle Label Security
+    - exceptions in behavior [14.5.7.2](using-oracle-vpd-to-control-data-access.md)
+    - using with [14.5.7.1](using-oracle-vpd-to-control-data-access.md)
+  - outer join operations [14.5.3](using-oracle-vpd-to-control-data-access.md)
+  - performance benefit [14.1.2.2](using-oracle-vpd-to-control-data-access.md)
+  - policies, Oracle Virtual Private Database
+    - about [14.3.1](using-oracle-vpd-to-control-data-access.md)
+    - applications, validating [14.3.7.5](using-oracle-vpd-to-control-data-access.md)
+    - attaching to database object [14.3.2](using-oracle-vpd-to-control-data-access.md)
+    - column display [14.3.6.1](using-oracle-vpd-to-control-data-access.md)
+    - column-level display, default [14.3.6.3](using-oracle-vpd-to-control-data-access.md)
+    - dynamic [14.3.8.2](using-oracle-vpd-to-control-data-access.md)
+    - multiple [14.3.7.4](using-oracle-vpd-to-control-data-access.md)
+    - optimizing performance [14.3.8.1](using-oracle-vpd-to-control-data-access.md)
+    - privileges used to run [14.1.4](using-oracle-vpd-to-control-data-access.md)
+    - SQL statements, specifying [14.3.4](using-oracle-vpd-to-control-data-access.md)
+  - policy groups
+    - about [14.3.7.1](using-oracle-vpd-to-control-data-access.md)
+    - benefits [14.3.7.1](using-oracle-vpd-to-control-data-access.md)
+    - creating [14.3.7.2](using-oracle-vpd-to-control-data-access.md)
+    - default [14.3.7.3](using-oracle-vpd-to-control-data-access.md)
+    - tutorial, implementation [14.4.3.1](using-oracle-vpd-to-control-data-access.md)
+  - policy types
+    - context sensitive, about [14.3.8.8](using-oracle-vpd-to-control-data-access.md)
+    - context sensitive, altering existing policy [14.3.8.11](using-oracle-vpd-to-control-data-access.md)
+    - context-sensitive, audited [27.2.7.13](configuring-audit-policies.md)
+    - context sensitive, creating [14.3.8.9](using-oracle-vpd-to-control-data-access.md)
+    - context sensitive, refreshing [14.3.8.10](using-oracle-vpd-to-control-data-access.md)
+    - context sensitive, restricting evaluation [14.3.8.8](using-oracle-vpd-to-control-data-access.md)
+    - context sensitive, when to use [14.3.8.13](using-oracle-vpd-to-control-data-access.md)
+    - DYNAMIC [14.3.8.2](using-oracle-vpd-to-control-data-access.md)
+    - dynamic, audited [27.2.7.13](configuring-audit-policies.md)
+    - shared context sensitive, about [14.3.8.12](using-oracle-vpd-to-control-data-access.md)
+    - shared context sensitive, when to use [14.3.8.13](using-oracle-vpd-to-control-data-access.md)
+    - shared static, about [14.3.8.6](using-oracle-vpd-to-control-data-access.md)
+    - shared static, when to use [14.3.8.7](using-oracle-vpd-to-control-data-access.md)
+    - static, about [14.3.8.4](using-oracle-vpd-to-control-data-access.md)
+    - static, audited [27.2.7.13](configuring-audit-policies.md)
+    - static, when to use [14.3.8.7](using-oracle-vpd-to-control-data-access.md)
+    - summary of features [14.3.8.14](using-oracle-vpd-to-control-data-access.md)
+  - privileges required to create policies [14.1.3](using-oracle-vpd-to-control-data-access.md)
+  - SELECT FOR UPDATE statements in policies [14.5.2](using-oracle-vpd-to-control-data-access.md)
+  - tutorial, simple [14.4.1.1](using-oracle-vpd-to-control-data-access.md)
+  - user models [14.5.9](using-oracle-vpd-to-control-data-access.md)
+  - Web-based applications, how it works with [14.5.9](using-oracle-vpd-to-control-data-access.md)
+- Oracle Virtual Private Datebase (VPD)
+  - predicates
+    - audited in fine-grained audit policies [27.4.4](configuring-audit-policies.md)
+    - audited in unified audit policies [27.2.7.12](configuring-audit-policies.md)
+- Oracle Wallet Manager
+  - X.509 Version 3 certificates [3.8.2.5](configuring-authentication.md)
+- Oracle wallets
+  - authentication method [3.8.2.5](configuring-authentication.md)
+  - search order for TLS [23.10](configuring-secure-sockets-layer-authentication.md)
+  - setting location [23.9.1.2](configuring-secure-sockets-layer-authentication.md)
+  - sqlnet.listener.ora setting [C.2.8](kerberos-ssl-and-radius-authentication-parameters.md)
+  - sqlnet.ora location setting [C.2.8](kerberos-ssl-and-radius-authentication-parameters.md)
+- orapki utility
+  - about [F.1](using-the-orapki-utility-to-manage-pki-elements.md)
+  - adding a certificate request to a wallet with [F.7.3.1](using-the-orapki-utility-to-manage-pki-elements.md)
+  - adding a root certificate to a wallet with [F.7.3.2](using-the-orapki-utility-to-manage-pki-elements.md)
+  - adding a trusted certificate to a wallet with [F.7.3.2](using-the-orapki-utility-to-manage-pki-elements.md)
+  - adding certificate to wallet [F.5](using-the-orapki-utility-to-manage-pki-elements.md)
+  - adding user certificates to a wallet with [F.7.3.4](using-the-orapki-utility-to-manage-pki-elements.md)
+  - adding user-supplied certificate to wallet [F.5](using-the-orapki-utility-to-manage-pki-elements.md)
+  - cert create command [F.10.1](using-the-orapki-utility-to-manage-pki-elements.md)
+  - cert display command [F.10.2](using-the-orapki-utility-to-manage-pki-elements.md)
+  - certificate revocation lists [23.14.5.1](configuring-secure-sockets-layer-authentication.md)
+  - changing the wallet password with [F.7.2.7](using-the-orapki-utility-to-manage-pki-elements.md)
+  - converting wallet to use AES256 algorithm [F.7.2.8](using-the-orapki-utility-to-manage-pki-elements.md)
+  - creating a local auto-login wallet with [F.7.2.5](using-the-orapki-utility-to-manage-pki-elements.md)
+  - creating an auto-login wallet with [F.7.2.3](using-the-orapki-utility-to-manage-pki-elements.md), [F.7.2.4](using-the-orapki-utility-to-manage-pki-elements.md)
+  - creating a wallet with [F.7.2.1](using-the-orapki-utility-to-manage-pki-elements.md)
+  - creating signed certificates for testing [F.3](using-the-orapki-utility-to-manage-pki-elements.md)
+  - crl delete command [F.10.3](using-the-orapki-utility-to-manage-pki-elements.md)
+  - crl display command [F.10.4](using-the-orapki-utility-to-manage-pki-elements.md)
+  - crl hash command [F.10.5](using-the-orapki-utility-to-manage-pki-elements.md)
+  - crl list command [F.10.6](using-the-orapki-utility-to-manage-pki-elements.md)
+  - crl upload command [F.10.7](using-the-orapki-utility-to-manage-pki-elements.md)
+  - examples [F.9](using-the-orapki-utility-to-manage-pki-elements.md)
+  - exporting a certificate from a wallet with [F.7.4](using-the-orapki-utility-to-manage-pki-elements.md)
+  - exporting a certificate request from a wallet with [F.7.4](using-the-orapki-utility-to-manage-pki-elements.md)
+  - managing certificate revocation lists [F.8](using-the-orapki-utility-to-manage-pki-elements.md)
+  - syntax [F.2](using-the-orapki-utility-to-manage-pki-elements.md)
+  - viewing a test certificate with [F.4](using-the-orapki-utility-to-manage-pki-elements.md)
+  - viewing a wallet with [F.7.2.6](using-the-orapki-utility-to-manage-pki-elements.md)
+  - wallet add command [F.10.8](using-the-orapki-utility-to-manage-pki-elements.md)
+  - wallet convert command [F.10.9](using-the-orapki-utility-to-manage-pki-elements.md)
+  - wallet create command [F.10.10](using-the-orapki-utility-to-manage-pki-elements.md)
+  - wallet display command [F.10.11](using-the-orapki-utility-to-manage-pki-elements.md)
+  - wallet export command [F.10.12](using-the-orapki-utility-to-manage-pki-elements.md)
+- ORAPWD utility
+  - case sensitivity in passwords [3.2.7.6](configuring-authentication.md)
+  - changing SYS password [2.3.4.2](managing-security-for-oracle-database-users.md)
+  - changing SYS password with [2.3.4.1](managing-security-for-oracle-database-users.md)
+- ORDDATA user account [2.6.2](managing-security-for-oracle-database-users.md)
+- ORDPLUGINS user account [2.6.2](managing-security-for-oracle-database-users.md)
+- ORDSYS user account [2.6.2](managing-security-for-oracle-database-users.md)
+- OS_AUTHENT_PREFIX parameter [25.4.2](customizing-the-use-of-strong-authentication.md)
+- OS_ROLES initialization parameter
+  - operating-system authorization and [4.8.4.4](configuring-privilege-and-role-authorization.md)
+  - operating system role grants [4.18.5](configuring-privilege-and-role-authorization.md)
+  - REMOTE_OS_ROLES and [4.18.6](configuring-privilege-and-role-authorization.md)
+  - using [4.18.2](configuring-privilege-and-role-authorization.md)
+- OSS.SOURCE.MY_WALLET parameter [23.9.1.2](configuring-secure-sockets-layer-authentication.md), [23.9.2.3](configuring-secure-sockets-layer-authentication.md)
+- outer join operations
+  - Oracle Virtual Private Database affect on [14.5.3](using-oracle-vpd-to-control-data-access.md)
+- OUTLN user account [2.6.2](managing-security-for-oracle-database-users.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- packages
+  - auditing [27.2.7.2](configuring-audit-policies.md), [27.2.7.11](configuring-audit-policies.md)
+  - examples [4.13.5.3](configuring-privilege-and-role-authorization.md)
+  - examples of privilege use [4.13.5.2](configuring-privilege-and-role-authorization.md)
+  - granting roles to [4.8.5.3](configuring-privilege-and-role-authorization.md)
+  - privileges
+    - divided by construct [4.13.5.1](configuring-privilege-and-role-authorization.md)
+    - executing [4.13.1](configuring-privilege-and-role-authorization.md), [4.13.5.1](configuring-privilege-and-role-authorization.md)
+- parallel execution servers [13.3.4.5](using-application-contexts-to-retrieve-user-information.md)
+- parallel query, and SYS_CONTEXT [13.3.4.5](using-application-contexts-to-retrieve-user-information.md)
+- parameters
+  - authentication
+    - Kerberos [C.1](kerberos-ssl-and-radius-authentication-parameters.md)
+    - RADIUS [24.4.1](configuring-radius-authentication.md), [C.3](kerberos-ssl-and-radius-authentication-parameters.md)
+    - Transport Layer Security (TLS) [C.2](kerberos-ssl-and-radius-authentication-parameters.md)
+  - configuration for JDBC [19.6.1](configuring-thin-jdbc-client-network.md)
+  - encryption and checksumming [18.6.3](configuring-network-data-encryption-and-integrity.md)
+- pass phrase
+  - read and parse server.key file [A.9.3](keeping-your-oracle-database-secure.md)
+- PASSWORD_LIFE_TIME profile parameter [3.2.4.11](configuring-authentication.md)
+- PASSWORD_LOCK_TIME profile parameter [3.2.4.7](configuring-authentication.md)
+- PASSWORD_REUSE_MAX profile parameter [3.2.4.10](configuring-authentication.md)
+- PASSWORD_REUSE_TIME profile parameter [3.2.4.10](configuring-authentication.md)
+- PASSWORD_ROLLOVER_TIME parameter [3.2.5.3](configuring-authentication.md)
+- PASSWORD command
+  - about [2.3.3.2](managing-security-for-oracle-database-users.md)
+  - changing SYS password with [2.3.4.1](managing-security-for-oracle-database-users.md)
+- password complexity functions
+  - aboutr [3.2.6.1](configuring-authentication.md)
+  - administrative users, for [3.2.10.8](configuring-authentication.md)
+  - customizing [3.2.6.8](configuring-authentication.md)
+  - enabling [3.2.6.9](configuring-authentication.md)
+  - how database checks password complexity [3.2.6.2](configuring-authentication.md)
+  - ora12c_stig_verify_function [3.2.6.7](configuring-authentication.md)
+  - ora12c_strong_verify_function [3.2.6.6](configuring-authentication.md)
+  - ora12c_verify_function [3.2.6.5](configuring-authentication.md)
+  - privileges required [3.2.6.3](configuring-authentication.md)
+  - verify_function_11G [3.2.6.4](configuring-authentication.md)
+- password files
+  - case sensitivity, effect on SEC_CASE_SENSITIVE_LOGON parameter [3.2.7.2](configuring-authentication.md)
+  - how used to authenticate administrators [3.3.4](configuring-authentication.md)
+  - migration of for administrative users [3.2.10.6](configuring-authentication.md)
+- password limits
+  - administrative logins [3.3.4](configuring-authentication.md)
+- password management
+  - inactive user accounts, locking automatically [3.2.4.6](configuring-authentication.md)
+- passwords [3.2.1](configuring-authentication.md)
+  - See also: authentication, and access control list (ACL), wallet access
+
+  <!-- -->
+
+  - 10G password version, finding and resetting [3.2.7.5](configuring-authentication.md)
+  - about managing [3.2.4.1](configuring-authentication.md)
+  - account locking [3.2.4.7](configuring-authentication.md)
+  - administrator
+    - authenticating with [3.3.4](configuring-authentication.md)
+    - guidelines for securing [A.5](keeping-your-oracle-database-secure.md)
+  - aging and expiration [3.2.4.11](configuring-authentication.md)
+  - altering [2.3.3.1](managing-security-for-oracle-database-users.md)
+  - ALTER PROFILE statement [3.2.4.1](configuring-authentication.md)
+  - application design guidelines [12.3.1.2](managing-security-for-application-developers.md)
+  - applications, strategies for protecting passwords [12.3](managing-security-for-application-developers.md)
+  - brute force attacks [3.2.1](configuring-authentication.md)
+  - case sensitivity, configuring [3.2.7.1](configuring-authentication.md)
+  - changing for roles [4.8.3.5](configuring-privilege-and-role-authorization.md)
+  - changing SYS with ORAPWD utility [2.3.4.2](managing-security-for-oracle-database-users.md)
+  - complexity, guidelines for enforcing [A.5](keeping-your-oracle-database-secure.md)
+  - complexity verification
+    - about [3.2.6.1](configuring-authentication.md)
+  - compromised, how to handle [3.2.5.9](configuring-authentication.md)
+  - connecting without [3.7](configuring-authentication.md)
+  - CREATE PROFILE statement [3.2.4.1](configuring-authentication.md)
+  - danger in storing as clear text [A.5](keeping-your-oracle-database-secure.md)
+  - database user authentication [3.4.1](configuring-authentication.md)
+  - default, finding [3.2.4.2](configuring-authentication.md)
+  - default profile settings
+    - about [3.2.4.3](configuring-authentication.md)
+  - default user account [A.5](keeping-your-oracle-database-secure.md)
+  - delays for incorrect passwords [3.2.1](configuring-authentication.md)
+  - duration [A.5](keeping-your-oracle-database-secure.md)
+  - encrypting [3.2.1](configuring-authentication.md), [A.5](keeping-your-oracle-database-secure.md)
+  - examples of creating [3.2.2](configuring-authentication.md)
+  - expiring
+    - explicitly [3.2.4.14](configuring-authentication.md)
+    - procedure for [3.2.4.11](configuring-authentication.md)
+    - proxy account passwords [3.14.1.6](configuring-authentication.md)
+    - with grace period [3.2.4.14](configuring-authentication.md)
+  - failed logins, resetting [3.2.4.7](configuring-authentication.md)
+  - finding users who use old passwords [3.2.5.12](configuring-authentication.md)
+  - forcing oracle user to enter when logging in as SYSDBA [4.4.4](configuring-privilege-and-role-authorization.md)
+  - grace period, example [3.2.4.14](configuring-authentication.md)
+  - gradual database rollover [3.2.5.1](configuring-authentication.md)
+  - guidelines for security [A.5](keeping-your-oracle-database-secure.md)
+  - history [3.2.4.10](configuring-authentication.md), [A.5](keeping-your-oracle-database-secure.md)
+  - Java code example to read passwords [12.3.4](managing-security-for-application-developers.md)
+  - length [A.5](keeping-your-oracle-database-secure.md)
+  - lifetime for [3.2.4.11](configuring-authentication.md)
+  - life time set too low [3.2.4.15](configuring-authentication.md)
+  - lock time [3.2.4.7](configuring-authentication.md)
+  - management rules [A.5](keeping-your-oracle-database-secure.md)
+  - managing [3.2.4](configuring-authentication.md)
+  - maximum reuse time [3.2.4.10](configuring-authentication.md)
+  - ORAPWD utility [3.2.7.6](configuring-authentication.md)
+  - PASSWORD_LOCK_TIME profile parameter [3.2.4.7](configuring-authentication.md)
+  - PASSWORD_REUSE_MAX profile parameter [3.2.4.10](configuring-authentication.md)
+  - PASSWORD_REUSE_TIME profile parameter [3.2.4.10](configuring-authentication.md)
+  - password complexity verification [3.2.6.1](configuring-authentication.md)
+    - how database checks [3.2.6.2](configuring-authentication.md)
+    - ora12c_stig_verify_function [3.2.6.7](configuring-authentication.md)
+    - ora12c_verify_function function [3.2.6.5](configuring-authentication.md)
+    - privileges required [3.2.6.3](configuring-authentication.md)
+    - verify_function_11G function [3.2.6.4](configuring-authentication.md)
+  - password file risks [3.3.5](configuring-authentication.md)
+  - policies [3.2.4](configuring-authentication.md)
+  - privileges for changing for roles [4.8.3.5](configuring-privilege-and-role-authorization.md)
+  - privileges to alter [2.3.1](managing-security-for-oracle-database-users.md)
+  - protections, built-in [3.2.1](configuring-authentication.md)
+  - proxy authentication [3.14.1.13](configuring-authentication.md)
+  - requirements
+    - additional [A.5](keeping-your-oracle-database-secure.md)
+    - minimum [3.2.2](configuring-authentication.md)
+  - reusing [3.2.4.10](configuring-authentication.md), [A.5](keeping-your-oracle-database-secure.md)
+  - reusing passwords [3.2.4.10](configuring-authentication.md)
+  - role password case sensitivity [3.2.7.3](configuring-authentication.md)
+  - roles authenticated by passwords [4.8.3.1](configuring-privilege-and-role-authorization.md)
+  - roles enabled by SET ROLE statement [4.8.4.1](configuring-privilege-and-role-authorization.md)
+  - secure external password store [3.2.9.1](configuring-authentication.md)
+  - security risks [3.3.5](configuring-authentication.md)
+  - SYS account [2.3.4.1](managing-security-for-oracle-database-users.md)
+  - SYS and SYSTEM [A.5](keeping-your-oracle-database-secure.md)
+  - used in roles [4.8.1.3](configuring-privilege-and-role-authorization.md)
+  - utlpwdmg.sql password script
+    - password management [3.2.6.1](configuring-authentication.md)
+  - verified using SHA-512 hash function [3.2.8.3](configuring-authentication.md)
+  - versions, management of [3.2.7.4](configuring-authentication.md)
+- password versions
+  - target databases that run earlier releases [3.2.8.4](configuring-authentication.md)
+  - using 12C exclusively [3.2.8.3](configuring-authentication.md)
+- PDB_DBA role [4.8.2](configuring-privilege-and-role-authorization.md)
+- PDB lockdown profiles
+  - about [4.9.1](configuring-privilege-and-role-authorization.md)
+  - creating [4.9.4](configuring-privilege-and-role-authorization.md)
+  - default [4.9.3](configuring-privilege-and-role-authorization.md)
+  - disabling [4.9.5](configuring-privilege-and-role-authorization.md)
+  - dropping [4.9.6](configuring-privilege-and-role-authorization.md)
+  - enabling [4.9.5](configuring-privilege-and-role-authorization.md)
+  - inheritance [4.9.2](configuring-privilege-and-role-authorization.md)
+- PDBs
+  - application common users
+    - about [2.2.1.1](managing-security-for-oracle-database-users.md)
+  - auditing
+    - types of audit settings allowed [26.9](introduction-to-auditing.md)
+    - unified audit policy syntax [27.2.3](configuring-audit-policies.md)
+    - what can be audited [26.1](introduction-to-auditing.md)
+  - CDB common users
+    - about [2.2.1.1](managing-security-for-oracle-database-users.md)
+  - common roles
+    - about [4.7.1](configuring-privilege-and-role-authorization.md)
+    - creating [4.7.6](configuring-privilege-and-role-authorization.md)
+    - granting [4.7.9](configuring-privilege-and-role-authorization.md)
+    - how they work [4.7.2](configuring-privilege-and-role-authorization.md)
+    - privileges required for management [4.7.4](configuring-privilege-and-role-authorization.md)
+    - revoking [4.7.9](configuring-privilege-and-role-authorization.md)
+    - rules for creating [4.7.5](configuring-privilege-and-role-authorization.md)
+  - common users
+    - accessing data in PDBs [4.6.6.2](configuring-privilege-and-role-authorization.md)
+    - creating [2.2.10.1](managing-security-for-oracle-database-users.md)
+    - viewing privilege information [4.6.6.1](configuring-privilege-and-role-authorization.md)
+  - Enterprise Manager
+    - about [11.1](managing-security-for-multitenant-environment-in-em.md)
+    - creating common roles [11.4.1](managing-security-for-multitenant-environment-in-em.md)
+    - creating common users [11.3.1](managing-security-for-multitenant-environment-in-em.md)
+    - creating local roles [11.4.5](managing-security-for-multitenant-environment-in-em.md)
+    - creating local users [11.3.4](managing-security-for-multitenant-environment-in-em.md)
+    - dropping common roles [11.4.3](managing-security-for-multitenant-environment-in-em.md)
+    - dropping common users [11.3.3](managing-security-for-multitenant-environment-in-em.md)
+    - dropping local roles [11.4.7](managing-security-for-multitenant-environment-in-em.md)
+    - dropping local users [11.3.6](managing-security-for-multitenant-environment-in-em.md)
+    - editing common roles [11.4.2](managing-security-for-multitenant-environment-in-em.md)
+    - editing common users [11.3.2](managing-security-for-multitenant-environment-in-em.md)
+    - editing local roles [11.4.6](managing-security-for-multitenant-environment-in-em.md)
+    - editing local users [11.3.5](managing-security-for-multitenant-environment-in-em.md)
+    - logging in [11.2.1](managing-security-for-multitenant-environment-in-em.md)
+    - revoking common privilege grants [11.4.4](managing-security-for-multitenant-environment-in-em.md)
+    - revoking local privilege grants [11.4.8](managing-security-for-multitenant-environment-in-em.md)
+    - switching to different container [11.2.2](managing-security-for-multitenant-environment-in-em.md)
+  - fine-grained audit policies [27.4.5](configuring-audit-policies.md)
+  - local roles
+    - about [4.7.1](configuring-privilege-and-role-authorization.md)
+    - creating [4.7.8](configuring-privilege-and-role-authorization.md)
+    - rules for creating [4.7.7](configuring-privilege-and-role-authorization.md)
+  - local users
+    - about [2.2.1.3](managing-security-for-oracle-database-users.md)
+    - creating [2.2.10.3](managing-security-for-oracle-database-users.md)
+  - operating system user configuration [3.9.2](configuring-authentication.md)
+  - operating system user for, setting [3.9.1](configuring-authentication.md)
+  - privilege analysis [5.1.5](performing-privilege-analysis-identify-privilege-use.md)
+  - privileges
+    - common [4.6.2](configuring-privilege-and-role-authorization.md)
+    - granting [4.6.4](configuring-privilege-and-role-authorization.md)
+    - how affected [4.3](configuring-privilege-and-role-authorization.md)
+    - object [4.6.3](configuring-privilege-and-role-authorization.md)
+    - revoking [4.6.4](configuring-privilege-and-role-authorization.md)
+    - viewing information about [4.6.6.1](configuring-privilege-and-role-authorization.md)
+  - PUBLIC role [4.7.3](configuring-privilege-and-role-authorization.md)
+  - sqlnet.ora settings [3.2.8.3](configuring-authentication.md)
+  - transparent sensitive data protection [15.5](using-transparent-sensitive-data-protection.md)
+  - viewing information about [4.6.6.1](configuring-privilege-and-role-authorization.md)
+  - Virtual Private Database policies [14.1.6](using-oracle-vpd-to-control-data-access.md)
+- performance
+  - application contexts [13.1.3](using-application-contexts-to-retrieve-user-information.md)
+  - auditing [26.3](introduction-to-auditing.md)
+  - Oracle Virtual Private Database policies [14.1.2.2](using-oracle-vpd-to-control-data-access.md)
+  - Oracle Virtual Private Database policy types [14.3.8.1](using-oracle-vpd-to-control-data-access.md)
+  - resource limits and [2.4.1](managing-security-for-oracle-database-users.md)
+- permissions
+  - default [A.6](keeping-your-oracle-database-secure.md)
+  - run-time facilities [A.3](keeping-your-oracle-database-secure.md)
+- PKCS \#11 devices [23.4.2.5](configuring-secure-sockets-layer-authentication.md)
+- PKCS \#11 error
+  - ORA-40300 [23.15.4.2](configuring-secure-sockets-layer-authentication.md)
+  - ORA-40301 [23.15.4.2](configuring-secure-sockets-layer-authentication.md)
+  - ORA-40302 [23.15.4.2](configuring-secure-sockets-layer-authentication.md)
+- PKI
+  - See: public key infrastructure (PKI)
+- PL/SQL
+  - roles in procedures [4.8.1.8](configuring-privilege-and-role-authorization.md)
+- PL/SQL packages
+  - auditing [27.2.7.2](configuring-audit-policies.md), [27.2.7.11](configuring-audit-policies.md)
+- PL/SQL procedures
+  - setting application context [13.3.4.1](using-application-contexts-to-retrieve-user-information.md)
+- PL/SQL stored procedures
+  - network access for debugging operations [10.12](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+- PMON background process
+  - application contexts, cleaning up [13.3.1](using-application-contexts-to-retrieve-user-information.md)
+- PM user account [2.6.4](managing-security-for-oracle-database-users.md)
+- POODLE attacks, preventing with [23.9.1.7](configuring-secure-sockets-layer-authentication.md)
+- positional parameters
+  - security risks [12.3.1.4](managing-security-for-application-developers.md)
+- predefined schema user accounts [2.6.1](managing-security-for-oracle-database-users.md)
+- principle of least privilege [A.3](keeping-your-oracle-database-secure.md)
+  - about [A.3](keeping-your-oracle-database-secure.md)
+  - granting user privileges [A.3](keeping-your-oracle-database-secure.md)
+  - middle-tier privileges [3.14.1.9](configuring-authentication.md)
+- privilege analysis
+  - about [5.1.1](performing-privilege-analysis-identify-privilege-use.md)
+  - accessing reports in Cloud Control [5.2.7.5](performing-privilege-analysis-identify-privilege-use.md)
+  - benefits [5.1.2](performing-privilege-analysis-identify-privilege-use.md)
+  - CDBs [5.1.5](performing-privilege-analysis-identify-privilege-use.md)
+  - creating [5.2.3](performing-privilege-analysis-identify-privilege-use.md)
+  - creating role in Cloud Control [5.3.1](performing-privilege-analysis-identify-privilege-use.md)
+  - data dictionary views [5.6](performing-privilege-analysis-identify-privilege-use.md)
+  - DBMS_PRIVILEGE_CAPTURE PL/SQL package [5.2.1](performing-privilege-analysis-identify-privilege-use.md)
+  - disabling [5.2.6](performing-privilege-analysis-identify-privilege-use.md)
+  - dropping [5.2.8](performing-privilege-analysis-identify-privilege-use.md)
+  - enabling [5.2.5](performing-privilege-analysis-identify-privilege-use.md)
+  - examples of creating and enabling [5.2.4.1](performing-privilege-analysis-identify-privilege-use.md)
+  - general steps for managing [5.2.2](performing-privilege-analysis-identify-privilege-use.md)
+  - generating regrant scripts [5.3.3.3](performing-privilege-analysis-identify-privilege-use.md)
+  - generating reports
+    - about [5.2.7.1](performing-privilege-analysis-identify-privilege-use.md)
+    - in Cloud Control [5.2.7.4](performing-privilege-analysis-identify-privilege-use.md)
+    - using DBMS_PRIVILEGE_CAPTURE.GENERATE_REPORT [5.2.7.3](performing-privilege-analysis-identify-privilege-use.md)
+  - generating revoke scripts [5.3.3.2](performing-privilege-analysis-identify-privilege-use.md)
+  - logon users [5.1.4](performing-privilege-analysis-identify-privilege-use.md)
+  - multiple named capture runs [5.2.7.2](performing-privilege-analysis-identify-privilege-use.md)
+  - pre-compiled database objects [5.1.6](performing-privilege-analysis-identify-privilege-use.md)
+  - privilege uses captured [5.1.4](performing-privilege-analysis-identify-privilege-use.md)
+  - requirements for using [5.1.3](performing-privilege-analysis-identify-privilege-use.md)
+  - restrictions [5.1.4](performing-privilege-analysis-identify-privilege-use.md)
+  - revoking and re-granting in Cloud Control [5.3.2](performing-privilege-analysis-identify-privilege-use.md)
+  - revoking and regranting using scripts [5.3.3.1](performing-privilege-analysis-identify-privilege-use.md)
+  - tutorial [5.5](performing-privilege-analysis-identify-privilege-use.md)
+  - tutorial for ANY privileges [5.4](performing-privilege-analysis-identify-privilege-use.md)
+  - use cases [5.1.2](performing-privilege-analysis-identify-privilege-use.md)
+    - finding application pool privileges [5.1.2.1](performing-privilege-analysis-identify-privilege-use.md)
+    - finding overly privileged users [5.1.2.2](performing-privilege-analysis-identify-privilege-use.md)
+- privileges [4.5](configuring-privilege-and-role-authorization.md)
+  - See also: access control list (ACL) and system privileges, privilege captures
+
+  <!-- -->
+
+  - about [4.1](configuring-privilege-and-role-authorization.md)
+  - access control lists, checking for external network services [10.11.1](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+  - altering
+    - passwords [2.3.3.1](managing-security-for-oracle-database-users.md)
+    - users [2.3.1](managing-security-for-oracle-database-users.md)
+  - altering role authentication method [4.8.3.5](configuring-privilege-and-role-authorization.md)
+  - applications, managing [12.6](managing-security-for-application-developers.md)
+  - auditing, recommended settings for [A.11.5](keeping-your-oracle-database-secure.md)
+  - auditing use of [27.2.5.1](configuring-audit-policies.md)
+  - cascading revokes [4.16.3](configuring-privilege-and-role-authorization.md)
+  - column [4.15.2.4](configuring-privilege-and-role-authorization.md)
+  - compiling procedures [4.13.4](configuring-privilege-and-role-authorization.md)
+  - creating or replacing procedures [4.13.3](configuring-privilege-and-role-authorization.md)
+  - creating users [2.2.3](managing-security-for-oracle-database-users.md)
+  - data links [4.10.6.2](configuring-privilege-and-role-authorization.md)
+    - privilege management [4.10.6.2](configuring-privilege-and-role-authorization.md)
+  - dropping profiles [2.4.4.6](managing-security-for-oracle-database-users.md)
+  - extended data links [4.10.6.3](configuring-privilege-and-role-authorization.md)
+    - privilege management [4.10.6.3](configuring-privilege-and-role-authorization.md)
+  - granting
+    - about [4.5.3](configuring-privilege-and-role-authorization.md), [4.15](configuring-privilege-and-role-authorization.md)
+    - examples [4.13.5.2](configuring-privilege-and-role-authorization.md), [4.13.5.3](configuring-privilege-and-role-authorization.md)
+    - object privileges [4.10.3.1](configuring-privilege-and-role-authorization.md), [4.15.2.1](configuring-privilege-and-role-authorization.md)
+    - system [4.15.1.1](configuring-privilege-and-role-authorization.md)
+    - system privileges [4.15](configuring-privilege-and-role-authorization.md)
+  - grants, listing [4.20.2](configuring-privilege-and-role-authorization.md)
+  - grouping with roles [4.8](configuring-privilege-and-role-authorization.md)
+  - managing [12.11](managing-security-for-application-developers.md)
+  - metadata links [4.10.6.1](configuring-privilege-and-role-authorization.md)
+  - middle tier [3.14.1.9](configuring-authentication.md)
+  - object [4.10.1](configuring-privilege-and-role-authorization.md), [4.10.3.2](configuring-privilege-and-role-authorization.md), [12.11.2](managing-security-for-application-developers.md)
+    - granting and revoking [4.10.3.1](configuring-privilege-and-role-authorization.md)
+  - on selected columns [4.16.2.4](configuring-privilege-and-role-authorization.md)
+  - procedures [4.13.1](configuring-privilege-and-role-authorization.md)
+    - creating and replacing [4.13.3](configuring-privilege-and-role-authorization.md)
+    - executing [4.13.1](configuring-privilege-and-role-authorization.md)
+    - in packages [4.13.5.1](configuring-privilege-and-role-authorization.md)
+  - READ ANY TABLE system privilege
+    - about [4.10.4.2](configuring-privilege-and-role-authorization.md)
+    - restrictions [4.10.4.3](configuring-privilege-and-role-authorization.md)
+  - READ object privilege [4.10.4.1](configuring-privilege-and-role-authorization.md)
+  - reasons to grant [4.2](configuring-privilege-and-role-authorization.md)
+  - revoking privileges
+    - about [4.5.3](configuring-privilege-and-role-authorization.md)
+    - object [4.16.2.1](configuring-privilege-and-role-authorization.md)
+    - object privileges, cascading effect [4.16.3.2](configuring-privilege-and-role-authorization.md)
+    - object privileges, requirements for [4.16.2.1](configuring-privilege-and-role-authorization.md)
+    - schema object [4.10.3.1](configuring-privilege-and-role-authorization.md)
+  - revoking system privileges [4.16.1](configuring-privilege-and-role-authorization.md)
+  - roles
+    - creating [4.8.3.1](configuring-privilege-and-role-authorization.md)
+    - dropping [4.8.6](configuring-privilege-and-role-authorization.md)
+    - restrictions on [4.8.1.9](configuring-privilege-and-role-authorization.md)
+  - roles, why better to grant [4.2](configuring-privilege-and-role-authorization.md)
+  - schema object [4.10.1](configuring-privilege-and-role-authorization.md)
+    - DML and DDL operations [4.11](configuring-privilege-and-role-authorization.md)
+    - packages [4.13.5.1](configuring-privilege-and-role-authorization.md)
+    - procedures [4.13.1](configuring-privilege-and-role-authorization.md)
+  - SELECT system privilege [4.10.4.1](configuring-privilege-and-role-authorization.md)
+  - SQL statements permitted [12.11.2](managing-security-for-application-developers.md)
+  - synonyms and underlying objects [4.10.5](configuring-privilege-and-role-authorization.md)
+  - system
+    - granting and revoking [4.5.3](configuring-privilege-and-role-authorization.md)
+    - SELECT ANY DICTIONARY [A.6](keeping-your-oracle-database-secure.md)
+  - SYSTEM and OBJECT [A.3](keeping-your-oracle-database-secure.md)
+  - system privileges
+    - about [4.5.1](configuring-privilege-and-role-authorization.md)
+  - trigger privileges [9.2](managing-security-for-definers-rights-and-invokers-rights.md)
+  - used for Oracle Virtual Private Database policy functions [14.1.4](using-oracle-vpd-to-control-data-access.md)
+  - view privileges
+    - creating a view [4.12.1](configuring-privilege-and-role-authorization.md)
+    - using a view [4.12.3](configuring-privilege-and-role-authorization.md)
+  - views [4.12](configuring-privilege-and-role-authorization.md)
+- procedures
+  - auditing [27.2.7.2](configuring-audit-policies.md), [27.2.7.11](configuring-audit-policies.md)
+  - compiling [4.13.4](configuring-privilege-and-role-authorization.md)
+  - definer’s rights
+    - about [9.2](managing-security-for-definers-rights-and-invokers-rights.md)
+    - roles disabled [4.8.1.8.1](configuring-privilege-and-role-authorization.md)
+  - examples of [4.13.5.3](configuring-privilege-and-role-authorization.md)
+  - examples of privilege use [4.13.5.2](configuring-privilege-and-role-authorization.md)
+  - granting roles to [4.8.5.3](configuring-privilege-and-role-authorization.md)
+  - invoker’s rights
+    - about [9.3](managing-security-for-definers-rights-and-invokers-rights.md)
+    - roles used [4.8.1.8.2](configuring-privilege-and-role-authorization.md)
+  - privileges for procedures
+    - create or replace [4.13.3](configuring-privilege-and-role-authorization.md)
+    - executing [4.13.1](configuring-privilege-and-role-authorization.md)
+    - executing in packages [4.13.5.1](configuring-privilege-and-role-authorization.md)
+  - privileges required for [4.13.3](configuring-privilege-and-role-authorization.md)
+  - security enhanced by [9.2](managing-security-for-definers-rights-and-invokers-rights.md)
+- process monitor process (PMON)
+  - cleans up timed-out sessions [2.4.2.5](managing-security-for-oracle-database-users.md)
+- PRODUCT_USER_PROFILE table
+  - SQL commands, disabling with [4.8.7.2](configuring-privilege-and-role-authorization.md)
+- profile parameters
+  - FAILED_LOGIN_ATTEMPTS [3.2.4.3](configuring-authentication.md)
+  - INACTIVE_ACCOUNT_TIME [3.2.4.3](configuring-authentication.md), [3.2.4.6](configuring-authentication.md)
+  - PASSWORD_GRACE_TIME [3.2.4.3](configuring-authentication.md), [3.2.4.14](configuring-authentication.md)
+  - PASSWORD_LIFE_TIME [3.2.4.3](configuring-authentication.md), [3.2.4.12](configuring-authentication.md), [3.2.4.15](configuring-authentication.md)
+  - PASSWORD_LOCK_TIME [3.2.4.3](configuring-authentication.md), [3.2.4.7](configuring-authentication.md)
+  - PASSWORD_REUSE_MAX [3.2.4.3](configuring-authentication.md), [3.2.4.10](configuring-authentication.md)
+  - PASSWORD_REUSE_TIME [3.2.4.3](configuring-authentication.md), [3.2.4.10](configuring-authentication.md)
+  - PASSWORD_ROLLOVER_TIME [3.2.5.3](configuring-authentication.md)
+- profiles [2.4.4.1](managing-security-for-oracle-database-users.md)
+  - about [2.4.4.1](managing-security-for-oracle-database-users.md)
+  - application [2.4.4.4](managing-security-for-oracle-database-users.md)
+  - assigning to user [2.4.4.5](managing-security-for-oracle-database-users.md)
+  - CDB [2.4.4.4](managing-security-for-oracle-database-users.md)
+  - common [2.4.4.4](managing-security-for-oracle-database-users.md)
+  - creating [2.4.4.3](managing-security-for-oracle-database-users.md)
+  - dropping [2.4.4.6](managing-security-for-oracle-database-users.md)
+  - finding information about [2.7.1](managing-security-for-oracle-database-users.md)
+  - finding settings for default profile [2.7.4](managing-security-for-oracle-database-users.md)
+  - managing [2.4.4.1](managing-security-for-oracle-database-users.md)
+  - ora_stig_profile user profile [2.4.4.2](managing-security-for-oracle-database-users.md)
+  - privileges for dropping [2.4.4.6](managing-security-for-oracle-database-users.md)
+  - specifying for user [2.2.9](managing-security-for-oracle-database-users.md)
+  - viewing [2.7.4](managing-security-for-oracle-database-users.md)
+- program units
+  - granting roles to [4.8.5.3](configuring-privilege-and-role-authorization.md)
+- PROVISIONER role [4.8.2](configuring-privilege-and-role-authorization.md)
+- PROXY_USERS view [3.14.1.6](configuring-authentication.md)
+- proxy authentication
+  - about [3.14.1.1](configuring-authentication.md)
+  - advantages [3.14.1.2](configuring-authentication.md)
+  - auditing operations [3.13](configuring-authentication.md)
+  - auditing users [27.2.9](configuring-audit-policies.md)
+  - client-to-middle tier sequence [3.14.1.8](configuring-authentication.md)
+  - creating proxy user accounts [3.14.1.3](configuring-authentication.md)
+  - middle-tier
+    - authorizing but not authenticating users [3.14.1.11](configuring-authentication.md)
+    - authorizing to proxy and authenticate users [3.14.1.10](configuring-authentication.md)
+    - limiting privileges [3.14.1.9](configuring-authentication.md)
+    - reauthenticating users [3.14.1.12](configuring-authentication.md)
+  - passwords, expired [3.14.1.6](configuring-authentication.md)
+  - privileges required for creating users [3.14.1.3](configuring-authentication.md)
+  - secure external password store, used with [3.14.1.7](configuring-authentication.md)
+  - security benefits [3.14.1.2](configuring-authentication.md)
+  - users, passing real identity of [3.14.1.8](configuring-authentication.md)
+- proxy user accounts
+  - privileges required for creation [3.14.1.3](configuring-authentication.md)
+- pseudo columns
+  - USER [4.12.3](configuring-privilege-and-role-authorization.md)
+- PUBLIC_DEFAULT profile
+  - profiles, dropping [2.4.4.6](managing-security-for-oracle-database-users.md)
+- public and private key pair, defined [20.4.3](introduction-to-strong-authentication.md)
+- public key infrastructure (PKI) [20.4.3](introduction-to-strong-authentication.md)
+  - about [3.8.2.5](configuring-authentication.md)
+- Public Key Infrastructure (PKI)
+  - certificate [23.4.2.2](configuring-secure-sockets-layer-authentication.md)
+  - certificate authority [23.4.2.1](configuring-secure-sockets-layer-authentication.md)
+  - certificate revocation lists [23.4.2.3](configuring-secure-sockets-layer-authentication.md)
+  - PKCS \#11 hardware devices [23.4.2.5](configuring-secure-sockets-layer-authentication.md)
+  - wallets [23.4.2.4](configuring-secure-sockets-layer-authentication.md)
+- PUBLIC role
+  - about [4.5.5](configuring-privilege-and-role-authorization.md)
+  - granting and revoking privileges [4.17](configuring-privilege-and-role-authorization.md)
+  - procedures and [4.17](configuring-privilege-and-role-authorization.md)
+  - security domain of users [4.8.1.7](configuring-privilege-and-role-authorization.md)
+- PUBLIC role, CDBs [4.7.3](configuring-privilege-and-role-authorization.md)
+
+------------------------------------------------------------------------
+
+## Q
+
+- quotas
+  - tablespace [2.2.7.1](managing-security-for-oracle-database-users.md)
+  - temporary segments and [2.2.7.1](managing-security-for-oracle-database-users.md)
+  - unlimited [2.2.7.4](managing-security-for-oracle-database-users.md)
+  - viewing [2.7.3](managing-security-for-oracle-database-users.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- RADIUS [20.4.2](introduction-to-strong-authentication.md)
+  - accounting [24.5.1.4](configuring-radius-authentication.md), [24.5.2.4](configuring-radius-authentication.md)
+  - asynchronous authentication mode [24.3.2](configuring-radius-authentication.md)
+  - authentication modes [24.3](configuring-radius-authentication.md)
+  - authentication parameters [C.3](kerberos-ssl-and-radius-authentication-parameters.md)
+  - challenge-response
+    - authentication [24.3.2](configuring-radius-authentication.md)
+    - user interface [D.1](integrating-authentication-devices-using-radius.md), [D.2](integrating-authentication-devices-using-radius.md)
+  - configuring [24.5.1.1](configuring-radius-authentication.md), [24.5.2.1](configuring-radius-authentication.md)
+  - database links not supported [24.1](configuring-radius-authentication.md)
+  - initialization parameter file setting [24.4.3](configuring-radius-authentication.md), [C.3.3](kerberos-ssl-and-radius-authentication-parameters.md)
+  - location of secret key [24.5.2.1.3.1](configuring-radius-authentication.md)
+  - minimum parameters to set [24.4.2](configuring-radius-authentication.md), [C.3.2](kerberos-ssl-and-radius-authentication-parameters.md)
+  - RADIUS_SECRET parameter [24.5.1.1.3.1](configuring-radius-authentication.md)
+  - smartcards and [20.4.2](introduction-to-strong-authentication.md), [24.3.2.2](configuring-radius-authentication.md), [24.5.1.1.3.2](configuring-radius-authentication.md), [24.5.2.1.3.2](configuring-radius-authentication.md), [D.1](integrating-authentication-devices-using-radius.md)
+  - SQLNET.AUTHENTICATION_SERVICES parameter [24.5.1.1.1](configuring-radius-authentication.md), [24.5.1.1.2.2](configuring-radius-authentication.md), [C.3.1.1](kerberos-ssl-and-radius-authentication-parameters.md)
+  - sqlnet.ora file sample [B.2](data-encryption-and-integrity-parameters.md)
+  - SQLNET.RADIUS_ALTERNATE_PORT parameter [24.5.1.1.3.3](configuring-radius-authentication.md), [C.3.1.3](kerberos-ssl-and-radius-authentication-parameters.md)
+  - SQLNET.RADIUS_ALTERNATE_RETRIES parameter [24.5.1.1.3.3](configuring-radius-authentication.md), [C.3.1.5](kerberos-ssl-and-radius-authentication-parameters.md)
+  - SQLNET.RADIUS_ALTERNATE_TIMEOUT parameter [24.5.1.1.3.3](configuring-radius-authentication.md), [C.3.1.4](kerberos-ssl-and-radius-authentication-parameters.md)
+  - SQLNET.RADIUS_ALTERNATE_TLS_HOST parameter [24.5.1.1.3.3](configuring-radius-authentication.md)
+  - SQLNET.RADIUS_ALTERNATE_TLS_PORT parameter [24.5.1.1.3.3](configuring-radius-authentication.md)
+  - SQLNET.RADIUS_ALTERNATE parameter [24.5.1.1.3.3](configuring-radius-authentication.md), [C.3.1.2](kerberos-ssl-and-radius-authentication-parameters.md)
+  - SQLNET.RADIUS_AUTHENTICATION_INTERFACE parameter [C.3.1.7](kerberos-ssl-and-radius-authentication-parameters.md)
+  - SQLNET.RADIUS_AUTHENTICATION_PORT parameter [24.5.1.1.3.1](configuring-radius-authentication.md), [C.3.1.8](kerberos-ssl-and-radius-authentication-parameters.md)
+  - SQLNET.RADIUS_AUTHENTICATION_RETRIES parameter [24.5.1.1.3.1](configuring-radius-authentication.md), [C.3.1.10](kerberos-ssl-and-radius-authentication-parameters.md)
+  - SQLNET.RADIUS_AUTHENTICATION_TIMEOUT parameter [24.5.1.1.3.1](configuring-radius-authentication.md)
+  - SQLNET.RADIUS_AUTHENTICATION_TLS_HOST parameter [24.5.1.1.2.2](configuring-radius-authentication.md)
+  - SQLNET.RADIUS_AUTHENTICATION_TLS_PORT parameter [24.5.1.1.2.2](configuring-radius-authentication.md)
+  - SQLNET.RADIUS_AUTHENTICATION parameter [C.3.1.6](kerberos-ssl-and-radius-authentication-parameters.md)
+  - SQLNET.RADIUS_CHALLENGE_KEYWORD parameter [C.3.1.12](kerberos-ssl-and-radius-authentication-parameters.md)
+  - SQLNET.RADIUS_CHALLENGE_RESPONSE parameter [C.3.1.11](kerberos-ssl-and-radius-authentication-parameters.md)
+  - SQLNET.RADIUS_CLASSPATH parameter [C.3.1.13](kerberos-ssl-and-radius-authentication-parameters.md)
+  - SQLNET.RADIUS_SECRET parameter [C.3.1.14](kerberos-ssl-and-radius-authentication-parameters.md)
+  - SQLNET.RADIUS_SEND_ACCOUNTING parameter [24.5.1.4.1](configuring-radius-authentication.md), [C.3.1.15](kerberos-ssl-and-radius-authentication-parameters.md)
+  - SQLNET.RADIUS_TRANSPORT_PROTOCOL parameter [24.5.1.1.2.2](configuring-radius-authentication.md)
+  - synchronous authentication mode [24.3.1](configuring-radius-authentication.md)
+  - system requirements [20.6](introduction-to-strong-authentication.md)
+- RADIUS_SECRET parameter [24.5.1.1.3.1](configuring-radius-authentication.md)
+- RADIUS authentication [3.8.2.3](configuring-authentication.md)
+- RADIUS SQLNET.RADIUS_AUTHENTICATION parameter
+  - SQLNET.RADIUS_AUTHENTICATION parameter [24.5.1.1.2.2](configuring-radius-authentication.md)
+- READ ANY TABLE system privilege
+  - about [4.10.4.2](configuring-privilege-and-role-authorization.md)
+  - restrictions [4.10.4.3](configuring-privilege-and-role-authorization.md)
+- READ object privilege
+  - about [4.10.4.1](configuring-privilege-and-role-authorization.md)
+  - guideline for using [A.3](keeping-your-oracle-database-secure.md)
+  - SQL92_SECURITY initialization parameter [4.10.4.3](configuring-privilege-and-role-authorization.md)
+- reads
+  - limits on data blocks [2.4.2.4](managing-security-for-oracle-database-users.md)
+- realm (Kerberos) [22.1.2](configuring-kerberos-authentication.md)
+- REDACT_AUDIT transparent sensitive data protection default policy [15.10.1](using-transparent-sensitive-data-protection.md)
+- redo log files
+  - auditing committed and rolled back transactions [A.11.2](keeping-your-oracle-database-secure.md)
+- REFERENCES privilege
+  - CASCADE CONSTRAINTS option [4.16.2.5](configuring-privilege-and-role-authorization.md)
+  - revoking [4.16.2.4](configuring-privilege-and-role-authorization.md), [4.16.2.5](configuring-privilege-and-role-authorization.md)
+- REMOTE_OS_AUTHENT initialization parameter
+  - guideline for securing [A.9.1](keeping-your-oracle-database-secure.md)
+  - setting [3.11.5](configuring-authentication.md)
+- REMOTE_OS_ROLES initialization parameter
+  - OS role management risk on network [4.18.6](configuring-privilege-and-role-authorization.md)
+  - setting [4.8.4.5](configuring-privilege-and-role-authorization.md)
+- REMOTE_SCHEDULER_AGENT user account [2.6.2](managing-security-for-oracle-database-users.md)
+- remote authentication [A.9.1](keeping-your-oracle-database-secure.md)
+- remote debugging
+  - configuring network access [10.12](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+- resource limits
+  - about [2.4.1](managing-security-for-oracle-database-users.md)
+  - call level, limiting [2.4.2.2](managing-security-for-oracle-database-users.md)
+  - connection time for each session [2.4.2.5](managing-security-for-oracle-database-users.md)
+  - CPU time, limiting [2.4.2.3](managing-security-for-oracle-database-users.md)
+  - determining values for [2.4.3](managing-security-for-oracle-database-users.md)
+  - idle time in each session [2.4.2.5](managing-security-for-oracle-database-users.md)
+  - logical reads, limiting [2.4.2.4](managing-security-for-oracle-database-users.md)
+  - private SGA space for each session [2.4.2.5](managing-security-for-oracle-database-users.md)
+  - profiles [2.4.4.1](managing-security-for-oracle-database-users.md)
+  - session level, limiting [2.4.2.1](managing-security-for-oracle-database-users.md)
+  - sessions
+    - concurrent for user [2.4.2.5](managing-security-for-oracle-database-users.md)
+    - elapsed connection time [2.4.2.5](managing-security-for-oracle-database-users.md)
+    - idle time [2.4.2.5](managing-security-for-oracle-database-users.md)
+    - SGA space [2.4.2.5](managing-security-for-oracle-database-users.md)
+  - types [2.4.2](managing-security-for-oracle-database-users.md)
+- RESOURCE privilege
+  - CREATE SCHEMA statement, needed for [12.10.1](managing-security-for-application-developers.md)
+- RESOURCE role [4.14.1](configuring-privilege-and-role-authorization.md)
+  - about [4.8.2](configuring-privilege-and-role-authorization.md)
+- restrictions [20.7](introduction-to-strong-authentication.md)
+- REVOKE CONNECT THROUGH clause
+  - revoking proxy authorization [3.14.1.6](configuring-authentication.md)
+- REVOKE statement
+  - system privileges and roles [4.16.1](configuring-privilege-and-role-authorization.md)
+  - when takes effect [4.19.1](configuring-privilege-and-role-authorization.md)
+- revoking privileges and roles
+  - cascading effects [4.16.3](configuring-privilege-and-role-authorization.md)
+  - on selected columns [4.16.2.4](configuring-privilege-and-role-authorization.md)
+  - REVOKE statement [4.16.1](configuring-privilege-and-role-authorization.md)
+  - specifying ALL [4.10.3.2](configuring-privilege-and-role-authorization.md)
+  - when using operating-system roles [4.18.4](configuring-privilege-and-role-authorization.md)
+- ROLE_SYS_PRIVS view
+  - application privileges [12.7](managing-security-for-application-developers.md)
+- ROLE_TAB_PRIVS view
+  - application privileges, finding [12.7](managing-security-for-application-developers.md)
+- role identification
+  - operating system accounts [4.18.2](configuring-privilege-and-role-authorization.md)
+- roles [12.8.2.1](managing-security-for-application-developers.md)
+  - See also: secure application roles
+
+  <!-- -->
+
+  - about [4.1](configuring-privilege-and-role-authorization.md), [4.8.1.1](configuring-privilege-and-role-authorization.md)
+  - ACCHK_READ role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - ADM_PARALLEL_EXECUTE_TASK role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - ADMIN OPTION and [4.15.1.4](configuring-privilege-and-role-authorization.md)
+  - advantages in application use [12.7](managing-security-for-application-developers.md)
+  - application [4.8.1.5](configuring-privilege-and-role-authorization.md), [4.8.7](configuring-privilege-and-role-authorization.md), [12.9](managing-security-for-application-developers.md), [12.11](managing-security-for-application-developers.md)
+  - application privileges [12.7](managing-security-for-application-developers.md)
+  - applications, for user [12.9](managing-security-for-application-developers.md)
+  - AUDIT_ADMIN role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - AUDIT_VIEWER role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - AUTHENTICATEDUSER role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - authorization [4.8.4](configuring-privilege-and-role-authorization.md)
+  - authorized by enterprise directory service [4.8.4.6](configuring-privilege-and-role-authorization.md)
+  - CAPTURE_ADMIN role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - CDB_DBA role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - changing authorization for [4.8.3.5](configuring-privilege-and-role-authorization.md)
+  - changing passwords [4.8.3.5](configuring-privilege-and-role-authorization.md)
+  - common, auditing [27.2.4.1](configuring-audit-policies.md)
+  - common, granting [4.7.9](configuring-privilege-and-role-authorization.md)
+  - CONNECT role
+    - about [4.8.2](configuring-privilege-and-role-authorization.md)
+  - create your own [A.4](keeping-your-oracle-database-secure.md)
+  - CSW_USR_ROLE role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - CTXAPP role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - CWM_USER role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - database role, users [12.9.1](managing-security-for-application-developers.md)
+  - DATAPUMP_EXP_FULL_DATABASE role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - DATAPUMP_IMP_FULL_DATABASE role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - DBA role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - DBFS_ROLE role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - DDL statements and [4.8.1.9](configuring-privilege-and-role-authorization.md)
+  - default [4.19.3](configuring-privilege-and-role-authorization.md)
+  - default, setting for user [2.2.11](managing-security-for-oracle-database-users.md)
+  - definer’s rights procedures disable [4.8.1.8.1](configuring-privilege-and-role-authorization.md)
+  - dependency management in [4.8.1.9](configuring-privilege-and-role-authorization.md)
+  - disabling [4.19.2](configuring-privilege-and-role-authorization.md)
+  - dropping [4.8.6](configuring-privilege-and-role-authorization.md)
+  - EJBCLIENT role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - EM_EXPRESS_ALL role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - EM_EXPRESS_BASIC role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - enabled or disabled [4.8.1.2](configuring-privilege-and-role-authorization.md), [4.8.5.1](configuring-privilege-and-role-authorization.md)
+  - enabling [4.19.2](configuring-privilege-and-role-authorization.md), [12.9](managing-security-for-application-developers.md)
+  - enterprise [3.10.1](configuring-authentication.md), [4.8.4.6](configuring-privilege-and-role-authorization.md)
+  - EXP_FULL_DATABASE role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - external [4.8.3.4](configuring-privilege-and-role-authorization.md)
+  - functionality [4.2](configuring-privilege-and-role-authorization.md), [4.8.1.2](configuring-privilege-and-role-authorization.md)
+  - functionality of [4.8.1.2](configuring-privilege-and-role-authorization.md)
+  - GATHER_SYSTEM_STATISTICS role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - GLOBAL_AQ_USER_ROLE role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - global authorization [4.8.4.6](configuring-privilege-and-role-authorization.md)
+    - about [4.8.4.6](configuring-privilege-and-role-authorization.md)
+  - global roles
+    - about [3.10.1](configuring-authentication.md)
+    - creating [4.8.4.6](configuring-privilege-and-role-authorization.md)
+    - example [4.8.3.4](configuring-privilege-and-role-authorization.md)
+    - external sources, and [4.8.4.3](configuring-privilege-and-role-authorization.md)
+  - granted to other roles [4.8.1.2](configuring-privilege-and-role-authorization.md)
+  - granting and revoking to program units [9.7.6](managing-security-for-definers-rights-and-invokers-rights.md)
+  - granting roles
+    - about [4.15](configuring-privilege-and-role-authorization.md)
+    - methods for [4.8.5.1](configuring-privilege-and-role-authorization.md)
+    - system [4.15.1.1](configuring-privilege-and-role-authorization.md)
+    - system privileges [4.5.3](configuring-privilege-and-role-authorization.md)
+  - granting to program units [4.8.5.3](configuring-privilege-and-role-authorization.md)
+  - GRANT statement [4.18.5](configuring-privilege-and-role-authorization.md)
+  - guidelines for security [A.4](keeping-your-oracle-database-secure.md)
+  - HS_ADMIN_EXECUTE_ROLE role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - HS_ADMIN_ROLE role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - HS_ADMIN_SELECT_ROLE role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - IMP_FULL_DATABASE role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - in applications [4.8.1.3](configuring-privilege-and-role-authorization.md)
+  - indirectly granted [4.8.1.2](configuring-privilege-and-role-authorization.md)
+  - invoker’s rights procedures use [4.8.1.8.2](configuring-privilege-and-role-authorization.md)
+  - JAVA_ADMIN role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - JAVADEBUGPRIV role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - JAVAIDPRIV role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - JAVASYSPRIV role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - JAVAUSERPRIV role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - JMXSERVER role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - job responsibility privileges only [A.4](keeping-your-oracle-database-secure.md)
+  - LBAC_DBA role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - listing grants [4.20.3](configuring-privilege-and-role-authorization.md)
+  - listing privileges and roles in [4.20.7](configuring-privilege-and-role-authorization.md)
+  - listing roles [4.20.6](configuring-privilege-and-role-authorization.md)
+  - LOGSTDBY_ADMINISTRATOR role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - management using the operating system [4.18.1](configuring-privilege-and-role-authorization.md)
+  - managing roles
+    - about [4.8](configuring-privilege-and-role-authorization.md)
+    - categorizing users [12.11](managing-security-for-application-developers.md)
+  - managing through operating system [4.8.1.10](configuring-privilege-and-role-authorization.md)
+  - managing with RADIUS server [24.5.1.8](configuring-radius-authentication.md), [24.5.2.8](configuring-radius-authentication.md)
+  - maximum number a user can enable [4.19.4](configuring-privilege-and-role-authorization.md)
+  - multibyte characters in names [4.8.3.1](configuring-privilege-and-role-authorization.md)
+  - multibyte characters in passwords [4.8.4.1](configuring-privilege-and-role-authorization.md)
+  - naming [4.8.1.1](configuring-privilege-and-role-authorization.md)
+  - network authorization [4.8.4.5](configuring-privilege-and-role-authorization.md)
+  - network client authorization [4.8.4.5](configuring-privilege-and-role-authorization.md)
+  - OEM_ADVISOR role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - OEM_MONITOR role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - OLAP_DBA role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - OLAP_USER role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - OLAP_XS_ADMIN role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - One Big Application User, compromised by [12.2.1](managing-security-for-application-developers.md)
+  - operating system [4.18.2](configuring-privilege-and-role-authorization.md)
+  - operating system authorization [4.8.4.4](configuring-privilege-and-role-authorization.md)
+  - operating-system authorization [4.8.4.3](configuring-privilege-and-role-authorization.md)
+  - operating system granting of [4.18.5](configuring-privilege-and-role-authorization.md)
+  - operating system identification of [4.18.2](configuring-privilege-and-role-authorization.md)
+  - operating system-managed [4.18.3](configuring-privilege-and-role-authorization.md), [4.18.4](configuring-privilege-and-role-authorization.md)
+  - operating system management and the shared server [4.18.6](configuring-privilege-and-role-authorization.md)
+  - OPTIMIZER_PROCESSING_RATE role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - password case sensitivity [3.2.7.3](configuring-authentication.md)
+  - PDB_DBA role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - predefined [4.8.2](configuring-privilege-and-role-authorization.md)
+  - privilege analysis [5.1.4](performing-privilege-analysis-identify-privilege-use.md)
+  - privileges, changing authorization method for [4.8.3.5](configuring-privilege-and-role-authorization.md)
+  - privileges, changing passwords [4.8.3.5](configuring-privilege-and-role-authorization.md)
+  - privileges for creating [4.8.3.1](configuring-privilege-and-role-authorization.md)
+  - privileges for dropping [4.8.6](configuring-privilege-and-role-authorization.md)
+  - PROVISIONER role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - RESOURCE role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - restricting from tool users [4.8.7](configuring-privilege-and-role-authorization.md)
+  - restrictions on privileges of [4.8.1.9](configuring-privilege-and-role-authorization.md)
+  - REVOKE statement [4.18.5](configuring-privilege-and-role-authorization.md)
+  - revoking [4.8.5.1](configuring-privilege-and-role-authorization.md), [4.16.1](configuring-privilege-and-role-authorization.md)
+  - SCHEDULER_ADMIN role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - schemas do not contain [4.8.1.1](configuring-privilege-and-role-authorization.md)
+  - security domains of [4.8.1.7](configuring-privilege-and-role-authorization.md)
+  - SET ROLE statement
+    - about [4.8.4.1](configuring-privilege-and-role-authorization.md)
+    - example [4.8.4.1](configuring-privilege-and-role-authorization.md)
+    - OS_ROLES parameter [4.18.5](configuring-privilege-and-role-authorization.md)
+  - setting in PL/SQL blocks [4.8.1.8.2](configuring-privilege-and-role-authorization.md)
+  - SODA_APP role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - unique names for [4.8.3.1](configuring-privilege-and-role-authorization.md)
+  - use of passwords with [4.8.1.3](configuring-privilege-and-role-authorization.md)
+  - user [4.8.1.6](configuring-privilege-and-role-authorization.md), [12.11](managing-security-for-application-developers.md)
+  - users capable of granting [4.8.5.2](configuring-privilege-and-role-authorization.md)
+  - uses of [4.8.1.2](configuring-privilege-and-role-authorization.md), [4.8.1.4](configuring-privilege-and-role-authorization.md)
+  - WFS_USR_ROLE role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - WITH GRANT OPTION and [4.15.2.2](configuring-privilege-and-role-authorization.md)
+  - without authorization [4.8.3.1](configuring-privilege-and-role-authorization.md)
+  - WM_ADMIN_ROLE role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - XDB_SET_INVOKER roles [4.8.2](configuring-privilege-and-role-authorization.md)
+  - XDB_WEBSERVICES_OVER_HTTP role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - XDB_WEBSERVICES_WITH_PUBLIC role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - XDB_WEBSERVICES role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - XDBADMIN role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - XS_CACHE_ADMIN role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - XS_NSATTR_ADMIN role [4.8.2](configuring-privilege-and-role-authorization.md)
+  - XS_RESOURCE role [4.8.2](configuring-privilege-and-role-authorization.md)
+- root container
+  - viewing information about [4.6.6.1](configuring-privilege-and-role-authorization.md)
+- root file paths
+  - for files and packages outside the database [A.3](keeping-your-oracle-database-secure.md)
+- row-level security
+  - See: fine-grained access control, Oracle Virtual Private Database (VPD)
+- RSA private key [A.9.3](keeping-your-oracle-database-secure.md)
+- run-time facilities [A.3](keeping-your-oracle-database-secure.md)
+  - restriction permissions [A.3](keeping-your-oracle-database-secure.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- Sarbanes-Oxley Act
+  - auditing to meet compliance [26.1](introduction-to-auditing.md)
+- SCHEDULER_ADMIN role
+  - about [4.8.2](configuring-privilege-and-role-authorization.md)
+- schema-independent users [12.10.2](managing-security-for-application-developers.md)
+- schema object privileges [4.10.1](configuring-privilege-and-role-authorization.md)
+- schema objects
+  - cascading effects on revoking [4.16.3.2](configuring-privilege-and-role-authorization.md)
+  - default tablespace for [2.2.6.1](managing-security-for-oracle-database-users.md)
+  - dropped users, owned by [2.5.1](managing-security-for-oracle-database-users.md)
+  - granting privileges [4.15.2.1](configuring-privilege-and-role-authorization.md)
+  - privileges
+    - DML and DDL operations [4.11](configuring-privilege-and-role-authorization.md)
+    - granting and revoking [4.10.3.1](configuring-privilege-and-role-authorization.md)
+    - view privileges [4.12](configuring-privilege-and-role-authorization.md)
+  - privileges on [4.10.1](configuring-privilege-and-role-authorization.md)
+  - privileges to access [4.10.3.2](configuring-privilege-and-role-authorization.md)
+  - privileges with [4.10.3.2](configuring-privilege-and-role-authorization.md)
+  - revoking privileges [4.16.2.1](configuring-privilege-and-role-authorization.md)
+- schema-only accounts [3.6](configuring-authentication.md)
+- schemas
+  - auditing, recommended settings for [A.11.5](keeping-your-oracle-database-secure.md)
+  - private [3.10.2.1](configuring-authentication.md)
+  - shared, protecting objects in [12.10.2](managing-security-for-application-developers.md)
+  - shared among enterprise users [3.10.2.2](configuring-authentication.md)
+  - unique [12.10](managing-security-for-application-developers.md)
+  - unique, protecting objects in [12.10.1](managing-security-for-application-developers.md)
+- schema user accounts, predefined [2.6.1](managing-security-for-oracle-database-users.md)
+- SCOTT user
+  - about [2.6.4](managing-security-for-oracle-database-users.md)
+- SCOTT user account
+  - restricting privileges of [A.4](keeping-your-oracle-database-secure.md)
+- SEC_CASE_SENSITIVE_LOGON initialization parameter
+  - deprecated [3.2.7.1](configuring-authentication.md)
+- SEC_CASE_SENSITIVE_LOGON parameter
+  - conflict with SQLNET.ALLOWED_LOGON_VERSION_SERVER setting [3.2.7.1](configuring-authentication.md)
+  - secure role passwords [3.2.7.3](configuring-authentication.md)
+- SEC_MAX_FAILED_LOGIN_ATTEMPTS initialization parameter [12.12.3](managing-security-for-application-developers.md)
+- SEC_PROTOCOL_ERROR_FURTHER_ACTION initialization parameter [12.12.2](managing-security-for-application-developers.md)
+- sec_relevant_cols_opt parameter [14.3.6.5](using-oracle-vpd-to-control-data-access.md)
+- SEC_RETURN_SERVER_RELEASE_BANNER initialization parameter [12.12.4](managing-security-for-application-developers.md)
+- SEC_USER_AUDIT_ACTION_BANNER initialization parameter [12.12.5](managing-security-for-application-developers.md)
+- SEC_USER_UNAUTHORIZED_ACCESS_BANNER initialization parameter [12.12.5](managing-security-for-application-developers.md)
+- secconf.sql script
+  - password settings [3.2.4.5](configuring-authentication.md)
+- secret key
+  - location in RADIUS [24.5.1.1.3.1](configuring-radius-authentication.md), [24.5.2.1.3.1](configuring-radius-authentication.md)
+- secure application roles
+  - about [4.8.8](configuring-privilege-and-role-authorization.md)
+  - creating [12.8.1](managing-security-for-application-developers.md)
+  - creating PL/SQL package [12.8.2.1](managing-security-for-application-developers.md)
+  - finding with DBA_ROLES view [4.20.1](configuring-privilege-and-role-authorization.md)
+  - invoker’s rights [12.8.2.1](managing-security-for-application-developers.md)
+  - invoker’s rights requirement [12.8.2.1](managing-security-for-application-developers.md)
+  - package for [12.8.2.1](managing-security-for-application-developers.md)
+  - user environment information from SYS_CONTEXT SQL function [12.8.2.1](managing-security-for-application-developers.md)
+  - using to ensure database connection [4.8.8](configuring-privilege-and-role-authorization.md)
+- secure external password store
+  - about [3.2.9.1](configuring-authentication.md)
+  - client configuration [3.2.9.3](configuring-authentication.md)
+  - examples [3.2.9.2](configuring-authentication.md)
+  - how it works [3.2.9.2](configuring-authentication.md)
+  - proxy authentication, used with [3.14.1.7](configuring-authentication.md)
+- Secure Sockets Layer on Oracle RAC
+  - remote client, testing configuration [23.11.8](configuring-secure-sockets-layer-authentication.md)
+- SecurID [24.3.1.2](configuring-radius-authentication.md)
+  - token cards [24.3.1.2](configuring-radius-authentication.md)
+- security [A.3](keeping-your-oracle-database-secure.md)
+  - See also: security risks
+
+  <!-- -->
+
+  - application enforcement of [4.8.1.3](configuring-privilege-and-role-authorization.md)
+  - default user accounts
+    - locked and expired automatically [A.3](keeping-your-oracle-database-secure.md)
+    - locking and expiring [A.3](keeping-your-oracle-database-secure.md)
+  - domains, enabled roles and [4.8.5.1](configuring-privilege-and-role-authorization.md)
+  - enforcement in application [12.2.2](managing-security-for-application-developers.md)
+  - enforcement in database [12.2.2](managing-security-for-application-developers.md)
+  - multibyte characters in role names [4.8.3.1](configuring-privilege-and-role-authorization.md)
+  - multibyte characters in role passwords [4.8.4.1](configuring-privilege-and-role-authorization.md)
+  - passwords [3.4.1](configuring-authentication.md)
+  - policies
+    - applications [12.1](managing-security-for-application-developers.md)
+    - SQL\*Plus users, restricting [4.8.7](configuring-privilege-and-role-authorization.md)
+    - tables or views [14.1.2.1](using-oracle-vpd-to-control-data-access.md)
+  - procedures enhance [9.2](managing-security-for-definers-rights-and-invokers-rights.md)
+  - products, additional [1.2](introduction-to-oracle-database-security.md)
+  - roles, advantages in application use [12.7](managing-security-for-application-developers.md)
+- security alerts [A.2.1](keeping-your-oracle-database-secure.md)
+- security attacks [3.14.1.7](configuring-authentication.md)
+  - See also: security risks
+
+  <!-- -->
+
+  - access to server after protocol errors, preventing [12.12.2](managing-security-for-application-developers.md)
+  - application context values, attempts to change [13.3.3.2](using-application-contexts-to-retrieve-user-information.md)
+  - application design to prevent attacks [12.3](managing-security-for-application-developers.md)
+  - command line recall attacks [12.3.1.1](managing-security-for-application-developers.md), [12.3.1.4](managing-security-for-application-developers.md)
+  - denial of service [A.9.2](keeping-your-oracle-database-secure.md)
+  - denial-of-service
+    - bad packets, addressing [12.12.1](managing-security-for-application-developers.md)
+  - denial-of-service attacks through listener [A.9.2](keeping-your-oracle-database-secure.md)
+  - disk flooding, preventing [12.12.1](managing-security-for-application-developers.md)
+  - eavesdropping [A.9.1](keeping-your-oracle-database-secure.md)
+  - encryption, problems not solved by [17.1.2](manually-encrypting-data.md)
+  - falsified IP addresses [A.9.1](keeping-your-oracle-database-secure.md)
+  - falsified or stolen client system identities [A.9.1](keeping-your-oracle-database-secure.md)
+  - hacked operating systems or applications [A.9.1](keeping-your-oracle-database-secure.md)
+  - intruders [17.1.2](manually-encrypting-data.md)
+  - password cracking [3.2.1](configuring-authentication.md)
+  - password protections against [3.2.1](configuring-authentication.md)
+  - preventing malicious attacks from clients [12.12](managing-security-for-application-developers.md)
+  - preventing password theft with proxy authentication and secure external password store [3.14.1.7](configuring-authentication.md)
+  - session ID, need for encryption [13.4.7.3.2](using-application-contexts-to-retrieve-user-information.md)
+  - shoulder surfing [12.3.1.4](managing-security-for-application-developers.md)
+  - SQL injection attacks [12.3.1.2](managing-security-for-application-developers.md)
+  - unlimited authenticated requests, preventing [12.12.3](managing-security-for-application-developers.md)
+  - user session output, hiding from intruders [13.3.7](using-application-contexts-to-retrieve-user-information.md)
+- security domains
+  - enabled roles and [4.8.1.2](configuring-privilege-and-role-authorization.md)
+- security patches
+  - about [A.2.1](keeping-your-oracle-database-secure.md)
+  - downloading [A.2.1](keeping-your-oracle-database-secure.md)
+- security policies
+  - See: Oracle Virtual Private Database, policies
+- security risks [3.14.1.7](configuring-authentication.md)
+  - See also: security attacks
+
+  <!-- -->
+
+  - ad hoc tools [4.8.7.1](configuring-privilege-and-role-authorization.md)
+  - applications enforcing rather than database [12.2.2](managing-security-for-application-developers.md)
+  - application users not being database users [12.2.1](managing-security-for-application-developers.md)
+  - bad packets to server [12.12.1](managing-security-for-application-developers.md)
+  - database version displaying [12.12.4](managing-security-for-application-developers.md)
+  - encryption keys, users managing [17.2.4.4](manually-encrypting-data.md)
+  - invoker’s rights procedures [9.5.1](managing-security-for-definers-rights-and-invokers-rights.md)
+  - password files [3.3.5](configuring-authentication.md)
+  - passwords, exposing in programs or scripts [12.3.1.4](managing-security-for-application-developers.md)
+  - passwords exposed in large deployments [3.2.9.1](configuring-authentication.md)
+  - positional parameters in SQL scripts [12.3.1.4](managing-security-for-application-developers.md)
+  - privileges carelessly granted [4.5.5](configuring-privilege-and-role-authorization.md)
+  - remote user impersonating another user [4.8.4.5](configuring-privilege-and-role-authorization.md)
+  - sensitive data in audit trail [A.11](keeping-your-oracle-database-secure.md)
+  - server falsifying identities [A.9.3](keeping-your-oracle-database-secure.md)
+  - users with multiple roles [12.9.1](managing-security-for-application-developers.md)
+- security settings scripts
+  - password settings
+    - secconf.sql [3.2.4.5](configuring-authentication.md)
+- Security Sockets Layer (SSL)
+  - See: Transport Layer Security (TLS)
+- Security Technical Implementation Guide (STIG)
+  - ora_stig_profile user profile [2.4.4.2](managing-security-for-oracle-database-users.md)
+  - ora12c_stig_verify_function password complexity function [3.2.6.7](configuring-authentication.md)
+- SELECT_CATALOG_ROLE role
+  - SYS schema objects, enabling access to [4.5.2.2](configuring-privilege-and-role-authorization.md)
+- SELECT ANY DICTIONARY privilege
+  - data dictionary, accessing [A.6](keeping-your-oracle-database-secure.md)
+  - exclusion from GRANT ALL PRIVILEGES privilege [A.6](keeping-your-oracle-database-secure.md)
+- SELECT FOR UPDATE statement in Virtual Private Database policies [14.5.2](using-oracle-vpd-to-control-data-access.md)
+- SELECT object privilege
+  - guideline for using [A.3](keeping-your-oracle-database-secure.md)
+  - privileges enabled [4.10.4.1](configuring-privilege-and-role-authorization.md)
+- sensitive data, auditing of [A.11.4](keeping-your-oracle-database-secure.md)
+- separation of duty concepts
+- sequences
+  - auditing [27.2.7.2](configuring-audit-policies.md)
+- server.key file
+  - pass phrase to read and parse [A.9.3](keeping-your-oracle-database-secure.md)
+- service names
+  - controlling with SSL_ALLOW_WEAK_DN_MATCH and SSL_SERVER_DN_MATCH [23.9.2.2.3](configuring-secure-sockets-layer-authentication.md)
+- SESSION_ROLES data dictionary view
+  - PUBLIC role [4.5.5](configuring-privilege-and-role-authorization.md)
+- SESSION_ROLES view
+  - queried from PL/SQL block [4.8.1.8.1](configuring-privilege-and-role-authorization.md)
+- session key
+  - defined [23.3](configuring-secure-sockets-layer-authentication.md)
+- session layer
+  - defined [23.5.1](configuring-secure-sockets-layer-authentication.md)
+- sessions
+  - listing privilege domain of [4.20.5](configuring-privilege-and-role-authorization.md)
+  - memory use, viewing [2.7.5](managing-security-for-oracle-database-users.md)
+  - time limits on [2.4.2.5](managing-security-for-oracle-database-users.md)
+  - when auditing options take effect [28.1.1](administering-the-audit-trail.md)
+- SET ROLE statement
+  - application code, including in [12.9.2](managing-security-for-application-developers.md)
+  - associating privileges with role [12.9.1](managing-security-for-application-developers.md)
+  - disabling roles with [4.19.2](configuring-privilege-and-role-authorization.md)
+  - enabling roles with [4.19.2](configuring-privilege-and-role-authorization.md)
+  - when using operating-system roles [4.18.5](configuring-privilege-and-role-authorization.md)
+- SGA
+  - See: System Global Area (SGA)
+- SHA-512 cryptographic hash function
+  - enabling exclusive mode [3.2.8.3](configuring-authentication.md)
+- Shared Global Area (SGA)
+  - See: System Global Area (SGA)
+- shared server
+  - limiting private SQL areas [2.4.2.5](managing-security-for-oracle-database-users.md)
+  - operating system role management restrictions [4.18.6](configuring-privilege-and-role-authorization.md)
+- shoulder surfing [12.3.1.4](managing-security-for-application-developers.md)
+- SH user account [2.6.4](managing-security-for-oracle-database-users.md)
+- SI_INFORMTN_SCHEMA user account [2.6.2](managing-security-for-oracle-database-users.md)
+- smartcards [20.4.2](introduction-to-strong-authentication.md)
+  - and RADIUS [20.4.2](introduction-to-strong-authentication.md), [24.3.2.2](configuring-radius-authentication.md), [24.5.1.1.3.2](configuring-radius-authentication.md), [24.5.2.1.3.2](configuring-radius-authentication.md), [D.1](integrating-authentication-devices-using-radius.md)
+- smart cards
+  - guidelines for security [A.5](keeping-your-oracle-database-secure.md)
+- SODA_APP role [4.8.2](configuring-privilege-and-role-authorization.md)
+- SQL\*Net
+  - See: Oracle Net Services
+- SQL\*Plus
+  - connecting with [3.7](configuring-authentication.md)
+  - restricting ad hoc use [4.8.7.1](configuring-privilege-and-role-authorization.md)
+  - statistics monitor [2.4.3](managing-security-for-oracle-database-users.md)
+- SQL92_SECURITY initialization parameter
+  - READ object privilege impact [4.10.4.3](configuring-privilege-and-role-authorization.md)
+- SQL Developer
+  - debugging using Java Debug Wire Protocol [10.12](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+- SQL injection attacks [12.3.1.2](managing-security-for-application-developers.md)
+- SQLNET.ALLOWED_LOGON_VERSION
+  - See: SQLNET.ALLOWED_LOGON_VERSION_CLIENT, SQLNET.ALLOWED_LOGON_VERSION_SERVER,
+- SQLNET.ALLOWED_LOGON_VERSION_CLIENT
+  - target databases from earlier releases [3.2.8.4](configuring-authentication.md)
+- SQLNET.ALLOWED_LOGON_VERSION_SERVER
+  - target databases from earlier releases [3.2.8.4](configuring-authentication.md)
+  - using only 12C password version [3.2.8.3](configuring-authentication.md)
+- SQLNET.ALLOWED_LOGON_VERSION_SERVER parameter
+  - conflict with SEC_CASE_SENSITIVE_LOGON FALSE setting [3.2.7.1](configuring-authentication.md)
+  - effect on role passwords [3.2.7.3](configuring-authentication.md)
+- SQLNET.AUTHENTICATION_KERBEROS5_SERVICE parameter [22.1.6.1](configuring-kerberos-authentication.md)
+- SQLNET.AUTHENTICATION_SERVICES parameter [22.1.6.1](configuring-kerberos-authentication.md), [23.9.1.6](configuring-secure-sockets-layer-authentication.md), [23.9.2.6](configuring-secure-sockets-layer-authentication.md), [23.9.2.6.2](configuring-secure-sockets-layer-authentication.md), [24.5.1.1.1](configuring-radius-authentication.md), [24.5.1.1.2.2](configuring-radius-authentication.md), [24.5.2.1.1](configuring-radius-authentication.md), [25.2](customizing-the-use-of-strong-authentication.md), [25.3](customizing-the-use-of-strong-authentication.md), [A.9.3](keeping-your-oracle-database-secure.md), [C.2.2](kerberos-ssl-and-radius-authentication-parameters.md), [C.3.1.1](kerberos-ssl-and-radius-authentication-parameters.md)
+- SQLNET.CRYPTO_CHECKSUM_CLIENT parameter [18.6.3.2](configuring-network-data-encryption-and-integrity.md), [B.3.5](data-encryption-and-integrity-parameters.md)
+- SQLNET.CRYPTO_CHECKSUM_SERVER parameter [18.6.3.2](configuring-network-data-encryption-and-integrity.md), [B.3.4](data-encryption-and-integrity-parameters.md)
+- SQLNET.CRYPTO_CHECKSUM_TYPES_CLIENT parameter [18.6.3.2](configuring-network-data-encryption-and-integrity.md), [B.3.9](data-encryption-and-integrity-parameters.md)
+- SQLNET.CRYPTO_CHECKSUM_TYPES_SERVER parameter [18.6.3.2](configuring-network-data-encryption-and-integrity.md), [B.3.8](data-encryption-and-integrity-parameters.md)
+- SQLNET.ENCRYPTION_CLIENT
+  - with ANO encryption and TLS authentication [18.6.3.3.1](configuring-network-data-encryption-and-integrity.md)
+- SQLNET.ENCRYPTION_CLIENT parameter [18.6.3.1](configuring-network-data-encryption-and-integrity.md), [25.2](customizing-the-use-of-strong-authentication.md), [B.3.3](data-encryption-and-integrity-parameters.md)
+- SQLNET.ENCRYPTION_SERVER
+  - with ANO encryption and TLS authentication [18.6.3.3.1](configuring-network-data-encryption-and-integrity.md)
+- SQLNET.ENCRYPTION_SERVER parameter [18.6.3.1](configuring-network-data-encryption-and-integrity.md), [25.2](customizing-the-use-of-strong-authentication.md), [B.3.2](data-encryption-and-integrity-parameters.md)
+- SQLNET.ENCRYPTION_TYPES_CLIENT parameter [18.6.3.1](configuring-network-data-encryption-and-integrity.md), [B.3.7](data-encryption-and-integrity-parameters.md)
+- SQLNET.ENCRYPTION_TYPES_SERVER parameter [18.6.3.1](configuring-network-data-encryption-and-integrity.md), [B.3.6](data-encryption-and-integrity-parameters.md)
+- SQLNET.IGNORE_ANO_ENCRYPTION_FOR_TCPS
+  - setting [18.6.3.3.2](configuring-network-data-encryption-and-integrity.md)
+  - with ANO encryption and TLS authentication [18.6.3.3.1](configuring-network-data-encryption-and-integrity.md)
+- SQLNET.KERBEROS5_CC_NAME parameter [22.1.6.3](configuring-kerberos-authentication.md)
+- SQLNET.KERBEROS5_CLOCKSKEW parameter [22.1.6.3](configuring-kerberos-authentication.md)
+- SQLNET.KERBEROS5_CONF parameter [22.1.6.3](configuring-kerberos-authentication.md)
+- SQLNET.KERBEROS5_REALMS parameter [22.1.6.3](configuring-kerberos-authentication.md)
+- sqlnet.ora file
+  - Common sample [B.2](data-encryption-and-integrity-parameters.md)
+  - FIPS 140-2
+    - Cipher Suite settings [E.3.2](oracle-database-fips-140-settings.md)
+  - Kerberos sample [B.2](data-encryption-and-integrity-parameters.md)
+  - Oracle Advanced Security checksum sample [B.2](data-encryption-and-integrity-parameters.md)
+  - Oracle Advanced Security encryption sample [B.2](data-encryption-and-integrity-parameters.md)
+  - Oracle wallet setting [C.2.8](kerberos-ssl-and-radius-authentication-parameters.md)
+  - OSS.SOURCE.MY_WALLET parameter [23.9.1.2](configuring-secure-sockets-layer-authentication.md), [23.9.2.3](configuring-secure-sockets-layer-authentication.md)
+  - parameters for clients and servers using Kerberos [C.1](kerberos-ssl-and-radius-authentication-parameters.md)
+  - parameters for clients and servers using RADIUS [24.4.1](configuring-radius-authentication.md), [C.3](kerberos-ssl-and-radius-authentication-parameters.md)
+  - parameters for clients and servers using TLS [C.2](kerberos-ssl-and-radius-authentication-parameters.md)
+  - PDBs [3.2.8.3](configuring-authentication.md)
+  - RADIUS sample [B.2](data-encryption-and-integrity-parameters.md)
+  - sample [B.2](data-encryption-and-integrity-parameters.md)
+  - SQLNET.AUTHENTICATION_KERBEROS5_SERVICE parameter [22.1.6.1](configuring-kerberos-authentication.md)
+  - SQLNET.AUTHENTICATION_SERVICES parameter [22.1.6.1](configuring-kerberos-authentication.md), [23.9.1.6](configuring-secure-sockets-layer-authentication.md), [23.9.2.6](configuring-secure-sockets-layer-authentication.md), [23.9.2.6.2](configuring-secure-sockets-layer-authentication.md), [25.2](customizing-the-use-of-strong-authentication.md), [25.3](customizing-the-use-of-strong-authentication.md), [A.9.3](keeping-your-oracle-database-secure.md)
+  - SQLNET.CRYPTO_CHECKSUM_CLIENT parameter [18.6.3.2](configuring-network-data-encryption-and-integrity.md)
+  - SQLNET.CRYPTO_CHECKSUM_SERVER parameter [18.6.3.2](configuring-network-data-encryption-and-integrity.md)
+  - SQLNET.CRYPTO_CHECKSUM_TYPES_CLIENT parameter [18.6.3.2](configuring-network-data-encryption-and-integrity.md), [B.3.9](data-encryption-and-integrity-parameters.md)
+  - SQLNET.CRYPTO_CHECKSUM_TYPES_SERVER parameter [18.6.3.2](configuring-network-data-encryption-and-integrity.md), [B.3.8](data-encryption-and-integrity-parameters.md)
+  - SQLNET.ENCRYPTION_CLIEN parameter [25.2](customizing-the-use-of-strong-authentication.md)
+  - SQLNET.ENCRYPTION_CLIENT parameter [B.3.3](data-encryption-and-integrity-parameters.md)
+  - SQLNET.ENCRYPTION_SERVER parameter [18.6.3.1](configuring-network-data-encryption-and-integrity.md), [25.2](customizing-the-use-of-strong-authentication.md), [B.3.2](data-encryption-and-integrity-parameters.md)
+  - SQLNET.ENCRYPTION_TYPES_CLIENT parameter [18.6.3.1](configuring-network-data-encryption-and-integrity.md)
+  - SQLNET.ENCRYPTION_TYPES_SERVER parameter [18.6.3.1](configuring-network-data-encryption-and-integrity.md)
+  - SQLNET.KERBEROS5_CC_NAME parameter [22.1.6.3](configuring-kerberos-authentication.md)
+  - SQLNET.KERBEROS5_CLOCKSKEW parameter [22.1.6.3](configuring-kerberos-authentication.md)
+  - SQLNET.KERBEROS5_CONF parameter [22.1.6.3](configuring-kerberos-authentication.md)
+  - SQLNET.KERBEROS5_REALMS parameter [22.1.6.3](configuring-kerberos-authentication.md)
+  - SQLNET.SSL_EXTENDED_KEY_USAGE [23.9.2.7](configuring-secure-sockets-layer-authentication.md)
+  - SSL_CLIENT_AUTHENTICATION parameter [23.9.1.5](configuring-secure-sockets-layer-authentication.md)
+  - SSL_CLIENT_AUTHETNICATION parameter [23.9.2.3](configuring-secure-sockets-layer-authentication.md)
+  - SSL_VERSION parameter [23.9.1.4](configuring-secure-sockets-layer-authentication.md), [23.9.2.5](configuring-secure-sockets-layer-authentication.md)
+  - SSL sample [B.2](data-encryption-and-integrity-parameters.md)
+  - Trace File Set Up sample [B.2](data-encryption-and-integrity-parameters.md)
+- sqlnet.ora parameters
+  - ADD_SSLV3_TO_DEFAULT [23.9.1.7](configuring-secure-sockets-layer-authentication.md)
+- SQLNET.RADIUS_ALTERNATE_PORT parameter [24.5.1.1.3.3](configuring-radius-authentication.md), [24.5.2.1.3.3](configuring-radius-authentication.md), [C.3.1.3](kerberos-ssl-and-radius-authentication-parameters.md)
+- SQLNET.RADIUS_ALTERNATE_RETRIES parameter [24.5.1.1.3.3](configuring-radius-authentication.md), [24.5.2.1.3.3](configuring-radius-authentication.md), [C.3.1.5](kerberos-ssl-and-radius-authentication-parameters.md)
+- SQLNET.RADIUS_ALTERNATE_TIMEOUT parameter [24.5.1.1.3.3](configuring-radius-authentication.md), [24.5.2.1.3.3](configuring-radius-authentication.md), [C.3.1.4](kerberos-ssl-and-radius-authentication-parameters.md)
+- SQLNET.RADIUS_ALTERNATE_TLS_HOST parameter [24.5.1.1.3.3](configuring-radius-authentication.md)
+- SQLNET.RADIUS_ALTERNATE_TLS_PORT parameter [24.5.1.1.3.3](configuring-radius-authentication.md)
+- SQLNET.RADIUS_ALTERNATE parameter [24.5.1.1.3.3](configuring-radius-authentication.md), [24.5.2.1.3.3](configuring-radius-authentication.md), [C.3.1.2](kerberos-ssl-and-radius-authentication-parameters.md)
+- SQLNET.RADIUS_AUTHENTICATION_INTERFACE parameter [C.3.1.7](kerberos-ssl-and-radius-authentication-parameters.md)
+- SQLNET.RADIUS_AUTHENTICATION_PORT parameter [24.5.1.1.3.1](configuring-radius-authentication.md), [C.3.1.8](kerberos-ssl-and-radius-authentication-parameters.md)
+- SQLNET.RADIUS_AUTHENTICATION_RETRIES parameter [24.5.1.1.3.1](configuring-radius-authentication.md), [C.3.1.10](kerberos-ssl-and-radius-authentication-parameters.md)
+- SQLNET.RADIUS_AUTHENTICATION_TIMEOUT parameter [24.5.1.1.3.1](configuring-radius-authentication.md), [C.3.1.9](kerberos-ssl-and-radius-authentication-parameters.md)
+- SQLNET.RADIUS_AUTHENTICATION_TLS_HOST parameter [24.5.1.1.2.2](configuring-radius-authentication.md)
+- SQLNET.RADIUS_AUTHENTICATION_TLS_PORT parameter [24.5.1.1.2.2](configuring-radius-authentication.md)
+- SQLNET.RADIUS_AUTHENTICATION parameter [C.3.1.6](kerberos-ssl-and-radius-authentication-parameters.md)
+- SQLNET.RADIUS_CHALLENGE_KEYWORDparameter [C.3.1.12](kerberos-ssl-and-radius-authentication-parameters.md)
+- SQLNET.RADIUS_CHALLENGE_RESPONSE parameter [C.3.1.11](kerberos-ssl-and-radius-authentication-parameters.md)
+- SQLNET.RADIUS_CLASSPATH parameter [C.3.1.13](kerberos-ssl-and-radius-authentication-parameters.md)
+- SQLNET.RADIUS_SECRET parameter [C.3.1.14](kerberos-ssl-and-radius-authentication-parameters.md)
+- SQLNET.RADIUS_SEND_ACCOUNTING parameter [24.5.1.4.1](configuring-radius-authentication.md), [24.5.2.4.1](configuring-radius-authentication.md), [C.3.1.15](kerberos-ssl-and-radius-authentication-parameters.md)
+- SQLNET.RADIUS_TRANSPORT_PROTOCOL parameter [24.5.1.1.2.2](configuring-radius-authentication.md)
+- SQLNET.SSL_EXTENDED_KEY_USAGE parameter [23.9.2.7](configuring-secure-sockets-layer-authentication.md)
+- SQL statements
+  - dynamic [13.3.4.4](using-application-contexts-to-retrieve-user-information.md)
+  - object privileges permitting in applications [12.11.2](managing-security-for-application-developers.md)
+  - privileges required for [4.10.1](configuring-privilege-and-role-authorization.md), [12.11.2](managing-security-for-application-developers.md)
+  - resource limits and [2.4.2.2](managing-security-for-oracle-database-users.md)
+  - restricting ad hoc use [4.8.7.1](configuring-privilege-and-role-authorization.md)
+- SQL statements, top-level in unified audit policies [27.2.19.1](configuring-audit-policies.md)
+- SSL_ALLOW_WEAK_DN_MATCH parameter
+  - using [23.9.2.2.3](configuring-secure-sockets-layer-authentication.md)
+- SSL_CIPHER_SUITES parameter [C.2.3](kerberos-ssl-and-radius-authentication-parameters.md)
+- SSL_CLIENT_AUTHENTICATION parameter [23.9.1.5](configuring-secure-sockets-layer-authentication.md), [23.9.2.3](configuring-secure-sockets-layer-authentication.md)
+- SSL_SERVER_CERT_DN parameter [C.2.7.2](kerberos-ssl-and-radius-authentication-parameters.md)
+- SSL_SERVER_DN_MATCH parameter [C.2.7.1](kerberos-ssl-and-radius-authentication-parameters.md)
+  - affected by SSL_ALLOW_WEAK_DN_MATCH [23.9.2.2.3](configuring-secure-sockets-layer-authentication.md)
+- SSL_VERSION parameter [23.9.1.4](configuring-secure-sockets-layer-authentication.md), [23.9.2.5](configuring-secure-sockets-layer-authentication.md), [C.2.5](kerberos-ssl-and-radius-authentication-parameters.md)
+- standard auditing
+  - affected by editions [27.2.7.14](configuring-audit-policies.md)
+  - archiving audit trail [28.2.2](administering-the-audit-trail.md)
+  - privilege auditing
+    - about [27.2.5.1](configuring-audit-policies.md)
+    - multitier environment [27.2.9](configuring-audit-policies.md)
+  - records
+    - archiving [28.2.2](administering-the-audit-trail.md)
+  - statement auditing
+    - multitier environment [27.2.9](configuring-audit-policies.md)
+- standard audit trail
+  - records, purging [28.2.1](administering-the-audit-trail.md)
+- statement_types parameter of DBMS_RLS.ADD_POLICY procedure [14.3.4](using-oracle-vpd-to-control-data-access.md)
+- storage
+  - quotas and [2.2.7.1](managing-security-for-oracle-database-users.md)
+  - unlimited quotas [2.2.7.4](managing-security-for-oracle-database-users.md)
+- stored procedures
+  - using privileges granted to PUBLIC role [4.17](configuring-privilege-and-role-authorization.md)
+- strong authentication
+  - centrally controlling SYSDBA and SYSOPER access to multiple databases [3.3.2.1](configuring-authentication.md)
+  - disabling [25.2](customizing-the-use-of-strong-authentication.md)
+  - guideline [A.5](keeping-your-oracle-database-secure.md)
+- symbolic links
+  - restricting [A.6](keeping-your-oracle-database-secure.md)
+- synchronous authentication mode, RADIUS [24.3.1](configuring-radius-authentication.md)
+- synonyms
+  - object privileges [4.10.5](configuring-privilege-and-role-authorization.md)
+  - privileges, guidelines on [A.3](keeping-your-oracle-database-secure.md)
+- SYS_CONTEXT function
+  - about [13.3.4.1](using-application-contexts-to-retrieve-user-information.md)
+  - auditing nondatabase users with [27.2.25.2](configuring-audit-policies.md)
+  - Boolean expressions used in privilege analysis [5.2.3](performing-privilege-analysis-identify-privilege-use.md)
+  - database links [13.3.4.6](using-application-contexts-to-retrieve-user-information.md)
+  - dynamic SQL statements [13.3.4.4](using-application-contexts-to-retrieve-user-information.md)
+  - example [13.3.4.8](using-application-contexts-to-retrieve-user-information.md)
+  - parallel query [13.3.4.5](using-application-contexts-to-retrieve-user-information.md)
+  - syntax [13.3.4.2](using-application-contexts-to-retrieve-user-information.md)
+  - unified audit policies [27.2.10.1](configuring-audit-policies.md)
+  - used in views [9.6.1](managing-security-for-definers-rights-and-invokers-rights.md)
+  - validating users [12.8.2.1](managing-security-for-application-developers.md)
+- SYS_DEFAULT Oracle Virtual Private Database policy group [14.3.7.3](using-oracle-vpd-to-control-data-access.md)
+- SYS_SESSION_ROLES namespace [13.3.4.1](using-application-contexts-to-retrieve-user-information.md)
+- SYS.AUD\$ table
+  - archiving [28.2.2](administering-the-audit-trail.md)
+- SYS.FGA_LOG\$ table
+  - archiving [28.2.2](administering-the-audit-trail.md)
+- SYS.LINK\$ system table [16.1](encrypt-sensitive-data.md)
+- SYS.SCHEDULER\$\_CREDENTIAL system table [16.1](encrypt-sensitive-data.md)
+- SYS\$UMF user account [2.6.2](managing-security-for-oracle-database-users.md)
+- SYS account
+  - auditing [27.2.22.1](configuring-audit-policies.md)
+  - changing password [2.3.4.1](managing-security-for-oracle-database-users.md)
+  - policy enforcement [14.5.7.2](using-oracle-vpd-to-control-data-access.md)
+  - privilege analysis [5.1.4](performing-privilege-analysis-identify-privilege-use.md)
+- SYS and SYSTEM
+  - passwords [A.5](keeping-your-oracle-database-secure.md)
+- SYS and SYSTEM accounts
+  - auditing [27.2.22.1](configuring-audit-policies.md)
+- SYSASM privilege
+  - password file [3.3.4](configuring-authentication.md)
+- SYSBACKUP privilege
+  - operations supported [4.4.5](configuring-privilege-and-role-authorization.md)
+  - password file [3.3.4](configuring-authentication.md)
+- SYSBACKUP user account
+  - about [2.6.2](managing-security-for-oracle-database-users.md)
+- SYSDBA administrative privilege
+  - forcing oracle user to enter password [4.4.4](configuring-privilege-and-role-authorization.md)
+- SYSDBA privilege [4.4.3](configuring-privilege-and-role-authorization.md)
+  - directory authentication [3.3.2.2](configuring-authentication.md)
+  - Kerberos authentication [3.3.2.3](configuring-authentication.md)
+  - password file [3.3.4](configuring-authentication.md)
+  - TLS authentication [3.3.2.4](configuring-authentication.md)
+- SYSDG privilege
+  - operations supported [4.4.6](configuring-privilege-and-role-authorization.md)
+  - password file [3.3.4](configuring-authentication.md)
+- SYSDG user account
+  - about [2.6.2](managing-security-for-oracle-database-users.md)
+- SYSKM privilege
+  - operations supported [4.4.7](configuring-privilege-and-role-authorization.md)
+  - password file [3.3.4](configuring-authentication.md)
+- SYSKM user account
+  - about [2.6.2](managing-security-for-oracle-database-users.md)
+- SYSLOG
+  - audit trail records [28.1.5.1](administering-the-audit-trail.md)
+  - capturing audit trail records [28.1.5.2](administering-the-audit-trail.md)
+- SYSMAN user account [A.5](keeping-your-oracle-database-secure.md)
+- SYS objects
+  - auditing [27.2.7.4](configuring-audit-policies.md)
+- SYSOPER privilege [4.4.3](configuring-privilege-and-role-authorization.md)
+  - directory authentication [3.3.2.2](configuring-authentication.md)
+  - password file [3.3.4](configuring-authentication.md)
+- SYSRAC privilege
+  - operations supported [4.4.8](configuring-privilege-and-role-authorization.md)
+- SYS schema
+  - objects, access to [4.5.2.2](configuring-privilege-and-role-authorization.md)
+- System Global Area (SGA)
+  - application contexts, storing in [13.1.3](using-application-contexts-to-retrieve-user-information.md)
+  - global application context information location [13.4.1](using-application-contexts-to-retrieve-user-information.md)
+  - limiting private SQL areas [2.4.2.5](managing-security-for-oracle-database-users.md)
+- system privileges [A.3](keeping-your-oracle-database-secure.md)
+  - about [4.5.1](configuring-privilege-and-role-authorization.md)
+  - ADMIN OPTION [4.5.4](configuring-privilege-and-role-authorization.md)
+  - ANY
+    - guidelines for security [A.6](keeping-your-oracle-database-secure.md)
+  - CDBs [4.6.2](configuring-privilege-and-role-authorization.md)
+  - GRANT ANY PRIVILEGE [4.5.4](configuring-privilege-and-role-authorization.md)
+  - granting [4.15.1.1](configuring-privilege-and-role-authorization.md)
+  - granting and revoking [4.5.3](configuring-privilege-and-role-authorization.md)
+  - power of [4.5.1](configuring-privilege-and-role-authorization.md)
+  - restriction needs [4.5.2.1](configuring-privilege-and-role-authorization.md)
+  - revoking, cascading effect of [4.16.3.1](configuring-privilege-and-role-authorization.md)
+  - SELECT ANY DICTIONARY [A.6](keeping-your-oracle-database-secure.md)
+  - with common privilege grants [4.6.2](configuring-privilege-and-role-authorization.md)
+- system requirements
+  - Kerberos [20.6](introduction-to-strong-authentication.md)
+  - RADIUS [20.6](introduction-to-strong-authentication.md)
+  - strong authentication [20.6](introduction-to-strong-authentication.md)
+  - TLS [20.6](introduction-to-strong-authentication.md)
+- SYSTEM user account
+  - about [2.6.2](managing-security-for-oracle-database-users.md)
+- SYS user
+  - auditing example [27.2.5.5](configuring-audit-policies.md)
+- SYS user account
+  - about [2.6.2](managing-security-for-oracle-database-users.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- table encryption
+  - transparent sensitive data protection policy settings [15.15.2](using-transparent-sensitive-data-protection.md)
+- tables
+  - auditing [27.2.7.2](configuring-audit-policies.md)
+  - privileges on [4.11](configuring-privilege-and-role-authorization.md)
+- tablespaces
+  - assigning defaults for users [2.2.6.1](managing-security-for-oracle-database-users.md)
+  - default quota [2.2.7.1](managing-security-for-oracle-database-users.md)
+  - quotas, viewing [2.7.3](managing-security-for-oracle-database-users.md)
+  - quotas for users [2.2.7.1](managing-security-for-oracle-database-users.md)
+  - temporary
+    - assigning to users [2.2.8.1](managing-security-for-oracle-database-users.md)
+  - unlimited quotas [2.2.7.4](managing-security-for-oracle-database-users.md)
+- TCPS protocol
+  - tnsnames.ora file, used in [A.9.3](keeping-your-oracle-database-secure.md)
+  - Transport Layer Security, used with [A.9.2](keeping-your-oracle-database-secure.md)
+- TELNET service [A.9.2](keeping-your-oracle-database-secure.md)
+- TFTP service [A.9.2](keeping-your-oracle-database-secure.md)
+- thin JDBC support [19.1](configuring-thin-jdbc-client-network.md)
+- TLS
+  - See: Transport Layer Security (TLS)
+- TLS_DISABLE_VERSION parameter [C.2.5.1](kerberos-ssl-and-radius-authentication-parameters.md)
+- token cards [20.4.2](introduction-to-strong-authentication.md), [A.5](keeping-your-oracle-database-secure.md)
+- trace file
+  - set up sample for sqlnet.ora file [B.2](data-encryption-and-integrity-parameters.md)
+- trace files
+  - access to, importance of restricting [A.6](keeping-your-oracle-database-secure.md)
+  - bad packets [12.12.1](managing-security-for-application-developers.md)
+  - location of, finding [13.6](using-application-contexts-to-retrieve-user-information.md)
+  - Oracle DBaaS-to-IAM client side tracing [7.8.2](authenticating-and-authorizing-iam-users-oracle-dbaas-databases.md)
+- Transparent Data Encryption
+  - about [17.2.4.5](manually-encrypting-data.md)
+  - enabling for FIPS 140-2 [E.2](oracle-database-fips-140-settings.md)
+  - SYSKM administrative privilege [4.4.7](configuring-privilege-and-role-authorization.md)
+- Transparent Data Encryption (TDE) [16.1](encrypt-sensitive-data.md)
+  - TSDP with TDE column encryption [15.15.1](using-transparent-sensitive-data-protection.md)
+- transparent sensitive data protection (TSDP
+  - unified auditing
+    - general steps [15.13.1](using-transparent-sensitive-data-protection.md)
+- transparent sensitive data protection (TSDP)
+  - about [15.1](using-transparent-sensitive-data-protection.md)
+  - altering policies [15.7](using-transparent-sensitive-data-protection.md)
+  - benefits [15.1](using-transparent-sensitive-data-protection.md)
+  - bind variables
+    - about [15.10.1](using-transparent-sensitive-data-protection.md)
+    - expressions of conditions [15.10.2.2](using-transparent-sensitive-data-protection.md)
+  - creating policies [15.6](using-transparent-sensitive-data-protection.md)
+  - disabling policies [15.8](using-transparent-sensitive-data-protection.md)
+  - disabling REDACT_AUDIT policy [15.10.4](using-transparent-sensitive-data-protection.md)
+  - dropping policies [15.9](using-transparent-sensitive-data-protection.md)
+  - enabling REDACT_AUDIT policy [15.10.5](using-transparent-sensitive-data-protection.md)
+  - finding information about [15.16](using-transparent-sensitive-data-protection.md)
+  - fine-grained auditing
+    - general steps [15.14.1](using-transparent-sensitive-data-protection.md)
+  - general steps [15.2](using-transparent-sensitive-data-protection.md)
+  - PDBs [15.5](using-transparent-sensitive-data-protection.md)
+  - privileges required [15.4](using-transparent-sensitive-data-protection.md)
+  - REDACT_AUDIT policy [15.10.1](using-transparent-sensitive-data-protection.md)
+  - sensitive columns in INSERT or UPDATE operations [15.10.2.4](using-transparent-sensitive-data-protection.md)
+  - sensitive columns in same SELECT query [15.10.2.3](using-transparent-sensitive-data-protection.md)
+  - sensitive columns in views [15.10.3](using-transparent-sensitive-data-protection.md)
+  - TDE column encryption
+    - general steps [15.15.1](using-transparent-sensitive-data-protection.md)
+    - settings used [15.15.2](using-transparent-sensitive-data-protection.md)
+  - unified auditing:settings used [15.13.2](using-transparent-sensitive-data-protection.md)
+  - use cases [15.3](using-transparent-sensitive-data-protection.md)
+  - Virtual Private Database
+    - DBMS_RLS.ADD_POLICY parameters [15.12.2](using-transparent-sensitive-data-protection.md)
+    - general steps [15.12.1](using-transparent-sensitive-data-protection.md)
+    - tutorial [15.12.3](using-transparent-sensitive-data-protection.md)
+- transparent sensitive data protection (TSDP);
+  - fine-grained auditing
+    - settings used [15.14.2](using-transparent-sensitive-data-protection.md)
+- transparent tablespace encryption
+  - about [17.2.4.5](manually-encrypting-data.md)
+- transport layer
+  - defined [23.5.1](configuring-secure-sockets-layer-authentication.md)
+- Transport Layer Security
+  - compared with native network encryption [18.1.4](configuring-network-data-encryption-and-integrity.md)
+- Transport Layer Security, MCS
+  - about [23.12.1](configuring-secure-sockets-layer-authentication.md)
+  - configuing database parameters [23.12.9](configuring-secure-sockets-layer-authentication.md)
+  - configuring client sqlnet.ora file [23.12.8](configuring-secure-sockets-layer-authentication.md)
+  - configuring server listener.ora file [23.12.5](configuring-secure-sockets-layer-authentication.md)
+  - configuring server sqlnet.ora file [23.12.6](configuring-secure-sockets-layer-authentication.md)
+  - creating and configuring client wallet [23.12.3](configuring-secure-sockets-layer-authentication.md)
+  - creating and configuring server wallet [23.12.2](configuring-secure-sockets-layer-authentication.md)
+  - creating user account for [23.12.4](configuring-secure-sockets-layer-authentication.md)
+  - importing client wallet into Microsoft Certificate Store [23.12.7](configuring-secure-sockets-layer-authentication.md)
+  - testing configuration [23.12.10](configuring-secure-sockets-layer-authentication.md)
+- Transport Layer Security (SSL)
+  - sqlnet.ora file sample [B.2](data-encryption-and-integrity-parameters.md)
+- Transport Layer Security(TLS)
+  - configuring for SYSDBA or SYSOPER access [3.3.2.4](configuring-authentication.md)
+- Transport Layer Security (TLS) [20.4.3](introduction-to-strong-authentication.md)
+  - about [3.8.1](configuring-authentication.md)
+  - ANO encryption and [18.6.3.3.1](configuring-network-data-encryption-and-integrity.md)
+  - application containers [23.1.2](configuring-secure-sockets-layer-authentication.md)
+  - architecture [23.5.1](configuring-secure-sockets-layer-authentication.md)
+  - AUTHENTICATION parameter [C.2.2](kerberos-ssl-and-radius-authentication-parameters.md)
+  - authentication parameters [C.2](kerberos-ssl-and-radius-authentication-parameters.md)
+  - authentication process in an Oracle environment [23.3](configuring-secure-sockets-layer-authentication.md)
+  - certificate key algorithm [A.9.3](keeping-your-oracle-database-secure.md)
+  - cipher suites [A.9.3](keeping-your-oracle-database-secure.md), [C.2.4](kerberos-ssl-and-radius-authentication-parameters.md)
+  - client and server parameters [C.2.2](kerberos-ssl-and-radius-authentication-parameters.md)
+  - client authentication parameter [C.2.6](kerberos-ssl-and-radius-authentication-parameters.md)
+  - client configuration [23.9.2](configuring-secure-sockets-layer-authentication.md)
+  - combining with other authentication methods [23.5](configuring-secure-sockets-layer-authentication.md)
+  - compared to SSL [23.1.1](configuring-secure-sockets-layer-authentication.md)
+  - configuration files, securing [A.9.3](keeping-your-oracle-database-secure.md)
+  - configuration troubleshooeting [23.13](configuring-secure-sockets-layer-authentication.md)
+  - configuring [23.9](configuring-secure-sockets-layer-authentication.md)
+  - configuring ANO encryption with [18.6.3.3.2](configuring-network-data-encryption-and-integrity.md)
+  - connection without client wallet, about [23.8.1](configuring-secure-sockets-layer-authentication.md)
+  - connection without client wallet, configuring [23.8.2](configuring-secure-sockets-layer-authentication.md)
+  - enabling [23.9](configuring-secure-sockets-layer-authentication.md)
+  - filtering certificates [23.9.2.7](configuring-secure-sockets-layer-authentication.md)
+  - FIPS library location setting (SSLFIPS_LIB) [E.3.1](oracle-database-fips-140-settings.md)
+  - FIPS mode setting (SSLFIPS_140) [E.3.1](oracle-database-fips-140-settings.md)
+  - global users with private schemas [3.10.2.1](configuring-authentication.md)
+  - guidelines for security [A.9.3](keeping-your-oracle-database-secure.md)
+  - handshake [23.3](configuring-secure-sockets-layer-authentication.md)
+  - industry standard protocol [23.1](configuring-secure-sockets-layer-authentication.md)
+  - listener, administering [A.9.2](keeping-your-oracle-database-secure.md)
+  - MD5 certification [F.6](using-the-orapki-utility-to-manage-pki-elements.md)
+  - mode [A.9.3](keeping-your-oracle-database-secure.md)
+  - multiple certificates, filtering [23.9.2.7](configuring-secure-sockets-layer-authentication.md)
+  - parameters, ways of configuring [C.2.1](kerberos-ssl-and-radius-authentication-parameters.md)
+  - pass phrase [A.9.3](keeping-your-oracle-database-secure.md)
+  - requiring client authentication [23.9.1.5](configuring-secure-sockets-layer-authentication.md)
+  - RSA private key [A.9.3](keeping-your-oracle-database-secure.md)
+  - securing TLS connection [A.9.3](keeping-your-oracle-database-secure.md)
+  - server.key file [A.9.3](keeping-your-oracle-database-secure.md)
+  - server configuration [23.9.1](configuring-secure-sockets-layer-authentication.md)
+  - SHA–1 certification [F.6](using-the-orapki-utility-to-manage-pki-elements.md)
+  - SQLNET.AUTHENTICATION_SERVICES parameter [C.2.2](kerberos-ssl-and-radius-authentication-parameters.md)
+  - SSL_CIPHER_SUITES parameter [C.2.3](kerberos-ssl-and-radius-authentication-parameters.md)
+  - SSL_CLIENT_AUTHENTICATION parameter [C.2.6](kerberos-ssl-and-radius-authentication-parameters.md)
+  - SSL_SERVER_CERT_DN [C.2.7.2](kerberos-ssl-and-radius-authentication-parameters.md)
+  - SSL_SERVER_DN_MATCH [C.2.7.1](kerberos-ssl-and-radius-authentication-parameters.md)
+  - SSL_VERSION parameter [C.2.5](kerberos-ssl-and-radius-authentication-parameters.md), [C.2.5.1](kerberos-ssl-and-radius-authentication-parameters.md)
+  - system requirements [20.6](introduction-to-strong-authentication.md)
+  - TCPS [A.9.3](keeping-your-oracle-database-secure.md)
+  - Transport Layer Security (TLS)
+    - SSL_CLIENT_AUTHENTICATION [C.2.6](kerberos-ssl-and-radius-authentication-parameters.md)
+  - version parameter [C.2.5](kerberos-ssl-and-radius-authentication-parameters.md), [C.2.5.1](kerberos-ssl-and-radius-authentication-parameters.md)
+  - wallet location, parameter [C.2.8](kerberos-ssl-and-radius-authentication-parameters.md)
+  - wallet search order [23.10](configuring-secure-sockets-layer-authentication.md)
+  - ways to configure parameters for [C.2](kerberos-ssl-and-radius-authentication-parameters.md)
+- Transport Layer Security on Oracle RAC
+  - cluster node, testing configuration [23.11.7](configuring-secure-sockets-layer-authentication.md)
+  - listener.ora [23.11.5](configuring-secure-sockets-layer-authentication.md)
+  - local_listener startup parameter [23.11.2](configuring-secure-sockets-layer-authentication.md)
+  - restarting instances [23.11.6](configuring-secure-sockets-layer-authentication.md)
+  - restarting listeners [23.11.6](configuring-secure-sockets-layer-authentication.md)
+  - sqlnet.ora [23.11.5](configuring-secure-sockets-layer-authentication.md)
+  - TCPS protocol endpoints [23.11.1](configuring-secure-sockets-layer-authentication.md)
+  - wallet and certificate creation [23.11.3.2](configuring-secure-sockets-layer-authentication.md)
+  - wallet creation in nodes [23.11.4](configuring-secure-sockets-layer-authentication.md)
+- triggers
+  - auditing [27.2.7.2](configuring-audit-policies.md), [27.2.7.11](configuring-audit-policies.md)
+  - CREATE TRIGGER ON [12.11.2](managing-security-for-application-developers.md)
+  - logon
+    - examples [13.3.5](using-application-contexts-to-retrieve-user-information.md)
+    - externally initialized application contexts [13.3.5](using-application-contexts-to-retrieve-user-information.md)
+  - privileges for executing [9.2](managing-security-for-definers-rights-and-invokers-rights.md)
+    - roles [4.8.1.8](configuring-privilege-and-role-authorization.md)
+  - WHEN OTHERS exception [13.3.7](using-application-contexts-to-retrieve-user-information.md)
+- troubleshooting [22.6](configuring-kerberos-authentication.md), [22.6.3](configuring-kerberos-authentication.md)
+  - finding errors by checking trace files [13.6](using-application-contexts-to-retrieve-user-information.md)
+  - Kerberos common configuration problems [22.6.1](configuring-kerberos-authentication.md)
+  - ORA-01017 connection errors in CMU configuration [6.5.2](integrating_mads_with_oracle_database.md), [6.8.2](integrating_mads_with_oracle_database.md)
+  - ORA-01017 errors in Kerberos configuration [22.6.4](configuring-kerberos-authentication.md)
+  - ORA-12631 errors in Kerberos configuration [22.6.2](configuring-kerberos-authentication.md)
+  - ORA-28030 connection errors in CMU configuration [6.5.4](integrating_mads_with_oracle_database.md), [6.8.4](integrating_mads_with_oracle_database.md)
+  - ORA-28274 connection errors in CMU configuration [6.5.3](integrating_mads_with_oracle_database.md), [6.8.3](integrating_mads_with_oracle_database.md)
+  - ORA-28276 connection errors in CMU configuration [6.5.1](integrating_mads_with_oracle_database.md), [6.8.1](integrating_mads_with_oracle_database.md)
+  - trace files for in CMU connection errors [6.5.5](integrating_mads_with_oracle_database.md), [6.8.5](integrating_mads_with_oracle_database.md)
+- trusted procedure
+  - database session-based application contexts [13.1.2](using-application-contexts-to-retrieve-user-information.md)
+- tsnames.ora configuration file [A.9.3](keeping-your-oracle-database-secure.md)
+- tutorials [13.3.9](using-application-contexts-to-retrieve-user-information.md)
+  - See also: examples
+
+  <!-- -->
+
+  - application context, database session-based [13.3.9](using-application-contexts-to-retrieve-user-information.md)
+  - auditing
+    - creating policy to audit nondatabase users [27.2.25](configuring-audit-policies.md)
+    - creating policy using email alert [27.4.8.1](configuring-audit-policies.md)
+  - definer’s rights, database links [9.8.8.1](managing-security-for-definers-rights-and-invokers-rights.md)
+  - external network services, using email alert [27.4.8.1](configuring-audit-policies.md)
+  - global application context with client session ID [13.4.8.1](using-application-contexts-to-retrieve-user-information.md)
+  - invoker’s rights procedure using CBAC [9.7.7](managing-security-for-definers-rights-and-invokers-rights.md)
+  - nondatabase users
+    - creating Oracle Virtual Private Database policy group [14.4.3.1](using-oracle-vpd-to-control-data-access.md)
+    - global application context [13.4.8.1](using-application-contexts-to-retrieve-user-information.md)
+  - Oracle Virtual Private Database
+    - policy groups [14.4.3.1](using-oracle-vpd-to-control-data-access.md)
+    - policy implementing [14.4.2.1](using-oracle-vpd-to-control-data-access.md)
+    - simple example [14.4.1.1](using-oracle-vpd-to-control-data-access.md)
+  - privilege analysis [5.5](performing-privilege-analysis-identify-privilege-use.md)
+  - privilege analysis for ANY privileges [5.4](performing-privilege-analysis-identify-privilege-use.md)
+  - TSDP with VPD [15.12.3](using-transparent-sensitive-data-protection.md)
+- types
+  - creating [4.14.5](configuring-privilege-and-role-authorization.md)
+  - privileges on [4.14](configuring-privilege-and-role-authorization.md)
+  - user defined
+    - creation requirements [4.14.4](configuring-privilege-and-role-authorization.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- UDP and TCP ports
+  - close for ALL disabled services [A.9.2](keeping-your-oracle-database-secure.md)
+- UGA
+  - See: User Global Area (UGA)
+- UNIFIED_AUDIT_COMMON_SYSTEMLOG initialization parameter
+  - using [28.1.5.2](administering-the-audit-trail.md)
+- UNIFIED_AUDIT_SYSTEMLOG initialization parameter
+  - about [28.1.5.1](administering-the-audit-trail.md)
+  - using [28.1.5.2](administering-the-audit-trail.md)
+- UNIFIED_AUDIT_TRAIL data dictionary view
+  - best practices for using [A.11.6](keeping-your-oracle-database-secure.md)
+- unified auditing
+  - benefits [26.5](introduction-to-auditing.md)
+  - compared with mixed mode auditing [26.7.1](introduction-to-auditing.md)
+  - database creation [26.7.3](introduction-to-auditing.md)
+  - disabling [28.1.9](administering-the-audit-trail.md)
+  - enablement of [26.7.2](introduction-to-auditing.md)
+  - finding if migrated to [26.6](introduction-to-auditing.md)
+  - mixed mode auditing
+    - about [26.7.1](introduction-to-auditing.md)
+    - capabilities [26.7.4](introduction-to-auditing.md)
+  - purging records
+    - example [28.3.6](administering-the-audit-trail.md)
+    - general steps for manual purges [28.3.2.2](administering-the-audit-trail.md)
+    - general steps for scheduledl purges [28.3.2.1](administering-the-audit-trail.md)
+  - transparent sensitive data protection policy settings [15.13.2](using-transparent-sensitive-data-protection.md)
+  - tutorial [27.2.25](configuring-audit-policies.md)
+- unified audit policies
+  - about [27.2.1](configuring-audit-policies.md)
+  - best practices for creating [27.2.2](configuring-audit-policies.md)
+  - dropping
+    - about [27.2.24.1](configuring-audit-policies.md)
+    - procedure [27.2.24.2](configuring-audit-policies.md)
+  - location of [27.2.3](configuring-audit-policies.md)
+  - predefined
+    - ORA_ACCOUNT_MGMT [27.3.4](configuring-audit-policies.md)
+    - ORA_CIS_RECOMMENDATIONS [27.3.5](configuring-audit-policies.md)
+    - ORA_DATABASE_PARAMETER [27.3.3](configuring-audit-policies.md)
+    - ORA_DV_AUDPOL [27.3.7](configuring-audit-policies.md)
+    - ORA_DV_AUDPOL2 [27.3.8](configuring-audit-policies.md)
+    - ORA_LOGON_FAILURES [27.3.1](configuring-audit-policies.md)
+    - ORA_SECURECONFIG [27.3.2](configuring-audit-policies.md)
+  - syntax for creating [27.2.3](configuring-audit-policies.md)
+  - top-level statements [27.2.19.2](configuring-audit-policies.md)
+  - users, applying to [27.2.22.1](configuring-audit-policies.md)
+  - users, excluding [27.2.22.1](configuring-audit-policies.md)
+  - users, success or failure [27.2.22.1](configuring-audit-policies.md)
+- unified audit policies, administrative users
+  - configuring [27.2.6.2](configuring-audit-policies.md)
+  - example [27.2.6.3](configuring-audit-policies.md)
+  - users that can be audited [27.2.6.1](configuring-audit-policies.md)
+- unified audit policies, altering
+  - about [27.2.21.1](configuring-audit-policies.md)
+  - configuring [27.2.21.2](configuring-audit-policies.md)
+  - examples [27.2.21.3](configuring-audit-policies.md)
+- unified audit policies, application containers
+  - example [27.2.20.6](configuring-audit-policies.md)
+- unified audit policies, CDBs
+  - about [27.2.20.1](configuring-audit-policies.md)
+  - appearance in audit trail [27.2.20.7](configuring-audit-policies.md)
+  - configuring [27.2.20.3](configuring-audit-policies.md)
+  - examples [27.2.20.4](configuring-audit-policies.md), [27.2.20.5](configuring-audit-policies.md)
+- unified audit policies, conditions
+  - about [27.2.10.1](configuring-audit-policies.md)
+  - configuring [27.2.10.2](configuring-audit-policies.md)
+  - examples [27.2.10.4](configuring-audit-policies.md)
+- unified audit policies, disabling
+  - about [27.2.22.1](configuring-audit-policies.md), [27.2.23.1](configuring-audit-policies.md)
+  - configuring [27.2.23.2](configuring-audit-policies.md)
+- unified audit policies, enabling
+  - about [27.2.22.1](configuring-audit-policies.md)
+  - configuring [27.2.22.2](configuring-audit-policies.md)
+  - for groups of users through roles [27.2.22.1](configuring-audit-policies.md)
+- unified audit policies, object actions
+  - about [27.2.7.1](configuring-audit-policies.md)
+  - actions that can be audited [27.2.7.2](configuring-audit-policies.md)
+  - appearance in audit trail [27.2.7.10](configuring-audit-policies.md)
+  - configuring [27.2.7.3](configuring-audit-policies.md)
+  - dictionary tables
+    - auditing [27.2.7.4](configuring-audit-policies.md)
+  - examples [27.2.7.5](configuring-audit-policies.md)
+  - GRANT operations [27.2.7.6](configuring-audit-policies.md)
+  - SYS objects [27.2.7.4](configuring-audit-policies.md)
+- unified audit policies, objects actions
+  - REVOKE operations [27.2.7.6](configuring-audit-policies.md)
+- unified audit policies, Oracle Database Real Application Security
+  - about [27.2.12.1](configuring-audit-policies.md)
+  - configuring [27.2.12.7](configuring-audit-policies.md)
+  - events to audit [27.2.12.2](configuring-audit-policies.md)
+  - examples [27.2.12.8](configuring-audit-policies.md)
+  - how events appear in audit trail [27.2.12.10](configuring-audit-policies.md)
+  - predefined
+    - about [27.3.6](configuring-audit-policies.md)
+    - ORA_RAS_POLICY_MGMT [27.3.6.1](configuring-audit-policies.md)
+    - ORA_RAS_SESSION_MGMT [27.3.6.2](configuring-audit-policies.md)
+- unified audit policies, Oracle Database Vault
+  - about [27.2.14.1](configuring-audit-policies.md)
+  - appearance in audit trail [27.2.14.17](configuring-audit-policies.md)
+  - attributes to audit [27.2.14.3](configuring-audit-policies.md)
+  - configuring [27.2.14.12](configuring-audit-policies.md)
+  - data dictionary views [27.2.14.2](configuring-audit-policies.md)
+  - example of auditing factors [27.2.14.16](configuring-audit-policies.md)
+  - example of auditing realm [27.2.14.13](configuring-audit-policies.md)
+  - example of auditing rule set [27.2.14.14](configuring-audit-policies.md)
+  - example of auditing two events [27.2.14.15](configuring-audit-policies.md)
+  - how events appear in audit trail [27.2.14.17](configuring-audit-policies.md)
+- unified audit policies, Oracle Data Miner
+  - about [27.2.16.1](configuring-audit-policies.md)
+- unified audit policies, Oracle Data Mining
+  - configuring [27.2.16.3](configuring-audit-policies.md)
+  - how events appear in audit trail [27.2.16.6](configuring-audit-policies.md)
+- unified audit policies, Oracle Data Pump
+  - about [27.2.17.1](configuring-audit-policies.md)
+  - appearance in audit trail [27.2.17.6](configuring-audit-policies.md), [27.2.18.5](configuring-audit-policies.md)
+  - configuring [27.2.17.3](configuring-audit-policies.md)
+  - examples [27.2.17.4](configuring-audit-policies.md)
+  - how events appear in audit trail [27.2.17.6](configuring-audit-policies.md)
+- unified audit policies, Oracle Label Security
+  - about [27.2.15.1](configuring-audit-policies.md)
+  - appearance in audit trail [27.2.15.9](configuring-audit-policies.md)
+  - configuring [27.2.15.4](configuring-audit-policies.md)
+  - examples [27.2.15.5](configuring-audit-policies.md)
+  - how events appear in audit trail [27.2.15.9](configuring-audit-policies.md)
+  - LBACSYS.ORA_GET_AUDITED_LABEL function [27.2.15.9](configuring-audit-policies.md)
+- unified audit policies, Oracle Recovery Manager
+  - about [27.2.13.1](configuring-audit-policies.md)
+  - how events appear in audit trail [27.2.13.3](configuring-audit-policies.md)
+- unified audit policies, Oracle SQL\*Loader
+  - about [27.2.18.1](configuring-audit-policies.md)
+  - configuring [27.2.18.3](configuring-audit-policies.md)
+  - example [27.2.18.4](configuring-audit-policies.md)
+  - how events appear in audit trail [27.2.18.5](configuring-audit-policies.md)
+- unified audit policies, privileges
+  - about [27.2.5.1](configuring-audit-policies.md)
+  - appearance in audit trail [27.2.5.7](configuring-audit-policies.md)
+  - configuring [27.2.5.4](configuring-audit-policies.md)
+  - examples [27.2.5.5](configuring-audit-policies.md)
+  - privileges that can be audited [27.2.5.2](configuring-audit-policies.md)
+  - privileges that cannot be audited [27.2.5.3](configuring-audit-policies.md)
+- unified audit policies, roles
+  - about [27.2.4.1](configuring-audit-policies.md)
+  - configuring [27.2.4.2](configuring-audit-policies.md)
+  - examples [27.2.4.3](configuring-audit-policies.md)
+- unified audit policies, top-level statements [27.2.19.1](configuring-audit-policies.md)
+  - appearance in audit trail [27.2.19.5](configuring-audit-policies.md)
+  - how events appear in audit trail [27.2.19.5](configuring-audit-policies.md)
+- unified audit session ID, finding [27.2.10.7](configuring-audit-policies.md)
+- unified audit trail
+  - about [26.4](introduction-to-auditing.md)
+  - archiving [28.2.2](administering-the-audit-trail.md)
+  - loading audit records to [28.1.7](administering-the-audit-trail.md)
+  - Oracle Data Pump [28.1.8](administering-the-audit-trail.md)
+  - when records are created [28.1.1](administering-the-audit-trail.md)
+  - writing audit trail records to AUDSYS
+    - about [28.1.4](administering-the-audit-trail.md)
+    - immediate-write mode [28.1.4](administering-the-audit-trail.md)
+    - minimum flush threshold for queues [28.1.1](administering-the-audit-trail.md)
+    - queued-write mode [28.1.4](administering-the-audit-trail.md)
+- unified audit trail, object actions
+  - READ object actions [27.2.8.1](configuring-audit-policies.md)
+  - SELECT object actions [27.2.8.2](configuring-audit-policies.md)
+- unified audit trail, Oracle Data Mining
+  - examples [27.2.16.4](configuring-audit-policies.md)
+- unified audit trail, top-level statements [27.2.19.3](configuring-audit-policies.md), [27.2.19.4](configuring-audit-policies.md)
+- unified audit trial
+  - Oracle Database Real Application Security ALL audit events [27.2.12.6](configuring-audit-policies.md)
+  - Oracle Database Real Application Security security class and ACL audit events [27.2.12.4](configuring-audit-policies.md)
+  - Oracle Database Real Application Security session audit events [27.2.12.5](configuring-audit-policies.md)
+  - Oracle Database Real Application Security user, privilege, and role audit events [27.2.12.3](configuring-audit-policies.md)
+  - Oracle Database Vault command rule events [27.2.14.6](configuring-audit-policies.md)
+  - Oracle Database Vault Data Pump events [27.2.14.10](configuring-audit-policies.md)
+  - Oracle Database Vault enable and disable events [27.2.14.11](configuring-audit-policies.md)
+  - Oracle Database Vault factor events [27.2.14.7](configuring-audit-policies.md)
+  - Oracle Database Vault OLS events [27.2.14.9](configuring-audit-policies.md)
+  - Oracle Database Vault realm events [27.2.14.4](configuring-audit-policies.md)
+  - Oracle Database Vault rule set and rule events [27.2.14.5](configuring-audit-policies.md)
+  - Oracle Database Vault secure application role events [27.2.14.8](configuring-audit-policies.md)
+  - Oracle Data Mining audit events [27.2.16.2](configuring-audit-policies.md)
+  - Oracle Data Pump audit events [27.2.17.2](configuring-audit-policies.md)
+  - Oracle Label Security audit events [27.2.15.2](configuring-audit-policies.md)
+  - Oracle Label Security user session label events [27.2.15.3](configuring-audit-policies.md)
+  - Oracle Recovery Manager audit events [27.2.13.2](configuring-audit-policies.md)
+  - Oracle SQL\*Loader Direct Load Path audit events [27.2.18.2](configuring-audit-policies.md)
+- unified audting
+  - TSDP policies and [15.13.1](using-transparent-sensitive-data-protection.md)
+- UNLIMITED TABLESPACE privilege [2.2.7.4](managing-security-for-oracle-database-users.md)
+- UPDATE privilege
+  - revoking [4.16.2.4](configuring-privilege-and-role-authorization.md)
+- user accounts
+  - administrative user passwords [A.5](keeping-your-oracle-database-secure.md)
+  - application common user
+    - about [2.2.1.1](managing-security-for-oracle-database-users.md)
+  - CDB common user
+    - about [2.2.1.1](managing-security-for-oracle-database-users.md)
+  - common
+    - creating [2.2.10.1](managing-security-for-oracle-database-users.md)
+  - default user account [A.5](keeping-your-oracle-database-secure.md)
+  - local
+    - creating [2.2.10.3](managing-security-for-oracle-database-users.md)
+  - local user
+    - about [2.2.1.3](managing-security-for-oracle-database-users.md)
+  - password guidelines [A.5](keeping-your-oracle-database-secure.md)
+  - passwords, encrypted [A.5](keeping-your-oracle-database-secure.md)
+  - predefined
+    - administrative [2.6.2](managing-security-for-oracle-database-users.md)
+    - non-administrative [2.6.3](managing-security-for-oracle-database-users.md)
+    - sample schema [2.6.4](managing-security-for-oracle-database-users.md)
+  - predefined schema [2.6.1](managing-security-for-oracle-database-users.md)
+  - privileges required to create [2.2.2](managing-security-for-oracle-database-users.md)
+  - proxy users [3.14.1.3](configuring-authentication.md)
+- user accounts, predefined
+  - ANONYMOUS [2.6.2](managing-security-for-oracle-database-users.md)
+  - APPQOSSYS [2.6.2](managing-security-for-oracle-database-users.md)
+  - ASMSNMP [2.6.2](managing-security-for-oracle-database-users.md)
+  - AUDSYS [2.6.2](managing-security-for-oracle-database-users.md)
+  - CTXSYS [2.6.2](managing-security-for-oracle-database-users.md)
+  - DBSFWUSER [2.6.2](managing-security-for-oracle-database-users.md)
+  - DBSNMP [2.6.2](managing-security-for-oracle-database-users.md)
+  - DIP [2.6.3](managing-security-for-oracle-database-users.md)
+  - GSMROOTUSER [2.6.2](managing-security-for-oracle-database-users.md)
+  - HR [2.6.4](managing-security-for-oracle-database-users.md)
+  - IX [2.6.4](managing-security-for-oracle-database-users.md)
+  - LBACSYS [2.6.2](managing-security-for-oracle-database-users.md)
+  - MDDATA [2.6.3](managing-security-for-oracle-database-users.md)
+  - MDSYS [2.6.2](managing-security-for-oracle-database-users.md)
+  - OE [2.6.4](managing-security-for-oracle-database-users.md)
+  - OJVMSYS [2.6.2](managing-security-for-oracle-database-users.md)
+  - OLAPSYS [2.6.2](managing-security-for-oracle-database-users.md)
+  - ORACLE_OCM [2.6.3](managing-security-for-oracle-database-users.md)
+  - ORDDATA [2.6.2](managing-security-for-oracle-database-users.md)
+  - ORDPLUGINS [2.6.2](managing-security-for-oracle-database-users.md)
+  - ORDSYS [2.6.2](managing-security-for-oracle-database-users.md)
+  - OUTLN [2.6.2](managing-security-for-oracle-database-users.md)
+  - PM [2.6.4](managing-security-for-oracle-database-users.md)
+  - REMOTE_SCHEDULER_AGENT [2.6.2](managing-security-for-oracle-database-users.md)
+  - SCOTT [2.6.4](managing-security-for-oracle-database-users.md)
+  - SH [2.6.4](managing-security-for-oracle-database-users.md)
+  - SI_INFORMTN_SCHEMA [2.6.2](managing-security-for-oracle-database-users.md)
+  - SYS [2.6.2](managing-security-for-oracle-database-users.md)
+  - SYS\$UMF [2.6.2](managing-security-for-oracle-database-users.md)
+  - SYSBACKUP [2.6.2](managing-security-for-oracle-database-users.md)
+  - SYSDG [2.6.2](managing-security-for-oracle-database-users.md)
+  - SYSKM [2.6.2](managing-security-for-oracle-database-users.md)
+  - SYSTEM [2.6.2](managing-security-for-oracle-database-users.md)
+  - WMSYS [2.6.2](managing-security-for-oracle-database-users.md)
+  - XDB [2.6.2](managing-security-for-oracle-database-users.md)
+  - XS\$NULL [2.6.3](managing-security-for-oracle-database-users.md)
+- USERENV function
+  - used in views [9.6.1](managing-security-for-definers-rights-and-invokers-rights.md)
+- USERENV namespace [3.14.2.4](configuring-authentication.md)
+  - See also: CLIENT_IDENTIFIER USERENV attribute
+
+  <!-- -->
+
+  - about [13.3.4.2](using-application-contexts-to-retrieve-user-information.md)
+- User Global Area (UGA)
+  - application contexts, storing in [13.1.3](using-application-contexts-to-retrieve-user-information.md)
+- user names
+  - schemas [12.10](managing-security-for-application-developers.md)
+- user privileges
+  - CDBs [4.3](configuring-privilege-and-role-authorization.md)
+- USER pseudo column [4.12.3](configuring-privilege-and-role-authorization.md)
+- users
+  - administrative option (ADMIN OPTION) [4.15.1.4](configuring-privilege-and-role-authorization.md)
+  - altering [2.3.1](managing-security-for-oracle-database-users.md)
+  - altering common users [2.3.2](managing-security-for-oracle-database-users.md)
+  - altering local users [2.3.2](managing-security-for-oracle-database-users.md)
+  - application users not known to database [3.14.2.1](configuring-authentication.md)
+  - assigning unlimited quotas for [2.2.7.4](managing-security-for-oracle-database-users.md)
+  - auditing [27.2.22.1](configuring-audit-policies.md)
+  - database role, current [12.9.1](managing-security-for-application-developers.md)
+  - default roles, changing [2.2.11](managing-security-for-oracle-database-users.md)
+  - default tablespaces [2.2.6.1](managing-security-for-oracle-database-users.md)
+  - dropping [2.5.1](managing-security-for-oracle-database-users.md), [2.5.3](managing-security-for-oracle-database-users.md)
+  - dropping profiles and [2.4.4.6](managing-security-for-oracle-database-users.md)
+  - dropping roles and [4.8.6](configuring-privilege-and-role-authorization.md)
+  - enabling roles for [12.9](managing-security-for-application-developers.md)
+  - enterprise [3.10.1](configuring-authentication.md), [4.8.4.6](configuring-privilege-and-role-authorization.md)
+  - enterprise, shared schema protection [12.10.2](managing-security-for-application-developers.md)
+  - external authentication
+    - about [3.11.1](configuring-authentication.md)
+    - advantages [3.11.2](configuring-authentication.md)
+    - assigning profiles [2.4.4.5](managing-security-for-oracle-database-users.md)
+    - operating system [3.11.5](configuring-authentication.md)
+    - user creation [3.11.4](configuring-authentication.md)
+  - finding information about [2.7.1](managing-security-for-oracle-database-users.md)
+  - finding information about authentication [3.15](configuring-authentication.md)
+  - global [3.10.1](configuring-authentication.md)
+    - assigning profiles [2.4.4.5](managing-security-for-oracle-database-users.md)
+  - hosts, connecting to multiple
+    - See external network services, fine-grained access to [10.1](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+  - information about, viewing [2.7.2](managing-security-for-oracle-database-users.md)
+  - listing roles granted to [4.20.3](configuring-privilege-and-role-authorization.md)
+  - memory use, viewing [2.7.5](managing-security-for-oracle-database-users.md)
+  - names
+    - case sensitivity [2.2.4.3](managing-security-for-oracle-database-users.md)
+    - how stored in database [2.2.4.3](managing-security-for-oracle-database-users.md)
+  - network authentication, external [3.11.6](configuring-authentication.md)
+  - nondatabase [13.4.2](using-application-contexts-to-retrieve-user-information.md), [13.4.6.7](using-application-contexts-to-retrieve-user-information.md)
+  - objects after dropping [2.5.1](managing-security-for-oracle-database-users.md)
+  - operating system external authentication [3.11.5](configuring-authentication.md)
+  - password encryption [3.2.1](configuring-authentication.md)
+  - privileges
+    - for changing passwords [2.3.1](managing-security-for-oracle-database-users.md)
+    - for creating [2.2.3](managing-security-for-oracle-database-users.md)
+    - granted to, listing [4.20.2](configuring-privilege-and-role-authorization.md)
+    - of current database role [12.9.1](managing-security-for-application-developers.md)
+  - profiles
+    - assigning [2.4.4.5](managing-security-for-oracle-database-users.md)
+    - creating [2.4.4.3](managing-security-for-oracle-database-users.md)
+    - specifying [2.2.9](managing-security-for-oracle-database-users.md)
+  - profiles, CDB or application [2.4.4.4](managing-security-for-oracle-database-users.md)
+  - proxy authentication [3.14.1.1](configuring-authentication.md)
+  - proxy users, connecting as [3.14.1.1](configuring-authentication.md)
+  - PUBLIC role [4.8.1.7](configuring-privilege-and-role-authorization.md), [4.17](configuring-privilege-and-role-authorization.md)
+  - quota limits for tablespace [2.2.7.3](managing-security-for-oracle-database-users.md)
+  - restricting application roles [4.8.7](configuring-privilege-and-role-authorization.md)
+  - restrictions on user names [2.2.4.1](managing-security-for-oracle-database-users.md)
+  - roles and [4.8.1.3](configuring-privilege-and-role-authorization.md)
+    - for types of users [4.8.1.6](configuring-privilege-and-role-authorization.md)
+  - schema-independent [12.10.2](managing-security-for-application-developers.md)
+  - schemas, private [3.10.2.1](configuring-authentication.md)
+  - security, about [2.1](managing-security-for-oracle-database-users.md)
+  - security domains of [4.8.1.7](configuring-privilege-and-role-authorization.md)
+  - tablespace quotas [2.2.7.1](managing-security-for-oracle-database-users.md)
+  - tablespace quotas, viewing [2.7.3](managing-security-for-oracle-database-users.md)
+  - user accounts, creating [2.2.3](managing-security-for-oracle-database-users.md)
+  - user models and Oracle Virtual Private Database [14.5.9](using-oracle-vpd-to-control-data-access.md)
+  - user name, specifying with CREATE USER statement [2.2.4.2](managing-security-for-oracle-database-users.md)
+  - views for finding information about [2.7](managing-security-for-oracle-database-users.md)
+- user sessions, multiple within single database connection [3.14.1.8](configuring-authentication.md)
+- users supported [6.1.5](integrating_mads_with_oracle_database.md)
+- utlpwdmg.sql
+  - about [3.2.6.1](configuring-authentication.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- valid node checking [A.9.2](keeping-your-oracle-database-secure.md)
+- views
+  - about [4.12](configuring-privilege-and-role-authorization.md)
+  - access control list data
+    - external network services [10.13](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+    - wallet access [10.13](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+  - application contexts [13.6](using-application-contexts-to-retrieve-user-information.md)
+  - audited activities [27.5](configuring-audit-policies.md)
+  - auditing [27.2.7.2](configuring-audit-policies.md)
+  - audit management settings [28.4](administering-the-audit-trail.md)
+  - audit trail usage [27.5](configuring-audit-policies.md)
+  - authentication [3.15](configuring-authentication.md)
+  - bind variables in TSDP sensitive columns [15.10.3](using-transparent-sensitive-data-protection.md)
+  - DBA_COL_PRIVS [4.20.4](configuring-privilege-and-role-authorization.md)
+  - DBA_HOST_ACES [10.13](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+  - DBA_HOST_ACLS [10.13](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+  - DBA_ROLE_PRIVS [4.20.3](configuring-privilege-and-role-authorization.md)
+  - DBA_ROLES [4.20.6](configuring-privilege-and-role-authorization.md)
+  - DBA_SYS_PRIVS [4.20.2](configuring-privilege-and-role-authorization.md)
+  - DBA_TAB_PRIVS [4.20.4](configuring-privilege-and-role-authorization.md)
+  - DBA_USERS_WITH_DEFPWD [3.2.4.2](configuring-authentication.md)
+  - DBA_WALLET_ACES [10.13](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+  - DBA_WALLET_ACLS [10.13](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+  - definer’s rights [9.6.1](managing-security-for-definers-rights-and-invokers-rights.md)
+  - encrypted data [17.7](manually-encrypting-data.md)
+  - invoker’s rights [9.6.1](managing-security-for-definers-rights-and-invokers-rights.md)
+  - Oracle Virtual Private Database policies [14.6](using-oracle-vpd-to-control-data-access.md)
+  - privileges [4.12](configuring-privilege-and-role-authorization.md)
+  - privileges to query views in other schemas [4.12.2](configuring-privilege-and-role-authorization.md)
+  - profiles [2.7.1](managing-security-for-oracle-database-users.md)
+  - ROLE_SYS_PRIVS [4.20.7](configuring-privilege-and-role-authorization.md)
+  - ROLE_TAB_PRIVS [4.20.7](configuring-privilege-and-role-authorization.md)
+  - security applications of [4.12.3](configuring-privilege-and-role-authorization.md)
+  - SESSION_PRIVS [4.20.5](configuring-privilege-and-role-authorization.md)
+  - SESSION_ROLES [4.20.5](configuring-privilege-and-role-authorization.md)
+  - transparent sensitive data protection [15.16](using-transparent-sensitive-data-protection.md)
+  - USER_HOST_ACES [10.13](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+  - USER_WALLET_ACES [10.13](managing-fine-grained-access-in-pl-sql-packages-and-types.md)
+  - users [2.7.1](managing-security-for-oracle-database-users.md)
+- Virtual Private Database
+  - See: Oracle Virtual Private Database
+- VPD
+  - See: Oracle Virtual Private Database
+- vulnerable run-time call [A.3](keeping-your-oracle-database-secure.md)
+  - made more secure [A.3](keeping-your-oracle-database-secure.md)
+
+------------------------------------------------------------------------
+
+## W
+
+- Wallet Manager
+  - See: Oracle Wallet Manager
+- wallets [10.2](managing-fine-grained-access-in-pl-sql-packages-and-types.md), [23.4.2.4](configuring-secure-sockets-layer-authentication.md)
+  - See also: access control lists (ACL), wallet access
+
+  <!-- -->
+
+  - adding certificate to [6.2.2.6](integrating_mads_with_oracle_database.md)
+  - authentication method [3.8.2.5](configuring-authentication.md)
+  - certificates
+    - adding to wallet [6.2.2.6](integrating_mads_with_oracle_database.md)
+- Web applications
+  - user connections [13.4.2](using-application-contexts-to-retrieve-user-information.md), [13.4.6.7](using-application-contexts-to-retrieve-user-information.md)
+- Web-based applications
+  - Oracle Virtual Private Database, how it works with [14.5.9](using-oracle-vpd-to-control-data-access.md)
+- WFS_USR_ROLE role [4.8.2](configuring-privilege-and-role-authorization.md)
+- WHEN OTHERS exceptions
+  - logon triggers, used in [13.3.7](using-application-contexts-to-retrieve-user-information.md)
+- Windows Event Viewer
+  - capturing audit trail records [28.1.5.2](administering-the-audit-trail.md)
+- Windows native authentication [3.3.3](configuring-authentication.md)
+- WITH GRANT OPTION clause
+  - about [4.15.2.2](configuring-privilege-and-role-authorization.md)
+  - user and role grants [4.10.2](configuring-privilege-and-role-authorization.md)
+- WM_ADMIN_ROLE role [4.8.2](configuring-privilege-and-role-authorization.md)
+- WMSYS user account [2.6.2](managing-security-for-oracle-database-users.md)
+
+------------------------------------------------------------------------
+
+## X
+
+- X.509 certificates
+  - guidelines for security [A.5](keeping-your-oracle-database-secure.md)
+- XDB_SET_INVOKER role [4.8.2](configuring-privilege-and-role-authorization.md)
+- XDB_WEBSERVICES_OVER_HTTP role
+  - about [4.8.2](configuring-privilege-and-role-authorization.md)
+- XDB_WEBSERVICES_WITH_PUBLIC role [4.8.2](configuring-privilege-and-role-authorization.md)
+- XDB_WEBSERVICES role [4.8.2](configuring-privilege-and-role-authorization.md)
+- XDBADMIN role [4.8.2](configuring-privilege-and-role-authorization.md)
+- XDB user account [2.6.2](managing-security-for-oracle-database-users.md)
+- XS_CACHE_ADMIN role [4.8.2](configuring-privilege-and-role-authorization.md)
+- XS_NSATTR_ADMIN role [4.8.2](configuring-privilege-and-role-authorization.md)
+- XS_RESOURCE role [4.8.2](configuring-privilege-and-role-authorization.md)
+- XS\$NULL user account [2.6.3](managing-security-for-oracle-database-users.md)

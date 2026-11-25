@@ -1,0 +1,3 @@
+# Description of the illustration dbseg_vm_010.png
+
+Image dbseg_vm_010.png describes the architecture of the Oracle native network encryption and strong authentication. The client application, Oracle Call Interface (OCI), two-task common functionality, Oracle Net, Oracle protocols, and network-specific protocols all work to send data to the network. Oracle Net works with the Oracle Database native network encryption and strong authentication tools, which comprise encryption (AES, DES, RSA, and 3DES), authentication (Kerberos, RADIUS, and DCE), and data integrity (MD5 and SHA). Oracle protocols work with the SSL adapter and SSL libraries, TCP/IP adapter, and SPX/IPS adapter. The network-specific protocols work with TCP/IP and SPX/IPX.
