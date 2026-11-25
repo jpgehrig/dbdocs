@@ -1,0 +1,3 @@
+UCP supports all the pool statistics to be in the form of Dynamic Monitoring Service (DMS) metrics. You must include the `dms.jar` file in the class path of the application to collect and utilize these DMS metrics.
+
+UCP supports DMS metrics collection in both the pool manager interface and the pool manager MBean. You can use the `UnversalConnectionPoolManager.startMetricsCollection` method to start collecting DMS metrics for the specified connection pool instance, and use the `UnversalConnectionPoolManager.stopMetricsCollection` method to stop DMS metrics collection. The metrics update interval can be specified using the `UnversalConnectionPoolManager.setMetricUpdateInterval` method. The pool manager MBean exports similar operations.

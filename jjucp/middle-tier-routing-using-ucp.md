@@ -1,0 +1,9 @@
+Starting from Oracle Database Release 18c, Oracle Universal Connection Pool (UCP) introduces the Middle-Tier Routing feature. This feature helps the Oracle customers, who use the Sharding feature, to have a dedicated middle tier from the client applications to the sharded database.
+
+Typically, the middle-tier connection pools route database requests to specific shards. During such a routing, each middle-tier connection pool establishes connections to each shard, creating too many connections to the database. The Middle-Tier Routing feature solves this problem by having a dedicated middle tier (Web Server or Application Server) for each Data Center or Cloud, and routing client requests directly to the relevant middle tier, where the shard containing the client data (corresponding to the client sharding key) resides.
+
+The `OracleShardRoutingCache` class in UCP provides middle-tier routing APIs that can be used to route the client requests to the appropriate middle tier. An instance of this class represents the internal shard routing cache of UCP, which can be created by providing connection properties such as user, password, and URL of the sharding catalog. Starting from Oracle Database Release 19c, you must also specify a new connection property, `serviceName`. It is the name of the global service name.
+
+The routing cache connects to the sharding catalog to retrieve the key to shard mapping topology and stores it in its cache. The `getShardInfoForKey(shardKey, superShardKey)` method uses the routing cache of UCP to get the information about shards for the specified sharding key. The `ShardInfo` instance encapsulates a unique shard name and priority of the shard. The application using the middle-tier API can map the returned unique shard name value to a middle tier that has connections to a specific shard.
+
+The routing cache is automatically refreshed or updated on chunk move or split by subscribing to respective ONS events.
