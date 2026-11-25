@@ -1,0 +1,3 @@
+# Description of the illustration adlob201.eps
+
+This graphic shows a large database containing two joined panels, the DBFS Content API and DBFS Content SPI. The DBFS Content API has arrows point up out of the database to the file system mount interface, the DBFS command interface client, the DBFS PL/SQL client, the OCI LOB interface, and the PL/SQL LOB interface. The DBFS Content SPI has arrows facing into the large database to DBFS SecureFiles Store (pointing to an outside database), DBFS Hierarchical Store (pointing to a pair of tapes outside the database and to the cloud), and a User-defined store outlined in broken lines to indicate this is something to be created.

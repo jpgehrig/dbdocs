@@ -1,0 +1,1074 @@
+## Index
+
+A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  Z  
+
+------------------------------------------------------------------------
+
+## A
+
+- accessing a LOB
+  - using the LOB APIs [2.6.3](working-with-LOBs.md)
+- accessing external LOBs [11.2](LOB-APIs-for-BFILE-operations.md)
+- accessing LOBs [7.1](SQL-semantics-and-LOBs.md)
+- access statistics for LOBs [15.3](performance-guidelines.md)
+- administrative APIs [23.4](DBFS-content-API.md)
+- Advanced LOB compression [3.1.2.1](using-oracle-LOBs-storage.md)
+- Advanced LOB Deduplication [3.1.2.2](using-oracle-LOBs-storage.md)
+- ALTER TABLE parameters for SecureFiles LOBs [3.3](using-oracle-LOBs-storage.md)
+- amount [11.13](LOB-APIs-for-BFILE-operations.md)
+- amount parameter
+  - used with BFILEs [11.7](LOB-APIs-for-BFILE-operations.md)
+- appending
+  - writing to the end of a LOB [12.20](using-LOB-APIs.md)
+- array read [12.11](using-LOB-APIs.md)
+- array write [12.22](using-LOB-APIs.md)
+- assigning OCILobLocator pointers [10.4.6](overview-of-supplied-LOB-APIs.md)
+- ASSM tablespace [3.1.2](using-oracle-LOBs-storage.md), [3.2.1](using-oracle-LOBs-storage.md), [3.4.2](using-oracle-LOBs-storage.md), [13.3.6](LOB-storage-with-applications.md), [17.4.4](migrating-columns-from-LONGs-to-LOBs.md)
+- available LOB methods [10.2](overview-of-supplied-LOB-APIs.md)
+
+------------------------------------------------------------------------
+
+## B
+
+- BASICFILE
+  - LOB storage parameter [3.2.1](using-oracle-LOBs-storage.md)
+- BasicFiles LOBs and SecureFiles LOBs [1.10](introduction-to-large-objects.md)
+- BasicFiles LOB Storage [3.1.1](using-oracle-LOBs-storage.md)
+- BFILE class, See JDBC [10.8.2](overview-of-supplied-LOB-APIs.md)
+- BFILENAME function [2.5.2.2](working-with-LOBs.md), [11.4](LOB-APIs-for-BFILE-operations.md)
+- BFILEs [1.4.2](introduction-to-large-objects.md)
+  - accessing [11.2](LOB-APIs-for-BFILE-operations.md)
+  - converting to CLOB or NCLOB [11.7](LOB-APIs-for-BFILE-operations.md)
+  - creating an object in object cache [14.4](advanced-design-considerations.md)
+  - DBMS_LOB, offset and amount parameters in bytes [10.3.2](overview-of-supplied-LOB-APIs.md)
+  - DBMS_LOB read-only procedures [10.3.8](overview-of-supplied-LOB-APIs.md)
+  - locators [2.5](working-with-LOBs.md)
+  - maximum number of open [11.18](LOB-APIs-for-BFILE-operations.md), [16.3.2](managing-LOBs.md)
+  - maximum size [14.5](advanced-design-considerations.md)
+  - multithreaded server mode [2.7.2](working-with-LOBs.md), [11.6.7](LOB-APIs-for-BFILE-operations.md)
+  - not affected by LOB storage properties [13.3.1](LOB-storage-with-applications.md)
+  - OCI functions to read/examine values [10.4.10](overview-of-supplied-LOB-APIs.md), [10.5.10](overview-of-supplied-LOB-APIs.md)
+  - OCI read-only functions [10.4.12](overview-of-supplied-LOB-APIs.md), [10.5.11](overview-of-supplied-LOB-APIs.md)
+  - opening and closing using JDBC [10.8.21](overview-of-supplied-LOB-APIs.md)
+  - Pro\*C/C++ precompiler statements [10.6.6](overview-of-supplied-LOB-APIs.md)
+  - Pro\*COBOL precompiler embedded SQL statements [10.7.6](overview-of-supplied-LOB-APIs.md)
+  - reading with DBMS_LOB [10.3.6](overview-of-supplied-LOB-APIs.md)
+  - security [11.6](LOB-APIs-for-BFILE-operations.md)
+  - storage devices [1.4.2](introduction-to-large-objects.md)
+  - streaming APIs [10.8.25](overview-of-supplied-LOB-APIs.md)
+  - using JDBC to read/examine [10.8.15](overview-of-supplied-LOB-APIs.md)
+  - using Pro\*C/C++ precompiler to open and close [10.6.8](overview-of-supplied-LOB-APIs.md)
+- BFILE-streaming, See JDBC [10.8.16](overview-of-supplied-LOB-APIs.md)
+- binds
+  - See also INSERT statements and UPDATE statements [9.3.8](data-interface-for-persistent-LOBs.md)
+- bind variables, used with LOB locators in OCI [10.4.7](overview-of-supplied-LOB-APIs.md)
+- BLOBs
+  - class [10.5.1.2](overview-of-supplied-LOB-APIs.md), [10.8.2](overview-of-supplied-LOB-APIs.md)
+  - DBMS_LOB, offset and amount parameters in bytes [10.3.2](overview-of-supplied-LOB-APIs.md)
+  - maximum size [14.5](advanced-design-considerations.md)
+  - modify using DBMS_LOB [10.3.5](overview-of-supplied-LOB-APIs.md)
+  - using JDBC to modify [10.8.9](overview-of-supplied-LOB-APIs.md)
+  - using JDBC to read/examine BLOB values [10.8.10](overview-of-supplied-LOB-APIs.md)
+  - using oracle.sql.BLOB methods to modify [10.8.9](overview-of-supplied-LOB-APIs.md)
+- BLOB-streaming, See JDBC [10.8.11](overview-of-supplied-LOB-APIs.md)
+- body.sql script [24.3.5](creating-your-own-DBFS-store.md)
+- built-in functions, remote [5.2.1](distributed-LOBs.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- C, See OCI [10.1](overview-of-supplied-LOB-APIs.md)
+- C++, See Pro\*C/C++ precompiler [10.1](overview-of-supplied-LOB-APIs.md)
+- CACHE / NOCACHE [13.3.8](LOB-storage-with-applications.md)
+- caches
+  - object cache [14.4](advanced-design-considerations.md)
+- callback [11.13](LOB-APIs-for-BFILE-operations.md), [12.10](using-LOB-APIs.md), [12.20](using-LOB-APIs.md)
+- capi.sql script [24.3.6](creating-your-own-DBFS-store.md)
+- catalog views
+  - v\$temporary_lobs [16.2](managing-LOBs.md)
+- character data
+  - varying width [13.2.2](LOB-storage-with-applications.md)
+- character set ID [10.3.3](overview-of-supplied-LOB-APIs.md), [10.4.2](overview-of-supplied-LOB-APIs.md)
+  - See CSID parameter [10.4.2](overview-of-supplied-LOB-APIs.md)
+- character set ID, getting
+  - persistent LOBs [12.4](using-LOB-APIs.md)
+- charactersets
+  - multibyte, LONG and LOB datatypes [9.4.3](data-interface-for-persistent-LOBs.md)
+- CHECKACCESS [23.16](DBFS-content-API.md)
+- CHUNK [3.2.1](using-oracle-LOBs-storage.md), [13.3.11](LOB-storage-with-applications.md)
+- chunk size [12.21](using-LOB-APIs.md)
+  - and LOB storage properties [13.3.1](LOB-storage-with-applications.md)
+  - multiple of, to improve performance [12.10](using-LOB-APIs.md)
+- CLOB
+  - session collation settings [7.2.3](SQL-semantics-and-LOBs.md)
+- CLOBs
+  - class, See JDBC [10.8.2](overview-of-supplied-LOB-APIs.md)
+  - columns
+    - varying- width character data [13.2.2](LOB-storage-with-applications.md)
+  - datatype
+    - varying-width columns [13.2.2](LOB-storage-with-applications.md)
+  - DBMS_LOB, offset and amount parameters in characters [10.3.2](overview-of-supplied-LOB-APIs.md)
+  - modify using DBMS_LOB [10.3.5](overview-of-supplied-LOB-APIs.md)
+  - opening and closing using JDBC [10.8.20](overview-of-supplied-LOB-APIs.md)
+  - reading/examining with JDBC [10.8.13](overview-of-supplied-LOB-APIs.md)
+  - using JDBC to modify [10.8.12](overview-of-supplied-LOB-APIs.md)
+- CLOB-streaminng, See JDBC [10.8.14](overview-of-supplied-LOB-APIs.md)
+- closing
+  - all open BFILEs [11.24](LOB-APIs-for-BFILE-operations.md)
+  - BFILEs with CLOSE [11.23](LOB-APIs-for-BFILE-operations.md)
+  - BFILEs with FILECLOSE [11.22](LOB-APIs-for-BFILE-operations.md)
+- clustered tables [17.5.2](migrating-columns-from-LONGs-to-LOBs.md)
+- COBOL, See Pro\*COBOL precompiler [10.1](overview-of-supplied-LOB-APIs.md)
+- codepoint semantics [7.2.5](SQL-semantics-and-LOBs.md)
+- comparing
+  - all or parts of two BFILEs [11.15](LOB-APIs-for-BFILE-operations.md)
+- comparing, all or part of two LOBs
+  - persistent LOBs [12.13](using-LOB-APIs.md)
+- COMPRESS [3.2.1](using-oracle-LOBs-storage.md), [3.3.3](using-oracle-LOBs-storage.md)
+- compression
+  - Advanced LOB [3.1.2.1](using-oracle-LOBs-storage.md)
+- content store
+  - listing [23.4.5](DBFS-content-API.md)
+  - looking up [23.4.7](DBFS-content-API.md)
+  - registering [23.4.1](DBFS-content-API.md)
+  - unmounting [23.4.4](DBFS-content-API.md)
+- conventional path load [16.1.1](managing-LOBs.md)
+- conversion
+  - explicit functions for PL/SQL [8.3](PLSQL-semantics-for-LOBs.md)
+- conversion, implicit from CLOB to character type [7.2.2](SQL-semantics-and-LOBs.md)
+- conversions
+  - character set [11.7](LOB-APIs-for-BFILE-operations.md)
+  - from binary data to character set [11.7](LOB-APIs-for-BFILE-operations.md)
+  - implicit, between CLOB and VARCHAR2 [8.2](PLSQL-semantics-for-LOBs.md)
+- converting
+  - to CLOB [8.3](PLSQL-semantics-for-LOBs.md)
+- copying
+  - directories [25.3.2.5](using-DBFS.md)
+  - files [25.3.2.5](using-DBFS.md)
+  - LOB locator
+    - persistent LOBs [12.17](using-LOB-APIs.md)
+  - LOB locator for BFILE [11.19](LOB-APIs-for-BFILE-operations.md)
+- copying, all or part of a LOB to another LOB
+  - persistent LOBs [12.16](using-LOB-APIs.md)
+- copy semantics [1.6](introduction-to-large-objects.md)
+  - internal LOBs [6.3](DDL-DML-statements-with-LOBs.md)
+- CREATE TABLE and SecureFiles LOB features [3.2.2](using-oracle-LOBs-storage.md)
+- CREATE TABLE parameters for SecureFiles LOBs [3.2](using-oracle-LOBs-storage.md)
+- CREATE TABLE syntax and notes [3.2](using-oracle-LOBs-storage.md)
+- creating
+  - a directory [25.3.2.3](using-DBFS.md)
+  - partitioned file system [25.2.4](using-DBFS.md)
+- creating a non-partitioned file system [25.2.3](using-DBFS.md)
+- creating SecureFiles File System Store [21.1.3](DBFS-securefiles-store.md)
+- CSID parameter
+  - setting OCILobRead and OCILobWrite to OCI_UCS2ID [10.4.2](overview-of-supplied-LOB-APIs.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- database file system links [22.5](DBFS-hierarchical-store.md)
+- data interface for persistent LOBs [9](data-interface-for-persistent-LOBs.md), [17.5](migrating-columns-from-LONGs-to-LOBs.md)
+  - multibyte charactersets [9.4.3](data-interface-for-persistent-LOBs.md)
+- data interface for remote LOBs [9.6](data-interface-for-persistent-LOBs.md)
+- data interface in Java [9.5](data-interface-for-persistent-LOBs.md)
+- Data Pump
+  - SecureFiles LOBs [16.1.3](managing-LOBs.md)
+- Data Pumping
+  - transferring LOB data [16.1.3](managing-LOBs.md)
+- db_securefile init.ora parameter [3.4.2](using-oracle-LOBs-storage.md)
+- DBFS
+  - administration [25.4](using-DBFS.md)
+  - backing up [25.4.5](using-DBFS.md)
+  - body.sql script [24.3.5](creating-your-own-DBFS-store.md)
+  - caching [25.4.4](using-DBFS.md)
+  - capi.sql script [24.3.6](creating-your-own-DBFS-store.md)
+  - client [20.2.2](introducing-database-file-system.md)
+  - command-Line interface [25.3.2](using-DBFS.md)
+  - Content SPI (Store Provider Interface) [24.2](creating-your-own-DBFS-store.md)
+  - content store [20.3](introducing-database-file-system.md)
+  - creating a custom provider [24.3](creating-your-own-DBFS-store.md)
+  - creating a custom provider, mechanics [24.3.1](creating-your-own-DBFS-store.md)
+  - creating SecureFiles File System Store [21.1.3](DBFS-securefiles-store.md)
+  - custom provider sample installation and setup [24.3.1.1](creating-your-own-DBFS-store.md)
+  - DBFS Server [20.2.2](introducing-database-file-system.md)
+  - diagnostics [25.4.2](using-DBFS.md)
+  - example store provider [24.3](creating-your-own-DBFS-store.md)
+  - FTP access [25.3.5.3](using-DBFS.md)
+  - hierachical store, setting up [22.3](DBFS-hierarchical-store.md)
+  - hierarchical store, dropping [22.4.3](DBFS-hierarchical-store.md)
+  - hierarchical store, setting up [22.3.2](DBFS-hierarchical-store.md)
+  - hierarchical store, using [22.4](DBFS-hierarchical-store.md)
+  - hierarchical store, using compression [22.4.4](DBFS-hierarchical-store.md)
+  - hierarchical store, using tape [22.4.5](DBFS-hierarchical-store.md)
+  - Hierarchical Store Package, DBMS_DBFS_HS [22.1](DBFS-hierarchical-store.md)
+  - HS store wallet, setting up [22.3.1](DBFS-hierarchical-store.md)
+  - HTTP access to [25.3.5.4](using-DBFS.md)
+  - internet access [25.3.5.1](using-DBFS.md)
+  - managing client failover [25.4.3](using-DBFS.md)
+  - Online Filesystem Reorganization [25.5](using-DBFS.md)
+  - overview [20.2](introducing-database-file-system.md)
+  - RAC cluster [25.4.3](using-DBFS.md)
+  - reorganizing file systemsDBFS
+    - online redefinition [25.5](using-DBFS.md)
+  - SecureFiles LOB advanced features [25.4.7](using-DBFS.md)
+  - SecureFiles Store
+    - setting up [21.1](DBFS-securefiles-store.md)
+  - SecureFiles Store File Systems, dropping [21.2.2](DBFS-securefiles-store.md)
+  - SecureFiles Store File Systems, initializing [21.1.5](DBFS-securefiles-store.md)
+  - sharing [25.4.4](using-DBFS.md)
+  - shrinking file systems [25.5](using-DBFS.md)
+  - small file performance [25.4.6](using-DBFS.md)
+  - spec.sql script [24.3.4](creating-your-own-DBFS-store.md)
+  - store creation [24.1](creating-your-own-DBFS-store.md)
+  - TaBleFileSystem Store Provider ("tbfs") [24.3](creating-your-own-DBFS-store.md)
+  - TBFS.SQL script [24.3.2](creating-your-own-DBFS-store.md)
+  - TBL.SQL script [24.3.3](creating-your-own-DBFS-store.md)
+  - using a SecureFiles Store File System [21.2](DBFS-securefiles-store.md)
+  - using Oracle Wallet [25.4.1](using-DBFS.md)
+  - XDB internet access [25.3.5.1](using-DBFS.md)
+- DBFS Content API
+  - abstract operations [23.17](DBFS-content-API.md)
+  - access checks [23.16](DBFS-content-API.md)
+  - and stores [23.2](DBFS-content-API.md)
+  - content IDs [23.3.4](DBFS-content-API.md)
+  - creation operations [23.9](DBFS-content-API.md)
+  - deletion operations [23.10](DBFS-content-API.md)
+  - directory listings [23.13](DBFS-content-API.md)
+  - exceptions [23.3.12](DBFS-content-API.md)
+  - get operations [23.11](DBFS-content-API.md)
+  - getting started [23.3](DBFS-content-API.md)
+  - interface versioning [23.7](DBFS-content-API.md)
+  - locking operations [23.15](DBFS-content-API.md)
+  - lock types [23.3.7](DBFS-content-API.md)
+  - move operations [23.12](DBFS-content-API.md)
+  - navigation [23.14](DBFS-content-API.md)
+  - optional properties [23.3.9](DBFS-content-API.md)
+  - overview [23.1](DBFS-content-API.md)
+  - path names [23.8](DBFS-content-API.md)
+  - path name types [23.3.5](DBFS-content-API.md)
+  - path normalization [23.18](DBFS-content-API.md)
+  - path properties [23.3.3](DBFS-content-API.md)
+  - property access flags [23.3.11](DBFS-content-API.md)
+  - property bundles [23.3.13](DBFS-content-API.md)
+  - put operations [23.11](DBFS-content-API.md)
+  - rename operations [23.12](DBFS-content-API.md)
+  - role [23.3.1](DBFS-content-API.md)
+  - search [23.14](DBFS-content-API.md)
+  - session defaults [23.6](DBFS-content-API.md)
+  - space usage [23.5](DBFS-content-API.md)
+  - standard properties [23.3.8](DBFS-content-API.md)
+  - statistics support [23.19](DBFS-content-API.md)
+  - store descriptors [23.3.14](DBFS-content-API.md)
+  - store features [23.3.6](DBFS-content-API.md)
+  - structure, properties [23.21](DBFS-content-API.md)
+  - tracing support [23.20](DBFS-content-API.md)
+  - types and constants [23.3.2](DBFS-content-API.md)
+  - user-defined properties [23.3.10](DBFS-content-API.md)
+  - using [21.2.1](DBFS-securefiles-store.md)
+- DBFS content store path
+  - creating [25.3.2.2](using-DBFS.md)
+- DBFS file system
+  - accessing [25.3](using-DBFS.md)
+  - client prerequisites [25.3.1](using-DBFS.md)
+  - creating [25.2.1](using-DBFS.md)
+    - creating a DBFS file system [25.2](using-DBFS.md)
+  - dropping [25.2.5](using-DBFS.md)
+  - partitioned versus non-partitioned [25.2.2](using-DBFS.md)
+- DBFS installation [25.1](using-DBFS.md)
+- DBFS links [22.5](DBFS-hierarchical-store.md)
+- DBFS mounting interface
+  - Linux and Solaris [25.3.3](using-DBFS.md)
+- DBFS Mounting Interface (Linux Only) [25.3.3](using-DBFS.md)
+- DBFS SecureFiles Store
+  - setting up permissions [21.1.1](DBFS-securefiles-store.md)
+- DBFS SecureFiles Store Package, DBMS_DBFS_SFS [21.3](DBFS-securefiles-store.md)
+- DBFS SPI (DBMS_DBFS_CONTENT_SPI) [24.1](creating-your-own-DBFS-store.md)
+- DBFS Store
+  - mounting [25.3.3.2](using-DBFS.md)
+- DBMS_DBFS_CONTENT_SPI [24.1](creating-your-own-DBFS-store.md)
+- DBMS_DBFS_HS [22.1](DBFS-hierarchical-store.md)
+- DBMS_DBFS_HS package [22.6](DBFS-hierarchical-store.md)
+  - methods [22.6.2](DBFS-hierarchical-store.md)
+  - views [22.7](DBFS-hierarchical-store.md)
+- DBMS_LOB
+  - deleting LOB with bind variable [14.2.7](advanced-design-considerations.md)
+  - updating LOB with bind variable [14.2.6](advanced-design-considerations.md)
+- DBMS_LOB.GET_STORAGE_LIMIT [14.5.4](advanced-design-considerations.md)
+- DBMS_LOB.GETCHUNKSIZE [14.5.2](advanced-design-considerations.md)
+- DBMS_LOB.GETLENGTH return value [7.2.7](SQL-semantics-and-LOBs.md)
+- DBMS_LOB.LOADCLOBFROMFILE [10.3.2](overview-of-supplied-LOB-APIs.md)
+- DBMS_LOB.WRITE()
+  - passing hexadecimal string to [12.21](using-LOB-APIs.md)
+- DBMS_LOB functions on a NULL LOB restriction [13.1.1.1](LOB-storage-with-applications.md)
+- DBMS_LOB package
+  - available LOB procedures/functions [10.2](overview-of-supplied-LOB-APIs.md)
+  - for temporary LOBs [10.3.7](overview-of-supplied-LOB-APIs.md)
+  - functions/procedures to modify BLOB, CLOB, and NCLOB [10.3.5](overview-of-supplied-LOB-APIs.md)
+  - functions/procedures to read/examine internal and external LOBs [10.3.6](overview-of-supplied-LOB-APIs.md)
+  - multithreaded server [2.7.2](working-with-LOBs.md)
+  - multithreaded server mode [11.6.7](LOB-APIs-for-BFILE-operations.md)
+  - offset and amount parameter guidelines [10.3.2](overview-of-supplied-LOB-APIs.md)
+  - open and close, JDBC replacements for [10.8.18](overview-of-supplied-LOB-APIs.md)
+  - opening/closing internal and external LOBs [10.3.9](overview-of-supplied-LOB-APIs.md)
+  - provide LOB locator before invoking [10.3.1](overview-of-supplied-LOB-APIs.md)
+  - read-only functions/procedures for BFILEs [10.3.8](overview-of-supplied-LOB-APIs.md)
+  - to work with LOBs, using [10.3](overview-of-supplied-LOB-APIs.md)
+  - using with SecureFiles and DBFS [3.6.1](using-oracle-LOBs-storage.md)
+  - WRITE()
+    - guidelines [12.21](using-LOB-APIs.md)
+- DBMS_REDEFINITION package [3.3](using-oracle-LOBs-storage.md)
+- DBMS_SPACE package [3.6.4](using-oracle-LOBs-storage.md)
+- DECRYPT [3.2.1](using-oracle-LOBs-storage.md), [3.3.3](using-oracle-LOBs-storage.md)
+- DEDUPLICATE [3.2.1](using-oracle-LOBs-storage.md), [3.3.3](using-oracle-LOBs-storage.md)
+- deduplication
+  - Advanced LOB [3.1.2.2](using-oracle-LOBs-storage.md)
+- deleting
+  - LOB with PL/SQL bind variable [14.2.7](advanced-design-considerations.md)
+- deleting a LOB [14.2.7](advanced-design-considerations.md)
+- diagnostics
+  - DBFS [25.4.2](using-DBFS.md)
+- directories
+  - catalog views [11.6.5](LOB-APIs-for-BFILE-operations.md)
+  - creating [25.3.2.3](using-DBFS.md)
+  - guidelines for usage [11.6.6](LOB-APIs-for-BFILE-operations.md)
+  - listing [25.3.2.4](using-DBFS.md)
+  - ownership and privileges [11.6.1](LOB-APIs-for-BFILE-operations.md)
+- DIRECTORY object [11.3](LOB-APIs-for-BFILE-operations.md)
+  - catalog views [11.6.5](LOB-APIs-for-BFILE-operations.md)
+  - getting the alias and filename [11.20](LOB-APIs-for-BFILE-operations.md)
+  - guidelines for usage [11.6.6](LOB-APIs-for-BFILE-operations.md)
+  - names on Windows platforms [11.5.1.1](LOB-APIs-for-BFILE-operations.md)
+  - name specification [11.5.1](LOB-APIs-for-BFILE-operations.md)
+  - READ permission on object not individual files [11.6.2](LOB-APIs-for-BFILE-operations.md)
+  - rules for using [16.3](managing-LOBs.md)
+  - symbolic links, and [16.3](managing-LOBs.md)
+- direct-path load [16.1.1](managing-LOBs.md)
+- DISABLE STORAGE IN ROW [13.3.1](LOB-storage-with-applications.md)
+- displaying
+  - LOB data for persistent LOBs [12.9](using-LOB-APIs.md)
+- domain indexing on LOB columns [13.4.1](LOB-storage-with-applications.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- embedded SQL statements, See Pro\*C/C++ precompiler and Pro\*COBOL precompiler [10.6.3](overview-of-supplied-LOB-APIs.md)
+- EMPTY_BLOB() and EMPTY_CLOB, LOB storage properties for [13.3.1](LOB-storage-with-applications.md)
+- EMPTY_CLOB()/BLOB()
+  - to initialize internal LOB [2.5.2.1](working-with-LOBs.md)
+- empty LOBs
+  - creating using JDBC [10.8.26](overview-of-supplied-LOB-APIs.md)
+  - JDBC [10.8.26](overview-of-supplied-LOB-APIs.md)
+- ENABLE STORAGE IN ROW [13.3.1](LOB-storage-with-applications.md)
+- ENCRYPT [3.2.1](using-oracle-LOBs-storage.md), [3.3.3](using-oracle-LOBs-storage.md)
+- encryption
+  - SecureFiles [3.1.2.3](using-oracle-LOBs-storage.md)
+- equal, one LOB locator to another
+  - persistent LOBs [12.18](using-LOB-APIs.md)
+- erasing, part of LOB
+  - persistent LOBs [12.24](using-LOB-APIs.md)
+- examples
+  - deleting a LOB with a PL/SQL variable [14.2.7](advanced-design-considerations.md)
+  - repercussions of mixing SQL DML with DBMS_LOB [14.2.4](advanced-design-considerations.md)
+  - updated LOB locators [14.2.5](advanced-design-considerations.md)
+  - updating a LOB with a PL/SQL variable [14.2.6](advanced-design-considerations.md)
+- examples, LOB access statistics [15.3.1](performance-guidelines.md)
+- existence
+  - check for BFILE [11.17](LOB-APIs-for-BFILE-operations.md)
+- extensible indexes [13.4.3](LOB-storage-with-applications.md)
+- external LOBs (BFILEs) [1.4.2](introduction-to-large-objects.md)
+  - See BFILEs [1.4.2](introduction-to-large-objects.md)
+- external LOBs (BFILEs), See BFILEs [1.4.2](introduction-to-large-objects.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- file system
+  - links [22.5](DBFS-hierarchical-store.md)
+  - security model [25.3.4](using-DBFS.md)
+- FILESYSTEM_LIKE_LOGGING
+  - LOB storage parameter [3.2.1](using-oracle-LOBs-storage.md)
+- FOR UPDATE clause
+  - LOB locator [14.2.1](advanced-design-considerations.md)
+- FREELIST GROUPS [3.2.1](using-oracle-LOBs-storage.md)
+- FREELISTS [3.2.1](using-oracle-LOBs-storage.md)
+- FREEPOOLS [3.2.1](using-oracle-LOBs-storage.md)
+- FTP
+  - access to DBFS [25.3.5](using-DBFS.md)
+- function-based indexes [13.4.3](LOB-storage-with-applications.md)
+  - on LOB columns [13.4.3](LOB-storage-with-applications.md)
+- FUSE
+  - installing [25.3.3.1](using-DBFS.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- getting started with DBFS Content API [23.3](DBFS-content-API.md)
+- getting started with DBMS_DBFS_CONTENT [23.3](DBFS-content-API.md)
+
+------------------------------------------------------------------------
+
+## H
+
+- hexadecimal string
+  - passing to DBMS_LOB.WRITE() [12.21](using-LOB-APIs.md)
+- hierarchical store
+  - dropping [22.4.3](DBFS-hierarchical-store.md)
+  - setting up [22.3.2](DBFS-hierarchical-store.md)
+  - using [22.4](DBFS-hierarchical-store.md)
+  - using compression [22.4.4](DBFS-hierarchical-store.md)
+  - using tape [22.4.5](DBFS-hierarchical-store.md)
+- Hierarchical Store Package, DBMS_DBFS_HS [22.1](DBFS-hierarchical-store.md)
+- HS store wallet [22.3.1](DBFS-hierarchical-store.md)
+- HTTP
+  - access to DBFS [25.3.5](using-DBFS.md)
+- HTTP access to DBFS [25.3.5.4](using-DBFS.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- implicit assignment and parameter passing for LOB columns [9.3.3](data-interface-for-persistent-LOBs.md)
+- implicit conversion of CLOB to character type [7.2.2](SQL-semantics-and-LOBs.md)
+- improved LOB usability [7.1](SQL-semantics-and-LOBs.md)
+- indexes
+  - function-based [13.4.3](LOB-storage-with-applications.md)
+  - rebuilding after LONG-to-LOB migration [17.5.4](migrating-columns-from-LONGs-to-LOBs.md)
+  - restrictions [17.5.4](migrating-columns-from-LONGs-to-LOBs.md)
+- indexes on LOB columns
+  - bitmap index not supported [13.4.1](LOB-storage-with-applications.md)
+  - B-tree index not supported [13.4.1](LOB-storage-with-applications.md)
+  - domain indexing [13.4.1](LOB-storage-with-applications.md)
+  - restriction [13.4](LOB-storage-with-applications.md)
+- index-organized tables, restrictions for LOB columns [13.8](LOB-storage-with-applications.md)
+- Information Lifecycle Management (ILM) [22.1](DBFS-hierarchical-store.md)
+- init.ora parameter db_securefile [3.4.2](using-oracle-LOBs-storage.md)
+- INITFS [21.1.5](DBFS-securefiles-store.md)
+- initialization parameters for SecureFiles LOBs [3.4.2](using-oracle-LOBs-storage.md)
+- initializing
+  - during CREATE TABLE or INSERT [6.4](DDL-DML-statements-with-LOBs.md)
+  - using EMPTY_CLOB(), EMPTY_BLOB() [2.5.2.1](working-with-LOBs.md)
+- initializing a LOB column to a non-NULLvalue [13.1.1.2](LOB-storage-with-applications.md)
+- inline storage [13.3.1](LOB-storage-with-applications.md)
+  - maximum size [13.3.1](LOB-storage-with-applications.md)
+- inserting
+  - a row by initializing a LOB locator
+    - internal persistent LOBs [6.5](DDL-DML-statements-with-LOBs.md)
+  - a row by initializing BFILE locator [11.25](LOB-APIs-for-BFILE-operations.md)
+- INSERT statements
+  - binds of greater than 4000 bytes [9.3.8](data-interface-for-persistent-LOBs.md)
+- installing
+  - DBFS [25.1](using-DBFS.md)
+  - FUSE [25.3.3.1](using-DBFS.md)
+  - Oracle Database [25.1](using-DBFS.md)
+- interfaces for LOBs, see programmatic environments [10.2](overview-of-supplied-LOB-APIs.md)
+- ioctl [25.3.3.11](using-DBFS.md)
+- IS NULL return value for LOBs [7.5.3](SQL-semantics-and-LOBs.md)
+- ISNULL usage with LOBs [7.5.3](SQL-semantics-and-LOBs.md)
+- IS NULL usage with LOBs [7.5.3](SQL-semantics-and-LOBs.md)
+
+------------------------------------------------------------------------
+
+## J
+
+- Java, See JDBC [10.1](overview-of-supplied-LOB-APIs.md)
+- JDBC
+  - available LOB methods/properties [10.2](overview-of-supplied-LOB-APIs.md)
+  - BFILE class [10.8.2](overview-of-supplied-LOB-APIs.md)
+  - BFILE-streaming [10.8.16](overview-of-supplied-LOB-APIs.md)
+  - BFILE streaming APIs [10.8.25](overview-of-supplied-LOB-APIs.md)
+  - BLOB and CLOB classes [10.8.2](overview-of-supplied-LOB-APIs.md)
+  - calling DBMS_LOB package [10.8.3](overview-of-supplied-LOB-APIs.md)
+  - checking if BLOB is temporary [12.25.1](using-LOB-APIs.md)
+  - CLOB streaming APIs [10.8.24](overview-of-supplied-LOB-APIs.md)
+  - empty LOBs [10.8.26](overview-of-supplied-LOB-APIs.md)
+  - encapsulating locators [10.8.2](overview-of-supplied-LOB-APIs.md)
+  - methods/properties for BLOB-streaming [10.8.11](overview-of-supplied-LOB-APIs.md)
+  - methods/properties for CLOBs
+    - streaming [10.8.14](overview-of-supplied-LOB-APIs.md)
+  - modifying BLOB values [10.8.9](overview-of-supplied-LOB-APIs.md)
+  - modifying CLOB values [10.8.12](overview-of-supplied-LOB-APIs.md)
+  - modifyng internal LOBs with Java using oracle.sql.BLOB/CLOB [10.8.1](overview-of-supplied-LOB-APIs.md)
+  - newStreamLob.java [10.8.25.1](overview-of-supplied-LOB-APIs.md)
+  - opening and closing BFILEs [10.8.21](overview-of-supplied-LOB-APIs.md)
+  - opening and closing CLOBs [10.8.20](overview-of-supplied-LOB-APIs.md)
+  - opening and closing LOBs [10.8.18](overview-of-supplied-LOB-APIs.md)
+  - reading/examining BLOB values [10.8.10](overview-of-supplied-LOB-APIs.md)
+  - reading/examining CLOB values [10.8.13](overview-of-supplied-LOB-APIs.md)
+  - reading/examining external LOB (BFILE) values [10.8.15](overview-of-supplied-LOB-APIs.md)
+  - reading internal LOBs and external LOBs (BFILEs) with Java [10.8.2](overview-of-supplied-LOB-APIs.md)
+  - referencing LOBs [10.8.6](overview-of-supplied-LOB-APIs.md)
+  - streaming APIs for LOBs [10.8.23](overview-of-supplied-LOB-APIs.md)
+  - syntax references [10.8.7](overview-of-supplied-LOB-APIs.md)
+  - trimming LOBs [10.8.22](overview-of-supplied-LOB-APIs.md)
+  - using OracleResultSet to reference LOBs [10.8.6.1](overview-of-supplied-LOB-APIs.md)
+  - using OUT parameter from OraclePreparedStatement to reference LOBs [10.8.6.1](overview-of-supplied-LOB-APIs.md)
+  - writing to empty LOBs [10.8.26](overview-of-supplied-LOB-APIs.md)
+- JDBC 3.0 [10.8.1](overview-of-supplied-LOB-APIs.md)
+- JDBC and Empty LOBs [10.8.26](overview-of-supplied-LOB-APIs.md)
+
+------------------------------------------------------------------------
+
+## K
+
+- KEEP_DUPLICATES [3.2.1](using-oracle-LOBs-storage.md), [3.3.3](using-oracle-LOBs-storage.md)
+
+------------------------------------------------------------------------
+
+## L
+
+- length
+  - getting BFILE [11.18](LOB-APIs-for-BFILE-operations.md)
+  - persistent LOB [12.15](using-LOB-APIs.md)
+- LENGTH return value for LOBs [7.2.7](SQL-semantics-and-LOBs.md)
+- libaio
+  - asynchronous I/O through [25.3.3.11](using-DBFS.md)
+- Linux
+  - DBFS mounting interface [25.3.3](using-DBFS.md)
+- listing
+  - a directory [25.3.2.4](using-DBFS.md)
+- loading
+  - a LOB with BFILE data [11.7](LOB-APIs-for-BFILE-operations.md)
+  - LOB with data from a BFILE [12.5](using-LOB-APIs.md)
+- loading BEFILEs
+  - using SQL\*Loader [16.1.2](managing-LOBs.md)
+- loading data into LOBs
+  - utilities [16.1](managing-LOBs.md)
+- LOB column cells
+  - accessing [2.1](working-with-LOBs.md)
+- LOB columns
+  - initializing to contain locator [2.5.2](working-with-LOBs.md)
+  - initializing to NULL or Empty [13.1.1](LOB-storage-with-applications.md)
+- LOB column states [2.1](working-with-LOBs.md)
+- LOB locator
+  - copy semantics [1.6](introduction-to-large-objects.md)
+  - external LOBs (BFILEs) [1.6](introduction-to-large-objects.md)
+  - internal LOBs [1.6](introduction-to-large-objects.md)
+  - out-bind variables in OCI [10.4.7](overview-of-supplied-LOB-APIs.md)
+  - reference semantics [1.6](introduction-to-large-objects.md)
+- LOB locators [1.5](introduction-to-large-objects.md)
+- LOB locators, always stored in row [13.3.1](LOB-storage-with-applications.md)
+- LOB prefetching
+  - JDBC [10.8.4](overview-of-supplied-LOB-APIs.md)
+- LOB reads [15.3](performance-guidelines.md)
+- LOB restrictions [2.7](working-with-LOBs.md)
+- LOBs
+  - accesing with SQL [2.6.1](working-with-LOBs.md)
+  - accessing [2.6](working-with-LOBs.md)
+  - accessing using the data interface [2.6.2](working-with-LOBs.md)
+  - accessing using the locator interface [2.6.3](working-with-LOBs.md)
+  - attributes and object cache [14.4](advanced-design-considerations.md)
+  - changing default tablespace storage [16.4](managing-LOBs.md)
+  - data types versus LONG [1.3](introduction-to-large-objects.md)
+  - external (BFILEs) [1.4.2](introduction-to-large-objects.md)
+  - interfaces, See programmatic environments [10.2](overview-of-supplied-LOB-APIs.md)
+  - internal
+    - creating an object in object cache [14.4](advanced-design-considerations.md)
+  - internal LOBs
+    - CACHE / NOCACHE [13.3.8](LOB-storage-with-applications.md)
+    - CHUNK [13.3.11](LOB-storage-with-applications.md)
+    - ENABLE \| DISABLE STORAGE IN ROW [13.3.12](LOB-storage-with-applications.md)
+    - initializing [11.13](LOB-APIs-for-BFILE-operations.md)
+    - introduced [1.4](introduction-to-large-objects.md)
+    - locators [2.5](working-with-LOBs.md)
+    - locking before updating [12.2](using-LOB-APIs.md), [12.16](using-LOB-APIs.md), [12.20](using-LOB-APIs.md), [12.21](using-LOB-APIs.md), [12.23](using-LOB-APIs.md), [12.24](using-LOB-APIs.md)
+    - LOGGING / NOLOGGING [13.3.9](LOB-storage-with-applications.md)
+    - PCTVERSION [13.3.5](LOB-storage-with-applications.md)
+    - setting to empty [13.1.1.2](LOB-storage-with-applications.md)
+    - tablespace and LOB index [13.3.4](LOB-storage-with-applications.md)
+    - tablespace and storage characteristics [13.3.2](LOB-storage-with-applications.md)
+    - transactions [1.4](introduction-to-large-objects.md)
+  - in the object cache [14.4](advanced-design-considerations.md)
+  - loading data into, using SQL\*Loader [16.1.1](managing-LOBs.md)
+  - locator [2.4](working-with-LOBs.md)
+  - locators [2.5](working-with-LOBs.md), [14.2.1](advanced-design-considerations.md)
+  - locking rows [2.2](working-with-LOBs.md)
+  - maximum sizes allowed [14.5](advanced-design-considerations.md)
+  - object cache [14.4](advanced-design-considerations.md)
+  - piecewise operations [14.2.3](advanced-design-considerations.md)
+  - read-consistent locators [14.2.1](advanced-design-considerations.md)
+  - reason for using [1.2](introduction-to-large-objects.md)
+  - setting to contain a locator [2.5.2](working-with-LOBs.md)
+  - setting to NULL [13.1.1.1](LOB-storage-with-applications.md)
+  - tables
+    - creating indexes [13.5.3](LOB-storage-with-applications.md)
+    - moving partitions [13.5.4](LOB-storage-with-applications.md)
+    - splitting partitions [13.5.5](LOB-storage-with-applications.md)
+  - unstructured data [1.2.3](introduction-to-large-objects.md)
+  - updated LOB locators [14.2.3](advanced-design-considerations.md)
+  - value [2.4](working-with-LOBs.md)
+  - varying-width character data [13.2.3](LOB-storage-with-applications.md)
+- LOBS
+  - opening and closing [2.3](working-with-LOBs.md)
+- LOBs, data interface for remote [9.6](data-interface-for-persistent-LOBs.md)
+- LOBs, data interface in Java [9.5](data-interface-for-persistent-LOBs.md)
+- LOB storage
+  - format of varying width character data [13.2.2](LOB-storage-with-applications.md)
+  - inline and out-of-line storage properties [13.3.1](LOB-storage-with-applications.md)
+- LOB streaming
+  - BLOB-streaming with JDBC [10.8.11](overview-of-supplied-LOB-APIs.md)
+- LOB writes [15.3](performance-guidelines.md)
+- LOB writes unaligned [15.3](performance-guidelines.md)
+- locators [2.5](working-with-LOBs.md)
+  - BFILE guidelines [11.6.8.3](LOB-APIs-for-BFILE-operations.md)
+  - BFILEs [11.6.8](LOB-APIs-for-BFILE-operations.md)
+  - BFILEs, two rows can refer to the same file [11.6.8.1](LOB-APIs-for-BFILE-operations.md)
+  - deleted [14.2.7](advanced-design-considerations.md)
+  - external LOBs (BFILEs) [2.5](working-with-LOBs.md)
+  - LOB [1.5](introduction-to-large-objects.md)
+  - LOB, cannot span transactions [14.3.5](advanced-design-considerations.md)
+  - multiple [14.2.1](advanced-design-considerations.md)
+  - OCI functions [10.4.13](overview-of-supplied-LOB-APIs.md), [10.5.12](overview-of-supplied-LOB-APIs.md)
+  - Pro\*COBOL precompiler statements [10.7.7](overview-of-supplied-LOB-APIs.md)
+  - providing in Pro\*COBOL precompiler [10.7.1](overview-of-supplied-LOB-APIs.md)
+  - read-consistent [14.2.1](advanced-design-considerations.md), [14.2.6](advanced-design-considerations.md), [14.3.5](advanced-design-considerations.md)
+  - read consistent, updating [14.2.1](advanced-design-considerations.md)
+  - reading and writing to a LOB using [14.3.2](advanced-design-considerations.md)
+  - selecting within a transaction [14.3.4](advanced-design-considerations.md)
+  - selecting without current transaction [14.3.3](advanced-design-considerations.md)
+  - setting column to contain [2.5.2](working-with-LOBs.md)
+  - transaction boundaries [14.3](advanced-design-considerations.md)
+  - updated [14.2.3](advanced-design-considerations.md), [14.2.6](advanced-design-considerations.md)
+  - updating [14.3.5](advanced-design-considerations.md)
+- locators, see if LOB locator is initialized
+  - persistent LOBs [12.19](using-LOB-APIs.md)
+- locking [25.3.3.11](using-DBFS.md)
+- locking a row containing a LOB [2.2](working-with-LOBs.md)
+- LOGGING
+  - LOB storage parameter [3.2.1](using-oracle-LOBs-storage.md)
+  - migrating LONG-to-LOBs [17.2.2](migrating-columns-from-LONGs-to-LOBs.md)
+- LOGGING / NOLOGGING [13.3.9](LOB-storage-with-applications.md)
+- LONG-to-LOB migration
+  - ALTER TABLE [17.4.2](migrating-columns-from-LONGs-to-LOBs.md)
+  - benefits and concepts [17.1](migrating-columns-from-LONGs-to-LOBs.md)
+  - clustered tables [17.5.2](migrating-columns-from-LONGs-to-LOBs.md)
+  - LOGGING [17.2.2](migrating-columns-from-LONGs-to-LOBs.md)
+  - NULLs [17.5.5](migrating-columns-from-LONGs-to-LOBs.md)
+  - rebuilding indexes [17.5.4](migrating-columns-from-LONGs-to-LOBs.md)
+  - triggers [17.5.3](migrating-columns-from-LONGs-to-LOBs.md)
+- LONG versus LOB data types [1.3](introduction-to-large-objects.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- MAXSIZE [3.2.1](using-oracle-LOBs-storage.md)
+- migrating
+  - LONG-to-LOBs, constraints maintained [17.4.1](migrating-columns-from-LONGs-to-LOBs.md)
+  - LONG-to-LOBs, indexing [17.5.4](migrating-columns-from-LONGs-to-LOBs.md)
+  - LONG to LOBs, see LONG-to-LOB [17.1](migrating-columns-from-LONGs-to-LOBs.md)
+  - LONG-to-LOB using ALTER TABLE [17.4.2](migrating-columns-from-LONGs-to-LOBs.md)
+- migrating to SecureFiles LOBs [3.5](using-oracle-LOBs-storage.md), [3.5.3](using-oracle-LOBs-storage.md)
+- migration of LONG to LOB in parallel [17.4.4](migrating-columns-from-LONGs-to-LOBs.md)
+- mounted file systems
+  - restrictions [25.3.3.11](using-DBFS.md)
+- mounting
+  - DBFS through fstab for Linux [25.3.3.9](using-DBFS.md)
+  - DBFS through fstab for Solaris [25.3.3.10](using-DBFS.md)
+  - the DBFS store [25.3.3.2](using-DBFS.md)
+- mount points
+  - listing [23.4.6](DBFS-content-API.md)
+- multibyte character sets, using with the data interface for LOBs [9.4.3](data-interface-for-persistent-LOBs.md)
+- multithreaded server
+  - BFILEs [2.7.2](working-with-LOBs.md), [11.6.7](LOB-APIs-for-BFILE-operations.md)
+
+------------------------------------------------------------------------
+
+## N
+
+- NCLOB
+  - session collation settings [7.2.3](SQL-semantics-and-LOBs.md)
+- NCLOBs
+  - DBMS_LOB, offset and amount parameters in characters [10.3.2](overview-of-supplied-LOB-APIs.md)
+  - modify using DBMS_LOB [10.3.5](overview-of-supplied-LOB-APIs.md)
+- NewStreamLob.java [10.8.25.1](overview-of-supplied-LOB-APIs.md)
+- NOCOMPRESS [3.2.1](using-oracle-LOBs-storage.md), [3.3.3](using-oracle-LOBs-storage.md)
+- NOCOPY, using to pass temporary LOB parameters by reference [15.1.3](performance-guidelines.md)
+- NOLOGGING
+  - LOB storage parameter [3.2.1](using-oracle-LOBs-storage.md)
+- non-partitioned file system
+  - creating [25.2.3](using-DBFS.md)
+- NORMALIZEPATH [23.18](DBFS-content-API.md)
+- NULL LOB, restrictions calling OCI and DBMS_LOB functions [13.1.1.1](LOB-storage-with-applications.md)
+- NULL LOB value, LOB storage for [13.3.1](LOB-storage-with-applications.md)
+- NULL LOB values, LOB storage properties for [13.3.1](LOB-storage-with-applications.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- object cache [14.4](advanced-design-considerations.md)
+  - creating an object in [14.4](advanced-design-considerations.md)
+  - LOBs [14.4](advanced-design-considerations.md)
+- OCCI
+  - compared to other interfaces [10.2](overview-of-supplied-LOB-APIs.md)
+  - LOB functionality [10.5](overview-of-supplied-LOB-APIs.md)
+- OCCI Blob class
+  - read [10.5.3](overview-of-supplied-LOB-APIs.md)
+  - write [10.5.3](overview-of-supplied-LOB-APIs.md)
+- OCCI Clob class
+  - read [10.5.3](overview-of-supplied-LOB-APIs.md)
+  - write [10.5.3](overview-of-supplied-LOB-APIs.md)
+- OCI
+  - available LOB functions [10.2](overview-of-supplied-LOB-APIs.md)
+  - character set rules, fixed-width and varying-width [10.4.3](overview-of-supplied-LOB-APIs.md)
+  - functions for BFILEs [10.4.12](overview-of-supplied-LOB-APIs.md), [10.5.11](overview-of-supplied-LOB-APIs.md)
+  - functions for temporary LOBs [10.4.11](overview-of-supplied-LOB-APIs.md), [10.5.11](overview-of-supplied-LOB-APIs.md)
+  - functions to modify internal LOB values [10.4.9](overview-of-supplied-LOB-APIs.md), [10.5.9](overview-of-supplied-LOB-APIs.md)
+  - functions to open/close internal and external LOBs [10.4.14](overview-of-supplied-LOB-APIs.md), [10.5.13](overview-of-supplied-LOB-APIs.md)
+  - functions to read or examine internal and external LOB values [10.4.10](overview-of-supplied-LOB-APIs.md), [10.5.10](overview-of-supplied-LOB-APIs.md)
+  - LOB locator functions [10.4.13](overview-of-supplied-LOB-APIs.md), [10.5.12](overview-of-supplied-LOB-APIs.md)
+  - NCLOB parameters [10.4.3.2](overview-of-supplied-LOB-APIs.md), [10.5.4.1](overview-of-supplied-LOB-APIs.md)
+  - OCILobFileGetLength
+    - CLOB and NCLOB input and output length [10.4.3](overview-of-supplied-LOB-APIs.md)
+  - OCILobRead2()
+    - varying-width CLOB and NCLOB input and amount amounts [10.4.3](overview-of-supplied-LOB-APIs.md)
+  - OCILobWrite2()
+    - varying-width CLOB and NCLOB input and amount amounts [10.4.3](overview-of-supplied-LOB-APIs.md), [10.5.3](overview-of-supplied-LOB-APIs.md)
+  - offset and amount parameter rules
+    - fixed-width character sets [10.5.2](overview-of-supplied-LOB-APIs.md)
+  - setting OCILobRead2(), OCILobWrite2() to OCI_UCS2ID [10.4.2](overview-of-supplied-LOB-APIs.md)
+  - using to work LOBs [10.4](overview-of-supplied-LOB-APIs.md)
+- OCI functions on a NULL LOB restriction [13.1.1.1](LOB-storage-with-applications.md)
+- OCILobArrayRead() [12.11](using-LOB-APIs.md)
+- OCILobArrayWrite() [12.22](using-LOB-APIs.md)
+- OCILobGetChunkSize() [14.5.2](advanced-design-considerations.md)
+- OCILobLocator, out-bind variables [10.4.7](overview-of-supplied-LOB-APIs.md)
+- OCILobLocator in assignment "=" operations [10.4.6](overview-of-supplied-LOB-APIs.md)
+- ODP.NET [10.2](overview-of-supplied-LOB-APIs.md)
+- offset parameter, in DBMS_LOB operations [10.3.2](overview-of-supplied-LOB-APIs.md)
+- OLEDB [10.9](overview-of-supplied-LOB-APIs.md)
+- Online Filesystem Reorganization [25.5](using-DBFS.md)
+- online redefinition
+  - DBFS [25.5](using-DBFS.md)
+- open
+  - checking for open BFILEs with FILEISOPEN() [11.11](LOB-APIs-for-BFILE-operations.md)
+  - checking if BFILE is open with ISOPEN [11.10](LOB-APIs-for-BFILE-operations.md)
+- open, determining whether a LOB is open [12.8](using-LOB-APIs.md)
+- OpenCloseLob.java example [10.8.21.4](overview-of-supplied-LOB-APIs.md)
+- opening
+  - BFILEs using FILEOPEN [11.9](LOB-APIs-for-BFILE-operations.md)
+  - BFILEs with OPEN [11.8](LOB-APIs-for-BFILE-operations.md)
+- opening and closing LOBs [2.3](working-with-LOBs.md)
+  - using JDBC [10.8.18](overview-of-supplied-LOB-APIs.md)
+- ORA-17098
+  - empty LOBs and JDBC [10.8.26](overview-of-supplied-LOB-APIs.md)
+- ORA-22992 [2.7.1](working-with-LOBs.md)
+- oracle.sql.BFILE
+  - BFILE-streaming [10.8.16](overview-of-supplied-LOB-APIs.md)
+  - JDBC methods to read/examine BFILEs [10.8.15](overview-of-supplied-LOB-APIs.md)
+- oracle.sql.BLOB
+  - for modifying BLOB values [10.8.9](overview-of-supplied-LOB-APIs.md)
+  - reading/examining BLOB values [10.8.10](overview-of-supplied-LOB-APIs.md)
+  - See JDBC [10.8.1](overview-of-supplied-LOB-APIs.md)
+- oracle.sql.BLOBs
+  - BLOB-streaming [10.8.11](overview-of-supplied-LOB-APIs.md)
+- oracle.sql.CLOB
+  - CLOBs
+    - streaming [10.8.14](overview-of-supplied-LOB-APIs.md)
+  - JDBC methods to read/examine CLOB values [10.8.13](overview-of-supplied-LOB-APIs.md)
+  - modifying CLOB values [10.8.12](overview-of-supplied-LOB-APIs.md)
+- oracle.sql.CLOBs
+  - See JDBC [10.8.1](overview-of-supplied-LOB-APIs.md)
+- Oracle Call Interface, See OCI [10.4](overview-of-supplied-LOB-APIs.md)
+- Oracle Database Installation [25.1](using-DBFS.md)
+- OraclePreparedStatement, See JDBC [10.8.6](overview-of-supplied-LOB-APIs.md)
+- OracleResultSet, See JDBC [10.8.6](overview-of-supplied-LOB-APIs.md)
+- OraOLEDB [10.9](overview-of-supplied-LOB-APIs.md)
+- out-of-line storage [13.3.1](LOB-storage-with-applications.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- parallel DML support [9.3.12](data-interface-for-persistent-LOBs.md)
+- parallel LONG-to-LOB migration [17.4.4](migrating-columns-from-LONGs-to-LOBs.md)
+- Parallel Online Redefinition [3.5.4](using-oracle-LOBs-storage.md)
+- partitioned DBFS file system
+  - versus non-partitioned [25.2.2](using-DBFS.md)
+- partitioned file system
+  - creating [25.2.4](using-DBFS.md)
+- partitioned index-organized tables
+  - restrictions for LOB columns [13.8](LOB-storage-with-applications.md)
+- pattern
+  - check if it exists in BFILE using instr [11.16](LOB-APIs-for-BFILE-operations.md)
+- pattern, if it exists IN LOB using (instr)
+  - persistent LOBs [12.14](using-LOB-APIs.md)
+- PCTVERSION [3.2.1](using-oracle-LOBs-storage.md), [13.3.5](LOB-storage-with-applications.md)
+- performance
+  - guidelines
+    - reading/writing large data chunks, temporary LOBs [15.1.3](performance-guidelines.md)
+- performance guidelines [15.1.2.2](performance-guidelines.md)
+  - reading/writing large data chunks [15.1.2.2](performance-guidelines.md)
+- persistent LOBs [12.20](using-LOB-APIs.md), [12.21](using-LOB-APIs.md)
+- pipes [25.3.3.11](using-DBFS.md)
+- PL/SQL [10.1](overview-of-supplied-LOB-APIs.md)
+  - and LOBs, semantics changes [8.1](PLSQL-semantics-for-LOBs.md)
+  - changing locator-data linkage [8.3.1](PLSQL-semantics-for-LOBs.md)
+  - CLOBs passed in like VARCHAR2s [8.3.1](PLSQL-semantics-for-LOBs.md)
+  - CLOB variables in [8.3.1](PLSQL-semantics-for-LOBs.md)
+  - CLOB variables in PL/SQL [8.3.1](PLSQL-semantics-for-LOBs.md)
+  - defining a CLOB Variable on a VARCHAR [8.2](PLSQL-semantics-for-LOBs.md)
+  - freeing temporary LOBs automatically and manually [8.3.1](PLSQL-semantics-for-LOBs.md)
+- PL/SQL functions, remote [5.3.1](distributed-LOBs.md), [8.4](PLSQL-semantics-for-LOBs.md)
+- PL/SQL packages for SecureFiles LOB [3.6](using-oracle-LOBs-storage.md)
+- PM schema [2.5.1](working-with-LOBs.md)
+- polling [11.13](LOB-APIs-for-BFILE-operations.md), [12.10](using-LOB-APIs.md), [12.20](using-LOB-APIs.md)
+- prefetching data [10.4.1](overview-of-supplied-LOB-APIs.md)
+- prerequisites
+  - DBFS file system client [25.3.1](using-DBFS.md)
+- print_media creation [6.1](DDL-DML-statements-with-LOBs.md)
+- print_media table definition [2.5.1](working-with-LOBs.md)
+- privileges
+  - to create DBFS file system [25.2.1](using-DBFS.md)
+- Pro\*C/C++ precompiler
+  - available LOB functions [10.2](overview-of-supplied-LOB-APIs.md)
+  - locators [10.6.7](overview-of-supplied-LOB-APIs.md)
+  - modifying internal LOB values [10.6.3](overview-of-supplied-LOB-APIs.md)
+  - opening and closing internal LOBs and external LOBs (BFILEs) [10.6.8](overview-of-supplied-LOB-APIs.md)
+  - providing an allocated input locator pointer [10.6.1](overview-of-supplied-LOB-APIs.md)
+  - reading or examining internal and external LOB values [10.6.4](overview-of-supplied-LOB-APIs.md)
+  - statements for BFILEs [10.6.6](overview-of-supplied-LOB-APIs.md)
+  - statements for temporary LOBs [10.6.5](overview-of-supplied-LOB-APIs.md)
+- Pro\*COBOL precompiler
+  - available LOB functions [10.2](overview-of-supplied-LOB-APIs.md)
+  - locators [10.7.7](overview-of-supplied-LOB-APIs.md)
+  - modifying internal LOB values [10.7.3](overview-of-supplied-LOB-APIs.md)
+  - providing an allocated input locator [10.7.1](overview-of-supplied-LOB-APIs.md)
+  - reading or examining internal and external LOBs [10.7.4](overview-of-supplied-LOB-APIs.md)
+  - statements for BFILEs [10.7.6](overview-of-supplied-LOB-APIs.md)
+  - temporary LOBs [10.7.5](overview-of-supplied-LOB-APIs.md)
+- programmatic environments
+  - available functions [10.2](overview-of-supplied-LOB-APIs.md)
+  - compared [10.2](overview-of-supplied-LOB-APIs.md)
+- programmatic environments for LOBs [10.1](overview-of-supplied-LOB-APIs.md)
+
+------------------------------------------------------------------------
+
+## Q
+
+- Query APIs [23.4](DBFS-content-API.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- read consistency
+  - LOBs [14.2.1](advanced-design-considerations.md)
+- read-consistent locators [14.2](advanced-design-considerations.md), [14.2.1](advanced-design-considerations.md), [14.2.6](advanced-design-considerations.md), [14.3.5](advanced-design-considerations.md)
+- reading
+  - large data chunks [15.1.2.2](performance-guidelines.md)
+  - large data chunks, temporary LOBs [15.1.3](performance-guidelines.md)
+  - portion of BFILE data using substr [11.14](LOB-APIs-for-BFILE-operations.md)
+- reading, data from a LOB
+  - persistent LOBs [12.10](using-LOB-APIs.md)
+- reading, portion of LOB using substr
+  - persistent LOBs [12.12](using-LOB-APIs.md)
+- reference semantics [6.3](DDL-DML-statements-with-LOBs.md)
+  - BFILEs enables multiple BFILE columns for each record [11.4](LOB-APIs-for-BFILE-operations.md)
+- registered store
+  - mounting [23.4.3](DBFS-content-API.md)
+  - unregistering [23.4.2](DBFS-content-API.md)
+- remote built-in functions [5.2.1](distributed-LOBs.md)
+- remote LOBs [2.7.1](working-with-LOBs.md)
+- remote PL/SQL functions [5.3.1](distributed-LOBs.md), [8.4](PLSQL-semantics-for-LOBs.md)
+- removing
+  - directories [25.3.2.6](using-DBFS.md)
+  - files [25.3.2.6](using-DBFS.md)
+- restrictions
+  - binds of more than 4000 bytes [9.3.11](data-interface-for-persistent-LOBs.md)
+  - cannot call OCI or DBMS_LOB functions on a NULL LOB [13.1.1.1](LOB-storage-with-applications.md)
+  - clustered tables [17.5.2](migrating-columns-from-LONGs-to-LOBs.md)
+  - indexes [17.5.4](migrating-columns-from-LONGs-to-LOBs.md)
+  - index-organized tables and LOBs [13.8](LOB-storage-with-applications.md)
+  - LOBs [2.7](working-with-LOBs.md)
+  - triggers [17.5.3](migrating-columns-from-LONGs-to-LOBs.md)
+- restrictions on mounted file systems [25.3.3.11](using-DBFS.md)
+- restrictions on remote LOBs [2.7.1](working-with-LOBs.md)
+- RETENTION [3.2.1](using-oracle-LOBs-storage.md), [3.3.3](using-oracle-LOBs-storage.md)
+- RETENTION ignored in an MSSM tablespace [13.3.6](LOB-storage-with-applications.md)
+- retrieving LOB access statistics [15.3.1](performance-guidelines.md)
+- RETURNING clause, using with INSERT to initialize a LOB [13.1.1.2](LOB-storage-with-applications.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- Samba [25.3.3.11](using-DBFS.md)
+- sample schema for examples [6.1](DDL-DML-statements-with-LOBs.md)
+- SECUREFILE
+  - ALTER TABLE parameters [3.3](using-oracle-LOBs-storage.md)
+  - LOB storage parameter [3.2.1](using-oracle-LOBs-storage.md)
+- SecureFiles Encryption [3.1.2.3](using-oracle-LOBs-storage.md)
+- SecureFiles LOB
+  - CREATE TABLE parameter [3.2](using-oracle-LOBs-storage.md)
+  - PL/SQL [3.6](using-oracle-LOBs-storage.md)
+- SecureFiles LOBs
+  - initialization parameters [3.4.2](using-oracle-LOBs-storage.md)
+- SecureFiles LOBs and BasicFiles LOBs [1.10](introduction-to-large-objects.md)
+- SecureFiles LOB Storage [3.1.2](using-oracle-LOBs-storage.md)
+- SecureFiles Store
+  - setting up [21.1](DBFS-securefiles-store.md)
+- security
+  - BFILEs [11.6](LOB-APIs-for-BFILE-operations.md)
+  - BFILEs using SQL DDL [11.6.3](LOB-APIs-for-BFILE-operations.md)
+  - BFILEs using SQL DML [11.6.4](LOB-APIs-for-BFILE-operations.md)
+- SELECT statement
+  - read consistency [14.2.1](advanced-design-considerations.md)
+- semantics
+  - copy-based for internal LOBs [6.3](DDL-DML-statements-with-LOBs.md)
+  - copying and referencing [1.6](introduction-to-large-objects.md)
+  - for internal and external LOBs [1.6](introduction-to-large-objects.md)
+  - reference based for BFILEs [11.4](LOB-APIs-for-BFILE-operations.md)
+- semistructured data [1.2](introduction-to-large-objects.md)
+- SESSION_MAX_OPEN_FILES parameter [16.3.2](managing-LOBs.md)
+- session collation settings
+  - CLOB and NCLOB [7.2.3](SQL-semantics-and-LOBs.md)
+- setting
+  - internal LOBs to empty [13.1.1.2](LOB-storage-with-applications.md)
+  - LOBs to NULL [13.1.1.1](LOB-storage-with-applications.md)
+  - overrides for NLS_LANG variable [10.4.2](overview-of-supplied-LOB-APIs.md)
+- simple structured data, complex structured data [1.2](introduction-to-large-objects.md)
+- Solaris
+  - mounting interface [25.3.3](using-DBFS.md)
+  - Solaris-Specific privileges [25.3.3.2](using-DBFS.md)
+- Solaris 11 SRU7
+  - installing FUSE [25.3.3.1](using-DBFS.md)
+- spec.sql script [24.3.4](creating-your-own-DBFS-store.md)
+- SQL
+  - character functions, improved [7.1](SQL-semantics-and-LOBs.md)
+  - features where LOBs cannot be used [7.4](SQL-semantics-and-LOBs.md)
+- SQL\*Loader [16.1.2](managing-LOBs.md)
+  - conventional path load [16.1.1](managing-LOBs.md)
+  - direct-path load [16.1.1](managing-LOBs.md)
+  - LOBs
+    - loading data into [16.1.1](managing-LOBs.md)
+- SQL DDL
+  - BFILE security [11.6.3](LOB-APIs-for-BFILE-operations.md)
+- SQL DML
+  - BFILE security [11.6.4](LOB-APIs-for-BFILE-operations.md)
+- SQL functions on LOBs
+  - return type [7.2.6](SQL-semantics-and-LOBs.md)
+  - return value [7.2.6](SQL-semantics-and-LOBs.md)
+  - temporary LOBs returned [7.2.6](SQL-semantics-and-LOBs.md)
+- SQL semantics and LOBs [7.4](SQL-semantics-and-LOBs.md)
+- SQL semantics supported for use with LOBs [7.2](SQL-semantics-and-LOBs.md)
+- statistics, access [15.3](performance-guidelines.md)
+- streaming
+  - write [12.21](using-LOB-APIs.md)
+- streaming APIs
+  - NewStreamLob.java [10.8.25.1](overview-of-supplied-LOB-APIs.md)
+  - using JDBC and BFILEs [10.8.25](overview-of-supplied-LOB-APIs.md)
+  - using JDBC and CLOBs [10.8.24](overview-of-supplied-LOB-APIs.md)
+  - using JDBC and LOBs [10.8.23](overview-of-supplied-LOB-APIs.md)
+- symbolic links, rules with DIRECTORY objects and BFILEs [16.3](managing-LOBs.md)
+- system owned object, See DIRECTORY object [11.6.1](LOB-APIs-for-BFILE-operations.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- TaBleFileSystem Store Provider ("tbfs") [24.3](creating-your-own-DBFS-store.md)
+- tablespace storage
+  - changing [16.4](managing-LOBs.md)
+- TBFS.SQL script [24.3.2](creating-your-own-DBFS-store.md)
+- TBL.SQL script [24.3.3](creating-your-own-DBFS-store.md)
+- TDE [3.1.2.3](using-oracle-LOBs-storage.md)
+- temporary BLOB
+  - checking if temporary using JDBC [12.25.1](using-LOB-APIs.md)
+- temporary LOBs [16.2](managing-LOBs.md)
+  - checking if LOB is temporary [12.25](using-LOB-APIs.md)
+  - DBMS_LOB available functions/procedures [10.3.7](overview-of-supplied-LOB-APIs.md)
+  - OCI functions [10.4.11](overview-of-supplied-LOB-APIs.md), [10.5.11](overview-of-supplied-LOB-APIs.md)
+  - Pro\*C/C++ precompiler embedded SQL statements [10.6.5](overview-of-supplied-LOB-APIs.md)
+  - Pro\*COBOL precompiler statements [10.7.5](overview-of-supplied-LOB-APIs.md)
+  - returned from SQL functions [7.2.6](SQL-semantics-and-LOBs.md)
+- TO_BLOB(),TO_CHAR(), TO_NCHAR() [8.3](PLSQL-semantics-for-LOBs.md)
+- TO_CLOB()
+  - converting VARCHAR2,NVARCHAR2,NCLOB to CLOB [8.3](PLSQL-semantics-for-LOBs.md)
+- TO_NCLOB() [8.3](PLSQL-semantics-for-LOBs.md)
+- transaction boundaries
+  - LOB locators [14.3](advanced-design-considerations.md)
+- transaction IDs [14.3.2](advanced-design-considerations.md)
+- transactions
+  - external LOBs do not participate in [1.5](introduction-to-large-objects.md)
+  - IDs of locators [14.3.1](advanced-design-considerations.md)
+  - internal LOBs participate in database transactions [1.4.1](introduction-to-large-objects.md)
+  - LOB locators cannot span [14.3.5](advanced-design-considerations.md)
+  - locators with non-serializable [14.3.2](advanced-design-considerations.md)
+  - locators with serializable [14.3.2](advanced-design-considerations.md)
+- transferring LOB data [16.1.3](managing-LOBs.md)
+- Transparent Data Encryption (TDE) [3.1.2.3](using-oracle-LOBs-storage.md)
+- transparent read [22.5.6](DBFS-hierarchical-store.md)
+- triggers
+  - LONG-to-LOB migration [17.5.3](migrating-columns-from-LONGs-to-LOBs.md)
+- trimming LOB data
+  - persistent LOBs [12.23](using-LOB-APIs.md)
+- trimming LOBs using JDBC [10.8.22](overview-of-supplied-LOB-APIs.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- UCS2 Unicode character set
+  - varying width character data [13.2.2](LOB-storage-with-applications.md)
+- UNICODE
+  - VARCHAR2 and CLOBs support [7.2.4](SQL-semantics-and-LOBs.md)
+- unmounting
+  - a file system [25.3.3.8](using-DBFS.md)
+- unstructured data [1.2](introduction-to-large-objects.md), [1.2.3](introduction-to-large-objects.md)
+- updated locators [14.2.3](advanced-design-considerations.md), [14.2.6](advanced-design-considerations.md)
+- UPDATE statements
+  - binds of greater than 4000 bytes [9.3.8](data-interface-for-persistent-LOBs.md)
+- updating
+  - avoid the LOB with different locators [14.2.5](advanced-design-considerations.md)
+  - LOBs using SQL and DBMS_LOB [14.2.4](advanced-design-considerations.md)
+  - LOB values, read consistent locators [14.2.1](advanced-design-considerations.md)
+  - LOB values using one locator [14.2.5](advanced-design-considerations.md)
+  - LOB with PL/SQL bind variable [14.2.6](advanced-design-considerations.md)
+  - locators [14.3.5](advanced-design-considerations.md)
+  - locking before [12.16](using-LOB-APIs.md)
+  - locking prior to [12.2](using-LOB-APIs.md), [12.23](using-LOB-APIs.md), [12.24](using-LOB-APIs.md)
+- using SQL character functions [7.1](SQL-semantics-and-LOBs.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- V\$NLS_VALID_VALUES [10.3.3](overview-of-supplied-LOB-APIs.md)
+- VARCHAR2
+  - accessing CLOB data when treated as [8.2](PLSQL-semantics-for-LOBs.md)
+  - also RAW, applied to CLOBs and BLOBs [7.5](SQL-semantics-and-LOBs.md)
+  - defining CLOB variable on [8.2](PLSQL-semantics-for-LOBs.md)
+- VARCHAR2, using SQL functions and operators with LOBs [7.2](SQL-semantics-and-LOBs.md)
+- VARRAY
+  - LOB restriction [2.7.1](working-with-LOBs.md)
+- VARRAYs
+  - stored as LOBs [1.9.1](introduction-to-large-objects.md)
+- varying-width character data [13.2.2](LOB-storage-with-applications.md)
+- views on DIRECTORY object [11.6.5](LOB-APIs-for-BFILE-operations.md)
+
+------------------------------------------------------------------------
+
+## W
+
+- wallet
+  - HS store wallet [22.3.1](DBFS-hierarchical-store.md)
+- Wallet,Oracle [25.4.1](using-DBFS.md)
+- WebDAV
+  - access to DBFS [25.3.5](using-DBFS.md)
+- WHERE Clause Usage with LOBs [7.5.4](SQL-semantics-and-LOBs.md)
+- writing
+  - data to a LOB [12.21](using-LOB-APIs.md)
+  - large data chunks, temporary LOBs [15.1.3](performance-guidelines.md)
+  - singly or piecewise [12.20](using-LOB-APIs.md)
+
+------------------------------------------------------------------------
+
+## Z
+
+- Zero-copy Input/Output for SecureFiles LOBs [10.8.5](overview-of-supplied-LOB-APIs.md)
