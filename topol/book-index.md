@@ -1,0 +1,1053 @@
+## Index
+
+A  C  D  E  F  G  H  I  J  L  M  N  O  P  R  S  T  U  V  X  
+
+------------------------------------------------------------------------
+
+## A
+
+- active links [5.3](network-data-model-graph-overview.md)
+  - ACTIVE column in link table [5.11.1.2](network-data-model-graph-overview.md)
+- active nodes [5.3](network-data-model-graph-overview.md)
+  - ACTIVE column in node table [5.11.1.1](network-data-model-graph-overview.md)
+- ADD_CHILD_FEATURE procedure [6.1](SDO_NET-reference.md)
+- ADD_CHILD_FEATURES procedure [6.2](SDO_NET-reference.md)
+- ADD_EDGE function [4.1](SDO_TOPO_MAP-reference.md)
+- ADD_FEATURE_ELEMENT procedure [6.4](SDO_NET-reference.md)
+- ADD_FEATURE_ELEMENTS procedure [6.5](SDO_NET-reference.md)
+- ADD_FEATURE_LAYER procedure [6.6](SDO_NET-reference.md)
+- ADD_FEATURE procedure [6.3](SDO_NET-reference.md)
+- ADD_ISOLATED_NODE function [4.2](SDO_TOPO_MAP-reference.md)
+- ADD_LINEAR_GEOMETRY function [4.3](SDO_TOPO_MAP-reference.md)
+- ADD_LOOP function [4.4](SDO_TOPO_MAP-reference.md)
+- ADD_NODE function [4.5](SDO_TOPO_MAP-reference.md)
+- ADD_POINT_GEOMETRY function [4.6](SDO_TOPO_MAP-reference.md)
+- ADD_POLYGON_GEOMETRY function [4.7](SDO_TOPO_MAP-reference.md)
+- ADD_TOPO_GEOMETRY_LAYER procedure [3.1](SDO_TOPO-reference.md)
+- ALL_SDO_NETWORK_CONSTRAINTS view [5.12.2](network-data-model-graph-overview.md)
+- ALL_SDO_NETWORK_METADATA view [5.12.1](network-data-model-graph-overview.md)
+- ALL_SDO_NETWORK_USER_DATA view [5.12.3](network-data-model-graph-overview.md), [5.12.4](network-data-model-graph-overview.md)
+- ALL_SDO_NFE_MODEL_FTLAYER_REL view [5.12.5](network-data-model-graph-overview.md)
+- ALL_SDO_NFE_MODEL_METADATA view [5.12.6](network-data-model-graph-overview.md)
+- ALL_SDO_NFE_MODEL_WORKSPACE view [5.12.7](network-data-model-graph-overview.md)
+- ALL_SDO_TOPO_INFO view [1.7.1](topology-data-model-overview.md)
+- ALL_SDO_TOPO_METADATA view [1.7.2](topology-data-model-overview.md)
+- API
+  - Network Data Model Graph [5.13](network-data-model-graph-overview.md)
+    - performance [5.13](network-data-model-graph-overview.md)
+  - Topology Data Model [1.8](topology-data-model-overview.md)
+- application programming interface (API)
+  - Network Data Model Graph
+    - performance [5.13](network-data-model-graph-overview.md)
+  - Topology Data Model [1.8](topology-data-model-overview.md)
+- APPLY_RULE procedure [7.1](SDO_NFE-reference.md)
+- automatically created points default attributes table
+  - definition [5.11.3.1](network-data-model-graph-overview.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- cache [2.1.1](editing-topologies.md)
+  - See also: TopoMap objects
+
+  <!-- -->
+
+  - partition [5.10.3](network-data-model-graph-overview.md)
+  - TopoMap object associated with [2.1.1](editing-topologies.md)
+- CHANGE_EDGE_COORDS procedure [4.8](SDO_TOPO_MAP-reference.md)
+- child layer [1.4](topology-data-model-overview.md)
+- child node [5.5](network-data-model-graph-overview.md)
+- CLASSIFY_LINES_BY_SIDE procedure [7.2](SDO_NFE-reference.md)
+- CLEAR_TOPO_MAP procedure [4.9](SDO_TOPO_MAP-reference.md)
+- collection layers [1.3.2](topology-data-model-overview.md)
+- COMMIT_TOPO_MAP procedure [4.10](SDO_TOPO_MAP-reference.md)
+- complex path [5.11.1.3](network-data-model-graph-overview.md)
+- COMPUTE_PATH_GEOMETRY procedure [6.7](SDO_NET-reference.md)
+- connected components
+  - finding [6.36](SDO_NET-reference.md)
+- connected component table
+  - definition [5.11.1.8](network-data-model-graph-overview.md)
+- connectivity line-line rules table
+  - definition [5.11.3.2](network-data-model-graph-overview.md)
+- connectivity line-point rules table
+  - definition [5.11.3.3](network-data-model-graph-overview.md)
+- constraints
+  - network [5.9](network-data-model-graph-overview.md)
+- containing face
+  - getting for point [4.16](SDO_TOPO_MAP-reference.md)
+- COPY_NETWORK procedure [6.8](SDO_NET-reference.md)
+- cost [5.3](network-data-model-graph-overview.md)
+  - LINK_COST_COLUMN column in network metadata views [5.12.1](network-data-model-graph-overview.md)
+  - NODE_COST_COLUMN column in network metadata views [5.12.1](network-data-model-graph-overview.md)
+- CREATE_EDGE_INDEX procedure [4.11](SDO_TOPO_MAP-reference.md)
+- CREATE_FACE_INDEX procedure [4.12](SDO_TOPO_MAP-reference.md)
+- CREATE_FEATURE function [4.13](SDO_TOPO_MAP-reference.md)
+- CREATE_LINK_TABLE procedure [6.9](SDO_NET-reference.md)
+- CREATE_LOGICAL_NETWORK procedure [6.10](SDO_NET-reference.md)
+- CREATE_LRS_NETWORK procedure [6.11](SDO_NET-reference.md)
+- CREATE_LRS_TABLE procedure [6.12](SDO_NET-reference.md)
+- CREATE_MODEL_SEQUENCE procedure [7.3](SDO_NFE-reference.md)
+- CREATE_MODEL_STRUCTURE function [7.4](SDO_NFE-reference.md)
+- CREATE_MODEL_UNDERLYING_NET procedure [7.5](SDO_NFE-reference.md)
+- CREATE_MODEL_WORKSPACE procedure [7.6](SDO_NFE-reference.md)
+- CREATE_NODE_TABLE procedure [6.13](SDO_NET-reference.md)
+- CREATE_PARTITION_TABLE procedure [6.14](SDO_NET-reference.md)
+- CREATE_PATH_LINK_TABLE procedure [6.15](SDO_NET-reference.md)
+- CREATE_PATH_TABLE procedure [6.16](SDO_NET-reference.md)
+- CREATE_SDO_NETWORK procedure [6.17](SDO_NET-reference.md)
+- CREATE_SUBPATH_TABLE procedure [6.18](SDO_NET-reference.md)
+- CREATE_TOPO_MAP procedure [4.14](SDO_TOPO_MAP-reference.md)
+- CREATE_TOPO_NETWORK procedure [6.19](SDO_NET-reference.md)
+- CREATE_TOPOLOGY procedure [3.2](SDO_TOPO-reference.md)
+- cross-schema considerations
+  - topology editing [1.10.2](topology-data-model-overview.md)
+  - topology usage [1.10.1](topology-data-model-overview.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- dangling features
+  - deleting [6.22](SDO_NET-reference.md)
+  - getting [6.43](SDO_NET-reference.md)
+- dangling links
+  - deleting [6.23](SDO_NET-reference.md)
+  - getting [6.44](SDO_NET-reference.md)
+- dangling nodes
+  - deleting [6.24](SDO_NET-reference.md)
+  - getting [6.45](SDO_NET-reference.md)
+- degree
+  - of a node [5.3](network-data-model-graph-overview.md)
+- DELETE_ALL_FT_LAYERS procedure [7.7](SDO_NFE-reference.md)
+- DELETE_ALL_WORKSPACES procedure [7.8](SDO_NFE-reference.md)
+- DELETE_CHILD_FEATURES_AT procedure [6.21](SDO_NET-reference.md)
+- DELETE_CHILD_FEATURES procedure [6.20](SDO_NET-reference.md)
+- DELETE_DANGLING_FEATURES procedure [6.22](SDO_NET-reference.md)
+- DELETE_DANGLING_LINKS procedure [6.23](SDO_NET-reference.md)
+- DELETE_DANGLING_NODES procedure [6.24](SDO_NET-reference.md)
+- DELETE_FEATURE_ELEMENTS_AT procedure [6.26](SDO_NET-reference.md)
+- DELETE_FEATURE_ELEMENTS procedure [6.25](SDO_NET-reference.md)
+- DELETE_FEATURES procedure [6.27](SDO_NET-reference.md)
+- DELETE_LINK procedure [6.28](SDO_NET-reference.md)
+- DELETE_MODEL_STRUCTURE procedure [7.9](SDO_NFE-reference.md)
+- DELETE_MODEL_WORKSPACE procedure [7.10](SDO_NFE-reference.md)
+- DELETE_NODE procedure [6.29](SDO_NET-reference.md)
+- DELETE_PATH procedure [6.30](SDO_NET-reference.md)
+- DELETE_PHANTOM_FEATURES procedure [6.31](SDO_NET-reference.md)
+- DELETE_SUBPATH procedure [6.32](SDO_NET-reference.md)
+- DELETE_TOPO_GEOMETRY_LAYER procedure [3.3](SDO_TOPO-reference.md)
+- demo files
+  - Network Data Model Graph [5.16](network-data-model-graph-overview.md)
+- DEREGISTER_CONSTRAINT procedure [6.33](SDO_NET-reference.md)
+- directed links [5.3](network-data-model-graph-overview.md)
+- directed networks [5.3](network-data-model-graph-overview.md)
+- direction of edge [1.2](topology-data-model-overview.md)
+- DROP_MODEL_SEQUENCE procedure [7.11](SDO_NFE-reference.md)
+- DROP_MODEL_UNDERLYING_NETWORK procedure [7.12](SDO_NFE-reference.md)
+- DROP_NETWORK procedure [6.35](SDO_NET-reference.md)
+- DROP_TOPO_MAP procedure [4.15](SDO_TOPO_MAP-reference.md)
+- DROP_TOPOLOGY procedure [3.4](SDO_TOPO-reference.md)
+- duration [5.3](network-data-model-graph-overview.md)
+  - LINK_DURATION_COLUMN column in network metadata views [5.12.1](network-data-model-graph-overview.md)
+  - NODE_DURATION_COLUMN column in network metadata views [5.12.1](network-data-model-graph-overview.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- edge index
+  - creating for TopoMap object [4.11](SDO_TOPO_MAP-reference.md)
+- edge information table [1.5.1](topology-data-model-overview.md)
+- edges
+  - adding [2.3.1](editing-topologies.md), [4.1](SDO_TOPO_MAP-reference.md)
+  - adding linear geometry [4.3](SDO_TOPO_MAP-reference.md)
+  - adding loop [4.4](SDO_TOPO_MAP-reference.md)
+  - changing coordinates [2.3.4](editing-topologies.md), [4.8](SDO_TOPO_MAP-reference.md)
+  - definition [1.2](topology-data-model-overview.md)
+  - direction [1.2](topology-data-model-overview.md)
+  - finding edges interacting with a query window [4.47](SDO_TOPO_MAP-reference.md)
+  - getting coordinates of shape points [4.19](SDO_TOPO_MAP-reference.md)
+  - getting ID numbers of added edges [4.17](SDO_TOPO_MAP-reference.md)
+  - getting ID numbers of changed edges [4.18](SDO_TOPO_MAP-reference.md)
+  - getting ID numbers of deleted edges [4.20](SDO_TOPO_MAP-reference.md)
+  - getting nearest edge for point [4.26](SDO_TOPO_MAP-reference.md)
+  - getting nearest edge in cache for point [4.27](SDO_TOPO_MAP-reference.md)
+  - getting nodes on [4.21](SDO_TOPO_MAP-reference.md)
+  - island [1.2](topology-data-model-overview.md)
+  - isolated [1.2](topology-data-model-overview.md)
+  - loop [1.2](topology-data-model-overview.md)
+  - moving [2.3.2](editing-topologies.md), [4.40](SDO_TOPO_MAP-reference.md)
+  - removing [2.3.3](editing-topologies.md), [4.43](SDO_TOPO_MAP-reference.md)
+  - storing information in edge information table [1.5.1](topology-data-model-overview.md)
+  - updating [2.3.4](editing-topologies.md)
+- edge sequences
+  - privileges needed for cross-schema topology editing [1.10.2](topology-data-model-overview.md)
+- error handling
+  - topology editing [2.1.6](editing-topologies.md)
+- examples
+  - Network Data Model Graph [5.15](network-data-model-graph-overview.md), [5.16](network-data-model-graph-overview.md)
+  - Topology Data Model (PL/SQL) [1.12](topology-data-model-overview.md)
+- exception handling
+  - topology editing [2.1.6](editing-topologies.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- F0 (face zero, or universe face) [1.2](topology-data-model-overview.md)
+- face index
+  - creating for TopoMap object [4.12](SDO_TOPO_MAP-reference.md)
+- face information table [1.5.3](topology-data-model-overview.md)
+- faces
+  - adding polygon geometry [4.7](SDO_TOPO_MAP-reference.md)
+  - definition [1.2](topology-data-model-overview.md)
+  - finding faces interacting with a query window [4.48](SDO_TOPO_MAP-reference.md)
+  - getting boundary [4.24](SDO_TOPO_MAP-reference.md)
+  - getting boundary of [3.5](SDO_TOPO-reference.md)
+  - getting containing face for point [4.16](SDO_TOPO_MAP-reference.md)
+  - getting ID numbers of added faces [4.22](SDO_TOPO_MAP-reference.md)
+  - getting ID numbers of changed faces [4.23](SDO_TOPO_MAP-reference.md)
+  - getting ID numbers of deleted faces [4.25](SDO_TOPO_MAP-reference.md)
+  - redefining [2.3.3](editing-topologies.md)
+  - storing information in face information table [1.5.3](topology-data-model-overview.md)
+- face sequences
+  - privileges needed for cross-schema topology editing [1.10.2](topology-data-model-overview.md)
+- FEATURE_LAYER procedure [6.34](SDO_NET-reference.md)
+- feature class attributes constraints table
+  - definition [5.11.3.5](network-data-model-graph-overview.md)
+- feature class default predefined connected points table
+  - definition [5.11.3.6](network-data-model-graph-overview.md)
+- feature class relationship table
+  - definition [5.11.3.7](network-data-model-graph-overview.md)
+- feature class table
+  - definition [5.11.3.4](network-data-model-graph-overview.md)
+- feature element relationships table
+  - definition [5.11.2.2](network-data-model-graph-overview.md)
+- feature elements [5.3.2](network-data-model-graph-overview.md)
+  - definition [5.3.2](network-data-model-graph-overview.md)
+- feature hierarchy table
+  - definition [5.11.2.3](network-data-model-graph-overview.md)
+- feature layers [5.3.2](network-data-model-graph-overview.md)
+- feature layer types [5.3.2](network-data-model-graph-overview.md)
+- feature rule relationship table
+  - definition [5.11.3.8](network-data-model-graph-overview.md)
+- features
+  - creating from geometries [4.13](SDO_TOPO_MAP-reference.md)
+  - in network application [5.3](network-data-model-graph-overview.md)
+  - in network applications [5.3.2](network-data-model-graph-overview.md)
+- feature table [1.3](topology-data-model-overview.md)
+  - definition [5.11.2.1](network-data-model-graph-overview.md)
+- feature types [5.3.2](network-data-model-graph-overview.md)
+- feature user data catalog table
+  - definition [5.11.3.10](network-data-model-graph-overview.md)
+- feature user data catalog values table
+  - definition [5.11.3.11](network-data-model-graph-overview.md)
+- feature user data table
+  - definition [5.11.3.9](network-data-model-graph-overview.md)
+- FIND_CONNECTED_COMPONENTS procedure [6.36](SDO_NET-reference.md)
+- function-based indexes
+  - not supported on SDO_TOPO_GEOMETRY columns [1.11](topology-data-model-overview.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- GENERATE_NODE_LEVELS procedure [6.37](SDO_NET-reference.md)
+- GENERATE_PARTITION_BLOB procedure [6.38](SDO_NET-reference.md)
+- GENERATE_PARTITION_BLOBS procedure [6.39](SDO_NET-reference.md)
+- geometry
+  - computing for a path [6.7](SDO_NET-reference.md)
+- GET_CHILD_FEATURE_IDS function [6.40](SDO_NET-reference.md)
+- GET_CHILD_LINKS function [6.41](SDO_NET-reference.md)
+- GET_CHILD_NODES function [6.42](SDO_NET-reference.md)
+- GET_CONNECTION_POINT_GEOM function [7.13](SDO_NFE-reference.md)
+- GET_CONTAINING_FACE function [4.16](SDO_TOPO_MAP-reference.md)
+- GET_DANGLING_FEATURES function
+  - SDO_NET package
+    - GET_DANGLING_FEATURES [6.43](SDO_NET-reference.md)
+- GET_DANGLING_LINKS function [6.44](SDO_NET-reference.md)
+- GET_DANGLING_NODES function [6.45](SDO_NET-reference.md)
+- GET_EDGE_ADDITIONS function [4.17](SDO_TOPO_MAP-reference.md)
+- GET_EDGE_CHANGES function [4.18](SDO_TOPO_MAP-reference.md)
+- GET_EDGE_COORDS function [4.19](SDO_TOPO_MAP-reference.md)
+- GET_EDGE_DELETIONS function [4.20](SDO_TOPO_MAP-reference.md)
+- GET_EDGE_NODES function [4.21](SDO_TOPO_MAP-reference.md)
+- GET_FACE_ADDITIONS function [4.22](SDO_TOPO_MAP-reference.md)
+- GET_FACE_BOUNDARY function [3.5](SDO_TOPO-reference.md), [4.24](SDO_TOPO_MAP-reference.md)
+- GET_FACE_CHANGES function [4.23](SDO_TOPO_MAP-reference.md)
+- GET_FACE_DELETIONS function [4.25](SDO_TOPO_MAP-reference.md)
+- GET_FEATURE_ELEMENTS function [6.46](SDO_NET-reference.md)
+- GET_FEATURE_LAYER_ID function [6.47](SDO_NET-reference.md)
+- GET_FEATURES_ON_LINKS function
+  - SDO_NET package
+    - GET_FEATURES_ON_LINKS [6.48](SDO_NET-reference.md)
+- GET_FEATURES_ON_NODES function
+  - SDO_NET package
+    - GET_FEATURES_ON_NODES [6.49](SDO_NET-reference.md)
+- GET_GEOMETRY_TYPE function [6.50](SDO_NET-reference.md)
+- GET_GEOMETRY member function [1.6.3](topology-data-model-overview.md)
+- GET_IN_LINKS function [6.51](SDO_NET-reference.md)
+- GET_INTERACTION_GROUPS function [7.14](SDO_NFE-reference.md)
+- GET_INVALID_LINKS function [6.52](SDO_NET-reference.md)
+- GET_INVALID_NODES function [6.53](SDO_NET-reference.md)
+- GET_INVALID_PATHS function [6.54](SDO_NET-reference.md)
+- GET_ISOLATED_NODES function [6.55](SDO_NET-reference.md)
+- GET_LINES_MATCH_LP_RULE function [7.15](SDO_NFE-reference.md)
+- GET_LINK_COST_COLUMN function [6.56](SDO_NET-reference.md)
+- GET_LINK_DIRECTION function [6.57](SDO_NET-reference.md)
+- GET_LINK_GEOM_COLUMN function [6.58](SDO_NET-reference.md)
+- GET_LINK_GEOMETRY function [6.59](SDO_NET-reference.md)
+- GET_LINK_TABLE_NAME function [6.60](SDO_NET-reference.md)
+- GET_LINKS_IN_PATH function [6.61](SDO_NET-reference.md)
+- GET_LL_CONN_INTERSECTIONS function [7.16](SDO_NFE-reference.md)
+- GET_LP_CONN_INTERSECTIONS function [7.17](SDO_NFE-reference.md)
+- GET_LRS_GEOM_COLUMN function [6.62](SDO_NET-reference.md)
+- GET_LRS_LINK_GEOMETRY function [6.63](SDO_NET-reference.md)
+- GET_LRS_NODE_GEOMETRY function [6.64](SDO_NET-reference.md)
+- GET_LRS_TABLE_NAME function [6.65](SDO_NET-reference.md)
+- GET_MODEL_SEQUENCE_NAME function [7.18](SDO_NFE-reference.md)
+- GET_MODEL_TABLE_NAME function [7.19](SDO_NFE-reference.md)
+- GET_MODEL_UNDERLYING_NETWORK function [7.20](SDO_NFE-reference.md)
+- GET_NEAREST_EDGE_IN_CACHE function [4.27](SDO_TOPO_MAP-reference.md)
+- GET_NEAREST_EDGE function [4.26](SDO_TOPO_MAP-reference.md)
+- GET_NEAREST_NODE_IN_CACHE function [4.29](SDO_TOPO_MAP-reference.md)
+- GET_NEAREST_NODE function [4.28](SDO_TOPO_MAP-reference.md)
+- GET_NETWORK_TYPE function [6.66](SDO_NET-reference.md)
+- GET_NEXT_SEQUENCE_VALUE function [7.21](SDO_NFE-reference.md)
+- GET_NO_OF_HIERARCHY_LEVELS function [6.67](SDO_NET-reference.md)
+- GET_NO_OF_LINKS function [6.68](SDO_NET-reference.md)
+- GET_NO_OF_NODES function [6.69](SDO_NET-reference.md)
+- GET_NODE_ADDITIONS function [4.30](SDO_TOPO_MAP-reference.md)
+- GET_NODE_CHANGES function [4.31](SDO_TOPO_MAP-reference.md)
+- GET_NODE_COORD function [4.32](SDO_TOPO_MAP-reference.md)
+- GET_NODE_DEGREE function [6.70](SDO_NET-reference.md)
+- GET_NODE_DELETIONS function [4.33](SDO_TOPO_MAP-reference.md)
+- GET_NODE_FACE_STAR function [4.34](SDO_TOPO_MAP-reference.md)
+- GET_NODE_GEOM_COLUMN function [6.71](SDO_NET-reference.md)
+- GET_NODE_GEOMETRY function [6.72](SDO_NET-reference.md)
+- GET_NODE_IN_DEGREE function [6.73](SDO_NET-reference.md)
+- GET_NODE_OUT_DEGREE function [6.74](SDO_NET-reference.md)
+- GET_NODE_STAR function [4.35](SDO_TOPO_MAP-reference.md)
+- GET_NODE_TABLE_NAME function [6.75](SDO_NET-reference.md)
+- GET_OUT_LINKS function [6.76](SDO_NET-reference.md)
+- GET_PARENT_FEATURE_IDS function [6.77](SDO_NET-reference.md)
+- GET_PARTITION_SIZE function [6.78](SDO_NET-reference.md)
+- GET_PATH_GEOM_COLUMN function [6.79](SDO_NET-reference.md)
+- GET_PATH_TABLE_NAME function [6.80](SDO_NET-reference.md)
+- GET_PERCENTAGE function [6.81](SDO_NET-reference.md)
+- GET_PHANTOM_FEATURES function [6.82](SDO_NET-reference.md)
+- GET_POINTS_MATCH_LP_RULE function [7.22](SDO_NFE-reference.md)
+- GET_PT function [6.83](SDO_NET-reference.md)
+- GET_TGL_OBJECTS member function [1.6.4](topology-data-model-overview.md)
+- GET_TOPO_ELEMENTS member function [1.6.5](topology-data-model-overview.md)
+- GET_TOPO_NAME function [4.36](SDO_TOPO_MAP-reference.md)
+- GET_TOPO_OBJECTS function [3.6](SDO_TOPO-reference.md)
+- GET_TOPO_TRANSACTION_ID function [4.37](SDO_TOPO_MAP-reference.md)
+
+------------------------------------------------------------------------
+
+## H
+
+- heap size
+  - Java [4.49](SDO_TOPO_MAP-reference.md)
+- heap size (Java)
+  - setting maximum [6.98](SDO_NET-reference.md)
+- hierarchy
+  - network [5.5](network-data-model-graph-overview.md)
+  - topology geometry layer [1.4](topology-data-model-overview.md)
+- history information table [1.5.5](topology-data-model-overview.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- IMPORT_NETWORK procedure [7.23](SDO_NFE-reference.md)
+- inbound links [5.3](network-data-model-graph-overview.md)
+  - getting link ID numbers [6.51](SDO_NET-reference.md)
+  - getting number of for node [6.73](SDO_NET-reference.md)
+- in-degree [5.3](network-data-model-graph-overview.md)
+- INITIALIZE_AFTER_IMPORT procedure [3.7](SDO_TOPO-reference.md)
+- INITIALIZE_METADATA procedure [3.8](SDO_TOPO-reference.md)
+- invalid links
+  - getting [6.52](SDO_NET-reference.md)
+- invalid nodes
+  - getting [6.53](SDO_NET-reference.md)
+- invalid paths
+  - getting [6.54](SDO_NET-reference.md)
+- IS_HIERARCHICAL function [6.84](SDO_NET-reference.md)
+- IS_LINK_IN_PATH function [6.85](SDO_NET-reference.md)
+- IS_LOGICAL function [6.86](SDO_NET-reference.md)
+- IS_NODE_IN_PATH function [6.87](SDO_NET-reference.md)
+- IS_SPATIAL function [6.88](SDO_NET-reference.md)
+- island edge
+  - See: isolated edge
+- island node
+  - See: isolated nodes (topology)
+- isolated edge [1.2](topology-data-model-overview.md)
+- isolated nodes (network)
+  - definition of [5.3](network-data-model-graph-overview.md)
+  - getting [6.55](SDO_NET-reference.md)
+- isolated nodes (topology)
+  - adding [4.2](SDO_TOPO_MAP-reference.md)
+  - definition of [1.2](topology-data-model-overview.md)
+
+------------------------------------------------------------------------
+
+## J
+
+- Java client interface for Network Data Model Graph (sdonm) [5.13.2](network-data-model-graph-overview.md)
+- Java client interface for Topology Data Model (sdotopo) [1.8.2](topology-data-model-overview.md)
+- Java heap size
+  - setting maximum [6.98](SDO_NET-reference.md)
+- Java maximum heap size
+  - setting [4.49](SDO_TOPO_MAP-reference.md)
+
+------------------------------------------------------------------------
+
+## L
+
+- layer
+  - collection [1.3.2](topology-data-model-overview.md)
+  - topology geometry [1.3](topology-data-model-overview.md), [3.1](SDO_TOPO-reference.md)
+- linear geometries
+  - adding [4.3](SDO_TOPO_MAP-reference.md)
+- link direction
+  - getting [6.57](SDO_NET-reference.md)
+- link geometry
+  - getting [6.59](SDO_NET-reference.md)
+- link levels [5.10.5](network-data-model-graph-overview.md)
+- links [5.3](network-data-model-graph-overview.md)
+  - See also: undirected links, inbound links, outbound links
+
+  <!-- -->
+
+  - definition [5.3](network-data-model-graph-overview.md)
+  - deleting [6.28](SDO_NET-reference.md)
+  - determining if directed [6.57](SDO_NET-reference.md)
+  - directed [5.3](network-data-model-graph-overview.md)
+  - direction [5.3](network-data-model-graph-overview.md)
+  - getting geometry for [6.59](SDO_NET-reference.md)
+  - getting percentage of point on link [6.81](SDO_NET-reference.md)
+  - invalid [6.52](SDO_NET-reference.md)
+  - relationship to paths [5.3](network-data-model-graph-overview.md)
+  - state of [5.3](network-data-model-graph-overview.md)
+  - temporary [5.3](network-data-model-graph-overview.md)
+  - undirected [5.3](network-data-model-graph-overview.md)
+- link table
+  - definition [5.11.1.2](network-data-model-graph-overview.md)
+- LIST_TOPO_MAPS function [4.38](SDO_TOPO_MAP-reference.md)
+- LOAD_CONFIG procedure [6.89](SDO_NET-reference.md)
+- LOAD_TOPO_MAP function or procedure [4.39](SDO_TOPO_MAP-reference.md)
+- load on demand
+  - using for editing and analysis, network editing
+    - using partitioning and load on demand [5.10](network-data-model-graph-overview.md)
+- load on demand analysis [5.3](network-data-model-graph-overview.md)
+- logging level
+  - setting for network operations [6.97](SDO_NET-reference.md)
+- LOGICAL_PARTITION procedure [6.90](SDO_NET-reference.md)
+- LOGICAL_POWERLAW_PARTITION procedure [6.91](SDO_NET-reference.md)
+- logical network [5.3](network-data-model-graph-overview.md)
+- loop edge [1.2](topology-data-model-overview.md)
+- loops
+  - adding [4.4](SDO_TOPO_MAP-reference.md)
+- LRS_GEOMETRY_NETWORK function [6.92](SDO_NET-reference.md)
+- LRS network [5.3](network-data-model-graph-overview.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- metadata
+  - initializing for a topology [3.8](SDO_TOPO-reference.md)
+- minimum cost path [5.3](network-data-model-graph-overview.md)
+- minimum cost spanning tree [5.3](network-data-model-graph-overview.md)
+- MOVE_EDGE procedure [4.40](SDO_TOPO_MAP-reference.md)
+- MOVE_ISOLATED_NODE procedure [4.41](SDO_TOPO_MAP-reference.md)
+- MOVE_NODE procedure [4.42](SDO_TOPO_MAP-reference.md)
+- multilevel networks [5.5](network-data-model-graph-overview.md)
+- multimodal networks [5.4.3](network-data-model-graph-overview.md)
+
+------------------------------------------------------------------------
+
+## N
+
+- naming considerations
+  - spatial table and column names [1.5](topology-data-model-overview.md), [5.11](network-data-model-graph-overview.md)
+- nearest edge
+  - getting for point [4.26](SDO_TOPO_MAP-reference.md)
+  - getting in cache for point [4.27](SDO_TOPO_MAP-reference.md)
+- nearest node
+  - getting for point [4.28](SDO_TOPO_MAP-reference.md)
+  - getting in cache for point [4.29](SDO_TOPO_MAP-reference.md)
+- NETWORK_EXISTS function [6.93](SDO_NET-reference.md)
+- network analysis
+  - using the load on demand approach [5.10](network-data-model-graph-overview.md)
+- network constraints [5.9](network-data-model-graph-overview.md)
+  - ALL_SDO_NETWORK_CONSTRAINTS view [5.12.2](network-data-model-graph-overview.md)
+  - deregistering [6.33](SDO_NET-reference.md)
+  - registering [6.95](SDO_NET-reference.md)
+  - USER_SDO_NETWORK_CONSTRAINTS view [5.12.2](network-data-model-graph-overview.md)
+- Network Data Model Graph
+  - application programming interface (API) [5.13](network-data-model-graph-overview.md)
+    - performance [5.13](network-data-model-graph-overview.md)
+  - concepts [5.3](network-data-model-graph-overview.md)
+  - examples [5.15](network-data-model-graph-overview.md)
+  - network feature editor subprogram reference information [7](SDO_NFE-reference.md)
+  - overview [5](network-data-model-graph-overview.md)
+  - steps for using [5.2](network-data-model-graph-overview.md)
+  - subprogram reference information [6](SDO_NET-reference.md)
+  - tables for [5.11](network-data-model-graph-overview.md)
+- network elements
+  - definition [5.3](network-data-model-graph-overview.md)
+- networks
+  - directed [5.3](network-data-model-graph-overview.md)
+  - hierarchical [5.5](network-data-model-graph-overview.md)
+  - logical [5.3](network-data-model-graph-overview.md)
+  - partitioned [5.3](network-data-model-graph-overview.md)
+  - spatial [5.3](network-data-model-graph-overview.md)
+  - undirected [5.3](network-data-model-graph-overview.md)
+- node face star
+  - getting for node [4.34](SDO_TOPO_MAP-reference.md)
+- node geometry
+  - getting [6.72](SDO_NET-reference.md)
+- node hierarchy table
+  - definition [5.11.1.9](network-data-model-graph-overview.md)
+- node information table [1.5.2](topology-data-model-overview.md)
+- node level table
+  - definition [5.11.1.10](network-data-model-graph-overview.md)
+- nodes
+  - adding [2.2.1](editing-topologies.md), [4.5](SDO_TOPO_MAP-reference.md)
+  - adding isolated (topology) [4.2](SDO_TOPO_MAP-reference.md)
+  - adding point geometry [4.6](SDO_TOPO_MAP-reference.md)
+  - definition [1.2](topology-data-model-overview.md), [5.3](network-data-model-graph-overview.md)
+  - degree [5.3](network-data-model-graph-overview.md)
+  - deleting [6.29](SDO_NET-reference.md)
+  - generating node levels for multilevel network [6.37](SDO_NET-reference.md)
+  - getting coordinates of [4.32](SDO_TOPO_MAP-reference.md)
+  - getting geometry [6.72](SDO_NET-reference.md)
+  - getting ID numbers of added nodes [4.30](SDO_TOPO_MAP-reference.md)
+  - getting ID numbers of changed nodes [4.31](SDO_TOPO_MAP-reference.md)
+  - getting ID numbers of deleted nodes [4.33](SDO_TOPO_MAP-reference.md)
+  - getting nearest node for point [4.28](SDO_TOPO_MAP-reference.md)
+  - getting nearest node in cache for point [4.29](SDO_TOPO_MAP-reference.md)
+  - getting node face star [4.34](SDO_TOPO_MAP-reference.md)
+  - getting node star [4.35](SDO_TOPO_MAP-reference.md)
+  - getting number of [6.69](SDO_NET-reference.md)
+  - invalid [6.53](SDO_NET-reference.md)
+  - island [1.2](topology-data-model-overview.md)
+  - isolated (network) [5.3](network-data-model-graph-overview.md), [6.55](SDO_NET-reference.md)
+  - isolated (topology) [1.2](topology-data-model-overview.md)
+  - moving [2.2.2](editing-topologies.md), [4.42](SDO_TOPO_MAP-reference.md)
+  - moving isolated nodes (topology) [4.41](SDO_TOPO_MAP-reference.md)
+  - obsolete [2.2.4](editing-topologies.md), [4.45](SDO_TOPO_MAP-reference.md)
+  - reachable [5.3](network-data-model-graph-overview.md)
+  - reaching [5.3](network-data-model-graph-overview.md)
+  - removing [2.2.3](editing-topologies.md), [4.44](SDO_TOPO_MAP-reference.md)
+  - removing obsolete [2.2.4](editing-topologies.md), [4.45](SDO_TOPO_MAP-reference.md)
+  - state of [5.3](network-data-model-graph-overview.md)
+  - storing information in node information table [1.5.2](topology-data-model-overview.md)
+  - temporary [5.3](network-data-model-graph-overview.md)
+- node sequences
+  - privileges needed for cross-schema topology editing [1.10.2](topology-data-model-overview.md)
+- node star
+  - getting for node [4.35](SDO_TOPO_MAP-reference.md)
+- node table
+  - definition [5.11.1.1](network-data-model-graph-overview.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- obsolete nodes
+  - removing [2.2.4](editing-topologies.md), [4.45](SDO_TOPO_MAP-reference.md)
+- operators
+  - Topology Data Model [1.8.1](topology-data-model-overview.md)
+- outbound links [5.3](network-data-model-graph-overview.md)
+  - getting link ID numbers [6.76](SDO_NET-reference.md)
+  - getting number of for node [6.74](SDO_NET-reference.md)
+- out-degree [5.3](network-data-model-graph-overview.md)
+- OutOfMemoryError exception
+  - raising maximum heap size [4.49](SDO_TOPO_MAP-reference.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- parent feature
+  - definition [5.3.2](network-data-model-graph-overview.md)
+- parent layer [1.4](topology-data-model-overview.md)
+- parent node [5.5](network-data-model-graph-overview.md)
+- partition BLOB
+  - generating [6.38](SDO_NET-reference.md)
+- partition BLOBs [5.3](network-data-model-graph-overview.md)
+  - generating [6.39](SDO_NET-reference.md)
+  - generating and loading from [5.10.2](network-data-model-graph-overview.md)
+- partition cache [5.3](network-data-model-graph-overview.md), [5.10.3](network-data-model-graph-overview.md)
+  - loading configuration [6.89](SDO_NET-reference.md)
+- partitioned network [5.3](network-data-model-graph-overview.md)
+- partitions
+  - caching [5.10.3](network-data-model-graph-overview.md)
+  - partitioning a network [6.90](SDO_NET-reference.md), [6.99](SDO_NET-reference.md), [6.91](SDO_NET-reference.md)
+  - partition table [5.11.1.6](network-data-model-graph-overview.md), [5.11.1.7](network-data-model-graph-overview.md)
+  - resident [5.10.3](network-data-model-graph-overview.md)
+  - using for editing and analysis [5.10](network-data-model-graph-overview.md)
+- partition size
+  - getting [6.78](SDO_NET-reference.md)
+- partition table
+  - definition [5.11.1.6](network-data-model-graph-overview.md), [5.11.1.7](network-data-model-graph-overview.md)
+- path-link table
+  - definition [5.11.1.4](network-data-model-graph-overview.md)
+- paths
+  - complex [5.11.1.3](network-data-model-graph-overview.md)
+  - computing the geometry [6.7](SDO_NET-reference.md)
+  - definition [5.3](network-data-model-graph-overview.md)
+  - deleting [6.30](SDO_NET-reference.md)
+  - invalid [6.54](SDO_NET-reference.md)
+  - minimum cost [5.3](network-data-model-graph-overview.md)
+  - simple [5.11.1.3](network-data-model-graph-overview.md)
+  - subpaths [5.3.1](network-data-model-graph-overview.md)
+  - temporary [5.3](network-data-model-graph-overview.md)
+- path table
+  - definition [5.11.1.3](network-data-model-graph-overview.md)
+- performance
+  - Network Data Model Graph API [5.13](network-data-model-graph-overview.md)
+- phantom features
+  - deleting [6.31](SDO_NET-reference.md)
+  - getting [6.82](SDO_NET-reference.md)
+- PL/SQL examples
+  - Network Data Model Graph [5.15](network-data-model-graph-overview.md)
+- point cardinality rules table
+  - definition [5.11.3.12](network-data-model-graph-overview.md)
+- point geometries
+  - adding [4.6](SDO_TOPO_MAP-reference.md)
+- points
+  - getting point at percentage on link [6.83](SDO_NET-reference.md)
+- polygon geometries
+  - adding [4.7](SDO_TOPO_MAP-reference.md)
+- POST_XML function [6.94](SDO_NET-reference.md)
+- power law networks [6.91](SDO_NET-reference.md)
+- precomputed analysis results [5.10.6](network-data-model-graph-overview.md)
+- PREPARE_FOR_EXPORT procedure [3.9](SDO_TOPO-reference.md)
+- primitives
+  - See: topological elements
+
+------------------------------------------------------------------------
+
+## R
+
+- reachable nodes [5.3](network-data-model-graph-overview.md)
+- reaching nodes [5.3](network-data-model-graph-overview.md)
+- README file
+  - for Spatial and Graph and related features [5.17](network-data-model-graph-overview.md)
+- read-only TopoMap objects [2.1.1](editing-topologies.md)
+- reference path
+  - definition [5.3.1](network-data-model-graph-overview.md)
+- REGISTER_CONSTRAINT procedure [6.95](SDO_NET-reference.md)
+- RELATE function [3.10](SDO_TOPO-reference.md)
+- relationship information table [1.5.4](topology-data-model-overview.md)
+- REMOVE_EDGE procedure [4.43](SDO_TOPO_MAP-reference.md)
+- REMOVE_NODE procedure [4.44](SDO_TOPO_MAP-reference.md)
+- REMOVE_OBSOLETE_NODES procedure [4.45](SDO_TOPO_MAP-reference.md)
+- resident partitions [5.10.3](network-data-model-graph-overview.md)
+- ROLLBACK_TOPO_MAP procedure [4.46](SDO_TOPO_MAP-reference.md)
+- rule decision handlers table
+  - definition [5.11.3.13](network-data-model-graph-overview.md)
+- rule instance table
+  - definition [5.11.3.14](network-data-model-graph-overview.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- scale-free (power law) networks [6.91](SDO_NET-reference.md)
+- SDO_EDGE_ARRAY type [1.6.7](topology-data-model-overview.md)
+- SDO_GEOMETRY_NETWORK function [6.96](SDO_NET-reference.md)
+- SDO_INTERACT_LINE_FEAT_ARRAY data type [5.8.4](network-data-model-graph-overview.md)
+- SDO_INTERACT_POINT_FEAT_ARRAY data type [5.8.4](network-data-model-graph-overview.md)
+- SDO_INTERACT_POINT_FEAT data type [5.8.4](network-data-model-graph-overview.md)
+- SDO_INTERACTION_ARRAY data type [5.8.4](network-data-model-graph-overview.md)
+- SDO_INTERACTION data type [5.8.4](network-data-model-graph-overview.md)
+- SDO_LIST_TYPE type [1.6.6](topology-data-model-overview.md)
+- SDO_NET_FEAT_ELEM_ARRAY data type [5.7.1](network-data-model-graph-overview.md)
+- SDO_NET_FEAT_ELEM data type [5.7.1](network-data-model-graph-overview.md)
+- SDO_NET_LAYER_FEAT_ARRAY data type [5.7.1](network-data-model-graph-overview.md)
+- SDO_NET_LAYER_FEAT data type [5.7.1](network-data-model-graph-overview.md), [5.8.4](network-data-model-graph-overview.md)
+- SDO_NET package
+  - ADD_CHILD_FEATURE [6.1](SDO_NET-reference.md)
+  - ADD_CHILD_FEATURES [6.2](SDO_NET-reference.md)
+  - ADD_FEATURE [6.3](SDO_NET-reference.md)
+  - ADD_FEATURE_ELEMENT [6.4](SDO_NET-reference.md)
+  - ADD_FEATURE_ELEMENTS [6.5](SDO_NET-reference.md)
+  - ADD_FEATURE_LAYER [6.6](SDO_NET-reference.md)
+  - COMPUTE_PATH_GEOMETRY [6.7](SDO_NET-reference.md)
+  - COPY_NETWORK [6.8](SDO_NET-reference.md)
+  - CREATE_LINK_TABLE [6.9](SDO_NET-reference.md)
+  - CREATE_LOGICAL_NETWORK [6.10](SDO_NET-reference.md)
+  - CREATE_LRS_NETWORK [6.11](SDO_NET-reference.md)
+  - CREATE_LRS_TABLE [6.12](SDO_NET-reference.md)
+  - CREATE_NODE_TABLE [6.13](SDO_NET-reference.md)
+  - CREATE_PARTITION_TABLE [6.14](SDO_NET-reference.md)
+  - CREATE_PATH_LINK_TABLE [6.15](SDO_NET-reference.md)
+  - CREATE_PATH_TABLE [6.16](SDO_NET-reference.md)
+  - CREATE_SDO_NETWORK [6.17](SDO_NET-reference.md)
+  - CREATE_SUBPATH_TABLE [6.18](SDO_NET-reference.md)
+  - CREATE_TOPO_NETWORK [6.19](SDO_NET-reference.md)
+  - DELETE_CHILD_FEATURES [6.20](SDO_NET-reference.md)
+  - DELETE_CHILD_FEATURES_AT [6.21](SDO_NET-reference.md)
+  - DELETE_DANGLING_FEATURES [6.22](SDO_NET-reference.md)
+  - DELETE_DANGLING_LINKS [6.23](SDO_NET-reference.md)
+  - DELETE_DANGLING_NODES [6.24](SDO_NET-reference.md)
+  - DELETE_FEATURE_ELEMENTS [6.25](SDO_NET-reference.md)
+  - DELETE_FEATURE_ELEMENTS_AT [6.26](SDO_NET-reference.md)
+  - DELETE_FEATURES [6.27](SDO_NET-reference.md)
+  - DELETE_LINK [6.28](SDO_NET-reference.md)
+  - DELETE_NODE [6.29](SDO_NET-reference.md)
+  - DELETE_PATH [6.30](SDO_NET-reference.md)
+  - DELETE_PHANTOM_FEATURES [6.31](SDO_NET-reference.md)
+  - DELETE_SUBPATH [6.32](SDO_NET-reference.md)
+  - DEREGISTER_CONSTRAINT [6.33](SDO_NET-reference.md)
+  - DROP_NETWORK [6.35](SDO_NET-reference.md)
+  - FEATURE_LAYER [6.34](SDO_NET-reference.md)
+  - FIND_CONNECTED_COMPONENTS [6.36](SDO_NET-reference.md)
+  - GENERATE_NODE_LEVELS [6.37](SDO_NET-reference.md)
+  - GENERATE_PARTITION_BLOB [6.38](SDO_NET-reference.md)
+  - GENERATE_PARTITION_BLOBS [6.39](SDO_NET-reference.md)
+  - GET_CHILD_FEATURE_IDS [6.40](SDO_NET-reference.md)
+  - GET_CHILD_LINKS [6.41](SDO_NET-reference.md)
+  - GET_CHILD_NODES [6.42](SDO_NET-reference.md)
+  - GET_DANGLING_LINKS [6.44](SDO_NET-reference.md)
+  - GET_DANGLING_NODES [6.45](SDO_NET-reference.md)
+  - GET_FEATURE_ELEMENTS [6.46](SDO_NET-reference.md)
+  - GET_FEATURE_LAYER_ID [6.47](SDO_NET-reference.md)
+  - GET_GEOMETRY_TYPE [6.50](SDO_NET-reference.md)
+  - GET_IN_LINKS [6.51](SDO_NET-reference.md)
+  - GET_INVALID_LINKS [6.52](SDO_NET-reference.md)
+  - GET_INVALID_NODES [6.53](SDO_NET-reference.md)
+  - GET_INVALID_PATHS [6.54](SDO_NET-reference.md)
+  - GET_ISOLATED_NODES [6.55](SDO_NET-reference.md)
+  - GET_LINK_COST_COLUMN [6.56](SDO_NET-reference.md)
+  - GET_LINK_DIRECTION [6.57](SDO_NET-reference.md)
+  - GET_LINK_GEOM_COLUMN [6.58](SDO_NET-reference.md)
+  - GET_LINK_GEOMETRY [6.59](SDO_NET-reference.md)
+  - GET_LINK_TABLE_NAME [6.60](SDO_NET-reference.md)
+  - GET_LINKS_IN_PATH [6.61](SDO_NET-reference.md)
+  - GET_LRS_GEOM_COLUMN [6.62](SDO_NET-reference.md)
+  - GET_LRS_LINK_GEOMETRY [6.63](SDO_NET-reference.md)
+  - GET_LRS_NODE_GEOMETRY [6.64](SDO_NET-reference.md)
+  - GET_LRS_TABLE_NAME [6.65](SDO_NET-reference.md)
+  - GET_NETWORK_TYPE [6.66](SDO_NET-reference.md)
+  - GET_NO_OF_HIERARCHY_LEVELS [6.67](SDO_NET-reference.md)
+  - GET_NO_OF_LINKS [6.68](SDO_NET-reference.md)
+  - GET_NO_OF_NODES [6.69](SDO_NET-reference.md)
+  - GET_NODE_DEGREE [6.70](SDO_NET-reference.md)
+  - GET_NODE_GEOM_COLUMN [6.71](SDO_NET-reference.md)
+  - GET_NODE_GEOMETRY [6.72](SDO_NET-reference.md)
+  - GET_NODE_IN_DEGREE [6.73](SDO_NET-reference.md)
+  - GET_NODE_OUT_DEGREE [6.74](SDO_NET-reference.md)
+  - GET_NODE_TABLE_NAME [6.75](SDO_NET-reference.md)
+  - GET_OUT_LINKS [6.76](SDO_NET-reference.md)
+  - GET_PARENT_FEATURE_IDS [6.77](SDO_NET-reference.md)
+  - GET_PARTITION_SIZE [6.78](SDO_NET-reference.md)
+  - GET_PATH_GEOM_COLUMN [6.79](SDO_NET-reference.md)
+  - GET_PATH_TABLE_NAME [6.80](SDO_NET-reference.md)
+  - GET_PERCENTAGE [6.81](SDO_NET-reference.md)
+  - GET_PHANTOM_FEATURES [6.82](SDO_NET-reference.md)
+  - GET_PT [6.83](SDO_NET-reference.md)
+  - IS_HIERARCHICAL [6.84](SDO_NET-reference.md)
+  - IS_LINK_IN_PATH [6.85](SDO_NET-reference.md)
+  - IS_LOGICAL [6.86](SDO_NET-reference.md)
+  - IS_NODE_IN_PATH [6.87](SDO_NET-reference.md)
+  - IS_SPATIAL [6.88](SDO_NET-reference.md)
+  - LOAD_CONFIG [6.89](SDO_NET-reference.md)
+  - LOGICAL_PARTITION [6.90](SDO_NET-reference.md)
+  - LOGICAL_POWERLAW_PARTITION [6.91](SDO_NET-reference.md)
+  - LRS_GEOMETRY_NETWORK [6.92](SDO_NET-reference.md)
+  - NETWORK_EXISTS [6.93](SDO_NET-reference.md)
+  - POST_XML [6.94](SDO_NET-reference.md)
+  - reference information [6](SDO_NET-reference.md)
+  - REGISTER_CONSTRAINT [6.95](SDO_NET-reference.md)
+  - SDO_GEOMETRY_NETWORK [6.96](SDO_NET-reference.md)
+  - SET_LOGGING_LEVEL [6.97](SDO_NET-reference.md)
+  - SET_MAX_JAVA_HEAP_SIZE [6.98](SDO_NET-reference.md)
+  - SPATIAL_PARTITION [6.99](SDO_NET-reference.md)
+  - TOPO_GEOMETRY_NETWORK [6.100](SDO_NET-reference.md)
+  - UPDATE_FEATURE [6.101](SDO_NET-reference.md)
+  - UPDATE_FEATURE_ELEMENT [6.102](SDO_NET-reference.md)
+  - VALIDATE_LINK_SCHEMA [6.103](SDO_NET-reference.md)
+  - VALIDATE_LRS_SCHEMA [6.104](SDO_NET-reference.md)
+  - VALIDATE_NETWORK [6.105](SDO_NET-reference.md)
+  - VALIDATE_NODE_SCHEMA [6.106](SDO_NET-reference.md)
+  - VALIDATE_PARTITION_SCHEMA [6.107](SDO_NET-reference.md)
+  - VALIDATE_PATH_SCHEMA [6.108](SDO_NET-reference.md)
+  - VALIDATE_SUBPATH_SCHEMA [6.109](SDO_NET-reference.md)
+- SDO_NETWORK_NVP_TAB data type [5.7.1](network-data-model-graph-overview.md)
+- SDO_NETWORK_NVP data type [5.7.1](network-data-model-graph-overview.md)
+- SDO_NFE package
+  - APPLY_RULE [7.1](SDO_NFE-reference.md)
+  - CLASSIFY_LINES_BY_SIDE [7.2](SDO_NFE-reference.md)
+  - CREATE_MODEL_SEQUENCE [7.3](SDO_NFE-reference.md)
+  - CREATE_MODEL_STRUCTURE [7.4](SDO_NFE-reference.md)
+  - CREATE_MODEL_UNDERLYING_NET [7.5](SDO_NFE-reference.md)
+  - CREATE_MODEL_WORKSPACE [7.6](SDO_NFE-reference.md)
+  - DELETE_ALL_FT_LAYERS [7.7](SDO_NFE-reference.md)
+  - DELETE_ALL_WORKSPACES [7.8](SDO_NFE-reference.md)
+  - DELETE_MODEL_STRUCTURE [7.9](SDO_NFE-reference.md)
+  - DELETE_MODEL_WORKSPACE [7.10](SDO_NFE-reference.md)
+  - DROP_MODEL_SEQUENCE [7.11](SDO_NFE-reference.md)
+  - DROP_MODEL_UNDERLYING_NETWORK [7.12](SDO_NFE-reference.md)
+  - GET_CONNECTION_POINT_GEOM [7.13](SDO_NFE-reference.md)
+  - GET_INTERACTION_GROUPS [7.14](SDO_NFE-reference.md)
+  - GET_LINES_MATCH_LP_RULE [7.15](SDO_NFE-reference.md)
+  - GET_LL_CONN_INTERSECTIONS [7.16](SDO_NFE-reference.md)
+  - GET_LP_CONN_INTERSECTIONS [7.17](SDO_NFE-reference.md)
+  - GET_MODEL_SEQUENCE_NAME [7.18](SDO_NFE-reference.md)
+  - GET_MODEL_TABLE_NAME [7.19](SDO_NFE-reference.md)
+  - GET_MODEL_UNDERLYING_NETWORK [7.20](SDO_NFE-reference.md)
+  - GET_NEXT_SEQUENCE_VALUE [7.21](SDO_NFE-reference.md)
+  - GET_POINTS_MATCH_LP_RULE [7.22](SDO_NFE-reference.md)
+  - IMPORT_NETWORK [7.23](SDO_NFE-reference.md)
+  - reference information [7](SDO_NFE-reference.md)
+  - SET_MODEL_UNDERLYING_NETWORK [7.24](SDO_NFE-reference.md)
+- SDO_NUMBER_ARRAY type [1.6.7](topology-data-model-overview.md)
+- SDO_TGL_OBJECT_ARRAY type [1.6.2.2](topology-data-model-overview.md)
+- SDO_TGL_OBJECT type [1.6.2.2](topology-data-model-overview.md)
+- SDO_TOPO_GEOMETRY constructors [1.6.2](topology-data-model-overview.md)
+- SDO_TOPO_GEOMETRY member functions
+  - GET_GEOMETRY [1.6.3](topology-data-model-overview.md)
+  - GET_TGL_OBJECTS [1.6.4](topology-data-model-overview.md)
+  - GET_TOPO_ELEMENTS [1.6.5](topology-data-model-overview.md)
+- SDO_TOPO_GEOMETRY type [1.6.1](topology-data-model-overview.md)
+- SDO_TOPO_MAP package
+  - ADD_EDGE [4.1](SDO_TOPO_MAP-reference.md)
+  - ADD_ISOLATED_NODE [4.2](SDO_TOPO_MAP-reference.md)
+  - ADD_LINEAR_GEOMETRY [4.3](SDO_TOPO_MAP-reference.md)
+  - ADD_LOOP [4.4](SDO_TOPO_MAP-reference.md)
+  - ADD_NODE [4.5](SDO_TOPO_MAP-reference.md)
+  - ADD_POINT_GEOMETRY [4.6](SDO_TOPO_MAP-reference.md)
+  - ADD_POLYGON_GEOMETRY [4.7](SDO_TOPO_MAP-reference.md)
+  - CHANGE_EDGE_COORDS [4.8](SDO_TOPO_MAP-reference.md)
+  - CLEAR_TOPO_MAP [4.9](SDO_TOPO_MAP-reference.md)
+  - COMMIT_TOPO_MAP [4.10](SDO_TOPO_MAP-reference.md)
+  - CREATE_EDGE_INDEX [4.11](SDO_TOPO_MAP-reference.md)
+  - CREATE_FACE_INDEX [4.12](SDO_TOPO_MAP-reference.md)
+  - CREATE_FEATURE [4.13](SDO_TOPO_MAP-reference.md)
+  - CREATE_TOPO_MAP [4.14](SDO_TOPO_MAP-reference.md)
+  - DROP_TOPO_MAP [4.15](SDO_TOPO_MAP-reference.md)
+  - GET_CONTAINING_FACE [4.16](SDO_TOPO_MAP-reference.md)
+  - GET_EDGE_ADDITIONS [4.17](SDO_TOPO_MAP-reference.md)
+  - GET_EDGE_CHANGES [4.18](SDO_TOPO_MAP-reference.md)
+  - GET_EDGE_COORDS [4.19](SDO_TOPO_MAP-reference.md)
+  - GET_EDGE_DELETIONS [4.20](SDO_TOPO_MAP-reference.md)
+  - GET_EDGE_NODES [4.21](SDO_TOPO_MAP-reference.md)
+  - GET_FACE_ADDITIONS [4.22](SDO_TOPO_MAP-reference.md)
+  - GET_FACE_BOUNDARY [4.24](SDO_TOPO_MAP-reference.md)
+  - GET_FACE_CHANGES [4.23](SDO_TOPO_MAP-reference.md)
+  - GET_FACE_DELETIONS [4.25](SDO_TOPO_MAP-reference.md)
+  - GET_NEAREST_EDGE [4.26](SDO_TOPO_MAP-reference.md)
+  - GET_NEAREST_EDGE_IN_CACHE [4.27](SDO_TOPO_MAP-reference.md)
+  - GET_NEAREST_NODE [4.28](SDO_TOPO_MAP-reference.md)
+  - GET_NEAREST_NODE_IN_CACHE [4.29](SDO_TOPO_MAP-reference.md)
+  - GET_NODE_ADDITIONS [4.30](SDO_TOPO_MAP-reference.md)
+  - GET_NODE_CHANGES [4.31](SDO_TOPO_MAP-reference.md)
+  - GET_NODE_COORD [4.32](SDO_TOPO_MAP-reference.md)
+  - GET_NODE_DELETIONS [4.33](SDO_TOPO_MAP-reference.md)
+  - GET_NODE_FACE_STAR [4.34](SDO_TOPO_MAP-reference.md)
+  - GET_NODE_STAR [4.35](SDO_TOPO_MAP-reference.md)
+  - GET_TOPO_NAME [4.36](SDO_TOPO_MAP-reference.md)
+  - GET_TOPO_TRANSACTION_ID [4.37](SDO_TOPO_MAP-reference.md)
+  - LIST_TOPO_MAPS [4.38](SDO_TOPO_MAP-reference.md)
+  - LOAD_TOPO_MAP [4.39](SDO_TOPO_MAP-reference.md)
+  - MOVE_EDGE [4.40](SDO_TOPO_MAP-reference.md)
+  - MOVE_ISOLATED_NODE [4.41](SDO_TOPO_MAP-reference.md)
+  - MOVE_NODE [4.42](SDO_TOPO_MAP-reference.md)
+  - reference information [4](SDO_TOPO_MAP-reference.md)
+  - REMOVE_EDGE [4.43](SDO_TOPO_MAP-reference.md)
+  - REMOVE_NODE [4.44](SDO_TOPO_MAP-reference.md)
+  - REMOVE_OBSOLETE_NODES [4.45](SDO_TOPO_MAP-reference.md)
+  - ROLLBACK_TOPO_MAP [4.46](SDO_TOPO_MAP-reference.md)
+  - SEARCH_EDGE_RTREE_TOPO_MAP [4.47](SDO_TOPO_MAP-reference.md)
+  - SEARCH_FACE_RTREE_TOPO_MAP [4.48](SDO_TOPO_MAP-reference.md)
+  - SET_MAX_MEMORY_SIZE [4.49](SDO_TOPO_MAP-reference.md)
+  - UPDATE_TOPO_MAP [4.50](SDO_TOPO_MAP-reference.md)
+  - VALIDATE_TOPO_MAP [4.51](SDO_TOPO_MAP-reference.md)
+  - VALIDATE_TOPOLOGY [4.52](SDO_TOPO_MAP-reference.md)
+- SDO_TOPO_OBJECT_ARRAY type [1.6.2.1](topology-data-model-overview.md)
+- SDO_TOPO_OBJECT type [1.6.2.1](topology-data-model-overview.md)
+- SDO_TOPO package
+  - ADD_TOPO_GEOMETRY_LAYER [3.1](SDO_TOPO-reference.md)
+  - CREATE_TOPOLOGY [3.2](SDO_TOPO-reference.md)
+  - DELETE_TOPO_GEOMETRY_LAYER [3.3](SDO_TOPO-reference.md)
+  - DROP_TOPOLOGY [3.4](SDO_TOPO-reference.md)
+  - GET_FACE_BOUNDARY [3.5](SDO_TOPO-reference.md)
+  - GET_TOPO_OBJECTS [3.6](SDO_TOPO-reference.md)
+  - INITIALIZE_AFTER_IMPORT [3.7](SDO_TOPO-reference.md)
+  - INITIALIZE_METADATA [3.8](SDO_TOPO-reference.md)
+  - PREPARE_FOR_EXPORT [3.9](SDO_TOPO-reference.md)
+  - reference information [3](SDO_TOPO-reference.md)
+  - RELATE [3.10](SDO_TOPO-reference.md)
+- SDO network [5.3](network-data-model-graph-overview.md)
+- sdonm Java client interface [5.13.2](network-data-model-graph-overview.md)
+- sdotopo Java client interface [1.8.2](topology-data-model-overview.md)
+- SEARCH_EDGE_RTREE_TOPO_MAP function [4.47](SDO_TOPO_MAP-reference.md)
+- SEARCH_FACE_RTREE_TOPO_MAP function [4.48](SDO_TOPO_MAP-reference.md)
+- sequences
+  - node, edge, and face
+    - privileges needed for cross-schema topology editing [1.10.2](topology-data-model-overview.md)
+- SET_LOGGING_LEVEL procedure [6.97](SDO_NET-reference.md)
+- SET_MAX_JAVA_HEAP_SIZE procedure [6.98](SDO_NET-reference.md)
+- SET_MAX_MEMORY_SIZE procedure [4.49](SDO_TOPO_MAP-reference.md)
+- SET_MODEL_UNDERLYING_NETWORK function [7.24](SDO_NFE-reference.md)
+- sibling links [5.5](network-data-model-graph-overview.md)
+- sibling nodes [5.5](network-data-model-graph-overview.md)
+- simple path [5.11.1.3](network-data-model-graph-overview.md)
+- spanning tree [5.3](network-data-model-graph-overview.md)
+  - minimum cost [5.3](network-data-model-graph-overview.md)
+- SPATIAL_PARTITION procedure [6.99](SDO_NET-reference.md)
+- spatial network [5.3](network-data-model-graph-overview.md)
+- star
+  - node [4.35](SDO_TOPO_MAP-reference.md)
+  - node face [4.34](SDO_TOPO_MAP-reference.md)
+- state [5.3](network-data-model-graph-overview.md)
+- subpaths
+  - CREATE_SUBPATH_TABLE procedure [6.18](SDO_NET-reference.md)
+  - definition [5.3.1](network-data-model-graph-overview.md)
+  - deleting [6.32](SDO_NET-reference.md)
+  - subpath table [5.11.1.5](network-data-model-graph-overview.md)
+- subpath table
+  - definition [5.11.1.5](network-data-model-graph-overview.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- temporal modeling and analysis for networks [5.4.3](network-data-model-graph-overview.md)
+- temporary links [5.3](network-data-model-graph-overview.md)
+- temporary nodes [5.3](network-data-model-graph-overview.md)
+- temporary paths [5.3](network-data-model-graph-overview.md)
+- TG_ID attribute of SDO_TOPO_GEOMETRY type [1.6.1](topology-data-model-overview.md)
+- TG_LAYER_ID attribute of SDO_TOPO_GEOMETRY type [1.6.1](topology-data-model-overview.md)
+- TG_TYPE attribute of SDO_TOPO_GEOMETRY type [1.6.1](topology-data-model-overview.md)
+- tolerance
+  - in the Topology Data Model [1.2.1](topology-data-model-overview.md)
+- TOPO_GEOMETRY_NETWORK function [6.100](SDO_NET-reference.md)
+- topo_map parameter
+  - SDO_TOPO subprograms [2.1.3](editing-topologies.md)
+- topological elements
+  - definition (nodes, edges, faces) [1.3](topology-data-model-overview.md)
+- topology
+  - clearing map [4.9](SDO_TOPO_MAP-reference.md)
+  - committing map [4.10](SDO_TOPO_MAP-reference.md)
+  - creating [3.2](SDO_TOPO-reference.md)
+  - creating edge index [4.11](SDO_TOPO_MAP-reference.md)
+  - creating face index [4.12](SDO_TOPO_MAP-reference.md)
+  - creating map [4.14](SDO_TOPO_MAP-reference.md)
+  - deleting (dropping) [3.4](SDO_TOPO-reference.md)
+  - deleting (dropping) map [4.15](SDO_TOPO_MAP-reference.md)
+  - editing [2](editing-topologies.md)
+  - export information table format [1.9](topology-data-model-overview.md)
+  - exporting
+    - preparing for [3.9](SDO_TOPO-reference.md)
+  - getting name from TopoMap object [4.36](SDO_TOPO_MAP-reference.md)
+  - hierarchy of geometry layers [1.4](topology-data-model-overview.md)
+  - importing
+    - initializing after [3.7](SDO_TOPO-reference.md)
+  - initializing metadata [3.8](SDO_TOPO-reference.md)
+  - loading into TopoMap object [4.39](SDO_TOPO_MAP-reference.md)
+  - updating [4.50](SDO_TOPO_MAP-reference.md)
+  - validating [4.52](SDO_TOPO_MAP-reference.md)
+- TOPOLOGY_ID attribute of SDO_TOPO_GEOMETRY type [1.6.1](topology-data-model-overview.md)
+- Topology Data Model
+  - application programming interface (API) [1.8](topology-data-model-overview.md)
+  - concepts [1.2](topology-data-model-overview.md)
+  - overview [1](topology-data-model-overview.md)
+  - PL/SQL example [1.12](topology-data-model-overview.md)
+  - steps for using [1.1](topology-data-model-overview.md)
+  - subprogram reference information [3](SDO_TOPO-reference.md), [4](SDO_TOPO_MAP-reference.md)
+- topology data types [1.6](topology-data-model-overview.md)
+- topology export information table [1.9](topology-data-model-overview.md)
+- topology geometry
+  - definition [1.3](topology-data-model-overview.md)
+  - layer [1.3](topology-data-model-overview.md)
+- topology geometry layer
+  - adding [3.1](SDO_TOPO-reference.md)
+  - definition [1.3](topology-data-model-overview.md)
+  - deleting [3.3](SDO_TOPO-reference.md)
+  - hierarchical relationships in [1.4](topology-data-model-overview.md)
+- topology geometry network [5.3](network-data-model-graph-overview.md)
+- topology maps [2.1.1](editing-topologies.md)
+  - See also: TopoMap objects
+
+  <!-- -->
+
+  - listing [4.38](SDO_TOPO_MAP-reference.md)
+  - loading [4.39](SDO_TOPO_MAP-reference.md)
+  - rolling back [4.46](SDO_TOPO_MAP-reference.md)
+  - validating [4.51](SDO_TOPO_MAP-reference.md)
+- topology operators [1.8.1](topology-data-model-overview.md)
+- topology parameter
+  - SDO_TOPO subprograms [2.1.2](editing-topologies.md), [2.1.3](editing-topologies.md)
+- topology transaction ID
+  - getting [4.37](SDO_TOPO_MAP-reference.md)
+- TopoMap objects
+  - clearing [4.9](SDO_TOPO_MAP-reference.md)
+  - committing changes to the database [4.10](SDO_TOPO_MAP-reference.md)
+  - creating [4.14](SDO_TOPO_MAP-reference.md)
+  - creating edge index [4.11](SDO_TOPO_MAP-reference.md)
+  - creating face index [4.12](SDO_TOPO_MAP-reference.md)
+  - deleting (dropping) [4.15](SDO_TOPO_MAP-reference.md)
+  - description [2.1.1](editing-topologies.md)
+  - getting topology name [4.36](SDO_TOPO_MAP-reference.md)
+  - listing [4.38](SDO_TOPO_MAP-reference.md)
+  - loading [4.39](SDO_TOPO_MAP-reference.md)
+  - process for using to edit topologies [2.1.4](editing-topologies.md), [2.1.5](editing-topologies.md)
+  - read-only [2.1.1](editing-topologies.md)
+  - rolling back changes in [4.46](SDO_TOPO_MAP-reference.md)
+  - updatable [2.1.1](editing-topologies.md)
+  - validating [4.51](SDO_TOPO_MAP-reference.md)
+- type
+  - link or node type [5.3](network-data-model-graph-overview.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- undirected links [5.3](network-data-model-graph-overview.md)
+- undirected networks [5.3](network-data-model-graph-overview.md)
+- universe face (F0) [1.2](topology-data-model-overview.md)
+- updatable TopoMap objects [2.1.1](editing-topologies.md)
+- UPDATE_FEATURE_ELEMENT procedure [6.102](SDO_NET-reference.md)
+- UPDATE_FEATURE procedure [6.101](SDO_NET-reference.md)
+- UPDATE_TOPO_MAP procedure [4.50](SDO_TOPO_MAP-reference.md)
+- USER_SDO_NETWORK_CONSTRAINTS view [5.12.2](network-data-model-graph-overview.md)
+- USER_SDO_NETWORK_METADATA view [5.12.1](network-data-model-graph-overview.md)
+- USER_SDO_NETWORK_USER_DATA view [5.12.3](network-data-model-graph-overview.md), [5.12.4](network-data-model-graph-overview.md)
+- USER_SDO_NFE_MODEL_FTLAYER_REL view [5.12.5](network-data-model-graph-overview.md)
+- USER_SDO_NFE_MODEL_METADATA view [5.12.6](network-data-model-graph-overview.md)
+- USER_SDO_NFE_MODEL_WORKSPACE view [5.12.7](network-data-model-graph-overview.md)
+- USER_SDO_TOPO_INFO view [1.7.1](topology-data-model-overview.md)
+- USER_SDO_TOPO_METADATA view [1.7.2](topology-data-model-overview.md)
+- user-defined data [5.3](network-data-model-graph-overview.md)
+  - ALL_SDO_NETWORK_USER_DATA view [5.12.3](network-data-model-graph-overview.md), [5.12.4](network-data-model-graph-overview.md)
+  - USER_SDO_NETWORK_USER_DATA view [5.12.3](network-data-model-graph-overview.md), [5.12.4](network-data-model-graph-overview.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- VALIDATE_LINK_SCHEMA function [6.103](SDO_NET-reference.md)
+- VALIDATE_LRS_SCHEMA function [6.104](SDO_NET-reference.md)
+- VALIDATE_NETWORK function [6.105](SDO_NET-reference.md)
+- VALIDATE_NODE_SCHEMA function [6.106](SDO_NET-reference.md)
+- VALIDATE_PARTITION_SCHEMA function [6.107](SDO_NET-reference.md)
+- VALIDATE_PATH_SCHEMA function [6.108](SDO_NET-reference.md)
+- VALIDATE_SUBPATH_SCHEMA function [6.109](SDO_NET-reference.md)
+- VALIDATE_TOPO_MAP function [4.51](SDO_TOPO_MAP-reference.md)
+- VALIDATE_TOPOLOGY procedure [4.52](SDO_TOPO_MAP-reference.md)
+- vertex (node) [5.3](network-data-model-graph-overview.md)
+
+------------------------------------------------------------------------
+
+## X
+
+- XML interface for Network Data Model Graph [5.13.3](network-data-model-graph-overview.md)
