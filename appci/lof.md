@@ -1,0 +1,5 @@
+- [1-1        Relationship of Gateway and the Oracle Database](appc-gateway-introduction.md)
+- [1-2        Gateway Architecture](appc-gateway-introduction.md)
+- [6-1        SNA server definitions and VTAM](appc-gateway-config-sna-linux.md)
+- [7-1        Relationship Between SNA Profiles and Host VTAM Definitions](appc-gateway-config-sna-aix.md)
+- [8-1        Relationship Between SNAP-IX Definitions and Host VTAM Definitions](appc-gateway-config-sna-solaris.md)
