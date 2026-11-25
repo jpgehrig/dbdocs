@@ -1,0 +1,1252 @@
+Symbols  A  B  C  D  E  F  G  H  I  L  M  N  O  P  Q  R  S  T  U  V  W  X  
+
+------------------------------------------------------------------------
+
+## Symbols
+
+- .NET custom types [1](featUDTs.md)
+- .NET Framework datatype [1](featTypes.md)
+- .NET languages [1](intro001.md), [2](intro001.md)
+- .NET products and documentation [1](intro001.md)
+- .NET stored procedures and functions [1](extenBoth.md)
+- .NET Stream class [1](featLOBsupp.md)
+- .NET type accessors [1](featData.md)
+- .NET Types
+  - inference [1](featOraCommand.md)
+
+------------------------------------------------------------------------
+
+## A
+
+- abstract data types [1](featUDTs.md)
+- ADO [1](intro002.md)
+- ADO.NET [1](intro002.md), [2](featUDTs.md)
+- ADO.NET 1.x [1](InstallSystemRequirements.md)
+- ADO.NET 2.0 [1](InstallODP.md)
+  - base or DbCommon classes [1](featClasses.md)
+- ADO.NET 2.x [1](InstallSystemRequirements.md)
+- ADTs [1](featUDTs.md)
+- app.config file [1](featConnecting.md)
+- AppDomain [1](featConnecting.md)
+- application config [1](InstallConfig.md)
+- array bind
+  - OracleParameter [1](featOraCommand.md)
+- ArrayBindCount property [1](CommandArrayBindCount.md)
+- ArrayBindIndex property [1](ArrayBindIndex.md)
+- array binding [1](featOraCommand.md)
+- array bind operations [1](featOraCommand.md)
+  - ArrayBindCount [1](CommandArrayBindCount.md)
+  - ArrayBindIndex [1](ArrayBindIndex.md)
+  - ArrayBindSize [1](LogicalTransactionPublicPropertiesCommitted.md), [2](LogicalTransactionPublicPropertiesUserCallCompleted.md), [3](ParameterArrayBindSize.md)
+  - ArrayBindStatus [1](ParameterArrayBindStatus.md)
+  - error handling [1](featOraCommand.md)
+- ArrayBindSize property [1](featOraCommand.md), [2](featOraCommand.md), [3](ParameterArrayBindSize.md)
+- ArrayBindStatus property [1](featOraCommand.md), [2](featOraCommand.md), [3](ParameterArrayBindStatus.md)
+- ASP.NET [1](intro001.md)
+- assembly [1](intro003.md)
+  - ODP.NET [1](intro003.md)
+
+------------------------------------------------------------------------
+
+## B
+
+- batch processing [1](featOraCommand.md)
+- BatchUpdate
+  - Microsoft Hotfix [1](featOraCommand.md)
+- behavior of ExecuteScalar method for REF CURSOR [1](featRefCursor.md)
+- BFILE [1](featLOBsupp.md)
+- binding [1](featOraCommand.md)
+  - PL/SQL Associative Array [1](featOraCommand.md)
+- BLOB [1](featLOBsupp.md)
+- bulk copy constraints [1](featBulkCopy.md)
+- bulk copy feature [1](featBulkCopy.md)
+  - restrictions [1](featBulkCopy.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- C#, Visual Basic .NET, C++ .NET [1](intro001.md)
+- callback support [1](featConnecting.md)
+- case-sensitivity
+  - column name mapping [1](featXML.md)
+- change notification
+  - ODP.NET support [1](featChange.md)
+- change notification, Continuous Query Notification [1](Continuous-Query-Notification-Classes.md)
+- characters with special meaning
+  - in column data [1](featXML.md)
+  - in table or view [1](featXML.md)
+- characters with special meaning in XML [1](featXML.md)
+- client applications [1](intro001.md)
+- client globalization settings [1](featGlobal.md), [2](featGlobal.md)
+- client identifier [1](featConnecting.md)
+- CLOB [1](featLOBsupp.md)
+- close calls [1](InstallTips.md)
+- CLR [1](intro001.md)
+- CollectionType property [1](featOraCommand.md)
+- collection types [1](featUDTs.md)
+- column data
+  - special characters in [1](featXML.md)
+- CommandBehavior.SequentialAccess [1](featData.md)
+- CommittableTransaction [1](featOraCommand.md)
+- Committed property [1](LogicalTransactionPublicPropertiesCommitted.md)
+- commit transactions
+  - changes to XML data [1](featXML.md)
+- configuration settings
+  - UDTs [1](featUDTs.md)
+- connect descriptor [1](featConnecting.md)
+- connection dependency [1](featXML.md)
+- connection pool
+  - performance counters [1](featConnecting.md)
+- connection pooling [1](featConnecting.md)
+  - example [1](featConnecting.md)
+  - management [1](featConnecting.md)
+- ConnectionString attributes [1](featConnecting.md)
+  - Connection Lifetime [1](featConnecting.md), [2](featConnecting.md), [3](featConnecting.md)
+  - Connection Timeout [1](featConnecting.md), [2](featConnecting.md), [3](featConnecting.md)
+  - Data Source [1](featConnecting.md)
+  - DBA Privilege [1](featConnecting.md)
+  - Decr Pool Size [1](featConnecting.md), [2](featConnecting.md), [3](featConnecting.md)
+  - Enlist [1](featConnecting.md)
+  - HA Events [1](featConnecting.md), [2](featConnecting.md)
+  - Incr Pool Size [1](featConnecting.md), [2](featConnecting.md), [3](featConnecting.md)
+  - Load Balancing [1](featConnecting.md), [2](featConnecting.md)
+  - Max Pool Size [1](featConnecting.md), [2](featConnecting.md), [3](featConnecting.md)
+  - Metadata Pooling [1](featConnecting.md)
+  - Min Pool Size [1](featConnecting.md), [2](featConnecting.md), [3](featConnecting.md)
+  - Password [1](featConnecting.md)
+  - Persist Security Info [1](featConnecting.md)
+  - Pooling [1](featConnecting.md), [2](featConnecting.md), [3](featConnecting.md)
+  - Proxy Password [1](featConnecting.md), [2](featConnecting.md)
+  - Proxy User Id [1](featConnecting.md), [2](featConnecting.md)
+  - Statement Cache Purge [1](featConnecting.md)
+  - Statement Cache Size [1](featConnecting.md)
+  - User Id [1](featConnecting.md)
+  - Validate Connection [1](featConnecting.md), [2](featConnecting.md), [3](featConnecting.md)
+- ConnectionString property [1](featConnecting.md), [2](featConnecting.md), [3](ConnectionConnectionString.md)
+- Constraints property [1](featUnique.md)
+  - configuring [1](featUnique.md)
+- context connection [1](extenRest.md)
+- continuous query notification [1](InstallConfiguringPort.md), [2](featChange.md)
+  - ODP.NET support [1](featChange.md)
+- Continuous Query Notification [1](featChange.md)
+  - best practices [1](featChange.md)
+  - performance considerations [1](featChange.md)
+- controlling query reexecution [1](featRequery.md)
+- custom classes [1](featUDTs.md)
+- custom type factories [1](featUDTs.md)
+- custom type factory [1](featUDTs.md)
+- custom type implementations
+  - optional [1](featUDTs.md)
+- custom type mapping [1](featUDTs.md)
+- custom type mappings
+  - specifying [1](featUDTs.md)
+  - specifying with custom type factories [1](featUDTs.md)
+  - specifying with XML [1](featUDTs.md)
+  - using [1](featUDTs.md)
+- custom types
+  - converting to Oracle UDTS [1](featUDTs.md)
+  - requirements [1](featUDTs.md)
+- custom UDT classes [1](featUDTs.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- database
+  - changes to [1](featXML.md)
+- database notification
+  - port to listen [1](InstallConfiguringPort.md)
+- Data Guard [1](featRAC.md)
+- data loss [1](featSafeType.md)
+- data manipulation
+  - using XML [1](featXML.md)
+- DataSet [1](featLOBsupp.md)
+  - populating [1](featRefCursor.md)
+  - populating from a REF CURSOR [1](featRefCursor.md)
+  - populating with generic and custom objects [1](featUDTs.md)
+  - updating [1](featRefCursor.md)
+  - updating to database [1](featUnique.md)
+- data source attribute [1](featConnecting.md)
+- data source enumerators [1](featConnecting.md)
+- DataTable [1](featUnique.md)
+- Datatable properties [1](featUnique.md)
+- DBlinks [1](extenRest.md)
+- DbProviderFactories class [1](InstallODP.md), [2](installODPmd.md), [3](featClasses.md)
+- DbType
+  - inference [1](featOraCommand.md)
+- debug tracing [1](featDebug.md)
+- default mapping
+  - improving [1](featXML.md)
+- dependent unmanaged DLL mismatch [1](InstallODP.md)
+- direct path load [1](featBulkCopy.md)
+- dispose calls [1](InstallTips.md)
+- distributed transactions [1](featOraCommand.md)
+- documentation
+  - .NET [1](intro001.md)
+- Dynamic Enlistment [1](featConnecting.md)
+- dynamic help [1](intro001.md), [2](InstallODP.md), [3](installODPmd.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- Easy Connect naming method [1](featConnecting.md)
+- EDM type facets [1](entityEDMmapping.md)
+- EDM types [1](entityEDMmapping.md)
+  - and Oracle data types [1](entityEDMmapping.md)
+- end-to-end tracing [1](featConnecting.md)
+- EnlistDistributedTransaction method [1](featConnecting.md)
+- Entity Framework [1](entity_framework.md)
+- enumeration type
+  - OracleDbType [1](featOraCommand.md)
+- error handling [1](featOraCommand.md)
+- example
+  - connection pooling [1](featConnecting.md)
+- examples
+  - documentation
+    - readme file [1](InstallODP.md), [2](installODPmd.md)
+- ExecuteNonQuery method [1](featRefCursor.md)
+- ExecuteScalar method [1](featRefCursor.md)
+- explicit user connections [1](extensions.md)
+- EZCONNECT [1](featConnecting.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- failover [1](featConnecting.md)
+  - registering an event handler [1](featConnecting.md)
+- FailoverEvent Enumeration
+  - description [1](FailoverEventEnumeration.md)
+- FailoverReturnCode Enumeration
+  - description [1](FailoverReturnCodeEnumeration.md)
+- FailoverType Enumeration
+  - description [1](FailoverTypeEnumeration.md)
+- Fast Application Notification (FAN) [1](featRAC.md)
+- Fast Connection Failover (FCF) [1](featRAC.md)
+- FCF [1](featRAC.md)
+- features [1](features.md)
+- FetchSize property
+  - fine-tuning [1](featData.md)
+  - setting at design time [1](featData.md)
+  - setting at run time [1](featData.md)
+  - using [1](featData.md)
+- file locations [1](InstallODP.md), [2](installODPmd.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- garbage collection [1](InstallTips.md)
+- GDS [1](featRAC.md)
+- geographic data [1](featUDTs.md)
+- Global Assembly Cache (GAC) [1](InstallODP.md), [2](installODPmd.md)
+- Global Data Services [1](featRAC.md)
+- Global Data Services (GDS) [1](featRAC.md)
+- globalization-sensitive operations [1](featGlobal.md)
+- globalization settings [1](featGlobal.md), [2](featGlobal.md)
+  - client [1](featGlobal.md)
+  - session [1](featGlobal.md)
+  - thread-based [1](featGlobal.md)
+- globalization support [1](featGlobal.md)
+- GoldenGate [1](featRAC.md)
+- GUI access to ODP.NET [1](intro001.md)
+
+------------------------------------------------------------------------
+
+## H
+
+- HA events [1](InstallConfiguringPort.md)
+- HA Events [1](featConnecting.md)
+- handling date and time format
+  - manipulating data in XML [1](featXML.md)
+  - retrieving queries in XML [1](featXML.md)
+- high availability [1](featRAC.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- implicit database connection [1](extensions.md), [2](extenRest.md), [3](extenRest.md), [4](ConnectionConnectionTimeout.md)
+- implicit REF CURSOR [1](featImplRefCursor.md)
+  - bind and metadata [1](featImplRefCursor.md)
+  - bindinfo [1](featImplRefCursor.md)
+  - configuration [1](featImplRefCursor.md)
+  - examples [1](featImplRefCursor.md)
+  - usage [1](featImplRefCursor.md)
+- improving default mapping [1](featXML.md)
+- inference of DbType and OracleDbType from Value [1](featOraCommand.md)
+- inference of DbType from OracleDbType [1](featOraCommand.md)
+- inference of OracleDbType from DbType [1](featOraCommand.md)
+- inference of types [1](featOraCommand.md)
+- InitialLOBFetchSize property [1](featData.md)
+- InitialLONGFetchSize property [1](featData.md)
+- input binding
+  - XMLType column [1](featXML.md)
+- insert triggers [1](featBulkCopy.md)
+- installation [1](InstallODP.md), [2](installODPmd.md)
+  - Oracle Data Provider for .NET [1](InstallODP.md)
+  - Oracle Data Provider for .NET, Manager Provider [1](installODPmd.md)
+  - XCopy class [1](InstallODP.md), [2](installODPmd.md)
+- integrated help [1](InstallODP.md), [2](installODPmd.md)
+- interference in OracleParameter class [1](featOraCommand.md)
+- introduction, overview [1](intro002.md)
+- INullable Interface
+  - interface description [1](INullableInterface.md)
+  - interface members [1](INullableMembers.md)
+  - interface properties [1](INullableProperties.md)
+- invalidation message [1](featChange.md)
+  - ensuring persistency of [1](featChange.md)
+- IOracleArrayTypeFactory Interface
+  - interface description [1](IOracleArrayTypeFactoryInterface.md)
+  - interface members [1](IOracleArrayTypeFactoryMembers.md)
+  - interface methods [1](ArrayTypeFactoryInterfaceMethods.md)
+- IOracleCustomTypeFactory Interface
+  - interface description [1](IOracleCustomTypeFactoryInterface.md)
+  - interface members [1](IOracleCustomTypeFactoryMembers.md)
+  - interface methods [1](CustomTypeFactoryInterfaceMethods.md)
+- IOracleCustomType Interface
+  - interface description [1](IOracleCustomTypeInterface.md)
+  - interface members [1](IOracleCustomTypeMembers.md)
+  - interface methods [1](CustomTypeInterfaceMethods.md)
+
+------------------------------------------------------------------------
+
+## L
+
+- large binary datatypes [1](featLOBsupp.md)
+- large character datatypes [1](featLOBsupp.md)
+- limitations and restrictions [1](extenRest.md)
+- LINQ to Entities [1](entity_framework.md)
+- load balancing [1](InstallConfiguringPort.md)
+- Load Balancing [1](featConnecting.md)
+- LOBs
+  - temporary [1](featLOBsupp.md)
+  - updating [1](featLOBsupp.md), [2](featLOBsupp.md)
+- LOBs updating [1](featLOBsupp.md)
+- local transactions [1](featOraCommand.md)
+- location data [1](featUDTs.md)
+- logical transaction ID (LTXID) [1](featTG.md)
+- LONG and LONG RAW datatypes [1](featLOBsupp.md)
+- LTXID [1](featTG.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- machine.config [1](InstallConfig.md)
+- machine.config file [1](InstallODP.md), [2](installODPmd.md)
+- metadata [1](featUnique.md)
+- method invocation
+  - UDT [1](featUDTs.md)
+- Microsoft .NET Framework [1](InstallSystemRequirements.md)
+- Microsoft .NET Framework Class Library [1](intro002.md)
+- Microsoft Common Language Runtime (CLR) [1](intro001.md)
+- Microsoft Hotfix
+  - BatchUpdate [1](featOraCommand.md)
+- multiple notification requests [1](featChange.md)
+- multiple tables
+  - changes to [1](featXML.md)
+
+------------------------------------------------------------------------
+
+## N
+
+- namespace
+  - Oracle.DataAccess.Types [1](intro003.md)
+- native XML support [1](featXML.md)
+- NCLOB [1](featLOBsupp.md)
+- nested table types [1](featUDTs.md)
+- notification framework [1](featChange.md)
+- notification information
+  - retrieving [1](featChange.md)
+- notification process
+  - flow [1](featChange.md)
+- notification registration [1](featChange.md)
+  - requirements of [1](featChange.md)
+- NULL values
+  - retrieving from column [1](featXML.md)
+- number of rows fetched in round-trip
+  - controlling [1](featData.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- object data type support [1](featUDTs.md)
+- object-relational data [1](featXML.md)
+  - saving changes from XML data [1](featXML.md)
+- object types [1](featUDTs.md)
+- obtaining an OracleRefCursor [1](featRefCursor.md)
+- obtaining a REF CURSOR [1](featRefCursor.md), [2](featRefCursor.md)
+- obtaining data from an OracleDataReader [1](featData.md)
+- obtaining LOB data
+  - InitialLOBFetchSize property [1](featData.md)
+- obtaining LONG and LONG RAW Data [1](featData.md)
+- OCI
+  - statement caching [1](featOraCommand.md)
+- ODP.NET
+  - installing [1](InstallODP.md)
+- ODP.NET Configuration [1](InstallConfig.md)
+- ODP.NET LOB classes [1](featLOBsupp.md)
+- ODP.NET Type accessors [1](featData.md)
+- ODP.NET Type classes [1](featTypes.md)
+- ODP.NET Type exceptions [1](types-exceptions.md)
+- ODP.NET Types [1](featTypes.md)
+  - overview [1](featTypes.md)
+- ODP.NET Type structures [1](featTypes.md), [2](types-structures.md)
+- ODP.NET within a .NET stored procedure
+  - limitations and restrictions [1](extenRest.md)
+  - transaction support [1](extenRest.md)
+  - unsupported SQL commands [1](extenRest.md)
+- ODP.NET XML Support [1](featXML.md)
+- OnChangedEventArgs Class
+  - instance properties [1](NotificationEventArgsInstanceProperties.md)
+  - members [1](NotificationEventArgsMembers.md)
+  - static fields [1](NotificationEventArgsStaticFields.md)
+  - static methods [1](NotificationEventArgsStaticMethods.md)
+- OnChangeEventHandler Delegate
+  - description [1](OnChangeEventHandlerEventDelegate.md)
+- operating system authentication [1](featConnecting.md)
+- Oracle.DataAccess.Client namespace [1](intro003.md)
+- Oracle.DataAccess.dll [1](intro003.md)
+- Oracle.DataAccess.Types namespace [1](intro003.md), [2](intro003.md)
+- OracleAQAgent
+  - constructors [1](AQAgentConstructors.md)
+- OracleAQAgent Class
+  - constructors [1](AQAgentConstructors.md)
+  - description [1](OracleAQAgentClass.md)
+  - members [1](AQAgentMembers.md), [3](AQMessageAvailableEventArgsMembers.md)
+  - properties [1](AQAgentProperties.md), [3](AQDequeueOptionsProperties.md)
+- OracleAQDequeueMode Enumeration
+  - description [1](OracleAQDequeueModeEnumeration.md)
+- OracleAQDequeueOptions Class
+  - constructor [1](AQDequeueOptionsConstructor.md)
+  - description [1](OracleAQDequeueOptionsClass.md)
+  - members [1](AQDequeueOptionsMembers.md)
+  - properties [1](AQDequeueOptionsProperties.md)
+  - public methods [1](AQDequeueOptionsPublicMethods.md)
+- OracleAQEnqueueOptions Class
+  - constructor [1](AQEnqueueOptionsConstructor.md)
+  - description [1](OracleAQEnqueueOptionsClass.md)
+  - members [1](AQEnqueueOptionsMembers.md)
+  - properties [1](AQEnqueueOptionsProperties.md)
+  - public methods [1](AQEnqueueOptionsPublicMethods.md)
+- OracleAQMessageAvailableEventArgs Class
+  - description [1](OracleAQMessageAvailableEventArgsClass.md)
+  - members [1](AQMessageAvailableEventArgsMembers.md)
+  - properties [1](AQMessageAvailableEventArgsProperties.md)
+- OracleAQMessageAvailableEventHandler Delegate
+  - description [1](OracleAQMessageAvailableEventHandlerDelegate.md)
+- OracleAQMessage Class
+  - constructors [1](AQMessageConstructors.md)
+  - description [1](OracleAQMessageClass.md)
+  - members [1](AQMessageMembers.md)
+  - properties [1](AQMessageProperties.md)
+- OracleAQMessageDeliveryMode Enumeration
+  - description [1](OracleAQMessageDeliveryModeEnumeration.md)
+- OracleAQMessageState Enumeration
+  - description [1](OracleAQMessageStateEnumeration.md)
+- OracleAQMessageType Enumeration
+  - description [1](OracleAQMessageTypeEnumeration.md)
+- OracleAQNavigationMode Enumeration
+  - description [1](OracleAQNavigationModeEnumeration.md)
+- OracleAQNotificationGroupingType Enumeration
+  - description [1](OracleAQNotificationGroupingTypeEnumeration.md)
+- OracleAQNotificationType Enumeration
+  - description [1](OracleAQNotificationTypeEnumeration.md)
+- OracleAQQueue Class
+  - constructors [1](AQQueueConstructors.md)
+  - description [1](OracleAQQueueClass.md)
+  - events [1](AQQueueEvents.md)
+  - members [1](AQQueueMembers.md)
+  - properties [1](AQQueueProperties.md)
+  - public methods [1](AQQueuePublicMethods.md)
+  - static methods [1](AQQueueConstructors.md)
+- OracleAQVisibilityMode Enumeration
+  - description [1](OracleAQVisibilityModeEnumeration.md)
+- OracleArrayMappingAttribute Class
+  - constructors [1](OracleArrayMappingAttributeConstructors.md)
+  - description [1](OracleArrayMappingAttributeClass.md)
+  - members [1](OracleArrayMappingAttributeMembers.md)
+  - methods [1](ArrayMappingAttributeMethods.md)
+  - properties [1](ArrayMappingAttributeProperties.md)
+  - static methods [1](ArrayMappingAttributeStaticMethods.md)
+- OracleBFile Class
+  - class description [1](OracleBFileClass.md)
+  - constructors [1](BFileCtors.md)
+  - instance methods [1](BFileInstanceMethods.md)
+  - instance properties [1](BFileProperties.md)
+  - members [1](BFileMembers.md)
+  - static fields [1](BFileStaticFields.md)
+  - static methods [1](BFileStaticMethods.md)
+- OracleBinary Structure
+  - constructor [1](BinaryCtor.md)
+  - description [1](OracleBinaryStructure.md)
+  - instance methods [1](BinaryInstanceMethods.md)
+  - members [1](BinaryMembers.md)
+  - properties [1](BinaryProperties.md)
+  - static fields [1](BinaryStaticFields.md)
+  - static methods [1](BinaryStaticMethods.md)
+  - static operators [1](BinaryStaticOperators.md)
+  - static type conversion operators [1](BinaryStaticTypeConversionOperators.md)
+- OracleBlob Class
+  - class description [1](OracleBlobClass.md)
+  - constructors [1](BlobCtors.md)
+  - instance methods [1](BlobInstanceMethods.md)
+  - instance properties [1](BlobInstanceProperties.md)
+  - members [1](BlobMembers.md)
+  - static fields [1](BlobStaticFields.md)
+  - static methods [1](BlobStaticMethods.md)
+- OracleBulkCopy Class
+  - class description [1](OracleBulkCopyClass.md)
+  - constructors [1](BulkCopyConstructors.md)
+  - events [1](BulkCopyEvents.md)
+  - members [1](OracleBulkCopyMembers.md)
+  - properties [1](BulkCopyProperties.md)
+  - public methods [1](BulkCopyPublicMethods.md)
+- OracleBulkCopyColumnMapping Class
+  - class description [1](OracleBulkCopyColumnMappingClass.md)
+  - constructors [1](BulkCopyColumnMappingConstructors.md)
+  - members [1](OracleBulkCopyColumnMappingMembers.md)
+  - properties [1](BulkCopyColumnMappingMethods.md), [2](BulkCopyColumnMappingProperties.md)
+- OracleBulkCopyColumnMappingCollection Class
+  - class description [1](OracleBulkCopyColumnMappingCollectionClass.md)
+  - members [1](OracleBulkCopyColumnMappingCollectionMembers.md)
+  - properties [1](BulkCopyColumnMappingCollectionProperties.md)
+  - public methods [1](BulkCopyColumnMappingCollectionPublicMethods.md)
+- OracleBulkCopyOptions Enumeration
+  - description [1](OracleBulkCopyOptionsEnumeration.md)
+- Oracle Call Interface
+  - statement caching [1](featOraCommand.md)
+- OracleClientFactory [1](InstallODP.md), [2](installODPmd.md)
+- OracleClientFactory class
+  - instantiating [1](featClasses.md)
+- OracleClientFactory Class
+  - class description [1](OracleClientFactoryClass.md)
+  - class members [1](OracleClientFactoryMembers.md)
+  - public methods [1](ClientFactoryPublicMethods.md)
+  - public properties [1](ClientFactoryProperties.md)
+- OracleClob Class
+  - class description [1](OracleClobClass.md)
+  - constructors [1](ClobCtors.md)
+  - instance methods [1](ClobInstanceMethods.md)
+  - instance properties [1](ClobInstanceProperties.md)
+  - members [1](ClobMembers.md)
+  - static fields [1](ClobStaticFields.md)
+  - static methods [1](ClobStaticMethods.md)
+- OracleCollectionType Enumeration [1](OracleCollectionTypeEnumeration.md)
+- OracleCommand
+  - constructors [1](OracleCommandCtors.md)
+  - InitialLOBFetchSize property [1](featData.md)
+  - InitialLONGFetchSize property [1](featData.md)
+  - Transaction property [1](featOraCommand.md)
+- OracleCommandBuilder Class [1](featUnique.md)
+  - class description [1](OracleCommandBuilderClass.md)
+  - constructors [1](CommandBuilderCtors.md)
+  - events [1](CommandBuilderEvents.md)
+  - members [1](CommandBuilderMembers.md)
+  - properties [1](CommandBuilderProperties.md)
+  - public methods [1](CommandBuilderPublicMethods.md)
+  - static methods [1](CommandBuilderStaticMethods.md)
+  - updating dataset [1](featUnique.md)
+- OracleCommand Class
+  - ArrayBindCount [1](CommandArrayBindCount.md)
+  - class description [1](OracleCommandClass.md)
+  - ExecuteScalar method [1](featRefCursor.md)
+  - FetchSize property [1](featData.md)
+  - members [1](OracleCommandMembers.md)
+  - properties [1](CommandProperties.md)
+  - public methods [1](CommandPublicMethods.md), [2](AQDequeueOptionsPublicMethods.md)
+  - RowSize property [1](featData.md)
+  - static methods [1](CommandStaticMethods.md)
+- OracleCommand object [1](featOraCommand.md)
+- OracleCommand properties
+  - ArrayBindCount [1](featOraCommand.md)
+- OracleCommand Transaction object [1](featOraCommand.md)
+- OracleConfiguration
+  - members [1](OracleConfigurationMembers.md)
+- OracleConfiguration Class
+  - class description [1](OracleConfigurationClass.md)
+  - properties [1](ConfigurationConnectionProperties.md), [2](ConfigurationSecureConnectionProperties.md), [3](ConfigurationHighAvailabilityProperties.md), [4](ConfigurationCommandProperties.md), [5](ConfigurationDirectoriesProperties.md), [6](ConfigurationPerformanceProperties.md), [7](ConfigurationDebugTracingProperties.md)
+- OracleConnection
+  - ClearAllPools property [1](featConnecting.md)
+  - ClearPool property [1](featConnecting.md)
+  - ClientId property [1](featConnecting.md)
+  - events [1](ConnectionEvents.md)
+- OracleConnection class
+  - GetSchema methods [1](featConnecting.md)
+- OracleConnection Class
+  - class description [1](OracleConnectionClass.md)
+  - constructors [1](ConnectionCtors.md)
+  - members [1](ConnectionMembers.md)
+  - obtaining a reference [1](featXML.md)
+  - properties [1](ConnectionProperties.md)
+  - static methods [1](ConnectionStaticMethods.md)
+- OracleConnectionOpenEventArgs
+  - members [1](ConnectionOpenEventArgsMembers.md)
+  - properties [1](ConnectionOpenEventArgsProperties.md)
+- OracleConnectionOpenEventArgs Class [1](OracleConnectionOpenEventArgsClass.md)
+- OracleConnectionOpenEventHandler Delegate [1](OracleConnectionOpenEventHandlerDelegate.md)
+- OracleConnectionStringBuilder class
+  - using [1](featConnecting.md)
+- OracleConnectionStringBuilder Class
+  - class description [1](OracleConnectionStringBuilderClass.md)
+  - class members [1](OracleConnectionStringBuilderMembers.md)
+  - constructors [1](ConnectionStringBuilderConstructors.md)
+  - public methods [1](ConnectionStringBuilderPublicMethods.md)
+  - public properties [1](ConnectionStringBuilderPublicProperties.md)
+- OracleConnectionType Enumeration
+  - description [1](OracleConnectionTypeEnumeration.md)
+- OracleCredential [1](featConnecting.md)
+  - constructors [1](CredentialCtors.md)
+  - members [1](CredentialMembers.md)
+- OracleCredential Class [1](OracleCredentialClass.md)
+  - properties [1](CredentialProperties.md)
+- OracleCustomTypeMappingAttribute Class
+  - constructors [1](CustomTypeMappingAttributeConstructors.md)
+  - description [1](OracleCustomTypeMappingAttributeClass.md)
+  - members [1](OracleCustomTypeMappingAttributeMembers.md)
+  - methods [1](CustomTypeMappingAttributeMethods.md)
+  - properties [1](CustomTypeMappingAttributeProperties.md)
+  - static methods [1](CustomTypeMappingAttributeStaticMethods.md)
+- OracleDataAdapter [1](featSafeType.md)
+  - constructors [1](DataAdapterCtors.md)
+  - members [1](DataAdapterMembers.md)
+  - SafeMapping Property [1](featSafeType.md)
+  - SelectCommand property [1](featRefCursor.md)
+- OracleDataAdapter class
+  - FillSchema method [1](featUnique.md)
+  - Requery property [1](featRequery.md)
+  - SelectCommand property [1](featUnique.md)
+- OracleDataAdapter Class [1](OracleDataAdapterClass.md)
+  - events [1](DataAdapterEvents.md)
+  - FillSchema method [1](featUnique.md)
+  - properties [1](DataAdapterProperties.md)
+  - public methods [1](DataAdapterPublicMethods.md)
+  - SelectCommand property [1](featUnique.md)
+  - static methods [1](DataAdapterStaticMethods.md)
+- OracleDataAdapter Safe Type Mapping [1](featSafeType.md)
+- OracleDatabase Class
+  - class description [1](OracleDatabaseClass.md)
+  - constructor [1](DatabaseCtor1.md), [2](DatabaseCtor2.md)
+  - members [1](DatabaseMembers.md)
+  - properties [1](DatabaseProperties.md)
+  - public methods [1](DatabasePublicMethods.md)
+  - Shutdown method [1](DatabaseShutdownOverloads.md)
+  - Startup method [1](DatabaseStartupOverloads.md)
+- OracleDatabase Constructors [1](DatabaseCtor.md)
+- Oracle Database Extensions for .NET [1](intro001.md), [2](extensions.md)
+- Oracle Data Provider for .NET
+  - installing [1](InstallODP.md)
+  - system requirements [1](InstallSystemRequirements.md)
+- Oracle Data Provider for .NET, Managed Driver
+  - installing [1](installODPmd.md)
+- Oracle Data Provider for .NET assembly [1](intro003.md)
+- OracleDataReader [1](featData.md), [2](featData.md)
+  - members [1](DataReaderMembers.md)
+  - retrieving UDTs from [1](featUDTs.md)
+  - typed accessors [1](featData.md)
+- OracleDataReader Class
+  - class description [1](OracleDataReaderClass.md)
+  - FetchSize property [1](featData.md)
+  - populating [1](featRefCursor.md)
+  - properties [1](DataReaderProperties.md)
+  - public methods [1](DataReaderPublicMethods.md)
+  - static methods [1](DataReaderStaticMethods.md)
+- OracleDataReader Class SchemaTable [1](DataReaderGetSchemaTable.md)
+- OracleDataSourceCollection
+  - members [1](OracleDataSourceCollectionMembers.md)
+- OracleDataSourceCollection Class
+  - class description [1](OracleDataSourceCollectionClass.md)
+  - methods [1](DataSourceCollectionMethods.md)
+  - properties [1](DataSourceCollectionProperties.md)
+- OracleDataSourceEnumerator Class
+  - class description [1](OracleDataSourceEnumeratorClass.md)
+  - class members [1](OracleDataSourceEnumeratorMembers.md)
+  - public methods [1](DataSourceEnumeratorPublicMethods.md)
+- OracleDataSource Enumerator class
+  - using [1](featConnecting.md)
+- Oracle data types [1](entityEDMmapping.md)
+  - and EDM types [1](entityEDMmapping.md)
+  - mapping and customizing [1](entityDataTypeMapping.md)
+- OracleDate Structure
+  - constructors [1](DateCtors.md)
+  - description [1](OracleDateStructure.md)
+  - members [1](DateMembers.md)
+  - methods [1](DateMethods.md)
+  - properties [1](DateProperties.md)
+  - static fields [1](DateStaticFields.md)
+  - static methods [1](DateStaticMethods.md)
+  - static operators [1](DateStaticOperators.md)
+  - static type conversions [1](DateStaticTypeConversions.md)
+- OracleDBAPrivilege Enumeration
+  - description [1](OracleDBAPrivilegeEnumeration.md)
+- OracleDBShutdownMode Enumeration
+  - description [1](OracleDBShutdownModeEnumeration.md)
+- OracleDBStartupMode Enumeration
+  - description [1](OracleDBStartupModeEnumeration.md)
+- OracleDbType
+  - inference [1](featOraCommand.md)
+- OracleDbType enumeration [1](featOraCommand.md)
+- OracleDbType Enumeration
+  - description [1](OracleDbTypeEnumerationType.md)
+- OracleDbType enumeration type [1](featOraCommand.md), [2](OracleDbTypeEnumerationType.md)
+- OracleDecimal Structure
+  - constructors [1](DecimalCtors.md)
+  - description [1](OracleDecimalStructure.md)
+  - instance methods [1](DecimalInstanceMethods.md)
+  - members [1](DecimalMembers.md)
+  - properties [1](DecimalProperties.md)
+  - static comparison methods [1](DecimalStaticComparisonMethods.md)
+  - static comparison operators [1](DecimalStaticComparisonOperators.md)
+  - static logarithmic methods [1](DecimalstaticLogarithmicMethods.md)
+  - static manipulation methods [1](DecimalStaticManipulationMethods.md)
+  - static operators, .NET Type to OracleDecimal [1](DecimalStaticOperatorsNetToDecimal.md)
+  - static operators, OracleDecimal to .NET [1](DecimalStaticOperatorsOracleDecimalToNet.md)
+  - static trignonmetric methods [1](DecimalStaticTrignometricMethods.md)
+- OracleDependency Class
+  - change notification [1](featChange.md)
+  - class description [1](OracleDependencyClass.md)
+  - constructors [1](DependencyConstructors.md)
+  - Continuous Query Notification [1](featChange.md)
+  - events [1](DependencyEvents.md)
+  - instance methods [1](DependencyInstanceMethods.md)
+  - instance properties [1](DependencyInstanceProperties.md)
+  - members [1](DependencyMembers.md)
+  - static fields [1](DependencyStaticFields.md)
+  - static methods [1](DependencyStaticMethods.md)
+- Oracle Developer Tools for Visual Studio [1](intro001.md)
+- OracleDRCPPurity Enumeration
+  - description [1](OracleDRCPPurityEnumeration.md)
+- OracleError Class
+  - ArrayBindIndex [1](ArrayBindIndex.md)
+  - class description [1](OracleErrorClass.md)
+  - members [1](ErrorMembers.md)
+  - methods [1](ErrorMethods.md)
+  - properties [1](ErrorProperties.md)
+  - static methods [1](ErrorStaticMethods.md)
+- OracleErrorCollection
+  - members [1](ErrorCollectionMembers.md)
+  - properties [1](ErrorCollectionProperties.md)
+  - public methods [1](ErrorCollectionPublicMethods.md)
+  - static methods [1](ErrorCollectionStaticMethods.md)
+- OracleErrorCollection Class [1](OracleErrorCollectionClass.md)
+- OracleException
+  - members [1](ExceptionMembers.md)
+  - methods [1](ExceptionMethods.md)
+  - properties [1](ExceptionProperties.md)
+  - static methods [1](ExceptionStaticMethods.md)
+- OracleException Class [1](OracleExceptionClass.md)
+- OracleFailoverEventArgs
+  - members [1](FailoverEventArgsMembers.md)
+  - properties [1](FailoverEventArgsProperties.md)
+  - public methods [1](FailoverEventArgsPublicMethods.md)
+- OracleFailoverEventHandler Delegate
+  - description [1](OracleFailoverEventHandlerDelegate.md)
+- OracleGlobalization Class
+  - class description [1](OracleGlobalizationClass.md)
+  - members [1](GlobalizationMembers.md)
+  - properties [1](GlobalizationProperties.md)
+  - public methods [1](GlobalizationPublicMethods.md)
+- OracleHAEventArgs Class
+  - description [1](OracleHAEventArgsClass.md)
+  - members [1](HAEventArgsMembers.md)
+  - properties [1](HAEventArgsProperties.md)
+- OracleHAEventHandler Delegate
+  - description [1](OracleHAEventHandlerDelegate.md)
+- OracleHAEventSource Enumeration
+  - description [1](OracleHAEventSourceEnumeration.md)
+- OracleHAEventStatus Enumeration
+  - description [1](OracleHAEventStatusEnumeration.md)
+- OracleIdentityType Enumeration
+  - description [1](OracleIdentityTypeEnumeration.md)
+- OracleInfoMessageEventArgs
+  - members [1](OracleInfoMessageEventArgsmembers.md)
+  - properties [1](InfoMessageEventArgsProperties.md)
+  - public methods [1](InfoMessageEventArgsPublicMethods.md)
+  - static methods [1](InfoMessageEventArgsStaticMethods.md)
+- OracleInfoMessageEventHandler Delegate [1](OracleInfoMessageEventHandlerDelegate.md)
+- OracleIntervalDS Structure
+  - constructors [1](IntervalDSCtors.md)
+  - description [1](OracleIntervalDSStructure.md)
+  - members [1](IntervalDSMembers.md)
+  - methods [1](IntervalDSMethods.md)
+  - properties [1](IntervalDSProperties.md)
+  - static methods [1](IntervalDSStaticMethods.md)
+  - static operators [1](IntervalDSStaticOperators.md)
+  - type conversions [1](IntervalDSTypeConversions.md)
+- OracleIntervalYM Structure
+  - constructors [1](IntervalYMCtors.md)
+  - description [1](OracleIntervalYMStructure.md)
+  - members [1](IntervalYMMembers.md)
+  - methods [1](IntervalYMStaticMethods.md), [2](IntervalYMMethods.md)
+  - properties [1](IntervalYMProperties.md)
+  - static fields [1](IntervalYMStaticFields.md)
+  - static operators [1](IntervalYMStaticOperators.md)
+  - type conversions [1](IntervalYMTypeConversions.md)
+- Oracle Label Security [1](featConnecting.md)
+- Oracle native types [1](featTypes.md)
+  - supported by ODP.NET [1](featData.md)
+- OracleNotificationEventArgs Class
+  - change notification [1](featChange.md)
+  - class description [1](OracleNotificationEventArgsClass.md)
+  - instance methods [1](NotificationEventArgsInstanceMethods.md)
+- OracleNotificationInfo Enumeration
+  - description [1](OracleNotificationInfoEnumeration.md)
+- OracleNotificationRequest Class
+  - change notification [1](featChange.md)
+  - class description [1](OracleNotificationRequestClass.md)
+  - Continuous Query Notification [1](featChange.md)
+  - instance methods [1](NotificationRequestInstanceMethods.md)
+  - instance properties [1](NotificationRequestInstanceProperties.md)
+  - members [1](NotificationRequestMembers.md)
+  - static methods [1](NotificationRequestStaticMethod.md)
+- OracleNotificationSource Enumeration
+  - description [1](OracleNotificationSourceEnumeration.md)
+- OracleNotificationType Enumeration
+  - description [1](OracleNotificationTypeEnumeration.md)
+- OracleNullValueException Class
+  - class description [1](OracleNullValueExceptionClass.md)
+  - constructors [1](NullValueExceptionCtors.md)
+  - members [1](NullValueExceptionMembers.md)
+  - methods [1](NullValueExceptionStaticMethods.md), [2](NullValueExceptionMethods.md)
+  - properties [1](NullValueExceptionProperties.md)
+- OracleObjectMappingAttribute Class
+  - constructors [1](ObjectMappingAttributeConstructors.md)
+  - description [1](OracleObjectMappingAttributeClass.md)
+  - members [1](OracleObjectMappingAttributeMembers.md)
+  - methods [1](ObjectMappingAttributeAttributeMethods.md)
+  - properties [1](ObjectMappingAttributeProperties.md)
+  - static methods [1](ObjectMappingAttributeStaticMethods.md)
+- OracleOnsServerCollection
+  - members [1](OracleOnsServerCollectionMembers.md)
+- OracleOnsServerCollection Class
+  - class description [1](OracleOnsServerCollectionClass.md)
+  - methods [1](OnsServerCollectionMethods.md)
+  - properties [1](OnsServerCollectionProperties.md)
+- OracleParameter
+  - array bind properties [1](featOraCommand.md)
+  - ArrayBindSize property [1](featOraCommand.md), [2](LogicalTransactionPublicPropertiesCommitted.md), [3](LogicalTransactionPublicPropertiesUserCallCompleted.md), [4](ParameterArrayBindSize.md)
+  - ArrayBindStatus property [1](featOraCommand.md), [2](ParameterArrayBindStatus.md)
+  - constructors [1](ParameterCtors.md)
+  - inferences of types [1](featOraCommand.md)
+  - members [1](ParameterMembers.md)
+  - properties [1](ParameterStaticMethods.md)
+  - public methods [1](ParameterPublicMethods.md)
+  - static methods [1](ParameterStaticMethods.md)
+- OracleParameter array bind feature [1](featOraCommand.md)
+- OracleParameter Class [1](OracleParameterClass.md)
+- OracleParameterCollection
+  - members [1](ParameterCollectionMembers.md)
+  - public methods [1](ParameterCollectionPublicMethods.md)
+  - static methods [1](ParameterCollectionStaticMethods.md)
+- OracleParameterCollection Class [1](OracleParameterCollectionClass.md)
+- OracleParameter object [1](featOraCommand.md)
+  - OracleDbType enumerated values [1](featOraCommand.md)
+- OracleParameter property
+  - ArrayBindSize [1](featOraCommand.md)
+  - ArrayBindStatus [1](featOraCommand.md)
+  - CollectionType [1](featOraCommand.md)
+  - Size [1](featOraCommand.md)
+  - Value [1](featOraCommand.md)
+- OracleParameterStatus Enumeration
+  - description [1](OracleParameterStatusEnumeration.md)
+- OracleParameterStatus enumeration type [1](featOraCommand.md), [2](OracleParameterStatusEnumeration.md)
+- OraclePermissionAttribute Class
+  - constructor [1](PermissionAttributeCtors.md)
+  - description [1](OraclePermissionAttributeClass.md)
+  - members [1](PermissionAttributeMembers.md)
+  - public methods [1](PermissionAttributePublicMethods.md)
+  - public properties [1](PermissionAttributePublicProperties.md)
+  - static methods [1](PermissionAttributeStaticMethods.md)
+- Oraclepermission Class
+  - description [1](OraclePermissionClass.md)
+- OraclePermission Class
+  - constructor [1](PermissionCtor.md)
+  - members [1](PermissionMembers.md)
+  - public methods [1](PermissionPublicMethods.md)
+  - public properties [1](PermissionPublicProperties.md)
+  - static methods [1](PermissionStaticMethods.md)
+- Oracle Providers for ASP.NET [1](intro001.md)
+- Oracle RAC [1](featRAC.md)
+- Oracle Real Application Clusters (Oracle RAC) [1](featRAC.md)
+- OracleRef Class
+  - class description [1](OracleRefClass.md)
+  - class members [1](OracleRefMembers.md)
+  - constructors [1](RefConstructors.md)
+  - instance methods [1](RefInstanceMethods.md)
+  - instance properties [1](RefProperties.md)
+  - static fields [1](RefStaticFields.md)
+  - static methods [1](RefStaticMethods.md)
+- OracleRefCursor [1](featRefCursor.md)
+- OracleRefCursor Class
+  - class description [1](OracleRefCursorClass.md)
+  - instance methods [1](RefcursorInstanceMethods.md)
+  - members [1](RefCursorMembers.md)
+  - populating from a REF CURSOR [1](featRefCursor.md)
+  - properties [1](RefcursorProperties.md)
+  - static methods [1](RefcursorStaticMethods.md), [2](RefcursorStaticFields.md)
+- OracleRowsCopiedEventArgs Class
+  - class description [1](OracleRowsCopiedEventArgsClass.md)
+  - constructors [1](OracleRowsCopiedEventArgsConstructors.md)
+  - members [1](OracleRowsCopiedEventArgsMembers.md)
+  - properties [1](OracleRowsCopiedEventArgsProperties.md)
+- OracleRowsCopiedEventHandler Delegate
+  - description [1](OracleRowsCopiedEventHandlerDelegate.md)
+- OracleRowUpdatedEventArgs
+  - constructor [1](RowUpdatedEventArgsCtor.md)
+  - members [1](RowUpdatedEventArgsMembers.md)
+  - properties [1](RowUpdatedEventArgsProperties.md)
+  - public methods [1](RowUpdatedEventArgsPublicMethods.md)
+  - static methods [1](RowUpdatedEventArgsStaticMethods.md)
+- OracleRowUpdatedEventArgs Class [1](OracleRowUpdatedEventArgsClass.md)
+- OracleRowUpdatedEventHandler Delegate [1](OracleRowUpdatedEventHandlerDelegate.md)
+- OracleRowUpdatingEventArgs
+  - constructor [1](RowUpdatingEventArgsCtor.md)
+  - members [1](OracleRowUpdatingEventArgsmembers.md)
+  - properties [1](RowUpdatingEventArgsProperties.md)
+  - public methods [1](RowUpdatingEventArgsPublicMethods.md)
+  - static methods [1](RowUpdatingEventArgsStaticMethods.md)
+- OracleRowUpdatingEventArgs Class [1](OracleRowUpdatingEventArgsClass.md)
+- OracleRowUpdatingEventHandler Delegate [1](OracleRowUpdatingEventHandlerDelegate.md)
+- OracleShardingKey
+  - constructors [1](OracleShardingKeyCtors.md)
+  - members [1](OracleShardingKeyMembers.md)
+- OracleShardingKey Class [1](OracleShardingKeyClass.md)
+  - instance methods [1](ShardingKeyInstanceMethods.md)
+- OracleString Structure
+  - constructors [1](StringCtors.md)
+  - description [1](OracleStringStructure.md)
+  - members [1](StringMembers.md)
+  - methods [1](StringMethods.md)
+  - properties [1](StringProperties.md)
+  - static fields [1](StringStaticFields.md)
+  - static methods [1](StringStaticMethods.md)
+  - static operators [1](StringStaticOperators.md)
+  - type conversions [1](StringTypeConversions.md)
+- OracleTimeStampLTZ Structure
+  - constructors [1](TimeStampLTZCtors.md)
+  - description [1](OracleTimeStampLTZStructure.md)
+  - members [1](TimeStampLTZMembers.md)
+  - methods [1](TimeStampLTZMethods.md)
+  - properties [1](TimeStampLTZProperties.md)
+  - static fields [1](TimeStampLTZStaticFields.md)
+  - static methods [1](TimeStampLTZStaticMethods.md)
+  - static operators [1](TimeStampLTZStaticTypeOperators.md)
+  - static type conversions [1](TimeStampLTZStatictypeConversions.md)
+- OracleTimeStamp Structure
+  - constructors [1](TimeStampCtors.md)
+  - description [1](OracleTimeStampStructure.md)
+  - members [1](TimeStampMembers.md)
+  - methods [1](TimeStampMethods.md)
+  - properties [1](TimeStampProperties.md)
+  - static methods [1](TimeStampStaticMethods.md)
+  - static operators [1](TimeStampStaticOperators.md)
+  - static type conversions [1](TimeStampStaticTypeConversions.md)
+- OracleTimeStampTZ Structure
+  - constructors [1](TimeStampTZCtors.md)
+  - description [1](OracleTimeStampTZStructure.md)
+  - members [1](TimeStampTZMembers.md)
+  - methods [1](TimeStampTZMethods.md)
+  - properties [1](TimeStampTZProperties.md)
+  - static fields [1](TimeStampTZStaticFields.md)
+  - static methods [1](TimeStampTZStaticMethods.md)
+  - static operators [1](TimeStampTZStaticOperators.md)
+  - static type conversions [1](TimeStampTZStaticTypeConversions.md)
+- OracleTransaction
+  - members [1](TransactionMembers.md)
+  - properties [1](TransactionProperties.md)
+  - public methods [1](TransactionPublicMethods.md)
+  - static methods [1](TransactionStaticMethods.md)
+- OracleTransaction Class
+  - class description [1](OracleTransactionClass.md)
+- OracleTruncateException Class
+  - class description [1](OracleTruncateExceptionClass.md)
+  - constructors [1](TruncateExceptionCtors.md)
+  - members [1](TruncateExceptionMembers.md)
+  - methods [1](TruncateExceptionMethods.md)
+  - properties [1](TruncateExceptionProperties.md)
+  - static methods [1](TruncateExceptionStaticMethods.md)
+- OracleTypeException Class
+  - class description [1](OracleTypeExceptionClass.md)
+  - constructors [1](TypeExceptionCtors.md)
+  - members [1](TypeExceptionMembers.md)
+  - properties [1](TypeExceptionProperties.md)
+  - static methods [1](TypeExceptionStaticMethods.md)
+- Oracle UDT attribute mappings [1](featUDTs.md)
+- OracleUdt Class
+  - description [1](OracleUdtClass.md)
+  - members [1](OracleUdtMembers.md)
+  - static methods [1](UDTstaticmethods.md)
+- OracleUdtFetchOption Enumeration
+  - description [1](OracleUdtFetchOptionEnumeration.md)
+- OracleUdtStatus Enumeration
+  - description [1](OracleUdtStatusEnumeration.md)
+- Oracle Universal Installer (OUI) [1](InstallODP.md), [2](installODPmd.md)
+- Oracle user-defined types [1](featUDTs.md)
+- Oracle User-Defined Types (UDTs) [1](featUDTs.md)
+- Oracle Virtual Private Database (VPD) [1](featConnecting.md)
+- OracleXmlCommandType Enumeration [1](OracleXmlCommandTypeEnumeration.md)
+- Oracle XML DB [1](featXML.md)
+- OracleXmlQueryProperties Class
+  - class description [1](OracleXmlQueryPropertiesClass.md)
+  - constructors [1](XmlQueryPropertiesCtors.md)
+  - members [1](XmlQueryPropertiesMembers.md)
+  - properties [1](XmlQueryPropertiesProperties.md)
+  - public methods [1](XmlQueryPropertiesPublicMethods.md)
+- OracleXmlSaveProperties Class [1](OracleXmlSavePropertiesClass.md)
+  - constructors [1](XmlSavePropertiesCtors.md)
+  - members [1](XmlSavePropertiesMembers.md)
+  - properties [1](XmlSavePropertiesProperties.md)
+  - public methods [1](XmlSavePropertiesPublicMethods.md)
+- OracleXmlStream Class
+  - class description [1](OracleXmlStreamClass.md)
+  - constructors [1](XmlStreamCtors.md)
+  - instance methods [1](XmlStreamPublicMethods.md)
+  - instance properties [1](XmlStreamProperties.md)
+  - members [1](XmlStreamMembers.md)
+  - static methods [1](XmlStreamStaticMethods.md)
+- OracleXmlType Class [1](featXML.md)
+  - class description [1](OracleXmlTypeClass.md)
+  - constructors [1](XmlTypeCtors.md)
+  - instance methods [1](XmlTypePublicMethods.md)
+  - instance properties [1](XmlTypeProperties.md)
+  - members [1](XmlTypeMembers.md)
+  - static methods [1](XmlTypeStaticMethods.md)
+- outages [1](featRAC.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- parameter binding [1](featOraCommand.md)
+- parameter binding with OracleParameter [1](featUDTs.md)
+- password expiration [1](featConnecting.md)
+- passwords in code examples [1](preface.md)
+- performance [1](featRAC.md), [2](featOraCommand.md)
+  - array binding [1](featOraCommand.md)
+  - connection pooling [1](featConnecting.md)
+  - fine-tuning FetchSize [1](featData.md)
+  - number of rows fetched [1](featData.md)
+  - Obtaining LOB Data [1](featData.md)
+- performance counters
+  - connection pool [1](featConnecting.md)
+  - publishing [1](featConnecting.md), [2](featConnecting.md)
+- PL/SQL Associative Array binding [1](featOraCommand.md)
+- PL/SQL Index-By Tables [1](featOraCommand.md)
+- PL/SQL language [1](featRefCursor.md)
+- PL/SQL REF CURSOR [1](featRefCursor.md)
+- PL/SQL REF CURSOR and OracleRefCursor [1](featRefCursor.md)
+- planned outage [1](featRAC.md)
+- PLSQLAssociativeArray [1](OracleCollectionTypeEnumeration.md)
+- pool size attributes
+  - Oracle RAC [1](featRAC.md)
+- populating an OracleDataReader from a REF CURSOR [1](featRefCursor.md)
+- populating an OracleRefCursor from a REF CURSOR [1](featRefCursor.md)
+- populating the DataSet from a REF CURSOR [1](featRefCursor.md)
+- populating the DataSet with generic and custom objects [1](featUDTs.md)
+- port
+  - listen for database notifications [1](InstallConfiguringPort.md)
+- porting
+  - client application to .NET stored procedure [1](extenPorting.md)
+- port number
+  - defining listener [1](featChange.md)
+- preventing data loss [1](featSafeType.md), [2](featSafeType.md)
+- preventing logical corruption [1](featTG.md)
+- PrimaryKey property [1](featUnique.md)
+  - configuring [1](featUnique.md)
+- privileged connections [1](featConnecting.md)
+- promotable transactions [1](featOraCommand.md)
+- properties
+  - ClientId property [1](featConnecting.md)
+- provider factory classes [1](featClasses.md)
+- proxy authentication [1](featConnecting.md)
+
+------------------------------------------------------------------------
+
+## Q
+
+- query result set
+  - retrieving as XML [1](featXML.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- REF CURSOR [1](featImplRefCursor.md)
+  - behavior of ExecuteScalar method [1](featRefCursor.md)
+  - implicit [1](featImplRefCursor.md)
+  - obtaining [1](featRefCursor.md), [2](featRefCursor.md)
+  - passing to stored procedure [1](featRefCursor.md)
+  - populating DataSet from [1](featRefCursor.md)
+  - populating from OracleDataReader [1](featRefCursor.md)
+- registry entries [1](InstallConfig.md)
+- release Oracle8i (8.1.7) [1](featXML.md)
+- release Oracle9i(9.0.x) [1](featXML.md)
+- Requery property [1](featRequery.md)
+- round-trip [1](featOraCommand.md)
+- RowSize property [1](featData.md)
+- runtime connection load balancing [1](featRAC.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- SafeMapping Property [1](featSafeType.md)
+- Safe Type Mapping [1](featSafeType.md)
+- samples [1](InstallODP.md), [2](installODPmd.md)
+  - UDT [1](udt-related-classes.md)
+- Samples [1](intro005.md)
+- saving changes
+  - using XML data [1](featXML.md)
+- saving change using an XML document [1](featXML.md)
+- schema metadata
+  - customizing metadata [1](featConnecting.md)
+- SchemaTable [1](DataReaderGetSchemaTable.md)
+- search order
+  - unmanaged DLLs [1](InstallODP.md)
+- SecureFiles [1](featLOBsupp.md)
+- SelectCommand property [1](featRefCursor.md)
+- session globalization parameters [1](featGlobal.md)
+- session globalization settings [1](featGlobal.md)
+- Shutdown method [1](DatabaseShutdownOverloads.md)
+- simple application [1](intro005.md)
+- Size property [1](featOraCommand.md)
+- SQL commands
+  - unsupported [1](extenRest.md)
+- Startup method [1](DatabaseStartupOverloads.md)
+- StatementCacheWithUdts [1](featUDTs.md)
+- Statement Caching
+  - connection string attributes [1](featOraCommand.md)
+  - methods and properties [1](featOraCommand.md)
+  - Statement Cache Purge [1](featOraCommand.md)
+  - Statement Cache Size [1](featOraCommand.md)
+- stored procedures and functions [1](featRefCursor.md), [2](extenBoth.md)
+- Stream class [1](featLOBsupp.md)
+- support comparison
+  - client application versus .NET stored procedure [1](extenPorting.md)
+- SYSDBA privileges [1](featConnecting.md)
+- SYSOPER privileges [1](featConnecting.md)
+- System.Transactions support [1](featOraCommand.md)
+- system requirements
+  - Oracle Data Provider for .NET [1](InstallSystemRequirements.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- table or view
+  - special characters in [1](featXML.md)
+- TAF [1](featConnecting.md)
+- TAF callback support [1](featConnecting.md)
+- Temporary LOBs [1](featLOBsupp.md)
+- Thread.Abort method [1](InstallTips.md)
+- thread-based globalization settings [1](featGlobal.md)
+- thread globalization settings [1](featGlobal.md)
+- tips for ODP.NET [1](InstallTips.md)
+- TNS alias [1](featConnecting.md)
+- tracing attributes [1](featConnecting.md)
+- Transaction Guard [1](featTG.md)
+- Transaction object [1](featOraCommand.md)
+- Transaction property [1](featOraCommand.md)
+- transactions
+  - commit [1](featXML.md)
+- TransactionScope [1](featOraCommand.md)
+- transaction support [1](extenRest.md)
+- Transparent Application Failover (TAF) [1](featConnecting.md)
+- triggers [1](featBulkCopy.md)
+  - insert triggers [1](featBulkCopy.md)
+- troubleshooting [1](featDebug.md)
+- typed OracleDataReader accessors [1](featData.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- UDT
+  - method invocation [1](featUDTs.md)
+- UdtCacheSize [1](featUDTs.md)
+- UDT metadata retrieval from OracleDataReader [1](featUDTs.md)
+- UDTs [1](featUDTs.md)
+  - collection types [1](featUDTs.md)
+  - configuration settings [1](featUDTs.md)
+  - object types [1](featUDTs.md)
+  - parameter binding with OracleParameter [1](featUDTs.md)
+  - retrieving from OracleDataReader [1](featUDTs.md)
+  - samples [1](udt-related-classes.md)
+- UDTs (Oracle User-Defined Types) [1](featUDTs.md)
+- UdtTypeName property [1](featUDTs.md)
+- unique columns [1](featData.md), [2](featData.md)
+- UniqueConstraint [1](featUnique.md)
+- unique constraint [1](featData.md), [2](featData.md)
+- unique index [1](featData.md), [2](featData.md)
+- uniqueness
+  - in updating DataSet to database [1](featUnique.md)
+- uniqueness in DataRows [1](featUnique.md)
+- unmanaged DLLs
+  - mismatch [1](InstallODP.md)
+  - search order [1](InstallODP.md)
+- unmanged DLLs
+  - config support [1](InstallODP.md)
+- unsupported SQL commands [1](extenRest.md)
+- updating
+  - LOBs [1](featLOBsupp.md)
+- updating a DataSet obtained from a REF CURSOR [1](featRefCursor.md)
+- updating LOBs using a DataSet [1](featLOBsupp.md)
+- updating LOBs using ODP.NET LOB objects [1](featLOBsupp.md)
+- updating LOBs using OracleCommand and OracleParameter [1](featLOBsupp.md)
+- updating without PrimaryKey and Constraints [1](featUnique.md)
+- UserCallCompleted public read-only property [1](LogicalTransactionPublicPropertiesUserCallCompleted.md)
+- user-defined types [1](featUDTs.md)
+- using FetchSize property [1](featData.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- Value property [1](featOraCommand.md)
+- VARRAY types [1](featUDTs.md)
+- Virtual Private Database(VPD) [1](featConnecting.md)
+- Visual Studio
+  - documentation [1](InstallODP.md), [2](installODPmd.md)
+
+------------------------------------------------------------------------
+
+## W
+
+- web.config [1](InstallConfig.md)
+- Windows registry [1](InstallUnmanagedConfig.md)
+
+------------------------------------------------------------------------
+
+## X
+
+- XML
+  - characters with special meaning [1](featXML.md)
+  - data manipulation using [1](featXML.md)
+- XML data
+  - saving changes using [1](featXML.md)
+  - updating in OracleXmlType [1](featXML.md)
+- XML Database [1](featXML.md)
+- XML DB [1](featXML.md), [2](featXML.md)
+- XML element name
+  - case-sensitivity in [1](featXML.md)
+- XML Element Name to Column Name Mapping [1](featXML.md)
+- XMLQuery [1](featXML.md)
+- XML related classes [1](odp-dot-net-xml-classes.md)
+- XML related enumerations [1](odp-dot-net-xml-classes.md)
+- XML Support [1](featXML.md)
+- XMLTable [1](featXML.md)
+- XML to specify custom type mappings [1](featUDTs.md)
+- XMLType column
+  - as a .NET String [1](featXML.md)
+  - fetching into the DataSet [1](featXML.md)
+  - updating with OracleCommand [1](featXML.md)
+- XMLType columns
+  - setting to NULL [1](featXML.md)
+- XQuery
+  - support [1](featXML.md)
+- XQUERY [1](featXML.md)
+- XQuery language [1](featXML.md)

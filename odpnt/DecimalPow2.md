@@ -1,0 +1,32 @@
+This method returns a new `OracleDecimal` structure with its value set to the supplied `OracleDecimal` structure raised to the supplied `OracleDecimal` power.
+
+### Declaration
+
+    // C#
+    public static OracleDecimal Pow(OracleDecimal val, OracleDecimal power);
+
+### Parameters
+
+- `val`
+
+  An `OracleDecimal` structure.
+
+- `power`
+
+  An `OracleDecimal` structure that specifies the power.
+
+### Return Value
+
+An `OracleDecimal` structure.
+
+### Remarks
+
+If the supplied `OracleDecimal` structure has a null value, the returned `OracleDecimal` has a null value.
+
+**See Also:**
+
+- "[Oracle.DataAccess.Types and Oracle.ManagedDataAccess.Types Namespaces](intro003.md)"
+
+- [OracleDecimal Members](DecimalMembers.md)
+
+- [OracleDecimal Structure](OracleDecimalStructure.md)

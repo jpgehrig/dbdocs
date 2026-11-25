@@ -1,0 +1,28 @@
+This method returns the absolute value of an `OracleDecimal`.
+
+### Declaration
+
+    // C#
+    public static OracleDecimal Abs(OracleDecimal val);
+
+### Parameters
+
+- `val`
+
+  An `OracleDecimal`.
+
+### Return Value
+
+The absolute value of an `OracleDecimal`.
+
+### Remarks
+
+If either argument has a null value, the returned `OracleDecimal` has a null value.
+
+**See Also:**
+
+- "[Oracle.DataAccess.Types and Oracle.ManagedDataAccess.Types Namespaces](intro003.md)"
+
+- [OracleDecimal Members](DecimalMembers.md)
+
+- [OracleDecimal Structure](OracleDecimalStructure.md)
