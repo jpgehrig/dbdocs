@@ -1,0 +1,1269 @@
+## Index
+
+Numerics  A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  Y  
+
+------------------------------------------------------------------------
+
+## Numerics
+
+- 1521 port [9.4.1.1](configuring-and-administering-oracle-net-listener.md)
+  - if not using [9.2.2](configuring-and-administering-oracle-net-listener.md)
+
+------------------------------------------------------------------------
+
+## A
+
+- access control lists (ACLs)
+  - described [3.2.6.2.2](managing-network-address-information.md)
+- access control to database
+  - with Oracle Connection Manager [1.1.5.1](introducing-oracle-net-services.md), [10.2.1.2](configuring-oracle-connection-manager.md)
+  - with sqlnet.ora parameters [12.4](configuring-profiles.md)
+- ACTION_LIST networking parameter [10.1](configuring-oracle-connection-manager.md), [10.2.1](configuring-oracle-connection-manager.md)
+- ADAPTERS utility [16.2.2](troubleshooting-oracle-net-services.md)
+- Address List Options dialog box [13.1.2](enabling-advanced-features.md)
+- ADDRESS networking parameter [10.2.1](configuring-oracle-connection-manager.md)
+- ADR_BASE_listener_name log parameter [16.6.4.2](troubleshooting-oracle-net-services.md)
+- ADR_BASE log parameter [16.6.4.1](troubleshooting-oracle-net-services.md), [16.6.4.3](troubleshooting-oracle-net-services.md)
+- ADRCI [16.1.1](troubleshooting-oracle-net-services.md)
+- application web servers [1.1.1.2](introducing-oracle-net-services.md)
+- application Web servers [1.1.1.2.2](introducing-oracle-net-services.md)
+- architecture
+  - Oracle Connection Manager [5.6](understanding-oracle-net-architecture.md)
+- attributes
+  - defined [3.2.1](managing-network-address-information.md)
+- audit trail
+  - described [16.6.8.1.1](troubleshooting-oracle-net-services.md)
+  - script for using information [16.6.8.1.1](troubleshooting-oracle-net-services.md)
+- auto-starting listeners [9.5.1](configuring-and-administering-oracle-net-listener.md)
+
+------------------------------------------------------------------------
+
+## B
+
+- BACKUP networking parameter [13.3.3](enabling-advanced-features.md)
+- BEQUEATH_DETACH networking parameter [12.5](configuring-profiles.md)
+- Bequeath protocol [2.4.2](identifying-and-accessing-database.md)
+- buffer flushing, described [1.1.4.3](introducing-oracle-net-services.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- Check TCP/IP client access rights option in Oracle Net Manager [12.4](configuring-profiles.md)
+- client configuration
+  - connect-time failover [2.6.1](identifying-and-accessing-database.md)
+  - default domains [12.3.1](configuring-profiles.md)
+  - load balancing requests among listeners [2.6.3](identifying-and-accessing-database.md), [13.1.2](enabling-advanced-features.md)
+  - local naming [8.2.2](configuring-naming-methods.md)
+  - log files [16.6.4.1](troubleshooting-oracle-net-services.md)
+  - network service names [6.6](quick-start-oracle-net-services.md)
+  - Oracle Connection Manager address [10.2.2](configuring-oracle-connection-manager.md)
+  - Oracle Rdb connections [13.6.3](enabling-advanced-features.md)
+  - shared server [11.3](configuring-shared-server-architecture.md)
+  - sqlnet.log file [16.6.4.1](troubleshooting-oracle-net-services.md)
+  - trace files [16.7.2.3](troubleshooting-oracle-net-services.md)
+  - Transparent Application Failover (TAF) [2.6.2](identifying-and-accessing-database.md)
+- client load balancing
+  - configuring [13.1.2](enabling-advanced-features.md)
+  - described [2.6.3](identifying-and-accessing-database.md)
+- Client Registration ID field in Oracle Net Manager [12.5](configuring-profiles.md)
+- Clients allowed to access field in Oracle Net Manager [12.4](configuring-profiles.md)
+- client-server connections
+  - routing [14.8.2](optimizing-performance.md)
+- Clients excluded from access field in Oracle Net Manager [12.4](configuring-profiles.md)
+- client troubleshooting [16.2.2](troubleshooting-oracle-net-services.md)
+- CMADMIN (Connection Manager Administration) [5.6](understanding-oracle-net-architecture.md)
+- cman.log file [16.6.3](troubleshooting-oracle-net-services.md)
+- cman.ora file
+  - log parameters
+    - ADR_BASE [16.6.4.3](troubleshooting-oracle-net-services.md)
+    - DIAG_ADR_ENABLED [16.6.4.3](troubleshooting-oracle-net-services.md)
+    - EVENT_GROUP [16.6.4.3](troubleshooting-oracle-net-services.md)
+    - LOG_DIRECTORY [16.6.4.3](troubleshooting-oracle-net-services.md)
+    - LOG_LEVEL [16.6.4.3](troubleshooting-oracle-net-services.md)
+  - parameters
+    - ACTION_LIST [10.1](configuring-oracle-connection-manager.md), [10.2.1](configuring-oracle-connection-manager.md)
+    - ADDRESS [10.2.1](configuring-oracle-connection-manager.md)
+    - RULE_LIST [10.2.1.2](configuring-oracle-connection-manager.md)
+  - setting up [10.1](configuring-oracle-connection-manager.md), [10.2.1](configuring-oracle-connection-manager.md)
+  - trace parameters
+    - TRACE_DIRECTORY [16.7.2.1](troubleshooting-oracle-net-services.md)
+    - TRACE_FILELEN [16.7.2.1](troubleshooting-oracle-net-services.md)
+    - TRACE_FILENO [16.7.2.1](troubleshooting-oracle-net-services.md)
+    - TRACE_LEVEL [16.7.2.1](troubleshooting-oracle-net-services.md)
+    - TRACE_TIMESTAMP [16.7.2.1](troubleshooting-oracle-net-services.md)
+- CMAN DISPATCHERS parameter [10.2.3.2](configuring-oracle-connection-manager.md)
+  - See also: DISPATCHERS parameter
+- CMGW (Connection Manager Gateway) [5.6](understanding-oracle-net-architecture.md)
+- COLOCATION_TAG Parameter [13.2.3](enabling-advanced-features.md)
+- configure
+  - Oracle Connection Manager in Traffic Director Mode [10.3.11](configuring-oracle-connection-manager.md)
+  - Transport Layer Security [10.2.1.1](configuring-oracle-connection-manager.md), [10.3.10](configuring-oracle-connection-manager.md)
+- configuring
+  - access control [10.2.1.2](configuring-oracle-connection-manager.md), [12.4](configuring-profiles.md)
+  - client
+    - Exadirect [14.6.3](optimizing-performance.md)
+  - clients
+    - client load balancing [13.1.2](enabling-advanced-features.md)
+    - connect-time failover [2.6.1](identifying-and-accessing-database.md), [13.1.2](enabling-advanced-features.md)
+    - default domains [12.3.1](configuring-profiles.md)
+    - local naming [8.2.2](configuring-naming-methods.md)
+    - naming methods in profile [12.3.2](configuring-profiles.md)
+    - network service names [6.6](quick-start-oracle-net-services.md)
+    - Transparent Application Failover (TAF) [2.6.2](identifying-and-accessing-database.md)
+  - connection load balancing [13.2](enabling-advanced-features.md)
+  - connection requests in a profile [12.3.3](configuring-profiles.md)
+  - connect-request timeouts [14.7](optimizing-performance.md)
+  - database client
+    - Exadirect [14.6.3](optimizing-performance.md)
+  - database servers
+    - access control [12.4](configuring-profiles.md)
+    - connect-request timeouts [14.7](optimizing-performance.md)
+    - Exadirect [14.6.2](optimizing-performance.md)
+    - session data unit (SDU) [14.5.2](optimizing-performance.md), [14.5.3](optimizing-performance.md)
+    - shared server [11.1](configuring-shared-server-architecture.md)
+  - directory naming [8.3](configuring-naming-methods.md)
+  - Exadirect protocol [14.6](optimizing-performance.md)
+  - external naming [8.4](configuring-naming-methods.md)
+  - external procedure connections [13.6.1](enabling-advanced-features.md)
+  - Heterogeneous Services connections [13.6.2](enabling-advanced-features.md), [13.6.2.1](enabling-advanced-features.md)
+  - instance role [13.4](enabling-advanced-features.md)
+  - listeners [9](configuring-and-administering-oracle-net-listener.md)
+    - connect-request timeouts [14.7](optimizing-performance.md)
+    - directory naming [8.3](configuring-naming-methods.md)
+    - external procedures [13.6.1.1.1](enabling-advanced-features.md)
+    - local naming [8.2.2](configuring-naming-methods.md)
+    - queue size [9.4.2](configuring-and-administering-oracle-net-listener.md)
+  - local naming [8.2](configuring-naming-methods.md)
+  - multiple protocol addresses [13.1.1](enabling-advanced-features.md)
+  - naming methods [8](configuring-naming-methods.md)
+  - network domain, default [12.3.1](configuring-profiles.md)
+  - network service aliases [8.3](configuring-naming-methods.md)
+  - network service names
+    - directory naming [8.3](configuring-naming-methods.md)
+    - external naming [8.4](configuring-naming-methods.md)
+    - local naming [8.2.2](configuring-naming-methods.md)
+  - Oracle Advanced Security [12.7](configuring-profiles.md)
+  - Oracle Rdb database connections [13.6.3](enabling-advanced-features.md)
+  - primary and secondary instances [13.4](enabling-advanced-features.md)
+  - protocol addresses [9.4.1](configuring-and-administering-oracle-net-listener.md)
+  - quick reference [7.4](managing-oracle-net-services.md)
+  - SDP protocol [14.5](optimizing-performance.md)
+  - servers
+    - connect-request timeouts [14.7](optimizing-performance.md)
+    - Exadirect [14.6.2](optimizing-performance.md)
+    - session data unit (SDU) [14.5.2](optimizing-performance.md), [14.5.3](optimizing-performance.md)
+    - shared server [11.1](configuring-shared-server-architecture.md)
+  - service registration [10.2.3.1](configuring-oracle-connection-manager.md), [10.3.5](configuring-oracle-connection-manager.md)
+  - session data unit (SDU) size [13.1.3](enabling-advanced-features.md)
+  - session multiplexing [10.2.3.2](configuring-oracle-connection-manager.md)
+- connection broker [2.4.3](identifying-and-accessing-database.md)
+- connection load balancing [13.2](enabling-advanced-features.md)
+  - configuring
+    - dedicated server [13.2.2](enabling-advanced-features.md)
+    - shared server [13.2.1](enabling-advanced-features.md)
+  - described [2.6.4](identifying-and-accessing-database.md)
+  - service registration [9.1](configuring-and-administering-oracle-net-listener.md)
+- connections [2.3.3.2](identifying-and-accessing-database.md)
+  - adjusting listener queue size to avoid errors [1.1.4.1](introducing-oracle-net-services.md), [9.4.2](configuring-and-administering-oracle-net-listener.md)
+  - bequeath [2.4.2](identifying-and-accessing-database.md)
+  - concurrent, increasing number of [9.4.2](configuring-and-administering-oracle-net-listener.md)
+  - connect strings, entering [2.5.4](identifying-and-accessing-database.md)
+  - dedicated servers [12.3.3](configuring-profiles.md)
+  - directory naming [8.3](configuring-naming-methods.md)
+  - external procedures [13.6.1](enabling-advanced-features.md)
+  - Heterogeneous Services [13.6.2](enabling-advanced-features.md)
+  - local naming [8.2.2](configuring-naming-methods.md)
+  - NIS external naming [8.4](configuring-naming-methods.md)
+  - Oracle Connection Manager [12.3.3](configuring-profiles.md)
+  - Oracle Rdb databases [13.6.3](enabling-advanced-features.md)
+- CONNECTIONS (CON or CONN) attribute [11.1](configuring-shared-server-architecture.md)
+- Connection Time Out field in Oracle Net Manager [12.5](configuring-profiles.md)
+- connect-time failover
+  - and GLOBAL_DNAME parameter [13.5.1](enabling-advanced-features.md)
+  - configuring [13.1.2](enabling-advanced-features.md)
+  - service registration [9.1](configuring-and-administering-oracle-net-listener.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- database resident connection pooling [2.4.3](identifying-and-accessing-database.md)
+- database server configuration
+  - access control [12.4](configuring-profiles.md)
+  - allocating resources with shared server [11.1.1](configuring-shared-server-architecture.md)
+  - connect-request timeouts [14.7](optimizing-performance.md)
+  - local naming [8.2.2](configuring-naming-methods.md)
+  - log files [16.6.4.1](troubleshooting-oracle-net-services.md)
+  - loopback tests [16.2.1](troubleshooting-oracle-net-services.md)
+  - shared server [11.1](configuring-shared-server-architecture.md)
+  - trace files [16.7.2.3](troubleshooting-oracle-net-services.md)
+- data transfer, maximizing [1.1.4.2](introducing-oracle-net-services.md)
+- DBMS_SFW_ACL_ADMIN parameter [9.4.3](configuring-and-administering-oracle-net-listener.md)
+- dedicated connection [2.4.3](identifying-and-accessing-database.md)
+- dedicated server
+  - configuring [11.3](configuring-shared-server-architecture.md)
+- dedicated servers
+  - bequeathed sessions [2.4.2](identifying-and-accessing-database.md)
+  - connect descriptor configuration [2.3.3.2](identifying-and-accessing-database.md)
+  - defined [1.1.3](introducing-oracle-net-services.md)
+  - described [2.4.2](identifying-and-accessing-database.md), [5.5](understanding-oracle-net-architecture.md)
+  - difference with shared server [1.1.3](introducing-oracle-net-services.md)
+  - routing connections [12.3.3](configuring-profiles.md)
+- denial-of-service attacks [14.7](optimizing-performance.md)
+- DIAG_ADR_ENABLED_listener_name log parameter [16.6.4.2](troubleshooting-oracle-net-services.md)
+- DIAG_ADR_ENABLED log parameter [16.6.4.1](troubleshooting-oracle-net-services.md), [16.6.4.3](troubleshooting-oracle-net-services.md)
+- direct hand-off
+  - described [2.4.1](identifying-and-accessing-database.md)
+  - events in listener.log [16.6.8.3](troubleshooting-oracle-net-services.md)
+- directory configuration
+  - adding users to the OracleNetAdmins group [7.2.1](managing-oracle-net-services.md)
+- directory information tree (DIT), defined [3.2.1](managing-network-address-information.md)
+- directory naming [16.3.14](troubleshooting-oracle-net-services.md)
+  - advantages and disadvantages [2.5.2](identifying-and-accessing-database.md)
+  - architecture [3.2.1](managing-network-address-information.md)
+  - authentication methods
+    - native [3.2.6.2.1](managing-network-address-information.md)
+    - simple [3.2.6.2.1](managing-network-address-information.md)
+    - strong [3.2.6.2.1](managing-network-address-information.md)
+    - TLS [3.2.6.2.1](managing-network-address-information.md)
+  - configuring [8.3](configuring-naming-methods.md)
+  - connecting to database services [3.2.5](managing-network-address-information.md)
+  - connecting with [8.3](configuring-naming-methods.md)
+  - connections
+    - using the fully-qualified name of an entry [3.2.1.4](managing-network-address-information.md)
+    - using the relative name of an entry [3.2.1.3](managing-network-address-information.md)
+  - establishing a connection with [8.3](configuring-naming-methods.md)
+  - exporting
+    - network service names from a tnsnames.ora file [8.3.3](configuring-naming-methods.md)
+  - fully-qualified naming [3.2.1.4](managing-network-address-information.md)
+  - Java Database Connectivity (JDBC)
+    - OCI drivers [3.2.1.3](managing-network-address-information.md), [3.2.1.4](managing-network-address-information.md)
+    - Thin drivers [3.2.1.3](managing-network-address-information.md), [3.2.1.4](managing-network-address-information.md)
+  - Java Database Connectivity (JDBC) Thin drivers [3.2](managing-network-address-information.md), [3.2.1.4](managing-network-address-information.md)
+  - listener configuration for [8.3](configuring-naming-methods.md)
+  - migrating
+    - network service names from a tnsnames.ora file [8.3.3](configuring-naming-methods.md)
+  - object classes [3.2.6.3](managing-network-address-information.md)
+  - objects
+    - database services [3.2.1](managing-network-address-information.md)
+    - network service aliases [3.2.3](managing-network-address-information.md)
+    - network service names [3.2.1](managing-network-address-information.md)
+  - Oracle Context [3.2.2](managing-network-address-information.md)
+  - OracleContextAdmins group [3.2.4](managing-network-address-information.md), [3.2.6.2.2](managing-network-address-information.md)
+  - OracleDBCreators group [3.2.4](managing-network-address-information.md), [3.2.6.2.2](managing-network-address-information.md)
+  - OracleNetAdmins group [3.2.6.2.2](managing-network-address-information.md), [7.2.1](managing-oracle-net-services.md), [8.3.1](configuring-naming-methods.md)
+  - Oracle Net Manager [3.2.4](managing-network-address-information.md)
+  - Oracle schema [3.2.6.3](managing-network-address-information.md)
+  - overview [3.2](managing-network-address-information.md)
+  - recommended for [2.5.2](identifying-and-accessing-database.md)
+  - security [3.2.6.2](managing-network-address-information.md)
+  - troubleshooting [16.3.14](troubleshooting-oracle-net-services.md)
+  - with relative naming [3.2.1.3](managing-network-address-information.md)
+- Directory Server Migration Wizard [7.1.2.3.2](managing-oracle-net-services.md), [8.3.3](configuring-naming-methods.md)
+- directory servers
+  - attributes [3.2.1](managing-network-address-information.md)
+  - directory information tree (DIT) [3.2.1](managing-network-address-information.md)
+  - distinguished name (DN) [3.2.1](managing-network-address-information.md)
+  - entry [3.2.1](managing-network-address-information.md)
+  - Microsoft Active Directory [3.2.7](managing-network-address-information.md)
+  - Oracle Context [3.2.2](managing-network-address-information.md)
+  - overview [1.1.2.2](introducing-oracle-net-services.md)
+  - performance [3.2.6.1](managing-network-address-information.md)
+  - relative distinguished name (RDN) [3.2.1](managing-network-address-information.md)
+  - security [3.2.6.2](managing-network-address-information.md)
+- Directory Usage configuration option in Oracle Net Configuration Assistant [7.1.4](managing-oracle-net-services.md)
+- DISABLE_OOB networking parameter [12.5](configuring-profiles.md)
+- Disable Out-of-Band Break option in Oracle Net Manager [12.5](configuring-profiles.md)
+- dispatchers [1.1.3](introducing-oracle-net-services.md), [5.5.1](understanding-oracle-net-architecture.md)
+  - described [1.1.3](introducing-oracle-net-services.md), [2.4.1](identifying-and-accessing-database.md), [5.5.1](understanding-oracle-net-architecture.md)
+- DISPATCHERS (DIS or DISP) attribute [11.1](configuring-shared-server-architecture.md)
+- DISPATCHERS initialization parameter [11.1](configuring-shared-server-architecture.md)
+  - CONNECTIONS attribute [11.1](configuring-shared-server-architecture.md)
+  - DISPATCHERS attribute [11.1](configuring-shared-server-architecture.md)
+  - LISTENER attribute [9.2.2](configuring-and-administering-oracle-net-listener.md), [9.2.3](configuring-and-administering-oracle-net-listener.md), [11.1](configuring-shared-server-architecture.md)
+  - MULTIPLEX attribute [11.1](configuring-shared-server-architecture.md)
+  - SESSIONS attribute [11.1](configuring-shared-server-architecture.md)
+- DISPATCHERS parameter
+  - MULTIPLEX attribute [10.2.3.2](configuring-oracle-connection-manager.md)
+  - PROTOCOL attribute [10.2.3.2](configuring-oracle-connection-manager.md)
+- distinguished name (DN), defined [3.2.1](managing-network-address-information.md)
+- duties of a network administrator [7.4](managing-oracle-net-services.md)
+- dynamic registration [2.4.3](identifying-and-accessing-database.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- easy connect naming
+  - advantages and disadvantages [2.5.2](identifying-and-accessing-database.md)
+  - recommended for [2.5.2](identifying-and-accessing-database.md)
+  - syntax examples [8.1.3](configuring-naming-methods.md)
+- Easy Connect Naming Method [8.1.1](configuring-naming-methods.md)
+- Easy Connect Plus [8.1.2](configuring-naming-methods.md)
+- enabling
+  - external password store [10.3.3.1](configuring-oracle-connection-manager.md)
+- entry, defined [3.2.1](managing-network-address-information.md)
+- Environment field in Oracle Net Manager [13.6.1](enabling-advanced-features.md)
+- ENVS networking parameter [13.6.1](enabling-advanced-features.md)
+- error messages
+  - contacting Oracle Support Services [16.8](troubleshooting-oracle-net-services.md)
+  - in trace file [16.7.4.3](troubleshooting-oracle-net-services.md)
+  - ORA-12154 [16.3.2](troubleshooting-oracle-net-services.md)
+  - ORA-12170 [14.7](optimizing-performance.md), [16.3.3](troubleshooting-oracle-net-services.md)
+  - ORA-12514 [16.3.5](troubleshooting-oracle-net-services.md)
+  - ORA-12520 [16.3.6](troubleshooting-oracle-net-services.md)
+  - ORA-12521 [16.3.7](troubleshooting-oracle-net-services.md)
+  - ORA-12525 [14.7](optimizing-performance.md), [16.3.8](troubleshooting-oracle-net-services.md)
+  - ORA-12526 [5.4](understanding-oracle-net-architecture.md)
+  - ORA-12527 [5.4](understanding-oracle-net-architecture.md)
+  - ORA-12528 [5.4](understanding-oracle-net-architecture.md)
+  - ORA-12533 [16.3.9](troubleshooting-oracle-net-services.md)
+  - ORA-12535 [12.5](configuring-profiles.md)
+  - ORA-12547 [14.7](optimizing-performance.md)
+  - ORA-12608 [12.5](configuring-profiles.md)
+  - ORA-12609 [12.5](configuring-profiles.md)
+  - ORA-12637 [14.7](optimizing-performance.md)
+  - using log file to track [16.6.7](troubleshooting-oracle-net-services.md)
+- error stack
+  - described [16.6.1](troubleshooting-oracle-net-services.md)
+  - entries in log files [16.6.7](troubleshooting-oracle-net-services.md)
+- EVENT_GROUP log parameter [16.6.4.3](troubleshooting-oracle-net-services.md)
+- Exadirect protocol
+  - configuring [14.6](optimizing-performance.md)
+- exporting
+  - network service names from a tnsnames.ora file to a directory [8.3.3](configuring-naming-methods.md)
+- external naming
+  - advantages and disadvantages [2.5.2](identifying-and-accessing-database.md)
+  - configuring [8.4](configuring-naming-methods.md)
+  - network information service [2.5.2](identifying-and-accessing-database.md)
+  - NIS [12.3.2](configuring-profiles.md)
+  - recommended for [2.5.2](identifying-and-accessing-database.md)
+- external password store
+  - enabling [10.3.3.1](configuring-oracle-connection-manager.md)
+- external procedures
+  - configuring connections to [13.6.1](enabling-advanced-features.md)
+  - described [13.6.1](enabling-advanced-features.md)
+  - extproc agent [13.6.1](enabling-advanced-features.md)
+- EXTPROC_DLLS environment variable [13.6.1](enabling-advanced-features.md)
+- extproc agent [13.6.1](enabling-advanced-features.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- failover
+  - connect-time [2.6.1](identifying-and-accessing-database.md), [13.1.2](enabling-advanced-features.md)
+  - Transparent Application Failover (TAF) [2.6.2](identifying-and-accessing-database.md), [13.3](enabling-advanced-features.md)
+- FAILOVER_MODE networking parameter [13.3](enabling-advanced-features.md), [13.3.3](enabling-advanced-features.md)
+- FAILOVER networking parameter [13.1.2](enabling-advanced-features.md), [13.2.2](enabling-advanced-features.md)
+- firewall
+  - firewall access control [1.1.5.1](introducing-oracle-net-services.md)
+  - FIREWALL parameter [9.4.3](configuring-and-administering-oracle-net-listener.md)
+- FTP presentation [4.3](understanding-communication-layers.md)
+  - dedicated server configuration [5.5.2](understanding-oracle-net-architecture.md)
+  - shared server configuration [5.5.1](understanding-oracle-net-architecture.md)
+- FTP protocol [1.1.1.2.2](introducing-oracle-net-services.md)
+- fully-qualified naming
+  - Java Database Connectivity (JDBC)
+    - OCI drivers [3.2.1.3](managing-network-address-information.md), [3.2.1.4](managing-network-address-information.md)
+    - Thin drivers [3.2.1.4](managing-network-address-information.md)
+  - with directory naming [3.2.1.4](managing-network-address-information.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- GLOBAL_NAME networking parameter [13.1.3](enabling-advanced-features.md), [13.6.3](enabling-advanced-features.md)
+- global database name
+  - configuring on the listener [9.2.1](configuring-and-administering-oracle-net-listener.md)
+  - defined [2.3.1](identifying-and-accessing-database.md)
+  - described [9.2.1](configuring-and-administering-oracle-net-listener.md)
+- Global Database Name field in Oracle Net Manager [13.1.3](enabling-advanced-features.md), [13.6.3](enabling-advanced-features.md)
+
+------------------------------------------------------------------------
+
+## H
+
+- Heterogeneous Services
+  - configuring connections to [13.6.2](enabling-advanced-features.md)
+  - described [13.6.2](enabling-advanced-features.md)
+- host naming
+  - requirements [8.1.4](configuring-naming-methods.md)
+- HS networking parameter [13.1.3](enabling-advanced-features.md)
+- HTTP presentation [4.3](understanding-communication-layers.md)
+  - dedicated server configuration [5.5.2](understanding-oracle-net-architecture.md)
+  - shared server configuration [5.5.1](understanding-oracle-net-architecture.md)
+- HTTP protocol [1.1.1.2](introducing-oracle-net-services.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- INBOUND_CONNECT_TIMEPUT_listener_name networking parameter [14.7](optimizing-performance.md)
+- InfiniBand network communication
+  - configuring Exadirect support [14.6](optimizing-performance.md)
+  - configuring SDP protocol support [14.5](optimizing-performance.md)
+- initialization parameter file
+  - DISPATCHERS parameter [11.1](configuring-shared-server-architecture.md)
+  - LOCAL_LISTENER parameter [9.2.2](configuring-and-administering-oracle-net-listener.md), [9.4.1.1](configuring-and-administering-oracle-net-listener.md)
+  - REMOTE_LISTENER parameter [9.2.3](configuring-and-administering-oracle-net-listener.md), [9.2.4](configuring-and-administering-oracle-net-listener.md)
+  - SERVICE_NAMES parameter [2.2](identifying-and-accessing-database.md), [2.3.1](identifying-and-accessing-database.md)
+- installation
+  - default configuration
+    - listeners [9.3](configuring-and-administering-oracle-net-listener.md)
+    - local naming [8.2.1](configuring-naming-methods.md)
+    - profiles [12.2](configuring-profiles.md)
+- INSTANCE_NAME networking parameter [2.3.1](identifying-and-accessing-database.md), [13.1.3](enabling-advanced-features.md), [13.4](enabling-advanced-features.md)
+- Instance Name field in Oracle Net Manager [13.1.3](enabling-advanced-features.md)
+- instance role configuration [13.4](enabling-advanced-features.md)
+  - connections in TAF [13.4](enabling-advanced-features.md)
+  - connections to primary and secondary instances [13.4](enabling-advanced-features.md)
+  - connections to specific instances [13.4](enabling-advanced-features.md)
+- IPv6
+  - addresses [4.4.1.1](understanding-communication-layers.md), [4.4.1.1.2](understanding-communication-layers.md)
+  - configurations [4.4.1.2](understanding-communication-layers.md)
+  - connect descriptors [2.3.1.1](identifying-and-accessing-database.md)
+  - network protocol [4.1.1.4](understanding-communication-layers.md)
+  - Oracle Database components [4.4.1.4](understanding-communication-layers.md)
+  - TCP/IP protocol [4.4.1](understanding-communication-layers.md)
+
+------------------------------------------------------------------------
+
+## J
+
+- Java Database Connectivity (JDBC)
+  - drivers [1.1.1.1.1](introducing-oracle-net-services.md)
+  - OCI drivers [4.2](understanding-communication-layers.md)
+    - fully-qualified naming support [3.2.1.3](managing-network-address-information.md), [3.2.1.4](managing-network-address-information.md)
+    - relative naming support [3.2.1.3](managing-network-address-information.md)
+  - Thin drivers [4.2](understanding-communication-layers.md)
+    - directory naming support [3.2](managing-network-address-information.md), [3.2.1.4](managing-network-address-information.md)
+    - fully-qualified naming support [3.2.1.4](managing-network-address-information.md)
+    - relative naming support [3.2.1.3](managing-network-address-information.md)
+- JavaNet [4.2](understanding-communication-layers.md)
+- JavaNet layer [1.1.1.2.2](introducing-oracle-net-services.md)
+- JavaTTC [4.2](understanding-communication-layers.md)
+- JDBC
+  - See: Java Database Connectivity (JDBC)
+
+------------------------------------------------------------------------
+
+## K
+
+- key-based routing
+  - configuring [14.8.2](optimizing-performance.md)
+  - database requests [14.8.1](optimizing-performance.md)
+
+------------------------------------------------------------------------
+
+## L
+
+- listener.log file [16.6.2](troubleshooting-oracle-net-services.md), [16.6.3](troubleshooting-oracle-net-services.md)
+- listener.ora file
+  - log parameters
+    - ADR_BASE_listener_name [16.6.4.2](troubleshooting-oracle-net-services.md)
+    - DIAG_ADR_ENABLED_listener_name [16.6.4.2](troubleshooting-oracle-net-services.md)
+    - LOG_DIRECTORY_listener_name [16.6.4.2](troubleshooting-oracle-net-services.md)
+    - LOG_FILE_listener_name [16.6.4.2](troubleshooting-oracle-net-services.md)
+  - parameters
+    - ENVS [13.6.1](enabling-advanced-features.md)
+    - INBOUND_CONNECT_TIMEOUT_listener_name [14.7](optimizing-performance.md)
+    - ORACLE_HOME [13.6.1](enabling-advanced-features.md), [13.6.2.1](enabling-advanced-features.md)
+    - PROGRAM [13.6.1](enabling-advanced-features.md), [13.6.2.1](enabling-advanced-features.md)
+    - SID_NAME [13.6.1](enabling-advanced-features.md), [13.6.2.1](enabling-advanced-features.md)
+  - trace parameters
+    - TRACE_DIRECTORY_listener_name [16.7.2.2](troubleshooting-oracle-net-services.md)
+    - TRACE_FILE_listener_name [16.7.2.2](troubleshooting-oracle-net-services.md)
+    - TRACE_FILEAGE_listener_name [16.7.2.2](troubleshooting-oracle-net-services.md)
+    - TRACE_FILEAGE_SERVER [16.7.2.2](troubleshooting-oracle-net-services.md)
+    - TRACE_FILELEN_listener_name [16.7.2.2](troubleshooting-oracle-net-services.md)
+    - TRACE_FILENO_listener_name [16.7.2.2](troubleshooting-oracle-net-services.md)
+    - TRACE_LEVEL_listener_name [16.7.2.2](troubleshooting-oracle-net-services.md)
+    - TRACE_TIMESTAMP_listener_name [16.7.2.2](troubleshooting-oracle-net-services.md)
+- listener.trc file [16.7.1](troubleshooting-oracle-net-services.md)
+- LISTENER (LIS or LIST) attribute [9.2.2](configuring-and-administering-oracle-net-listener.md), [9.2.3](configuring-and-administering-oracle-net-listener.md), [11.1](configuring-shared-server-architecture.md)
+- Listener configuration option in Oracle Net Configuration Assistant [7.1.4](managing-oracle-net-services.md)
+- Listener Control utility
+  - commands
+    - SERVICES [9.5.4](configuring-and-administering-oracle-net-listener.md)
+    - STATUS [9.5.3.1](configuring-and-administering-oracle-net-listener.md)
+  - starting a listener [9.5.1.1](configuring-and-administering-oracle-net-listener.md)
+  - stopping a listener [9.5.1.1](configuring-and-administering-oracle-net-listener.md)
+  - using [7.3](managing-oracle-net-services.md)
+- listener redirects [9.6](configuring-and-administering-oracle-net-listener.md)
+- listeners [2.3.2](identifying-and-accessing-database.md), [13.6.2.1](enabling-advanced-features.md)
+  - adjusting queue size for [9.4.2](configuring-and-administering-oracle-net-listener.md)
+  - auto-starting [9.5.1](configuring-and-administering-oracle-net-listener.md)
+  - client load balancing [2.6.3](identifying-and-accessing-database.md)
+  - configuring [9](configuring-and-administering-oracle-net-listener.md)
+    - address list [13.1.1](enabling-advanced-features.md)
+    - directory naming method [8.3](configuring-naming-methods.md)
+    - external procedures [13.6.1.1.1](enabling-advanced-features.md)
+    - global database name [9.2.1](configuring-and-administering-oracle-net-listener.md)
+    - local naming method [8.2.2](configuring-naming-methods.md)
+    - nondefault address [9.2.2](configuring-and-administering-oracle-net-listener.md)
+    - protocol addresses [9.4.1](configuring-and-administering-oracle-net-listener.md)
+  - connection load balancing [2.6.4](identifying-and-accessing-database.md), [13.2](enabling-advanced-features.md)
+  - connect-time failover [2.6.1](identifying-and-accessing-database.md)
+  - default address [9.2.2](configuring-and-administering-oracle-net-listener.md)
+  - default configuration [9.3](configuring-and-administering-oracle-net-listener.md)
+  - direct hand-off [2.4.1](identifying-and-accessing-database.md)
+  - handling concurrent connections [9.4.2](configuring-and-administering-oracle-net-listener.md)
+  - increasing queue size [9.4.2](configuring-and-administering-oracle-net-listener.md)
+  - log files [9.5.5](configuring-and-administering-oracle-net-listener.md), [16.6.4.2](troubleshooting-oracle-net-services.md), [16.6.8](troubleshooting-oracle-net-services.md)
+    - audit trail [16.6.8.1.1](troubleshooting-oracle-net-services.md)
+    - direct hand-off event information [16.6.8.3](troubleshooting-oracle-net-services.md)
+    - service registration event information [16.6.8.2.1](troubleshooting-oracle-net-services.md)
+  - monitoring [9.5.3.1](configuring-and-administering-oracle-net-listener.md), [9.5.4](configuring-and-administering-oracle-net-listener.md), [9.5.5](configuring-and-administering-oracle-net-listener.md)
+  - multiple addresses [13.1.1](enabling-advanced-features.md)
+  - Oracle Net Listener [1.3.2](introducing-oracle-net-services.md)
+  - queue size [1.1.4.1](introducing-oracle-net-services.md)
+  - redirect connections [2.4.1](identifying-and-accessing-database.md)
+  - security
+    - connect-request timeouts [14.7](optimizing-performance.md)
+  - trace files [16.7.2.2](troubleshooting-oracle-net-services.md)
+  - Transparent Application Failover (TAF) [2.6.2](identifying-and-accessing-database.md)
+- LOAD_BALANCE networking parameter [13.1.2](enabling-advanced-features.md)
+- load balancing
+  - client [2.6.3](identifying-and-accessing-database.md)
+  - connection [2.6.4](identifying-and-accessing-database.md), [13.2](enabling-advanced-features.md)
+- LOCAL_LISTENER initialization parameter [9.2.2](configuring-and-administering-oracle-net-listener.md), [9.4.1.1](configuring-and-administering-oracle-net-listener.md), [11.1](configuring-shared-server-architecture.md)
+- LOCAL_REGISTRATION_ADDRESS_listener_name parameter [9.4.3](configuring-and-administering-oracle-net-listener.md)
+- LOCAL environment variable [2.5.4](identifying-and-accessing-database.md)
+- local naming
+  - advantages and disadvantages [2.5.2](identifying-and-accessing-database.md)
+  - client configuration [8.2.2](configuring-naming-methods.md)
+  - configuring [8.2](configuring-naming-methods.md)
+  - connecting with [8.2.2](configuring-naming-methods.md)
+  - database server configuration [8.2.2](configuring-naming-methods.md)
+  - default configuration [8.2.1](configuring-naming-methods.md)
+  - establishing a connection with [8.2.2](configuring-naming-methods.md)
+  - listener configuration for [8.2.2](configuring-naming-methods.md)
+  - recommended for [2.5.2](identifying-and-accessing-database.md)
+- Local Net Service Name configuration option in Oracle Net Configuration Assistant [7.1.4](managing-oracle-net-services.md)
+- LOCAL registry entry [2.5.4](identifying-and-accessing-database.md)
+- LOG_DIRECTORY_CLIENT log parameter [16.6.4.1](troubleshooting-oracle-net-services.md)
+- LOG_DIRECTORY_listener_name log parameter [16.6.4.2](troubleshooting-oracle-net-services.md)
+- LOG_DIRECTORY_SERVER log parameter [16.6.4.1](troubleshooting-oracle-net-services.md)
+- LOG_DIRECTORY log parameter [16.6.4.3](troubleshooting-oracle-net-services.md)
+- LOG_FILE_CLIENT log parameter [16.6.4.1](troubleshooting-oracle-net-services.md)
+- LOG_FILE_listener_name log parameter [16.6.4.2](troubleshooting-oracle-net-services.md)
+- LOG_FILE_SERVER log parameter [16.6.4.1](troubleshooting-oracle-net-services.md)
+- LOG_LEVEL log parameter [16.6.4.3](troubleshooting-oracle-net-services.md)
+- log files [9.5.5](configuring-and-administering-oracle-net-listener.md), [16.6.4.1](troubleshooting-oracle-net-services.md), [16.6.8](troubleshooting-oracle-net-services.md)
+  - default names for [16.6.2](troubleshooting-oracle-net-services.md)
+  - listener.log [16.6.2](troubleshooting-oracle-net-services.md), [16.6.4.2](troubleshooting-oracle-net-services.md)
+  - Oracle Connection Manager [16.6.9](troubleshooting-oracle-net-services.md)
+  - segmentation [16.6.3](troubleshooting-oracle-net-services.md)
+  - sqlnet.log [16.6.2](troubleshooting-oracle-net-services.md)
+  - sqlnet.log for clients and database servers [16.6.4.1](troubleshooting-oracle-net-services.md)
+  - using to track errors [16.6.7](troubleshooting-oracle-net-services.md)
+- Logon Authentication Protocol Version field in Oracle Net Manager [12.5](configuring-profiles.md)
+- log parameters
+  - cman.ora
+    - ADR_BASE [16.6.4.3](troubleshooting-oracle-net-services.md)
+    - DIAG_ADR_ENABLED [16.6.4.3](troubleshooting-oracle-net-services.md)
+    - EVENT_GROUP [16.6.4.3](troubleshooting-oracle-net-services.md)
+    - LOG_DIRECTORY [16.6.4.3](troubleshooting-oracle-net-services.md)
+    - LOG_LEVEL [16.6.4.3](troubleshooting-oracle-net-services.md)
+  - listener.ora
+    - ADR_BASE_listener_name [16.6.4.2](troubleshooting-oracle-net-services.md)
+    - DIAG_ADR_ENABLED_listener_name [16.6.4.2](troubleshooting-oracle-net-services.md)
+    - LOG_DIRECTORY_listener_name [16.6.4.2](troubleshooting-oracle-net-services.md)
+    - LOG_FILE_listener_name [16.6.4.2](troubleshooting-oracle-net-services.md)
+  - sqlnet.ora
+    - ADR_BASE [16.6.4.1](troubleshooting-oracle-net-services.md)
+    - DIAG_ADR_ENABLED [16.6.4.1](troubleshooting-oracle-net-services.md)
+    - LOG_DIRECTORY_CLIENT [16.6.4.1](troubleshooting-oracle-net-services.md)
+    - LOG_DIRECTORY_SERVER [16.6.4.1](troubleshooting-oracle-net-services.md)
+    - LOG_FILE_CLIENT [16.6.4.1](troubleshooting-oracle-net-services.md)
+    - LOG_FILE_SERVER [16.6.4.1](troubleshooting-oracle-net-services.md)
+- loopback test [16.2.1](troubleshooting-oracle-net-services.md)
+- LREG process [9.1](configuring-and-administering-oracle-net-listener.md), [10.2.3.1](configuring-oracle-connection-manager.md), [16.6.8.2.1](troubleshooting-oracle-net-services.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- maximizing data transfer, by adjusting SDU size [1.1.4.2](introducing-oracle-net-services.md)
+- METHOD networking parameter [13.3.3](enabling-advanced-features.md)
+- Microsoft Active Directory [3.2.7](managing-network-address-information.md)
+- migrating
+  - network service names from a tnsnames.ora file to a directory [8.3.3](configuring-naming-methods.md)
+- multiple addresses [13.1.2](enabling-advanced-features.md)
+  - configuring client load balancing [13.1.2](enabling-advanced-features.md)
+  - configuring connect-time failover [13.1.2](enabling-advanced-features.md)
+- multiple protocol addresses [13.1.1](enabling-advanced-features.md)
+- MULTIPLEX (MUL or MULT) attribute [10.2.3.2](configuring-oracle-connection-manager.md), [11.1](configuring-shared-server-architecture.md)
+- mutual TLS (mTLS) authentication [4.4.2](understanding-communication-layers.md)
+
+------------------------------------------------------------------------
+
+## N
+
+- Named Pipes protocol
+  - described [4.4.3](understanding-communication-layers.md)
+- NAMES.DEFAULT_DOMAIN networking parameter [12.3.1.1](configuring-profiles.md)
+- NAMES.DIRECTORY_PATH networking parameter [12.3.2](configuring-profiles.md)
+  - ezconnect [12.3.2](configuring-profiles.md)
+  - hostname [12.3.2](configuring-profiles.md)
+  - ldap [12.3.2](configuring-profiles.md)
+  - nis [12.3.2](configuring-profiles.md)
+  - tnsnames [12.3.2](configuring-profiles.md)
+- naming method [12.3.2](configuring-profiles.md)
+- naming methods [2.5.2](identifying-and-accessing-database.md)
+  - described [2.5.2](identifying-and-accessing-database.md)
+  - directory naming [8.3](configuring-naming-methods.md)
+  - external naming [8.4](configuring-naming-methods.md)
+  - local naming [8.2](configuring-naming-methods.md)
+  - overview [1.1.2.2](introducing-oracle-net-services.md)
+- Naming Methods configuration option in Oracle Net Configuration Assistant [7.1.4](managing-oracle-net-services.md)
+- net service names
+  - testing with TNSPING [15.2](testing-connections.md)
+- Net Service Name Wizard [7.1.2.3.1](managing-oracle-net-services.md), [8.2.2](configuring-naming-methods.md), [10.2.2](configuring-oracle-connection-manager.md)
+- network administrator duties [7.4](managing-oracle-net-services.md)
+- Network Authentication (NA)
+  - layer in error stacks [16.6.1](troubleshooting-oracle-net-services.md)
+- network availability, determining [6.2](quick-start-oracle-net-services.md)
+- network domain, default configuring [12.3.1](configuring-profiles.md)
+- network information service
+  - See: NIS
+- networking planning
+  - internal networks
+    - availability [1.1.4.5](introducing-oracle-net-services.md)
+    - client load balancing [1.1.4.5](introducing-oracle-net-services.md)
+    - connect-time failover [1.1.4.5](introducing-oracle-net-services.md)
+- Network Interface (NI)
+  - layer in error stacks [16.6.1](troubleshooting-oracle-net-services.md)
+- network performance, improving
+  - by adjusting SDU size [1.1.4.2](introducing-oracle-net-services.md)
+  - client load balancing [2.6.3](identifying-and-accessing-database.md)
+  - listener queue size [1.1.4.1](introducing-oracle-net-services.md)
+- network planning
+  - session data unit (SDU) size [1.1.4.2](introducing-oracle-net-services.md)
+- network service aliases
+  - configuring [8.3](configuring-naming-methods.md)
+  - described [3.2.3](managing-network-address-information.md)
+  - directory naming [3.2.3](managing-network-address-information.md)
+  - uses of [3.2.3](managing-network-address-information.md)
+- networkservice names
+  - adding an address [13.1.1](enabling-advanced-features.md)
+- network service names
+  - configuring [6.6](quick-start-oracle-net-services.md)
+  - directory naming [8.3](configuring-naming-methods.md)
+  - external naming [8.4](configuring-naming-methods.md)
+  - local naming [8.2.2](configuring-naming-methods.md)
+  - multiple addresses [13.1.1](enabling-advanced-features.md), [13.1.2](enabling-advanced-features.md)
+  - prioritizing naming methods [12.3.2](configuring-profiles.md)
+  - testing with TNSPING [15.2](testing-connections.md)
+- Network Session (NS), layer in error stacks [16.6.1](troubleshooting-oracle-net-services.md)
+- Network Transport (NT), layer in error stacks [16.6.1](troubleshooting-oracle-net-services.md)
+- NIS external naming [2.5.2](identifying-and-accessing-database.md), [12.3.2](configuring-profiles.md)
+  - configuring [8.4](configuring-naming-methods.md)
+  - connecting with [8.4](configuring-naming-methods.md)
+  - establishing a connection with [8.4](configuring-naming-methods.md)
+  - maps [8.4](configuring-naming-methods.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- object classes
+  - described [3.2.6.3](managing-network-address-information.md)
+- Open Systems Interconnection (OSI)
+  - described [4.1](understanding-communication-layers.md)
+- ORA-12154 error message [16.3.2](troubleshooting-oracle-net-services.md)
+- ORA-12170 error message [14.7](optimizing-performance.md), [16.3.3](troubleshooting-oracle-net-services.md)
+- ORA-12514 error message [16.3.5](troubleshooting-oracle-net-services.md)
+- ORA-12520 error message [16.3.6](troubleshooting-oracle-net-services.md)
+- ORA-12521 error message [16.3.7](troubleshooting-oracle-net-services.md)
+- ORA-12525 error message [14.7](optimizing-performance.md), [16.3.8](troubleshooting-oracle-net-services.md)
+- ORA-12526 error messages [5.4](understanding-oracle-net-architecture.md)
+- ORA-12527 error messages [5.4](understanding-oracle-net-architecture.md)
+- ORA-12528 error messages [5.4](understanding-oracle-net-architecture.md)
+- ORA-12533 error message [16.3.9](troubleshooting-oracle-net-services.md)
+- ORA-12535 error message [12.5](configuring-profiles.md)
+- ORA-12547 error message [14.7](optimizing-performance.md)
+- ORA-12637 error message [14.7](optimizing-performance.md)
+- ORACLE_HOME networking parameter [13.6.1](enabling-advanced-features.md), [13.6.2.1](enabling-advanced-features.md)
+- Oracle9i Real Application Clusters
+  - connect-time failover [13.1.2](enabling-advanced-features.md)
+  - FAILOVER_MODE networking parameter [13.3.3](enabling-advanced-features.md)
+  - FAILOVER networking parameter [13.1.2](enabling-advanced-features.md)
+  - Transparent Application Failover (TAF) [13.3](enabling-advanced-features.md)
+- Oracle Advanced Security
+  - configuring with Oracle Net Manager [12.7](configuring-profiles.md)
+  - overview [1.3.5](introducing-oracle-net-services.md)
+- Oracle Call Interface (OCI) layer, described [4.1.1.1](understanding-communication-layers.md)
+- Oracle Clusterware
+  - notification information [16.6.8.5](troubleshooting-oracle-net-services.md)
+- Oracle Connection Manager
+  - architecture [5.6](understanding-oracle-net-architecture.md)
+  - CMADMIN process [5.6](understanding-oracle-net-architecture.md)
+  - configure
+    - Transport Layer Security [10.2.1.1](configuring-oracle-connection-manager.md)
+  - configuring
+    - access control [10.2.1.2](configuring-oracle-connection-manager.md)
+    - clients [10.2.2](configuring-oracle-connection-manager.md)
+    - database server [10.2.3](configuring-oracle-connection-manager.md), [10.2.3.2](configuring-oracle-connection-manager.md)
+    - Oracle Connection Manager computer [10.2.1](configuring-oracle-connection-manager.md)
+    - protocol address for Oracle Connection Manager [10.2.2](configuring-oracle-connection-manager.md)
+    - service registration [10.2.3.1](configuring-oracle-connection-manager.md)
+    - session multiplexing [10.2.3.2](configuring-oracle-connection-manager.md)
+  - gateway process [5.6](understanding-oracle-net-architecture.md)
+  - listener [5.6](understanding-oracle-net-architecture.md)
+  - log files [16.6.4.3](troubleshooting-oracle-net-services.md)
+    - names [16.6.2](troubleshooting-oracle-net-services.md)
+    - understanding [16.6.9](troubleshooting-oracle-net-services.md)
+  - overview [1.3.3](introducing-oracle-net-services.md)
+  - routing connections [12.3.3](configuring-profiles.md)
+  - session multiplexing [5.6](understanding-oracle-net-architecture.md)
+  - trace files [16.7.2.1](troubleshooting-oracle-net-services.md)
+    - configuring [16.7.2.4](troubleshooting-oracle-net-services.md)
+    - names [16.7.1](troubleshooting-oracle-net-services.md)
+- Oracle Connection Manager Control utility
+  - commands
+    - ADMINISTER [6.4](quick-start-oracle-net-services.md)
+    - EXIT [6.4](quick-start-oracle-net-services.md)
+    - STARTUP [6.4](quick-start-oracle-net-services.md)
+  - using [10.5](configuring-oracle-connection-manager.md)
+- Oracle Connection Manager in Traffic Director Mode [10.3.1](configuring-oracle-connection-manager.md)
+  - configure
+    - Transport Layer Security [10.3.10](configuring-oracle-connection-manager.md)
+  - configuring [10.3](configuring-oracle-connection-manager.md)
+    - Oracle Connection Manager computer [10.3.2](configuring-oracle-connection-manager.md)
+    - service registration [10.3.5](configuring-oracle-connection-manager.md)
+  - configuring proxy resident connection pools [10.3.6](configuring-oracle-connection-manager.md)
+  - enabling
+    - external password store [10.3.3.1](configuring-oracle-connection-manager.md)
+  - restrictions
+    - Oracle Connection Manager in Traffic Director Mode Restrictions [10.3.11](configuring-oracle-connection-manager.md)
+- Oracle Context
+  - defined [3.2.2](managing-network-address-information.md)
+- OracleContextAdmins group [3.2.4](managing-network-address-information.md), [3.2.6.2.2](managing-network-address-information.md)
+- OracleDBCreators group [3.2.4](managing-network-address-information.md), [3.2.6.2.2](managing-network-address-information.md)
+- OracleHOME_NAMECMan service [6.4](quick-start-oracle-net-services.md)
+- Oracle Home Directory field in Oracle Net Manager [13.6.1](enabling-advanced-features.md)
+- Oracle Net
+  - buffers [1.1.4.2](introducing-oracle-net-services.md), [1.1.4.3](introducing-oracle-net-services.md)
+  - defined [1.3.1](introducing-oracle-net-services.md)
+  - Oracle Net foundation layer [1.3.1.1](introducing-oracle-net-services.md)
+  - Oracle protocol support [1.3.1.2](introducing-oracle-net-services.md)
+  - overview [1.1](introducing-oracle-net-services.md)
+  - scalability features [1.1.3](introducing-oracle-net-services.md)
+  - shared server [1.1.3](introducing-oracle-net-services.md)
+  - understanding [1.1](introducing-oracle-net-services.md)
+- OracleNetAdmins group [3.2.6.2.2](managing-network-address-information.md), [7.2.1](managing-oracle-net-services.md), [8.3.1](configuring-naming-methods.md)
+- Oracle Net Configuration Assistant
+  - described [7.1.4](managing-oracle-net-services.md)
+  - Directory Usage configuration option [7.1.4](managing-oracle-net-services.md)
+  - listener configuration [9.3](configuring-and-administering-oracle-net-listener.md)
+  - Listener configuration option [7.1.4](managing-oracle-net-services.md)
+  - local naming method [8.2.2](configuring-naming-methods.md)
+  - Local Net Service Name configuration option [7.1.4](managing-oracle-net-services.md)
+  - Naming Methods configuration option [7.1.4](managing-oracle-net-services.md)
+  - network service names [8.2.2](configuring-naming-methods.md)
+  - OracleContextAdmins group [3.2.6.2.2](managing-network-address-information.md)
+  - OracleDBCreators group [3.2.4](managing-network-address-information.md), [3.2.6.2.2](managing-network-address-information.md)
+  - OracleNetAdmins group [3.2.6.2.2](managing-network-address-information.md)
+  - servers
+    - listener configuration [7.1.4](managing-oracle-net-services.md)
+  - starting [7.1.4](managing-oracle-net-services.md)
+- Oracle Net foundation layer [1.3.1.1](introducing-oracle-net-services.md), [4.1.1.3](understanding-communication-layers.md)
+- Oracle Net Listener
+  - See: listeners
+
+  <!-- -->
+
+  - described [1.3.2](introducing-oracle-net-services.md)
+- Oracle Net Manager
+  - adding addresses [13.1.1](enabling-advanced-features.md)
+  - Address List Options dialog box [13.1.2](enabling-advanced-features.md)
+  - clients
+    - client load balancing [13.1.2](enabling-advanced-features.md)
+    - connect-time failover [13.1.2](enabling-advanced-features.md)
+    - default network domains [12.3.1](configuring-profiles.md)
+    - local naming method [8.2.2](configuring-naming-methods.md)
+    - Oracle Connection Manager [10.2.2](configuring-oracle-connection-manager.md)
+  - described [7.1.2](managing-oracle-net-services.md)
+  - directory naming [3.2.4](managing-network-address-information.md)
+  - Directory Server Migration Wizard [8.3.3](configuring-naming-methods.md)
+  - external procedure connections [13.6.1](enabling-advanced-features.md)
+  - Heterogeneous Services connections [13.6.2](enabling-advanced-features.md)
+  - Instance Name field [13.1.3](enabling-advanced-features.md)
+  - listeners
+    - Environment field [13.6.1](enabling-advanced-features.md)
+    - Global Database Name field [13.1.3](enabling-advanced-features.md)
+    - Oracle Home Directory field [13.6.1](enabling-advanced-features.md)
+    - Oracle System Identifier field [13.6.1](enabling-advanced-features.md)
+    - Program Name field [13.6.1](enabling-advanced-features.md)
+    - protocol addresses [9.4.1](configuring-and-administering-oracle-net-listener.md)
+  - local naming method [8.2.2](configuring-naming-methods.md)
+  - multiple address options [13.1.2](enabling-advanced-features.md)
+  - navigating [7.1.2.2](managing-oracle-net-services.md)
+  - Net Service Name Wizard [8.2.2](configuring-naming-methods.md), [10.2.2](configuring-oracle-connection-manager.md)
+  - network service aliases [8.3](configuring-naming-methods.md)
+  - network service names [8.2.2](configuring-naming-methods.md)
+  - Oracle Rdb Database field [13.1.3](enabling-advanced-features.md)
+  - Oracle Rdb databases [13.6.3](enabling-advanced-features.md)
+    - Global Database Name field [13.6.3](enabling-advanced-features.md)
+    - Rdb Database field [13.6.3](enabling-advanced-features.md)
+    - Type of Service field [13.6.3](enabling-advanced-features.md)
+  - profiles [12.7](configuring-profiles.md)
+    - advanced options [12.5](configuring-profiles.md)
+    - Check TCP/IP client access rights option [12.4](configuring-profiles.md)
+    - Client Registration ID field [12.5](configuring-profiles.md)
+    - Clients allowed to access field [12.4](configuring-profiles.md)
+    - Clients excluded from access field [12.4](configuring-profiles.md)
+    - Connection Time Out field [12.5](configuring-profiles.md)
+    - Disable Out-of-Band Break option [12.5](configuring-profiles.md)
+    - Logon Authentication Protocol Version field [12.5](configuring-profiles.md)
+    - Receive operation Time Out field [12.5](configuring-profiles.md)
+    - Send operation Time Out field [12.5](configuring-profiles.md)
+    - TNS Time Out Value option [12.5](configuring-profiles.md)
+    - Total Receive Buffer field [12.5](configuring-profiles.md)
+    - Total Send Buffer field [12.5](configuring-profiles.md)
+    - Turn Off UNIX Signal Handling option [12.5](configuring-profiles.md)
+  - routing connection requests [12.3.3](configuring-profiles.md)
+  - session data unit (SDU) field in Oracle Net Manager [13.1.3](enabling-advanced-features.md)
+  - specifying naming methods [12.3.2](configuring-profiles.md)
+  - starting [7.1.2.1](managing-oracle-net-services.md)
+  - Type of Service field [13.1.3](enabling-advanced-features.md)
+  - Use for Heterogeneous Services option [13.1.3](enabling-advanced-features.md), [13.6.2.1](enabling-advanced-features.md)
+  - wizards [7.1.2.3](managing-oracle-net-services.md)
+- Oracle Net Services
+  - components
+    - Oracle Connection Manager [1.3.3](introducing-oracle-net-services.md)
+    - Oracle Net [1.3.1](introducing-oracle-net-services.md)
+    - Oracle Net Listener [1.3.2](introducing-oracle-net-services.md)
+  - described [1.3](introducing-oracle-net-services.md)
+- Oracle protocol support
+  - described [1.3.1.2](introducing-oracle-net-services.md), [4.1.1.4](understanding-communication-layers.md)
+  - Named Pipes [4.4.3](understanding-communication-layers.md)
+  - TCP/IP [4.4.1](understanding-communication-layers.md)
+  - TCP/IP with TLS [4.4.2](understanding-communication-layers.md)
+  - websocket protocol [4.4.6](understanding-communication-layers.md)
+- Oracle Rdb database
+  - configuring for connection to [13.6.3](enabling-advanced-features.md)
+  - described [13.6.3](enabling-advanced-features.md)
+- Oracle Rdb Database field in Oracle Net Manager [13.1.3](enabling-advanced-features.md)
+- Oracle Real Application Clusters
+  - connect-time failover [2.6.1](identifying-and-accessing-database.md)
+- Oracle schema
+  - described [3.2.6.3](managing-network-address-information.md)
+- Oracle Support Services
+  - contacting [16.8](troubleshooting-oracle-net-services.md)
+- Oracle System Identifier (SID) field in Oracle Net Manager [13.6.1](enabling-advanced-features.md)
+- OSI
+  - See: Open Systems Interconnect (OSI)
+
+------------------------------------------------------------------------
+
+## P
+
+- packets
+  - examining trace data [16.7.5.2](troubleshooting-oracle-net-services.md), [16.7.5.4](troubleshooting-oracle-net-services.md)
+  - types of [16.7.4.2](troubleshooting-oracle-net-services.md)
+- planning
+  - internal networks
+    - availability [1.1.4.5](introducing-oracle-net-services.md)
+    - connect-time failover [1.1.4.5](introducing-oracle-net-services.md)
+  - session data unit (SDU) size [1.1.4.2](introducing-oracle-net-services.md)
+- pooled servers [2.4.3](identifying-and-accessing-database.md)
+- port 1521
+  - if not using [9.2.2](configuring-and-administering-oracle-net-listener.md)
+- ports
+  - privileged [9.4.1.1](configuring-and-administering-oracle-net-listener.md)
+- presentation layer
+  - FTP [4.3](understanding-communication-layers.md)
+  - HTTP [4.3](understanding-communication-layers.md)
+  - JavaTTC [4.2](understanding-communication-layers.md)
+  - Two-Task Common (TTC) [4.1.1.2](understanding-communication-layers.md)
+  - WebDAV [4.3](understanding-communication-layers.md)
+- primary and secondary instances [13.4](enabling-advanced-features.md)
+- privileged ports [9.4.1.1](configuring-and-administering-oracle-net-listener.md)
+- profiles (sqlnet.ora)
+  - configuring
+    - advanced options [12.5](configuring-profiles.md)
+    - default domains [12.3.1](configuring-profiles.md)
+  - default configuration [12.2](configuring-profiles.md)
+  - naming methods, specifying [12.3.2](configuring-profiles.md)
+  - routing connection requests [12.3.3](configuring-profiles.md)
+- Program Name field in Oracle Net Manager [13.6.1](enabling-advanced-features.md)
+- PROGRAM networking parameter [13.6.1](enabling-advanced-features.md), [13.6.2.1](enabling-advanced-features.md)
+- PROTOCOL (PRO or PROT) attribute [10.2.3.2](configuring-oracle-connection-manager.md)
+- protocol address [2.3.2](identifying-and-accessing-database.md)
+- protocols
+  - FTP [1.1.1.2.2](introducing-oracle-net-services.md)
+  - HTTP [1.1.1.2](introducing-oracle-net-services.md), [1.1.1.2.2](introducing-oracle-net-services.md)
+  - Named Pipes [4.4.3](understanding-communication-layers.md)
+  - Oracle support for [1.3.1.2](introducing-oracle-net-services.md)
+  - TCP/IP [4.4.1](understanding-communication-layers.md)
+  - TCP/IP with TLS [4.4.2](understanding-communication-layers.md)
+  - WebDAV [1.1.1.2.2](introducing-oracle-net-services.md)
+  - websocket [4.4.6](understanding-communication-layers.md)
+- Proxy Authentication
+  - configuring
+    - Oracle Connection Manager in Traffic Director Mode [10.3.4](configuring-oracle-connection-manager.md)
+
+------------------------------------------------------------------------
+
+## Q
+
+- queue size [1.1.4.1](introducing-oracle-net-services.md), [9.4.2](configuring-and-administering-oracle-net-listener.md)
+- QUEUESIZE parameter [9.4.2](configuring-and-administering-oracle-net-listener.md)
+  - for adjusting listener queue size [1.1.4.1](introducing-oracle-net-services.md), [9.4.2](configuring-and-administering-oracle-net-listener.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- randomizing requests among listeners [2.6.3](identifying-and-accessing-database.md)
+- RDB_DATABASE networking parameter [13.1.3](enabling-advanced-features.md), [13.6.3](enabling-advanced-features.md)
+- Rdb Database field [13.6.3](enabling-advanced-features.md)
+- Receive operation Time field in Oracle Net Manager [12.5](configuring-profiles.md)
+- redirect connection [2.4.1](identifying-and-accessing-database.md)
+- relative distinguished name (RDN) [3.2.1](managing-network-address-information.md)
+- relative naming
+  - directory naming [3.2.1.3](managing-network-address-information.md)
+  - Java Database Connectivity (JDBC)
+    - OCI drivers [3.2.1.3](managing-network-address-information.md)
+    - Thin drivers [3.2.1.3](managing-network-address-information.md)
+- request queue [5.5.1](understanding-oracle-net-architecture.md)
+- response queue [5.5.1](understanding-oracle-net-architecture.md)
+- Restrictions on Connection Manager in Traffic Director Mode
+  - with Connection Manager in Traffic Director Mode [10.3.11](configuring-oracle-connection-manager.md)
+- routing
+  - key value [14.8.1](optimizing-performance.md)
+- routing connections [12.3.3](configuring-profiles.md)
+- RULE_LIST networking parameter [10.2.1.2](configuring-oracle-connection-manager.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- SDP protocol
+  - configuring [14.5](optimizing-performance.md)
+- security
+  - database server
+    - access control configuration [12.4](configuring-profiles.md)
+    - connect-request timeouts [14.7](optimizing-performance.md)
+  - listeners
+    - connect-request timeouts [14.7](optimizing-performance.md)
+  - managing Oracle Net Listener security [9.4.3](configuring-and-administering-oracle-net-listener.md)
+- Send operation Time field in Oracle Net Manager [12.5](configuring-profiles.md)
+- server configuration
+  - access control [12.4](configuring-profiles.md)
+  - allocating resources with shared server [11.1.1](configuring-shared-server-architecture.md)
+  - connect-request timeouts [14.7](optimizing-performance.md)
+  - local naming [8.2.2](configuring-naming-methods.md)
+  - log files [16.6.4.1](troubleshooting-oracle-net-services.md)
+  - loopback tests [16.2.1](troubleshooting-oracle-net-services.md)
+  - shared server [11.1](configuring-shared-server-architecture.md)
+  - trace files [16.7.2.3](troubleshooting-oracle-net-services.md)
+- SERVER networking parameter [2.3.3.2](identifying-and-accessing-database.md)
+- servers
+  - access control [12.4](configuring-profiles.md)
+- server troubleshooting [16.2.1](troubleshooting-oracle-net-services.md)
+- service_died listener log event [16.6.8.2.1](troubleshooting-oracle-net-services.md)
+- SERVICE_NAME networking parameter [2.3.1](identifying-and-accessing-database.md)
+- SERVICE_NAMES initialization parameter [2.2](identifying-and-accessing-database.md), [2.3.1](identifying-and-accessing-database.md)
+- service_register listener log event [16.6.8.2.1](troubleshooting-oracle-net-services.md)
+- service_update listener log event [16.6.8.2.1](troubleshooting-oracle-net-services.md)
+- service handlers
+  - dedicated servers [2.4.2](identifying-and-accessing-database.md), [5.5](understanding-oracle-net-architecture.md)
+  - dispatchers [2.4.1](identifying-and-accessing-database.md)
+- service name
+  - configuring [2.3.1](identifying-and-accessing-database.md)
+  - described [2.2](identifying-and-accessing-database.md)
+- service registration
+  - benefits [9.1](configuring-and-administering-oracle-net-listener.md)
+  - configuring [10.2.3.1](configuring-oracle-connection-manager.md), [10.3.5](configuring-oracle-connection-manager.md)
+  - connection load balancing [2.6.4](identifying-and-accessing-database.md), [9.1](configuring-and-administering-oracle-net-listener.md), [13.2](enabling-advanced-features.md)
+  - connect-time failover [9.1](configuring-and-administering-oracle-net-listener.md)
+  - defined [2.3.3](identifying-and-accessing-database.md)
+  - events in listener.log [16.6.8.2.1](troubleshooting-oracle-net-services.md)
+  - service_died listener log event [16.6.8.2.1](troubleshooting-oracle-net-services.md)
+  - service_register listener log event [16.6.8.2.1](troubleshooting-oracle-net-services.md)
+  - service_update listener log event [16.6.8.2.1](troubleshooting-oracle-net-services.md)
+- SERVICES command [9.5.4](configuring-and-administering-oracle-net-listener.md)
+  - of Listener Control utility [9.5.4](configuring-and-administering-oracle-net-listener.md)
+- session data unit (SDU) [1.1.4.2](introducing-oracle-net-services.md), [1.1.4.3](introducing-oracle-net-services.md), [13.1.3](enabling-advanced-features.md)
+  - adjusting to improve network performance [1.1.4.2](introducing-oracle-net-services.md)
+  - configuring [14.2](optimizing-performance.md)
+  - field in Oracle Net Manager [13.1.3](enabling-advanced-features.md)
+- session multiplexing [1.1.3](introducing-oracle-net-services.md), [5.6](understanding-oracle-net-architecture.md), [10.2.3.2](configuring-oracle-connection-manager.md)
+- SESSIONS (SES or SESS) attribute [11.1](configuring-shared-server-architecture.md)
+- shared server
+  - allocating resources [11.1.1](configuring-shared-server-architecture.md)
+  - compared with dedicated server [1.1.3](introducing-oracle-net-services.md)
+  - configuring [11.3](configuring-shared-server-architecture.md)
+  - connect descriptor configuration parameters [2.3.3.2](identifying-and-accessing-database.md)
+  - connection load balancing [2.6.4](identifying-and-accessing-database.md), [13.2](enabling-advanced-features.md)
+  - defined [1.1.3](introducing-oracle-net-services.md)
+  - described [5.5.1](understanding-oracle-net-architecture.md)
+  - dispatchers [1.1.3](introducing-oracle-net-services.md), [2.4.1](identifying-and-accessing-database.md), [5.5.1](understanding-oracle-net-architecture.md)
+  - request queue [5.5.1](understanding-oracle-net-architecture.md)
+  - response queue [5.5.1](understanding-oracle-net-architecture.md)
+  - virtual circuits [5.5.1](understanding-oracle-net-architecture.md)
+- SID_LIST_listener_name parameter
+  - external procedures [13.6.1.1.2](enabling-advanced-features.md)
+- SID_NAME networking parameter [13.6.1](enabling-advanced-features.md), [13.6.2.1](enabling-advanced-features.md)
+- simple authentication for directory naming [3.2.6.2.1](managing-network-address-information.md)
+- SOURCE_ROUTE networking parameter [13.1.2](enabling-advanced-features.md)
+- SQLNET.ALLOWED_LOGON_VERSION_CLIENT networking parameter [12.5](configuring-profiles.md)
+- SQLNET.ALLOWED_LOGON_VERSION_SERVER networking parameter [12.5](configuring-profiles.md)
+- SQLNET.CLIENT_REGISTRATION networking parameter [12.5](configuring-profiles.md)
+- SQLNET.EXPIRE_TIME networking parameter [12.5](configuring-profiles.md)
+- SQLNET.INBOUND_CONNECT_TIMEOUT networking parameter [12.5](configuring-profiles.md), [14.7](optimizing-performance.md)
+- sqlnet.log file [16.6.2](troubleshooting-oracle-net-services.md)
+- sqlnet.ora file
+  - log parameters
+    - ADR_BASE [16.6.4.1](troubleshooting-oracle-net-services.md)
+    - DIAG_ADR_ENABLED [16.6.4.1](troubleshooting-oracle-net-services.md)
+    - LOG_DIRECTORY_CLIENT [16.6.4.1](troubleshooting-oracle-net-services.md)
+    - LOG_DIRECTORY_SERVER [16.6.4.1](troubleshooting-oracle-net-services.md)
+    - LOG_FILE_CLIENT [16.6.4.1](troubleshooting-oracle-net-services.md)
+    - LOG_FILE_SERVER [16.6.4.1](troubleshooting-oracle-net-services.md)
+  - parameters
+    - NAMES.DEFAULT_DOMAIN [12.3.1](configuring-profiles.md)
+    - NAMES.DIRECTORY_PATH [12.3.2](configuring-profiles.md)
+    - SQLNET.ALLOWED_LOGON_VERSION_CLIENT [12.5](configuring-profiles.md)
+    - SQLNET.ALLOWED_LOGON_VERSION_SERVER [12.5](configuring-profiles.md)
+    - SQLNET.INBOUND_CONNECT_TIMEOUT [14.7](optimizing-performance.md)
+    - TCP.EXCLUDED_NODES [12.4](configuring-profiles.md)
+    - TCP.INVITED_NODES [12.4](configuring-profiles.md)
+    - TCP.VALIDNODE_CHECKING [12.4](configuring-profiles.md)
+  - trace parameters
+    - TNSPING.TRACE_DIRECTORY [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TNSPING.TRACE_LEVEL [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_DIRECTORY_CLIENT [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_DIRECTORY_SERVER [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_FILE_CLIENT [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_FILE_SERVER [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_FILEAGE_CLIENT [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_FILEAGE_SERVER [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_FILELEN_CLIENT [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_FILELEN_SERVER [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_FILEN0_CLIENT [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_FILENO_SERVER [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_LEVEL_CLIENT [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_LEVEL_SERVER [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_TIMESTAMP_CLIENT [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_TIMESTAMP_SERVER [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_UNIQUE_CLIENT [16.7.2.3](troubleshooting-oracle-net-services.md)
+- SQLNET.RECV_BUF_SIZE networking parameter [12.5](configuring-profiles.md)
+- SQLNET.RECV_TIMEOUT networking parameter [12.5](configuring-profiles.md)
+- SQLNET.SEND_BUF_SIZE networking parameter [12.5](configuring-profiles.md)
+- SQLNET.SEND_TIMEOUT networking parameter [12.5](configuring-profiles.md)
+- sqlnet.trc file [16.7.1](troubleshooting-oracle-net-services.md)
+- START command
+  - of Listener Control utility [9.5.1.1](configuring-and-administering-oracle-net-listener.md)
+- starting
+  - Oracle Net Configuration Assistant [7.1.4](managing-oracle-net-services.md)
+  - Oracle Net Manager [7.1.2.1](managing-oracle-net-services.md)
+- STATUS command
+  - of Listener Control utility [9.5.3.1](configuring-and-administering-oracle-net-listener.md)
+- STOP command
+  - of Listener Control utility [9.5.1.1](configuring-and-administering-oracle-net-listener.md)
+- strong authentication for directory naming [3.2.6.2.1](managing-network-address-information.md)
+- svr_pid.trc file [16.7.1](troubleshooting-oracle-net-services.md)
+- syntax
+  - for Listener Control utility [7.3](managing-oracle-net-services.md)
+  - for Oracle Connection Manager Control utility [10.5](configuring-oracle-connection-manager.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- TAF
+  - See: Transparent Application Failover (TAF)
+- TCP/IP protocol
+  - described [4.4.1](understanding-communication-layers.md)
+- TCP/IP with TLS protocol
+  - described [4.4.2](understanding-communication-layers.md)
+  - mTLS or two-way authentication [4.4.2](understanding-communication-layers.md)
+  - TLS or one-way authentication [4.4.2](understanding-communication-layers.md)
+- TCP.EXCLUDED_NODES networking parameter [12.4](configuring-profiles.md)
+- TCP.INVITED_NODES networking parameter [12.4](configuring-profiles.md)
+- TCP.VALIDNODE_CHECKING networking parameter [12.4](configuring-profiles.md)
+- terminated connection detection
+  - configuring [12.5](configuring-profiles.md)
+  - limitations [12.5](configuring-profiles.md)
+- terminated connection timeout
+  - See: terminated connection timeout
+- testing
+  - client configuration
+    - with TCROUTE [15.3](testing-connections.md)
+    - with TNSPING [15.2](testing-connections.md)
+  - with control utilities [7.3](managing-oracle-net-services.md)
+- TLS authentication for directory naming [3.2.6.2.1](managing-network-address-information.md)
+- TNS
+  - See: Transparent Network Substrate (TNS)
+- tnsnames.ora file
+  - exporting entries to directory server [8.3.3](configuring-naming-methods.md)
+  - parameters
+    - BACKUP parameter [13.3.3](enabling-advanced-features.md)
+    - FAILOVER [13.1.2](enabling-advanced-features.md)
+    - FAILOVER_MODE [13.3.3](enabling-advanced-features.md)
+    - GLOBAL_NAME [13.1.3](enabling-advanced-features.md)
+    - HS [13.1.3](enabling-advanced-features.md)
+    - INSTANCE_NAME [13.1.3](enabling-advanced-features.md), [13.4](enabling-advanced-features.md)
+    - LOAD_BALANCE [13.1.2](enabling-advanced-features.md)
+    - METHOD [13.3.3](enabling-advanced-features.md)
+    - RDB_DATABASE [13.1.3](enabling-advanced-features.md)
+    - SDU [13.1.3](enabling-advanced-features.md)
+    - SOURCE_ROUTE [13.1.2](enabling-advanced-features.md)
+    - TYPE [13.3.3](enabling-advanced-features.md)
+    - TYPE_OF_SERVICE [13.1.3](enabling-advanced-features.md)
+- TNSPING.TRACE_DIRECTORY trace parameter [16.7.2.3](troubleshooting-oracle-net-services.md)
+- TNSPING.TRACE_LEVEL trace parameter [16.7.2.3](troubleshooting-oracle-net-services.md)
+- TNSPING utility [15.2](testing-connections.md)
+  - compared to TRCROUTE utility [15.3](testing-connections.md)
+- TNS Time Out Value option in Oracle Net Manager [12.5](configuring-profiles.md)
+- Total Receive Buffer field in Oracle Net Manager [12.5](configuring-profiles.md)
+- Total Send Buffer field in Oracle Net Manager [12.5](configuring-profiles.md)
+- TRACE_DIRECTORY_CLIENT trace parameter [16.7.2.3](troubleshooting-oracle-net-services.md)
+- TRACE_DIRECTORY_listener_name trace parameter [16.7.2.2](troubleshooting-oracle-net-services.md)
+- TRACE_DIRECTORY_SERVER trace parameter [16.7.2.3](troubleshooting-oracle-net-services.md)
+- TRACE_DIRECTORY trace parameter [16.7.2.1](troubleshooting-oracle-net-services.md)
+- TRACE_FILE_CLIENT trace parameter [16.7.2.3](troubleshooting-oracle-net-services.md)
+- TRACE_FILE_listener_name trace parameter [16.7.2.2](troubleshooting-oracle-net-services.md)
+- TRACE_FILE_SERVER trace parameter [16.7.2.3](troubleshooting-oracle-net-services.md)
+- TRACE_FILEAGE_CLIENT trace parameter [16.7.2.3](troubleshooting-oracle-net-services.md)
+- TRACE_FILEAGE_listener_name trace parameter [16.7.2.2](troubleshooting-oracle-net-services.md)
+- TRACE_FILEAGE_SERVER trace parameter [16.7.2.2](troubleshooting-oracle-net-services.md), [16.7.2.3](troubleshooting-oracle-net-services.md)
+- TRACE_FILELEN_CLIENT trace parameter [16.7.2.3](troubleshooting-oracle-net-services.md)
+- TRACE_FILELEN_listener_name trace parameter [16.7.2.2](troubleshooting-oracle-net-services.md)
+- TRACE_FILELEN_SERVER trace parameter [16.7.2.3](troubleshooting-oracle-net-services.md)
+- TRACE_FILELEN trace parameter [16.7.2.1](troubleshooting-oracle-net-services.md)
+- TRACE_FILENO_CLIENT trace parameter [16.7.2.3](troubleshooting-oracle-net-services.md)
+- TRACE_FILENO_listener_name trace parameter [16.7.2.2](troubleshooting-oracle-net-services.md)
+- TRACE_FILENO_SERVER trace parameter [16.7.2.3](troubleshooting-oracle-net-services.md)
+- TRACE_FILENO trace parameter [16.7.2.1](troubleshooting-oracle-net-services.md)
+- TRACE_LEVEL_CLIENT trace parameter [16.7.2.3](troubleshooting-oracle-net-services.md)
+- TRACE_LEVEL_listener_name trace parameter [16.7.2.2](troubleshooting-oracle-net-services.md)
+- TRACE_LEVEL_SERVER trace parameter [16.7.2.3](troubleshooting-oracle-net-services.md)
+- TRACE_LEVEL trace parameter [16.7.2.1](troubleshooting-oracle-net-services.md)
+- TRACE_TIMESTAMP_CLIENT trace parameter [16.7.2.3](troubleshooting-oracle-net-services.md)
+- TRACE_TIMESTAMP_listener_name trace parameter [16.7.2.2](troubleshooting-oracle-net-services.md)
+- TRACE_TIMESTAMP_SERVER trace parameter [16.7.2.3](troubleshooting-oracle-net-services.md)
+- TRACE_TIMESTAMP trace parameter [16.7.2.1](troubleshooting-oracle-net-services.md)
+- TRACE_UNIQUE_CLIENT trace parameter [16.7.2.3](troubleshooting-oracle-net-services.md)
+- Trace Assistant
+  - examining trace files with [16.7.5](troubleshooting-oracle-net-services.md)
+  - functions of [16.7.5](troubleshooting-oracle-net-services.md)
+  - option reference [16.7.5.1](troubleshooting-oracle-net-services.md)
+  - trace data for IDs [16.7.5.4](troubleshooting-oracle-net-services.md)
+  - trace data for packets [16.7.5.2](troubleshooting-oracle-net-services.md)
+  - trace data statistics [16.7.5.5](troubleshooting-oracle-net-services.md)
+- trace files
+  - analyzing with Trace Assistant [16.7.5](troubleshooting-oracle-net-services.md)
+  - default names for [16.7.1](troubleshooting-oracle-net-services.md)
+  - error message information [16.7.4.3](troubleshooting-oracle-net-services.md)
+  - examining with Trace Assistant [16.7.5](troubleshooting-oracle-net-services.md)
+  - listener.trc [16.7.2.2](troubleshooting-oracle-net-services.md)
+  - sqlnet.trc for clients [16.7.2.3](troubleshooting-oracle-net-services.md)
+  - svr_pid.trc for servers [16.7.2.3](troubleshooting-oracle-net-services.md)
+- trace parameters
+  - cman.ora
+    - TRACE_DIRECTORY [16.7.2.1](troubleshooting-oracle-net-services.md)
+    - TRACE_FILELEN [16.7.2.1](troubleshooting-oracle-net-services.md)
+    - TRACE_FILENO [16.7.2.1](troubleshooting-oracle-net-services.md)
+    - TRACE_LEVEL [16.7.2.1](troubleshooting-oracle-net-services.md)
+    - TRACE_TIMESTAMP [16.7.2.1](troubleshooting-oracle-net-services.md)
+  - listener.ora
+    - TRACE_DIRECTORY_listener_name [16.7.2.2](troubleshooting-oracle-net-services.md)
+    - TRACE_FILE_listener_name [16.7.2.2](troubleshooting-oracle-net-services.md)
+    - TRACE_FILEAGE_listener_name [16.7.2.2](troubleshooting-oracle-net-services.md)
+    - TRACE_FILEAGE_SERVER [16.7.2.2](troubleshooting-oracle-net-services.md)
+    - TRACE_FILELEN_listener_name [16.7.2.2](troubleshooting-oracle-net-services.md)
+    - TRACE_FILENO_listener_name [16.7.2.2](troubleshooting-oracle-net-services.md)
+    - TRACE_LEVEL_listener_name [16.7.2.2](troubleshooting-oracle-net-services.md)
+    - TRACE_TIMESTAMP_listener_name [16.7.2.2](troubleshooting-oracle-net-services.md)
+  - sqlnet.ora
+    - TNSPING.TRACE_DIRECTORY [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TNSPING.TRACE_LEVEL [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_DIRECTORY_CLIENT [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_DIRECTORY_SERVER [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_FILE_CLIENT [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_FILE_SERVER [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_FILEAGE_CLIENT [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_FILEAGE_SERVER [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_FILELEN_CLIENT [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_FILELEN_SERVER [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_FILENO_CLIENT [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_FILENO_SERVER [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_LEVEL_CLIENT [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_LEVEL_SERVER [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_TIMESTAMP_CLIENT [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_TIMESTAMP_SERVER [16.7.2.3](troubleshooting-oracle-net-services.md)
+    - TRACE_UNIQUE_CLIENT [16.7.2.3](troubleshooting-oracle-net-services.md)
+- Transparent Application Failover (TAF)
+  - and GLOBAL_DBNAME parameter [13.5.1](enabling-advanced-features.md)
+  - configuring [13.3](enabling-advanced-features.md)
+  - GLOBAL_DBNAME networking parameter in listener.ora [13.3.4](enabling-advanced-features.md), [13.5.1](enabling-advanced-features.md)
+  - overview [2.6.2](identifying-and-accessing-database.md)
+  - with instance role [13.4](enabling-advanced-features.md)
+- Transparent Network Substrate (TNS)
+  - benefits [4.1.1.3](understanding-communication-layers.md)
+  - described [4.1.1.3](understanding-communication-layers.md)
+- Transport Layer Security on CMAN
+  - with Oracle Connection Manager [10.2.1.1](configuring-oracle-connection-manager.md)
+- Transport Layer Security on Connection Manager in Traffic Director Mode
+  - with Connection Manager in Traffic Director Mode [10.3.10](configuring-oracle-connection-manager.md)
+- troubleshooting
+  - client [16.2.2](troubleshooting-oracle-net-services.md)
+  - loopback tests [16.2.1](troubleshooting-oracle-net-services.md)
+  - questions [16.4.1](troubleshooting-oracle-net-services.md)
+  - server [16.2.1](troubleshooting-oracle-net-services.md)
+- TTC
+  - See: Two-Task Common (TTC)
+- Turn Off UNIX Signal Handling option in Oracle Net Manager [12.5](configuring-profiles.md)
+- TWO_TASK environment variable [2.5.4](identifying-and-accessing-database.md)
+- Two-Task Common (TTC) presentation
+  - dedicated server configurations [5.5.2](understanding-oracle-net-architecture.md)
+  - described [4.1.1.2](understanding-communication-layers.md)
+  - shared server configurations [5.5.1](understanding-oracle-net-architecture.md)
+- TYPE_OF_SERVICE networking parameter [13.1.3](enabling-advanced-features.md), [13.6.3](enabling-advanced-features.md)
+- TYPE networking parameter [13.3.3](enabling-advanced-features.md)
+- Type of Service field in Oracle Net Manager [13.1.3](enabling-advanced-features.md), [13.6.3](enabling-advanced-features.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- Use for Heterogeneous Services option in Oracle Net Manager [13.1.3](enabling-advanced-features.md), [13.6.2.1](enabling-advanced-features.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- virtual circuits [5.5.1](understanding-oracle-net-architecture.md)
+
+------------------------------------------------------------------------
+
+## W
+
+- Wallet
+  - configuring
+    - Oracle Connection Manager in Traffic Director Mode [10.3.3](configuring-oracle-connection-manager.md)
+- WebDAV presentation [4.3](understanding-communication-layers.md)
+  - dedicated server configurations [5.5.2](understanding-oracle-net-architecture.md)
+  - shared server configurations [5.5.1](understanding-oracle-net-architecture.md)
+- WebDAV protocol [1.1.1.2.2](introducing-oracle-net-services.md)
+- websocket protocol
+  - described [4.4.6](understanding-communication-layers.md)
+- Windows NT services
+  - OracleHOME_NAMECMan service [6.4](quick-start-oracle-net-services.md)
+- wizards
+  - Directory Server Migration [7.1.2.3.2](managing-oracle-net-services.md)
+  - Net Service Name [7.1.2.3.1](managing-oracle-net-services.md)
+  - Oracle Net Manager [7.1.2.3](managing-oracle-net-services.md)
+
+------------------------------------------------------------------------
+
+## Y
+
+- ypserv program [8.4](configuring-naming-methods.md)

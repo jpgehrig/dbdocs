@@ -1,0 +1,3 @@
+# Description of the illustration netag137.eps
+
+This illustration shows the directory structure of the ADR for a single CMAN instance, where each directory is represented by a folder. At the top is a folder labeled as ADR base. Beneath ADR base is a directory named diag, beneath which is a directory named netcman. Beneath the netcman directory is a directory whose name is the host name. Beneath that directory is a directory whose name is the CMAN instance name. This directory is flagged by a label as the ADR home for the CMAN instance. Beneath the ADR home directory (the directory whose name is the CMAN instance name) are the following subdirectories: alert, cdump, incident, trace, and one named "(others)", which indicates a number of other ADR home subdirectories.
