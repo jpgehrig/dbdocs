@@ -1,0 +1,1 @@
+This diagram illustrates how the pg4tcpmap tool maps the Side Profile Name to TCP/IP and IMS Connect attributes from the gateway into the PGA_TCP_IMSC table. The process of mapping information to TCP/IP is described in the surrounding text.

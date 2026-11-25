@@ -1,0 +1,1 @@
+This diagram provides an illustration of the relationship between the gateway and the Oracle database on an operating system. The client is connected to the Oracle database, which is connected to the gateway, which holds the gateway remote procedure calls and PGAU, via Oracle Net. They are connected to the OLTP in the Mainframe via TCP/IP or SNA.

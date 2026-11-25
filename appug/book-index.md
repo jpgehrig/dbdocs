@@ -1,0 +1,1093 @@
+A  C  D  E  F  G  H  I  J  K  L  M  N  O  P  R  S  T  U  V  W  
+
+------------------------------------------------------------------------
+
+## A
+
+- APPC
+  - runtime [1](developing-appc-client-app-sna-only.md)
+  - SENDs and RECEIVEs
+    - TIP CALL correspondence [1](developing-appc-client-app-sna-only.md)
+  - trace [1](troubleshooting-oracle-database-gateway-appc.md), [2](troubleshooting-oracle-database-gateway-appc.md)
+  - using with terminal-oriented transaction program [1](developing-appc-client-app-sna-only.md)
+- APPC conversation sharing [1](developing-appc-client-app-sna-only.md)
+  - concepts [1](developing-appc-client-app-sna-only.md)
+  - examples [1](developing-appc-client-app-sna-only.md)
+  - for too large TIPs [1](developing-appc-client-app-sna-only.md)
+  - overrides and diagnostics [1](developing-appc-client-app-sna-only.md)
+  - TIP compatibility [1](developing-appc-client-app-sna-only.md)
+  - usage [1](developing-appc-client-app-sna-only.md)
+- architecture
+  - commit-confirm [1](implement-appc-commit-confirm-sna-only.md)
+  - components of the gateway [1](oracle-database-gateway-appc-introduction.md)
+- ASCII
+  - automatic conversion [1](oracle-database-gateway-appc-introduction.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- CALL correspondence
+  - on gateway using SNA [1](developing-appc-client-app-sna-only.md)
+  - on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md)
+- call correspondence order restrictions
+  - on gateway using SNA [1](developing-appc-client-app-sna-only.md)
+  - on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md)
+- CICS [1](oracle-database-gateway-appc-introduction.md)
+- CICS Transaction Server
+  - gateway starts communication with [1](oracle-database-gateway-appc-introduction.md)
+- client application development
+  - calling a TIP
+    - on gateway using SNA [1](developing-appc-client-app-sna-only.md)
+    - on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md)
+  - customized TIPs for remote host transaction [1](developing-appc-client-app-sna-only.md)
+  - declaring TIP variables [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - error handling
+    - on gateway using SNA [1](developing-appc-client-app-sna-only.md)
+    - on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md)
+  - examples and samples [1](oracle-database-gateway-appc-introduction.md)
+  - exchanging data [1](developing-appc-client-app-sna-only.md)
+    - on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md)
+  - executing [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - granting execute authority [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md)
+  - overriding TIP initializations [1](developing-appc-client-app-sna-only.md)
+    - on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md)
+  - overview [1](developing-appc-client-app-sna-only.md)
+  - preparation [1](developing-appc-client-app-sna-only.md)
+  - remote host transaction types
+    - multi-conversational transactions [1](developing-appc-client-app-sna-only.md)
+    - one-shot transactions [1](developing-appc-client-app-sna-only.md)
+    - persistent transactions [1](developing-appc-client-app-sna-only.md)
+    - See also, index entries for each transaction type [1](implement-appc-commit-confirm-sna-only.md)
+  - requirements [1](developing-appc-client-app-sna-only.md)
+    - declare RHT/TIP data to be exchanged [1](developing-appc-client-app-sna-only.md)
+    - exchange data with RHT using TIP user function [1](developing-appc-client-app-sna-only.md)
+    - initialize RHT for multi-conversational applications [1](developing-appc-client-app-sna-only.md)
+    - initialize RHT using TIP initialization function [1](developing-appc-client-app-sna-only.md)
+    - repetitively exchange data with RHT using TIP user function [1](developing-appc-client-app-sna-only.md)
+    - terminate RHT using TIP termination function [1](developing-appc-client-app-sna-only.md)
+  - security considerations [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - terminating the conversation [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - TIP and remote transaction program correspondence [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - TIP CALL correspondence [1](developing-appc-client-app-sna-only.md)
+  - TIP content and purpose [1](developing-appc-client-app-sna-only.md)
+  - TIP DATA correspondence [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - TIP TRANSACTION correspondence
+    - on gateway using SNA [1](developing-appc-client-app-sna-only.md)
+    - on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md)
+- client application development for gateway using TCP/IP
+  - overview [1](developing-appc-client-app-tcpip-only.md)
+- client application development on gateway using TCP/IP
+  - preparing [1](developing-appc-client-app-tcpip-only.md)
+- COBOL [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md), [3](data-type-conversion-oracle-database-gateway-appc.md), [4](data-type-conversion-oracle-database-gateway-appc.md)
+  - datatype conversion supported by PG DD and TIPs [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - lacks datatype for variable length data [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - PGAU interpretation of COBOL symbols [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - support for double byte character sets, PIC G datatypes [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+- COMMIT command [1](pga-utility-oracle-database-gateway-appc.md), [2](pga-utility-oracle-database-gateway-appc.md)
+  - user responsibility [1](pga-utility-oracle-database-gateway-appc.md)
+- commit-confirm [1](implement-appc-commit-confirm-sna-only.md)
+  - application design requirements [1](implement-appc-commit-confirm-sna-only.md)
+  - architecture [1](implement-appc-commit-confirm-sna-only.md)
+    - components [1](implement-appc-commit-confirm-sna-only.md)
+    - interactions [1](implement-appc-commit-confirm-sna-only.md)
+  - components [1](implement-appc-commit-confirm-sna-only.md)
+  - logic flow [1](implement-appc-commit-confirm-sna-only.md)
+    - step by step [1](implement-appc-commit-confirm-sna-only.md)
+  - Oracle Global Transaction ID [1](implement-appc-commit-confirm-sna-only.md)
+  - purpose [1](implement-appc-commit-confirm-sna-only.md)
+  - relation to two-phase commit [1](implement-appc-commit-confirm-sna-only.md)
+  - required components
+    - logging server [1](implement-appc-commit-confirm-sna-only.md)
+    - OLTP commit-confirm transaction log [1](implement-appc-commit-confirm-sna-only.md)
+    - OLTP forget/recovery transaction [1](implement-appc-commit-confirm-sna-only.md)
+    - OLTP transaction logging code [1](implement-appc-commit-confirm-sna-only.md)
+  - supported OLTPs [1](implement-appc-commit-confirm-sna-only.md)
+  - transaction log [1](implement-appc-commit-confirm-sna-only.md)
+- COMMIT processing [1](pga-utility-oracle-database-gateway-appc.md)
+- communication
+  - between mainframe and Oracle database
+    - on gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+  - between server, gateway and remote host [1](oracle-database-gateway-appc-introduction.md)
+- compiling a TIP [1](creating-tip-oracle-database-gateway-appc.md)
+- CONNECT command [1](pga-utility-oracle-database-gateway-appc.md), [2](pga-utility-oracle-database-gateway-appc.md)
+- control file
+  - creating
+    - on gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+    - on gateway using TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+- conversation sharing, see APPC conversation sharing [1](developing-appc-client-app-sna-only.md)
+- creating a TIP
+  - (detailed) [1](creating-tip-oracle-database-gateway-appc.md)
+  - overview [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-introduction.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- database link [1](oracle-database-gateway-appc-introduction.md)
+- data conversion
+  - errors [1](troubleshooting-oracle-database-gateway-appc.md)
+- DATA correspondence [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+- data dictionary, see PG DD [1](oracle-database-gateway-appc-introduction.md)
+- data exchange
+  - PGAXFER function [1](oracle-database-gateway-appc-introduction.md)
+- data format conversion [1](data-type-conversion-oracle-database-gateway-appc.md)
+- datastores
+  - gateway access to [1](oracle-database-gateway-appc-introduction.md)
+- datatype
+  - RAW [1](oracle-database-gateway-appc-utl_pg-interface.md)
+- datatype conversion [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - COBOL editing symbols [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - convert length [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - duplicate names [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - expected length [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - format conversion [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - parameters over 32K in length [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - PL/SQL [1](data-type-conversion-oracle-database-gateway-appc.md)
+    - naming algorithms [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - receive length [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - removing support for parameters over 32K in length [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - See USAGE (PASS), USAGE (ASIS). USAGE (SKIP), and PL/SQL Naming Algorithms [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - send length [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - truncated and non-unique names [1](data-type-conversion-oracle-database-gateway-appc.md)
+- datatype conversions
+  - COBOL symbols interpreted by PGAU [1](data-type-conversion-oracle-database-gateway-appc.md)
+- DBCS
+  - See double-byte character sets [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+- DBMS_PIPE PL/SQL package [1](creating-tip-oracle-database-gateway-appc.md)
+- debugging tool
+  - PGATRAC function [1](oracle-database-gateway-appc-rpc-interface.md)
+- DEFINE CALL [1](pga-utility-oracle-database-gateway-appc.md)
+- DEFINE CALL parameters [1](pga-utility-oracle-database-gateway-appc.md)
+- DEFINE CALL statement ("command") [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-introduction.md), [3](creating-tip-oracle-database-gateway-appc.md), [4](developing-appc-client-app-sna-only.md), [5](admin-utility-samples-oracle-database-gateway-appc.md)
+- DEFINE DATA [1](pga-utility-oracle-database-gateway-appc.md)
+- DEFINE DATA statement ("command") [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-introduction.md), [3](pga-utility-oracle-database-gateway-appc.md), [4](creating-tip-oracle-database-gateway-appc.md), [5](developing-appc-client-app-sna-only.md), [6](developing-appc-client-app-sna-only.md), [7](developing-appc-client-app-tcpip-only.md), [8](oracle-database-gateway-appc-data-dictionary.md), [9](admin-utility-samples-oracle-database-gateway-appc.md)
+- DEFINE TRANSACTION parameters [1](pga-utility-oracle-database-gateway-appc.md)
+- DEFINE TRANSACTION statement ("command") [1](creating-tip-oracle-database-gateway-appc.md), [2](developing-appc-client-app-sna-only.md), [3](admin-utility-samples-oracle-database-gateway-appc.md)
+- defining and generating a TIP [1](creating-tip-oracle-database-gateway-appc.md)
+- definition versioning [1](pga-utility-oracle-database-gateway-appc.md)
+- deleting and inserting rows into PGA_TCP_IMSC table [1](pg4tcpmap-commands-tcpip.md)
+- DESCRIBE command [1](pga-utility-oracle-database-gateway-appc.md)
+- dg4pwd utility
+  - definition [1](oracle-database-gateway-appc-introduction.md)
+- DISCONNECT command [1](pga-utility-oracle-database-gateway-appc.md)
+- double byte character sets (DBCS)
+  - in application development [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+- driver procedure
+  - on gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+  - on gateway using TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- EBCDIC
+  - automatic conversion [1](oracle-database-gateway-appc-introduction.md)
+- environment dictionary
+  - sequence numbers [1](oracle-database-gateway-appc-data-dictionary.md)
+- errors
+  - causes of [1](troubleshooting-oracle-database-gateway-appc.md)
+  - data conversion [1](troubleshooting-oracle-database-gateway-appc.md)
+  - including exception handlers in your TIP [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - NUMBER_TO_RAW function [1](oracle-database-gateway-appc-utl_pg-interface.md)
+  - PLS -00123
+    - program too large [1](developing-appc-client-app-sna-only.md)
+  - truncation [1](troubleshooting-oracle-database-gateway-appc.md)
+- examples
+  - APPC conversation sharing [1](developing-appc-client-app-sna-only.md)
+- EXECUTE command [1](pga-utility-oracle-database-gateway-appc.md)
+- executing
+  - client application development [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+- EXIT command [1](pga-utility-oracle-database-gateway-appc.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- file
+  - initsid.ora [1](oracle-database-gateway-appc-introduction.md), [2](troubleshooting-oracle-database-gateway-appc.md), [5](troubleshooting-oracle-database-gateway-appc.md), [6](troubleshooting-oracle-database-gateway-appc.md)
+  - pgadb2i.pkb [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-introduction.md), [3](developing-appc-client-app-sna-only.md)
+  - pgadb2i.pkh [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-introduction.md), [4](developing-appc-client-app-sna-only.md)
+  - pgadb2i.sql [1](tip-internals-oracle-database-gateway-appc.md)
+  - pgau.trc [1](pga-utility-oracle-database-gateway-appc.md)
+  - pgddausr.sql [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - pgddcr8.sql [1](pga-utility-oracle-database-gateway-appc.md), [2](oracle-database-gateway-appc-data-dictionary.md)
+  - pgtflip.pkb [1](oracle-database-gateway-appc-introduction.md), [2](developing-appc-client-app-tcpip-only.md)
+  - pgtflip.pkh [1](oracle-database-gateway-appc-introduction.md), [2](developing-appc-client-app-tcpip-only.md)
+  - tipname.doc [1](creating-tip-oracle-database-gateway-appc.md), [2](developing-appc-client-app-sna-only.md), [3](developing-appc-client-app-tcpip-only.md)
+  - tipname.pkb [1](troubleshooting-oracle-database-gateway-appc.md)
+- flexible call sequence
+  - on gateway using SNA [1](developing-appc-client-app-sna-only.md)
+  - on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md)
+- FLIP
+  - and pgacics PL/SQL stored procedure
+    - on gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+  - transaction in CICS [1](oracle-database-gateway-appc-introduction.md)
+  - transaction in IMS [1](oracle-database-gateway-appc-introduction.md)
+- format conversion [1](data-type-conversion-oracle-database-gateway-appc.md)
+- function
+  - PGATERM [1](oracle-database-gateway-appc-rpc-interface.md)
+  - PGAXFER [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md), [3](oracle-database-gateway-appc-rpc-interface.md)
+  - UTL_PG [1](oracle-database-gateway-appc-utl_pg-interface.md)
+- functions
+  - see RPC (remote procedural call) [1](oracle-database-gateway-appc-introduction.md)
+  - see UTL_PG [1](oracle-database-gateway-appc-introduction.md)
+  - See UTL_PG [1](oracle-database-gateway-appc-utl_pg-interface.md)
+  - see UTL_RAW [1](oracle-database-gateway-appc-introduction.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- gateway
+  - access to IBM datastores [1](oracle-database-gateway-appc-introduction.md)
+  - communication [1](oracle-database-gateway-appc-introduction.md)
+    - overview [1](oracle-database-gateway-appc-introduction.md)
+    - with CICS in mainframe on gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+  - components [1](oracle-database-gateway-appc-introduction.md)
+  - creating a TIP [1](creating-tip-oracle-database-gateway-appc.md)
+  - enabling a trace [1](troubleshooting-oracle-database-gateway-appc.md)
+  - features
+    - application transparency [1](oracle-database-gateway-appc-introduction.md)
+    - code generator [1](oracle-database-gateway-appc-introduction.md)
+    - fast interface [1](oracle-database-gateway-appc-introduction.md)
+    - flexible interface [1](oracle-database-gateway-appc-introduction.md)
+    - location transparency [1](oracle-database-gateway-appc-introduction.md)
+    - Oracle database integration [1](oracle-database-gateway-appc-introduction.md)
+    - performs automatic conversions [1](oracle-database-gateway-appc-introduction.md)
+    - site autonomy and security [1](oracle-database-gateway-appc-introduction.md)
+    - support for tools [1](oracle-database-gateway-appc-introduction.md)
+  - initialization files [1](oracle-database-gateway-appc-introduction.md)
+  - overview [1](oracle-database-gateway-appc-introduction.md)
+    - using TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+  - remote procedure, definition [1](oracle-database-gateway-appc-introduction.md)
+  - remote transaction initiation
+    - using SNA [1](oracle-database-gateway-appc-introduction.md)
+    - using TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+  - remote transaction termination
+    - using SNA [1](oracle-database-gateway-appc-introduction.md)
+    - using TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+  - tracing [1](troubleshooting-oracle-database-gateway-appc.md)
+  - transaction types
+    - on gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+    - on gateway using TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+- gateway sample files
+  - using SNA
+    - pgadb2i.pkb [1](oracle-database-gateway-appc-introduction.md)
+    - pgadb2i.pkh [1](oracle-database-gateway-appc-introduction.md)
+  - using TCP/IP
+    - pgadb2i.pkh [1](oracle-database-gateway-appc-introduction.md)
+- gateway server [1](implement-appc-commit-confirm-sna-only.md)
+  - function in commit-confirm architecture [1](implement-appc-commit-confirm-sna-only.md)
+  - transaction log tables [1](implement-appc-commit-confirm-sna-only.md)
+- gateway server trace [1](troubleshooting-oracle-database-gateway-appc.md), [2](troubleshooting-oracle-database-gateway-appc.md)
+- GENERATE [1](pga-utility-oracle-database-gateway-appc.md)
+- GENERATE statement ("command") [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-introduction.md), [3](creating-tip-oracle-database-gateway-appc.md), [4](creating-tip-oracle-database-gateway-appc.md), [5](developing-appc-client-app-sna-only.md), [6](developing-appc-client-app-tcpip-only.md), [7](tip-internals-oracle-database-gateway-appc.md), [8](admin-utility-samples-oracle-database-gateway-appc.md)
+- GLOBAL_TRAN_ID [1](implement-appc-commit-confirm-sna-only.md)
+- Globalization Support
+  - multi-byte character set support [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+- granting privileges for creating TIPs [1](creating-tip-oracle-database-gateway-appc.md)
+- GROUP statement (PGAU) [1](creating-tip-oracle-database-gateway-appc.md)
+
+------------------------------------------------------------------------
+
+## H
+
+- HOST command [1](pga-utility-oracle-database-gateway-appc.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- I/O PCB [1](oracle-database-gateway-appc-introduction.md), [2](creating-tip-oracle-database-gateway-appc.md), [3](developing-appc-client-app-tcpip-only.md)
+- implicit APPC [1](developing-appc-client-app-sna-only.md)
+- implicit versioning
+  - sample definitions [1](admin-utility-samples-oracle-database-gateway-appc.md)
+- IMS [1](oracle-database-gateway-appc-introduction.md)
+  - communication with Integrating Server
+    - using TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+- IMS/TM
+  - communication through the gateway [1](oracle-database-gateway-appc-introduction.md)
+- IMS inquiry
+  - location of sample file [1](oracle-database-gateway-appc-introduction.md)
+- initialization files
+  - see gateway initialization files, also see PGA parameters [1](oracle-database-gateway-appc-introduction.md)
+- initiating remote transactions [1](oracle-database-gateway-appc-introduction.md)
+- initsid.ora file [1](oracle-database-gateway-appc-introduction.md), [2](troubleshooting-oracle-database-gateway-appc.md), [5](troubleshooting-oracle-database-gateway-appc.md), [6](troubleshooting-oracle-database-gateway-appc.md)
+  - parameters to run pg4tcpmap tool [1](pg4tcpmap-commands-tcpip.md)
+
+------------------------------------------------------------------------
+
+## J
+
+- JUSTIFIED LEFT [1](data-type-conversion-oracle-database-gateway-appc.md)
+
+------------------------------------------------------------------------
+
+## K
+
+- keywords
+  - PGAU [1](pga-utility-oracle-database-gateway-appc.md)
+
+------------------------------------------------------------------------
+
+## L
+
+- LENGTH IS field-2 [1](data-type-conversion-oracle-database-gateway-appc.md)
+- logging server [1](implement-appc-commit-confirm-sna-only.md), [2](implement-appc-commit-confirm-sna-only.md)
+  - description [1](implement-appc-commit-confirm-sna-only.md)
+  - interaction with gateway database [1](implement-appc-commit-confirm-sna-only.md)
+- LU_NAME [1](implement-appc-commit-confirm-sna-only.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- MAKE_NUMBER_TO_RAW_FORMAT function [1](oracle-database-gateway-appc-utl_pg-interface.md)
+- MAKE_RAW_TO_NUMBER_FORMAT function [1](oracle-database-gateway-appc-utl_pg-interface.md)
+- mapping parameters
+  - from SNA to TCP/IP [1](pg4tcpmap-commands-tcpip.md)
+- mapping table
+  - PGA_TCP_IMSC [1](oracle-database-gateway-appc-introduction.md)
+- MBCS, See multi-byte character sets [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+- MODE_NAME [1](implement-appc-commit-confirm-sna-only.md)
+- multi-byte character sets (MBCS) [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - application development support [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+- multi-conversational transactions [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-sna-only.md)
+- multi-conversational transaction type
+  - for gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+
+------------------------------------------------------------------------
+
+## N
+
+- non-persistent socket transaction type for TCP/IP for IMS Connect [1](oracle-database-gateway-appc-introduction.md)
+- NUMBER_TO_RAW_FORMAT function [1](oracle-database-gateway-appc-utl_pg-interface.md)
+- NUMBER_TO_RAW and RAW_TO_NUMBER argument values [1](oracle-database-gateway-appc-utl_pg-interface.md)
+- NUMBER_TO_RAW function [1](oracle-database-gateway-appc-utl_pg-interface.md)
+  - errors [1](oracle-database-gateway-appc-utl_pg-interface.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- OCCURS DEPENDING ON [1](data-type-conversion-oracle-database-gateway-appc.md)
+- OLTP
+  - and TCP/IP [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-introduction.md)
+  - commit-confirm transaction log [1](implement-appc-commit-confirm-sna-only.md)
+  - definition [1](oracle-database-gateway-appc-introduction.md)
+  - forget/recovery transaction [1](implement-appc-commit-confirm-sna-only.md)
+  - functional requirements of the gateway [1](implement-appc-commit-confirm-sna-only.md)
+  - in commit-confirm [1](implement-appc-commit-confirm-sna-only.md)
+  - in gateway architecture featuring SNA [1](oracle-database-gateway-appc-introduction.md)
+  - in gateway using TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+  - logic flow for successful commit [1](implement-appc-commit-confirm-sna-only.md)
+  - only IMS supported on gateway using TCP/IP [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-introduction.md)
+  - remote [1](oracle-database-gateway-appc-introduction.md)
+  - security considerations [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - transaction logging code [1](implement-appc-commit-confirm-sna-only.md)
+- one-shot transaction types [1](oracle-database-gateway-appc-introduction.md), [2](developing-appc-client-app-sna-only.md), [3](developing-appc-client-app-sna-only.md), [4](implement-appc-commit-confirm-sna-only.md)
+- online transaction processor
+  - See OLTP [1](oracle-database-gateway-appc-introduction.md)
+- operating system
+  - role in gateway installation [1](oracle-database-gateway-appc-introduction.md)
+- Oracle database [1](oracle-database-gateway-appc-introduction.md)
+  - between server and mainframe
+    - using SNA [1](oracle-database-gateway-appc-introduction.md)
+  - component of the gateway [1](oracle-database-gateway-appc-introduction.md)
+  - definition [1](oracle-database-gateway-appc-introduction.md)
+  - function in gateway communication
+    - on gateway using TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+  - multiple servers on the gateway
+    - using SNA [1](oracle-database-gateway-appc-introduction.md)
+    - using TPC/IP [1](oracle-database-gateway-appc-introduction.md)
+  - precompiles PL/SQL package [1](oracle-database-gateway-appc-introduction.md)
+  - role
+    - in gateway communication [1](oracle-database-gateway-appc-introduction.md)
+  - simple communication
+    - on gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+    - on gateway using TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+  - stores PL/SQL [1](oracle-database-gateway-appc-introduction.md)
+- Oracle Database Gateway for APPC
+  - also see gateway [1](oracle-database-gateway-appc-introduction.md)
+  - compatibility with version 3.4.0 [1](developing-appc-client-app-sna-only.md)
+  - development environment [1](oracle-database-gateway-appc-introduction.md)
+  - See also, gateway server [1](implement-appc-commit-confirm-sna-only.md)
+- Oracle global transaction ID [1](implement-appc-commit-confirm-sna-only.md), [3](implement-appc-commit-confirm-sna-only.md), [4](implement-appc-commit-confirm-sna-only.md), [5](implement-appc-commit-confirm-sna-only.md)
+- Oracle integrating server [1](developing-appc-client-app-sna-only.md)
+  - and role in client application, on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md)
+  - calling RPC functions [1](implement-appc-commit-confirm-sna-only.md)
+  - component of commit-confirm architecture [1](implement-appc-commit-confirm-sna-only.md)
+  - interaction with gateway server in commit-confirm [1](implement-appc-commit-confirm-sna-only.md)
+  - simple communication
+    - on gateway using TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+  - steps to communication
+    - between server and IMS [1](oracle-database-gateway-appc-introduction.md)
+- Oracle Net [1](oracle-database-gateway-appc-introduction.md), [2](developing-appc-client-app-sna-only.md), [3](developing-appc-client-app-tcpip-only.md), [4](oracle-database-gateway-appc-utl_pg-interface.md)
+  - restrictions for data conversion [1](oracle-database-gateway-appc-utl_pg-interface.md)
+- overrides [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - LOGMODE [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - LUname [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - Side profile [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - TPname [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- package
+  - UTL_PG [1](creating-tip-oracle-database-gateway-appc.md)
+- parameters
+  - mapped to TPC/IP [1](pg4tcpmap-commands-tcpip.md)
+  - see PGAU commands [1](pga-utility-oracle-database-gateway-appc.md)
+  - See remote procedural call (RPC) [1](oracle-database-gateway-appc-rpc-interface.md)
+  - See SET LOG_DESTINATION [1](troubleshooting-oracle-database-gateway-appc.md)
+  - See SET TRACE_LEVEL [1](troubleshooting-oracle-database-gateway-appc.md)
+- persistent socket transaction type
+  - for TCP/IP for IMS Connect [1](oracle-database-gateway-appc-introduction.md)
+- persistent transactions [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-sna-only.md), [4](implement-appc-commit-confirm-sna-only.md)
+- persistent transaction type, for gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+- pg4tcpmap tool [1](oracle-database-gateway-appc-introduction.md), [2](creating-tip-oracle-database-gateway-appc.md), [3](developing-appc-client-app-tcpip-only.md)
+  - calling, to map DEFINE TRANSACITON parameters [1](developing-appc-client-app-tcpip-only.md)
+  - commands to operate PGA_TCP_IMSC table [1](pg4tcpmap-commands-tcpip.md)
+  - definition [1](oracle-database-gateway-appc-introduction.md)
+  - description and function in the gateway [1](oracle-database-gateway-appc-introduction.md)
+  - function [1](oracle-database-gateway-appc-introduction.md)
+    - in mapping input parameters [1](pg4tcpmap-commands-tcpip.md)
+  - function in remote transaction initiation [1](oracle-database-gateway-appc-introduction.md)
+  - preparation for populating PGA_TCP_IMSC table [1](pg4tcpmap-commands-tcpip.md)
+  - setting parameters in initsid.ora [1](pg4tcpmap-commands-tcpip.md)
+  - to map SideProfile name [1](pga-utility-oracle-database-gateway-appc.md)
+- PGA
+  - administrator [1](pga-utility-oracle-database-gateway-appc.md)
+  - definition [1](oracle-database-gateway-appc-introduction.md)
+- pga_call_parm table [1](oracle-database-gateway-appc-data-dictionary.md)
+- pga_call table [1](oracle-database-gateway-appc-data-dictionary.md)
+- PGA_CC_PENDING table
+  - commit-confirm transaction log [1](implement-appc-commit-confirm-sna-only.md)
+- pga_compilers table [1](oracle-database-gateway-appc-data-dictionary.md)
+- pga_data_attr [1](oracle-database-gateway-appc-data-dictionary.md)
+- pga_data_values table [1](oracle-database-gateway-appc-data-dictionary.md)
+- pga_data table [1](oracle-database-gateway-appc-data-dictionary.md)
+- pga_datatype_attr table [1](oracle-database-gateway-appc-data-dictionary.md)
+- pga_datatype_values table [1](oracle-database-gateway-appc-data-dictionary.md)
+- pga_datatypes table [1](oracle-database-gateway-appc-data-dictionary.md)
+- pga_env_attr table [1](oracle-database-gateway-appc-data-dictionary.md)
+- pga_env_values table [1](oracle-database-gateway-appc-data-dictionary.md)
+- pga_environments table [1](oracle-database-gateway-appc-data-dictionary.md)
+- pga_fields table [1](oracle-database-gateway-appc-data-dictionary.md)
+- pga_maint table [1](oracle-database-gateway-appc-data-dictionary.md)
+- pga_modes constant [1](oracle-database-gateway-appc-data-dictionary.md)
+- PGA_TCP_IMSC table [1](oracle-database-gateway-appc-introduction.md), [2](creating-tip-oracle-database-gateway-appc.md), [3](pg4tcpmap-commands-tcpip.md), [4](pg4tcpmap-commands-tcpip.md), [5](developing-appc-client-app-tcpip-only.md), [6](developing-appc-client-app-tcpip-only.md), [7](developing-appc-client-app-tcpip-only.md)
+  - content and parameters [1](pg4tcpmap-commands-tcpip.md)
+  - querying [1](pg4tcpmap-commands-tcpip.md)
+- PGA_TCP_PASS [1](pg4tcpmap-commands-tcpip.md)
+- PGA_TCP_USER [1](pg4tcpmap-commands-tcpip.md)
+- pga_trans_attr table [1](oracle-database-gateway-appc-data-dictionary.md)
+- pga_trans_calls table [1](oracle-database-gateway-appc-data-dictionary.md)
+- pga_trans_values table [1](oracle-database-gateway-appc-data-dictionary.md)
+- pga_trans table [1](oracle-database-gateway-appc-data-dictionary.md)
+- pga_usage [1](oracle-database-gateway-appc-data-dictionary.md)
+- pga_usage constant [1](oracle-database-gateway-appc-data-dictionary.md)
+- PGAADMIN [1](creating-tip-oracle-database-gateway-appc.md)
+- pgadb2i.pkb [1](oracle-database-gateway-appc-introduction.md)
+- pgadb2i.pkb file [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-introduction.md), [3](developing-appc-client-app-sna-only.md)
+- pgadb2i.pkh file [1](oracle-database-gateway-appc-introduction.md), [3](oracle-database-gateway-appc-introduction.md)
+- pgadb2i.sql file [1](developing-appc-client-app-sna-only.md), [2](tip-internals-oracle-database-gateway-appc.md)
+- pgadb2id.sql file [1](developing-appc-client-app-sna-only.md)
+- PGAINIT [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-rpc-interface.md)
+  - role in mapping SNA parameters to TCP/IP [1](pg4tcpmap-commands-tcpip.md)
+- PGAINIT function [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-introduction.md)
+- PGATCTL [1](oracle-database-gateway-appc-rpc-interface.md)
+- PGATERM [1](oracle-database-gateway-appc-rpc-interface.md)
+- PGATERM function [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-introduction.md)
+- PGATRAC [1](oracle-database-gateway-appc-rpc-interface.md)
+- PGAU [1](developing-appc-client-app-sna-only.md)
+  - accesses definitions in PG DD [1](oracle-database-gateway-appc-introduction.md)
+  - commands- also called "statements" [1](pga-utility-oracle-database-gateway-appc.md)
+  - COMMIT processing [1](pga-utility-oracle-database-gateway-appc.md)
+  - defining and testing a TIP [1](pga-utility-oracle-database-gateway-appc.md)
+  - definition [1](pga-utility-oracle-database-gateway-appc.md)
+    - used to generate TIP specifications [1](oracle-database-gateway-appc-introduction.md)
+  - definition names [1](pga-utility-oracle-database-gateway-appc.md)
+  - definitions [1](pga-utility-oracle-database-gateway-appc.md)
+  - definition versioning [1](pga-utility-oracle-database-gateway-appc.md)
+  - functions [1](pga-utility-oracle-database-gateway-appc.md)
+  - -generated TIP specifications [1](oracle-database-gateway-appc-introduction.md)
+  - generation [1](pga-utility-oracle-database-gateway-appc.md)
+  - interpretation of COBOL symbols in datatype conversion [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - invoking [1](pga-utility-oracle-database-gateway-appc.md)
+  - keywords [1](pga-utility-oracle-database-gateway-appc.md)
+  - overview [1](pga-utility-oracle-database-gateway-appc.md)
+  - purpose of PGDL [1](oracle-database-gateway-appc-introduction.md)
+  - role in calling TIPs, on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md)
+  - ROLLBACK processing [1](pga-utility-oracle-database-gateway-appc.md)
+  - sample input [1](admin-utility-samples-oracle-database-gateway-appc.md)
+  - writing statements [1](creating-tip-oracle-database-gateway-appc.md)
+- pgau.trc file [1](pga-utility-oracle-database-gateway-appc.md)
+- PGAU commands [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-introduction.md)
+  - CONNECT [1](pga-utility-oracle-database-gateway-appc.md), [2](pga-utility-oracle-database-gateway-appc.md)
+  - CONNECT, parameters [1](pga-utility-oracle-database-gateway-appc.md)
+  - DEFINE CALL [1](pga-utility-oracle-database-gateway-appc.md), [3](pga-utility-oracle-database-gateway-appc.md), [4](creating-tip-oracle-database-gateway-appc.md), [5](developing-appc-client-app-sna-only.md)
+    - call list [1](creating-tip-oracle-database-gateway-appc.md)
+    - on gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+    - on gateway using TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+    - sample [1](admin-utility-samples-oracle-database-gateway-appc.md)
+  - DEFINE DATA [1](pga-utility-oracle-database-gateway-appc.md), [2](pga-utility-oracle-database-gateway-appc.md), [3](creating-tip-oracle-database-gateway-appc.md), [4](developing-appc-client-app-sna-only.md), [5](developing-appc-client-app-sna-only.md), [6](developing-appc-client-app-tcpip-only.md), [7](oracle-database-gateway-appc-data-dictionary.md)
+    - on gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+    - on gateway using TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+    - parameters [1](pga-utility-oracle-database-gateway-appc.md)
+    - sample [1](admin-utility-samples-oracle-database-gateway-appc.md)
+  - DEFINE DATA, datatype conversions
+    - USAGE (ASIS) [1](data-type-conversion-oracle-database-gateway-appc.md)
+    - USAGE (PASS) [1](data-type-conversion-oracle-database-gateway-appc.md)
+    - USAGE (SKIP) [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - DEFINE PGAU, call list [1](creating-tip-oracle-database-gateway-appc.md)
+  - DEFINE TRANSACTION [1](oracle-database-gateway-appc-introduction.md), [2](pga-utility-oracle-database-gateway-appc.md), [3](pga-utility-oracle-database-gateway-appc.md), [5](creating-tip-oracle-database-gateway-appc.md), [6](developing-appc-client-app-sna-only.md)
+    - on gateway using TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+    - sample [1](admin-utility-samples-oracle-database-gateway-appc.md)
+  - DEFINE TRANSACTION, parameters [1](pga-utility-oracle-database-gateway-appc.md), [2](creating-tip-oracle-database-gateway-appc.md)
+  - defining correlation between TIP and RTP [1](pga-utility-oracle-database-gateway-appc.md)
+  - DESCRIBE [1](pga-utility-oracle-database-gateway-appc.md)
+  - DESCRIBE, parameters [1](pga-utility-oracle-database-gateway-appc.md)
+  - DISCONNECT [1](pga-utility-oracle-database-gateway-appc.md)
+  - DISCONNECT, parameters [1](pga-utility-oracle-database-gateway-appc.md)
+  - EXECUTE [1](pga-utility-oracle-database-gateway-appc.md)
+  - EXECUTE, parameters [1](pga-utility-oracle-database-gateway-appc.md)
+  - EXIT [1](pga-utility-oracle-database-gateway-appc.md)
+  - EXIT, parameters [1](pga-utility-oracle-database-gateway-appc.md)
+  - formatting of Call and Transaction reports [1](pga-utility-oracle-database-gateway-appc.md)
+  - four main types, in control file [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-introduction.md)
+  - GENERATE [1](pga-utility-oracle-database-gateway-appc.md), [2](creating-tip-oracle-database-gateway-appc.md), [3](creating-tip-oracle-database-gateway-appc.md), [4](creating-tip-oracle-database-gateway-appc.md), [5](developing-appc-client-app-sna-only.md), [6](developing-appc-client-app-tcpip-only.md), [7](tip-internals-oracle-database-gateway-appc.md)
+    - error messages [1](troubleshooting-oracle-database-gateway-appc.md)
+    - on gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+    - on gateway using TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+    - parameters [1](pga-utility-oracle-database-gateway-appc.md)
+    - sample [1](admin-utility-samples-oracle-database-gateway-appc.md)
+    - support and non-support for parameters over 32K length [1](data-type-conversion-oracle-database-gateway-appc.md)
+    - traces [1](troubleshooting-oracle-database-gateway-appc.md)
+  - GROUP [1](pga-utility-oracle-database-gateway-appc.md), [3](creating-tip-oracle-database-gateway-appc.md)
+  - HOST [1](pga-utility-oracle-database-gateway-appc.md)
+    - parameters [1](pga-utility-oracle-database-gateway-appc.md)
+  - on gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+  - PRINT [1](pga-utility-oracle-database-gateway-appc.md)
+  - REDEFINE DATA [1](pga-utility-oracle-database-gateway-appc.md), [3](oracle-database-gateway-appc-data-dictionary.md)
+    - sample [1](admin-utility-samples-oracle-database-gateway-appc.md)
+  - REM [1](pga-utility-oracle-database-gateway-appc.md)
+  - REM, parameters [1](pga-utility-oracle-database-gateway-appc.md)
+  - REPORT [1](pga-utility-oracle-database-gateway-appc.md)
+  - REPORT, parameters [1](pga-utility-oracle-database-gateway-appc.md)
+  - SET [1](pga-utility-oracle-database-gateway-appc.md)
+  - SET, parameters [1](pga-utility-oracle-database-gateway-appc.md)
+  - SHOW [1](pga-utility-oracle-database-gateway-appc.md)
+  - SHOW, parameters [1](pga-utility-oracle-database-gateway-appc.md)
+  - SPOOL [1](pga-utility-oracle-database-gateway-appc.md)
+  - SPOOL, parameters [1](pga-utility-oracle-database-gateway-appc.md)
+  - TRANSACTION [1](pga-utility-oracle-database-gateway-appc.md)
+  - UNDEFINE, sample [1](admin-utility-samples-oracle-database-gateway-appc.md)
+  - UNDEFINE CALL [1](pga-utility-oracle-database-gateway-appc.md)
+  - UNDEFINE CALL, parameters [1](pga-utility-oracle-database-gateway-appc.md)
+  - UNDEFINE DATA [1](pga-utility-oracle-database-gateway-appc.md)
+  - UNDEFINE DATA, parameters [1](pga-utility-oracle-database-gateway-appc.md)
+  - UNDEFINE TRANSACTION [1](pga-utility-oracle-database-gateway-appc.md)
+  - UNDEFINE TRANSACTION, parameters [1](pga-utility-oracle-database-gateway-appc.md)
+  - VARIABLE [1](pga-utility-oracle-database-gateway-appc.md)
+  - VARIABLE, parameters [1](pga-utility-oracle-database-gateway-appc.md)
+- PGAU script file
+  - adding spool and echo [1](creating-tip-oracle-database-gateway-appc.md)
+  - creating [1](creating-tip-oracle-database-gateway-appc.md)
+- PGAXFER [1](developing-appc-client-app-tcpip-only.md), [2](oracle-database-gateway-appc-rpc-interface.md)
+- PGAXFER function [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-introduction.md), [3](oracle-database-gateway-appc-introduction.md), [4](developing-appc-client-app-sna-only.md), [5](developing-appc-client-app-tcpip-only.md)
+- PGDD (Data Dictionary)
+  - environment sequence numbers [1](oracle-database-gateway-appc-data-dictionary.md)
+- PG DD (Data Dictionary) [1](pga-utility-oracle-database-gateway-appc.md), [2](pga-utility-oracle-database-gateway-appc.md)
+  - active dictionary [1](oracle-database-gateway-appc-data-dictionary.md)
+    - sequence numbers [1](oracle-database-gateway-appc-data-dictionary.md)
+    - versioning [1](oracle-database-gateway-appc-data-dictionary.md)
+  - active dictionary tables
+    - pga_call [1](oracle-database-gateway-appc-data-dictionary.md)
+    - pga_call_parm [1](oracle-database-gateway-appc-data-dictionary.md)
+    - pga_data [1](oracle-database-gateway-appc-data-dictionary.md)
+    - pga_data_attr [1](oracle-database-gateway-appc-data-dictionary.md)
+    - pga_data_values [1](oracle-database-gateway-appc-data-dictionary.md)
+    - pga_fields [1](oracle-database-gateway-appc-data-dictionary.md)
+    - pga_trans [1](oracle-database-gateway-appc-data-dictionary.md)
+    - pga_trans_attr [1](oracle-database-gateway-appc-data-dictionary.md)
+    - pga_trans_calls [1](oracle-database-gateway-appc-data-dictionary.md)
+    - pga_trans_values [1](oracle-database-gateway-appc-data-dictionary.md)
+  - data definitions for parameters over 32K in length [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - datatype conversion support for COBOL [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - definition [1](oracle-database-gateway-appc-introduction.md)
+  - definition names
+    - valid characters in [1](pga-utility-oracle-database-gateway-appc.md)
+  - diagnostic
+    - options [1](troubleshooting-oracle-database-gateway-appc.md)
+    - references [1](troubleshooting-oracle-database-gateway-appc.md)
+  - entries, creating a TIP [1](creating-tip-oracle-database-gateway-appc.md)
+  - environment dictionary tables [1](oracle-database-gateway-appc-data-dictionary.md), [2](oracle-database-gateway-appc-data-dictionary.md), [3](oracle-database-gateway-appc-data-dictionary.md)
+    - pga_modes [1](oracle-database-gateway-appc-data-dictionary.md)
+    - pga_usage [1](oracle-database-gateway-appc-data-dictionary.md)
+  - in writing PGAU statements [1](creating-tip-oracle-database-gateway-appc.md)
+  - keyword form in storage [1](pga-utility-oracle-database-gateway-appc.md)
+  - maintenance [1](pga-utility-oracle-database-gateway-appc.md)
+  - overview [1](oracle-database-gateway-appc-data-dictionary.md)
+  - preparing client application
+    - on gateway using SNA [1](developing-appc-client-app-sna-only.md)
+    - on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md)
+  - purpose of REPORT command [1](pga-utility-oracle-database-gateway-appc.md)
+  - relationship to PGAU [1](pga-utility-oracle-database-gateway-appc.md)
+  - remote transaction definitions [1](pga-utility-oracle-database-gateway-appc.md)
+  - ROLLBACK command [1](pga-utility-oracle-database-gateway-appc.md)
+  - select scripts [1](troubleshooting-oracle-database-gateway-appc.md)
+  - storage of information needed for PGAU GENERATE to perform [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - transaction attributes [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - USAGE (SKIP) [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - version definition tables [1](pga-utility-oracle-database-gateway-appc.md)
+- pgddausr.sql file [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+- pgddcr8.sql file [1](pga-utility-oracle-database-gateway-appc.md), [2](oracle-database-gateway-appc-data-dictionary.md)
+- PGDL (Procedural Gateway Definition Language) [1](pga-utility-oracle-database-gateway-appc.md), [2](oracle-database-gateway-appc-rpc-interface.md)
+  - definition [1](oracle-database-gateway-appc-introduction.md)
+- pgtflip.pkb file [1](oracle-database-gateway-appc-introduction.md), [2](developing-appc-client-app-tcpip-only.md)
+- pgtflip.pkh file [1](oracle-database-gateway-appc-introduction.md)
+- pgtflip.sql file [1](developing-appc-client-app-tcpip-only.md)
+- pgtflipd.sql [1](developing-appc-client-app-tcpip-only.md)
+- pgtflipd.sql file [1](developing-appc-client-app-tcpip-only.md)
+- PIC 9 [1](troubleshooting-oracle-database-gateway-appc.md)
+- PIC G [1](troubleshooting-oracle-database-gateway-appc.md)
+  - datatypes [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+- PIC G datatype conversions [1](data-type-conversion-oracle-database-gateway-appc.md)
+- PIC G datatypes [1](data-type-conversion-oracle-database-gateway-appc.md)
+- PIC X datatypes [1](data-type-conversion-oracle-database-gateway-appc.md)
+- PIC X data types [1](troubleshooting-oracle-database-gateway-appc.md)
+- PKGEX(DC) diagnostic option [1](troubleshooting-oracle-database-gateway-appc.md)
+- PL/SQL [1](oracle-database-gateway-appc-introduction.md)
+  - call [1](oracle-database-gateway-appc-data-dictionary.md), [2](oracle-database-gateway-appc-data-dictionary.md)
+  - code [1](oracle-database-gateway-appc-rpc-interface.md)
+  - code generator [1](oracle-database-gateway-appc-introduction.md), [2](troubleshooting-oracle-database-gateway-appc.md)
+  - data length limits [1](troubleshooting-oracle-database-gateway-appc.md)
+  - datatypes [1](oracle-database-gateway-appc-introduction.md), [2](developing-appc-client-app-sna-only.md), [5](developing-appc-client-app-sna-only.md), [6](admin-utility-samples-oracle-database-gateway-appc.md), [7](admin-utility-samples-oracle-database-gateway-appc.md)
+    - converted to RAW [1](oracle-database-gateway-appc-introduction.md)
+  - developing TIPs [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - enabling a trace [1](troubleshooting-oracle-database-gateway-appc.md)
+  - function in the gateway [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-introduction.md)
+  - invoking DG4APPC [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-introduction.md)
+  - naming algorithms [1](data-type-conversion-oracle-database-gateway-appc.md)
+    - delimiters [1](data-type-conversion-oracle-database-gateway-appc.md)
+    - duplicate names [1](data-type-conversion-oracle-database-gateway-appc.md)
+    - qualified compound names [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - parameters [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - record format [1](admin-utility-samples-oracle-database-gateway-appc.md)
+  - stored procedure [1](oracle-database-gateway-appc-introduction.md)
+  - transferring data
+    - using RAW datatype [1](oracle-database-gateway-appc-utl_pg-interface.md)
+  - UTL_PG package function [1](oracle-database-gateway-appc-introduction.md)
+  - UTL_RAW function [1](oracle-database-gateway-appc-introduction.md)
+  - variable names [1](data-type-conversion-oracle-database-gateway-appc.md)
+    - datatype conversion [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - variables [1](creating-tip-oracle-database-gateway-appc.md), [2](data-type-conversion-oracle-database-gateway-appc.md), [5](data-type-conversion-oracle-database-gateway-appc.md)
+- PL/SQL package [1](pga-utility-oracle-database-gateway-appc.md), [2](pga-utility-oracle-database-gateway-appc.md), [3](pga-utility-oracle-database-gateway-appc.md), [4](pga-utility-oracle-database-gateway-appc.md), [5](creating-tip-oracle-database-gateway-appc.md), [7](developing-appc-client-app-sna-only.md), [8](troubleshooting-oracle-database-gateway-appc.md), [9](oracle-database-gateway-appc-rpc-interface.md), [10](tip-internals-oracle-database-gateway-appc.md)
+  - components [1](developing-appc-client-app-sna-only.md), [3](developing-appc-client-app-tcpip-only.md)
+  - contents
+    - package specification [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - DBMS_PIPE [1](creating-tip-oracle-database-gateway-appc.md)
+  - definition [1](oracle-database-gateway-appc-introduction.md)
+  - execute authority [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - function [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - functions [1](oracle-database-gateway-appc-introduction.md)
+  - grants required [1](creating-tip-oracle-database-gateway-appc.md)
+  - pagcics [1](oracle-database-gateway-appc-introduction.md)
+  - parameter [1](pga-utility-oracle-database-gateway-appc.md)
+  - See TIP [1](oracle-database-gateway-appc-introduction.md), [2](tip-internals-oracle-database-gateway-appc.md)
+  - specifying names [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+- PL/SQL stored procedure [1](implement-appc-commit-confirm-sna-only.md)
+  - changing trace level [1](oracle-database-gateway-appc-rpc-interface.md)
+  - starting up communication with mainframe [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-introduction.md)
+- PL/SQL stored procedure specification
+  - also called "TIP" [1](oracle-database-gateway-appc-introduction.md)
+  - See PL/SQL package [1](oracle-database-gateway-appc-introduction.md)
+- PRINT command [1](pga-utility-oracle-database-gateway-appc.md)
+- privileges
+  - needed to use TIPs [1](developing-appc-client-app-sna-only.md)
+- problem analysis
+  - of data conversion and truncation errors [1](troubleshooting-oracle-database-gateway-appc.md)
+  - with PG DD diagnostic references [1](troubleshooting-oracle-database-gateway-appc.md)
+  - with PG DD select scripts [1](troubleshooting-oracle-database-gateway-appc.md)
+  - with TIP runtime traces [1](troubleshooting-oracle-database-gateway-appc.md)
+- Procedural Gateway Administration
+  - see PGA [1](oracle-database-gateway-appc-introduction.md)
+- Procedural Gateway Administration Utility
+  - see PGAU [1](oracle-database-gateway-appc-introduction.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- RAW_TO_NUMBER FORMAT function [1](oracle-database-gateway-appc-utl_pg-interface.md)
+- RAW_TO_NUMBER function [1](oracle-database-gateway-appc-utl_pg-interface.md)
+- recompilation errors
+  - causes [1](tip-internals-oracle-database-gateway-appc.md)
+- REDEFINE DATA statement [1](oracle-database-gateway-appc-data-dictionary.md), [2](admin-utility-samples-oracle-database-gateway-appc.md)
+- REM command [1](pga-utility-oracle-database-gateway-appc.md)
+- remote host transactions (RHT)
+  - APPC conversation sharing [1](developing-appc-client-app-sna-only.md)
+  - attributes needed [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - client application [1](developing-appc-client-app-sna-only.md)
+  - defined using the PGAU DEFINE TRANSACTION statement [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - evaluating [1](creating-tip-oracle-database-gateway-appc.md)
+  - multi-conversational, client applications [1](developing-appc-client-app-sna-only.md)
+  - one-shot, client applications [1](developing-appc-client-app-sna-only.md)
+  - persistent, client applications [1](developing-appc-client-app-sna-only.md)
+  - requirements
+    - understanding [1](developing-appc-client-app-sna-only.md)
+  - steps involved in [1](developing-appc-client-app-sna-only.md)
+  - types
+    - on gateway using SNA [1](oracle-database-gateway-appc-introduction.md), [2](developing-appc-client-app-sna-only.md)
+    - on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md)
+- remote procedural call
+  - See RPC [1](oracle-database-gateway-appc-introduction.md)
+- remote procedural call (RPC) [1](oracle-database-gateway-appc-data-dictionary.md)
+  - calling the gateway [1](oracle-database-gateway-appc-rpc-interface.md)
+  - executing gateway functions [1](oracle-database-gateway-appc-rpc-interface.md)
+  - parameters [1](oracle-database-gateway-appc-rpc-interface.md)
+  - PGAINIT and PGAINIT_SEC [1](oracle-database-gateway-appc-rpc-interface.md)
+  - PGAINIT and PGAINIT_SEC, parameters [1](oracle-database-gateway-appc-rpc-interface.md)
+  - PGATCTL [1](oracle-database-gateway-appc-rpc-interface.md)
+  - PGATERM [1](oracle-database-gateway-appc-rpc-interface.md)
+  - PGATERM, parameters [1](oracle-database-gateway-appc-rpc-interface.md)
+  - PGATRAC [1](oracle-database-gateway-appc-rpc-interface.md)
+  - PGATRAC, parameters [1](oracle-database-gateway-appc-rpc-interface.md)
+  - PGAXFER [1](oracle-database-gateway-appc-rpc-interface.md)
+  - PGAXFER, parameters [1](oracle-database-gateway-appc-rpc-interface.md)
+- remote procedure
+  - definition [1](oracle-database-gateway-appc-introduction.md)
+- remote transaction initiation
+  - on gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+  - on gateway using TC/IP [1](oracle-database-gateway-appc-introduction.md)
+- remote transaction program
+  - See RTP [1](oracle-database-gateway-appc-introduction.md)
+- remote transaction termination
+  - on gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+  - on gateway using TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+- REPORT statement [1](creating-tip-oracle-database-gateway-appc.md)
+- RHT, See remote host transactions [1](creating-tip-oracle-database-gateway-appc.md)
+- ROLLBACK command [1](pga-utility-oracle-database-gateway-appc.md), [2](pga-utility-oracle-database-gateway-appc.md)
+- ROLLBACK processing [1](pga-utility-oracle-database-gateway-appc.md)
+- RPC
+  - definition [1](oracle-database-gateway-appc-introduction.md)
+  - function
+    - PGAINIT [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-introduction.md)
+    - PGATERM [1](oracle-database-gateway-appc-introduction.md)
+    - PGAXFER [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-introduction.md)
+    - within the gateway [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-introduction.md)
+  - processing [1](oracle-database-gateway-appc-introduction.md)
+- RPC interface
+  - PGATCTL [1](oracle-database-gateway-appc-rpc-interface.md)
+  - PGATERM [1](oracle-database-gateway-appc-rpc-interface.md)
+  - PGATRAC [1](oracle-database-gateway-appc-rpc-interface.md)
+  - PGAXFER [1](oracle-database-gateway-appc-rpc-interface.md)
+  - See also, remote procedural call (RPC) [1](oracle-database-gateway-appc-rpc-interface.md)
+- RTP
+  - activities [1](developing-appc-client-app-sna-only.md)
+  - definition [1](oracle-database-gateway-appc-introduction.md)
+  - executing [1](oracle-database-gateway-appc-introduction.md)
+  - function in the gateway [1](oracle-database-gateway-appc-introduction.md)
+  - on gateway using SNA [1](developing-appc-client-app-sna-only.md)
+  - purpose [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+- runtime traces [1](troubleshooting-oracle-database-gateway-appc.md)
+  - controls [1](troubleshooting-oracle-database-gateway-appc.md)
+  - conversion warnings [1](troubleshooting-oracle-database-gateway-appc.md)
+  - data conversion tracing [1](troubleshooting-oracle-database-gateway-appc.md)
+  - gateway exchange tracing [1](troubleshooting-oracle-database-gateway-appc.md)
+  - runtime function entry/exit tracing [1](troubleshooting-oracle-database-gateway-appc.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- sample
+  - PGAU DEFINE CALL command [1](admin-utility-samples-oracle-database-gateway-appc.md)
+  - PGAU DEFINE DATA command [1](admin-utility-samples-oracle-database-gateway-appc.md)
+  - PGAU DEFINE TRANSACTION command [1](admin-utility-samples-oracle-database-gateway-appc.md)
+  - PGAU GENERATE command [1](admin-utility-samples-oracle-database-gateway-appc.md)
+  - PGAU REDEFINE DATA command [1](admin-utility-samples-oracle-database-gateway-appc.md)
+  - PGAU UNDEFINE command [1](admin-utility-samples-oracle-database-gateway-appc.md)
+- sample definitions
+  - implicit versioning [1](admin-utility-samples-oracle-database-gateway-appc.md)
+- script file [1](creating-tip-oracle-database-gateway-appc.md)
+- sequence objects
+  - in the PGDD environment dictionary [1](oracle-database-gateway-appc-data-dictionary.md)
+- SET command [1](pga-utility-oracle-database-gateway-appc.md)
+- SET LOG_DESTINATION parameter [1](troubleshooting-oracle-database-gateway-appc.md), [3](troubleshooting-oracle-database-gateway-appc.md)
+- SET TRACE_LEVEL parameter [1](troubleshooting-oracle-database-gateway-appc.md), [3](troubleshooting-oracle-database-gateway-appc.md), [5](troubleshooting-oracle-database-gateway-appc.md), [6](troubleshooting-oracle-database-gateway-appc.md)
+- SIDE_NAME [1](implement-appc-commit-confirm-sna-only.md)
+- Side Information Profile [1](pga-utility-oracle-database-gateway-appc.md), [2](oracle-database-gateway-appc-rpc-interface.md)
+- simple DG4APPC communication
+  - on gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+- SNA
+  - and gateway components [1](oracle-database-gateway-appc-introduction.md)
+  - communication between mainframe and Oracle database [1](oracle-database-gateway-appc-introduction.md)
+  - communications function [1](oracle-database-gateway-appc-introduction.md)
+  - creating a TIP [1](oracle-database-gateway-appc-introduction.md)
+  - determining validity of TIP specification [1](tip-internals-oracle-database-gateway-appc.md)
+  - examples and sample files used in this guide [1](oracle-database-gateway-appc-introduction.md)
+  - flexible call sequence [1](developing-appc-client-app-sna-only.md)
+  - function in the gateway [1](oracle-database-gateway-appc-introduction.md)
+  - gateway transaction types [1](oracle-database-gateway-appc-introduction.md)
+  - implementing commit-confirm [1](implement-appc-commit-confirm-sna-only.md)
+  - overview of the gateway, using [1](oracle-database-gateway-appc-introduction.md)
+  - parameters [1](oracle-database-gateway-appc-introduction.md)
+  - PGAU DEFINE TRANSACTION command [1](creating-tip-oracle-database-gateway-appc.md)
+  - remote transaction initiation [1](oracle-database-gateway-appc-introduction.md)
+  - remote transaction termination on the gateway [1](oracle-database-gateway-appc-introduction.md)
+  - steps to connecting Oracle database and mainframe [1](oracle-database-gateway-appc-introduction.md)
+  - supported remote host languages [1](creating-tip-oracle-database-gateway-appc.md)
+  - TIP internals [1](tip-internals-oracle-database-gateway-appc.md)
+  - uses APPC to access all systems [1](oracle-database-gateway-appc-introduction.md)
+  - writing TIPs [1](oracle-database-gateway-appc-introduction.md)
+- socket file descriptor
+  - returned by TCP/IP network to PGAINIT [1](oracle-database-gateway-appc-introduction.md)
+- specification file
+  - on gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+  - on gateway using TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+- SPOOL command [1](pga-utility-oracle-database-gateway-appc.md)
+- SQL\*Plus
+  - connecting server and mainframe [1](oracle-database-gateway-appc-introduction.md)
+  - invoking [1](creating-tip-oracle-database-gateway-appc.md)
+  - recompiling TIP body changes [1](tip-internals-oracle-database-gateway-appc.md)
+  - running scripts [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - test scripts [1](troubleshooting-oracle-database-gateway-appc.md)
+- statements
+  - see PGAU commands [1](pga-utility-oracle-database-gateway-appc.md)
+- SYNCHRONIZED LEFT [1](data-type-conversion-oracle-database-gateway-appc.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- TCP/IP for IMS Connect [1](oracle-database-gateway-appc-introduction.md), [2](developing-appc-client-app-tcpip-only.md)
+  - and gateway components [1](oracle-database-gateway-appc-introduction.md)
+  - and PGA_TCP_IMSC parameter table [1](pg4tcpmap-commands-tcpip.md)
+  - and PGAINIT [1](pg4tcpmap-commands-tcpip.md)
+  - and Remote Transaction Initiation [1](oracle-database-gateway-appc-introduction.md)
+  - Client application overview [1](developing-appc-client-app-tcpip-only.md)
+  - communication between gateway and Oracle database [1](oracle-database-gateway-appc-introduction.md)
+  - content of PGA_TCP_IMSC table [1](pg4tcpmap-commands-tcpip.md)
+  - creating a TIP [1](developing-appc-client-app-tcpip-only.md)
+  - determining validity of TIP specification [1](tip-internals-oracle-database-gateway-appc.md)
+  - elements of TIP-RTP correspondence [1](developing-appc-client-app-tcpip-only.md)
+  - examples and sample files used in this guide [1](oracle-database-gateway-appc-introduction.md)
+  - function in the gateway [1](oracle-database-gateway-appc-introduction.md)
+  - gateway support for, description [1](oracle-database-gateway-appc-introduction.md)
+  - IMS enabled [1](oracle-database-gateway-appc-introduction.md)
+  - mapping parameters using pg4tcpmap tool [1](developing-appc-client-app-tcpip-only.md)
+  - mapping SNA parameters to TCP/IP [1](pg4tcpmap-commands-tcpip.md)
+  - non-persistent socket transaction type [1](oracle-database-gateway-appc-introduction.md)
+  - OLTP in gateway architecture [1](oracle-database-gateway-appc-introduction.md)
+  - persistent socket transaction type [1](oracle-database-gateway-appc-introduction.md)
+  - PGAU DEFINE TRANSACTION command [1](creating-tip-oracle-database-gateway-appc.md)
+  - remote host languages supported [1](creating-tip-oracle-database-gateway-appc.md)
+  - remote transaction initiation [1](oracle-database-gateway-appc-introduction.md)
+  - remote transaction termination [1](oracle-database-gateway-appc-introduction.md)
+  - SENDs and RECEIVEs
+    - TIP CALL correspondence [1](developing-appc-client-app-tcpip-only.md)
+  - setting initsid.ora parameters [1](pg4tcpmap-commands-tcpip.md)
+  - simple communication
+    - between gateway and integrating server [1](oracle-database-gateway-appc-introduction.md)
+  - steps to communication between server and IMS [1](oracle-database-gateway-appc-introduction.md)
+  - steps to writing a TIP [1](oracle-database-gateway-appc-introduction.md)
+  - supports only IMS as OLTP [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-introduction.md)
+  - TIP granting privileges needed [1](developing-appc-client-app-tcpip-only.md)
+  - TIP internals [1](tip-internals-oracle-database-gateway-appc.md)
+  - TRANSACTION correspondence [1](developing-appc-client-app-tcpip-only.md)
+  - transaction types [1](oracle-database-gateway-appc-introduction.md)
+- terminal-oriented transactions
+  - modifying [1](developing-appc-client-app-sna-only.md)
+- terminating a TIP conversation [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+- terms, gateway terms defined [1](oracle-database-gateway-appc-introduction.md)
+- TIP [1](oracle-database-gateway-appc-introduction.md), [2](developing-appc-client-app-sna-only.md), [3](developing-appc-client-app-tcpip-only.md)
+  - APPC conversation sharing [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-sna-only.md)
+  - background references [1](tip-internals-oracle-database-gateway-appc.md)
+  - CALL correspondence [1](developing-appc-client-app-sna-only.md)
+    - on gateway using SNA [1](developing-appc-client-app-sna-only.md)
+    - on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md)
+    - order restrictions [1](developing-appc-client-app-sna-only.md)
+  - calling
+    - from the client application [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - calling and controlling
+    - on gateway using SNA [1](developing-appc-client-app-sna-only.md)
+    - on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - client application development
+    - content and purpose on gateway using SNA [1](developing-appc-client-app-sna-only.md)
+    - content and purpose on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md)
+  - compiling [1](creating-tip-oracle-database-gateway-appc.md)
+  - content documentation (tipname.doc) [1](creating-tip-oracle-database-gateway-appc.md)
+  - content file sections
+    - GENERATION Status [1](creating-tip-oracle-database-gateway-appc.md)
+    - TIP Default Calls [1](creating-tip-oracle-database-gateway-appc.md)
+    - TIP Transaction [1](creating-tip-oracle-database-gateway-appc.md)
+    - TIP User Calls [1](creating-tip-oracle-database-gateway-appc.md)
+    - TIP User Declarations [1](creating-tip-oracle-database-gateway-appc.md)
+    - TIP User Variables [1](creating-tip-oracle-database-gateway-appc.md)
+  - control file [1](pga-utility-oracle-database-gateway-appc.md)
+  - controlling
+    - runtime conversion warnings [1](troubleshooting-oracle-database-gateway-appc.md)
+    - runtime data conversion tracing [1](troubleshooting-oracle-database-gateway-appc.md)
+    - runtime function tracing [1](troubleshooting-oracle-database-gateway-appc.md)
+    - runtime gateway exchange tracing [1](troubleshooting-oracle-database-gateway-appc.md)
+  - conversation sharing used to circumvent large TIPs [1](developing-appc-client-app-sna-only.md)
+  - conversion [1](oracle-database-gateway-appc-introduction.md), [2](developing-appc-client-app-sna-only.md), [3](developing-appc-client-app-tcpip-only.md)
+  - converting PL/SQL datatypes to RAW [1](oracle-database-gateway-appc-introduction.md)
+  - creating [1](creating-tip-oracle-database-gateway-appc.md)
+  - customized interface for each remote host transaction (RTP) [1](developing-appc-client-app-sna-only.md)
+  - custom TIP writing [1](tip-internals-oracle-database-gateway-appc.md)
+  - DATA correspondence [1](developing-appc-client-app-sna-only.md)
+    - on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md)
+  - datatype conversion support for COBOL [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - declaring variables to create a TIP [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - defining, with PGAU [1](pga-utility-oracle-database-gateway-appc.md)
+  - defining and generating [1](creating-tip-oracle-database-gateway-appc.md)
+  - definition [1](oracle-database-gateway-appc-introduction.md)
+  - definition errors [1](troubleshooting-oracle-database-gateway-appc.md)
+  - dependent TIP body or specification changes [1](tip-internals-oracle-database-gateway-appc.md)
+  - diagnostic parameters [1](developing-appc-client-app-sna-only.md)
+  - driver procedures
+    - on gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+    - on gateway using TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+  - flexible call sequence [1](developing-appc-client-app-sna-only.md)
+  - four steps to generate
+    - on gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+    - on gateway using TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+  - functions
+    - in Oracle database [1](oracle-database-gateway-appc-introduction.md)
+  - generated by PGAU [1](developing-appc-client-app-sna-only.md)
+  - granting privileges to use [1](creating-tip-oracle-database-gateway-appc.md), [2](developing-appc-client-app-sna-only.md), [3](developing-appc-client-app-tcpip-only.md)
+  - independent TIP body changes [1](tip-internals-oracle-database-gateway-appc.md)
+  - initializations [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+    - overriding [1](developing-appc-client-app-sna-only.md)
+  - initializing the conversation [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - internals [1](tip-internals-oracle-database-gateway-appc.md)
+  - override parameters [1](developing-appc-client-app-sna-only.md)
+  - overriding
+    - on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md)
+  - overriding default attributes [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - overview [1](oracle-database-gateway-appc-introduction.md), [2](oracle-database-gateway-appc-introduction.md)
+  - privileges needed [1](creating-tip-oracle-database-gateway-appc.md), [2](developing-appc-client-app-sna-only.md)
+  - public functions
+    - tip_init [1](developing-appc-client-app-sna-only.md)
+    - tip_inqr [1](developing-appc-client-app-sna-only.md)
+    - tip_mode [1](developing-appc-client-app-sna-only.md)
+    - tip_term [1](developing-appc-client-app-sna-only.md)
+    - tip_updt [1](developing-appc-client-app-sna-only.md)
+  - recompiling [1](tip-internals-oracle-database-gateway-appc.md), [2](tip-internals-oracle-database-gateway-appc.md), [3](tip-internals-oracle-database-gateway-appc.md)
+  - remote transaction
+    - correspondence [1](developing-appc-client-app-sna-only.md)
+  - remote transaction correspondence, on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md)
+  - remote transaction initiation (PGAINIT) [1](oracle-database-gateway-appc-introduction.md)
+  - requirements for corresponding with RHT
+    - on gateway using SNA [1](developing-appc-client-app-sna-only.md)
+    - on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md)
+  - requirements of the client application [1](developing-appc-client-app-sna-only.md)
+  - service [1](developing-appc-client-app-sna-only.md)
+  - specification file [1](creating-tip-oracle-database-gateway-appc.md)
+    - on gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+    - on gateway using TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+  - specifications
+    - generated by PGAU [1](oracle-database-gateway-appc-introduction.md)
+  - steps to writing
+    - on gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+    - on gateway using TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+  - terminating the conversation [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - trace controls [1](troubleshooting-oracle-database-gateway-appc.md)
+  - tracing [1](troubleshooting-oracle-database-gateway-appc.md)
+  - TRANSACTION correspondence [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+    - on gateway using SNA [1](developing-appc-client-app-sna-only.md)
+  - using transaction instance parameter
+    - on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md)
+  - writing
+    - on gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+    - on gateway using TCP/IP [1](creating-tip-oracle-database-gateway-appc.md)
+- TIP control file commands [1](oracle-database-gateway-appc-introduction.md), [6](oracle-database-gateway-appc-introduction.md)
+  - on gateway using TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+- tipname.doc file [1](creating-tip-oracle-database-gateway-appc.md), [2](developing-appc-client-app-sna-only.md), [3](developing-appc-client-app-tcpip-only.md)
+- tipname.pkb file [1](troubleshooting-oracle-database-gateway-appc.md)
+- TIP specification [1](developing-appc-client-app-sna-only.md), [2](tip-internals-oracle-database-gateway-appc.md), [3](tip-internals-oracle-database-gateway-appc.md)
+  - changes [1](tip-internals-oracle-database-gateway-appc.md)
+  - errors [1](tip-internals-oracle-database-gateway-appc.md)
+- TIP warnings and tracing
+  - suppressing [1](troubleshooting-oracle-database-gateway-appc.md)
+- TP_NAME [1](implement-appc-commit-confirm-sna-only.md)
+- TRACE_LEVEL [1](troubleshooting-oracle-database-gateway-appc.md)
+- trace option [1](troubleshooting-oracle-database-gateway-appc.md)
+  - TIP definition errors [1](troubleshooting-oracle-database-gateway-appc.md)
+- traces [1](troubleshooting-oracle-database-gateway-appc.md), [2](troubleshooting-oracle-database-gateway-appc.md), [3](troubleshooting-oracle-database-gateway-appc.md), [4](troubleshooting-oracle-database-gateway-appc.md)
+  - diagnostic [1](troubleshooting-oracle-database-gateway-appc.md)
+  - enable gateway server trace [1](troubleshooting-oracle-database-gateway-appc.md)
+  - enabling APPC trace from PL/SQL [1](troubleshooting-oracle-database-gateway-appc.md)
+  - enabling through initsid.ora [1](troubleshooting-oracle-database-gateway-appc.md)
+  - gateway server [1](troubleshooting-oracle-database-gateway-appc.md)
+  - purpose of initializing conversations [1](developing-appc-client-app-sna-only.md), [2](developing-appc-client-app-tcpip-only.md)
+  - runtime [1](troubleshooting-oracle-database-gateway-appc.md)
+    - trace controls [1](troubleshooting-oracle-database-gateway-appc.md)
+  - suppressing [1](troubleshooting-oracle-database-gateway-appc.md)
+  - TIP [1](troubleshooting-oracle-database-gateway-appc.md), [2](troubleshooting-oracle-database-gateway-appc.md)
+- TRANSACTION correspondence
+  - on gateway using SNA [1](developing-appc-client-app-sna-only.md)
+  - on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md)
+- transaction instance parameter
+  - on gateway using SNA [1](developing-appc-client-app-sna-only.md)
+  - on gateway using TCP/IP [1](developing-appc-client-app-tcpip-only.md)
+- Transaction Interface Package
+  - See TIP [1](oracle-database-gateway-appc-introduction.md)
+- transaction socket
+  - transaction type for TCP/IP [1](oracle-database-gateway-appc-introduction.md)
+- transaction types
+  - one-shot, persistent and multi-conversational, for SNA [1](oracle-database-gateway-appc-introduction.md)
+- transparency
+  - (application) [1](oracle-database-gateway-appc-introduction.md)
+  - (location), on gateway using SNA [1](oracle-database-gateway-appc-introduction.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- UNDEFINE statement [1](creating-tip-oracle-database-gateway-appc.md), [2](admin-utility-samples-oracle-database-gateway-appc.md)
+- USAGE(ASIS) [1](data-type-conversion-oracle-database-gateway-appc.md)
+- USAGE(PASS) [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - datatype conversion [1](data-type-conversion-oracle-database-gateway-appc.md)
+    - FILLER [1](data-type-conversion-oracle-database-gateway-appc.md)
+    - PIC G [1](data-type-conversion-oracle-database-gateway-appc.md)
+  - format conversion
+    - OCCURS DEPENDING ON [1](data-type-conversion-oracle-database-gateway-appc.md)
+- USAGE(SKIP) [1](data-type-conversion-oracle-database-gateway-appc.md)
+- UTL_PG
+  - package
+    - definition [1](oracle-database-gateway-appc-introduction.md)
+  - parameters (input and output) [1](oracle-database-gateway-appc-utl_pg-interface.md)
+  - PL/SQL package [1](creating-tip-oracle-database-gateway-appc.md)
+- UTL_PG function [1](oracle-database-gateway-appc-utl_pg-interface.md)
+  - MAKE_NUMBER_TO_RAW_FORMAT [1](oracle-database-gateway-appc-utl_pg-interface.md)
+  - MAKE_RAW_TO_NUMBER_FORMAT [1](oracle-database-gateway-appc-utl_pg-interface.md)
+  - NUMBER_TO_RAW [1](oracle-database-gateway-appc-utl_pg-interface.md)
+  - NUMBER_TO_RAW_FORMAT [1](oracle-database-gateway-appc-utl_pg-interface.md)
+  - NUMBER_TO_RAW and RAW_TO_NUMBER argument values [1](oracle-database-gateway-appc-utl_pg-interface.md)
+  - RAW_TO_NUMBER [1](oracle-database-gateway-appc-utl_pg-interface.md)
+  - RAW_TO_NUMBER_FORMAT [1](oracle-database-gateway-appc-utl_pg-interface.md)
+  - WMSG [1](oracle-database-gateway-appc-utl_pg-interface.md)
+  - WMSGCNT [1](oracle-database-gateway-appc-utl_pg-interface.md)
+- UTL_RAW PL/SQL package [1](creating-tip-oracle-database-gateway-appc.md), [3](oracle-database-gateway-appc-utl_pg-interface.md)
+  - definition [1](oracle-database-gateway-appc-introduction.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- VARIABLE command [1](pga-utility-oracle-database-gateway-appc.md)
+
+------------------------------------------------------------------------
+
+## W
+
+- WMSGCNT function [1](oracle-database-gateway-appc-utl_pg-interface.md)
+- WMSG function [1](oracle-database-gateway-appc-utl_pg-interface.md)
+- writing PGAU statements [1](creating-tip-oracle-database-gateway-appc.md)
