@@ -1,0 +1,1 @@
+This figure illustrates a map display of the label for an oriented point. The label text ("Oriented Point") slopes up and to the right at an angle of approximately 34 degrees (counterclockwise from the x-axis).

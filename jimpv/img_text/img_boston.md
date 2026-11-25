@@ -1,0 +1,1 @@
+This figure illustrates an image theme showing an aerial photograph of part of the city of Boston, overlaid with themes showing several kinds of roadways in the city. Blue, red, and yellow lines are used to show different kinds of roadways.

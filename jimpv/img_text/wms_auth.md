@@ -1,0 +1,1 @@
+This figure illustrates specifying authentication with a WMS theme. In the WMS Theme Basic Info section, the Authentication option is checked (enabled), and values are specified for User and Password.

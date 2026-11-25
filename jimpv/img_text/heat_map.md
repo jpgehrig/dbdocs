@@ -1,0 +1,1 @@
+This figure illustrates map displayed using a theme based on a heat map style, as explained in text before the illustration. In the illustration, the area around Los Angeles has a red background that generally fades to yellow and then yellow as the distance from Los Angeles increases. Other areas on the map have backgrounds that are generally white or shades of green.

@@ -1,0 +1,1 @@
+This figure illustrates a text style with a white background for the letters, as explained in text before and after the illustration. In the illustration, the letters of the town name Vallejo have a white background.

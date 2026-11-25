@@ -1,0 +1,1 @@
+This figure shows the map_viewer1 server instance selected in the Target Navigation pane and the information for that server instance displayed in the main area, as explained in text before the illustration.

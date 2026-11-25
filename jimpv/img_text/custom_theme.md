@@ -1,0 +1,1 @@
+This figure shows a display with a solid medium-blue background. The display has the title text "Custom Geometry Theme". It has several red dots, each with a label for a United States city (Phoenix, San Antonio, Dallas, Houston, Chicago, Indianapolis, Detroit, Baltimore, New York, Philadelphia).

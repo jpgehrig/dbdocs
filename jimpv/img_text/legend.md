@@ -1,0 +1,1 @@
+This figure illustrates a map with the legend specified in the example immediately before the illustration, and it is further explained in notes after the illustration. The legend shown has one column.
