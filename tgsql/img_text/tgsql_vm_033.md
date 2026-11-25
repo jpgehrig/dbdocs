@@ -1,0 +1,3 @@
+# Description of the illustration tgsql_vm_033.eps
+
+The Database Operations box contains two boxes: User-Defined Operations and REal-Time SQL Monitoring. A DBMS_MONITOR box points to User-Defined Operations. CONTROL_MANAGEMENT_PACK_ACCESS points to Real-Time SQL Monitoring. Database Management points to an AWR box that contains the views V\$SQL_MONITOR, V\$SQL_PLAN_MONITOR, and V\$SQL_MONITOR_SESSTAT. The AWR box points down to a box that contains the views DBMS_SQL_MONITOR and REPORT_SQL_MONITOR. This box points down to an Oracle Enterprise Manager icon. A User icon points up to the Enterprise Manager icon.

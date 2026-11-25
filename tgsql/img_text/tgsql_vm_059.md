@@ -1,0 +1,3 @@
+# Description of the illustration tgsql_vm_059.eps
+
+This graphic depicts an icon of a person labeled "SQL Tuning Advisor." A box containing the text "SELECT . . ." points toward SQL Tuning Advisor, who in turn points left toward an Optimizer box. The Optimizer box contains an Automatic Tuning Optimizer box. An icon of a calculator is attached to this box. The Automatic Tuning Optimizer box points down to a Stale Statistics icon of a book. This icon points right to a box containing the text "Recommended collecting object-level statistics." Automatic Tuning Optimizer points right toward an icon of a book labeled "Absent Statistics." A circle with a line through it is around this book. Each book icon has a double-headed arrow between it and a Customers Table icon.

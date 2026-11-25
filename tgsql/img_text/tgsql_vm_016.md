@@ -1,0 +1,3 @@
+# Description of the illustration tgsql_vm_016.eps
+
+The top box of the graphic shows a table with three columns: CUST_ID, CUST_STATE_PROVINCE, and COUNTRY_ID. The first row contains the values 101095, CA, 5790. The second row contains the values 103105, São Paolo, 52775. The two columns point to a box that contains the name SYS\_ followed by random letters. This box points to text "Statistics for Column Group." This text points to the Optimizer icon. An arrow leads from the first column in the table to the text "Statistics for CUST_STATE_PROVINCE" to the Optimizer icon. An arrow leads from the third column in the table to the text "Statistics for COUNTRY_ID" to the Optimizer icon.

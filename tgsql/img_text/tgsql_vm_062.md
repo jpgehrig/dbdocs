@@ -1,0 +1,3 @@
+# Description of the illustration tgsql_vm_062.eps
+
+This graphic shows a SELECT statements that points right to a SQL Tuning Advisor icon. This icon points right to an Optimizer box that contains a box labeled "Automatic Optimizer Tuning." A calculator icon is attached to the Optimizer box. The Automatic Tuning Optimizer box points down to a SQL Profiling box. This box contains the text "Reviews past execution history to adjust settings" and "Perform sampling or partial execution." An arrow points down and splits into two. One arrow points to a "No Recommendation" box, whereas the other arrow points to a "Recommendation to implement SQL profile" box.

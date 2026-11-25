@@ -1,0 +1,3 @@
+# Description of the illustration tgsql_vm_019.eps
+
+This graphic depicts a box labeled "Database Buffer Cache." Inside the box is another box entitled "Counters for Workload Statistics." Inside this box are the following metrics: mreadtim, mbrc, sreadtim, cpuspeed, maxthr, slavethr. The first two metrics are in a gray box. This box has a callout that says "May not be available if no full table scans occur." The "Counters" box points to an Optimizer icon. A double-headed arrow is between this icon and a box containing the text "DB_FILE_MULTIBLOCK_READ_COUNT." The arrow is annotated "May use if mbrc and mreadtim are not available." The optimizer points right to a box containing the text "Estimate costs of full table scans."

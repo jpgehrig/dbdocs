@@ -1,0 +1,3 @@
+# Description of the illustration sql_access_advisor_wiz.gif
+
+This screen shot has the title SQL Access Advisor: Initial Options. Underneath is the text "Select a set of initial options." The first option is "Verify use of access structures (indexes, materialized views, partitioning, etc.) only." The second (selected) option is "Recommend new access structures." Underneath is a check box with the text "Inherit Options from a previously saved Task or Template." The Overview text is "The SQL Access Advisor evaluates SQL statements in a workload source, and can suggest indexes, partitioning, materialized views and materialized view logs that will improve performance of the workload as a whole."

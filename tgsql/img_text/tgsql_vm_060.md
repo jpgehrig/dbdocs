@@ -1,0 +1,3 @@
+# Description of the illustration tgsql_vm_060.eps
+
+This graphic shows a SQL Tuning Advisor icon. The icon points right to a box that contains the text "Recommends implementing SQL profile." An arrow points right and splits into two arrows, one labeled "On Demand" and the other labeled "Autotask." The On Demand arrow points right to a box that contains the text "User must choose whether to implement." The Autotask arrow splits into two arrows, one pointing up to the "User must choose" box. The arrow is labeled "No Autoimplementation." The other branch is labeled "Autoimplementation" and points right to a box labeled "Implements SQL profile." An icon of a piece of paper is thumbtacked to this box.

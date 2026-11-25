@@ -1,0 +1,3 @@
+# Description of the illustration tgsql_vm_018.eps
+
+This graphic shows a diamond that contains the following text: "Statistics missing? Statistics stale? Statistics insufficient? SQL directive exists? Parallel execution?" The diamond points down to a box that contains the text "Determine sampling level." The arrow is labeled "Yes." An arrow leads from "Determine sampling level" down to a box that contains a SQL statement. The box is labeled "Recursive SQL." This box points down to a sales table and shows that some blocks from table are scanned. The diamond points right to an optimizer icon. The arrow is labeled "No." A box below the optimizer contains a SQL statement. It points up to the Optimizer icon. The Optimizer points right to a plan labeled "Execution Plan."

@@ -1,0 +1,3 @@
+# Description of the illustration tgsql_vm_063.eps
+
+This graphic shows an icon for SQL Tuning Advisor. A box containing the text "SELECT . . ." points to the advisor. The advisor points left to a box labeled "Optimizer." The Optimizer box contains a box labeled "Automatic Tuning Optimizer." A calculator icon is attached to the Optimizer box. Underneath the SQL Tuning Advisor icon is an icon for SQL Access Advisor. Inside the Automatic Tuning Optimizer box is the word "Recommends." The SQL Access Advisor points to the word "Recommend," which in turn points to a box labeled "Index Creation." A box labeled "Workload" points toward SQL Access Advisor, which points down to a box labeled "Comprehensive Analysis," which points left toward the Index Creation box.

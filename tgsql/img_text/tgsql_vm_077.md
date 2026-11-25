@@ -1,0 +1,3 @@
+# Description of the illustration tgsql_vm_077.eps
+
+At the top of this diagram is a query coordinator icon. Below are four horizontal boxes, P1 to P4. These boxes are connected to four box arranged in the form of a downward staircase, P5 to P8. On the left is a departments icon. Each process, P5 through P8, is connected to departments by a gray line. On the right is the employees icon. Above each progress, P5 through P8, is a red box. A right arrow points from the top box to a callout that says "The number of rows returned is below threshold, so optimizer chooses broadcast method." A callout that says "Statistics collector threshold is 2X the DOP" points to the top box.

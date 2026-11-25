@@ -1,0 +1,3 @@
+# Description of the illustration tgsql_vm_036.eps
+
+At the top of the diagram is the text "Gather Database/Schema/Dictionary Statistics." An arrow leads down to a box labeled "Level 1." This arrow splits into four arrows, each pointing to a different box. The contents of the boxes are: "Job 1, Table 1, Global Statistics," "Job 2, Table, Global Statistics," "Job 3, Table 3 Coordinator Job," "Job 4, Table 4, Global Statistics." An arrow leads down from the Job 3 box to a box labeled "Level 2." This arrows splits into 3 arrows, each pointing to a different box. The contents of the boxes: "Job 3.1, Table 3, Partition 1," "Job 3.2, Table 3, Partition," and "Job 3.3, Table 3, Global Services."

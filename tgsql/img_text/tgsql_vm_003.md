@@ -1,0 +1,3 @@
+# Description of the illustration tgsql_vm_003.eps
+
+This graphic shows a flow chart. The "SQL is issued" box points down to the "Generate execution plan" box, which points down to the "Does a SQL plan baseline exist?" diamond. The diamond has a "No" arrow that points down to the "Execute this plan" box. The diamond has a "Yes" arrows that points right to the "Is this plan in SQL plan baseline?" diamond. The "No" arrow points down to the "Mark plan as unaccepted in plan history" box, which points down to the "compare costs of accepted plans" box, which points down to the "Execute lowest-cost plan in baseline" box. The diamond has a "Yes" arrow that points right to the "Execute this plan" box.

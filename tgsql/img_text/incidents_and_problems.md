@@ -1,0 +1,3 @@
+# Description of the illustration incidents_and_problems.gif
+
+This screenshot shows the Incidents and Problems section of the home page. At the top area View menu, Target menu with Local target and related targets selected, Category with All selected, an icon with a horizontal line and the number 0, and X icon with the number 4, an exclamation point icon with the number 0, and a small flag. The page contains a table with the following columns: Summary, Tar, Sev, Status, Escalation level, Type, Time since last update. The first row values are as follows: Swap Utilization is 95.673%, a server icon, an X, New, a dash, Incident, 2 days 1 hours. The remaining rows are similar.

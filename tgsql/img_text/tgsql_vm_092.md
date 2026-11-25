@@ -1,0 +1,3 @@
+#
+
+This graphic depicts a flow chart. At the top is CREATE_ADVISOR_TASK. An arrow points downward to EXECUTE_ADVISOR_TASK. On the right, between CREATE_ADVISOR_TASK and EXECUTE_ADVISOR_TASK, is CONFIGURE_ADVISOR\_\*\_FILTER, which points toward the downward arrow. EXECUTE_ADVISOR_TASK points downward to REPORT_ADVISOR_TASK, which branches left to IMPLEMENT_ADVISOR_TASK and right to SCRIPT_ADVISOR_TASK. The latter points down to a circle that contains “Run PL/SQL script.” Between SCRIPT_ADVISOR_TASK and the “Run PL/SQL script” circle is a circle “Edit PL/SQL script,” which has arrows leading to and away from the downward arrow.

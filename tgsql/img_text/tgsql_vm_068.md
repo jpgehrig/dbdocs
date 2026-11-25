@@ -1,0 +1,3 @@
+# Description of the illustration tgsql_vm_068.eps
+
+The top box contains the text "SELECT \* FROM sh.customers WHERE LOWER (cust_state_province) = 'ca'". This box points down to the Optimizer icon. The optimizer points to a diamond containing the text "Do expression statistics exist?" To the left, a "Yes" arrow points to a box containing "ca 3341, fl ...". This box points to the text "LOWER (cust_state_province\_) Expression Statistics." This text points to the box "Good Estimate." A "No" arrow leads from the diamond to a "Default Selectivity" box. This box points down to the text "CUST_STATE_PROVINCE Column Statistics." This text points down to a box that says "Poor Estimate."

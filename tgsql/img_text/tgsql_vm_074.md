@@ -1,0 +1,3 @@
+# Description of the illustration tgsql_vm_074.eps
+
+This graphic shows a sales table on the left side. The table shows 6 rows as a vertical column, each with a ate ranging from May 18 to May 23. Corresponding to each date is a box labeled S1 to S6, with May 18 pointing to S1, May 19 pointing to S2, and so on. Above the column of boxes is the text: "1. The database gathers partition-level statistics, and creates synopses." The boxes collectively point to a box containing the text "Global Statistics." Above this box is the text: "The database generates global statistics by aggregating partition-level statistics and synopses." The S6 box points to a cylinder labeled "Sysaux Tablespace."

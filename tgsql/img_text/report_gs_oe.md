@@ -1,0 +1,3 @@
+# Description of the illustration report_gs_oe.png
+
+This graphic shows an HTML report. At the top of the report are columns for Id, Operation, Target, Start Time, End Time, Status, Total Tasks, Successful Tasks, Failed Tasks, Active Tasks. There is one row containing 760, gather_schema_stats (reporting mode), OE, null, null, null, 37, null, null, null. The body of the reported is titled Tasks. In Tasks there is a table with columns Target, Type, Start Time, End Time, Status. The first row is OE.CATEGORIES_TAB, TABLE, null, null, null. The second row is OE.SYS_C005267, INDEX, null, null, null. The other rows are similar.
