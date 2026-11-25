@@ -1,0 +1,1 @@
+This illustration shows users making changes to database objects in an Oracle database. The changes are logged in the redo log. A capture process formats these changes into messages called LCRs and enqueues them. The queue contains LCRs.

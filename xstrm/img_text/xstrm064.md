@@ -1,0 +1,1 @@
+This illustration shows an external data source sending changes to a client application using the XStream In interface. The client application connects to the inbound server and sends events to the inbound server. The inbound server applies changes to database objects and sends an acknowledgement to the client application.

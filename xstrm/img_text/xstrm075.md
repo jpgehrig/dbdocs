@@ -1,0 +1,1 @@
+The illustration shows an Oracle database. The redo log records changes to database objects. The changes are captured by a capture process and enqueued as LCRs into a queue. An outbound server dequeues the LCRs from the queue, and a client application receives the LCRs.

@@ -1,0 +1,1 @@
+The illustration shows two Oracle databases. In one Oracle database, the redo log records changes to database objects. The changes are captured by a capture process and enqueued as LCRs into a queue. The LCRs are propagated to a queue in the other database. In the other database, an outbound server dequeues the LCRs from the queue, and a client application receives the LCRs.

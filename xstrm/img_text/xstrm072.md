@@ -1,0 +1,1 @@
+The illustration shows a client application sending LCRs to an inbound server named `xin` in an Oracle database. The inbound server applies changes to database objects and sends error transactions to the `xstrmadmin.xin_queue` queue.
