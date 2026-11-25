@@ -1,0 +1,3 @@
+# Description of the illustration olsag028.gif
+
+This process flow diagram describes how labels are evaluated for read access. There are three successive tests in which a label may be evaluated for read access:Test 1: Levels. Is the data level equal to or less than the user level? No. Access is denied. Yes. Proceed to Test 2.Test 2: Groups. Does the data have groups? No. Proceed to Test 3. Yes. Does the user have at least one of the groups? If no, access is denied. If yes, proceed to Test 3.Test 3: Compartments. Does the data have compartments? No. Access is granted. Yes. Does the user have all of the compartments? If no, access is denied. If yes, access is granted.

@@ -1,0 +1,3 @@
+# Description of the illustration olsag010.gif
+
+This illustration shows how label components interrelate. It illustrates a hierarchy of groups. The parent group, UNITED_STATES, has three subgroups: EASTERN_REGION, CENTRAL_REGION, and WESTERN_REGION. The WESTERN_REGION group has two subgroups: CALIFORNIA and NEVADA. There is also a three-by-three matrix. The rows, from top to bottom, are the levels HIGHLY SENSITIVE, SENSITIVE, and PUBLIC. The columns, from left to right, are the compartments CHEMICAL, FINANCIAL, and OPERATIONAL. The subgroup CALIFORNIA is shown as having SENSITIVE access to all three compartments.

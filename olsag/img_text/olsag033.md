@@ -1,0 +1,3 @@
+# Description of the illustration olsag033.gif
+
+Read Access Label Evaluation with Inverse Groups: This flow diagram illustrates the criteria that must be satisfied to gain read access with inverse groups. Failing any criterion prohibits access. Criteria: 1. The data level must be less than or equal to the user level. 2. If the user has groups, then the data must have all the groups that are in the user label and, if the data has compartments, the user must have all compartments. 3. If the data does not have groups, then if the data has compartments, the user must have all compartments. Failing any of these criteria causes denial of access. In all other conditions, access is granted. This figure is also discussed in the text.

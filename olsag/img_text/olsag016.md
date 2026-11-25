@@ -1,0 +1,3 @@
+# Description of the illustration olsag016.gif
+
+This illustration describes subgroup inheritance of read/write access. WESTERN_REGION is the parent group. Subordinate to that are three subgroups: WR_SALES, WR_HUMAN_RESOURCES, and WR_FINANCE. Subordinate to WR_FINANCE are two other subgroups: WR_ACCOUNTS_RECEIVABLE and WR_ACCOUNTS_PAYABLE. If an administrator grants a user read access to WESTERN_REGION, then the user has read access to all subgroups of WESTERN_REGION. If the administrator grants the user write access to the WR_FINANCE subgroup, then the user has write access to all subgroups of WR_FINANCE.

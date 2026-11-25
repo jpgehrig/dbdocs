@@ -1,0 +1,3 @@
+# Description of the illustration olsag021.gif
+
+This figure illustrates relative ranking of levels in a distributed environment. Character string and numeric form of levels are shown for the EASTERN_REGION database and the WESTERN_REGION database. For the EASTERN_REGION database, level S is associated with 30, level C with 20, and level U with 10. The WESTERN_REGION database has the same character string levels (S, C, and U), but S is associated with 6, C is associated with 5, and U with 4. Although the numeric form of the levels differs for the two databases, their relative order is the same. The levels are therefore handled as though they were identical in the two databases.
