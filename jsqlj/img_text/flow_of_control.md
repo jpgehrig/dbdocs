@@ -1,0 +1,1 @@
+This image depicts the flow of control. Every command runs a front-end script or utility, which in turn, reads the command line, invokes a Java virtual machine (JVM), and passes arguments to it. The JVM invokes the SQLJ translator and acts as a front end.
