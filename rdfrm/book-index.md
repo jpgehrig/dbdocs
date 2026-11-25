@@ -1,0 +1,1061 @@
+## Index
+
+Symbols  A  B  C  D  E  F  G  H  I  J  L  M  N  O  P  Q  R  S  T  U  V  X  
+
+------------------------------------------------------------------------
+
+## Symbols
+
+- .gv files (DOT files)
+  - outputting [7.10.1](rdf-support-for-apache-jena.md)
+
+------------------------------------------------------------------------
+
+## A
+
+- ADD_DATATYPE_INDEX procedure [15.1](SEM_APIS-reference.md)
+- ADD_DEPENDENT_POLICY procedure [18.1](SEM_RDFCTX-reference.md)
+- ADD_SEM_INDEX procedure [15.2](SEM_APIS-reference.md)
+- Advanced Compression [7.2.2](rdf-support-for-apache-jena.md)
+- aggregates
+  - user-defined [9.2](user-defined-inferencing.md)
+- aliases
+  - SEM_ALIASES and SEM_ALIAS data types [1.6](rdf-semantic-graph-overview.md), [5.4](semantic-indexing-documents.md)
+- ALL_AJ_HASH
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- ALL_AJ_MERGE
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- ALL_AJ_NL
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- ALL_BGP_HASH
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- ALL_BGP_NL
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- ALL_LINK_HASH
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- ALL_LINK_NL
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- ALL_MAX_PP_DEPTH(n)
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- ALLOW_DUP=T
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- ALTER_DATATYPE_INDEX procedure [15.3](SEM_APIS-reference.md)
+- ALTER_ENTAILMENT procedure [15.4](SEM_APIS-reference.md)
+- ALTER_MODEL procedure [15.5](SEM_APIS-reference.md)
+- ALTER_SEM_INDEX_ON_ENTAILMENT procedure [15.6](SEM_APIS-reference.md)
+- ALTER_SEM_INDEX_ON_MODEL procedure [15.7](SEM_APIS-reference.md)
+- ALTER_SEM_INDEXES procedure [15.8](SEM_APIS-reference.md)
+- ANALYZE_AUX_TABLES procedure [17.1](SEM_PERF-reference.md)
+- ANALYZE_ENTAILMENT procedure [15.10](SEM_APIS-reference.md)
+- ANALYZE_MODEL procedure [15.11](SEM_APIS-reference.md)
+- APPEND_SEM_NETWORK_DATA procedure [15.12](SEM_APIS-reference.md)
+- APPLY_OLS_POLICY procedure [19.1](SEM_RDFSA-reference.md)
+- APPLY_POLICY_TO_APP_TAB procedure [16.1](SEM_OLS-reference.md)
+- AS_OF \[SCN, \<SCN_VALUE\>\]
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- AS_OF \[TIMESTAMP, \<TIMESTAMP_VALUE\>\]
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+
+------------------------------------------------------------------------
+
+## B
+
+- BASE keyword
+  - global prefix [1.6.6](rdf-semantic-graph-overview.md)
+- basic graph pattern (BGP) [1.6](rdf-semantic-graph-overview.md)
+- batch (bulk) loading [15.15](SEM_APIS-reference.md), [15.84](SEM_APIS-reference.md)
+- best effort
+  - specifying for SPARQL query [7.17.3.3](rdf-support-for-apache-jena.md)
+- BGP (basic graph pattern) [1.6](rdf-semantic-graph-overview.md)
+- bind variables
+  - using with the SEM_APIS.SPARQL_TO_SQL function [1.7.1](rdf-semantic-graph-overview.md)
+- blank nodes [1.3.5](rdf-semantic-graph-overview.md)
+  - CLEANUP_BNODES procedure [15.16](SEM_APIS-reference.md)
+  - SPARQL update considerations [1.12.7](rdf-semantic-graph-overview.md)
+- BUILD_PG_RDFVIEW_INDEXES procedure [15.13](SEM_APIS-reference.md)
+- BULK_LOAD_FROM_STAGING_TABLE procedure [15.15](SEM_APIS-reference.md)
+- bulk loading [15.15](SEM_APIS-reference.md), [15.84](SEM_APIS-reference.md)
+- bulk loading semantic data [1.8.1](rdf-semantic-graph-overview.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- Calais
+  - configuring the Calais extractor type [5.9](semantic-indexing-documents.md)
+- canonical forms [1.3.3.1](rdf-semantic-graph-overview.md)
+- catsem.sql script [A.1.1](enabling-downgrading-or-removing-rdf-graph-support.md)
+- change tracking
+  - disabling [15.33](SEM_APIS-reference.md)
+  - enabling [15.52](SEM_APIS-reference.md)
+  - getting information [15.66](SEM_APIS-reference.md)
+- CLEANUP_BNODES procedure [15.16](SEM_APIS-reference.md)
+- CLEANUP_FAILED procedure [15.17](SEM_APIS-reference.md)
+- client identifiers [7.2.1](rdf-support-for-apache-jena.md)
+- cliques (sameAs) [3.2.8](owl-concepts.md)
+- COMPOSE_RDF_TERM function [15.18](SEM_APIS-reference.md)
+- connection pooling
+  - support in RDF Semantic Graph support for Apache Jena [7.11.2](rdf-support-for-apache-jena.md)
+- CONSTRUCT_STRICT=T
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- CONSTRUCT_UNIQUE=T
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- constructors for semantic data [1.5](rdf-semantic-graph-overview.md)
+- convert_old_rdf_data procedure [A.1.2](enabling-downgrading-or-removing-rdf-graph-support.md), [A.1.2.1](enabling-downgrading-or-removing-rdf-graph-support.md)
+- CONVERT_TO_GML311_LITERAL procedure [15.19](SEM_APIS-reference.md)
+- CONVERT_TO_WKT_LITERAL procedure [15.20](SEM_APIS-reference.md)
+- corpus-centric inference [5.15](semantic-indexing-documents.md)
+- CREATE_ENTAILMENT procedure [15.21](SEM_APIS-reference.md)
+- CREATE_INDEX_ON_SPM_TAB procedure [15.22](SEM_APIS-reference.md)
+- CREATE_PG_RDFVIEW procedure [15.23](SEM_APIS-reference.md)
+- CREATE_POLICY procedure [18.2](SEM_RDFCTX-reference.md)
+- CREATE_RDFVIEW_MODEL procedure [15.24](SEM_APIS-reference.md)
+- CREATE_RULEBASE procedure [15.25](SEM_APIS-reference.md)
+- CREATE_SEM_MODEL procedure [15.26](SEM_APIS-reference.md)
+- CREATE_SEM_NETWORK procedure [15.27](SEM_APIS-reference.md)
+- CREATE_SOURCE_EXTERNAL_TABLE procedure [15.28](SEM_APIS-reference.md)
+- CREATE_VIRTUAL_MODEL procedure [15.30](SEM_APIS-reference.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- data migration
+  - required after upgrade [A.1.2.1](enabling-downgrading-or-removing-rdf-graph-support.md)
+- data type indexes
+  - adding [15.1](SEM_APIS-reference.md)
+  - altering [15.3](SEM_APIS-reference.md)
+  - dropping [15.39](SEM_APIS-reference.md)
+  - SEM_DTYPE_INDEX_INFO view [1.10](rdf-semantic-graph-overview.md)
+  - using [1.10](rdf-semantic-graph-overview.md)
+- data types
+  - for literals [1.3.3.1](rdf-semantic-graph-overview.md)
+- data types for semantic data [1.5](rdf-semantic-graph-overview.md)
+- default.xslt file
+  - customizing [7.17.4](rdf-support-for-apache-jena.md)
+- DELETE_ENTAILMENT_STATS procedure [15.31](SEM_APIS-reference.md)
+- DELETE_MODEL_STATS procedure [15.32](SEM_APIS-reference.md)
+- DELETE_NETWORK_STATS procedure [17.2](SEM_PERF-reference.md)
+- DISABLE_CHANGE_TRACKING procedure [15.33](SEM_APIS-reference.md)
+- DISABLE_IM_VIRTUAL_COL
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- DISABLE_INC_INFERENCE procedure [15.34](SEM_APIS-reference.md)
+- DISABLE_INMEMORY_FOR_ENT procedure [15.36](SEM_APIS-reference.md)
+- DISABLE_INMEMORY_FOR_MODEL procedure [15.37](SEM_APIS-reference.md)
+- DISABLE_INMEMORY procedure [15.35](SEM_APIS-reference.md)
+- DISABLE_NETWORK_SHARING procedure [15.38](SEM_APIS-reference.md)
+- DISABLE_NULL_EXPR_JOIN
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- DISABLE_OLS_POLICY procedure [19.2](SEM_RDFSA-reference.md)
+- DISABLE_ORDER_COL option [1.15](rdf-semantic-graph-overview.md)
+- DISABLE_SAMEAS_BLOOM
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- discussion forum
+  - RDF Semantic Graph [1.18](rdf-semantic-graph-overview.md)
+- document-centric inference [5.15](semantic-indexing-documents.md)
+- documents
+  - semantic indexing for [5](semantic-indexing-documents.md)
+- DOT files
+  - outputting [7.10.1](rdf-support-for-apache-jena.md)
+- downgrading
+  - RDF semantic graph support [A.2.1](enabling-downgrading-or-removing-rdf-graph-support.md)
+- downloads
+  - RDF Semantic Graph [1.18](rdf-semantic-graph-overview.md)
+- DROP_DATATYPE_INDEX procedure [15.39](SEM_APIS-reference.md)
+- DROP_ENTAILMENT procedure [15.40](SEM_APIS-reference.md)
+- DROP_EXTENDED_STATS procedure [17.3](SEM_PERF-reference.md)
+- DROP_PG_RDFVIEW_INDEXES procedure [15.42](SEM_APIS-reference.md)
+- DROP_PG_RDFVIEW procedure [15.41](SEM_APIS-reference.md)
+- DROP_POLICY procedure [18.3](SEM_RDFCTX-reference.md)
+- DROP_RDFVIEW_MODEL procedure [15.43](SEM_APIS-reference.md)
+- DROP_RULEBASE procedure [15.44](SEM_APIS-reference.md)
+- DROP_SEM_INDEX procedure [15.45](SEM_APIS-reference.md)
+- DROP_SEM_MODEL procedure [15.46](SEM_APIS-reference.md)
+- DROP_SEM_NETWORK procedure [15.47](SEM_APIS-reference.md)
+- DROP_USER_INFERENCE_OBJS procedure [15.50](SEM_APIS-reference.md)
+- DROP_VIRTUAL_MODEL procedure [15.51](SEM_APIS-reference.md)
+- duplicate triples
+  - checking for [1.3.3.1](rdf-semantic-graph-overview.md)
+  - removing from model [15.89](SEM_APIS-reference.md), [15.92](SEM_APIS-reference.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- ENABLE_CHANGE_TRACKING procedure [15.52](SEM_APIS-reference.md)
+- ENABLE_INC_INFERENCE procedure [15.53](SEM_APIS-reference.md)
+- ENABLE_INMEMORY_FOR_ENT procedure [15.55](SEM_APIS-reference.md)
+- ENABLE_INMEMORY_FOR_MODEL procedure [15.56](SEM_APIS-reference.md)
+- ENABLE_INMEMORY procedure [15.54](SEM_APIS-reference.md)
+- ENABLE_NETWORK_SHARING procedure [15.57](SEM_APIS-reference.md)
+- ENABLE_OLS_POLICY procedure [19.3](SEM_RDFSA-reference.md)
+- ENABLE_SYNTAX_CHECKING optimizer hint [3.2.3](owl-concepts.md)
+- entailment
+  - invalid status [1.6](rdf-semantic-graph-overview.md)
+- entailment rules [1.3.7](rdf-semantic-graph-overview.md)
+- entailments [1.3.8](rdf-semantic-graph-overview.md)
+  - altering [15.4](SEM_APIS-reference.md)
+  - deleting if in failed state [15.17](SEM_APIS-reference.md)
+  - incomplete status [1.6](rdf-semantic-graph-overview.md), [3.3.1](owl-concepts.md)
+  - invalid status [3.3.1](owl-concepts.md)
+  - SEM_RULES_INDEX_DATASETS view [1.3.8](rdf-semantic-graph-overview.md)
+  - SEM_RULES_INDEX_INFO view [1.3.8](rdf-semantic-graph-overview.md)
+- ESCAPE_CLOB_TERM procedure [15.58](SEM_APIS-reference.md)
+- ESCAPE_CLOB_VALUE procedure [15.59](SEM_APIS-reference.md)
+- ESCAPE_RDF_TERM procedure [15.60](SEM_APIS-reference.md)
+- ESCAPE_RDF_VALUE procedure [15.61](SEM_APIS-reference.md)
+- examples
+  - PL/SQL [1.16](rdf-semantic-graph-overview.md)
+- EXPORT_ENTAILMENT_STATS procedure [15.62](SEM_APIS-reference.md)
+- EXPORT_MODEL_STATS procedure [15.63](SEM_APIS-reference.md)
+- EXPORT_NETWORK_STATS procedure [17.4](SEM_PERF-reference.md)
+- EXPORT_RDFVIEW_MODEL procedure [15.64](SEM_APIS-reference.md)
+- exporting semantic data [1.8](rdf-semantic-graph-overview.md)
+- external documents
+  - indexing [5.8](semantic-indexing-documents.md)
+- external table
+  - creating [15.28](SEM_APIS-reference.md)
+- extractor policies [5.2](semantic-indexing-documents.md)
+  - RDFCTX_POLICIES view [5.16.1](semantic-indexing-documents.md), [5.16.2](semantic-indexing-documents.md)
+- extractors
+  - information [5.1](semantic-indexing-documents.md)
+    - policies [5.2](semantic-indexing-documents.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- failed state
+  - rulebase or entailment [15.17](SEM_APIS-reference.md)
+- federated queries [1.6.8](rdf-semantic-graph-overview.md), [7.7.4.1](rdf-support-for-apache-jena.md)
+- filter
+  - attribute of SEM_MATCH [1.6](rdf-semantic-graph-overview.md), [5.4](semantic-indexing-documents.md)
+- FINAL_VALUE_HASH
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- FINAL_VALUE_NL
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- functions
+  - user-defined [9.2](user-defined-inferencing.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- GATE (General Architecture for Text Engineering)
+  - sample Java implementation [5.10](semantic-indexing-documents.md)
+  - using [5.10](semantic-indexing-documents.md)
+- GATHER_STATS procedure [17.5](SEM_PERF-reference.md)
+- General Architecture for Text Engineering (GATE)
+  - sample Java implementation [5.10](semantic-indexing-documents.md)
+  - using [5.10](semantic-indexing-documents.md)
+- geometry literal [1.6.11.2](rdf-semantic-graph-overview.md)
+- GET_CHANGE_TRACKING_INFO procedure [15.66](SEM_APIS-reference.md)
+- GET_INC_INF_INFO procedure [15.67](SEM_APIS-reference.md)
+- GET_MODEL_ID function [15.68](SEM_APIS-reference.md)
+- GET_MODEL_NAME function [15.69](SEM_APIS-reference.md)
+- GET_TRIPLE_ID function [15.70](SEM_APIS-reference.md)
+- GETV\$DATETIMETZVAL function [15.71](SEM_APIS-reference.md)
+- GETV\$DATETZVAL function [15.72](SEM_APIS-reference.md)
+- GETV\$GEOMETRYVAL function [15.73](SEM_APIS-reference.md)
+- GETV\$NUMERICVAL function [15.74](SEM_APIS-reference.md)
+- GETV\$STRINGVAL function [15.75](SEM_APIS-reference.md)
+- GETV\$TIMETZVAL function [15.76](SEM_APIS-reference.md)
+- global prefix (BASE keyword) [1.6.6](rdf-semantic-graph-overview.md)
+- GRANT_MODEL_ACCESS_PRIV procedure [15.77](SEM_APIS-reference.md)
+- GRANT_MODEL_ACCESS_PRIVS procedure [15.78](SEM_APIS-reference.md)
+- GRANT_NETWORK_ACCESS_PRIVS procedure [15.79](SEM_APIS-reference.md)
+- GRANT_NETWORK_SHARING_PRIVS procedure [15.80](SEM_APIS-reference.md)
+- GRAPH_MATCH_UNNAMED=T
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- graphs
+  - attribute of SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+
+------------------------------------------------------------------------
+
+## H
+
+- HINT0
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- HTTP_METHOD=POST_PAR
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- IMPORT_ENTAILMENT_STATS procedure [15.81](SEM_APIS-reference.md)
+- IMPORT_MODEL_STATS procedure [15.82](SEM_APIS-reference.md)
+- IMPORT_NETWORK_STATS procedure [17.6](SEM_PERF-reference.md)
+- incremental inference [3.2.9](owl-concepts.md)
+  - disabling [15.34](SEM_APIS-reference.md)
+  - enabling [15.53](SEM_APIS-reference.md)
+- incremental inferencing
+  - getting information [15.67](SEM_APIS-reference.md)
+- index_status
+  - attribute of SEM_MATCH [1.6](rdf-semantic-graph-overview.md), [3.3.1](owl-concepts.md)
+- inf_ext_user_func_name parameter [9.1.2](user-defined-inferencing.md)
+- inferencing [1.3.7](rdf-semantic-graph-overview.md)
+  - user-defined [9](user-defined-inferencing.md)
+- information extractors [5.1](semantic-indexing-documents.md)
+- in-memory column store support in RDF [1.13](rdf-semantic-graph-overview.md)
+- in-memory virtual columns with RDF [1.13.2](rdf-semantic-graph-overview.md)
+- inverseOf keyword
+  - using to force use of semantic index [3.3.4](owl-concepts.md)
+- invisible indexes
+  - with RDF in-memory [1.13.3](rdf-semantic-graph-overview.md)
+- invisible semantic network indexes [15.8](SEM_APIS-reference.md)
+- IS_TRIPLE function [15.83](SEM_APIS-reference.md)
+
+------------------------------------------------------------------------
+
+## J
+
+- Java examples
+  - GATE listener [5.10](semantic-indexing-documents.md)
+- JavaScript Object Notation (JSON) format support [7.14](rdf-support-for-apache-jena.md)
+- Join Push Down [1.6.8.2](rdf-semantic-graph-overview.md)
+- JSON format support [7.14](rdf-support-for-apache-jena.md)
+
+------------------------------------------------------------------------
+
+## L
+
+- literals
+  - data types for [1.3.3.1](rdf-semantic-graph-overview.md)
+- LOAD_INTO_STAGING_TABLE procedure [15.84](SEM_APIS-reference.md)
+- loading semantic data [1.8](rdf-semantic-graph-overview.md)
+  - bulk [15.15](SEM_APIS-reference.md), [15.84](SEM_APIS-reference.md)
+- load operations
+  - SPARQL update considerations [1.12.5](rdf-semantic-graph-overview.md)
+- long literals
+  - SPARQL update considerations [1.12.6](rdf-semantic-graph-overview.md)
+- LOOKUP_ENTAILMENT procedure [15.85](SEM_APIS-reference.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- MAINTAIN_TRIPLES procedure [18.4](SEM_RDFCTX-reference.md)
+- mdsys.SemContent index type [5.3](semantic-indexing-documents.md)
+- MERGE_MODELS procedure [15.86](SEM_APIS-reference.md)
+- metadata
+  - semantic [1.3.2](rdf-semantic-graph-overview.md)
+- metadata tables and views for semantic data [1.4](rdf-semantic-graph-overview.md)
+- methods for semantic data [1.5](rdf-semantic-graph-overview.md)
+- MIGRATE_DATA_TO_CURRENT procedure [15.87](SEM_APIS-reference.md)
+- model ID
+  - getting [15.68](SEM_APIS-reference.md)
+- model name
+  - getting [15.69](SEM_APIS-reference.md)
+- models [1.2](rdf-semantic-graph-overview.md)
+  - altering [15.5](SEM_APIS-reference.md)
+  - creating [15.26](SEM_APIS-reference.md)
+  - deleting (dropping) [15.46](SEM_APIS-reference.md)
+  - disabling support in the database [15.47](SEM_APIS-reference.md)
+  - enabling support in the database [15.27](SEM_APIS-reference.md)
+  - grant a list of privileges to access a model [15.78](SEM_APIS-reference.md)
+  - grant a privilege to access a model [15.77](SEM_APIS-reference.md)
+  - merging [15.86](SEM_APIS-reference.md)
+  - renaming [15.94](SEM_APIS-reference.md)
+  - revokes access privilege on a model [15.97](SEM_APIS-reference.md)
+  - revokes access privileges on a model [15.98](SEM_APIS-reference.md)
+  - SEM_MODELS data type [1.6](rdf-semantic-graph-overview.md)
+  - SEMI_entailment-name view [1.3.8](rdf-semantic-graph-overview.md)
+  - SEMM_model-name view [1.3.2](rdf-semantic-graph-overview.md)
+  - swapping names [15.104](SEM_APIS-reference.md)
+  - truncating [15.105](SEM_APIS-reference.md)
+  - updating [15.110](SEM_APIS-reference.md)
+  - validating geometries in [15.112](SEM_APIS-reference.md)
+  - virtual [1.3.9](rdf-semantic-graph-overview.md)
+- MOVE_SEM_NETWORK_DATA procedure [15.88](SEM_APIS-reference.md)
+- Multi-Valued Property tables [1.6.13.2](rdf-semantic-graph-overview.md)
+- MVP (Multi-Valued Property) tables [1.6.13.2](rdf-semantic-graph-overview.md)
+
+------------------------------------------------------------------------
+
+## N
+
+- named_graphs
+  - attribute of SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- named graph based inference
+  - global [3.2.11](owl-concepts.md)
+  - local [3.2.11](owl-concepts.md)
+- named graphs
+  - support for [1.3.10](rdf-semantic-graph-overview.md)
+- network_name
+  - attribute of SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- network_owner
+  - attribute of SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- network access privileges
+  - granting [15.79](SEM_APIS-reference.md)
+  - revoking [15.99](SEM_APIS-reference.md)
+- network indexes
+  - refreshing information [15.91](SEM_APIS-reference.md)
+  - SEM_NETWORK_INDEX_INFO view [1.9.1](rdf-semantic-graph-overview.md)
+- network sharing privileges
+  - granting [15.80](SEM_APIS-reference.md)
+  - revoking [15.100](SEM_APIS-reference.md)
+- NGGI (named graph based global inference) [3.2.11](owl-concepts.md)
+- NGLI (named graph based local inference) [3.2.11](owl-concepts.md)
+- N-Quad format [1.3.10](rdf-semantic-graph-overview.md)
+- N-QUADS data format [1.3.10.1](rdf-semantic-graph-overview.md)
+- N-Triple format [1.3.10](rdf-semantic-graph-overview.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- OBIEE
+  - using SPARQL Gateway as an XML data source [7.17.7](rdf-support-for-apache-jena.md)
+- objects [1.3.4](rdf-semantic-graph-overview.md)
+- ODCIAggregate interface
+  - user-defined aggregates (RDF Semantic Graph) [9.2.3.1](user-defined-inferencing.md)
+- ogcf
+  - boundary function [B.1.1](SEM_MATCH-spatial.md)
+  - buffer function [B.1.2](SEM_MATCH-spatial.md)
+  - convexHull function [B.1.3](SEM_MATCH-spatial.md)
+  - difference function [B.1.4](SEM_MATCH-spatial.md)
+  - distance function [B.1.5](SEM_MATCH-spatial.md)
+  - envelope function [B.1.6](SEM_MATCH-spatial.md)
+  - getSRID function [B.1.7](SEM_MATCH-spatial.md)
+  - intersection function [B.1.8](SEM_MATCH-spatial.md)
+  - relate function [B.1.9](SEM_MATCH-spatial.md)
+  - sfContains function [B.1.10](SEM_MATCH-spatial.md)
+  - sfCrosses function [B.1.11](SEM_MATCH-spatial.md)
+  - sfDisjoint function [B.1.12](SEM_MATCH-spatial.md)
+  - sfEquals function [B.1.13](SEM_MATCH-spatial.md)
+  - sfIntersects function [B.1.14](SEM_MATCH-spatial.md)
+  - sfOverlaps function [B.1.15](SEM_MATCH-spatial.md)
+  - sfTouches function [B.1.16](SEM_MATCH-spatial.md)
+  - sfWithin function [B.1.17](SEM_MATCH-spatial.md)
+  - symDifference function [B.1.18](SEM_MATCH-spatial.md)
+  - union function [B.1.19](SEM_MATCH-spatial.md)
+- OLTP compression [7.2.2](rdf-support-for-apache-jena.md)
+- OLTP index compression [1.6.14.6](rdf-semantic-graph-overview.md)
+- options
+  - attribute of SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- Oracle Advanced Compression
+  - OLTP compression [7.2.2](rdf-support-for-apache-jena.md)
+- Oracle Business Intelligence Enterprise Edition (OBIEE)
+  - using SPARQL Gateway as an XML data source [7.17.7](rdf-support-for-apache-jena.md)
+- Oracle Database In-Memory
+  - disabling [15.35](SEM_APIS-reference.md)
+  - disabling for entailment [15.36](SEM_APIS-reference.md)
+  - disabling for model [15.37](SEM_APIS-reference.md)
+  - enabling [15.54](SEM_APIS-reference.md)
+  - enabling for entailment [15.55](SEM_APIS-reference.md)
+  - enabling for model [15.56](SEM_APIS-reference.md)
+- Oracle Database In-Memory support by RDF [1.13](rdf-semantic-graph-overview.md)
+  - enabling [1.13.1](rdf-semantic-graph-overview.md)
+  - using in-memory virtual columns [1.13.2](rdf-semantic-graph-overview.md)
+  - using invisible indexes [1.13.3](rdf-semantic-graph-overview.md)
+- Oracle Label Security (OLS)
+  - applying policy [16.1](SEM_OLS-reference.md), [19.1](SEM_RDFSA-reference.md)
+  - disabling policy [19.2](SEM_RDFSA-reference.md)
+  - enabling policy [19.3](SEM_RDFSA-reference.md)
+  - removing policy [16.2](SEM_OLS-reference.md), [19.4](SEM_RDFSA-reference.md)
+  - resetting labels associated with a model [19.5](SEM_RDFSA-reference.md)
+  - setting sensitivity label for a resource that may be used in the subject and/or object position of a triple [19.8](SEM_RDFSA-reference.md)
+  - setting sensitivity level for a predicate [19.6](SEM_RDFSA-reference.md)
+  - setting sensitivity level for a rule belonging to a rulebase [19.9](SEM_RDFSA-reference.md)
+  - setting sensitivity level for RDFS schema elements [19.7](SEM_RDFSA-reference.md)
+  - triple-level security [6.1](fine-grained-access-control-rdf.md)
+  - using with RDF data [6](fine-grained-access-control-rdf.md)
+- orageo
+  - aggrCentroid function [B.2.1](SEM_MATCH-spatial.md)
+  - aggrConvexHull function [B.2.2](SEM_MATCH-spatial.md)
+  - aggrMBR function [B.2.3](SEM_MATCH-spatial.md)
+  - aggrUnion function [B.2.4](SEM_MATCH-spatial.md)
+  - area function [B.2.5](SEM_MATCH-spatial.md)
+  - buffer function [B.2.6](SEM_MATCH-spatial.md)
+  - centroid function [B.2.7](SEM_MATCH-spatial.md)
+  - convexHull function [B.2.8](SEM_MATCH-spatial.md)
+  - difference function [B.2.9](SEM_MATCH-spatial.md)
+  - distance function [B.2.10](SEM_MATCH-spatial.md)
+  - getSRID function [B.2.11](SEM_MATCH-spatial.md)
+  - intersection function [B.2.12](SEM_MATCH-spatial.md)
+  - length function [B.2.13](SEM_MATCH-spatial.md)
+  - mbr function [B.2.14](SEM_MATCH-spatial.md)
+  - nearestNeighbor function [B.2.15](SEM_MATCH-spatial.md)
+  - relate function [B.2.16](SEM_MATCH-spatial.md)
+  - sdoDistJoin function [B.2.17](SEM_MATCH-spatial.md)
+  - sdoJoin function [B.2.18](SEM_MATCH-spatial.md)
+  - union function [B.2.19](SEM_MATCH-spatial.md)
+  - withinDistance function [B.2.20](SEM_MATCH-spatial.md)
+  - xor function [B.2.21](SEM_MATCH-spatial.md)
+- ORARDFLDR Utility [7.19](rdf-support-for-apache-jena.md)
+- ORDER BY query processing [1.15](rdf-semantic-graph-overview.md)
+- OTN page
+  - RDF Semantic Graph [1.18](rdf-semantic-graph-overview.md)
+- OVERLOADED_NL=T
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- owl
+  - sameAs
+    - SEMCL_entailment-name view [3.2.8](owl-concepts.md)
+- OWL
+  - queries using the SEM_DISTANCE ancillary operator [3.3.2](owl-concepts.md)
+  - queries using the SEM_RELATED operator [3.3](owl-concepts.md)
+  - SameAs
+    - optimizing inference [3.2.8](owl-concepts.md)
+- OWL2EL rulebase [3.1.2](owl-concepts.md)
+- OWL 2 EL support [3.1.2](owl-concepts.md)
+- OWL2RL rulebase [3.1.2](owl-concepts.md)
+- OWL 2 RL support [3.1.2](owl-concepts.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- parallel inference [3.2.10](owl-concepts.md)
+- PCN (Property Chain) tables [1.6.13.3](rdf-semantic-graph-overview.md)
+- PelletInfGraph class
+  - support deprecated in RDF Semantic Graph support for Apache Jena [7.11.5](rdf-support-for-apache-jena.md)
+- PRIVILEGE_ON_APP_TABLES procedure [15.89](SEM_APIS-reference.md)
+- privilege considerations for RDF [1.3.12](rdf-semantic-graph-overview.md)
+- PROCAVFH=F option [3.2.7](owl-concepts.md)
+- PROCSVFH=F option [3.2.7](owl-concepts.md)
+- properties [1.3.6](rdf-semantic-graph-overview.md)
+- property chain handling [4.2.2](simple-knowledge-organizaiton-system-skos.md)
+- Property Chain tables [1.6.13.3](rdf-semantic-graph-overview.md)
+- property graph data
+  - RDF integration [11](rdf-integration-property-graph-data.md)
+- property paths
+  - optimized handling by RDF Semantic Graph support for Apache Jena [7.6.2](rdf-support-for-apache-jena.md)
+- PURGE_UNUSED_VALUES procedure [15.90](SEM_APIS-reference.md)
+
+------------------------------------------------------------------------
+
+## Q
+
+- quality of search [5.7](semantic-indexing-documents.md)
+- queries
+  - using the SEM_APIS.SPARQL_TO_SQL function [1.7](rdf-semantic-graph-overview.md)
+  - using the SEM_DISTANCE ancillary operator [3.3.2](owl-concepts.md)
+  - using the SEM_MATCH table function [1.6](rdf-semantic-graph-overview.md)
+  - using the SEM_RELATED operator [3.3](owl-concepts.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- RDF_PARAMETER table [1.3.1.4](rdf-semantic-graph-overview.md)
+- RDF_VALUE\$ table [1.3.3](rdf-semantic-graph-overview.md)
+- RDF\$ET_TAB table [1.8.1.2](rdf-semantic-graph-overview.md)
+- RDFa
+  - support with prepareBulk (RDF Semantic Graph support for Apache Jena) [7.12](rdf-support-for-apache-jena.md)
+- RDFCTX_INDEX_EXCEPTIONS view [5.16.3](semantic-indexing-documents.md)
+- RDFCTX_POLICIES view [5.16.1](semantic-indexing-documents.md), [5.16.2](semantic-indexing-documents.md)
+- RDF Knowledge Graph
+  - overview [1](rdf-semantic-graph-overview.md)
+- RDF rulebase
+  - subset of RDFS rulebase [1.3.7](rdf-semantic-graph-overview.md)
+- RDF semantic graph support
+  - downgrading [A.2.1](enabling-downgrading-or-removing-rdf-graph-support.md)
+- RDF Semantic Graph support
+  - removing [A.3](enabling-downgrading-or-removing-rdf-graph-support.md)
+- RDF Semantic Graph support for Apache Jena [7](rdf-support-for-apache-jena.md)
+  - functions supported in SPARQL queries [7.8](rdf-support-for-apache-jena.md)
+  - optimized handling of SPARQL queries [7.6](rdf-support-for-apache-jena.md)
+  - optimized handling or property paths [7.6.2](rdf-support-for-apache-jena.md)
+  - query examples [7.16](rdf-support-for-apache-jena.md)
+  - RDFa support with prepareBulk [7.12](rdf-support-for-apache-jena.md)
+  - SEM_MATCH and RDF Semantic Graph support for Apache Jena queries compared [7.4](rdf-support-for-apache-jena.md)
+  - setting up software environment [7.1](rdf-support-for-apache-jena.md)
+  - setting up SPARQL service [7.2](rdf-support-for-apache-jena.md)
+  - support for connection pooling [7.11.2](rdf-support-for-apache-jena.md)
+  - support for semantic model PL/SQL interfaces [7.11.3](rdf-support-for-apache-jena.md)
+  - support for virtual models [7.11.1](rdf-support-for-apache-jena.md)
+- RDF Semantic Graph support for Eclipse RDF4J [8](rdf-graph-support-eclipse-rdf4j.md)
+  - best Practices for Oracle RDF Graph Adapter for Eclipse RDF4J [8.9](rdf-graph-support-eclipse-rdf4j.md)
+  - database connection management [8.5](rdf-graph-support-eclipse-rdf4j.md)
+  - query examples [8.12](rdf-graph-support-eclipse-rdf4j.md)
+  - setting up Oracle RDF Graph Adapter for Eclipse RDF4J for use with Java program [8.3.1](rdf-graph-support-eclipse-rdf4j.md)
+  - setting up Oracle RDF Graph Adapter for Eclipse RDF4J in RDF4J Workbench and RDF4J Server [8.3.2](rdf-graph-support-eclipse-rdf4j.md)
+  - setting up SPARQL service for Eclipse RDF4J [8.3.3](rdf-graph-support-eclipse-rdf4j.md)
+  - SPARQL Query Execution Model [8.6](rdf-graph-support-eclipse-rdf4j.md)
+  - SPARQL Update Execution Model [8.7](rdf-graph-support-eclipse-rdf4j.md)
+  - transaction management for SPARQL Update [8.7.1](rdf-graph-support-eclipse-rdf4j.md)
+  - unsupported features in Oracle RDF Graph Adapter for Eclipse RDF4J [8.11](rdf-graph-support-eclipse-rdf4j.md)
+  - using RDF4J Workbench for creating and querying repositories. [8.3.2.1](rdf-graph-support-eclipse-rdf4j.md)
+- RDFS entailment rules [1.3.7](rdf-semantic-graph-overview.md)
+- RDFS rulebase
+  - implements RDFS entailment rules [1.3.7](rdf-semantic-graph-overview.md)
+- RDF support in SQL Developer [1.14](rdf-semantic-graph-overview.md)
+- RDF views [10](rdf-views.md)
+  - creating [15.24](SEM_APIS-reference.md)
+  - dropping [15.43](SEM_APIS-reference.md)
+  - exporting [15.64](SEM_APIS-reference.md)
+- REFRESH_SEM_NETWORK_INDEX_INFO procedure [15.91](SEM_APIS-reference.md)
+- relational data as RDF [10](rdf-views.md)
+- REMOVE_DUPLICATES procedure [15.92](SEM_APIS-reference.md)
+- REMOVE_OLS_POLICY procedure [19.4](SEM_RDFSA-reference.md)
+- REMOVE_POLICY_FROM_APP_TAB procedure [16.2](SEM_OLS-reference.md)
+- removing RDF Semantic Graph [A.3](enabling-downgrading-or-removing-rdf-graph-support.md)
+- RENAME_ENTAILMENT procedure [15.93](SEM_APIS-reference.md)
+- RENAME_MODEL procedure [15.94](SEM_APIS-reference.md)
+- REPLACE=T option [15.30](SEM_APIS-reference.md)
+- RES2VID function [15.95](SEM_APIS-reference.md)
+- RESET_MODEL_LABELS procedure [19.5](SEM_RDFSA-reference.md)
+- Resource Description Framework
+  - See: RDF Knowledge Graph
+- RESTORE_SEM_NETWORK_DATA procedure [15.96](SEM_APIS-reference.md)
+- resultsPerPage parameter [7.17.6.2](rdf-support-for-apache-jena.md)
+- REVOKE_MODEL_ACCESS_PRIV procedure [15.97](SEM_APIS-reference.md)
+- REVOKE_MODEL_ACCESS_PRIVS procedure [15.98](SEM_APIS-reference.md)
+- REVOKE_NETWORK_ACCESS_PRIVS procedure [15.99](SEM_APIS-reference.md)
+- REVOKE_NETWORK_SHARING_PRIVS procedure [15.100](SEM_APIS-reference.md)
+- rulebases [1.3.7](rdf-semantic-graph-overview.md)
+  - attribute of SEM_MATCH [3.3.1](owl-concepts.md)
+  - deleting if in failed state [15.17](SEM_APIS-reference.md)
+  - SEM_RULEBASE_INFO view [1.3.7](rdf-semantic-graph-overview.md)
+  - SEM_RULEBASES data type [1.6](rdf-semantic-graph-overview.md)
+  - SEMR_rulebase-name view [1.3.7](rdf-semantic-graph-overview.md)
+- rules [1.3.7](rdf-semantic-graph-overview.md)
+- rules indexes
+  - See: entailments
+
+------------------------------------------------------------------------
+
+## S
+
+- sameAs
+  - optimizing inference (OWL) [3.2.8](owl-concepts.md)
+- sameCanonTerm built-in function [1.6.14.3](rdf-semantic-graph-overview.md)
+- sameTerm built-in function [1.6.14.3](rdf-semantic-graph-overview.md)
+- schema-private semantic network [1.3.1.1](rdf-semantic-graph-overview.md)
+- sdo_rdf_internal.convert_old_rdf_data procedure [A.1.2](enabling-downgrading-or-removing-rdf-graph-support.md), [A.1.2.1](enabling-downgrading-or-removing-rdf-graph-support.md)
+- SDO_RDF_TERM_LIST data type [9.2.1](user-defined-inferencing.md)
+- SDO_RDF_TERM data type [9.2.1](user-defined-inferencing.md)
+- SDO_SEM_PDATE_CTX [1.12.4](rdf-semantic-graph-overview.md)
+- search
+  - quality of [5.7](semantic-indexing-documents.md)
+- security considerations [1.3.11](rdf-semantic-graph-overview.md)
+- SEM_ALIAS data type [1.6](rdf-semantic-graph-overview.md), [5.4](semantic-indexing-documents.md)
+- SEM_ALIASES data type [1.6](rdf-semantic-graph-overview.md), [5.4](semantic-indexing-documents.md)
+- SEM_APIS.ALTER_SPM_TAB [15.9](SEM_APIS-reference.md)
+- SEM_APIS.BUILD_SPM_TAB [15.14](SEM_APIS-reference.md)
+- SEM_APIS.CREATE_SPARQL_UPDATE_TABLES procedure [15.29](SEM_APIS-reference.md)
+- SEM_APIS.DROP_SPARQL_UPDATE_TABLES procedure [15.48](SEM_APIS-reference.md)
+- SEM_APIS.DROP_SPM_TAB [15.49](SEM_APIS-reference.md)
+- SEM_APIS.GATHER_SPM_INFO [15.65](SEM_APIS-reference.md)
+- SEM_APIS package
+  - ADD_DATATYPE_INDEX [15.1](SEM_APIS-reference.md)
+  - ADD_SEM_INDEX [15.2](SEM_APIS-reference.md)
+  - ALTER_DATATYPE_INDEX [15.3](SEM_APIS-reference.md)
+  - ALTER_ENTAILMENT [15.4](SEM_APIS-reference.md)
+  - ALTER_MODEL [15.5](SEM_APIS-reference.md)
+  - ALTER_SEM_INDEX_ON_ENTAILMENT semantic network indexes
+    - altering on entailment [15.6](SEM_APIS-reference.md)
+  - ALTER_SEM_INDEX_ON_MODEL [15.7](SEM_APIS-reference.md)
+  - ALTER_SEM_INDEXES [15.8](SEM_APIS-reference.md)
+  - ANALYZE_ENTAILMENT [15.10](SEM_APIS-reference.md)
+  - ANALYZE_MODEL [15.11](SEM_APIS-reference.md)
+  - APPEND_SEM_NETWORK_DATA [15.12](SEM_APIS-reference.md)
+  - BUILD_PG_RDFVIEW_INDEXES [15.13](SEM_APIS-reference.md)
+  - BULK_LOAD_FROM_STAGING_TABLE [15.15](SEM_APIS-reference.md)
+  - CLEANUP_BNODES [15.16](SEM_APIS-reference.md)
+  - CLEANUP_FAILED [15.17](SEM_APIS-reference.md)
+  - COMPOSE_RDF_TERM [15.18](SEM_APIS-reference.md)
+  - CONVERT_TO_GML311_LITERAL [15.19](SEM_APIS-reference.md)
+  - CONVERT_TO_WKT_LITERAL [15.20](SEM_APIS-reference.md)
+  - CREATE_ENTAILMENT [15.21](SEM_APIS-reference.md)
+  - CREATE_INDEX_ON_SPM_TAB [15.22](SEM_APIS-reference.md)
+  - CREATE_PG_RDFVIEW [15.23](SEM_APIS-reference.md)
+  - CREATE_RDFVIEW_MODEL [15.24](SEM_APIS-reference.md)
+  - CREATE_RULEBASE [15.25](SEM_APIS-reference.md)
+  - CREATE_SEM_MODEL [15.26](SEM_APIS-reference.md)
+  - CREATE_SEM_NETWORK [15.27](SEM_APIS-reference.md)
+  - CREATE_SOURCE_EXTERNAL_TABLE [15.28](SEM_APIS-reference.md)
+  - CREATE_VIRTUAL_MODEL [15.30](SEM_APIS-reference.md)
+  - DELETE_ENTAILMENT_STATS [15.31](SEM_APIS-reference.md)
+  - DELETE_MODEL_STATS [15.32](SEM_APIS-reference.md)
+  - DISABLE_CHANGE_TRACKING [15.33](SEM_APIS-reference.md)
+  - DISABLE_INC_INFERENCE [15.34](SEM_APIS-reference.md)
+  - DISABLE_INMEMORY [15.35](SEM_APIS-reference.md)
+  - DISABLE_INMEMORY_FOR_ENT [15.36](SEM_APIS-reference.md)
+  - DISABLE_INMEMORY_FOR_MODEL [15.37](SEM_APIS-reference.md)
+  - DISABLE_NETWORK_SHARING [15.38](SEM_APIS-reference.md)
+  - DROP_DATATYPE_INDEX [15.39](SEM_APIS-reference.md)
+  - DROP_ENTAILMENT [15.40](SEM_APIS-reference.md)
+  - DROP_PG_RDFVIEW [15.41](SEM_APIS-reference.md)
+  - DROP_PG_RDFVIEW_INDEXES [15.42](SEM_APIS-reference.md)
+  - DROP_RDFVIEW_MODEL [15.43](SEM_APIS-reference.md)
+  - DROP_RULEBASE [15.44](SEM_APIS-reference.md)
+  - DROP_SEM_INDEX [15.45](SEM_APIS-reference.md)
+  - DROP_SEM_MODEL [15.46](SEM_APIS-reference.md)
+  - DROP_SEM_NETWORK [15.47](SEM_APIS-reference.md)
+  - DROP_USER_INFERENCE_OBJS [15.50](SEM_APIS-reference.md)
+  - DROP_VIRTUAL_MODEL [15.51](SEM_APIS-reference.md)
+  - ENABLE_CHANGE_TRACKING [15.52](SEM_APIS-reference.md)
+  - ENABLE_INC_INFERENCE [15.53](SEM_APIS-reference.md)
+  - ENABLE_INMEMORY [15.54](SEM_APIS-reference.md)
+  - ENABLE_INMEMORY_FOR_ENT [15.55](SEM_APIS-reference.md)
+  - ENABLE_INMEMORY_FOR_MODEL [15.56](SEM_APIS-reference.md)
+  - ENABLE_NETWORK_SHARING [15.57](SEM_APIS-reference.md)
+  - ESCAPE_CLOB_TERM [15.58](SEM_APIS-reference.md)
+  - ESCAPE_CLOB_VALUE [15.59](SEM_APIS-reference.md)
+  - ESCAPE_RDF_TERM [15.60](SEM_APIS-reference.md)
+  - ESCAPE_RDF_VALUE [15.61](SEM_APIS-reference.md)
+  - EXPORT_ENTAILMENT_STATS [15.62](SEM_APIS-reference.md)
+  - EXPORT_MODEL_STATS [15.63](SEM_APIS-reference.md)
+  - EXPORT_RDFVIEW_MODEL [15.64](SEM_APIS-reference.md)
+  - GET_CHANGE_TRACKING_INFO [15.66](SEM_APIS-reference.md)
+  - GET_INC_INF_INFO [15.67](SEM_APIS-reference.md)
+  - GET_MODEL_ID [15.68](SEM_APIS-reference.md)
+  - GET_MODEL_NAME [15.69](SEM_APIS-reference.md)
+  - GET_TRIPLE_ID [15.70](SEM_APIS-reference.md)
+  - GETV\$DATETIMETZVAL [15.71](SEM_APIS-reference.md)
+  - GETV\$DATETZVAL [15.72](SEM_APIS-reference.md)
+  - GETV\$GEOMETRYVAL [15.73](SEM_APIS-reference.md)
+  - GETV\$NUMERICVAL [15.74](SEM_APIS-reference.md)
+  - GETV\$STRINGVAL [15.75](SEM_APIS-reference.md)
+  - GETV\$TIMETZVAL [15.76](SEM_APIS-reference.md)
+  - GRANT_MODEL_ACCESS_PRIV [15.77](SEM_APIS-reference.md)
+  - GRANT_MODEL_ACCESS_PRIVS [15.78](SEM_APIS-reference.md)
+  - GRANT_NETWORK_ACCESS_PRIVS [15.79](SEM_APIS-reference.md)
+  - GRANT_NETWORK_SHARING_PRIVS [15.80](SEM_APIS-reference.md)
+  - IMPORT_ENTAILMENT_STATS [15.81](SEM_APIS-reference.md)
+  - IMPORT_MODEL_STATS [15.82](SEM_APIS-reference.md)
+  - LOAD_INTO_STAGING_TABLE [15.84](SEM_APIS-reference.md)
+  - LOOKUP_ENTAILMENT [15.85](SEM_APIS-reference.md)
+  - MERGE_MODELS [15.86](SEM_APIS-reference.md)
+  - MIGRATE_DATA_TO_CURRENT [15.87](SEM_APIS-reference.md)
+  - MOVE_SEM_NETWORK_DATA [15.88](SEM_APIS-reference.md)
+  - PRIVILEGE_ON_APP_TABLES [15.89](SEM_APIS-reference.md)
+  - PURGE_UNUSED_VALUES [15.90](SEM_APIS-reference.md)
+  - reference information [15](SEM_APIS-reference.md), [17](SEM_PERF-reference.md)
+  - REFRESH_SEM_NETWORK_INDEX_INFO [15.91](SEM_APIS-reference.md)
+  - REMOVE_DUPLICATES [15.92](SEM_APIS-reference.md)
+  - RENAME_ENTAILMENT [15.93](SEM_APIS-reference.md)
+  - RENAME_MODEL [15.94](SEM_APIS-reference.md)
+  - RES2VID [15.95](SEM_APIS-reference.md)
+  - RESTORE_SEM_NETWORK_DATA [15.96](SEM_APIS-reference.md)
+  - REVOKE_MODEL_ACCESS_PRIV [15.97](SEM_APIS-reference.md)
+  - REVOKE_MODEL_ACCESS_PRIVS [15.98](SEM_APIS-reference.md)
+  - REVOKE_NETWORK_ACCESS_PRIVSS [15.99](SEM_APIS-reference.md)
+  - REVOKE_NETWORK_SHARING_PRIVS [15.100](SEM_APIS-reference.md)
+  - SEM_APIS.ALTER_SPM_TAB [15.9](SEM_APIS-reference.md)
+  - SEM_APIS.BUILD_SPM_TAB [15.14](SEM_APIS-reference.md)
+  - SEM_APIS.CREATE_SPARQL_UPDATE_TABLES [15.29](SEM_APIS-reference.md)
+  - SEM_APIS.DROP_SPARQL_UPDATE_TABLES [15.48](SEM_APIS-reference.md)
+  - SEM_APIS.DROP_SPM_TAB [15.49](SEM_APIS-reference.md)
+  - SEM_APIS.GATHER_SPM_INFO [15.65](SEM_APIS-reference.md)
+  - SET_ENTAILMENT_STATS [15.101](SEM_APIS-reference.md)
+  - SET_MODEL_STATS [15.102](SEM_APIS-reference.md)
+  - SPARQL_TO_SQL [15.103](SEM_APIS-reference.md)
+  - SWAP_NAMES [15.104](SEM_APIS-reference.md)
+  - TRIPLE [15.83](SEM_APIS-reference.md)
+  - TRUNCATE_SEM_MODEL [15.105](SEM_APIS-reference.md)
+  - UNESCAPE_CLOB_TERM [15.106](SEM_APIS-reference.md)
+  - UNESCAPE_CLOB_VALUE [15.107](SEM_APIS-reference.md)
+  - UNESCAPE_RDF_TERM [15.108](SEM_APIS-reference.md)
+  - UNESCAPE_RDF_VALUE [15.109](SEM_APIS-reference.md)
+  - UPDATE_MODEL [15.110](SEM_APIS-reference.md)
+  - VALIDATE_ENTAILMENT [15.111](SEM_APIS-reference.md)
+  - VALIDATE_GEOMETRIES [15.112](SEM_APIS-reference.md)
+  - VALIDATE_MODEL [15.113](SEM_APIS-reference.md)
+  - VALUE_NAME_PREFIX [15.114](SEM_APIS-reference.md), [15.115](SEM_APIS-reference.md)
+- SEM_CONTAINS_COUNTancillary operator
+  - syntax [5.4.2](semantic-indexing-documents.md)
+- SEM_CONTAINS_SELECT ancillary operator
+  - syntax [5.4.1](semantic-indexing-documents.md)
+  - using in queries [5.6](semantic-indexing-documents.md)
+- SEM_CONTAINS operator
+  - syntax [5.4](semantic-indexing-documents.md)
+- SEM_DISTANCE ancillary operator [3.3.2](owl-concepts.md)
+- SEM_DTYPE_INDEX_INFO view [1.10](rdf-semantic-graph-overview.md)
+- SEM_GRAPHS data type [15.21](SEM_APIS-reference.md)
+- SEM_INDEXTYPE index type [3.3.3](owl-concepts.md)
+- SEM_MATCH compared to SPARQL_TO_SQL [1.7.2](rdf-semantic-graph-overview.md)
+- SEM_MATCH table function [1.6](rdf-semantic-graph-overview.md)
+  - full-text search [1.6.10](rdf-semantic-graph-overview.md)
+  - SPM auxiliary tables [1.6.13](rdf-semantic-graph-overview.md)
+- SEM_MODEL\$ view [1.3.2](rdf-semantic-graph-overview.md)
+  - virtual model entries [1.3.9](rdf-semantic-graph-overview.md)
+- SEM_MODELS data type [1.6](rdf-semantic-graph-overview.md)
+- SEM_NETWORK_INDEX_INFO view [1.9.1](rdf-semantic-graph-overview.md)
+- SEM_OLS package
+  - APPLY_POLICY_TO_APP_TAB [16.1](SEM_OLS-reference.md)
+  - REMOVE_POLICY_FROM_APP_TAB [16.2](SEM_OLS-reference.md)
+- SEM_PERF package
+  - ANALYZE_AUX_TABLES [17.1](SEM_PERF-reference.md)
+  - DELETE_NETWORK_STATS [17.2](SEM_PERF-reference.md)
+  - DROP_EXTENDED_STATS [17.3](SEM_PERF-reference.md)
+  - EXPORT_NETWORK_STATS [17.4](SEM_PERF-reference.md)
+  - GATHER_STATS [17.5](SEM_PERF-reference.md)
+  - IMPORT_NETWORK_STATS [17.6](SEM_PERF-reference.md)
+- SEM_RDFCTX package
+  - ADD_DEPENDENT_POLICY [18.1](SEM_RDFCTX-reference.md)
+  - CREATE_POLICY [18.2](SEM_RDFCTX-reference.md)
+  - DROP_POLICY [18.3](SEM_RDFCTX-reference.md)
+  - MAINTAIN_TRIPLES [18.4](SEM_RDFCTX-reference.md)
+  - reference information [18](SEM_RDFCTX-reference.md)
+  - SET_DEFAULT_POLICY [18.5](SEM_RDFCTX-reference.md)
+  - SET_EXTRACTOR_PARAM [18.6](SEM_RDFCTX-reference.md)
+- SEM_RDFSA package
+  - APPLY_OLS_POLICY [19.1](SEM_RDFSA-reference.md)
+  - DISABLE_OLS_POLICY [19.2](SEM_RDFSA-reference.md)
+  - ENABLE_OLS_POLICY [19.3](SEM_RDFSA-reference.md)
+  - reference information [16](SEM_OLS-reference.md), [19](SEM_RDFSA-reference.md)
+  - REMOVE_OLS_POLICY [19.4](SEM_RDFSA-reference.md)
+  - RESET_MODEL_LABELS [19.5](SEM_RDFSA-reference.md)
+  - SET_PREDICATE_LABEL [19.6](SEM_RDFSA-reference.md)
+  - SET_RDFS_LABEL [19.7](SEM_RDFSA-reference.md)
+  - SET_RESOURCE_LABEL [19.8](SEM_RDFSA-reference.md)
+  - SET_RULE_LABEL [19.9](SEM_RDFSA-reference.md)
+- SEM_RELATED operator [3.3](owl-concepts.md)
+- SEM_RULEBASE_INFO view [1.3.7](rdf-semantic-graph-overview.md)
+- SEM_RULEBASES data type [1.6](rdf-semantic-graph-overview.md)
+- SEM_RULES_INDEX_DATASETS view [1.3.8](rdf-semantic-graph-overview.md)
+- SEM_RULES_INDEX_INFO view [1.3.8](rdf-semantic-graph-overview.md)
+- SEM_VMODEL_DATASETS view [1.3.9](rdf-semantic-graph-overview.md)
+- SEM_VMODEL_INFO view [1.3.9](rdf-semantic-graph-overview.md)
+- semantic data
+  - blank nodes [1.3.5](rdf-semantic-graph-overview.md)
+  - constructors [1.5](rdf-semantic-graph-overview.md)
+  - data types [1.5](rdf-semantic-graph-overview.md)
+  - examples (PL/SQL) [1.16](rdf-semantic-graph-overview.md)
+  - in the database [1.3](rdf-semantic-graph-overview.md)
+  - metadata [1.3.2](rdf-semantic-graph-overview.md)
+  - metadata tables and views [1.4](rdf-semantic-graph-overview.md)
+  - methods [1.5](rdf-semantic-graph-overview.md)
+  - modeling [1.2](rdf-semantic-graph-overview.md)
+  - objects [1.3.4](rdf-semantic-graph-overview.md)
+  - privilege considerations [1.3.12](rdf-semantic-graph-overview.md)
+  - properties [1.3.6](rdf-semantic-graph-overview.md)
+  - queries using the SEM_APIS.SPARQL_TO_SQL function [1.7](rdf-semantic-graph-overview.md)
+  - queries using the SEM_MATCH table function [1.6](rdf-semantic-graph-overview.md)
+  - security considerations [1.3.11](rdf-semantic-graph-overview.md)
+  - statements [1.3.3](rdf-semantic-graph-overview.md)
+  - steps for using [2](quick-start-using-rdf-data.md)
+  - subjects [1.3.4](rdf-semantic-graph-overview.md)
+- semantic index
+  - creating (MDSYS.SEM_INDEXTYPE) [3.3.3](owl-concepts.md)
+  - indexing documents [5.3](semantic-indexing-documents.md)
+  - using for documents [5](semantic-indexing-documents.md)
+- semantic indexes
+  - RDFCTX_INDEX_EXCEPTIONS view [5.16.3](semantic-indexing-documents.md)
+- semantic network [1.3.1](rdf-semantic-graph-overview.md)
+  - migrating from MDSYS to schema-private [1.3.1.5](rdf-semantic-graph-overview.md)
+  - naming conventions for objects [1.3.1.3](rdf-semantic-graph-overview.md)
+  - RDF_PARAMETER table [1.3.1.4](rdf-semantic-graph-overview.md)
+  - schema-private [1.3.1.1](rdf-semantic-graph-overview.md)
+  - sharing schema-private networks [1.3.1.6](rdf-semantic-graph-overview.md)
+  - types of users [1.3.1.2](rdf-semantic-graph-overview.md)
+- semantic network indexes
+  - adding [15.2](SEM_APIS-reference.md)
+  - altering [15.8](SEM_APIS-reference.md)
+  - altering on model [15.7](SEM_APIS-reference.md)
+  - dropping [15.45](SEM_APIS-reference.md)
+  - using [1.9](rdf-semantic-graph-overview.md)
+- semantic networks
+  - disabling sharing [15.38](SEM_APIS-reference.md)
+  - enabling sharing [15.57](SEM_APIS-reference.md)
+- semantic technologies support
+  - enabling [A.1](enabling-downgrading-or-removing-rdf-graph-support.md)
+  - upgrading from Release 11.1, 11.2, or 12.1 [A.1.2](enabling-downgrading-or-removing-rdf-graph-support.md)
+- SEMCL_entailment-name view [3.2.8](owl-concepts.md)
+- SemContent
+  - mdsys.SemContent index type [5.3](semantic-indexing-documents.md)
+- SEMI_entailment-name view [1.3.8](rdf-semantic-graph-overview.md)
+- SEMM_model-name view [1.3.2](rdf-semantic-graph-overview.md)
+- SEMR_rulebase-name view [1.3.7](rdf-semantic-graph-overview.md)
+- semrelod.sql script [A.1.2](enabling-downgrading-or-removing-rdf-graph-support.md), [A.1.2.1](enabling-downgrading-or-removing-rdf-graph-support.md)
+- semremov.sql script [A.3](enabling-downgrading-or-removing-rdf-graph-support.md)
+- SERVICE_CLOB=f
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- SERVICE_ESCAPE=f
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- SERVICE_JPDWN=t
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- SERVICE_PROXY
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- SET_DEFAULT_POLICY procedure [18.5](SEM_RDFCTX-reference.md)
+- SET_ENTAILMENT_STATS procedure [15.101](SEM_APIS-reference.md)
+- SET_EXTRACTOR_PARAM procedure [18.6](SEM_RDFCTX-reference.md)
+- SET_MODEL_STATS procedure [15.102](SEM_APIS-reference.md)
+- SET_PREDICATE_LABEL procedure [19.6](SEM_RDFSA-reference.md)
+- SET_RDFS_LABEL procedure [19.7](SEM_RDFSA-reference.md)
+- SET_RESOURCE_LABEL procedure [19.8](SEM_RDFSA-reference.md)
+- SET_RULE_LABEL procedure [19.9](SEM_RDFSA-reference.md)
+- Simple Knowledge Organization System (SKOS)
+  - property chain handling [4.2.2](simple-knowledge-organizaiton-system-skos.md)
+  - support for [4](simple-knowledge-organizaiton-system-skos.md)
+- Single-Valued Property tables [1.6.13.1](rdf-semantic-graph-overview.md)
+- SKOS (Simple Knowledge Organization System)
+  - property chain handling [4.2.2](simple-knowledge-organizaiton-system-skos.md)
+  - support for [4](simple-knowledge-organizaiton-system-skos.md)
+- SNOMED CT (Systematized Nomenclature of Medicine - Clinical Terms)
+  - support for [15.21](SEM_APIS-reference.md)
+- SPARQL
+  - optimized handling of queries [7.6](rdf-support-for-apache-jena.md)
+  - searching for documents using SPARQL query pattern [5.5](semantic-indexing-documents.md)
+  - setting up service for RDF Semantic Graph support for Apache Jena [7.2](rdf-support-for-apache-jena.md)
+  - setting up SPARQL service for Oracle RDF Graph Adapter for Eclipse RDF4J [8.3.3](rdf-graph-support-eclipse-rdf4j.md)
+- SPARQL_TO_SQL compared to SEM_MATCH [1.7.2](rdf-semantic-graph-overview.md)
+- SPARQL_TO_SQL function [15.103](SEM_APIS-reference.md)
+  - using bind variables with [1.7.1](rdf-semantic-graph-overview.md)
+- SPARQL endpoints
+  - accessing with HTTP Basic authentication [1.6.8.5](rdf-semantic-graph-overview.md)
+- SPARQL Gateway [7.17](rdf-support-for-apache-jena.md)
+  - customizing the default XSLT file [7.17.4](rdf-support-for-apache-jena.md)
+  - features and benefits overview [7.17.1](rdf-support-for-apache-jena.md)
+  - installing and configuring [7.17.2](rdf-support-for-apache-jena.md)
+  - Java API [7.17.5](rdf-support-for-apache-jena.md)
+  - specifying best effort for SPARQL query [7.17.3.3](rdf-support-for-apache-jena.md)
+  - specifying content type other than text/xml [7.17.3.4](rdf-support-for-apache-jena.md)
+  - specifying timeout value for SPARQL query [7.17.3.2](rdf-support-for-apache-jena.md)
+  - using as an XML data source to OBIEE [7.17.7](rdf-support-for-apache-jena.md)
+  - using with semantic data [7.17.3](rdf-support-for-apache-jena.md)
+- SPARQL SERVICE
+  - federated queries [1.6.8](rdf-semantic-graph-overview.md)
+  - Join Push Down [1.6.8.2](rdf-semantic-graph-overview.md)
+  - SILENT keyword [1.6.8.3](rdf-semantic-graph-overview.md)
+  - using a proxy server with [1.6.8.4](rdf-semantic-graph-overview.md)
+- SPARQL Update operations on a model [1.12](rdf-semantic-graph-overview.md)
+  - blank nodes [1.12.7](rdf-semantic-graph-overview.md)
+  - BULK_LOAD_FROM_STAGING_TABLE [1.12.3.2](rdf-semantic-graph-overview.md)
+  - bulk operations [1.12.3](rdf-semantic-graph-overview.md)
+  - DEL_AS_INS=T [1.12.3.3](rdf-semantic-graph-overview.md)
+  - load [1.12.5](rdf-semantic-graph-overview.md)
+  - long literals [1.12.6](rdf-semantic-graph-overview.md)
+  - performance tuning [1.12.1](rdf-semantic-graph-overview.md)
+  - setting options at session level [1.12.4](rdf-semantic-graph-overview.md)
+  - STREAMING=F [1.12.3.1](rdf-semantic-graph-overview.md)
+  - transaction isolation levels [1.12.2.1](rdf-semantic-graph-overview.md)
+  - transaction management [1.12.2](rdf-semantic-graph-overview.md)
+- spatial support
+  - ogcf
+    - boundary function [B.1.1](SEM_MATCH-spatial.md)
+    - buffer function [B.1.2](SEM_MATCH-spatial.md)
+    - convexHull function [B.1.3](SEM_MATCH-spatial.md)
+    - difference function [B.1.4](SEM_MATCH-spatial.md)
+    - distance function [B.1.5](SEM_MATCH-spatial.md)
+    - envelope function [B.1.6](SEM_MATCH-spatial.md)
+    - getSRID function [B.1.7](SEM_MATCH-spatial.md)
+    - intersection function [B.1.8](SEM_MATCH-spatial.md)
+    - relate function [B.1.9](SEM_MATCH-spatial.md)
+    - sfContains function [B.1.10](SEM_MATCH-spatial.md)
+    - sfCrossesfunction [B.1.11](SEM_MATCH-spatial.md)
+    - sfDisjoint function [B.1.12](SEM_MATCH-spatial.md)
+    - sfEquals function [B.1.13](SEM_MATCH-spatial.md)
+    - sfIntersects function [B.1.14](SEM_MATCH-spatial.md)
+    - sfOverlaps function [B.1.15](SEM_MATCH-spatial.md)
+    - sfTouches function [B.1.16](SEM_MATCH-spatial.md)
+    - sfWithin function [B.1.17](SEM_MATCH-spatial.md)
+    - symDifference function [B.1.18](SEM_MATCH-spatial.md)
+    - union function [B.1.19](SEM_MATCH-spatial.md)
+  - orageo
+    - aggrCentroid function [B.2.1](SEM_MATCH-spatial.md)
+    - aggrConvexHull function [B.2.2](SEM_MATCH-spatial.md)
+    - aggrMBR function [B.2.3](SEM_MATCH-spatial.md)
+    - aggrUnion function [B.2.4](SEM_MATCH-spatial.md)
+    - area function [B.2.5](SEM_MATCH-spatial.md)
+    - buffer function [B.2.6](SEM_MATCH-spatial.md)
+    - centroid function [B.2.7](SEM_MATCH-spatial.md)
+    - convexHull function [B.2.8](SEM_MATCH-spatial.md)
+    - difference function [B.2.9](SEM_MATCH-spatial.md)
+    - distance function [B.2.10](SEM_MATCH-spatial.md)
+    - getSRID function [B.2.11](SEM_MATCH-spatial.md)
+    - intersection function [B.2.12](SEM_MATCH-spatial.md)
+    - length function [B.2.13](SEM_MATCH-spatial.md)
+    - mbr function [B.2.14](SEM_MATCH-spatial.md)
+    - nearestNeighbor function [B.2.15](SEM_MATCH-spatial.md)
+    - relate function [B.2.16](SEM_MATCH-spatial.md)
+    - sdoDistJoin function [B.2.17](SEM_MATCH-spatial.md)
+    - sdoJoin function [B.2.18](SEM_MATCH-spatial.md)
+    - union function [B.2.19](SEM_MATCH-spatial.md)
+    - withinDistance function [B.2.20](SEM_MATCH-spatial.md)
+    - xor function [B.2.21](SEM_MATCH-spatial.md)
+- SPM (Subject-Property-Matrix) tables [1.6.13](rdf-semantic-graph-overview.md)
+  - bulk load operations [1.6.13.8](rdf-semantic-graph-overview.md)
+  - DML operations [1.6.13.7](rdf-semantic-graph-overview.md)
+  - MVP (Multi-Valued Property) tables [1.6.13.2](rdf-semantic-graph-overview.md)
+  - PCN (Property Chain) tables [1.6.13.3](rdf-semantic-graph-overview.md)
+  - SPARQL query options [1.6.13.10](rdf-semantic-graph-overview.md)
+  - SVP (Single-Valued Property) tables [1.6.13.1](rdf-semantic-graph-overview.md)
+- SQL Developer
+  - RDF support in [1.14](rdf-semantic-graph-overview.md)
+- staging table
+  - loading data from [15.15](SEM_APIS-reference.md)
+  - loading data into [15.84](SEM_APIS-reference.md)
+- staging table for bulk loading semantic data [1.8.1](rdf-semantic-graph-overview.md)
+- statements
+  - RDF_VALUE\$ table [1.3.3](rdf-semantic-graph-overview.md)
+- statistics
+  - gathering for RDF and OWL [17.5](SEM_PERF-reference.md)
+  - gathering for SPM auxiliary tables [17.1](SEM_PERF-reference.md)
+- STRICT_AGG_CARD=T
+  - query option for SEM_MATCH [1.6](rdf-semantic-graph-overview.md)
+- Subject-Property-Matrix tables [1.6.13](rdf-semantic-graph-overview.md)
+- subjects [1.3.4](rdf-semantic-graph-overview.md)
+- subproperty chaining [4.2.2](simple-knowledge-organizaiton-system-skos.md)
+- SVP (Single-Valued Property) tables [1.6.13.1](rdf-semantic-graph-overview.md)
+- SWAP_NAMES procedure [15.104](SEM_APIS-reference.md)
+- Systematized Nomenclature of Medicine - Clinical Terms (SNOMED CT)
+  - support for [15.21](SEM_APIS-reference.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- timeout value
+  - specifying for SPARQL query [7.17.3.2](rdf-support-for-apache-jena.md)
+- TriG data format [1.3.10.1](rdf-semantic-graph-overview.md)
+- triple-level security [6.1](fine-grained-access-control-rdf.md)
+- triples
+  - constructors for inserting [1.5.1](rdf-semantic-graph-overview.md)
+  - duplication checking [1.3.3.1](rdf-semantic-graph-overview.md)
+  - IS_TRIPLE function [15.83](SEM_APIS-reference.md)
+- TRUNCATE_SEM_MODEL procedure [15.105](SEM_APIS-reference.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- UNESCAPE_CLOB_TERM procedure [15.106](SEM_APIS-reference.md)
+- UNESCAPE_CLOB_VALUE procedure [15.107](SEM_APIS-reference.md)
+- UNESCAPE_RDF_TERM procedure [15.108](SEM_APIS-reference.md)
+- UNESCAPE_RDF_VALUE procedure [15.109](SEM_APIS-reference.md)
+- uninstalling RDF Semantic Graph support [A.3](enabling-downgrading-or-removing-rdf-graph-support.md)
+- unused values
+  - purging from semantic network [15.90](SEM_APIS-reference.md)
+- UPDATE_MODEL procedure [15.110](SEM_APIS-reference.md)
+- upgrading
+  - required data migration after upgrade [A.1.2.1](enabling-downgrading-or-removing-rdf-graph-support.md)
+  - semantic technologies support from Release 11.1, 11.2, or 12.1 [A.1.2](enabling-downgrading-or-removing-rdf-graph-support.md)
+- URI prefix
+  - using when values are not stored as URIs [3.3.5](owl-concepts.md)
+- URIPREFIX keyword [3.3.5](owl-concepts.md)
+- user-defined aggregates [9.2](user-defined-inferencing.md)
+- user-defined functions [9.2](user-defined-inferencing.md)
+- user-defined inferencing [9](user-defined-inferencing.md)
+- user-defined inferencing function [9.1.2.1](user-defined-inferencing.md)
+- user-defined querying [9](user-defined-inferencing.md)
+- using Graph Studio [2.3.3](getting-started-rdf-graphs-graph-studio.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- VALIDATE_ENTAILMENT procedure [15.111](SEM_APIS-reference.md)
+- VALIDATE_GEOMETRIES procedure [15.112](SEM_APIS-reference.md)
+- VALIDATE_MODEL procedure [15.113](SEM_APIS-reference.md)
+- VALUE_NAME_PREFIX function [15.114](SEM_APIS-reference.md), [15.115](SEM_APIS-reference.md)
+- views
+  - RDF [10](rdf-views.md)
+    - creating [15.24](SEM_APIS-reference.md)
+    - dropping [15.43](SEM_APIS-reference.md)
+    - exporting [15.64](SEM_APIS-reference.md)
+- virtual models [1.3.9](rdf-semantic-graph-overview.md)
+  - SEM_MODEL\$ view entries [1.3.9](rdf-semantic-graph-overview.md)
+  - SEM_VMODEL_DATASETS view [1.3.9](rdf-semantic-graph-overview.md)
+  - SEM_VMODEL_INFO view [1.3.9](rdf-semantic-graph-overview.md)
+  - support in RDF Semantic Graph support for Apache Jena [7.11.1](rdf-support-for-apache-jena.md)
+
+------------------------------------------------------------------------
+
+## X
+
+- XSLT file
+  - customizing default for SPARQL Gateway [7.17.4](rdf-support-for-apache-jena.md)
