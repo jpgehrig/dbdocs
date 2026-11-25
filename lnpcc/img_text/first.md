@@ -1,0 +1,1 @@
+This figure shows a syntax diagram. If the syntax diagram has more than one path, you can choose any path to travel. If you have the choice of more than one keyword, operator, or parameter, your options appear in a vertical list. In the following example, you can travel down the vertical line as far as you like, then continue along any horizontal line.

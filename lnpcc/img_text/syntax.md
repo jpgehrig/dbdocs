@@ -1,0 +1,1 @@
+Loops let you repeat the syntax within them as many times as you like. In the following example, column_name is inside a loop. So, after choosing one column name, you can go back repeatedly to choose another, separating the column names by a comma.

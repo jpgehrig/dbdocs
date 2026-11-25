@@ -1,0 +1,1 @@
+Required keywords and parameters can appear singly or in a vertical list of alternatives. Single required keywords and parameters appear on the main path, that is, on the horizontal line you are currently traveling. In the given example, cursor is a required parameter

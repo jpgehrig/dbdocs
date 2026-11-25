@@ -1,0 +1,1 @@
+This figure shows the select descriptor in our example after the DESCRIBE. Notice that DESCRIBE has set F to the actual number of items found in the query select list. If the SQL statement is not a query, F is set to zero.

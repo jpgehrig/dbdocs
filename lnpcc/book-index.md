@@ -1,0 +1,2398 @@
+Symbols  A  B  C  D  E  F  G  H  I  J  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z  
+
+------------------------------------------------------------------------
+
+## Symbols
+
+- .dsp files [F.4](sample-programs.md)
+- .pre files
+  - checking the paths [F.5](sample-programs.md)
+- \#include
+  - file inclusion, Pro\*C compared to C [5.4.1](advanced-topics.md)
+
+------------------------------------------------------------------------
+
+## A
+
+- abnormal termination
+  - automatic rollback [E.15](embedded-SQL-statements-and-directives.md)
+- active set
+  - changing [6.5.2](embedded-SQL.md), [6.5.3](embedded-SQL.md)
+  - cursor movement through [6.5.3](embedded-SQL.md)
+  - definition of [2.1.9](precompiler-concepts.md)
+  - how identified [6.5](embedded-SQL.md)
+  - if empty [6.5.3](embedded-SQL.md)
+  - when fetched from [6.5.3](embedded-SQL.md)
+  - when no longer defined [6.5](embedded-SQL.md)
+- ALLOCATE
+  - allocating a cursor variable [4.5.2](datatypes-and-host-variables.md)
+- ALLOCATE DESCRIPTOR statement [14.5.1](ANSI-dynamic-SQL.md), [E.5](embedded-SQL-statements-and-directives.md)
+- ALLOCATE SQL statement [17.4.2](about-Objects.md)
+- ALLOCATE SQL statements [E.4](embedded-SQL-statements-and-directives.md)
+- allocating
+  - cursors [E.4](embedded-SQL-statements-and-directives.md)
+  - cursor variables [4.5.2](datatypes-and-host-variables.md)
+  - thread context [11.4.2.2](multithreaded-applications.md), [E.17](embedded-SQL-statements-and-directives.md)
+- ANSI C Support [D.1.3](system-specific-references.md)
+- ANSI dynamic SQL [F.1](sample-programs.md)
+  - reference semantics [14.3.1](ANSI-dynamic-SQL.md)
+  - See also dynamic SQL (ANSI) [14](ANSI-dynamic-SQL.md)
+- application development process [2.2](precompiler-concepts.md)
+- ARRAYLEN statement [7.5.1](embedded-PL-SQL.md)
+- array of structs [8.10](host-arrays.md)
+- arrays
+  - batch fetch [8.4.1](host-arrays.md)
+  - bulk operations (ANSI dynamic SQL) [14.3.2](ANSI-dynamic-SQL.md)
+  - chapter discusses how to use [8](host-arrays.md)
+  - definition of [4.8.1](datatypes-and-host-variables.md)
+  - host arrays [2.1.7](precompiler-concepts.md)
+  - operations [2.1.7](precompiler-concepts.md)
+  - varying length [18.1.2](about-Collections.md)
+- associative interface [17.4](about-Objects.md)
+  - when to use [17.4.1](about-Objects.md)
+- AT clause
+  - in CONNECT statement [3.2.4.1](database-concepts.md)
+  - in DECLARE CURSOR statement [3.2.4.1.3](database-concepts.md)
+  - in DECLARE STATEMENT statement [3.2.4.1.4](database-concepts.md)
+  - in EXECUTE IMMEDIATE statement [3.2.4.1.4](database-concepts.md)
+  - of COMMIT statement [E.15](embedded-SQL-statements-and-directives.md)
+  - of DECLARE CURSOR directive [E.23](embedded-SQL-statements-and-directives.md)
+  - of EXECUTE IMMEDIATE statement [E.35](embedded-SQL-statements-and-directives.md)
+  - of EXECUTE statement [E.32](embedded-SQL-statements-and-directives.md)
+  - of INSERT statement [E.40](embedded-SQL-statements-and-directives.md)
+  - of SAVEPOINT statement [E.72](embedded-SQL-statements-and-directives.md)
+  - of SELECT statement [E.73](embedded-SQL-statements-and-directives.md)
+  - of SROLLBACK statement [E.71](embedded-SQL-statements-and-directives.md)
+  - of UPDATE statement [E.76](embedded-SQL-statements-and-directives.md)
+  - restriction on [3.2.4.1.3](database-concepts.md)
+  - use of [3.2.4.1.3](database-concepts.md)
+- attributes of a collection
+  - descriptions [18.4.6](about-Collections.md)
+- AUTO_CONNECT [10.5.1](precompiler-options.md)
+  - precompiler option [3.1.3.1](database-concepts.md)
+- AUTO_CONNECT precompiler option [10.5.1](precompiler-options.md)
+- automatic connections [3.1.3](database-concepts.md), [3.2.4](database-concepts.md)
+
+------------------------------------------------------------------------
+
+## B
+
+- batch fetch
+  - advantage of [8.4.1](host-arrays.md)
+  - example of [8.4.1](host-arrays.md)
+  - number of rows returned by [8.4.3](host-arrays.md)
+- BFILES
+  - security [16.1.3](about-LOBs.md)
+- bind descriptor [13.10.1](Oracle-dynamic-SQL.md), [15.2.1](Oracle-dynamic-SQL-method-4.md)
+  - definition of [13.10.1](Oracle-dynamic-SQL.md)
+  - information in [13.10.2](Oracle-dynamic-SQL.md)
+- binding
+  - definition of [13.5](Oracle-dynamic-SQL.md)
+- bind SQLDA
+  - purpose of [15.1.3](Oracle-dynamic-SQL-method-4.md)
+- bind variables
+  - input host variables [13.10.1](Oracle-dynamic-SQL.md)
+- BREAK action
+  - of WHENEVER [E.78](embedded-SQL-statements-and-directives.md)
+- Byte Ordering [D.1.6](system-specific-references.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- C++ [1.8.5](introduction.md)
+- C++ applications [12](C-Plus-Plus-Applications.md)
+- cache [17.3](about-Objects.md)
+- CACHE FREE ALL SQL statement [17.4.4](about-Objects.md)
+- CACHE FREE ALL statement [E.6](embedded-SQL-statements-and-directives.md)
+- CALL SQL statement [E.7](embedded-SQL-statements-and-directives.md)
+- CALL statement [7.7.2.3](embedded-PL-SQL.md)
+  - example [7.7.2.4](embedded-PL-SQL.md)
+- CASE OTT parameter [19.5.2.10](the-Object-type.md)
+- case sensitivity
+  - in precompiler options [10.1.1](precompiler-options.md)
+- CHAR_MAP precompiler option [5.1.1](advanced-topics.md), [10.5.2](precompiler-options.md)
+- character data [5.1](advanced-topics.md)
+- character strings
+  - multibyte [4.11.4](datatypes-and-host-variables.md)
+- CHAR datatype [4.1.2.17](datatypes-and-host-variables.md)
+- CHARF datatype [4.1.2.19](datatypes-and-host-variables.md), [5.3.3](advanced-topics.md)
+- CHARZ datatype [4.1.2.18](datatypes-and-host-variables.md)
+- CLOSE_ON_COMMIT
+  - precompiler option [3.6.2](database-concepts.md), [6.5.1](embedded-SQL.md), [10.5.4](precompiler-options.md)
+- CLOSE_ON_COMMIT precompiler option [10.5.4](precompiler-options.md)
+- CLOSE CURSOR statement [14.5.13](ANSI-dynamic-SQL.md)
+- CLOSE SQL statements [E.8](embedded-SQL-statements-and-directives.md)
+- CLOSE statement
+  - dependence on precompiler options [6.5.4](embedded-SQL.md)
+  - example [6.5.4](embedded-SQL.md), [E.8](embedded-SQL-statements-and-directives.md)
+  - purpose of [6.5](embedded-SQL.md), [6.5.4](embedded-SQL.md)
+  - use in dynamic SQL method 4 [15.6.18](Oracle-dynamic-SQL-method-4.md)
+- closing
+  - cursors [E.8](embedded-SQL-statements-and-directives.md)
+- CODE
+  - precompiler option [12.2.1](C-Plus-Plus-Applications.md)
+- CODE option [10.2.7.2](precompiler-options.md)
+- CODE OTT parameter [19.5.2.4](the-Object-type.md)
+- code page [4.10](datatypes-and-host-variables.md)
+- CODE precompiler option [10.5.8](precompiler-options.md)
+- coding conventions [2.3](precompiler-concepts.md)
+- COLLECT GET statement
+  - example [18.5.2](about-Collections.md)
+- COLLECTION APPEND [E.9](embedded-SQL-statements-and-directives.md)
+- COLLECTION APPEND statement [18.4.4](about-Collections.md)
+  - SQL statements
+    - COLLECTION APPEND [E.9](embedded-SQL-statements-and-directives.md)
+- COLLECTION DESCRIBE
+  - example [18.5.3](about-Collections.md)
+- COLLECTION DESCRIBE statement [18.4.6](about-Collections.md)
+  - SQL statements
+    - COLLECTION DESCRIBE [E.10](embedded-SQL-statements-and-directives.md)
+- COLLECTION GET statement [18.4.1](about-Collections.md)
+  - SQL statements
+    - COLLECTION GET [E.11](embedded-SQL-statements-and-directives.md)
+- collection object types
+  - handling [18.2.2](about-Collections.md)
+- COLLECTION RESET statement [18.4.3](about-Collections.md)
+  - example [18.5.4](about-Collections.md)
+  - SQL statements
+    - COLLECTION RESET [E.12](embedded-SQL-statements-and-directives.md)
+- collections
+  - and C [18.1.3](about-Collections.md)
+  - autonomous access [18.2.2.1](about-Collections.md)
+  - descriptors [18.2](about-Collections.md)
+  - element access [18.2.2.2](about-Collections.md)
+  - manipulating [18.2.2](about-Collections.md)
+  - nested tables [18.1.1](about-Collections.md)
+  - OBJECT GET statement [18.3](about-Collections.md)
+  - OBJECT SET statement [18.3](about-Collections.md)
+  - VARRAYs [18.1.2](about-Collections.md)
+- COLLECTION SET statement [18.4.2](about-Collections.md)
+  - example [18.5.2](about-Collections.md)
+  - SQL statements
+    - COLLECTION SET [E.13](embedded-SQL-statements-and-directives.md)
+- COLLECTION TRIM statement [18.4.5](about-Collections.md)
+  - SQL statements
+    - COLLECTION TRIM [E.14](embedded-SQL-statements-and-directives.md)
+- collection types
+  - structs for [18.2](about-Collections.md)
+- column list
+  - in INSERT statements [6.3.2](embedded-SQL.md)
+  - when permissible to omit [6.3.2](embedded-SQL.md)
+- COMMENT clause
+  - of COMMIT statement [E.15](embedded-SQL-statements-and-directives.md)
+- comments
+  - ANSI [2.3.1](precompiler-concepts.md)
+  - which allowed [2.3.1](precompiler-concepts.md)
+- Comments
+  - restrictions in PL/SQL block [13.12.4](Oracle-dynamic-SQL.md)
+- commit
+  - automatic [3.5](database-concepts.md)
+  - explicit versus implicit [3.5](database-concepts.md)
+  - function of [3.4](database-concepts.md)
+- COMMIT SQL statement [E.15](embedded-SQL-statements-and-directives.md)
+- COMMIT statement [3.6](database-concepts.md)
+  - effect of [3.6](database-concepts.md)
+  - ending a transaction [E.71](embedded-SQL-statements-and-directives.md)
+  - example of [3.6](database-concepts.md)
+  - examples [E.15](embedded-SQL-statements-and-directives.md)
+  - purpose of [3.6](database-concepts.md)
+  - RELEASE option in [3.6](database-concepts.md)
+  - using in a PL/SQL block [3.14.3](database-concepts.md)
+  - where to place [3.6](database-concepts.md)
+- committing
+  - transactions [E.15](embedded-SQL-statements-and-directives.md)
+- communicating over a network [3.2.1](database-concepts.md)
+- COMP_CHARSET precompiler option [10.5.9](precompiler-options.md), [10.5.10](precompiler-options.md)
+- compiling [2.6](precompiler-concepts.md)
+  - specifying include file locations [5.4.7](advanced-topics.md)
+- concurrency
+  - definition of [3.3](database-concepts.md)
+- concurrent connections [3.2.2](database-concepts.md)
+- conditional precompilation [2.4](precompiler-concepts.md)
+  - defining symbols [5.6.1](advanced-topics.md)
+  - example [2.4.2](precompiler-concepts.md), [5.6.2](advanced-topics.md)
+- CONFIG OTT parameter [19.5.2.8](the-Object-type.md)
+- CONFIG precompiler option [10.5.3](precompiler-options.md), [10.5.12](precompiler-options.md), [10.5.5](precompiler-options.md), [10.5.6](precompiler-options.md), [10.5.7](precompiler-options.md), [10.5.11](precompiler-options.md), [10.5.14](precompiler-options.md)
+- configuration files [10.2.2](precompiler-options.md), [10.2.7.1](precompiler-options.md)
+  - and the Object Type Translator [19.2.2](the-Object-type.md)
+  - location [10.2.2](precompiler-options.md), [10.2.7.1](precompiler-options.md)
+  - system [10.2.3](precompiler-options.md)
+  - user [10.2.3](precompiler-options.md)
+- connecting to Oracle [3.1](database-concepts.md)
+  - automatic connections [3.1.3](database-concepts.md)
+  - concurrently [3.2.2](database-concepts.md)
+  - example of [3.1](database-concepts.md)
+  - using Oracle Net [3.2.2](database-concepts.md)
+- connection pooling [11.6](multithreaded-applications.md)
+  - demo program1 [11.6.2](multithreaded-applications.md)
+  - demo program2 [11.6.3](multithreaded-applications.md)
+  - example [11.6.3.3](multithreaded-applications.md)
+  - using [11.6.1](multithreaded-applications.md)
+- connections
+  - concurrent [3.2.4.2](database-concepts.md)
+  - default versus nondefault [3.2.3](database-concepts.md)
+  - Explicit connections [3.2.4](database-concepts.md)
+  - implicit [3.2.5](database-concepts.md)
+  - naming of [3.2.4](database-concepts.md)
+- CONNECT statement [E.16](embedded-SQL-statements-and-directives.md)
+  - AT clause in [3.2.4.1](database-concepts.md)
+  - connecting to Oracle with [3.1](database-concepts.md)
+  - examples [E.16](embedded-SQL-statements-and-directives.md)
+  - requirements for [3.1](database-concepts.md)
+  - USING clause in [3.2.4.1](database-concepts.md)
+  - using to enable a semantic check [C.3.1.1](syntactic-and-semantic-checking.md)
+- const
+  - declaring constants [5.7.2](advanced-topics.md)
+- CONTEXT ALLOCATE SQL statement [E.17](embedded-SQL-statements-and-directives.md)
+- CONTEXT ALLOCATE statement [11.4.2.2](multithreaded-applications.md)
+- context block
+  - definition of [20.4.1](user-exits.md)
+- CONTEXT FREE statement [11.4.2.4](multithreaded-applications.md), [E.18](embedded-SQL-statements-and-directives.md)
+- CONTEXT OBJECT OPTION GET SQL statement [17.7.2](about-Objects.md)
+- CONTEXT OBJECT OPTION SET SQL statement [17.7.1](about-Objects.md)
+- CONTEXT USE directive [11.4.2.3](multithreaded-applications.md)
+- CONTEXT USE SQL directive [E.21](embedded-SQL-statements-and-directives.md)
+- CONTEXT USE SQL statement [11.4.2.3](multithreaded-applications.md)
+- CONTINUE action
+  - in the WHENEVER statement [9.8.2.1](handling-run-time-errors.md)
+  - of WHENEVER directive [E.78](embedded-SQL-statements-and-directives.md)
+  - result of [9.8.2.1](handling-run-time-errors.md)
+- CONVBUFSZ clause [4.11.3](datatypes-and-host-variables.md)
+- CPP_SUFFIX
+  - precompiler option [12.2.3](C-Plus-Plus-Applications.md)
+- CPP_SUFFIX precompiler option [10.5.13](precompiler-options.md)
+- CPP_SUFFIX precompiler options [10.5.13](precompiler-options.md)
+- C preprocessor
+  - directives supported by Pro\*C [5.4](advanced-topics.md)
+  - how used in Pro\*C [5.4](advanced-topics.md)
+- CREATE PROCEDURE statement
+  - embedded [7.7.1](embedded-PL-SQL.md)
+- creating
+  - savepoints [E.72](embedded-SQL-statements-and-directives.md)
+- creating temporary LOB [16.4.5](about-LOBs.md)
+- C structs
+  - generating for a REF [17.13.1](about-Objects.md)
+  - using [17.12](about-Objects.md)
+- C types of collection attributes [18.4.6](about-Collections.md)
+- CURRENT OF clause [8.3.3](host-arrays.md)
+  - example of [6.9](embedded-SQL.md)
+  - mimicking with ROWID [3.12](database-concepts.md), [8.11](host-arrays.md)
+  - purpose of [6.9](embedded-SQL.md)
+  - restrictions on [6.9.1](embedded-SQL.md)
+- current row
+  - definition of [2.1.9](precompiler-concepts.md)
+  - using FETCH to retrieve [6.5](embedded-SQL.md)
+- cursor cache
+  - definition of [9.10.4](handling-run-time-errors.md)
+  - purpose of [B.9.2.1](performance-tuning.md)
+- cursor control statements
+  - example of typical sequence [6.10](embedded-SQL.md)
+- cursor operations
+  - overview of [6.5](embedded-SQL.md)
+- cursors [2.5.1.1](precompiler-concepts.md), [4.5](datatypes-and-host-variables.md)
+  - allocating [E.4](embedded-SQL-statements-and-directives.md)
+  - allocating a cursor variable [4.5.2](datatypes-and-host-variables.md)
+  - analogy for [2.1.9](precompiler-concepts.md)
+  - association with queries [6.5](embedded-SQL.md)
+  - closing [E.8](embedded-SQL-statements-and-directives.md)
+  - declaring [6.5.1](embedded-SQL.md)
+  - definition of [2.1.9](precompiler-concepts.md)
+  - explicit versus implicit [2.1.9](precompiler-concepts.md)
+  - fetching rows from [E.36](embedded-SQL-statements-and-directives.md), [E.37](embedded-SQL-statements-and-directives.md)
+  - for multirow queries [6.5](embedded-SQL.md)
+  - how handling affects performance [B.9.1](performance-tuning.md)
+  - movement through active set [6.5.3](embedded-SQL.md)
+  - opening [E.67](embedded-SQL-statements-and-directives.md), [E.68](embedded-SQL-statements-and-directives.md)
+  - purpose of [6.5](embedded-SQL.md)
+  - reopening [6.5.2](embedded-SQL.md), [6.5.3](embedded-SQL.md)
+  - restrictions on declaring [6.5.1](embedded-SQL.md)
+  - rules for naming [6.5.1](embedded-SQL.md)
+  - scope of [6.5.1](embedded-SQL.md)
+  - scrollable cursors [6.6](embedded-SQL.md)
+  - statements for manipulating [6.5](embedded-SQL.md)
+  - types of [2.1.9](precompiler-concepts.md)
+  - using more than one [6.5.1](embedded-SQL.md)
+- cursor variables [4.5](datatypes-and-host-variables.md), [E.4](embedded-SQL-statements-and-directives.md)
+  - allocating [4.5.2](datatypes-and-host-variables.md)
+  - declaring [4.5.1](datatypes-and-host-variables.md)
+  - restrictions on [4.5.6](datatypes-and-host-variables.md)
+- C variable in SQLDA
+  - how value is set [15.3.9](Oracle-dynamic-SQL-method-4.md)
+  - purpose of [15.3.9](Oracle-dynamic-SQL-method-4.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- database link
+  - creating synonym for [3.2.5.1](database-concepts.md)
+  - defining [3.2.5.1](database-concepts.md)
+  - example using [3.2.5.1](database-concepts.md)
+  - using in INSERT statement [E.40](embedded-SQL-statements-and-directives.md)
+  - where stored [3.2.5.1](database-concepts.md)
+- databases
+  - naming [3.2.3](database-concepts.md)
+- database types
+  - new [17.15](about-Objects.md)
+- data definition language
+  - in transactions [3.5](database-concepts.md)
+- data integrity [3.2.4.3](database-concepts.md)
+  - definition of [3.3](database-concepts.md)
+- data locks [3.3](database-concepts.md)
+- datatype equivalencing [2.1.8](precompiler-concepts.md)
+- datatypes
+  - ANSI DATE [4.1.3.2](datatypes-and-host-variables.md)
+  - codes used in descriptors [15.4.2](Oracle-dynamic-SQL-method-4.md)
+  - conversions [5.2](advanced-topics.md)
+  - dealing with ORACLE internal [15.4.2](Oracle-dynamic-SQL-method-4.md)
+  - equivalencing [5.3](advanced-topics.md)
+  - equivalencing, purpose of [2.1.8](precompiler-concepts.md)
+  - internal [4.1.1](datatypes-and-host-variables.md)
+  - internal versus external [2.1.6](precompiler-concepts.md)
+  - INTERVAL DAY TO SECOND [4.1.3.7](datatypes-and-host-variables.md)
+  - INTERVAL YEAR TO MONTH [4.1.3.6](datatypes-and-host-variables.md)
+  - list of internal [15.4.1.1](Oracle-dynamic-SQL-method-4.md)
+  - need to coerce [15.4.2](Oracle-dynamic-SQL-method-4.md)
+  - Oracle [2.1.6](precompiler-concepts.md)
+  - OTT mappings [19.2.5](the-Object-type.md)
+  - restrictions on using [17.16](about-Objects.md)
+  - TIMESTAMP [4.1.3.3](datatypes-and-host-variables.md)
+  - TIMESTAMP WITH LOCAL TIME ZONE [4.1.3.5](datatypes-and-host-variables.md)
+  - TIMESTAMP WITH TIME ZONE [4.1.3.4](datatypes-and-host-variables.md)
+  - user-defined type equivalencing [E.75](embedded-SQL-statements-and-directives.md)
+  - when to reset [15.4.2](Oracle-dynamic-SQL-method-4.md)
+- DATE, ANSI
+  - datatype [4.1.3.2](datatypes-and-host-variables.md)
+- DATE datatype [4.1.2.10](datatypes-and-host-variables.md)
+- datetime
+  - avoiding unexpected results [4.1.3.8](datatypes-and-host-variables.md)
+- DBMS interaction with MODE [10.5.16](precompiler-options.md)
+- DBMS option [5.3.3](advanced-topics.md), [10.2.7.3](precompiler-options.md)
+- DBMS precompiler option [10.5.15](precompiler-options.md), [10.5.16](precompiler-options.md)
+- deadlock
+  - definition of [3.3](database-concepts.md)
+  - effect on transactions [3.8.1](database-concepts.md)
+  - how broken [3.8.1](database-concepts.md)
+- DEALLOCATE DESCRIPTOR statement [14.5.2](ANSI-dynamic-SQL.md), [E.22](embedded-SQL-statements-and-directives.md)
+- declaration
+  - of cursors [6.5.1](embedded-SQL.md)
+  - of host arrays [8.2](host-arrays.md)
+  - of pointer variables [4.9.1](datatypes-and-host-variables.md)
+  - of SQLCA [9.6.1](handling-run-time-errors.md)
+- declarative SQL statements
+  - in transactions [3.5](database-concepts.md)
+- DECLARE CURSOR directives
+  - examples [E.23](embedded-SQL-statements-and-directives.md)
+- DECLARE CURSOR statement [14.5.10](ANSI-dynamic-SQL.md)
+  - AT clause in [3.2.4.1.3](database-concepts.md)
+  - use in dynamic SQL method 4 [15.6.7](Oracle-dynamic-SQL-method-4.md)
+- DECLARE DATABASE SQL directives [E.24](embedded-SQL-statements-and-directives.md)
+- Declare Section
+  - allowable statements [2.3.3](precompiler-concepts.md)
+  - form [2.3.3](precompiler-concepts.md)
+  - purpose [2.3.3](precompiler-concepts.md)
+  - required when MODE=ANSI [10.5.37](precompiler-options.md)
+  - requirements [2.3.3](precompiler-concepts.md)
+  - rules for defining [2.3.3](precompiler-concepts.md)
+  - when MODE=ANSI [5.3.4](advanced-topics.md)
+  - when required [2.3.3](precompiler-concepts.md), [4.2.1](datatypes-and-host-variables.md)
+- DECLARE statement
+  - example of [6.5.1](embedded-SQL.md)
+  - purpose of [6.5](embedded-SQL.md)
+  - required placement of [6.5.1](embedded-SQL.md)
+  - scope of [E.25](embedded-SQL-statements-and-directives.md)
+  - use in dynamic SQL method 3 [13.9.2](Oracle-dynamic-SQL.md)
+- DECLARE STATEMENT directive [E.25](embedded-SQL-statements-and-directives.md)
+- DECLARE statements
+  - examples [E.25](embedded-SQL-statements-and-directives.md)
+- DECLARE STATEMENT statement
+  - AT clause in [3.2.4.1.4](database-concepts.md)
+  - example of using [13.11](Oracle-dynamic-SQL.md)
+  - using with dynamic SQL [13.11](Oracle-dynamic-SQL.md)
+  - when required [13.11](Oracle-dynamic-SQL.md)
+- DECLARE TABLE directive
+  - examples [E.26](embedded-SQL-statements-and-directives.md)
+  - using with the SQLCHECK option [C.3.1.2](syntactic-and-semantic-checking.md)
+- DECLARE TABLE SQL directive [E.26](embedded-SQL-statements-and-directives.md)
+- DECLARE TABLE statement
+  - need for with AT clause [3.2.4.1.1](database-concepts.md)
+- DECLARE TYPE directive [E.27](embedded-SQL-statements-and-directives.md)
+- DEF_SQLCODE precompiler option [10.5.17](precompiler-options.md)
+- default connections [3.2.3](database-concepts.md)
+- default database [3.2.3](database-concepts.md)
+- default file name extensions [19.5.7](the-Object-type.md)
+- DEFINE precompiler option [10.5.18](precompiler-options.md)
+  - used in application migration [5.4.9](advanced-topics.md)
+- defining symbols [2.4.1](precompiler-concepts.md)
+- DELETE SQL statement [E.28](embedded-SQL-statements-and-directives.md)
+- DELETE statement
+  - embedded SQL examples [E.28](embedded-SQL-statements-and-directives.md)
+  - example of [6.3.4](embedded-SQL.md)
+  - purpose of [6.3.4](embedded-SQL.md)
+  - using host arrays in [8.7](host-arrays.md)
+  - WHERE clause in [6.3.4](embedded-SQL.md)
+- delimiters
+  - C versus SQL [2.3.4](precompiler-concepts.md)
+- DEPT table [2.7](precompiler-concepts.md)
+- DESCRIBE BIND VARIABLES statement
+  - use in dynamic SQL method 4 [15.6.8](Oracle-dynamic-SQL-method-4.md)
+- DESCRIBE command
+  - use with PREPARE command [E.29](embedded-SQL-statements-and-directives.md)
+- DESCRIBE DESCRIPTOR statement [E.30](embedded-SQL-statements-and-directives.md)
+- DESCRIBE INPUT statement [14.5.6](ANSI-dynamic-SQL.md)
+- DESCRIBE OUTPUT statement [14.5.7](ANSI-dynamic-SQL.md)
+- DESCRIBE SELECT LIST statement
+  - use in dynamic SQL method 4 [15.6.12](Oracle-dynamic-SQL-method-4.md)
+- DESCRIBE SQL statement [E.29](embedded-SQL-statements-and-directives.md)
+- DESCRIBE statement
+  - examples [E.29](embedded-SQL-statements-and-directives.md)
+  - use in dynamic SQL Method 4 [13.10.1](Oracle-dynamic-SQL.md)
+- descriptions of collection attributes [18.4.6](about-Collections.md)
+- descriptors [15.2.1](Oracle-dynamic-SQL-method-4.md)
+  - bind descriptor [13.10.1](Oracle-dynamic-SQL.md)
+  - definition of [13.10](Oracle-dynamic-SQL.md)
+  - need for [15.2.1](Oracle-dynamic-SQL-method-4.md)
+  - select descriptor [13.10.1](Oracle-dynamic-SQL.md)
+  - using the sqlald() function to allocate [15.2.4](Oracle-dynamic-SQL-method-4.md)
+  - using the sqlclu() function to deallocate [15.6.17](Oracle-dynamic-SQL-method-4.md)
+- determining current value of precompiler options [10.2.3](precompiler-options.md)
+- directory structures [1.6](introduction.md)
+- distributed processing
+  - support for [3.2.2](database-concepts.md)
+  - using Oracle Net for [3.2.2](database-concepts.md)
+- distributed transactions [E.71](embedded-SQL-statements-and-directives.md)
+- DML returning clauses [6.4](embedded-SQL.md)
+- DO action
+  - in the WHENEVER statement [9.8.2.2](handling-run-time-errors.md)
+  - of WHENEVER directive [E.78](embedded-SQL-statements-and-directives.md)
+  - result of [9.8.2.2](handling-run-time-errors.md)
+- DTP model [5.12](advanced-topics.md)
+- dummy host variables
+  - placeholders [13.4](Oracle-dynamic-SQL.md)
+- DURATION precompiler option [10.5.20](precompiler-options.md), [17.8.2](about-Objects.md)
+- Dynamic Link Libraries (DLLs) [1.7](introduction.md)
+- dynamic PL/SQL
+  - rules for [13.12](Oracle-dynamic-SQL.md)
+  - versus dynamic SQL [13.12](Oracle-dynamic-SQL.md)
+- dynamic SQL
+  - advantages and disadvantages of [13.2](Oracle-dynamic-SQL.md)
+  - cannot use cursor variables with [4.5.6](datatypes-and-host-variables.md)
+  - choosing the right method [13.6.5](Oracle-dynamic-SQL.md)
+  - definition of [2.1.3](precompiler-concepts.md)
+  - guidelines for [13.6.5](Oracle-dynamic-SQL.md)
+  - method 1 [F.1](sample-programs.md)
+  - method 2 [F.1](sample-programs.md)
+  - method 3 [F.1](sample-programs.md)
+  - method 4 [F.1](sample-programs.md)
+  - overview of [13.1](Oracle-dynamic-SQL.md)
+  - restriction on [6.9.1](embedded-SQL.md)
+  - restrictions on use of datatypes [17.16](about-Objects.md)
+  - restrictions on using datatypes in [17.16](about-Objects.md)
+  - uses for [13.2](Oracle-dynamic-SQL.md)
+  - using the AT clause in [3.2.4.1.4](database-concepts.md)
+  - when to use [13.3](Oracle-dynamic-SQL.md)
+- dynamic SQL (ANSI)
+  - basics [14.1](ANSI-dynamic-SQL.md)
+  - bulk operations [14.3.2](ANSI-dynamic-SQL.md)
+  - differences from Oracle dynamic [14.5.14](ANSI-dynamic-SQL.md)
+  - Oracle extensions [14.3](ANSI-dynamic-SQL.md)
+  - Overview [14.2](ANSI-dynamic-SQL.md)
+  - precompiler options [14.4](ANSI-dynamic-SQL.md)
+  - Precompiler Options [14.1.1](ANSI-dynamic-SQL.md)
+  - reference semantics [14.3.1](ANSI-dynamic-SQL.md)
+  - sample program [14.6.2](ANSI-dynamic-SQL.md)
+  - sample programs [14.6](ANSI-dynamic-SQL.md)
+- dynamic SQL method 1
+  - commands used with [13.6.1](Oracle-dynamic-SQL.md)
+  - description of [13.7](Oracle-dynamic-SQL.md)
+  - example of [13.7.1](Oracle-dynamic-SQL.md)
+  - how to use [13.7](Oracle-dynamic-SQL.md)
+  - requirements for [13.6.1](Oracle-dynamic-SQL.md)
+  - use of EXECUTE IMMEDIATE with [13.7](Oracle-dynamic-SQL.md)
+  - use of PL/SQL with [13.12.1](Oracle-dynamic-SQL.md)
+- dynamic SQL method 2
+  - commands used with [13.6.2](Oracle-dynamic-SQL.md)
+  - description of [13.8](Oracle-dynamic-SQL.md)
+  - example of [13.8.2](Oracle-dynamic-SQL.md)
+  - requirements for [13.6.2](Oracle-dynamic-SQL.md)
+  - use of DECLARE STATEMENT with [13.11](Oracle-dynamic-SQL.md)
+  - use of EXECUTE with [13.8](Oracle-dynamic-SQL.md)
+  - use of PL/SQL with [13.12.2](Oracle-dynamic-SQL.md)
+  - use of PREPARE with [13.8](Oracle-dynamic-SQL.md)
+- dynamic SQL method 3
+  - commands used with [13.6.3](Oracle-dynamic-SQL.md)
+  - compared to method 2 [13.9](Oracle-dynamic-SQL.md)
+  - example program [13.9.6](Oracle-dynamic-SQL.md)
+  - requirements for [13.6.3](Oracle-dynamic-SQL.md)
+  - sequence of statements used with [13.9](Oracle-dynamic-SQL.md)
+  - use of DECLARE STATEMENT with [13.11](Oracle-dynamic-SQL.md)
+  - use of DECLARE with [13.9.2](Oracle-dynamic-SQL.md)
+  - use of FETCH with [13.9.4](Oracle-dynamic-SQL.md)
+  - use of OPEN with [13.9.3](Oracle-dynamic-SQL.md)
+  - use of PL/SQL with [13.12.3](Oracle-dynamic-SQL.md)
+  - use of PREPARE with [13.9.1](Oracle-dynamic-SQL.md)
+- dynamic SQL method 4
+  - need for descriptors with [15.2.1](Oracle-dynamic-SQL-method-4.md)
+  - overview of [13.10.1](Oracle-dynamic-SQL.md)
+  - prerequisites for using [15.4](Oracle-dynamic-SQL-method-4.md)
+  - requirements for [13.6.4](Oracle-dynamic-SQL.md)
+  - requirements of [15.1.1](Oracle-dynamic-SQL-method-4.md)
+  - sample program [15.7](Oracle-dynamic-SQL-method-4.md)
+  - sequence of statements used with [13.10.4](Oracle-dynamic-SQL.md), [15.6](Oracle-dynamic-SQL-method-4.md)
+  - steps for [15.5](Oracle-dynamic-SQL-method-4.md)
+  - use of CLOSE statement in [15.6.18](Oracle-dynamic-SQL-method-4.md)
+  - use of DECLARE CURSOR statement in [15.6.7](Oracle-dynamic-SQL-method-4.md)
+  - use of DECLARE STATEMENT with [13.11](Oracle-dynamic-SQL.md)
+  - use of DESCR [13.10.1](Oracle-dynamic-SQL.md)
+  - use of DESCRIBE statement in [15.6.8](Oracle-dynamic-SQL-method-4.md), [15.6.12](Oracle-dynamic-SQL-method-4.md)
+  - use of descriptors with [13.10](Oracle-dynamic-SQL.md)
+  - use of FETCH statement in [15.6.15](Oracle-dynamic-SQL-method-4.md)
+  - use of OPEN statement in [15.6.11](Oracle-dynamic-SQL-method-4.md)
+  - use of PL/SQL with [13.12.4](Oracle-dynamic-SQL.md)
+  - use of PREPARE statement in [15.6.6](Oracle-dynamic-SQL-method-4.md)
+  - use of the SQLDA in [13.10.1](Oracle-dynamic-SQL.md), [15.2.1](Oracle-dynamic-SQL-method-4.md)
+  - when needed [13.10](Oracle-dynamic-SQL.md)
+- dynamic SQL methods
+  - overview of [13.6](Oracle-dynamic-SQL.md)
+- dynamic SQL statements
+  - binding of host variables in [13.5](Oracle-dynamic-SQL.md)
+  - definition of [13.1](Oracle-dynamic-SQL.md)
+  - requirements for [13.4](Oracle-dynamic-SQL.md)
+  - use of placeholders in [13.4](Oracle-dynamic-SQL.md)
+  - using host arrays in [13.11.1](Oracle-dynamic-SQL.md)
+  - versus static SQL statements [13.1](Oracle-dynamic-SQL.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- embedded PL/SQL
+  - advantages of [7.1.1](embedded-PL-SQL.md)
+  - cursor FOR loop [7.1.3](embedded-PL-SQL.md)
+  - example of [7.3.1](embedded-PL-SQL.md), [7.3.2](embedded-PL-SQL.md)
+  - overview of [2.1.4](precompiler-concepts.md)
+  - packages [7.1.5](embedded-PL-SQL.md)
+  - PL/SQL tables [7.1.6](embedded-PL-SQL.md)
+  - procedures and functions [7.1.4](embedded-PL-SQL.md)
+  - requirements for [7.2](embedded-PL-SQL.md)
+  - user-defined records [7.1.7](embedded-PL-SQL.md)
+  - using %TYPE [7.1.2](embedded-PL-SQL.md)
+  - using the VARCHAR pseudotype with [7.3.3](embedded-PL-SQL.md)
+  - using to improve performance [B.4](performance-tuning.md)
+  - where allowed [7.2](embedded-PL-SQL.md)
+- embedded SQL [F.1](sample-programs.md)
+  - ALLOCATE statement [E.4](embedded-SQL-statements-and-directives.md)
+  - CLOSE statement [E.8](embedded-SQL-statements-and-directives.md)
+  - CONTEXT ALLOCATE statement [11.4.2.2](multithreaded-applications.md), [E.17](embedded-SQL-statements-and-directives.md)
+  - CONTEXT FREE statement [11.4.2.4](multithreaded-applications.md)
+  - definition of [2.1.1](precompiler-concepts.md)
+  - difference from interactive SQL [2.1.2](precompiler-concepts.md)
+  - ENABLE THREADS statement [11.4.2.1](multithreaded-applications.md)
+  - EXEC SQL CACHE FREE ALL [17.4.4](about-Objects.md)
+  - EXECUTE statement [E.32](embedded-SQL-statements-and-directives.md)
+  - key concepts of [2.1](precompiler-concepts.md)
+  - mixing with host-language statements [2.1.2](precompiler-concepts.md)
+  - OPEN statement [E.67](embedded-SQL-statements-and-directives.md)
+  - overview of [2.1.1](precompiler-concepts.md)
+  - PREPARE statement [E.69](embedded-SQL-statements-and-directives.md)
+  - requirements for [2.1.2](precompiler-concepts.md)
+  - SAVEPOINT statement [E.72](embedded-SQL-statements-and-directives.md)
+  - SELECT statement [E.73](embedded-SQL-statements-and-directives.md)
+  - syntax for [2.1.2](precompiler-concepts.md)
+  - testing with SQL\*Plus [1.3](introduction.md)
+  - TYPE directive [E.75](embedded-SQL-statements-and-directives.md)
+  - UPDATE statement [E.76](embedded-SQL-statements-and-directives.md)
+  - using OCI types in [17.14.2](about-Objects.md)
+  - using REFs in [17.13.3](about-Objects.md)
+  - VAR directive [E.77](embedded-SQL-statements-and-directives.md)
+  - WHENEVER directive [E.78](embedded-SQL-statements-and-directives.md)
+  - when to use [1.3](introduction.md)
+- embedded SQL statements
+  - labels for [9.8.2.5](handling-run-time-errors.md)
+  - referencing host arrays in [8.3.1](host-arrays.md)
+  - referencing host variables in [4.2.2](datatypes-and-host-variables.md)
+  - suffixes and prefixes not allowed [2.3.2](precompiler-concepts.md)
+  - terminator for [2.3.13](precompiler-concepts.md)
+  - use of apostrophes in [2.3.4](precompiler-concepts.md)
+  - use of quotation marks in [2.3.4](precompiler-concepts.md)
+- embedding
+  - PL/SQL blocks in precompiler programs [E.32](embedded-SQL-statements-and-directives.md)
+- EMP table [2.7](precompiler-concepts.md)
+- ENABLE THREADS SQL statement [E.31](embedded-SQL-statements-and-directives.md)
+- ENABLE THREADS statement [11.4.2.1](multithreaded-applications.md)
+- enabling
+  - threads [11.4.2.1](multithreaded-applications.md)
+- encoding scheme (character set or code page) [4.10](datatypes-and-host-variables.md)
+- enqueues
+  - locking [3.3](database-concepts.md)
+- entering options [10.4](precompiler-options.md)
+- environment variables [10.2.1](precompiler-options.md)
+- equivalencing
+  - host variable equivalencing [E.77](embedded-SQL-statements-and-directives.md)
+  - user-defined type equivalencing [E.75](embedded-SQL-statements-and-directives.md)
+- equivalencing of datatypes
+  - datatype equivalencing [2.1.8](precompiler-concepts.md)
+- error detection
+  - error reporting [E.78](embedded-SQL-statements-and-directives.md)
+- error handling [2.1.11](precompiler-concepts.md)
+  - alternatives [9.2](handling-run-time-errors.md)
+  - need for [9.1](handling-run-time-errors.md)
+  - overview of [2.1.11](precompiler-concepts.md)
+  - SQLCA versus WHENEVER statement [9.2.2](handling-run-time-errors.md)
+  - use of ROLLBACK statement in [3.8](database-concepts.md)
+- error messages
+  - maximum length of [9.7](handling-run-time-errors.md)
+  - using the sqlglm() function to get [9.7](handling-run-time-errors.md)
+- error reporting
+  - key components of [9.5](handling-run-time-errors.md)
+  - use of parse error offset in [9.5.4](handling-run-time-errors.md)
+  - use of rows-processed count in [9.5.3](handling-run-time-errors.md)
+  - use of warning flags in [9.5.2](handling-run-time-errors.md)
+  - WHENEVER directive [E.78](embedded-SQL-statements-and-directives.md)
+- ERRORS precompiler option [10.5.21](precompiler-options.md)
+- ERRTYPE
+  - precompiler option [10.5.22](precompiler-options.md)
+- ERRTYPE OTT parameter [19.5.2.9](the-Object-type.md)
+- ERRTYPE precompiler option [17.8.5](about-Objects.md)
+- exception, PL/SQL
+  - definition of [7.4.1](embedded-PL-SQL.md)
+- EXEC ORACLE DEFINE statement [5.6](advanced-topics.md)
+- EXEC ORACLE ELSE statement [2.4](precompiler-concepts.md), [5.6](advanced-topics.md)
+- EXEC ORACLE ENDIF statement [2.4](precompiler-concepts.md), [5.6](advanced-topics.md)
+- EXEC ORACLE IFDEF statement [2.4](precompiler-concepts.md), [5.6](advanced-topics.md)
+- EXEC ORACLE IFNDEF statement [2.4](precompiler-concepts.md), [5.6](advanced-topics.md)
+- EXEC ORACLE OPTION statement
+  - set option values inline [10.4](precompiler-options.md)
+- EXEC ORACLE statement
+  - scope of [10.4.2.2](precompiler-options.md)
+  - syntax for [10.4.2](precompiler-options.md)
+  - uses for [10.4.2.1](precompiler-options.md)
+- EXEC ORACLE statements [2.4](precompiler-concepts.md)
+- EXEC SQL CACHE FREE statement [17.4.4](about-Objects.md)
+- EXEC SQL clause
+  - using to embed SQL [2.1.2](precompiler-concepts.md)
+- EXEC SQL INCLUDE
+  - contrasted with \#include [5.4.8](advanced-topics.md)
+- EXEC SQL VAR statement
+  - CONVBUFSZ clause [4.11.3](datatypes-and-host-variables.md)
+- EXEC TOOLS
+  - GET CONTEXT statement [20.5.5](user-exits.md)
+  - GET statement [20.5.3](user-exits.md)
+  - MESSAGE statement [20.5.6](user-exits.md)
+  - SET CONTEXT statement [20.5.4](user-exits.md)
+  - SET statement [20.5.2](user-exits.md)
+- EXEC TOOLS statements [20.5](user-exits.md)
+- executable SQL statements
+  - purpose of [6.3](embedded-SQL.md)
+  - uses for [2.1.1.1](precompiler-concepts.md)
+  - where allowed [2.1.1.1](precompiler-concepts.md)
+- EXECUTE ... END-EXEC SQL statement [E.32](embedded-SQL-statements-and-directives.md)
+- EXECUTE DESCRIPTOR statement
+  - SQL statements
+    - EXECUTE DESCRIPTOR [E.34](embedded-SQL-statements-and-directives.md)
+- EXECUTE IMMEDIATE SQL statement [E.35](embedded-SQL-statements-and-directives.md)
+- EXECUTE IMMEDIATE statement [14.5.9](ANSI-dynamic-SQL.md)
+  - AT clause in [3.2.4.1.4](database-concepts.md)
+  - examples [E.35](embedded-SQL-statements-and-directives.md)
+  - use in dynamic SQL method 1 [13.7](Oracle-dynamic-SQL.md)
+- EXECUTE optional keyword of ARRAYLEN statement [7.5.2](embedded-PL-SQL.md)
+- EXECUTE SQL statement [E.33](embedded-SQL-statements-and-directives.md)
+- EXECUTE statement [14.5.8](ANSI-dynamic-SQL.md)
+  - examples [E.32](embedded-SQL-statements-and-directives.md), [E.33](embedded-SQL-statements-and-directives.md)
+  - use in dynamic SQL method 2 [13.8](Oracle-dynamic-SQL.md)
+- execution of statements [13.5](Oracle-dynamic-SQL.md)
+- execution plan [B.5](performance-tuning.md), [B.5.2](performance-tuning.md)
+- EXPLAIN PLAN statement
+  - function of [B.5.2](performance-tuning.md)
+  - using to improve performance [B.5.2](performance-tuning.md)
+- explicit connections [3.2.4](database-concepts.md)
+  - description of [3.2.4](database-concepts.md)
+  - multiple [3.2.4.2](database-concepts.md)
+  - single [3.2.4.1](database-concepts.md)
+- extensions
+  - default file name [19.5.7](the-Object-type.md)
+- external datatypes
+  - definition of [2.1.6](precompiler-concepts.md)
+  - FLOAT [4.1.2.4](datatypes-and-host-variables.md)
+  - INTEGER [4.1.2.3](datatypes-and-host-variables.md)
+  - STRING [4.1.2.5](datatypes-and-host-variables.md)
+- external procedures
+  - callbacks [7.8](embedded-PL-SQL.md)
+  - calling from PL/SQL [7.8](embedded-PL-SQL.md)
+  - creating [7.8.2](embedded-PL-SQL.md)
+  - error-handling [7.8.3](embedded-PL-SQL.md)
+  - restrictions [7.8.1](embedded-PL-SQL.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- FAQs [1.8](introduction.md)
+- FETCH DESCRIPTOR SQL statement [E.37](embedded-SQL-statements-and-directives.md)
+- fetching
+  - rows from cursors [E.36](embedded-SQL-statements-and-directives.md), [E.37](embedded-SQL-statements-and-directives.md)
+- fetching in batches
+  - batch fetch [8.4.1](host-arrays.md)
+- FETCH SQL statement [E.36](embedded-SQL-statements-and-directives.md)
+- FETCH statement [14.5.12](ANSI-dynamic-SQL.md)
+  - example of [6.5.3](embedded-SQL.md)
+  - examples [E.36](embedded-SQL-statements-and-directives.md)
+  - INTO clause in [6.5.3](embedded-SQL.md)
+  - purpose of [6.5](embedded-SQL.md), [6.5.3](embedded-SQL.md)
+  - results of [6.5.3](embedded-SQL.md)
+  - used after OPEN command [E.68](embedded-SQL-statements-and-directives.md)
+  - used after OPEN statement [E.67](embedded-SQL-statements-and-directives.md)
+  - use in dynamic SQL method 3 [13.9.4](Oracle-dynamic-SQL.md)
+  - use in dynamic SQL method 4 [15.6.15](Oracle-dynamic-SQL-method-4.md)
+- FIPS flagger
+  - warns of array usage [8.3.4](host-arrays.md)
+  - warns of missing Declare Section [4.2.1](datatypes-and-host-variables.md)
+  - warns of use of pointers as host variables [5.1.3.3](advanced-topics.md)
+- FIPS precompiler option [10.5.24](precompiler-options.md)
+- flags
+  - warning flags [9.5.2](handling-run-time-errors.md)
+- FLOAT datatype [4.1.2.4](datatypes-and-host-variables.md)
+- FORCE clause
+  - of COMMIT statement [E.15](embedded-SQL-statements-and-directives.md)
+  - of ROLLBACK statement [E.71](embedded-SQL-statements-and-directives.md)
+- FOR clause
+  - example of using [8.8](host-arrays.md)
+  - of embedded SQL EXECUTE DESCRIPTOR statement [E.34](embedded-SQL-statements-and-directives.md)
+  - of embedded SQL EXECUTE statement [E.33](embedded-SQL-statements-and-directives.md)
+  - purpose of [8.8](host-arrays.md)
+  - requirements for [8.8](host-arrays.md)
+  - restrictions on [8.8.1](host-arrays.md)
+  - using with host arrays [8.8](host-arrays.md)
+  - when variable negative or zero [8.8](host-arrays.md)
+- FOR UPDATE OF clause
+  - locking rows with [3.11](database-concepts.md)
+  - purpose of [3.11.1](database-concepts.md)
+  - when to use [3.11](database-concepts.md)
+- forward references
+  - why not allowed [6.5.1](embedded-SQL.md)
+- free() function [15.6.17](Oracle-dynamic-SQL-method-4.md)
+  - example of using [15.6.17](Oracle-dynamic-SQL-method-4.md)
+- freeing
+  - thread context [11.4.2.4](multithreaded-applications.md), [E.18](embedded-SQL-statements-and-directives.md)
+- FREE SQL statement [17.4.3](about-Objects.md), [E.38](embedded-SQL-statements-and-directives.md)
+- Frequently Asked Questions [1.8](introduction.md)
+- full scan
+  - description of [B.7](performance-tuning.md)
+- function prototype
+  - definition of [10.5.8](precompiler-options.md)
+- functions
+  - cannot serve as host variables [4.2.2.1](datatypes-and-host-variables.md)
+- F variable in SQLDA
+  - how value is set [15.3.6](Oracle-dynamic-SQL-method-4.md)
+  - purpose of [15.3.6](Oracle-dynamic-SQL-method-4.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- generic documentation references
+  - default values for options [10.2.7](precompiler-options.md)
+  - header files, location of [5.5.4](advanced-topics.md)
+  - linking [1.7](introduction.md)
+- GENXTB form
+  - how to run [20.12](user-exits.md)
+  - use with user exits [20.12](user-exits.md)
+- GENXTB utility
+  - how to run [20.12](user-exits.md)
+  - use with user exits [20.12](user-exits.md)
+- GET DESCRIPTOR statement [14.5.3](ANSI-dynamic-SQL.md)
+- Globalization Support [4.10](datatypes-and-host-variables.md)
+- GOTO action
+  - in the WHENEVER statement [9.8.2.5](handling-run-time-errors.md)
+  - of WHENEVER directive [E.78](embedded-SQL-statements-and-directives.md)
+  - result of [9.8.2.5](handling-run-time-errors.md)
+- guidelines
+  - for dynamic SQL [13.6.5](Oracle-dynamic-SQL.md)
+  - for separate precompilations [2.5.1](precompiler-concepts.md)
+  - for the WHENEVER statement [9.8.6](handling-run-time-errors.md)
+  - for transactions [3.14.1](database-concepts.md)
+
+------------------------------------------------------------------------
+
+## H
+
+- header files
+  - location of [5.5.4](advanced-topics.md)
+- HEADER precompiler option [5.5](advanced-topics.md), [10.5.25](precompiler-options.md)
+- heap
+  - definition of [9.10.4](handling-run-time-errors.md)
+- HFILE OTT parameter [19.5.2.7](the-Object-type.md)
+- hints
+  - COST [B.5.1](performance-tuning.md)
+  - for the ORACLE SQL statement optimizer [6.7](embedded-SQL.md)
+  - in DELETE statements [E.28](embedded-SQL-statements-and-directives.md)
+  - in SELECT statements [E.73](embedded-SQL-statements-and-directives.md)
+  - in UPDATE statements [E.76](embedded-SQL-statements-and-directives.md)
+- HOLD_CURSOR
+  - precompiler option
+    - used to improved performance [B.9.2.4](performance-tuning.md)
+    - what it affects [B.9](performance-tuning.md)
+- HOLD_CURSOR option
+  - of ORACLE Precompilers [E.8](embedded-SQL-statements-and-directives.md)
+- HOLD_CURSOR precompiler option [10.5.25](precompiler-options.md)
+- host arrays
+  - advantages of [8.1](host-arrays.md)
+  - declaring [8.2](host-arrays.md)
+  - dimensioning [8.2](host-arrays.md)
+  - in the DELETE statement [8.7](host-arrays.md)
+  - in the INSERT statement [8.5](host-arrays.md)
+  - in the SELECT statement [8.4](host-arrays.md)
+  - in the UPDATE statement [8.6](host-arrays.md)
+  - in the WHERE clause [8.9](host-arrays.md)
+  - matching sizes of [8.3.1](host-arrays.md)
+  - referencing [8.2.1](host-arrays.md), [8.3.1](host-arrays.md)
+  - restrictions on [8.3.3](host-arrays.md), [8.4.7](host-arrays.md), [8.5.1](host-arrays.md), [8.6.1](host-arrays.md), [8.7.1](host-arrays.md)
+  - used as input host variables [8.3](host-arrays.md)
+  - used as output host variables [8.3](host-arrays.md)
+  - using in dynamic SQL statements [13.11.1](Oracle-dynamic-SQL.md)
+  - using the FOR clause with [8.8](host-arrays.md)
+  - using to improve performance [B.3](performance-tuning.md)
+  - when not allowed [8.2.1](host-arrays.md)
+- host language
+  - definition of [2.1.1](precompiler-concepts.md), [2.1.1.1](precompiler-concepts.md)
+- host program
+  - definition of [2.1.1](precompiler-concepts.md)
+- host structures
+  - arrays in [4.8.1](datatypes-and-host-variables.md)
+  - declaring [4.8](datatypes-and-host-variables.md)
+- host variables [6.1.1](embedded-SQL.md)
+  - assigning values to [2.1.5](precompiler-concepts.md)
+  - declarations [18.2.1](about-Collections.md)
+  - declaring [2.3.3](precompiler-concepts.md), [18.2.1](about-Collections.md)
+  - definition of [2.1.5](precompiler-concepts.md)
+  - dummy [13.4](Oracle-dynamic-SQL.md)
+  - host variable equivalencing [E.77](embedded-SQL-statements-and-directives.md)
+  - in EXECUTE statement [E.33](embedded-SQL-statements-and-directives.md)
+  - in OPEN statement [E.67](embedded-SQL-statements-and-directives.md)
+  - input versus output [6.1.1](embedded-SQL.md)
+  - in user exits [20.4.1](user-exits.md)
+  - must resolve to an address [4.2.2.1](datatypes-and-host-variables.md)
+  - overview of [2.1.5](precompiler-concepts.md)
+  - purpose of [6.1](embedded-SQL.md)
+  - rules for naming [2.3.8](precompiler-concepts.md)
+  - using in PL/SQL [7.3](embedded-PL-SQL.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- IAP in SQL\*Forms
+  - purpose of [20.13](user-exits.md)
+- identifiers, ORACLE
+  - how to form [E.3.5](embedded-SQL-statements-and-directives.md)
+- implicit connections [3.2.5](database-concepts.md)
+  - multiple [3.2.5.2](database-concepts.md)
+  - single [3.2.5.1](database-concepts.md)
+- INAME precompiler option [10.5.28](precompiler-options.md)
+- INCLUDE
+  - using to include the SQLCA [9.6.1](handling-run-time-errors.md)
+- INCLUDE, SYS_INCLUDE Precompiler Options [10.2.1](precompiler-options.md)
+- INCLUDE option [10.2.7.4](precompiler-options.md)
+- INCLUDE precompiler option [D.1.11](system-specific-references.md)
+- indexes
+  - using to improve performance [B.7](performance-tuning.md)
+- indicator arrays [8.3.2](host-arrays.md)
+  - example of using [8.3.2](host-arrays.md)
+  - uses for [8.3.2](host-arrays.md)
+- INDICATOR keyword [4.3.1](datatypes-and-host-variables.md)
+- indicator variables
+  - assigning values to [6.2](embedded-SQL.md)
+  - association with host variables [6.2](embedded-SQL.md)
+  - declarations [18.2.1](about-Collections.md)
+  - declaring [4.3](datatypes-and-host-variables.md), [18.2.1](about-Collections.md)
+  - definition of [2.1.5](precompiler-concepts.md)
+  - function of [6.2](embedded-SQL.md)
+  - guidelines [4.3.3](datatypes-and-host-variables.md)
+  - interpreting values of [6.2](embedded-SQL.md)
+  - naming of [4.8.4](datatypes-and-host-variables.md)
+  - referencing [4.3](datatypes-and-host-variables.md)
+  - requirements for [6.2](embedded-SQL.md)
+  - used with multibyte character strings [4.11.6](datatypes-and-host-variables.md)
+  - using in PL/SQL [7.4](embedded-PL-SQL.md)
+  - using to detect NULLs [6.2](embedded-SQL.md)
+  - using to detect truncated values [6.2](embedded-SQL.md)
+  - using to insert NULLs [6.2.1](embedded-SQL.md)
+  - using to return NULLs [6.2.2](embedded-SQL.md)
+  - using to test for NULLs [6.2.4](embedded-SQL.md)
+  - with structures [4.8.4](datatypes-and-host-variables.md)
+- in-doubt transaction [3.13](database-concepts.md)
+- INITFILE OTT parameter [19.5.2.5](the-Object-type.md)
+- INITFUNC OTT parameter [19.5.2.6](the-Object-type.md)
+- initialization function
+  - calling [19.3.2](the-Object-type.md)
+  - tasks of [19.3.3](the-Object-type.md)
+- IN OUT parameter mode [7.1.4](embedded-PL-SQL.md)
+- IN parameter mode [7.1.4](embedded-PL-SQL.md)
+- input host variables
+  - assigning values to [6.1.1](embedded-SQL.md)
+  - definition of [6.1.1](embedded-SQL.md)
+  - restrictions on [6.1.1](embedded-SQL.md)
+  - uses for [6.1.1](embedded-SQL.md)
+  - where allowed [6.1.1](embedded-SQL.md)
+- inserting
+  - rows into tables and views [E.40](embedded-SQL-statements-and-directives.md)
+- INSERT SQL statement [E.40](embedded-SQL-statements-and-directives.md)
+  - examples [E.40](embedded-SQL-statements-and-directives.md)
+- INSERT statement
+  - column list in [6.3.2](embedded-SQL.md)
+  - example of [6.3.2](embedded-SQL.md)
+  - INTO clause in [6.3.2](embedded-SQL.md)
+  - purpose of [6.3.2](embedded-SQL.md)
+  - requirements for [6.3.2](embedded-SQL.md)
+  - using host arrays in [8.5](host-arrays.md)
+  - VALUES clause in [6.3.2](embedded-SQL.md)
+- INTEGER datatype [4.1.2.3](datatypes-and-host-variables.md)
+- interface
+  - native [5.12](advanced-topics.md)
+  - XA [5.12](advanced-topics.md)
+- internal datatypes
+  - definition of [2.1.6](precompiler-concepts.md)
+- INTERVAL DAY TO SECOND datatype [4.1.3.7](datatypes-and-host-variables.md)
+- INTERVAL YEAR TO MONTH datatype [4.1.3.6](datatypes-and-host-variables.md)
+- INTO clause
+  - for output host variables [6.1.1](embedded-SQL.md)
+  - in FETCH statements [6.5.3](embedded-SQL.md)
+  - in INSERT statements [6.3.2](embedded-SQL.md)
+  - in SELECT statements [6.3.1](embedded-SQL.md)
+  - of FETCH DESCRIPTOR statement [E.37](embedded-SQL-statements-and-directives.md)
+  - of FETCH statement [E.36](embedded-SQL-statements-and-directives.md)
+  - of SELECT statement [E.73](embedded-SQL-statements-and-directives.md)
+  - used with FETCH instead of SELECT [6.5.1](embedded-SQL.md)
+- intype file [19.5.4](the-Object-type.md)
+  - providing when running OTT [19.2.4](the-Object-type.md)
+  - structure of [19.5.4](the-Object-type.md)
+- INTYPE OTT parameter [19.5.2.2](the-Object-type.md)
+- INTYPE precompiler option [10.5.30](precompiler-options.md)
+- invalid use
+  - of precompiler preprocessor [5.4.5.1](advanced-topics.md)
+- I variable in SQLDA
+  - how value is set [15.3.5](Oracle-dynamic-SQL-method-4.md)
+  - purpose of [15.3.5](Oracle-dynamic-SQL-method-4.md)
+
+------------------------------------------------------------------------
+
+## J
+
+- joins
+  - restriction on [6.9.1](embedded-SQL.md)
+
+------------------------------------------------------------------------
+
+## L
+
+- label name
+  - maximum length of [9.8.2.5](handling-run-time-errors.md)
+- large objects [F.1](sample-programs.md)
+- LDA [5.10](advanced-topics.md)
+  - remote and multiple connections [5.10.2](advanced-topics.md)
+  - setup for OCI version 8 [5.10.1](advanced-topics.md)
+- lines
+  - continuation [2.3.9](precompiler-concepts.md)
+  - maximum length [2.3.10](precompiler-concepts.md)
+- LINES precompiler option [10.5.31](precompiler-options.md)
+- link
+  - database link [3.2.5.1](database-concepts.md)
+- linking [1.7](introduction.md), [2.6](precompiler-concepts.md)
+  - on UNIX [1.8.11](introduction.md)
+  - on VMS [1.8.11](introduction.md)
+  - two-task [2.6](precompiler-concepts.md)
+- Linking in an XA Library [D.1.8](system-specific-references.md)
+- LNAME precompiler option [10.5.32](precompiler-options.md)
+- LNPROC
+  - VMS link script [1.8.11](introduction.md)
+- LOB APPEND SQL statement [E.41](embedded-SQL-statements-and-directives.md)
+- LOB APPEND statement [16.4.1](about-LOBs.md)
+- LOB ASSIGN SQL statement [E.42](embedded-SQL-statements-and-directives.md)
+- LOB ASSIGN statement [16.4.2](about-LOBs.md)
+- LOB CLOSE SQL statement [E.43](embedded-SQL-statements-and-directives.md)
+- LOB CLOSE statement [16.4.3](about-LOBs.md)
+- LOB COPY SQL statement [E.44](embedded-SQL-statements-and-directives.md)
+- LOB COPY statement [16.4.4](about-LOBs.md)
+- LOB CREATE TEMPORARY SQL statement [E.45](embedded-SQL-statements-and-directives.md)
+- LOB CREATE temporary statement [16.4.5](about-LOBs.md)
+- LOB DESCRIBE SQL statement [E.46](embedded-SQL-statements-and-directives.md)
+- LOB DISABLE BUFFERING SQL statement [E.47](embedded-SQL-statements-and-directives.md)
+- LOB DISABLE BUFFERING statement [16.4.6](about-LOBs.md)
+- LOB ENABLE BUFFERING SQL statement [E.48](embedded-SQL-statements-and-directives.md)
+- LOB ENABLE BUFFERING statement [16.4.7](about-LOBs.md)
+- LOB ERASE SQL statement [E.49](embedded-SQL-statements-and-directives.md)
+- LOB ERASE statement [16.4.8](about-LOBs.md)
+- LOB FILE CLOSE ALL SQL statement [E.50](embedded-SQL-statements-and-directives.md)
+- LOB file close all statement [16.4.9](about-LOBs.md)
+- LOB FILE CLOSE ALL statement [16.4.9](about-LOBs.md)
+- LOB FILE SET SQL statement [E.51](embedded-SQL-statements-and-directives.md)
+- LOB FILE SET statement [16.4.10](about-LOBs.md)
+- LOB FLUSH BUFFER SQL statement [E.52](embedded-SQL-statements-and-directives.md)
+- LOB FLUSH BUFFER statement [16.4.11](about-LOBs.md)
+- LOB FREE TEMPORARY SQL statement [E.53](embedded-SQL-statements-and-directives.md)
+- LOB FREE TEMPORARY statement [16.4.12](about-LOBs.md)
+- LOB LOAD FROM FILE statement [16.4.13](about-LOBs.md)
+- LOB LOAD SQL statement [E.54](embedded-SQL-statements-and-directives.md)
+- LOB OPEN SQL statement [E.55](embedded-SQL-statements-and-directives.md)
+- LOB OPEN statement [16.4.14](about-LOBs.md)
+- LOB READ SQL statement [E.56](embedded-SQL-statements-and-directives.md)
+- LOB READ statement [16.4.15](about-LOBs.md)
+- LOBs [F.1](sample-programs.md)
+  - access methods [16.2.1](about-LOBs.md)
+  - buffering system [16.3.2](about-LOBs.md)
+  - external [16.1.2](about-LOBs.md)
+  - initializing [16.2.3](about-LOBs.md)
+  - internal [16.1.1](about-LOBs.md)
+  - locators [16.1.5](about-LOBs.md)
+  - locators in C [16.2.2](about-LOBs.md)
+  - temporary [16.1.6](about-LOBs.md)
+- LOB TRIM SQL statement [E.57](embedded-SQL-statements-and-directives.md)
+- LOB WRITE SQL statement [E.58](embedded-SQL-statements-and-directives.md)
+- Location of Included Files [D.1.2](system-specific-references.md)
+- location of the Pro\*C/C++ Executable [D.1.9](system-specific-references.md)
+- location transparency
+  - how provided [3.2.5.1](database-concepts.md)
+- lock
+  - released by ROLLBACK statement [E.71](embedded-SQL-statements-and-directives.md)
+- locking [3.11](database-concepts.md)
+  - definition of [3.3](database-concepts.md)
+  - explicit versus implicit [3.11](database-concepts.md)
+  - modes of [3.3](database-concepts.md)
+  - overriding default [3.11](database-concepts.md)
+  - privileges needed to obtain [3.14.2](database-concepts.md)
+  - table versus row [3.11](database-concepts.md)
+  - uses for [3.11](database-concepts.md)
+  - with FOR UPDATE OF [3.11](database-concepts.md)
+  - with the LOCK TABLE statement [3.11.2](database-concepts.md)
+- LOCK TABLE statement
+  - closes mall cursors [3.11.2](database-concepts.md)
+  - example of [3.11.2](database-concepts.md)
+  - locking tables with [3.11.2](database-concepts.md)
+  - NOWAIT parameter in [3.11.2](database-concepts.md)
+  - purpose of [3.11.2](database-concepts.md)
+- logon [3.1](database-concepts.md)
+- Logon Data Area [5.10](advanced-topics.md)
+- LONG datatype [4.1.2.7](datatypes-and-host-variables.md)
+- LONG RAW datatype [4.1.2.13](datatypes-and-host-variables.md)
+- LONG VARCHAR
+  - datatype [4.1.2.15](datatypes-and-host-variables.md)
+- LONG VARRAW datatype [4.1.2.16](datatypes-and-host-variables.md)
+- LTYPE precompiler option [10.5.33](precompiler-options.md)
+- L variable in SQLDA
+  - how value is set [15.3.3](Oracle-dynamic-SQL-method-4.md)
+  - purpose of [15.3.3](Oracle-dynamic-SQL-method-4.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- macro precompiler options [10.2.4](precompiler-options.md)
+- malloc()
+  - example of using [15.6.14](Oracle-dynamic-SQL-method-4.md)
+  - purpose of [15.6.14](Oracle-dynamic-SQL-method-4.md)
+- MAXLITERAL
+  - default value for [2.3.11](precompiler-concepts.md)
+- MAXLITERAL precompiler option [10.5.35](precompiler-options.md)
+- MAXOPENCURSORS
+  - precompiler option
+    - effect on performance [B.9.2.2](performance-tuning.md)
+    - specifying for separate precompilation [2.5.1.2](precompiler-concepts.md)
+    - what it affects [B.9](performance-tuning.md)
+- MAXOPENCURSORS precompiler option [10.5.36](precompiler-options.md)
+- MEMFORPREFETCH precompiler option [10.5.53](precompiler-options.md)
+- metadata [18.4.7](about-Collections.md)
+- micro precompiler options [10.2.4](precompiler-options.md)
+- Microsoft Visual Studio
+  - integrating Pro\*C/C++ into [G](integration-with-Microsoft-Visual-Studio.md)
+- migration
+  - include files [5.4.10](advanced-topics.md)
+- MODE interaction with DBMS [10.5.16](precompiler-options.md)
+- MODE precompiler option [10.5.37](precompiler-options.md)
+- modes, parameter [7.1.4](embedded-PL-SQL.md)
+- msvcrt.lib runtime library [1.7](introduction.md)
+- multithreaded applications [F.1](sample-programs.md)
+  - sample program [11.5](multithreaded-applications.md)
+  - user-interface features
+    - embedded SQL statements and directives [11.4.2](multithreaded-applications.md)
+- M variable in SQLDA
+  - how value is set [15.3.8](Oracle-dynamic-SQL-method-4.md)
+  - purpose of [15.3.8](Oracle-dynamic-SQL-method-4.md)
+
+------------------------------------------------------------------------
+
+## N
+
+- naming
+  - of cursors [6.5.1](embedded-SQL.md)
+  - of database objects [E.3.5](embedded-SQL-statements-and-directives.md)
+  - of select-list items [15.2.1](Oracle-dynamic-SQL-method-4.md)
+  - of SQL\*Forms user exits [20.14.1](user-exits.md)
+- NATIVE
+  - value of DBMS option [10.5.15](precompiler-options.md), [10.5.16](precompiler-options.md)
+- native interface [5.12](advanced-topics.md)
+- navigational access sample program [17.11](about-Objects.md)
+- nested tables [18.1.1](about-Collections.md)
+  - creation [18.1.1](about-Collections.md)
+- network
+  - communicating over [3.2.1](database-concepts.md)
+  - protocols [3.2.1](database-concepts.md)
+  - reducing traffic [B.4](performance-tuning.md)
+- NLS_CHAR precompiler option [10.5.38](precompiler-options.md), [10.5.39](precompiler-options.md)
+- NLS_LOCAL precompiler option [10.5.40](precompiler-options.md)
+- NLS parameters [4.10](datatypes-and-host-variables.md)
+  - NLS_CURRENCY [4.10](datatypes-and-host-variables.md)
+  - NLS_DATE_FORMAT [4.10](datatypes-and-host-variables.md)
+  - NLS_DATE_LANGUAGE [4.10](datatypes-and-host-variables.md)
+  - NLS_ISO_CURRENCY [4.10](datatypes-and-host-variables.md)
+  - NLS_LANG [4.10](datatypes-and-host-variables.md)
+  - NLS_LANGUAGE [4.10](datatypes-and-host-variables.md)
+  - NLS_NUMERIC_CHARACTERS [4.10](datatypes-and-host-variables.md)
+  - NLS_TERRITORY [4.10](datatypes-and-host-variables.md)
+- node
+  - current [3.2.3](database-concepts.md)
+  - definition of [3.2.1](database-concepts.md)
+- NOT FOUND condition
+  - in the WHENEVER statement [9.8.1.3](handling-run-time-errors.md)
+  - meaning of [9.8.1.3](handling-run-time-errors.md)
+  - of WHENEVER directive [E.78](embedded-SQL-statements-and-directives.md)
+- NOWAIT parameter
+  - effect of [3.11.2](database-concepts.md)
+  - in LOCK TABLE statements [3.11.2](database-concepts.md)
+  - omitting [3.11.2](database-concepts.md)
+- NULLs
+  - definition of [2.1.5](precompiler-concepts.md)
+  - detecting [6.2](embedded-SQL.md)
+  - handling in dynamic SQL method 4 [15.4.3](Oracle-dynamic-SQL-method-4.md)
+  - hardcoding [6.2.1](embedded-SQL.md)
+  - inserting [6.2.1](embedded-SQL.md)
+  - restrictions on [6.2.4](embedded-SQL.md)
+  - returning [6.2.2](embedded-SQL.md)
+  - testing for [6.2.4](embedded-SQL.md)
+  - using the sqlnul() function to test for [15.4.3](Oracle-dynamic-SQL-method-4.md)
+- null-terminated strings [4.1.2.5.2](datatypes-and-host-variables.md)
+- NUMBER datatype [4.1.2.2](datatypes-and-host-variables.md)
+  - using the sqlprc() function with [15.4.2.1](Oracle-dynamic-SQL-method-4.md)
+- numeric expressions
+  - cannot serve as host variables [4.2.2.1](datatypes-and-host-variables.md)
+- N variable in SQLDA
+  - how value is set [15.3.1](Oracle-dynamic-SQL-method-4.md)
+  - purpose of [15.3.1](Oracle-dynamic-SQL-method-4.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- object cache [17.3](about-Objects.md)
+- OBJECT CREATE SQL statement [17.5.3](about-Objects.md), [E.59](embedded-SQL-statements-and-directives.md)
+- OBJECT DELETE SQL statement [17.5.6](about-Objects.md), [E.60](embedded-SQL-statements-and-directives.md)
+- OBJECT DEREF SQL statement [17.5.4](about-Objects.md), [E.61](embedded-SQL-statements-and-directives.md)
+- OBJECT FLUSH SQL statement [E.62](embedded-SQL-statements-and-directives.md)
+- OBJECT FLUSH SQL statements [17.5.8](about-Objects.md)
+- OBJECT GET SQL statement [17.6.2](about-Objects.md), [E.63](embedded-SQL-statements-and-directives.md)
+- OBJECT RELEASE SQL statement [E.64](embedded-SQL-statements-and-directives.md)
+- objects
+  - accessing with OCI [19.3.1](the-Object-type.md)
+  - demonstration program [F.1](sample-programs.md)
+  - introduction to [17.1](about-Objects.md)
+  - manipulating with OCI [19.3.1](the-Object-type.md)
+  - persistent [17.3.1](about-Objects.md)
+  - persistent versus transient copies of [17.3.1](about-Objects.md)
+  - references to [17.1.2](about-Objects.md)
+  - support [17](about-Objects.md)
+  - transient [17.3.1](about-Objects.md)
+  - types [17.1.1](about-Objects.md)
+  - using object types in Pro\*C/C++ [17.2](about-Objects.md)
+- OBJECT SET SQL statement [17.6.1](about-Objects.md), [E.65](embedded-SQL-statements-and-directives.md)
+- OBJECTS precompiler option [10.5.23](precompiler-options.md), [10.5.41](precompiler-options.md), [17.8.3](about-Objects.md)
+- Object Type Translator (OTT) [F.4](sample-programs.md)
+  - command line [19.2.3](the-Object-type.md)
+  - command line syntax [19.5.1](the-Object-type.md)
+  - creating types in the database [19.2.1](the-Object-type.md)
+  - default name mapping [19.5.7](the-Object-type.md)
+  - outtype file [19.2.8](the-Object-type.md)
+  - parameters [19.5.2](the-Object-type.md)
+  - providing an intype file [19.2.4](the-Object-type.md)
+  - reference [19.5](the-Object-type.md)
+  - restriction [19.5.8](the-Object-type.md)
+  - using [19](the-Object-type.md), [19.2](the-Object-type.md)
+  - using with Pro\*C/C++ [19.4](the-Object-type.md)
+- OBJECT UPDATE SQL statement [17.5.7](about-Objects.md), [E.66](embedded-SQL-statements-and-directives.md)
+- OCI applications
+  - using the OTT with [19.3](the-Object-type.md)
+- OCI calls
+  - embedding [5.10](advanced-topics.md)
+- OCIDate [17.14](about-Objects.md)
+  - declaring [17.14.1](about-Objects.md)
+- ocidfn.h [5.10](advanced-topics.md)
+- OCINumber [17.14](about-Objects.md)
+  - declaring [17.14.1](about-Objects.md)
+- OCI onblon() call
+  - not used to connect [5.10](advanced-topics.md)
+- OCI orlon() call
+  - not used to connect [5.10](advanced-topics.md)
+- OCIRaw [17.14](about-Objects.md)
+  - declaring [17.14.1](about-Objects.md)
+- OCI Release 8 [5.8](advanced-topics.md)
+  - accessing and manipulating objects [19.3.1](the-Object-type.md)
+  - embedding in Pro\*C/C++ [5.9.3](advanced-topics.md)
+  - interfacing to [5.9](advanced-topics.md)
+  - parameters in the environment handle [5.8.2](advanced-topics.md)
+  - SQLLIB extensions [5.8](advanced-topics.md)
+- OCIString [17.14](about-Objects.md)
+  - declaring [17.14.1](about-Objects.md)
+- OCI types
+  - declaring [17.14.1](about-Objects.md)
+  - manipulating [17.14.3](about-Objects.md)
+  - OCIDate [17.14](about-Objects.md)
+  - OCINumber [17.14](about-Objects.md)
+  - OCIRaw [17.14](about-Objects.md)
+  - OCIString [17.14](about-Objects.md)
+  - using in embedded SQL [17.14.2](about-Objects.md)
+- ONAME precompiler option [10.5.42](precompiler-options.md)
+- OPEN CURSOR statement [14.5.11](ANSI-dynamic-SQL.md)
+- OPEN DESCRIPTOR SQL statement [E.68](embedded-SQL-statements-and-directives.md)
+- opening
+  - a cursor variable [4.5.3](datatypes-and-host-variables.md)
+  - cursors [E.67](embedded-SQL-statements-and-directives.md), [E.68](embedded-SQL-statements-and-directives.md)
+- OPEN SQL statement [E.67](embedded-SQL-statements-and-directives.md)
+- OPEN statement
+  - effect of [6.5.2](embedded-SQL.md)
+  - example of [6.5.2](embedded-SQL.md)
+  - examples [E.67](embedded-SQL-statements-and-directives.md)
+  - purpose of [6.5](embedded-SQL.md), [6.5.2](embedded-SQL.md)
+  - use in dynamic SQL method 3 [13.9.3](Oracle-dynamic-SQL.md)
+  - use in dynamic SQL method 4 [15.6.11](Oracle-dynamic-SQL-method-4.md)
+- operators
+  - C versus SQL [2.3.12](precompiler-concepts.md)
+  - restrictions on [2.3.12](precompiler-concepts.md)
+- optimization approach [B.5.1](performance-tuning.md)
+- optimizer hints [B.5.1](performance-tuning.md)
+  - in C [6.7](embedded-SQL.md)
+  - in C++ [6.7.1](embedded-SQL.md), [12.2.1](C-Plus-Plus-Applications.md)
+- ORACA
+  - example of using [9.10.6](handling-run-time-errors.md)
+  - using to gather cursor cache statistics [9.10.5.11](handling-run-time-errors.md)
+- ORACAID component [9.10.5.1](handling-run-time-errors.md)
+- ORACA precompiler option [10.5.27](precompiler-options.md), [10.5.34](precompiler-options.md), [10.5.43](precompiler-options.md), [10.5.44](precompiler-options.md), [10.5.45](precompiler-options.md), [10.5.56](precompiler-options.md)
+- Oracle
+  - datatypes [2.1.6](precompiler-concepts.md)
+  - Forms Version 4 [20.5](user-exits.md)
+  - Open Gateway
+    - using the ROWID datatype with [4.1.2.9](datatypes-and-host-variables.md)
+  - Toolset [20.5](user-exits.md)
+- Oracle Call Interface version 7 [5.10](advanced-topics.md)
+- Oracle Communications Area [9.10](handling-run-time-errors.md)
+- Oracle Connection Manager in Traffic Director Mode [B.12](performance-tuning.md)
+- Oracle names
+  - how to form [E.3.5](embedded-SQL-statements-and-directives.md)
+- Oracle Net
+  - connecting to Oracle through [3.2.2](database-concepts.md)
+  - connection syntax [3.2.1](database-concepts.md)
+  - for concurrent connections [3.2.2](database-concepts.md)
+  - function of [3.2.1](database-concepts.md)
+- Oracle Net Services
+  - connecting [3.1.2](database-concepts.md)
+- orasql9.lib [G.2.2](integration-with-Microsoft-Visual-Studio.md)
+- orasql9.lib library file [1.7](introduction.md)
+- OTT (Object Type Translator) [F.4](sample-programs.md)
+- OTT parameters
+  - CASE [19.5.2.10](the-Object-type.md)
+  - CODE [19.5.2.4](the-Object-type.md)
+  - CONFIG [19.5.2.8](the-Object-type.md)
+  - ERRTYPE [19.5.2.9](the-Object-type.md)
+  - HFILE [19.5.2.7](the-Object-type.md)
+  - INITFILE [19.5.2.5](the-Object-type.md)
+  - INITFUNC [19.5.2.6](the-Object-type.md)
+  - INTYPE [19.5.2.2](the-Object-type.md)
+  - OUTTYPE [19.5.2.3](the-Object-type.md)
+  - SCHEMA_NAMES [19.5.2.11](the-Object-type.md)
+  - USERID [19.5.2.1](the-Object-type.md)
+  - where they appear [19.5.3](the-Object-type.md)
+- OTT parameter TRANSITIVE [19.5.2.12](the-Object-type.md)
+- OUT parameter mode [7.1.4](embedded-PL-SQL.md)
+- output host variables
+  - assigning values to [6.1.1](embedded-SQL.md)
+  - definition of [6.1.1](embedded-SQL.md)
+- outtype file [19.5.4](the-Object-type.md)
+  - when running OTT [19.2.8](the-Object-type.md)
+- OUTTYPE OTT parameter [19.5.2.3](the-Object-type.md)
+- overhead
+  - reducing [B.2](performance-tuning.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- PAGELEN
+  - precompiler option [10.5.46](precompiler-options.md)
+- parameter modes [7.1.4](embedded-PL-SQL.md)
+- PARSE
+  - precompiler option [10.5.47](precompiler-options.md)
+- parse error offset
+  - how to interpret [9.5.4](handling-run-time-errors.md)
+  - use in error reporting [9.5.4](handling-run-time-errors.md)
+- PARSE option [10.2.7.5](precompiler-options.md)
+- parsing dynamic statements
+  - PREPARE statement [E.69](embedded-SQL-statements-and-directives.md)
+- password
+  - defining [3.1](database-concepts.md)
+- paths
+  - checking [F.4](sample-programs.md)
+  - checking the .pre files [F.5](sample-programs.md)
+- pcscfg.cfg configuration file [10.2.7.1](precompiler-options.md)
+- performance
+  - eliminating extra parsing to improve [B.9](performance-tuning.md)
+  - optimizing SQL statements to improve [B.5](performance-tuning.md)
+  - reasons for poor [B.1](performance-tuning.md)
+  - using embedded PL/SQL to improve [B.4](performance-tuning.md)
+  - using HOLD_CURSOR to improve [B.9.2.4](performance-tuning.md)
+  - using host arrays to improve [B.3](performance-tuning.md)
+  - using indexes to improve [B.7](performance-tuning.md)
+  - using RELEASE_CURSOR to improve [B.9.2.4](performance-tuning.md)
+  - using row-level locking to improve [B.8](performance-tuning.md)
+- persistent copies of objects [17.3.1](about-Objects.md)
+- persistent objects [17.3.1](about-Objects.md)
+- PL/SQL [1.4](introduction.md)
+  - anonymous block
+    - used to open a cursor variable [4.5.3](datatypes-and-host-variables.md)
+  - cursor FOR loop [7.1.3](embedded-PL-SQL.md)
+  - description of [1.4](introduction.md)
+  - difference from SQL [1.4](introduction.md)
+  - executing a block using the AT clause [3.2.4.1.2](database-concepts.md)
+  - integration with database server [7.1.2](embedded-PL-SQL.md)
+  - main advantage of [1.4](introduction.md)
+  - packages [7.1.5](embedded-PL-SQL.md)
+  - PL/SQL tables [7.1.6](embedded-PL-SQL.md)
+  - procedures and functions [7.1.4](embedded-PL-SQL.md)
+  - RECORD type
+    - cannot be bound to a C struct [4.8.2](datatypes-and-host-variables.md)
+  - relationship with SQL [1.4](introduction.md)
+  - setting SQLCA [9.6.4](handling-run-time-errors.md)
+  - user-defined records [7.1.7](embedded-PL-SQL.md)
+- PL/SQL blocks
+  - embedded in precompiler programs [E.32](embedded-SQL-statements-and-directives.md)
+- placeholders
+  - duplicate [13.8.1](Oracle-dynamic-SQL.md), [13.12.2](Oracle-dynamic-SQL.md)
+  - naming [13.8.1](Oracle-dynamic-SQL.md)
+  - proper order of [13.8.1](Oracle-dynamic-SQL.md)
+  - use in dynamic SQL statements [13.4](Oracle-dynamic-SQL.md)
+- PLAN_BASELINE
+  - precompiler option [10.5.48](precompiler-options.md)
+- PLAN_ENABLED
+  - precompiler option [10.5.52](precompiler-options.md)
+- PLAN_FIXED
+  - precompiler option [10.5.51](precompiler-options.md)
+- PLAN_PREFIX
+  - precompiler option [10.5.49](precompiler-options.md)
+- PLAN_RUN
+  - precompiler option [10.5.50](precompiler-options.md)
+- pointer
+  - definition of [4.9](datatypes-and-host-variables.md)
+  - to cursor variables
+    - restrictions on [4.5.1](datatypes-and-host-variables.md)
+- pointer variables
+  - declaring [4.9.1](datatypes-and-host-variables.md)
+  - determining size of referenced value [4.9.2](datatypes-and-host-variables.md)
+  - referencing [4.9.2](datatypes-and-host-variables.md)
+  - referencing struct members with [4.9.2](datatypes-and-host-variables.md)
+- precedence of precompiler options [10.2.3](precompiler-options.md)
+- precision
+  - definition of [15.4.2.1](Oracle-dynamic-SQL-method-4.md)
+  - using sqlprc() to extract [15.4.2.1](Oracle-dynamic-SQL-method-4.md)
+  - when not specified [15.4.2.1](Oracle-dynamic-SQL-method-4.md)
+- precompilation
+  - conditional [2.4](precompiler-concepts.md)
+  - separate [2.5](precompiler-concepts.md)
+- precompilation unit [3.1](database-concepts.md), [10.3](precompiler-options.md)
+- precompiled header files [5.5](advanced-topics.md)
+  - C++ restrictions [5.5.5.2](advanced-topics.md)
+  - CODE option [5.5.5.2](advanced-topics.md)
+  - PARSE option [5.5.5.2](advanced-topics.md)
+- precompiler options
+  - alphabetized list [10.3](precompiler-options.md), [10.5](precompiler-options.md)
+  - AUTO_CONNECT [10.5.1](precompiler-options.md)
+  - case sensitivity [10.1.1](precompiler-options.md)
+  - CHAR_MAP [5.1.1](advanced-topics.md), [10.5.2](precompiler-options.md)
+  - CLOSE_ON_COMMIT [6.5.1](embedded-SQL.md), [6.6.2](embedded-SQL.md), [10.5.4](precompiler-options.md)
+  - CODE [10.5.8](precompiler-options.md)
+  - COMP_CHARSET [10.5.9](precompiler-options.md), [10.5.10](precompiler-options.md)
+  - CONFIG [10.5.3](precompiler-options.md), [10.5.12](precompiler-options.md), [10.5.5](precompiler-options.md), [10.5.6](precompiler-options.md), [10.5.7](precompiler-options.md), [10.5.11](precompiler-options.md), [10.5.14](precompiler-options.md)
+  - configuration files [10.2.2](precompiler-options.md)
+  - CPP_SUFFIX [10.5.13](precompiler-options.md)
+  - DBMS [10.5.15](precompiler-options.md), [10.5.16](precompiler-options.md)
+  - DEF_SQLCODE [10.5.17](precompiler-options.md)
+  - DEFINE [10.5.18](precompiler-options.md)
+  - determining current value [10.2.3](precompiler-options.md)
+  - DURATION [10.5.20](precompiler-options.md)
+  - DYNAMIC [14.4](ANSI-dynamic-SQL.md)
+  - entering [10.4](precompiler-options.md)
+  - entering on the command line [10.4.1](precompiler-options.md)
+  - ERRORS [10.5.21](precompiler-options.md)
+  - ERRTYPE [10.5.22](precompiler-options.md)
+  - FIPS [10.5.24](precompiler-options.md)
+  - HEADER [10.5.25](precompiler-options.md)
+  - HOLD_CURSOR [10.5.25](precompiler-options.md), [10.5.26](precompiler-options.md)
+  - INAME [10.5.28](precompiler-options.md)
+  - INCLUDE [10.5.29](precompiler-options.md)
+  - INTYPE [10.5.30](precompiler-options.md)
+  - LINES [10.5.31](precompiler-options.md)
+  - list of [10.5](precompiler-options.md)
+  - LNAME [10.5.32](precompiler-options.md)
+  - LTYPE [10.5.33](precompiler-options.md)
+  - MAXLITERAL [2.3.11](precompiler-concepts.md), [10.5.35](precompiler-options.md)
+  - MAXOPENCURSORS [10.5.36](precompiler-options.md)
+  - MEMFORPREFETCH [10.5.53](precompiler-options.md)
+  - micro and macro [10.2.4](precompiler-options.md)
+  - MODE [10.5.37](precompiler-options.md), [14.4](ANSI-dynamic-SQL.md)
+  - NLS_CHAR [10.5.38](precompiler-options.md), [10.5.39](precompiler-options.md)
+  - NLS_LOCAL [10.5.40](precompiler-options.md)
+  - OBJECTS [10.5.23](precompiler-options.md), [10.5.41](precompiler-options.md)
+  - ONAME [10.5.42](precompiler-options.md)
+  - ORACA [10.5.27](precompiler-options.md), [10.5.34](precompiler-options.md), [10.5.43](precompiler-options.md), [10.5.44](precompiler-options.md), [10.5.45](precompiler-options.md), [10.5.56](precompiler-options.md)
+  - PAGELEN [10.5.46](precompiler-options.md)
+  - PARSE [10.5.47](precompiler-options.md)
+  - PLAN_BASELINE [10.5.48](precompiler-options.md)
+  - PLAN_ENABLED [10.5.52](precompiler-options.md)
+  - PLAN_FIXED [10.5.51](precompiler-options.md)
+  - PLAN_PREFIX [10.5.49](precompiler-options.md)
+  - PLAN_RUN [10.5.50](precompiler-options.md)
+  - precedence [10.2.3](precompiler-options.md)
+  - PREFETCH [10.5.54](precompiler-options.md)
+  - RELEASE_CURSOR [10.5.55](precompiler-options.md)
+  - scope [10.2.6](precompiler-options.md)
+  - scope of [10.3](precompiler-options.md)
+  - SELECT_ERROR [10.5.57](precompiler-options.md), [10.5.58](precompiler-options.md)
+  - specifying [10.4.1](precompiler-options.md)
+  - SQLCHECK [17.8.6](about-Objects.md)
+  - syntax for [10.4.1](precompiler-options.md)
+  - SYS_INCLUDE [10.5.59](precompiler-options.md)
+  - THREADS [10.5.60](precompiler-options.md), [11.4.1](multithreaded-applications.md)
+  - TYPE_CODE [10.5.61](precompiler-options.md), [14.4](ANSI-dynamic-SQL.md)
+  - UNSAFE_NULL [10.5.62](precompiler-options.md)
+  - USERID [10.5.63](precompiler-options.md)
+  - using [10.5](precompiler-options.md)
+  - VARCHAR [10.5.65](precompiler-options.md)
+  - VERSION [10.5.66](precompiler-options.md)
+- Precompiler Options, SYS_INCLUDE, INCLUDE [10.2.1](precompiler-options.md)
+- predefined symbols [2.4.1](precompiler-concepts.md)
+- PREFETCH precompiler option [6.6.3](embedded-SQL.md), [10.5.54](precompiler-options.md)
+- PREPARE SQL statement [E.69](embedded-SQL-statements-and-directives.md)
+- PREPARE statement [14.5.5](ANSI-dynamic-SQL.md)
+  - effect on data definition statements [13.6.2](Oracle-dynamic-SQL.md)
+  - examples [E.69](embedded-SQL-statements-and-directives.md)
+  - use in dynamic SQL [13.8](Oracle-dynamic-SQL.md), [13.9.1](Oracle-dynamic-SQL.md)
+  - use in dynamic SQL method 4 [15.6.6](Oracle-dynamic-SQL-method-4.md)
+- preprocessor
+  - example [5.6.2](advanced-topics.md)
+  - EXEC ORACLE directives [5.6](advanced-topics.md)
+- preprocessor, support of [4.1](datatypes-and-host-variables.md)
+- preprocessor directives
+  - directives not supported by Pro\*C [5.4.2.1](advanced-topics.md)
+- private SQL area
+  - association with cursors [2.1.9](precompiler-concepts.md)
+  - definition of [2.1.9](precompiler-concepts.md)
+  - opening of [2.1.9](precompiler-concepts.md)
+  - purpose of [B.9.2.1](performance-tuning.md)
+- Pro\*C/C++
+  - configuration files [10.2.7.1](precompiler-options.md)
+  - integrating into Microsoft Visual Studio [G](integration-with-Microsoft-Visual-Studio.md)
+  - library file [G.2.2](integration-with-Microsoft-Visual-Studio.md)
+  - linking [1.7](introduction.md)
+- Pro\*C/C++ Precompiler
+  - common uses for [1.2](introduction.md)
+  - Globalization Support [4.10](datatypes-and-host-variables.md)
+  - new database types [17.15](about-Objects.md)
+  - object support in [17](about-Objects.md)
+  - runtime context [5.8.1](advanced-topics.md)
+  - use of PL/SQL with [7.2](embedded-PL-SQL.md)
+  - using OTT with [19.4](the-Object-type.md)
+- procedural database extension [7.1.5](embedded-PL-SQL.md)
+- programming guidelines [2.3](precompiler-concepts.md)
+- program termination
+  - normal versus abnormal [3.9](database-concepts.md)
+- project files [F.4](sample-programs.md)
+
+------------------------------------------------------------------------
+
+## Q
+
+- queries
+  - association with cursors [6.5](embedded-SQL.md)
+  - forwarding [3.2.5.1](database-concepts.md)
+  - incorrectly coded [6.3.1](embedded-SQL.md)
+  - kinds of [6.3](embedded-SQL.md)
+  - requirements for [6.3](embedded-SQL.md)
+  - returning more than one row [6.3](embedded-SQL.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- RAW datatype [4.1.2.11](datatypes-and-host-variables.md)
+- READ ONLY parameter
+  - in SET TRANSACTION statement [3.10](database-concepts.md)
+- read-only transactions
+  - description of [3.10](database-concepts.md)
+  - example of [3.10](database-concepts.md)
+  - how ended [3.10](database-concepts.md)
+- record [7.1.7](embedded-PL-SQL.md)
+- REF
+  - structure for [17.13.1](about-Objects.md)
+- REF (reference to object) [17.1.2](about-Objects.md)
+- REFERENCE clause
+  - in TYPE statement [5.3.2.1](advanced-topics.md)
+- reference semantics (ANSI dynamic SQL) [14.3.1](ANSI-dynamic-SQL.md)
+- references to objects (REFs)
+  - declaring [17.13.2](about-Objects.md)
+  - using [17.13](about-Objects.md)
+  - using in embedded SQL [17.13.3](about-Objects.md)
+- referencing
+  - of host arrays [8.2.1](host-arrays.md), [8.3.1](host-arrays.md)
+- REFs
+  - declaring [17.13.2](about-Objects.md)
+  - using [17.13](about-Objects.md)
+  - using in embedded SQL [17.13.3](about-Objects.md)
+- REGISTER CONNECT SQL statement [E.70](embedded-SQL-statements-and-directives.md)
+- RELEASE_CURSOR
+  - precompiler option
+    - what it affects [B.9](performance-tuning.md)
+- RELEASE_CURSOR option
+  - of ORACLE Precompilers [E.8](embedded-SQL-statements-and-directives.md)
+  - using to improve performance [B.9.2.4](performance-tuning.md)
+- RELEASE_CURSOR precompiler option [10.5.55](precompiler-options.md)
+- RELEASE option [3.9](database-concepts.md)
+  - if omitted [3.9](database-concepts.md)
+  - in COMMIT statement [3.6](database-concepts.md)
+  - in ROLLBACK statement [3.8](database-concepts.md)
+  - purpose of [3.6](database-concepts.md)
+  - restriction on [3.8](database-concepts.md)
+- remote database
+  - declaration of [E.24](embedded-SQL-statements-and-directives.md)
+- reserved namespaces [A.2](reserved-words-keywords-namespaces.md)
+- reserved words and keywords [A.1](reserved-words-keywords-namespaces.md)
+- resource manager [5.12](advanced-topics.md)
+- restrictions
+  - on AT clause [3.2.4.1.3](database-concepts.md)
+  - on Comments [13.12.4](Oracle-dynamic-SQL.md)
+  - on CURRENT OF clause [6.9.1](embedded-SQL.md)
+  - on declaring cursors [6.5.1](embedded-SQL.md)
+  - on FOR clause [8.8.1](host-arrays.md)
+  - on host arrays [8.3.3](host-arrays.md), [8.4.7](host-arrays.md), [8.5.1](host-arrays.md), [8.6.1](host-arrays.md), [8.7.1](host-arrays.md)
+  - on input host variables [6.1.1](embedded-SQL.md)
+  - on NULLs [6.2.4](embedded-SQL.md)
+  - on separate precompilation [2.5.1.1](precompiler-concepts.md)
+  - on SET TRANSACTION statement [3.10](database-concepts.md)
+  - use of CURRENT OF clause [8.3.3](host-arrays.md)
+- retrieving rows from a table
+  - embedded SQL [E.73](embedded-SQL-statements-and-directives.md)
+- return codes
+  - user exits [20.8](user-exits.md)
+- returning clause
+  - DELETE [6.3.4](embedded-SQL.md)
+  - in INSERT [6.4](embedded-SQL.md)
+  - in UPDATE [6.3.3](embedded-SQL.md)
+- returning clauses [6.4](embedded-SQL.md)
+- roll back
+  - to a savepoint [E.72](embedded-SQL-statements-and-directives.md)
+  - to the same savepoint multiple times [E.71](embedded-SQL-statements-and-directives.md)
+- rollbacks
+  - function of [3.4](database-concepts.md)
+  - statement-level [3.8.1](database-concepts.md)
+- ROLLBACK SQL statement [E.71](embedded-SQL-statements-and-directives.md)
+- ROLLBACK statement
+  - effect of [3.8](database-concepts.md)
+  - ending a transaction [E.71](embedded-SQL-statements-and-directives.md)
+  - example of [3.8](database-concepts.md)
+  - examples [E.71](embedded-SQL-statements-and-directives.md)
+  - in error handling routines [3.8](database-concepts.md)
+  - purpose of [3.8](database-concepts.md)
+  - RELEASE option in [3.8](database-concepts.md)
+  - TO SAVEPOINT clause in [3.8](database-concepts.md)
+  - using in a PL/SQL block [3.14.3](database-concepts.md)
+  - where to place [3.8](database-concepts.md)
+- ROWID
+  - logical [4.1.2.9](datatypes-and-host-variables.md)
+  - pseudocolumn [3.12](database-concepts.md)
+    - using to mimic CURRENT OF [3.12](database-concepts.md), [8.11](host-arrays.md)
+  - universal [4.1.2.9](datatypes-and-host-variables.md)
+- ROWID datatype [4.1.2.9](datatypes-and-host-variables.md)
+- row locks
+  - acquiring with FOR UPDATE OF [3.11.1](database-concepts.md)
+  - advantage of [B.8](performance-tuning.md)
+  - using to improve performance [B.8](performance-tuning.md)
+  - when acquired [3.11.1.1](database-concepts.md)
+  - when released [3.11.1.1](database-concepts.md)
+- rows
+  - fetching from cursors [E.36](embedded-SQL-statements-and-directives.md), [E.37](embedded-SQL-statements-and-directives.md)
+  - inserting into tables and views [E.40](embedded-SQL-statements-and-directives.md)
+  - updating [E.76](embedded-SQL-statements-and-directives.md)
+- rows-processed count
+  - use in error reporting [9.5.3](handling-run-time-errors.md)
+- runtime context
+  - establishing [5.8.1](advanced-topics.md)
+  - terminating [5.8.1](advanced-topics.md)
+- runtime type checking [17.8.7](about-Objects.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- sample database tables
+  - DEPT table [2.7](precompiler-concepts.md)
+  - EMP table [2.7](precompiler-concepts.md)
+- sample object type code [17.11](about-Objects.md)
+- sample programs
+  - ANSIDYN1 [F.1](sample-programs.md)
+  - ansidyn1.pc [14.6.1](ANSI-dynamic-SQL.md)
+  - ANSIDYN2 [F.1](sample-programs.md)
+  - ansidyn2.pc [14.6.2](ANSI-dynamic-SQL.md)
+  - building [F.3](sample-programs.md)
+  - calldemo.sql, with sample9.pc [7.7.2.1](embedded-PL-SQL.md)
+  - COLDEMO1 [F.1](sample-programs.md)
+  - coldemo1.pc [18.5.5](about-Collections.md)
+  - CPPDEMO1 [F.1](sample-programs.md)
+  - cppdemo1.pc [12.3.1](C-Plus-Plus-Applications.md)
+  - CPPDEMO2 [F.1](sample-programs.md)
+  - cppdemo2.pc [12.3.2](C-Plus-Plus-Applications.md)
+  - CPPDEMO3 [F.1](sample-programs.md)
+  - cppdemo3.pc [12.3.3](C-Plus-Plus-Applications.md)
+  - cursor variable demos [4.5.7](datatypes-and-host-variables.md)
+  - CV_DEMO [F.1](sample-programs.md)
+  - cv_demo.pc [4.5.7.2](datatypes-and-host-variables.md)
+  - cv_demo.sql [4.5.7.1](datatypes-and-host-variables.md)
+  - default drive [F.4](sample-programs.md)
+  - described [F.1](sample-programs.md)
+  - EMPCLASS [F.1](sample-programs.md)
+  - extp1.pc [7.8.2](embedded-PL-SQL.md)
+  - how to precompile [2.8](precompiler-concepts.md), [2.9](precompiler-concepts.md)
+  - LOBDEMO1 [F.1](sample-programs.md)
+  - lobdemo1.pc [16.6.3](about-LOBs.md)
+  - location of [1.6](introduction.md), [F.1](sample-programs.md)
+  - MLTTHRD1 [F.1](sample-programs.md)
+  - NAVDEMO1 [F.1](sample-programs.md)
+  - navdemo1.pc [17.11](about-Objects.md)
+  - OBJDEMO1 [F.1](sample-programs.md)
+  - ORACA [F.1](sample-programs.md)
+  - oraca.pc [9.10.6](handling-run-time-errors.md)
+  - PLSSAM [F.1](sample-programs.md)
+  - SAMPLE [F.1](sample-programs.md)
+  - SAMPLE1 [F.1](sample-programs.md)
+  - sample1.pc [2.8](precompiler-concepts.md)
+  - SAMPLE10 [F.1](sample-programs.md)
+  - sample10.pc [15.7](Oracle-dynamic-SQL-method-4.md)
+  - SAMPLE11 [F.1](sample-programs.md)
+  - sample11.pc [4.5.7.2](datatypes-and-host-variables.md)
+  - SAMPLE12 [F.1](sample-programs.md)
+  - sample12.pc [15.6.20](Oracle-dynamic-SQL-method-4.md)
+  - SAMPLE2 [F.1](sample-programs.md)
+  - sample2.pc [4.8.5](datatypes-and-host-variables.md)
+  - SAMPLE3 [F.1](sample-programs.md)
+  - sample3.pc [8.4.5](host-arrays.md)
+  - SAMPLE4 [F.1](sample-programs.md)
+  - sample4.pc [5.3.5](advanced-topics.md)
+  - SAMPLE5 [F.1](sample-programs.md)
+  - sample5.pc [20.11](user-exits.md)
+  - SAMPLE6 [F.1](sample-programs.md)
+  - sample6.pc [13.7.1](Oracle-dynamic-SQL.md)
+  - SAMPLE7 [F.1](sample-programs.md)
+  - sample7.pc [13.8.2](Oracle-dynamic-SQL.md)
+  - SAMPLE8 [F.1](sample-programs.md)
+  - sample8.pc [13.9.6](Oracle-dynamic-SQL.md)
+  - SAMPLE9 [F.1](sample-programs.md)
+  - sample9.pc [7.7.2.1](embedded-PL-SQL.md)
+  - setting the path [F.4](sample-programs.md)
+  - setting the path for the .pre files [F.5](sample-programs.md)
+  - SQLVCP [F.1](sample-programs.md)
+  - sqlvcp.pc [4.4.7](datatypes-and-host-variables.md)
+  - WINSAM [F.1](sample-programs.md)
+- sample tables
+  - building [F.2](sample-programs.md)
+- savepoints
+  - creating [E.72](embedded-SQL-statements-and-directives.md)
+  - definition of [3.7](database-concepts.md)
+  - uses for [3.7](database-concepts.md)
+  - when erased [3.7](database-concepts.md)
+- SAVEPOINT SQL statement [E.72](embedded-SQL-statements-and-directives.md)
+- SAVEPOINT statement [E.72](embedded-SQL-statements-and-directives.md)
+  - example of [3.7](database-concepts.md)
+  - examples [E.72](embedded-SQL-statements-and-directives.md)
+  - purpose of [3.7](database-concepts.md)
+- scale
+  - definition of [15.4.2.1](Oracle-dynamic-SQL-method-4.md), [E.77](embedded-SQL-statements-and-directives.md)
+  - using sqlprc() to extract [15.4.2.1](Oracle-dynamic-SQL-method-4.md)
+  - when negative [15.4.2.1](Oracle-dynamic-SQL-method-4.md), [E.77](embedded-SQL-statements-and-directives.md)
+- Scale
+  - using SQLPRC to extract [E.77](embedded-SQL-statements-and-directives.md)
+- SCHEMA_NAMES OTT parameter [19.5.2.11](the-Object-type.md)
+  - usage [19.5.6](the-Object-type.md)
+- scope
+  - of a cursor variable [4.5.1](datatypes-and-host-variables.md)
+  - of DECLARE STATEMENT directive [E.25](embedded-SQL-statements-and-directives.md)
+  - of precompiler options [10.3](precompiler-options.md)
+  - of the EXEC ORACLE statement [10.4.2.2](precompiler-options.md)
+  - of WHENEVER statement [9.8.5](handling-run-time-errors.md)
+- search condition
+  - definition of [6.3.5](embedded-SQL.md)
+  - in the WHERE clause [6.3.5](embedded-SQL.md)
+- SELECT_ERROR
+  - precompiler option [6.3.1](embedded-SQL.md), [10.5.57](precompiler-options.md), [10.5.58](precompiler-options.md)
+- select descriptor [15.2.1](Oracle-dynamic-SQL-method-4.md)
+  - information in [13.10.2](Oracle-dynamic-SQL.md)
+- select list
+  - definition of [6.3.1](embedded-SQL.md)
+  - number of items in [6.3.1](embedded-SQL.md)
+  - using the free() function for [15.6.17](Oracle-dynamic-SQL-method-4.md)
+  - using the malloc() function for [15.6.14](Oracle-dynamic-SQL-method-4.md)
+- select SQLDA
+  - purpose of [15.1.3](Oracle-dynamic-SQL-method-4.md)
+- SELECT SQL statement [E.73](embedded-SQL-statements-and-directives.md)
+- SELECT statement [6.3.1](embedded-SQL.md)
+  - clauses available for [6.3.1.1](embedded-SQL.md)
+  - embedded SQL examples [E.73](embedded-SQL-statements-and-directives.md)
+  - example of [6.3.1](embedded-SQL.md)
+  - INTO clause in [6.3.1](embedded-SQL.md)
+  - purpose of [6.3.1](embedded-SQL.md)
+  - testing [6.3.1.1](embedded-SQL.md)
+  - using host arrays in [8.4](host-arrays.md)
+  - WHERE clause in [6.3.1](embedded-SQL.md)
+- semantic checking
+  - controlling with the SQLCHECK option [C.2](syntactic-and-semantic-checking.md)
+  - definition of [C.1](syntactic-and-semantic-checking.md)
+  - enabling [C.3.1](syntactic-and-semantic-checking.md)
+  - with the SQLCHECK option [C.1](syntactic-and-semantic-checking.md)
+- separate precompilation
+  - guidelines for [2.5.1](precompiler-concepts.md)
+  - referencing cursors for [2.5.1.1](precompiler-concepts.md)
+  - restrictions on [2.5.1.1](precompiler-concepts.md)
+  - specifying MAXOPENCURSORS for [2.5.1.2](precompiler-concepts.md)
+  - using a single SQLCA with [2.5.1.3](precompiler-concepts.md)
+- server
+  - integration with PL/SQL [7.1.2](embedded-PL-SQL.md)
+- session
+  - definition of [3.3](database-concepts.md)
+- sessions
+  - beginning [E.16](embedded-SQL-statements-and-directives.md)
+- SET clause
+  - in UPDATE statements [6.3.3](embedded-SQL.md)
+  - purpose of [6.3.3](embedded-SQL.md)
+  - use of subqueries in [6.3.3](embedded-SQL.md)
+- SET DESCRIPTOR statement [14.5.4](ANSI-dynamic-SQL.md), [E.74](embedded-SQL-statements-and-directives.md)
+- SET TRANSACTION statement
+  - example of [3.10](database-concepts.md)
+  - purpose of [3.10](database-concepts.md)
+  - READ ONLY parameter in [3.10](database-concepts.md)
+  - requirements for [3.10](database-concepts.md)
+  - restrictions on [3.10](database-concepts.md)
+- Size of an Integer and ROWID [D.1.5](system-specific-references.md)
+- SQL
+  - benefits of [1.3](introduction.md)
+  - Embedded SQL [1.3](introduction.md)
+  - nature of [1.3](introduction.md)
+  - need for [1.3](introduction.md)
+- SQL_CURSOR [E.4](embedded-SQL-statements-and-directives.md)
+- SQL_SINGLE_RCTX
+  - defined constant [5.11](advanced-topics.md)
+  - definition of [5.9](advanced-topics.md)
+- SQL, dynamic [2.1.3](precompiler-concepts.md)
+- SQL\*Forms
+  - display error screen in [20.8](user-exits.md)
+  - IAP constants in [20.8.1](user-exits.md)
+  - returning values to [20.8](user-exits.md)
+  - reverse return code switch in [20.8](user-exits.md)
+- SQL\*Plus [1.3](introduction.md)
+  - using to test SELECT statements [6.3.1.1](embedded-SQL.md)
+  - versus embedded SQL [1.3](introduction.md)
+- sqlald() function
+  - example of using [15.6.3](Oracle-dynamic-SQL-method-4.md)
+  - purpose of [15.2.4](Oracle-dynamic-SQL-method-4.md)
+  - syntax for [15.2.4](Oracle-dynamic-SQL-method-4.md)
+- sqlaldt() function
+  - see SQLSQLDAAlloc [5.11](advanced-topics.md)
+- SQLCA [9.2.2](handling-run-time-errors.md), [9.5](handling-run-time-errors.md)
+  - components in [9.6.3](handling-run-time-errors.md)
+  - components set for a PL/SQL block [9.6.4](handling-run-time-errors.md)
+  - declaring [9.6.1](handling-run-time-errors.md)
+  - description of [9.6](handling-run-time-errors.md)
+  - explicit versus implicit checking of [9.2.2](handling-run-time-errors.md)
+  - including multiple times [5.4.7](advanced-topics.md)
+  - overview of [2.1.11](precompiler-concepts.md)
+  - SQLCABC component in [9.6.3.2](handling-run-time-errors.md)
+  - SQLCAID component in [9.6.3.1](handling-run-time-errors.md)
+  - sqlerrd [9.6.3.6](handling-run-time-errors.md)
+  - sqlerrd\[2\] component in [9.6.3.6](handling-run-time-errors.md)
+  - sqlerrmc component in [9.6.3.4](handling-run-time-errors.md)
+  - sqlerrml component in [9.6.3.4](handling-run-time-errors.md)
+  - sqlwarn [9.6.3.7](handling-run-time-errors.md)
+  - use in separate precompilations [2.5.1.3](precompiler-concepts.md)
+  - using more than one [9.6](handling-run-time-errors.md)
+- sqlca.h
+  - listing of [9.6.2](handling-run-time-errors.md)
+  - use of SQLCA_STORAGE_CLASS with [2.5.1.3](precompiler-concepts.md)
+- SQLCAID component [9.6.3.1](handling-run-time-errors.md)
+- SQLCDAFromResultSetCursor() [5.11](advanced-topics.md)
+- SQLCDAGetCurrent [5.11](advanced-topics.md)
+- sqlcdat()
+  - see SQLCDAFromResultSetCursor() [5.11](advanced-topics.md)
+- SQLCHECK option
+  - restrictions on [C.2](syntactic-and-semantic-checking.md)
+  - what it affects [C.2](syntactic-and-semantic-checking.md)
+- SQLCHECK precompiler option [17.8.6](about-Objects.md), [C.3.1.1](syntactic-and-semantic-checking.md), [C.3.1.2](syntactic-and-semantic-checking.md)
+- SQLCHECK support for objects [17.8.6](about-Objects.md)
+- sqlclu() function
+  - example of using [15.6.17](Oracle-dynamic-SQL-method-4.md)
+  - purpose of [15.6.17](Oracle-dynamic-SQL-method-4.md)
+  - syntax for [15.6.17](Oracle-dynamic-SQL-method-4.md)
+- sqlclut() function
+  - see SQLSQLDAFree() [5.11](advanced-topics.md)
+- sqlcode
+  - component in SQLCA [9.5.1](handling-run-time-errors.md)
+- SQLCODE
+  - with MODE=ANSI [10.5.37](precompiler-options.md)
+- SQLCODE status variable
+  - declaring [9.4](handling-run-time-errors.md)
+  - when declared with the SQLCA [9.4](handling-run-time-errors.md)
+  - when used [9.4](handling-run-time-errors.md)
+- SQL Communications Area [9.2.2](handling-run-time-errors.md)
+  - SQLCA [9.6](handling-run-time-errors.md)
+- sqlcpr.h [9.7](handling-run-time-errors.md)
+- sqlcurt() function
+  - see SQLDAToResultSetCursor() [5.11](advanced-topics.md)
+- SQLDA
+  - bind versus select [13.10.3](Oracle-dynamic-SQL.md)
+  - C variable in [15.3.9](Oracle-dynamic-SQL-method-4.md)
+  - definition of [13.10.3](Oracle-dynamic-SQL.md)
+  - F variable in [15.3.6](Oracle-dynamic-SQL-method-4.md)
+  - information stored in [13.10.3](Oracle-dynamic-SQL.md)
+  - I variable in [15.3.5](Oracle-dynamic-SQL-method-4.md)
+  - L variable in [15.3.3](Oracle-dynamic-SQL-method-4.md)
+  - M variable in [15.3.8](Oracle-dynamic-SQL-method-4.md)
+  - N variable in [15.3.1](Oracle-dynamic-SQL-method-4.md)
+  - purpose of [13.10.1](Oracle-dynamic-SQL.md)
+  - struct, contents of [15.2.3](Oracle-dynamic-SQL-method-4.md)
+  - structure of [15.3](Oracle-dynamic-SQL-method-4.md)
+  - S variable in [15.3.7](Oracle-dynamic-SQL-method-4.md)
+  - use in dynamic SQL method 4 [15.2.1](Oracle-dynamic-SQL-method-4.md)
+  - V variable in [15.3.2](Oracle-dynamic-SQL-method-4.md)
+  - X variable in [15.3.10](Oracle-dynamic-SQL-method-4.md)
+  - Y variable in [15.3.11](Oracle-dynamic-SQL-method-4.md)
+  - Z variable in [15.3.12](Oracle-dynamic-SQL-method-4.md)
+- sqlda.h [15.1.3](Oracle-dynamic-SQL-method-4.md)
+- SQLDAToResultSetCursor() [5.11](advanced-topics.md)
+- SQL Descriptor Area
+  - SQLDA [13.10.1](Oracle-dynamic-SQL.md), [15.2.1](Oracle-dynamic-SQL-method-4.md)
+- SQL directives
+  - CONTEXT USE [11.4.2.3](multithreaded-applications.md), [E.21](embedded-SQL-statements-and-directives.md)
+  - DECLARE DATABASE [E.24](embedded-SQL-statements-and-directives.md)
+  - DECLARE STATEMENT [E.25](embedded-SQL-statements-and-directives.md)
+  - DECLARE TABLE [E.26](embedded-SQL-statements-and-directives.md)
+  - DECLARE TYPE [E.27](embedded-SQL-statements-and-directives.md)
+  - TYPE [E.75](embedded-SQL-statements-and-directives.md)
+  - VAR [E.77](embedded-SQL-statements-and-directives.md)
+  - WHENEVER [E.78](embedded-SQL-statements-and-directives.md)
+- SQLEnvGet() [5.11](advanced-topics.md)
+- SQLEnvGet function in SQLLIB [5.9.1](advanced-topics.md)
+- sqlerrd
+  - component [9.5.4](handling-run-time-errors.md), [9.6.3.6](handling-run-time-errors.md)
+- sqlerrd\[2\] component [9.5.3](handling-run-time-errors.md), [9.6.3.6](handling-run-time-errors.md)
+  - returns N or rows fetched [8.4.3](host-arrays.md)
+  - use with data manipulation statements [8.4.2](host-arrays.md)
+- sqlerrmc component [9.6.3.4](handling-run-time-errors.md)
+- sqlerrml component [9.6.3.4](handling-run-time-errors.md)
+- SQLERROR
+  - WHENEVER directive condition [E.78](embedded-SQL-statements-and-directives.md)
+- SQLERROR condition
+  - in the WHENEVER statement [9.8.1.2](handling-run-time-errors.md)
+  - meaning of [9.8.1.2](handling-run-time-errors.md)
+- SQLErrorGetText() [5.11](advanced-topics.md)
+- SQLExtProcError() [5.11](advanced-topics.md), [7.8.3](embedded-PL-SQL.md)
+- sqlglm() [9.7](handling-run-time-errors.md)
+- sqlglm() function [9.7](handling-run-time-errors.md)
+  - example of using [9.7](handling-run-time-errors.md)
+  - parameters of [9.7](handling-run-time-errors.md)
+- sqlglmt()
+  - see SQLErrorGetText [5.11](advanced-topics.md)
+- sqlgls() function [9.9](handling-run-time-errors.md)
+  - example of use [4.4.7](datatypes-and-host-variables.md)
+  - sample program for [9.9.2](handling-run-time-errors.md)
+  - see SQLLIB
+    - function SQLStmGetText [4.4.7](datatypes-and-host-variables.md)
+- sqlglst() function
+  - see SQLStmtGetText [5.11](advanced-topics.md)
+- sqlld2t() function
+  - see SQLLDAGetName [5.11](advanced-topics.md)
+- SQLLDAGetName [5.11](advanced-topics.md)
+- sqlldat() function
+  - see SQLCDAGetCurrent [5.11](advanced-topics.md)
+- SQLLIB
+  - and embedded SQL [2.1.2](precompiler-concepts.md)
+  - extensions for OCI interoperability [5.8](advanced-topics.md)
+  - function
+    - SQLCDAFromResultSetCursor [5.11](advanced-topics.md)
+  - function SQLCDAGetCurrent [5.11](advanced-topics.md)
+  - function SQLColumnNullCheck [5.11](advanced-topics.md)
+  - function SQLDAFree [5.11](advanced-topics.md)
+  - function SQLDAToResultSetCursor [5.11](advanced-topics.md)
+  - function SQLEnvGet [5.9.1](advanced-topics.md), [5.11](advanced-topics.md)
+  - function SQLErrorGetText [5.11](advanced-topics.md)
+  - function SQLExtProcError [5.11](advanced-topics.md), [7.8.3](embedded-PL-SQL.md)
+  - function SQLLDAGetName [5.11](advanced-topics.md)
+  - function SQLNumberPrecV6 [5.11](advanced-topics.md)
+  - function SQLNumberPrecV7 [5.11](advanced-topics.md)
+  - function SQLRowidGet [5.11](advanced-topics.md)
+  - function SQLStmtGetText() [5.11](advanced-topics.md)
+  - function SQLSvcCtxGet [5.9.2](advanced-topics.md), [5.11](advanced-topics.md)
+  - function SQLVarcharGetLength [4.4.6](datatypes-and-host-variables.md)
+  - new names for public functions [5.11](advanced-topics.md)
+- SQLLIB function
+  - SQLSQLDAAlloc [5.11](advanced-topics.md)
+  - SQLVarcharGetLength [5.11](advanced-topics.md)
+- sqlnul() function
+  - example of using [15.4.3](Oracle-dynamic-SQL-method-4.md)
+  - purpose of [15.4.3](Oracle-dynamic-SQL-method-4.md)
+  - syntax for [15.4.3](Oracle-dynamic-SQL-method-4.md)
+- sqlnult() function
+  - see SQLColumnNullCheck() [5.11](advanced-topics.md)
+- SQLNumberPrecV6 [5.11](advanced-topics.md)
+- SQLNumberPrecV7 [5.11](advanced-topics.md)
+- sqlpr2() function [15.4.2.1](Oracle-dynamic-SQL-method-4.md)
+- sqlpr2t() function
+  - see SQLNumberPrecV7 [5.11](advanced-topics.md)
+- sqlprc() function [15.4.2.1](Oracle-dynamic-SQL-method-4.md)
+- sqlprct() function
+  - see SQLNumberPrecV6 [5.11](advanced-topics.md)
+- SQLRowidGet() [5.11](advanced-topics.md)
+- SQLSQLDAAlloc [5.11](advanced-topics.md)
+- SQLSQLDAFree() [5.11](advanced-topics.md)
+- SQLSTATE
+  - class codes [9.3.2](handling-run-time-errors.md)
+  - declaring [9.3.1](handling-run-time-errors.md)
+  - mapping to Oracle errors [9.3.2](handling-run-time-errors.md)
+  - status codes [9.3.2](handling-run-time-errors.md)
+  - status variable [9.3](handling-run-time-errors.md)
+  - using [9.3.3](handling-run-time-errors.md)
+  - values [9.3.2](handling-run-time-errors.md)
+  - with MODE=ANSI [10.5.37](precompiler-options.md)
+- SQL statements
+  - ALLOCATE [E.4](embedded-SQL-statements-and-directives.md)
+  - ALLOCATE DESCRIPTOR TYPE [E.5](embedded-SQL-statements-and-directives.md)
+  - CACHE FREE ALL [E.6](embedded-SQL-statements-and-directives.md)
+  - CALL [7.7.2.3](embedded-PL-SQL.md), [E.7](embedded-SQL-statements-and-directives.md)
+  - CLOSE [E.8](embedded-SQL-statements-and-directives.md)
+  - COMMIT [E.15](embedded-SQL-statements-and-directives.md)
+  - concerns when executing [6.3](embedded-SQL.md)
+  - CONNECT [E.16](embedded-SQL-statements-and-directives.md)
+  - CONTEXT ALLOCATE [E.17](embedded-SQL-statements-and-directives.md)
+  - CONTEXT FREE [E.18](embedded-SQL-statements-and-directives.md)
+  - CONTEXT OBJECT OPTION GET [E.19](embedded-SQL-statements-and-directives.md)
+  - CONTEXT OBJECT OPTION SET [E.20](embedded-SQL-statements-and-directives.md)
+  - DEALLOCATE DESCRIPTOR [E.22](embedded-SQL-statements-and-directives.md)
+  - DELETE [E.28](embedded-SQL-statements-and-directives.md)
+  - DESCRIBE [E.29](embedded-SQL-statements-and-directives.md)
+  - DESCRIBE DESCRIPTOR [E.30](embedded-SQL-statements-and-directives.md)
+  - ENABLE THREADS [E.31](embedded-SQL-statements-and-directives.md)
+  - executable versus directive [2.1.1.1](precompiler-concepts.md)
+  - EXECUTE [E.33](embedded-SQL-statements-and-directives.md)
+  - EXECUTE ... END-EXEC [E.32](embedded-SQL-statements-and-directives.md)
+  - EXECUTE IMMEDIATE [E.35](embedded-SQL-statements-and-directives.md)
+  - FETCH [E.36](embedded-SQL-statements-and-directives.md)
+  - FETCH DESCRIPTOR [E.37](embedded-SQL-statements-and-directives.md)
+  - for defining and controlling transactions [3.4](database-concepts.md)
+  - for manipulating a cursor [6.3](embedded-SQL.md), [6.5](embedded-SQL.md)
+  - FREE [E.38](embedded-SQL-statements-and-directives.md)
+  - INSERT [E.40](embedded-SQL-statements-and-directives.md)
+  - LOB APPEND [E.41](embedded-SQL-statements-and-directives.md)
+  - LOB ASSIGN [E.42](embedded-SQL-statements-and-directives.md)
+  - LOB CLOSE [E.43](embedded-SQL-statements-and-directives.md)
+  - LOB COPY [E.44](embedded-SQL-statements-and-directives.md)
+  - LOB CREATE [E.45](embedded-SQL-statements-and-directives.md)
+  - LOB DESCRIBE [E.46](embedded-SQL-statements-and-directives.md)
+  - LOB DISABLE BUFFERING [E.47](embedded-SQL-statements-and-directives.md)
+  - LOB ENABLE BUFFERING [E.48](embedded-SQL-statements-and-directives.md)
+  - LOB ERASE [E.49](embedded-SQL-statements-and-directives.md)
+  - LOB FILE CLOSE [E.50](embedded-SQL-statements-and-directives.md)
+  - LOB FILE SET [E.51](embedded-SQL-statements-and-directives.md)
+  - LOB FLUSH BUFFER [E.52](embedded-SQL-statements-and-directives.md)
+  - LOB FREE TEMPORARY [E.53](embedded-SQL-statements-and-directives.md)
+  - LOB LOAD [E.54](embedded-SQL-statements-and-directives.md)
+  - LOB OPEN [E.55](embedded-SQL-statements-and-directives.md)
+  - LOB READ [E.56](embedded-SQL-statements-and-directives.md)
+  - LOB TRIM [E.57](embedded-SQL-statements-and-directives.md)
+  - LOB WRITE [E.58](embedded-SQL-statements-and-directives.md)
+  - OBJECT CREATE [E.59](embedded-SQL-statements-and-directives.md)
+  - OBJECT DELETE [E.60](embedded-SQL-statements-and-directives.md)
+  - OBJECT DEREF [E.61](embedded-SQL-statements-and-directives.md)
+  - OBJECT FLUSH [E.62](embedded-SQL-statements-and-directives.md)
+  - OBJECT GET [E.63](embedded-SQL-statements-and-directives.md)
+  - OBJECT RELEASE [E.64](embedded-SQL-statements-and-directives.md)
+  - OBJECT SET [E.65](embedded-SQL-statements-and-directives.md)
+  - OBJECT UPDATE [E.66](embedded-SQL-statements-and-directives.md)
+  - OPEN [E.67](embedded-SQL-statements-and-directives.md)
+  - OPEN DESCRIPTOR [E.68](embedded-SQL-statements-and-directives.md)
+  - optimizing to improve performance [B.5](performance-tuning.md)
+  - PREPARE [E.69](embedded-SQL-statements-and-directives.md)
+  - REGISTER CONNECT [E.70](embedded-SQL-statements-and-directives.md)
+  - ROLLBACK [E.71](embedded-SQL-statements-and-directives.md)
+  - rules for executing [B.5](performance-tuning.md)
+  - SAVEPOINT [E.72](embedded-SQL-statements-and-directives.md)
+  - SELECT [E.73](embedded-SQL-statements-and-directives.md)
+  - SET DESCRIPTOR [E.74](embedded-SQL-statements-and-directives.md)
+  - summary of [E.1](embedded-SQL-statements-and-directives.md)
+  - types of [2.1.1.1](precompiler-concepts.md)
+  - UPDATE [E.76](embedded-SQL-statements-and-directives.md)
+- SQLStmtGetText [5.11](advanced-topics.md)
+- SQLStmtGetText() function [F.1](sample-programs.md)
+- SQLSvcCtxGet() [5.11](advanced-topics.md)
+- SQLSvcCtxGet function in SQLLIB [5.9.2](advanced-topics.md)
+- SQLVarcharGetLength [5.11](advanced-topics.md)
+- sqlvcp() function [F.1](sample-programs.md)
+- sqlvcp() function, see SQLLIB
+  - function SQLVarcharGetLength [4.4.6](datatypes-and-host-variables.md)
+- sqlvcpt() function
+  - see SQLVarcharGetLength [5.11](advanced-topics.md)
+- sqlwarn
+  - flag [9.6.3.7](handling-run-time-errors.md)
+- SQLWARNING
+  - WHENEVER directive condition [E.78](embedded-SQL-statements-and-directives.md)
+- SQLWARNING condition
+  - in the WHENEVER statement [9.8.1.1](handling-run-time-errors.md)
+  - meaning of [9.8.1.1](handling-run-time-errors.md)
+- Standard Header Files [D.1.1](system-specific-references.md)
+- statement-level rollback
+  - description of [3.8.1](database-concepts.md)
+  - to break deadlocks [3.8.1](database-concepts.md)
+- status codes
+  - meaning of [9.5.1](handling-run-time-errors.md)
+- STOP action
+  - in the WHENEVER statement [9.8.2.6](handling-run-time-errors.md)
+  - of WHENEVER directive [E.78](embedded-SQL-statements-and-directives.md)
+  - result of [9.8.2.6](handling-run-time-errors.md)
+- stored procedures
+  - program example [7.7.2.1](embedded-PL-SQL.md)
+- stored subprograms
+  - calling [7.7.2.1](embedded-PL-SQL.md)
+  - creating [7.7.1](embedded-PL-SQL.md)
+  - packaged versus standalone [7.7](embedded-PL-SQL.md)
+  - stored versus inline [7.7](embedded-PL-SQL.md)
+- STRING datatype [4.1.2.5](datatypes-and-host-variables.md)
+- string host variables
+  - declaring [5.1.4](advanced-topics.md)
+- Struct Component Alignment [D.1.4](system-specific-references.md)
+- structs
+  - array of [8.10](host-arrays.md)
+  - as host variables [4.8](datatypes-and-host-variables.md)
+  - C, using [17.12](about-Objects.md)
+  - for collection object types [18.2](about-Collections.md)
+  - generating C structs for a REF [17.13.1](about-Objects.md)
+  - pointers as host variables [4.9.3](datatypes-and-host-variables.md)
+- structs (structures)
+  - cannot be nested [4.8.3](datatypes-and-host-variables.md)
+- structures (structs)
+  - nesting not permitted for host [4.8.3](datatypes-and-host-variables.md)
+- subqueries
+  - definition of [6.3.2.1](embedded-SQL.md)
+  - example of [6.3.2.1](embedded-SQL.md), [6.3.3](embedded-SQL.md)
+  - uses for [6.3.2.1](embedded-SQL.md)
+  - using in the SET clause [6.3.3](embedded-SQL.md)
+  - using in the VALUES clause [6.3.2.1](embedded-SQL.md)
+- S variable in SQLDA
+  - how value is set [15.3.7](Oracle-dynamic-SQL-method-4.md)
+  - purpose of [15.3.7](Oracle-dynamic-SQL-method-4.md)
+- symbols
+  - defining [2.4.1](precompiler-concepts.md)
+- syntax, embedded SQL [2.1.2](precompiler-concepts.md)
+- syntax checking
+  - controlling with the SQLCHECK option [C.2](syntactic-and-semantic-checking.md)
+  - definition of [C.1](syntactic-and-semantic-checking.md)
+- syntax diagram
+  - description of [E.3](embedded-SQL-statements-and-directives.md)
+  - how to read [E.3](embedded-SQL-statements-and-directives.md)
+  - how to use [E.3](embedded-SQL-statements-and-directives.md)
+  - symbols used in [E.3](embedded-SQL-statements-and-directives.md)
+- SYS_INCLUDE
+  - system header files in C++ [12.2.4](C-Plus-Plus-Applications.md)
+- SYS_INCLUDE, INCLUDE Precompiler Options [10.2.1](precompiler-options.md)
+- SYS_INCLUDE precompiler option [10.5.59](precompiler-options.md)
+- system configuration file [10.2.3](precompiler-options.md)
+- System Configuration File [D.1.10](system-specific-references.md)
+- system failure
+  - effect on transactions [3.5](database-concepts.md)
+- System Global Area (SGA) [7.7](embedded-PL-SQL.md)
+- system header files
+  - specifying the location of [12.2.4](C-Plus-Plus-Applications.md)
+- system-specific Oracle documentation [1.8.11](introduction.md), [2.6](precompiler-concepts.md), [3.2.2](database-concepts.md), [5.12.1.4](advanced-topics.md), [20](user-exits.md)
+- system-specific reference [4.1.2.3](datatypes-and-host-variables.md), [10.1.1](precompiler-options.md), [10.2.2](precompiler-options.md), [10.5.29](precompiler-options.md), [10.5.59](precompiler-options.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- table locks
+  - acquiring with LOCK TABLE [3.11.2](database-concepts.md)
+  - effect of [3.11.2](database-concepts.md)
+  - row share [3.11.2](database-concepts.md)
+  - when released [3.11.2](database-concepts.md)
+- tables
+  - inserting rows into [E.40](embedded-SQL-statements-and-directives.md)
+  - nested [18.1.1](about-Collections.md)
+  - updating rows in [E.76](embedded-SQL-statements-and-directives.md)
+- terminal
+  - encoding scheme [4.10](datatypes-and-host-variables.md)
+- termination, program
+  - normal versus abnormal [3.9](database-concepts.md)
+- threads [E.17](embedded-SQL-statements-and-directives.md)
+  - allocating context [11.4.2.2](multithreaded-applications.md), [E.17](embedded-SQL-statements-and-directives.md)
+  - enabling [11.4.2.1](multithreaded-applications.md), [E.31](embedded-SQL-statements-and-directives.md)
+  - freeing context [11.4.2.4](multithreaded-applications.md), [E.18](embedded-SQL-statements-and-directives.md)
+  - use context [11.4.2.3](multithreaded-applications.md)
+- THREADS
+  - precompiler option [10.5.60](precompiler-options.md), [11.4.1](multithreaded-applications.md)
+- TIMESTAMP datatype [4.1.3.3](datatypes-and-host-variables.md)
+- TIMESTAMP WITH LOCAL TIME ZONE datatype [4.1.3.5](datatypes-and-host-variables.md)
+- TIMESTAMP WITH TIME ZONE datatype [4.1.3.4](datatypes-and-host-variables.md)
+- TO clause
+  - of ROLLBACK statement [E.71](embedded-SQL-statements-and-directives.md)
+- Toolset
+  - Oracle [20.5](user-exits.md)
+- TO SAVEPOINT clause
+  - in ROLLBACK statement [3.8](database-concepts.md)
+  - purpose of [3.8](database-concepts.md)
+  - restriction on [3.8](database-concepts.md)
+- trace facility
+  - function of [B.5.2](performance-tuning.md)
+  - using to improve performance [B.5.2](performance-tuning.md)
+- transaction processing
+  - overview of [2.1.10](precompiler-concepts.md)
+  - statements used for [2.1.10](precompiler-concepts.md)
+- transaction processing monitor [5.12](advanced-topics.md)
+- transactions
+  - committing [E.15](embedded-SQL-statements-and-directives.md)
+  - contents of [2.1.10](precompiler-concepts.md), [3.5](database-concepts.md)
+  - definition of [2.1.10](precompiler-concepts.md)
+  - description of [3.4](database-concepts.md)
+  - distributed [E.71](embedded-SQL-statements-and-directives.md)
+  - failure during [3.5](database-concepts.md)
+  - guarding databases with [3.4](database-concepts.md)
+  - guidelines for [3.14.1](database-concepts.md)
+  - how to begin [3.5](database-concepts.md)
+  - how to end [3.5](database-concepts.md)
+  - making permanent [3.6](database-concepts.md)
+  - read-only [3.10](database-concepts.md)
+  - rolling back [E.71](embedded-SQL-statements-and-directives.md)
+  - subdividing with savepoints [3.7](database-concepts.md)
+  - terminating [3.6](database-concepts.md)
+  - undoing [3.8](database-concepts.md)
+  - undoing parts of [3.7](database-concepts.md)
+  - when rolled back automatically [3.5](database-concepts.md)
+- transient copies of objects [17.3.1](about-Objects.md)
+- transient objects [17.3.1](about-Objects.md)
+- TRANSITIVE OTT parameter [19.5.2.12](the-Object-type.md)
+- truncated values
+  - detecting [6.2](embedded-SQL.md), [7.4.2](embedded-PL-SQL.md)
+- truncation error
+  - when generated [6.2.5](embedded-SQL.md)
+- tuning, performance [B.1](performance-tuning.md)
+- two-task
+  - linking [2.6](precompiler-concepts.md)
+- TYPE_CODE
+  - precompiler option [10.5.61](precompiler-options.md)
+- type checking at runtime [17.8.7](about-Objects.md)
+- TYPE directive
+  - examples [E.75](embedded-SQL-statements-and-directives.md)
+- type inheritance [17.1.3](about-Objects.md)
+  - example [17.10](about-Objects.md)
+  - IS OF type operator [17.1.3](about-Objects.md)
+    - example [17.1.3](about-Objects.md)
+  - TREAT operator [17.1.3](about-Objects.md)
+    - example [17.1.3](about-Objects.md)
+- TYPE SQL directive [E.75](embedded-SQL-statements-and-directives.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- undo a transaction [E.71](embedded-SQL-statements-and-directives.md)
+- Unicode character set [5.1.5](advanced-topics.md)
+- unions
+  - cannot be nested in host structures [4.8.3](datatypes-and-host-variables.md)
+  - not permitted as host structures [4.8.3](datatypes-and-host-variables.md)
+- universal ROWID [4.1.2.9](datatypes-and-host-variables.md)
+- UNIX
+  - linking a Pro\*C application under [1.8.11](introduction.md)
+- UNSAFE_NULL precompiler option [10.5.62](precompiler-options.md)
+- UNSIGNED datatype [4.1.2.14](datatypes-and-host-variables.md)
+- UPDATE SQL statement [E.76](embedded-SQL-statements-and-directives.md)
+- UPDATE statement
+  - embedded SQL examples [E.76](embedded-SQL-statements-and-directives.md)
+  - example of [6.3.2.1](embedded-SQL.md)
+  - purpose of [6.3.2.1](embedded-SQL.md)
+  - SET clause in [6.3.3](embedded-SQL.md)
+  - using host arrays in [8.6](host-arrays.md)
+  - WHERE clause in [6.3.3](embedded-SQL.md)
+- updating
+  - rows in tables and views [E.76](embedded-SQL-statements-and-directives.md)
+- use
+  - thread context [11.4.2.3](multithreaded-applications.md), [E.21](embedded-SQL-statements-and-directives.md)
+- user configuration file
+  - to set precompiler options [10.2.3](precompiler-options.md)
+- user-defined record [7.1.7](embedded-PL-SQL.md)
+- user-defined stored function
+  - used in WHERE clause [6.3.5](embedded-SQL.md)
+- user-defined type equivalencing [E.75](embedded-SQL-statements-and-directives.md)
+- user exits
+  - calling from a SQL\*Forms trigger [20.6](user-exits.md)
+  - common uses for [20.2](user-exits.md)
+  - example of [20.9](user-exits.md)
+  - kinds of statements allowed in [20.4](user-exits.md)
+  - linking into IAP [20.13](user-exits.md)
+  - meaning of codes returned by [20.8](user-exits.md)
+  - naming [20.14.1](user-exits.md)
+  - passing parameters to [20.7](user-exits.md)
+  - requirements for variables in [20.4.1](user-exits.md)
+  - running the GENXTB form [20.12](user-exits.md)
+  - running the GENXTB utility for [20.12](user-exits.md)
+  - use of WHENEVER statement in [20.8.2](user-exits.md)
+- User Exits [D.1.13](system-specific-references.md)
+- USERID option
+  - when required [10.5.63](precompiler-options.md)
+- USERID OTT parameter [19.5.2.1](the-Object-type.md)
+- USERID precompiler option [10.5.63](precompiler-options.md)
+  - using with the SQLCHECK option [C.3.1.1](syntactic-and-semantic-checking.md)
+- usernames
+  - defining [3.1](database-concepts.md)
+- user session
+  - definition of [3.3](database-concepts.md)
+- USING clause
+  - in CONNECT statement [3.2.4.1](database-concepts.md)
+  - in the EXECUTE statement [13.8.1](Oracle-dynamic-SQL.md)
+  - of FETCH statement [E.36](embedded-SQL-statements-and-directives.md)
+  - of OPEN statement [E.67](embedded-SQL-statements-and-directives.md)
+  - purpose of [13.8.1](Oracle-dynamic-SQL.md)
+- using collection types [17.13](about-Objects.md)
+- using C structures [17.12](about-Objects.md)
+- using dbstring
+  - Oracle Net database specification string [E.16](embedded-SQL-statements-and-directives.md)
+- Using REFs in Embedded SQL [17.13.3](about-Objects.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- V7
+  - value of DBMS option [10.5.15](precompiler-options.md), [10.5.16](precompiler-options.md)
+- VALUES clause
+  - in INS [6.3.2](embedded-SQL.md)
+  - of embedded SQL INSERT statement [E.40](embedded-SQL-statements-and-directives.md)
+  - of INSERT statement [E.40](embedded-SQL-statements-and-directives.md)
+  - use of subqueries in [6.3.2.1](embedded-SQL.md)
+- VARCHAR
+  - arrays of [8.2](host-arrays.md)
+- VARCHAR2 datatype [4.1.2.1](datatypes-and-host-variables.md), [5.3.3](advanced-topics.md)
+- VARCHAR datatype [4.1.2.8](datatypes-and-host-variables.md)
+- VARCHAR precompiler option [10.5.65](precompiler-options.md)
+- VARCHAR pseudotype
+  - requirements for using with PL/SQL [7.3.3](embedded-PL-SQL.md)
+- VARCHAR variables
+  - advantages of [4.4.1](datatypes-and-host-variables.md)
+  - declaring [4.4.1](datatypes-and-host-variables.md)
+  - length member in [4.4.1](datatypes-and-host-variables.md)
+  - must be passed to a function by reference [4.4.5](datatypes-and-host-variables.md)
+  - specifying the length of [4.4.1](datatypes-and-host-variables.md)
+  - structure of [4.4.1](datatypes-and-host-variables.md)
+  - using macros to define length of [5.4.1](advanced-topics.md)
+  - versus character arrays [5.1.4.2](advanced-topics.md)
+- VAR directive
+  - examples [E.77](embedded-SQL-statements-and-directives.md)
+- variables [2.1.5](precompiler-concepts.md)
+  - cursor [4.5](datatypes-and-host-variables.md)
+  - host [18.2.1](about-Collections.md)
+  - indicator [18.2.1](about-Collections.md)
+- VARNUM datatype [4.1.2.6](datatypes-and-host-variables.md)
+- VARRAW datatype [4.1.2.12](datatypes-and-host-variables.md)
+- varrays
+  - creation [18.1.2](about-Collections.md)
+- VAR SQL directive [E.77](embedded-SQL-statements-and-directives.md)
+- VAR statement
+  - syntax for [5.3.1](advanced-topics.md), [5.3.2](advanced-topics.md)
+- varying length arrays [18.1.2](about-Collections.md)
+- VERSION precompiler option [10.5.66](precompiler-options.md), [17.8.1](about-Objects.md)
+- views
+  - inserting rows into [E.40](embedded-SQL-statements-and-directives.md)
+  - updating rows in [E.76](embedded-SQL-statements-and-directives.md)
+- VMS
+  - linking a precompiler application [1.8.11](introduction.md)
+- V variable in SQLDA
+  - how value is set [15.3.2](Oracle-dynamic-SQL-method-4.md)
+  - purpose of [15.3.2](Oracle-dynamic-SQL-method-4.md)
+
+------------------------------------------------------------------------
+
+## W
+
+- warning flags
+  - use in error reporting [9.5.2](handling-run-time-errors.md)
+- WHENEVER directive
+  - examples [E.78](embedded-SQL-statements-and-directives.md)
+- WHENEVER SQL directive [E.78](embedded-SQL-statements-and-directives.md)
+- WHENEVER statement
+  - automatic checking of SQLCA with [9.8.1](handling-run-time-errors.md)
+  - CONTINUE action in [9.8.2.1](handling-run-time-errors.md)
+  - DO action in [9.8.2.2](handling-run-time-errors.md)
+  - DO BREAK action in [9.8.2.3](handling-run-time-errors.md)
+  - DO CONTINUE action in [9.8.2.4](handling-run-time-errors.md)
+  - examples of [9.8.3](handling-run-time-errors.md)
+  - GOTO action in [9.8.2.5](handling-run-time-errors.md)
+  - guidelines for [9.8.6](handling-run-time-errors.md)
+  - maintaining addressability for [9.8.6.4](handling-run-time-errors.md)
+  - NOT FOUND condition in [9.8.1.3](handling-run-time-errors.md)
+  - overview of [2.1.11](precompiler-concepts.md)
+  - scope of [9.8.5](handling-run-time-errors.md)
+  - SQLERROR condition in [9.8.1.2](handling-run-time-errors.md)
+  - SQLWARNING condition in [9.8.1.1](handling-run-time-errors.md)
+  - STOP action in [9.8.2.6](handling-run-time-errors.md)
+  - use in user exits [20.8.2](user-exits.md)
+  - using to avoid infinite loops [9.8.6.3](handling-run-time-errors.md)
+  - using to handle end-of-data conditions [9.8.6.2](handling-run-time-errors.md)
+  - where to place [9.8.6.1](handling-run-time-errors.md)
+- WHERE clause
+  - host arrays in [8.9](host-arrays.md)
+  - if omitted [6.3.5](embedded-SQL.md)
+  - in DELETE statements [6.3.4](embedded-SQL.md)
+  - in SELECT statements [6.3.1](embedded-SQL.md)
+  - in UPDATE statements [6.3.3](embedded-SQL.md)
+  - purpose of [6.3.5](embedded-SQL.md)
+  - search condition in [6.3.5](embedded-SQL.md)
+- WHERE CURRENT OF clause
+  - CURRENT OF clause [6.9](embedded-SQL.md)
+- WITH HOLD
+  - clause of DECLARE CURSOR statement [6.5.1](embedded-SQL.md)
+- WORK option
+  - of COMMIT statement [E.15](embedded-SQL-statements-and-directives.md)
+  - of ROLLBACK statement [E.71](embedded-SQL-statements-and-directives.md)
+
+------------------------------------------------------------------------
+
+## X
+
+- X/Open [5.12](advanced-topics.md)
+  - application development [5.12](advanced-topics.md)
+- XA interface [5.12](advanced-topics.md)
+- X variable in SQLDA
+  - how value is set [15.3.10](Oracle-dynamic-SQL-method-4.md)
+  - purpose of [15.3.10](Oracle-dynamic-SQL-method-4.md)
+
+------------------------------------------------------------------------
+
+## Y
+
+- Y variable in SQLDA
+  - how value is set [15.3.11](Oracle-dynamic-SQL-method-4.md)
+  - purpose of [15.3.11](Oracle-dynamic-SQL-method-4.md)
+
+------------------------------------------------------------------------
+
+## Z
+
+- Z variable in SQLDA
+  - how value is set [15.3.12](Oracle-dynamic-SQL-method-4.md)
+  - purpose of [15.3.12](Oracle-dynamic-SQL-method-4.md)

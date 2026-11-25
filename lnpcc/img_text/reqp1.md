@@ -1,0 +1,1 @@
+If any of the keywords or parameters in a vertical list appears on the main path, one of them is required. That is, you must choose one of the keywords or parameters, but not necessarily the one that appears on the main path. In the given example, you must choose one of the four actions.
