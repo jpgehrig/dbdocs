@@ -1,0 +1,4 @@
+- [4-1        SQL Compatibility, by Oracle SQL function](developing-applications.md)
+- [4-2        DB2 UDB for Unix, Linux, and Windows Compatibility, by Oracle SQL Function](developing-applications.md)
+- [4-3        DB2 UDB for iSeries Compatibility, by Oracle SQL Function](developing-applications.md)
+- [4-4        Data Type Mapping and Restrictions](developing-applications.md)
