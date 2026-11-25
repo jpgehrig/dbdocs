@@ -1,0 +1,1 @@
+This image displays a graph that plots the date on the x-axis and the stock price on the y-axis. Along the x-axis, the graph area is divided into three parts labeled Match 1, Match 2, and Match 3. Match 1 and Match 2 adjoin each other.

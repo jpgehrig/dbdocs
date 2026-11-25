@@ -1,0 +1,1 @@
+This image displays a graph that illustrates rewriting a multi-selection query using a single-selection materialized view. The graph displays the Year of Birth column on the x-axis and the Credit Limit column on the y-axis.

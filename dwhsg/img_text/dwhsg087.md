@@ -1,0 +1,1 @@
+This data cube of time, market, prod, and sales is described in the accompanying text. It shows how managers, financial analysts, and product managers can have a different perspective. Also, it allows ad hoc queries.

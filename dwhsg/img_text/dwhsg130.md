@@ -1,0 +1,1 @@
+This graphic describes a cube of four partitions (P1, P2, P3, and P4), with each partition having three subpartitions (SP1, SP2, and SP3). P3 is highlighted. In addition, the graphic shows a materialized view (MV1) based on this cube.

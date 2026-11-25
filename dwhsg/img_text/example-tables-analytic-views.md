@@ -1,0 +1,79 @@
+This figure shows the following star schema tables:
+
+- TIME_DIM
+
+- SALES_FACT
+
+- PRODUCT_DIM
+
+- GEOGRAPHY_DIM
+
+The columns of the TIME_DIM table are:
+
+- YEAR_ID
+
+- YEAR_NAME
+
+- YEAR_END_DATE
+
+- QUARTER_ID
+
+- QUARTER_NAME
+
+- QUARTER_END_DATE
+
+- QUARTER_OF_YEAR
+
+- MONTH_ID
+
+- MONTH_NAME
+
+- MONTH_LONG_NAME
+
+- MONTH_END_DATE
+
+- MONTH_OF_YEAR
+
+- SEASON
+
+- SEASON_ORDER
+
+- MONTH_OF_QUARTER
+
+The columns of the SALES_FACT table are:
+
+- MONTH_ID
+
+- CATEGORY_ID
+
+- STATE_PROVINCE_ID
+
+- SALES
+
+- UNITS
+
+The columns of the PRODUCT_DIM table are:
+
+- DEPARTMENT_ID
+
+- DEPARTMENT_NAME
+
+- CATEGORY_ID
+
+- CATEGORY_NAME
+
+The columns of the GEOGRAPHY_DIM table are:
+
+- REGION_ID
+
+- REGION_NAME
+
+- COUNTRY_ID
+
+- COUNTRY_NAME
+
+- STATE_PROVINCE_ID
+
+- STATE_PROVINCE_NAME
+
+In the SALES_FACT table, the MONTH_ID, DEPARTMENT_ID, and STATE_PROVINCE_ID columns are foreign keys to the TIME_DIM, PRODUCT_DIM, and GEOGRAPHY_DIM dimension tables, respectively.

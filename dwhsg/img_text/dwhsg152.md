@@ -1,0 +1,1 @@
+This graphic illustrates how partition pruning is used for easier data access. When a query is run, only those partitions in the SALES table that contain data relevant to the query predicate are accessed.

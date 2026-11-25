@@ -1,0 +1,3 @@
+This graphic depicts how vector joins and VECTOR GROUP BY are used to optimize queries. On the top-right is the CUSTOMERS table, the bottom-right is the TIMES table, the bottom-left is the PRODUCTS table, and the top-left is the STORES table. The SALES fact is in the center of the graphic. All tables store data using columnar format and are connected to the SALES fact.
+
+On the left, in between the STORES and PRODUCTS tables, is a filter operator. There are two arrows, one from the STORES table to the filter operator and the second from the PRODUCTS table to the filter operator. An arrow from the filter operator to the SALES fact.

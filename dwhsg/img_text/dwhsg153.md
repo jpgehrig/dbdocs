@@ -1,0 +1,1 @@
+This image illustrates partition-wise full joins. On the left, is a rectangle representing the SALES table which contains four subpartitions. In the center is a rectangle representing the CUSTOMERS table which contains four partitions. On the right are four pairs of rectangles, with each pair indicating the subpartition from SALES that is joined with the partition from CUSTOMERS.

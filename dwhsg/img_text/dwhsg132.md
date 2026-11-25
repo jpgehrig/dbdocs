@@ -1,0 +1,1 @@
+This image illustrates the path used to calculate whether a statement will be run serially or in parallel. The graphic is partly described in the accompanying text. In addition to the text, though, it illustrates that the actual degree of parallelism used is the lower of PARALLEL_DEGREE_LIMIT or the ideal DOP.

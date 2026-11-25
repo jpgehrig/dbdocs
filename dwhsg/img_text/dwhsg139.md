@@ -1,0 +1,3 @@
+This image illustrates a partially-stale zone map. On the top-left is a rectangle labeled P1 representing the partition P1 of the SALES fact table. This rectangle is divided into three portions Z1, Z2, and Z3. On the bottom-left is a rectangle labeled P2 that represents the partition P2 of the SALES fact table. This rectangle is divided into two portions Z4 and Z5. A greyed-out area within Z4 indicates that this zone of the table contains an updated row.
+
+On the right is a rectangle that represents the SALES_ZMAP zone map table. It is divided into seven parts, labeled in the following order: Z2, Z3, Z5, Z4, Z1, P1, and P2. Z4 and P1 and depicted in grey to indicate that they contain stale rows.

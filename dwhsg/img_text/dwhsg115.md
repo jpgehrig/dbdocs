@@ -1,0 +1,1 @@
+This is described in the accompanying text. The partition q1 from sales_par_range_list has been updated, so the values for calendar_month_number less than four in sum_sales_per_year_month_mv are stale.
