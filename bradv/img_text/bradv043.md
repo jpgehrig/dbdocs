@@ -1,0 +1,7 @@
+# Description of the illustration bradv043.eps
+
+This graphic illustrates the backup and recovery documentation roadmap. The graphic resembles a flow chart and at the top is the Backup and Recovery Concepts in the Concepts Guide. All items following this one are chapters in the Backup and Recovery User's Guide. The second box represents the Introduction to Backup and Recovery chapter. After this box, there are two separate branches.
+
+The path on the right represents the user-managed recovery and contains boxes that represent the following chapters, in the order listed: Backing Up the Database and Performing Database Flashback and Recovery. This box can either lead to the End box directly or through the Performing Database Recovery: Advanced.
+
+The other path represents backup and recovery operations performed using RMAN and it contains the following boxes, from top to bottom, in the order listed: Starting RMAN, Configuring the RMAN Environment, Backing Up the Database, Reporting on RMAN Operations, Maintaining RMAN Backups, Using the Data Recovery Advisor, Performing Flashback and DBPITR, and Performing Complete Database Recovery. After this, there are two paths, one of which connects directly to the box labeled End. The other path connect to End through the following boxes, listed from top to bottom: Performing Block Media Library, Performing Advanced RMAN Recovery, and Tuning RMAN Performance.
