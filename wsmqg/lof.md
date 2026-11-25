@@ -1,0 +1,1 @@
+- [1-1        Components of the Gateway Architecture](database-gateway-webspheremq-introduction.md)
