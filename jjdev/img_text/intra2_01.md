@@ -1,0 +1,3 @@
+# Description of the illustration intra2_01.gif
+
+The figure illustrates a generic Java class hierarchy. The base class in the figure is the Employee class with the fields id and lastName. The PartTimeEmployee class inherits these fields from the Employee class and also defines its own field, schedule. The FullTimeEmployee class also inherits the Employee class and defines its own field, bonus. The ExemptEmployee class and the NonExemptEmployee class inherit the FullTimeEmployee class and indirectly inherit the Employee class through FullTimeEmployee. Both these classes define a salaryToDate() method.

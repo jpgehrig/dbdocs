@@ -1,0 +1,11 @@
+This section is intended for DBAs and security administrators, and provides guidelines for secure use of the Java SE functionality `Runtime.exec` in Java applications running inside Oracle Database. The `java.lang.Runtime.exec` methods, found in Java SE libraries and supported by Java Virtual Machine (Java VM) since release 9, span a new operating system (OS) process and execute the specified command and arguments in the new process. If a `SecurityManager` is present, which is always the case for Java VM running in the database, then a security check for file execution permissions on relevant path names is performed before the new OS process starts. If you are a DBA or a security administrator, then you are responsible for granting the appropriate file read, write, and execute permissions selectively to the database users, who are authorized to run server-side OS commands. In addition, Oracle strongly recommends that the `dbms_java.set_runtime_exec_credentials` procedure is used to control OS user identities of spawned commands as described in the following sections.
+
+By design, the `Runtime.exec` and the related functionality of the `java.lang.ProcessBuilder` and `java.lang.Process` classes provide no control over the identity of the user associated with the newly created process. In most Java implementations, including the default behavior of Java VM, the forked process runs with the identity of the parent process, which is the Oracle OS user in Oracle Database. For security reasons, it is advisable to run the processes forked by the `Runtime.exec` functionality with OS identity granted lesser rights. The `dbms_java.set_runtime_exec_credentials` procedure provides a mechanism to bind a specified database user/schema to a specific OS account. If you are a DBA, then you should bind database users issuing `Runtime.exec` calls to OS accounts with the least possible power. The following call associates database user/schema `DBUSER` with an OS `osuser` account:
+
+    dbms_java.set_runtime_exec_credentials('DBUSER', 'osuser', 'ospass');
+
+As a result, the OS process spawned to run the `Runtime.exec` commands issued by `DBUSER` runs with the identity of `osuser`. You must be the `SYS` user to use `set_runtime_exec_credentials` procedure.
+
+**Related Topics**
+
+- [set_runtime_exec_credentials](DBMS-JAVA-package.md)

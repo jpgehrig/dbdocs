@@ -1,0 +1,3 @@
+# Description of the illustration vmlayercake.gif
+
+The figure illustrates a conceptual view of Oracle Database Java component structure. Java applications reside on top of the Java core libraries and Oracle supported Java application programming interfaces (APIs) such as SQLJ, JDBC, and JNDI. The Java application utilizes these libraries and APIs and interact with the Oracle JVM. Unlike the general case, in which the JVM directly interacts with the underlying operating system, the Oracle JVM resides on top of Oracle Database libraries and interacts with the operating system through these libraries.
