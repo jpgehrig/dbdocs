@@ -1,0 +1,1 @@
+The graphic displays the processing flow for the five states of SQL Apply processing: initializing, loading dictionary, applying, waiting for gap, and the idle state. These states are described in detail in the text following this graphic.

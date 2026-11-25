@@ -1,0 +1,1 @@
+This illustration shows each instance of a Real Application Clusters multi-instance primary database archiving redo logs to a single-instance standby database. The text following this illustration describes how the standby database correctly applies the multiple archived redo logs that are arriving from each primary database instance.

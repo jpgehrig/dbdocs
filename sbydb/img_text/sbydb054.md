@@ -1,0 +1,1 @@
+This illustration shows a Data Guard configuration consisting of a primary database and a physical standby database. From the primary database, redo data is archived to the standby database where log apply services use Redo Apply technology to apply redo from the archived redo log files to the physical standby database.

@@ -1,0 +1,1 @@
+The illustration shows a Data Guard configuration before the upgrade begins, with the primary and logical standby databases both running the same Oracle Database software release. In the figure, the primary and standby databases are both running at version "x" and SQL Apply is actively transporting redo from the primary to logical standby database.

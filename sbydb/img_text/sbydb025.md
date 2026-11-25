@@ -1,0 +1,1 @@
+The illustration shows the Data Guard configuration after both databases have been upgraded to release y. SQL Apply has been started so that redo that was accumulating on the primary database (B) is now being sent to the logical standby database (A).

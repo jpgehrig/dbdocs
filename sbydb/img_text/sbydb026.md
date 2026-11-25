@@ -1,0 +1,1 @@
+The illustration shows Database A running release x, and Database B running release y. During the upgrade, redo transport services are not transmitting data from the primary database to the standby database, so redo data is accumulating on the primary system.
