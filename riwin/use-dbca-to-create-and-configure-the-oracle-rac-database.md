@@ -1,0 +1,39 @@
+## Using Oracle DBCA to Create and Configure the Oracle RAC Database
+
+Use Oracle Database Configuration Assistant (DBCA) to create an Oracle Real Application Clusters (Oracle RAC) database that uses Direct NFS for datafile storage.
+
+1.  From the `Oracle_home``\bin` directory, run `dbca.exe` to start the Database Configuration Assistant.
+2.  On the Database Operation screen, select Create Database.
+3.  On the Creation Mode screen, select Advanced Configuration.
+4.  On the Database Template screen, select Oracle Real Application Clusters (RAC) database for the Database Type.
+    For the Configuration Type, you can choose either Policy-Managed or Administrator-Managed. Select the template most appropriate for the type of database you want to create.
+5.  For the next four screen, make selections and provide information that best meet your business requirements.
+6.  Perform the following steps on the Storage Locations screen:
+    1.  Select File System for the Database files Storage type.
+    2.  Select the option Use Common Location for All Database Files.
+    3.  In the File location field, specify the location of the ACFS mount point, for example, `C:\oradatamnt`.
+7.  On the Specify Database Options screen, choose any additional configuration you want for your database.
+8.  On the Configurations Options screen, use the default settings, or provide customized values for the initialization parameters.
+9.  On the Creation Options screen, select the option Generate Database Creation Scripts. Specify a destination directory for the script file, or use the default value.
+10. After the Prerequisite checks complete, on the Summary screen, minimize the installation window. DO NOT click Finish at this point.
+11. Enable the Direct NFS option.
+12. Remove the virtual mount point you created with Oracle Automatic Storage Management Configuration Assistant (ASMCA).
+13. Create all the directories needed locally on each node as well as on the NFS server.
+    For this example, you can create the following, where `orcl` represents the database SID and `pdb1` represents the Pluggable Database (PDB) name:
+    - On each node, create the directory `c:\oracle\oradatamnt\orcl\pdb1`
+
+    - On the NFS server, create the directory `/export/abcd/orcl/pdb1`
+14. Return to the DBCA window and click Finish.
+15. Run the generated scripts on the cluster node to create the database.
+16. Map a drive letter to a Common Internet File System (CIFS) share on the NFS server that represents the location of the database files.
+    Use a command similar to the following:
+        NET USE * \\filer\vol0\orcl
+
+    After you complete this step, both Oracle and Microsoft Windows operating system can access the location where the database files reside. Oracle is using DNFS, but Microsoft Windows operating system uses CIFS to access the same location on the NFS server.
+17. Verify Direct NFS is configured for the database.
+    1.  Start SQL\*Plus.
+    2.  Connect to the newly created database as a DBA user.
+    3.  Run the following SQL command:
+            SELECT * FROM v$dnfs_servers;
+
+**Parent topic:** [Creating an Oracle RAC Database on Direct NFS](creating-an-oracle-rac-database-on-direct-nfs.md)

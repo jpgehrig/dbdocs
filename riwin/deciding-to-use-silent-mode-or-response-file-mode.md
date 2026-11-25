@@ -1,0 +1,12 @@
+## Deciding to Use Silent Mode or Response File Mode
+
+There are several reasons for running the installer in silent mode or response file mode.
+
+Table A-1 Reasons for Using Silent Mode or Response File Mode
+
+| Mode          | Reasons to Use                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|:--------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Silent        | Use silent mode for the following installations:<br>• To complete an unattended installation, which you schedule using operating system utilities<br>• To complete several similar installations on multiple systems without user interaction<br>• Install the software on a system that cannot display the Oracle Universal Installer (OUI) graphical user interface<br>OUI displays progress information on the terminal that you used to start it, but it does not display any of the installer screens. |
+| Response file | Use response file mode to complete similar Oracle software installations on more than one system, providing default answers to some, but not all the installer prompts.<br>If you do not specify information required for a particular OUI screen in the response file, then the installer displays that screen. OUI suppresses screens for which you have provided all of the required information.                                                                                                        |
+
+**Parent topic:** [How Response Files Work](how-response-files-work.md)
