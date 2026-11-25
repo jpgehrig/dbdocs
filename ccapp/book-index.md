@@ -1,0 +1,1013 @@
+A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Z  
+
+------------------------------------------------------------------------
+
+## A
+
+- ABOUT operator [3.1.2](indexing-with-oracle-text.md), [3.7.1](indexing-with-oracle-text.md)
+- ABOUT query [7.1.1](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+  - adding for your language [13.10.1](working-with-thesaurus-in-oracle-text.md)
+  - case-sensitivity [6.2.2](querying-with-oracle-text.md)
+  - definition [6.1.6](querying-with-oracle-text.md)
+- accents
+  - indexing characters with [3.7.2](indexing-with-oracle-text.md)
+- ADD_SUB_LEXER procedure
+  - example [C.5](custom-index-preference-examples.md)
+- administration tool [17.5](administering-oracle-text.md)
+- all-at-once swap [5.4.2](maintaining-oracle-text-indexes.md)
+- ALTER INDEX statement
+  - rebuilding index [5.5](maintaining-oracle-text-indexes.md)
+- alternate_spelling attribute [3.7.3](indexing-with-oracle-text.md)
+- alternate spelling [3.7.3](indexing-with-oracle-text.md)
+- alternative grammar [6.2.7.6](querying-with-oracle-text.md)
+- alternative grammar template [6.2.7.6](querying-with-oracle-text.md)
+- alternative scoring [6.2.7.5](querying-with-oracle-text.md)
+- alternative scoring template [6.2.7.5](querying-with-oracle-text.md)
+- application
+  - sample [A](CONTEXT-query-application.md), [B](CATSEARCH-query-application.md)
+- applications, updating [18](migrating-oracle-text-applications.md)
+- attribute
+  - searching XML [11.3.2](searching-document-sections-in-oracle-text.md)
+- attribute sections [11.1.2.7](searching-document-sections-in-oracle-text.md)
+- auction table schema example [4.6.3](creating-oracle-text-indexes.md)
+- AUTO_FILTER filter [10.10.4](tuning-oracle-text.md)
+- AUTO_LEXER with fuzzy matching and stemming [3.9](indexing-with-oracle-text.md)
+- AUTO keyword
+  - character sets and [3.2.7](indexing-with-oracle-text.md)
+- AUTOMATIC keyword
+  - character sets and [3.2.7](indexing-with-oracle-text.md)
+- automatic sections [11.3.1](searching-document-sections-in-oracle-text.md)
+
+------------------------------------------------------------------------
+
+## B
+
+- background DML [17.6](administering-oracle-text.md)
+- base_letter attribute [3.7.2](indexing-with-oracle-text.md)
+- base-letter conversion [3.7.2](indexing-with-oracle-text.md)
+- BASIC_LEXER preference type [3.4](indexing-with-oracle-text.md)
+- BFILE column [3.2.2](indexing-with-oracle-text.md)
+  - indexing [4.5.2](creating-oracle-text-indexes.md)
+- BIG_IO index option [10.2.7](tuning-oracle-text.md)
+- BINARY format column value [3.2.10.2](indexing-with-oracle-text.md)
+- BLOB column [3.2.2](indexing-with-oracle-text.md)
+  - indexing [4.5.2](creating-oracle-text-indexes.md)
+- blocking operations
+  - tuning queries with [10.8](tuning-oracle-text.md)
+- b-tree index [4.6.3](creating-oracle-text-indexes.md)
+- bypassing rows [3.2.11](indexing-with-oracle-text.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- cantaloupe dispenser [A.1](CONTEXT-query-application.md)
+- case-insensitive queries [3.5](indexing-with-oracle-text.md)
+- case-sensitive
+  - ABOUT query [6.2.2](querying-with-oracle-text.md)
+  - indexing [3.5](indexing-with-oracle-text.md)
+  - queries [6.2.2](querying-with-oracle-text.md)
+  - thesaurus [13.1.2](working-with-thesaurus-in-oracle-text.md)
+- catalog application
+  - example [2.4](getting-started-with-oracle-text.md)
+- catalog information application [1.3](understanding-oracle-text-application-development.md)
+  - flowchart [1.3.2](understanding-oracle-text-application-development.md)
+- catalog table relationships [1.3.1](understanding-oracle-text-application-development.md)
+- CATSEARCH [6.1.2](querying-with-oracle-text.md)
+  - operators [7.2](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+  - SQL example [6.1.2.1](querying-with-oracle-text.md)
+- CATSEARCH operator [1.3.1](understanding-oracle-text-application-development.md), [2.4.2](getting-started-with-oracle-text.md)
+- CATSEARCH queries [2.4.2](getting-started-with-oracle-text.md)
+- Character Large Object (CLOB) [2.3.2](getting-started-with-oracle-text.md)
+- character set
+  - detection [3.2.12](indexing-with-oracle-text.md)
+  - indexing [3.2.12](indexing-with-oracle-text.md)
+  - indexing mixed [3.2.12](indexing-with-oracle-text.md)
+- character set column [3.2.7](indexing-with-oracle-text.md)
+- CHAR column [3.2.2](indexing-with-oracle-text.md)
+- charset column [3.2.12](indexing-with-oracle-text.md)
+- Chinese indexing [3.7.5](indexing-with-oracle-text.md)
+- classification
+  - Decision Tree (supervised) [9.5.1](classifying-documents-in-oracle-text.md)
+  - rule-based [9.4](classifying-documents-in-oracle-text.md)
+  - simple, see rule-based classification [9.4](classifying-documents-in-oracle-text.md)
+  - supervised [9.5](classifying-documents-in-oracle-text.md)
+  - SVM (supervised) [9.5.3](classifying-documents-in-oracle-text.md)
+  - unsupervised [9.6](classifying-documents-in-oracle-text.md)
+- classification application
+  - creating [2.5.2](getting-started-with-oracle-text.md)
+  - example [2.5](getting-started-with-oracle-text.md)
+  - overview illustration [2.5.1](getting-started-with-oracle-text.md)
+- CLOB (Character Large Object) data type [2.3.2](getting-started-with-oracle-text.md)
+- CLOB column [3.2.2](indexing-with-oracle-text.md)
+  - indexing [4.5.2](creating-oracle-text-indexes.md)
+- CLOB data type [2.3.2](getting-started-with-oracle-text.md)
+- clustering, see unsupervised classification [9.6](classifying-documents-in-oracle-text.md)
+- clustering with classification [2.5.1](getting-started-with-oracle-text.md)
+- collocates [15.5](using-XML-query-result-set-interface.md)
+- column types
+  - supported for indexing [3.2.2](indexing-with-oracle-text.md)
+- column types that cannot be indexed [3.2.2](indexing-with-oracle-text.md)
+- combined catalog index [4.6.4](creating-oracle-text-indexes.md)
+- composite attribute [3.7.4](indexing-with-oracle-text.md)
+- composite words
+  - indexing [3.7.4](indexing-with-oracle-text.md)
+- concordance [8.1.3.3](presenting-documents-in-oracle-text.md)
+- CONNECT role [2.2](getting-started-with-oracle-text.md)
+- CONTAINS
+  - operators [7.1](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+  - PL/SQL example [6.1.1.2](querying-with-oracle-text.md)
+  - query [6.1.1](querying-with-oracle-text.md)
+  - SQL example [6.1.1.1](querying-with-oracle-text.md)
+  - structured query [6.1.1.3](querying-with-oracle-text.md)
+- CONTAINS operator [3.1.1](indexing-with-oracle-text.md)
+  - XML search applications and [1.5.1](understanding-oracle-text-application-development.md)
+- CONTAINS query [2.3.2](getting-started-with-oracle-text.md)
+- CONTEXT data storage [3.2.3](indexing-with-oracle-text.md)
+- CONTEXT grammar [7.1](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+- CONTEXT index [1.2.1](understanding-oracle-text-application-development.md), [3.1.1](indexing-with-oracle-text.md)
+  - creating [4.1](creating-oracle-text-indexes.md), [4.5](creating-oracle-text-indexes.md)
+  - HTML example [4.5.4](creating-oracle-text-indexes.md), [A.2.2](CONTEXT-query-application.md)
+  - structure [3.1.2](indexing-with-oracle-text.md)
+  - XML search applications and [1.5.1](understanding-oracle-text-application-development.md)
+- continuation [3.4](indexing-with-oracle-text.md)
+- cost for indexing [4.6.2](creating-oracle-text-indexes.md)
+- couch, self-tipping [A.1](CONTEXT-query-application.md)
+- counting hits [7.1.10](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+- CREATE_INDEX_SCRIPT [17.4](administering-oracle-text.md)
+- CREATE_POLICY_SCRIPT [17.4](administering-oracle-text.md)
+- CREATE INDEX statement [3.2](indexing-with-oracle-text.md)
+- CTX_CLS.TRAIN procedure [9.5](classifying-documents-in-oracle-text.md)
+- CTX_DDL.ADD_STOPWORD procedure [4.4.1](creating-oracle-text-indexes.md)
+- CTX_DDL.CREATE_STOPLIST procedure [4.4.1](creating-oracle-text-indexes.md)
+- CTX_DDL.EXCHANGE_SHADOW_INDEX procedure [5.4.1](maintaining-oracle-text-indexes.md)
+- CTX_DDL.MAXTIME_UNLIMITED procedure [5.7.2](maintaining-oracle-text-indexes.md)
+- CTX_DDL.SYNC_INDEX procedure [2.3.2](getting-started-with-oracle-text.md), [4.5.1](creating-oracle-text-indexes.md), [5.7.2](maintaining-oracle-text-indexes.md)
+- CTX_DDL package [3.12](indexing-with-oracle-text.md)
+- CTX_DOC.MARKUP procedure [2.3.2](getting-started-with-oracle-text.md)
+- CTX_DOC.POLICY_SNIPPET procedure [8.1.3.3](presenting-documents-in-oracle-text.md)
+- CTX_DOC.SNIPPET procedure [8.1.3.3](presenting-documents-in-oracle-text.md)
+- CTX_DOC package [2.3.2](getting-started-with-oracle-text.md)
+- CTX_FILTER_CACHE_STATISTICS view [10.2.6](tuning-oracle-text.md)
+- CTX_INDEX_ERRORS view [5.1](maintaining-oracle-text-indexes.md), [17.2](administering-oracle-text.md)
+- CTX_PENDING view [17.2](administering-oracle-text.md)
+- CTX_QUERY.RESULT_SET_CLOB_QUERY procedure [15.2](using-XML-query-result-set-interface.md)
+- CTX_QUERY.RESULT_SET procedure [15.2](using-XML-query-result-set-interface.md)
+- CTX_REPORT [5.7.3.4](maintaining-oracle-text-indexes.md)
+- CTX_REPORT_TOKEN_TYPE [17.4](administering-oracle-text.md)
+- CTX_REPORT.CREATE_INDEX_SCRIPT [17.4](administering-oracle-text.md)
+- CTX_REPORT.CREATE_POLICY_SCRIPT [17.4](administering-oracle-text.md)
+- CTX_REPORT.DESCRIBE_INDEX [17.4](administering-oracle-text.md)
+- CTX_REPORT.DESCRIBE_POLICY [17.4](administering-oracle-text.md)
+- CTX_REPORT.INDEX_SIZE [17.4](administering-oracle-text.md)
+- CTX_REPORT.INDEX_STATS [17.4](administering-oracle-text.md)
+- CTX_REPORT.QUERY_LOG_SUMMARY [17.4](administering-oracle-text.md)
+- CTX_REPORT.TOKEN_INFO [17.4](administering-oracle-text.md)
+- CTX_REPORT package [17.4](administering-oracle-text.md)
+- CTX_THES.IMPORT_THESAURUS
+  - load thesaurus example [13.8](working-with-thesaurus-in-oracle-text.md)
+- CTX_THES package
+  - about [13.1.1](working-with-thesaurus-in-oracle-text.md)
+- CTX_USER_INDEX_ERRORS view [5.1](maintaining-oracle-text-indexes.md), [17.2](administering-oracle-text.md)
+- CTX_USER_PENDING view [17.2](administering-oracle-text.md)
+- CTXAPP role [2.2](getting-started-with-oracle-text.md), [17.1](administering-oracle-text.md)
+  - granting [2.2](getting-started-with-oracle-text.md)
+- CTXCAT data storage [3.2.3](indexing-with-oracle-text.md)
+- CTXCAT grammar [7.2](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+- CTXCAT index [1.3.1](understanding-oracle-text-application-development.md), [3.1.1](indexing-with-oracle-text.md)
+  - about performance [10.9.18](tuning-oracle-text.md)
+  - automatic synchronization [2.4.2](getting-started-with-oracle-text.md)
+  - example [4.6](creating-oracle-text-indexes.md)
+  - subindex [2.4.2](getting-started-with-oracle-text.md)
+- CTXFILTERCACHE operator [10.2.6](tuning-oracle-text.md)
+- ctxkbtc
+  - example [13.9](working-with-thesaurus-in-oracle-text.md)
+- ctxload
+  - load thesaurus example [13.1.1](working-with-thesaurus-in-oracle-text.md), [13.4](working-with-thesaurus-in-oracle-text.md), [13.7](working-with-thesaurus-in-oracle-text.md)
+- CTXRULE index [1.4](understanding-oracle-text-application-development.md), [9.4.2](classifying-documents-in-oracle-text.md)
+  - allowable queries [9.4.2](classifying-documents-in-oracle-text.md)
+  - creating [4.7](creating-oracle-text-indexes.md)
+  - lexer types [9.4.2](classifying-documents-in-oracle-text.md)
+  - limitations [9.4.2](classifying-documents-in-oracle-text.md)
+  - parameters [9.4.2](classifying-documents-in-oracle-text.md)
+- CTXSYS.AUTO_FILTER filter type [2.3.2](getting-started-with-oracle-text.md)
+- CTXSYS user [17.1](administering-oracle-text.md)
+- custom CONTEXT index example [4.5.4](creating-oracle-text-indexes.md)
+- custom filtering [3.2.10.3](indexing-with-oracle-text.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- data staging [3.1.7](indexing-with-oracle-text.md)
+- data storage
+  - CONTEXT data [3.2.3](indexing-with-oracle-text.md)
+  - CTXCAT data [3.2.3](indexing-with-oracle-text.md)
+  - index default [4.5.2](creating-oracle-text-indexes.md)
+  - preference example [C.1](custom-index-preference-examples.md)
+- datastore
+  - about [3.1.3.1](indexing-with-oracle-text.md), [4.1](creating-oracle-text-indexes.md)
+- DATASTORE types
+  - summary of [3.2.9](indexing-with-oracle-text.md)
+- DATE column [4.5.2](creating-oracle-text-indexes.md)
+- Decision Tree supervised classification [9.5.1](classifying-documents-in-oracle-text.md)
+- decreasing indexing time [3.1.7](indexing-with-oracle-text.md)
+- DEFAULT_INDEX_MEMORY [10.10.2](tuning-oracle-text.md)
+- defaults
+  - index [4.5.2](creating-oracle-text-indexes.md)
+- default thesaurus [13.1.4](working-with-thesaurus-in-oracle-text.md)
+- DEFINEMERGE operator [7.1.11](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+- DEFINESCORE operator [7.1.11](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+- degree of parallelism [3.13](indexing-with-oracle-text.md)
+- DESCRIBE_INDEX [17.4](administering-oracle-text.md)
+- diacritical marks
+  - characters with [3.7.2](indexing-with-oracle-text.md)
+- DIRECT_DATASTORE
+  - example [C.1](custom-index-preference-examples.md)
+- DML
+  - view pending [5.7.1](maintaining-oracle-text-indexes.md)
+- DML processing
+  - background [17.6](administering-oracle-text.md)
+- DML queue [17.2](administering-oracle-text.md)
+- document
+  - classification [4.7](creating-oracle-text-indexes.md), [9](classifying-documents-in-oracle-text.md)
+- document classification application [1.4](understanding-oracle-text-application-development.md)
+  - overview illustration [1.4](understanding-oracle-text-application-development.md)
+- document collections [1.2](understanding-oracle-text-application-development.md)
+- document filtering [4.5.2](creating-oracle-text-indexes.md)
+- document format
+  - affect on index performance [10.10.4](tuning-oracle-text.md)
+  - affect on performance [10.9.5](tuning-oracle-text.md)
+- document formats
+  - filtering [3.2.10](indexing-with-oracle-text.md)
+  - supported [3.2.8](indexing-with-oracle-text.md)
+- document invalidation [5.7.3.2](maintaining-oracle-text-indexes.md)
+- document presentation
+  - about [8.4](presenting-documents-in-oracle-text.md)
+- document section
+  - searching [3.11](indexing-with-oracle-text.md)
+- document sections [4.3](creating-oracle-text-indexes.md)
+- document services
+  - about [8.4](presenting-documents-in-oracle-text.md)
+- document theme [3.7.1](indexing-with-oracle-text.md)
+- DOMAIN_INDEX_NO_SORT hint
+  - better throughput example [10.3](tuning-oracle-text.md)
+- DOMAIN_INDEX_SORT hint
+  - better response time example [10.2.3](tuning-oracle-text.md)
+- domain index [3.1.1](indexing-with-oracle-text.md)
+- double-truncated query [3.10](indexing-with-oracle-text.md)
+- drop index example [5.2](maintaining-oracle-text-indexes.md)
+- dropping an index [5.2](maintaining-oracle-text-indexes.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- endjoin [3.4](indexing-with-oracle-text.md)
+- entity extraction [3.9](indexing-with-oracle-text.md)
+- errors
+  - DML [17.2](administering-oracle-text.md)
+  - viewing [5.1](maintaining-oracle-text-indexes.md)
+- EXCHANGE_SHADOW_INDEX procedure [5.4.2](maintaining-oracle-text-indexes.md)
+- execute privileges
+  - granting [2.2](getting-started-with-oracle-text.md)
+- explain plan [6.2.4](querying-with-oracle-text.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- faceted navigation
+  - about [14.1](using-faceted-navigation.md)
+- facets using Result Set Interface
+  - querying [14.3](using-faceted-navigation.md)
+- failed index
+  - resuming [5.3](maintaining-oracle-text-indexes.md)
+- FAST mode [5.7.3.1](maintaining-oracle-text-indexes.md)
+- feedback
+  - query [6.2.3](querying-with-oracle-text.md)
+- field section
+  - definition [11.1.2.2](searching-document-sections-in-oracle-text.md)
+  - nested [11.1.2.2](searching-document-sections-in-oracle-text.md)
+  - repeated [11.1.2.2](searching-document-sections-in-oracle-text.md)
+  - visible and invisible [11.1.2.2](searching-document-sections-in-oracle-text.md)
+- filter
+  - about [3.1.3.2](indexing-with-oracle-text.md), [4.1](creating-oracle-text-indexes.md)
+- filtering
+  - custom [3.2.10.3](indexing-with-oracle-text.md)
+  - index default [4.5.2](creating-oracle-text-indexes.md)
+  - to plain text and HTML [8.4](presenting-documents-in-oracle-text.md)
+- filtering documents [3.2.10](indexing-with-oracle-text.md)
+- FIRST_ROWS(n) hint [10.2.2](tuning-oracle-text.md)
+- FIRST_ROWS hint [7.1.9](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+  - better throughput example [10.3](tuning-oracle-text.md)
+- flowchart of a simple text query application [1.2.2](understanding-oracle-text-application-development.md)
+- format column [3.2.7](indexing-with-oracle-text.md), [3.2.10.2](indexing-with-oracle-text.md), [3.2.11](indexing-with-oracle-text.md)
+- formats
+  - filtering [3.2.10](indexing-with-oracle-text.md)
+  - supported [3.2.8](indexing-with-oracle-text.md)
+- forward_index attribute [3.6.1](indexing-with-oracle-text.md), [3.6.2](indexing-with-oracle-text.md)
+- forward index [3.6](indexing-with-oracle-text.md)
+- fragmentation of index [5.7.3.1](maintaining-oracle-text-indexes.md), [10.11.2](tuning-oracle-text.md)
+  - viewing [5.7.3.4](maintaining-oracle-text-indexes.md)
+- FULL mode [5.7.3.1](maintaining-oracle-text-indexes.md)
+- full themes
+  - obtaining [8.3.1](presenting-documents-in-oracle-text.md)
+- functional lookup [10.9.6](tuning-oracle-text.md)
+- fuzzy matching [3.9](indexing-with-oracle-text.md)
+  - default [4.5.2](creating-oracle-text-indexes.md)
+- fuzzy operator [7.1.5](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- garbage collection [5.7.3.2](maintaining-oracle-text-indexes.md)
+- German
+  - alternate spelling [3.7.3](indexing-with-oracle-text.md)
+  - composite words [3.7.4](indexing-with-oracle-text.md)
+- gist
+  - definition [8.3](presenting-documents-in-oracle-text.md)
+  - example [8.3.2](presenting-documents-in-oracle-text.md)
+- grammar
+  - alternative [6.2.7.6](querying-with-oracle-text.md)
+  - CTXCAT [7.2](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+- grammar CONTEXT [7.1](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+- granting roles [17.1.3](administering-oracle-text.md)
+
+------------------------------------------------------------------------
+
+## H
+
+- HASPATH operator [11.3.4](searching-document-sections-in-oracle-text.md)
+- HASPATH operators
+  - examples [11.3.4.8](searching-document-sections-in-oracle-text.md)
+- highlighting
+  - about [8.4](presenting-documents-in-oracle-text.md)
+  - overview [8.1](presenting-documents-in-oracle-text.md)
+- highlighting documents [2.3.2](getting-started-with-oracle-text.md)
+- highlighting text [8.1.1](presenting-documents-in-oracle-text.md)
+- highlighting themes [8.1.2](presenting-documents-in-oracle-text.md)
+- hit count [7.1.10](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+- home air dirtier [A.1](CONTEXT-query-application.md)
+- HTML
+  - filtering to [8.4](presenting-documents-in-oracle-text.md)
+  - indexing [C.2](custom-index-preference-examples.md)
+  - indexing example [A.2.2](CONTEXT-query-application.md)
+  - searching META tags [11.2.2](searching-document-sections-in-oracle-text.md)
+  - zone section example [4.3](creating-oracle-text-indexes.md), [11.2.1](searching-document-sections-in-oracle-text.md)
+- HTML_SECTION_GROUP object [4.3](creating-oracle-text-indexes.md), [11.2.1](searching-document-sections-in-oracle-text.md)
+  - with NULL_FILTER [A.2.2](CONTEXT-query-application.md), [C.2](custom-index-preference-examples.md)
+- HTML_SECTION_GROUP type [2.3.2](getting-started-with-oracle-text.md)
+- HTML section example [4.3](creating-oracle-text-indexes.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- IGNORE
+  - format column value [3.2.11](indexing-with-oracle-text.md)
+- IGNORE format column type [3.2.10.2](indexing-with-oracle-text.md)
+- IGNORE format column value [3.2.10.2](indexing-with-oracle-text.md)
+- IGNORE value [3.1.3.2](indexing-with-oracle-text.md)
+- index
+  - about [3.1](indexing-with-oracle-text.md)
+  - creating [4.1](creating-oracle-text-indexes.md)
+  - dropping [5.2](maintaining-oracle-text-indexes.md)
+  - fragmentation [5.7.3.1](maintaining-oracle-text-indexes.md)
+  - getting report on [17.4](administering-oracle-text.md)
+  - maintenance [5](maintaining-oracle-text-indexes.md)
+  - online recreation [5.4.1](maintaining-oracle-text-indexes.md)
+  - optimizing [5.7.3](maintaining-oracle-text-indexes.md)
+  - rebuilding [5.5](maintaining-oracle-text-indexes.md)
+  - statistics on [17.4](administering-oracle-text.md)
+  - structure [3.1.2](indexing-with-oracle-text.md), [5.7.3](maintaining-oracle-text-indexes.md)
+  - synchronizing [5.7.2](maintaining-oracle-text-indexes.md), [17.6](administering-oracle-text.md)
+  - viewing information on [17.4](administering-oracle-text.md)
+- INDEX_SIZE [17.4](administering-oracle-text.md)
+- INDEX_STATS [17.4](administering-oracle-text.md)
+- INDEX_STATS procedure [5.7.3.4](maintaining-oracle-text-indexes.md)
+- index_themes attribute [3.7.1](indexing-with-oracle-text.md)
+- index defaults
+  - general [4.5.2](creating-oracle-text-indexes.md)
+- indexed columns
+  - updating [3.1.4](indexing-with-oracle-text.md)
+- indexed lookup [10.9.6](tuning-oracle-text.md)
+- index engine
+  - about [3.1.3.5](indexing-with-oracle-text.md)
+- index errors
+  - viewing [5.1](maintaining-oracle-text-indexes.md)
+- index fragmentation [10.11.2](tuning-oracle-text.md)
+  - reducing [5.7.3.1](maintaining-oracle-text-indexes.md)
+- indexing
+  - bypassing rows [3.2.11](indexing-with-oracle-text.md)
+  - considerations [3.2](indexing-with-oracle-text.md)
+  - languages [3.3](indexing-with-oracle-text.md)
+  - overview of process [3.1.3](indexing-with-oracle-text.md)
+  - parallel [3.1.7](indexing-with-oracle-text.md), [10.10.5](tuning-oracle-text.md)
+  - resuming failed [5.3](maintaining-oracle-text-indexes.md)
+  - special characters [3.4](indexing-with-oracle-text.md)
+  - views and [3.1.8](indexing-with-oracle-text.md)
+- indexing HTML [3.2.10.1](indexing-with-oracle-text.md)
+- indexing performance
+  - FAQs [10.10](tuning-oracle-text.md)
+  - parallel [10.10.6](tuning-oracle-text.md)
+- indexing plain text [3.2.10.1](indexing-with-oracle-text.md)
+- indexing time [10.10.1](tuning-oracle-text.md)
+  - decreasing [3.1.7](indexing-with-oracle-text.md)
+- index memory [10.10.2](tuning-oracle-text.md)
+- index synchronization [2.3.2](getting-started-with-oracle-text.md)
+- index types
+  - choosing [3.1.1](indexing-with-oracle-text.md)
+- init.ora setting [3.1.7](indexing-with-oracle-text.md)
+- INPATH operator [11.3.4](searching-document-sections-in-oracle-text.md)
+  - examples [11.3.4.2](searching-document-sections-in-oracle-text.md)
+- INSERT statement
+  - example [2.3.1](getting-started-with-oracle-text.md)
+- inverted index [3.6](indexing-with-oracle-text.md)
+
+------------------------------------------------------------------------
+
+## J
+
+- JA16EUC character set [3.2.12](indexing-with-oracle-text.md)
+- JA16SJIS character set [3.2.12](indexing-with-oracle-text.md)
+- Japanese indexing [3.7.5](indexing-with-oracle-text.md)
+- Jdeveloper
+  - Text wizard [A](CONTEXT-query-application.md), [B](CATSEARCH-query-application.md)
+
+------------------------------------------------------------------------
+
+## K
+
+- knowledge base
+  - about [13.10](working-with-thesaurus-in-oracle-text.md)
+  - augmenting [13.5](working-with-thesaurus-in-oracle-text.md)
+  - linking new terms [13.6](working-with-thesaurus-in-oracle-text.md)
+  - user-defined [13.10.1](working-with-thesaurus-in-oracle-text.md)
+- Korean indexing [3.7.5](indexing-with-oracle-text.md)
+
+------------------------------------------------------------------------
+
+## L
+
+- language
+  - default setting for indexing [4.5.2](creating-oracle-text-indexes.md)
+- languages
+  - indexing [3.3](indexing-with-oracle-text.md)
+- language specific features [3.7](indexing-with-oracle-text.md)
+- language-specific knowledge base [13.10.1](working-with-thesaurus-in-oracle-text.md)
+- left-truncated query [3.10](indexing-with-oracle-text.md)
+- lexer
+  - about [3.1.3.4](indexing-with-oracle-text.md), [4.1](creating-oracle-text-indexes.md)
+  - and CTXRULE [9.4.2](classifying-documents-in-oracle-text.md)
+- list of themes
+  - definition [8.3](presenting-documents-in-oracle-text.md)
+  - obtaining [8.3.1](presenting-documents-in-oracle-text.md)
+- loading text
+  - about [3.2.1](indexing-with-oracle-text.md)
+- LOB columns
+  - improving query performance [10.9.12](tuning-oracle-text.md)
+  - indexing [4.5.2](creating-oracle-text-indexes.md)
+- LOB column storage [3.14](indexing-with-oracle-text.md)
+- local partitioned index [10.9.15](tuning-oracle-text.md)
+  - improved response time [10.2.4](tuning-oracle-text.md)
+- location of text [3.2.1](indexing-with-oracle-text.md)
+- locked base table [3.1.6](indexing-with-oracle-text.md)
+- locking parameter for sync_index [5.7.2](maintaining-oracle-text-indexes.md)
+- logical operators [7.1.2](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+- low information words [3.12](indexing-with-oracle-text.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- maintaining the index [5](maintaining-oracle-text-indexes.md)
+- mapping table
+  - forward index and [3.6](indexing-with-oracle-text.md)
+- marked-up document
+  - obtaining [8.1.3.1](presenting-documents-in-oracle-text.md)
+- MARKUP procedure [2.3.2](getting-started-with-oracle-text.md)
+- MATCHES
+  - about [6.1.3](querying-with-oracle-text.md)
+  - PL/SQL example [6.1.3.2](querying-with-oracle-text.md)
+  - SQL example [6.1.3.1](querying-with-oracle-text.md)
+- MATCHES operator [1.4](understanding-oracle-text-application-development.md), [2.5.1](getting-started-with-oracle-text.md), [2.5.2](getting-started-with-oracle-text.md), [3.1.1](indexing-with-oracle-text.md), [9.4.1](classifying-documents-in-oracle-text.md)
+  - classifying with [2.5.2](getting-started-with-oracle-text.md)
+- materialized views, indexes on [3.1.8](indexing-with-oracle-text.md)
+- MAX_INDEX_MEMORY [10.10.2](tuning-oracle-text.md)
+- maxtime parameter for sync_index [5.7.2](maintaining-oracle-text-indexes.md)
+- MDATA operators [11.1.2.4](searching-document-sections-in-oracle-text.md)
+- MDATA section [11.1.2.4](searching-document-sections-in-oracle-text.md)
+- memory allocation [3.13](indexing-with-oracle-text.md)
+  - indexing [10.10.2](tuning-oracle-text.md)
+  - index synchronization [10.11.3](tuning-oracle-text.md)
+  - querying [10.9.11](tuning-oracle-text.md)
+- merged word and theme index [3.1.2](indexing-with-oracle-text.md)
+- metadata
+  - adding [11.1.2.4](searching-document-sections-in-oracle-text.md)
+  - removing [11.1.2.4](searching-document-sections-in-oracle-text.md)
+  - section [11.1.2.4](searching-document-sections-in-oracle-text.md)
+- META tag
+  - creating zone section for [11.2.2](searching-document-sections-in-oracle-text.md)
+- Microsoft Word support [3.2.8](indexing-with-oracle-text.md), [3.2.10](indexing-with-oracle-text.md)
+- migrating from previous releases [18](migrating-oracle-text-applications.md)
+- mixed_case attribute [3.5](indexing-with-oracle-text.md)
+- mixed character set columns [3.2.12](indexing-with-oracle-text.md)
+- mixed character sets [3.2.7](indexing-with-oracle-text.md)
+- mixed-format column [3.2.10.2](indexing-with-oracle-text.md)
+- mixed formats [3.2.7](indexing-with-oracle-text.md)
+  - filtering [3.2.10.2](indexing-with-oracle-text.md)
+- mixed query [11.1.2.4](searching-document-sections-in-oracle-text.md), [11.1.2.6](searching-document-sections-in-oracle-text.md)
+- mixed query performance [3.15](indexing-with-oracle-text.md)
+- MULTI_COLUMN_DATASTORE
+  - example [C.1](custom-index-preference-examples.md)
+- MULTI_LEXER
+  - example [C.5](custom-index-preference-examples.md)
+- MULTI_LEXER preference type [3.3](indexing-with-oracle-text.md)
+- multilanguage columns
+  - indexing [3.3](indexing-with-oracle-text.md)
+- multilanguage stoplist
+  - about [4.4.1](creating-oracle-text-indexes.md)
+- multiple CONTAINS
+  - improving performance [10.9.13](tuning-oracle-text.md)
+- multi-valued facets [14.5](using-faceted-navigation.md)
+- MVIEW see materialized views [3.1.8](indexing-with-oracle-text.md)
+
+------------------------------------------------------------------------
+
+## N
+
+- name matching
+  - See: name search
+- name search [12.1](using-oracle-text-name-search.md)
+  - examples using NDATA sections [12.2](using-oracle-text-name-search.md)
+- NCLOB column [4.5.2](creating-oracle-text-indexes.md)
+- NDATA sections
+  - in name search example [12.2](using-oracle-text-name-search.md)
+- NEAR_ACCUM operator [7.1.4](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+- NEAR2 operator [7.1.4](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+- NEAR operator [7.1.4](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+- nested zone sections [11.1.2.1](searching-document-sections-in-oracle-text.md)
+- NOPOPULATE keyword
+  - incremental rebuild and [4.5.3](creating-oracle-text-indexes.md)
+  - replace parameter and [4.5.3](creating-oracle-text-indexes.md)
+- nopopulate with RECREATE_INDEX_ONLINE [5.4.2](maintaining-oracle-text-indexes.md)
+- NULL_FILTER
+  - example [A.2.2](CONTEXT-query-application.md), [C.2](custom-index-preference-examples.md)
+- NULL_FILTER filter type [2.3.2](getting-started-with-oracle-text.md)
+- NULL_FILTER preference type [3.2.10.1](indexing-with-oracle-text.md)
+- NULL maxtime [5.7.2](maintaining-oracle-text-indexes.md)
+- NUMBER column [4.5.2](creating-oracle-text-indexes.md)
+- number tokenization [3.4](indexing-with-oracle-text.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- offset information
+  - highlight [8.1.3.2](presenting-documents-in-oracle-text.md)
+- online
+  - recreating a CONTEXT indextype [5.4.1](maintaining-oracle-text-indexes.md)
+- online index [3.1.6](indexing-with-oracle-text.md)
+- ONLINE parameter [3.1.6](indexing-with-oracle-text.md)
+- operators
+  - CATSEARCH [7.2](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+  - CONTAINS [7.1](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+  - logical [7.1.2](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+  - MDATA [11.1.2.4](searching-document-sections-in-oracle-text.md)
+  - SDATA [11.1.2.6](searching-document-sections-in-oracle-text.md)
+  - thesaurus [13.1.1](working-with-thesaurus-in-oracle-text.md)
+- optimizing index [5.7.3](maintaining-oracle-text-indexes.md)
+  - example [5.7.3](maintaining-oracle-text-indexes.md)
+  - single token [5.7.3.3](maintaining-oracle-text-indexes.md)
+- optimizing queries [7.1.9](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+  - FAQs [10.9](tuning-oracle-text.md)
+  - response time [10.2](tuning-oracle-text.md)
+  - throughput [10.3](tuning-oracle-text.md)
+  - with blocking operations [10.8](tuning-oracle-text.md)
+- Oracle Enterprise Manager [17.5](administering-oracle-text.md)
+- Oracle Enterprise Manager and Oracle Text [17.5](administering-oracle-text.md)
+- Oracle Text
+  - Upgrading [18.2](migrating-oracle-text-applications.md)
+- Oracle Text pages in OEM [17.5](administering-oracle-text.md)
+- Oracle Text user [2.2](getting-started-with-oracle-text.md)
+  - creating [2.2](getting-started-with-oracle-text.md)
+- Oracle XML DB [1.5](understanding-oracle-text-application-development.md)
+- out of line LOB storage
+  - improving performance [10.9.12](tuning-oracle-text.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- parallel indexing [3.1.7](indexing-with-oracle-text.md), [10.10.5](tuning-oracle-text.md)
+  - partitioned table [10.10.6](tuning-oracle-text.md)
+- parallel queries [10.7](tuning-oracle-text.md), [10.9.16](tuning-oracle-text.md)
+  - across Real Application Clusters (RAC) nodes [10.7](tuning-oracle-text.md)
+- paramstring string [4.4.2](creating-oracle-text-indexes.md)
+- partitioned index [10.9.15](tuning-oracle-text.md)
+  - improved response time [10.2.4](tuning-oracle-text.md)
+- partitioned table
+  - querying [3.1.5](indexing-with-oracle-text.md)
+- partitions limit [3.1.5](indexing-with-oracle-text.md)
+- PATH_SECTION_GROUP
+  - example [11.3.4.1](searching-document-sections-in-oracle-text.md)
+- path section searching [11.3.4](searching-document-sections-in-oracle-text.md)
+- PDF support [3.2.8](indexing-with-oracle-text.md), [3.2.10](indexing-with-oracle-text.md)
+- pending DML
+  - viewing [5.7.1](maintaining-oracle-text-indexes.md)
+- pending queue [4.5.3](creating-oracle-text-indexes.md)
+- pending updates [17.2](administering-oracle-text.md)
+- performance [3.13](indexing-with-oracle-text.md)
+- performance tuning
+  - indexing [10.10](tuning-oracle-text.md)
+  - querying [10.9](tuning-oracle-text.md)
+  - updating index [10.11](tuning-oracle-text.md)
+- per-partition swap [5.4.2](maintaining-oracle-text-indexes.md)
+- pet magnet [A.1](CONTEXT-query-application.md)
+- phrase query [6.1.4](querying-with-oracle-text.md)
+- pizza shredder [A.1](CONTEXT-query-application.md)
+- PL/SQL functions
+  - calling in contains [7.1.8](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+- plain text
+  - indexing with NULL_FILTER [C.2](custom-index-preference-examples.md)
+- plain-text filtering [8.4](presenting-documents-in-oracle-text.md)
+- PLAINTEXT value [3.6.3](indexing-with-oracle-text.md)
+- POPULATE keyword [4.5.3](creating-oracle-text-indexes.md)
+- preferences
+  - creating (examples) [4.2](creating-oracle-text-indexes.md), [C](custom-index-preference-examples.md)
+  - creating with admin tool [17.5](administering-oracle-text.md)
+  - dropping [5.6](maintaining-oracle-text-indexes.md)
+- prefix indexing example [C.6](custom-index-preference-examples.md)
+- previous releases, migrating from [18](migrating-oracle-text-applications.md)
+- printjoin character [3.4](indexing-with-oracle-text.md)
+- printjoin characters example [C.4](custom-index-preference-examples.md)
+- PROCEDURE_FILTER example [C.3](custom-index-preference-examples.md)
+- PSP application [A.2](CONTEXT-query-application.md), [B.2](CATSEARCH-query-application.md)
+- punctuation identification [3.4](indexing-with-oracle-text.md)
+
+------------------------------------------------------------------------
+
+## Q
+
+- queries using facets as filters
+  - refining [14.4](using-faceted-navigation.md)
+- query
+  - ABOUT [7.1.1](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+  - analysis [6.2.8](querying-with-oracle-text.md)
+  - blocking operations [10.8](tuning-oracle-text.md)
+  - case-sensitive [3.5](indexing-with-oracle-text.md), [6.2.2](querying-with-oracle-text.md)
+  - CATSEARCH [6.1.2](querying-with-oracle-text.md), [6.1.2.1](querying-with-oracle-text.md)
+  - CONTAINS [6.1.1](querying-with-oracle-text.md)
+  - counting hits [7.1.10](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+  - CTXRULE [9.4.2](classifying-documents-in-oracle-text.md)
+  - getting report on [17.4](administering-oracle-text.md)
+  - log [6.2.8](querying-with-oracle-text.md)
+  - MATCHES [6.1.3](querying-with-oracle-text.md)
+  - mixed [11.1.2.4](searching-document-sections-in-oracle-text.md), [11.1.2.6](searching-document-sections-in-oracle-text.md)
+  - optimizing for throughput [10.3](tuning-oracle-text.md)
+  - overview [6.1](querying-with-oracle-text.md)
+  - parallel [10.7](tuning-oracle-text.md)
+  - speeding up with MDATA [11.1.2.4](searching-document-sections-in-oracle-text.md)
+  - speeding up with SDATA [11.1.2.6](searching-document-sections-in-oracle-text.md)
+  - viewing information on [17.4](administering-oracle-text.md)
+  - viewing log of [17.4](administering-oracle-text.md)
+- query_filter_cache_size basic storage attribute [10.2.6](tuning-oracle-text.md)
+- QUERY_LOG_SUMMARY [17.4](administering-oracle-text.md)
+- query analysis [6.2.8](querying-with-oracle-text.md)
+- query application [1.2](understanding-oracle-text-application-development.md)
+  - example [2.3](getting-started-with-oracle-text.md)
+- query explain plan [6.2.4](querying-with-oracle-text.md)
+- query expressions [6.2.1](querying-with-oracle-text.md)
+- query features [6.2](querying-with-oracle-text.md), [6.2.9](querying-with-oracle-text.md)
+- query feedback [6.2.3](querying-with-oracle-text.md)
+- query language [6.2.7.3](querying-with-oracle-text.md)
+- query log [6.2.8](querying-with-oracle-text.md), [17.4](administering-oracle-text.md)
+- query optimization [7.1.9](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+  - FAQs [10.9](tuning-oracle-text.md)
+  - response time [10.2](tuning-oracle-text.md)
+- Query Parallelized Across Oracle RAC Nodes [10.7.2](tuning-oracle-text.md)
+- query performance
+  - FAQs [10.9](tuning-oracle-text.md)
+- query processing with FILTER BY and ORDER BY example [4.5.5](creating-oracle-text-indexes.md)
+- query relaxation [6.2.7.2](querying-with-oracle-text.md)
+- query relaxation template [6.2.7.2](querying-with-oracle-text.md)
+- query rewrite [6.2.7.1](querying-with-oracle-text.md)
+- query rewrite template [6.2.7.1](querying-with-oracle-text.md)
+- query template [7.1.6](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md), [7.2](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+  - lang parameter and [6.2.7.3](querying-with-oracle-text.md)
+- Query Templates [6.2.7](querying-with-oracle-text.md)
+- queue
+  - DML [17.2](administering-oracle-text.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- Real Application Clusters (RAC) and parallel queries [10.7](tuning-oracle-text.md)
+- rebuilding an index [5.5](maintaining-oracle-text-indexes.md)
+- RECREATE_INDEX_ONLINE [5.4.1](maintaining-oracle-text-indexes.md)
+  - and DML [5.4.1](maintaining-oracle-text-indexes.md)
+- RECREATE_INDEX_ONLINE procedure
+  - no populate with [5.4.2](maintaining-oracle-text-indexes.md)
+  - swap and noswap with [5.4.2](maintaining-oracle-text-indexes.md)
+- recreating a local partitioned index online [5.4.2](maintaining-oracle-text-indexes.md)
+- recreating an index [5.4](maintaining-oracle-text-indexes.md)
+- recreating an index online [5.4.1](maintaining-oracle-text-indexes.md)
+- relaxing queries [6.2.7.2](querying-with-oracle-text.md)
+- RESOURCE role [2.2](getting-started-with-oracle-text.md)
+- response time
+  - improving [10.2](tuning-oracle-text.md)
+  - optimizing for [7.1.9](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+- result buffer size
+  - increasing [10.8](tuning-oracle-text.md)
+- Result Set Interface [15](using-XML-query-result-set-interface.md)
+- result sets [15](using-XML-query-result-set-interface.md)
+- resuming failed index [5.3](maintaining-oracle-text-indexes.md)
+- rewriting queries [6.2.7.1](querying-with-oracle-text.md)
+- right-truncated query [3.10](indexing-with-oracle-text.md)
+- roles
+  - granting [17.1.3](administering-oracle-text.md)
+  - system-defined [17.1](administering-oracle-text.md)
+- rowid [5.7.1](maintaining-oracle-text-indexes.md)
+- rule-based classification [2.5.1](getting-started-with-oracle-text.md), [3.1.1](indexing-with-oracle-text.md), [9.4](classifying-documents-in-oracle-text.md)
+- rules
+  - about for simple classification [2.5.1](getting-started-with-oracle-text.md)
+- rule table
+  - creating [2.5.2](getting-started-with-oracle-text.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- sample application [A](CONTEXT-query-application.md), [B](CATSEARCH-query-application.md)
+- save_copy attribute [3.6.3](indexing-with-oracle-text.md)
+- scheduled swap [5.4.1](maintaining-oracle-text-indexes.md)
+- scheduling local index re-creation with all-at-once swap [5.4.2](maintaining-oracle-text-indexes.md)
+- scoring
+  - alternative [6.2.7.5](querying-with-oracle-text.md)
+- SDATA operators [11.1.2.6](searching-document-sections-in-oracle-text.md)
+- SDATA section [11.1.2.6](searching-document-sections-in-oracle-text.md)
+- searching
+  - XML [1.5](understanding-oracle-text-application-development.md)
+- section
+  - attribute [11.1.2.7](searching-document-sections-in-oracle-text.md)
+  - field [11.1.2.2](searching-document-sections-in-oracle-text.md)
+  - groups and types [11.1.2](searching-document-sections-in-oracle-text.md)
+  - HTML example [4.3](creating-oracle-text-indexes.md)
+  - MDATA [11.1.2.4](searching-document-sections-in-oracle-text.md)
+  - nested [11.1.2.1](searching-document-sections-in-oracle-text.md)
+  - overlapping [11.1.2.1](searching-document-sections-in-oracle-text.md)
+  - repeated zone [11.1.2.1](searching-document-sections-in-oracle-text.md)
+  - SDATA [11.1.2.6](searching-document-sections-in-oracle-text.md)
+  - special [11.1.2.8](searching-document-sections-in-oracle-text.md)
+  - stop section [11.1.2.3](searching-document-sections-in-oracle-text.md)
+  - types and groups [11.1.2](searching-document-sections-in-oracle-text.md)
+  - zone [11.1.2.1](searching-document-sections-in-oracle-text.md)
+- sectioner
+  - about [3.1.3.3](indexing-with-oracle-text.md)
+- section group
+  - about [4.1](creating-oracle-text-indexes.md)
+  - and section types [11.1.2](searching-document-sections-in-oracle-text.md)
+  - creating with admin tool [17.5](administering-oracle-text.md)
+- sectioning
+  - automatic [11.3.1](searching-document-sections-in-oracle-text.md)
+  - path [11.3.4](searching-document-sections-in-oracle-text.md)
+- sections as facets
+  - defining [14.2](using-faceted-navigation.md)
+- section searching [7.1.3](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+  - about [6.2.6](querying-with-oracle-text.md), [11.1](searching-document-sections-in-oracle-text.md)
+  - enabling [11.1.1](searching-document-sections-in-oracle-text.md)
+  - HTML [11.2.1](searching-document-sections-in-oracle-text.md)
+- See also rule-based classification [2.5.1](getting-started-with-oracle-text.md)
+- See also simple classification [2.5.1](getting-started-with-oracle-text.md)
+- SELECT statement [1.2.1](understanding-oracle-text-application-development.md)
+  - with CONTAINS [2.3.2](getting-started-with-oracle-text.md)
+- self-tipping couch [A.1](CONTEXT-query-application.md)
+- sentiment analysis
+  - about [16.1.1](performing-sentiment-analysis-using-oracle-text.md)
+  - creating classifiers [16.2](performing-sentiment-analysis-using-oracle-text.md)
+  - interfaces [16.1.4](performing-sentiment-analysis-using-oracle-text.md)
+  - sentiment classifiers [16.1.2](performing-sentiment-analysis-using-oracle-text.md)
+  - training sentiment models [16.3](performing-sentiment-analysis-using-oracle-text.md)
+  - using CTX_DOC package [16.4](performing-sentiment-analysis-using-oracle-text.md)
+  - using XML Query RSI [16.5](performing-sentiment-analysis-using-oracle-text.md)
+- sentiment classifiers
+  - about [16.1.2](performing-sentiment-analysis-using-oracle-text.md)
+  - creating [16.2](performing-sentiment-analysis-using-oracle-text.md)
+- SEPARATE_OFFSETS index option [10.2.8](tuning-oracle-text.md), [10.2.9](tuning-oracle-text.md)
+- SGA memory allocation [10.10.2](tuning-oracle-text.md)
+- simple classification [2.5.1](getting-started-with-oracle-text.md), [3.1.1](indexing-with-oracle-text.md)
+  - rules and [2.5.1](getting-started-with-oracle-text.md)
+- simple classification, see rule-based classification [9.4](classifying-documents-in-oracle-text.md)
+- single themes
+  - obtaining [8.3.1](presenting-documents-in-oracle-text.md)
+- size of index, viewing [17.4](administering-oracle-text.md)
+- skipjoin character [3.4](indexing-with-oracle-text.md)
+- SORT_AREA_SIZE [10.8](tuning-oracle-text.md), [10.9.11](tuning-oracle-text.md), [10.10.2](tuning-oracle-text.md)
+- special characters [3.4](indexing-with-oracle-text.md)
+  - indexing [3.4](indexing-with-oracle-text.md)
+- special sections [11.1.2.8](searching-document-sections-in-oracle-text.md)
+- spelling
+  - alternate [3.7.3](indexing-with-oracle-text.md)
+  - searching different [12.1](using-oracle-text-name-search.md)
+- SQE operator [7.1.7](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+- SQL\*Loader [2.3.2](getting-started-with-oracle-text.md), [2.4.2](getting-started-with-oracle-text.md)
+- SQL CONTAINS operator [1.2.1](understanding-oracle-text-application-development.md)
+- startjoin [3.4](indexing-with-oracle-text.md)
+- stemming
+  - default [4.5.2](creating-oracle-text-indexes.md)
+  - improving performance [10.9.14](tuning-oracle-text.md)
+- stem operator [3.9](indexing-with-oracle-text.md), [7.1.5](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+- stopclass [4.4.2](creating-oracle-text-indexes.md)
+- stoplist [4.4](creating-oracle-text-indexes.md)
+  - about [4.1](creating-oracle-text-indexes.md)
+  - creating with admin tool [17.5](administering-oracle-text.md)
+  - default [4.5.2](creating-oracle-text-indexes.md)
+  - multilanguage [4.4.1](creating-oracle-text-indexes.md)
+  - multi-language [3.12](indexing-with-oracle-text.md)
+  - PL/SQL procedures for [4.4.3](creating-oracle-text-indexes.md)
+- stop section [11.1.2.3](searching-document-sections-in-oracle-text.md)
+- stoptheme [4.4.2](creating-oracle-text-indexes.md)
+  - about [3.12](indexing-with-oracle-text.md)
+  - definition [6.1.6](querying-with-oracle-text.md)
+- stopword [4.4](creating-oracle-text-indexes.md), [4.4.2](creating-oracle-text-indexes.md)
+  - about [3.12](indexing-with-oracle-text.md), [6.1.5](querying-with-oracle-text.md)
+  - case-sensitive [6.2.2](querying-with-oracle-text.md)
+- storage
+  - about [4.1](creating-oracle-text-indexes.md)
+- stored query expression, defining [7.1.7.1](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+- stored query expressions [7.1.7](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+- storing
+  - file path names [3.2.4](indexing-with-oracle-text.md)
+  - structured document information [3.2.6](indexing-with-oracle-text.md)
+- storing text [3.2.1](indexing-with-oracle-text.md)
+  - about [3.2.3](indexing-with-oracle-text.md)
+  - different methods illustration [3.2.1](indexing-with-oracle-text.md)
+- structure
+  - CONTEXT index [3.1.2](indexing-with-oracle-text.md)
+- structured data
+  - adding [11.1.2.6](searching-document-sections-in-oracle-text.md)
+  - removing [11.1.2.6](searching-document-sections-in-oracle-text.md)
+  - section [11.1.2.6](searching-document-sections-in-oracle-text.md)
+- structured query
+  - example [4.6](creating-oracle-text-indexes.md)
+- structured query clause [4.6.3](creating-oracle-text-indexes.md)
+- structure of index [5.7.3](maintaining-oracle-text-indexes.md)
+- subindex [2.4.2](getting-started-with-oracle-text.md)
+- substring indexing example [C.6](custom-index-preference-examples.md)
+- supervised classification [2.5.1](getting-started-with-oracle-text.md), [9.5](classifying-documents-in-oracle-text.md)
+  - Decision Tree [9.5.1](classifying-documents-in-oracle-text.md)
+- SVM supervised classification [9.5.3](classifying-documents-in-oracle-text.md)
+  - memory requirements [9.5.3](classifying-documents-in-oracle-text.md)
+- swap and noswap with RECREATE_INDEX_ONLINE [5.4.2](maintaining-oracle-text-indexes.md)
+- sync_index locking parameter [5.7.2](maintaining-oracle-text-indexes.md)
+- sync_index maxtime parameter [5.7.2](maintaining-oracle-text-indexes.md)
+- SYNC_INDEX procedure [2.2](getting-started-with-oracle-text.md), [2.3.2](getting-started-with-oracle-text.md)
+- synchronization [5.4.1](maintaining-oracle-text-indexes.md)
+- synchronize index [2.3.2](getting-started-with-oracle-text.md)
+- synchronizing index [5.7.2](maintaining-oracle-text-indexes.md), [17.6](administering-oracle-text.md)
+  - improving performance [10.11](tuning-oracle-text.md)
+- synonyms
+  - defining [13.2.1](working-with-thesaurus-in-oracle-text.md)
+- SYN operator [13.2.1](working-with-thesaurus-in-oracle-text.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- talking pillow [A.1](CONTEXT-query-application.md)
+- template queries [7.1.6](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md), [7.2](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+- templates [6.2.7](querying-with-oracle-text.md)
+  - query rewrite [6.2.7.1](querying-with-oracle-text.md)
+- text column
+  - supported types [3.2.2](indexing-with-oracle-text.md)
+- TEXT format column value [3.2.10.2](indexing-with-oracle-text.md)
+- text fragments [3.2.1](indexing-with-oracle-text.md)
+- text highlighting [8.1.1](presenting-documents-in-oracle-text.md)
+- Text-on-XML Method [1.5.2.2](understanding-oracle-text-application-development.md)
+- text query application
+  - flowchart [1.2.2](understanding-oracle-text-application-development.md)
+  - sample [1.2.2](understanding-oracle-text-application-development.md)
+- text storage [3.2.1](indexing-with-oracle-text.md)
+- that stopword [3.12](indexing-with-oracle-text.md)
+- theme functionality
+  - adding [13.10.1](working-with-thesaurus-in-oracle-text.md)
+- theme highlighting [8.1.2](presenting-documents-in-oracle-text.md)
+- themes
+  - indexing [3.7.1](indexing-with-oracle-text.md)
+- theme summary
+  - definition [8.3](presenting-documents-in-oracle-text.md)
+- thesaural queries
+  - about [6.2.5](querying-with-oracle-text.md)
+- thesaurus
+  - about [13.1](working-with-thesaurus-in-oracle-text.md)
+  - adding to knowledge base [13.5](working-with-thesaurus-in-oracle-text.md)
+  - case-sensitive [13.1.2](working-with-thesaurus-in-oracle-text.md)
+  - default [13.1.4](working-with-thesaurus-in-oracle-text.md)
+  - DEFAULT [13.1.4](working-with-thesaurus-in-oracle-text.md)
+  - defining terms [13.2](working-with-thesaurus-in-oracle-text.md)
+  - hierarchical relations [13.2.2](working-with-thesaurus-in-oracle-text.md)
+  - loading custom [13.4](working-with-thesaurus-in-oracle-text.md)
+  - operators [13.1.1](working-with-thesaurus-in-oracle-text.md)
+  - supplied [13.1.5](working-with-thesaurus-in-oracle-text.md)
+  - using in application [13.3](working-with-thesaurus-in-oracle-text.md)
+- thesaurus operator [7.1.5](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+- this stopword [3.12](indexing-with-oracle-text.md)
+- throughput
+  - improving query [10.3](tuning-oracle-text.md)
+- tildes
+  - indexing characters with [3.7.2](indexing-with-oracle-text.md)
+- time limit
+  - setting for synchronizing [5.4.1](maintaining-oracle-text-indexes.md)
+- TOKEN_INFO [17.4](administering-oracle-text.md)
+- TOKEN_TYPE [17.4](administering-oracle-text.md)
+- tokenization behavior [3.4](indexing-with-oracle-text.md)
+- token prefix [3.10](indexing-with-oracle-text.md)
+- tokens [3.1.3](indexing-with-oracle-text.md)
+- token separation [3.4](indexing-with-oracle-text.md)
+- tracing [10.6](tuning-oracle-text.md)
+- TRAIN procedure [9.5](classifying-documents-in-oracle-text.md)
+- transactional [4.5.1](creating-oracle-text-indexes.md), [4.6.1](creating-oracle-text-indexes.md), [5.7](maintaining-oracle-text-indexes.md)
+- Transparent Data Encryption
+  - enabled column and,enabled tablespace and [3.1.1](indexing-with-oracle-text.md)
+- tuning queries
+  - for response time [10.2](tuning-oracle-text.md)
+  - for throughput [10.3](tuning-oracle-text.md)
+  - increasing result buffer size [10.8](tuning-oracle-text.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- umlauts
+  - indexing characters with [3.7.2](indexing-with-oracle-text.md)
+- unsupervised classification [9.6](classifying-documents-in-oracle-text.md)
+- updating index performance
+  - FAQs [10.11](tuning-oracle-text.md)
+- updating your applications [18](migrating-oracle-text-applications.md)
+- URLs
+  - storing [3.2.5](indexing-with-oracle-text.md)
+- user
+  - creating Oracle Text [2.2](getting-started-with-oracle-text.md)
+  - system-defined [17.1](administering-oracle-text.md)
+- USER_LEXER preference type [3.3](indexing-with-oracle-text.md)
+- user-defined lexer interface [3.3](indexing-with-oracle-text.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- VARCHAR2 column [3.2.2](indexing-with-oracle-text.md)
+- viewing information on indexes and queries [17.4](administering-oracle-text.md)
+- viewing size of index [17.4](administering-oracle-text.md)
+- views
+  - indexing and [3.1.8](indexing-with-oracle-text.md)
+  - materialized [3.1.8](indexing-with-oracle-text.md)
+
+------------------------------------------------------------------------
+
+## W
+
+- WHERE clause [1.2.1](understanding-oracle-text-application-development.md)
+- whitespace [3.4](indexing-with-oracle-text.md)
+- whitespace-delimited language [3.3](indexing-with-oracle-text.md)
+- wildcard indexing example [C.7](custom-index-preference-examples.md)
+- wildcard operator [7.1.5](working-with-CONTEXT-and-CTXCAT-grammars-in-oracle-text.md)
+  - improving performance [10.9.14](tuning-oracle-text.md)
+- wildcard queries [3.10](indexing-with-oracle-text.md)
+- WITHIN operator [4.3](creating-oracle-text-indexes.md)
+- wizard
+  - Oracle Text addin [A](CONTEXT-query-application.md), [B](CATSEARCH-query-application.md)
+- word continuation [3.4](indexing-with-oracle-text.md)
+- wordlist
+  - about [4.1](creating-oracle-text-indexes.md)
+- WORDLIST preference [3.1.3.5](indexing-with-oracle-text.md)
+- wordlist preference type [3.10](indexing-with-oracle-text.md)
+- word query [6.1.4](querying-with-oracle-text.md)
+  - case-sensitivity [6.2.2](querying-with-oracle-text.md)
+- WORLD_LEXER preference type [3.3](indexing-with-oracle-text.md)
+
+------------------------------------------------------------------------
+
+## X
+
+- XML DB [1.5](understanding-oracle-text-application-development.md)
+- XML documents
+  - attribute searching [11.3.2](searching-document-sections-in-oracle-text.md)
+  - doctype sensitive sections [11.3.3](searching-document-sections-in-oracle-text.md)
+  - section searching [11.3](searching-document-sections-in-oracle-text.md)
+- XML search application [1.5](understanding-oracle-text-application-development.md)
+- XML searching [1.5](understanding-oracle-text-application-development.md)
+- XMLType data type [3.2.3](indexing-with-oracle-text.md)
+
+------------------------------------------------------------------------
+
+## Z
+
+- zone section
+  - definition [11.1.2.1](searching-document-sections-in-oracle-text.md)
+  - nested [11.1.2.1](searching-document-sections-in-oracle-text.md)
+  - overlapping [11.1.2.1](searching-document-sections-in-oracle-text.md)
+  - repeating [11.1.2.1](searching-document-sections-in-oracle-text.md)

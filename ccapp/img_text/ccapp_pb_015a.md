@@ -1,0 +1,3 @@
+# Description of the illustration ccapp_pb_015a.eps
+
+This illustration shows the flow of a query application. At the top of the illustration is the first of five boxes. It is labeled "Enter Query" and shows a user, to indicate user action. An arrow leads down to a second box labeled "Execute CONTAINS Query" and then from this second box to a third box labeled "Present Hitlist." An arrow connects this box to a fourth box, with a user pictured, labelled "Select from Hitlist." From this box lead two arrows: one goes back to the first box, "Enter Query," while the other leads to the fifth and final box, "Present Document (CTX_DOC.HIGHLIGHT)."

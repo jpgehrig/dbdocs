@@ -1,0 +1,3 @@
+# Description of the illustration ccapp_pb_018a.eps
+
+This illustration shows how a classification application can work. On the far left are three documents, one from a database, one from a file system, and one from the Web. These three are fed into the Document Classification Application as part of the Document Stream. From the Document Classification Application go two arrows. The first, a SQL MATCHES query, goes to a database ("Database A"), which includes a rules table and a CTXRULE index. The second arrow, labeled "Perform Action," splits off in two. One branch goes off to an icon of an envelope, labeled "Email user." The other goes off to a second database ("Database B"), and is labeled "Classify Document."

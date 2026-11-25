@@ -1,0 +1,3 @@
+# Description of the illustration ccapp_pb_016a.eps
+
+This illustration shows a generalized flow of a catalog query application. At the top is a box labeled "Enter Query," with a user entering a query. Arrows lead down to two boxes, also depicting users. One is labeled "Text Component 'CD Player'" and the other is labeled "Structured Component 'Order By Price'." Arrows lead from both boxes to a box labeled "Execute CATSEARCH Query," and an arrow leads from this box down to one labeled "Show Results." From "Show Results" an arrow leads to another box with a user, and this box is labeled "User Browses Results." Two arrows extend from this box: one runs back up to the first box, "Enter Query," and the other goes down to the "User Purchases Item" box.
