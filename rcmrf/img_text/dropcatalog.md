@@ -1,0 +1,3 @@
+#
+
+DROP CATALOG \[NOPROMPT\]

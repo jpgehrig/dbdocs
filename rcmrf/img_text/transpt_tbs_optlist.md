@@ -1,0 +1,3 @@
+#
+
+{AUXILIARY DESTINATION ' location ' \| {DATAPUMP DIRECTORY \['\] datapump_directory \| { {DUMP FILE \| EXPORT LOG} \| IMPORT SCRIPT} \['\] filename \| TABLESPACE DESTINATION \['\] tablespace_destination} \['\] \| {TO RESTORE POINT restore_point_name \| untilClause}} \[ {AUXILIARY DESTINATION ' location ' \| {DATAPUMP DIRECTORY \['\] datapump_directory \| { {DUMP FILE \| EXPORT LOG} \| IMPORT SCRIPT} \['\] filename \| TABLESPACE DESTINATION \['\] tablespace_destination} \['\] \| {TO RESTORE POINT restore_point_name \| untilClause}}\]...

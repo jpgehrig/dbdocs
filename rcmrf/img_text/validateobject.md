@@ -1,0 +1,3 @@
+#
+
+archivelogRecordSpecifier \| BACKUPSET primaryKey \[, primaryKey\]... \| CONTROLFILECOPY ' filename ' \| CONTROLFILECOPY {ALL \| LIKE ' string_pattern '} \| copyOfSpec \| blockObject \[blockObject\]... \| CURRENT CONTROLFILE \| {DATABASE \[ROOT\] \| PLUGGABLE DATABASE pdb_name \[, pdb_name\]...} \| datafileCopySpec \| DATAFILE datafileSpec \[, datafileSpec\]... \| {RECOVERY AREA \| DB_RECOVERY_FILE_DEST} \| RECOVERY FILES \| SPFILE \| TABLESPACE \['\] tablespace_name \['\] \[, \['\] tablespace_name \['\]\]...

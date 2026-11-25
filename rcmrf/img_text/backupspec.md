@@ -1,0 +1,3 @@
+#
+
+\[ {\] {archivelogRecordSpecifier \| {BACKUPSET { {ALL \| completedTimeSpec \| FROM TAG \['\] tag_name \['\] \[, \['\] tag_name \['\]\]...} \| primaryKey \[, primaryKey\]...} \| BACKUPPIECE ' filename ' \[, ' filename '\]...} \| CONTROLFILECOPY {' filename ' \| ALL \| LIKE ' string_pattern '} \| copyOfSpec \| CURRENT CONTROLFILE \| {DATABASE \[ROOT\] \| PLUGGABLE DATABASE pdb_name \[, pdb_name\]...} \| datafileCopySpec \| DATAFILE datafileSpec \[, datafileSpec\]... \| DATAPUMP \[ {FORMAT formatSpec}...\] \| {RECOVERY AREA \| DB_RECOVERY_FILE_DEST} \| RECOVERY FILES \| SPFILE \| TABLESPACE \['\] tablespace_name \['\] \[, \['\] tablespace_name \['\]\]...} \[ {backupSpecOperand}...\] \[}\]

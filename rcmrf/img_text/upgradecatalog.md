@@ -1,0 +1,3 @@
+#
+
+UPGRADE CATALOG {NOPROMPT \| TABLESPACE tablespace_name NOPROMPT}

@@ -1,0 +1,3 @@
+#
+
+BACKUP FILES \[FOR DEVICE TYPE deviceSpecifier\] TO {NOTACCESSIBLE\_ \| ACCESSIBLE\_} \| DB_UNIQUE_NAME \['\] db_unique_name \['\] {CLEAR \| CONNECT IDENTIFIER quoted_string} \| COMPRESSION ALGORITHM quoted_string \[ { {OPTIMIZE FOR LOAD {TRUE \| FALSE} \| AS OF RELEASE quoted_string}}...\] \| DECRYPTION {IDENTIFIED BY password \[, password\]... \| WALLET OPEN IDENTIFIED BY password} \| ECHO {OFF \| ON} \| ENCRYPTION {ALGORITHM quoted_string \| IDENTIFIED BY password \[ONLY\] \| {OFF \| ON} \[FOR ALL TABLESPACES\]} \[ {ALGORITHM quoted_string \| IDENTIFIED BY password \[ONLY\] \| {OFF \| ON} \[FOR ALL TABLESPACES\]}\]... \| PASSPHRASE {OFF \| ON IDENTIFIED BY password} \| PREPLUGIN CONTAINER {CLEAR \| pdb_name}

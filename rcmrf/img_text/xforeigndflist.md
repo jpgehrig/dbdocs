@@ -1,0 +1,3 @@
+#
+
+FOREIGN DATAFILE integer \[ {FORMAT formatSpec \| TO NEW}\] \[, integer \[ {FORMAT formatSpec \| TO NEW}\]\]...

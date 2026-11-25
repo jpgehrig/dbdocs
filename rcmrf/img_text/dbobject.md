@@ -1,0 +1,3 @@
+#
+
+{APPLICATION ROOT DATABASE {identifier \| quoted_string} \[, {identifier \| quoted_string}\]... \| DATABASE \[ROOT\] \| PLUGGABLE DATABASEpdb_name \[, pdb_name\]...} \| DATAFILEdatafileSpec \[, datafileSpec\]... \| TABLESPACE \[pdb_name :\] \['\] tablespace_name \['\] \[, \[pdb_name :\] \['\] tablespace_name \['\]\]...

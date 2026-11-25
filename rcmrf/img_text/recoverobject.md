@@ -1,0 +1,3 @@
+#
+
+{COPY OF dbObject \[WITH TAG \['\] tag_name \['\]\] \| DATAFILECOPY ' filename ' \[, ' filename '\]... \| dbObject \| STANDBY DATABASE \| TABLE schema . table \[: partition\] \[, schema . table \[: partition\]\]... \[OF PLUGGABLE DATABASE pdb_name\] \| FOREIGN DATAFILECOPY ' filename ' \[, ' filename '\]... {FROM handleNameList \| FROM SERVICE service_name}} \[ { {SKIP \[FOREVER\] TABLESPACE \[pdb_name :\] \['\] tablespace_name \['\] \[, \[pdb_name :\] \['\] tablespace_name \['\]\]... \| SNAPSHOT TIME ' date_string ' \| {TO RESTORE POINT restore_point_name \| untilClause} \| UNTIL AVAILABLE REDO}}...\]

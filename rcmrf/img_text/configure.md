@@ -1,0 +1,3 @@
+#
+
+CONFIGURE {DB_UNIQUE_NAME \['\] db_unique_name \['\] {CLEAR \| CONNECT IDENTIFIER quoted_string} \| delalConf \| AUXNAME FOR DATAFILE datafileSpec {CLEAR \| TO ' filename '} \| backupConf \| cfauConf \| COMPRESSION ALGORITHM {CLEAR \| quoted_string \[ { {OPTIMIZE FOR LOAD {TRUE \| FALSE} \| AS OF RELEASE quoted_string}}...\]} \| deviceConf \| ENCRYPTION {ALGORITHM {CLEAR \| quoted_string} \| FOR {DATABASE \| TABLESPACE \[pdb_name :\] \['\] tablespace_name \['\]} { {ON \| OFF} \| CLEAR}} \| RMAN OUTPUT {CLEAR \| TO KEEP FOR integer DAYS} \| SNAPSHOT CONTROLFILE NAME {CLEAR \| TO ' filename '}} \[forDbUniqueNameOption\]

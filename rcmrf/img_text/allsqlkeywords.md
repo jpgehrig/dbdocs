@@ -1,0 +1,3 @@
+#
+
+sqlKeyword \| DELETE \| DROP DATABASE \| FLASHBACK {DATABASE \| PLUGGABLE DATABASE pdb_name}

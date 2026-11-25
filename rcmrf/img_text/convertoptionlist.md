@@ -1,0 +1,3 @@
+#
+
+{ALLOW INCONSISTENT \| fileNameConversionSpec \| FORMAT formatSpec \| FROM PLATFORM ' platform ' \| PARALLELISM integer \| TO PLATFORM ' platform '} \[ {ALLOW INCONSISTENT \| fileNameConversionSpec \| FORMAT formatSpec \| FROM PLATFORM ' platform ' \| PARALLELISM integer \| TO PLATFORM ' platform '}\]...

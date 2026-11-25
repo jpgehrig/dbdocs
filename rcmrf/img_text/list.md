@@ -1,0 +1,3 @@
+#
+
+LIST {DB_UNIQUE_NAME {ALL \| OF DATABASE \[\['\] database_name \['\]\]} \| {EXPIRED \| PREPLUGIN} \[ {EXPIRED \| PREPLUGIN}\]... {listObjectSpec \[ { {maintQualifier \| recoverableClause}}...\] \| recordSpec} \[forDbUniqueNameOption\] \| FAILURE \[ { { {ALL \| CRITICAL \| HIGH \| LOW \| UNKNOWN \| failureNumber \[, failureNumber\]...} \| CLOSED}}...\] \[EXCLUDE FAILURE failureNumber \[, failureNumber\]...\] \[DETAIL\] \| INCARNATION \[OF DATABASE \[\['\] database_name \['\]\]\] \| { {listObjectSpec \[ { {maintQualifier \| recoverableClause}}...\] \| recordSpec} \| RESTORE POINT restore_point_name \| RESTORE POINT ALL} \[forDbUniqueNameOption\] \| \[ {ALL \| GLOBAL}\] SCRIPT NAMES}

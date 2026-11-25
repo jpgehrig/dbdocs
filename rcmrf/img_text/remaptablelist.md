@@ -1,0 +1,3 @@
+#
+
+schema. table : \[partition :\] \[identifier .\] identifier \[, schema . table : \[partition :\] \[identifier .\] identifier\]...

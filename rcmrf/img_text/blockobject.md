@@ -1,0 +1,3 @@
+#
+
+CORRUPTION LIST \| DATAFILE datafileSpec BLOCK integer \[TO integer\] \[, integer \[TO integer\]\]... \| TABLESPACE \[pdb_name :\] \['\] tablespace_name \['\] DBA integer \[, integer\]...

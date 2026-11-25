@@ -1,0 +1,3 @@
+#
+
+archivelogRecordSpecifier \| CONTROLFILE \[TO ' filename '\] \| {DATABASE \[ROOT\] \| PLUGGABLE DATABASE pdb_name \[, pdb_name\]...} \[SKIP \[FOREVER\] TABLESPACE \[pdb_name :\] \['\] tablespace_name \['\] \[, \[pdb_name :\] \['\] tablespace_name \['\]\]...\] \| DATAFILE datafileSpec \[, datafileSpec\]... \| foreignFileSpec \| PRIMARY CONTROLFILE \[TO ' filename '\] \| SPFILE \[TO \[PFILE\] ' filename '\] \[FOR DB_UNIQUE_NAME \['\] db_unique_name \['\]\] \| STANDBY CONTROLFILE \[TO ' filename '\] \| TABLESPACE \['\] tablespace_name \['\] \[, \['\] tablespace_name \['\]\]...

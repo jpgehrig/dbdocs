@@ -1,0 +1,3 @@
+#
+
+RESET DATABASE TO INCARNATION primaryKey

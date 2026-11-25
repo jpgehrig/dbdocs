@@ -1,0 +1,3 @@
+#
+
+{RECOVERY WINDOW OF integer DAYS \| REDUNDANCY integer} \[ {RECOVERY WINDOW OF integer DAYS \| REDUNDANCY integer}\]...

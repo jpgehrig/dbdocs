@@ -1,0 +1,3 @@
+#
+
+{CONNECT connectStringSpec \| {AUXILIARY FORMAT { formatSpec \[, formatSpec\]... \| NEW} \| FORMAT formatSpec \[, formatSpec\]... \| TO DESTINATION toDestSpec \[, toDestSpec\]...} \| MAXOPENFILES integer \| MAXPIECESIZE sizeSpec \| PARMS ' channel_parms ' \| RATE sizeSpec \| SEND ' command '} \[ {CONNECT connectStringSpec \| {AUXILIARY FORMAT { formatSpec \[, formatSpec\]... \| NEW} \| FORMAT formatSpec \[, formatSpec\]... \| TO DESTINATION toDestSpec \[, toDestSpec\]...} \| MAXOPENFILES integer \| MAXPIECESIZE sizeSpec \| PARMS ' channel_parms ' \| RATE sizeSpec \| SEND ' command '}\]...

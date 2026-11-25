@@ -1,0 +1,3 @@
+#
+
+{NEW DATABASE \['\] database_name \['\] \| ON DESTINATION PLATFORM \[CONVERT SCRIPT \['\] script_name \['\]\] \| {skipSpec \| SKIP UNNECESSARY DATAFILES} \| TRANSPORT SCRIPT \['\] script_name \['\]} \[ {NEW DATABASE \['\] database_name \['\] \| ON DESTINATION PLATFORM \[CONVERT SCRIPT \['\] script_name \['\]\] \| {skipSpec \| SKIP UNNECESSARY DATAFILES} \| TRANSPORT SCRIPT \['\] script_name \['\]}\]...

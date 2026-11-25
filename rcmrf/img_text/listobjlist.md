@@ -1,0 +1,3 @@
+#
+
+{archivelogRecordSpecifier \| CONTROLFILE \| {DATABASE \[ROOT\] \| PLUGGABLE DATABASE pdb_name \[, pdb_name\]...} SKIP TABLESPACE \[pdb_name :\] \['\] tablespace_name \['\] \[, \[pdb_name :\] \['\] tablespace_name \['\]\]... \| dbObject \| foreignlogRecordSpecifier \| SPFILE} \[ {archivelogRecordSpecifier \| CONTROLFILE \| {DATABASE \[ROOT\] \| PLUGGABLE DATABASE pdb_name \[, pdb_name\]...} SKIP TABLESPACE \[pdb_name :\] \['\] tablespace_name \['\] \[, \[pdb_name :\] \['\] tablespace_name \['\]\]... \| dbObject \| foreignlogRecordSpecifier \| SPFILE}\]...

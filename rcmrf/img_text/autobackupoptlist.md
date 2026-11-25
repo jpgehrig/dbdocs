@@ -1,0 +1,3 @@
+#
+
+{DB_NAME \['\] database_name \['\] \| {MAXDAYS \| MAXSEQ} integer \| {RECOVERY AREA \| DB_RECOVERY_FILE_DEST} quoted_string {\[DB_NAME \['\] database_name \['\]\] \| DB_UNIQUE_NAME \['\] db_unique_name \['\]}} \[ {DB_NAME \['\] database_name \['\] \| {MAXDAYS \| MAXSEQ} integer \| {RECOVERY AREA \| DB_RECOVERY_FILE_DEST} quoted_string {\[DB_NAME \['\] database_name \['\]\] \| DB_UNIQUE_NAME \['\] db_unique_name \['\]}}\]...

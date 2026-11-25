@@ -1,0 +1,3 @@
+#
+
+{ARCHIVELOG \| DATAFILE} BACKUP COPIES FOR DEVICE TYPE deviceSpecifier {CLEAR \| TO integer} \| BACKUP OPTIMIZATION { {ON \| OFF} \| CLEAR} \| EXCLUDE FOR TABLESPACE \[pdb_name :\] \['\] tablespace_name \['\] \[CLEAR\] \| MAXSETSIZE {CLEAR \| TO {sizeSpec \| UNLIMITED}} \| RETENTION POLICY {CLEAR \| TO {NONE \| RECOVERY WINDOW OF integer DAYS \| REDUNDANCY integer}}
