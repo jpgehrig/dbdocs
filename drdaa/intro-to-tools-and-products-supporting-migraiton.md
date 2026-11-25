@@ -1,0 +1,428 @@
+Before migrating your application to Oracle Database, you must be aware of several key points that are described in [Oracle Database Concepts](../cncpt/tables-and-table-clusters.md).
+
+When discussing the migration of a database-centered enterprise, it is useful to keep in mind that the actual migration of database schema and data is only a part of the process. The migration of a core business solution often involves several databases and applications that work together to deliver the product and services that drive the revenue of an organization. For more information about preparing a migration plan, see Oracle SQL Developer User's Guide.
+
+### Oracle Database Features for Migration Support
+
+Oracle Database 12c introduced a large set of features that collectively enhance the migration process of non-Oracle database applications to Oracle Database.
+
+#### SQL Translation Framework
+
+A key part of migrating non-Oracle databases to Oracle Database involves the conversion of non-Oracle SQL statements to SQL statements that are acceptable to Oracle Database. The conversion of the non-Oracle SQL statements of the applications is a manual and tedious process. To minimize the effort, or to eliminate the necessity for converting these statements, Oracle Database 12c introduces a new feature called SQL Translation Framework. SQL Translation Framework receives these SQL statements from client applications, and then translates them at run-time.
+
+The SQL Translation Profile registers the SQL Translater inside the database so it can handle the SQL translation for non-Oracle client application. If an error occurs while a SQL statement is executed, then the SQL Translator can translate the Oracle error code and the `ANSI SQLSTATE` into the vendor-specific values expected by the application. The translated statements are then saved in the SQL Translation Profile, to be examined and edited at the user’s discretion.
+
+The advantages of SQL Translation Framework follow:
+
+- The translation of SQL statements, Oracle error codes, and `ANSI SQLSTATE` is automatic.
+
+- The translations are centralized and examinable.
+
+- The user has the option to extract translations and insert them back into the application.
+
+#### Support for MySQL Applications
+
+Oracle Database driver for MySQL eases migration of applications initially developed to work with MySQL database. This feature has two key benefits:
+
+- It enables the enterprise to reuse the same application to use data stored in both MySQL Database and Oracle Database
+
+- It reduces the cost and complexity of migrating MySQL applications to Oracle Database
+
+Oracle Database supports all MySQL functions in the client interface with the same semantics.
+
+##### Restrictions on SQL Statement Translation
+
+SQL Translation has the following limitations when translating SQL statements:
+
+- SQL Translation ignores the following SQL constructs:
+
+  - The `ENGINE` specification for a table is not used; there is only one storage engine, namely `Oracle`.
+
+  - The `ENUM` and `SET` types are used as `VARCHAR2`. These values are not converted to their index value if they are retrieved in a numeric context.
+
+<!-- -->
+
+- SQL Translation generates an error when attempting to handle the following SQL constructs; the application must be recoded.
+
+  - Oracle does not support spatial datatypes, such as `GEOMETRY`, `POINT`, `LINESTRING`, `POLYGON`, `GEOMETRYCOLLECTION`, `MULTILINESTRING`, `MULTIPOINT`, and `MULTIPOLYGON`.
+
+    Oracle does not support MySQL-specific NLS commands.
+
+<!-- -->
+
+- The following SQL commands give Oracle-specific output or have Oracle-specific effect:
+
+  - `SHOW DATABASES` shows only one database, namely `oracle`.
+
+  - `SHOW ENGINES` shows the `Oracle` engine only.
+
+  - `CREATE PROCEDURE` must follow Oracle PL/SQL specification in Oracle Database 12c.
+
+<!-- -->
+
+- The following data types have different behavior In Oracle Database than what is expected in the native database:
+
+  - Columns of `ENUM` data types are created as `VARCHAR2(4000)`. No validation is performed for insertion.
+
+  - Columns of `SET` data types are created as `VARCHAR2(64)`. No validation is performed for insertion.
+
+For further details, see [MySQL Client Library Driver for Oracle](MySQL-client-library-driver-for-oracle.md) and [API Reference for Oracle MySQL Client Library Driver](API-ref-for-oracle-MySQL-client-library.md) .
+
+#### Support for Identity Columns
+
+Oracle Database 12c implements ANSI-compliant `IDENTITY` columns. Migration from database systems that use identity columns is simplified and can take advantage of this new functionality.
+
+This feature implements auto increment by enhancing `DEFAULT` or `DEFAULT ON NULL` semantics for use by `SEQUENCE.NEXTVAL` and `SYS_GUID`, supports built-in functions and implicit return of default values.
+
+##### Creating Identity Columns
+
+Example 1-1 creates a table with an identity column, which is generated by default. When explicit `null`s are inserted into the identity column, the sequence generator creates values by default. For further details, see [Oracle Database SQL Language Reference](../sqlrf/CREATE-SEQUENCE.md).
+
+Example 1-1 How to create an identity column
+
+    CREATE TABLE t1 (c1 NUMBER GENERATED BY DEFAULT ON NULL AS IDENTITY,
+                       c2 VARCHAR2(10));
+    INSERT INTO t1(c2) VALUES (‘abc');
+    INSERT INTO t1 (c1, c2) VALUES (null, ‘xyz');
+    SELECT c1, c2 FROM t1;
+
+#### Implicit Statement Results
+
+Starting with Oracle Database 12c Release 2 (12.2), Oracle implicitly returns to the client application the results of SQL statements executed within a stored procedure, bypassing the explicit use `REF CURSOR`s. This feature eliminates the overhead of re-writing the client-side code.
+
+Implicit statement results enable the user to write a stored procedure, where each intended query (the statement after the `FOR` keyword) is part of the `OPEN` cursor variable. When code is migrated to Oracle Database from other vendors environments, the PL/SQL layer adds the equivalent capability and enables `SELECT` statements to pass the results to the client. The stored procedures can then return the results directly to the client with the `DBMS_SQL.RETURN_RESULT` procedure. The SQL\*Plus `FORMAT` command and its variations may be invoked to customize the output.
+
+For information about the `DBMS_SQL` package, see [Oracle Database PL/SQL Packages and Types Reference](../arpls/DBMS_SQL.md). For information about how to use format output, [SQL\*Plus User's Guide and Reference](../sqpug/using-SQL-Plus.md).
+
+##### JDBC Support for Implicit Results
+
+Starting with Oracle Database 12c Release 2 (12.2), JDBC applications provide support for implicit results through the following new functions:
+
+- `getMoreResults`
+
+- `getMoreResults(int)`
+
+- `getResultSet`
+
+You can use these methods to retrieve and process the implicit results returned by PL/SQL procedures or blocks, as demonstrated in Example 1-2.
+
+For more information, see [Oracle Database JDBC Developer's Guide](../jjdbc/JDBC-getting-started.md)
+
+###### Processing Implicit Results in JDBC
+
+Example 1-2 Retrieving and Processing Implicit Results from PL/SQL Blocks
+
+Suppose you have a procedure called `foo`:
+
+     create procedure foo as
+      c1 sys_refcursor;
+      c2 sys_refcursor;
+    begin
+      open c1 for select * from hr.employees;
+      dbms_sql.return_result(c1); --return to client
+      -- open 1 more cursor
+      open c2 for select * from hr.departments;
+      dbms_sql.return_result (c2); --return to client
+    end;
+
+
+The following code demonstrates how to retrieve the implicit results returned by PL/SQL procedures using the JDBC `getMoreResults` methods:
+
+    String sql = "begin foo; end;";
+    ...
+    Connection conn = DriverManager.getConnection(jdbcURL, user, password);
+     try {
+            Statement stmt = conn.createStatement ();
+            stmt.executeQuery (sql);
+
+            while (stmt.getMoreResults())
+            {
+                  ResultSet rs = stmt.getResultSet();
+                  System.out.println("ResultSet");
+                  while (rs.next())
+                 {
+                       /* get results */
+                 }
+             }
+          }
+
+##### OCI Support for Implicit Results
+
+Starting with Oracle Database 12c Release 2 (12.2), Oracle Call Interface (OCI) provides support for implicit results through a new function, `OCIStmtGetNextResult()`. It is called iteratively by C applications to retrieve each implicit result from stored procedures and anonymous blocks. Implicit results consume rows directly from a stored procedure without going through a `RefCursor`.
+
+**See Also:**
+
+[Oracle Call Interface Programmer's Guide](../lnoci/performance-topics.md)
+
+###### Processing Implicit Results in OCI
+
+Example 1-3 shows how to use the `OCIStmtGetNextResult()` function to retrieve and process the implicit results returned by either a PL/SQL stored procedure or an anonymous block:
+
+Example 1-3 Using OCIStmtGetNextResult() to Process Implicit Results
+
+    OCIStmt *stmthp;
+      ub4      rsetcnt;
+      void    *result;
+      ub4      rtype;
+      char    *sql = "begin foo; end;";
+
+      OCIHandleAlloc((void *)envhp, (void **)&stmthp,
+                      OCI_HTYPE_STMT, 0, (void **)0);
+
+      /* Prepare and execute the PL/SQL procedure. */
+      OCIStmtPrepare(stmthp, errhp, (oratext *)sql, strlen(sql),
+                     OCI_NTV_SYNTAX, OCI_DEFAULT);
+      OCIStmtExecute(svchp, stmthp, errhp, 1, 0,
+                     (const OCISnapshot *)0,
+                     (OCISnapshot *)0, OCI_DEFAULT);
+
+      /* Now check if any implicit results are available. */
+      OCIAttrGet((void *)stmthp, OCI_HTYPE_STMT, &rsetcnt, 0,
+                 OCI_ATTR_IMPLICIT_RESULT_COUNT, errhp);
+
+      /* Loop and retrieve the implicit result-sets.
+       * ResultSets are returned in the same order as in the PL/SQL
+       * procedure/block.
+       */
+      while (OCIStmtGetNextResult(stmthp, errhp, &result, &rtype,
+                                  OCI_DEFAULT) == OCI_SUCCESS)
+    {    /* Check the type of implicit ResultSet, currently
+         * only supported type is OCI_RESULT_TYPE_SELECT
+    */    if (rtype == OCI_RESULT_TYPE_SELECT)
+    {      OCIStmt *rsethp = (OCIStmt *)result;
+           /* Perform normal OCI actions to define and fetch rows. */
+        }    else
+          printf("unknown result type %d\n", rtype);
+         /* The result set handle should not be freed by the user. */
+      }   OCIHandleFree(stmthp, OCI_HTYPE_STMT); /* All implicit result-sets are also freed. */
+
+##### ODBC Support for Implicit Results
+
+Starting with Oracle Database 12c, ODBC applications provide support for implicit results through a new function, `SQLMoreResults()`. ODBC driver is enhanced to make use of the following new OCI APIs that enhance the migration process:
+
+- `OCIStmtGetNextResult()` function
+
+- `OCI_ATTR_IMPLICIT_RESULT_COUNT` attribute
+
+- `OCI_RESULT_TYPE_SELECT` attribute
+
+ODBC support for implicit results enables the migration of Sybase and SQL Server applications that use multiple result sets bundled in the stored procedures. Oracle achieves this by sending the statements or procedures to the server, where the non-Oracle SQL is translated to Oracle syntax.
+
+###### Processing Implicit Results in ODBC
+
+Example 1-4 and Example 1-5 demonstrate how to retrieve implicit results in ODBC.
+
+Example 1-4 Using ODBC to return implicit results with DBMS_SQL.RETURN_RESULT
+
+    create or replace procedure foo
+    is
+    c1 sys_refcursor;
+    c2 sys_refcursor;
+    begin
+      open c1 for select employee_id, first_name from employees where employee_id=7369;
+      dbms_sql.return_result(c1);
+      open c2 for select department_id, department_name from departments where rownum <=2;
+      dbms_sql.return_result(c2);
+    end;
+    /
+
+Example 1-5 Using ODBC to return implicit results with SQLMoreResults
+
+    SQLLEN enind,jind;
+    SQLUINTEGER eno = 0;
+    SQLCHAR empname[STR_LEN] = "";
+    //Allocate HENV, HDBC, HSTMT handles
+    rc = SQLPrepare(hstmt, "begin foo(); end;", SQL_NTS);
+    rc = SQLExecute(hstmt);
+    //Bind columns for the first SELECT query in the procedure foo( )
+    rc = SQLBindCol (hstmt, 1, SQL_C_ULONG, &eno, 0, &jind);
+    rc = SQLBindCol (hstmt, 2, SQL_C_CHAR, empname, sizeof (empname),
+    &enind);
+    …
+    //so on for all the columns that needs to be fetched as per the SELECT
+    //query in the procedure.
+    //Fetch all results for first SELECT query
+    while ((rc = SQLFetch (hstmt)) != SQL_NO_DATA)
+    {
+    //do something
+    }
+    //Again check if there are any results available by calling
+    //SQLMoreResults. SQLMoreResults will return SQL_SUCCESS if any
+    //results are available else returns errors appropriately as explained
+    //in MSDN ODBC spec.
+    rc = SQLMoreResults ( hstmt );
+    if( rc == SQL_SUCCESS)
+    {
+    //If the columns for the second SELECT query are different the rebind
+    //the columns for the second SELECT SQL statement.
+    rc = SQLBindCol (hstmt, 1,…);
+    rc = SQLBindCol (hstmt, 2,…);
+    …
+    //Fetch the second result set
+    while ((rc = SQLFetch (hstmt)) != SQL_NO_DATA)
+    //do something
+    }
+    SQLFreeStmt(hstmt,SQL_DROP);
+    SQLDisconnect (hdbc);
+
+    SQLFreeConnect (hdbc);
+    SQLFreeEnv (henv);
+
+#### Enhanced SQL to PL/SQL Bind Handling
+
+In earlier releases of Oracle Database, a SQL expression could not invoke a PL/SQL function that had a formal parameter or return type that was not a SQL data type.
+
+Starting with Oracle Database 12c, a PL/SQL anonymous block, a SQL CALL statement, or a SQL query can invoke a PL/SQL function that has parameters of the following types:
+
+- `Boolean`
+
+- Record declared in a package specification
+
+- Collection declared in a package specification
+
+The SQL `TABLE` operator is also enhanced, so that you can query on PL/SQL collections of locally scoped types as an argument to `TABLE` operator. Here, the collections can be of nested table types, `VARRAY`, or PL/SQL index table that are indexed by `PLS_INTEGER`.
+
+This feature extends the flexibility of the `TABLE` operator, and enables easy migration of non-Oracle stored procedure code to PL/SQL.
+
+##### Invoking a Subprogram with a Nested Table Parameter
+
+Example 1-6 shows how to dynamically call a subprogram with a nested table formal parameter. See [Oracle Database PL/SQL Language Reference](../lnpls/index.md) for more information on this topic.
+
+Example 1-6 Invoking a subprogram with a nested table formal parameter
+
+    CREATE OR REPLACE PACKAGE pkg AUTHID CURRENT_USER AS
+
+      TYPE names IS TABLE OF VARCHAR2(10);
+
+      PROCEDURE print_names (x names);
+    END pkg;
+    /
+    CREATE OR REPLACE PACKAGE BODY pkg AS
+      PROCEDURE print_names (x names) IS
+      BEGIN
+        FOR i IN x.FIRST .. x.LAST LOOP
+          DBMS_OUTPUT.PUT_LINE(x(i));
+        END LOOP;
+      END;
+    END pkg;
+    /
+    DECLARE
+      fruits   pkg.names;
+      dyn_stmt VARCHAR2(3000);
+    BEGIN
+      fruits := pkg.names('apple', 'banana', 'cherry');
+
+      dyn_stmt := 'BEGIN print_names(:x); END;';
+      EXECUTE IMMEDIATE dyn_stmt USING fruits;
+    END;
+
+#### Native SQL Support for Query Row Limits and Row Offsets
+
+Starting with Oracle Database 12c, Oracle provides a row limiting clause that enables native SQL support for query row limits and row offsets. If your application has queries that limit the number of rows returned or offset the starting row of the results, this feature significantly reduces SQL complexity for such queries.
+
+##### Limiting Bulk Selection
+
+Example 1-7 shows how to limit bulk selection with the `FETCH FIRST` clause. See [Oracle Database SQL Language Reference](../sqlrf/SELECT.md) for more information on this topic.
+
+Example 1-7 How to limit bulk selection
+
+    DECLARE
+      TYPE SalList IS TABLE OF employees.salary%TYPE;
+      sals SalList;
+    BEGIN
+      SELECT salary BULK COLLECT INTO sals FROM employees
+        WHERE ROWNUM <= 50;
+
+      SELECT salary BULK COLLECT INTO sals FROM employees
+        SAMPLE (10);
+
+      SELECT salary BULK COLLECT INTO sals FROM employees
+        FETCH FIRST 50 ROWS ONLY;
+    END;
+    /
+
+#### JDBC Driver Support for Application Migration
+
+Many applications that you want to migrate to Oracle Database from other databases have Java applications that use JDBC to connect to the database. To facilitate SQL translation, Oracle Database 12c introduces a new set of JDBC APIs that are specific to SQL translation.
+
+**See Also:**
+
+- "[SQL Translation of JDBC Applications](SQL-translation-JDBC-ODBC-applications.md)"
+
+- [API Reference for SQL Translation of JDBC Applications](API-ref-for-SQL-translation-of-JDBC-apps.md)
+
+- Complete documentation of the `oracle.jdbc` package in Oracle Database JDBC Java API Reference
+
+- [`http://www.oracle.com/technetwork/database/enterprise-edition/jdbc-112010-090769.html`](http://www.oracle.com/technetwork/database/enterprise-edition/jdbc-112010-090769.html) for an updated list of JDBC drivers
+
+#### ODBC Driver Support for Application Migration
+
+ODBC driver supports the migration of third-party applications to Oracle Databases by using the SQL Translation Framework. This enables non-Oracle database SQL statements to run against Oracle Database. See "[How to Use SQL Translation Framework](SQL-translation-framework-overview.md)" before beginning to migrate third-party ODBC application to Oracle Database.
+
+To use this feature with an ODBC application, you must specify the service name, which was created as part of SQL Translation Framework setup, as the `ServerName=` entry in the `.odbc.ini` file.
+
+If you require support for translation of Oracle errors (ORA errors) to your the native database, once your application starts running against Oracle Database, then you must enable the `SQLTranslateErrors=T` entry in the `.odbc.ini` file. See "[SQL Translation of ODBC Applications](SQL-translation-JDBC-ODBC-applications.md)" for more information on this topic.
+
+### Other Oracle Products that Enable Migration
+
+Oracle recommends the use of several Oracle products as part of an overall migration strategy.
+
+#### OEM Tuning and Performance Packs
+
+For every type of migration, a few of the SQL statements used in the application must change, and some indexes must be re-built. Oracle SQL Tuning and Performance Packs provide guidance for the optimization step of the application migration.
+
+#### Oracle GoldenGate
+
+Oracle GoldenGate is a comprehensive software package for enabling the replication of data in heterogeneous data environments. The product set enables high availability solutions, real-time data integration, transactional change data capture, data replication, transformations, and verification between operational and analytical enterprise systems.
+
+Oracle GoldenGate enables the exchange and manipulation of data at the transaction level among multiple, heterogeneous platforms across the enterprise. Its modular architecture provides the flexibility to extract and replicate selected data records, transactional changes, and changes to DDL (data definition language) across a variety of topologies.
+
+When you migrate very large databases, the actual process of copying data from one database to another is time-consuming. During this time, the enterprise must continue delivering services using the old solution, which changes some of the data. These run-time changes must be captured and propagated to Oracle Database. Oracle GoldenGate captures these changes and enables side-by-side testing to ensure that the new solution performs as planned.
+
+#### Oracle Database Gateways
+
+Oracle Database Gateways address the needs of disparate data access. In a heterogeneously distributed environment, Gateways make it possible to integrate with any number of non-Oracle systems from an Oracle application. They enable integration with data stores such as IBM DB2, Microsoft SQL Server and Excel, transaction managers like IBM CICS and message queuing systems like IBM WebSphere MQ.
+
+For more information about Oracle Database Gateways, see [`http://www.oracle.com/technetwork/database/gateways/index.html`](http://www.oracle.com/technetwork/database/gateways/index.html)
+
+#### Oracle SQL Developer
+
+Oracle SQL Developer, as described in Oracle SQL Developer User's Guide, has a large suite of features that enable migration, including the following features:
+
+- Support for database migration, such as schema, data, and server-side objects, from non-Oracle databases to Oracle Database (Migration Wizard)
+
+- Support for application migration, including SQL statement pre-processing and data type translation support (Application Migration Assistant)
+
+### Migration Support for Other Database Vendors
+
+Oracle provides migration support for applications running on various databases.
+
+#### Application Support in Third-Party Databases
+
+Table 1-1 provides information about the applications supported in several third-party databases. Note that while translation framework is available for DB2 LUW, a translator for DB2 is not available.
+
+Table 1-1 Supported Applications in Databases
+
+| Application                                         | SQL Server | DB2 LUW | DB2 AS400 | Sybase ASE | Teradata | Informix |
+|:----------------------------------------------------|:-----------|:--------|:----------|:-----------|:---------|:---------|
+| Oracle SQL Developer                                | Yes        | Yes     | No        | Yes        | Yes      | No       |
+| Oracle Migration Workbench                          | No         | No      | Yes       | No         | No       | Yes      |
+| SQL Translation Framework (SQL Translation Profile) | Yes        | Yes     | Yes       | Yes        | Yes      | Yes      |
+| SQL Translation Framework (SQL Translator)          | yes        | Partial | No        | Yes        | No       | No       |
+
+#### Third-Party Database Version Support
+
+Table 1-2 lists the supported database versions for migration using Oracle SQL Developer; this is not a comprehensive list. SQL translation may not work properly for every database.
+
+Table 1-2 Supported Database Versions for Migration Using Oracle SQL Developer
+
+| RDBMS                        | Supported Versions      |
+|:-----------------------------|:------------------------|
+| SQL Server                   | 7.0, 2000, 2005,2008    |
+| Sybase Adaptive Server (ASE) | 12, 15                  |
+| Access                       | 97, 2000, 2002 and 2003 |
+| MySQL                        | 3,4,5                   |
+| DB2                          | AS400 V4R3, V4R5        |
+| DB2 LUW                      | 8, 9                    |
+| Teradata                     | 12                      |
+| Informix                     | 7.3, 9.1, 9.2, 9.3, 9.4 |

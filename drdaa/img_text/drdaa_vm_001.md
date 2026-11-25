@@ -1,0 +1,1 @@
+SQL Translation Framework at Runtime consists of the Oracle Database and the Application. The Application passes Non-Oracle SQL instructions to the SQL Translator inside the Oracle Database. The SQL Translation Profile inside the Oracle Database returns the Results to the Application.
