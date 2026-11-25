@@ -1,0 +1,1220 @@
+## Index
+
+Symbols  A  B  C  D  E  F  G  H  I  K  L  M  N  O  P  R  S  T  U  V  W  X  Z  
+
+------------------------------------------------------------------------
+
+## Symbols
+
+- .NET
+  - PromotableTransaction deprecated [10.8.4.8](oracle-database-changes-deprecations-desupports.md)
+
+------------------------------------------------------------------------
+
+## A
+
+- access control lists (ACLs)
+  - granting access to network utility packages [B.2.8.1](using-preupgrade-information-tool-for-oracle-database.md)
+  - XDB ACLs migrated [10.8.1.5](oracle-database-changes-deprecations-desupports.md)
+- ACFS-9427: Failed to unload ADVM/ACFS drivers [5.11](troubleshooting-oracle-database-upgrade.md)
+- ACFS-9428 Failed to load ADVM/ACFS drivers [5.11](troubleshooting-oracle-database-upgrade.md)
+- ACLs
+  - See: access control lists (ACLs)
+- adding ACLs for network utility packages [B.2.8.2](using-preupgrade-information-tool-for-oracle-database.md)
+- addnode.bat
+  - deprecated [10.6.4.6](oracle-database-changes-deprecations-desupports.md)
+- addnode.sh
+  - deprecated [10.6.4.6](oracle-database-changes-deprecations-desupports.md)
+- adjusting after manual upgrades [6.8.5.2](tasks-complete-only-manually-upgrading-oracle-database.md)
+- amd_exists [4.3.1](example-manual-upgrade-windows-non-cdb.md)
+- apex_upgrade_msg [4.3.1](example-manual-upgrade-windows-non-cdb.md)
+- application code
+  - not changing after upgrade [7.7.1](upgrade-options-precompiler-oci.md)
+- applications
+  - checking package dependencies [6.3.7](required-tasks-complete-upgrading-oracle-database.md)
+  - compatibility [7.2](compatibility-issues-applications-different-releases-oracle-database.md)
+  - linked and upgrading [7.4.2](compatibility-rules-applications-when-upgrading-oracle-database-client-server-software.md)
+  - linking with newer libraries [7.4.2.2](compatibility-rules-applications-when-upgrading-oracle-database-client-server-software.md)
+  - running against older server [7.4.1.2](compatibility-rules-applications-when-upgrading-oracle-database-client-server-software.md)
+  - upgrading [7](upgrading-apps-after-oracle-db-upgrade.md)
+    - client/server configurations [7.3](software-upgrades-and-client-and-server-configurations-oracle-database.md)
+    - compatibility rules [7.4](compatibility-rules-applications-when-upgrading-oracle-database-client-server-software.md)
+    - options [7.7](upgrade-options-precompiler-oci.md)
+    - relinking rules [7.4](compatibility-rules-applications-when-upgrading-oracle-database-client-server-software.md)
+- apxrelod.sql file
+  - reloading after downgrade [8.5](downgrading-oracle-db-after-upgrade.md)
+- ArchiveLogTarget deprecated [10.6.4.3](oracle-database-changes-deprecations-desupports.md)
+- ARGUMENTS user views
+  - changes to [10.7.1.6](oracle-database-changes-deprecations-desupports.md)
+- ASM_PREFERRED_READ_FAILURE_GROUPS [6.6.4](recommended-tasks-upgrading-oracle-asm.md)
+- asmcmd pwcreate deprecated [10.6.4.5](oracle-database-changes-deprecations-desupports.md)
+- attributes
+  - xdb defaultTableSchema (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+  - xdb maintainOrder (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+  - xdb mapUnboundedStringToLob (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+  - xdb maxOccurs (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+  - xdb SQLCollSchema (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+  - xdb SQLSchema (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+  - xdb srclang (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+  - xdb storeVarrayAsTable (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+  - xdb translate (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- auditing
+  - about transferring audit records after upgrade [6.4.17.1](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+  - databases, when unavailable [2.5.12](database-preparation-tasks-to-complete-before-upgrades.md)
+  - loading audit records to unified audit trail [2.5.12](database-preparation-tasks-to-complete-before-upgrades.md)
+  - transferring unified audit records after upgrade [6.4.17.2](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+  - unified auditing migration
+    - about [6.4.14](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+    - documentation references for non-unified auditing [6.4.14.5](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+    - managing earlier audit records after migration [6.4.14.3](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+    - procedure [6.4.14.2](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+  - unified auditing transition
+    - audit options [6.4.14.1](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+    - turn on traditional auditing [6.4.14.4](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+- Automatic Diagnostic Repository (ADR) [1.4.2](running-multiple-oracle-database-releases.md)
+- automatic undo management
+  - migrating to [6.4.12](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+- Autoupgrade
+  - jobid [3.3.1](autoupgrade-messages-process-description-terms.md)
+- AutoUpgrade [3.1](about-oracle-database-autoupgrade.md)
+  - fast recovery area (FRA) [3.15](enabling-full-deployments-autoupgrade.md)
+  - guaranteed restore points [3.15](enabling-full-deployments-autoupgrade.md)
+  - out-of-place patching [2.1.5](choose-a-new-location-for-oracle-home-when-upgrading.md)
+  - password files [3.15](enabling-full-deployments-autoupgrade.md)
+  - PDB priority [3.11.3](autoupgrade-patching.md)
+  - Transparent Data Encryption (TDE) [3.15](enabling-full-deployments-autoupgrade.md)
+- autoupgrade -config-
+  - clear_recovery_data [3.8.4](autoupgrade-command-line-parameters.md), [3.8.9](autoupgrade-command-line-parameters.md), [3.8.10](autoupgrade-command-line-parameters.md)
+  - -console [3.8.4](autoupgrade-command-line-parameters.md), [3.8.9](autoupgrade-command-line-parameters.md), [3.8.10](autoupgrade-command-line-parameters.md)
+  - -debug [3.8.4](autoupgrade-command-line-parameters.md), [3.8.9](autoupgrade-command-line-parameters.md), [3.8.10](autoupgrade-command-line-parameters.md)
+  - -mode [3.8.4](autoupgrade-command-line-parameters.md), [3.8.9](autoupgrade-command-line-parameters.md), [3.8.10](autoupgrade-command-line-parameters.md)
+  - -noconsole [3.8.4](autoupgrade-command-line-parameters.md), [3.8.9](autoupgrade-command-line-parameters.md), [3.8.10](autoupgrade-command-line-parameters.md)
+  - -restore_on_fail [3.8.4](autoupgrade-command-line-parameters.md), [3.8.9](autoupgrade-command-line-parameters.md), [3.8.10](autoupgrade-command-line-parameters.md)
+  - -zip [3.8.4](autoupgrade-command-line-parameters.md), [3.8.9](autoupgrade-command-line-parameters.md), [3.8.10](autoupgrade-command-line-parameters.md)
+- autoupgrade -config_values-
+  - clear_recovery_data [3.8.5](autoupgrade-command-line-parameters.md)
+  - -console [3.8.5](autoupgrade-command-line-parameters.md)
+  - -debug [3.8.5](autoupgrade-command-line-parameters.md)
+  - -mode [3.8.5](autoupgrade-command-line-parameters.md)
+  - -noconsole [3.8.5](autoupgrade-command-line-parameters.md)
+  - -restore_on_fail [3.8.5](autoupgrade-command-line-parameters.md)
+  - -zip [3.8.5](autoupgrade-command-line-parameters.md)
+- autoupgrade -load_win_credential [3.8.11](autoupgrade-command-line-parameters.md)
+- autoupgrade patching [3.11](autoupgrade-patching.md)
+- AutoUpgrade Patching
+  - Modes and stages [3.11.2](autoupgrade-patching.md)
+- autoupgrade -preupgrade [3.8.15](autoupgrade-command-line-parameters.md)
+
+------------------------------------------------------------------------
+
+## B
+
+- backing up the database [2.12](backing-up-oracle-db-for-upgrading.md)
+- backups
+  - after upgrading [6.4.1](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+  - before downgrading [8.4](downgrading-oracle-db-after-upgrade.md)
+  - Zero Data Loss Recovery Appliance restriction [10.8.1.12](oracle-database-changes-deprecations-desupports.md)
+- benchmarks [2.1.6.7](develop-a-test-plan-for-upgrading-database.md)
+- benefits of options for upgrading precompiler and Oracle Call Interface (OCI) applications [7.7](upgrade-options-precompiler-oci.md)
+- BFILE
+  - migrating to [6.4.13](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+- BLOB
+  - migrating to [6.4.13](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+- BP (bundle patches [2.5.1](database-preparation-tasks-to-complete-before-upgrades.md), [6.9](release-updates-requirements-upgrade-oracle-database.md)
+- broker configuration
+  - exporting [2.1.8.3](back-up-files-to-preserve-downgrade.md)
+- bundle patch sets [1.3.1](oracle-database-release-numbers.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- capturing and replaying database workload [2.1.6.6.1](develop-a-test-plan-for-upgrading-database.md)
+- case sensitivity
+  - for passwords [6.4.5](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+- catcon
+  - and downgrades [8.9.7](downgrading-oracle-db-after-upgrade.md)
+  - running SQL commands with [8.9.9](downgrading-oracle-db-after-upgrade.md)
+- catcon.pl [4.2.3](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md), [4.6.5](upgrade-scenarios-non-cdb-oracle-databases.md), [8.6.2](downgrading-oracle-db-after-upgrade.md), [B.1](scripts-upgrade-oracle-database.md)
+  - using to check PDBs [B.2.6](using-preupgrade-information-tool-for-oracle-database.md)
+- catctl.pl [4.1.2](upgrading-parallel-upgrade-utility-catctl-pl.md), [4.1.3](upgrading-parallel-upgrade-utility-catctl-pl.md), [B.1](scripts-upgrade-oracle-database.md)
+  - running shell commands to start [4.1.1](upgrading-parallel-upgrade-utility-catctl-pl.md)
+- catdwgrd.sql [B.1](scripts-upgrade-oracle-database.md)
+- catdwgrd.sql script [8.6.2](downgrading-oracle-db-after-upgrade.md)
+- catnoamd.sql [B.1](scripts-upgrade-oracle-database.md)
+- catnoexf.sql [B.1](scripts-upgrade-oracle-database.md)
+- CATRELOD.SQL script [8.6.2](downgrading-oracle-db-after-upgrade.md), [8.7](downgrading-oracle-db-after-upgrade.md)
+- catupgrd.log files
+  - for CDBs and PDBs [4.7.4.1](restarting-upgrade-specific-phase-that-failed-using-p.md)
+- catupgrd.sql
+  - replaced by catctl.pl [4.4](dbupgrade-scripts-catupgrd.sql-earlier-release.md)
+- CATUPGRD.SQL script
+  - See: CATCTL.PL script
+
+  <!-- -->
+
+  - desupported.
+    - See: CATCTL.PL script
+- catuppst.sql [B.1](scripts-upgrade-oracle-database.md)
+- CDB_JAVA_POLICY [5.10](troubleshooting-oracle-database-upgrade.md)
+- CDB_REGISTRY [8.9.10](downgrading-oracle-db-after-upgrade.md)
+- CDBs [C.1](upgrading-oracle-database-upgrade-assistant-dbua.md)
+  - catctl.pl log files [4.7.4.1](restarting-upgrade-specific-phase-that-failed-using-p.md)
+  - downgrading [8.5](downgrading-oracle-db-after-upgrade.md)
+  - Oracle Label Security [4.6.4](upgrade-scenarios-non-cdb-oracle-databases.md)
+  - rerunning the upgrade for CDB and PDBs [4.7.3.1](rerunning-upgrades-oracle-database.md)
+  - rerunning upgrades [4.7.3](rerunning-upgrades-oracle-database.md)
+  - restarting from a failed phase [4.7.4](restarting-upgrade-specific-phase-that-failed-using-p.md)
+  - restarting upgrades [4.7.4.2](restarting-upgrade-specific-phase-that-failed-using-p.md)
+  - upgrade scenarios [4.2](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+  - upgrading [4.2.1](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+  - using catcon with [8.9.9](downgrading-oracle-db-after-upgrade.md)
+- change passwords
+  - for Oracle-supplied accounts [6.8.1](tasks-complete-only-manually-upgrading-oracle-database.md)
+- changing PDB upgrade priority [4.2.4](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+- changing scripts to use new features [7.8](upgrading-sqlplus-scripts-and-pl-sql-database.md)
+- client and server
+  - configurations and upgrading [7.3.1](software-upgrades-and-client-and-server-configurations-oracle-database.md)
+- client-server configurations [1.4.3](running-multiple-oracle-database-releases.md)
+- client-side dynamic library [7.4.2.4](compatibility-rules-applications-when-upgrading-oracle-database-client-server-software.md)
+- client software
+  - upgrading [7.4.2](compatibility-rules-applications-when-upgrading-oracle-database-client-server-software.md)
+- CLOB
+  - migrating to [6.4.13](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+- clone.pl
+  - deprecated [10.6.4.7](oracle-database-changes-deprecations-desupports.md)
+- CLUSTER_DATABASE initialization parameter [2.7](preparing-new-oracle-home-for-upgrade.md), [5.1](troubleshooting-oracle-database-upgrade.md)
+- command-line upgrade
+  - See: manual upgrade
+- commands
+  - orabase [8.6.1](downgrading-oracle-db-after-upgrade.md)
+  - orabasehome [8.6.1](downgrading-oracle-db-after-upgrade.md)
+  - oracle_home [8.6.1](downgrading-oracle-db-after-upgrade.md)
+- compatibility
+  - applications [7.2](compatibility-issues-applications-different-releases-oracle-database.md)
+  - between Oracle releases [1.3](compatibility-interoperability-between-database-releases.md)
+  - checking for incompatibilities [8.3](downgrading-oracle-db-after-upgrade.md)
+  - COMPATIBLE initialization parameter [1.3.3.3](what-is-oracle-database-compatibility.md)
+  - downgrading [1.3.3.5](what-is-oracle-database-compatibility.md)
+  - overview for Oracle Database [1.3.3.1](what-is-oracle-database-compatibility.md)
+- COMPATIBLE initialization parameter [1.3.3.3](what-is-oracle-database-compatibility.md), [6.6.3](recommended-tasks-upgrading-oracle-asm.md)
+  - and PDB compatibility [1.3.3.3](what-is-oracle-database-compatibility.md)
+  - checking the level of [1.3.3.7](what-is-oracle-database-compatibility.md)
+  - considerations for downgrading [1.3.3.5](what-is-oracle-database-compatibility.md)
+  - default [1.3.3.3](what-is-oracle-database-compatibility.md)
+  - initial Java delay [1.3.3.3](what-is-oracle-database-compatibility.md)
+  - Oracle recommendation [1.3.3.2](what-is-oracle-database-compatibility.md)
+  - setting [6.8.5.1](tasks-complete-only-manually-upgrading-oracle-database.md)
+  - values [1.3.3.4](what-is-oracle-database-compatibility.md)
+- component status [5.12.1](troubleshooting-oracle-database-upgrade.md)
+- compression
+  - sqlnet.ora file parameters and [2.5.3](database-preparation-tasks-to-complete-before-upgrades.md)
+- compression scheme [2.5.3](database-preparation-tasks-to-complete-before-upgrades.md)
+  - SQLNET.COMPRESSION [2.5.3](database-preparation-tasks-to-complete-before-upgrades.md)
+  - SQLNET.COMPRESSION_LEVELS [2.5.3](database-preparation-tasks-to-complete-before-upgrades.md)
+  - SQLNET.COMPRESSION_THRESHOLD [2.5.3](database-preparation-tasks-to-complete-before-upgrades.md)
+- configuration files
+  - copying [2.7](preparing-new-oracle-home-for-upgrade.md)
+- continuous_mine option desupported [10.6.2.3](oracle-database-changes-deprecations-desupports.md)
+- copying configuration files [2.7](preparing-new-oracle-home-for-upgrade.md)
+- CREATE pfile FROM spfile [2.7](preparing-new-oracle-home-for-upgrade.md)
+- CREATE TABLE AS [1.1.2](upgrade-and-data-migration-methods-and-processes.md)
+- crsuser deprecated [10.7.2.7](oracle-database-changes-deprecations-desupports.md)
+- cursor cache, SMB [2.1.6.6.3](develop-a-test-plan-for-upgrading-database.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- Database Links [B.2.8.3](using-preupgrade-information-tool-for-oracle-database.md)
+- Database Replay
+  - database workloads before upgrading [2.1.6.6.1](develop-a-test-plan-for-upgrading-database.md)
+- databases
+  - downgrading [8.6.1](downgrading-oracle-db-after-upgrade.md)
+  - downgrading and Oracle Internet Directory registration [C.1](upgrading-oracle-database-upgrade-assistant-dbua.md)
+  - downgrading manually [8.6.2](downgrading-oracle-db-after-upgrade.md)
+  - upgrading the client software [7.4.2](compatibility-rules-applications-when-upgrading-oracle-database-client-server-software.md)
+- Database Upgrade Assistant (DBUA)
+  - advantages [2.1.4.2](choose-an-upgrade-method-for-oracle-database.md), [2.1.4.5](choose-an-upgrade-method-for-oracle-database.md)
+  - and multitenant architecture upgrades [10.8.1.2](oracle-database-changes-deprecations-desupports.md)
+  - CDBs and [C.1](upgrading-oracle-database-upgrade-assistant-dbua.md)
+  - command-line options for [C.7.2](upgrading-oracle-database-upgrade-assistant-dbua.md)
+  - -executePrereqs option [10.8.1.2](oracle-database-changes-deprecations-desupports.md)
+  - guaranteed restore points [C.1](upgrading-oracle-database-upgrade-assistant-dbua.md)
+  - non-CDBs and [C.1](upgrading-oracle-database-upgrade-assistant-dbua.md)
+  - noninteractive (silent) command-line syntax [C.7.2](upgrading-oracle-database-upgrade-assistant-dbua.md)
+  - Pause and Continue [10.8.1.2](oracle-database-changes-deprecations-desupports.md)
+  - PDBs and [C.1](upgrading-oracle-database-upgrade-assistant-dbua.md)
+  - registering the database in the listener.ora file [2.5.3](database-preparation-tasks-to-complete-before-upgrades.md)
+  - removed features [10.8.1.2](oracle-database-changes-deprecations-desupports.md)
+  - running [C](upgrading-oracle-database-upgrade-assistant-dbua.md)
+  - silent mode [C.7](upgrading-oracle-database-upgrade-assistant-dbua.md)
+  - standalone prerequisite checks [10.8.1.2](oracle-database-changes-deprecations-desupports.md)
+  - starting [C.3](upgrading-oracle-database-upgrade-assistant-dbua.md), [C.6](upgrading-oracle-database-upgrade-assistant-dbua.md)
+- Database Upgrade Assistant (DBUA) new features [10.8.1.2](oracle-database-changes-deprecations-desupports.md)
+- Database XE [1.5.6](migrating-from-express-to-standard-database.md)
+- data copying
+  - using Export/Import [9](migrating-data-after-upgrade-oracle.md)
+- data definition language (DDL) [1.3.5](invalid-schema-objects-database-upgrades.md)
+- data dictionary
+  - about changes that affect applications [7.2](compatibility-issues-applications-different-releases-oracle-database.md)
+  - checking the state of [6.2](how-to-show-current-state-oracle-data-dictionary.md)
+- DataGuardSyncLatency deprecated [10.6.4.3](oracle-database-changes-deprecations-desupports.md)
+- Data Pump Export/Import
+  - advantages of using [2.1.4.4](choose-an-upgrade-method-for-oracle-database.md)
+  - recommendations [9.1](migrating-data-after-upgrade-oracle.md)
+  - versus Original Export/Import [9.1](migrating-data-after-upgrade-oracle.md)
+  - when to use [9.1](migrating-data-after-upgrade-oracle.md)
+  - with subsets of production database [2.10](testing-upgraded-production-oracle-database.md)
+- datatypes [10.9.1.7](oracle-database-changes-deprecations-desupports.md)
+- DBA_ACL_NAME_MAP [10.8.1.5](oracle-database-changes-deprecations-desupports.md)
+- DBA_REGISTERED_MVIEW_GROUPS
+  - desupported [10.8.2.6](oracle-database-changes-deprecations-desupports.md)
+- DBA_REGISTRY [8.9.10](downgrading-oracle-db-after-upgrade.md)
+- DBA_REGISTRY view [5.12.1](troubleshooting-oracle-database-upgrade.md)
+- dbdowngrade utility [8.6.1](downgrading-oracle-db-after-upgrade.md)
+- DbFileNameConvert deprecated [10.6.4.3](oracle-database-changes-deprecations-desupports.md)
+- DBMS_DEBUG
+  - deprecated [10.8.4.3](oracle-database-changes-deprecations-desupports.md)
+- DBMS_DST package [B.2.8.4](using-preupgrade-information-tool-for-oracle-database.md)
+- DBMS_LDAP.init parameter [B.2.8.1](using-preupgrade-information-tool-for-oracle-database.md)
+- DBMS_LDAP package [B.2.8.1](using-preupgrade-information-tool-for-oracle-database.md)
+- DBMS_NETWORK_ACL_ADMIN
+  - deprecated [10.8.1.5](oracle-database-changes-deprecations-desupports.md)
+- DBMS_NETWORK_ACL_ADMIN_APPEND_HOST_ACE [10.8.1.5](oracle-database-changes-deprecations-desupports.md)
+- DBMS_NETWORK_ACL_ADMIN package [B.2.8.2](using-preupgrade-information-tool-for-oracle-database.md)
+- DBMS_PDB package [4.6.2](upgrade-scenarios-non-cdb-oracle-databases.md)
+- DBMS_ROLLING [10.8.1.3](oracle-database-changes-deprecations-desupports.md)
+- DBMS_STATS.GATHER_DICTIONARY_STATS [8.9.7](downgrading-oracle-db-after-upgrade.md)
+- DBMS_STATS.GATHER_DICTIONARY_STATS procedure [8.9.9](downgrading-oracle-db-after-upgrade.md)
+- DBMS_STATS.GATHER_FIXED_OBJECTS_STATS [8.9.8](downgrading-oracle-db-after-upgrade.md)
+- DBMS_STATS package
+  - upgrading statistics tables [6.3.13](required-tasks-complete-upgrading-oracle-database.md)
+- DBMS_XMLQUERY, deprecated [10.7.5.4](oracle-database-changes-deprecations-desupports.md)
+- DBT error messages [10.8.1.2](oracle-database-changes-deprecations-desupports.md)
+- DBUA
+  - See: Database Upgrade Assistant
+- dbupgdiag.sql [6.2](how-to-show-current-state-oracle-data-dictionary.md)
+- dbupgrade [4.1.1](upgrading-parallel-upgrade-utility-catctl-pl.md), [4.1.2](upgrading-parallel-upgrade-utility-catctl-pl.md), [B.1](scripts-upgrade-oracle-database.md)
+  - manual upgrade and [4.6.5](upgrade-scenarios-non-cdb-oracle-databases.md)
+- dbupgrade.cmd [4.1.2](upgrading-parallel-upgrade-utility-catctl-pl.md), [B.1](scripts-upgrade-oracle-database.md)
+- dbupgrade shell command
+  - arguments for [4.1.3](upgrading-parallel-upgrade-utility-catctl-pl.md)
+- defaultTableSchema attribute (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- demo
+  - replace in read-only Oracle homes [6.3.17](required-tasks-complete-upgrading-oracle-database.md)
+- deprecated features in 18c [10.7.5](oracle-database-changes-deprecations-desupports.md)
+- deprecated initialization parameters [10.8.5](oracle-database-changes-deprecations-desupports.md)
+- deprecated parameters and desupported parameters [2.7](preparing-new-oracle-home-for-upgrade.md)
+- DESCRIBE procedure [4.6.2](upgrade-scenarios-non-cdb-oracle-databases.md)
+- desupported initialization parameters [10.8.3](oracle-database-changes-deprecations-desupports.md)
+- developer applications
+  - upgrading forms and [7.9](upgrading-oracle-forms-oracle-developer-applications.md)
+- DGMGRL [10.8.1.3](oracle-database-changes-deprecations-desupports.md)
+- diagnostic data [1.4.2](running-multiple-oracle-database-releases.md)
+- direct upgrade [1.1.3](oracle-database-releases-that-support-direct-upgrade.md)
+- disk group compatibility [6.6.3](recommended-tasks-upgrading-oracle-asm.md)
+- disks
+  - specifying preferred read failure groups [6.6.4](recommended-tasks-upgrading-oracle-asm.md)
+- distributed upgrades [3.9.2.58](local-parameters-autoupgrade-config-file.md)
+- downgrades
+  - Oracle Data Guard broker configuration file backup [2.1.8.2](back-up-files-to-preserve-downgrade.md)
+  - reapplying patches after [8.9.1](downgrading-oracle-db-after-upgrade.md)
+- downgrading
+  - and gathering dictionary statistics [8.9.7](downgrading-oracle-db-after-upgrade.md)
+  - backing up your database [8.4](downgrading-oracle-db-after-upgrade.md)
+  - CATRELOD.SQL [8.6.2](downgrading-oracle-db-after-upgrade.md), [8.7](downgrading-oracle-db-after-upgrade.md)
+  - checking for incompatibilities [8.3](downgrading-oracle-db-after-upgrade.md)
+  - check registry [8.9.10](downgrading-oracle-db-after-upgrade.md)
+  - database links [B.2.8.3](using-preupgrade-information-tool-for-oracle-database.md)
+  - location of downgrade log files [8.6.1](downgrading-oracle-db-after-upgrade.md)
+  - Oracle Data Guard standby database [8.2](downgrading-oracle-db-after-upgrade.md)
+  - Oracle Enterprise Manager and [8.9.5](downgrading-oracle-db-after-upgrade.md)
+  - ORADIM and [8.6.2](downgrading-oracle-db-after-upgrade.md)
+  - patchset releases [8.1](downgrading-oracle-db-after-upgrade.md)
+  - regathering fixed object statistics [8.9.8](downgrading-oracle-db-after-upgrade.md)
+  - regathering stale statistics [8.9.9](downgrading-oracle-db-after-upgrade.md)
+  - scripts [8.6.1](downgrading-oracle-db-after-upgrade.md), [8.6.2](downgrading-oracle-db-after-upgrade.md)
+    - rerunning [8.6.2](downgrading-oracle-db-after-upgrade.md)
+- DV_PUBLIC
+  - deprecated [10.6.4.13](oracle-database-changes-deprecations-desupports.md)
+- DV_REALM_OWNER
+  - deprecated [10.6.4.11](oracle-database-changes-deprecations-desupports.md)
+- DV_REALM_RESOURCE
+  - deprecated [10.6.4.12](oracle-database-changes-deprecations-desupports.md)
+- dvsys.dbms_macadm.enable_dv() [6.3.19.1](required-tasks-complete-upgrading-oracle-database.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- em_present [4.3.1](example-manual-upgrade-windows-non-cdb.md)
+- emca -restore command [8.9.5](downgrading-oracle-db-after-upgrade.md)
+- emdwgrd [B.1](scripts-upgrade-oracle-database.md)
+- emdwgrd utility [8.9.5](downgrading-oracle-db-after-upgrade.md)
+- emremove.sql [B.1](scripts-upgrade-oracle-database.md)
+- emulation [2.10.1](testing-upgraded-production-oracle-database.md)
+- enforcing case-sensitivity for passwords [6.4.5](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+- environment variables
+  - required for upgrading [4.2.3](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md), [4.6.5](upgrade-scenarios-non-cdb-oracle-databases.md)
+- exafusion_enabled desupported [10.6.3.1](oracle-database-changes-deprecations-desupports.md)
+- exclusion lists
+  - about [4.2.5](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+  - and PDB upgrades [4.2.7.5](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+  - resume [4.7.3.2](rerunning-upgrades-oracle-database.md)
+- export/import
+  - advantages and disadvantages [2.1.4.4](choose-an-upgrade-method-for-oracle-database.md)
+  - benefits [2.1.4.4.2](choose-an-upgrade-method-for-oracle-database.md)
+  - effects on upgraded databases [2.1.4.4.1](choose-an-upgrade-method-for-oracle-database.md)
+  - recommendations [9.1](migrating-data-after-upgrade-oracle.md)
+  - time requirements [2.1.4.4.3](choose-an-upgrade-method-for-oracle-database.md)
+- exporting
+  - broker configuration [2.1.8.3](back-up-files-to-preserve-downgrade.md)
+- Export utility [9.1](migrating-data-after-upgrade-oracle.md)
+  - data copying [9](migrating-data-after-upgrade-oracle.md)
+- extended datatype support
+  - deprecated [10.7.5.2](oracle-database-changes-deprecations-desupports.md)
+- extended distance cluster configurations
+  - preferred read disks [6.6.4](recommended-tasks-upgrading-oracle-asm.md)
+- extents
+  - reading from secondary [6.6.4](recommended-tasks-upgrading-oracle-asm.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- failed phases [4.7.1](rerunning-upgrades-oracle-database.md)
+- Fast Recovery Area [5.6](troubleshooting-oracle-database-upgrade.md)
+- fine-grained access control
+  - network utility packages [B.2.8.1](using-preupgrade-information-tool-for-oracle-database.md)
+- Flex Cluster architecture deprecated [10.7.5.12](oracle-database-changes-deprecations-desupports.md)
+- Forms
+  - upgrading Oracle Forms applications [7.9](upgrading-oracle-forms-oracle-developer-applications.md)
+- Full Transportable Export/Import [4.5](transporting-upgrading-database-full-transportable-export-import.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- GET_MODEL views
+  - deprecated [10.7.5.3](oracle-database-changes-deprecations-desupports.md)
+
+------------------------------------------------------------------------
+
+## H
+
+- Hardware Assisted Resilient Data (HARD)
+  - upgrading systems [6.8.5.1](tasks-complete-only-manually-upgrading-oracle-database.md)
+- HttpUriType type [B.2.8.1](using-preupgrade-information-tool-for-oracle-database.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- IFILE (include file)
+  - editing entry [2.7](preparing-new-oracle-home-for-upgrade.md)
+- image
+  - install [1.7](image-based-oracle-database-installations.md), [7.4.2.1](compatibility-rules-applications-when-upgrading-oracle-database-client-server-software.md), [10.7.1.4](oracle-database-changes-deprecations-desupports.md)
+- Import utility [9.1](migrating-data-after-upgrade-oracle.md)
+  - data copying [9](migrating-data-after-upgrade-oracle.md)
+- inclusion list [4.7.3.4](rerunning-upgrades-oracle-database.md)
+- inclusion lists
+  - about [4.2.5](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+- incompatibilities
+  - checking for [8.3](downgrading-oracle-db-after-upgrade.md)
+- init.ora
+  - and SGA permissions [10.8.1.4](oracle-database-changes-deprecations-desupports.md)
+- initialization parameters
+  - adjusting [2.7](preparing-new-oracle-home-for-upgrade.md), [6.8.5](tasks-complete-only-manually-upgrading-oracle-database.md)
+  - ASM_PREFERRED_READ_FAILURE_GROUPS [6.6.4](recommended-tasks-upgrading-oracle-asm.md)
+  - COMPATIBLE [1.3.3.3](what-is-oracle-database-compatibility.md), [6.6.3](recommended-tasks-upgrading-oracle-asm.md)
+- installation
+  - Oracle Database software [2.3](installing-software-only-oracle-database-single-instance.md), [2.4](installing-new-oracle-database-software.md)
+- install logs
+  - component upgrade script [5.12.1](troubleshooting-oracle-database-upgrade.md)
+- instances
+  - starting after a downgrade [8.6.2](downgrading-oracle-db-after-upgrade.md)
+- Intelligent Data Placement (IDC)
+  - deprecated [10.8.4.4](oracle-database-changes-deprecations-desupports.md)
+- interim upgrade [1.1.3](oracle-database-releases-that-support-direct-upgrade.md)
+- intermediate releases
+  - interim upgrading [1.1.3](oracle-database-releases-that-support-direct-upgrade.md)
+- interoperability [1.3.4](what-is-interoperability-for-oracle-database-upgrades.md)
+- invalid objects
+  - and utlrp.sql [1.3.5](invalid-schema-objects-database-upgrades.md)
+  - recompiling [6.3.2](required-tasks-complete-upgrading-oracle-database.md)
+  - utlrp.sql script and [4.2.3](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md), [4.6.5](upgrade-scenarios-non-cdb-oracle-databases.md), [5.12.1](troubleshooting-oracle-database-upgrade.md), [8.6.2](downgrading-oracle-db-after-upgrade.md)
+- INVALID objects [5.3](troubleshooting-oracle-database-upgrade.md), [5.4](troubleshooting-oracle-database-upgrade.md)
+- INVALID status
+  - component status [5.12.1](troubleshooting-oracle-database-upgrade.md)
+
+------------------------------------------------------------------------
+
+## K
+
+- knowledge base [1.1.4](find-latest-information-upgrading-oracle-database.md)
+
+------------------------------------------------------------------------
+
+## L
+
+- listener.ora file [2.5.3](database-preparation-tasks-to-complete-before-upgrades.md)
+  - modifying [2.5.3](database-preparation-tasks-to-complete-before-upgrades.md)
+- listeners [6.8.5.2](tasks-complete-only-manually-upgrading-oracle-database.md)
+  - and Oracle RAC upgrades [6.5](recommended-tasks-after-upgrade-oracle-rac.md)
+  - modifying with Oracle Net Configuration Assistant [2.5.3](database-preparation-tasks-to-complete-before-upgrades.md)
+- load
+  - level of concurrent demand when upgrading [2.1.6.7](develop-a-test-plan-for-upgrading-database.md)
+- load testing [2.1.6.7](develop-a-test-plan-for-upgrading-database.md)
+- log_archive_dest max_connections attribute deprecated [10.6.3.2](oracle-database-changes-deprecations-desupports.md)
+- LOG_ARCHIVE_LOCAL_FIRST desupported [10.8.3](oracle-database-changes-deprecations-desupports.md)
+- LogArchiveFormat deprecated [10.6.4.3](oracle-database-changes-deprecations-desupports.md)
+- LogArchiveMaxProcesses deprecated [10.6.4.3](oracle-database-changes-deprecations-desupports.md)
+- LogArchiveMinSucceedDest deprecated [10.6.4.3](oracle-database-changes-deprecations-desupports.md)
+- LogArchiveTrace deprecated [10.6.4.3](oracle-database-changes-deprecations-desupports.md)
+- LogFileNameConvert deprecated [10.6.4.3](oracle-database-changes-deprecations-desupports.md)
+- logical standby databases
+  - rolling upgrades [1.5.1](overview-conveting-databases-during-upgrade.md)
+- LogMiner
+  - CONTINUOUS_MINE deprecated [10.8.4.5](oracle-database-changes-deprecations-desupports.md)
+- lsinventory command [6.3.5](required-tasks-complete-upgrading-oracle-database.md)
+- lsnrctl command
+  - Oracle Grid Infrastructure home and [2.5.3](database-preparation-tasks-to-complete-before-upgrades.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- maintainOrder attribute (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- manual fixups
+  - examples [4.3.1](example-manual-upgrade-windows-non-cdb.md)
+- manual upgrade [1.1.2](upgrade-and-data-migration-methods-and-processes.md), [6.8.5.2](tasks-complete-only-manually-upgrading-oracle-database.md)
+  - advantages [2.1.4.3](choose-an-upgrade-method-for-oracle-database.md)
+  - backing up the database [2.12](backing-up-oracle-db-for-upgrading.md)
+  - OCR configuration [6.8.4](tasks-complete-only-manually-upgrading-oracle-database.md)
+- manual upgrade and [4.2.3](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+- manual upgrade example [4.3](example-manual-upgrade-windows-non-cdb.md)
+- manual upgrades
+  - rerunning or restarting [4.7.1](rerunning-upgrades-oracle-database.md)
+- mapUnboundedStringToLob attribute (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- matches Oracle XQuery function (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- matches XQuery function [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- max_connections desupported [10.6.2.5](oracle-database-changes-deprecations-desupports.md)
+- maxOccurs attribute in xdb namespace (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- migrating
+  - defined [1.1.1](definition-of-terms-upgrading-and-migrating.md)
+- migrating data [1.1.1](definition-of-terms-upgrading-and-migrating.md)
+  - to a different operating system [1.6.2](upgrading-platforms-new-oracle-database-release.md)
+- migrating listener from Oracle home with lsnrctl command [2.5.3](database-preparation-tasks-to-complete-before-upgrades.md)
+- moving data with Data Pump Export/Import [9.1](migrating-data-after-upgrade-oracle.md)
+- Mulitenant
+  - restarting upgrades [4.7.4.2](restarting-upgrade-specific-phase-that-failed-using-p.md)
+- Multiple Oracle Homes Support
+  - advantages [1.4.3](running-multiple-oracle-database-releases.md)
+- multitenant
+  - transferring unified audit records after upgrade [6.4.17.2](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+- multitenant architecture
+  - parallel upgrade of [4.2.6.2](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+- multitenant architecture databases
+  - upgrade scenarios [4.2](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+- Multitenant architecture databases
+  - and PDB COMPATIBILITY parameter setting [1.3.3.3](what-is-oracle-database-compatibility.md)
+- multitenant container database [4.2.3](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+- multitenant container databases
+  - See: CDBs
+- multitenant databases
+  - setting upgrade priorities with lists [4.2.5](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+- multiversioning [1.4.3](running-multiple-oracle-database-releases.md)
+- mv_refresh [4.3.1](example-manual-upgrade-windows-non-cdb.md)
+- My Oracle Support
+  - knowledge base [1.1.4](find-latest-information-upgrading-oracle-database.md)
+
+------------------------------------------------------------------------
+
+## N
+
+- NCLOB
+  - migrating to [6.4.13](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+- network administration file location [6.3.4](required-tasks-complete-upgrading-oracle-database.md)
+- network names and listeners [6.8.5.2](tasks-complete-only-manually-upgrading-oracle-database.md)
+- networks
+  - granting ACL access to network utility packages [B.2.8.1](using-preupgrade-information-tool-for-oracle-database.md)
+- new features
+  - adding after upgrade [6.4.9](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+  - changing scripts to use and [7.8](upgrading-sqlplus-scripts-and-pl-sql-database.md)
+- new features, learning about [2.1.1](become-familiar-with-new-database-features.md)
+- NO AUTHENTICATION status accounts [2.1.7](schema-only-accounts-upgraded-expired-password-accounts.md), [7.6](schema-only-accounts-upgrading-expired-password-acct.md)
+- noncdb_to_pdb.sql script [4.6.3](upgrade-scenarios-non-cdb-oracle-databases.md)
+- non-CDB architecture
+  - deprecated [10.8.4.6](oracle-database-changes-deprecations-desupports.md)
+- non-CDBs [C.1](upgrading-oracle-database-upgrade-assistant-dbua.md)
+- non-CDB to CDB and PDB upgrades [1.5.1](overview-conveting-databases-during-upgrade.md)
+- NO SCRIPT status [5.12.1](troubleshooting-oracle-database-upgrade.md)
+- not relinking upgraded application [7.7.1](upgrade-options-precompiler-oci.md)
+- NVARCHAR2 datatype
+  - EXTENDED [10.9.1.7](oracle-database-changes-deprecations-desupports.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- OCI applications
+  - changing [7.7.4.2](upgrade-options-precompiler-oci.md)
+  - changing to use new features [7.7.4.2](upgrade-options-precompiler-oci.md)
+  - dynamically-linked [7.4.2.4](compatibility-rules-applications-when-upgrading-oracle-database-client-server-software.md)
+  - statically-linked [7.4.2.3](compatibility-rules-applications-when-upgrading-oracle-database-client-server-software.md)
+  - upgrade and linking [7.4.2.2](compatibility-rules-applications-when-upgrading-oracle-database-client-server-software.md)
+  - upgrading [7.5](-upgrade-precompiler-oci-apps-oracle-database.md)
+  - upgrading options [7.7](upgrade-options-precompiler-oci.md)
+- OCR [10.8.2.2](oracle-database-changes-deprecations-desupports.md)
+- OFA [1.4](running-multiple-oracle-database-releases.md), [1.4.2](running-multiple-oracle-database-releases.md)
+  - See also: Optimal Flexible Architecture
+- olspreupgrade.sql [B.1](scripts-upgrade-oracle-database.md)
+- OPatch lsinventory command [6.3.5](required-tasks-complete-upgrading-oracle-database.md)
+- operating system
+  - migrating data to [1.6.2](upgrading-platforms-new-oracle-database-release.md)
+- operating system requirements [1.6.1](upgrading-platforms-new-oracle-database-release.md)
+- Optimal Flexible Architecture
+  - See: OFA
+
+  <!-- -->
+
+  - about [1.4.2](running-multiple-oracle-database-releases.md)
+- OPTIMIZER_ADAPTIVE_PLANS [10.8.1.1](oracle-database-changes-deprecations-desupports.md)
+- OPTIMIZER_ADAPTIVE_STATISTICS [10.8.1.1](oracle-database-changes-deprecations-desupports.md)
+- optimizer statistics
+  - regathering after downgrade [8.9.9](downgrading-oracle-db-after-upgrade.md)
+- OPTION OFF status [5.12.1](troubleshooting-oracle-database-upgrade.md)
+- options for upgrading precompiler and Oracle Call Interface (OCI) applications [7.7](upgrade-options-precompiler-oci.md)
+- ORA_TZFILE
+  - unsetting after downgrade [8.5](downgrading-oracle-db-after-upgrade.md)
+- ORA-00336 log file size xxxx blocks error [5.1](troubleshooting-oracle-database-upgrade.md)
+- ORA-00401 value for parameter compatible error [5.1](troubleshooting-oracle-database-upgrade.md)
+- ORA-00600 Internal Error [8.5](downgrading-oracle-db-after-upgrade.md)
+- ORA-00704: bootstrap process failure [5.1](troubleshooting-oracle-database-upgrade.md)
+- ORA-00904 "TZ_VERSION" invalid identifier error [5.5](troubleshooting-oracle-database-upgrade.md)
+- ORA-00942 table or view does not exist error [5.5](troubleshooting-oracle-database-upgrade.md)
+- ORA-01092: ORACLE instance terminated. Disconnection forced [5.1](troubleshooting-oracle-database-upgrade.md)
+- ORA-01562 failed to extend rollback segment number error [5.6](troubleshooting-oracle-database-upgrade.md)
+- ORA-01650: unable to extend rollback segment [5.6](troubleshooting-oracle-database-upgrade.md)
+- ORA-01651: unable to extend save undo segment [5.6](troubleshooting-oracle-database-upgrade.md)
+- ORA-01652: unable to extend temp segment [5.6](troubleshooting-oracle-database-upgrade.md)
+- ORA-01653: unable to extend table [5.6](troubleshooting-oracle-database-upgrade.md)
+- ORA-01654: unable to extend index [5.6](troubleshooting-oracle-database-upgrade.md)
+- ORA-01655: unable to extend cluster [5.6](troubleshooting-oracle-database-upgrade.md)
+- ORA-01722 invalid number error [5.5](troubleshooting-oracle-database-upgrade.md)
+- ORA-03134: Connections to this server version are no longer supported. [10.8.1.10](oracle-database-changes-deprecations-desupports.md)
+- ORA-04031 unable to allocate nnn bytes of shared memory error [5.6](troubleshooting-oracle-database-upgrade.md)
+- ORA-1017 invalid username/password [10.8.1.10](oracle-database-changes-deprecations-desupports.md)
+- ORA-17500: ODM err:Operation not permitted [10.9.1.10](oracle-database-changes-deprecations-desupports.md)
+- ORA-19815 WARNING db_recovery_file_dest_size error [5.6](troubleshooting-oracle-database-upgrade.md)
+- ORA-20001: Downgrade cannot proceed [8.10.1](downgrading-oracle-db-after-upgrade.md)
+- ORA-24247
+  - network access denied by access control list (ACL) error [B.2.8.1](using-preupgrade-information-tool-for-oracle-database.md)
+- ORA-24247: network access denied by access control list (ACL) [6.3.18](required-tasks-complete-upgrading-oracle-database.md), [B.2.8.1](using-preupgrade-information-tool-for-oracle-database.md)
+- ORA-27248: sys.dra_reevaluate_open_failures is running [5.16](troubleshooting-oracle-database-upgrade.md)
+- ORA-28040: No matching authentication protocol [6.3.20](required-tasks-complete-upgrading-oracle-database.md)
+- ORA-28040 "No matching authentication protocol [2.5.5](database-preparation-tasks-to-complete-before-upgrades.md), [2.5.6](database-preparation-tasks-to-complete-before-upgrades.md)
+- ORA-28040 No matching authentication protocol. [10.8.1.10](oracle-database-changes-deprecations-desupports.md)
+- ORA-28365 [5.9](troubleshooting-oracle-database-upgrade.md)
+- ORA-29283: Invalid File Option [10.7.1.7](oracle-database-changes-deprecations-desupports.md)
+- ORA-39700: database must be opened with UPGRADE option [5.1](troubleshooting-oracle-database-upgrade.md)
+- ORA-39701 database must be mounted EXCLUSIVE error [5.1](troubleshooting-oracle-database-upgrade.md)
+- ORA-39709: [8.10.1](downgrading-oracle-db-after-upgrade.md)
+- ORA-39709: Incomplete component downgrade [8.6.2](downgrading-oracle-db-after-upgrade.md), [8.7](downgrading-oracle-db-after-upgrade.md)
+- oracle.dbc.OracleConnection
+  - deprecated [10.8.4.9](oracle-database-changes-deprecations-desupports.md)
+- oracle.jdbc.rowset
+  - deprecated [10.8.4.10](oracle-database-changes-deprecations-desupports.md)
+- Oracle ACFS Encryption
+  - deprecated on Oracle Solaris and Microsoft Windows [10.6.4.16](oracle-database-changes-deprecations-desupports.md)
+- Oracle ACFS Replication protocol REPV1
+  - deprecated [10.6.4.14](oracle-database-changes-deprecations-desupports.md)
+- Oracle Administration Assistant tool [10.7.2.1](oracle-database-changes-deprecations-desupports.md)
+- Oracle Application Express
+  - apexrelod.sql file [8.5](downgrading-oracle-db-after-upgrade.md)
+- Oracle ASM
+  - change in Oracle home location [6.4.8](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+- Oracle Automatic Storage Management
+  - disk group compatibility [6.6.3](recommended-tasks-upgrading-oracle-asm.md)
+  - password file (PWFILE) [5.14](troubleshooting-oracle-database-upgrade.md)
+  - preferred read failure groups [6.6.4](recommended-tasks-upgrading-oracle-asm.md)
+  - rolling upgrades and [1.5.1](overview-conveting-databases-during-upgrade.md)
+- Oracle base [1.4.2](running-multiple-oracle-database-releases.md)
+- Oracle Call Interface (OCI
+  - upgrading applications and [2.10.2](testing-upgraded-production-oracle-database.md)
+- Oracle Change Data Capture
+  - See: Oracle GoldenGate
+- Oracle Cluster Registry (OCR)
+  - upgrading manually [6.8.4](tasks-complete-only-manually-upgrading-oracle-database.md)
+- Oracle Database clients
+  - backup restrictions [10.8.1.12](oracle-database-changes-deprecations-desupports.md)
+- Oracle Database Enterprise Edition
+  - converting from Enterprise Edition to Standard Edition [1.5.5](migrating-from-enterprise-to-standard-database.md)
+- Oracle Database Express Edition [1.5.6](migrating-from-express-to-standard-database.md)
+  - recommended tasks after upgrade [6.7](recommended-tasks-upgrading-oracle-database-express-edition.md)
+  - upgrading to Oracle Database [1.5.6](migrating-from-express-to-standard-database.md)
+- Oracle Database Standard Edition
+  - converting to Enterprise Edition [1.5.4](migrating-from-standard-to-enterprise--database.md)
+- Oracle Database Vault [2.3](installing-software-only-oracle-database-single-instance.md), [2.4](installing-new-oracle-database-software.md)
+  - enable after upgrade [6.3.19.1](required-tasks-complete-upgrading-oracle-database.md)
+  - upgrading [6.3.19](required-tasks-complete-upgrading-oracle-database.md)
+- Oracle Database Views check [8.9.10](downgrading-oracle-db-after-upgrade.md)
+- Oracle Database XE [1.5.6](migrating-from-express-to-standard-database.md)
+  - upgrading to Oracle Database [1.5.6](migrating-from-express-to-standard-database.md)
+- Oracle Data Guard
+  - and AutoUpgrade [3.10.5.1](autoupgrade-oracle-database-config-options.md)
+  - change in properties storage [10.6.1.2](oracle-database-changes-deprecations-desupports.md)
+  - rolling upgrades [1.5.1](overview-conveting-databases-during-upgrade.md)
+  - rolling upgrades with DBUA [2.6](prepare-dbua-oracle-data-guard-rolling-upgrades.md)
+- Oracle Data Mining
+  - Model Details views [10.7.5.3](oracle-database-changes-deprecations-desupports.md)
+- Oracle Data Provider for .NET
+  - desupport of Oracle.ManagedDataAccessDTC.dll [10.7.2.5](oracle-database-changes-deprecations-desupports.md)
+- Oracle Data Pump [1.1.2](upgrade-and-data-migration-methods-and-processes.md)
+- Oracle Enterprise Manager Cloud Control
+  - upgrading with [1.5.2](upgrading-using-standby-databases.md)
+- Oracle Fleet Patching and Provisioning [10.8.1.11](oracle-database-changes-deprecations-desupports.md)
+- Oracle FPP [10.8.1.11](oracle-database-changes-deprecations-desupports.md)
+- Oracle GoldenGate [10.9.2.8](oracle-database-changes-deprecations-desupports.md)
+  - upgrading with [1.5.3](converting-databases-upgrades.md)
+- Oracle Grid Infrastructure
+  - file locations for OCR and voting disks [10.8.2.2](oracle-database-changes-deprecations-desupports.md)
+- Oracle home
+  - copying configuration files from [2.7](preparing-new-oracle-home-for-upgrade.md)
+  - ORACLE_HOME database directory on Microsoft Windows [2.7](preparing-new-oracle-home-for-upgrade.md)
+  - ORACLE_HOME dbs directory on Linux or Unix [2.7](preparing-new-oracle-home-for-upgrade.md)
+  - out-of-place requirement [2.1.5](choose-a-new-location-for-oracle-home-when-upgrading.md)
+- Oracle Home User [4.3.2](example-manual-upgrade-windows-non-cdb.md)
+- Oracle Label Security [2.3](installing-software-only-oracle-database-single-instance.md), [2.4](installing-new-oracle-database-software.md)
+- Oracle Layered File System [10.8.1.11](oracle-database-changes-deprecations-desupports.md)
+- Oracle Multimedia Java APIs
+  - deprecated [10.8.4.12](oracle-database-changes-deprecations-desupports.md)
+- Oracle Multitenant
+  - upgrade errors [5.15](troubleshooting-oracle-database-upgrade.md)
+- Oracle Multitenant upgrades [4.2.1](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md), [4.2.7.1](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+- Oracle Names support [10.9.2.16](oracle-database-changes-deprecations-desupports.md)
+- Oracle Net Configuration Assistant [2.5.3](database-preparation-tasks-to-complete-before-upgrades.md)
+- Oracle Optimal Flexible Architecture
+  - See: Optimal Flexible Architecture
+- Oracle Optimizer
+  - and DBMS_STATS [6.4.4](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+- Oracle RAC
+  - desupported on Oracle Database Standard Edition 2 (SE2) [10.6.2.9](oracle-database-changes-deprecations-desupports.md)
+- Oracle Real Application Clusters [1.3.5](invalid-schema-objects-database-upgrades.md)
+- Oracle release numbers [1.3.1](oracle-database-release-numbers.md)
+- Oracle RMAN
+  - backing up the database [2.12](backing-up-oracle-db-for-upgrading.md)
+- Oracle Streams
+  - terminal release of [10.7.4](oracle-database-changes-deprecations-desupports.md)
+- Oracle-supplied accounts
+  - change passwords [6.8.1](tasks-complete-only-manually-upgrading-oracle-database.md)
+- Oracle Text
+  - MAIL_FILTER [10.7.5.8](oracle-database-changes-deprecations-desupports.md)
+  - Upgrading [6.8.3](tasks-complete-only-manually-upgrading-oracle-database.md)
+  - widened token columns [6.4.15](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+- Oracle Text-supplied knowledge bases
+  - upgrading and [6.3.15](required-tasks-complete-upgrading-oracle-database.md)
+- Oracle Universal Installer [1.1.2](upgrade-and-data-migration-methods-and-processes.md), [2.3](installing-software-only-oracle-database-single-instance.md), [2.4](installing-new-oracle-database-software.md)
+- Oracle update batching size disabled [10.8.1.8](oracle-database-changes-deprecations-desupports.md)
+- Oracle wallet
+  - upgrading [5.9](troubleshooting-oracle-database-upgrade.md)
+- ORADIM [4.3.2](example-manual-upgrade-windows-non-cdb.md)
+  - downgrading and [8.6.2](downgrading-oracle-db-after-upgrade.md)
+  - upgrading and [4.2.3](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md), [4.6.5](upgrade-scenarios-non-cdb-oracle-databases.md)
+- orapki
+  - RSA 512 and 1024 keys deprecated [10.5.5.14](oracle-database-changes-deprecations-desupports.md)
+- orapwSID password file [2.7](preparing-new-oracle-home-for-upgrade.md)
+- Original Export/Import
+  - versus Data Pump Export/Import [9.1](migrating-data-after-upgrade-oracle.md)
+- OUI
+  - See: Oracle Universal Installer
+- out-of-place patching [2.1.5](choose-a-new-location-for-oracle-home-when-upgrading.md)
+- out-of-place upgrades [2.1.5](choose-a-new-location-for-oracle-home-when-upgrading.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- PARALLEL_ADAPTIVE_MULTI_USER deprecated [10.8.5](oracle-database-changes-deprecations-desupports.md)
+- PARALLEL_AUTOMATIC_TUNING desupported [10.8.3](oracle-database-changes-deprecations-desupports.md)
+- PARALLEL_IO_CAP_ENABLED desupported [10.8.3](oracle-database-changes-deprecations-desupports.md)
+- PARALLEL_SERVER_INSTANCE desupported [10.8.3](oracle-database-changes-deprecations-desupports.md)
+- PARALLEL_SERVER desupported [10.8.3](oracle-database-changes-deprecations-desupports.md)
+- Parallel Upgrade Utility [4.1.2](upgrading-parallel-upgrade-utility-catctl-pl.md), [5.1](troubleshooting-oracle-database-upgrade.md)
+  - about [4.4](dbupgrade-scripts-catupgrd.sql-earlier-release.md)
+  - and ability to upgrade schema-based tablespaces [2.5.9](database-preparation-tasks-to-complete-before-upgrades.md)
+  - manual upgrade and [4.6.5](upgrade-scenarios-non-cdb-oracle-databases.md)
+  - rerunning upgrades [4.7.2](rerunning-upgrades-oracle-database.md)
+  - restarting [4.7.1](rerunning-upgrades-oracle-database.md)
+  - resume option [4.7.1](rerunning-upgrades-oracle-database.md)
+  - running on specified CDBs [4.7.3.2](rerunning-upgrades-oracle-database.md)
+  - See Also catctl.pl, dbupgrade, dbupgrade.cmd [4.4](dbupgrade-scripts-catupgrd.sql-earlier-release.md)
+  - setting tablespaces to READ ONLY [10.8.1.9](oracle-database-changes-deprecations-desupports.md)
+- parameter file
+  - and permissions to read and write the SGA [10.8.1.4](oracle-database-changes-deprecations-desupports.md)
+  - backing up [2.7](preparing-new-oracle-home-for-upgrade.md)
+- passwords
+  - 10G password version, finding and resetting [6.4.6](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+  - case sensitive [6.4.5](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+- password verifiers [2.5.5](database-preparation-tasks-to-complete-before-upgrades.md)
+- password versions [2.5.6](database-preparation-tasks-to-complete-before-upgrades.md)
+- patchset releases
+  - downgrading [8.1](downgrading-oracle-db-after-upgrade.md)
+- patch sets [1.3.1](oracle-database-release-numbers.md)
+- patch set updates [2.5.1](database-preparation-tasks-to-complete-before-upgrades.md), [6.9](release-updates-requirements-upgrade-oracle-database.md)
+- Pause and Continue [10.8.1.2](oracle-database-changes-deprecations-desupports.md)
+- PDB
+  - COMPATIBILITY parameter and CDB [1.3.3.3](what-is-oracle-database-compatibility.md)
+- PDB\$SEED
+  - counted as one PDB during upgrades [4.1.4](upgrading-parallel-upgrade-utility-catctl-pl.md)
+- PDBs [C.1](upgrading-oracle-database-upgrade-assistant-dbua.md)
+  - catupgrd.log files [4.7.4.1](restarting-upgrade-specific-phase-that-failed-using-p.md)
+  - downgrading [8.5](downgrading-oracle-db-after-upgrade.md)
+  - moving non-CDBs into [4.6.2](upgrade-scenarios-non-cdb-oracle-databases.md)
+  - Oracle Label Security [4.6.4](upgrade-scenarios-non-cdb-oracle-databases.md)
+  - pluggable upgrades of [10.8.1.2](oracle-database-changes-deprecations-desupports.md)
+  - priority-based PDB upgrades [10.8.1.2](oracle-database-changes-deprecations-desupports.md)
+  - rerunning upgrades [4.7.3](rerunning-upgrades-oracle-database.md)
+  - restarting from a failed phase [4.7.4](restarting-upgrade-specific-phase-that-failed-using-p.md)
+  - restarting upgrades [4.7.4.2](restarting-upgrade-specific-phase-that-failed-using-p.md)
+  - setting upgrade priorities with lists [4.2.5](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+  - upgrade errors [5.15](troubleshooting-oracle-database-upgrade.md)
+  - upgrade scenarios [4.2](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+  - upgrades of [10.8.1.2](oracle-database-changes-deprecations-desupports.md)
+  - upgrading [4.2.1](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+  - upgrading individually [4.2.7.1](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+  - upgrading using priority lists [4.2.4](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+- PDB upgrades after CDB upgrade [4.2.7.5](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+- performance
+  - unified audit trail [6.4.17.1](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+- physical standby database
+  - rolling upgrades [1.5.1](overview-conveting-databases-during-upgrade.md)
+- PL/SQL packages
+  - checking [6.3.7](required-tasks-complete-upgrading-oracle-database.md)
+- placement on shared storage deprecated [10.8.2.2](oracle-database-changes-deprecations-desupports.md)
+- pluggable databases
+  - See: PDBs
+- Pluggable Databases
+  - unified auditing migration and [6.4.14.2](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+- postupgrade_fixups.sql [B.1](scripts-upgrade-oracle-database.md), [B.2.3](using-preupgrade-information-tool-for-oracle-database.md), [B.2.6](using-preupgrade-information-tool-for-oracle-database.md)
+- postupgrade status tool
+  - warning [5.4](troubleshooting-oracle-database-upgrade.md)
+- Post-Upgrade Status Tool [6.1](check-upgrade-post-upgrade-status-tool.md)
+  - rerunning upgrades [4.7.2](rerunning-upgrades-oracle-database.md)
+- precompiler application
+  - changing to use new features [7.7.4.1](upgrade-options-precompiler-oci.md)
+- precompiler applications
+  - upgrading and [2.10.2](testing-upgraded-production-oracle-database.md)
+- precompilers
+  - applications
+    - changing [7.7.4.1](upgrade-options-precompiler-oci.md)
+    - upgrading options [7.7](upgrade-options-precompiler-oci.md)
+  - upgrading applications [7.5](-upgrade-precompiler-oci-apps-oracle-database.md)
+- preferred read failure groups
+  - setting up [6.6.4](recommended-tasks-upgrading-oracle-asm.md)
+- preprocessing script
+  - OLS and DV [B.1](scripts-upgrade-oracle-database.md)
+- preupgrade_fixups.sql [4.3.1](example-manual-upgrade-windows-non-cdb.md), [B.2.2](using-preupgrade-information-tool-for-oracle-database.md), [B.2.6](using-preupgrade-information-tool-for-oracle-database.md)
+  - about [B.2.1](using-preupgrade-information-tool-for-oracle-database.md)
+  - postupgrade_fixups.sql
+    - about [B.2.1](using-preupgrade-information-tool-for-oracle-database.md)
+- preupgrade.jar [4.2.3](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md), [B.1](scripts-upgrade-oracle-database.md), [B.2.7](using-preupgrade-information-tool-for-oracle-database.md)
+  - See: Pre-Upgrade Information Tool
+
+  <!-- -->
+
+  - and PDBs [B.2.4](using-preupgrade-information-tool-for-oracle-database.md)
+  - command syntax for [B.2.5](using-preupgrade-information-tool-for-oracle-database.md)
+  - setting user environment variables for [B.2.4](using-preupgrade-information-tool-for-oracle-database.md)
+- preupgrade.log [4.3.1](example-manual-upgrade-windows-non-cdb.md), [B.2.6](using-preupgrade-information-tool-for-oracle-database.md)
+- preupgrade directory [B.2.1](using-preupgrade-information-tool-for-oracle-database.md)
+- Pre-Upgrade Information Tool [B.2.1](using-preupgrade-information-tool-for-oracle-database.md)
+  - See also: preupgrade.jar
+
+  <!-- -->
+
+  - and postupgrade_fixups.sql [6.4.2](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+  - command syntax for [B.2.5](using-preupgrade-information-tool-for-oracle-database.md)
+  - example on Windows [4.3.1](example-manual-upgrade-windows-non-cdb.md)
+  - warnings and actions to take [B.2.8](using-preupgrade-information-tool-for-oracle-database.md)
+  - working with [B.2.8](using-preupgrade-information-tool-for-oracle-database.md)
+- preupgrade steps [2.1.4.3](choose-an-upgrade-method-for-oracle-database.md)
+- preupgrd.jar [5.3](troubleshooting-oracle-database-upgrade.md)
+- preupgrd.sql [5.3](troubleshooting-oracle-database-upgrade.md)
+  - obsolete in 12.2 [B.1](scripts-upgrade-oracle-database.md)
+- priority lists [4.2.4](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+  - about [4.2.5](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+  - test upgrades using [2.10.1](testing-upgraded-production-oracle-database.md)
+- PRKH-1014 error [2.3](installing-software-only-oracle-database-single-instance.md), [2.4](installing-new-oracle-database-software.md)
+- Pro\*C/C++ applications [2.1.6.5](develop-a-test-plan-for-upgrading-database.md)
+- proactive fixups [3.9.2.58](local-parameters-autoupgrade-config-file.md)
+- PRODUCT_USER_PROFILE
+  - deprecated [10.7.5.13](oracle-database-changes-deprecations-desupports.md)
+- proxy PDBs
+  - upgrades [4.2.2](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+- PSU [2.5.1](database-preparation-tasks-to-complete-before-upgrades.md), [6.9](release-updates-requirements-upgrade-oracle-database.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- Rapid Home Provisioning [4.2](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+  - upgrades using [1.1.2](upgrade-and-data-migration-methods-and-processes.md)
+- RAW datatype
+  - EXTENDED [10.9.1.7](oracle-database-changes-deprecations-desupports.md)
+- raw devices
+  - desupported [10.9.1.6](oracle-database-changes-deprecations-desupports.md), [10.9.2.1](oracle-database-changes-deprecations-desupports.md)
+  - OCFS
+    - desupported on Windows [10.9.1.6](oracle-database-changes-deprecations-desupports.md)
+- RDBMS DST patch [B.2.8.4](using-preupgrade-information-tool-for-oracle-database.md)
+- read-only oracle home [10.4.1.8](oracle-database-changes-deprecations-desupports.md), [10.5.1.1](oracle-database-changes-deprecations-desupports.md)
+- read-only Oracle homes
+  - replace demo directory [6.3.17](required-tasks-complete-upgrading-oracle-database.md)
+- read-only tablespaces [2.5.9](database-preparation-tasks-to-complete-before-upgrades.md)
+- recompiling invalid objects [4.2.3](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md), [4.6.5](upgrade-scenarios-non-cdb-oracle-databases.md), [6.3.2](required-tasks-complete-upgrading-oracle-database.md), [8.6.2](downgrading-oracle-db-after-upgrade.md)
+- recovery catalog
+  - upgrading [6.3.11](required-tasks-complete-upgrading-oracle-database.md)
+- release numbers [1.3.1](oracle-database-release-numbers.md)
+- releases
+  - definition [1.3.1](oracle-database-release-numbers.md)
+  - multiple [1.4.3](running-multiple-oracle-database-releases.md)
+  - upgrade paths [1.1.3](oracle-database-releases-that-support-direct-upgrade.md)
+- Release Update (Update [2.5.1](database-preparation-tasks-to-complete-before-upgrades.md), [6.9](release-updates-requirements-upgrade-oracle-database.md)
+- release update (Update, RU) [1.3.1](oracle-database-release-numbers.md)
+- release update revision (Revision, RUR) [1.3.1](oracle-database-release-numbers.md)
+- Release Update Revision (Revision) [2.5.1](database-preparation-tasks-to-complete-before-upgrades.md), [6.9](release-updates-requirements-upgrade-oracle-database.md)
+- REMOVED status [5.12.1](troubleshooting-oracle-database-upgrade.md)
+- replace Oracle XQuery function (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- replace XQuery function [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- rerunning upgrades
+  - multitenant database architecture [4.7.3](rerunning-upgrades-oracle-database.md)
+- reserved words
+  - additions and applications [7.2](compatibility-issues-applications-different-releases-oracle-database.md)
+- resuming upgrades [4.7.1](rerunning-upgrades-oracle-database.md)
+- rollback segments
+  - migrating to automatic undo management [6.4.12](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+- rolling upgrades
+  - Oracle Clusterware and [1.5.1](overview-conveting-databases-during-upgrade.md)
+  - physical standby database [1.5.1](overview-conveting-databases-during-upgrade.md)
+  - rolling upgrades
+    - with SQL Apply and logical standby databases [1.5.1](overview-conveting-databases-during-upgrade.md)
+  - SQL Apply
+    - rolling upgrades [1.5.1](overview-conveting-databases-during-upgrade.md)
+  - summary of methods [1.5.1](overview-conveting-databases-during-upgrade.md)
+- Rolling Upgrade Using Active Data Guard [1.5.2](upgrading-using-standby-databases.md)
+- rootupgrade.sh script [2.3](installing-software-only-oracle-database-single-instance.md), [2.4](installing-new-oracle-database-software.md)
+- rpath option for linking [7.4.2.4](compatibility-rules-applications-when-upgrading-oracle-database-client-server-software.md)
+- RPM-based database installation [10.7.1.4](oracle-database-changes-deprecations-desupports.md)
+- rpm –ivh [10.7.1.4](oracle-database-changes-deprecations-desupports.md)
+- running multiple Oracle releases [1.4.3](running-multiple-oracle-database-releases.md)
+- run-time library search path [7.4.2.4](compatibility-rules-applications-when-upgrading-oracle-database-client-server-software.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- schema-only accounts [2.1.7](schema-only-accounts-upgraded-expired-password-accounts.md), [7.6](schema-only-accounts-upgrading-expired-password-acct.md)
+- scripts
+  - checking the Oracle Data Dictionary state [6.2](how-to-show-current-state-oracle-data-dictionary.md)
+  - downgrading [8.6.1](downgrading-oracle-db-after-upgrade.md), [8.6.2](downgrading-oracle-db-after-upgrade.md)
+  - manual upgrade and [4.2.3](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md), [4.6.5](upgrade-scenarios-non-cdb-oracle-databases.md)
+- seamless patching [10.4.1.8](oracle-database-changes-deprecations-desupports.md), [10.5.1.1](oracle-database-changes-deprecations-desupports.md)
+- SEC_CASE_INSENSITIVE_LOGON [10.8.1.10](oracle-database-changes-deprecations-desupports.md)
+- security
+  - case-sensitive passwords [6.4.5](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+  - ORA_CIS_PROFILE [2.5.7](database-preparation-tasks-to-complete-before-upgrades.md)
+  - ORA_STIG_PROFILE [2.5.7](database-preparation-tasks-to-complete-before-upgrades.md)
+- server
+  - compatibility rules [7.4.1](compatibility-rules-applications-when-upgrading-oracle-database-client-server-software.md)
+- server parameter file (SPFILE) [2.7](preparing-new-oracle-home-for-upgrade.md)
+  - migrating to [6.8.2](tasks-complete-only-manually-upgrading-oracle-database.md)
+  - upgrading systems with HARD-compliant storage [6.8.5.1](tasks-complete-only-manually-upgrading-oracle-database.md)
+- services
+  - migrating [10.7.1.3](oracle-database-changes-deprecations-desupports.md)
+- Single Client Access Names (SCAN) [6.5](recommended-tasks-after-upgrade-oracle-rac.md)
+- SP2-0152: ORACLE may not be functioning properly [8.5](downgrading-oracle-db-after-upgrade.md)
+- SP2-1503: Unable to initialize Oracle call interface [8.5](downgrading-oracle-db-after-upgrade.md)
+- SP2-1540 "Oracle Database cannot startup in an Edition session" error [5.7](troubleshooting-oracle-database-upgrade.md)
+- spool upgrade results to a log file [B.2.1](using-preupgrade-information-tool-for-oracle-database.md)
+- SQL_92_SECURITY default change [10.8.1.1](oracle-database-changes-deprecations-desupports.md)
+- SQL/MM still image standard support [10.8.4.14](oracle-database-changes-deprecations-desupports.md)
+- SQL\*Plus
+  - product-level security deprecated [10.7.5.13](oracle-database-changes-deprecations-desupports.md)
+  - scripts
+    - upgrading [7.8](upgrading-sqlplus-scripts-and-pl-sql-database.md)
+- SQLCollSchema attribute (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- SQL execution plans [2.1.6.6.3](develop-a-test-plan-for-upgrading-database.md), [2.1.6.6.3.4](develop-a-test-plan-for-upgrading-database.md)
+- SQLJ
+  - client-side support only [10.8.2.7](oracle-database-changes-deprecations-desupports.md)
+  - deprecation in server [10.9.3.23](oracle-database-changes-deprecations-desupports.md)
+- SQL Management Base (SMB) [2.1.6.6.3](develop-a-test-plan-for-upgrading-database.md)
+  - cursor cache [2.1.6.6.3](develop-a-test-plan-for-upgrading-database.md)
+- SQLNET.ALLOWED_LOGON_VERSION_SERVER [2.5.5](database-preparation-tasks-to-complete-before-upgrades.md), [2.5.6](database-preparation-tasks-to-complete-before-upgrades.md)
+- sqlnet.ora file
+  - compression and [2.5.3](database-preparation-tasks-to-complete-before-upgrades.md)
+- sqlnet.ora location [6.3.4](required-tasks-complete-upgrading-oracle-database.md)
+- SQL Performance Analyzer [2.1.6.6.2](develop-a-test-plan-for-upgrading-database.md)
+- SQL plan baselines
+  - unpacking [2.1.6.6.3](develop-a-test-plan-for-upgrading-database.md), [2.1.6.6.3.4](develop-a-test-plan-for-upgrading-database.md)
+- SQL plan management [2.1.6.6.3](develop-a-test-plan-for-upgrading-database.md)
+  - SQL Management Base and [2.1.6.6.3](develop-a-test-plan-for-upgrading-database.md)
+- SQL queries
+  - testing [2.1.6.6.3](develop-a-test-plan-for-upgrading-database.md), [2.1.6.6.3.4](develop-a-test-plan-for-upgrading-database.md)
+- SQLSchema attribute (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- SQL workload [2.1.6.6.2](develop-a-test-plan-for-upgrading-database.md)
+- srclang attribute (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- staging table
+  - creating [2.1.6.6.3](develop-a-test-plan-for-upgrading-database.md), [2.1.6.6.3.4](develop-a-test-plan-for-upgrading-database.md)
+- Standard Edition
+  - Export utility [1.5.5](migrating-from-enterprise-to-standard-database.md)
+  - starter database [5.13](troubleshooting-oracle-database-upgrade.md)
+- standard edition high availability
+  - guidelines [2.5.11.2](database-preparation-tasks-to-complete-before-upgrades.md)
+- standard operating environment [10.8.1.11](oracle-database-changes-deprecations-desupports.md)
+- StandbyFileManagement deprecated [10.6.4.3](oracle-database-changes-deprecations-desupports.md)
+- STARTUP UPGRADE command [8.6.2](downgrading-oracle-db-after-upgrade.md)
+- statically linked Oracle client-side library code [7.4.2.3](compatibility-rules-applications-when-upgrading-oracle-database-client-server-software.md)
+- statistics tables
+  - upgrading [6.3.13](required-tasks-complete-upgrading-oracle-database.md)
+- status
+  - NO SCRIPT [5.12.1](troubleshooting-oracle-database-upgrade.md)
+  - OPTION OFF [5.12.1](troubleshooting-oracle-database-upgrade.md)
+  - REMOVED [5.12.1](troubleshooting-oracle-database-upgrade.md)
+  - UPGRADED [5.12.1](troubleshooting-oracle-database-upgrade.md)
+- status INVALID
+  - component status [5.12.1](troubleshooting-oracle-database-upgrade.md)
+- storeVarrayAsTable attribute (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- support
+  - See: My Oracle Support
+- support note 472937.1, Information On Installed Database Components [B.2.8](using-preupgrade-information-tool-for-oracle-database.md)
+- support note 753041.1, How to Diagnose Components with NON VALID Status [B.2.8](using-preupgrade-information-tool-for-oracle-database.md)
+- support note ID 412160.1, for RDBMS DST patches [B.2.8.4](using-preupgrade-information-tool-for-oracle-database.md)
+- symbolic link
+  - Oracle Universal Installer and [7.4.2.4](compatibility-rules-applications-when-upgrading-oracle-database-client-server-software.md)
+- syntax check
+  - application code [7.7.2](upgrade-options-precompiler-oci.md)
+- SYS.LINK\$ table [B.2.8.3](using-preupgrade-information-tool-for-oracle-database.md)
+- system global area
+  - permissions to read and write [10.8.1.4](oracle-database-changes-deprecations-desupports.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- tablespaces
+  - read-only [2.5.9](database-preparation-tasks-to-complete-before-upgrades.md)
+- testing
+  - applications for upgrade [2.1.6.8](develop-a-test-plan-for-upgrading-database.md), [6.4.18](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+  - developing a plan [2.1.6](develop-a-test-plan-for-upgrading-database.md)
+  - functional for upgrade [2.1.6.3](develop-a-test-plan-for-upgrading-database.md)
+  - high availability for upgrade [2.1.6.4](develop-a-test-plan-for-upgrading-database.md)
+  - integration for upgrade [2.1.6.5](develop-a-test-plan-for-upgrading-database.md)
+  - minimal for upgrade [2.1.6.2](develop-a-test-plan-for-upgrading-database.md)
+  - multitenant architecture upgrades [2.10.1](testing-upgraded-production-oracle-database.md)
+  - performance for upgrade [2.1.6.6](develop-a-test-plan-for-upgrading-database.md)
+  - upgraded test databases [2.1.6.8](develop-a-test-plan-for-upgrading-database.md)
+  - using Database Replay [2.1.6.6.1](develop-a-test-plan-for-upgrading-database.md)
+  - using priority list emulation [2.10.1](testing-upgraded-production-oracle-database.md)
+  - volume/load stress for upgrade [2.1.6.7](develop-a-test-plan-for-upgrading-database.md)
+- testing the upgrade process [2.10](testing-upgraded-production-oracle-database.md)
+- text initialization parameter file (PFILE) [2.7](preparing-new-oracle-home-for-upgrade.md)
+- TIMESTAMP WITH TIMEZONE data type [B.2.8.4](using-preupgrade-information-tool-for-oracle-database.md)
+- TIMESTAMP WITH TIME ZONE data type [B.2.8.4](using-preupgrade-information-tool-for-oracle-database.md)
+- time zone file
+  - how to resolve a mismatch [B.2.8.4](using-preupgrade-information-tool-for-oracle-database.md)
+  - unsetting after downgrade [8.5](downgrading-oracle-db-after-upgrade.md)
+- TNS-03505: Failed to resolve name [6.3.4](required-tasks-complete-upgrading-oracle-database.md)
+- tnsnames.ora
+  - adjusting after manual upgrades [6.8.5.2](tasks-complete-only-manually-upgrading-oracle-database.md)
+- tnsnames.ora location [6.3.4](required-tasks-complete-upgrading-oracle-database.md)
+- token limitations [10.7.1.5](oracle-database-changes-deprecations-desupports.md)
+- training, where to find [2.1.1](become-familiar-with-new-database-features.md)
+- translate attribute (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- Transparent Data Encryption (TDE)
+  - and Oracle wallet upgrades [5.9](troubleshooting-oracle-database-upgrade.md)
+- Transportable Export/Import [4.5](transporting-upgrading-database-full-transportable-export-import.md)
+- trgowner_no_admndbtrg [4.3.1](example-manual-upgrade-windows-non-cdb.md)
+- troubleshooting
+  - and using resume [4.7.1](rerunning-upgrades-oracle-database.md)
+  - authentication protocol errors [2.5.5](database-preparation-tasks-to-complete-before-upgrades.md), [2.5.6](database-preparation-tasks-to-complete-before-upgrades.md)
+  - AutoUpgrade [3.4.1](about-autoupgrade-processing-modes.md)
+  - Autoupgrade utility [3.14](autoupgrade-log-file-structure.md)
+  - bringing up tablespaces after catastrophic upgrade failures [2.5.9](database-preparation-tasks-to-complete-before-upgrades.md)
+  - catupgrd.sql deprecation error [10.9.1.1](oracle-database-changes-deprecations-desupports.md)
+  - CDB_JAVA_POLICY errors [5.10](troubleshooting-oracle-database-upgrade.md)
+  - datapatch failures [5.17](troubleshooting-oracle-database-upgrade.md)
+  - EDITION session error [5.7](troubleshooting-oracle-database-upgrade.md)
+  - Flash Recovery Area [5.6](troubleshooting-oracle-database-upgrade.md)
+  - INVALID objects [5.3](troubleshooting-oracle-database-upgrade.md), [5.4](troubleshooting-oracle-database-upgrade.md)
+  - ORA-00942 table or view does not exist [5.5](troubleshooting-oracle-database-upgrade.md)
+  - ORA-03134: Connections to this server version are no longer supported. [10.8.1.10](oracle-database-changes-deprecations-desupports.md)
+  - ORA-1017 invalid username/password [10.8.1.10](oracle-database-changes-deprecations-desupports.md)
+  - ORA-39709 [8.7](downgrading-oracle-db-after-upgrade.md)
+  - ORA-45415 [2.6](prepare-dbua-oracle-data-guard-rolling-upgrades.md)
+  - ORA-65394 runtime error [10.7.1.6](oracle-database-changes-deprecations-desupports.md)
+  - Oracle Internet Directory
+    - and downgrades to earlier releases [C.1](upgrading-oracle-database-upgrade-assistant-dbua.md)
+  - PDB upgrades [4.2.7.5](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)
+  - PLS-1919 compile time error [10.7.1.6](oracle-database-changes-deprecations-desupports.md)
+  - REMOTE_LOGIN_PASSWORDFILE warning [2.5.4](database-preparation-tasks-to-complete-before-upgrades.md)
+  - restore scripts and Oracle Internet Directory registration [C.1](upgrading-oracle-database-upgrade-assistant-dbua.md)
+  - rollback segments/undo tablespace [5.6](troubleshooting-oracle-database-upgrade.md)
+  - running out of resources [5.6](troubleshooting-oracle-database-upgrade.md)
+  - services running in old Oracle home after upgrade [10.7.1.3](oracle-database-changes-deprecations-desupports.md)
+  - shared memory [5.6](troubleshooting-oracle-database-upgrade.md)
+  - starting database in upgrade mode [5.1](troubleshooting-oracle-database-upgrade.md)
+  - SYSTEM and SYSAUX tablespaces [5.6](troubleshooting-oracle-database-upgrade.md)
+  - upgrades [5](troubleshooting-oracle-database-upgrade.md)
+  - upgrade termination
+    - due to ORA-00904 [5.5](troubleshooting-oracle-database-upgrade.md)
+    - due to ORA-01722 [5.5](troubleshooting-oracle-database-upgrade.md)
+- Troubleshooting
+  - ORA-39709 [8.6.2](downgrading-oracle-db-after-upgrade.md)
+- troubleshooting the upgrade
+  - termination due to ORA_00942 [5.5](troubleshooting-oracle-database-upgrade.md)
+- type of software upgrade [7.3](software-upgrades-and-client-and-server-configurations-oracle-database.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- UNDO_MANAGEMENT initialization parameter [6.4.12](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+- unicode collation algorithm 6.1
+  - deprecated [10.8.4.15](oracle-database-changes-deprecations-desupports.md)
+- unified auditing
+  - See: auditing
+
+  <!-- -->
+
+  - about transferring audit records after upgrade [6.4.17.1](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+  - transferring unified audit records after upgrade [6.4.17.2](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+- unified audit trail
+  - loading audit records to [2.5.12](database-preparation-tasks-to-complete-before-upgrades.md)
+  - performance improvement [6.4.17.1](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+- upg_summary.rpt [5.12.3](troubleshooting-oracle-database-upgrade.md)
+- UPG-3009: There are plugin violations [10.4.1.2](oracle-database-changes-deprecations-desupports.md)
+- upgrade
+  - manual upgrade example [4.3](example-manual-upgrade-windows-non-cdb.md)
+- upgrade.xml not found error [5.2](troubleshooting-oracle-database-upgrade.md), [D](running-dbua-different-oracle_home-owner.md)
+- UPGRADED status [5.12.1](troubleshooting-oracle-database-upgrade.md)
+- upgraded test databases [2.1.6.8](develop-a-test-plan-for-upgrading-database.md)
+- upgrade methods
+  - choosing [2.1.4](choose-an-upgrade-method-for-oracle-database.md)
+  - Database Upgrade Assistant [1.1.2](upgrade-and-data-migration-methods-and-processes.md)
+  - Database Upgrade Assistant (DBUA) [2.1.4.2](choose-an-upgrade-method-for-oracle-database.md), [2.1.4.5](choose-an-upgrade-method-for-oracle-database.md)
+  - Data Pump Export/Import [2.1.4.4](choose-an-upgrade-method-for-oracle-database.md)
+  - emulation [2.10.1](testing-upgraded-production-oracle-database.md)
+  - manual [2.1.4.3](choose-an-upgrade-method-for-oracle-database.md)
+  - silent mode [C.7](upgrading-oracle-database-upgrade-assistant-dbua.md)
+- upgrade path
+  - determining [1.1.3](oracle-database-releases-that-support-direct-upgrade.md)
+  - table [1.1.3](oracle-database-releases-that-support-direct-upgrade.md)
+- upgrade procedures
+  - error messages [10.8.1.2](oracle-database-changes-deprecations-desupports.md)
+  - summary of major steps [1.2](major-steps-upgrade-process-oracle-database.md)
+- upgrade process testing [2.10](testing-upgraded-production-oracle-database.md)
+  - and utlrp.sql [1.3.5](invalid-schema-objects-database-upgrades.md)
+- upgrade summary report
+  - location of [5.12.3](troubleshooting-oracle-database-upgrade.md)
+- upgrading
+  - applications [7](upgrading-apps-after-oracle-db-upgrade.md)
+    - compatibility rules [7.4](compatibility-rules-applications-when-upgrading-oracle-database-client-server-software.md)
+    - options [7.7](upgrade-options-precompiler-oci.md)
+    - relinking [7.4](compatibility-rules-applications-when-upgrading-oracle-database-client-server-software.md)
+  - defined [1.1.1](definition-of-terms-upgrading-and-migrating.md)
+  - initialization parameters [2.7](preparing-new-oracle-home-for-upgrade.md)
+  - new administrative procedures [6.4.10](recommended-and-best-practices-complete-upgrading-oracle-database.md)
+  - Oracle Forms applications [7.9](upgrading-oracle-forms-oracle-developer-applications.md)
+  - ORADIM and [4.2.3](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md), [4.6.5](upgrade-scenarios-non-cdb-oracle-databases.md)
+  - post upgrade actions [6](post-upgrade-tasks-oracle-database.md)
+  - preparation [2.1](tasks-to-prepare-for-oracle-database-upgrades.md)
+  - recovery catalog [6.3.11](required-tasks-complete-upgrading-oracle-database.md)
+  - scripts and manual upgrade [4.2.3](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md), [4.6.5](upgrade-scenarios-non-cdb-oracle-databases.md)
+  - SQL\*Plus scripts [7.8](upgrading-sqlplus-scripts-and-pl-sql-database.md)
+  - statistics tables [6.3.13](required-tasks-complete-upgrading-oracle-database.md)
+  - testing [2.1.6](develop-a-test-plan-for-upgrading-database.md)
+  - troubleshooting [5](troubleshooting-oracle-database-upgrade.md)
+  - using the Database Upgrade Assistant [C](upgrading-oracle-database-upgrade-assistant-dbua.md)
+  - where to find information about [1.1.4](find-latest-information-upgrading-oracle-database.md)
+- upgrading a cluster database
+  - setting the CLUSTER_DATABASE initialization parameter [2.7](preparing-new-oracle-home-for-upgrade.md)
+- UTL_FILE [10.7.1.7](oracle-database-changes-deprecations-desupports.md)
+- UTL_FILE_DIR deprecated [10.8.5](oracle-database-changes-deprecations-desupports.md)
+- UTL_INADDR package [B.2.8.1](using-preupgrade-information-tool-for-oracle-database.md)
+- UTL_MAIL package [B.2.8.1](using-preupgrade-information-tool-for-oracle-database.md)
+- UTL_SMTP package [B.2.8.1](using-preupgrade-information-tool-for-oracle-database.md)
+- UTL_TCP package [B.2.8.1](using-preupgrade-information-tool-for-oracle-database.md)
+- utlrp.sql [1.3.5](invalid-schema-objects-database-upgrades.md), [6.3.2](required-tasks-complete-upgrading-oracle-database.md), [B.1](scripts-upgrade-oracle-database.md)
+- utlrp.sql script
+  - for recompiling invalid objects [4.2.3](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md), [4.6.5](upgrade-scenarios-non-cdb-oracle-databases.md), [8.6.2](downgrading-oracle-db-after-upgrade.md)
+- utluptabdata.sql [10.8.1.9](oracle-database-changes-deprecations-desupports.md)
+- utlusts.sql [5.4](troubleshooting-oracle-database-upgrade.md), [5.12.1](troubleshooting-oracle-database-upgrade.md), [6.1](check-upgrade-post-upgrade-status-tool.md), [B.1](scripts-upgrade-oracle-database.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- V\$OPTION view [5.12.1](troubleshooting-oracle-database-upgrade.md)
+- V\$REPLPROP
+  - desupported [10.8.2.6](oracle-database-changes-deprecations-desupports.md)
+- V\$REPLQUEUE
+  - desupported [10.8.2.6](oracle-database-changes-deprecations-desupports.md)
+- VARCHAR2 datatype
+  - EXTENDED [10.9.1.7](oracle-database-changes-deprecations-desupports.md)
+- VERIFY_FUNCTION
+  - deprecated [10.8.4.17](oracle-database-changes-deprecations-desupports.md)
+- VERIFY_FUNCTION_11G
+  - deprecated [10.8.4.17](oracle-database-changes-deprecations-desupports.md)
+- VERSION [10.4.1.1](oracle-database-changes-deprecations-desupports.md)
+- VERSION_FULL [10.4.1.1](oracle-database-changes-deprecations-desupports.md)
+- VERSION_LEGACY [10.4.1.1](oracle-database-changes-deprecations-desupports.md)
+- views
+  - desupported [10.8.2.6](oracle-database-changes-deprecations-desupports.md)
+- volume
+  - amount of data upgraded [2.1.6.7](develop-a-test-plan-for-upgrading-database.md)
+- voting disk files
+  - placement on shared storage deprecated [10.8.2.2](oracle-database-changes-deprecations-desupports.md)
+
+------------------------------------------------------------------------
+
+## W
+
+- warning XDB now invalid error [5.15](troubleshooting-oracle-database-upgrade.md)
+- Windows
+  - and virtual accounts [4.3.2](example-manual-upgrade-windows-non-cdb.md)
+  - manual upgrade [4.3.1](example-manual-upgrade-windows-non-cdb.md), [4.3.2](example-manual-upgrade-windows-non-cdb.md)
+  - remote upgrades deprecated [10.8.1.2](oracle-database-changes-deprecations-desupports.md)
+  - using ORADIM with [4.3.2](example-manual-upgrade-windows-non-cdb.md)
+- workloads
+  - capturing and replaying [2.1.6.6.1](develop-a-test-plan-for-upgrading-database.md)
+
+------------------------------------------------------------------------
+
+## X
+
+- xdb defaultTableSchema attribute (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- xdb maintainOrder attribute (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- xdb mapUnboundedStringToLob attribute (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- xdb maxOccurs attribute (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- xdb SQLCollSchema attribute (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- xdb SQLSchema attribute (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- xdb srclang attribute (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- xdb storeVarrayAsTable attribute (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- xdb translate attribute (deprecated) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+- XE [1.5.6](migrating-from-express-to-standard-database.md)
+- XML DB
+  - desupported functions and procedures [10.8.2.8](oracle-database-changes-deprecations-desupports.md)
+- XQuery language
+  - functions [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+    - matches [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+    - matches (deprecated, Oracle) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+    - replace (deprecated, Oracle) [10.8.4.20](oracle-database-changes-deprecations-desupports.md), [10.9.3.37](oracle-database-changes-deprecations-desupports.md)
+
+------------------------------------------------------------------------
+
+## Z
+
+- Zero Data Loss Recovery Appliance
+  - backup restriction [10.8.1.12](oracle-database-changes-deprecations-desupports.md)
+- Zero Downtime upgrades [4.2](manual-upgrade-scenarios-multitenant-architecture-oracle-databases.md)

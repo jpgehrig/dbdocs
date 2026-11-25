@@ -1,0 +1,3 @@
+#
+
+An example job, XYZ, shows which AutoUpgrade utility steps are options are run with each AutoUpgrade mode. The sequence of AutoUpgrade steps is, in order, setup, GRP (guaranteed recovery point), preupgrade scripts, prechecks, prefixups, drain, DB Upgrade, the following steps run, in sequence: post checks, postfixup scripts, and postupgrade scripts. In Analyze mode, only setup and prechecks run. In Fixups mode, the following steps run: setup, prechecks, and prefixups. In Deploy mode, all steps run in sequence: setup, GRP, preupgrade scripts, prechecks, prefixups, drain, database upgrade, post checks, postfixup scripts, postupgrade, and sysupdates. In Upgrade mode, the following steps run: setup, database upgrade, post checks, postfixup scripts, and sysupdates.

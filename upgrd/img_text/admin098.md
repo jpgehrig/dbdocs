@@ -1,0 +1,3 @@
+#
+
+This illustration shows a CDB with a CDB\$ROOT container, a PDB\$SEED container plugged into the root, and several PDBs plugged into the root. One PDB is a new PDB. The illustration shows the non-CDB being moved into the new PDB using the DBMS_PDB.DESCRIBE procedure. The illustration shows this procedure extracting an XML metadata file that contains information about the non-CDB's database files. To create the new PDB, a CREATE PLUGGABLE DATABASE ... USING statement uses the XML metadata file and the database files.

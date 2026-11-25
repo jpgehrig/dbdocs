@@ -1,0 +1,15 @@
+## List of Tables
+
+- [1-1        Examples of Upgrade Paths for Oracle Database 19c](oracle-database-releases-that-support-direct-upgrade.md)
+- [1-2        The COMPATIBLE Initialization Parameter](what-is-oracle-database-compatibility.md)
+- [1-3        Technology Methods for Migrating and Upgrading Databases During Upgrades](overview-conveting-databases-during-upgrade.md)
+- [3-1        AutoUpgrade Patching Configuration File Parameters](autoupgrade-patching.md)
+- [3-2        AutoUpgrade Patching Command-Line Options](autoupgrade-patching.md)
+- [3-3        Internal Settings Configuration File Parameters for AutoUpgrade](autoupgrade-internal-settings-config-file-parameters.md)
+- [4-1        Parallel Upgrade Utility (catctl.pl) Parameters](upgrading-parallel-upgrade-utility-catctl-pl.md)
+- [6-1        Common Oracle Database Vault Upgrade Scenarios and Upgrade Preparation Tasks](required-tasks-complete-upgrading-oracle-database.md)
+- [8-1        Supported Releases and Editions for Downgrading](downgrading-oracle-db-after-upgrade.md)
+- [10-1      Oracle Data Guard Property Name Changes](oracle-database-changes-deprecations-desupports.md)
+- [10-2      Deprecated columns in Oracle Label Security Views](oracle-database-changes-deprecations-desupports.md)
+- [B-1        Upgrade, Post-Upgrade, and Downgrade Scripts](scripts-upgrade-oracle-database.md)
+- [B-2        Choices for Fixing the Time Zone File Version](using-preupgrade-information-tool-for-oracle-database.md)
