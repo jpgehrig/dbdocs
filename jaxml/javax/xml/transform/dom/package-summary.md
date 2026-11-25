@@ -1,0 +1,83 @@
+Skip navigation links
+
+- [Overview](../../../../overview-summary.md)
+- Package
+- Class
+- [Tree](package-tree.md)
+- [Deprecated](../../../../deprecated-list.md)
+- [Index](../../../../index-all.md)
+- [Help](../../../../help-doc.md)
+
+**Oracle® Database XML Java API Reference
+Release 19*c*
+E96475-03
+**
+
+- **[Prev Package](../package-summary.md)**
+- **[Next Package](../sax/package-summary.md)**
+
+<!-- -->
+
+- **[Frames](../../../../index.md)**
+- **No Frames**
+
+<!-- -->
+
+- **[All Classes](../../../../allclasses-noframe.md)**
+
+# **Package javax.xml.transform.dom**
+
+**This package implements DOM-specific transformation APIs.**
+
+**See: Description**
+
+- **Interface Summary**
+
+  | Interface                   | Description                                                                               |
+  |-----------------------------|-------------------------------------------------------------------------------------------|
+  | [DOMLocator](DOMLocator.md) | Indicates the position of a node in a source DOM, intended primarily for error reporting. |
+
+- **Class Summary**
+
+  | Class                     | Description                                                                                           |
+  |---------------------------|-------------------------------------------------------------------------------------------------------|
+  | [DOMResult](DOMResult.md) | Acts as a holder for a transformation result tree, in the form of a Document Object Model (DOM) tree. |
+  | [DOMSource](DOMSource.md) | Acts as a holder for a transformation Source tree in the form of a Document Object Model (DOM) tree.  |
+
+## **Package javax.xml.transform.dom Description**
+
+**This package implements DOM-specific transformation APIs.
+**
+
+**Skip navigation links**
+
+- **[Overview](../../../../overview-summary.md)**
+- **Package**
+- **Class**
+- **[Tree](package-tree.md)**
+- **[Deprecated](../../../../deprecated-list.md)**
+- **[Index](../../../../index-all.md)**
+- **[Help](../../../../help-doc.md)**
+
+**Oracle® Database XML Java API Reference
+Release 19*c*
+E96475-03
+**
+
+- **[Prev Package](../package-summary.md)**
+- **[Next Package](../sax/package-summary.md)**
+
+<!-- -->
+
+- **[Frames](../../../../index.md)**
+- **No Frames**
+
+<!-- -->
+
+- **[All Classes](../../../../allclasses-noframe.md)**
+
+**Copyright © 2003, 2019, Oracle and/or its affiliates. All rights reserved.
+Use is subject to license terms. Also see the documentation redistribution policy.
+ORACLE CONFIDENTIAL
+For authorized use only.
+Do not distribute to third parties.**

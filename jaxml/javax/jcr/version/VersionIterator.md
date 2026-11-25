@@ -1,0 +1,140 @@
+Skip navigation links
+
+- [Overview](../../../overview-summary.md)
+- [Package](package-summary.md)
+- Class
+- [Tree](package-tree.md)
+- [Deprecated](../../../deprecated-list.md)
+- [Index](../../../index-all.md)
+- [Help](../../../help-doc.md)
+
+**Oracle® Database XML Java API Reference
+Release 19*c*
+E96475-03
+**
+
+- **[Prev Class](VersionHistory.md)**
+- **Next Class**
+
+<!-- -->
+
+- **[Frames](../../../index.md)**
+- **No Frames**
+
+<!-- -->
+
+- **[All Classes](../../../allclasses-noframe.md)**
+
+<!-- -->
+
+- **Summary: **
+- **Nested \| **
+- **Field \| **
+- **Constr \| **
+- **Method**
+
+<!-- -->
+
+- **Detail: **
+- **Field \| **
+- **Constr \| **
+- **Method**
+
+**javax.jcr.version**
+
+## **Interface VersionIterator**
+
+- **All Superinterfaces:**
+  **java.util.Iterator, [RangeIterator](../RangeIterator.md)**
+
+  ------------------------------------------------------------------------
+
+  **
+  **
+
+      public interface VersionIterator
+      extends RangeIterator
+
+  **Allows easy iteration through a list of `Version`s objects with `nextVersion` as well as a `skip` method inherited from `RangeIterator`.**
+
+<!-- -->
+
+-
+  -
+
+    ### **Method Summary**
+
+    **All Methods[Instance Methods](javascript:show(2);)[Abstract Methods](javascript:show(4);)**
+
+    | Modifier and Type       | Method and Description                                            |
+    |-------------------------|-------------------------------------------------------------------|
+    | [`Version`](Version.md) | `nextVersion``()`<br>Returns the next `Version` in the iteration. |
+
+    - ### Methods inherited from interface javax.jcr.[RangeIterator](../RangeIterator.md)
+
+      [`getPosition`](../RangeIterator.md)`, `[`getSize`](../RangeIterator.md)`, `[`skip`](../RangeIterator.md)
+
+    <!-- -->
+
+    - ### Methods inherited from interface java.util.Iterator
+
+      `forEachRemaining, hasNext, next, remove`
+
+<!-- -->
+
+- - ### Method Detail
+
+    - #### nextVersion
+
+          Version nextVersion()
+
+      Returns the next `Version` in the iteration.
+      Returns:
+      the next `Version` in the iteration.
+
+      Throws:
+      `java.util.NoSuchElementException` - if iteration has no more `Version`s.
+
+Skip navigation links
+
+- [Overview](../../../overview-summary.md)
+- [Package](package-summary.md)
+- Class
+- [Tree](package-tree.md)
+- [Deprecated](../../../deprecated-list.md)
+- [Index](../../../index-all.md)
+- [Help](../../../help-doc.md)
+
+**Oracle® Database XML Java API Reference
+Release 19*c*
+E96475-03
+**
+
+- **[Prev Class](VersionHistory.md)**
+- **Next Class**
+
+<!-- -->
+
+- **[Frames](../../../index.md)**
+- **No Frames**
+
+<!-- -->
+
+- **[All Classes](../../../allclasses-noframe.md)**
+
+<!-- -->
+
+- **Summary: **
+- **Nested \| **
+- **Field \| **
+- **Constr \| **
+- **Method**
+
+<!-- -->
+
+- **Detail: **
+- **Field \| **
+- **Constr \| **
+- **Method**
+
+**Copyright © 2004-2005 Day Software Management AG. All Rights Reserved.**

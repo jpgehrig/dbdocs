@@ -1,0 +1,681 @@
+Skip navigation links
+
+- [Overview](overview-summary.md)
+- Package
+- Class
+- Tree
+- [Deprecated](deprecated-list.md)
+- [Index](index-all.md)
+- [Help](help-doc.md)
+
+**Oracle® Database XML Java API Reference
+Release 19*c*
+E96475-03
+**
+
+- **Prev**
+- **Next**
+
+<!-- -->
+
+- **[Frames](index.md)**
+- **No Frames**
+
+<!-- -->
+
+- **[All Classes](allclasses-noframe.md)**
+
+# **Hierarchy For All Packages**
+
+**Package Hierarchies:**
+
+- **[javax.jcr](javax/jcr/package-tree.md),**
+- **[javax.jcr.lock](javax/jcr/lock/package-tree.md),**
+- **[javax.jcr.nodetype](javax/jcr/nodetype/package-tree.md),**
+- **[javax.jcr.observation](javax/jcr/observation/package-tree.md),**
+- **[javax.jcr.query](javax/jcr/query/package-tree.md),**
+- **[javax.jcr.util](javax/jcr/util/package-tree.md),**
+- **[javax.jcr.version](javax/jcr/version/package-tree.md),**
+- **[javax.xml.bind](javax/xml/bind/package-tree.md),**
+- **[javax.xml.parsers](javax/xml/parsers/package-tree.md),**
+- **[javax.xml.transform](javax/xml/transform/package-tree.md),**
+- **[javax.xml.transform.dom](javax/xml/transform/dom/package-tree.md),**
+- **[javax.xml.transform.sax](javax/xml/transform/sax/package-tree.md),**
+- **[javax.xml.transform.stream](javax/xml/transform/stream/package-tree.md),**
+- **[javax.xml.xquery](javax/xml/xquery/package-tree.md),**
+- **[oracle.jcr](oracle/jcr/package-tree.md),**
+- **[oracle.jcr.nodetype](oracle/jcr/nodetype/package-tree.md),**
+- **[oracle.jcr.query](oracle/jcr/query/package-tree.md),**
+- **[oracle.jcr.xdb](oracle/jcr/xdb/package-tree.md),**
+- **[oracle.xdb](oracle/xdb/package-tree.md),**
+- **[oracle.xdb.dom](oracle/xdb/dom/package-tree.md),**
+- **[oracle.xdb.event](oracle/xdb/event/package-tree.md),**
+- **[oracle.xdb.servlet](oracle/xdb/servlet/package-tree.md),**
+- **[oracle.xml.async](oracle/xml/async/package-tree.md),**
+- **[oracle.xml.binxml](oracle/xml/binxml/package-tree.md),**
+- **[oracle.xml.comp](oracle/xml/comp/package-tree.md),**
+- **[oracle.xml.dbaccess](oracle/xml/dbaccess/package-tree.md),**
+- **[oracle.xml.diff](oracle/xml/diff/package-tree.md),**
+- **[oracle.xml.differ](oracle/xml/differ/package-tree.md),**
+- **[oracle.xml.jaxp](oracle/xml/jaxp/package-tree.md),**
+- **[oracle.xml.parser.schema](oracle/xml/parser/schema/package-tree.md),**
+- **[oracle.xml.parser.v2](oracle/xml/parser/v2/package-tree.md),**
+- **[oracle.xml.pipeline.controller](oracle/xml/pipeline/controller/package-tree.md),**
+- **[oracle.xml.pipeline.processes](oracle/xml/pipeline/processes/package-tree.md),**
+- **[oracle.xml.scalable](oracle/xml/scalable/package-tree.md),**
+- **[oracle.xml.schemavalidator](oracle/xml/schemavalidator/package-tree.md),**
+- **[oracle.xml.sql](oracle/xml/sql/package-tree.md),**
+- **[oracle.xml.sql.dml](oracle/xml/sql/dml/package-tree.md),**
+- **[oracle.xml.sql.query](oracle/xml/sql/query/package-tree.md),**
+- **[oracle.xml.transviewer](oracle/xml/transviewer/package-tree.md),**
+- **[oracle.xml.transx](oracle/xml/transx/package-tree.md),**
+- **[oracle.xml.util](oracle/xml/util/package-tree.md),**
+- **[oracle.xml.xmlcomp](oracle/xml/xmlcomp/package-tree.md),**
+- **[oracle.xml.xmldbaccess](oracle/xml/xmldbaccess/package-tree.md),**
+- **[oracle.xml.xquery](oracle/xml/xquery/package-tree.md),**
+- **[oracle.xml.xquery.xqjdb](oracle/xml/xquery/xqjdb/package-tree.md),**
+- **[oracle.xml.xsql](oracle/xml/xsql/package-tree.md),**
+- **[org.w3c.dom](org/w3c/dom/package-tree.md),**
+- **[org.w3c.dom.events](org/w3c/dom/events/package-tree.md),**
+- **[org.w3c.dom.ls](org/w3c/dom/ls/package-tree.md),**
+- **[org.w3c.dom.ranges](org/w3c/dom/ranges/package-tree.md),**
+- **[org.w3c.dom.traversal](org/w3c/dom/traversal/package-tree.md),**
+- **[org.w3c.dom.validation](org/w3c/dom/validation/package-tree.md),**
+- **[org.xml.sax](org/xml/sax/package-tree.md),**
+- **[org.xml.sax.ext](org/xml/sax/ext/package-tree.md),**
+- **[org.xml.sax.helpers](org/xml/sax/helpers/package-tree.md)**
+
+## **Class Hierarchy**
+
+- **java.lang.Object**
+  - **org.xml.sax.helpers.[AttributeListImpl](org/xml/sax/helpers/AttributeListImpl.md) (implements org.xml.sax.[AttributeList](org/xml/sax/AttributeList.md))**
+  - **org.xml.sax.helpers.[AttributesImpl](org/xml/sax/helpers/AttributesImpl.md) (implements org.xml.sax.[Attributes](org/xml/sax/Attributes.md))**
+  - **oracle.xml.scalable.[BinaryIndex](oracle/xml/scalable/BinaryIndex.md)**
+  - **oracle.xml.scalable.[BinaryNav](oracle/xml/scalable/BinaryNav.md)**
+  - **oracle.xml.scalable.[BinaryStream](oracle/xml/scalable/BinaryStream.md)**
+  - **oracle.xml.binxml.[BinXMLMetadataProviderFactory](oracle/xml/binxml/BinXMLMetadataProviderFactory.md)**
+  - **oracle.xml.binxml.[BinXMLProcessorFactory](oracle/xml/binxml/BinXMLProcessorFactory.md)**
+  - **oracle.xml.binxml.[BinXMLSerializer](oracle/xml/binxml/BinXMLSerializer.md)**
+  - **oracle.xml.binxml.[BinXMLVocabId](oracle/xml/binxml/BinXMLVocabId.md)**
+  - **javax.servlet.http.Cookie (implements java.lang.Cloneable)**
+    - **oracle.xdb.servlet.[XDBCookie](oracle/xdb/servlet/XDBCookie.md)**
+  - **oracle.xdb.[CState](oracle/xdb/CState.md)**
+  - **oracle.xml.comp.[CXMLParser](oracle/xml/comp/CXMLParser.md)**
+  - **oracle.sql.Datum (implements java.io.Serializable)**
+    - **oracle.sql.DatumWithConnection (implements oracle.jdbc.internal.OracleDatumWithConnection)**
+      - **oracle.sql.OPAQUE (implements oracle.jdbc.internal.OracleOpaque)**
+        - **oracle.xdb.[XMLType](oracle/xdb/XMLType.md) (implements oracle.jdbc.internal.XMLTypeIntf)**
+          - **oracle.xdb.[SQLXMLType](oracle/xdb/SQLXMLType.md) (implements java.sql.SQLXML)**
+  - **oracle.xml.dbaccess.[DBAccess](oracle/xml/dbaccess/DBAccess.md)**
+    - **oracle.xml.xmldbaccess.[XMLDBAccess](oracle/xml/xmldbaccess/XMLDBAccess.md)**
+  - **oracle.xml.transviewer.[DBAccess](oracle/xml/transviewer/DBAccess.md)**
+  - **oracle.xml.binxml.[DBBinXMLMetadataProviderImpl](oracle/xml/binxml/DBBinXMLMetadataProviderImpl.md) (implements oracle.xml.binxml.[DBBinXMLMetadataProvider](oracle/xml/binxml/DBBinXMLMetadataProvider.md))**
+  - **org.xml.sax.helpers.[DefaultHandler](org/xml/sax/helpers/DefaultHandler.md) (implements org.xml.sax.[ContentHandler](org/xml/sax/ContentHandler.md), org.xml.sax.[DTDHandler](org/xml/sax/DTDHandler.md), org.xml.sax.[EntityResolver](org/xml/sax/EntityResolver.md), org.xml.sax.[ErrorHandler](org/xml/sax/ErrorHandler.md))**
+    - **oracle.xml.parser.v2.[XMLSAXSerializer](oracle/xml/parser/v2/XMLSAXSerializer.md) (implements org.xml.sax.[ContentHandler](org/xml/sax/ContentHandler.md), org.xml.sax.ext.[DeclHandler](org/xml/sax/ext/DeclHandler.md), org.xml.sax.[DTDHandler](org/xml/sax/DTDHandler.md), org.xml.sax.[EntityResolver](org/xml/sax/EntityResolver.md), org.xml.sax.[ErrorHandler](org/xml/sax/ErrorHandler.md), org.xml.sax.ext.[LexicalHandler](org/xml/sax/ext/LexicalHandler.md))**
+  - **oracle.xml.diff.[DiffOp](oracle/xml/diff/DiffOp.md) (implements java.lang.Comparable\<T\>)**
+    - **oracle.xml.diff.[AppendDiffOp](oracle/xml/diff/AppendDiffOp.md)**
+    - **oracle.xml.diff.[DeleteDiffOp](oracle/xml/diff/DeleteDiffOp.md)**
+    - **oracle.xml.diff.[InsertDiffOp](oracle/xml/diff/InsertDiffOp.md)**
+  - **oracle.xml.schemavalidator.[DocErrorHandler](oracle/xml/schemavalidator/DocErrorHandler.md) (implements org.xml.sax.[ErrorHandler](org/xml/sax/ErrorHandler.md))**
+  - **javax.xml.parsers.[DocumentBuilder](javax/xml/parsers/DocumentBuilder.md)**
+    - **oracle.xml.jaxp.[JXDocumentBuilder](oracle/xml/jaxp/JXDocumentBuilder.md)**
+  - **javax.xml.parsers.[DocumentBuilderFactory](javax/xml/parsers/DocumentBuilderFactory.md)**
+    - **oracle.xml.jaxp.[JXDocumentBuilderFactory](oracle/xml/jaxp/JXDocumentBuilderFactory.md)**
+  - **oracle.xml.async.[DOMBuilder](oracle/xml/async/DOMBuilder.md) (implements java.lang.Runnable, java.io.Serializable)**
+  - **javax.xml.transform.dom.[DOMResult](javax/xml/transform/dom/DOMResult.md) (implements javax.xml.transform.[Result](javax/xml/transform/Result.md))**
+  - **javax.xml.transform.dom.[DOMSource](javax/xml/transform/dom/DOMSource.md) (implements javax.xml.transform.[Source](javax/xml/transform/Source.md))**
+  - **java.util.EventObject (implements java.io.Serializable)**
+    - **oracle.xml.async.[DOMBuilderErrorEvent](oracle/xml/async/DOMBuilderErrorEvent.md)**
+    - **oracle.xml.async.[DOMBuilderEvent](oracle/xml/async/DOMBuilderEvent.md)**
+    - **javax.xml.xquery.[XQConnectionEvent](javax/xml/xquery/XQConnectionEvent.md)**
+    - **oracle.xml.async.[XSLTransformerErrorEvent](oracle/xml/async/XSLTransformerErrorEvent.md)**
+    - **oracle.xml.async.[XSLTransformerEvent](oracle/xml/async/XSLTransformerEvent.md)**
+  - **oracle.xml.scalable.[FilePageManager](oracle/xml/scalable/FilePageManager.md)**
+  - **oracle.xml.common.regex.xerces.GenericEngine\<E\>**
+    - **oracle.xml.util.[RegExprEngine](oracle/xml/util/RegExprEngine.md)**
+  - **javax.servlet.GenericServlet (implements java.io.Serializable, javax.servlet.Servlet, javax.servlet.ServletConfig)**
+    - **javax.servlet.http.HttpServlet (implements java.io.Serializable)**
+      - **oracle.xml.xsql.[XSQLServlet](oracle/xml/xsql/XSQLServlet.md)**
+  - **org.xml.sax.[HandlerBase](org/xml/sax/HandlerBase.md) (implements org.xml.sax.[DocumentHandler](org/xml/sax/DocumentHandler.md), org.xml.sax.[DTDHandler](org/xml/sax/DTDHandler.md), org.xml.sax.[EntityResolver](org/xml/sax/EntityResolver.md), org.xml.sax.[ErrorHandler](org/xml/sax/ErrorHandler.md))**
+    - **oracle.xml.parser.v2.[DefaultXMLDocumentHandler](oracle/xml/parser/v2/DefaultXMLDocumentHandler.md) (implements oracle.xml.parser.v2.[XMLDocumentHandler](oracle/xml/parser/v2/XMLDocumentHandler.md))**
+      - **oracle.xml.comp.[CXMLHandlerBase](oracle/xml/comp/CXMLHandlerBase.md) (implements org.xml.sax.[ContentHandler](org/xml/sax/ContentHandler.md), org.xml.sax.ext.[LexicalHandler](org/xml/sax/ext/LexicalHandler.md))**
+      - **oracle.xml.parser.v2.[DocumentBuilder](oracle/xml/parser/v2/DocumentBuilder.md) (implements org.xml.sax.[ContentHandler](org/xml/sax/ContentHandler.md), org.xml.sax.ext.[DeclHandler](org/xml/sax/ext/DeclHandler.md), org.xml.sax.ext.[LexicalHandler](org/xml/sax/ext/LexicalHandler.md))**
+      - **oracle.xml.parser.v2.[XMLTokenizer](oracle/xml/parser/v2/XMLTokenizer.md)**
+  - **org.xml.sax.[InputSource](org/xml/sax/InputSource.md)**
+    - **oracle.xml.parser.schema.[XSDInputSource](oracle/xml/parser/schema/XSDInputSource.md)**
+  - **java.io.InputStream (implements java.io.Closeable)**
+    - **java.io.ObjectInputStream (implements java.io.ObjectInput, java.io.ObjectStreamConstants)**
+      - **oracle.xml.parser.v2.[XMLObjectInputStream](oracle/xml/parser/v2/XMLObjectInputStream.md)**
+    - **oracle.xdb.[RealInputStream](oracle/xdb/RealInputStream.md)**
+  - **javax.xml.bind.[JAXBContext](javax/xml/bind/JAXBContext.md)**
+  - **oracle.jcr.xdb.[JDBCConnectionCredentials](oracle/jcr/xdb/JDBCConnectionCredentials.md) (implements javax.jcr.[Credentials](javax/jcr/Credentials.md))**
+  - **oracle.xml.transx.[LangTag](oracle/xml/transx/LangTag.md)**
+  - **oracle.xml.transx.[loader](oracle/xml/transx/loader.md)**
+  - **oracle.xml.transx.[LoadingMode](oracle/xml/transx/LoadingMode.md)**
+  - **org.xml.sax.helpers.[LocatorImpl](org/xml/sax/helpers/LocatorImpl.md) (implements org.xml.sax.[Locator](org/xml/sax/Locator.md))**
+    - **org.xml.sax.ext.[Locator2Impl](org/xml/sax/ext/Locator2Impl.md) (implements org.xml.sax.ext.[Locator2](org/xml/sax/ext/Locator2.md))**
+  - **org.xml.sax.helpers.[NamespaceSupport](org/xml/sax/helpers/NamespaceSupport.md)**
+  - **oracle.xml.parser.v2.[NodeFactory](oracle/xml/parser/v2/NodeFactory.md) (implements java.io.Serializable)**
+  - **javax.jcr.version.[OnParentVersionAction](javax/jcr/version/OnParentVersionAction.md)**
+  - **oracle.xml.diff.[Options](oracle/xml/diff/Options.md)**
+  - **oracle.jcr.[OracleRepositoryFactory](oracle/jcr/OracleRepositoryFactory.md) (implements javax.naming.spi.ObjectFactory)**
+  - **oracle.xml.sql.query.[OracleXMLQuery](oracle/xml/sql/query/OracleXMLQuery.md)**
+  - **oracle.xml.sql.dml.[OracleXMLSave](oracle/xml/sql/dml/OracleXMLSave.md)**
+  - **oracle.xml.pipeline.controller.[orapipe](oracle/xml/pipeline/controller/orapipe.md) (implements oracle.xml.pipeline.controller.[PipelineConstants](oracle/xml/pipeline/controller/PipelineConstants.md), oracle.xml.pipeline.controller.[PipelineErrorHandler](oracle/xml/pipeline/controller/PipelineErrorHandler.md))**
+  - **oracle.xml.parser.v2.[oraxml](oracle/xml/parser/v2/oraxml.md)**
+  - **oracle.xml.parser.v2.[oraxsl](oracle/xml/parser/v2/oraxsl.md)**
+  - **javax.xml.transform.[OutputKeys](javax/xml/transform/OutputKeys.md)**
+  - **java.io.OutputStream (implements java.io.Closeable, java.io.Flushable)**
+    - **javax.servlet.ServletOutputStream**
+      - **oracle.xdb.servlet.[XDBServletResponse](oracle/xdb/servlet/XDBServletResponse.md) (implements javax.servlet.http.HttpServletResponse, oracle.xdb.servlet.[XDBStream](oracle/xdb/servlet/XDBStream.md))**
+    - **oracle.xdb.[XDBOutputStream](oracle/xdb/XDBOutputStream.md)**
+      - **oracle.xdb.event.[XDBRenderStream](oracle/xdb/event/XDBRenderStream.md)**
+  - **oracle.xml.xquery.[OXQConstants](oracle/xml/xquery/OXQConstants.md)**
+  - **oracle.xml.xquery.[OXQDataSource](oracle/xml/xquery/OXQDataSource.md) (implements javax.xml.xquery.[XQDataSource](javax/xml/xquery/XQDataSource.md))**
+  - **oracle.xml.xquery.xqjdb.[OXQDDataSource](oracle/xml/xquery/xqjdb/OXQDDataSource.md) (implements javax.xml.xquery.[XQDataSource](javax/xml/xquery/XQDataSource.md))**
+  - **oracle.xml.xquery.[OXQDebugListener](oracle/xml/xquery/OXQDebugListener.md)**
+  - **oracle.xml.xquery.[OXQEntity](oracle/xml/xquery/OXQEntity.md) (implements java.lang.Cloneable, oracle.xml.xquery.[OXQCloseable](oracle/xml/xquery/OXQCloseable.md))**
+  - **oracle.xml.xquery.[OXQEntityLocator](oracle/xml/xquery/OXQEntityLocator.md)**
+  - **oracle.xml.xquery.[OXQEntityResolver](oracle/xml/xquery/OXQEntityResolver.md)**
+  - **oracle.xml.xquery.[OXQEntityResolverRequestOptions](oracle/xml/xquery/OXQEntityResolverRequestOptions.md)**
+  - **oracle.xml.xquery.[OXQFunctionEvaluator](oracle/xml/xquery/OXQFunctionEvaluator.md)**
+  - **oracle.xml.xquery.[OXQView](oracle/xml/xquery/OXQView.md)**
+  - **org.xml.sax.helpers.[ParserAdapter](org/xml/sax/helpers/ParserAdapter.md) (implements org.xml.sax.[DocumentHandler](org/xml/sax/DocumentHandler.md), org.xml.sax.[XMLReader](org/xml/sax/XMLReader.md))**
+  - **org.xml.sax.helpers.[ParserFactory](org/xml/sax/helpers/ParserFactory.md)**
+  - **oracle.xml.pipeline.controller.[PipeDocElement](oracle/xml/pipeline/controller/PipeDocElement.md) (implements oracle.xml.pipeline.controller.[PipelineConstants](oracle/xml/pipeline/controller/PipelineConstants.md))**
+    - **oracle.xml.pipeline.controller.[Input](oracle/xml/pipeline/controller/Input.md)**
+    - **oracle.xml.pipeline.controller.[Output](oracle/xml/pipeline/controller/Output.md)**
+  - **oracle.xml.pipeline.controller.[PipelineDoc](oracle/xml/pipeline/controller/PipelineDoc.md) (implements oracle.xml.pipeline.controller.[PipelineConstants](oracle/xml/pipeline/controller/PipelineConstants.md))**
+  - **oracle.xml.pipeline.controller.[PipelineProcessor](oracle/xml/pipeline/controller/PipelineProcessor.md) (implements oracle.xml.pipeline.controller.[PipelineConstants](oracle/xml/pipeline/controller/PipelineConstants.md))**
+  - **oracle.xml.pipeline.controller.[Process](oracle/xml/pipeline/controller/Process.md) (implements org.xml.sax.[ErrorHandler](org/xml/sax/ErrorHandler.md), oracle.xml.pipeline.controller.[PipelineConstants](oracle/xml/pipeline/controller/PipelineConstants.md), java.lang.Runnable)**
+    - **oracle.xml.pipeline.processes.[CompressReaderProcess](oracle/xml/pipeline/processes/CompressReaderProcess.md)**
+    - **oracle.xml.pipeline.processes.[CompressWriterProcess](oracle/xml/pipeline/processes/CompressWriterProcess.md)**
+    - **oracle.xml.pipeline.processes.[DOMParserProcess](oracle/xml/pipeline/processes/DOMParserProcess.md)**
+    - **oracle.xml.pipeline.processes.[SAXParserProcess](oracle/xml/pipeline/processes/SAXParserProcess.md)**
+    - **oracle.xml.pipeline.processes.[XPathProcess](oracle/xml/pipeline/processes/XPathProcess.md)**
+    - **oracle.xml.pipeline.processes.[XSDSchemaBuilder](oracle/xml/pipeline/processes/XSDSchemaBuilder.md)**
+    - **oracle.xml.pipeline.processes.[XSDValProcess](oracle/xml/pipeline/processes/XSDValProcess.md)**
+    - **oracle.xml.pipeline.processes.[XSLProcess](oracle/xml/pipeline/processes/XSLProcess.md) (implements javax.xml.transform.[ErrorListener](javax/xml/transform/ErrorListener.md))**
+    - **oracle.xml.pipeline.processes.[XSLStylesheetProcess](oracle/xml/pipeline/processes/XSLStylesheetProcess.md)**
+  - **javax.jcr.[PropertyType](javax/jcr/PropertyType.md)**
+  - **oracle.xml.util.[Queue](oracle/xml/util/Queue.md)**
+  - **oracle.xml.async.[ResourceManager](oracle/xml/async/ResourceManager.md)**
+  - **oracle.xml.parser.v2.[SAXAttrList](oracle/xml/parser/v2/SAXAttrList.md) (implements org.xml.sax.[AttributeList](org/xml/sax/AttributeList.md))**
+  - **javax.xml.parsers.[SAXParser](javax/xml/parsers/SAXParser.md)**
+    - **oracle.xml.jaxp.[JXSAXParser](oracle/xml/jaxp/JXSAXParser.md)**
+  - **javax.xml.parsers.[SAXParserFactory](javax/xml/parsers/SAXParserFactory.md)**
+    - **oracle.xml.jaxp.[JXSAXParserFactory](oracle/xml/jaxp/JXSAXParserFactory.md)**
+  - **javax.xml.transform.sax.[SAXResult](javax/xml/transform/sax/SAXResult.md) (implements javax.xml.transform.[Result](javax/xml/transform/Result.md))**
+  - **javax.xml.transform.sax.[SAXSource](javax/xml/transform/sax/SAXSource.md) (implements javax.xml.transform.[Source](javax/xml/transform/Source.md))**
+  - **java.beans.SimpleBeanInfo (implements java.beans.BeanInfo)**
+    - **oracle.xml.dbaccess.[DBAccessBeanInfo](oracle/xml/dbaccess/DBAccessBeanInfo.md)**
+    - **oracle.xml.transviewer.[DBAccessBeanInfo](oracle/xml/transviewer/DBAccessBeanInfo.md)**
+    - **oracle.xml.async.[DOMBuilderBeanInfo](oracle/xml/async/DOMBuilderBeanInfo.md)**
+    - **oracle.xml.xmlcomp.[XMLCompressBeanInfo](oracle/xml/xmlcomp/XMLCompressBeanInfo.md)**
+    - **oracle.xml.xmldbaccess.[XMLDBAccessBeanInfo](oracle/xml/xmldbaccess/XMLDBAccessBeanInfo.md)**
+    - **oracle.xml.differ.[XMLDiffBeanInfo](oracle/xml/differ/XMLDiffBeanInfo.md)**
+    - **oracle.xml.schemavalidator.[XSDValidatorBeanInfo](oracle/xml/schemavalidator/XSDValidatorBeanInfo.md)**
+    - **oracle.xml.async.[XSLTransformerBeanInfo](oracle/xml/async/XSLTransformerBeanInfo.md)**
+  - **javax.jcr.[SimpleCredentials](javax/jcr/SimpleCredentials.md) (implements javax.jcr.[Credentials](javax/jcr/Credentials.md))**
+  - **javax.xml.transform.stream.[StreamResult](javax/xml/transform/stream/StreamResult.md) (implements javax.xml.transform.[Result](javax/xml/transform/Result.md))**
+  - **javax.xml.transform.stream.[StreamSource](javax/xml/transform/stream/StreamSource.md) (implements javax.xml.transform.[Source](javax/xml/transform/Source.md))**
+  - **java.lang.Throwable (implements java.io.Serializable)**
+    - **java.lang.Error**
+      - **javax.xml.parsers.[FactoryConfigurationError](javax/xml/parsers/FactoryConfigurationError.md)**
+      - **javax.xml.transform.[TransformerFactoryConfigurationError](javax/xml/transform/TransformerFactoryConfigurationError.md)**
+    - **java.lang.Exception**
+      - **oracle.xml.binxml.[BinXMLException](oracle/xml/binxml/BinXMLException.md)**
+      - **javax.xml.bind.[JAXBException](javax/xml/bind/JAXBException.md)**
+        - **javax.xml.bind.[MarshalException](javax/xml/bind/MarshalException.md)**
+        - **javax.xml.bind.[PropertyException](javax/xml/bind/PropertyException.md)**
+        - **javax.xml.bind.[UnmarshalException](javax/xml/bind/UnmarshalException.md)**
+        - **javax.xml.bind.[ValidationException](javax/xml/bind/ValidationException.md)**
+      - **javax.xml.parsers.[ParserConfigurationException](javax/xml/parsers/ParserConfigurationException.md)**
+      - **oracle.xml.pipeline.controller.[PipelineException](oracle/xml/pipeline/controller/PipelineException.md)**
+      - **javax.jcr.[RepositoryException](javax/jcr/RepositoryException.md)**
+        - **javax.jcr.[AccessDeniedException](javax/jcr/AccessDeniedException.md)**
+        - **javax.jcr.nodetype.[ConstraintViolationException](javax/jcr/nodetype/ConstraintViolationException.md)**
+        - **javax.jcr.[InvalidItemStateException](javax/jcr/InvalidItemStateException.md)**
+        - **javax.jcr.query.[InvalidQueryException](javax/jcr/query/InvalidQueryException.md)**
+        - **javax.jcr.[InvalidSerializedDataException](javax/jcr/InvalidSerializedDataException.md)**
+        - **javax.jcr.[ItemExistsException](javax/jcr/ItemExistsException.md)**
+        - **javax.jcr.[ItemNotFoundException](javax/jcr/ItemNotFoundException.md)**
+        - **javax.jcr.lock.[LockException](javax/jcr/lock/LockException.md)**
+        - **javax.jcr.[LoginException](javax/jcr/LoginException.md)**
+        - **javax.jcr.[MergeException](javax/jcr/MergeException.md)**
+        - **javax.jcr.[NamespaceException](javax/jcr/NamespaceException.md)**
+        - **javax.jcr.nodetype.[NoSuchNodeTypeException](javax/jcr/nodetype/NoSuchNodeTypeException.md)**
+        - **javax.jcr.[NoSuchWorkspaceException](javax/jcr/NoSuchWorkspaceException.md)**
+        - **javax.jcr.[PathNotFoundException](javax/jcr/PathNotFoundException.md)**
+        - **javax.jcr.[ReferentialIntegrityException](javax/jcr/ReferentialIntegrityException.md)**
+        - **javax.jcr.[UnsupportedRepositoryOperationException](javax/jcr/UnsupportedRepositoryOperationException.md)**
+        - **javax.jcr.[ValueFormatException](javax/jcr/ValueFormatException.md)**
+        - **javax.jcr.version.[VersionException](javax/jcr/version/VersionException.md)**
+      - **java.lang.RuntimeException**
+        - **org.w3c.dom.[DOMException](org/w3c/dom/DOMException.md)**
+          - **oracle.xdb.dom.[XDBDOMException](oracle/xdb/dom/XDBDOMException.md)**
+            - **oracle.xdb.dom.[XDBDOMNotFoundErrException](oracle/xdb/dom/XDBDOMNotFoundErrException.md)**
+          - **oracle.xml.parser.v2.[XMLDOMException](oracle/xml/parser/v2/XMLDOMException.md)**
+        - **oracle.xml.transx.[DuplicateException](oracle/xml/transx/DuplicateException.md)**
+        - **org.w3c.dom.events.[EventException](org/w3c/dom/events/EventException.md)**
+        - **org.w3c.dom.validation.[ExceptionVAL](org/w3c/dom/validation/ExceptionVAL.md)**
+        - **oracle.xml.sql.[OracleXMLSQLException](oracle/xml/sql/OracleXMLSQLException.md)**
+          - **oracle.xml.sql.[OracleXMLSQLNoRowsException](oracle/xml/sql/OracleXMLSQLNoRowsException.md)**
+        - **org.w3c.dom.ranges.[RangeException](org/w3c/dom/ranges/RangeException.md)**
+        - **javax.xml.bind.[TypeConstraintException](javax/xml/bind/TypeConstraintException.md)**
+        - **oracle.xdb.event.[XDBInvalidOperationException](oracle/xdb/event/XDBInvalidOperationException.md)**
+        - **oracle.xdb.dom.[XDBNotImplementedException](oracle/xdb/dom/XDBNotImplementedException.md)**
+      - **org.xml.sax.[SAXException](org/xml/sax/SAXException.md)**
+        - **org.xml.sax.[SAXNotRecognizedException](org/xml/sax/SAXNotRecognizedException.md)**
+        - **org.xml.sax.[SAXNotSupportedException](org/xml/sax/SAXNotSupportedException.md)**
+        - **org.xml.sax.[SAXParseException](org/xml/sax/SAXParseException.md)**
+          - **oracle.xml.parser.v2.[XMLParseException](oracle/xml/parser/v2/XMLParseException.md)**
+      - **javax.xml.transform.[TransformerException](javax/xml/transform/TransformerException.md)**
+        - **javax.xml.transform.[TransformerConfigurationException](javax/xml/transform/TransformerConfigurationException.md)**
+      - **oracle.xml.util.[XMLException](oracle/xml/util/XMLException.md)**
+        - **oracle.xml.parser.v2.[XSLException](oracle/xml/parser/v2/XSLException.md)**
+      - **javax.xml.xquery.[XQException](javax/xml/xquery/XQException.md)**
+        - **javax.xml.xquery.[XQQueryException](javax/xml/xquery/XQQueryException.md)**
+          - **javax.xml.xquery.[XQCancelledException](javax/xml/xquery/XQCancelledException.md)**
+      - **oracle.xml.parser.schema.[XSDException](oracle/xml/parser/schema/XSDException.md)**
+  - **javax.xml.transform.[Transformer](javax/xml/transform/Transformer.md)**
+    - **oracle.xml.jaxp.[JXTransformer](oracle/xml/jaxp/JXTransformer.md)**
+  - **javax.xml.transform.[TransformerFactory](javax/xml/transform/TransformerFactory.md)**
+    - **javax.xml.transform.sax.[SAXTransformerFactory](javax/xml/transform/sax/SAXTransformerFactory.md)**
+      - **oracle.xml.jaxp.[JXSAXTransformerFactory](oracle/xml/jaxp/JXSAXTransformerFactory.md)**
+  - **javax.jcr.util.[TraversingItemVisitor](javax/jcr/util/TraversingItemVisitor.md) (implements javax.jcr.[ItemVisitor](javax/jcr/ItemVisitor.md))**
+    - **javax.jcr.util.[TraversingItemVisitor.Default](javax/jcr/util/TraversingItemVisitor.Default.md)**
+  - **oracle.xml.util.[UnicodeUtil](oracle/xml/util/UnicodeUtil.md)**
+  - **oracle.xdb.event.[XDBBasicEventListener](oracle/xdb/event/XDBBasicEventListener.md) (implements oracle.xdb.event.[XDBRepositoryEventListener](oracle/xdb/event/XDBRepositoryEventListener.md))**
+  - **oracle.xdb.dom.[XDBDomImplementation](oracle/xdb/dom/XDBDomImplementation.md) (implements org.w3c.dom.[DOMImplementation](org/w3c/dom/DOMImplementation.md))**
+  - **oracle.xdb.[XDBError](oracle/xdb/XDBError.md)**
+  - **oracle.xdb.event.[XDBEvent](oracle/xdb/event/XDBEvent.md)**
+    - **oracle.xdb.event.[XDBRepositoryEvent](oracle/xdb/event/XDBRepositoryEvent.md)**
+  - **oracle.xdb.event.[XDBHandler](oracle/xdb/event/XDBHandler.md)**
+  - **oracle.xdb.event.[XDBHandlerList](oracle/xdb/event/XDBHandlerList.md)**
+  - **oracle.xdb.event.[XDBLink](oracle/xdb/event/XDBLink.md)**
+  - **oracle.xdb.dom.[XDBNamedNodeMap](oracle/xdb/dom/XDBNamedNodeMap.md) (implements org.w3c.dom.[NamedNodeMap](org/w3c/dom/NamedNodeMap.md))**
+  - **oracle.xdb.dom.[XDBNode](oracle/xdb/dom/XDBNode.md) (implements org.w3c.dom.[Node](org/w3c/dom/Node.md))**
+    - **oracle.xdb.dom.[XDBAttribute](oracle/xdb/dom/XDBAttribute.md) (implements org.w3c.dom.[Attr](org/w3c/dom/Attr.md))**
+    - **oracle.xdb.dom.[XDBCharData](oracle/xdb/dom/XDBCharData.md) (implements org.w3c.dom.[CharacterData](org/w3c/dom/CharacterData.md))**
+      - **oracle.xdb.dom.[XDBComment](oracle/xdb/dom/XDBComment.md) (implements org.w3c.dom.[Comment](org/w3c/dom/Comment.md))**
+      - **oracle.xdb.dom.[XDBText](oracle/xdb/dom/XDBText.md) (implements org.w3c.dom.[Text](org/w3c/dom/Text.md))**
+        - **oracle.xdb.dom.[XDBCData](oracle/xdb/dom/XDBCData.md) (implements org.w3c.dom.[CDATASection](org/w3c/dom/CDATASection.md))**
+    - **oracle.xdb.dom.[XDBDocFragment](oracle/xdb/dom/XDBDocFragment.md) (implements org.w3c.dom.[DocumentFragment](org/w3c/dom/DocumentFragment.md))**
+    - **oracle.xdb.dom.[XDBDocument](oracle/xdb/dom/XDBDocument.md) (implements org.w3c.dom.[Document](org/w3c/dom/Document.md))**
+      - **oracle.xdb.dom.[XDBBinaryDocument](oracle/xdb/dom/XDBBinaryDocument.md)**
+    - **oracle.xdb.dom.[XDBDocumentType](oracle/xdb/dom/XDBDocumentType.md) (implements org.w3c.dom.[DocumentType](org/w3c/dom/DocumentType.md))**
+    - **oracle.xdb.dom.[XDBElement](oracle/xdb/dom/XDBElement.md) (implements org.w3c.dom.[Element](org/w3c/dom/Element.md))**
+    - **oracle.xdb.dom.[XDBEntity](oracle/xdb/dom/XDBEntity.md) (implements org.w3c.dom.[Entity](org/w3c/dom/Entity.md))**
+    - **oracle.xdb.dom.[XDBEntityReference](oracle/xdb/dom/XDBEntityReference.md) (implements org.w3c.dom.[EntityReference](org/w3c/dom/EntityReference.md))**
+    - **oracle.xdb.dom.[XDBNotation](oracle/xdb/dom/XDBNotation.md) (implements org.w3c.dom.[Notation](org/w3c/dom/Notation.md))**
+    - **oracle.xdb.dom.[XDBProcInst](oracle/xdb/dom/XDBProcInst.md) (implements org.w3c.dom.[ProcessingInstruction](org/w3c/dom/ProcessingInstruction.md))**
+  - **oracle.xdb.dom.[XDBNodeList](oracle/xdb/dom/XDBNodeList.md) (implements org.w3c.dom.[NodeList](org/w3c/dom/NodeList.md))**
+  - **oracle.xdb.event.[XDBPath](oracle/xdb/event/XDBPath.md)**
+  - **oracle.xdb.servlet.[XDBPrincipal](oracle/xdb/servlet/XDBPrincipal.md) (implements java.security.Principal)**
+  - **oracle.jcr.xdb.[XDBRepositoryConfiguration](oracle/jcr/xdb/XDBRepositoryConfiguration.md) (implements oracle.jcr.[OracleRepositoryConfiguration](oracle/jcr/OracleRepositoryConfiguration.md))**
+  - **oracle.jcr.xdb.[XDBRepositoryConfigurationFactory](oracle/jcr/xdb/XDBRepositoryConfigurationFactory.md) (implements javax.naming.spi.ObjectFactory)**
+  - **oracle.xdb.servlet.[XDBServletConfig](oracle/xdb/servlet/XDBServletConfig.md) (implements javax.servlet.ServletConfig)**
+  - **oracle.xdb.servlet.[XDBServletContainer](oracle/xdb/servlet/XDBServletContainer.md)**
+  - **oracle.xdb.servlet.[XDBServletContext](oracle/xdb/servlet/XDBServletContext.md) (implements javax.servlet.ServletContext)**
+  - **oracle.xdb.servlet.[XDBServletRequest](oracle/xdb/servlet/XDBServletRequest.md) (implements javax.servlet.http.HttpServletRequest)**
+  - **oracle.xml.xmlcomp.[XMLCompress](oracle/xml/xmlcomp/XMLCompress.md) (implements java.io.Serializable)**
+  - **oracle.xdb.[XMLContext](oracle/xdb/XMLContext.md)**
+  - **oracle.xml.differ.[XMLDiff](oracle/xml/differ/XMLDiff.md) (implements oracle.xml.async.[DOMBuilderErrorListener](oracle/xml/async/DOMBuilderErrorListener.md), oracle.xml.async.[DOMBuilderListener](oracle/xml/async/DOMBuilderListener.md), java.io.Serializable)**
+  - **oracle.xml.parser.v2.[XMLDOMImplementation](oracle/xml/parser/v2/XMLDOMImplementation.md) (implements org.w3c.dom.[DOMImplementation](org/w3c/dom/DOMImplementation.md), org.w3c.dom.ls.[DOMImplementationLS](org/w3c/dom/ls/DOMImplementationLS.md), java.io.Serializable)**
+  - **oracle.xml.util.[XMLError](oracle/xml/util/XMLError.md)**
+    - **oracle.xml.parser.v2.[XMLError](oracle/xml/parser/v2/XMLError.md) (implements org.w3c.dom.[DOMError](org/w3c/dom/DOMError.md))**
+  - **org.xml.sax.helpers.[XMLFilterImpl](org/xml/sax/helpers/XMLFilterImpl.md) (implements org.xml.sax.[ContentHandler](org/xml/sax/ContentHandler.md), org.xml.sax.[DTDHandler](org/xml/sax/DTDHandler.md), org.xml.sax.[EntityResolver](org/xml/sax/EntityResolver.md), org.xml.sax.[ErrorHandler](org/xml/sax/ErrorHandler.md), org.xml.sax.[XMLFilter](org/xml/sax/XMLFilter.md))**
+  - **oracle.xml.parser.v2.[XMLMultiHandler](oracle/xml/parser/v2/XMLMultiHandler.md) (implements org.xml.sax.[ContentHandler](org/xml/sax/ContentHandler.md))**
+    - **oracle.xml.parser.schema.[XSDValidator](oracle/xml/parser/schema/XSDValidator.md) (implements oracle.xml.parser.schema.[XSDConstantValues](oracle/xml/parser/schema/XSDConstantValues.md))**
+  - **oracle.xml.parser.v2.[XMLNode](oracle/xml/parser/v2/XMLNode.md) (implements java.lang.Cloneable, org.w3c.dom.events.[EventTarget](org/w3c/dom/events/EventTarget.md), java.io.Externalizable, org.w3c.dom.[Node](org/w3c/dom/Node.md), org.w3c.dom.validation.[NodeEditVAL](org/w3c/dom/validation/NodeEditVAL.md))**
+    - **oracle.xml.parser.v2.[AttrDecl](oracle/xml/parser/v2/AttrDecl.md) (implements java.io.Externalizable)**
+    - **oracle.xml.parser.v2.[DTD](oracle/xml/parser/v2/DTD.md) (implements org.w3c.dom.[DocumentType](org/w3c/dom/DocumentType.md), java.io.Externalizable)**
+    - **oracle.xml.parser.v2.[ElementDecl](oracle/xml/parser/v2/ElementDecl.md) (implements java.io.Externalizable, java.io.Serializable)**
+    - **oracle.xml.parser.v2.[XMLComment](oracle/xml/parser/v2/XMLComment.md) (implements org.w3c.dom.[Comment](org/w3c/dom/Comment.md), java.io.Externalizable)**
+    - **oracle.xml.parser.v2.[XMLNotation](oracle/xml/parser/v2/XMLNotation.md) (implements java.io.Externalizable, org.w3c.dom.[Notation](org/w3c/dom/Notation.md))**
+    - **oracle.xml.parser.v2.[XMLNSNode](oracle/xml/parser/v2/XMLNSNode.md) (implements java.io.Externalizable)**
+      - **oracle.xml.parser.v2.[XMLAttr](oracle/xml/parser/v2/XMLAttr.md) (implements org.w3c.dom.[Attr](org/w3c/dom/Attr.md), java.io.Externalizable, oracle.xml.parser.v2.[NSName](oracle/xml/parser/v2/NSName.md))**
+      - **oracle.xml.parser.v2.[XMLElement](oracle/xml/parser/v2/XMLElement.md) (implements org.w3c.dom.[Element](org/w3c/dom/Element.md), org.w3c.dom.validation.[ElementEditVAL](org/w3c/dom/validation/ElementEditVAL.md), java.io.Externalizable, oracle.xml.parser.v2.[NSName](oracle/xml/parser/v2/NSName.md), oracle.xml.parser.v2.[NSResolver](oracle/xml/parser/v2/NSResolver.md))**
+        - **oracle.xml.parser.v2.[XMLDocument](oracle/xml/parser/v2/XMLDocument.md) (implements org.w3c.dom.[Document](org/w3c/dom/Document.md), org.w3c.dom.validation.[DocumentEditVAL](org/w3c/dom/validation/DocumentEditVAL.md), org.w3c.dom.events.[DocumentEvent](org/w3c/dom/events/DocumentEvent.md), org.w3c.dom.traversal.[DocumentTraversal](org/w3c/dom/traversal/DocumentTraversal.md), org.w3c.dom.events.[EventTarget](org/w3c/dom/events/EventTarget.md), java.io.Externalizable)**
+        - **oracle.xml.parser.v2.[XMLDocumentFragment](oracle/xml/parser/v2/XMLDocumentFragment.md) (implements org.w3c.dom.[DocumentFragment](org/w3c/dom/DocumentFragment.md), java.io.Externalizable)**
+      - **oracle.xml.parser.v2.[XMLEntity](oracle/xml/parser/v2/XMLEntity.md) (implements org.w3c.dom.[Entity](org/w3c/dom/Entity.md), java.io.Externalizable)**
+      - **oracle.xml.parser.v2.[XMLEntityReference](oracle/xml/parser/v2/XMLEntityReference.md) (implements org.w3c.dom.[EntityReference](org/w3c/dom/EntityReference.md), java.io.Externalizable)**
+    - **oracle.xml.parser.v2.[XMLPI](oracle/xml/parser/v2/XMLPI.md) (implements java.io.Externalizable, org.w3c.dom.[ProcessingInstruction](org/w3c/dom/ProcessingInstruction.md))**
+      - **oracle.xml.parser.v2.[XMLDeclPI](oracle/xml/parser/v2/XMLDeclPI.md) (implements java.io.Externalizable)**
+    - **oracle.xml.parser.v2.[XMLText](oracle/xml/parser/v2/XMLText.md) (implements java.io.Externalizable, org.w3c.dom.[Text](org/w3c/dom/Text.md))**
+      - **oracle.xml.parser.v2.[XMLCDATA](oracle/xml/parser/v2/XMLCDATA.md) (implements org.w3c.dom.[CDATASection](org/w3c/dom/CDATASection.md), java.io.Externalizable)**
+  - **oracle.xml.parser.v2.[XMLOutputStream](oracle/xml/parser/v2/XMLOutputStream.md)**
+  - **oracle.xml.parser.v2.[XMLParser](oracle/xml/parser/v2/XMLParser.md)**
+    - **oracle.xml.parser.v2.[BinaryParser](oracle/xml/parser/v2/BinaryParser.md)**
+    - **oracle.xml.parser.v2.[DOMParser](oracle/xml/parser/v2/DOMParser.md)**
+    - **oracle.xml.parser.v2.[SAXParser](oracle/xml/parser/v2/SAXParser.md) (implements org.xml.sax.[Parser](org/xml/sax/Parser.md), org.xml.sax.[XMLReader](org/xml/sax/XMLReader.md))**
+  - **oracle.xml.parser.v2.[XMLPrintDriver](oracle/xml/parser/v2/XMLPrintDriver.md) (implements oracle.xml.parser.v2.[PrintDriver](oracle/xml/parser/v2/PrintDriver.md))**
+  - **org.xml.sax.helpers.[XMLReaderAdapter](org/xml/sax/helpers/XMLReaderAdapter.md) (implements org.xml.sax.[ContentHandler](org/xml/sax/ContentHandler.md), org.xml.sax.[Parser](org/xml/sax/Parser.md))**
+  - **org.xml.sax.helpers.[XMLReaderFactory](org/xml/sax/helpers/XMLReaderFactory.md)**
+  - **oracle.xdb.[XMLTypeFactory](oracle/xdb/XMLTypeFactory.md) (implements oracle.sql.ORADataFactory)**
+  - **oracle.xml.util.[XMLUtil](oracle/xml/util/XMLUtil.md)**
+  - **oracle.xml.diff.[XmlUtils](oracle/xml/diff/XmlUtils.md)**
+  - **javax.xml.xquery.[XQConstants](javax/xml/xquery/XQConstants.md)**
+  - **javax.xml.xquery.[XQStackTraceElement](javax/xml/xquery/XQStackTraceElement.md) (implements java.io.Serializable)**
+  - **javax.xml.xquery.[XQStackTraceVariable](javax/xml/xquery/XQStackTraceVariable.md) (implements java.io.Serializable)**
+  - **oracle.xml.parser.schema.[XSDAnalyzerContext](oracle/xml/parser/schema/XSDAnalyzerContext.md) (implements oracle.xml.parser.schema.[XSDConstantValues](oracle/xml/parser/schema/XSDConstantValues.md))**
+  - **oracle.xml.parser.schema.[XSDBuilder](oracle/xml/parser/schema/XSDBuilder.md) (implements oracle.xml.parser.schema.[XSDConstantValues](oracle/xml/parser/schema/XSDConstantValues.md))**
+  - **oracle.xml.parser.schema.[XSDConstants](oracle/xml/parser/schema/XSDConstants.md) (implements oracle.xml.parser.schema.[XSDConstantValues](oracle/xml/parser/schema/XSDConstantValues.md))**
+  - **oracle.xml.parser.schema.[XSDConstrainingFacet](oracle/xml/parser/schema/XSDConstrainingFacet.md) (implements oracle.xml.parser.schema.[XSDConstantValues](oracle/xml/parser/schema/XSDConstantValues.md), oracle.xml.parser.schema.[XSDTypeConstants](oracle/xml/parser/schema/XSDTypeConstants.md))**
+  - **oracle.xml.parser.schema.[XSDDataValue](oracle/xml/parser/schema/XSDDataValue.md) (implements oracle.xml.parser.schema.[XSDConstantValues](oracle/xml/parser/schema/XSDConstantValues.md), oracle.xml.parser.schema.[XSDTypeConstants](oracle/xml/parser/schema/XSDTypeConstants.md))**
+  - **oracle.xml.parser.schema.[XSDNode](oracle/xml/parser/schema/XSDNode.md) (implements oracle.xml.parser.schema.[XSDConstantValues](oracle/xml/parser/schema/XSDConstantValues.md))**
+    - **oracle.xml.parser.schema.[XMLSchema](oracle/xml/parser/schema/XMLSchema.md)**
+    - **oracle.xml.parser.schema.[XMLSchemaNode](oracle/xml/parser/schema/XMLSchemaNode.md)**
+    - **oracle.xml.parser.schema.[XSDAny](oracle/xml/parser/schema/XSDAny.md) (implements oracle.xml.parser.schema.[XSDParticleNode](oracle/xml/parser/schema/XSDParticleNode.md))**
+    - **oracle.xml.parser.schema.[XSDAttrGroup](oracle/xml/parser/schema/XSDAttrGroup.md)**
+    - **oracle.xml.parser.schema.[XSDAttribute](oracle/xml/parser/schema/XSDAttribute.md) (implements oracle.xml.parser.schema.[XSDTypeConstants](oracle/xml/parser/schema/XSDTypeConstants.md))**
+    - **oracle.xml.parser.schema.[XSDComplexType](oracle/xml/parser/schema/XSDComplexType.md)**
+    - **oracle.xml.parser.schema.[XSDElement](oracle/xml/parser/schema/XSDElement.md) (implements oracle.xml.parser.schema.[XSDParticleNode](oracle/xml/parser/schema/XSDParticleNode.md), oracle.xml.parser.schema.[XSDTypeConstants](oracle/xml/parser/schema/XSDTypeConstants.md))**
+    - **oracle.xml.parser.schema.[XSDGroup](oracle/xml/parser/schema/XSDGroup.md) (implements oracle.xml.parser.schema.[XSDParticleNode](oracle/xml/parser/schema/XSDParticleNode.md))**
+    - **oracle.xml.parser.schema.[XSDIdentity](oracle/xml/parser/schema/XSDIdentity.md)**
+    - **oracle.xml.parser.schema.[XSDSimpleType](oracle/xml/parser/schema/XSDSimpleType.md) (implements oracle.xml.parser.schema.[XSDParticleNode](oracle/xml/parser/schema/XSDParticleNode.md), oracle.xml.parser.schema.[XSDTypeConstants](oracle/xml/parser/schema/XSDTypeConstants.md))**
+  - **oracle.xml.schemavalidator.[XSDValidator](oracle/xml/schemavalidator/XSDValidator.md)**
+  - **oracle.xml.parser.v2.[XSLExtensionElement](oracle/xml/parser/v2/XSLExtensionElement.md)**
+  - **oracle.xml.parser.v2.[XSLProcessor](oracle/xml/parser/v2/XSLProcessor.md)**
+  - **oracle.xml.parser.v2.[XSLProcessor.XSLTVersion](oracle/xml/parser/v2/XSLProcessor.XSLTVersion.md)**
+  - **oracle.xml.parser.v2.[XSLStylesheet](oracle/xml/parser/v2/XSLStylesheet.md) (implements javax.xml.transform.[Templates](javax/xml/transform/Templates.md))**
+  - **oracle.xml.parser.v2.[XSLTContext](oracle/xml/parser/v2/XSLTContext.md)**
+  - **oracle.xml.async.[XSLTransformer](oracle/xml/async/XSLTransformer.md) (implements java.lang.Runnable, java.io.Serializable)**
+  - **oracle.xml.xsql.[XSQLActionHandlerImpl](oracle/xml/xsql/XSQLActionHandlerImpl.md) (implements oracle.xml.xsql.[XSQLActionHandler](oracle/xml/xsql/XSQLActionHandler.md))**
+  - **oracle.xml.xsql.[XSQLCommandLine](oracle/xml/xsql/XSQLCommandLine.md)**
+  - **oracle.xml.xsql.[XSQLConnection](oracle/xml/xsql/XSQLConnection.md)**
+  - **oracle.xml.xsql.[XSQLDatasourceConnectionManager](oracle/xml/xsql/XSQLDatasourceConnectionManager.md) (implements oracle.xml.xsql.[XSQLConnectionManager](oracle/xml/xsql/XSQLConnectionManager.md), oracle.xml.xsql.[XSQLConnectionManagerFactory](oracle/xml/xsql/XSQLConnectionManagerFactory.md))**
+  - **oracle.xml.xsql.[XSQLDiagnostic](oracle/xml/xsql/XSQLDiagnostic.md)**
+  - **oracle.xml.xsql.[XSQLError](oracle/xml/xsql/XSQLError.md)**
+  - **oracle.xml.xsql.[XSQLErrorWriter](oracle/xml/xsql/XSQLErrorWriter.md)**
+  - **oracle.xml.xsql.[XSQLHttpUtil](oracle/xml/xsql/XSQLHttpUtil.md)**
+  - **oracle.xml.xsql.[XSQLNamedConnection](oracle/xml/xsql/XSQLNamedConnection.md)**
+  - **oracle.xml.xsql.[XSQLNamedConnectionManager](oracle/xml/xsql/XSQLNamedConnectionManager.md)**
+  - **oracle.xml.xsql.[XSQLPageRequestImpl](oracle/xml/xsql/XSQLPageRequestImpl.md) (implements oracle.xml.xsql.[XSQLPageRequest](oracle/xml/xsql/XSQLPageRequest.md))**
+    - **oracle.xml.xsql.[XSQLServletPageRequest](oracle/xml/xsql/XSQLServletPageRequest.md)**
+  - **oracle.xml.xsql.[XSQLParserHelper](oracle/xml/xsql/XSQLParserHelper.md)**
+  - **oracle.xml.xsql.[XSQLRequest](oracle/xml/xsql/XSQLRequest.md)**
+  - **oracle.xml.xsql.[XSQLStylesheetProcessor](oracle/xml/xsql/XSQLStylesheetProcessor.md)**
+  - **oracle.xml.xsql.[XSQLUtil](oracle/xml/xsql/XSQLUtil.md)**
+
+## **Interface Hierarchy**
+
+- **org.xml.sax.[AttributeList](org/xml/sax/AttributeList.md)**
+- **org.xml.sax.[Attributes](org/xml/sax/Attributes.md)**
+- **oracle.xml.scalable.[BinaryIterator](oracle/xml/scalable/BinaryIterator.md)**
+- **oracle.xml.binxml.[BinXMLDecoder](oracle/xml/binxml/BinXMLDecoder.md)**
+- **oracle.xml.binxml.[BinXMLEncoder](oracle/xml/binxml/BinXMLEncoder.md)**
+- **oracle.xml.binxml.[BinXMLMetadataProvider](oracle/xml/binxml/BinXMLMetadataProvider.md)**
+  - **oracle.xml.binxml.[DBBinXMLMetadataProvider](oracle/xml/binxml/DBBinXMLMetadataProvider.md)**
+- **oracle.xml.binxml.[BinXMLProcessor](oracle/xml/binxml/BinXMLProcessor.md)**
+- **oracle.xml.binxml.[BinXMLStream](oracle/xml/binxml/BinXMLStream.md)**
+- **java.lang.Cloneable**
+  - **oracle.xml.scalable.[InfosetReader](oracle/xml/scalable/InfosetReader.md)**
+- **java.lang.Comparable\<T\>**
+  - **oracle.xml.scalable.[InfosetReader.Offset](oracle/xml/scalable/InfosetReader.Offset.md)**
+  - **oracle.xml.scalable.[PageManager.PageId](oracle/xml/scalable/PageManager.PageId.md)**
+- **javax.xml.xquery.[ConnectionPoolXQDataSource](javax/xml/xquery/ConnectionPoolXQDataSource.md)**
+- **org.xml.sax.[ContentHandler](org/xml/sax/ContentHandler.md)**
+  - **javax.xml.transform.sax.[TemplatesHandler](javax/xml/transform/sax/TemplatesHandler.md)**
+  - **javax.xml.transform.sax.[TransformerHandler](javax/xml/transform/sax/TransformerHandler.md) (also extends org.xml.sax.[DTDHandler](org/xml/sax/DTDHandler.md), org.xml.sax.ext.[LexicalHandler](org/xml/sax/ext/LexicalHandler.md))**
+  - **javax.xml.bind.[UnmarshallerHandler](javax/xml/bind/UnmarshallerHandler.md)**
+- **org.xml.sax.ext.[DeclHandler](org/xml/sax/ext/DeclHandler.md)**
+- **oracle.xml.diff.[DiffOpReceiver](oracle/xml/diff/DiffOpReceiver.md)**
+- **org.w3c.dom.events.[DocumentEvent](org/w3c/dom/events/DocumentEvent.md)**
+- **org.xml.sax.[DocumentHandler](org/xml/sax/DocumentHandler.md)**
+  - **oracle.xml.parser.v2.[XMLDocumentHandler](oracle/xml/parser/v2/XMLDocumentHandler.md)**
+- **org.w3c.dom.ranges.[DocumentRange](org/w3c/dom/ranges/DocumentRange.md)**
+- **org.w3c.dom.traversal.[DocumentTraversal](org/w3c/dom/traversal/DocumentTraversal.md)**
+- **org.w3c.dom.[DOMConfiguration](org/w3c/dom/DOMConfiguration.md)**
+- **org.w3c.dom.[DOMError](org/w3c/dom/DOMError.md)**
+- **org.w3c.dom.[DOMErrorHandler](org/w3c/dom/DOMErrorHandler.md)**
+- **org.w3c.dom.[DOMImplementation](org/w3c/dom/DOMImplementation.md)**
+- **org.w3c.dom.[DOMImplementationList](org/w3c/dom/DOMImplementationList.md)**
+- **org.w3c.dom.ls.[DOMImplementationLS](org/w3c/dom/ls/DOMImplementationLS.md)**
+- **org.w3c.dom.[DOMImplementationSource](org/w3c/dom/DOMImplementationSource.md)**
+- **org.w3c.dom.[DOMLocator](org/w3c/dom/DOMLocator.md)**
+- **org.w3c.dom.[DOMStringList](org/w3c/dom/DOMStringList.md)**
+- **org.xml.sax.[DTDHandler](org/xml/sax/DTDHandler.md)**
+  - **javax.xml.transform.sax.[TransformerHandler](javax/xml/transform/sax/TransformerHandler.md) (also extends org.xml.sax.[ContentHandler](org/xml/sax/ContentHandler.md), org.xml.sax.ext.[LexicalHandler](org/xml/sax/ext/LexicalHandler.md))**
+- **javax.xml.bind.[Element](javax/xml/bind/Element.md)**
+- **org.xml.sax.[EntityResolver](org/xml/sax/EntityResolver.md)**
+- **org.xml.sax.[ErrorHandler](org/xml/sax/ErrorHandler.md)**
+- **javax.xml.transform.[ErrorListener](javax/xml/transform/ErrorListener.md)**
+- **org.w3c.dom.events.[Event](org/w3c/dom/events/Event.md)**
+  - **org.w3c.dom.ls.[LSLoadEvent](org/w3c/dom/ls/LSLoadEvent.md)**
+  - **org.w3c.dom.ls.[LSProgressEvent](org/w3c/dom/ls/LSProgressEvent.md)**
+  - **org.w3c.dom.events.[MutationEvent](org/w3c/dom/events/MutationEvent.md)**
+- **javax.jcr.observation.[Event](javax/jcr/observation/Event.md)**
+- **java.util.EventListener**
+  - **oracle.xml.async.[DOMBuilderErrorListener](oracle/xml/async/DOMBuilderErrorListener.md)**
+  - **oracle.xml.async.[DOMBuilderListener](oracle/xml/async/DOMBuilderListener.md)**
+  - **oracle.xml.async.[XSLTransformerErrorListener](oracle/xml/async/XSLTransformerErrorListener.md)**
+  - **oracle.xml.async.[XSLTransformerListener](oracle/xml/async/XSLTransformerListener.md)**
+- **org.w3c.dom.events.[EventListener](org/w3c/dom/events/EventListener.md)**
+- **javax.jcr.observation.[EventListener](javax/jcr/observation/EventListener.md)**
+- **org.w3c.dom.events.[EventTarget](org/w3c/dom/events/EventTarget.md)**
+- **javax.jcr.[ImportUUIDBehavior](javax/jcr/ImportUUIDBehavior.md)**
+- **oracle.xml.scalable.[InfosetWriter](oracle/xml/scalable/InfosetWriter.md)**
+- **javax.jcr.[Item](javax/jcr/Item.md)**
+  - **javax.jcr.[Node](javax/jcr/Node.md)**
+    - **javax.jcr.version.[Version](javax/jcr/version/Version.md)**
+    - **javax.jcr.version.[VersionHistory](javax/jcr/version/VersionHistory.md)**
+  - **javax.jcr.[Property](javax/jcr/Property.md)**
+  - **javax.jcr.version.[Version](javax/jcr/version/Version.md)**
+  - **javax.jcr.version.[VersionHistory](javax/jcr/version/VersionHistory.md)**
+- **javax.jcr.nodetype.[ItemDefinition](javax/jcr/nodetype/ItemDefinition.md)**
+  - **javax.jcr.nodetype.[NodeDefinition](javax/jcr/nodetype/NodeDefinition.md)**
+  - **javax.jcr.nodetype.[PropertyDefinition](javax/jcr/nodetype/PropertyDefinition.md)**
+- **javax.jcr.[ItemVisitor](javax/jcr/ItemVisitor.md)**
+- **java.util.Iterator\<E\>**
+  - **javax.jcr.[RangeIterator](javax/jcr/RangeIterator.md)**
+    - **javax.jcr.observation.[EventIterator](javax/jcr/observation/EventIterator.md)**
+    - **javax.jcr.observation.[EventListenerIterator](javax/jcr/observation/EventListenerIterator.md)**
+    - **javax.jcr.[NodeIterator](javax/jcr/NodeIterator.md)**
+    - **javax.jcr.nodetype.[NodeTypeIterator](javax/jcr/nodetype/NodeTypeIterator.md)**
+    - **javax.jcr.[PropertyIterator](javax/jcr/PropertyIterator.md)**
+    - **javax.jcr.query.[RowIterator](javax/jcr/query/RowIterator.md)**
+    - **javax.jcr.version.[VersionIterator](javax/jcr/version/VersionIterator.md)**
+- **org.xml.sax.ext.[LexicalHandler](org/xml/sax/ext/LexicalHandler.md)**
+  - **javax.xml.transform.sax.[TransformerHandler](javax/xml/transform/sax/TransformerHandler.md) (also extends org.xml.sax.[ContentHandler](org/xml/sax/ContentHandler.md), org.xml.sax.[DTDHandler](org/xml/sax/DTDHandler.md))**
+- **org.xml.sax.[Locator](org/xml/sax/Locator.md)**
+  - **org.xml.sax.ext.[Locator2](org/xml/sax/ext/Locator2.md)**
+    - **oracle.xml.parser.v2.[XMLLocator](oracle/xml/parser/v2/XMLLocator.md)**
+  - **oracle.xml.parser.v2.[XMLLocator](oracle/xml/parser/v2/XMLLocator.md)**
+- **javax.jcr.lock.[Lock](javax/jcr/lock/Lock.md)**
+- **org.w3c.dom.ls.[LSInput](org/w3c/dom/ls/LSInput.md)**
+- **org.w3c.dom.ls.[LSOutput](org/w3c/dom/ls/LSOutput.md)**
+- **org.w3c.dom.ls.[LSParser](org/w3c/dom/ls/LSParser.md)**
+- **org.w3c.dom.ls.[LSParserFilter](org/w3c/dom/ls/LSParserFilter.md)**
+- **org.w3c.dom.ls.[LSResourceResolver](org/w3c/dom/ls/LSResourceResolver.md)**
+- **org.w3c.dom.ls.[LSSerializer](org/w3c/dom/ls/LSSerializer.md)**
+- **javax.xml.bind.[Marshaller](javax/xml/bind/Marshaller.md)**
+- **org.w3c.dom.[NamedNodeMap](org/w3c/dom/NamedNodeMap.md)**
+- **org.w3c.dom.[NameList](org/w3c/dom/NameList.md)**
+- **javax.jcr.[NamespaceRegistry](javax/jcr/NamespaceRegistry.md)**
+  - **oracle.jcr.[OracleNamespaceRegistry](oracle/jcr/OracleNamespaceRegistry.md)**
+- **org.w3c.dom.[Node](org/w3c/dom/Node.md)**
+  - **org.w3c.dom.[Attr](org/w3c/dom/Attr.md)**
+  - **org.w3c.dom.[CDATASection](org/w3c/dom/CDATASection.md)**
+  - **org.w3c.dom.[CharacterData](org/w3c/dom/CharacterData.md)**
+    - **org.w3c.dom.[CDATASection](org/w3c/dom/CDATASection.md)**
+    - **org.w3c.dom.[Comment](org/w3c/dom/Comment.md)**
+    - **org.w3c.dom.[Text](org/w3c/dom/Text.md)**
+      - **org.w3c.dom.[CDATASection](org/w3c/dom/CDATASection.md)**
+  - **org.w3c.dom.[Comment](org/w3c/dom/Comment.md)**
+  - **org.w3c.dom.[Document](org/w3c/dom/Document.md)**
+  - **org.w3c.dom.[DocumentFragment](org/w3c/dom/DocumentFragment.md)**
+  - **org.w3c.dom.[DocumentType](org/w3c/dom/DocumentType.md)**
+  - **org.w3c.dom.[Element](org/w3c/dom/Element.md)**
+  - **org.w3c.dom.[Entity](org/w3c/dom/Entity.md)**
+  - **org.w3c.dom.[EntityReference](org/w3c/dom/EntityReference.md)**
+  - **org.w3c.dom.[Notation](org/w3c/dom/Notation.md)**
+  - **org.w3c.dom.[ProcessingInstruction](org/w3c/dom/ProcessingInstruction.md)**
+  - **org.w3c.dom.[Text](org/w3c/dom/Text.md)**
+    - **org.w3c.dom.[CDATASection](org/w3c/dom/CDATASection.md)**
+- **org.w3c.dom.validation.[NodeEditVAL](org/w3c/dom/validation/NodeEditVAL.md)**
+  - **org.w3c.dom.validation.[CharacterDataEditVAL](org/w3c/dom/validation/CharacterDataEditVAL.md)**
+  - **org.w3c.dom.validation.[DocumentEditVAL](org/w3c/dom/validation/DocumentEditVAL.md)**
+  - **org.w3c.dom.validation.[ElementEditVAL](org/w3c/dom/validation/ElementEditVAL.md)**
+- **org.w3c.dom.traversal.[NodeFilter](org/w3c/dom/traversal/NodeFilter.md)**
+  - **org.w3c.dom.ls.[LSSerializerFilter](org/w3c/dom/ls/LSSerializerFilter.md)**
+- **org.w3c.dom.traversal.[NodeIterator](org/w3c/dom/traversal/NodeIterator.md)**
+- **org.w3c.dom.[NodeList](org/w3c/dom/NodeList.md)**
+- **oracle.xml.parser.v2.[NodeReadHandler](oracle/xml/parser/v2/NodeReadHandler.md)**
+- **javax.jcr.nodetype.[NodeType](javax/jcr/nodetype/NodeType.md)**
+- **javax.jcr.nodetype.[NodeTypeManager](javax/jcr/nodetype/NodeTypeManager.md)**
+  - **oracle.jcr.nodetype.[OracleNodeTypeManager](oracle/jcr/nodetype/OracleNodeTypeManager.md)**
+- **oracle.xml.util.[NSName](oracle/xml/util/NSName.md)**
+  - **oracle.xml.parser.v2.[NSName](oracle/xml/parser/v2/NSName.md)**
+- **oracle.xml.parser.v2.[NSResolver](oracle/xml/parser/v2/NSResolver.md)**
+- **javax.jcr.observation.[ObservationManager](javax/jcr/observation/ObservationManager.md)**
+- **oracle.xml.xquery.[OXQAnnotation](oracle/xml/xquery/OXQAnnotation.md)**
+- **oracle.xml.xquery.[OXQCloseable](oracle/xml/xquery/OXQCloseable.md)**
+  - **oracle.xml.xquery.[OXQSequence](oracle/xml/xquery/OXQSequence.md) (also extends oracle.xml.xquery.[OXQItemAccessor](oracle/xml/xquery/OXQItemAccessor.md))**
+- **oracle.xml.xquery.[OXQDataFactory](oracle/xml/xquery/OXQDataFactory.md)**
+  - **oracle.xml.xquery.[OXQConnection](oracle/xml/xquery/OXQConnection.md)**
+- **oracle.xml.xquery.[OXQDecimalFormat](oracle/xml/xquery/OXQDecimalFormat.md)**
+- **oracle.xml.xquery.[OXQDynamicContext](oracle/xml/xquery/OXQDynamicContext.md)**
+  - **oracle.xml.xquery.[OXQExpression](oracle/xml/xquery/OXQExpression.md)**
+  - **oracle.xml.xquery.[OXQPreparedExpression](oracle/xml/xquery/OXQPreparedExpression.md)**
+- **oracle.xml.xquery.[OXQEntityLoader](oracle/xml/xquery/OXQEntityLoader.md)**
+- **oracle.xml.xquery.[OXQEntityResolverFactory](oracle/xml/xquery/OXQEntityResolverFactory.md)**
+  - **oracle.xml.xquery.[OXQCompositeResolverFactory](oracle/xml/xquery/OXQCompositeResolverFactory.md)**
+  - **oracle.xml.xquery.[OXQFileResolverFactory](oracle/xml/xquery/OXQFileResolverFactory.md)**
+  - **oracle.xml.xquery.[OXQHttpResolverFactory](oracle/xml/xquery/OXQHttpResolverFactory.md)**
+  - **oracle.xml.xquery.[OXQJavaResolverFactory](oracle/xml/xquery/OXQJavaResolverFactory.md)**
+- **oracle.xml.xquery.[OXQFunctionContext](oracle/xml/xquery/OXQFunctionContext.md)**
+- **oracle.xml.xquery.[OXQFunctionMetaData](oracle/xml/xquery/OXQFunctionMetaData.md)**
+- **oracle.xml.xquery.[OXQItemAccessor](oracle/xml/xquery/OXQItemAccessor.md)**
+  - **oracle.xml.xquery.[OXQItem](oracle/xml/xquery/OXQItem.md)**
+  - **oracle.xml.xquery.[OXQSequence](oracle/xml/xquery/OXQSequence.md) (also extends oracle.xml.xquery.[OXQCloseable](oracle/xml/xquery/OXQCloseable.md))**
+- **oracle.xml.xquery.[OXQOptions](oracle/xml/xquery/OXQOptions.md)**
+- **oracle.xml.xquery.[OXQSerializationParameters](oracle/xml/xquery/OXQSerializationParameters.md)**
+- **oracle.xml.xquery.[OXQStackTraceElement](oracle/xml/xquery/OXQStackTraceElement.md)**
+- **oracle.xml.xquery.[OXQStackTraceVariable](oracle/xml/xquery/OXQStackTraceVariable.md)**
+- **oracle.xml.xquery.[OXQStaticContext](oracle/xml/xquery/OXQStaticContext.md)**
+- **oracle.xml.xquery.[OXQView.OXQViewAccessor](oracle/xml/xquery/OXQView.OXQViewAccessor.md)**
+- **oracle.xml.scalable.[PageManager](oracle/xml/scalable/PageManager.md)**
+- **org.xml.sax.[Parser](org/xml/sax/Parser.md)**
+- **oracle.xml.pipeline.controller.[PipelineConstants](oracle/xml/pipeline/controller/PipelineConstants.md)**
+- **oracle.xml.pipeline.controller.[PipelineErrorHandler](oracle/xml/pipeline/controller/PipelineErrorHandler.md)**
+- **javax.xml.xquery.[PooledXQConnection](javax/xml/xquery/PooledXQConnection.md)**
+- **oracle.xml.parser.v2.[PrintDriver](oracle/xml/parser/v2/PrintDriver.md)**
+- **javax.jcr.query.[Query](javax/jcr/query/Query.md)**
+  - **oracle.jcr.query.[OracleQuery](oracle/jcr/query/OracleQuery.md)**
+- **javax.jcr.query.[QueryManager](javax/jcr/query/QueryManager.md)**
+- **javax.jcr.query.[QueryResult](javax/jcr/query/QueryResult.md)**
+  - **oracle.jcr.query.[OracleQueryResult](oracle/jcr/query/OracleQueryResult.md)**
+- **org.w3c.dom.ranges.[Range](org/w3c/dom/ranges/Range.md)**
+- **javax.naming.Referenceable**
+  - **oracle.jcr.[CredentialsProvider](oracle/jcr/CredentialsProvider.md) (also extends java.io.Serializable)**
+  - **oracle.jcr.[OracleRepository](oracle/jcr/OracleRepository.md) (also extends javax.jcr.[Repository](javax/jcr/Repository.md), java.io.Serializable)**
+  - **oracle.jcr.[OracleRepositoryConfiguration](oracle/jcr/OracleRepositoryConfiguration.md) (also extends java.io.Serializable)**
+- **javax.jcr.[Repository](javax/jcr/Repository.md)**
+  - **oracle.jcr.[OracleRepository](oracle/jcr/OracleRepository.md) (also extends javax.naming.Referenceable, java.io.Serializable)**
+- **javax.xml.transform.[Result](javax/xml/transform/Result.md)**
+- **javax.jcr.query.[Row](javax/jcr/query/Row.md)**
+- **java.io.Serializable**
+  - **javax.jcr.[Credentials](javax/jcr/Credentials.md)**
+  - **oracle.jcr.[CredentialsProvider](oracle/jcr/CredentialsProvider.md) (also extends javax.naming.Referenceable)**
+  - **oracle.jcr.[OracleRepository](oracle/jcr/OracleRepository.md) (also extends javax.naming.Referenceable, javax.jcr.[Repository](javax/jcr/Repository.md))**
+  - **oracle.jcr.[OracleRepositoryConfiguration](oracle/jcr/OracleRepositoryConfiguration.md) (also extends javax.naming.Referenceable)**
+- **javax.jcr.[Session](javax/jcr/Session.md)**
+  - **oracle.jcr.[OracleSession](oracle/jcr/OracleSession.md)**
+- **javax.xml.transform.[Source](javax/xml/transform/Source.md)**
+- **javax.xml.transform.[SourceLocator](javax/xml/transform/SourceLocator.md)**
+  - **javax.xml.transform.dom.[DOMLocator](javax/xml/transform/dom/DOMLocator.md)**
+- **javax.xml.transform.[Templates](javax/xml/transform/Templates.md)**
+- **oracle.xml.transx.[TransX](oracle/xml/transx/TransX.md)**
+- **org.w3c.dom.traversal.[TreeWalker](org/w3c/dom/traversal/TreeWalker.md)**
+- **org.w3c.dom.[TypeInfo](org/w3c/dom/TypeInfo.md)**
+- **javax.xml.bind.[Unmarshaller](javax/xml/bind/Unmarshaller.md)**
+- **javax.xml.transform.[URIResolver](javax/xml/transform/URIResolver.md)**
+- **org.w3c.dom.[UserDataHandler](org/w3c/dom/UserDataHandler.md)**
+- **javax.xml.bind.[ValidationEvent](javax/xml/bind/ValidationEvent.md)**
+  - **javax.xml.bind.[NotIdentifiableEvent](javax/xml/bind/NotIdentifiableEvent.md)**
+  - **javax.xml.bind.[ParseConversionEvent](javax/xml/bind/ParseConversionEvent.md)**
+  - **javax.xml.bind.[PrintConversionEvent](javax/xml/bind/PrintConversionEvent.md)**
+- **javax.xml.bind.[ValidationEventHandler](javax/xml/bind/ValidationEventHandler.md)**
+- **javax.xml.bind.[ValidationEventLocator](javax/xml/bind/ValidationEventLocator.md)**
+- **javax.xml.bind.[Validator](javax/xml/bind/Validator.md)**
+- **javax.jcr.[Value](javax/jcr/Value.md)**
+- **javax.jcr.[ValueFactory](javax/jcr/ValueFactory.md)**
+- **javax.jcr.[Workspace](javax/jcr/Workspace.md)**
+  - **oracle.jcr.[OracleWorkspace](oracle/jcr/OracleWorkspace.md)**
+- **oracle.xdb.event.[XDBRepositoryEventListener](oracle/xdb/event/XDBRepositoryEventListener.md)**
+- **oracle.xdb.servlet.[XDBStream](oracle/xdb/servlet/XDBStream.md)**
+- **org.xml.sax.[XMLReader](org/xml/sax/XMLReader.md)**
+  - **org.xml.sax.[XMLFilter](org/xml/sax/XMLFilter.md)**
+- **oracle.xml.parser.v2.[XMLToken](oracle/xml/parser/v2/XMLToken.md)**
+- **javax.xml.xquery.[XQConnectionEventListener](javax/xml/xquery/XQConnectionEventListener.md)**
+- **javax.xml.xquery.[XQDataFactory](javax/xml/xquery/XQDataFactory.md)**
+  - **javax.xml.xquery.[XQConnection](javax/xml/xquery/XQConnection.md)**
+- **javax.xml.xquery.[XQDataSource](javax/xml/xquery/XQDataSource.md)**
+- **javax.xml.xquery.[XQDynamicContext](javax/xml/xquery/XQDynamicContext.md)**
+  - **javax.xml.xquery.[XQExpression](javax/xml/xquery/XQExpression.md)**
+  - **javax.xml.xquery.[XQPreparedExpression](javax/xml/xquery/XQPreparedExpression.md)**
+- **javax.xml.xquery.[XQItemAccessor](javax/xml/xquery/XQItemAccessor.md)**
+  - **javax.xml.xquery.[XQItem](javax/xml/xquery/XQItem.md)**
+    - **javax.xml.xquery.[XQResultItem](javax/xml/xquery/XQResultItem.md)**
+  - **javax.xml.xquery.[XQResultItem](javax/xml/xquery/XQResultItem.md)**
+  - **javax.xml.xquery.[XQResultSequence](javax/xml/xquery/XQResultSequence.md)**
+  - **javax.xml.xquery.[XQSequence](javax/xml/xquery/XQSequence.md)**
+    - **javax.xml.xquery.[XQResultSequence](javax/xml/xquery/XQResultSequence.md)**
+- **javax.xml.xquery.[XQMetaData](javax/xml/xquery/XQMetaData.md)**
+- **javax.xml.xquery.[XQSequenceType](javax/xml/xquery/XQSequenceType.md)**
+  - **javax.xml.xquery.[XQItemType](javax/xml/xquery/XQItemType.md)**
+- **javax.xml.xquery.[XQStaticContext](javax/xml/xquery/XQStaticContext.md)**
+- **oracle.xml.parser.schema.[XSDConstantValues](oracle/xml/parser/schema/XSDConstantValues.md)**
+- **oracle.xml.parser.schema.[XSDParticleNode](oracle/xml/parser/schema/XSDParticleNode.md)**
+- **oracle.xml.parser.schema.[XSDTypeConstants](oracle/xml/parser/schema/XSDTypeConstants.md)**
+- **oracle.xml.xsql.[XSQLActionHandler](oracle/xml/xsql/XSQLActionHandler.md)**
+- **oracle.xml.xsql.[XSQLConnectionManager](oracle/xml/xsql/XSQLConnectionManager.md)**
+- **oracle.xml.xsql.[XSQLConnectionManagerFactory](oracle/xml/xsql/XSQLConnectionManagerFactory.md)**
+- **oracle.xml.xsql.[XSQLDocumentSerializer](oracle/xml/xsql/XSQLDocumentSerializer.md)**
+- **oracle.xml.xsql.[XSQLErrorHandler](oracle/xml/xsql/XSQLErrorHandler.md)**
+- **oracle.xml.xsql.[XSQLLogger](oracle/xml/xsql/XSQLLogger.md)**
+- **oracle.xml.xsql.[XSQLLoggerFactory](oracle/xml/xsql/XSQLLoggerFactory.md)**
+- **oracle.xml.xsql.[XSQLPageRequest](oracle/xml/xsql/XSQLPageRequest.md)**
+- **oracle.xml.xsql.[XSQLRequestObjectListener](oracle/xml/xsql/XSQLRequestObjectListener.md)**
+
+## **Enum Hierarchy**
+
+- **java.lang.Object**
+  - **java.lang.Enum\<E\> (implements java.lang.Comparable\<T\>, java.io.Serializable)**
+    - **oracle.xml.diff.[DiffOp.Name](oracle/xml/diff/DiffOp.Name.md)**
+    - **oracle.xml.xquery.[OXQEntityKind](oracle/xml/xquery/OXQEntityKind.md)**
+
+**Skip navigation links**
+
+- **[Overview](overview-summary.md)**
+- **Package**
+- **Class**
+- **Tree**
+- **[Deprecated](deprecated-list.md)**
+- **[Index](index-all.md)**
+- **[Help](help-doc.md)**
+
+**Oracle® Database XML Java API Reference
+Release 19*c*
+E96475-03
+**
+
+- **Prev**
+- **Next**
+
+<!-- -->
+
+- **[Frames](index.md)**
+- **No Frames**
+
+<!-- -->
+
+- **[All Classes](allclasses-noframe.md)**
+
+**Copyright © 2003, 2019, Oracle and/or its affiliates. All rights reserved.
+Use is subject to license terms. Also see the documentation redistribution policy.
+ORACLE CONFIDENTIAL
+For authorized use only.
+Do not distribute to third parties.**

@@ -1,0 +1,138 @@
+Skip navigation links
+
+- [Overview](../../../overview-summary.md)
+- [Package](package-summary.md)
+- Class
+- [Tree](package-tree.md)
+- [Deprecated](../../../deprecated-list.md)
+- [Index](../../../index-all.md)
+- [Help](../../../help-doc.md)
+
+**Oracle® Database XML Java API Reference
+Release 19*c*
+E96475-03
+**
+
+- **[Prev Class](Row.md)**
+- **Next Class**
+
+<!-- -->
+
+- **[Frames](../../../index.md)**
+- **No Frames**
+
+<!-- -->
+
+- **[All Classes](../../../allclasses-noframe.md)**
+
+<!-- -->
+
+- **Summary: **
+- **Nested \| **
+- **Field \| **
+- **Constr \| **
+- **Method**
+
+<!-- -->
+
+- **Detail: **
+- **Field \| **
+- **Constr \| **
+- **Method**
+
+**javax.jcr.query**
+
+## **Interface RowIterator**
+
+- **All Superinterfaces:**
+  **java.util.Iterator, [RangeIterator](../RangeIterator.md)**
+
+  ------------------------------------------------------------------------
+
+  **
+  **
+
+      public interface RowIterator
+      extends RangeIterator
+
+<!-- -->
+
+-
+  -
+
+    ### **Method Summary**
+
+    **All Methods[Instance Methods](javascript:show(2);)[Abstract Methods](javascript:show(4);)**
+
+    | Modifier and Type | Method and Description                                    |
+    |-------------------|-----------------------------------------------------------|
+    | [`Row`](Row.md)   | `nextRow``()`<br>Returns the next `Row` in the iteration. |
+
+    - ### Methods inherited from interface javax.jcr.[RangeIterator](../RangeIterator.md)
+
+      [`getPosition`](../RangeIterator.md)`, `[`getSize`](../RangeIterator.md)`, `[`skip`](../RangeIterator.md)
+
+    <!-- -->
+
+    - ### Methods inherited from interface java.util.Iterator
+
+      `forEachRemaining, hasNext, next, remove`
+
+<!-- -->
+
+- - ### Method Detail
+
+    - #### nextRow
+
+          Row nextRow()
+
+      Returns the next `Row` in the iteration.
+      Returns:
+      the next `Row` in the iteration.
+
+      Throws:
+      `java.util.NoSuchElementException` - if iteration has no more `Row`s.
+
+Skip navigation links
+
+- [Overview](../../../overview-summary.md)
+- [Package](package-summary.md)
+- Class
+- [Tree](package-tree.md)
+- [Deprecated](../../../deprecated-list.md)
+- [Index](../../../index-all.md)
+- [Help](../../../help-doc.md)
+
+**Oracle® Database XML Java API Reference
+Release 19*c*
+E96475-03
+**
+
+- **[Prev Class](Row.md)**
+- **Next Class**
+
+<!-- -->
+
+- **[Frames](../../../index.md)**
+- **No Frames**
+
+<!-- -->
+
+- **[All Classes](../../../allclasses-noframe.md)**
+
+<!-- -->
+
+- **Summary: **
+- **Nested \| **
+- **Field \| **
+- **Constr \| **
+- **Method**
+
+<!-- -->
+
+- **Detail: **
+- **Field \| **
+- **Constr \| **
+- **Method**
+
+**Copyright © 2004-2005 Day Software Management AG. All Rights Reserved.**
