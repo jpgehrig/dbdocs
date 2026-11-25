@@ -1,0 +1,19 @@
+Verify that the network tuning parameters are set to the values shown or higher values.
+
+Table 3-6 Recommended Values for Network Tuning Parameters
+
+| Network Tuning Parameter | Recommended Value                                                                                                                                                                                                                                                                                                                                                     |
+|:-------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `ipqmaxlen`              | 512                                                                                                                                                                                                                                                                                                                                                                   |
+| `rfc1323`                | 1                                                                                                                                                                                                                                                                                                                                                                     |
+| `sb_max`                 | 4194304                                                                                                                                                                                                                                                                                                                                                               |
+| `tcp_recvspace`          | 65536                                                                                                                                                                                                                                                                                                                                                                 |
+| `tcp_sendspace`          | 65536                                                                                                                                                                                                                                                                                                                                                                 |
+| `udp_recvspace`          | 655360<br>Note: The recommended value of this parameter is 10 times the value of the `udp_sendspace` parameter. The value must be less than the value of the `sb_max` parameter.                                                                                                                                                                                      |
+| `udp_sendspace`          | 65536<br>Note: This value is suitable for a default database installation. For production databases, the minimum value for this parameter is 4 KB plus the value of the database `DB_BLOCK_SIZE` initialization parameter multiplied by the value of the `DB_MULTIBLOCK_READ_COUNT` initialization parameter:`(DB_BLOCK_SIZE * DB_FILE_MULTIBLOCK_READ_COUNT) + 4 KB` |
+
+**Related Topics**
+
+- [Configuring Network Tuning Parameters](configuring-network-tuning-parameters.md)
+
+**Parent topic:** [Tuning AIX System Environment](tuning-aix-system-environment.md)
