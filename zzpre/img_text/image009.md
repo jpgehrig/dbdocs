@@ -1,0 +1,1 @@
+This figure shows you how to calculate the maximum number of cursors in use. The formula is the number of SQL statement cursors plus the number of PL/SQL parent cursors plus the number of PL/SQL child ccursors plus 6 cursors for overhead equals the sum of cursors in use. This total must not exceed the value of OPEN_CURSORS.

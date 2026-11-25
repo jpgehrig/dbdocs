@@ -1,0 +1,1 @@
+The figure illustrates that database-intensive applications can use control structures to group SQL statements in a PL/SQL block and then send the entire block to Oracle Database therby reducing communication between the application and Oracle Database.
