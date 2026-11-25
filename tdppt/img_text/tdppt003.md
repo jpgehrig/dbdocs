@@ -1,0 +1,3 @@
+This graphic shows a horizontal arrow labeled User Response Time, with a point on the right end. In a horizontal row above the arrow are four boxes with the following contents: Query for Novels by Author, Browse Results of Query, Add Item to Cart, and Checkout. The first, third, and fourth boxes have a pair of bold arrows: one arrow points down from the box to the main arrow and the other points up. The second box in the series has two pairs of arrows. On the main arrow underneath each pair of up/down arrows, a thin shaded segment is shown. The shading indicates DB Time. The first, third, fourth, and fifth gray segments are labeled with the following times: 7:38, 7:42, 7:50, and 7:52.
+
+End of description.
