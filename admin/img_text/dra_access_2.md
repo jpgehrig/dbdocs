@@ -1,0 +1,3 @@
+# Description of the illustration dra_access_2.gif
+
+This image shows the Checker Findings subpage of the Support Workbench home page. The page contains a Search section, which contains four horizontally arranged search fields and a Go button, and a Data Corruption section, which contains a table of the data corruptions detected by health checkers. The table columns are as follows: Select, Description, Priority, Damage Translation, Incident ID, Status, and Time Detected. Above the table is a Launch Recovery Advisor button. The table shows one finding (one row), and the Description column for the finding explains that one or more system data files are missing

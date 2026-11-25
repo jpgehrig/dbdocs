@@ -1,0 +1,9 @@
+# Description of the illustration package_details.gif
+
+This image shows the Package Details page. It includes the following sections:
+
+- Summary (at the upper left)—Includes package status, type (e.g. Main), and size, a list of the problems in the package, and more.
+
+- Packaging tasks (a box at the upper right)—Includes two buttons at the upper right-hand corner of the box: Generate Upload File and Send to Oracle. Below the buttons are four sections of links, where each link represents a packaging task. The sections are arranged in two rows and two columns. In the top left section, whose heading is "Edit Contents," the links are: Add Problems, Exclude Problems, and View Package Manifest. In the top right section, whose heading is "Scrub User Data," the links are: Copy out Files to Edit Contents and Copy in Files to Replace Contents. In the bottom left section, whose heading is "Additional Diagnostic Data," the links are: Gather Additional Dumps and Add External Files. In the bottom right section, whose heading is "Send to Oracle Support," the links are: Finish Contents Preparation, Generate Upload File, and Send Upload Files. Of the links in the bottom right section, only Finish Contents Preparation is clickable. The others are disabled.
+
+- A set of three subpages (at the bottom)—The subpage tabs are labeled Incidents, Files, and Activity Log. The Incidents subpage is shown. It contains a table of incidents. The table columns are Select, ID, Type, Problem ID, Description, Size (MB), and Timestamp. The table has one row showing of type Main and Description starting with ORA-700. Each row has a timestamp. Directly above the table, at the left, is an Exclude button. Above the table and the Exclude button, at the right, are two buttons: Add Incidents and Add Recent Incidents.

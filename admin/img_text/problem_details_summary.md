@@ -1,0 +1,3 @@
+# Description of the illustration problem_details_summary.gif
+
+This graphic shows a screen shot. The title is Incident Manager. Underneath the title is "Incident Manager \> Problem Details." On the upper right is "Page Refreshed Mar 8, 2012 1:41:11 PM PST." The heading is "Problem: ORA 600 \[qksdie - feature:QKSFM_CVM\]". The tabs are General, Incidents, My Oracle Support Knowledge, Updates, and Related Problems. Incidents is selected. A table has the columns Incident ID, Summary, and Reported On. The rows are 187, Internal error, Mar 6; 54, Internal error, Mar 2; 53, Internal error, Mar 2; 51, Internal error, Mar 2.
