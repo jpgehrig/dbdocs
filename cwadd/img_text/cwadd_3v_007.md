@@ -1,0 +1,3 @@
+#
+
+This figure depicts an Oracle Database Appliance configuration on two computers, which make up the physical entity of the example. On one of the computers, there are four virtual machines, labeled as follows: GIVM1, App VM1, App VM2, and App VM3. On the other computer there are two virtual machines labeled GIVM2 and App VM4. GIVM1 and GIVM2 comprise an Oracle Clusterware cluster, which also contains four black-box virtual machine Oracle Clusterware resources labeled Black-box VM Resource 1, Black-box VM Resource 2, Black-box VM Resource 3, and Black-box VM Resource 4. Each of these resources monitors a single, non-GIVM virtual machine.
