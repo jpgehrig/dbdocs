@@ -1,0 +1,13 @@
+Use this checklist to check minimum operating system requirements for Oracle Database.
+
+Table 1-2 Operating System General Checklist for Oracle Database on Oracle Solaris
+
+| Item                                  | Task                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|:--------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Operating system general requirements | Secure Shell is configured at installation for Oracle Solaris.<br>The following Oracle Solaris on SPARC (64-Bit) kernels are supported:<br>Oracle Solaris 11.4 (Oracle Solaris 11.4.2.0.1.3.0) or later SRUs and updates<br>Oracle Solaris 11.3 SRU 31 (Oracle Solaris 11.3.31.6.0) or later SRUs and updates<br>The following Oracle Solaris on x86-64 (64-Bit) kernels are supported:<br>Solaris 11.4 (Oracle Solaris 11.4.2.0.1.3.0) or later SRUs and updates<br>Oracle Solaris 11.3 SRU 31 (Oracle Solaris 11.3.31.6.0) or later SRUs and updates<br><br>Review the system requirements section for a list of minimum package requirements. |
+
+**Related Topics**
+
+- [Configuring Oracle Solaris Operating System for Oracle Database](configuring-oracle-solaris-operating-systems-for-oracle-database.md)
+
+**Parent topic:** [Oracle Database Installation Checklist](oracle-database-installation-checklist.md)
