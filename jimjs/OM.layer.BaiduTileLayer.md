@@ -1,0 +1,506 @@
+------------------------------------------------------------------------
+
+#### new BaiduTileLayer(name, config)
+
+OM.layer.BaiduTileLayer defines a map tile layer that displays Baidu Map using
+Baidu Map API
+
+To use Baidu Map as a tile layer, your usage of the maps must meet the Terms
+of Service defined by Baidu.
+
+Baidu Map tiles are rendered in its projection system.
+If you need to overlay your own spatial data on top of the Baidu Map tile layer, you
+need to be aware that Baidu will convert your spatial data into its own coordinate system.
+Currently, your data sets needs to be WGS84 geodetic (SRID 8307).
+
+##### Parameters:
+
+| Name     | Type   | Description                                                                                                                                                                                                                                                                                                            |
+|----------|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `name`   | String | The layer name                                                                                                                                                                                                                                                                                                         |
+| `config` | Object | The Baidu tile layer configuration. It can have the following<br>attributes:<br>• APIKey {String} The API key you obtained from Baidu<br>• libURL {String} The Baidu Map javascript lib url, default is: OM.gv.secureHttp()+"//api.map.baidu.com/api"<br>• version {String} The current API version, default is "2.0". |
+
+##### Returns:
+
+an instance of OM.layer.BaiduTileLayer
+
+Type
+OM.layer.BaiduTileLayer
+
+### Extends
+
+- [OM.layer.BuiltinExternalTileLayer](OM.layer.BuiltinExternalTileLayer.md)
+
+### Methods
+
+------------------------------------------------------------------------
+
+#### bringForward()
+
+Bring the layer to the front by one step (closer to the top of the map).
+
+Inherited From:
+- [OM.layer.Layer#bringForward](OM.layer.Layer.md)
+
+##### Returns:
+
+The new z-index
+
+Type
+int
+
+------------------------------------------------------------------------
+
+#### bringToTop()
+
+Bring the layer all the way to the top of the map
+
+Inherited From:
+- [OM.layer.Layer#bringToTop](OM.layer.Layer.md)
+
+##### Returns:
+
+The new z-index
+
+Type
+int
+
+------------------------------------------------------------------------
+
+#### enableInfoWindow(enable)
+
+Enable or disable the feature info window.
+
+##### Parameters:
+
+| Name     | Type    | Description                                                                       |
+|----------|---------|-----------------------------------------------------------------------------------|
+| `enable` | boolean | Enable or disable feature info window. By default,<br>the info window is enabled. |
+
+Inherited From:
+- [OM.layer.Layer#enableInfoWindow](OM.layer.Layer.md)
+
+##### Returns:
+
+Type
+void
+
+------------------------------------------------------------------------
+
+#### enableUTFGridInfoWindow(status)
+
+Enable or disable the UTFGrid Info Window when applicable
+
+##### Parameters:
+
+| Name     | Type    | Description                                                                   |
+|----------|---------|-------------------------------------------------------------------------------|
+| `status` | boolean | true or false to enable or disable the default (built-in) utfgrid info window |
+
+Inherited From:
+- [OM.layer.TileLayer#enableUTFGridInfoWindow](OM.layer.TileLayer.md)
+
+------------------------------------------------------------------------
+
+#### getCustomTags()
+
+Get custom tags from tile layer
+
+Inherited From:
+- [OM.layer.TileLayer#getCustomTags](OM.layer.TileLayer.md)
+
+##### Returns:
+
+An object defined custom tags if any
+
+Type
+Object
+
+------------------------------------------------------------------------
+
+#### getEnableInfoWindow()
+
+get the enable infowindow status: true for enabled and false otherwise
+the info window is enabled.
+
+Inherited From:
+- [OM.layer.Layer#getEnableInfoWindow](OM.layer.Layer.md)
+
+##### Returns:
+
+true or false
+
+Type
+boolean
+
+------------------------------------------------------------------------
+
+#### getName()
+
+Get the layer name.
+
+Inherited From:
+- [OM.layer.Layer#getName](OM.layer.Layer.md)
+
+##### Returns:
+
+The layer name
+
+Type
+String
+
+------------------------------------------------------------------------
+
+#### getOpacity()
+
+Get the layer's current opacity setting.
+
+Inherited From:
+- [OM.layer.Layer#getOpacity](OM.layer.Layer.md)
+
+##### Returns:
+
+The layer's opacity. Is a value between 0 and 1.
+
+Type
+float
+
+------------------------------------------------------------------------
+
+#### getTileLayerConfig(callBack)
+
+Get the tile layer configuration.
+
+##### Parameters:
+
+| Name       | Type     | Description                                                                                  |
+|------------|----------|----------------------------------------------------------------------------------------------|
+| `callBack` | function | Getting tile layer config is asynchronous. So<br>you need a callback fucntion to get result. |
+
+Inherited From:
+- [OM.layer.TileLayer#getTileLayerConfig](OM.layer.TileLayer.md)
+
+##### Returns:
+
+Type
+void
+
+------------------------------------------------------------------------
+
+#### getUTFGridResolution(res)
+
+parse and return the utfgrid resolution
+
+##### Parameters:
+
+| Name  | Type   | Description                                                |
+|-------|--------|------------------------------------------------------------|
+| `res` | string | The utfgrid resolution. Can be either a string or a number |
+
+Inherited From:
+- [OM.layer.TileLayer#getUTFGridResolution](OM.layer.TileLayer.md)
+
+##### Returns:
+
+the utfgrid resolution
+
+Type
+number
+
+------------------------------------------------------------------------
+
+#### getZIndex()
+
+Get the layer's z-index.
+
+Inherited From:
+- [OM.layer.Layer#getZIndex](OM.layer.Layer.md)
+
+##### Returns:
+
+The z-index value. Returns -1 if the layer was not added to the map.
+
+Type
+int
+
+------------------------------------------------------------------------
+
+#### isInZoomLevelRange(curLevel)
+
+Checks if the current map zoom level is within this layer's visible zoom-level range.
+
+##### Parameters:
+
+| Name       | Type | Description                                                                                                                                                |
+|------------|------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `curLevel` | int  | Optional, the zoom level to check if it is within the minVisibleLevel and maxVisibleLevel<br>range. If not specified, then the current zoom level is used. |
+
+Inherited From:
+- [OM.layer.Layer#isInZoomLevelRange](OM.layer.Layer.md)
+
+##### Returns:
+
+true if the current map level is within the layer's zoom level range for
+it to be visible.
+
+Type
+Boolean
+
+------------------------------------------------------------------------
+
+#### isVisible(curLevel)
+
+Get the visibility of the layer.
+
+##### Parameters:
+
+| Name       | Type | Description                                                                                                                                                |
+|------------|------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `curLevel` | int  | Optional, the zoom level to check if it is within the minVisibleLevel and maxVisibleLevel<br>range. If not specified, then the current zoom level is used. |
+
+Inherited From:
+- [OM.layer.Layer#isVisible](OM.layer.Layer.md)
+
+##### Returns:
+
+True if the theme-based FOI layer is currently visible,
+False if the theme-based FOI layer is currently not visible
+
+Type
+Boolean
+
+------------------------------------------------------------------------
+
+#### on()
+
+A shorthand name for the member function addListener.
+
+Inherited From:
+- [OM.layer.Layer#on](OM.layer.Layer.md)
+
+Mixes In:
+- [OM.event.EventSource.on](OM.event.EventSource.md)
+
+------------------------------------------------------------------------
+
+#### redraw()
+
+Refresh the display of the layer's existing data.
+
+Inherited From:
+- [OM.layer.Layer#redraw](OM.layer.Layer.md)
+
+##### Returns:
+
+None
+
+------------------------------------------------------------------------
+
+#### resize()
+
+Abstract method. Resize the map.
+
+Inherited From:
+- [OM.layer.BuiltinExternalTileLayer#resize](OM.layer.BuiltinExternalTileLayer.md)
+
+##### Returns:
+
+Type
+void
+
+------------------------------------------------------------------------
+
+#### sendBackward()
+
+Sendthe layer to the back by one step (closer to the bottom of the map).
+
+Inherited From:
+- [OM.layer.Layer#sendBackward](OM.layer.Layer.md)
+
+##### Returns:
+
+The new z-index
+
+Type
+int
+
+------------------------------------------------------------------------
+
+#### sendToBottom()
+
+Send the layer all the way to the bottom of the map
+
+Inherited From:
+- [OM.layer.Layer#sendToBottom](OM.layer.Layer.md)
+
+##### Returns:
+
+The new z-index
+
+Type
+int
+
+------------------------------------------------------------------------
+
+#### setInfoWindowTrigger(status)
+
+Enable or disable the UTFGridInfoWindow when applicable
+
+##### Parameters:
+
+| Name     | Type    | Description                                                                   |
+|----------|---------|-------------------------------------------------------------------------------|
+| `status` | boolean | true or false to enable or disable the default (built-in) utfgrid info window |
+
+Inherited From:
+- [OM.layer.TileLayer#setInfoWindowTrigger](OM.layer.TileLayer.md)
+
+------------------------------------------------------------------------
+
+#### setMapCenterAndZoomlevel()
+
+Set or change the map center and zoom level.
+The new or modified center and zoom level are stored in and subsequently retrieved from the map context.
+you can call "this.parentMap.getMapContext()" to get the map context.
+To transfrom the coordinate you can call "this.parentMap.getMapContext().getCenterPoint().transform(8307)" at client side
+or call "this.parentMap.getMapContext().getCenterPoint().transform(8307, function(geom){})" at server side;
+
+Inherited From:
+- [OM.layer.BuiltinExternalTileLayer#setMapCenterAndZoomlevel](OM.layer.BuiltinExternalTileLayer.md)
+
+##### Returns:
+
+Type
+void
+
+------------------------------------------------------------------------
+
+#### setName(newName)
+
+Set the layer name with the given name.
+
+##### Parameters:
+
+| Name      | Type   | Description                                      |
+|-----------|--------|--------------------------------------------------|
+| `newName` | String | The new layer name to be assigned to this layer. |
+
+Inherited From:
+- [OM.layer.Layer#setName](OM.layer.Layer.md)
+
+##### Returns:
+
+Type
+None
+
+------------------------------------------------------------------------
+
+#### setOpacity(opacity)
+
+Set the layer's opacity. A value between 0 (transparnet) and 1 (opaque).
+
+##### Parameters:
+
+| Name      | Type  | Description                                                        |
+|-----------|-------|--------------------------------------------------------------------|
+| `opacity` | float | It should be a number between 0 and 1. e.g. 0.5 means 50% opacity. |
+
+Inherited From:
+- [OM.layer.Layer#setOpacity](OM.layer.Layer.md)
+
+##### Returns:
+
+Type
+void
+
+------------------------------------------------------------------------
+
+#### setVisible(visibility)
+
+Sets the visibility of the layer.
+Note that the visibility change will NOT be made if the current map zoom level is
+outside the layer's 'visible zoom level range' which is set by setZoomLevelRange() method.
+
+##### Parameters:
+
+| Name         | Type    | Description                                                                         |
+|--------------|---------|-------------------------------------------------------------------------------------|
+| `visibility` | Boolean | A Boolean true (show the layer, i.e. make it visible) or false<br>(hide the layer). |
+
+Inherited From:
+- [OM.layer.Layer#setVisible](OM.layer.Layer.md)
+
+##### Returns:
+
+void}
+
+Type
+None
+
+------------------------------------------------------------------------
+
+#### setVisibleBound(bound)
+
+Set a bound (MBR) for the layer visibility. Only content within the supplied bound will be rendered.
+That is, the map client will only fetch and display map content within this bound.
+
+##### Parameters:
+
+| Name    | Type                                              | Description                  |
+|---------|---------------------------------------------------|------------------------------|
+| `bound` | [OM.geometry.Rectangle](OM.geometry.Rectangle.md) | Specifies the layer boundary |
+
+Inherited From:
+- [OM.layer.Layer#setVisibleBound](OM.layer.Layer.md)
+
+##### Returns:
+
+Type
+void
+
+------------------------------------------------------------------------
+
+#### setZIndex()
+
+Set the z-index for the layer.
+
+Note: A valid layer z-index should be a number between 1 and n, where n is
+the number of layers that are currently displayed in the map. When the newIndex
+parameter of setZIndex is less than 1, it will be set to 1. If it is
+greater than n, it will be set to n. If z-Index value, newIndex, is already assigned
+to another layer, then it will still be assigned to the current layer (on which this function is invoked).
+One or more of the other layer will be assigned a different z-index value. The changes will depend on
+whether this layer was inserted into the current layer stack or just moved within the layer stack.
+
+Inherited From:
+- [OM.layer.Layer#setZIndex](OM.layer.Layer.md)
+
+##### Returns:
+
+The old z-index
+
+Type
+int
+
+------------------------------------------------------------------------
+
+#### setZoomLevelRange(minLevel, maxLevel)
+
+Set the zoom level range within which this layer is visible. By default
+a layer is set to be visible between a minmum zoom level of 0 and a maximum
+(theoretical) zoom level of 100.
+
+##### Parameters:
+
+| Name       | Type | Description                                                                                            |
+|------------|------|--------------------------------------------------------------------------------------------------------|
+| `minLevel` | int  | Specifies the min level. The layer will not be<br>visible if the zoom level is lower than this vlaue.  |
+| `maxLevel` | int  | Specifies the max level. The layer will not be<br>visible if the zoom level is higher than this value. |
+
+Inherited From:
+- [OM.layer.Layer#setZoomLevelRange](OM.layer.Layer.md)
+
+##### Returns:
+
+Type
+None
