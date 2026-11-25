@@ -1,0 +1,1 @@
+Shows the user defined checks tab after a check has been created. The available check is displayed at the bottom of the screen listing the check name, action type, candidate systems, Pass message, Fail message, on hold, operator string, and an option to delete the check.

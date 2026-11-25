@@ -1,0 +1,1 @@
+This illustration shows a server with 8 CPUs or core, and two database instances. The first database instance, HR1, has CPU_COUNT=2. The second database instance, Sales1, has CPU_COUNT=4. The HR1 instance and 2 CPUs are in a group named Slice. The Sales1 instance and 4 CPUs are in a separate group named Slice. The remaining two CPUs or Cores are not part of any group.

@@ -1,0 +1,1 @@
+This screenshot of the Enterprise Manager Cloud Control interface shows the menu selection lists for the Cluster Database drop-down menu. In the first drop-down menu the entry Monitoring is selected, which opens another menu. In the secondary menu, the entry Metric and Collection Settings is selected.

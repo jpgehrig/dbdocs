@@ -1,0 +1,1 @@
+Shows the same Collection Manager screen as in previous image but this time the as automatic user capture has been disabled it shows two buttons in the Managing Users section: Create User with a test box to enter user name below and Capture User Details (When Login) to turn automatic user capture back on again.

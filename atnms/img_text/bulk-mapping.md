@@ -1,0 +1,1 @@
+Shows the resulting screen after selecting Assign System to Business Unit, displaying a mapping between Business Unit Names and System Names and corresponding Hosts. There is also a button for Bulk Mapping.

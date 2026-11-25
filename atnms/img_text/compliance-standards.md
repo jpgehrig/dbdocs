@@ -1,0 +1,1 @@
+Shows and example of compliance standards in Oracle Enterprise Manager Cloud Control 13.1 displaying Compliance Standard name, target it is applicable to, compliance standard state and summary of passes, fails, warnings, and compliance score for each standard.

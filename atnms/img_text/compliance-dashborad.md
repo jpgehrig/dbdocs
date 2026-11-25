@@ -1,0 +1,1 @@
+Shows an example compliance dashboard in Oracle Enterprise Manager Cloud Control 13.1 displaying dials of compliance percentages for Database Instance, Cluster Database, Cluster, Cluster ASM, Automatic Storage Management, Storage Server, High Availability Server, and System Infrastructure Switch.

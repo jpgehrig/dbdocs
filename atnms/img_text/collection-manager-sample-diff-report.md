@@ -1,0 +1,1 @@
+Shows sample diff report screen in Collection Manager with summary of collection 1 versus collection 2, summary shows similar results to HTML report summary and then lists checks, and their status as included in the collections.

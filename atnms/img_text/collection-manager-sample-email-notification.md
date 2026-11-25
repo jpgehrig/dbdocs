@@ -1,0 +1,1 @@
+Shows a sample email notification indicating diff found in the collections, shows system name, previous collection, current collection, collection difference type such as if it regressed with failures, and link to click for more details.

@@ -1,0 +1,1 @@
+Shows the User Defined Checks tab after pressing the Generate XML button. The section on the right displays where you can download the generated XML file called `user_defined_checks.xml`. Click the file icon under the word download in order to download the file.

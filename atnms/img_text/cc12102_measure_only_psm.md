@@ -1,0 +1,1 @@
+This screenshot shows the Performance Overview section of the QoS Management dashboard. There are 7 performance classes being monitored, and every performance class is marked as Measure-Only. For each performance class there is a Resource vs. Wait Time bar graph and a Performance Satisfaction Metric bar graph. Both graphs are populated with data.

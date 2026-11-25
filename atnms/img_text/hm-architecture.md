@@ -1,0 +1,1 @@
+Depicts Hang Manager architecture.

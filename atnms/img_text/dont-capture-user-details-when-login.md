@@ -1,0 +1,1 @@
+Shows the Collection Manager screen after selecting Manage Users, User Roles and assign System to users. Provides a button to Create Role For User and also a button for Managing Users which says Don’t Capture User Details (When Login).
