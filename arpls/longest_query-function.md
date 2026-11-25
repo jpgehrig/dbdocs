@@ -1,0 +1,35 @@
+## 188.1.3 LONGEST_QUERY Function
+
+This function returns the duration of the longest query, in seconds, for a given period.
+
+### Syntax
+
+Viewing the output using the historical information in memory:
+
+    DBMS_UNDO_ADV.LONGEST_QUERY()
+    RETURN NUMBER;
+
+Viewing the output using start time and end time:
+
+    DBMS_UNDO_ADV.LONGEST_QUERY(
+        start_time IN DATE,
+        end_time   IN DATE)
+    RETURN NUMBER;
+
+Viewing the output using begin and end AWR snapshot ID:
+
+    DBMS_UNDO_ADV.LONGEST_QUERY(
+        begin_snap IN NUMBER,
+        end_snap   IN NUMBER)
+    RETURN NUMBER;
+
+### Parameters
+
+Table 188-4 LONGEST_QUERY Function Parameters
+
+| Parameter    | Description                                                                                               |
+|:-------------|:----------------------------------------------------------------------------------------------------------|
+| `start_time` | Start time for the specified period.                                                                      |
+| `end_time`   | End time for the specified period.                                                                        |
+| `begin_snap` | Begin snapshot identifier. It is based on historical information in AWR from the `begin_snap` identifier. |
+| `end_snap`   | End snapshot identifier. It is based on historical information in AWR until the `end_snap` identifier.    |
