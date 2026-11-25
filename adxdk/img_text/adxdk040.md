@@ -1,0 +1,1 @@
+The XML Parser reads the XML document. Storage units (entities) are output. These are divided into Unparsed and Parsed Data. The parsed data outputs characters, which are divided into character data and markup.

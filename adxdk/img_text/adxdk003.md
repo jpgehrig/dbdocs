@@ -1,0 +1,1 @@
+A DTD file or XML schema file is input to XML Parser for Java, which passes parsed data to Oracle JAXB Class Generator, which outputs Java classes (one class per element) to the application. The output from the application is a valid XML document.

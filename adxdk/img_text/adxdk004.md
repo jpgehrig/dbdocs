@@ -1,0 +1,1 @@
+The XML-SQL utility for Java stores and retrieves XML documents in the database. This illustration also shows the SQL or object queries passing through the XML-SQL Utility for Java, which produces an XML document of query results as a string or DOM tree.

@@ -1,0 +1,1 @@
+Components of XDK for C for generating XML documents from the database include XML Parser and XSLT processor. A browser requests data from the database through a C program. This request is fed to the parser, which can use the XSLT processor. Uutput is displayed in the browser.

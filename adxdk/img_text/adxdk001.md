@@ -1,0 +1,1 @@
+An XML document or DTD is input. The XML Parsers for Java, C, or C++ pass output to DOM/SAX for Java, C, or C++ respectively, which passes output to and from an application in Java, C, or C++ respectively.

@@ -1,0 +1,1 @@
+An oval labeled “new SAXParser()” has an associated list of “Methods”. An arrow leads from this oval to an oval labeled “.parse()”. An arrow leads to oval “.parse()” from an oval labeled “file string buffer, or URL xml input”. An arrow leads from oval “.parse()” to an oval labeled “Callback methods”.

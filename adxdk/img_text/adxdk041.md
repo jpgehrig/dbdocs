@@ -1,0 +1,1 @@
+This illustration shows the XML document. The DOM interface creates a tree structure based on the XML document, which is useful for applications that include changes, for example, reordering, adding, or deleting elements. The SAX interface creates a series of linear events based on the XML document.

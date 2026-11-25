@@ -1,0 +1,1 @@
+This figure shows the Additional Dependences dialog, where you add new Additional Dependencies. There is an entry field at top where you add a number of dependencies at a time. Below that is a list of Inherited Values, and below that, button for OK, Cancel, and to the list of Macros.

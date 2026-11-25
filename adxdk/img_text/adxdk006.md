@@ -1,0 +1,1 @@
+The XDK for Java components used when generating XML documents from the database include XML Parser, Class Generator, XSQL Servlet, and XML SQL Utility. XSQL Servlet consists of XML SQL Utility and XML Parser. The components have output in HTML, Text, or XML that can be displayed in a browser.

@@ -1,0 +1,1 @@
+This illustration is described in the surrounding section, "What Can I Do with Oracle XSQL Pages?" Web Server is on top of Servlet Engine, which is on top of XSQL Servlet and JSPRuntime. XSQL Servlet is on top of XSQL Page Processor which contains the XML Parser, XML SQL, XSLT Processor, and JDBC.

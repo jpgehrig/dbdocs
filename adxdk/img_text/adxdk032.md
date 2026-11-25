@@ -1,0 +1,1 @@
+First create a JDBC connection. Send a SQL query to a JDBC Result Set, which is input to an `OracleXMLQuery()` instance, or directly to an `OracleXMLQuery()` instance which sends either a `getXMLDOM()` invocation to a DOM object, or a `getXMLString()` invocation to an `XMLString` object. These produce output for further processing.

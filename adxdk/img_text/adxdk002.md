@@ -1,0 +1,1 @@
+The original XML document, optional DTD, and optional Schema files are input to the parser. Parser output is input to the DOM/SAX Parser, which also receives input from the XSL style sheet. Parsed XSL commands and parsed XML go to the XSLT processor, which outputs the transformed XML document.

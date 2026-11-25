@@ -1,0 +1,1 @@
+The development tools such as XSQL Pages Publishing Framework, JDeveloper, BC4J, Oracle Reports, and UIX, can feed into APIs that output to Oracle Application Server, Apache server, and Java-enabled server. The APIs also output XML documents for business data exchange, using AQ streams and IDAP.
