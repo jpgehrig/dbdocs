@@ -1,0 +1,11 @@
+## 2.264 ALL_MINING_ALGORITHMS
+
+`ALL_MINING_ALGORITHMS` describes the settings for a current user.
+
+| Column               | Datatype         | NULL | Description                                                                                                                                                                                                                                               |
+|:---------------------|:-----------------|:-----|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `ALGORITHM_NAME`     | `VARCHAR2(128)`  |      | Algorithm used by the model.                                                                                                                                                                                                                              |
+| `MINING_FUNCTION`    | `VARCHAR2(30)`   |      | Function of the mining model. The mining function is specified when the model is built:<br>• `CLASSIFICATION`<br>• `REGRESSION`<br>• `CLUSTERING`<br>• `FEATURE_EXTRACTION`<br>• `ASSOCIATION_RULES`<br>• `ATTRIBUTE_IMPORTANCE`<br>• `ANOMALY DETECTION` |
+| `ALGORITHM_TYPE`     | `VARCHAR2(20)`   |      | Algorithm type of the model                                                                                                                                                                                                                               |
+| `ALGORITHM_METADATA` | `CLOB`           |      | Metadata of the algorithm                                                                                                                                                                                                                                 |
+| `DESCRIPTION`        | `VARCHAR2(4000)` |      | Description of the algorithm                                                                                                                                                                                                                              |

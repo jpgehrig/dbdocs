@@ -1,0 +1,8 @@
+## 8.107 V\$PARALLEL_DEGREE_LIMIT_MTH
+
+`V$PARALLEL_DEGREE_LIMIT_MTH` displays all available parallel degree limit resource allocation methods.
+
+| Column   | Datatype       | Description                                                                                                                                                                                                                                                                                                                                                                      |
+|:---------|:---------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `NAME`   | `VARCHAR2(40)` | Name of the parallel degree limit resource allocation method                                                                                                                                                                                                                                                                                                                     |
+| `CON_ID` | `NUMBER`       | The ID of the container to which the data pertains. Possible values include:<br>• `0`: This value is used for rows containing data that pertain to the entire CDB. This value is also used for rows in non-CDBs.<br>• `1`: This value is used for rows containing data that pertain to only the root<br>• n: Where n is the applicable container ID for the rows containing data |

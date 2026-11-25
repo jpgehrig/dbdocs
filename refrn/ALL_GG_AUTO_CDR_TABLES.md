@@ -1,0 +1,23 @@
+## 2.191 ALL_GG_AUTO_CDR_TABLES
+
+`ALL_GG_AUTO_CDR_TABLES` provides details about tables configured for Oracle GoldenGate automatic conflict detection and resolution (CDR) that are owned by the current user.
+
+### Related View
+
+`DBA_GG_AUTO_CDR_TABLES` provides details about all the tables configured for Oracle GoldenGate automatic conflict detection and resolution (CDR).
+
+| Column                    | Datatype        | NULL       | Description                                                                                                                       |
+|:--------------------------|:----------------|:-----------|:----------------------------------------------------------------------------------------------------------------------------------|
+| `TABLE_OWNER`             | `VARCHAR2(128)` | `NOT NULL` | Owner of the table                                                                                                                |
+| `TABLE_NAME`              | `VARCHAR2(128)` | `NOT NULL` | Table name                                                                                                                        |
+| `RESOLUTION_GRANULARITY`  | `VARCHAR2(6)`   |            | Resolution granularity:<br>• `ROW`<br>• `COLUMN`                                                                                  |
+| `FETCHCOLS`               | `VARCHAR2(3)`   |            | Extract fetchcols configuration:<br>• `Yes`: Extract will fetch non-scalar data<br>• `No`: Extract will not fetch non-scalar data |
+| `RECORD_CONFLICTS`        | `VARCHAR2(3)`   |            | Monitoring of conflicts:<br>• `Yes`: Conflict info is recorded<br>• `No`: Conflict info is not recorded                           |
+| `USE_CUSTOM_HANDLERS`     | `VARCHAR2(4)`   |            | Use of customized or automatic conflict handlers:<br>• `All`: If using custom handlers<br>• `None`: If using automatic handlers   |
+| `TOMBSTONE_TABLE`         | `VARCHAR2(128)` |            | Tombstone table name (if table has delete tombstoning enabled)                                                                    |
+| `ROW_RESOLUTION_COLUMN`   | `VARCHAR2(128)` | `NOT NULL` | Name of row-level timestamp column                                                                                                |
+| `EXISTING_DATA_TIMESTAMP` | `TIMESTAMP(6)`  |            | Timestamp to give existing rows when a new timestamp column is added                                                              |
+
+**See Also:**
+
+"[DBA_GG_AUTO_CDR_TABLES](DBA_GG_AUTO_CDR_TABLES.md)"

@@ -1,0 +1,33 @@
+## 1.2 Basic Initialization Parameters
+
+Most databases should only need to have the database basic initialization parameters set to run properly and efficiently.
+
+Oracle advises you to become familiar with the basic parameters and only use other parameters when directed to by feature documentation or in special circumstances. The following is a list of the database basic initialization parameters:
+
+- [CLUSTER_DATABASE](CLUSTER_DATABASE.md)
+- [COMPATIBLE](COMPATIBLE.md)
+- [CONTROL_FILES](CONTROL_FILES.md)
+- [DB_BLOCK_SIZE](DB_BLOCK_SIZE.md)
+- [DB_CREATE_FILE_DEST](DB_CREATE_FILE_DEST.md)
+- [DB_CREATE_ONLINE_LOG_DEST_n](DB_CREATE_ONLINE_LOG_DEST_n.md)
+- [DB_DOMAIN](DB_DOMAIN.md)
+- [DB_NAME](DB_NAME.md)
+- [DB_RECOVERY_FILE_DEST](DB_RECOVERY_FILE_DEST.md)
+- [DB_RECOVERY_FILE_DEST_SIZE](DB_RECOVERY_FILE_DEST_SIZE.md)
+- [DB_UNIQUE_NAME](DB_UNIQUE_NAME.md)
+- [INSTANCE_NUMBER](INSTANCE_NUMBER.md)
+- [LDAP_DIRECTORY_SYSAUTH](LDAP_DIRECTORY_SYSAUTH.md)
+- [LOG_ARCHIVE_DEST_n](LOG_ARCHIVE_DEST_n.md)
+- [LOG_ARCHIVE_DEST_STATE_n](LOG_ARCHIVE_DEST_STATE_n.md)
+- [NLS_DATE_LANGUAGE](NLS_DATE_LANGUAGE.md)
+- [NLS_TERRITORY](NLS_TERRITORY.md)
+- [OPEN_CURSORS](OPEN_CURSORS.md)
+- [PGA_AGGREGATE_TARGET](PGA_AGGREGATE_TARGET.md)
+- [PROCESSES](PROCESSES.md)
+- [REMOTE_LISTENER](REMOTE_LISTENER.md)
+- [REMOTE_LOGIN_PASSWORDFILE](REMOTE_LOGIN_PASSWORDFILE.md)
+- [SESSIONS](SESSIONS.md)
+- [SGA_TARGET](SGA_TARGET.md)
+- [SHARED_SERVERS](SHARED_SERVERS.md)
+- [STAR_TRANSFORMATION_ENABLED](STAR_TRANSFORMATION_ENABLED.md)
+- [UNDO_TABLESPACE](UNDO_TABLESPACE.md)

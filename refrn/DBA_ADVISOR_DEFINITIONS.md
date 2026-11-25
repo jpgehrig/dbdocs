@@ -1,0 +1,11 @@
+## 4.17 DBA_ADVISOR_DEFINITIONS
+
+`DBA_ADVISOR_DEFINITIONS` displays the properties of all advisors in the database.
+
+The view contains one row for each task, representing the current state of the task as well as execution-specific data such as progress monitoring and completion status.
+
+| Column         | Datatype        | NULL       | Description                                                                                                                                                                                                                                                                                                                                                      |
+|:---------------|:----------------|:-----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `ADVISOR_ID`   | `NUMBER`        | `NOT NULL` | Unique identifier for the advisor                                                                                                                                                                                                                                                                                                                                |
+| `ADVISOR_NAME` | `VARCHAR2(128)` | `NOT NULL` | Name of the advisor                                                                                                                                                                                                                                                                                                                                              |
+| `PROPERTY`     | `NUMBER`        | `NOT NULL` | Properties:<br>• Bit 0: - Indicates whether the advisor runs in `COMPREHENSIVE` mode (`1`) or not (`0`)<br>• Bit 1: - Indicates whether the advisor runs in `LIMITED` mode (`1`) or not (`0`)<br>• Bit 2: - Indicates whether the advisor is resumable (`1`) or not (`0`)<br>• Bit 3: - Indicates whether the advisor accepts user directives (`1`) or not (`0`) |

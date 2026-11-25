@@ -1,0 +1,15 @@
+## 9.84 V\$STATS_ADVISOR_RULES
+
+`V$STATS_ADVISOR_RULES` displays the rule definition information for each Optimizer Statistics Advisor rule.
+
+| Column        | Datatype       | Description                                                                                                                                                                                                                                                                                                                                                                      |
+|:--------------|:---------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `RULE_ID`     | `NUMBER`       | ID of the rule                                                                                                                                                                                                                                                                                                                                                                   |
+| `NAME`        | `VARCHAR2(64)` | Name of the rule                                                                                                                                                                                                                                                                                                                                                                 |
+| `RULE_TYPE`   | `VARCHAR2(9)`  | Type of the rule:<br>• `OBJECT`<br>• `OPERATION`<br>• `SYSTEM`                                                                                                                                                                                                                                                                                                                   |
+| `DESCRIPTION` | `VARCHAR2(64)` | Description of the rule                                                                                                                                                                                                                                                                                                                                                          |
+| `CON_ID`      | `NUMBER`       | The ID of the container to which the data pertains. Possible values include:<br>• `0`: This value is used for rows containing data that pertain to the entire CDB. This value is also used for rows in non-CDBs.<br>• `1`: This value is used for rows containing data that pertain to only the root<br>• n: Where n is the applicable container ID for the rows containing data |
+
+**See Also:**
+
+[Oracle Database SQL Tuning Guide](../tgsql/optimizer-statistics-advisor.md) for more information about Optimizer Statistics Advisor.

@@ -1,0 +1,8 @@
+## 9.34 V\$SGA_DYNAMIC_FREE_MEMORY
+
+`V$SGA_DYNAMIC_FREE_MEMORY` displays information about the amount of SGA memory available for future dynamic SGA resize operations.
+
+| Column         | Datatype | Description                                                                                                                                                                                                                                                                                                                                                                      |
+|:---------------|:---------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `CURRENT_SIZE` | `NUMBER` | Amount of available memory (in bytes)                                                                                                                                                                                                                                                                                                                                            |
+| `CON_ID`       | `NUMBER` | The ID of the container to which the data pertains. Possible values include:<br>• `0`: This value is used for rows containing data that pertain to the entire CDB. This value is also used for rows in non-CDBs.<br>• `1`: This value is used for rows containing data that pertain to only the root<br>• n: Where n is the applicable container ID for the rows containing data |

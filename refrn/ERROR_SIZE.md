@@ -1,0 +1,9 @@
+## 6.184 ERROR_SIZE
+
+`ERROR_SIZE` is accessed to create `DBA_OBJECT_SIZE` and `USER_OBJECT_SIZE`.
+
+**See Also:**
+
+- "[DBA_OBJECT_SIZE](DBA_OBJECT_SIZE.md)"
+
+- "[USER_OBJECT_SIZE](USER_OBJECT_SIZE.md)"

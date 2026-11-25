@@ -1,0 +1,8 @@
+## 7.117 V\$BLOCKING_QUIESCE
+
+`V$BLOCKING_QUIESCE` indicates if a session is blocking, or would block, a quiesce operation.
+
+| Column   | Datatype | Description                                                                                                                                                                                                                                                                                                                                                                      |
+|:---------|:---------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `SID`    | `NUMBER` | Session identifier                                                                                                                                                                                                                                                                                                                                                               |
+| `CON_ID` | `NUMBER` | The ID of the container to which the data pertains. Possible values include:<br>• `0`: This value is used for rows containing data that pertain to the entire CDB. This value is also used for rows in non-CDBs.<br>• `1`: This value is used for rows containing data that pertain to only the root<br>• n: Where n is the applicable container ID for the rows containing data |

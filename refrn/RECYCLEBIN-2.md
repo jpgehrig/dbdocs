@@ -1,0 +1,7 @@
+## 6.223 RECYCLEBIN
+
+`RECYCLEBIN` is a synonym for `USER_RECYCLEBIN`.
+
+**See Also:**
+
+"[USER_RECYCLEBIN](USER_RECYCLEBIN.md)"

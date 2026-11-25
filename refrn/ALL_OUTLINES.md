@@ -1,0 +1,7 @@
+## 2.294 ALL_OUTLINES
+
+`ALL_OUTLINES` is a synonym for `USER_OUTLINES`.
+
+**See Also:**
+
+"[USER_OUTLINES](USER_OUTLINES.md)"

@@ -1,0 +1,8 @@
+## 8.153 V\$QUEUEING_MTH
+
+`V$QUEUEING_MTH` displays all available queuing resource allocation methods.
+
+| Column   | Datatype       | Description                                                                                                                                                                                                                                                                                                                                                                      |
+|:---------|:---------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `NAME`   | `VARCHAR2(40)` | Name of the queuing resource allocation method                                                                                                                                                                                                                                                                                                                                   |
+| `CON_ID` | `NUMBER`       | The ID of the container to which the data pertains. Possible values include:<br>• `0`: This value is used for rows containing data that pertain to the entire CDB. This value is also used for rows in non-CDBs.<br>• `1`: This value is used for rows containing data that pertain to only the root<br>• n: Where n is the applicable container ID for the rows containing data |

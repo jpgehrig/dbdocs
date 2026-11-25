@@ -1,0 +1,7 @@
+## 6.735 USER_WARNING_SETTINGS
+
+`USER_WARNING_SETTINGS` displays information about the warning parameter settings for the objects owned by the current user. Its columns (except for `OWNER`) are the same as those in `ALL_WARNING_SETTINGS`.
+
+**See Also:**
+
+"[ALL_WARNING_SETTINGS](ALL_WARNING_SETTINGS.md)"

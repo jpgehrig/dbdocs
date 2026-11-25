@@ -1,0 +1,14 @@
+## 8.157 V\$RECOVERY_FILE_STATUS
+
+`V$RECOVERY_FILE_STATUS` contains one row for each datafile for each `RECOVER` statement. This view contains useful information only for the Oracle process doing the recovery. When Recovery Manager directs a server process to perform recovery, only Recovery Manager can view the relevant information in this view. `V$RECOVERY_FILE_STATUS` will be empty to all other Oracle users.
+
+| Column     | Datatype        | Description                                                                                                                                                                                                                                                                                                                                                                      |
+|:-----------|:----------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `FILENUM`  | `NUMBER`        | Number of the file being recovered                                                                                                                                                                                                                                                                                                                                               |
+| `FILENAME` | `VARCHAR2(513)` | Filename of the datafile being recovered                                                                                                                                                                                                                                                                                                                                         |
+| `STATUS`   | `VARCHAR2(13)`  | Status of the recovery:<br>• `IN RECOVERY`<br>• `CURRENT`<br>• `NOT RECOVERED`                                                                                                                                                                                                                                                                                                   |
+| `CON_ID`   | `NUMBER`        | The ID of the container to which the data pertains. Possible values include:<br>• `0`: This value is used for rows containing data that pertain to the entire CDB. This value is also used for rows in non-CDBs.<br>• `1`: This value is used for rows containing data that pertain to only the root<br>• n: Where n is the applicable container ID for the rows containing data |
+
+**See Also:**
+
+[Oracle Database Backup and Recovery User’s Guide](../bradv/user-managed-flashback-dbpitr.md)
