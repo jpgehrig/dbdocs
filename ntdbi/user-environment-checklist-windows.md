@@ -1,0 +1,14 @@
+## Oracle User Environment Configuration Checklist for Oracle Database Installation
+
+Use this checklist to plan operating system users, groups, and environments for Oracle Database management.
+
+Table 1-5 User Environment Configuration for Oracle Database
+
+| Check                                                                                     | Task                                                                                                                                                                                                                                                                                                                                      |
+|:------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Create operating system groups and users for standard or role-allocated system privileges | Create operating system groups and users depending on your security requirements, as described in this install guide.<br>Set resource limits settings and other requirements for Oracle software installation owners.<br>Group and user names must use only ASCII characters.                                                             |
+| Unset Oracle Software Environment Variables                                               | If you have had an existing installation on your system, and you are using the same user account to install this installation, then unset the ORACLE_HOME, ORACLE_BASE, ORACLE_SID, TNS_ADMIN environment variables and any other environment variable set for the Oracle installation user that is connected with Oracle software homes. |
+| Configure the Oracle Software Owner Environment                                           | Set the `TEMP` environment variable.                                                                                                                                                                                                                                                                                                      |
+| Manage User Account Control                                                               | If you have enabled the User Account Control security feature, then Oracle Universal Installer prompts you for either your consent or your credentials when installing Oracle Database. Provide either the consent or your Windows Administrator credentials as appropriate.                                                              |
+
+**Parent topic:** [Oracle Database Installation Checklist](oracle-database-installation-checklist.md)
