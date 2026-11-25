@@ -1,0 +1,2107 @@
+A  B  C  D  E  F  G  H  I  J  L  M  N  O  P  Q  R  S  T  U  V  W  X  
+
+------------------------------------------------------------------------
+
+## A
+
+- access control policy
+  - reports
+    - Core Database Vault Audit Report [26.5.5](oracle-database-vault-reports.md)
+- Access to Sensitive Objects Report [26.6.3.2](oracle-database-vault-reports.md)
+- accounts
+  - See: database accounts
+- Accounts With DBA Roles Report [26.6.5.2](oracle-database-vault-reports.md)
+- Accounts with SYSDBA/SYSOPER Privilege Report [26.6.3.4](oracle-database-vault-reports.md)
+- ad hoc tools
+  - preventing use of [7.7.1](configuring-factors.md)
+- administrators
+  - DBA operations in Oracle Database Vault [12](dba-operations-in-an-oracle-database-vault-environment.md)
+  - restricting different types [7.8.1](configuring-factors.md)
+- ADRCI utility
+  - Database Vault [E.1.6.3](troubleshooting-oracle-database-vault.md)
+- alerts
+  - email alert in rule set [5.9.1](configuring-rule-sets.md)
+  - Enterprise Manager Cloud Control [12.3.2](dba-operations-in-an-oracle-database-vault-environment.md)
+- ALTER ROLE statement
+  - monitoring [25.1](monitoring-oracle-database-vault.md)
+- ALTER SESSION command rules [6.1.3.2](configuring-command-rules.md), [16.7](oracle-database-vault-command-rule-apis.md)
+  - about [6.1.3.2](configuring-command-rules.md)
+- ALTER SESSION event command rules
+  - creating [16.3](oracle-database-vault-command-rule-apis.md)
+  - updating [16.11](oracle-database-vault-command-rule-apis.md)
+- ALTER SESSION privilege
+  - enabling trace files [E.1.5](troubleshooting-oracle-database-vault.md)
+  - reports, ALTER SYSTEM or ALTER SESSION Report [26.6.5.5](oracle-database-vault-reports.md)
+- ALTER SESSION statement
+  - guidelines on managing privileges [D.6.6.1](oracle-database-vault-security-guidelines.md)
+- ALTER SYSTEM command rules
+  - deleting system event command rules [16.8](oracle-database-vault-command-rule-apis.md)
+- ALTER SYSTEM event command rules
+  - creating [16.4](oracle-database-vault-command-rule-apis.md)
+  - updating [16.12](oracle-database-vault-command-rule-apis.md)
+- ALTER SYSTEM or ALTER SESSION Report [26.6.5.5](oracle-database-vault-reports.md)
+- ALTER SYSTEM privilege
+  - reports, ALTER SYSTEM or ALTER SESSION Report [26.6.5.5](oracle-database-vault-reports.md)
+- ALTER SYSTEM statement
+  - guidelines on managing privileges [D.6.6.1](oracle-database-vault-security-guidelines.md)
+- ALTER USER statement
+  - monitoring [25.1](monitoring-oracle-database-vault.md)
+- ANY System Privileges for Database Accounts Report [26.6.2.4](oracle-database-vault-reports.md)
+- application containers
+  - Oracle Database Vault [1.8.7](introduction-to-oracle-database-vault.md)
+- AUDIT_SYS_OPERATIONS initialization parameter [2.1](what-to-expect-after-you-enable-oracle-database-vault.md)
+- AUDIT_TRAIL\$ system table
+  - affected by AUDIT_TRAIL initialization parameter [A.3.2](auditing-oracle-database-vault.md)
+  - archiving [A.4.2](auditing-oracle-database-vault.md)
+  - format [A.3.2](auditing-oracle-database-vault.md)
+  - purging [A.4.3](auditing-oracle-database-vault.md)
+- auditing
+  - about [A.1](auditing-oracle-database-vault.md)
+  - archiving Database Vault audit trail [A.4.2](auditing-oracle-database-vault.md)
+    - about [A.4.1](auditing-oracle-database-vault.md)
+  - Core Database Audit Report [26.6.8](oracle-database-vault-reports.md)
+  - DBMS_MACUTL fields [20.1.1](oracle-database-vault-utility-apis.md)
+  - factors
+    - options [7.3.4.3](configuring-factors.md)
+  - intruders
+    - using factors [7.3.4.2](configuring-factors.md)
+  - Oracle Database audit settings [A.5](auditing-oracle-database-vault.md)
+  - purging Database Vault audit trail [A.4.3](auditing-oracle-database-vault.md)
+    - about [A.4.1](auditing-oracle-database-vault.md)
+  - realms
+    - DBMS_MACUTL fields [20.1.1](oracle-database-vault-utility-apis.md)
+    - options [4.3](configuring-realms.md)
+  - reports [26.5](oracle-database-vault-reports.md)
+  - rule sets
+    - DBMS_MACUTL fields [20.1.1](oracle-database-vault-utility-apis.md)
+    - options [5.4](configuring-rule-sets.md)
+  - secure application roles
+    - audit records [8.9](configuring-secure-application-roles-for-oracle-database-vault.md)
+- auditing policies
+  - about [A](auditing-oracle-database-vault.md)
+  - audit events
+    - about [A.3.1](auditing-oracle-database-vault.md)
+  - custom events
+    - audit trail [A.3.2](auditing-oracle-database-vault.md)
+  - events that are tracked [A.3.1](auditing-oracle-database-vault.md)
+  - monitoring changes to [25.1](monitoring-oracle-database-vault.md)
+- audit policy change
+  - monitoring [25.1](monitoring-oracle-database-vault.md)
+- AUDIT privilege [26.6.5.10](oracle-database-vault-reports.md)
+- AUDIT Privileges Report [26.6.5.10](oracle-database-vault-reports.md)
+- AUDSYS.DV\$CONFIGURATION_AUDIT view [24.52](oracle-database-vault-data-dictionary-views.md)
+- AUDSYS.DV\$ENFORCEMENT_AUDIT view [24.53](oracle-database-vault-data-dictionary-views.md)
+- authentication
+  - Authentication_Method default factor [7.2](configuring-factors.md)
+  - command rules [6.1.1](configuring-command-rules.md)
+  - method, finding with DVF.F\$AUTHENTICATION_METHOD [17.3.2](oracle-database-vault-factor-apis.md)
+  - realm procedures [14.1](oracle-database-vault-realm-apis.md)
+- authorizations
+  - Oracle Data Pump activities [12.4.1](dba-operations-in-an-oracle-database-vault-environment.md)
+  - realms [4.5](configuring-realms.md)
+  - scheduling database jobs [12.5.1](dba-operations-in-an-oracle-database-vault-environment.md)
+- AUTHORIZE_MAINTENANCE_USER procedure [21.1.12](oracle-database-vault-general-administrative-apis.md)
+
+------------------------------------------------------------------------
+
+## B
+
+- backup accounts [13.4](oracle-database-vault-schemas-roles-and-accounts.md)
+- BECOME USER Report [26.6.5.4](oracle-database-vault-reports.md)
+- BECOME USER system privilege
+  - about [26.6.5.4](oracle-database-vault-reports.md)
+- break-glass accounts
+  - See: backup accounts
+- break-glass protocol [12.9.1](dba-operations-in-an-oracle-database-vault-environment.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- catalog-based roles [26.6.5.9](oracle-database-vault-reports.md)
+- CDB_DV_STATUS view [24.2](oracle-database-vault-data-dictionary-views.md)
+- CDBs
+  - Database Vault operations control [12.9.1](dba-operations-in-an-oracle-database-vault-environment.md)
+  - realms [4.1.3](configuring-realms.md)
+    - authorizations [4.5](configuring-realms.md)
+  - rule sets [5.2](configuring-rule-sets.md)
+- CDBS
+  - PDB access by infrastructure DBAs [12.9.1](dba-operations-in-an-oracle-database-vault-environment.md)
+- client identifiers
+  - function to return [17.3.10](oracle-database-vault-factor-apis.md)
+- clients
+  - finding IP address with DVF.F\$CLIENT_IP [17.3.3](oracle-database-vault-factor-apis.md)
+- code groups
+  - retrieving value with DBMS_MACUTL functions [20.2](oracle-database-vault-utility-apis.md)
+- Command Rule Audit Report [26.5.2](oracle-database-vault-reports.md)
+- Command Rule Configuration Issues Report [26.4.1](oracle-database-vault-reports.md)
+- command rules [6.1.1](configuring-command-rules.md), [6.3](configuring-command-rules.md), [6.4](configuring-command-rules.md)
+  - See also: rule sets
+
+  <!-- -->
+
+  - about [6.1.1](configuring-command-rules.md)
+  - creating [6.4](configuring-command-rules.md)
+  - data dictionary view [6.11](configuring-command-rules.md)
+  - data masking [12.13.4](dba-operations-in-an-oracle-database-vault-environment.md)
+  - default command rules [6.2](configuring-command-rules.md)
+  - deleting [6.6](configuring-command-rules.md)
+  - editing [6.4](configuring-command-rules.md)
+  - functions
+    - DBMS_MACUTL (utility) [20](oracle-database-vault-utility-apis.md)
+  - guidelines [6.9](configuring-command-rules.md)
+  - how command rules work [6.7](configuring-command-rules.md)
+  - modifying enablement status [6.5](configuring-command-rules.md)
+  - objects
+    - name [6.4](configuring-command-rules.md)
+    - owner [6.4](configuring-command-rules.md)
+  - performance effect [6.10](configuring-command-rules.md)
+  - procedures
+    - DBMS_MACADM (configuration) [16](oracle-database-vault-command-rule-apis.md)
+  - process flow [6.7](configuring-command-rules.md)
+  - propagating configuration to other databases [12.3.1](dba-operations-in-an-oracle-database-vault-environment.md)
+  - reports [6.11](configuring-command-rules.md)
+  - rule sets
+    - selecting [6.4](configuring-command-rules.md)
+    - used with [6.1.1](configuring-command-rules.md)
+  - simulation mode [10.1](using-training-mode-to-log-realm-and-command-rule-activities.md)
+  - troubleshooting
+    - with auditing report [26.5.2](oracle-database-vault-reports.md)
+  - tutorial [6.8](configuring-command-rules.md)
+  - views [6.11](configuring-command-rules.md), [24.5](oracle-database-vault-data-dictionary-views.md)
+  - with PDBs [6.1.2](configuring-command-rules.md)
+- compliance
+  - Oracle Database Vault addressing [1.4](introduction-to-oracle-database-vault.md)
+- computer name
+  - finding with DVF.F\$MACHINE [17.3.17](oracle-database-vault-factor-apis.md)
+  - Machine default factor [7.2](configuring-factors.md)
+- configuration
+  - monitoring changes [25.1](monitoring-oracle-database-vault.md)
+  - views
+    - AUDSYS.DV\$CONFIGURATION_AUDIT [24.52](oracle-database-vault-data-dictionary-views.md)
+    - DVSYS.DV\$CONFIGURATION_AUDIT [24.41](oracle-database-vault-data-dictionary-views.md)
+    - DVSYS.DV\$ENFORCEMENT_AUDIT [24.42](oracle-database-vault-data-dictionary-views.md)
+- configuration and enablement
+  - multitenant, about [3.2.1](getting-started-with-oracle-database-vault.md)
+- CONFIGURE_DV procedure
+  - about [21.2](oracle-database-vault-general-administrative-apis.md)
+  - configuring and enabling Database Vault with [3.2.4](getting-started-with-oracle-database-vault.md)
+  - registering Database Vault with [3.2.3](getting-started-with-oracle-database-vault.md), [3.3.1](getting-started-with-oracle-database-vault.md)
+- CONNECT command rules
+  - about [6.1.3.1](configuring-command-rules.md)
+  - example [6.1.3.1](configuring-command-rules.md)
+- CONNECT events, controlling with command rules [6.1.1](configuring-command-rules.md)
+- core database
+  - troubleshooting with Core Database Vault Audit Report [26.5.5](oracle-database-vault-reports.md)
+- Core Database Audit Report [26.6.8](oracle-database-vault-reports.md)
+- Core Database Vault Audit Trail Report [26.5.5](oracle-database-vault-reports.md)
+- CPU_PER_SESSION resource profile [26.6.6.2](oracle-database-vault-reports.md)
+- CREATE ANY JOB privilege [D.6.3](oracle-database-vault-security-guidelines.md)
+- CREATE ANY JOB statement
+  - guidelines on managing privileges [D.6.3](oracle-database-vault-security-guidelines.md)
+- CREATE EXTERNAL JOB privilege [D.6.4](oracle-database-vault-security-guidelines.md)
+- CREATE JOB privilege [D.6.3](oracle-database-vault-security-guidelines.md)
+- CREATE JOB statement
+  - guidelines on managing privileges [D.6.3](oracle-database-vault-security-guidelines.md)
+- CREATE ROLE statement
+  - monitoring [25.1](monitoring-oracle-database-vault.md)
+- CREATE USER statement
+  - monitoring [25.1](monitoring-oracle-database-vault.md)
+- CTXSYS schema realm protection [4.2.4](configuring-realms.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- Database Account Default Password Report [26.6.7.1](oracle-database-vault-reports.md)
+- database accounts
+  - backup DV_OWNER and DV_ACCTMGR [13.4](oracle-database-vault-schemas-roles-and-accounts.md)
+  - configuring Database Vault accounts as enterprise users [11.1.3](integrating-database-vault-with-other-oracle-products.md)
+  - counting privileges of [26.6.4.1](oracle-database-vault-reports.md)
+  - DBSNMP
+    - granted DV_MONITOR role [13.2.6](oracle-database-vault-schemas-roles-and-accounts.md)
+  - DVSYS [13.3](oracle-database-vault-schemas-roles-and-accounts.md)
+  - LBACSYS [13.3](oracle-database-vault-schemas-roles-and-accounts.md)
+  - monitoring [25.1](monitoring-oracle-database-vault.md)
+  - reports
+    - Accounts With DBA Roles Report [26.6.5.2](oracle-database-vault-reports.md)
+    - ALTER SYSTEM or ALTER SESSION Report [26.6.5.5](oracle-database-vault-reports.md)
+    - ANY System Privileges for Database Accounts Report [26.6.2.4](oracle-database-vault-reports.md)
+    - AUDIT Privileges Report [26.6.5.10](oracle-database-vault-reports.md)
+    - BECOME USER Report [26.6.5.4](oracle-database-vault-reports.md)
+    - Database Account Default Password Report [26.6.7.1](oracle-database-vault-reports.md)
+    - Database Account Status Report [26.6.7.2](oracle-database-vault-reports.md)
+    - Database Accounts With Catalog Roles Report [26.6.5.9](oracle-database-vault-reports.md)
+    - Direct and Indirect System Privileges By Database Account Report [26.6.2.2](oracle-database-vault-reports.md)
+    - Direct Object Privileges Report [26.6.1.3](oracle-database-vault-reports.md)
+    - Direct System Privileges By Database Account Report [26.6.2.1](oracle-database-vault-reports.md)
+    - Hierarchical System Privileges by Database Account Report [26.6.2.3](oracle-database-vault-reports.md)
+    - Object Access By PUBLIC Report [26.6.1.1](oracle-database-vault-reports.md)
+    - Object Access Not By PUBLIC Report [26.6.1.2](oracle-database-vault-reports.md)
+    - OS Security Vulnerability Privileges [26.6.5.11](oracle-database-vault-reports.md)
+    - Password History Access Report [26.6.5.6](oracle-database-vault-reports.md)
+    - Privileges Distribution By Grantee, Owner, Privilege Report [26.6.4.3](oracle-database-vault-reports.md)
+    - Privileges Distribution By Grantee, Owner Report [26.6.4.2](oracle-database-vault-reports.md)
+    - Privileges Distribution By Grantee Report [26.6.4.1](oracle-database-vault-reports.md)
+    - Roles/Accounts That Have a Given Role Report [26.6.5.8](oracle-database-vault-reports.md)
+    - Security Policy Exemption Report [26.6.5.3](oracle-database-vault-reports.md)
+    - WITH ADMIN Privilege Grants Report [26.6.5.1](oracle-database-vault-reports.md)
+    - WITH GRANT Privileges Report [26.6.5.7](oracle-database-vault-reports.md)
+  - solution for lockouts [B.1](disabling-and-enabling-oracle-database-vault.md)
+  - suggested [13.3](oracle-database-vault-schemas-roles-and-accounts.md)
+- Database Account Status Report [26.6.7.2](oracle-database-vault-reports.md)
+- Database Accounts With Catalog Roles Report [26.6.5.9](oracle-database-vault-reports.md)
+- database administrative operations [12](dba-operations-in-an-oracle-database-vault-environment.md)
+- database domains, Database_Domain default factor [7.2](configuring-factors.md)
+- database links
+  - function to return information about [17.3.11](oracle-database-vault-factor-apis.md)
+- database objects [13.1](oracle-database-vault-schemas-roles-and-accounts.md)
+  - See also: objects
+
+  <!-- -->
+
+  - Oracle Database Vault [13](oracle-database-vault-schemas-roles-and-accounts.md)
+  - reports
+    - Object Dependencies Report [26.6.1.4](oracle-database-vault-reports.md)
+- database options, installing [B.1](disabling-and-enabling-oracle-database-vault.md)
+- database roles
+  - about [13.2.1](oracle-database-vault-schemas-roles-and-accounts.md)
+  - counting privileges of [26.6.4.1](oracle-database-vault-reports.md)
+  - default Oracle Database Vault [13.2.1](oracle-database-vault-schemas-roles-and-accounts.md)
+  - DV_ACCTMGR
+    - about [13.2.14](oracle-database-vault-schemas-roles-and-accounts.md)
+  - DV_ADMIN [13.2.5](oracle-database-vault-schemas-roles-and-accounts.md)
+  - DV_AUDIT_CLEANUP [13.2.8](oracle-database-vault-schemas-roles-and-accounts.md)
+  - DV_DATAPUMP_NETWORK_LINK [13.2.9](oracle-database-vault-schemas-roles-and-accounts.md)
+  - DV_GOLDENGATE_ADMIN [13.2.11](oracle-database-vault-schemas-roles-and-accounts.md)
+  - DV_GOLDENGATE_REDO_ACCESS [13.2.12](oracle-database-vault-schemas-roles-and-accounts.md)
+  - DV_MONITOR [13.2.6](oracle-database-vault-schemas-roles-and-accounts.md)
+  - DV_OWNER [13.2.4](oracle-database-vault-schemas-roles-and-accounts.md)
+  - DV_PATCH_ADMIN [13.2.13](oracle-database-vault-schemas-roles-and-accounts.md)
+  - DV_POLICY_OWNER [13.2.17](oracle-database-vault-schemas-roles-and-accounts.md)
+  - DV_PUBLIC [13.2.18](oracle-database-vault-schemas-roles-and-accounts.md)
+  - DV_REALM_OWNER [13.2.15](oracle-database-vault-schemas-roles-and-accounts.md)
+  - DV_REALM_RESOURCE [13.2.16](oracle-database-vault-schemas-roles-and-accounts.md)
+  - DV_SECANALYST [13.2.7](oracle-database-vault-schemas-roles-and-accounts.md)
+  - DV_XSTREAM_ADMIN [13.2.10](oracle-database-vault-schemas-roles-and-accounts.md)
+  - enabled, determining with ROLE_IS_ENABLED [17.2.7](oracle-database-vault-factor-apis.md)
+  - granting Database Vault roles to users [13.2.3](oracle-database-vault-schemas-roles-and-accounts.md)
+  - monitoring [25.1](monitoring-oracle-database-vault.md)
+  - Oracle Database Vault, default [13.2.1](oracle-database-vault-schemas-roles-and-accounts.md)
+  - reports
+    - Accounts With DBA Roles Report [26.6.5.2](oracle-database-vault-reports.md)
+    - ALTER SYSTEM or ALTER SESSION Report [26.6.5.5](oracle-database-vault-reports.md)
+    - AUDIT Privileges Report [26.6.5.10](oracle-database-vault-reports.md)
+    - BECOME USER Report [26.6.5.4](oracle-database-vault-reports.md)
+    - Database Accounts With Catalog Roles Report [26.6.5.9](oracle-database-vault-reports.md)
+    - OS Security Vulnerability Privileges [26.6.5.11](oracle-database-vault-reports.md)
+    - Privileges Distribution By Grantee Report [26.6.4.1](oracle-database-vault-reports.md)
+    - Roles/Accounts That Have a Given Role Report [26.6.5.8](oracle-database-vault-reports.md)
+    - Security Policy Exemption Report [26.6.5.3](oracle-database-vault-reports.md)
+    - WITH ADMIN Privilege Grants Report [26.6.5.1](oracle-database-vault-reports.md)
+  - separation of duty enforcement [2.3](what-to-expect-after-you-enable-oracle-database-vault.md)
+- databases
+  - defined with factors [7.1](configuring-factors.md)
+  - domain, Domain default factor [7.2](configuring-factors.md)
+  - event monitoring [E.1.1](troubleshooting-oracle-database-vault.md)
+  - grouped schemas
+    - See realms [4.1.1](configuring-realms.md)
+  - host names, Database_Hostname default factor [7.2](configuring-factors.md)
+  - instance, retrieving information with functions [17.1](oracle-database-vault-factor-apis.md)
+  - instances
+    - Database_Instance default factor [7.2](configuring-factors.md)
+    - names, finding with DVF.F\$DATABASE_INSTANCE [17.3.6](oracle-database-vault-factor-apis.md)
+    - number, finding with DV_INSTANCE_NUM [15.2.3](oracle-database-vault-rule-set-apis.md)
+  - IP addresses
+    - Database_IP default factor [7.2](configuring-factors.md)
+    - retrieving with DVF.F\$DATABASE_IP [17.3.7](oracle-database-vault-factor-apis.md)
+  - monitoring events [E.1.1](troubleshooting-oracle-database-vault.md)
+  - names
+    - Database_Name default factor [7.2](configuring-factors.md)
+    - retrieving with DV_DATABASE_NAME [15.2.4](oracle-database-vault-rule-set-apis.md)
+    - retrieving with DVF.F\$DATABASE_NAME [17.3.8](oracle-database-vault-factor-apis.md)
+  - parameters
+    - Security Related Database Parameters Report [26.6.6.1](oracle-database-vault-reports.md)
+  - roles that do not exist [26.4.7](oracle-database-vault-reports.md)
+  - schema creation, finding with DVF.F\$IDENTIFICATION_TYPE [17.3.14](oracle-database-vault-factor-apis.md)
+  - schema creation, Identification_Type default factor [7.2](configuring-factors.md)
+  - user name, Session_User default factor [7.2](configuring-factors.md)
+- database sessions [7.3.3.2](configuring-factors.md)
+  - controlling with Allow Sessions default rule set [5.3](configuring-rule-sets.md)
+  - factor evaluation [7.6.1](configuring-factors.md)
+  - session user name, Proxy_User default factor [7.2](configuring-factors.md)
+- Database Vault
+  - See: Oracle Database Vault
+
+  <!-- -->
+
+  - MACADM procedure for deleting operations exception [21.1.17](oracle-database-vault-general-administrative-apis.md)
+- Database Vault Account Management realm [4.2.2](configuring-realms.md)
+- Database Vault command rule protections [6.1.1](configuring-command-rules.md)
+- Database Vault operations control
+  - adding users and packages to exception list, how works [12.9.2](dba-operations-in-an-oracle-database-vault-environment.md)
+  - adding users and packages to exception list, procedure [12.9.4](dba-operations-in-an-oracle-database-vault-environment.md)
+  - deleting users and packages from exception list [12.9.5](dba-operations-in-an-oracle-database-vault-environment.md)
+  - disabling [12.9.6](dba-operations-in-an-oracle-database-vault-environment.md)
+  - enabling [12.9.3](dba-operations-in-an-oracle-database-vault-environment.md)
+  - MACADM procedure enabling operations control [21.1.23](oracle-database-vault-general-administrative-apis.md)
+  - MACADM procedure for adding operations exception [21.1.1](oracle-database-vault-general-administrative-apis.md)
+  - MACADM procedure for disabling operations control [21.1.18](oracle-database-vault-general-administrative-apis.md)
+- Database Vault realm protection [4.1.1](configuring-realms.md)
+- Database Vault realm protections [4.1.1](configuring-realms.md)
+- data definition language (DDL)
+  - statement
+    - controlling with command rules [6.1.1](configuring-command-rules.md)
+- Data Definition Language (DDL) statements
+  - Database Vault authorization
+    - DBA_DV_DDL_AUTH view [24.9](oracle-database-vault-data-dictionary-views.md)
+    - granting [21.1.10](oracle-database-vault-general-administrative-apis.md)
+    - revoking [21.1.35](oracle-database-vault-general-administrative-apis.md)
+- Data Dictionary realm
+  - data masking [12.13.2](dba-operations-in-an-oracle-database-vault-environment.md)
+- data manipulation language (DML)
+  - statement
+    - checking with DBMS_MACUTL.CHECK_DVSYS_DML_ALLOWED function [20.2](oracle-database-vault-utility-apis.md)
+    - controlling with command rules [6.1.1](configuring-command-rules.md)
+- data masking
+  - about [12.13.1](dba-operations-in-an-oracle-database-vault-environment.md)
+  - adding users to realms for [12.13.3](dba-operations-in-an-oracle-database-vault-environment.md)
+  - creating command rule for [12.13.4](dba-operations-in-an-oracle-database-vault-environment.md)
+  - errors that can appear [12.13.1](dba-operations-in-an-oracle-database-vault-environment.md)
+- data Oracle Database Vault recognizes
+  - See: factors
+- DBA_DV_APP_EXCEPTION view [24.3](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_CODE view [24.4](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_COMMAND_RULE view [6.11](configuring-command-rules.md), [24.5](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_DATAPUMP_AUTH view [24.6](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_DBCAPTURE_AUTH view [24.7](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_DBREPLAY_AUTH view [24.8](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_DDL_AUTH view [24.9](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_DICTIONARY_ACCTS view [24.10](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_FACTOR_LINK [24.13](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_FACTOR_LINK view [24.13](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_FACTOR_TYPE view [24.12](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_FACTOR view [24.11](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_IDENTITY_MAP view [24.15](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_IDENTITY view [24.14](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_JOB_AUTH view [24.16](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_MAC_POLICY_FACTOR view [24.18](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_MAC_POLICY view [24.17](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_MAINTENANCE_AUTH view [24.19](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_ORADEBUG view [24.20](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_PATCH_ADMIN_AUDIT view [24.21](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_POLICY_LABEL view [24.23](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_POLICY_OBJECT view [24.24](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_POLICY_OWNER view [24.25](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_POLICY view [24.22](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_PREPROCESSOR_AUTH view [24.26](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_PROXY_AUTH view [24.27](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_PUB_PRIVS view [24.28](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_REALM_AUTH view [24.30](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_REALM_OBJECT view [24.31](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_REALM view [24.29](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_ROLE view [24.32](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_RULE_SET_RULE view [24.35](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_RULE_SET view [24.34](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_RULE view [24.33](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_SIMULATION_LOG view [24.36](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_STATUS view [24.37](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_TTS_AUTH view [24.38](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_USER_PRIVS_ALL view [24.40](oracle-database-vault-data-dictionary-views.md)
+- DBA_DV_USER_PRIVS view [24.39](oracle-database-vault-data-dictionary-views.md)
+- DBA_USERS_WITH_DEFPWD data dictionary view
+  - access to in Oracle Database Vault [2.4](what-to-expect-after-you-enable-oracle-database-vault.md)
+- DBA role
+  - impact of Oracle Database Vault installation [2.4](what-to-expect-after-you-enable-oracle-database-vault.md)
+- DBMS_FILE_TRANSFER package, guidelines on managing [D.6.2.1](oracle-database-vault-security-guidelines.md)
+- DBMS_MACADM.ADD_APP_EXCEPTION procedure [21.1.1](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.ADD_AUTH_TO_REALM procedure [14.1](oracle-database-vault-realm-apis.md)
+- DBMS_MACADM.ADD_CMD_RULE_TO_POLICY procedure [22.1](oracle-database-vault-policy-apis.md), [22.5](oracle-database-vault-policy-apis.md)
+- DBMS_MACADM.ADD_FACTOR_LINK procedure [17.1.1](oracle-database-vault-factor-apis.md)
+- DBMS_MACADM.ADD_NLS_DATA
+  - procedure [C.1](postinstallation-oracle-database-vault-procedures.md)
+- DBMS_MACADM.ADD_NLS_DATA procedure [21.1.2](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.ADD_OBJECT_TO_REALM procedure [14.2](oracle-database-vault-realm-apis.md)
+- DBMS_MACADM.ADD_OWNER_TO_POLICY procedure [22.2](oracle-database-vault-policy-apis.md)
+- DBMS_MACADM.ADD_POLICY_FACTOR procedure [17.1.2](oracle-database-vault-factor-apis.md)
+- DBMS_MACADM.ADD_REALM_TO_POLICY procedure [22.3](oracle-database-vault-policy-apis.md)
+- DBMS_MACADM.ADD_RULE_TO_RULE_SET procedure [15.1.1](oracle-database-vault-rule-set-apis.md)
+- DBMS_MACADM.AUTH_DATAPUMP_CREATE_USER procedure [21.1.3](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.AUTH_DATAPUMP_GRANT_ROLE procedure [21.1.5](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.AUTH_DATAPUMP_GRANT_SYSPRIV procedure [21.1.6](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.AUTH_DATAPUMP_GRANT procedure [21.1.4](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.AUTHORIZE_DATAPUMP_USER procedure [21.1.7](oracle-database-vault-general-administrative-apis.md), [21.1.32](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.AUTHORIZE_DBCAPTURE procedure [21.1.8](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.AUTHORIZE_DBREPLAY procedure [21.1.9](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.AUTHORIZE_DDL procedure [21.1.10](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.AUTHORIZE_DIAGNOSTIC_ADMIN procedure [21.1.11](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.AUTHORIZE_PREPROCESSOR procedure [21.1.13](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.AUTHORIZE_PROXY_USER procedure [21.1.14](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.AUTHORIZE_SCHEDULER_USER procedure [21.1.15](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.AUTHORIZE_TTS_USER procedure [21.1.16](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.CHANGE_IDENTITY_FACTOR procedure [17.1.3](oracle-database-vault-factor-apis.md)
+- DBMS_MACADM.CHANGE_IDENTITY_VALUE procedure [17.1.4](oracle-database-vault-factor-apis.md)
+- DBMS_MACADM.CREATE_COMMAND_RULE procedure [16.1](oracle-database-vault-command-rule-apis.md)
+- DBMS_MACADM.CREATE_CONNECT_COMMAND_RULE procedure [16.2](oracle-database-vault-command-rule-apis.md)
+- DBMS_MACADM.CREATE_DOMAIN_IDENTITY procedure [17.1.5](oracle-database-vault-factor-apis.md)
+- DBMS_MACADM.CREATE_FACTOR_TYPE procedure [17.1.7](oracle-database-vault-factor-apis.md)
+- DBMS_MACADM.CREATE_FACTOR procedure [17.1.6](oracle-database-vault-factor-apis.md)
+- DBMS_MACADM.CREATE_IDENTITY_MAP procedure [17.1.9](oracle-database-vault-factor-apis.md)
+- DBMS_MACADM.CREATE_IDENTITY procedure [17.1.8](oracle-database-vault-factor-apis.md)
+- DBMS_MACADM.CREATE_MAC_POLICY procedure [19.1](oracle-database-vault-oracle-label-security-apis.md)
+- DBMS_MACADM.CREATE_POLICY_LABEL procedure [19.2](oracle-database-vault-oracle-label-security-apis.md)
+- DBMS_MACADM.CREATE_POLICY procedure [22.4](oracle-database-vault-policy-apis.md)
+- DBMS_MACADM.CREATE_REALM procedure [14.3](oracle-database-vault-realm-apis.md)
+- DBMS_MACADM.CREATE_ROLE procedure [18.1.1](oracle-database-vault-secure-application-role-apis.md)
+- DBMS_MACADM.CREATE_RULE_SET procedure [15.1.3](oracle-database-vault-rule-set-apis.md)
+- DBMS_MACADM.CREATE_RULE procedure [15.1.2](oracle-database-vault-rule-set-apis.md)
+- DBMS_MACADM.CREATE_SESSION_EVENT_CMD_RULE procedure [16.3](oracle-database-vault-command-rule-apis.md)
+- DBMS_MACADM.CREATE_SYSTEM_EVENT_CMD_RULE procedure [16.4](oracle-database-vault-command-rule-apis.md)
+- DBMS_MACADM.DELETE_APP_EXCEPTION procedure [21.1.17](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.DELETE_AUTH_FROM_REALM procedure [14.4](oracle-database-vault-realm-apis.md)
+- DBMS_MACADM.DELETE_COMMAND_RULE procedure [16.5](oracle-database-vault-command-rule-apis.md)
+- DBMS_MACADM.DELETE_CONNECT_COMMAND_RULE procedure [16.6](oracle-database-vault-command-rule-apis.md)
+- DBMS_MACADM.DELETE_FACTOR_LINK procedure [17.1.11](oracle-database-vault-factor-apis.md)
+- DBMS_MACADM.DELETE_FACTOR_TYPE procedure [17.1.12](oracle-database-vault-factor-apis.md)
+- DBMS_MACADM.DELETE_FACTOR procedure [17.1.10](oracle-database-vault-factor-apis.md)
+- DBMS_MACADM.DELETE_IDENTITY_MAP procedure [17.1.14](oracle-database-vault-factor-apis.md)
+- DBMS_MACADM.DELETE_IDENTITY procedure [17.1.13](oracle-database-vault-factor-apis.md)
+- DBMS_MACADM.DELETE_MAC_POLICY_CASCADE procedure [19.3](oracle-database-vault-oracle-label-security-apis.md)
+- DBMS_MACADM.DELETE_OBJECT_FROM_REALM procedure [14.5](oracle-database-vault-realm-apis.md)
+- DBMS_MACADM.DELETE_OWNER_FROM_POLICY procedure [22.6](oracle-database-vault-policy-apis.md)
+- DBMS_MACADM.DELETE_POLICY_FACTOR procedure [19.4](oracle-database-vault-oracle-label-security-apis.md)
+- DBMS_MACADM.DELETE_POLICY_LABEL procedure [19.5](oracle-database-vault-oracle-label-security-apis.md)
+- DBMS_MACADM.DELETE_REALM_CASCADE procedure [14.7](oracle-database-vault-realm-apis.md)
+- DBMS_MACADM.DELETE_REALM_FROM_POLICY procedure [22.7](oracle-database-vault-policy-apis.md)
+- DBMS_MACADM.DELETE_REALM procedure [14.6](oracle-database-vault-realm-apis.md)
+- DBMS_MACADM.DELETE_ROLE procedure [18.1.2](oracle-database-vault-secure-application-role-apis.md)
+- DBMS_MACADM.DELETE_RULE_FROM_RULE_SET procedure [15.1.5](oracle-database-vault-rule-set-apis.md)
+- DBMS_MACADM.DELETE_RULE_SET procedure [15.1.6](oracle-database-vault-rule-set-apis.md)
+- DBMS_MACADM.DELETE_RULE procedure [15.1.4](oracle-database-vault-rule-set-apis.md)
+- DBMS_MACADM.DELETE_SESSION_EVENT_CMD_RULE procedure [16.7](oracle-database-vault-command-rule-apis.md)
+- DBMS_MACADM.DELETE_SYSTEM_EVENT_CMD_RULE procedure [16.8](oracle-database-vault-command-rule-apis.md)
+- DBMS_MACADM.DISABLE_APP_PROTECTION procedure [21.1.18](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.DISABLE_DV_DICTIONARY_ACCTS procedure [21.1.20](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.DISABLE_DV_PATCH_ADMIN_AUDIT procedure [21.1.21](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.DISABLE_DV procedure [21.1.19](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.DISABLE_ORADEBUG procedure [21.1.22](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.DROP_DOMAIN_IDENTITY procedure [17.1.15](oracle-database-vault-factor-apis.md)
+- DBMS_MACADM.DROP_POLICY procedure [22.8](oracle-database-vault-policy-apis.md)
+- DBMS_MACADM.ENABLE_DV_DICTIONARY_ACCTS procedure [21.1.25](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.ENABLE_DV procedure
+  - about [21.1.24](oracle-database-vault-general-administrative-apis.md)
+  - configuring and enabling Database Vault with [3.2.2](getting-started-with-oracle-database-vault.md), [3.2.4](getting-started-with-oracle-database-vault.md)
+  - registering Database Vault with [3.2.3](getting-started-with-oracle-database-vault.md), [3.3.1](getting-started-with-oracle-database-vault.md)
+- DBMS_MACADM.ENABLE_ORADEBUG procedure [21.1.27](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.ENSABLE_DV_PATCH_ADMIN_AUDIT procedure [21.1.26](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.GET_INSTANCE_INFO function [17.1.17](oracle-database-vault-factor-apis.md)
+- DBMS_MACADM.GET_SESSION_INFO function [17.1.16](oracle-database-vault-factor-apis.md)
+- DBMS_MACADM.RENAME_FACTOR_TYPE procedure [17.1.19](oracle-database-vault-factor-apis.md)
+- DBMS_MACADM.RENAME_FACTOR procedure [17.1.18](oracle-database-vault-factor-apis.md)
+- DBMS_MACADM.RENAME_POLICY procedure [22.9](oracle-database-vault-policy-apis.md)
+- DBMS_MACADM.RENAME_REALM procedure [14.8](oracle-database-vault-realm-apis.md)
+- DBMS_MACADM.RENAME_ROLE procedure [18.1.3](oracle-database-vault-secure-application-role-apis.md)
+- DBMS_MACADM.RENAME_RULE_SET procedure [15.1.8](oracle-database-vault-rule-set-apis.md)
+- DBMS_MACADM.RENAME_RULE procedure [15.1.7](oracle-database-vault-rule-set-apis.md)
+- DBMS_MACADM.UNAUTH_DATAPUMP_CREATE_USER procedure [21.1.28](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.UNAUTH_DATAPUMP_GRANT_ROLE procedure [21.1.30](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.UNAUTH_DATAPUMP_GRANT_SYSPRIV procedure [21.1.31](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.UNAUTH_DATAPUMP_GRANT procedure [21.1.29](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.UNAUTHORIZE_DBCAPTURE procedure [21.1.33](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.UNAUTHORIZE_DBREPLAY procedure [21.1.34](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.UNAUTHORIZE_DDL procedure [21.1.35](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.UNAUTHORIZE_DIAGNOSTIC_ADMIN procedure [21.1.36](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.UNAUTHORIZE_PREPROCESSOR procedure [21.1.38](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.UNAUTHORIZE_PROXY_USER procedure [21.1.39](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.UNAUTHORIZE_SCHEDULER_USER procedure [21.1.40](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.UNAUTHORIZE_TTS_USER procedure [21.1.41](oracle-database-vault-general-administrative-apis.md)
+- DBMS_MACADM.UPDATE_COMMAND_RULE procedure [16.9](oracle-database-vault-command-rule-apis.md)
+- DBMS_MACADM.UPDATE_CONNECT_COMMAND_RULE procedure [16.10](oracle-database-vault-command-rule-apis.md)
+- DBMS_MACADM.UPDATE_FACTOR_TYPE procedure [17.1.21](oracle-database-vault-factor-apis.md)
+- DBMS_MACADM.UPDATE_FACTOR procedure [17.1.20](oracle-database-vault-factor-apis.md)
+- DBMS_MACADM.UPDATE_IDENTITY procedure [17.1.22](oracle-database-vault-factor-apis.md)
+- DBMS_MACADM.UPDATE_MAC_POLICY procedure [19.6](oracle-database-vault-oracle-label-security-apis.md)
+- DBMS_MACADM.UPDATE_POLICY_DESCRIPTION procedure [22.10](oracle-database-vault-policy-apis.md)
+- DBMS_MACADM.UPDATE_POLICY_STATE procedure [22.11](oracle-database-vault-policy-apis.md)
+- DBMS_MACADM.UPDATE_REALM_AUTH procedure [14.10](oracle-database-vault-realm-apis.md)
+- DBMS_MACADM.UPDATE_REALM procedure [14.9](oracle-database-vault-realm-apis.md)
+- DBMS_MACADM.UPDATE_ROLE procedure [18.1.4](oracle-database-vault-secure-application-role-apis.md)
+- DBMS_MACADM.UPDATE_RULE_SET procedure [15.1.10](oracle-database-vault-rule-set-apis.md)
+- DBMS_MACADM.UPDATE_RULE procedure [15.1.9](oracle-database-vault-rule-set-apis.md)
+- DBMS_MACADM.UPDATE_SESSION_EVENT_CMD_RULE procedure [16.11](oracle-database-vault-command-rule-apis.md)
+- DBMS_MACADM.UPDATE_SYSTEM_EVENT_CMD_RULE procedure [16.12](oracle-database-vault-command-rule-apis.md)
+- DBMS_MACADM package
+  - about [23.1](oracle-database-vault-api-reference.md)
+  - command rule procedures, listed [16](oracle-database-vault-command-rule-apis.md)
+  - factor procedures, listed [17.1](oracle-database-vault-factor-apis.md)
+  - Oracle Label Security policy procedures, listed [19](oracle-database-vault-oracle-label-security-apis.md)
+  - realm procedures, listed [14](oracle-database-vault-realm-apis.md)
+  - rule set procedures, listed [15.1](oracle-database-vault-rule-set-apis.md)
+  - secure application role procedures, listed [18.1](oracle-database-vault-secure-application-role-apis.md)
+- DBMS_MACADM PL/SQL package contents [23.1](oracle-database-vault-api-reference.md)
+- DBMS_MACSEC_ROLES.CAN_SET_ROLE function [18.2.1](oracle-database-vault-secure-application-role-apis.md)
+- DBMS_MACSEC_ROLES.SET_ROLE procedure [18.2.2](oracle-database-vault-secure-application-role-apis.md)
+- DBMS_MACSEC_ROLES package
+  - about [18.2](oracle-database-vault-secure-application-role-apis.md)
+  - functions, listed [18.2](oracle-database-vault-secure-application-role-apis.md)
+- DBMS_MACUTL.CHECK_DVSYS_DML_ALLOWED procedure [20.2.1](oracle-database-vault-utility-apis.md)
+- DBMS_MACUTL.GET_CODE_VALUE function [20.2.2](oracle-database-vault-utility-apis.md)
+- DBMS_MACUTL.GET_DAY function [20.2.6](oracle-database-vault-utility-apis.md)
+- DBMS_MACUTL.GET_HOUR function [20.2.5](oracle-database-vault-utility-apis.md)
+- DBMS_MACUTL.GET_MINUTE function [20.2.4](oracle-database-vault-utility-apis.md)
+- DBMS_MACUTL.GET_MONTH function [20.2.7](oracle-database-vault-utility-apis.md)
+- DBMS_MACUTL.GET_SECOND function [20.2.3](oracle-database-vault-utility-apis.md)
+- DBMS_MACUTL.GET_YEAR function [20.2.8](oracle-database-vault-utility-apis.md)
+- DBMS_MACUTL.IS_ALPHA function [20.2.9](oracle-database-vault-utility-apis.md)
+- DBMS_MACUTL.IS_DIGIT function [20.2.10](oracle-database-vault-utility-apis.md)
+- DBMS_MACUTL.IS_DVSYS_OWNER function [20.2.11](oracle-database-vault-utility-apis.md)
+- DBMS_MACUTL.IS_OLS_INSTALLED_VARCHAR function [20.2.13](oracle-database-vault-utility-apis.md)
+- DBMS_MACUTL.IS_OLS_INSTALLED function [20.2.12](oracle-database-vault-utility-apis.md)
+- DBMS_MACUTL.ROLE_GRANTED_ENABLED_VARCHAR function [20.2.14](oracle-database-vault-utility-apis.md)
+- DBMS_MACUTL.USER_HAS_OBJECT_PRIVILEGE function [20.2.15](oracle-database-vault-utility-apis.md)
+- DBMS_MACUTL.USER_HAS_ROLE_VARCHAR function [20.2.17](oracle-database-vault-utility-apis.md)
+- DBMS_MACUTL.USER_HAS_ROLE function [20.2.16](oracle-database-vault-utility-apis.md)
+- DBMS_MACUTL.USER_HAS_SYSTEM_PRIVILEGE function [20.2.18](oracle-database-vault-utility-apis.md)
+- DBMS_MACUTL package
+  - about [20](oracle-database-vault-utility-apis.md)
+  - constants (fields)
+    - examples [20.1.2](oracle-database-vault-utility-apis.md)
+    - listed [20.1.1](oracle-database-vault-utility-apis.md)
+  - procedures and functions, listed [20.2](oracle-database-vault-utility-apis.md)
+- DBMS_MACUTL PL/SQL package contents [23.3](oracle-database-vault-api-reference.md)
+- DBSNMP schema realm protection [4.2.3](configuring-realms.md)
+- DBSNMP user account
+  - granted DV_MONITOR role [13.2.6](oracle-database-vault-schemas-roles-and-accounts.md)
+- DDL operations
+  - DV_PATCH_ADMIN impact [12.2.2](dba-operations-in-an-oracle-database-vault-environment.md)
+  - performing in Oracle Database Vault [12.2](dba-operations-in-an-oracle-database-vault-environment.md)
+  - restrictions [12.2.1](dba-operations-in-an-oracle-database-vault-environment.md)
+- deinstallation [B](disabling-and-enabling-oracle-database-vault.md)
+- deinstalling Oracle Database Vault [C.2](postinstallation-oracle-database-vault-procedures.md)
+- DELETE_CATALOG_ROLE role [26.6.5.9](oracle-database-vault-reports.md)
+- deleting event command rules [16.7](oracle-database-vault-command-rule-apis.md)
+- Denial of Service (DoS) attacks
+  - reports
+    - System Resource Limits Report [26.6.6.3](oracle-database-vault-reports.md)
+    - Tablespace Quotas Report [26.6.9.6](oracle-database-vault-reports.md)
+- diagnostic view and table queries
+  - MACADM procedure for authorization [21.1.11](oracle-database-vault-general-administrative-apis.md)
+  - MACADM procedure for revoking authorization [21.1.36](oracle-database-vault-general-administrative-apis.md)
+- Direct and Indirect System Privileges By Database Account Report [26.6.2.2](oracle-database-vault-reports.md)
+- Direct Object Privileges Report [26.6.1.3](oracle-database-vault-reports.md)
+- direct system privileges [26.6.2.3](oracle-database-vault-reports.md)
+- Direct System Privileges By Database Account Report [26.6.2.1](oracle-database-vault-reports.md)
+- disabling system features with Disabled default rule set [5.3](configuring-rule-sets.md)
+- domains
+  - defined with factors [7.1](configuring-factors.md)
+  - finding database domain with DVF.F\$DATABASE_DOMAIN [17.3.4](oracle-database-vault-factor-apis.md)
+  - finding with DVF.F\$DOMAIN [17.3.9](oracle-database-vault-factor-apis.md)
+- DROP ROLE statement
+  - monitoring [25.1](monitoring-oracle-database-vault.md)
+- DROP USER statement
+  - monitoring [25.1](monitoring-oracle-database-vault.md)
+- dual key connection, dual key security
+  - See: two-person integrity (TPI)
+- DV_ACCTMGR role [E.4.2](troubleshooting-oracle-database-vault.md)
+  - about [13.2.14](oracle-database-vault-schemas-roles-and-accounts.md)
+  - backup account [13.4](oracle-database-vault-schemas-roles-and-accounts.md)
+  - creating profile to protect user granted this role [3.2.5](getting-started-with-oracle-database-vault.md), [3.3.2](getting-started-with-oracle-database-vault.md)
+  - Database Vault disabled [13.2.14](oracle-database-vault-schemas-roles-and-accounts.md)
+  - GRANT and REVOKE operations affected by [13.2.14](oracle-database-vault-schemas-roles-and-accounts.md)
+  - privileges associated with [13.2.14](oracle-database-vault-schemas-roles-and-accounts.md)
+  - realm protection [4.2.2](configuring-realms.md)
+  - system privileges of [13.2.2](oracle-database-vault-schemas-roles-and-accounts.md)
+- DV_ADMIN role
+  - about [13.2.5](oracle-database-vault-schemas-roles-and-accounts.md)
+  - changing password for user granted DV_ADMIN [13.2.5](oracle-database-vault-schemas-roles-and-accounts.md)
+  - Database Vault disabled [13.2.4](oracle-database-vault-schemas-roles-and-accounts.md), [13.2.5](oracle-database-vault-schemas-roles-and-accounts.md)
+  - GRANT and REVOKE operations affected by [13.2.5](oracle-database-vault-schemas-roles-and-accounts.md)
+  - privileges associated with [13.2.5](oracle-database-vault-schemas-roles-and-accounts.md)
+- DV_AUDIT_CLEANUP role
+  - about [13.2.8](oracle-database-vault-schemas-roles-and-accounts.md)
+  - Database Vault disabled [13.2.6](oracle-database-vault-schemas-roles-and-accounts.md), [13.2.7](oracle-database-vault-schemas-roles-and-accounts.md), [13.2.8](oracle-database-vault-schemas-roles-and-accounts.md)
+  - GRANT and REVOKE operations affected by [13.2.8](oracle-database-vault-schemas-roles-and-accounts.md)
+  - privileges associated with [13.2.8](oracle-database-vault-schemas-roles-and-accounts.md)
+  - system privileges of [13.2.2](oracle-database-vault-schemas-roles-and-accounts.md)
+- DV_DATAPUMP_NETWORK_LINK role
+  - about [13.2.9](oracle-database-vault-schemas-roles-and-accounts.md)
+  - Database Vault disabled [13.2.9](oracle-database-vault-schemas-roles-and-accounts.md)
+  - GRANT and REVOKE operations affected by [13.2.9](oracle-database-vault-schemas-roles-and-accounts.md)
+  - privileges associated with [13.2.9](oracle-database-vault-schemas-roles-and-accounts.md)
+- DV_GOLDENDATE_REDO role
+  - privileges associated with [13.2.12](oracle-database-vault-schemas-roles-and-accounts.md)
+- DV_GOLDENDGATE_ADMIN role
+  - Database Vault disabled [13.2.11](oracle-database-vault-schemas-roles-and-accounts.md)
+- DV_GOLDENGATE_ADMIN role [13.2.11](oracle-database-vault-schemas-roles-and-accounts.md)
+  - GRANT and REVOKE operations affected by [13.2.11](oracle-database-vault-schemas-roles-and-accounts.md)
+  - privileges associated with [13.2.11](oracle-database-vault-schemas-roles-and-accounts.md)
+- DV_GOLDENGATE_REDO_ACCESS role [13.2.12](oracle-database-vault-schemas-roles-and-accounts.md)
+  - Database Vault disabled [13.2.12](oracle-database-vault-schemas-roles-and-accounts.md)
+  - GRANT and REVOKE operations affected by [13.2.12](oracle-database-vault-schemas-roles-and-accounts.md)
+- DV_MONITOR role
+  - about [13.2.6](oracle-database-vault-schemas-roles-and-accounts.md)
+  - Database Vault disabled [13.2.6](oracle-database-vault-schemas-roles-and-accounts.md)
+  - GRANT and REVOKE operations affected by [13.2.6](oracle-database-vault-schemas-roles-and-accounts.md)
+  - privileges associated with [13.2.6](oracle-database-vault-schemas-roles-and-accounts.md)
+  - system privileges of [13.2.2](oracle-database-vault-schemas-roles-and-accounts.md)
+- DV_OWNER role [E.4.1](troubleshooting-oracle-database-vault.md)
+  - about [13.2.4](oracle-database-vault-schemas-roles-and-accounts.md)
+  - backup account [13.4](oracle-database-vault-schemas-roles-and-accounts.md)
+  - changing password for user granted DV_OWNER [13.2.4](oracle-database-vault-schemas-roles-and-accounts.md)
+  - creating profile to protect user granted this role [3.2.5](getting-started-with-oracle-database-vault.md), [3.3.2](getting-started-with-oracle-database-vault.md)
+  - Database Vault disabled [13.2.4](oracle-database-vault-schemas-roles-and-accounts.md)
+  - GRANT and REVOKE operations affected by [13.2.4](oracle-database-vault-schemas-roles-and-accounts.md)
+  - privileges associated with [13.2.4](oracle-database-vault-schemas-roles-and-accounts.md)
+  - system privileges of [13.2.2](oracle-database-vault-schemas-roles-and-accounts.md)
+- DV_PATCH_ADMIN role [13.2.13](oracle-database-vault-schemas-roles-and-accounts.md)
+  - Database Vault disabled [13.2.13](oracle-database-vault-schemas-roles-and-accounts.md)
+  - DDL operations impact [12.2.2](dba-operations-in-an-oracle-database-vault-environment.md)
+  - GRANT and REVOKE operations affected by [13.2.13](oracle-database-vault-schemas-roles-and-accounts.md)
+  - privileges associated with [13.2.13](oracle-database-vault-schemas-roles-and-accounts.md)
+  - SYS user [12.16](dba-operations-in-an-oracle-database-vault-environment.md)
+- DV_POLICY_OWNER role
+  - about [13.2.17](oracle-database-vault-schemas-roles-and-accounts.md)
+  - GRANT and REVOKE operations affected by [13.2.17](oracle-database-vault-schemas-roles-and-accounts.md)
+  - privileges associated with [13.2.17](oracle-database-vault-schemas-roles-and-accounts.md)
+  - system privileges of [13.2.2](oracle-database-vault-schemas-roles-and-accounts.md)
+- DV_PUBLIC role [13.2.18](oracle-database-vault-schemas-roles-and-accounts.md)
+  - system privileges of [13.2.2](oracle-database-vault-schemas-roles-and-accounts.md)
+- DV_REALM_OWNER role [13.2.15](oracle-database-vault-schemas-roles-and-accounts.md)
+  - Database Vault disabled [13.2.15](oracle-database-vault-schemas-roles-and-accounts.md)
+  - GRANT and REVOKE operations affected by [13.2.15](oracle-database-vault-schemas-roles-and-accounts.md)
+  - privileges associated with [13.2.15](oracle-database-vault-schemas-roles-and-accounts.md)
+  - system privileges of [13.2.2](oracle-database-vault-schemas-roles-and-accounts.md)
+- DV_REALM_RESOURCE role [13.2.16](oracle-database-vault-schemas-roles-and-accounts.md)
+  - Database Vault disabled [13.2.16](oracle-database-vault-schemas-roles-and-accounts.md)
+  - GRANT and REVOKE operations affected by [13.2.16](oracle-database-vault-schemas-roles-and-accounts.md)
+  - privileges associated with [13.2.16](oracle-database-vault-schemas-roles-and-accounts.md)
+  - system privileges of [13.2.2](oracle-database-vault-schemas-roles-and-accounts.md)
+- DV_SECANALYST role
+  - about [13.2.7](oracle-database-vault-schemas-roles-and-accounts.md)
+  - Database Vault disabled [13.2.7](oracle-database-vault-schemas-roles-and-accounts.md)
+  - GRANT and REVOKE operations affected by [13.2.7](oracle-database-vault-schemas-roles-and-accounts.md)
+  - privileges associated with [13.2.7](oracle-database-vault-schemas-roles-and-accounts.md)
+  - system privileges of [13.2.2](oracle-database-vault-schemas-roles-and-accounts.md)
+- DV_XSTREAM_ADMIN role [13.2.10](oracle-database-vault-schemas-roles-and-accounts.md)
+  - Database Vault disabled [13.2.10](oracle-database-vault-schemas-roles-and-accounts.md)
+  - GRANT and REVOKE operations affected by [13.2.10](oracle-database-vault-schemas-roles-and-accounts.md)
+  - privileges associated with [13.2.10](oracle-database-vault-schemas-roles-and-accounts.md)
+- DVF account
+  - auditing policy [A.5](auditing-oracle-database-vault.md)
+  - database accounts [13.3](oracle-database-vault-schemas-roles-and-accounts.md)
+- DVF PL/SQL interface contents [23.5](oracle-database-vault-api-reference.md)
+- DVF schema [17.3](oracle-database-vault-factor-apis.md)
+  - about [13.1.2](oracle-database-vault-schemas-roles-and-accounts.md)
+  - auditing policy [A.5](auditing-oracle-database-vault.md)
+  - DBA_DV_DICTIONARY_ACCTS view [24.10](oracle-database-vault-data-dictionary-views.md)
+  - PDBs [13.1.2](oracle-database-vault-schemas-roles-and-accounts.md)
+  - protecting [21.1.20](oracle-database-vault-general-administrative-apis.md)
+  - realm protection [4.2.1](configuring-realms.md)
+- DVSYS.DBA_DV_FACTOR_LINK view [24.13](oracle-database-vault-data-dictionary-views.md)
+- DVSYS.DV\$CONFIGURATION_AUDIT view [24.41](oracle-database-vault-data-dictionary-views.md)
+- DVSYS.DV\$ENFORCEMENT_AUDIT view [24.42](oracle-database-vault-data-dictionary-views.md)
+- DVSYS.DV\$REALM view [24.43](oracle-database-vault-data-dictionary-views.md)
+- DVSYS.POLICY_OWNER_POLICY view [24.45](oracle-database-vault-data-dictionary-views.md)
+- DVSYS.POLICY_OWNER_REALM_AUTH view [24.47](oracle-database-vault-data-dictionary-views.md)
+- DVSYS.POLICY_OWNER_REALM_OBJECT view [24.48](oracle-database-vault-data-dictionary-views.md)
+- DVSYS.POLICY_OWNER_REALM view [24.46](oracle-database-vault-data-dictionary-views.md)
+- DVSYS.POLICY_OWNER_RULE_SET_RULE view [24.51](oracle-database-vault-data-dictionary-views.md)
+- DVSYS.POLICY_OWNER_RULE_SET view [24.50](oracle-database-vault-data-dictionary-views.md)
+- DVSYS.POLICY_OWNER_RULE view [24.49](oracle-database-vault-data-dictionary-views.md)
+- DVSYS account [13.3](oracle-database-vault-schemas-roles-and-accounts.md)
+- DVSYS schema
+  - about [13.1.1](oracle-database-vault-schemas-roles-and-accounts.md)
+  - auditing policy [A.5](auditing-oracle-database-vault.md)
+  - DBA_DV_DICTIONARY_ACCTS view [24.10](oracle-database-vault-data-dictionary-views.md)
+  - DV_OWNER role [13.2.4](oracle-database-vault-schemas-roles-and-accounts.md)
+  - DV_POLICY_OWNER role [13.2.17](oracle-database-vault-schemas-roles-and-accounts.md)
+  - PDBs [13.1.1](oracle-database-vault-schemas-roles-and-accounts.md), [13.2.1](oracle-database-vault-schemas-roles-and-accounts.md)
+  - protecting [21.1.20](oracle-database-vault-general-administrative-apis.md)
+  - realm protection [4.2.1](configuring-realms.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- email alert in rule set [5.9.1](configuring-rule-sets.md)
+- ENABLE_APP_PROTECTION procedure [21.1.23](oracle-database-vault-general-administrative-apis.md)
+- enabling system features with Enabled default rule set [5.3](configuring-rule-sets.md)
+- encrypted information [26.6.9.5](oracle-database-vault-reports.md)
+- enterprise identities, Enterprise_Identity default factor [7.2](configuring-factors.md)
+- Enterprise Manager
+  - See: Oracle Enterprise Manager
+- enterprise user security
+  - configuring Database Vault accounts for [11.1.3](integrating-database-vault-with-other-oracle-products.md)
+- errors
+  - factor error options [7.3.4.2](configuring-factors.md)
+- event handler
+  - rule sets [5.4](configuring-rule-sets.md)
+- example [6.1.3.2](configuring-command-rules.md)
+- examples [7.6.3](configuring-factors.md)
+  - See also: tutorials
+
+  <!-- -->
+
+  - DBMS_MACUTL constants [20.1.2](oracle-database-vault-utility-apis.md)
+  - realms [4.12](configuring-realms.md)
+  - separation of duty matrix [D.1.3](oracle-database-vault-security-guidelines.md)
+  - trace files [E.1.6.4](troubleshooting-oracle-database-vault.md), [E.1.6.5](troubleshooting-oracle-database-vault.md), [E.1.6.6](troubleshooting-oracle-database-vault.md)
+- EXECUTE_CATALOG_ROLE role [26.6.5.9](oracle-database-vault-reports.md)
+  - impact of Oracle Database Vault installation [2.4](what-to-expect-after-you-enable-oracle-database-vault.md)
+- Execute Privileges to Strong SYS Packages Report [26.6.3.1](oracle-database-vault-reports.md)
+- EXEMPT ACCESS POLICY system privilege [26.6.5.3](oracle-database-vault-reports.md)
+- exporting data
+  - See: Oracle Data Pump
+- external network services, fine-grained access to
+  - example using email alert [5.9.1](configuring-rule-sets.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- Factor Audit Report [26.5.3](oracle-database-vault-reports.md)
+- Factor Configuration Issues Report [26.4.4](oracle-database-vault-reports.md)
+- factors [7.3.4.1](configuring-factors.md)
+  - See also: rule sets
+
+  <!-- -->
+
+  - about [7.1](configuring-factors.md)
+  - assignment [7.3.3.7](configuring-factors.md)
+    - disabled rule set [26.4.4](oracle-database-vault-reports.md)
+    - incomplete rule set [26.4.4](oracle-database-vault-reports.md)
+    - validate [7.3.3.7](configuring-factors.md)
+  - assignment operation [26.5.3](oracle-database-vault-reports.md)
+  - audit events, custom [A.3.1](auditing-oracle-database-vault.md)
+  - audit options [7.3.4.3](configuring-factors.md)
+  - child factors
+    - about [7.3.3.1](configuring-factors.md)
+    - Factor Configuration Issues Report [26.4.4](oracle-database-vault-reports.md)
+    - mapping [7.4.6.1](configuring-factors.md)
+  - creating [7.3.1](configuring-factors.md)
+  - creating names [7.3.2](configuring-factors.md)
+  - data dictionary views [7.11](configuring-factors.md)
+  - DBA_DV_FACTOR view [24.11](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_SIMULATION_LOG view [24.36](oracle-database-vault-data-dictionary-views.md)
+  - DBMS_MACUTL constants, example of [20.1.4](oracle-database-vault-utility-apis.md)
+  - default factors [7.2](configuring-factors.md)
+  - deleting [7.5](configuring-factors.md)
+  - domain, finding with DVF.F\$DOMAIN [17.3.9](oracle-database-vault-factor-apis.md)
+  - error options [7.3.4.2](configuring-factors.md)
+  - evaluate [7.3.3.3](configuring-factors.md)
+  - evaluation operation [26.5.3](oracle-database-vault-reports.md)
+  - factor-identity pair mapping [7.4.6.2](configuring-factors.md)
+  - factor type
+    - about [7.3.2](configuring-factors.md)
+    - selecting [7.3.2](configuring-factors.md)
+  - functionality [7.6](configuring-factors.md)
+  - functions
+    - DBMS_MACUTL (utility) [20](oracle-database-vault-utility-apis.md)
+    - DBMS_MACUTL constants (fields) [20.1.1](oracle-database-vault-utility-apis.md)
+  - guidelines [7.9](configuring-factors.md)
+  - identifying using child factors [7.4.6.1](configuring-factors.md)
+  - identities
+    - about [7.3.3.2](configuring-factors.md), [7.4.1](configuring-factors.md)
+    - adding to factor [7.4](configuring-factors.md)
+    - assigning [7.3.3.3](configuring-factors.md)
+    - configuring [7.4.4](configuring-factors.md)
+    - creating [7.4.4](configuring-factors.md)
+    - database session [7.3.3.2](configuring-factors.md)
+    - data dictionary views [7.11](configuring-factors.md)
+    - deleting [7.4.5](configuring-factors.md)
+    - enterprise-wide users [17.3.9](oracle-database-vault-factor-apis.md)
+    - how factor identities work [7.3.3.2](configuring-factors.md)
+    - labels [7.3.3.4](configuring-factors.md)
+    - mapping, about [7.4.6.1](configuring-factors.md)
+    - mapping, identified [7.3.3.1](configuring-factors.md)
+    - mapping, procedure [7.4.6.2](configuring-factors.md)
+    - mapping, tutorial [7.8.1](configuring-factors.md)
+    - Oracle Label Security labels [7.3.3.4](configuring-factors.md)
+    - reports [7.11](configuring-factors.md)
+    - resolving [7.3.3.1](configuring-factors.md)
+    - retrieval methods [7.3.3.5](configuring-factors.md)
+    - setting dynamically [17.2.2](oracle-database-vault-factor-apis.md)
+    - trust levels [7.3.3.2](configuring-factors.md), [7.4.4](configuring-factors.md)
+    - with Oracle Label Security [7.3.3.2](configuring-factors.md)
+  - initialization, command rules [6.1.1](configuring-command-rules.md)
+  - invalid audit options [26.4.4](oracle-database-vault-reports.md)
+  - label [26.4.4](oracle-database-vault-reports.md)
+  - naming conventions [7.3.2](configuring-factors.md)
+  - parent factors [7.3.3.1](configuring-factors.md)
+  - performance effect [7.10](configuring-factors.md)
+  - procedures
+    - DBMS_MACADM (configuration) [17.1](oracle-database-vault-factor-apis.md)
+  - process flow [7.6](configuring-factors.md)
+  - reports [7.11](configuring-factors.md)
+  - retrieving [7.6.2](configuring-factors.md)
+  - retrieving with GET_FACTOR [17.2.3](oracle-database-vault-factor-apis.md)
+  - rule sets
+    - selecting [7.3.4.1](configuring-factors.md)
+  - setting [7.6.3](configuring-factors.md)
+  - setting with SET_FACTOR [17.2.2](oracle-database-vault-factor-apis.md)
+  - troubleshooting
+    - auditing report [26.5.3](oracle-database-vault-reports.md)
+    - configuration problems [E.3](troubleshooting-oracle-database-vault.md)
+    - tips [E.2](troubleshooting-oracle-database-vault.md)
+  - type (category of factor) [7.3.2](configuring-factors.md)
+  - validating [7.3.3.7](configuring-factors.md)
+  - values (identities) [7.1](configuring-factors.md)
+  - views
+    - DBA_DV_FACTOR_LINK [24.13](oracle-database-vault-data-dictionary-views.md)
+    - DBA_DV_FACTOR_TYPE [24.12](oracle-database-vault-data-dictionary-views.md)
+    - DBA_DV_IDENTITY [24.14](oracle-database-vault-data-dictionary-views.md)
+    - DBA_DV_IDENTITY_MAP [24.15](oracle-database-vault-data-dictionary-views.md)
+    - DBA_DV_MAC_POLICY_FACTOR [24.18](oracle-database-vault-data-dictionary-views.md)
+  - ways to assign [7.3.3.2](configuring-factors.md)
+- Factor Without Identities Report [26.4.5](oracle-database-vault-reports.md)
+- FLASHBACK TABLE SQL statement [4.1.1](configuring-realms.md)
+- functions
+  - command rules
+    - DBMS_MACUTL (utility) [20](oracle-database-vault-utility-apis.md)
+  - DVSYS schema enabling [17.2](oracle-database-vault-factor-apis.md)
+  - factors
+    - DBMS_MACUTL (utility) [20](oracle-database-vault-utility-apis.md)
+  - Oracle Label Security policy
+    - DBMS_MACADM (configuration) [19](oracle-database-vault-oracle-label-security-apis.md)
+  - realms
+    - DBMS_MACUTL (utility) [20](oracle-database-vault-utility-apis.md)
+  - rule sets
+    - DBMS_MACADM (configuration) [15.1](oracle-database-vault-rule-set-apis.md)
+    - DBMS_MACUTL (utility) [20](oracle-database-vault-utility-apis.md)
+    - PL/SQL functions for inspecting SQL [15.2](oracle-database-vault-rule-set-apis.md)
+  - secure application roles
+    - DBMS_MACADM (configuration) [18.1](oracle-database-vault-secure-application-role-apis.md)
+    - DBMS_MACSEC_ROLES (configuration) [18.2](oracle-database-vault-secure-application-role-apis.md)
+    - DBMS_MACUTL (utility) [20](oracle-database-vault-utility-apis.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- general security reports [26.6](oracle-database-vault-reports.md)
+- GRANT statement
+  - monitoring [25.1](monitoring-oracle-database-vault.md)
+- guidelines
+  - ALTER SESSION privilege [D.6.6.1](oracle-database-vault-security-guidelines.md)
+  - ALTER SYSTEM privilege [D.6.6.1](oracle-database-vault-security-guidelines.md)
+  - backup DV_OWNER and DV_ACCTMGR accounts [13.4](oracle-database-vault-schemas-roles-and-accounts.md)
+  - command rules [6.9](configuring-command-rules.md)
+  - CREATE ANY JOB privilege [D.6.3](oracle-database-vault-security-guidelines.md)
+  - CREATE EXTERNAL JOB privilege [D.6.4](oracle-database-vault-security-guidelines.md)
+  - CREATE JOB privilege [D.6.3](oracle-database-vault-security-guidelines.md)
+  - DBMS_FILE_TRANSFER package [D.6.2.1](oracle-database-vault-security-guidelines.md)
+  - factors [7.9](configuring-factors.md)
+  - general security [D](oracle-database-vault-security-guidelines.md)
+  - LogMiner packages [D.6.5](oracle-database-vault-security-guidelines.md)
+  - managing DV_OWNER and DV_ACCTMGR accounts [13.3](oracle-database-vault-schemas-roles-and-accounts.md)
+  - operating system access [D.2.4](oracle-database-vault-security-guidelines.md)
+  - Oracle software owner [D.4.2](oracle-database-vault-security-guidelines.md)
+  - performance effect [7.10](configuring-factors.md)
+  - realms [4.14](configuring-realms.md)
+  - root access [D.2.4](oracle-database-vault-security-guidelines.md)
+  - root user access [D.4.1](oracle-database-vault-security-guidelines.md)
+  - rule sets [5.11](configuring-rule-sets.md)
+  - secure application roles [8.4](configuring-secure-application-roles-for-oracle-database-vault.md)
+  - SYSDBA access [D.4.3](oracle-database-vault-security-guidelines.md)
+  - SYSDBA privilege, limiting [D.2.3](oracle-database-vault-security-guidelines.md)
+  - SYSOPER access [D.4.4](oracle-database-vault-security-guidelines.md)
+  - SYSTEM schema and application tables [D.2.2](oracle-database-vault-security-guidelines.md)
+  - SYSTEM user account [D.2.1](oracle-database-vault-security-guidelines.md)
+  - trusted accounts and roles [D.3](oracle-database-vault-security-guidelines.md)
+  - using Database Vault in a production environment [D.5](oracle-database-vault-security-guidelines.md)
+  - UTL_FILE package [D.6.2.1](oracle-database-vault-security-guidelines.md)
+
+------------------------------------------------------------------------
+
+## H
+
+- hackers
+  - See: security attacks
+- Hierarchical System Privileges by Database Account Report [26.6.2.3](oracle-database-vault-reports.md)
+- host names
+  - finding with DVF.F\$DATABASE_HOSTNAME [17.3.5](oracle-database-vault-factor-apis.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- identities
+  - See: factors, identities
+- Identity Configuration Issues Report [26.4.6](oracle-database-vault-reports.md)
+- IDLE_TIME resource profile [26.6.6.2](oracle-database-vault-reports.md)
+- IMP_FULL_DATABASE role
+  - impact of Oracle Database Vault installation [2.4](what-to-expect-after-you-enable-oracle-database-vault.md)
+- importing data
+  - See: Oracle Data Pump
+- incomplete rule set [26.4.4](oracle-database-vault-reports.md)
+  - role enablement [26.4.7](oracle-database-vault-reports.md)
+- Information Lifecycle Management [4.1.1](configuring-realms.md)
+  - authorizations, about [12.6.1](dba-operations-in-an-oracle-database-vault-environment.md)
+  - granting users authorization for [12.6.2](dba-operations-in-an-oracle-database-vault-environment.md)
+  - revoking authorization from users [12.6.3](dba-operations-in-an-oracle-database-vault-environment.md)
+- initialization parameters
+  - Allow System Parameters default rule set [5.3](configuring-rule-sets.md)
+  - modified after installation [2.1](what-to-expect-after-you-enable-oracle-database-vault.md)
+  - modified by Oracle Database Vault [2.1](what-to-expect-after-you-enable-oracle-database-vault.md)
+  - reports [26.6.6](oracle-database-vault-reports.md)
+- insider threats
+  - See: intruders
+- installations
+  - Database Vault and Label Security in a multitenant environment [3.2.7](getting-started-with-oracle-database-vault.md)
+  - security considerations [D.6](oracle-database-vault-security-guidelines.md)
+- intruders
+  - See: security attacks
+
+  <!-- -->
+
+  - compromising privileged accounts [1.5](introduction-to-oracle-database-vault.md)
+- IP addresses
+  - Client_IP default factor [7.2](configuring-factors.md)
+  - defined with factors [7.1](configuring-factors.md)
+
+------------------------------------------------------------------------
+
+## J
+
+- Java Policy Grants Report [26.6.9.1](oracle-database-vault-reports.md)
+- jobs, scheduling
+  - See: Oracle Scheduler
+
+------------------------------------------------------------------------
+
+## L
+
+- labels [7.4.3](configuring-factors.md)
+  - See also: Oracle Label Security
+
+  <!-- -->
+
+  - about [7.4.3](configuring-factors.md)
+- Label Security Integration Audit Report [26.5.4](oracle-database-vault-reports.md)
+- languages
+  - adding to Oracle Database Vault [C.1](postinstallation-oracle-database-vault-procedures.md)
+  - finding with DVF.F\$LANG [17.3.15](oracle-database-vault-factor-apis.md)
+  - finding with DVF.F\$LANGUAGE [17.3.16](oracle-database-vault-factor-apis.md)
+  - name
+    - Lang default factor [7.2](configuring-factors.md)
+    - Language default factor [7.2](configuring-factors.md)
+- LBACSYS account [13.3](oracle-database-vault-schemas-roles-and-accounts.md)
+  - See also: Oracle Label Security
+
+  <!-- -->
+
+  - about [13.3](oracle-database-vault-schemas-roles-and-accounts.md)
+  - auditing policy [A.5](auditing-oracle-database-vault.md)
+- LBACSYS schema
+  - auditing policy [A.5](auditing-oracle-database-vault.md)
+  - realm protection [4.2.1](configuring-realms.md)
+- locked out accounts, solution for [B.1](disabling-and-enabling-oracle-database-vault.md)
+- log files
+  - Database Vault log files [A.3.2](auditing-oracle-database-vault.md)
+- logging on
+  - reports, Core Database Audit Report [26.6.8](oracle-database-vault-reports.md)
+- LogMiner packages
+  - guidelines [D.6.5](oracle-database-vault-security-guidelines.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- managing user accounts and profiles
+  - Can Maintain Accounts/Profiles default rule set [5.3](configuring-rule-sets.md)
+- managing user accounts and profiles on own account, Can Maintain Own Accounts default rule set [5.3](configuring-rule-sets.md)
+- mandatory realms
+  - about [4.1.2](configuring-realms.md)
+- mapping identities [7.4.6.2](configuring-factors.md)
+- MDDATA schema realm protection [4.2.4](configuring-realms.md)
+- MDSYS schema realm protection [4.2.4](configuring-realms.md)
+- modules
+  - function to return information about [17.3.12](oracle-database-vault-factor-apis.md)
+- monitoring
+  - activities [25](monitoring-oracle-database-vault.md)
+- multienant environment
+  - regular or strict mode [1.8.5](introduction-to-oracle-database-vault.md)
+- multitenant
+  - common objects [1.8.6](introduction-to-oracle-database-vault.md)
+  - Oracle Database Vault functionality in [1.8.1](introduction-to-oracle-database-vault.md)
+- multitenant container databases
+  - application containers [1.8.7](introduction-to-oracle-database-vault.md)
+  - Database Vault and operations control configured together [1.8.4](introduction-to-oracle-database-vault.md)
+  - Database Vault configured in one or more PDBs [1.8.2](introduction-to-oracle-database-vault.md)
+  - operations control enabled [1.8.3](introduction-to-oracle-database-vault.md)
+
+------------------------------------------------------------------------
+
+## N
+
+- naming conventions
+  - factors [7.3.2](configuring-factors.md)
+  - realms [4.3](configuring-realms.md)
+  - rules [5.5.3](configuring-rule-sets.md)
+  - rule sets [5.4](configuring-rule-sets.md)
+- network protocol
+  - finding with DVF.F\$NETWORK_PROTOCOL [17.3.18](oracle-database-vault-factor-apis.md)
+- network protocol, Network_Protocol default factor [7.2](configuring-factors.md)
+- NOAUDIT statement
+  - monitoring [25.1](monitoring-oracle-database-vault.md)
+- Non-Owner Object Trigger Report [26.6.9.7](oracle-database-vault-reports.md)
+- nonsystem database accounts [26.6.1.3](oracle-database-vault-reports.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- Object Access By PUBLIC Report [26.6.1.1](oracle-database-vault-reports.md)
+- Object Access Not By PUBLIC Report [26.6.1.2](oracle-database-vault-reports.md)
+- Object Dependencies Report [26.6.1.4](oracle-database-vault-reports.md)
+- object owners
+  - nonexistent [26.4.1](oracle-database-vault-reports.md)
+  - reports
+    - Command Rule Configuration Issues Report [26.4.1](oracle-database-vault-reports.md)
+- object privilege reports [26.6.1](oracle-database-vault-reports.md)
+- objects [24.31](oracle-database-vault-data-dictionary-views.md)
+  - See also: database objects
+
+  <!-- -->
+
+  - command rule objects
+    - name [6.4](configuring-command-rules.md)
+    - owner [6.4](configuring-command-rules.md)
+    - processing [6.7](configuring-command-rules.md)
+  - dynamic SQL use [26.6.9.3](oracle-database-vault-reports.md)
+  - mandatory realms [4.1.2](configuring-realms.md)
+  - monitoring [25.1](monitoring-oracle-database-vault.md)
+  - object names
+    - finding with DV_DICT_OBJ_NAME [15.2.7](oracle-database-vault-rule-set-apis.md)
+  - object owners
+    - finding with DV_DICT_OBJ_OWNER [15.2.6](oracle-database-vault-rule-set-apis.md)
+  - realms
+    - object name [4.3](configuring-realms.md)
+    - object owner [4.3](configuring-realms.md)
+    - object type [4.3](configuring-realms.md)
+    - procedures for registering [14.2](oracle-database-vault-realm-apis.md)
+  - reports
+    - Access to Sensitive Objects Report [26.6.3.2](oracle-database-vault-reports.md)
+    - Accounts with SYSDBA/SYSOPER Privilege Report [26.6.3.4](oracle-database-vault-reports.md)
+    - Direct Object Privileges Report [26.6.1.3](oracle-database-vault-reports.md)
+    - Execute Privileges to Strong SYS Packages Report [26.6.3.1](oracle-database-vault-reports.md)
+    - Non-Owner Object Trigger Report [26.6.9.7](oracle-database-vault-reports.md)
+    - Object Access By PUBLIC Report [26.6.1.1](oracle-database-vault-reports.md)
+    - Object Access Not By PUBLIC Report [26.6.1.2](oracle-database-vault-reports.md)
+    - Object Dependencies Report [26.6.1.4](oracle-database-vault-reports.md)
+    - Objects Dependent on Dynamic SQL Report [26.6.9.3](oracle-database-vault-reports.md)
+    - OS Directory Objects Report [26.6.9.2](oracle-database-vault-reports.md)
+    - privilege [26.6.1](oracle-database-vault-reports.md)
+    - Public Execute Privilege To SYS PL/SQL Procedures Report [26.6.3.3](oracle-database-vault-reports.md)
+    - sensitive [26.6.3](oracle-database-vault-reports.md)
+    - System Privileges By Privilege Report [26.6.2.5](oracle-database-vault-reports.md)
+  - restricting user access to using mandatory realms [4.1.2](configuring-realms.md)
+  - types
+    - finding with DV_DICT_OBJ_TYPE [15.2.5](oracle-database-vault-rule-set-apis.md)
+  - views, DBA_DV_REALM_OBJECT [24.31](oracle-database-vault-data-dictionary-views.md)
+- Objects Dependent on Dynamic SQL Report [26.6.9.3](oracle-database-vault-reports.md)
+- object types
+  - supported for Database Vault realm protection [4.1.4](configuring-realms.md)
+- OEM
+  - See: Oracle Enterprise Manager (OEM)
+- OEM_MONITOR schema realm protection [4.2.3](configuring-realms.md)
+- OLS
+  - See: Oracle Label Security
+- operating system access
+  - guideline for using with Database Vault [D.2.4](oracle-database-vault-security-guidelines.md)
+- operating systems
+  - reports
+    - OS Directory Objects Report [26.6.9.2](oracle-database-vault-reports.md)
+    - OS Security Vulnerability Privileges Report [26.6.5.11](oracle-database-vault-reports.md)
+  - vulnerabilities [26.6.5.11](oracle-database-vault-reports.md)
+- ORA-00942 error [8.7.7](configuring-secure-application-roles-for-oracle-database-vault.md)
+- ORA-01301 error [12.13.1](dba-operations-in-an-oracle-database-vault-environment.md)
+- ORA-06512 error [5.9.4](configuring-rule-sets.md), [20.2.1](oracle-database-vault-utility-apis.md)
+- ORA-24247 error [5.9.4](configuring-rule-sets.md)
+- ORA-47305 error [8.7.7](configuring-secure-application-roles-for-oracle-database-vault.md)
+- ORA-47400 error [5.9.6](configuring-rule-sets.md), [12.13.1](dba-operations-in-an-oracle-database-vault-environment.md)
+- ORA-47401 error [4.10.2.1](configuring-realms.md), [12.13.1](dba-operations-in-an-oracle-database-vault-environment.md)
+- ORA-47408 error [12.13.1](dba-operations-in-an-oracle-database-vault-environment.md)
+- ORA-47409 error [12.13.1](dba-operations-in-an-oracle-database-vault-environment.md)
+- ORA-47500 error [21.2](oracle-database-vault-general-administrative-apis.md)
+- ORA-47503 error [3.2.3](getting-started-with-oracle-database-vault.md), [3.2.4](getting-started-with-oracle-database-vault.md)
+- ORA-47920 error [20.2.1](oracle-database-vault-utility-apis.md)
+- Oracle APEX, integrating with Oracle Database Vault [11.6](integrating-database-vault-with-other-oracle-products.md)
+  - about [11.6.1](integrating-database-vault-with-other-oracle-products.md)
+  - authorizing APEX schema [11.6.3](integrating-database-vault-with-other-oracle-products.md)
+  - authorizing Oracle Scheduler [11.6.4](integrating-database-vault-with-other-oracle-products.md)
+  - DDL tasks [11.6.5](integrating-database-vault-with-other-oracle-products.md)
+  - installing or upgrading Oracle APEX [11.6.2](integrating-database-vault-with-other-oracle-products.md)
+  - maintenance tasks [11.6.6](integrating-database-vault-with-other-oracle-products.md)
+  - protected objects [11.6.8](integrating-database-vault-with-other-oracle-products.md)
+  - proxy users for ORDS [11.6.7](integrating-database-vault-with-other-oracle-products.md)
+  - troubleshooting [11.6.9](integrating-database-vault-with-other-oracle-products.md)
+- Oracle Database Replay
+  - authorizations, about [12.7.1](dba-operations-in-an-oracle-database-vault-environment.md)
+  - Database Vault authorization
+    - granting for workload captures [21.1.8](oracle-database-vault-general-administrative-apis.md)
+    - granting for workload replays [21.1.9](oracle-database-vault-general-administrative-apis.md)
+    - revoking for workload captures [21.1.33](oracle-database-vault-general-administrative-apis.md)
+    - revoking for workload replays [21.1.34](oracle-database-vault-general-administrative-apis.md)
+  - granting users authorization for workload capture operations [12.7.2.1](dba-operations-in-an-oracle-database-vault-environment.md)
+  - granting users authorization for workload replay operations [12.7.2.2](dba-operations-in-an-oracle-database-vault-environment.md)
+  - revoking workload capture authorization from users [12.7.3.1](dba-operations-in-an-oracle-database-vault-environment.md)
+  - revoking workload replay authorization from users [12.7.3.2](dba-operations-in-an-oracle-database-vault-environment.md)
+- Oracle Database Vault
+  - about [1.1.1](introduction-to-oracle-database-vault.md)
+  - components [1.3](introduction-to-oracle-database-vault.md), [1.3.1](introduction-to-oracle-database-vault.md)
+  - deinstalling [C.2](postinstallation-oracle-database-vault-procedures.md)
+  - disabling
+    - procedures for [B](disabling-and-enabling-oracle-database-vault.md)
+    - reasons for [B.1](disabling-and-enabling-oracle-database-vault.md)
+  - enabling
+    - procedures for [B](disabling-and-enabling-oracle-database-vault.md)
+  - integrating with other Oracle products [11](integrating-database-vault-with-other-oracle-products.md)
+  - Oracle Database installation, affect on [2](what-to-expect-after-you-enable-oracle-database-vault.md)
+  - post-installation procedures [C](postinstallation-oracle-database-vault-procedures.md)
+  - privileges to use [1.2](introduction-to-oracle-database-vault.md)
+  - registering
+    - using DBCA [3.1](getting-started-with-oracle-database-vault.md)
+  - reinstalling [C.3](postinstallation-oracle-database-vault-procedures.md)
+  - roles
+    - system privileges of [13.2.2](oracle-database-vault-schemas-roles-and-accounts.md)
+- Oracle Database Vault Administrator (DVA)
+  - logging on from Oracle Enterprise Manager Cloud Control [3.6](getting-started-with-oracle-database-vault.md)
+- Oracle Database Vault Administrator pages [1.3.5](introduction-to-oracle-database-vault.md)
+- Oracle Database Vault configuration and enablement
+  - common user to manage CDB root [3.2.2](getting-started-with-oracle-database-vault.md)
+  - local users to manage specific PDBs [3.2.4](getting-started-with-oracle-database-vault.md)
+- Oracle Database Vault operations control
+  - about [12.9.1](dba-operations-in-an-oracle-database-vault-environment.md)
+- Oracle Database Vault policies
+  - about [9.1.1](configuring-oracle-database-vault-policies.md)
+  - creating [9.3](configuring-oracle-database-vault-policies.md)
+  - data dictionary views [9.6](configuring-oracle-database-vault-policies.md)
+  - default [9.2](configuring-oracle-database-vault-policies.md)
+  - deleting [9.5](configuring-oracle-database-vault-policies.md)
+  - in multitenant environment [9.1.2](configuring-oracle-database-vault-policies.md)
+  - modifying [9.4](configuring-oracle-database-vault-policies.md)
+- Oracle Database Vault realm [4.2.1](configuring-realms.md)
+- Oracle Database Vault registration
+  - about [3.1](getting-started-with-oracle-database-vault.md)
+  - common users to manage specific PDBs [3.2.3](getting-started-with-oracle-database-vault.md)
+  - creating profile to protect DV_OWNER and DV_ACCTMGR users [3.2.5](getting-started-with-oracle-database-vault.md), [3.3.2](getting-started-with-oracle-database-vault.md)
+  - non-multitenant environment [3.3.1](getting-started-with-oracle-database-vault.md)
+  - plugging in a Database Vault-enabled database [3.2.6](getting-started-with-oracle-database-vault.md)
+  - verifying configuration and enablement [3.5](getting-started-with-oracle-database-vault.md)
+- Oracle Data Guard
+  - disabaling Oracle Database Vault [11.4.4](integrating-database-vault-with-other-oracle-products.md)
+  - how auditing is affected after intergration with Database Vault [11.4.3](integrating-database-vault-with-other-oracle-products.md)
+  - integrating Database Vault with [11.4](integrating-database-vault-with-other-oracle-products.md)
+- Oracle Data Pump
+  - archiving the Oracle Database Vault audit trail with [A.4.2](auditing-oracle-database-vault.md)
+  - authorizing transportable tablespace operations for Database Vault [12.4.3.3](dba-operations-in-an-oracle-database-vault-environment.md)
+  - DBA_DV_DATAPUMP_AUTH view [24.6](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_TTS_AUTH view [24.38](oracle-database-vault-data-dictionary-views.md)
+  - DBMS_MACADM.AUTH_DATAPUMP_CREATE_USER procedure [21.1.3](oracle-database-vault-general-administrative-apis.md)
+  - DBMS_MACADM.AUTH_DATAPUMP_GRANT_ROLE procedure [21.1.5](oracle-database-vault-general-administrative-apis.md)
+  - DBMS_MACADM.AUTH_DATAPUMP_GRANT_SYSPRIV procedure [21.1.6](oracle-database-vault-general-administrative-apis.md)
+  - DBMS_MACADM.AUTH_DATAPUMP_GRANT procedure [21.1.4](oracle-database-vault-general-administrative-apis.md)
+  - DBMS_MACADM.AUTHORIZE_TTS_USER [21.1.16](oracle-database-vault-general-administrative-apis.md)
+  - DBMS_MACADM.UNAUTH_DATAPUMP_CREATE_USER procedure [21.1.28](oracle-database-vault-general-administrative-apis.md)
+  - DBMS_MACADM.UNAUTH_DATAPUMP_GRANT_ROLE procedure [21.1.30](oracle-database-vault-general-administrative-apis.md)
+  - DBMS_MACADM.UNAUTH_DATAPUMP_GRANT_SYSPRIV procedure [21.1.31](oracle-database-vault-general-administrative-apis.md)
+  - DBMS_MACADM.UNAUTH_DATAPUMP_GRANT procedure [21.1.29](oracle-database-vault-general-administrative-apis.md)
+  - DBMS_MACADM.UNAUTHORIZE_TTS_USER [21.1.41](oracle-database-vault-general-administrative-apis.md)
+  - granting authorization to use with Database Vault [12.4.2.3](dba-operations-in-an-oracle-database-vault-environment.md)
+  - guidelines before performing an export or import [12.4.4](dba-operations-in-an-oracle-database-vault-environment.md)
+  - levels of authorization required
+    - Oracle Data Pump only [12.4.2.2](dba-operations-in-an-oracle-database-vault-environment.md)
+    - transportable tablespaces [12.4.3.2](dba-operations-in-an-oracle-database-vault-environment.md)
+  - MACADM procedure for authorization [21.1.7](oracle-database-vault-general-administrative-apis.md)
+  - realm protection [4.2.5](configuring-realms.md)
+  - revoking standard authorization [12.4.2.4](dba-operations-in-an-oracle-database-vault-environment.md)
+  - revoking transportable tablespace authorization [12.4.3.4](dba-operations-in-an-oracle-database-vault-environment.md)
+  - using with Oracle Database Vault [12.4.1](dba-operations-in-an-oracle-database-vault-environment.md)
+- Oracle Default Component Protection Realm [4.2.6](configuring-realms.md)
+- Oracle Default Schema Protection Realm [4.2.4](configuring-realms.md)
+- Oracle Enterprise Manager
+  - DBSNMP account
+    - granted DV_MONITOR role [13.2.6](oracle-database-vault-schemas-roles-and-accounts.md)
+  - using Oracle Database Vault with [12.3](dba-operations-in-an-oracle-database-vault-environment.md)
+- Oracle Enterprise Manager Cloud Control
+  - monitoring Database Vault for attempted violations [13.2.6](oracle-database-vault-schemas-roles-and-accounts.md)
+  - propagating Database Vault configurations to other databases [12.3.1](dba-operations-in-an-oracle-database-vault-environment.md)
+  - starting Oracle Database Vault from [3.6](getting-started-with-oracle-database-vault.md)
+- Oracle Enterprise Manager realm [4.2.3](configuring-realms.md)
+- Oracle Enterprise User Security, integrating with Oracle Database Vault [11.1](integrating-database-vault-with-other-oracle-products.md)
+- Oracle Flashback Technology [4.1.1](configuring-realms.md), [6.1.1](configuring-command-rules.md)
+- Oracle GoldenGate
+  - Database Vault role used for
+    - DV_GOLDENGATE_ADMIN [13.2.11](oracle-database-vault-schemas-roles-and-accounts.md)
+    - DV_GOLDENGATE_REDO_ACCESS [13.2.12](oracle-database-vault-schemas-roles-and-accounts.md)
+  - in an Oracle Database Vault environment [12.12](dba-operations-in-an-oracle-database-vault-environment.md)
+- Oracle Internet Directory, integrating with Oracle Database Vault [11.5](integrating-database-vault-with-other-oracle-products.md)
+- Oracle Internet Directory Distinguished Name, Proxy_Enterprise_Identity default factor [7.2](configuring-factors.md)
+- Oracle Label Security
+  - using OLS_LABEL_DOMINATES function in rule expressions [15.1.2](oracle-database-vault-rule-set-apis.md)
+- Oracle Label Security (OLS) [13.3](oracle-database-vault-schemas-roles-and-accounts.md)
+  - See also: LBACSYS account
+
+  <!-- -->
+
+  - audit events, custom [A.3.1](auditing-oracle-database-vault.md)
+  - checking if installed using DBMS_MACUTL functions [20.2](oracle-database-vault-utility-apis.md)
+  - data dictionary views [11.3.5](integrating-database-vault-with-other-oracle-products.md)
+  - functions
+    - DBMS_MACUTL (utility) [20.1.1](oracle-database-vault-utility-apis.md)
+  - how Database Vault integrates with [11.3.1](integrating-database-vault-with-other-oracle-products.md)
+  - initialization, command rules [6.1.1](configuring-command-rules.md)
+  - integration with Oracle Database Vault
+    - example [11.3.4.1](integrating-database-vault-with-other-oracle-products.md)
+    - Label Security Integration Audit Report [26.5.4](oracle-database-vault-reports.md)
+    - procedure [11.3.3.1](integrating-database-vault-with-other-oracle-products.md)
+    - requirements [11.3.2](integrating-database-vault-with-other-oracle-products.md)
+  - labels
+    - about [7.4.3](configuring-factors.md)
+    - determining with GET_FACTOR_LABEL [17.2.4](oracle-database-vault-factor-apis.md)
+    - invalid label identities [26.4.6](oracle-database-vault-reports.md)
+  - policies
+    - accounts that bypass [26.6.5.3](oracle-database-vault-reports.md)
+    - monitoring policy changes [25.1](monitoring-oracle-database-vault.md)
+    - nonexistent [26.4.4](oracle-database-vault-reports.md)
+  - procedures
+    - DBMS_MACADM (configuration) [19](oracle-database-vault-oracle-label-security-apis.md)
+  - reports [11.3.5](integrating-database-vault-with-other-oracle-products.md)
+  - views
+    - DBA_DV_MAC_POLICY [24.17](oracle-database-vault-data-dictionary-views.md)
+    - DBA_DV_MAC_POLICY_FACTOR [24.18](oracle-database-vault-data-dictionary-views.md)
+    - DBA_DV_POLICY_LABEL [24.23](oracle-database-vault-data-dictionary-views.md)
+- Oracle OLAP realm protection [4.2.4](configuring-realms.md)
+- Oracle Real Application Clusters
+  - configuring and enabling Database Vault on Oracle RAC nodes [3.4](getting-started-with-oracle-database-vault.md)
+  - deinstalling Oracle Database Vault from [C.2](postinstallation-oracle-database-vault-procedures.md)
+  - multiple factor identities [7.3.3.2](configuring-factors.md)
+- Oracle Recovery Manager (RMAN)
+  - in an Oracle Database Vault environment [12.10](dba-operations-in-an-oracle-database-vault-environment.md)
+- Oracle Scheduler
+  - DBA_DV_JOB_AUTH view [24.16](oracle-database-vault-data-dictionary-views.md)
+  - granting Oracle Database Vault authorization [12.5.2](dba-operations-in-an-oracle-database-vault-environment.md)
+  - realm protection [4.2.5](configuring-realms.md)
+  - revoking Oracle Database Vault authorization [12.5.3](dba-operations-in-an-oracle-database-vault-environment.md)
+  - SCHEDULER_ADMIN role, impact of Oracle Database Vault installation [2.4](what-to-expect-after-you-enable-oracle-database-vault.md)
+  - using with Oracle Database Vault [12.5.1](dba-operations-in-an-oracle-database-vault-environment.md)
+- Oracle software owner, guidelines on managing [D.4.2](oracle-database-vault-security-guidelines.md)
+- Oracle Spatial realm protection [4.2.4](configuring-realms.md)
+- Oracle System Privilege and Role Management Realm [4.2.5](configuring-realms.md)
+- Oracle Text realm protection [4.2.4](configuring-realms.md)
+- Oracle Virtual Private Database (VPD)
+  - accounts that bypass [26.6.5.3](oracle-database-vault-reports.md)
+  - GRANT EXECUTE privileges with Grant VPD Administration default rule set [5.3](configuring-rule-sets.md)
+  - using Database Vault factors with Oracle Label Security [11.3.4.1](integrating-database-vault-with-other-oracle-products.md)
+- ORADEBUG utility
+  - about [12.15](dba-operations-in-an-oracle-database-vault-environment.md)
+  - DBA_DV_ORADEBUG view [24.20](oracle-database-vault-data-dictionary-views.md)
+  - PL/SQL procedure for disabling in Database Vault [21.1.22](oracle-database-vault-general-administrative-apis.md)
+  - PL/SQL procedure for enabling in Database Vault [21.1.27](oracle-database-vault-general-administrative-apis.md)
+  - using with Database Vault [12.15](dba-operations-in-an-oracle-database-vault-environment.md)
+- OS_ROLES initialization parameter [2.1](what-to-expect-after-you-enable-oracle-database-vault.md)
+- OS Directory Objects Report [26.6.9.2](oracle-database-vault-reports.md)
+- OS Security Vulnerability Privileges Report [26.6.5.11](oracle-database-vault-reports.md)
+- OUTlN schema realm protection [4.2.6](configuring-realms.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- parameters
+  - modified after installation [2.1](what-to-expect-after-you-enable-oracle-database-vault.md)
+  - reports
+    - Security Related Database Parameters Report [26.6.6.1](oracle-database-vault-reports.md)
+- parent factors
+  - See: factors
+- Password History Access Report [26.6.5.6](oracle-database-vault-reports.md)
+- passwords
+  - forgotten, solution for [B.1](disabling-and-enabling-oracle-database-vault.md)
+  - reports [26.6.7](oracle-database-vault-reports.md)
+    - Database Account Default Password Report [26.6.7.1](oracle-database-vault-reports.md)
+    - Password History Access Report [26.6.5.6](oracle-database-vault-reports.md)
+    - Username/Password Tables Report [26.6.9.5](oracle-database-vault-reports.md)
+  - resetting for DV_ACCTMGR user [E.4.2](troubleshooting-oracle-database-vault.md)
+  - resetting for DV_OWNER user [E.4.1](troubleshooting-oracle-database-vault.md)
+- patches
+  - auditing DV_PATCH_ADMIN user [13.2.13](oracle-database-vault-schemas-roles-and-accounts.md)
+  - DBMS_MACADM.DISABLE_DV_PATCH_ADMIN_AUDIT procedure [21.1.21](oracle-database-vault-general-administrative-apis.md)
+  - DBMS_MACADM.ENSABLE_DV_PATCH_ADMIN_AUDIT procedure [21.1.26](oracle-database-vault-general-administrative-apis.md)
+  - DV_PATCH_ADMIN requirement for [13.2.13](oracle-database-vault-schemas-roles-and-accounts.md)
+  - security consideration [D.6](oracle-database-vault-security-guidelines.md)
+  - two-person integrity used for [5.10.1](configuring-rule-sets.md)
+- patch operations in Database Vault environment [12.16](dba-operations-in-an-oracle-database-vault-environment.md)
+- PDBs
+  - command rules in [6.1.2](configuring-command-rules.md)
+  - Database Vault and operations control configured together [1.8.4](introduction-to-oracle-database-vault.md)
+  - Database Vault configured in one or more [1.8.2](introduction-to-oracle-database-vault.md)
+  - disabling tracing
+    - all database sessions [E.1.7.3](troubleshooting-oracle-database-vault.md)
+    - current database session [E.1.7.3](troubleshooting-oracle-database-vault.md)
+  - DVF schema [13.1.2](oracle-database-vault-schemas-roles-and-accounts.md)
+  - DVSYS schema [13.1.1](oracle-database-vault-schemas-roles-and-accounts.md), [13.2.1](oracle-database-vault-schemas-roles-and-accounts.md)
+  - enabling tracing
+    - all database sessions [E.1.5.3](troubleshooting-oracle-database-vault.md)
+    - current database session [E.1.5.1](troubleshooting-oracle-database-vault.md)
+  - operations control enabled [1.8.3](introduction-to-oracle-database-vault.md)
+  - plugging Database Vault-enabled PDB to CDB [12.14](dba-operations-in-an-oracle-database-vault-environment.md)
+- performance effect
+  - command rules [6.10](configuring-command-rules.md)
+  - realms [4.15](configuring-realms.md)
+  - reports
+    - Resource Profiles Report [26.6.6.2](oracle-database-vault-reports.md)
+    - System Resource Limits Report [26.6.6.3](oracle-database-vault-reports.md)
+  - rule sets [5.12](configuring-rule-sets.md)
+  - secure application roles [8.8](configuring-secure-application-roles-for-oracle-database-vault.md)
+  - static evaluation for rule sets [5.12](configuring-rule-sets.md)
+- performance tools
+  - Automatic Workload Repository (AWR)
+    - command rules [6.10](configuring-command-rules.md)
+    - factors [7.10](configuring-factors.md)
+    - Oracle Enterprise Manager
+      - performance tools [4.15](configuring-realms.md)
+    - performance tools
+      - Cloud Control, realms [4.15](configuring-realms.md)
+      - Oracle Enterprise Manager
+        - realms [4.15](configuring-realms.md)
+    - realms [4.15](configuring-realms.md)
+    - rule sets [5.12](configuring-rule-sets.md)
+    - secure application roles [8.8](configuring-secure-application-roles-for-oracle-database-vault.md)
+  - Oracle Enterprise Manager
+    - command rules [6.10](configuring-command-rules.md)
+    - factors [7.10](configuring-factors.md)
+    - performance tools
+      - Oracle Enterprise Manager Cloud Control
+        - command rules [6.10](configuring-command-rules.md)
+    - rule sets [5.12](configuring-rule-sets.md)
+    - secure application roles [8.8](configuring-secure-application-roles-for-oracle-database-vault.md)
+  - Oracle Enterprise Manager Cloud Control
+    - factors [7.10](configuring-factors.md)
+    - rule sets [5.12](configuring-rule-sets.md)
+    - secure application roles [8.8](configuring-secure-application-roles-for-oracle-database-vault.md)
+  - TKPROF utility
+    - command rules [6.10](configuring-command-rules.md)
+    - factors [7.10](configuring-factors.md)
+    - realms [4.15](configuring-realms.md)
+    - rule sets [5.12](configuring-rule-sets.md)
+    - secure application roles [8.8](configuring-secure-application-roles-for-oracle-database-vault.md)
+- PL/SQL
+  - packages
+    - unwrapped bodies [26.6.9.4](oracle-database-vault-reports.md)
+    - Unwrapped PL/SQL Package Bodies Report [26.6.9.4](oracle-database-vault-reports.md)
+- PL/SQL factor functions [17.3](oracle-database-vault-factor-apis.md)
+- policies
+  - See: Oracle Database Vault policies
+- POLICY_OWNER_COMMAND_RULE view [24.44](oracle-database-vault-data-dictionary-views.md)
+- policy changes, monitoring [25.1](monitoring-oracle-database-vault.md)
+- post-installation procedures [C](postinstallation-oracle-database-vault-procedures.md)
+- preprocessor programs
+  - about executing in Database Vault environment [12.8.1](dba-operations-in-an-oracle-database-vault-environment.md)
+  - authorizing users in Database Vault environment [12.8.2](dba-operations-in-an-oracle-database-vault-environment.md)
+  - Database Vault authorization
+    - granting [21.1.13](oracle-database-vault-general-administrative-apis.md)
+    - revoking [21.1.38](oracle-database-vault-general-administrative-apis.md)
+  - revoking authorization from Database Vault users [12.8.3](dba-operations-in-an-oracle-database-vault-environment.md)
+- privileges
+  - checking with DBMS_MACUTL.USER_HAS_OBJECT_PRIVILEGE function [20.2](oracle-database-vault-utility-apis.md)
+  - existing users and roles, Database Vault affect on [2.4](what-to-expect-after-you-enable-oracle-database-vault.md)
+  - least privilege principle
+    - violations to [26.6.9.1](oracle-database-vault-reports.md)
+  - monitoring
+    - GRANT statement [25.1](monitoring-oracle-database-vault.md)
+    - REVOKE statement [25.1](monitoring-oracle-database-vault.md)
+  - Oracle Database Vault restricting [2.2](what-to-expect-after-you-enable-oracle-database-vault.md)
+  - prevented from existing users and roles [2.5](what-to-expect-after-you-enable-oracle-database-vault.md)
+  - reports
+    - Accounts With DBA Roles Report [26.6.5.2](oracle-database-vault-reports.md)
+    - ALTER SYSTEM or ALTER SESSION Report [26.6.5.5](oracle-database-vault-reports.md)
+    - ANY System Privileges for Database Accounts Report [26.6.2.4](oracle-database-vault-reports.md)
+    - AUDIT Privileges Report [26.6.5.10](oracle-database-vault-reports.md)
+    - Database Accounts With Catalog Roles Report [26.6.5.9](oracle-database-vault-reports.md)
+    - Direct and Indirect System Privileges By Database Account Report [26.6.2.2](oracle-database-vault-reports.md)
+    - Direct System Privileges By Database Account Report [26.6.2.1](oracle-database-vault-reports.md)
+    - Hierarchical System Privileges By Database Account Report [26.6.2.3](oracle-database-vault-reports.md)
+    - listed [26.6.4](oracle-database-vault-reports.md)
+    - OS Directory Objects Report [26.6.9.2](oracle-database-vault-reports.md)
+    - Privileges Distribution By Grantee, Owner, Privilege Report [26.6.4.3](oracle-database-vault-reports.md)
+    - Privileges Distribution By Grantee, Owner Report [26.6.4.2](oracle-database-vault-reports.md)
+    - Privileges Distribution By Grantee Report [26.6.4.1](oracle-database-vault-reports.md)
+    - WITH GRANT Privileges Report [26.6.5.7](oracle-database-vault-reports.md)
+  - restricting access using mandatory realms [4.1.2](configuring-realms.md)
+  - roles
+    - checking with DBMS_MACUTL.USER_HAS_ROLE_VARCHAR function [20.2](oracle-database-vault-utility-apis.md)
+  - system
+    - checking with DBMS_MACUTL.USER_HAS_SYSTEM_PRIVILEGE function [20.2](oracle-database-vault-utility-apis.md)
+  - views
+    - DBA_DV_PUB_PRIVS [24.28](oracle-database-vault-data-dictionary-views.md)
+    - DBA_DV_USER_PRIVS [24.39](oracle-database-vault-data-dictionary-views.md)
+    - DBA_DV_USER_PRIVS_ALL [24.40](oracle-database-vault-data-dictionary-views.md)
+- Privileges Distribution By Grantee, Owner, Privilege Report [26.6.4.3](oracle-database-vault-reports.md)
+- Privileges Distribution By Grantee, Owner Report [26.6.4.2](oracle-database-vault-reports.md)
+- Privileges Distribution By Grantee Report [26.6.4.1](oracle-database-vault-reports.md)
+- privileges using external password [26.6.3.4](oracle-database-vault-reports.md)
+- problems, diagnosing [E.1.1](troubleshooting-oracle-database-vault.md)
+- procedures
+  - command rules
+    - .DBMS_MACADM (configuration) [16](oracle-database-vault-command-rule-apis.md)
+  - factors
+    - DBMS_MACADM (configuration) [17.1](oracle-database-vault-factor-apis.md)
+  - realms
+    - DBMS_MACADM (configuration) [14](oracle-database-vault-realm-apis.md)
+- production environments
+  - guidelines for securing [D.5](oracle-database-vault-security-guidelines.md)
+- profiles [26.6.6](oracle-database-vault-reports.md)
+- proxy user authorization
+  - Database Vault authorization
+    - DBA_DV_PROXY_AUTH view [24.27](oracle-database-vault-data-dictionary-views.md)
+    - granting [21.1.14](oracle-database-vault-general-administrative-apis.md)
+    - revoking [21.1.39](oracle-database-vault-general-administrative-apis.md)
+- proxy users
+  - function to return name of [17.3.20](oracle-database-vault-factor-apis.md)
+- PUBLIC access to realms [4.9](configuring-realms.md)
+- Public Execute Privilege To SYS PL/SQL Procedures Report [26.6.3.3](oracle-database-vault-reports.md)
+- PUBLIC user account
+  - impact of Oracle Database Vault installation [2.4](what-to-expect-after-you-enable-oracle-database-vault.md)
+
+------------------------------------------------------------------------
+
+## Q
+
+- quotas
+  - tablespace [26.6.9.6](oracle-database-vault-reports.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- Realm Audit Report [26.5.1](oracle-database-vault-reports.md)
+- Realm Authorization Configuration Issues Report [26.4.3](oracle-database-vault-reports.md)
+- realm authorizations:multitenant environment [4.5](configuring-realms.md)
+- realms [4.3](configuring-realms.md)
+  - See also: rule sets
+
+  <!-- -->
+
+  - about [4.1.1](configuring-realms.md)
+  - adding roles to as grantees [4.14](configuring-realms.md)
+  - audit events, custom [A.3.1](auditing-oracle-database-vault.md)
+  - authentication-related procedures [14.1](oracle-database-vault-realm-apis.md)
+  - authorization
+    - enabling access to realm-protected objects [4.11](configuring-realms.md)
+    - how realm authorizations work [4.10](configuring-realms.md)
+    - process flow [4.10](configuring-realms.md)
+    - troubleshooting [E.2](troubleshooting-oracle-database-vault.md)
+  - authorizations
+    - grantee [4.3](configuring-realms.md)
+    - rule set [4.3](configuring-realms.md)
+  - authorizations in multitenant environment [4.6](configuring-realms.md)
+  - creating [4.3](configuring-realms.md)
+  - creating names [4.3](configuring-realms.md)
+  - Database Vault Account Management realm [4.2.2](configuring-realms.md)
+  - data dictionary views [4.16](configuring-realms.md)
+  - data masking [12.13.3](dba-operations-in-an-oracle-database-vault-environment.md)
+  - DBMS_MACUTL constants, example of [20.1.2](oracle-database-vault-utility-apis.md)
+  - default realms
+    - listed [4.2](configuring-realms.md)
+  - deleting [4.8](configuring-realms.md)
+  - disabling [4.7](configuring-realms.md)
+  - DV_REALM_OWNER role [13.2.15](oracle-database-vault-schemas-roles-and-accounts.md)
+  - DV_REALM_RESOURCE role [13.2.16](oracle-database-vault-schemas-roles-and-accounts.md)
+  - effect on other Oracle Database Vault components [4.13](configuring-realms.md)
+  - enabling [4.7](configuring-realms.md)
+  - enabling access to realm-protected objects [4.11](configuring-realms.md)
+  - example [4.12](configuring-realms.md)
+  - functions
+    - DBMS_MACUTL (utility) [20](oracle-database-vault-utility-apis.md)
+    - DBMS_MACUTL constants (fields) [20.1.1](oracle-database-vault-utility-apis.md)
+  - guidelines [4.14](configuring-realms.md)
+  - how realms work [4.9](configuring-realms.md)
+  - mandatory realms [4.1.2](configuring-realms.md)
+  - multitenant environment
+    - about [4.1.3](configuring-realms.md)
+  - naming conventions [4.3](configuring-realms.md)
+  - object-related procedures [14.2](oracle-database-vault-realm-apis.md)
+  - object types, supported [4.1.4](configuring-realms.md)
+  - Oracle Database Vault realm [4.2.1](configuring-realms.md)
+  - Oracle Default Component Protection Realm [4.2.6](configuring-realms.md)
+  - Oracle Default Schema Protection Realm [4.2.4](configuring-realms.md)
+  - Oracle Enterprise Manager realm [4.2.3](configuring-realms.md)
+  - Oracle System Privilege and Role Management Realm [4.2.5](configuring-realms.md)
+  - performance effect [4.15](configuring-realms.md)
+  - procedures
+    - DBMS_MACADM (configuration) [14](oracle-database-vault-realm-apis.md)
+  - process flow [4.9](configuring-realms.md)
+  - propagating configuration to other databases [12.3.1](dba-operations-in-an-oracle-database-vault-environment.md)
+  - protection after object is dropped [4.14](configuring-realms.md)
+  - PUBLIC access [4.9](configuring-realms.md)
+  - realm authorizations
+    - about [4.5](configuring-realms.md)
+  - realm secured objects
+    - object name [4.3](configuring-realms.md)
+    - object owner [4.3](configuring-realms.md)
+    - object type [4.3](configuring-realms.md)
+  - realm-secured objects [4.4](configuring-realms.md)
+  - reports [4.16](configuring-realms.md)
+  - roles
+    - DV_REALM_OWNER [13.2.15](oracle-database-vault-schemas-roles-and-accounts.md)
+    - DV_REALM_RESOURCE [13.2.16](oracle-database-vault-schemas-roles-and-accounts.md)
+  - secured object [26.4.3](oracle-database-vault-reports.md)
+  - simulation mode [10.1](using-training-mode-to-log-realm-and-command-rule-activities.md)
+  - territory a realm protects [4.4](configuring-realms.md)
+  - troubleshooting [E.2](troubleshooting-oracle-database-vault.md), [E.3](troubleshooting-oracle-database-vault.md)
+  - tutorial [3.7.1](getting-started-with-oracle-database-vault.md)
+  - views
+    - DBA_DV_CODE [24.4](oracle-database-vault-data-dictionary-views.md)
+    - DBA_DV_MAINTENANCE_AUTH [24.19](oracle-database-vault-data-dictionary-views.md)
+    - DBA_DV_POLICY [24.22](oracle-database-vault-data-dictionary-views.md)
+    - DBA_DV_POLICY_OBJECT [24.24](oracle-database-vault-data-dictionary-views.md)
+    - DBA_DV_POLICY_OWNER [24.25](oracle-database-vault-data-dictionary-views.md)
+    - DBA_DV_REALM [24.29](oracle-database-vault-data-dictionary-views.md)
+    - DBA_DV_REALM_OBJECT [24.31](oracle-database-vault-data-dictionary-views.md)
+    - DBS_DV_REALM_AUTH [24.30](oracle-database-vault-data-dictionary-views.md)
+    - DVSYS.POLICY_OWNER_COMMAND_RULE [24.44](oracle-database-vault-data-dictionary-views.md)
+    - DVSYS.POLICY_OWNER_POLICY [24.45](oracle-database-vault-data-dictionary-views.md)
+    - DVSYS.POLICY_OWNER_REALM [24.46](oracle-database-vault-data-dictionary-views.md)
+    - DVSYS.POLICY_OWNER_REALM_AUTH [24.47](oracle-database-vault-data-dictionary-views.md)
+    - DVSYS.POLICY_OWNER_REALM_OBJECT [24.48](oracle-database-vault-data-dictionary-views.md)
+    - DVSYS.POLICY_OWNER_RULE [24.49](oracle-database-vault-data-dictionary-views.md)
+    - DVSYS.POLICY_OWNER_RULE_SET [24.50](oracle-database-vault-data-dictionary-views.md)
+    - DVSYS.POLICY_OWNER_RULE_SET_RULE [24.51](oracle-database-vault-data-dictionary-views.md)
+- recovering lost password [E.4.1](troubleshooting-oracle-database-vault.md), [E.4.2](troubleshooting-oracle-database-vault.md)
+- RECOVERY_CATALOG_OWNER role [26.6.5.9](oracle-database-vault-reports.md)
+- RECYCLEBIN initialization parameter
+  - default setting in Oracle Database Vault [2.1](what-to-expect-after-you-enable-oracle-database-vault.md)
+- registering Oracle Database Vault [3.1](getting-started-with-oracle-database-vault.md)
+- reinstalling Oracle Database Vault [C.3](postinstallation-oracle-database-vault-procedures.md)
+- REMOTE_LOGIN_PASSWORDFILE initialization parameter [2.1](what-to-expect-after-you-enable-oracle-database-vault.md)
+- reports
+  - about [26.1](oracle-database-vault-reports.md)
+  - Access to Sensitive Objects Report [26.6.3.2](oracle-database-vault-reports.md)
+  - Accounts With DBA Roles Report [26.6.5.2](oracle-database-vault-reports.md)
+  - Accounts with SYSDBA/SYSOPER Privilege Report [26.6.3.4](oracle-database-vault-reports.md)
+  - ALTER SYSTEM or ALTER SESSION Report [26.6.5.5](oracle-database-vault-reports.md)
+  - ANY System Privileges for Database Accounts Report [26.6.2.4](oracle-database-vault-reports.md)
+  - auditing [26.5](oracle-database-vault-reports.md)
+  - AUDIT Privileges Report [26.6.5.10](oracle-database-vault-reports.md)
+  - BECOME USER Report [26.6.5.4](oracle-database-vault-reports.md)
+  - categories of [26.1](oracle-database-vault-reports.md)
+  - Command Rule Audit Report [26.5.2](oracle-database-vault-reports.md)
+  - Command Rule Configuration Issues Report [26.4.1](oracle-database-vault-reports.md)
+  - Core Database Audit Report [26.6.8](oracle-database-vault-reports.md)
+  - Core Database Vault Audit Trail Report [26.5.5](oracle-database-vault-reports.md)
+  - Database Account Default Password Report [26.6.7.1](oracle-database-vault-reports.md)
+  - Database Account Status Report [26.6.7.2](oracle-database-vault-reports.md)
+  - Database Accounts With Catalog Roles Report [26.6.5.9](oracle-database-vault-reports.md)
+  - Direct and Indirect System Privileges By Database Account Report [26.6.2.2](oracle-database-vault-reports.md)
+  - Direct Object Privileges Report [26.6.1.3](oracle-database-vault-reports.md)
+  - Direct System Privileges By Database Account Report [26.6.2.1](oracle-database-vault-reports.md)
+  - Enterprise Manager Cloud Control [12.3.3](dba-operations-in-an-oracle-database-vault-environment.md)
+  - Execute Privileges to Strong SYS Packages Report [26.6.3.1](oracle-database-vault-reports.md)
+  - Factor Audit Report [26.5.3](oracle-database-vault-reports.md)
+  - Factor Configuration Issues Report [26.4.4](oracle-database-vault-reports.md)
+  - Factor Without Identities [26.4.5](oracle-database-vault-reports.md)
+  - general security [26.6](oracle-database-vault-reports.md)
+  - Hierarchical System Privileges by Database Account Report [26.6.2.3](oracle-database-vault-reports.md)
+  - Identity Configuration Issues Report [26.4.6](oracle-database-vault-reports.md)
+  - Java Policy Grants Report [26.6.9.1](oracle-database-vault-reports.md)
+  - Label Security Integration Audit Report [26.5.4](oracle-database-vault-reports.md)
+  - Non-Owner Object Trigger Report [26.6.9.7](oracle-database-vault-reports.md)
+  - Object Access By PUBLIC Report [26.6.1.1](oracle-database-vault-reports.md)
+  - Object Access Not By PUBLIC Report [26.6.1.2](oracle-database-vault-reports.md)
+  - Object Dependencies Report [26.6.1.4](oracle-database-vault-reports.md)
+  - Objects Dependent on Dynamic SQL Report [26.6.9.3](oracle-database-vault-reports.md)
+  - OS Directory Objects Report [26.6.9.2](oracle-database-vault-reports.md)
+  - OS Security Vulnerability Privileges [26.6.5.11](oracle-database-vault-reports.md)
+  - Password History Access Report [26.6.5.6](oracle-database-vault-reports.md)
+  - permissions for running [26.2](oracle-database-vault-reports.md)
+  - privilege management [26.6.4](oracle-database-vault-reports.md)
+  - Privileges Distribution By Grantee, Owner, Privilege Report [26.6.4.3](oracle-database-vault-reports.md)
+  - Privileges Distribution By Grantee, Owner Report [26.6.4.2](oracle-database-vault-reports.md)
+  - Privileges Distribution By Grantee Report [26.6.4.1](oracle-database-vault-reports.md)
+  - Public Execute Privilege To SYS PL/SQL Procedures Report [26.6.3.3](oracle-database-vault-reports.md)
+  - Realm Audit Report [26.5.1](oracle-database-vault-reports.md)
+  - Realm Authorization Configuration Issues Report [26.4.3](oracle-database-vault-reports.md)
+  - Resource Profiles Report [26.6.6.2](oracle-database-vault-reports.md)
+  - Roles/Accounts That Have a Given Role Report [26.6.5.8](oracle-database-vault-reports.md)
+  - Rule Set Configuration Issues Report [26.4.2](oracle-database-vault-reports.md)
+  - running [26.3](oracle-database-vault-reports.md)
+  - Secure Application Configuration Issues Report [26.4.7](oracle-database-vault-reports.md)
+  - Secure Application Role Audit Report [26.5.6](oracle-database-vault-reports.md)
+  - Security Policy Exemption Report [26.6.5.3](oracle-database-vault-reports.md)
+  - Security Related Database Parameters [26.6.6.1](oracle-database-vault-reports.md)
+  - security vulnerability [26.6.9](oracle-database-vault-reports.md)
+  - System Privileges By Privilege Report [26.6.2.5](oracle-database-vault-reports.md)
+  - System Resource Limits Report [26.6.6.3](oracle-database-vault-reports.md)
+  - Tablespace Quotas Report [26.6.9.6](oracle-database-vault-reports.md)
+  - Unwrapped PL/SQL Package Bodies Report [26.6.9.4](oracle-database-vault-reports.md)
+  - Username /Password Tables Report [26.6.9.5](oracle-database-vault-reports.md)
+  - WITH ADMIN Privileges Grants Report [26.6.5.1](oracle-database-vault-reports.md)
+  - WITH GRANT Privileges Report [26.6.5.7](oracle-database-vault-reports.md)
+- Resource Profiles Report [26.6.6.2](oracle-database-vault-reports.md)
+- resources
+  - reports
+    - Resource Profiles Report [26.6.6.2](oracle-database-vault-reports.md)
+    - System Resource Limits Report [26.6.6.3](oracle-database-vault-reports.md)
+- REVOKE statement
+  - monitoring [25.1](monitoring-oracle-database-vault.md)
+- roles [8.1](configuring-secure-application-roles-for-oracle-database-vault.md)
+  - See also: secure application roles
+
+  <!-- -->
+
+  - adding to realms as grantees [4.14](configuring-realms.md)
+  - catalog-based [26.6.5.9](oracle-database-vault-reports.md)
+  - Database Vault default roles [13.2.1](oracle-database-vault-schemas-roles-and-accounts.md)
+  - handling protected roles for named users [12.1.3](dba-operations-in-an-oracle-database-vault-environment.md)
+  - identifying roles not protected by a realm [12.1.2](dba-operations-in-an-oracle-database-vault-environment.md)
+  - identifying roles protected by a realm [12.1.1](dba-operations-in-an-oracle-database-vault-environment.md)
+  - identifying roles protected by realm with SYS authorization [12.1.4](dba-operations-in-an-oracle-database-vault-environment.md)
+  - privileges, checking with DBMS_MACUTL.USER_HAS_ROLE_VARCHAR function [20.2](oracle-database-vault-utility-apis.md)
+  - role-based system privileges [26.6.2.3](oracle-database-vault-reports.md)
+  - role enablement in incomplete rule set [26.4.7](oracle-database-vault-reports.md)
+- Roles/Accounts That Have a Given Role Report [26.6.5.8](oracle-database-vault-reports.md)
+- root access
+  - guideline for using with Database Vault [D.2.4](oracle-database-vault-security-guidelines.md)
+  - guidelines on managing [D.4.1](oracle-database-vault-security-guidelines.md)
+- rules [5.5.1](configuring-rule-sets.md)
+  - See also: rule sets
+
+  <!-- -->
+
+  - about [5.5.1](configuring-rule-sets.md)
+  - creating [5.5.3](configuring-rule-sets.md)
+  - creating names [5.5.3](configuring-rule-sets.md)
+  - data dictionary views [5.14](configuring-rule-sets.md)
+  - default [5.5.2](configuring-rule-sets.md)
+  - default, no longer supported [5.13](configuring-rule-sets.md)
+  - deleting [5.5.5](configuring-rule-sets.md)
+  - deleting from rule set [5.5.5](configuring-rule-sets.md)
+  - existing rules, adding to rule set [5.5.4](configuring-rule-sets.md)
+  - naming conventions [5.5.3](configuring-rule-sets.md)
+  - nested within a rule set [5.8.2](configuring-rule-sets.md)
+  - removing from rule set [5.5.5](configuring-rule-sets.md)
+  - reports [5.14](configuring-rule-sets.md)
+  - troubleshooting [E.2](troubleshooting-oracle-database-vault.md)
+  - views
+    - DBA_DV_RULE [24.33](oracle-database-vault-data-dictionary-views.md)
+    - DBA_DV_RULE_SET_RULE [24.35](oracle-database-vault-data-dictionary-views.md)
+- Rule Set Configuration Issues Report [26.4.2](oracle-database-vault-reports.md)
+- rule sets [5.1](configuring-rule-sets.md)
+  - See also: command rules, factors, realms, rules, secure application roles
+
+  <!-- -->
+
+  - about [5.1](configuring-rule-sets.md)
+  - adding existing rules [5.5.4](configuring-rule-sets.md)
+  - auditing
+    - intruders
+      - using rule sets [5.4](configuring-rule-sets.md)
+  - audit options [5.4](configuring-rule-sets.md)
+  - command rules
+    - disabled [26.4.1](oracle-database-vault-reports.md)
+    - selecting for [6.4](configuring-command-rules.md)
+    - used with [6.1.1](configuring-command-rules.md)
+  - creating [5.4](configuring-rule-sets.md)
+    - rules in [5.5.3](configuring-rule-sets.md)
+  - creating names [5.4](configuring-rule-sets.md)
+  - data dictionary views [5.14](configuring-rule-sets.md)
+  - DBMS_MACUTL constants, example of [20.1.3](oracle-database-vault-utility-apis.md)
+  - default, no longer supported [5.13](configuring-rule-sets.md)
+  - default rules [5.5.2](configuring-rule-sets.md)
+  - default rule sets [5.3](configuring-rule-sets.md)
+  - deleting [5.7](configuring-rule-sets.md)
+    - rules from [5.5.5](configuring-rule-sets.md)
+  - disabled for
+    - factor assignment [26.4.4](oracle-database-vault-reports.md)
+    - realm authorization [26.4.3](oracle-database-vault-reports.md)
+  - evaluation of rules [5.5.1](configuring-rule-sets.md)
+  - event handlers [5.4](configuring-rule-sets.md)
+  - events firing, finding with DV_SYSEVENT [15.2.1](oracle-database-vault-rule-set-apis.md)
+  - factors, selecting for [7.3.4.1](configuring-factors.md)
+  - fail code [5.4](configuring-rule-sets.md)
+  - fail message [5.4](configuring-rule-sets.md)
+  - functions
+    - DBMS_MACADM (configuration) [15.1](oracle-database-vault-rule-set-apis.md)
+    - DBMS_MACUTL (utility) [20](oracle-database-vault-utility-apis.md)
+    - DBMS_MACUTL constants (fields) [20.1.1](oracle-database-vault-utility-apis.md)
+    - PL/SQL functions for rule sets [15.2](oracle-database-vault-rule-set-apis.md)
+  - guidelines [5.11](configuring-rule-sets.md)
+  - how rule sets work [5.8.1](configuring-rule-sets.md)
+  - incomplete [26.4.1](oracle-database-vault-reports.md)
+  - multitenant environment
+    - about [5.2](configuring-rule-sets.md)
+  - naming conventions [5.4](configuring-rule-sets.md)
+  - nested rules [5.8.2](configuring-rule-sets.md)
+  - performance effect [5.12](configuring-rule-sets.md)
+  - procedures
+    - DBMS_MACADM (configuration) [15.1](oracle-database-vault-rule-set-apis.md)
+  - process flow [5.8.1](configuring-rule-sets.md)
+  - propagating configuration to other databases [12.3.1](dba-operations-in-an-oracle-database-vault-environment.md)
+  - removing references to objects [5.6](configuring-rule-sets.md)
+  - reports [5.14](configuring-rule-sets.md)
+  - rule sets
+    - evaluation options [5.4](configuring-rule-sets.md)
+  - rules that exclude one user [5.8.3](configuring-rule-sets.md)
+  - security attacks
+    - tracking
+      - with rule set auditing [5.4](configuring-rule-sets.md)
+  - static evaluation [5.11](configuring-rule-sets.md)
+  - troubleshooting [E.2](troubleshooting-oracle-database-vault.md), [E.3](troubleshooting-oracle-database-vault.md)
+  - views
+    - DBA_DV_RULE [24.33](oracle-database-vault-data-dictionary-views.md)
+    - DBA_DV_RULE_SET [24.34](oracle-database-vault-data-dictionary-views.md)
+    - DBA_DV_RULE_SET_RULE [24.35](oracle-database-vault-data-dictionary-views.md)
+- rules sets
+  - audit event, custom [A.3.1](auditing-oracle-database-vault.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- SCHEDULER_ADMIN role
+  - impact of Oracle Database Vault installation [2.4](what-to-expect-after-you-enable-oracle-database-vault.md)
+- scheduling database jobs
+  - CREATE EXTERNAL JOB privilege security consideration [D.6.4](oracle-database-vault-security-guidelines.md)
+- scheduling jobs
+  - See: Oracle Scheduler
+- schemas
+  - DVF [13.1.2](oracle-database-vault-schemas-roles-and-accounts.md)
+  - DVSYS [13.1.1](oracle-database-vault-schemas-roles-and-accounts.md)
+- Secure Application Configuration Issues Report [26.4.7](oracle-database-vault-reports.md)
+- secure application role [8.1](configuring-secure-application-roles-for-oracle-database-vault.md)
+- Secure Application Role Audit Report [26.5.6](oracle-database-vault-reports.md)
+- secure application roles [8.1](configuring-secure-application-roles-for-oracle-database-vault.md)
+  - See also: roles, rule sets
+
+  <!-- -->
+
+  - audit event, custom [A.3.1](auditing-oracle-database-vault.md)
+  - creating [8.2](configuring-secure-application-roles-for-oracle-database-vault.md)
+  - data dictionary view [8.9](configuring-secure-application-roles-for-oracle-database-vault.md)
+  - DBMS_MACSEC_ROLES.SET_ROLE function [8.2](configuring-secure-application-roles-for-oracle-database-vault.md)
+  - deleting [8.5](configuring-secure-application-roles-for-oracle-database-vault.md)
+  - enabling Oracle Database roles to work with Oracle Database Vault [8.3](configuring-secure-application-roles-for-oracle-database-vault.md)
+  - functionality [8.6](configuring-secure-application-roles-for-oracle-database-vault.md)
+  - functions
+    - DBMS_MACADM (configuration) [18.1](oracle-database-vault-secure-application-role-apis.md)
+    - DBMS_MACSEC_ROLES (configuration) [18.2](oracle-database-vault-secure-application-role-apis.md)
+    - DBMS_MACSEC_ROLES package [18.2](oracle-database-vault-secure-application-role-apis.md)
+    - DBMS_MACUTL (utility) [20](oracle-database-vault-utility-apis.md)
+    - DBMS_MACUTL constants (fields) [20.1.1](oracle-database-vault-utility-apis.md)
+  - guidelines on managing [8.4](configuring-secure-application-roles-for-oracle-database-vault.md)
+  - performance effect [8.8](configuring-secure-application-roles-for-oracle-database-vault.md)
+  - procedure
+    - DBMS_MACADM (configuration) [18.1](oracle-database-vault-secure-application-role-apis.md)
+  - procedures and functions
+    - DBMS_MACUTL (utility) [20.2](oracle-database-vault-utility-apis.md)
+  - propagating configuration to other databases [12.3.1](dba-operations-in-an-oracle-database-vault-environment.md)
+  - reports [8.9](configuring-secure-application-roles-for-oracle-database-vault.md)
+    - Rule Set Configuration Issues Report [26.4.2](oracle-database-vault-reports.md)
+  - troubleshooting [E.3](troubleshooting-oracle-database-vault.md)
+  - troubleshooting with auditing report [26.5.6](oracle-database-vault-reports.md)
+  - tutorial [8.7.1](configuring-secure-application-roles-for-oracle-database-vault.md)
+  - views
+    - DBA_DV_ROLE [24.32](oracle-database-vault-data-dictionary-views.md)
+- security attacks
+  - Denial of Service (DoS) attacks
+    - finding system resource limits [26.6.6.3](oracle-database-vault-reports.md)
+  - Denial of Service attacks
+    - finding tablespace quotas [26.6.9.6](oracle-database-vault-reports.md)
+  - eliminating audit trail [26.6.5.10](oracle-database-vault-reports.md)
+  - monitoring security violations [25.1](monitoring-oracle-database-vault.md)
+  - Oracle Database Vault addressing compromised privileged user accounts [1.5](introduction-to-oracle-database-vault.md)
+  - reports
+    - AUDIT Privileges Report [26.6.5.10](oracle-database-vault-reports.md)
+    - Objects Dependent on Dynamic SQL Report [26.6.9.3](oracle-database-vault-reports.md)
+    - Privileges Distribution By Grantee, Owner Report [26.6.4.2](oracle-database-vault-reports.md)
+    - Unwrapped PL/SQL Package Bodies Report [26.6.9.4](oracle-database-vault-reports.md)
+  - SQL injection attacks [26.6.9.3](oracle-database-vault-reports.md)
+  - tracking
+    - with factor auditing [7.3.4.2](configuring-factors.md)
+- security policies, Oracle Database Vault addressing [1.6](introduction-to-oracle-database-vault.md)
+- Security Policy Exemption Report [26.6.5.3](oracle-database-vault-reports.md)
+- Security Related Database Parameters Report [26.6.6.1](oracle-database-vault-reports.md)
+- security violations
+  - monitoring attempts [25.1](monitoring-oracle-database-vault.md)
+- security vulnerabilities
+  - how Database Vault addresses [1.7](introduction-to-oracle-database-vault.md)
+  - operating systems [26.6.5.11](oracle-database-vault-reports.md)
+  - reports [26.6.9](oracle-database-vault-reports.md)
+    - Security Related Database Parameters Report [26.6.6.1](oracle-database-vault-reports.md)
+  - root operating system directory [26.6.9.2](oracle-database-vault-reports.md)
+- SELECT_CATALOG_ROLE role [26.6.5.9](oracle-database-vault-reports.md)
+- sensitive objects reports [26.6.3](oracle-database-vault-reports.md)
+- separation of duty concept
+  - about [D.1.1](oracle-database-vault-security-guidelines.md)
+  - command rules [6.2](configuring-command-rules.md)
+  - database accounts [13.3](oracle-database-vault-schemas-roles-and-accounts.md)
+  - database accounts, suggested [13.3](oracle-database-vault-schemas-roles-and-accounts.md)
+  - database roles [2.3](what-to-expect-after-you-enable-oracle-database-vault.md)
+  - Database Vault Account Manager role [13.3](oracle-database-vault-schemas-roles-and-accounts.md)
+  - documenting tasks [D.1.4](oracle-database-vault-security-guidelines.md)
+  - example matrix [D.1.3](oracle-database-vault-security-guidelines.md)
+  - how Oracle Database Vault addresses [2.3](what-to-expect-after-you-enable-oracle-database-vault.md)
+  - realms [1.7](introduction-to-oracle-database-vault.md)
+  - restricting privileges [2.2](what-to-expect-after-you-enable-oracle-database-vault.md)
+  - roles [13.2.1](oracle-database-vault-schemas-roles-and-accounts.md)
+  - tasks in Oracle Database Vault environment [D.1.2](oracle-database-vault-security-guidelines.md)
+- session event command rule
+  - updating [16.11](oracle-database-vault-command-rule-apis.md)
+- session event command rules
+  - creating for events [16.3](oracle-database-vault-command-rule-apis.md)
+  - deleting [16.7](oracle-database-vault-command-rule-apis.md)
+- sessions
+  - audit events, custom [A.3.1](auditing-oracle-database-vault.md)
+  - DBMS_MACUTL fields [20.1.1](oracle-database-vault-utility-apis.md)
+  - finding session user with DVF.F\$SESSION_USER [17.3.21](oracle-database-vault-factor-apis.md)
+  - restricting data based on [7.8.1](configuring-factors.md)
+  - retrieving information with functions [17.1](oracle-database-vault-factor-apis.md)
+- simulation mode
+  - about [10.1](using-training-mode-to-log-realm-and-command-rule-activities.md)
+  - use cases [10.2](using-training-mode-to-log-realm-and-command-rule-activities.md)
+- simulation mode, realms
+  - considerations [10.3.1](using-training-mode-to-log-realm-and-command-rule-activities.md)
+  - use cases
+    - adding authorized users to a realm [10.3.6](using-training-mode-to-log-realm-and-command-rule-activities.md)
+    - adding new objects to a realm [10.3.4](using-training-mode-to-log-realm-and-command-rule-activities.md)
+    - all in simulation mode [10.3.2](using-training-mode-to-log-realm-and-command-rule-activities.md)
+    - new realms introduced to existing realms [10.3.3](using-training-mode-to-log-realm-and-command-rule-activities.md)
+    - removing authorized users from a realm [10.3.7](using-training-mode-to-log-realm-and-command-rule-activities.md)
+    - removing objects from a realm [10.3.5](using-training-mode-to-log-realm-and-command-rule-activities.md)
+    - testing new changes to an existing command rule [10.3.9](using-training-mode-to-log-realm-and-command-rule-activities.md)
+    - testing new factors with realms [10.3.8](using-training-mode-to-log-realm-and-command-rule-activities.md)
+- SQL92_SECURITY initialization parameter [2.1](what-to-expect-after-you-enable-oracle-database-vault.md)
+- SQL injection attacks, detecting with Object Dependent on Dynamic SQL Report [26.6.9.3](oracle-database-vault-reports.md)
+- SQL statements
+  - default command rules that protect [6.2](configuring-command-rules.md)
+- SQL statements protected by [6.3](configuring-command-rules.md)
+- SQL text, finding with DV_SQL_TEXT [15.2.8](oracle-database-vault-rule-set-apis.md)
+- subfactors
+  - See: child factors under factors topic
+- SYS.DBA_DV_STATUS view [24.37](oracle-database-vault-data-dictionary-views.md)
+- SYSDBA access
+  - guidelines on managing [D.4.3](oracle-database-vault-security-guidelines.md)
+- SYSDBA privilege
+  - limiting, importance of [D.2.3](oracle-database-vault-security-guidelines.md)
+- SYSOPER access
+  - guidelines on managing [D.4.4](oracle-database-vault-security-guidelines.md)
+- system event command rule
+  - updating [16.12](oracle-database-vault-command-rule-apis.md)
+- system event command rules
+  - creating [16.4](oracle-database-vault-command-rule-apis.md)
+  - deleting [16.8](oracle-database-vault-command-rule-apis.md)
+- system features
+  - disabling with Disabled rule set [5.3](configuring-rule-sets.md)
+  - enabling with Enabled rule set [5.3](configuring-rule-sets.md)
+- system privileges
+  - checking with DBMS_MACUTL.USER_HAS_SYSTEM_PRIVILEGE function [20.2](oracle-database-vault-utility-apis.md)
+  - Oracle Database Vault roles [13.2.2](oracle-database-vault-schemas-roles-and-accounts.md)
+  - reports
+    - System Privileges By Privileges Report [26.6.2.5](oracle-database-vault-reports.md)
+- System Privileges By Privilege Report [26.6.2.5](oracle-database-vault-reports.md)
+- System Resource Limits Report [26.6.6.3](oracle-database-vault-reports.md)
+- system root access, guideline on managing [D.4.1](oracle-database-vault-security-guidelines.md)
+- SYSTEM schema
+  - application tables in [D.2.2](oracle-database-vault-security-guidelines.md)
+  - realm protection [4.2.6](configuring-realms.md)
+- SYSTEM user account
+  - guidelines for using with Database Vault [D.2.1](oracle-database-vault-security-guidelines.md)
+- SYS user, patch operations [12.16](dba-operations-in-an-oracle-database-vault-environment.md)
+- SYS user account
+  - adding to realm authorization [4.14](configuring-realms.md)
+  - protecting unified audit trail from [A.2](auditing-oracle-database-vault.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- tablespace quotas [26.6.9.6](oracle-database-vault-reports.md)
+- Tablespace Quotas Report [26.6.9.6](oracle-database-vault-reports.md)
+- time data
+  - DBMS_MACUTL functions [20.2](oracle-database-vault-utility-apis.md)
+- trace files
+  - about [E.1.1](troubleshooting-oracle-database-vault.md)
+- trace files, Oracle Database Vault
+  - about [E.1.1](troubleshooting-oracle-database-vault.md)
+  - activities that can be traced [E.1.2](troubleshooting-oracle-database-vault.md)
+  - ADRCI utility [E.1.6.3](troubleshooting-oracle-database-vault.md)
+  - directory location for trace files [E.1.6.1](troubleshooting-oracle-database-vault.md)
+  - disabling for all sessions [E.1.7.2](troubleshooting-oracle-database-vault.md)
+  - disabling for current session [E.1.7.1](troubleshooting-oracle-database-vault.md)
+  - enabling for all sessions [E.1.5.2](troubleshooting-oracle-database-vault.md)
+  - enabling for current session [E.1.5.1](troubleshooting-oracle-database-vault.md)
+  - examples
+    - highest level on realm violations [E.1.6.6](troubleshooting-oracle-database-vault.md)
+    - high level authorization [E.1.6.5](troubleshooting-oracle-database-vault.md)
+    - low level realm violations [E.1.6.4](troubleshooting-oracle-database-vault.md)
+  - finding trace file directory [E.1.6.1](troubleshooting-oracle-database-vault.md)
+  - levels of trace events [E.1.3](troubleshooting-oracle-database-vault.md)
+  - performance effect [E.1.4](troubleshooting-oracle-database-vault.md)
+  - querying
+    - ADRCI utility [E.1.6.3](troubleshooting-oracle-database-vault.md)
+    - Linux grep command [E.1.6.2](troubleshooting-oracle-database-vault.md)
+- traisimulationning mode
+  - tutorial [10.4](using-training-mode-to-log-realm-and-command-rule-activities.md)
+- Transparent Data Encryption, used with Oracle Database Vault [11.2](integrating-database-vault-with-other-oracle-products.md)
+- transportable tablespaces
+  - authorizing for Oracle Data Pump operations in Database Vault [12.4.3.3](dba-operations-in-an-oracle-database-vault-environment.md)
+  - DBA_DV_TTS_AUTH view [24.38](oracle-database-vault-data-dictionary-views.md)
+  - DBMS_MACADM.AUTHORIZE_TTS_USER procedure [21.1.16](oracle-database-vault-general-administrative-apis.md)
+  - DBMS_MACADM.UNAUTHORIZE_TTS_USER procedure [21.1.41](oracle-database-vault-general-administrative-apis.md)
+- triggers
+  - different from object owner account [26.6.9.7](oracle-database-vault-reports.md)
+  - reports, Non-Owner Object Trigger Report [26.6.9.7](oracle-database-vault-reports.md)
+- troubleshooting
+  - access security sessions [26.5.5](oracle-database-vault-reports.md)
+  - auditing reports, using [26.5](oracle-database-vault-reports.md)
+  - factors [E.2](troubleshooting-oracle-database-vault.md)
+  - general diagnostic tips [E.2](troubleshooting-oracle-database-vault.md)
+  - locked out accounts [B.1](disabling-and-enabling-oracle-database-vault.md)
+  - passwords, forgotten [B.1](disabling-and-enabling-oracle-database-vault.md)
+  - realms [E.2](troubleshooting-oracle-database-vault.md)
+  - rules [E.2](troubleshooting-oracle-database-vault.md)
+  - rule sets [E.2](troubleshooting-oracle-database-vault.md)
+  - secure application roles [26.5.6](oracle-database-vault-reports.md)
+- trusted users
+  - accounts and roles that should be limited [D.4](oracle-database-vault-security-guidelines.md)
+  - default for Oracle Database Vault [D.3](oracle-database-vault-security-guidelines.md)
+- trust levels
+  - about [7.4.2](configuring-factors.md)
+  - determining for identities with GET_TRUST_LEVEL_FOR_IDENTITY [17.2.6](oracle-database-vault-factor-apis.md)
+  - determining with GET_TRUST_LEVEL [17.2.5](oracle-database-vault-factor-apis.md)
+  - factor identity [7.4.2](configuring-factors.md)
+  - factors [7.4.4](configuring-factors.md)
+  - for factor and identity requested [17.2.6](oracle-database-vault-factor-apis.md)
+  - identities [7.3.3.2](configuring-factors.md)
+  - of current session identity [17.2.5](oracle-database-vault-factor-apis.md)
+- tutorials [7.6.3](configuring-factors.md)
+  - See also: examples
+
+  <!-- -->
+
+  - access, granting with secure application roles [8.7.1](configuring-secure-application-roles-for-oracle-database-vault.md)
+  - ad hoc tool access, preventing [7.7.1](configuring-factors.md)
+  - configuring two-person integrity (TPI) [5.10.1](configuring-rule-sets.md)
+  - Database Vault factors with Virtual Private Database and Oracle Label Security [11.3.4.1](integrating-database-vault-with-other-oracle-products.md)
+  - email alert in rule set [5.9.1](configuring-rule-sets.md)
+  - factors, mapping identities [7.8.1](configuring-factors.md)
+  - Oracle Label Security integration with Oracle Database Vault [11.3.4.1](integrating-database-vault-with-other-oracle-products.md)
+  - restricting access based on session data [7.8.1](configuring-factors.md)
+  - restricting user activities with command rules [6.8](configuring-command-rules.md)
+  - schema, protecting with a realm [3.7.1](getting-started-with-oracle-database-vault.md)
+  - simulation mode [10.4](using-training-mode-to-log-realm-and-command-rule-activities.md)
+- two-man rule security
+  - See: two-person integrity (TPI)
+- two-person integrity (TPI)
+  - about [5.10.1](configuring-rule-sets.md)
+  - configuring with a rule set [5.10.1](configuring-rule-sets.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- UNAUTHORIZE_MAINTENANCE_USER procedure [21.1.37](oracle-database-vault-general-administrative-apis.md)
+- unified audit trail
+  - how it works with Database Vault [A.1](auditing-oracle-database-vault.md)
+  - protecting with a realm [A.2](auditing-oracle-database-vault.md)
+- Unwrapped PL/SQL Package Bodies Report [26.6.9.4](oracle-database-vault-reports.md)
+- USER_HISTORY\$ table [26.6.5.6](oracle-database-vault-reports.md)
+- user authorization
+  - Database Vault authorization for ILM
+    - granting [21.1.12](oracle-database-vault-general-administrative-apis.md)
+    - revoking [21.1.37](oracle-database-vault-general-administrative-apis.md)
+  - Database Vault authorization for Information Lifecycle Management
+    - granting [21.1.12](oracle-database-vault-general-administrative-apis.md)
+    - revoking [21.1.37](oracle-database-vault-general-administrative-apis.md)
+- Username/Password Tables Report [26.6.9.5](oracle-database-vault-reports.md)
+- user names
+  - reports, Username/Password Tables Report [26.6.9.5](oracle-database-vault-reports.md)
+- users
+  - enterprise identities, finding with DVF.F\$PROXY_ENTERPRISE_IDENTITY [17.3.19](oracle-database-vault-factor-apis.md)
+  - enterprise-wide identities, finding with DVF.F\$ENTERPRISE_IDENTITY [17.3.13](oracle-database-vault-factor-apis.md)
+  - finding session user with DVF.F\$SESSION_USER [17.3.21](oracle-database-vault-factor-apis.md)
+  - login user name, finding with DV_LOGIN_USER [15.2.2](oracle-database-vault-rule-set-apis.md)
+  - restricting access by factor identity [7.8.1](configuring-factors.md)
+- utility functions
+  - See: .DBMS_MACUTL package
+- UTL_FILE object [26.6.1.4](oracle-database-vault-reports.md)
+- UTL_FILE package, guidelines on managing [D.6.2.1](oracle-database-vault-security-guidelines.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- views [24.1](oracle-database-vault-data-dictionary-views.md)
+  - See also: names beginning with DVSYS.DBA_DV
+
+  <!-- -->
+
+  - AUDSYS.DV\$CONFIGURATION_AUDIT [24.52](oracle-database-vault-data-dictionary-views.md)
+  - AUDSYS.DV\$ENFORCEMENT_AUDIT [24.53](oracle-database-vault-data-dictionary-views.md)
+  - CDB_DV_STATUS [24.2](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_APP_EXCEPTION [24.3](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_CODE [24.4](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_COMMAND_RULE [24.5](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_DATAPUMP_AUTH [24.6](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_DBCAPTURE_AUTH [24.7](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_DBREPLAY_AUTH [24.8](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_DDL_AUTH [24.9](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_DICTIONARY_ACCTS [24.10](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_FACTOR [24.11](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_FACTOR_TYPE [24.12](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_IDENTITY [24.14](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_IDENTITY_MAP [24.15](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_JOB_AUTH [24.16](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_MAINTENANCE_AUTH [24.19](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_ORADEBUG [24.20](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_PATCH_ADMIN_AUDIT [24.21](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_POLICY [24.22](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_POLICY_LABEL [24.23](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_POLICY_OBJECT [24.24](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_POLICY_OWNER [24.25](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_PREPROCESSOR_AUTH [24.26](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_PROXY_AUTH [24.27](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_PUB_PRIVS [24.28](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_REALM [24.29](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_REALM_AUTH [24.30](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_REALM_OBJECT [24.31](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_ROLE [24.32](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_RULE_SET [24.34](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_RULE_SET_RULE [24.35](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_SIMULATION_LOG [24.36](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_STATUS [24.37](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_TTS_AUTH [24.38](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_USER_PRIVS [24.39](oracle-database-vault-data-dictionary-views.md)
+  - DBA_DV_USER_PRIVS_ALL [24.40](oracle-database-vault-data-dictionary-views.md)
+  - DVSYS.DV\$CONFIGURATION_AUDIT [24.41](oracle-database-vault-data-dictionary-views.md)
+  - DVSYS.DV\$ENFORCEMENT_AUDIT [24.42](oracle-database-vault-data-dictionary-views.md)
+  - DVSYS.DV\$REALM [24.43](oracle-database-vault-data-dictionary-views.md)
+  - DVSYS.POLICY_OWNER_COMMAND_RULE [24.44](oracle-database-vault-data-dictionary-views.md)
+  - DVSYS.POLICY_OWNER_POLICY [24.45](oracle-database-vault-data-dictionary-views.md)
+  - DVSYS.POLICY_OWNER_REALM [24.46](oracle-database-vault-data-dictionary-views.md)
+  - DVSYS.POLICY_OWNER_REALM_AUTH [24.47](oracle-database-vault-data-dictionary-views.md)
+  - DVSYS.POLICY_OWNER_REALM_OBJECT [24.48](oracle-database-vault-data-dictionary-views.md)
+  - DVSYS.POLICY_OWNER_RULE [24.49](oracle-database-vault-data-dictionary-views.md)
+  - DVSYS.POLICY_OWNER_RULE_SET [24.50](oracle-database-vault-data-dictionary-views.md)
+  - DVSYS.POLICY_OWNER_RULE_SET_RULE [24.51](oracle-database-vault-data-dictionary-views.md)
+  - SYS.DBA_DV_STATUS [24.37](oracle-database-vault-data-dictionary-views.md)
+- VPD
+  - See: Oracle Virtual Private Database (VPD)
+
+------------------------------------------------------------------------
+
+## W
+
+- WITH ADMIN Privileges Grants Report [26.6.5.1](oracle-database-vault-reports.md)
+- WITH ADMIN status [26.6.2.1](oracle-database-vault-reports.md), [26.6.2.2](oracle-database-vault-reports.md)
+- WITH GRANT clause [26.6.5.7](oracle-database-vault-reports.md)
+- WITH GRANT Privileges Report [26.6.5.7](oracle-database-vault-reports.md)
+
+------------------------------------------------------------------------
+
+## X
+
+- XStream
+  - Database Vault role used for [13.2.10](oracle-database-vault-schemas-roles-and-accounts.md)
+  - in an Oracle Database Vault environment [12.11](dba-operations-in-an-oracle-database-vault-environment.md)
