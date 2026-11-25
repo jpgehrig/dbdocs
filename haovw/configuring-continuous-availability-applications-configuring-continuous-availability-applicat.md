@@ -1,0 +1,19 @@
+## 37 Configuring Continuous Availability for Applications
+
+Ensure that your applications are configured to quickly and automatically shift workload to available Oracle RAC instances or standby databases during planned maintenance and unplanned outages.
+
+Application up time is maximized by following these recommendations when there are outages.
+
+The primary audience for this document is application developers and application owners. Operational examples are included for database administrators and PDB administrators.
+
+### Topics:
+
+- [About Application High Availability Levels](Chunk2098976875.md)
+
+- [Configuring Level 1: Basic Application High Availability](Chunk1671116835.md)
+
+- [Configuring Level 2: Prepare Applications for Planned Maintenance](Chunk721772143.md)
+
+- [Configuring Level 3: Mask Unplanned and Planned Failovers from Applications](Chunk1076346981.md)
+
+- [Reference](Chunk514211254.md)
