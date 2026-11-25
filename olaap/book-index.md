@@ -1,0 +1,1083 @@
+A  B  C  D  E  F  G  H  I  J  L  M  N  O  P  Q  R  S  T  U  V  W  X  
+
+------------------------------------------------------------------------
+
+## A
+
+- access to metadata objects
+  - restricting [2.3.2.2](understanding-olap-java-api-metadata.md)
+- addObjectClassification method [2.2.3](understanding-olap-java-api-metadata.md)
+- aggregate levels of a hierarchy [2.4.2.3.1](understanding-olap-java-api-metadata.md)
+- AggregationCommand objects
+  - example of creating [4.5.1](creating-metadata-and-analytic-workspaces.md)
+- alias method
+  - description [6.1](making-queries-using-source-methods.md)
+  - example of [6.2.1](making-queries-using-source-methods.md)
+- ALL metadata reader mode [2.2.1.3.2](understanding-olap-java-api-metadata.md)
+- Analytic Workspace Manager [1.1.5](introduction-olap-java-api.md)
+- analytic workspaces
+  - building [1.1.5](introduction-olap-java-api.md)
+  - building, example of [4.8](creating-metadata-and-analytic-workspaces.md)
+  - creating [4.2](creating-metadata-and-analytic-workspaces.md)
+  - sample [1.3](introduction-olap-java-api.md)
+- ancestors attribute
+  - example of getting [6.2.6.2](making-queries-using-source-methods.md)
+  - method for getting [2.4.2.3](understanding-olap-java-api-metadata.md)
+- appendValues method [5.4.4.5](understanding-source-objects.md)
+  - example of [6.2.2](making-queries-using-source-methods.md)
+- applications
+  - requirements for developing [A.1](setting-up-development-environment.md)
+  - typical tasks performed by [1.4](introduction-olap-java-api.md)
+- ascending
+  - comparison rules in a join operation [5.4.1.3](understanding-source-objects.md)
+- asymmetric result set, Cursor positions in an [8.5.2](understanding-cursor-classes-and-concepts.md)
+- at method
+  - example of [6.3.3](making-queries-using-source-methods.md)
+- AttributeMap objects
+  - creating [4.3.2](creating-metadata-and-analytic-workspaces.md)
+- attributes
+  - as dimensional data objects [1.1.3](introduction-olap-java-api.md)
+  - creating [4.4](creating-metadata-and-analytic-workspaces.md)
+  - creating an index for [2.4.3.2.3](understanding-olap-java-api-metadata.md)
+  - grouping [2.4.3.2.2](understanding-olap-java-api-metadata.md)
+  - mapping [4.4](creating-metadata-and-analytic-workspaces.md)
+  - mapping, example of [4.3.2](creating-metadata-and-analytic-workspaces.md)
+  - multilingual [2.4.3.2.5](understanding-olap-java-api-metadata.md)
+  - prefixes for in materialized views [2.4.3.2.7](understanding-olap-java-api-metadata.md)
+  - represented by MdmAttribute objects [2.4.3](understanding-olap-java-api-metadata.md)
+  - specifying language for [2.4.3.2.4](understanding-olap-java-api-metadata.md)
+  - specifying target dimension for [2.4.3.1.4](understanding-olap-java-api-metadata.md)
+  - unique key [2.4.3.2.7](understanding-olap-java-api-metadata.md)
+- AWCubeOrganization class [2.4.1.1](understanding-olap-java-api-metadata.md)
+- AWCubeOrganization objects
+  - example of creating [4.5.1](creating-metadata-and-analytic-workspaces.md)
+- AW objects
+  - creating [4.2](creating-metadata-and-analytic-workspaces.md)
+  - naming [2.2.1.1](understanding-olap-java-api-metadata.md)
+- AWPrimaryDimensionOrganization objects
+  - creating [4.3.1](creating-metadata-and-analytic-workspaces.md)
+
+------------------------------------------------------------------------
+
+## B
+
+- BaseExample11g.java example program [1.3](introduction-olap-java-api.md)
+- BaseMetadataObject class [2.2](understanding-olap-java-api-metadata.md)
+- base Source
+  - definition [5.3.3](understanding-source-objects.md), [6.1](making-queries-using-source-methods.md)
+  - of a join operation [5.4.1](understanding-source-objects.md)
+- basic Source methods [6.1](making-queries-using-source-methods.md)
+- bind variables
+  - in XML templates [2.3.1.2.3](understanding-olap-java-api-metadata.md)
+- Buildable interface [2.4.2.1](understanding-olap-java-api-metadata.md)
+- building analytic workspaces [1.1.5](introduction-olap-java-api.md)
+  - example of [4.8](creating-metadata-and-analytic-workspaces.md)
+- BuildItem objects
+  - creating [4.8](creating-metadata-and-analytic-workspaces.md)
+- BuildProcess objects
+  - creating [4.8](creating-metadata-and-analytic-workspaces.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- Cartesian product
+  - result of joining unrelated Source objects [5.4.1.1](understanding-source-objects.md)
+- classifying metadata objects [2.2.3](understanding-olap-java-api-metadata.md)
+- class libraries
+  - obtaining [A.3](setting-up-development-environment.md)
+- ColumnExpression objects
+  - creating [4.3.2](creating-metadata-and-analytic-workspaces.md)
+- committing transactions [4.6](creating-metadata-and-analytic-workspaces.md)
+- COMPARISON_RULE_ASCENDING
+  - example of [6.2.5](making-queries-using-source-methods.md), [6.3.4](making-queries-using-source-methods.md)
+- COMPARISON_RULE_ASCENDING_NULLS_FIRST
+  - example of [6.2.5](making-queries-using-source-methods.md)
+- COMPARISON_RULE_DESCENDING
+  - example of [6.2.3](making-queries-using-source-methods.md)
+- COMPARISON_RULE_DESCENDING_NULLS_FIRST
+  - example of [6.2.5](making-queries-using-source-methods.md)
+- COMPARISON_RULE_REMOVE
+  - description [5.4.1.3](understanding-source-objects.md)
+  - example of [5.4.2.3](understanding-source-objects.md), [6.2.4](making-queries-using-source-methods.md), [6.2.6.2](making-queries-using-source-methods.md)
+- COMPARISON_RULE_SELECT
+  - description [5.4.1.3](understanding-source-objects.md)
+  - example of [5.4.2.2](understanding-source-objects.md), [5.4.2.4](understanding-source-objects.md), [5.4.4.4](understanding-source-objects.md)
+- comparison parameter
+  - of the join method [5.4.1.2](understanding-source-objects.md)
+- comparisonRule parameter
+  - of a join method [5.4.1.3](understanding-source-objects.md)
+- CompoundCursor objects
+  - getting children of, example [9.1.1](retrieving-query-results.md)
+  - navigating for a crosstab view, example [9.2](retrieving-query-results.md)
+  - navigating for a table view, example [9.2](retrieving-query-results.md)
+  - positions of [8.5.2](understanding-cursor-classes-and-concepts.md)
+- connections
+  - closing [3.1.3](discovering-metadata.md)
+  - creating [3.1.2.1](discovering-metadata.md)
+  - prerequisites for [3.1.1](discovering-metadata.md)
+- consistent cube [2.4.1.1](understanding-olap-java-api-metadata.md)
+- ConsistentSolveCommand objects
+  - contained by a ConsistentSolveSpecification [2.4.1.1](understanding-olap-java-api-metadata.md)
+  - example of creating [4.5.1](creating-metadata-and-analytic-workspaces.md)
+- ConsistentSolveSpecification objects
+  - associated with an MdmCube [2.4.1.1](understanding-olap-java-api-metadata.md)
+- container
+  - of a BaseMetadataObject [2.2](understanding-olap-java-api-metadata.md)
+- Context11g.java example program [1.3](introduction-olap-java-api.md)
+- count method
+  - example of [5.4.4.2](understanding-source-objects.md)
+- CreateAndBuildAW.java example program [1.3](introduction-olap-java-api.md)
+- createCursorManager method [8.1.1](understanding-cursor-classes-and-concepts.md), [8.4](understanding-cursor-classes-and-concepts.md)
+  - example of [6.3.7](making-queries-using-source-methods.md), [8.5.2](understanding-cursor-classes-and-concepts.md), [9.1](retrieving-query-results.md)
+- createCursor method [8.1.1](understanding-cursor-classes-and-concepts.md)
+  - example of [6.3.7](making-queries-using-source-methods.md), [8.5.2](understanding-cursor-classes-and-concepts.md), [9.1](retrieving-query-results.md), [9.1.1](retrieving-query-results.md)
+- createListSource method
+  - example of [5.5](understanding-source-objects.md), [6.3.1](making-queries-using-source-methods.md), [6.3.6](making-queries-using-source-methods.md)
+- createParameterizedSource method
+  - example of [5.5](understanding-source-objects.md)
+- createRangeSource method
+  - example of [6.2.4](making-queries-using-source-methods.md)
+- createRootTransaction method [7.1](using-transaction-provider.md)
+- createSource method [5.5](understanding-source-objects.md)
+  - example of [5.5](understanding-source-objects.md), [6.3.2](making-queries-using-source-methods.md), [6.3.7](making-queries-using-source-methods.md)
+- createSQLCursorManager method [8.4](understanding-cursor-classes-and-concepts.md)
+- CreateValueHierarchy.java example program [4.3.3.2](creating-metadata-and-analytic-workspaces.md)
+- crosstab view
+  - example of [6.2.1](making-queries-using-source-methods.md)
+  - navigating Cursor for, example [9.2](retrieving-query-results.md)
+- CubeDimensionalityMap objects
+  - contained by a CubeMap [2.4.1.1](understanding-olap-java-api-metadata.md)
+  - creating [4.5.2](creating-metadata-and-analytic-workspaces.md)
+- CubeMap objects
+  - creating [4.5.2](creating-metadata-and-analytic-workspaces.md)
+  - specifying a Query for [2.4.1.1](understanding-olap-java-api-metadata.md)
+- CubeOrganization objects
+  - contained by an MdmCube [2.4.1.1](understanding-olap-java-api-metadata.md)
+- cubes
+  - as dimensional data objects [1.1.3](introduction-olap-java-api.md)
+  - consistent [2.4.1.1](understanding-olap-java-api-metadata.md)
+  - creating [4.5.1](creating-metadata-and-analytic-workspaces.md)
+  - example of [6.3.2](making-queries-using-source-methods.md)
+  - metadata object representing [2.4.1.1](understanding-olap-java-api-metadata.md)
+- current position in a Cursor, definition [8.5](understanding-cursor-classes-and-concepts.md)
+- current Transaction [7.1](using-transaction-provider.md), [7.1.6](using-transaction-provider.md)
+- CursorInfoSpecification interface [8.3](understanding-cursor-classes-and-concepts.md)
+- CursorManager class [8.4](understanding-cursor-classes-and-concepts.md)
+- CursorManager objects
+  - closing before rolling back a Transaction [7.2](using-transaction-provider.md)
+  - creating [8.1.1](understanding-cursor-classes-and-concepts.md)
+  - creating, example of [6.3.2](making-queries-using-source-methods.md), [9.1](retrieving-query-results.md)
+  - updating the CursorManagerSpecification [8.4.1](understanding-cursor-classes-and-concepts.md)
+- Cursor objects
+  - created in the current Transaction [8.1.3](understanding-cursor-classes-and-concepts.md)
+  - creating [8.1.1](understanding-cursor-classes-and-concepts.md)
+  - creating, example of [6.3.2](making-queries-using-source-methods.md), [9.1](retrieving-query-results.md)
+  - current position, definition [8.5](understanding-cursor-classes-and-concepts.md)
+  - CursorManager objects for creating [8.4](understanding-cursor-classes-and-concepts.md)
+  - extent, definition [8.5.4](understanding-cursor-classes-and-concepts.md)
+  - extent calculation, example [9.4](retrieving-query-results.md)
+  - faster and slower varying components [8.2.1](understanding-cursor-classes-and-concepts.md)
+  - fetch size, definition [8.6](understanding-cursor-classes-and-concepts.md)
+  - getting children of, example [9.1.1](retrieving-query-results.md)
+  - getting the values of, examples [9.1.1](retrieving-query-results.md)
+  - parent starting and ending position [8.5.3](understanding-cursor-classes-and-concepts.md)
+  - position [8.5](understanding-cursor-classes-and-concepts.md)
+  - retrieving data with [1.2.3](introduction-olap-java-api.md)
+  - Source objects for which you cannot create [8.1.2](understanding-cursor-classes-and-concepts.md)
+  - span, definition [8.5.3](understanding-cursor-classes-and-concepts.md)
+  - specifying fetch size for a table view, example [9.5](retrieving-query-results.md)
+  - specifying the behavior of [8.2.2](understanding-cursor-classes-and-concepts.md), [9.3](retrieving-query-results.md)
+  - starting and ending positions of a value, example of calculating [9.4](retrieving-query-results.md)
+  - structure [8.2.1](understanding-cursor-classes-and-concepts.md)
+- cursor package
+  - description [1.1.2](introduction-olap-java-api.md)
+- CursorPrintWriter.java example program [1.3](introduction-olap-java-api.md)
+- CursorSpecification class [8.3](understanding-cursor-classes-and-concepts.md)
+- CursorSpecification objects
+  - getting from a CursorManagerSpecification, example [9.3](retrieving-query-results.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- data
+  - retrieving [1.2.3](introduction-olap-java-api.md), [8.1](understanding-cursor-classes-and-concepts.md)
+  - specifying [1.2.1](introduction-olap-java-api.md), [5.1](understanding-source-objects.md)
+- database schemas
+  - represented by MdmDatabaseSchema objects [2.3.2.2](understanding-olap-java-api-metadata.md)
+- data objects
+  - first-class [2.3.1](understanding-olap-java-api-metadata.md)
+- DataProvider objects
+  - creating [3.1.2.2](discovering-metadata.md)
+  - needed to create MdmMetadataProvider [3.3](discovering-metadata.md)
+- data store
+  - definition [1.1.5](introduction-olap-java-api.md)
+  - exploring [3.2.1](discovering-metadata.md)
+  - gaining access to data in [1.2](introduction-olap-java-api.md), [2.4](understanding-olap-java-api-metadata.md), [3.2](discovering-metadata.md)
+  - scope of [3.2](discovering-metadata.md)
+- data types [5.3.2](understanding-source-objects.md)
+  - See also: SQL data types
+
+  <!-- -->
+
+  - converting [6.1](making-queries-using-source-methods.md)
+  - of Source objects [5.3.2](understanding-source-objects.md)
+- data warehouse [1.1.5](introduction-olap-java-api.md)
+- deployment package
+  - description [1.1.2](introduction-olap-java-api.md)
+- derived Source objects
+  - definition [5.2](understanding-source-objects.md)
+- descending
+  - comparison rules in a join operation [5.4.1.3](understanding-source-objects.md)
+- descriptions
+  - metadata objects for [2.2.2](understanding-olap-java-api-metadata.md)
+  - types provided by API [2.2.2](understanding-olap-java-api-metadata.md)
+- dimensional data model
+  - associations between classes [2.4](understanding-olap-java-api-metadata.md)
+  - description [1.1.3](introduction-olap-java-api.md)
+  - designing an OLAP [1.1.5](introduction-olap-java-api.md)
+  - implementing [1.1.4](introduction-olap-java-api.md)
+  - objects corresponding to MDM objects [2.1](understanding-olap-java-api-metadata.md)
+  - star schema as a [1.1.5](introduction-olap-java-api.md)
+- dimensioned Source
+  - definition [5.4.3.1](understanding-source-objects.md)
+- dimension levels
+  - mapping [4.3.2](creating-metadata-and-analytic-workspaces.md)
+  - metadata object for [2.4.2.2](understanding-olap-java-api-metadata.md)
+- dimensions
+  - as dimensional data objects [1.1.3](introduction-olap-java-api.md)
+  - creating [4.3](creating-metadata-and-analytic-workspaces.md)
+  - dimensioning measures [2.4.2](understanding-olap-java-api-metadata.md)
+  - MdmDimension classes [2.4.2](understanding-olap-java-api-metadata.md)
+  - MdmDimension objects [4.3](creating-metadata-and-analytic-workspaces.md)
+  - member value formatting [1.2.2](introduction-olap-java-api.md)
+  - metadata objects representing [2.4.2.1](understanding-olap-java-api-metadata.md)
+- distinct method
+  - description [6.1](making-queries-using-source-methods.md)
+  - example of [6.2.2](making-queries-using-source-methods.md)
+- div method
+  - example of [6.3.5](making-queries-using-source-methods.md)
+- drilling in a hierarchy
+  - example of [6.3.3](making-queries-using-source-methods.md)
+- DynamicDefinition class [10.2.5](creating-dynamic-queries.md)
+- dynamic queries [10.1](creating-dynamic-queries.md)
+- dynamic Source objects
+  - definition [5.2](understanding-source-objects.md)
+  - example of getting [10.3.2](creating-dynamic-queries.md)
+  - produced by a Template [10.1.1](creating-dynamic-queries.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- edges of a cube
+  - creating [4.3](creating-metadata-and-analytic-workspaces.md)
+  - definition [1.1.3](introduction-olap-java-api.md)
+  - pivoting, example of [6.3.2](making-queries-using-source-methods.md)
+- elements
+  - of a Source [5.3.1](understanding-source-objects.md)
+- empty Source objects
+  - definition [5.2](understanding-source-objects.md)
+- EnableMVs.java example program [2.4.3.2.7](understanding-olap-java-api-metadata.md)
+- end date
+  - attribute [2.4.3.1.1](understanding-olap-java-api-metadata.md)
+  - of a time dimension [2.4.2.1](understanding-olap-java-api-metadata.md)
+- ET views [2.4.4](understanding-olap-java-api-metadata.md)
+  - See also: OLAP views
+
+  <!-- -->
+
+  - embedded total views for OLAP metadata objects [2.4.4](understanding-olap-java-api-metadata.md)
+- example programs
+  - compressed file containing [1.3](introduction-olap-java-api.md)
+  - sample schema for [1.3](introduction-olap-java-api.md)
+- executeBuild method
+  - example of [4.8](creating-metadata-and-analytic-workspaces.md)
+- exportFullXML methods
+  - description [2.3.1.2.1](understanding-olap-java-api-metadata.md)
+  - example of [4.7](creating-metadata-and-analytic-workspaces.md)
+- exportIncrementalXML methods
+  - description [2.3.1.2.1](understanding-olap-java-api-metadata.md)
+- exporting XML templates [2.3.1.2.1](understanding-olap-java-api-metadata.md), [4.7](creating-metadata-and-analytic-workspaces.md)
+- Expression objects
+  - creating [4.3.2](creating-metadata-and-analytic-workspaces.md)
+  - example of [4.5.2](creating-metadata-and-analytic-workspaces.md)
+- extent of a Cursor
+  - definition [8.5.4](understanding-cursor-classes-and-concepts.md)
+  - example of calculating [9.4](retrieving-query-results.md)
+  - use of [8.5.4](understanding-cursor-classes-and-concepts.md)
+- extraction input
+  - definition [5.4.3.3](understanding-source-objects.md)
+- extract method [5.4.3.2](understanding-source-objects.md)
+  - description [6.3.1](making-queries-using-source-methods.md)
+  - example of [5.5](understanding-source-objects.md), [6.3.1](making-queries-using-source-methods.md), [6.3.6](making-queries-using-source-methods.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- faster varying Cursor components [8.2.1](understanding-cursor-classes-and-concepts.md)
+- fetch size of a Cursor
+  - definition [8.6](understanding-cursor-classes-and-concepts.md)
+  - example of specifying [9.5](retrieving-query-results.md)
+  - reasons for specifying [8.6](understanding-cursor-classes-and-concepts.md)
+- findOrCreateAttributeMap method [2.4.3.2.4](understanding-olap-java-api-metadata.md), [4.4](creating-metadata-and-analytic-workspaces.md)
+  - example of [4.3.2](creating-metadata-and-analytic-workspaces.md)
+- findOrCreateAWCubeOrganization method
+  - example of [4.5.1](creating-metadata-and-analytic-workspaces.md)
+- findOrCreateAW method [2.2.1.1](understanding-olap-java-api-metadata.md)
+  - example of [4.2](creating-metadata-and-analytic-workspaces.md)
+- findOrCreateAWPrimaryDimensionOrganization method
+  - example of [4.3.1](creating-metadata-and-analytic-workspaces.md)
+- findOrCreateBaseAttribute method
+  - description [2.4.3.2](understanding-olap-java-api-metadata.md)
+  - example of [4.4](creating-metadata-and-analytic-workspaces.md)
+- findOrCreateBaseMeasure method [2.4.1.1](understanding-olap-java-api-metadata.md)
+  - example of [2.4.4.4](understanding-olap-java-api-metadata.md), [4.5.2](creating-metadata-and-analytic-workspaces.md)
+- findOrCreateCubeDimensionalityMap method
+  - example of [4.5.2](creating-metadata-and-analytic-workspaces.md)
+- findOrCreateCube method
+  - example of [2.4.4.1](understanding-olap-java-api-metadata.md), [4.5.1](creating-metadata-and-analytic-workspaces.md)
+- findOrCreateDerivedMeasure method [2.4.1.1](understanding-olap-java-api-metadata.md)
+- findOrCreateDescription method [2.2.2](understanding-olap-java-api-metadata.md)
+- findOrCreateDimensionLevel method [2.4.2.2](understanding-olap-java-api-metadata.md)
+  - example of [4.3.2](creating-metadata-and-analytic-workspaces.md)
+- findOrCreateHierarchyLevel method
+  - example of [4.3.3.1](creating-metadata-and-analytic-workspaces.md)
+- findOrCreateLevelHierarchy method
+  - example of [2.4.4.3](understanding-olap-java-api-metadata.md)
+- findOrCreateMeasureMap method
+  - example of [4.5.2](creating-metadata-and-analytic-workspaces.md)
+- findOrCreateMemberListMap method
+  - example of [4.3.2](creating-metadata-and-analytic-workspaces.md)
+- findOrCreateStandardDimension method [2.2.1.3.2](understanding-olap-java-api-metadata.md)
+  - example of [4.3.1](creating-metadata-and-analytic-workspaces.md)
+- first-class data objects [2.3.1](understanding-olap-java-api-metadata.md)
+- fromSyntax method
+  - example of [4.3.2](creating-metadata-and-analytic-workspaces.md)
+- FundamentalMetadataObject class
+  - representing data types [5.3.2](understanding-source-objects.md)
+- FundamentalMetadataProvider objects
+  - example of [5.3.2](understanding-source-objects.md)
+- fundamental Source objects
+  - definition [5.2](understanding-source-objects.md)
+  - for data types [5.3.2](understanding-source-objects.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- generated SQL, getting [8.1](understanding-cursor-classes-and-concepts.md)
+- getAncestorsAttribute method [2.4.2.3](understanding-olap-java-api-metadata.md)
+- getAttributeGroupName method [2.4.3.2.2](understanding-olap-java-api-metadata.md)
+- getContainedByObject method [2.2](understanding-olap-java-api-metadata.md)
+- getDataType method
+  - of a Source [5.3.2](understanding-source-objects.md)
+  - of a Source, example of [6.2.3](making-queries-using-source-methods.md), [6.2.5](making-queries-using-source-methods.md), [6.3.4](making-queries-using-source-methods.md)
+- getEmptySource method [5.2](understanding-source-objects.md)
+  - example of [5.4.2.1](understanding-source-objects.md)
+- getETAttributeColumn method [2.4.3.2](understanding-olap-java-api-metadata.md)
+- getID method
+  - example of [5.5](understanding-source-objects.md)
+  - of a BaseMetadataObject [2.2.1.2](understanding-olap-java-api-metadata.md)
+  - of a Source [5.3.4](understanding-source-objects.md)
+- getInputs method [5.4.3](understanding-source-objects.md)
+- getLevelAttribute method
+  - example of [6.2.4](making-queries-using-source-methods.md)
+- getMdmMetadataProvider method
+  - example of [3.3](discovering-metadata.md)
+- getMetadataObject method [2.3.1.1](understanding-olap-java-api-metadata.md)
+- getMetadataObjects method [2.3.1.1](understanding-olap-java-api-metadata.md)
+- getNewName method [2.2.1.1](understanding-olap-java-api-metadata.md)
+- getOutputs method [5.4.2](understanding-source-objects.md)
+- getOwner method [2.2](understanding-olap-java-api-metadata.md)
+- getParentAttribute method [2.4.2.3](understanding-olap-java-api-metadata.md)
+- getRootSchema method [2.3.1](understanding-olap-java-api-metadata.md)
+- getSource method
+  - example of [3.7](discovering-metadata.md), [6.2.4](making-queries-using-source-methods.md), [6.3.3](making-queries-using-source-methods.md)
+  - for getting Source produced by a Template, example [10.3.2](creating-dynamic-queries.md)
+  - in DynamicDefinition class [10.1.1](creating-dynamic-queries.md)
+- getTopLevelObject method [2.3.2.2](understanding-olap-java-api-metadata.md)
+  - example of [4.5.2](creating-metadata-and-analytic-workspaces.md)
+- getType method [5.3.3](understanding-source-objects.md)
+- getValidNamespaces method [2.2.1.3.2](understanding-olap-java-api-metadata.md)
+- getVoidSource method [5.2](understanding-source-objects.md)
+- GLOBAL_AWJ sample analytic workspace [1.3](introduction-olap-java-api.md)
+- Global schema for example programs [1.3](introduction-olap-java-api.md)
+- grouping attributes [2.4.3.2.2](understanding-olap-java-api-metadata.md)
+- gt method
+  - of a Source, example of [6.2.1](making-queries-using-source-methods.md)
+
+------------------------------------------------------------------------
+
+## H
+
+- hierarchical sorting
+  - example of [6.3.4](making-queries-using-source-methods.md)
+- hierarchies
+  - as dimensional data objects [1.1.3](introduction-olap-java-api.md)
+  - creating [4.3.3](creating-metadata-and-analytic-workspaces.md)
+  - lineage in materialized views [2.4.1.1](understanding-olap-java-api-metadata.md)
+  - lineage in OLAP views [2.4.3.2.6](understanding-olap-java-api-metadata.md)
+  - ragged [2.4.2.3.1](understanding-olap-java-api-metadata.md)
+  - skip-level [2.4.2.3.1](understanding-olap-java-api-metadata.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- ID [2.2.1.2](understanding-olap-java-api-metadata.md)
+  - See also: unique identifiers
+
+  <!-- -->
+
+  - getting metadata objects by [2.3.1.1](understanding-olap-java-api-metadata.md)
+  - of a metadata object [2.2.1.2](understanding-olap-java-api-metadata.md)
+  - of a Source [5.3.4](understanding-source-objects.md)
+- importing XML templates [2.3.1.2.2](understanding-olap-java-api-metadata.md), [4.7](creating-metadata-and-analytic-workspaces.md)
+- importXML methods
+  - description [2.3.1.2.2](understanding-olap-java-api-metadata.md)
+- indexes
+  - for attributes [2.4.3.2.3](understanding-olap-java-api-metadata.md)
+- inputs
+  - of a derived Source [5.4.3.2](understanding-source-objects.md)
+  - of a primary Source [5.4.3.1](understanding-source-objects.md)
+  - of a Source
+    - definition [5.4.3](understanding-source-objects.md)
+    - deriving with the value method [5.4.4.3](understanding-source-objects.md), [5.4.4.4](understanding-source-objects.md)
+    - matching with a Source [5.4.4](understanding-source-objects.md)
+    - obtaining [5.4.3](understanding-source-objects.md)
+    - types of [5.4.3.3](understanding-source-objects.md)
+- interval method
+  - example of [6.3.7](making-queries-using-source-methods.md)
+- isSubType method
+  - example of [5.3.3](understanding-source-objects.md)
+
+------------------------------------------------------------------------
+
+## J
+
+- Java archive (JAR) files, required [A.2](setting-up-development-environment.md)
+- Java Development Kit, version required [A.2](setting-up-development-environment.md)
+- JDBC
+  - creating connections [3.1.2.1](discovering-metadata.md)
+  - libraries required [A.2](setting-up-development-environment.md)
+- joined parameter
+  - of a join method [5.4.1.1](understanding-source-objects.md)
+- joinHidden method
+  - example of [5.4.2.5](understanding-source-objects.md), [6.3.5](making-queries-using-source-methods.md), [6.3.6](making-queries-using-source-methods.md)
+- join method
+  - description [5.4.1](understanding-source-objects.md), [6.1](making-queries-using-source-methods.md)
+  - examples of [6.2](making-queries-using-source-methods.md)
+  - full signature [5.4.1](understanding-source-objects.md)
+  - rules governing matching an input with a Source [5.4.4](understanding-source-objects.md)
+
+------------------------------------------------------------------------
+
+## L
+
+- lag method
+  - example of [6.3.6](making-queries-using-source-methods.md)
+- languages
+  - specifying for an attribute [2.4.3.2.4](understanding-olap-java-api-metadata.md)
+- leaves of a hierarchy
+  - defined [2.4.2.3.1](understanding-olap-java-api-metadata.md)
+- legacy metadata objects
+  - namespaces for [2.2.1.3.2](understanding-olap-java-api-metadata.md)
+  - supporting [2.2.1.3](understanding-olap-java-api-metadata.md)
+- level-based hierarchy [2.4.2.3.1](understanding-olap-java-api-metadata.md)
+- levels
+  - as dimensional data objects [1.1.3](introduction-olap-java-api.md)
+  - creating [4.3.3](creating-metadata-and-analytic-workspaces.md)
+  - MdmDimensionLevel objects [2.4.2.2](understanding-olap-java-api-metadata.md)
+- lineage
+  - populating attribute hierarchy values [2.4.3.2.6](understanding-olap-java-api-metadata.md)
+- list Source objects
+  - definition [5.2](understanding-source-objects.md)
+  - example of creating [6.2.4](making-queries-using-source-methods.md)
+- local dimension member values [1.2.2](introduction-olap-java-api.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- mapping
+  - dimension levels [4.3.2](creating-metadata-and-analytic-workspaces.md)
+  - hierarchy levels [4.3.3](creating-metadata-and-analytic-workspaces.md)
+  - measures [4.5.2](creating-metadata-and-analytic-workspaces.md)
+  - objects contained by an MdmCube [2.4.1.1](understanding-olap-java-api-metadata.md)
+- mapping package
+  - description [1.1.2](introduction-olap-java-api.md)
+- matching an input with a Source
+  - example of [5.4.4.2](understanding-source-objects.md), [5.4.4.4](understanding-source-objects.md)
+  - rules governing [5.4.4](understanding-source-objects.md)
+- materialized views
+  - for a cube [2.4.1.1](understanding-olap-java-api-metadata.md)
+  - for OLAP metadata [2.4.3.2.7](understanding-olap-java-api-metadata.md)
+  - including hierarchy lineage [2.4.1.1](understanding-olap-java-api-metadata.md)
+  - populating attribute hierarchy lineage for [2.4.3.2.6](understanding-olap-java-api-metadata.md)
+  - prefixes for attribute columns in [2.4.3.2.7](understanding-olap-java-api-metadata.md)
+- MdmAttribute objects
+  - creating [4.4](creating-metadata-and-analytic-workspaces.md)
+  - description [2.4.3](understanding-olap-java-api-metadata.md)
+  - example of the values of [2.4.3](understanding-olap-java-api-metadata.md)
+  - inputs of [5.4.3.1](understanding-source-objects.md)
+- MdmBaseAttribute class
+  - description [2.4.3.2](understanding-olap-java-api-metadata.md)
+- MdmBaseAttribute objects
+  - creating [2.4.3.2](understanding-olap-java-api-metadata.md), [4.4](creating-metadata-and-analytic-workspaces.md)
+  - mapping [2.4.3.2](understanding-olap-java-api-metadata.md), [4.4](creating-metadata-and-analytic-workspaces.md)
+  - mapping, example of [4.3.2](creating-metadata-and-analytic-workspaces.md)
+- MdmBaseMeasure objects
+  - creating [4.5.2](creating-metadata-and-analytic-workspaces.md)
+  - description [2.4.1.2](understanding-olap-java-api-metadata.md)
+- MdmCube class
+  - description [2.4.1.1](understanding-olap-java-api-metadata.md)
+- MdmCube objects
+  - associations [2.4.1.1](understanding-olap-java-api-metadata.md)
+  - corresponding to a fact table or view [2.4.1.1](understanding-olap-java-api-metadata.md)
+  - example of creating [4.5.1](creating-metadata-and-analytic-workspaces.md)
+- MdmDatabaseSchema objects
+  - creating [4.2](creating-metadata-and-analytic-workspaces.md)
+  - definition [2.3.2.2](understanding-olap-java-api-metadata.md)
+  - owner of top-level objects [2.3.1](understanding-olap-java-api-metadata.md)
+- MdmDerivedAttribute class
+  - description [2.4.3.3](understanding-olap-java-api-metadata.md)
+- MdmDerivedMeasure objects
+  - description [2.4.1.2](understanding-olap-java-api-metadata.md)
+- MdmDescription objects [2.2.2](understanding-olap-java-api-metadata.md)
+  - associations [2.2.2](understanding-olap-java-api-metadata.md)
+- MdmDescriptionType objects
+  - associations [2.2.2](understanding-olap-java-api-metadata.md)
+  - creating [2.2.2](understanding-olap-java-api-metadata.md)
+- MdmDimension classes
+  - description [2.4.2](understanding-olap-java-api-metadata.md)
+- MdmDimensionLevel objects
+  - creating [4.3.2](creating-metadata-and-analytic-workspaces.md)
+  - description [2.4.2.2](understanding-olap-java-api-metadata.md)
+- MdmDimension objects
+  - creating [4.3](creating-metadata-and-analytic-workspaces.md)
+  - example of getting related objects [3.6.1](discovering-metadata.md), [3.6.2](discovering-metadata.md)
+  - related MdmAttribute objects [2.4.3](understanding-olap-java-api-metadata.md)
+- MdmHierarchy class [2.4.2.3](understanding-olap-java-api-metadata.md)
+- MdmHierarchyLevel class
+  - description [2.4.2.4](understanding-olap-java-api-metadata.md)
+- MdmHierarchyLevel objects
+  - creating [4.3.3](creating-metadata-and-analytic-workspaces.md)
+  - mapping [4.3.3](creating-metadata-and-analytic-workspaces.md)
+- MdmHierarchy objects
+  - creating [4.3.3](creating-metadata-and-analytic-workspaces.md)
+- MdmLevelHierarchy objects
+  - creating [4.3.3](creating-metadata-and-analytic-workspaces.md)
+  - description [2.4.2.3.1](understanding-olap-java-api-metadata.md)
+- MdmMeasure objects
+  - creating [4.5.2](creating-metadata-and-analytic-workspaces.md)
+  - description [2.4.1.2](understanding-olap-java-api-metadata.md)
+  - inputs of [5.4.3.1](understanding-source-objects.md)
+  - origin of values [2.4.1.2](understanding-olap-java-api-metadata.md)
+- MdmMemberListMapOwner interface
+  - implemented by MdmPrimaryDimension [2.4.2.1](understanding-olap-java-api-metadata.md)
+- MDM metadata model
+  - description [2.1](understanding-olap-java-api-metadata.md)
+- MdmMetadataProvider class
+  - associations with MdmSchema subclasses [2.3.2.1](understanding-olap-java-api-metadata.md)
+- MdmMetadataProvider objects
+  - creating [3.3](discovering-metadata.md)
+  - description [2.3.1](understanding-olap-java-api-metadata.md), [3.3](discovering-metadata.md)
+- MdmObject class
+  - 10g accessor methods for descriptions [2.2.2](understanding-olap-java-api-metadata.md)
+  - 11g methods for descriptions [2.2.2](understanding-olap-java-api-metadata.md)
+  - associations with descriptions [2.2.2](understanding-olap-java-api-metadata.md)
+- MdmOrganizationalSchema objects
+  - description [2.3.2.3](understanding-olap-java-api-metadata.md)
+- mdm package
+  - description [1.1.2](introduction-olap-java-api.md)
+- MdmPrimaryDimension class
+  - interfaces implemented by [2.4.2.1](understanding-olap-java-api-metadata.md)
+- MdmPrimaryDimension objects
+  - creating [4.3.1](creating-metadata-and-analytic-workspaces.md)
+  - description [2.4.2.1](understanding-olap-java-api-metadata.md)
+- MdmQuery interface
+  - implemented by MdmPrimaryDimension [2.4.2.1](understanding-olap-java-api-metadata.md)
+- MdmRootSchema class [2.3.1](understanding-olap-java-api-metadata.md)
+- MdmRootSchema objects
+  - description [2.3.2.1](understanding-olap-java-api-metadata.md)
+- MdmSchema class
+  - associations between subclass and MdmMetadataProvider [2.3.2.1](understanding-olap-java-api-metadata.md)
+- MdmSchema objects
+  - getting contents of [3.5](discovering-metadata.md)
+  - subclasses of [2.3.2](understanding-olap-java-api-metadata.md)
+- MdmSingleValuedAttribute class
+  - description [2.4.3.1](understanding-olap-java-api-metadata.md)
+- MdmSource class [2.4](understanding-olap-java-api-metadata.md)
+- MdmStandardDimension objects
+  - creating [4.3.1](creating-metadata-and-analytic-workspaces.md)
+  - description [2.4.2.1](understanding-olap-java-api-metadata.md)
+- MdmSubDimension class [2.4.2.1](understanding-olap-java-api-metadata.md)
+- MdmTable objects
+  - getting [2.3.2.2](understanding-olap-java-api-metadata.md), [4.5.2](creating-metadata-and-analytic-workspaces.md)
+- MdmTimeDimension objects
+  - creating [4.3.1](creating-metadata-and-analytic-workspaces.md)
+  - description [2.4.2.1](understanding-olap-java-api-metadata.md)
+- MdmValueHierarchy class
+  - description [2.4.2.3.2](understanding-olap-java-api-metadata.md)
+- MdmValueHierarchy objects
+  - example of [4.3.3.2](creating-metadata-and-analytic-workspaces.md)
+- MdmViewColumn class [2.2](understanding-olap-java-api-metadata.md)
+- MdmViewColumn objects [2.4.3.2](understanding-olap-java-api-metadata.md)
+- MdmViewColumnOwner interface [2.2](understanding-olap-java-api-metadata.md)
+  - implemented by MdmPrimaryDimension [2.4.2.1](understanding-olap-java-api-metadata.md)
+- measure folders
+  - represented by MdmOrganizationalSchema objects [2.3.2.3](understanding-olap-java-api-metadata.md)
+- MeasureMap objects
+  - contained by a CubeMap [2.4.1.1](understanding-olap-java-api-metadata.md)
+  - creating [4.5.2](creating-metadata-and-analytic-workspaces.md)
+- measures
+  - as dimensional data objects [1.1.3](introduction-olap-java-api.md)
+  - creating [4.5.2](creating-metadata-and-analytic-workspaces.md)
+  - dimensioned by dimensions [2.4.2](understanding-olap-java-api-metadata.md)
+  - getting values from [5.4.4.2](understanding-source-objects.md)
+  - MdmMeasure objects representing [2.4.1.2](understanding-olap-java-api-metadata.md)
+  - sources of data for [2.4.1.2](understanding-olap-java-api-metadata.md)
+- MemberListMap objects
+  - creating [4.3.2](creating-metadata-and-analytic-workspaces.md)
+- members
+  - of an MdmDimension [2.4.2](understanding-olap-java-api-metadata.md)
+  - of an MdmDimensionLevel [2.4.2.2](understanding-olap-java-api-metadata.md)
+- metadata
+  - creating [4.1](creating-metadata-and-analytic-workspaces.md)
+  - creating a provider [3.3](discovering-metadata.md)
+  - discovering [3.2](discovering-metadata.md)
+  - mapping [4.1](creating-metadata-and-analytic-workspaces.md)
+- metadata model
+  - implementing [1.1.5](introduction-olap-java-api.md)
+  - MDM [2.1](understanding-olap-java-api-metadata.md)
+- MetadataObject interface
+  - implemented by MdmPrimaryDimension [2.4.2.1](understanding-olap-java-api-metadata.md)
+- metadata objects
+  - classifying [2.2.3](understanding-olap-java-api-metadata.md)
+  - creating OLAP [1.1.5](introduction-olap-java-api.md)
+  - getting and setting names for [2.2.1.1](understanding-olap-java-api-metadata.md)
+  - getting by ID [2.3.1.1](understanding-olap-java-api-metadata.md)
+  - in example programs [1.3](introduction-olap-java-api.md)
+  - OLAP [1.2](introduction-olap-java-api.md)
+  - renaming [2.2.1.1](understanding-olap-java-api-metadata.md)
+  - representing data sources [2.4](understanding-olap-java-api-metadata.md)
+  - restricting access to [2.3.2.2](understanding-olap-java-api-metadata.md)
+  - supporting legacy [2.2.1.3](understanding-olap-java-api-metadata.md)
+  - top-level [2.3.2.2](understanding-olap-java-api-metadata.md)
+  - unique identifiers of [2.2.1.2](understanding-olap-java-api-metadata.md)
+- metadata package
+  - description [1.1.2](introduction-olap-java-api.md)
+  - subpackages [2.1](understanding-olap-java-api-metadata.md)
+- metadata reader modes [2.2.1.3.1](understanding-olap-java-api-metadata.md)
+- MetadataState class [10.2.3](creating-dynamic-queries.md)
+  - example of implementation [10.3.1](creating-dynamic-queries.md)
+- movingTotal method
+  - example of [6.3.6](making-queries-using-source-methods.md)
+- multidimensional metadata objects
+  - corresponding to dimensional data model objects [2.1](understanding-olap-java-api-metadata.md)
+  - corresponding to relational objects [2.1](understanding-olap-java-api-metadata.md)
+- multilingual attributes [2.4.3.2.5](understanding-olap-java-api-metadata.md)
+- multiple user sessions [1.1.1](introduction-olap-java-api.md)
+
+------------------------------------------------------------------------
+
+## N
+
+- names
+  - getting and setting for metadata objects [2.2.1.1](understanding-olap-java-api-metadata.md)
+- namespaces
+  - description [2.2.1.3.2](understanding-olap-java-api-metadata.md)
+- nested outputs
+  - getting values from a Cursor with, example [9.1.1](retrieving-query-results.md)
+  - of a Source, definition [9.1.1](retrieving-query-results.md)
+- nullSource method [5.2](understanding-source-objects.md)
+- null Source objects
+  - definition [5.2](understanding-source-objects.md)
+- NumberParameter objects
+  - example of [6.3.7](making-queries-using-source-methods.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- ojdbc6.jar file [A.3](setting-up-development-environment.md)
+- olap_api.jar file [A.3](setting-up-development-environment.md)
+- OLAP Java API
+  - description [1.1](introduction-olap-java-api.md)
+  - required class libraries [A.2](setting-up-development-environment.md)
+  - sample schema for examples [1.3](introduction-olap-java-api.md)
+  - software components [A.1](setting-up-development-environment.md)
+  - uses of [1.1.1](introduction-olap-java-api.md), [1.4](introduction-olap-java-api.md)
+- OLAP metadata [1.1.5](introduction-olap-java-api.md)
+- OLAP metadata objects [1.2](introduction-olap-java-api.md)
+- OLAP views
+  - description [2.4.4](understanding-olap-java-api-metadata.md)
+  - getting name of cube view [2.4.4.1](understanding-olap-java-api-metadata.md)
+  - getting name of dimension or hierarchy view [2.4.4.2](understanding-olap-java-api-metadata.md)
+  - populating attribute hierarchy lineage in [2.4.3.2.6](understanding-olap-java-api-metadata.md)
+- ORACLE_HOME environment variable [A.3](setting-up-development-environment.md)
+- OracleConnection objects
+  - creating [3.1.2.1](discovering-metadata.md)
+- OracleDataSource objects
+  - creating [3.1.2.1](discovering-metadata.md)
+- Oracle OLAP
+  - database administration and management tasks related to [1.1](introduction-olap-java-api.md)
+- Oracle Technology Network (OTN) [1.3](introduction-olap-java-api.md)
+- outputs
+  - getting from a CompoundCursor, example [9.1.1](retrieving-query-results.md)
+  - getting from a CompoundCursorSpecification, example [9.3](retrieving-query-results.md)
+  - getting nested, example [9.1.1](retrieving-query-results.md)
+  - in a CompoundCursor [8.2.1](understanding-cursor-classes-and-concepts.md), [8.5.4](understanding-cursor-classes-and-concepts.md)
+    - positions of [8.5.2](understanding-cursor-classes-and-concepts.md)
+  - of a Source
+    - definition [5.4.2](understanding-source-objects.md)
+    - hiding [5.4.2.5](understanding-source-objects.md)
+    - obtaining [5.4.2](understanding-source-objects.md)
+    - order of [6.2.1](making-queries-using-source-methods.md)
+    - producing [5.4.2.1](understanding-source-objects.md)
+- owner
+  - of a BaseMetadataObject [2.2](understanding-olap-java-api-metadata.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- package attribute
+  - MdmAttribute for the PRODUCT_AWJ dimension [2.4.3](understanding-olap-java-api-metadata.md)
+- packages
+  - in the OLAP Java API [1.1.2](introduction-olap-java-api.md)
+  - metadata [2.1](understanding-olap-java-api-metadata.md)
+- parameterized Source objects
+  - definition [5.2](understanding-source-objects.md)
+  - description [5.5](understanding-source-objects.md)
+  - example of [5.5](understanding-source-objects.md), [6.3.2](making-queries-using-source-methods.md), [6.3.7](making-queries-using-source-methods.md)
+- Parameter objects
+  - description [5.5](understanding-source-objects.md)
+  - example of [5.5](understanding-source-objects.md), [6.3.2](making-queries-using-source-methods.md), [6.3.7](making-queries-using-source-methods.md)
+- parent attribute
+  - method for getting [2.4.2.3](understanding-olap-java-api-metadata.md)
+- parent-child relationships
+  - in a level hierarchy [2.4.2.3](understanding-olap-java-api-metadata.md)
+  - in hierarchies [2.4.2.3](understanding-olap-java-api-metadata.md)
+- pivoting cube edges, example of [6.3.2](making-queries-using-source-methods.md)
+- position method [5.4.3.2](understanding-source-objects.md)
+  - description [6.1](making-queries-using-source-methods.md)
+  - example of [6.2.4](making-queries-using-source-methods.md)
+- positions
+  - of a CompoundCursor [8.5.2](understanding-cursor-classes-and-concepts.md)
+  - of a Cursor [8.5](understanding-cursor-classes-and-concepts.md)
+  - of a ValueCursor [8.5.1](understanding-cursor-classes-and-concepts.md)
+  - parent starting and ending [8.5.3](understanding-cursor-classes-and-concepts.md)
+- prefixes
+  - for attribute column in materialized view [2.4.3.2.7](understanding-olap-java-api-metadata.md)
+- primary Source objects
+  - definition [5.2](understanding-source-objects.md)
+  - result of getSource method [3.7](discovering-metadata.md)
+- privileges
+  - specifying [1.1.5](introduction-olap-java-api.md)
+
+------------------------------------------------------------------------
+
+## Q
+
+- queries
+  - creating using Source methods [6](making-queries-using-source-methods.md)
+  - definition [1.1.3](introduction-olap-java-api.md)
+  - dynamic [10.1](creating-dynamic-queries.md)
+  - represented by Source objects [1.2.1](introduction-olap-java-api.md), [5.1](understanding-source-objects.md)
+  - retrieving data specified by [1.2.3](introduction-olap-java-api.md)
+  - Source objects that are not [8.1.2](understanding-cursor-classes-and-concepts.md)
+  - specifying data [1.2.1](introduction-olap-java-api.md)
+  - SQL, of OLAP views [2.4.4](understanding-olap-java-api-metadata.md)
+  - steps in retrieving results of [9.1](retrieving-query-results.md)
+- Query class [1.1.3](introduction-olap-java-api.md)
+- Query objects
+  - associating with a CubeMap [2.4.1.1](understanding-olap-java-api-metadata.md)
+  - creating [4.5.2](creating-metadata-and-analytic-workspaces.md)
+- query rewrite [2.4.1.1](understanding-olap-java-api-metadata.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- ragged hierarchies [2.4.2.3.1](understanding-olap-java-api-metadata.md)
+- range Source objects
+  - definition [5.2](understanding-source-objects.md)
+  - example of creating [6.2.4](making-queries-using-source-methods.md)
+- read Transaction object [7.1.1](using-transaction-provider.md)
+- recursiveJoin method
+  - description [6.1](making-queries-using-source-methods.md)
+  - example of [6.2.5](making-queries-using-source-methods.md), [6.3.4](making-queries-using-source-methods.md)
+  - signature of [5.1](understanding-source-objects.md)
+- regular input
+  - definition [5.4.3.3](understanding-source-objects.md)
+- relating Source objects
+  - with inputs [5.4.3](understanding-source-objects.md)
+- relational objects
+  - corresponding to MDM objects [2.1](understanding-olap-java-api-metadata.md)
+- relational schemas
+  - for a data warehouse [1.1.5](introduction-olap-java-api.md)
+  - represented by MdmDatabaseSchema objects [2.3.2.2](understanding-olap-java-api-metadata.md)
+  - sample [1.3](introduction-olap-java-api.md)
+- relations
+  - reversing with the value method [6.2.6.2](making-queries-using-source-methods.md), [6.3.3](making-queries-using-source-methods.md)
+- removeValue method
+  - example of [6.2.6.2](making-queries-using-source-methods.md)
+- removing
+  - elements in a join operation [5.4.1.3](understanding-source-objects.md)
+- resource package
+  - description [1.1.2](introduction-olap-java-api.md)
+- reversing relations
+  - example of [6.2.6.2](making-queries-using-source-methods.md), [6.3.3](making-queries-using-source-methods.md)
+- REWRITE_MV_OPTION [2.4.1.1](understanding-olap-java-api-metadata.md)
+- REWRITE_WITH_ATTRIBUTES_MV_OPTION [2.4.1.1](understanding-olap-java-api-metadata.md)
+- root schema [2.3.1](understanding-olap-java-api-metadata.md), [2.3.2.1](understanding-olap-java-api-metadata.md)
+- root Transaction
+  - definition [7.1](using-transaction-provider.md)
+- rotating cube edges, example of [6.3.2](making-queries-using-source-methods.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- sample analytic workspace [1.3](introduction-olap-java-api.md)
+- sample schema
+  - used by examples [1.3](introduction-olap-java-api.md)
+- schemas
+  - getting MdmDatabaseSchema for [4.2](creating-metadata-and-analytic-workspaces.md)
+  - metadata objects representing [2.3.2](understanding-olap-java-api-metadata.md)
+  - represented by MdmDatabaseSchema objects [2.3.2.2](understanding-olap-java-api-metadata.md)
+  - sample [1.3](introduction-olap-java-api.md)
+  - star [1.1.5](introduction-olap-java-api.md)
+- selecting
+  - by position [6.3.7](making-queries-using-source-methods.md)
+  - by time series [6.3.6](making-queries-using-source-methods.md)
+  - by value [6.2.2](making-queries-using-source-methods.md), [6.2.6.1](making-queries-using-source-methods.md), [6.3.1](making-queries-using-source-methods.md), [6.3.2](making-queries-using-source-methods.md), [6.3.5](making-queries-using-source-methods.md)
+  - elements to include in a join operation [5.4.1.3](understanding-source-objects.md)
+- selectValue method
+  - example of [6.2.2](making-queries-using-source-methods.md), [6.3.1](making-queries-using-source-methods.md), [6.3.5](making-queries-using-source-methods.md)
+- selectValues method
+  - example of [5.4.4.5](understanding-source-objects.md), [6.2.6.1](making-queries-using-source-methods.md), [6.3.2](making-queries-using-source-methods.md)
+- session package
+  - description [1.1.2](introduction-olap-java-api.md)
+- sessions
+  - creating a UserSession object [3.1.2.2](discovering-metadata.md)
+  - sharing connection [1.1.1](introduction-olap-java-api.md)
+- setAllowAutoDataTypeChange method [2.4.1.2](understanding-olap-java-api-metadata.md), [2.4.3.2.1](understanding-olap-java-api-metadata.md)
+  - example of [4.4](creating-metadata-and-analytic-workspaces.md), [4.5.2](creating-metadata-and-analytic-workspaces.md)
+- setConsistentSolveSpecification method [2.4.1.1](understanding-olap-java-api-metadata.md)
+  - example of [4.5.1](creating-metadata-and-analytic-workspaces.md)
+- setCreateAttributeIndex method [2.4.3.2.3](understanding-olap-java-api-metadata.md)
+- setETAttrPrefix method [2.4.3.2.7](understanding-olap-java-api-metadata.md)
+- setExpression method
+  - example of [4.3.2](creating-metadata-and-analytic-workspaces.md)
+- setJoinCondition method [2.4.1.1](understanding-olap-java-api-metadata.md)
+- setKeyExpression method
+  - example of [4.3.2](creating-metadata-and-analytic-workspaces.md)
+- setLanguage method [2.4.3.2.4](understanding-olap-java-api-metadata.md)
+- setMultiLingual method [2.4.3.2.5](understanding-olap-java-api-metadata.md)
+- setName method [2.2.1.1](understanding-olap-java-api-metadata.md)
+- setPopulateLineage method [2.4.3.2.6](understanding-olap-java-api-metadata.md)
+- setQuery method
+  - example of [4.3.2](creating-metadata-and-analytic-workspaces.md)
+- setShortValueDescriptionAttribute method [2.4.3.1.1](understanding-olap-java-api-metadata.md)
+- setTimeSpanAttribute method [2.4.3.1.1](understanding-olap-java-api-metadata.md)
+- setValueDescriptionAttribute method
+  - example of [4.4](creating-metadata-and-analytic-workspaces.md)
+- setValue method
+  - of an MdmDescription [2.2.2](understanding-olap-java-api-metadata.md)
+  - of a Parameter, example of [5.5](understanding-source-objects.md), [6.3.2](making-queries-using-source-methods.md), [6.3.7](making-queries-using-source-methods.md)
+- sharing connection [1.1.1](introduction-olap-java-api.md)
+- SID (system identifier) [3.1.2.1](discovering-metadata.md)
+- SingleSelectionTemplate class [7.1.5](using-transaction-provider.md), [7.2](using-transaction-provider.md), [10.3.2](creating-dynamic-queries.md), [B.1](SingleSelectionTemplate-class.md)
+- skip-level hierarchies [2.4.2.3.1](understanding-olap-java-api-metadata.md)
+- slower varying Cursor components [8.2.1](understanding-cursor-classes-and-concepts.md), [8.5.2](understanding-cursor-classes-and-concepts.md)
+- sortAscending method
+  - example of [6.3.5](making-queries-using-source-methods.md)
+- sorting hierarchically
+  - example of [6.3.4](making-queries-using-source-methods.md)
+- sort order
+  - determined by comparisonRule parameter [5.4.1.3](understanding-source-objects.md)
+- Source class
+  - basic methods [6.1](making-queries-using-source-methods.md)
+  - subclasses of [5.2](understanding-source-objects.md)
+- SourceDefinition class [5.3.4](understanding-source-objects.md), [10.1.1](creating-dynamic-queries.md)
+- SourceGenerator class [10.2.4](creating-dynamic-queries.md)
+  - example of implementation [10.3.1](creating-dynamic-queries.md)
+- Source objects
+  - active in a Transaction object [8.1.3](understanding-cursor-classes-and-concepts.md)
+  - base of a join operation [5.4.1](understanding-source-objects.md)
+  - data type
+    - definition [5.3.2](understanding-source-objects.md)
+    - getting [5.3.2](understanding-source-objects.md)
+  - dimensioned [5.4.3.1](understanding-source-objects.md)
+  - elements of [5.3.1](understanding-source-objects.md)
+  - getting ID of [5.3.4](understanding-source-objects.md)
+  - inputs of
+    - a derived [5.4.3.2](understanding-source-objects.md)
+    - a primary [5.4.3.1](understanding-source-objects.md)
+    - definition [5.4.3](understanding-source-objects.md)
+    - matching with a Source [5.4.4](understanding-source-objects.md)
+    - obtaining [5.4.3](understanding-source-objects.md)
+    - types [5.4.3.3](understanding-source-objects.md)
+  - kinds of [5.2](understanding-source-objects.md)
+  - methods of getting [5.2](understanding-source-objects.md)
+  - modifiable [10.1](creating-dynamic-queries.md)
+  - outputs of
+    - definition [5.4.2](understanding-source-objects.md)
+    - obtaining [5.4.2](understanding-source-objects.md)
+  - parameterized [5.5](understanding-source-objects.md)
+  - representing queries [1.2.1](introduction-olap-java-api.md), [5.1](understanding-source-objects.md)
+  - SourceDefinition for [5.3.4](understanding-source-objects.md)
+  - subtype
+    - definition [5.3.3](understanding-source-objects.md)
+    - obtaining [5.3.3](understanding-source-objects.md)
+  - type
+    - definition [5.3.3](understanding-source-objects.md)
+    - obtaining [5.3.3](understanding-source-objects.md)
+- source package
+  - description [1.1.2](introduction-olap-java-api.md)
+- span of a value in a Cursor
+  - definition [8.5.3](understanding-cursor-classes-and-concepts.md), [9.4](retrieving-query-results.md)
+- SpecifyAWValues.java
+  - example program [1.3](introduction-olap-java-api.md)
+- SQL
+  - getting generated [1.4](introduction-olap-java-api.md), [8.1](understanding-cursor-classes-and-concepts.md)
+  - queries of OLAP objects [2.3.1](understanding-olap-java-api-metadata.md), [2.3.2.2](understanding-olap-java-api-metadata.md)
+  - queries of OLAP views [2.4.4](understanding-olap-java-api-metadata.md)
+- SQLCursorManager class [1.4](introduction-olap-java-api.md), [8.4](understanding-cursor-classes-and-concepts.md)
+- SQL data types
+  - allowing automatic changing of [2.4.1.2](understanding-olap-java-api-metadata.md), [2.4.3.2.1](understanding-olap-java-api-metadata.md)
+  - specifying for an MdmBaseAttribute [2.4.3.2.1](understanding-olap-java-api-metadata.md)
+  - specifying for an MdmBaseMeasure [2.4.1.2](understanding-olap-java-api-metadata.md)
+- star schema [1.1.5](introduction-olap-java-api.md)
+- StringParameter objects
+  - example of [5.5](understanding-source-objects.md), [6.3.2](making-queries-using-source-methods.md)
+- subtype of a Source object
+  - definition [5.3.3](understanding-source-objects.md)
+  - matching an input [5.4.4.4](understanding-source-objects.md)
+  - obtaining [5.3.3](understanding-source-objects.md)
+- syntax package
+  - description [1.1.2](introduction-olap-java-api.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- table view
+  - navigating Cursor for, example [9.2](retrieving-query-results.md)
+- target dimension
+  - of an attribute [2.4.3.1.4](understanding-olap-java-api-metadata.md)
+- Template class [10.2.2](creating-dynamic-queries.md)
+  - designing [10.3](creating-dynamic-queries.md)
+  - example of implementation [10.3.1](creating-dynamic-queries.md)
+- Template objects
+  - classes used to create [10.2](creating-dynamic-queries.md)
+  - for creating modifiable Source objects [10.1](creating-dynamic-queries.md)
+  - relationship of classes producing a dynamic Source [10.2.1](creating-dynamic-queries.md)
+  - Transaction objects used in [7.1.3](using-transaction-provider.md)
+- templates
+  - bind variables in XML [2.3.1.2.3](understanding-olap-java-api-metadata.md)
+  - exporting XML [2.3.1.2.1](understanding-olap-java-api-metadata.md), [4.7](creating-metadata-and-analytic-workspaces.md)
+  - importing XML [2.3.1.2.2](understanding-olap-java-api-metadata.md), [4.7](creating-metadata-and-analytic-workspaces.md)
+- time series
+  - selecting based on [6.3.6](making-queries-using-source-methods.md)
+- times method
+  - example of [6.3.5](making-queries-using-source-methods.md)
+- time span
+  - attribute [2.4.3.1.1](understanding-olap-java-api-metadata.md)
+  - of a time dimension [2.4.2.1](understanding-olap-java-api-metadata.md)
+- TopBottomTemplate class [7.1.5](using-transaction-provider.md), [7.2](using-transaction-provider.md), [10.3.1](creating-dynamic-queries.md)
+- top-level metadata objects
+  - creating [2.3.2.2](understanding-olap-java-api-metadata.md)
+  - defined [2.3.1](understanding-olap-java-api-metadata.md)
+  - getting [2.3.2.2](understanding-olap-java-api-metadata.md)
+  - listed [2.3.2.2](understanding-olap-java-api-metadata.md)
+- Transaction objects
+  - child read and write [7.1.1](using-transaction-provider.md)
+  - committing [4.6](creating-metadata-and-analytic-workspaces.md), [7.1.2](using-transaction-provider.md)
+  - creating a Cursor in the current [8.1.3](understanding-cursor-classes-and-concepts.md)
+  - current [7.1](using-transaction-provider.md)
+  - example of using child [7.2](using-transaction-provider.md)
+  - getting the current [7.1.6](using-transaction-provider.md)
+  - preparing [7.1.2](using-transaction-provider.md)
+  - read [7.1.1](using-transaction-provider.md)
+  - rolling back [7.1.5](using-transaction-provider.md)
+  - root [7.1](using-transaction-provider.md)
+  - setting the current [7.1.6](using-transaction-provider.md)
+  - using in Template classes [7.1.3](using-transaction-provider.md)
+  - write [7.1.1](using-transaction-provider.md)
+- transaction package
+  - description [1.1.2](introduction-olap-java-api.md)
+- TransactionProvider
+  - provided by DataProvider [7.2](using-transaction-provider.md)
+- tuple
+  - definition [2.4.1.2](understanding-olap-java-api-metadata.md)
+  - in a Cursor, example [9.1.1](retrieving-query-results.md)
+  - specifying a measure value [8.5.2](understanding-cursor-classes-and-concepts.md)
+- type of an Source object
+  - definition [5.3.3](understanding-source-objects.md)
+  - obtaining [5.3.3](understanding-source-objects.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- unique dimension member values [1.2.2](introduction-olap-java-api.md)
+- unique identifiers
+  - of a Source [5.3.4](understanding-source-objects.md)
+  - of dimension members [1.2.2](introduction-olap-java-api.md)
+  - of metadata objects [2.2.1.2](understanding-olap-java-api-metadata.md)
+- unique key attributes [2.4.3.2.7](understanding-olap-java-api-metadata.md)
+- UserSession objects
+  - creating [3.1.2.2](discovering-metadata.md)
+  - sharing connection [1.1.1](introduction-olap-java-api.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- value-based hierarchy [2.4.2.3.2](understanding-olap-java-api-metadata.md)
+- ValueCursor objects
+  - getting from a parent CompoundCursor, example [9.1.1](retrieving-query-results.md)
+  - getting values from, example [9.1.1](retrieving-query-results.md)
+  - position [8.5.1](understanding-cursor-classes-and-concepts.md)
+- Value data type [5.2](understanding-source-objects.md)
+- value method [5.4.3.2](understanding-source-objects.md)
+  - description [6.1](making-queries-using-source-methods.md)
+  - example of [5.4.4.3](understanding-source-objects.md), [5.4.4.4](understanding-source-objects.md), [6.2.4](making-queries-using-source-methods.md), [6.2.6](making-queries-using-source-methods.md), [6.2.6.2](making-queries-using-source-methods.md), [6.3.3](making-queries-using-source-methods.md)
+- values
+  - of a Cursor [8.2.1](understanding-cursor-classes-and-concepts.md), [8.5.1](understanding-cursor-classes-and-concepts.md)
+  - of the elements of a Source [5.3.1](understanding-source-objects.md)
+- value separation string [1.2.2](introduction-olap-java-api.md)
+- views
+  - materialized [2.4.3.2.7](understanding-olap-java-api-metadata.md)
+  - OLAP [2.4.4](understanding-olap-java-api-metadata.md)
+- virtual Cursor
+  - definition [8.6](understanding-cursor-classes-and-concepts.md)
+- visible parameter
+  - of a join method [5.4.1.4](understanding-source-objects.md)
+- void Source objects
+  - definition [5.2](understanding-source-objects.md)
+
+------------------------------------------------------------------------
+
+## W
+
+- write Transaction object [7.1.1](using-transaction-provider.md)
+
+------------------------------------------------------------------------
+
+## X
+
+- XMLParserCallback interface [2.3.1.2](understanding-olap-java-api-metadata.md)
+- xmlparserv2.jar file [A.3](setting-up-development-environment.md)
+- XML templates
+  - bind variables in [2.3.1.2.3](understanding-olap-java-api-metadata.md)
+  - controlling attribute export [2.3.1.2.1](understanding-olap-java-api-metadata.md)
+  - exporting [2.3.1.2.1](understanding-olap-java-api-metadata.md), [4.7](creating-metadata-and-analytic-workspaces.md)
+  - importing [2.3.1.2.2](understanding-olap-java-api-metadata.md), [4.7](creating-metadata-and-analytic-workspaces.md)
+- XMLWriterCallback interface [2.3.1.2.1](understanding-olap-java-api-metadata.md)

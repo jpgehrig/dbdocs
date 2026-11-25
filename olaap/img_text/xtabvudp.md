@@ -1,0 +1,1 @@
+This is a text description of xtabvudp.gif. This figure is a crosstab view of the data from the queryCursor object. The crosstab has the three product values, 13, 14, and 15, as the column headings and the four month values, 55, 58, 61, and 64, as the row headings. The crosstab cells have the unit price values for the products for those months.

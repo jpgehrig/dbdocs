@@ -1,0 +1,3 @@
+This is a text description of qrycrspo.gif. This figure illustrates the positions of the CompoundCursor named queryCursor, its base ValueCursor, and its outputs. Each Cursor is represented by a box. The positions of the elements of the Cursor appear outside the box. For the child Cursor objects, the values at those positions appear inside the box. For the CompoundCursor, the set of positions of its ValueCursor objects that are specified at each position appear inside the box.
+
+The queryCursor CompoundCursor has twelve positions, the ValueCursor for timeSel has four positions, the ValueCursor for productSel has three positions, and the base ValueCursor has one position.

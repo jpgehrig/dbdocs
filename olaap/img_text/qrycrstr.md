@@ -1,0 +1,1 @@
+This is a text description of qrycrstr.gif. This figure illustrates the structure of the queryCursor CompoundCursor. A box at the top represents queryCursor, which is the parent CompoundCursor. The row of three boxes below the top box represents the three children of queryCursor, which are the base ValueCursor and the two output ValueCursor objects.

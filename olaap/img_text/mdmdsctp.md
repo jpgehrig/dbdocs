@@ -1,0 +1,1 @@
+This is a text description of mdmdsctp.gif. This figure shows the associations between the MdmDescription, MdmDescriptionType, and MdmObject classes. It also shows the methods of the MdmDescription and MdmDescriptionType classes and the methods of the MdmObject class that use MdmDescription and MdmDescriptionType objects.
