@@ -1,0 +1,3 @@
+#
+
+There is one Podman host container on each Oracle Linux bare metal server, and each Podman host contains two containers (container 1 and container 2), with a high availability storage and network configuration. Except as noted, the configuration on the two Oracle Linux bare metal server hosts are identical. Each container in the Podman host on the bare metal server has an ASM instance (ASM1 on the first bare metal server, ASM2 on the second bare metal server), a database instance of the Oracle RAC cluster (Database instance 1 on the first bare metal server, Database Instance 2 on the second bare metal server), and an Oracle Clusterware instance for each Podman container. Network connections provide interconnects to two Oracle Database file storage locations.
