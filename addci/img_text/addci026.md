@@ -1,0 +1,1 @@
+The image is a 10 by 10 grid that shows a second reading of the cold front moving into the region from the South-West. This is indicated by light colored cells on the left side of the grid gradually darkening towards the right side of the grid.

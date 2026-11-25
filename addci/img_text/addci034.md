@@ -1,0 +1,1 @@
+In a B-tree index, data records are located by navigating successive tiers of pointers. This figure illustrates a 2nd order B-tree with two levels in the Index Set, the root node and one level of child nodes. The second level of the B-tree index points to the Sequence Set, which contains pointers to data structures.

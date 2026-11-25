@@ -1,0 +1,1 @@
+The image is a 10 by 10 grid that shows conditions projected on the basis of the first and second reading of a cold front moving into the region from the South-West. This is indicated by light colored cells dominating the center of the grid (about three fourths), with some gradual darkening towards the right, into the lower and upper corners of the grid.

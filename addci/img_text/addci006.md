@@ -1,0 +1,1 @@
+A 10 by 10 grid; cells are sequentially numbered from left to right, starting with cell 1 at the upper left corner, through to cell 100 in the lower right corner. Row 1 contains cells 1 through 10, row 2 contains cells 11 through 20, and so on.
