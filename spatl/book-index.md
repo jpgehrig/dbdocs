@@ -1,0 +1,2124 @@
+## Index
+
+Numerics  A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z  
+
+------------------------------------------------------------------------
+
+## Numerics
+
+- 0
+  - type 0 (zero) element [2.7.7](spatial-datatypes-metadata.md)
+- 3D
+  - formats of LRS functions [7.4](lrs-linear-referencing-system-concepts.md)
+    - not supported with geodetic data [6.10.2](coordinate-systems-concepts.md)
+  - spatial objects [1.13](spatial-concepts.md)
+    - solids [1.13.2](spatial-concepts.md)
+    - surfaces [1.13.1](spatial-concepts.md)
+
+------------------------------------------------------------------------
+
+## A
+
+- ADD_PREFERENCE_FOR_OP procedure [22.1](SDO_CS-reference.md)
+- addresses
+  - representing for geocoding [12.1.1](geocoding-address-data-concepts.md)
+- affine transformation
+  - of input geometry [35.1](SDO_UTIL-reference.md)
+- AFFINETRANSFORMS procedure [35.1](SDO_UTIL-reference.md)
+- aggregate functions
+  - description [1.10](spatial-concepts.md)
+  - reference information [21](spatial-aggregate-functions.md)
+  - SDO_AGGR_CENTROID [21.1](spatial-aggregate-functions.md)
+  - SDO_AGGR_CONCAT_LINES [21.2](spatial-aggregate-functions.md)
+  - SDO_AGGR_CONCAVEHULL [21.3](spatial-aggregate-functions.md)
+  - SDO_AGGR_CONVEXHULL [21.4](spatial-aggregate-functions.md)
+  - SDO_AGGR_LRS_CONCAT [21.5](spatial-aggregate-functions.md)
+  - SDO_AGGR_MBR [21.6](spatial-aggregate-functions.md)
+  - SDO_AGGR_SET_UNION [21.7](spatial-aggregate-functions.md)
+  - SDO_AGGR_UNION [21.8](spatial-aggregate-functions.md)
+  - SDOAGGRTYPE object type [1.10.1](spatial-concepts.md)
+- AGGREGATES_FOR_GEOMETRY function [31.1](SDO_SAM-reference.md)
+- AGGREGATES_FOR_LAYER function [31.2](SDO_SAM-reference.md)
+- aliases [6.7.2](coordinate-systems-concepts.md)
+- ALL_ANNOTATION_TEXT_METADATA view [3.5.2](sql-multimedia-type-support.md)
+- ALL_SDO_3DTHEMES view [2.9.1](spatial-datatypes-metadata.md)
+- ALL_SDO_GEOM_METADATA view [2.8](spatial-datatypes-metadata.md)
+- ALL_SDO_INDEX_INFO view [2.10.1.1](spatial-datatypes-metadata.md)
+- ALL_SDO_INDEX_METADATA view [2.10.1.2](spatial-datatypes-metadata.md)
+- ALL_SDO_SCENES view [2.9.2](spatial-datatypes-metadata.md)
+- ALL_SDO_VIEWFRAMES view [2.9.3](spatial-datatypes-metadata.md)
+- alpha shape
+  - SDO_ALPHA_SHAPE function [26.2](SDO_GEOM-reference.md)
+- ALTER INDEX statement [19.1](sql-indexing-spatial-data.md)
+  - REBUILD clause [19.2](sql-indexing-spatial-data.md)
+  - RENAME TO clause [19.3](sql-indexing-spatial-data.md)
+- angle units [6.8.2](coordinate-systems-concepts.md)
+- annotation text [3.5](sql-multimedia-type-support.md)
+- ANYINTERACT
+  - SDO_ANYINTERACT operator [20.1](spatial-operators-reference.md)
+  - topological relationship [1.8](spatial-concepts.md)
+- APPEND function [35.2](SDO_UTIL-reference.md)
+- application size (hardware) requirements [1.27](spatial-concepts.md)
+- arc
+  - densifying [26.3](SDO_GEOM-reference.md)
+  - not supported with geodetic data or for transformations [6.2.6](coordinate-systems-concepts.md)
+- area [26.4](SDO_GEOM-reference.md)
+- area units [6.8.3](coordinate-systems-concepts.md)
+- AVERAGE_MBR procedure [34.1](SDO_TUNE-reference.md)
+- average minimum bounding rectangle [34.1](SDO_TUNE-reference.md)
+
+------------------------------------------------------------------------
+
+## B
+
+- batch_route_request element [14.3.5.1](routing-engine-concepts.md)
+- batched route requests [14.1.4](routing-engine-concepts.md)
+- batch mode route requests [14.1.5](routing-engine-concepts.md)
+  - example [14.3.4](routing-engine-concepts.md)
+- batch mode route responses
+  - example [14.3.4](routing-engine-concepts.md)
+- batch route requests [14.3.5.1](routing-engine-concepts.md)
+  - XML Schema definition [14.3.5](routing-engine-concepts.md)
+- batch route responses
+  - XML Schema definition [14.3.6](routing-engine-concepts.md)
+- bearing
+  - point at [35.59](SDO_UTIL-reference.md)
+  - tilt for points [35.3](SDO_UTIL-reference.md)
+- BEARING_TILT_FOR_POINTS procedure [35.3](SDO_UTIL-reference.md)
+- BIN_GEOMETRY function [31.3](SDO_SAM-reference.md)
+- BIN_LAYER procedure [31.4](SDO_SAM-reference.md)
+- binning
+  - spatial [9.2](spatial-analysis-mining.md)
+- bins
+  - assigning [31.4](SDO_SAM-reference.md)
+  - computing [31.3](SDO_SAM-reference.md)
+  - tiled [31.10](SDO_SAM-reference.md)
+- block table
+  - getting for theme [35.66](SDO_UTIL-reference.md)
+- boundary
+  - of area [1.8](spatial-concepts.md)
+  - of line string [1.8](spatial-concepts.md)
+  - of multiline string [1.8](spatial-concepts.md)
+  - of polygon [1.8](spatial-concepts.md)
+- bounding rectangle
+  - minimum [34.3](SDO_TUNE-reference.md)
+- box
+  - optimized [2.2.4](spatial-datatypes-metadata.md)
+- British Grid Transformation OSTN02/OSGM02 [6.9.7](coordinate-systems-concepts.md)
+- B-tree index on points [5.1.3](indexing-querying-spatial-data.md)
+- buffer area [26.5](SDO_GEOM-reference.md)
+- bulk loading of spatial data [4.1](loading-spatial-data.md)
+- business directory (YP)
+  - data requirements and providers [13.2](buasiness-directory-yp-concepts.md)
+  - data structures for [13.3](buasiness-directory-yp-concepts.md)
+  - OpenLS service support and examples [15.3.4](openls-concepts.md)
+  - support in Spatial and Graph [13](buasiness-directory-yp-concepts.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- Cartesian coordinates [1.5.4](spatial-concepts.md), [6.1.2](coordinate-systems-concepts.md)
+- cartographic text (annotation text) [3.5](sql-multimedia-type-support.md)
+- cbtree_index=true [5.1.3](indexing-querying-spatial-data.md)
+- center of gravity (centroid) [26.6](SDO_GEOM-reference.md)
+- centroid
+  - SDO_AGGR_CENTROID aggregate function [21.1](spatial-aggregate-functions.md)
+  - SDO_CENTROID function [26.6](SDO_GEOM-reference.md)
+- circle
+  - creating polygon approximating [35.4](SDO_UTIL-reference.md)
+  - not supported with geodetic data or for projections [6.2.6](coordinate-systems-concepts.md)
+  - type [2.2.4](spatial-datatypes-metadata.md)
+- CIRCLE_POLYGON function [35.4](SDO_UTIL-reference.md)
+- C language
+  - examples (using OCI) [1.29](spatial-concepts.md)
+- CLIP_GEOM_SEGMENT function [27.1](SDO_LRS-reference.md)
+- CLIP_PC_FLAT_STRING function [30.3](SDO_PC_PKG-reference.md)
+- CLIP_PC_FLAT function [30.2](SDO_PC_PKG-reference.md)
+- CLIP_PC function [30.1](SDO_PC_PKG-reference.md)
+- CLIP_TIN function [32.1](SDO_TIN_PKG-reference.md)
+- clipping
+  - geometric segment [7.5.3](lrs-linear-referencing-system-concepts.md)
+- closed tour (TSP) [14.1.3](routing-engine-concepts.md)
+- closest points
+  - SDO_CLOSEST_POINTS function [26.7](SDO_GEOM-reference.md)
+- COLOCATED_REFERENCE_FEATURES procedure [31.5](SDO_SAM-reference.md)
+- colocation mining [9.4](spatial-analysis-mining.md)
+- COLUMN_NAME (in USER_SDO_GEOM_METADATA) [2.8.2](spatial-datatypes-metadata.md)
+- column name
+  - restrictions on spatial column names [2.8.2](spatial-datatypes-metadata.md)
+- compatibility [A](spatial-install-migrate-upgrade.md)
+- complex examples
+  - queries [B](complex-spatial-queries.md)
+- composite B-tree index on points [5.1.3](indexing-querying-spatial-data.md)
+- compound element [2.2.4](spatial-datatypes-metadata.md)
+- compound line string [2.2.4](spatial-datatypes-metadata.md), [2.7.3](spatial-datatypes-metadata.md)
+- compound polygon [2.2.4](spatial-datatypes-metadata.md)
+- computes a polygon representing the given cell
+  - H3_BOUNDARY [35.36](SDO_UTIL-reference.md)
+- computes the center of the given H3 cell
+  - H3_CENTER [35.37](SDO_UTIL-reference.md)
+- computes the H3 cell for the given geodetic point
+  - H3_KEY [35.44](SDO_UTIL-reference.md)
+- computes the parent H3 cell
+  - H3_PARENT [35.46](SDO_UTIL-reference.md)
+- CONCAT_LINES function [35.5](SDO_UTIL-reference.md)
+- CONCATENATE_GEOM_SEGMENTS function [27.2](SDO_LRS-reference.md)
+- concatenating
+  - geometric segments [7.5.5](lrs-linear-referencing-system-concepts.md)
+  - line or multiline geometries [21.2](spatial-aggregate-functions.md)
+  - LRS geometries [7.5.5](lrs-linear-referencing-system-concepts.md), [21.5](spatial-aggregate-functions.md)
+- concave hull
+  - SDO_AGGR_CONCAVEHULL aggregate function [21.3](spatial-aggregate-functions.md)
+  - SDO_CONCAVEHULL_BOUNDARY function [26.9](SDO_GEOM-reference.md)
+  - SDO_CONCAVEHULL function [26.8](SDO_GEOM-reference.md)
+- CONNECTED_GEOM_SEGMENTS function [27.3](SDO_LRS-reference.md)
+- consistency
+  - checking for valid geometry types [26.33](SDO_GEOM-reference.md)
+- constraining data to a geometry type [5.1.2](indexing-querying-spatial-data.md)
+- constructors
+  - SDO_GEOMETRY object type [2.4](spatial-datatypes-metadata.md)
+- CONTAINS
+  - SDO_CONTAINS operator [20.2](spatial-operators-reference.md)
+  - topological relationship [1.8](spatial-concepts.md)
+- contour geometries
+  - creating from point cloud [30.4](SDO_PC_PKG-reference.md)
+- CONVERSION_FACTOR column
+  - in SDO_ANGLE_UNITS table [6.8.2](coordinate-systems-concepts.md)
+  - in SDO_AREA_UNITS table [6.8.3](coordinate-systems-concepts.md)
+  - in SDO_DIST_UNITS table [6.8.5](coordinate-systems-concepts.md)
+- CONVERT_3D_SRID_TO_2D function [22.2](SDO_CS-reference.md)
+- CONVERT_NADCON_TO_XML procedure [22.3](SDO_CS-reference.md)
+- CONVERT_NTV2_TO_XML procedure [22.4](SDO_CS-reference.md)
+- CONVERT_TO_LRS_DIM_ARRAY function [27.4](SDO_LRS-reference.md)
+- CONVERT_TO_LRS_GEOM function [27.5](SDO_LRS-reference.md)
+- CONVERT_TO_LRS_LAYER function [27.6](SDO_LRS-reference.md)
+- CONVERT_TO_STD_DIM_ARRAY function [27.7](SDO_LRS-reference.md)
+- CONVERT_TO_STD_GEOM function [27.8](SDO_LRS-reference.md)
+- CONVERT_TO_STD_LAYER function [27.9](SDO_LRS-reference.md)
+- CONVERT_UNIT function [35.6](SDO_UTIL-reference.md)
+- CONVERT_XML_TO_NADCON procedure [22.5](SDO_CS-reference.md)
+- CONVERT_XML_TO_NTV2 procedure [22.6](SDO_CS-reference.md)
+- CONVERT3007TO3008 function [35.7](SDO_UTIL-reference.md)
+- converting
+  - geometric segments
+    - overview [7.5.10](lrs-linear-referencing-system-concepts.md)
+    - subprograms for [27](SDO_LRS-reference.md)
+- convex hull
+  - SDO_AGGR_CONVEXHULL aggregate function [21.4](spatial-aggregate-functions.md)
+  - SDO_CONVEXHULL function [26.10](SDO_GEOM-reference.md)
+- coordinate dimension
+  - ST_CoordDim method [2.3](spatial-datatypes-metadata.md)
+- coordinate reference systems
+  - See: coordinate systems
+- coordinates
+  - Cartesian [1.5.4](spatial-concepts.md), [6.1.2](coordinate-systems-concepts.md)
+  - geodetic [1.5.4](spatial-concepts.md), [6.1.3](coordinate-systems-concepts.md), [6.2](coordinate-systems-concepts.md)
+  - geographic [1.5.4](spatial-concepts.md), [6.1.3](coordinate-systems-concepts.md)
+  - local [1.5.4](spatial-concepts.md), [6.1.5](coordinate-systems-concepts.md)
+  - projected [1.5.4](spatial-concepts.md), [6.1.4](coordinate-systems-concepts.md)
+- coordinate systems [1.5.4](spatial-concepts.md)
+  - conceptual and usage information [6](coordinate-systems-concepts.md)
+  - data structures supplied by Oracle [6.7](coordinate-systems-concepts.md)
+  - example [6.14](coordinate-systems-concepts.md)
+  - local [6.3](coordinate-systems-concepts.md)
+  - subprogram reference information [22](SDO_CS-reference.md)
+  - unit of measurement support [2.11](spatial-datatypes-metadata.md)
+  - user-defined [6.9](coordinate-systems-concepts.md)
+- COVEREDBY
+  - SDO_COVEREDBY operator [20.3](spatial-operators-reference.md)
+  - topological relationship [1.8](spatial-concepts.md)
+- COVERS
+  - SDO_COVERS operator [20.4](spatial-operators-reference.md)
+  - topological relationship [1.8](spatial-concepts.md)
+- CPU requirements for applications using Spatial and Graph [1.27](spatial-concepts.md)
+- CREATE_CONCATENATED_OP procedure [22.7](SDO_CS-reference.md)
+- CREATE_CONTOUR_GEOMETRIES function [30.4](SDO_PC_PKG-reference.md)
+- CREATE_OBVIOUS_EPSG_RULES procedure [22.8](SDO_CS-reference.md)
+- CREATE_PC procedure [30.5](SDO_PC_PKG-reference.md)
+- CREATE_PREF_CONCATENATED_OP procedure [22.9](SDO_CS-reference.md)
+- CREATE_PROFILE_TABLES procedure [25.1](SDO_GCDR-reference.md)
+- CREATE_SPATIAL_IDX procedure [23.1](SDO_CSW-reference.md)
+- CREATE_TIN procedure [32.2](SDO_TIN_PKG-reference.md)
+- CREATE_TRACKING_SET procedure [33.1](SDO_TRKR-reference.md)
+- CREATE_XQFT_IDX procedure [23.2](SDO_CSW-reference.md)
+- CREATE INDEX statement [19.4](sql-indexing-spatial-data.md)
+- creates a cursor for the results of searching an H3 summary table
+  - H3SUM_GET_CURSOR [35.53](SDO_UTIL-reference.md)
+- creates and returns the specified MVT vector tile from an H3 summary table
+  - H3SUM_VECTORTILE [35.55](SDO_UTIL-reference.md)
+- creates an H3 summary table for geodetic points data
+  - H3SUM_CREATE_TABLE [35.51](SDO_UTIL-reference.md)
+- creating
+  - geometric segments
+    - subprograms for [27](SDO_LRS-reference.md)
+- cross-schema index creation [5.1.4](indexing-querying-spatial-data.md)
+- CS_SRS table [6.8.1](coordinate-systems-concepts.md)
+- current release
+  - upgrading spatial data to [28.1](SDO_MIGRATE-reference.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- database links
+  - not supported if spatial index is defined on the table [5.2](indexing-querying-spatial-data.md)
+- data mining
+  - spatial
+    - colocation mining [9.4](spatial-analysis-mining.md)
+    - conceptual and usage information [9](spatial-analysis-mining.md)
+    - function reference information [31](SDO_SAM-reference.md)
+- data model [1.5](spatial-concepts.md)
+  - LRS [7.2](lrs-linear-referencing-system-concepts.md)
+- data types
+  - geocoding [12.2](geocoding-address-data-concepts.md)
+  - spatial [2](spatial-datatypes-metadata.md)
+- datum
+  - geodetic [1.5.4](spatial-concepts.md), [6.1.6](coordinate-systems-concepts.md)
+  - MDSYS.SDO_DATUMS_OLD_FORMAT table [6.8.4](coordinate-systems-concepts.md)
+  - MDSYS.SDO_DATUMS_OLD_SNAPSHOT table [6.8.4](coordinate-systems-concepts.md)
+  - transformation [6.1.7](coordinate-systems-concepts.md)
+- dblink
+  - not supported if spatial index is defined on the table [5.2](indexing-querying-spatial-data.md)
+- DEFINE_GEOM_SEGMENT procedure [27.10](SDO_LRS-reference.md)
+- defining
+  - geometric segment [7.5.1](lrs-linear-referencing-system-concepts.md)
+- DELETE_ALL_EPSG_RULES procedure [22.10](SDO_CS-reference.md)
+- DELETE_OP procedure [22.11](SDO_CS-reference.md)
+- DELETE_SDO_GEOM_METADATA procedure [35.8](SDO_UTIL-reference.md)
+- deleteDomainInfo method [E.4.2](csw_support_old.md)
+- deleteRecordViewMap method [E.4.3](csw_support_old.md)
+- densification of arcs [26.3](SDO_GEOM-reference.md)
+- DENSIFY_GEOMETRY function [35.9](SDO_UTIL-reference.md)
+- DETERMINE_CHAIN function [22.12](SDO_CS-reference.md)
+- DETERMINE_DEFAULT_CHAIN function [22.13](SDO_CS-reference.md)
+- diameter
+  - SDO_DIAMETER_LINE function [26.12](SDO_GEOM-reference.md)
+  - SDO_DIAMETER function [26.11](SDO_GEOM-reference.md)
+- difference
+  - SDO_GEOM.SDO_DIFFERENCE function [26.13](SDO_GEOM-reference.md)
+- dimension (in SDO_GTYPE) [2.2.1](spatial-datatypes-metadata.md)
+  - Get_Dims method [2.3](spatial-datatypes-metadata.md)
+  - Get_LRS_Dim method [2.3](spatial-datatypes-metadata.md)
+- DIMINFO (in USER_SDO_GEOM_METADATA) [2.8.3](spatial-datatypes-metadata.md)
+- direction of geometric segment [7.1.3](lrs-linear-referencing-system-concepts.md)
+  - concatenation result [7.5.5](lrs-linear-referencing-system-concepts.md)
+- disableVersioning method [E.4.4](csw_support_old.md)
+- discretization (binning)
+  - See alsobins [9.2](spatial-analysis-mining.md)
+  - spatial [9.2](spatial-analysis-mining.md)
+- DISJOINT
+  - topological relationship [1.8](spatial-concepts.md)
+- disk storage requirements for applications using Spatial and Graph [1.27](spatial-concepts.md)
+- distance
+  - SDO_NN_DISTANCE ancillary operator [20.10](spatial-operators-reference.md)
+  - WITHIN_DISTANCE function [26.35](SDO_GEOM-reference.md)
+- distance units [6.8.5](coordinate-systems-concepts.md)
+- distributed transactions
+  - supported with R-tree spatial indexes [5.1.8](indexing-querying-spatial-data.md)
+- document-based feature types (WFS) [16.4](web-feature-service-wfs-concepts.md)
+- domain information (CSW)
+  - deleting [E.4.2](csw_support_old.md)
+- domains (CSW)
+  - setting information [E.4.17](csw_support_old.md)
+- Douglas-Peucker algorithm for geometry simplification [35.64](SDO_UTIL-reference.md), [35.65](SDO_UTIL-reference.md)
+- downgrading
+  - Oracle Spatial to the previous Oracle Database release [A](spatial-install-migrate-upgrade.md)
+- DROP_DEPENDENCIES procedure [30.6](SDO_PC_PKG-reference.md), [32.3](SDO_TIN_PKG-reference.md)
+- DROP_TRACKING_SET procedure [33.2](SDO_TRKR-reference.md)
+- DROP_WORK_TABLES procedure [35.10](SDO_UTIL-reference.md)
+- DropFeatureType procedure [38.1](SDO_WFS_PROCESS-reference.md)
+- DropFeatureTypes procedure [38.2](SDO_WFS_PROCESS-reference.md)
+- DROP INDEX statement [19.5](sql-indexing-spatial-data.md)
+- dropRecordType method [E.4.5](csw_support_old.md)
+- dropXMLTableIndex method [E.4.6](csw_support_old.md)
+- duplicate vertices
+  - removing [35.62](SDO_UTIL-reference.md)
+- DYNAMIC_SEGMENT function [27.11](SDO_LRS-reference.md)
+- dynamic query window [5.2.1](indexing-querying-spatial-data.md)
+- dynamic segmentation [7.5.3](lrs-linear-referencing-system-concepts.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- EDGE table
+  - routing engine use of [14.5.1](routing-engine-concepts.md), [14.6.1.1](routing-engine-concepts.md), [14.6.2.1](routing-engine-concepts.md)
+- editing
+  - geometric segments
+    - subprograms for [27](SDO_LRS-reference.md)
+- ELEM_INFO (SDO_ELEM_INFO attribute) [2.2.4](spatial-datatypes-metadata.md)
+- elements [1.5.1](spatial-concepts.md)
+  - extracting from a geometry [35.13](SDO_UTIL-reference.md), [35.14](SDO_UTIL-reference.md)
+  - returning number of elements in a geometry [35.31](SDO_UTIL-reference.md)
+  - returning number of vertices in a geometry [35.32](SDO_UTIL-reference.md)
+- ellipse
+  - creating polygon approximating [35.11](SDO_UTIL-reference.md)
+- ELLIPSE_POLYGON function [35.11](SDO_UTIL-reference.md)
+- ellipsoidal height [6.2.3](coordinate-systems-concepts.md), [6.5.1](coordinate-systems-concepts.md)
+- ellipsoids
+  - MDSYS.SDO_ELLIPSOIDS_OLD_FORMAT table [6.8.6](coordinate-systems-concepts.md)
+  - MDSYS.SDO_ELLIPSOIDS_OLD_SNAPSHOT table [6.8.6](coordinate-systems-concepts.md)
+- embedded SDO_GEOMETRY object in user-defined type [10.1](extending-spatial-indexing.md)
+- EnableDBTxns procedure [37.1](SDO_WFS_LOCK-reference.md)
+- enableVersioning method [E.4.7](csw_support_old.md)
+- end location for route [14.3.2.1](routing-engine-concepts.md)
+- EPSG
+  - entity-relationship (E-R) diagram [6.4](coordinate-systems-concepts.md)
+  - mapping of table names to Oracle Spatial names [6.7.28](coordinate-systems-concepts.md)
+  - mapping Oracle SRID to [22.28](SDO_CS-reference.md)
+  - mapping SRID to Oracle SRID [22.27](SDO_CS-reference.md)
+  - model and use by Spatial [6.4](coordinate-systems-concepts.md)
+  - version number of dataset used by Spatial [22.21](SDO_CS-reference.md)
+- EQUAL
+  - SDO_EQUAL operator [20.5](spatial-operators-reference.md)
+  - topological relationship [1.8](spatial-concepts.md)
+- error messages
+  - geocoding [12.1.4](geocoding-address-data-concepts.md)
+  - Spatial [1.28](spatial-concepts.md)
+- ESRI shapefiles
+  - loading into Spatial [C](esri-shapefiles.md)
+- ESTIMATE_RTREE_INDEX_SIZE function [34.2](SDO_TUNE-reference.md)
+- ETYPE (SDO_ETYPE value) [2.2.4](spatial-datatypes-metadata.md)
+- European Petroleum Survey Group
+  - See: EPSG
+- event 54700 [5.2.4](indexing-querying-spatial-data.md)
+- examples
+  - batch mode route request and response [14.3.4](routing-engine-concepts.md)
+  - C [1.29](spatial-concepts.md)
+  - complex queries [B](complex-spatial-queries.md)
+  - coordinate systems [6.14](coordinate-systems-concepts.md)
+  - creating, indexing, and querying spatial data [2.1](spatial-datatypes-metadata.md)
+  - directory for Spatial examples [1.29](spatial-concepts.md)
+  - linear referencing system (LRS) [7.7](lrs-linear-referencing-system-concepts.md)
+  - many geometry types (creating) [2.7](spatial-datatypes-metadata.md)
+  - OCI (Oracle Call Interface) [1.29](spatial-concepts.md)
+  - PL/SQL [1.29](spatial-concepts.md)
+  - route request and response [14.3.1](routing-engine-concepts.md)
+  - SQL [1.29](spatial-concepts.md)
+- exchanging partitions including indexes [5.1.6](indexing-querying-spatial-data.md)
+- EXPAND_GEOM function [35.12](SDO_UTIL-reference.md)
+- Export utility
+  - with spatial indexes and data [5.1.7](indexing-querying-spatial-data.md)
+- EXTENT_OF function [34.3](SDO_TUNE-reference.md)
+- exterior polygon rings [2.2.4](spatial-datatypes-metadata.md), [2.7.2](spatial-datatypes-metadata.md)
+- exterior solids [2.2.4](spatial-datatypes-metadata.md)
+- EXTRACT_ALL function [35.14](SDO_UTIL-reference.md)
+- EXTRACT3D function [35.15](SDO_UTIL-reference.md)
+- EXTRACT function [35.13](SDO_UTIL-reference.md)
+- extractSDO function [E.2.2](csw_support_old.md)
+- EXTRUDE function [35.16](SDO_UTIL-reference.md)
+- extrusion
+  - creating [35.16](SDO_UTIL-reference.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- features
+  - linear [7.1.10](lrs-linear-referencing-system-concepts.md)
+- FILTER
+  - SDO_FILTER operator [20.6](spatial-operators-reference.md)
+- FILTER mask value for SDO_JOIN [20.8](spatial-operators-reference.md)
+- FIND_GEOG_CRS function [22.14](SDO_CS-reference.md)
+- FIND_LRS_DIM_POS function [27.12](SDO_LRS-reference.md)
+- FIND_MEASURE function [27.13](SDO_LRS-reference.md)
+- FIND_OFFSET function [27.14](SDO_LRS-reference.md)
+- FIND_PROJ_CRS function [22.15](SDO_CS-reference.md)
+- FIND_SRID procedure [22.16](SDO_CS-reference.md)
+- formatted addresses [12.1.1](geocoding-address-data-concepts.md)
+- FROM_GEOHASH function [22.17](SDO_CS-reference.md)
+- FROM_GEOJSON function [35.17](SDO_UTIL-reference.md)
+- FROM_GML311GEOMETRY function [35.18](SDO_UTIL-reference.md)
+- FROM_GMLGEOMETRY function [35.19](SDO_UTIL-reference.md)
+- FROM_JSON function [35.20](SDO_UTIL-reference.md)
+- FROM_KMLGEOMETRY function [35.21](SDO_UTIL-reference.md)
+- FROM_OGC_SIMPLEFEATURE_SRS function [22.18](SDO_CS-reference.md)
+- FROM_USNG function [22.19](SDO_CS-reference.md)
+- FROM_WKBGEOMETRY function [35.22](SDO_UTIL-reference.md)
+- FROM_WKTGEOMETRY function [35.23](SDO_UTIL-reference.md)
+- frustums [1.13.2](spatial-concepts.md)
+- function-based indexes
+  - with SDO_GEOMETRY objects [10.2](extending-spatial-indexing.md)
+- functions
+  - spatial aggregate [21](spatial-aggregate-functions.md)
+  - supported by approximations with geodetic data [6.10.3](coordinate-systems-concepts.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- GC_ADDRESS_POINT\_((lt))suffix((gt)) table [12.5.1](geocoding-address-data-concepts.md)
+- GC_AREA\_((lt))suffix((gt)) table [12.5.2](geocoding-address-data-concepts.md)
+- GC_COUNTRY_PROFILE table [12.5.3](geocoding-address-data-concepts.md)
+- GC_INTERSECTION\_((lt))suffix((gt)) table [12.5.4](geocoding-address-data-concepts.md)
+- GC_PARSER_PROFILEAFS table [12.5.6](geocoding-address-data-concepts.md)
+- GC_PARSER_PROFILES table [12.5.5](geocoding-address-data-concepts.md)
+- GC_POI\_((lt))suffix((gt)) table [12.5.7](geocoding-address-data-concepts.md)
+- GC_POSTAL_CODE\_((lt))suffix((gt)) table [12.5.8](geocoding-address-data-concepts.md)
+- GC_ROAD\_((lt))suffix((gt)) table [12.5.9](geocoding-address-data-concepts.md)
+- GC_ROAD_SEGMENT\_((lt))suffix((gt)) table [12.5.10](geocoding-address-data-concepts.md)
+- GenCollectionProcs procedure [38.3](SDO_WFS_PROCESS-reference.md)
+- GENERATE_SCRIPT_FROM_SRID function [22.20](SDO_CS-reference.md)
+- GEO_SEARCH function [35.24](SDO_UTIL-reference.md)
+- GEOCODE_ADDR_ALL function [25.14](SDO_GCDR-reference.md)
+- GEOCODE_ADDR function [25.13](SDO_GCDR-reference.md)
+- GEOCODE_ALL function [25.15](SDO_GCDR-reference.md)
+- GEOCODE_AS_GEOMETRY function [25.16](SDO_GCDR-reference.md)
+- GEOCODE function [25.12](SDO_GCDR-reference.md)
+- GEOCODE function in Autonomous Database [25.2](SDO_GCDR-reference.md), [25.3](SDO_GCDR-reference.md), [25.4](SDO_GCDR-reference.md), [25.5](SDO_GCDR-reference.md), [25.6](SDO_GCDR-reference.md), [25.7](SDO_GCDR-reference.md), [25.8](SDO_GCDR-reference.md), [25.9](SDO_GCDR-reference.md), [25.10](SDO_GCDR-reference.md), [25.11](SDO_GCDR-reference.md)
+- geocoding [1.14](spatial-concepts.md)
+  - concepts [12.1](geocoding-address-data-concepts.md)
+  - data requirements [12.3](geocoding-address-data-concepts.md)
+  - data types for [12.2](geocoding-address-data-concepts.md)
+  - error messages [12.1.4](geocoding-address-data-concepts.md)
+  - from a place name [12.4](geocoding-address-data-concepts.md)
+  - indexes required on tables for geocoding [12.5.11](geocoding-address-data-concepts.md)
+  - match codes [12.1.3](geocoding-address-data-concepts.md)
+  - match modes [12.1.2](geocoding-address-data-concepts.md)
+  - reverse [25.17](SDO_GCDR-reference.md)
+  - subprogram reference information [25](SDO_GCDR-reference.md)
+  - usage information [12](geocoding-address-data-concepts.md)
+- geocoding requests
+  - XML Schema definition [12.7.2](geocoding-address-data-concepts.md)
+- geocoding responses
+  - XML Schema definition [12.7.3](geocoding-address-data-concepts.md)
+- geodetic coordinates [1.5.4](spatial-concepts.md), [6.1.3](coordinate-systems-concepts.md)
+  - arcs and circles not supported [6.2.6](coordinate-systems-concepts.md)
+  - functions supported by approximations [6.10.3](coordinate-systems-concepts.md)
+  - support for [6.2](coordinate-systems-concepts.md)
+- geodetic datum [1.5.4](spatial-concepts.md), [6.1.6](coordinate-systems-concepts.md)
+- geodetic MBRs [6.2.4](coordinate-systems-concepts.md)
+- geographic coordinates
+  - See: geodetic coordinates
+- geography markup language (GML)
+  - converting geometry to [35.71](SDO_UTIL-reference.md), [35.72](SDO_UTIL-reference.md)
+- geohash
+  - support in Oracle Spatial [6.12](coordinate-systems-concepts.md)
+- GeoJSON
+  - support in Oracle Spatial [1.16](spatial-concepts.md), [1.16.2](spatial-concepts.md)
+- GEOM_SEGMENT_END_MEASURE function [27.15](SDO_LRS-reference.md)
+- GEOM_SEGMENT_END_PT function [27.16](SDO_LRS-reference.md)
+- GEOM_SEGMENT_LENGTH function [27.17](SDO_LRS-reference.md)
+- GEOM_SEGMENT_START_MEASURE function [27.18](SDO_LRS-reference.md)
+- GEOM_SEGMENT_START_PT function [27.19](SDO_LRS-reference.md)
+- geometric segment
+  - clipping [7.5.3](lrs-linear-referencing-system-concepts.md)
+  - concatenating [7.5.5](lrs-linear-referencing-system-concepts.md)
+    - aggregate [7.5.5](lrs-linear-referencing-system-concepts.md), [21.5](spatial-aggregate-functions.md)
+  - converting (overview) [7.5.10](lrs-linear-referencing-system-concepts.md)
+  - converting (subprograms for) [27](SDO_LRS-reference.md)
+  - creating (subprograms for) [27](SDO_LRS-reference.md)
+  - defining [7.5.1](lrs-linear-referencing-system-concepts.md)
+  - definition of [7.1.1](lrs-linear-referencing-system-concepts.md)
+  - direction [7.1.3](lrs-linear-referencing-system-concepts.md)
+  - direction with concatenation [7.5.5](lrs-linear-referencing-system-concepts.md)
+  - editing (subprograms for) [27](SDO_LRS-reference.md)
+  - locating point on [7.5.8](lrs-linear-referencing-system-concepts.md)
+  - offsetting [7.5.7](lrs-linear-referencing-system-concepts.md)
+  - projecting point onto [7.5.9](lrs-linear-referencing-system-concepts.md)
+  - querying (subprograms for) [27](SDO_LRS-reference.md)
+  - redefining [7.5.2](lrs-linear-referencing-system-concepts.md)
+  - scaling [7.5.6](lrs-linear-referencing-system-concepts.md)
+  - splitting [7.5.4](lrs-linear-referencing-system-concepts.md)
+- geometry subprograms
+  - reference information [26](SDO_GEOM-reference.md)
+- geometry types [1.4](spatial-concepts.md)
+  - constraining data to [5.1.2](indexing-querying-spatial-data.md)
+  - Get_GType method [2.3](spatial-datatypes-metadata.md)
+  - SDO_GTYPE [2.2.1](spatial-datatypes-metadata.md)
+- GeoRaster
+  - enabling after upgrade [A.3](spatial-install-migrate-upgrade.md)
+- gerRecordTypeId method [E.4.9](csw_support_old.md)
+- GET_2D_FOOTPRINT function [35.25](SDO_UTIL-reference.md)
+- GET_COORDINATE function [35.26](SDO_UTIL-reference.md)
+- Get_Dims method [2.3](spatial-datatypes-metadata.md)
+- GET_EPSG_DATA_VERSION function [22.21](SDO_CS-reference.md)
+- GET_GEOHASH_CELL_HEIGHT function [22.22](SDO_CS-reference.md)
+- GET_GEOHASH_CELL_WIDTH function [22.23](SDO_CS-reference.md)
+- Get_GeoJson method [2.3](spatial-datatypes-metadata.md)
+- Get_GType method [2.3](spatial-datatypes-metadata.md)
+- Get_LRS_Dim method [2.3](spatial-datatypes-metadata.md)
+- GET_MEASURE function [27.20](SDO_LRS-reference.md)
+- GET_NEXT_SHAPE_PT_MEASURE function [27.22](SDO_LRS-reference.md)
+- GET_NEXT_SHAPE_PT function [27.21](SDO_LRS-reference.md)
+- GET_NOTIFICATION_MSG procedure [33.3](SDO_TRKR-reference.md)
+- GET_PREV_SHAPE_PT_MEASURE function [27.24](SDO_LRS-reference.md)
+- GET_PREV_SHAPE_PT function [27.23](SDO_LRS-reference.md)
+- GET_PT_IDS function [30.7](SDO_PC_PKG-reference.md)
+- GET_TILE_ENVELOPE function [35.27](SDO_UTIL-reference.md)
+- GET_VECTORTILE function [35.28](SDO_UTIL-reference.md)
+- Get_WKB method [2.3](spatial-datatypes-metadata.md)
+- Get_WKT method [2.3](spatial-datatypes-metadata.md)
+- GetFeatureTypeId function [38.4](SDO_WFS_PROCESS-reference.md)
+- GETFIRSTVERTEX function [35.29](SDO_UTIL-reference.md)
+- getIsXMLTableIndexCreated method [E.4.8](csw_support_old.md)
+- GETLASTVERTEX function [35.30](SDO_UTIL-reference.md)
+- GETNUMELEM function [35.31](SDO_UTIL-reference.md)
+- GETNUMVERTICES function [35.32](SDO_UTIL-reference.md)
+- GETNURBSAPPROX function [35.33](SDO_UTIL-reference.md)
+- GETVERTICES function [35.34](SDO_UTIL-reference.md)
+- GML (geography markup language)
+  - converting geometry to [35.71](SDO_UTIL-reference.md), [35.72](SDO_UTIL-reference.md)
+- Google Maps
+  - considerations for using with Spatial applications [6.13](coordinate-systems-concepts.md)
+- GrantFeatureTypeToUser procedure [38.5](SDO_WFS_PROCESS-reference.md)
+- grantMDAccessToUser method [E.4.10](csw_support_old.md)
+- GrantMDAccessToUser procedure [38.6](SDO_WFS_PROCESS-reference.md)
+- grantRecordTypeToUser method [E.4.11](csw_support_old.md)
+- gravity-related height [6.5.2](coordinate-systems-concepts.md)
+- GTYPE (SDO_GTYPE attribute) [2.2.1](spatial-datatypes-metadata.md)
+  - constraining data to a geometry type [5.1.2](indexing-querying-spatial-data.md)
+  - Get_Dims method [2.3](spatial-datatypes-metadata.md)
+  - Get_GType method [2.3](spatial-datatypes-metadata.md)
+  - GET_LRS_Dim method [2.3](spatial-datatypes-metadata.md)
+
+------------------------------------------------------------------------
+
+## H
+
+- H3_BASE_CELL function [35.35](SDO_UTIL-reference.md)
+- H3_BOUNDARY function [35.36](SDO_UTIL-reference.md)
+- H3_CENTER function [35.37](SDO_UTIL-reference.md)
+- H3_HEX_AREA function [35.38](SDO_UTIL-reference.md)
+- H3_HEX_EDGELEN function [35.39](SDO_UTIL-reference.md)
+- H3_IS_CLASS3 function [35.41](SDO_UTIL-reference.md)
+- H3_IS_PENTAGON function [35.42](SDO_UTIL-reference.md)
+- H3_IS_VALID_CELL function [35.43](SDO_UTIL-reference.md)
+- H3_KEY function [35.44](SDO_UTIL-reference.md)
+- H3_MBR function [35.45](SDO_UTIL-reference.md)
+- H3_NUM_CELLS function [35.40](SDO_UTIL-reference.md)
+- H3_PARENT function [35.46](SDO_UTIL-reference.md)
+- H3_PENTAGON_AREA function [35.47](SDO_UTIL-reference.md)
+- H3_PENTAGON_EDGELEN function [35.48](SDO_UTIL-reference.md)
+- H3_RESOLUTION function [35.49](SDO_UTIL-reference.md)
+- H3 indexing [1.12](spatial-concepts.md)
+- H3SUM_AS_TABLE function [35.50](SDO_UTIL-reference.md)
+- H3SUM_CREATE_TABLE function [35.51](SDO_UTIL-reference.md)
+- H3SUM_ESTIMATE_RESOLUTION function [35.52](SDO_UTIL-reference.md)
+- H3SUM_GET_CURSOR function [35.53](SDO_UTIL-reference.md)
+- H3SUM_LIST_TABLES function [35.54](SDO_UTIL-reference.md)
+- H3SUM_VECTORTILE function [35.55](SDO_UTIL-reference.md)
+- hardware requirements for applications using Spatial [1.27](spatial-concepts.md)
+- HAS_PYRAMID function [30.8](SDO_PC_PKG-reference.md)
+- height
+  - ellipsoidal [6.5.1](coordinate-systems-concepts.md)
+  - ellipsoidal and non-ellipsoidal [6.2.3](coordinate-systems-concepts.md)
+  - gravity-related [6.5.2](coordinate-systems-concepts.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- id attribute
+  - of route request [14.3.2.2](routing-engine-concepts.md)
+- identifies and determines an H3 cell validity
+  - H3_IS_VALID_CELL [35.43](SDO_UTIL-reference.md)
+- Import utility
+  - with spatial indexes and data [5.1.7](indexing-querying-spatial-data.md)
+- indexes
+  - creating [5.1](indexing-querying-spatial-data.md)
+    - cross-schema [5.1.4](indexing-querying-spatial-data.md)
+    - parallel execution [19.4](sql-indexing-spatial-data.md)
+  - description of Spatial indexing [1.7](spatial-concepts.md)
+  - extending spatial indexing capabilities [10](extending-spatial-indexing.md)
+  - function-based with SDO_GEOMETRY objects [10.2](extending-spatial-indexing.md)
+  - granting CREATE TABLE to collect spatial index statistics [5.1.9](indexing-querying-spatial-data.md)
+  - partitioned [5.1.5](indexing-querying-spatial-data.md)
+    - exchanging partitions including indexes [5.1.6](indexing-querying-spatial-data.md)
+  - rebuilding [19.2](sql-indexing-spatial-data.md)
+    - parallel execution [19.1](sql-indexing-spatial-data.md), [19.2](sql-indexing-spatial-data.md)
+  - R-tree
+    - description [1.7.1](spatial-concepts.md)
+    - requirements before creating [5.1.10](indexing-querying-spatial-data.md)
+  - size (R-tree) [34.2](SDO_TUNE-reference.md)
+- index-organized tables
+  - cannot create spatial index on [2.8.1](spatial-datatypes-metadata.md), [19.4](sql-indexing-spatial-data.md)
+- INIT function [30.9](SDO_PC_PKG-reference.md), [32.4](SDO_TIN_PKG-reference.md)
+- INITIALIZE_CSW procedure [23.3](SDO_CSW-reference.md)
+- INITIALIZE_INDEXES_FOR_TTS procedure [35.56](SDO_UTIL-reference.md)
+- input_location element [14.3.2.3](routing-engine-concepts.md)
+- INSERT_SDO_GEOM_METADATA procedure [35.57](SDO_UTIL-reference.md)
+- InsertCapabilitiesInfo procedure [38.7](SDO_WFS_PROCESS-reference.md)
+- InsertFtDataUpdated procedure [38.8](SDO_WFS_PROCESS-reference.md)
+- InsertFtMDUpdated procedure [38.9](SDO_WFS_PROCESS-reference.md)
+- inserting spatial data
+  - PL/SQL [4.2](loading-spatial-data.md)
+- INSIDE
+  - SDO_INSIDE operator [20.7](spatial-operators-reference.md)
+  - topological relationship [1.8](spatial-concepts.md)
+- installation [A](spatial-install-migrate-upgrade.md)
+- interaction
+  - ANYINTERACT [1.8](spatial-concepts.md)
+- interior
+  - of an area [1.8](spatial-concepts.md)
+- INTERIOR_POINT function [35.58](SDO_UTIL-reference.md)
+- interior polygon rings [2.2.4](spatial-datatypes-metadata.md), [2.7.2](spatial-datatypes-metadata.md)
+- interior solids [2.2.4](spatial-datatypes-metadata.md)
+- International Organization for Standardization (ISO)
+  - compliance of Spatial with standards [1.22](spatial-concepts.md)
+- INTERPRETATION (SDO_INTERPRETATION value) [2.2.4](spatial-datatypes-metadata.md)
+- intersection [26.15](SDO_GEOM-reference.md), [27.30](SDO_LRS-reference.md)
+- intersections
+  - GC_INTERSECTION\_((lt))suffix((gt)) table [12.5.4](geocoding-address-data-concepts.md)
+- interval partitioning
+  - spatial indexing example [5.1.1.1](indexing-querying-spatial-data.md)
+- inverse flattening [6.7.23](coordinate-systems-concepts.md), [6.8.6](coordinate-systems-concepts.md)
+- IS_GEOM_SEGMENT_DEFINED function [27.25](SDO_LRS-reference.md)
+- IS_MEASURE_DECREASING function [27.26](SDO_LRS-reference.md)
+- IS_MEASURE_INCREASING function [27.27](SDO_LRS-reference.md)
+- IS_SHAPE_PT_MEASURE function [27.28](SDO_LRS-reference.md)
+- ISO (International Organization for Standardization)
+  - compliance of Spatial with standards [1.22](spatial-concepts.md)
+
+------------------------------------------------------------------------
+
+## J
+
+- Java application programming interface (API) for Spatial [1.19](spatial-concepts.md)
+- join
+  - SDO_JOIN operator [20.8](spatial-operators-reference.md)
+- JSON
+  - FROM_GEOJSON function [35.17](SDO_UTIL-reference.md)
+  - FROM_JSON function [35.20](SDO_UTIL-reference.md)
+  - GeoJSON support in Oracle Spatial [1.16.2](spatial-concepts.md)
+  - Get_GeoJson method [2.3](spatial-datatypes-metadata.md)
+  - support in Oracle Spatial [1.16](spatial-concepts.md), [1.16.1](spatial-concepts.md)
+  - TO_GEOJSON function [35.70](SDO_UTIL-reference.md)
+  - TO_JSON_VARCHAR function [35.74](SDO_UTIL-reference.md)
+  - TO_JSON function [35.73](SDO_UTIL-reference.md)
+
+------------------------------------------------------------------------
+
+## K
+
+- Keyhole Markup Language (KML)
+  - FROM_KMLGEOMETRY function [35.21](SDO_UTIL-reference.md)
+  - TO_KMLGEOMETRY function [35.75](SDO_UTIL-reference.md)
+- KML
+  - FROM_KMLGEOMETRY function [35.21](SDO_UTIL-reference.md)
+  - TO_KMLGEOMETRY function [35.75](SDO_UTIL-reference.md)
+
+------------------------------------------------------------------------
+
+## L
+
+- layer [1.5.3](spatial-concepts.md)
+  - transforming [22.34](SDO_CS-reference.md)
+  - validating with context [26.34](SDO_GEOM-reference.md)
+- layer_gtype
+  - constraining data to a geometry type [5.1.2](indexing-querying-spatial-data.md)
+- length
+  - SDO_LENGTH function [26.16](SDO_GEOM-reference.md)
+- length_unit attribute
+  - of route request [14.3.2.2](routing-engine-concepts.md)
+- levels of detail (LODs)
+  - checking if theme has [35.67](SDO_UTIL-reference.md)
+- line
+  - converting polygon to [35.60](SDO_UTIL-reference.md)
+  - data [1.5.1](spatial-concepts.md)
+  - length [26.16](SDO_GEOM-reference.md)
+- linear features [7.1.10](lrs-linear-referencing-system-concepts.md)
+- linear measure [7.1.4](lrs-linear-referencing-system-concepts.md)
+- linear referencing system (LRS)
+  - 3D formats of functions [7.4](lrs-linear-referencing-system-concepts.md)
+    - not supported with geodetic data [6.10.2](coordinate-systems-concepts.md)
+  - conceptual and usage information [7](lrs-linear-referencing-system-concepts.md)
+  - data model [7.2](lrs-linear-referencing-system-concepts.md)
+  - example [7.7](lrs-linear-referencing-system-concepts.md)
+  - Get_LRS_Dim method [2.3](spatial-datatypes-metadata.md)
+  - limiting indexing to X and Y dimensions [7.3](lrs-linear-referencing-system-concepts.md)
+  - LRS points [7.1.9](lrs-linear-referencing-system-concepts.md)
+  - segments [7.1.1](lrs-linear-referencing-system-concepts.md)
+  - subprogram reference information [27](SDO_LRS-reference.md)
+  - tolerance values with LRS functions [7.6](lrs-linear-referencing-system-concepts.md)
+- line string
+  - boundary of [1.8](spatial-concepts.md)
+  - compound [2.2.4](spatial-datatypes-metadata.md), [2.7.3](spatial-datatypes-metadata.md)
+  - reversing [35.63](SDO_UTIL-reference.md)
+  - self-crossing [1.4](spatial-concepts.md)
+- lists H3 summary tables
+  - H3SUM_LIST_TABLES [35.54](SDO_UTIL-reference.md)
+- LOAD_EPSG_MATRIX procedure [22.24](SDO_CS-reference.md)
+- loading spatial data [4](loading-spatial-data.md)
+- local coordinates [1.5.4](spatial-concepts.md), [6.1.5](coordinate-systems-concepts.md)
+- local coordinate systems [6.3](coordinate-systems-concepts.md)
+- LOCAL partitioning
+  - spatial indexes [5.1.5](indexing-querying-spatial-data.md)
+- LOCATE_PT function [27.29](SDO_LRS-reference.md)
+- location data enrichment [1.15](spatial-concepts.md)
+  - adding user data to the geographic name hierarchy [1.15.2](spatial-concepts.md)
+  - ELOC_ADMIN_AREA_SEARCH table [1.15.1](spatial-concepts.md)
+- location for route segment [14.3.2.1](routing-engine-concepts.md)
+- location messages [33.4](SDO_TRKR-reference.md), [33.5](SDO_TRKR-reference.md)
+- location prospecting [9.6](spatial-analysis-mining.md)
+- location tracking messages
+  - SEND_LOCATION_MSGS procedure [33.4](SDO_TRKR-reference.md)
+  - SEND_TRACKING_MSG procedure [33.5](SDO_TRKR-reference.md)
+- location tracking server
+  - conceptual and usage information [8](location-tracking-server-concepts.md)
+- location tracking set
+  - CREATE_TRACKING_SET procedure [33.1](SDO_TRKR-reference.md)
+  - DROP_TRACKING_SET procedure [33.2](SDO_TRKR-reference.md)
+  - GET_NOTIFICATION_MSGprocedure [33.3](SDO_TRKR-reference.md)
+  - START_TRACKING_SET procedure [33.6](SDO_TRKR-reference.md)
+  - STOP_TRACKING_SET procedure [33.7](SDO_TRKR-reference.md)
+- location tracking subprograms [33](SDO_TRKR-reference.md)
+- locationType type [14.4.1](routing-engine-concepts.md)
+- LODs (levels of detail)
+  - checking if theme has [35.67](SDO_UTIL-reference.md)
+- LRS
+  - See: linear referencing system (LRS)
+- LRS_INTERSECTION function [27.30](SDO_LRS-reference.md)
+- LRS points [7.1.9](lrs-linear-referencing-system-concepts.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- MAKE_3D function [22.25](SDO_CS-reference.md), [22.26](SDO_CS-reference.md)
+- MakeOpenLSClobRequest function [29.1](SDO_OLS-reference.md)
+- MakeOpenLSRequest function [29.2](SDO_OLS-reference.md)
+- MAP_EPSG_SRID_TO_ORACLE function [22.27](SDO_CS-reference.md)
+- MAP_ORACLE_SRID_TO_EPSG function [22.28](SDO_CS-reference.md)
+- map projections
+  - MDSYS.SDO_PROJECTIONS_OLD_FORMAT table [6.8.7](coordinate-systems-concepts.md)
+  - MDSYS.SDO_PROJECTIONS_OLD_SNAPSHOT table [6.8.7](coordinate-systems-concepts.md)
+- match codes [12.1.3](geocoding-address-data-concepts.md)
+- match modes [12.1.2](geocoding-address-data-concepts.md)
+- match vector (MatchVector attribute)
+  - geocoding [12.1.5](geocoding-address-data-concepts.md)
+- max-corner values
+  - for three-dimensional rectangle [1.13.3](spatial-concepts.md)
+- MBR
+  - See: minimum bounding rectangle (MBR)
+- MDDATA account and schema [1.20](spatial-concepts.md)
+- MDSYS.CS_SRS table [6.8.1](coordinate-systems-concepts.md)
+- MDSYS.MOVE_SDO procedure [1.26](spatial-concepts.md)
+- MDSYS.SDO_ANGLE_UNITS table [6.8.2](coordinate-systems-concepts.md)
+- MDSYS.SDO_AREA_UNITS view [6.8.3](coordinate-systems-concepts.md)
+- MDSYS.SDO_CS package [22](SDO_CS-reference.md)
+- MDSYS.SDO_DATUMS_OLD_FORMAT table [6.8.4](coordinate-systems-concepts.md)
+- MDSYS.SDO_DATUMS_OLD_SNAPSHOT table [6.8.4](coordinate-systems-concepts.md)
+- MDSYS.SDO_DIST_UNITS view [6.8.5](coordinate-systems-concepts.md)
+- MDSYS.SDO_ELLIPSOIDS_OLD_FORMAT table [6.8.6](coordinate-systems-concepts.md)
+- MDSYS.SDO_ELLIPSOIDS_OLD_SNAPSHOT table [6.8.6](coordinate-systems-concepts.md)
+- MDSYS.SDO_GCDR package [25](SDO_GCDR-reference.md)
+- MDSYS.SDO_GEOM_PATH_INFO type [E.2.2](csw_support_old.md)
+- MDSYS.SDO_OLS package [29](SDO_OLS-reference.md)
+- MDSYS.SDO_PROJECTIONS_OLD_FORMAT table [6.8.7](coordinate-systems-concepts.md)
+- MDSYS.SDO_PROJECTIONS_OLD_SNAPSHOT table [6.8.7](coordinate-systems-concepts.md)
+- MDSYS.SDO_SAM package [31](SDO_SAM-reference.md)
+- MDSYS.SDO_WFS_LOCK package [37](SDO_WFS_LOCK-reference.md)
+- MDSYS.SDO_WFS_PROCESS package [38](SDO_WFS_PROCESS-reference.md)
+- MDSYS.VERTEX_TYPE type [35.29](SDO_UTIL-reference.md), [35.30](SDO_UTIL-reference.md)
+- MDSYS account and schema [1.20](spatial-concepts.md)
+- MDSYS schema [1.1](spatial-concepts.md)
+  - must exist in destination database for migration [A.2](spatial-install-migrate-upgrade.md)
+- mean sea level (MSL) [6.2.3.1](coordinate-systems-concepts.md)
+- measure [7.1.4](lrs-linear-referencing-system-concepts.md)
+  - populating [7.1.6](lrs-linear-referencing-system-concepts.md)
+  - resetting [27.37](SDO_LRS-reference.md)
+  - reversing [27.39](SDO_LRS-reference.md)
+  - with multiline strings and polygons with holes [7.1.11](lrs-linear-referencing-system-concepts.md)
+- MEASURE_RANGE function [27.31](SDO_LRS-reference.md)
+- MEASURE_TO_PERCENTAGE function [27.32](SDO_LRS-reference.md)
+- measure range [7.1.7](lrs-linear-referencing-system-concepts.md)
+- messages
+  - Spatial error messages [1.28](spatial-concepts.md)
+- methods
+  - SDO_GEOMETRY object type [2.3](spatial-datatypes-metadata.md)
+- migration [28.1](SDO_MIGRATE-reference.md), [A.2](spatial-install-migrate-upgrade.md)
+  - See also: upgrading
+- min-corner values
+  - for three-dimensional rectangle [1.13.3](spatial-concepts.md)
+- minimum bounding circle
+  - SDO_MBC_CENTER function [26.21](SDO_GEOM-reference.md)
+  - SDO_MBC_RADIUS function [26.22](SDO_GEOM-reference.md)
+  - SDO_MBC function [26.20](SDO_GEOM-reference.md)
+- minimum bounding rectangle (MBR)
+  - AVERAGE_MBR procedure [34.1](SDO_TUNE-reference.md)
+  - EXTENT_OF function [34.3](SDO_TUNE-reference.md)
+  - geodetic [6.2.4](coordinate-systems-concepts.md)
+  - SDO_AGGR_MBR aggregate function [21.6](spatial-aggregate-functions.md)
+  - SDO_MAX_MBR_ORDINATE function [26.17](SDO_GEOM-reference.md)
+  - SDO_MBR function [26.23](SDO_GEOM-reference.md)
+  - SDO_MIN_MBR_ORDINATE function [26.24](SDO_GEOM-reference.md)
+- mining
+  - See: data mining
+- MIX_INFO procedure [34.4](SDO_TUNE-reference.md)
+- MOVE_SDO procedure [1.26](spatial-concepts.md)
+- MSL (mean sea level) [6.2.3.1](coordinate-systems-concepts.md)
+- multi-address routing [14.1](routing-engine-concepts.md)
+- multiline string
+  - boundary of [1.8](spatial-concepts.md)
+  - LRS measure values [7.1.11](lrs-linear-referencing-system-concepts.md)
+- multipolygon [2.7.2](spatial-datatypes-metadata.md)
+
+------------------------------------------------------------------------
+
+## N
+
+- NaC coordinate reference system [6.10.4](coordinate-systems-concepts.md)
+- NADCON grids
+  - converting Spatial XML format to NADCON format [22.5](SDO_CS-reference.md)
+  - converting to Spatial XML format [22.3](SDO_CS-reference.md)
+- name conflicts
+  - avoiding with SQL Multimedia implementations [3.4](sql-multimedia-type-support.md)
+- naming considerations
+  - Spatial table and column names [2.8](spatial-datatypes-metadata.md)
+- nav_strand [14.6.1](routing-engine-concepts.md)
+- navigation strand (nav_strand) [14.6.1](routing-engine-concepts.md)
+- nearest neighbor
+  - SDO_NN_DISTANCE operator [20.10](spatial-operators-reference.md)
+  - SDO_NN operator [20.9](spatial-operators-reference.md)
+- neighborhood influence [9.3](spatial-analysis-mining.md)
+- nested tables
+  - spatial indexes not supported on [5.1](indexing-querying-spatial-data.md)
+- NODE table
+  - routing engine use of [14.5.2](routing-engine-concepts.md), [14.6.1.2](routing-engine-concepts.md), [14.6.2.2](routing-engine-concepts.md)
+- non-ellipsoidal height [6.2.3](coordinate-systems-concepts.md)
+- non-uniform rational B-spline (NURBS) curves [1.17](spatial-concepts.md)
+  - example [2.7.8](spatial-datatypes-metadata.md)
+- normal vector [1.13.5](spatial-concepts.md)
+- NTv2 grids
+  - converting Spatial XML format to NTv2 format [22.6](SDO_CS-reference.md)
+  - converting to Spatial XML format [22.4](SDO_CS-reference.md)
+- NURBS curves
+  - example [2.7.8](spatial-datatypes-metadata.md)
+  - GETNURBSAPPROX function [35.33](SDO_UTIL-reference.md)
+  - support in Oracle Spatial [1.17](spatial-concepts.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- object types
+  - embedding SDO_GEOMETRY objects in [10.1](extending-spatial-indexing.md), [10.2.2](extending-spatial-indexing.md)
+- OCG (Open Geospatial Consortium) simple features conformance [1.22](spatial-concepts.md)
+- OCI (Oracle Call Interface) examples [1.29](spatial-concepts.md)
+- offset [7.1.5](lrs-linear-referencing-system-concepts.md)
+  - FIND_OFFSET function [27.14](SDO_LRS-reference.md)
+- OFFSET_GEOM_SEGMENT function [27.33](SDO_LRS-reference.md)
+- offsetting
+  - geometric segment [7.5.7](lrs-linear-referencing-system-concepts.md)
+- OGC_X and OGC_Y function names [1.22](spatial-concepts.md)
+- ON
+  - SDO_ON operator [20.11](spatial-operators-reference.md)
+  - topological relationship [1.8](spatial-concepts.md)
+- Open Geospatial Consortium (OCG) simple features conformance [1.22](spatial-concepts.md)
+- OpenLS
+  - subprogram reference information [29](SDO_OLS-reference.md)
+- OPENLS_DIR_BUSINESS_CHAINS table [13.3.2](buasiness-directory-yp-concepts.md)
+- OPENLS_DIR_BUSINESSES table [13.3.1](buasiness-directory-yp-concepts.md)
+- OPENLS_DIR_CATEGORIES table [13.3.3](buasiness-directory-yp-concepts.md)
+- OPENLS_DIR_CATEGORIZATIONS table [13.3.4](buasiness-directory-yp-concepts.md)
+- OPENLS_DIR_CATEGORY_TYPES table [13.3.5](buasiness-directory-yp-concepts.md)
+- OPENLS_DIR_SYNONYMS table [13.3.6](buasiness-directory-yp-concepts.md)
+- open tour (TSP) [14.1.3](routing-engine-concepts.md)
+- operators
+  - ORDERED optimizer hint with [1.9](spatial-concepts.md)
+    - SDO_FILTER [20.6](spatial-operators-reference.md)
+    - SDO_JOIN [20.8](spatial-operators-reference.md)
+  - overview [1.9](spatial-concepts.md)
+  - performance-related guidelines [1.9](spatial-concepts.md)
+  - SDO_ANYINTERACT [20.1](spatial-operators-reference.md)
+  - SDO_CONTAINS [20.2](spatial-operators-reference.md)
+  - SDO_COVEREDBY [20.3](spatial-operators-reference.md)
+  - SDO_COVERS [20.4](spatial-operators-reference.md)
+  - SDO_EQUAL [20.5](spatial-operators-reference.md)
+  - SDO_FILTER [20.6](spatial-operators-reference.md)
+  - SDO_INSIDE [20.7](spatial-operators-reference.md)
+  - SDO_JOIN [20.8](spatial-operators-reference.md)
+  - SDO_NN [20.9](spatial-operators-reference.md)
+  - SDO_NN_DISTANCE [20.10](spatial-operators-reference.md)
+  - SDO_ON [20.11](spatial-operators-reference.md)
+  - SDO_OVERLAPBDYDISJOINT [20.12](spatial-operators-reference.md)
+  - SDO_OVERLAPBDYINTERSECT [20.13](spatial-operators-reference.md)
+  - SDO_OVERLAPS [20.14](spatial-operators-reference.md)
+  - SDO_POINTINPOLYGON [20.15](spatial-operators-reference.md)
+  - SDO_RELATE [20.16](spatial-operators-reference.md)
+  - SDO_TOUCH [20.17](spatial-operators-reference.md)
+  - SDO_WITHIN_DISTANCE [20.18](spatial-operators-reference.md)
+- optimized box [2.2.4](spatial-datatypes-metadata.md)
+- optimized rectangle [2.2.4](spatial-datatypes-metadata.md)
+  - three-dimensional [1.13.3](spatial-concepts.md)
+- optimizer hint (ORDERED) with spatial operators [1.9](spatial-concepts.md)
+  - SDO_FILTER [20.6](spatial-operators-reference.md)
+  - SDO_JOIN [20.8](spatial-operators-reference.md)
+- Oracle Call Interface (OCI) examples [1.29](spatial-concepts.md)
+- Oracle Database 10g
+  - upgrading Spatial to [A](spatial-install-migrate-upgrade.md)
+- Oracle Data Mining
+  - spatial analysis and mining information [9](spatial-analysis-mining.md)
+- Oracle Workspace Manager
+  - using with WFS [16.9](web-feature-service-wfs-concepts.md)
+- Oracle XA transactions
+  - supported with R-tree spatial indexes [5.1.8](indexing-querying-spatial-data.md)
+- ORDERED optimizer hint with spatial operators [1.9](spatial-concepts.md)
+  - SDO_FILTER [20.6](spatial-operators-reference.md)
+  - SDO_JOIN [20.8](spatial-operators-reference.md)
+- Ordnance Survey grid transformation [6.9.7](coordinate-systems-concepts.md)
+- oriented point
+  - illustration and example [2.7.6](spatial-datatypes-metadata.md)
+- orthometric height [6.5.2](coordinate-systems-concepts.md)
+- OSTN02/OSGM02 grid transformation [6.9.7](coordinate-systems-concepts.md)
+- output_time_format attribute
+  - of route request [14.3.2.2](routing-engine-concepts.md)
+- OVERLAPBDYDISJOINT
+  - SDO_OVERLAPBDYDISJOINT operator [20.12](spatial-operators-reference.md)
+  - topological relationship [1.8](spatial-concepts.md)
+- OVERLAPBDYINTERSECT
+  - SDO_OVERLAPBDYINTERSECT operator [20.13](spatial-operators-reference.md)
+  - topological relationship [1.8](spatial-concepts.md)
+- OVERLAPS
+  - SDO_OVERLAPS operator [20.14](spatial-operators-reference.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- parallel execution for index creation and rebuilding [19.1](sql-indexing-spatial-data.md), [19.2](sql-indexing-spatial-data.md), [19.4](sql-indexing-spatial-data.md)
+- parser profiles
+  - GC_PARSER_PROFILEAFS table [12.5.6](geocoding-address-data-concepts.md)
+  - GC_PARSER_PROFILES table [12.5.5](geocoding-address-data-concepts.md)
+- partitioned spatial indexes [5.1.5](indexing-querying-spatial-data.md)
+  - exchanging partitions [5.1.6](indexing-querying-spatial-data.md)
+- PARTITION table
+  - routing engine use of [14.5.3](routing-engine-concepts.md), [14.6.1.3](routing-engine-concepts.md)
+- PC2DEM procedure [30.10](SDO_PC_PKG-reference.md)
+- PERCENTAGE_TO_MEASURE function [27.34](SDO_LRS-reference.md)
+- performance and tuning information [1.21](spatial-concepts.md)
+  - for Spatial operators [1.9](spatial-concepts.md)
+- PL/SQL and SQL examples [1.29](spatial-concepts.md)
+- plugins
+  - registering for record type [E.4.13](csw_support_old.md)
+- point
+  - data [1.5.1](spatial-concepts.md)
+  - illustration and examples of point-only geometry [2.7.5](spatial-datatypes-metadata.md)
+  - interior on surface of polygon [35.58](SDO_UTIL-reference.md)
+  - locating on geometric segment [7.5.8](lrs-linear-referencing-system-concepts.md)
+  - LRS [7.1.9](lrs-linear-referencing-system-concepts.md)
+  - on surface of polygon [26.25](SDO_GEOM-reference.md)
+  - oriented point [2.7.6](spatial-datatypes-metadata.md)
+  - projection of onto geometric segment [7.1.8](lrs-linear-referencing-system-concepts.md), [7.5.9](lrs-linear-referencing-system-concepts.md)
+  - shape [7.1.2](lrs-linear-referencing-system-concepts.md)
+- POINT_AT_BEARING function [35.59](SDO_UTIL-reference.md)
+- point clouds
+  - clipping [30.1](SDO_PC_PKG-reference.md), [30.2](SDO_PC_PKG-reference.md), [30.3](SDO_PC_PKG-reference.md)
+  - converting to DEM [30.10](SDO_PC_PKG-reference.md)
+  - converting to geometry [30.14](SDO_PC_PKG-reference.md)
+  - creating contour geometries [30.4](SDO_PC_PKG-reference.md)
+  - dropping dependencies [30.6](SDO_PC_PKG-reference.md)
+  - getting point IDs [30.7](SDO_PC_PKG-reference.md)
+  - initializing [30.9](SDO_PC_PKG-reference.md)
+  - modeling solids as [1.13.2](spatial-concepts.md)
+  - nearest neighbor [30.12](SDO_PC_PKG-reference.md), [30.13](SDO_PC_PKG-reference.md)
+  - pyramid [30.8](SDO_PC_PKG-reference.md), [30.11](SDO_PC_PKG-reference.md)
+  - pyramiding [30.9](SDO_PC_PKG-reference.md)
+  - subprograms [30](SDO_PC_PKG-reference.md)
+- point of interest (POI)
+  - GC_POI\_((lt))suffix((gt)) table [12.5.7](geocoding-address-data-concepts.md)
+- polygon
+  - area of [26.4](SDO_GEOM-reference.md)
+  - boundary of [1.8](spatial-concepts.md)
+  - buffer [26.5](SDO_GEOM-reference.md)
+  - centroid [26.6](SDO_GEOM-reference.md)
+  - compound [2.2.4](spatial-datatypes-metadata.md)
+  - exterior and interior rings [2.2.4](spatial-datatypes-metadata.md), [2.7.2](spatial-datatypes-metadata.md)
+  - interior point on surface [35.58](SDO_UTIL-reference.md)
+  - point on surface [26.25](SDO_GEOM-reference.md)
+  - self-crossing not supported [1.4](spatial-concepts.md)
+  - self-intersecting polygons [26.33](SDO_GEOM-reference.md)
+  - with hole (LRS measure values) [7.1.11](lrs-linear-referencing-system-concepts.md)
+- polygon collection [2.7.2](spatial-datatypes-metadata.md)
+- polygon data [1.5.1](spatial-concepts.md)
+- POLYGONTOLINE function [35.60](SDO_UTIL-reference.md)
+- PopulateFeatureTypeXMLInfo procedure [38.10](SDO_WFS_PROCESS-reference.md)
+- populating
+  - measure [7.1.6](lrs-linear-referencing-system-concepts.md)
+- pre_geocoded_location element [14.3.2.4](routing-engine-concepts.md)
+- PRESERVES_LEVEL1 function [30.11](SDO_PC_PKG-reference.md)
+- primary filter [1.6](spatial-concepts.md), [5.2.1.1](indexing-querying-spatial-data.md), [5.2.1.2](indexing-querying-spatial-data.md)
+- primitive types [1.4](spatial-concepts.md)
+- problems in current release [6.10](coordinate-systems-concepts.md)
+- PROJECT_ORDINATES_ONTO_TIN function [32.5](SDO_TIN_PKG-reference.md)
+- PROJECT_PT function [27.35](SDO_LRS-reference.md)
+- projected coordinates [1.5.4](spatial-concepts.md), [6.1.4](coordinate-systems-concepts.md)
+- projections [7.1.8](lrs-linear-referencing-system-concepts.md), [7.5.9](lrs-linear-referencing-system-concepts.md)
+  - MDSYS.SDO_PROJECTIONS_OLD_FORMAT table [6.8.7](coordinate-systems-concepts.md)
+  - MDSYS.SDO_PROJECTIONS_OLD_SNAPSHOT table [6.8.7](coordinate-systems-concepts.md)
+  - PROJECT_PT function [27.35](SDO_LRS-reference.md)
+- Publish_FeatureTypes_In_Schema procedure [38.12](SDO_WFS_PROCESS-reference.md)
+- PublishFeatureType procedure [38.11](SDO_WFS_PROCESS-reference.md)
+- publishRecordType method [E.4.12](csw_support_old.md)
+- pyramids
+  - point cloud [30.9](SDO_PC_PKG-reference.md)
+  - TIN [32.4](SDO_TIN_PKG-reference.md)
+
+------------------------------------------------------------------------
+
+## Q
+
+- quality
+  - R-tree [1.7.2](spatial-concepts.md)
+- query [5.2.1](indexing-querying-spatial-data.md)
+- querying geometric segments
+  - subprograms for [27](SDO_LRS-reference.md)
+- query model for Spatial [1.6](spatial-concepts.md)
+- query window [5.2.1](indexing-querying-spatial-data.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- range
+  - measure [7.1.7](lrs-linear-referencing-system-concepts.md)
+- README file
+  - for Spatial, GeoRaster, and topology and network data models [1.30](spatial-concepts.md)
+- rebuilding
+  - spatial indexes [19.2](sql-indexing-spatial-data.md)
+- record types
+  - dropping [E.4.5](csw_support_old.md)
+  - getting ID [E.4.9](csw_support_old.md)
+  - granting access to a user [E.4.11](csw_support_old.md)
+  - publishing [E.4.12](csw_support_old.md)
+  - registering plugin [E.4.13](csw_support_old.md)
+  - revoking access from a user [E.4.15](csw_support_old.md)
+  - setting capabilities information [E.4.16](csw_support_old.md)
+- record view map
+  - deleting [E.4.3](csw_support_old.md)
+- record view maps (setting) [E.4.18](csw_support_old.md)
+- rectangle
+  - minimum bounding [34.3](SDO_TUNE-reference.md)
+  - three-dimensional optimized [1.13.3](spatial-concepts.md)
+  - type [2.2.4](spatial-datatypes-metadata.md)
+- rectification of geometries [35.61](SDO_UTIL-reference.md)
+- RECTIFY_GEOMETRY function [35.61](SDO_UTIL-reference.md)
+- REDEFINE_GEOM_SEGMENT procedure [27.36](SDO_LRS-reference.md)
+- redefining
+  - geometric segment [7.5.2](lrs-linear-referencing-system-concepts.md)
+- RegisterFeatureTable procedure [37.2](SDO_WFS_LOCK-reference.md)
+- RegisterMTableView procedure [38.13](SDO_WFS_PROCESS-reference.md)
+- registerTypePluginMap method [E.4.13](csw_support_old.md)
+- RELATE function [26.1](SDO_GEOM-reference.md)
+  - See also: SDO_RELATE operator
+- relational feature types (WFS) [16.4](web-feature-service-wfs-concepts.md)
+- release number (Spatial)
+  - retrieving [1.23](spatial-concepts.md)
+- REMOVE_DUPLICATE_VERTICES function [35.62](SDO_UTIL-reference.md)
+- RESET_MEASURE procedure [27.37](SDO_LRS-reference.md)
+- restrictions in current release [6.10](coordinate-systems-concepts.md)
+- return_route_geometry attribute
+  - of batch route request [14.3.5.2](routing-engine-concepts.md)
+- return_segment_geometry attribute
+  - of batch route request [14.3.5.2](routing-engine-concepts.md)
+- returns a boolean that determines if the cells at the given level are “Class 3”
+  - H3_IS_CLASS3 [35.41](SDO_UTIL-reference.md)
+  - H3_MBR [35.45](SDO_UTIL-reference.md)
+- returns a boolean that determines if the given cell is a pentagon
+  - H3_IS_PENTAGON [35.42](SDO_UTIL-reference.md)
+- returns an estimated H3 resolution
+  - H3SUM_ESTIMATE_RESOLUTION [35.52](SDO_UTIL-reference.md)
+- returns rows from an H3 summary table
+  - H3SUM_AS_TABLE [35.50](SDO_UTIL-reference.md)
+- returns the base cell corresponding to the given cell
+  - H3_BASE_CELL [35.35](SDO_UTIL-reference.md)
+- returns the minimum, maximum, or average area of hexes
+  - H3_HEX_AREA [35.38](SDO_UTIL-reference.md)
+- returns the minimum, maximum, or average edgelen of hexes
+  - H3_HEX_EDGELEN [35.39](SDO_UTIL-reference.md)
+- returns the number of H3 cells at the specified resolution
+  - H3_NUM_CELLS [35.40](SDO_UTIL-reference.md)
+- returns the resolution of an H3 cell
+  - H3_RESOLUTION [35.49](SDO_UTIL-reference.md)
+- returns the size of a pentagon at the given resolution
+  - H3_PENTAGON_AREA [35.47](SDO_UTIL-reference.md)
+  - H3_PENTAGON_EDGELEN [35.48](SDO_UTIL-reference.md)
+- REVERSE_GEOCODE function [25.17](SDO_GCDR-reference.md)
+- REVERSE_GEOMETRY function [27.38](SDO_LRS-reference.md)
+- REVERSE_LINESTRING function [35.63](SDO_UTIL-reference.md)
+- REVERSE_MEASURE function [27.39](SDO_LRS-reference.md)
+- reverse geocoding [25.17](SDO_GCDR-reference.md)
+- REVOKE_PREFERENCE_FOR_OP procedure [22.29](SDO_CS-reference.md)
+- RevokeFeatureTypeFromUser procedure [38.14](SDO_WFS_PROCESS-reference.md)
+- RevokeMDAccessFromUser procedure [38.15](SDO_WFS_PROCESS-reference.md)
+- revokeMDAccessToUser method [E.4.14](csw_support_old.md)
+- revokeRecordTypeFromUser method [E.4.15](csw_support_old.md)
+- ring
+  - exterior and interior polygon [2.2.4](spatial-datatypes-metadata.md)
+  - extracting from a geometry [35.13](SDO_UTIL-reference.md), [35.14](SDO_UTIL-reference.md)
+- road_preference attribute
+  - of batch route request [14.3.5.2](routing-engine-concepts.md)
+- roads
+  - GC_ROAD\_((lt))suffix((gt)) table [12.5.9](geocoding-address-data-concepts.md)
+- road segments
+  - GC_ROAD_SEGMENT\_((lt))suffix((gt)) table [12.5.10](geocoding-address-data-concepts.md)
+- rollback segment
+  - R-tree index creation [5.1.10](indexing-querying-spatial-data.md)
+- route_request element [14.3.2.1](routing-engine-concepts.md)
+- route_type attribute
+  - of route request [14.3.2.2](routing-engine-concepts.md)
+- ROUTER_TIMEZONE_DATA table
+  - routing engine use of [14.6.3.2](routing-engine-concepts.md)
+- ROUTER_TIMEZONES table
+  - routing engine use of [14.6.3.1](routing-engine-concepts.md)
+- route requests [14.3.2.1](routing-engine-concepts.md)
+  - example [14.3.1](routing-engine-concepts.md)
+  - input_location element [14.3.2.3](routing-engine-concepts.md)
+  - pre_geocoded_location element [14.3.2.4](routing-engine-concepts.md)
+  - schema definition [14.3.2](routing-engine-concepts.md)
+- route responses
+  - example [14.3.1](routing-engine-concepts.md)
+  - XML Schema definition [14.3.3](routing-engine-concepts.md)
+- routing [14.1](routing-engine-concepts.md)
+- routing engine
+  - administration [D](routing-engine-administration.md)
+  - data structures used by [14.5](routing-engine-concepts.md)
+  - explanation and usage [14](routing-engine-concepts.md)
+  - multi-address routing [14.1](routing-engine-concepts.md)
+  - overview [14](routing-engine-concepts.md)
+  - routing [14.1](routing-engine-concepts.md)
+  - user data structures used by [14.6](routing-engine-concepts.md)
+  - XML API [14.3](routing-engine-concepts.md)
+- routing engine servlet (WSServlet)
+  - XML API [14.4](routing-engine-concepts.md)
+- R-tree indexes
+  - description of indexing process [1.7.1](spatial-concepts.md)
+  - rebuilding [19.2](sql-indexing-spatial-data.md)
+  - requirements before creating [5.1.10](indexing-querying-spatial-data.md)
+  - sequence object [2.10.3](spatial-datatypes-metadata.md)
+- R-tree quality [1.7.2](spatial-concepts.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- SCALE_GEOM_SEGMENT function [27.40](SDO_LRS-reference.md)
+- scaling
+  - geometric segment [7.5.6](lrs-linear-referencing-system-concepts.md)
+- scenes
+  - validating [35.79](SDO_UTIL-reference.md)
+- schemas
+  - creating index on table in another schema [5.1.4](indexing-querying-spatial-data.md)
+  - invoking SDO_JOIN on table in another schema [20.8](spatial-operators-reference.md)
+- SDO_ADDR_ARRAY data type [12.2.2](geocoding-address-data-concepts.md)
+- SDO_AGGR_CENTROID aggregate function [21.1](spatial-aggregate-functions.md)
+- SDO_AGGR_CONCAT_LINES aggregate function [21.2](spatial-aggregate-functions.md)
+- SDO_AGGR_CONCAVEHULL aggregate function [21.3](spatial-aggregate-functions.md)
+- SDO_AGGR_CONVEXHULL aggregate function [21.4](spatial-aggregate-functions.md)
+- SDO_AGGR_LRS_CONCAT aggregate function [21.5](spatial-aggregate-functions.md)
+- SDO_AGGR_MBR aggregate function [21.6](spatial-aggregate-functions.md)
+- SDO_AGGR_SET_UNION aggregate function [21.7](spatial-aggregate-functions.md)
+- SDO_AGGR_UNION aggregate function [21.8](spatial-aggregate-functions.md)
+- SDO_ALPHA_SHAPE function [26.2](SDO_GEOM-reference.md)
+- SDO_ANGLE_UNITS table [6.8.2](coordinate-systems-concepts.md)
+- SDO_ANYINTERACT operator [20.1](spatial-operators-reference.md)
+- SDO_ARC_DENSIFY function [26.3](SDO_GEOM-reference.md)
+- SDO_AREA_UNITS view [6.8.3](coordinate-systems-concepts.md)
+- SDO_AREA function [26.4](SDO_GEOM-reference.md)
+- SDO_BUFFER function [26.5](SDO_GEOM-reference.md)
+- SDO_CENTROID function [26.6](SDO_GEOM-reference.md)
+- SDO_CLOSEST_POINTS_TYPE object type [26.7](SDO_GEOM-reference.md)
+- SDO_CLOSEST_POINTS function [26.7](SDO_GEOM-reference.md)
+- SDO_CONCAVEHULL_BOUNDARY function [26.9](SDO_GEOM-reference.md)
+- SDO_CONCAVEHULL function [26.8](SDO_GEOM-reference.md)
+- SDO_CONTAINS operator [20.2](spatial-operators-reference.md)
+- SDO_CONVEXHULL function [26.10](SDO_GEOM-reference.md)
+- SDO_COORD_AXES table [6.7.1](coordinate-systems-concepts.md)
+- SDO_COORD_AXIS_NAMES table [6.7.2](coordinate-systems-concepts.md)
+- SDO_COORD_OP_METHODS table [6.7.3](coordinate-systems-concepts.md)
+- SDO_COORD_OP_PARAM_USE table [6.7.4](coordinate-systems-concepts.md)
+- SDO_COORD_OP_PARAM_VALS table [6.7.5](coordinate-systems-concepts.md)
+- SDO_COORD_OP_PARAMS table [6.7.6](coordinate-systems-concepts.md)
+- SDO_COORD_OP_PATHS table [6.7.7](coordinate-systems-concepts.md)
+- SDO_COORD_OPS table [6.7.8](coordinate-systems-concepts.md)
+- SDO_COORD_REF_SYS table [6.7.9](coordinate-systems-concepts.md)
+- SDO_COORD_REF_SYSTEM view [6.7.10](coordinate-systems-concepts.md)
+- SDO_COORD_SYS table [6.7.11](coordinate-systems-concepts.md)
+- SDO_COVEREDBY operator [20.3](spatial-operators-reference.md)
+- SDO_COVERS operator [20.4](spatial-operators-reference.md)
+- SDO_CRS_COMPOUND view [6.7.12](coordinate-systems-concepts.md)
+- SDO_CRS_ENGINEERING view [6.7.13](coordinate-systems-concepts.md)
+- SDO_CRS_GEOCENTRIC view [6.7.14](coordinate-systems-concepts.md)
+- SDO_CRS_GEOGRAPHIC2D view [6.7.15](coordinate-systems-concepts.md)
+- SDO_CRS_GEOGRAPHIC3D view [6.7.16](coordinate-systems-concepts.md)
+- SDO_CRS_PROJECTED view [6.7.17](coordinate-systems-concepts.md)
+- SDO_CRS_VERTICAL view [6.7.18](coordinate-systems-concepts.md)
+- SDO_CS package [22](SDO_CS-reference.md)
+  - ADD_PREFERENCE_FOR_OP [22.1](SDO_CS-reference.md)
+  - CONVERT_3D_SRID_TO_2D [22.2](SDO_CS-reference.md)
+  - CONVERT_NADCON_TO_XML [22.3](SDO_CS-reference.md)
+  - CONVERT_NTV2_TO_XML [22.4](SDO_CS-reference.md)
+  - CONVERT_XML_TO_NADCON [22.5](SDO_CS-reference.md)
+  - CONVERT_XML_TO_NTV2 [22.6](SDO_CS-reference.md)
+  - CREATE_CONCATENATED_OP [22.7](SDO_CS-reference.md)
+  - CREATE_OBVIOUS_EPSG_RULES [22.8](SDO_CS-reference.md)
+  - CREATE_PREF_CONCATENATED_OP [22.9](SDO_CS-reference.md)
+  - DELETE_ALL_EPSG_RULES [22.10](SDO_CS-reference.md)
+  - DELETE_OP [22.11](SDO_CS-reference.md)
+  - DETERMINE_CHAIN [22.12](SDO_CS-reference.md)
+  - DETERMINE_DEFAULT_CHAIN [22.13](SDO_CS-reference.md)
+  - FIND_GEOG_CRS [22.14](SDO_CS-reference.md)
+  - FIND_PROJ_CRS [22.15](SDO_CS-reference.md)
+  - FIND_SRID [22.16](SDO_CS-reference.md)
+  - FROM_GEOHASH [22.17](SDO_CS-reference.md)
+  - FROM_OGC_SIMPLEFEATURE_SRS [22.18](SDO_CS-reference.md)
+  - FROM_USNG [22.19](SDO_CS-reference.md)
+  - GENERATE_SCRIPT_FROM_SRID [22.20](SDO_CS-reference.md)
+  - GET_EPSG_DATA_VERSION function [22.21](SDO_CS-reference.md)
+  - GET_GEOHASH_CELL_HEIGHT [22.22](SDO_CS-reference.md)
+  - GET_GEOHASH_CELL_WIDTH [22.23](SDO_CS-reference.md)
+  - LOAD_EPSG_MATRIX [22.24](SDO_CS-reference.md)
+  - MAKE_3D [22.25](SDO_CS-reference.md), [22.26](SDO_CS-reference.md)
+  - MAP_EPSG_SRID_TO_ORACLE [22.27](SDO_CS-reference.md)
+  - MAP_ORACLE_SRID_TO_EPSG [22.28](SDO_CS-reference.md)
+  - REVOKE_PREFERENCE_FOR_OP [22.29](SDO_CS-reference.md)
+  - TO_GEOHASH [22.30](SDO_CS-reference.md)
+  - TO_OGC_SIMPLEFEATURE_SRS [22.31](SDO_CS-reference.md)
+  - TO_USNG [22.32](SDO_CS-reference.md)
+  - TRANSFORM [22.33](SDO_CS-reference.md)
+  - TRANSFORM_LAYER [22.34](SDO_CS-reference.md)
+  - UPDATE_WKTS_FOR_ALL_EPSG_CRS [22.35](SDO_CS-reference.md)
+  - UPDATE_WKTS_FOR_EPSG_CRS [22.36](SDO_CS-reference.md)
+  - UPDATE_WKTS_FOR_EPSG_DATUM [22.37](SDO_CS-reference.md)
+  - UPDATE_WKTS_FOR_EPSG_ELLIPS [22.38](SDO_CS-reference.md)
+  - UPDATE_WKTS_FOR_EPSG_OP [22.39](SDO_CS-reference.md)
+  - UPDATE_WKTS_FOR_EPSG_PARAM [22.40](SDO_CS-reference.md)
+  - UPDATE_WKTS_FOR_EPSG_PM [22.41](SDO_CS-reference.md)
+  - VALIDATE_EPSG_MATRIX [22.42](SDO_CS-reference.md)
+  - VALIDATE_WKT [22.43](SDO_CS-reference.md)
+- SDO_CSW package [23](SDO_CSW-reference.md)
+  - CREATE_SPATIAL_IDX [23.1](SDO_CSW-reference.md)
+  - CREATE_XQFT_IDX [23.2](SDO_CSW-reference.md)
+  - INITIALIZE_CSW [23.3](SDO_CSW-reference.md)
+  - SYNC_INDEX [23.4](SDO_CSW-reference.md)
+- SDO_DATUM_ENGINEERING view [6.7.19](coordinate-systems-concepts.md)
+- SDO_DATUM_GEODETIC view [6.7.20](coordinate-systems-concepts.md)
+- SDO_DATUM_VERTICAL view [6.7.21](coordinate-systems-concepts.md)
+- SDO_DATUMS_OLD_FORMAT table [6.8.4](coordinate-systems-concepts.md)
+- SDO_DATUMS_OLD_SNAPSHOT table [6.8.4](coordinate-systems-concepts.md)
+- SDO_DATUMS table [6.7.22](coordinate-systems-concepts.md)
+- SDO_DIAMETER_LINE function [26.12](SDO_GEOM-reference.md)
+- SDO_DIAMETER function [26.11](SDO_GEOM-reference.md)
+- SDO_DIFFERENCE function [26.13](SDO_GEOM-reference.md)
+- SDO_DIST_UNITS view [6.8.5](coordinate-systems-concepts.md)
+- SDO_DISTANCE function [26.14](SDO_GEOM-reference.md)
+- SDO_ELEM_INFO_ARRAY type [2.2](spatial-datatypes-metadata.md)
+- SDO_ELEM_INFO attribute [2.2.4](spatial-datatypes-metadata.md)
+- SDO_ELLIPSOIDS_OLD_FORMAT table [6.8.6](coordinate-systems-concepts.md)
+- SDO_ELLIPSOIDS_OLD_SNAPSHOT table [6.8.6](coordinate-systems-concepts.md)
+- SDO_ELLIPSOIDS table [6.7.23](coordinate-systems-concepts.md)
+- SDO_EQUAL operator [20.5](spatial-operators-reference.md)
+- SDO_ETYPE value [2.2.4](spatial-datatypes-metadata.md)
+- SDO_FILTER operator [20.6](spatial-operators-reference.md)
+- SDO_GCDR package [25](SDO_GCDR-reference.md)
+  - CREATE_PROFILE_TABLES [25.1](SDO_GCDR-reference.md)
+  - ELOC_DRIVE_TIME_POLYGON [25.2](SDO_GCDR-reference.md)
+  - ELOC_GEOCODE [25.3](SDO_GCDR-reference.md)
+  - ELOC_GEOCODE_AS_GEOM [25.4](SDO_GCDR-reference.md)
+  - ELOC_GRANT_ACCESS [25.5](SDO_GCDR-reference.md)
+  - ELOC_ISO_POLYGON [25.6](SDO_GCDR-reference.md)
+  - ELOC_REVOKE_ACCESS [25.7](SDO_GCDR-reference.md)
+  - ELOC_ROUTE_DISTANCE [25.9](SDO_GCDR-reference.md)
+  - ELOC_ROUTE_GEOM [25.8](SDO_GCDR-reference.md), [25.10](SDO_GCDR-reference.md)
+  - ELOC_ROUTE_TIME [25.11](SDO_GCDR-reference.md)
+  - GEOCODE [25.12](SDO_GCDR-reference.md)
+  - GEOCODE_ADDR [25.13](SDO_GCDR-reference.md)
+  - GEOCODE_ADDR_ALL [25.14](SDO_GCDR-reference.md)
+  - GEOCODE_ALL [25.15](SDO_GCDR-reference.md)
+  - GEOCODE_AS_GEOMETRY [25.16](SDO_GCDR-reference.md)
+  - REVERSE_GEOCODE [25.17](SDO_GCDR-reference.md)
+- SDO_GEO_ADDR data type and constructors [12.2.1](geocoding-address-data-concepts.md)
+- SDO_GEOM_MBR operator [26.23](SDO_GEOM-reference.md)
+- SDO_GEOM_PATH_INFO
+  - MDSYS.SDO_GEOM_PATH_INFO type [E.2.2](csw_support_old.md)
+- SDO_GEOMETRY object type [2.2](spatial-datatypes-metadata.md)
+  - constructors [2.4](spatial-datatypes-metadata.md)
+  - embedding in user-defined type [10.1](extending-spatial-indexing.md), [10.2.2](extending-spatial-indexing.md)
+  - in function-based indexes [10.2](extending-spatial-indexing.md)
+  - methods (member functions) [2.3](spatial-datatypes-metadata.md)
+- SDO_GEOM package
+  - RELATE [26.1](SDO_GEOM-reference.md)
+  - SDO_ALPHA_SHAPE [26.2](SDO_GEOM-reference.md)
+  - SDO_ARC_DENSIFY [26.3](SDO_GEOM-reference.md)
+  - SDO_AREA [26.4](SDO_GEOM-reference.md)
+  - SDO_BUFFER [26.5](SDO_GEOM-reference.md)
+  - SDO_CENTROID [26.6](SDO_GEOM-reference.md)
+  - SDO_CLOSEST_POINTS [26.7](SDO_GEOM-reference.md)
+  - SDO_CONCAVEHULL [26.8](SDO_GEOM-reference.md)
+  - SDO_CONCAVEHULL_BOUNDARY [26.9](SDO_GEOM-reference.md)
+  - SDO_CONVEXHULL [26.10](SDO_GEOM-reference.md)
+  - SDO_DIAMETER [26.11](SDO_GEOM-reference.md)
+  - SDO_DIAMETER_LINE [26.12](SDO_GEOM-reference.md)
+  - SDO_DIFFERENCE [26.13](SDO_GEOM-reference.md)
+  - SDO_DISTANCE [26.14](SDO_GEOM-reference.md)
+  - SDO_INTERSECTION [26.15](SDO_GEOM-reference.md)
+  - SDO_LENGTH [26.16](SDO_GEOM-reference.md)
+  - SDO_MAX_MBR_ORDINATE [26.17](SDO_GEOM-reference.md)
+  - SDO_MAXDISTANCE [26.18](SDO_GEOM-reference.md)
+  - SDO_MAXDISTANCE_LINE [26.19](SDO_GEOM-reference.md)
+  - SDO_MBC [26.20](SDO_GEOM-reference.md)
+  - SDO_MBC_CENTER [26.21](SDO_GEOM-reference.md)
+  - SDO_MBC_RADIUS [26.22](SDO_GEOM-reference.md)
+  - SDO_MBR [26.23](SDO_GEOM-reference.md)
+  - SDO_MIN_MBR_ORDINATE [26.24](SDO_GEOM-reference.md)
+  - SDO_POINTONSURFACE [26.25](SDO_GEOM-reference.md)
+  - SDO_SELF_UNION [26.26](SDO_GEOM-reference.md)
+  - SDO_TRIANGULATE [26.27](SDO_GEOM-reference.md)
+  - SDO_UNION [26.28](SDO_GEOM-reference.md)
+  - SDO_VOLUME [26.29](SDO_GEOM-reference.md)
+  - SDO_WIDTH [26.30](SDO_GEOM-reference.md)
+  - SDO_WIDTH_LINE [26.31](SDO_GEOM-reference.md)
+  - SDO_XOR [26.32](SDO_GEOM-reference.md)
+  - VALIDATE_GEOMETRY_WITH_CONTEXT [26.33](SDO_GEOM-reference.md)
+  - VALIDATE_LAYER_WITH_CONTEXT [26.34](SDO_GEOM-reference.md)
+  - WITHIN_DISTANCE [26.35](SDO_GEOM-reference.md)
+- SDO_GTYPE attribute [2.2.1](spatial-datatypes-metadata.md)
+  - constraining data to a geometry type [5.1.2](indexing-querying-spatial-data.md)
+  - Get_Dims method [2.3](spatial-datatypes-metadata.md)
+  - Get_GType method [2.3](spatial-datatypes-metadata.md)
+  - Get_LRS_Dim method [2.3](spatial-datatypes-metadata.md)
+- SDO_INDEX_TABLE entry in index metadata views [2.10.2](spatial-datatypes-metadata.md)
+- SDO_INDX_DIMS keyword [7.3](lrs-linear-referencing-system-concepts.md), [19.1](sql-indexing-spatial-data.md)
+- SDO_INSIDE operator [20.7](spatial-operators-reference.md)
+- SDO_INTERPRETATION value [2.2.4](spatial-datatypes-metadata.md)
+- SDO_INTERSECTION function [26.15](SDO_GEOM-reference.md)
+- SDO_JOIN operator [20.8](spatial-operators-reference.md)
+  - cross-schema invocation [20.8](spatial-operators-reference.md)
+- SDO_KEYWORDARRAY data type [12.2.3](geocoding-address-data-concepts.md)
+- SDO_LENGTH function [26.16](SDO_GEOM-reference.md)
+- SDO_LRS package
+  - CLIP_GEOM_SEGMENT [27.1](SDO_LRS-reference.md)
+  - CONCATENATE_GEOM_SEGMENTS [27.2](SDO_LRS-reference.md)
+  - CONNECTED_GEOM_SEGMENTS [27.3](SDO_LRS-reference.md)
+  - CONVERT_TO_LRS_DIM_ARRAY [27.4](SDO_LRS-reference.md)
+  - CONVERT_TO_LRS_GEOM [27.5](SDO_LRS-reference.md)
+  - CONVERT_TO_LRS_LAYER [27.6](SDO_LRS-reference.md)
+  - CONVERT_TO_STD_DIM_ARRAY [27.7](SDO_LRS-reference.md)
+  - CONVERT_TO_STD_GEOM [27.8](SDO_LRS-reference.md)
+  - CONVERT_TO_STD_LAYER [27.9](SDO_LRS-reference.md)
+  - DEFINE_GEOM_SEGMENT [27.10](SDO_LRS-reference.md)
+  - DYNAMIC_SEGMENT [27.11](SDO_LRS-reference.md)
+  - FIND_LRS_DIM_POS [27.12](SDO_LRS-reference.md)
+  - FIND_MEASURE [27.13](SDO_LRS-reference.md)
+  - FIND_OFFSET [27.14](SDO_LRS-reference.md)
+  - GEOM_SEGMENT_END_MEASURE [27.15](SDO_LRS-reference.md)
+  - GEOM_SEGMENT_END_PT [27.16](SDO_LRS-reference.md)
+  - GEOM_SEGMENT_LENGTH [27.17](SDO_LRS-reference.md)
+  - GEOM_SEGMENT_START_MEASURE [27.18](SDO_LRS-reference.md)
+  - GEOM_SEGMENT_START_PT [27.19](SDO_LRS-reference.md)
+  - GET_MEASURE [27.20](SDO_LRS-reference.md)
+  - GET_NEXT_SHAPE_PT [27.21](SDO_LRS-reference.md)
+  - GET_NEXT_SHAPE_PT_MEASURE [27.22](SDO_LRS-reference.md)
+  - GET_PREV_SHAPE_PT [27.23](SDO_LRS-reference.md)
+  - GET_PREV_SHAPE_PT_MEASURE [27.24](SDO_LRS-reference.md)
+  - IS_GEOM_SEGMENT_DEFINED [27.25](SDO_LRS-reference.md)
+  - IS_MEASURE_DECREASING [27.26](SDO_LRS-reference.md)
+  - IS_MEASURE_INCREASING [27.27](SDO_LRS-reference.md)
+  - IS_SHAPE_PT_MEASURE [27.28](SDO_LRS-reference.md)
+  - LOCATE_PT [27.29](SDO_LRS-reference.md)
+  - LRS_INTERSECTION [27.30](SDO_LRS-reference.md)
+  - MEASURE_RANGE [27.31](SDO_LRS-reference.md)
+  - MEASURE_TO_PERCENTAGE [27.32](SDO_LRS-reference.md)
+  - OFFSET_GEOM_SEGMENT [27.33](SDO_LRS-reference.md)
+  - PERCENTAGE_TO_MEASURE [27.34](SDO_LRS-reference.md)
+  - PROJECT_PT [27.35](SDO_LRS-reference.md)
+  - REDEFINE_GEOM_SEGMENT [27.36](SDO_LRS-reference.md)
+  - RESET_MEASURE [27.37](SDO_LRS-reference.md)
+  - REVERSE_GEOMETRY [27.38](SDO_LRS-reference.md)
+  - REVERSE_MEASURE [27.39](SDO_LRS-reference.md)
+  - SCALE_GEOM_SEGMENT [27.40](SDO_LRS-reference.md)
+  - SET_PT_MEASURE [27.41](SDO_LRS-reference.md)
+  - SPLIT_GEOM_SEGMENT [27.42](SDO_LRS-reference.md)
+  - TRANSLATE_MEASURE [27.43](SDO_LRS-reference.md)
+  - VALID_GEOM_SEGMENT [27.44](SDO_LRS-reference.md)
+  - VALID_LRS_PT [27.45](SDO_LRS-reference.md)
+  - VALID_MEASURE [27.46](SDO_LRS-reference.md)
+  - VALIDATE_LRS_GEOMETRY [27.47](SDO_LRS-reference.md)
+- SDO_MAX_MBR_ORDINATE function [26.17](SDO_GEOM-reference.md)
+- SDO_MAXDISTANCE_LINE function [26.19](SDO_GEOM-reference.md)
+- SDO_MAXDISTANCE function [26.18](SDO_GEOM-reference.md)
+- SDO_MBC_CENTER function [26.21](SDO_GEOM-reference.md)
+- SDO_MBC_RADIUS function [26.22](SDO_GEOM-reference.md)
+- SDO_MBC function [26.20](SDO_GEOM-reference.md)
+- SDO_MBR function [26.23](SDO_GEOM-reference.md)
+- SDO_MIGRATE package
+  - TO_CURRENT [28.1](SDO_MIGRATE-reference.md)
+- SDO_MIN_MBR_ORDINATE function [26.24](SDO_GEOM-reference.md)
+- SDO_NN_DISTANCE ancillary operator [20.10](spatial-operators-reference.md)
+- SDO_NN_DISTANCE operator
+  - complex examples [B.3](complex-spatial-queries.md)
+- SDO_NN operator [20.9](spatial-operators-reference.md)
+  - complex examples [B.3](complex-spatial-queries.md)
+  - optimizer hints [20.9](spatial-operators-reference.md)
+- SDO_OLS package [29](SDO_OLS-reference.md)
+  - MakeOpenLSClobRequest [29.1](SDO_OLS-reference.md)
+  - MakeOpenLSRequest [29.2](SDO_OLS-reference.md)
+- SDO_ON operator [20.11](spatial-operators-reference.md)
+- SDO_ORDINATE_ARRAY type [2.2](spatial-datatypes-metadata.md)
+- SDO_ORDINATES attribute [2.2.5](spatial-datatypes-metadata.md)
+- SDO_OVERLAPBDYDISJOINT operator [20.12](spatial-operators-reference.md)
+- SDO_OVERLAPBDYINTERSECT operator [20.13](spatial-operators-reference.md)
+- SDO_OVERLAPS operator [20.14](spatial-operators-reference.md)
+- SDO_PC_BLK_TYPE object type [2.6.2](spatial-datatypes-metadata.md)
+- SDO_PC_BLK object type [2.6.2](spatial-datatypes-metadata.md)
+- SDO_PC_NN_FOR_EACH function [30.13](SDO_PC_PKG-reference.md)
+- SDO_PC_NN function [30.12](SDO_PC_PKG-reference.md)
+- SDO_PC_PKG package
+  - CLIP_PC [30.1](SDO_PC_PKG-reference.md)
+  - CLIP_PC_FLAT [30.2](SDO_PC_PKG-reference.md)
+  - CLIP_PC_FLAT_STRING [30.3](SDO_PC_PKG-reference.md)
+  - CREATE_CONTOUR_GEOMETRIES [30.4](SDO_PC_PKG-reference.md)
+  - CREATE_PC [30.5](SDO_PC_PKG-reference.md)
+  - DROP_DEPENDENCIES [30.6](SDO_PC_PKG-reference.md)
+  - GET_PT_IDS [30.7](SDO_PC_PKG-reference.md)
+  - HAS_PYRAMID [30.8](SDO_PC_PKG-reference.md)
+  - INIT [30.9](SDO_PC_PKG-reference.md)
+  - PC2DEM [30.10](SDO_PC_PKG-reference.md)
+  - PRESERVES_LEVEL1 [30.11](SDO_PC_PKG-reference.md)
+  - SDO_PC_NN [30.12](SDO_PC_PKG-reference.md)
+  - SDO_PC_NN_FOR_EACH [30.13](SDO_PC_PKG-reference.md)
+  - TO_GEOMETRY [30.14](SDO_PC_PKG-reference.md)
+- SDO_PC object type [2.6.1](spatial-datatypes-metadata.md)
+- SDO_POINT_TYPE object type [2.2](spatial-datatypes-metadata.md)
+- SDO_POINT attribute [2.2.3](spatial-datatypes-metadata.md)
+- SDO_POINTINPOLYGON operator [20.15](spatial-operators-reference.md)
+- SDO_POINTONSURFACE function [26.25](SDO_GEOM-reference.md)
+- SDO_PREFERRED_OPS_SYSTEM table [6.7.24](coordinate-systems-concepts.md)
+- SDO_PREFERRED_OPS_USER table [6.7.25](coordinate-systems-concepts.md)
+- SDO_PRIME_MERIDIANS table [6.7.26](coordinate-systems-concepts.md)
+- SDO_PROJECTIONS_OLD_FORMAT table [6.8.7](coordinate-systems-concepts.md)
+- SDO_PROJECTIONS_OLD_SNAPSHOT table [6.8.7](coordinate-systems-concepts.md)
+- SDO_REGAGGR object type [31.2](SDO_SAM-reference.md), [31.9](SDO_SAM-reference.md)
+- SDO_REGAGGRSET object type [31.2](SDO_SAM-reference.md), [31.9](SDO_SAM-reference.md)
+- SDO_REGION object type [31.10](SDO_SAM-reference.md)
+- SDO_REGIONSET object type [31.10](SDO_SAM-reference.md)
+- SDO_RELATE operator [20.16](spatial-operators-reference.md)
+- SDO_ROWIDPAIR object type [20.8](spatial-operators-reference.md)
+- SDO_ROWIDSET data type [20.8](spatial-operators-reference.md)
+- SDO_RTREE_SEQ_NAME sequence object [2.10.3](spatial-datatypes-metadata.md)
+- SDO_SAM package [31](SDO_SAM-reference.md)
+  - AGGREGATES_FOR_GEOMETRY [31.1](SDO_SAM-reference.md)
+  - AGGREGATES_FOR_LAYER [31.2](SDO_SAM-reference.md)
+  - BIN_GEOMETRY [31.3](SDO_SAM-reference.md)
+  - BIN_LAYER [31.4](SDO_SAM-reference.md)
+  - COLOCATED_REFERENCE_FEATURES [31.5](SDO_SAM-reference.md)
+  - SIMPLIFY_GEOMETRY [31.6](SDO_SAM-reference.md)
+  - SIMPLIFY_LAYER [31.7](SDO_SAM-reference.md)
+  - SPATIAL_CLUSTERS [31.8](SDO_SAM-reference.md)
+  - TILED_AGGREGATES [31.9](SDO_SAM-reference.md)
+  - TILED_BINS [31.10](SDO_SAM-reference.md)
+- SDO_SELF_UNION function [26.26](SDO_GEOM-reference.md)
+- SDO_SRID attribute [2.2.2](spatial-datatypes-metadata.md)
+- SDO_ST_TOLERANCE table [3.3](sql-multimedia-type-support.md)
+- SDO_STARTING_OFFSET value [2.2.4](spatial-datatypes-metadata.md)
+- SDO_TFM_CHAIN type [6.6](coordinate-systems-concepts.md)
+- SDO_TIN_BLK_TYPE object type [2.5.2](spatial-datatypes-metadata.md)
+- SDO_TIN_BLK object type [2.5.2](spatial-datatypes-metadata.md)
+- SDO_TIN_PKG package
+  - CLIP_TIN [32.1](SDO_TIN_PKG-reference.md)
+  - CREATE_TIN [32.2](SDO_TIN_PKG-reference.md)
+  - DROP_DEPENDENCIES [32.3](SDO_TIN_PKG-reference.md)
+  - INIT [32.4](SDO_TIN_PKG-reference.md)
+  - PROJECT_ORDINATES_ONTO_TIN [32.5](SDO_TIN_PKG-reference.md)
+  - TO_DEM [32.6](SDO_TIN_PKG-reference.md)
+  - TO_GEOMETRY [32.7](SDO_TIN_PKG-reference.md)
+- SDO_TIN object type [2.5.1](spatial-datatypes-metadata.md)
+- SDO_TOUCH operator [20.17](spatial-operators-reference.md)
+- SDO_TRIANGULATE function [26.27](SDO_GEOM-reference.md)
+- SDO_TRKR package
+  - CREATE_TRACKING_SET [33.1](SDO_TRKR-reference.md)
+  - DROP_TRACKING_SET [33.2](SDO_TRKR-reference.md)
+  - GET_NOTIFICATION_MSG [33.3](SDO_TRKR-reference.md)
+  - SEND_LOCATION_MSGS [33.4](SDO_TRKR-reference.md)
+  - SEND_TRACKING_MSG [33.5](SDO_TRKR-reference.md)
+  - START_TRACKING_SET [33.6](SDO_TRKR-reference.md)
+  - STOP_TRACKING_SET [33.7](SDO_TRKR-reference.md)
+- SDO_TUNE package
+  - AVERAGE_MBR [34.1](SDO_TUNE-reference.md)
+  - ESTIMATE_RTREE_INDEX_SIZE [34.2](SDO_TUNE-reference.md)
+  - EXTENT_OF [34.3](SDO_TUNE-reference.md)
+  - MIX_INFO [34.4](SDO_TUNE-reference.md)
+- SDO_UNION function [26.28](SDO_GEOM-reference.md)
+- SDO_UNIT column
+  - in SDO_AREA_UNITS table [6.8.3](coordinate-systems-concepts.md)
+  - in SDO_DIST_UNITS table [6.8.5](coordinate-systems-concepts.md)
+- SDO_UNITS_OF_MEASURE table [6.7.27](coordinate-systems-concepts.md)
+- SDO_UTIL package
+  - AFFINETRANSFORMS [35.1](SDO_UTIL-reference.md)
+  - APPEND [35.2](SDO_UTIL-reference.md)
+  - BEARING_TILT_FOR_POINTS [35.3](SDO_UTIL-reference.md)
+  - CIRCLE_POLYGON [35.4](SDO_UTIL-reference.md)
+  - CONCAT_LINES [35.5](SDO_UTIL-reference.md)
+  - CONVERT_UNIT [35.6](SDO_UTIL-reference.md)
+  - CONVERT3007TO3008 [35.7](SDO_UTIL-reference.md)
+  - DELETE_SDO_GEOM_METADATA [35.8](SDO_UTIL-reference.md)
+  - DENSIFY_GEOMETRY [35.9](SDO_UTIL-reference.md)
+  - DROP_WORK_TABLES [35.10](SDO_UTIL-reference.md)
+  - ELLIPSE_POLYGON [35.11](SDO_UTIL-reference.md)
+  - EXPAND_GEOM [35.12](SDO_UTIL-reference.md)
+  - EXTRACT [35.13](SDO_UTIL-reference.md)
+  - EXTRACT_ALL [35.14](SDO_UTIL-reference.md)
+  - EXTRACT3D [35.15](SDO_UTIL-reference.md)
+  - EXTRUDE [35.16](SDO_UTIL-reference.md)
+  - FROM_GEOJSON [35.17](SDO_UTIL-reference.md)
+  - FROM_GML311GEOMETRY [35.18](SDO_UTIL-reference.md)
+  - FROM_GMLGEOMETRY [35.19](SDO_UTIL-reference.md)
+  - FROM_JSON [35.20](SDO_UTIL-reference.md)
+  - FROM_KMLGEOMETRY [35.21](SDO_UTIL-reference.md)
+  - FROM_WKBGEOMETRY [35.22](SDO_UTIL-reference.md)
+  - FROM_WKTGEOMETRY [35.23](SDO_UTIL-reference.md)
+  - GEO_SEARCH [35.24](SDO_UTIL-reference.md)
+  - GET_2D_FOOTPRINT [35.25](SDO_UTIL-reference.md)
+  - GET_COORDINATE [35.26](SDO_UTIL-reference.md)
+  - GET_TILE_ENVELOPE [35.27](SDO_UTIL-reference.md)
+  - GET_VECTORTILE [35.28](SDO_UTIL-reference.md)
+  - GETFIRSTVERTEX [35.29](SDO_UTIL-reference.md)
+  - GETLASTVERTEX [35.30](SDO_UTIL-reference.md)
+  - GETNUMELEM [35.31](SDO_UTIL-reference.md)
+  - GETNUMVERTICES [35.32](SDO_UTIL-reference.md)
+  - GETNURBSAPPROX [35.33](SDO_UTIL-reference.md)
+  - GETVERTICES [35.34](SDO_UTIL-reference.md)
+  - H3_BASE_CELL [35.35](SDO_UTIL-reference.md)
+  - H3_BOUNDARY [35.36](SDO_UTIL-reference.md)
+  - H3_CENTER [35.37](SDO_UTIL-reference.md)
+  - H3_HEX_AREA [35.38](SDO_UTIL-reference.md)
+  - H3_HEX_EDGELEN [35.39](SDO_UTIL-reference.md)
+  - H3_IS_CLASS3 [35.41](SDO_UTIL-reference.md)
+  - H3_IS_PENTAGON [35.42](SDO_UTIL-reference.md)
+  - H3_IS_VALID_CELL [35.43](SDO_UTIL-reference.md)
+  - H3_KEY [35.44](SDO_UTIL-reference.md)
+  - H3_MBR [35.45](SDO_UTIL-reference.md)
+  - H3_NUM_CELLS [35.40](SDO_UTIL-reference.md)
+  - H3_PARENT [35.46](SDO_UTIL-reference.md)
+  - H3_PENTAGON_AREA [35.47](SDO_UTIL-reference.md)
+  - H3_PENTAGON_EDGELEN [35.48](SDO_UTIL-reference.md)
+  - H3_RESOLUTION [35.49](SDO_UTIL-reference.md)
+  - H3SUM_AS_TABLE [35.50](SDO_UTIL-reference.md)
+  - H3SUM_CREATE_TABLE [35.51](SDO_UTIL-reference.md)
+  - H3SUM_ESTIMATE_RESOLUTION [35.52](SDO_UTIL-reference.md)
+  - H3SUM_GET_CURSOR [35.53](SDO_UTIL-reference.md)
+  - H3SUM_LIST_TABLES [35.54](SDO_UTIL-reference.md)
+  - H3SUM_VECTORTILE [35.55](SDO_UTIL-reference.md)
+  - INITIALIZE_INDEXES_FOR_TTS [35.56](SDO_UTIL-reference.md)
+  - INSERT_SDO_GEOM_METADATA [35.57](SDO_UTIL-reference.md)
+  - INTERIOR_POINT [35.58](SDO_UTIL-reference.md)
+  - POINT_AT_BEARING [35.59](SDO_UTIL-reference.md)
+  - POLYGONTOLINE [35.60](SDO_UTIL-reference.md)
+  - RECTIFY_GEOMETRY [35.61](SDO_UTIL-reference.md)
+  - REMOVE_DUPLICATE_VERTICES [35.62](SDO_UTIL-reference.md)
+  - REVERSE_LINESTRING [35.63](SDO_UTIL-reference.md)
+  - SIMPLIFY [35.64](SDO_UTIL-reference.md), [35.65](SDO_UTIL-reference.md)
+  - THEME3D_GET_BLOCK_TABLE [35.66](SDO_UTIL-reference.md)
+  - THEME3D_HAS_LOD [35.67](SDO_UTIL-reference.md)
+  - THEME3D_HAS_TEXTURE [35.68](SDO_UTIL-reference.md)
+  - TILE_GEOMETRY [35.69](SDO_UTIL-reference.md)
+  - TO_GEOJSON [35.70](SDO_UTIL-reference.md)
+  - TO_GML311GEOMETRY [35.71](SDO_UTIL-reference.md)
+  - TO_GMLGEOMETRY [35.72](SDO_UTIL-reference.md)
+  - TO_JSON [35.73](SDO_UTIL-reference.md)
+  - TO_JSON_VARCHAR [35.74](SDO_UTIL-reference.md)
+  - TO_KMLGEOMETRY [35.75](SDO_UTIL-reference.md)
+  - TO_WKBGEOMETRY [35.76](SDO_UTIL-reference.md)
+  - TO_WKTGEOMETRY [35.77](SDO_UTIL-reference.md)
+  - VALIDATE_3DTHEME [35.78](SDO_UTIL-reference.md)
+  - VALIDATE_SCENE [35.79](SDO_UTIL-reference.md)
+  - VALIDATE_VIEWFRAME [35.80](SDO_UTIL-reference.md)
+  - VALIDATE_WKBGEOMETRY [35.81](SDO_UTIL-reference.md)
+  - VALIDATE_WKTGEOMETRY [35.82](SDO_UTIL-reference.md)
+- SDO_VERSION function [1.23](spatial-concepts.md)
+- SDO_VOLUME function [26.29](SDO_GEOM-reference.md)
+- SDO_WCS.CreateTempTable procedure [36.1](SDO_WCS-reference.md)
+- SDO_WCS.DropTempTable procedure [36.2](SDO_WCS-reference.md)
+- SDO_WCS.GrantPrivilegesToWCS procedure [36.3](SDO_WCS-reference.md)
+- SDO_WCS.Init procedure [36.4](SDO_WCS-reference.md)
+- SDO_WCS.PublishCoverage procedure [36.5](SDO_WCS-reference.md)
+- SDO_WCS.RevokePrivilegesFromWCS procedure [36.6](SDO_WCS-reference.md)
+- SDO_WCS.UnpublishCoverage procedure [36.7](SDO_WCS-reference.md)
+- SDO_WCS.ValidateCoverages function [36.8](SDO_WCS-reference.md)
+- SDO_WCS package
+  - CreateTempTable [36.1](SDO_WCS-reference.md)
+  - DropTempTable [36.2](SDO_WCS-reference.md)
+  - GrantPrivilegesToWCS [36.3](SDO_WCS-reference.md)
+  - Init [36.4](SDO_WCS-reference.md)
+  - PublishCoverage [36.5](SDO_WCS-reference.md)
+  - RevokePrivilegesFromWCS [36.6](SDO_WCS-reference.md)
+  - UnpublishCoverage [36.7](SDO_WCS-reference.md)
+  - ValidateCoverages [36.8](SDO_WCS-reference.md)
+- SDO_WFS_LOCK package [37](SDO_WFS_LOCK-reference.md)
+  - EnableDBTxns [37.1](SDO_WFS_LOCK-reference.md)
+  - RegisterFeatureTable [37.2](SDO_WFS_LOCK-reference.md)
+  - UnRegisterFeatureTable [37.3](SDO_WFS_LOCK-reference.md)
+- SDO_WFS_PROCESS package [38](SDO_WFS_PROCESS-reference.md)
+  - DropFeatureType [38.1](SDO_WFS_PROCESS-reference.md)
+  - DropFeatureTypes [38.2](SDO_WFS_PROCESS-reference.md)
+  - GenCollectionProcs [38.3](SDO_WFS_PROCESS-reference.md)
+  - GetFeatureTypeId [38.4](SDO_WFS_PROCESS-reference.md)
+  - GrantFeatureTypeToUser [38.5](SDO_WFS_PROCESS-reference.md)
+  - GrantMDAccessToUser [38.6](SDO_WFS_PROCESS-reference.md)
+  - InsertCapabilitiesInfo [38.7](SDO_WFS_PROCESS-reference.md)
+  - InsertFtDataUpdated [38.8](SDO_WFS_PROCESS-reference.md)
+  - InsertFtMDUpdated [38.9](SDO_WFS_PROCESS-reference.md)
+  - PopulateFeatureTypeXMLInfo [38.10](SDO_WFS_PROCESS-reference.md)
+  - Publish_FeatureTypes_In_Schema [38.12](SDO_WFS_PROCESS-reference.md)
+  - PublishFeatureType [38.11](SDO_WFS_PROCESS-reference.md)
+  - RegisterMTableView [38.13](SDO_WFS_PROCESS-reference.md)
+  - RevokeFeatureTypeFromUser [38.14](SDO_WFS_PROCESS-reference.md)
+  - RevokeMDAccessFromUser [38.15](SDO_WFS_PROCESS-reference.md)
+  - UnRegisterMTableView [38.16](SDO_WFS_PROCESS-reference.md)
+- SDO_WIDTH_LINE function [26.31](SDO_GEOM-reference.md)
+- SDO_WIDTH function [26.30](SDO_GEOM-reference.md)
+- SDO_WITHIN_DISTANCE operator [20.18](spatial-operators-reference.md)
+  - complex examples [B.2](complex-spatial-queries.md)
+- SDO_XOR function [26.32](SDO_GEOM-reference.md)
+- SDOAGGRTYPE object type [1.10.1](spatial-concepts.md)
+- sdows.ear file
+  - deploying [11.3](introduction-spatial-web-services.md)
+- sea level
+  - gravity-related height [6.5.2](coordinate-systems-concepts.md)
+- secondary filter [1.6](spatial-concepts.md), [5.2.1.2](indexing-querying-spatial-data.md)
+- segments
+  - geometric [7.1.1](lrs-linear-referencing-system-concepts.md)
+- self-crossing line strings and polygons [1.4](spatial-concepts.md)
+- self-intersecting polygons [26.33](SDO_GEOM-reference.md)
+- self-joins
+  - optimizing [20.8](spatial-operators-reference.md)
+- self union [26.26](SDO_GEOM-reference.md)
+- semi-major axis [6.7.23](coordinate-systems-concepts.md), [6.8.6](coordinate-systems-concepts.md)
+- semi-minor axis [6.7.23](coordinate-systems-concepts.md)
+- SEND_LOCATION_MSGS procedure [33.4](SDO_TRKR-reference.md)
+- SEND_TRACKING_MSG procedure [33.5](SDO_TRKR-reference.md)
+- sequence object for R-tree index [2.10.3](spatial-datatypes-metadata.md)
+- SET_PT_MEASURE procedure [27.41](SDO_LRS-reference.md)
+- setCapabilitiesInfo method [E.4.16](csw_support_old.md)
+- setDomainInfo method [E.4.17](csw_support_old.md)
+- setRecordViewMap method [E.4.18](csw_support_old.md)
+- setXMLTableIndexInfo method [E.4.19](csw_support_old.md)
+- shapefiles
+  - loading into Spatial [C](esri-shapefiles.md)
+- shape point [7.1.2](lrs-linear-referencing-system-concepts.md)
+  - determining if measure value is a shape point [27.28](SDO_LRS-reference.md)
+  - getting measure of next [27.22](SDO_LRS-reference.md)
+  - getting measure of previous [27.24](SDO_LRS-reference.md)
+  - getting next [27.21](SDO_LRS-reference.md)
+  - getting previous [27.23](SDO_LRS-reference.md)
+- sharded database
+  - support by Oracle Spatial and Graph [1.18](spatial-concepts.md)
+- SIGN_POST table
+  - routing engine use of [14.5.4](routing-engine-concepts.md)
+- simple element [2.2.4](spatial-datatypes-metadata.md)
+- simple features (OGC)
+  - Oracle Spatial conformance [1.22](spatial-concepts.md)
+- simplification of geometries [35.64](SDO_UTIL-reference.md), [35.65](SDO_UTIL-reference.md)
+- SIMPLIFY_GEOMETRY function [31.6](SDO_SAM-reference.md)
+- SIMPLIFY_LAYER procedure [31.7](SDO_SAM-reference.md)
+- SIMPLIFY function [35.64](SDO_UTIL-reference.md), [35.65](SDO_UTIL-reference.md)
+- size requirements (hardware) for spatial applications [1.27](spatial-concepts.md)
+- solids
+  - exterior and interior [2.2.4](spatial-datatypes-metadata.md)
+  - modeling of [1.13.2](spatial-concepts.md)
+  - SDO_ETYPE value [2.2.4](spatial-datatypes-metadata.md)
+  - volume of [26.29](SDO_GEOM-reference.md)
+- SORT_AREA_SIZE parameter
+  - R-tree index creation [5.1.10](indexing-querying-spatial-data.md)
+- SPATIAL_CLUSTERS function [31.8](SDO_SAM-reference.md)
+- SPATIAL_VECTOR_ACCELERATION system parameter [1.24](spatial-concepts.md)
+- spatial aggregate functions
+  - See: aggregate functions
+- spatial analysis and mining
+  - conceptual and usage information [9](spatial-analysis-mining.md)
+  - function reference information [31](SDO_SAM-reference.md)
+- Spatial and Graph web services
+  - deploying and configuring [11.3](introduction-spatial-web-services.md)
+  - introduction [11](introduction-spatial-web-services.md)
+- spatial binning [9.2](spatial-analysis-mining.md)
+  - See alsobins [9.2](spatial-analysis-mining.md)
+- spatial clustering [9.5](spatial-analysis-mining.md)
+- spatial correlation [9.3](spatial-analysis-mining.md)
+- spatial data mining
+  - conceptual and usage information [9](spatial-analysis-mining.md)
+  - function reference information [31](SDO_SAM-reference.md)
+- spatial data structures [2](spatial-datatypes-metadata.md)
+- spatial data types [2](spatial-datatypes-metadata.md)
+- spatial index
+  - See: index
+- spatial indexes
+  - interval partitioning example [5.1.1.1](indexing-querying-spatial-data.md)
+  - system-managed [5.1.1](indexing-querying-spatial-data.md)
+  - virtual column partitioning example [5.1.1.2](indexing-querying-spatial-data.md)
+- spatial join [5.2.2](indexing-querying-spatial-data.md)
+  - SDO_JOIN operator [20.8](spatial-operators-reference.md)
+- spatially enabling a table [1.25](spatial-concepts.md)
+- Spatial metadata tables
+  - moving [1.26](spatial-concepts.md)
+- spatial operators
+  - See: operators
+- spatial query [5.2.1](indexing-querying-spatial-data.md)
+- spatial reference systems
+  - conceptual and usage information [6](coordinate-systems-concepts.md)
+  - example [6.14](coordinate-systems-concepts.md)
+  - subprogram reference information [22](SDO_CS-reference.md)
+- spatial routing engine
+  - See: routing engine
+- speed limit
+  - request and response examples [14.4.2.1](routing-engine-concepts.md)
+  - request and response schema definitions [14.4.2.2](routing-engine-concepts.md)
+  - support in WSServlet [14.4.2](routing-engine-concepts.md)
+- spheroids
+  - MDSYS.SDO_ELLIPSOIDS_OLD_FORMAT table [6.8.6](coordinate-systems-concepts.md)
+  - MDSYS.SDO_ELLIPSOIDS_OLD_SNAPSHOT table [6.8.6](coordinate-systems-concepts.md)
+- SPLIT_GEOM_SEGMENT procedure [27.42](SDO_LRS-reference.md)
+- splitting
+  - geometric segment [7.5.4](lrs-linear-referencing-system-concepts.md)
+- SQL\*Loader [4.1](loading-spatial-data.md)
+- SQL and PL/SQL examples [1.29](spatial-concepts.md)
+- SQL Multimedia
+  - avoiding name conflicts [3.4](sql-multimedia-type-support.md)
+  - FROM_WKBGEOMETRY function [35.22](SDO_UTIL-reference.md)
+  - FROM_WKTGEOMETRY function [35.23](SDO_UTIL-reference.md)
+  - ST_GEOMETRY type [3.1](sql-multimedia-type-support.md)
+  - support in Spatial [3](sql-multimedia-type-support.md)
+  - TO_WKBGEOMETRY function [35.76](SDO_UTIL-reference.md)
+  - TO_WKTGEOMETRY function [35.77](SDO_UTIL-reference.md)
+  - tolerance value [3.3](sql-multimedia-type-support.md)
+  - VALIDATE_WKBGEOMETRY function [35.81](SDO_UTIL-reference.md)
+  - VALIDATE_WKTGEOMETRY function [35.82](SDO_UTIL-reference.md)
+- SQL Multimedia standard
+  - ST_CoordDim method [2.3](spatial-datatypes-metadata.md)
+  - ST_IsValid method [2.3](spatial-datatypes-metadata.md)
+- SQL statements
+  - for indexing spatial data [19](sql-indexing-spatial-data.md)
+- SRID
+  - checking for existence [22.16](SDO_CS-reference.md)
+  - finding [22.16](SDO_CS-reference.md)
+  - in USER_SDO_GEOM_METADATA [2.8.4](spatial-datatypes-metadata.md)
+  - mapping Oracle to EPSG [22.28](SDO_CS-reference.md)
+  - SDO_SRID attribute in SDO_GEOMETRY [2.2.2](spatial-datatypes-metadata.md)
+- ST_ANNOTATION_TEXT constructor [3.5.1](sql-multimedia-type-support.md)
+- ST_CoordDim method [2.3](spatial-datatypes-metadata.md)
+- ST_GEOMETRY type [3.1](sql-multimedia-type-support.md)
+- ST_IsValid method [2.3](spatial-datatypes-metadata.md)
+- start_date attribute
+  - of route request [14.3.2.2](routing-engine-concepts.md)
+- start_time attribute
+  - of route request [14.3.2.2](routing-engine-concepts.md)
+- START_TRACKING_SET procedure [33.6](SDO_TRKR-reference.md)
+- start location for route [14.3.2.1](routing-engine-concepts.md)
+- STOP_TRACKING_SET procedure [33.7](SDO_TRKR-reference.md)
+- subprograms
+  - coordinate system transformation [22](SDO_CS-reference.md)
+  - data mining [31](SDO_SAM-reference.md)
+  - geocoding [25](SDO_GCDR-reference.md)
+  - geometry [26](SDO_GEOM-reference.md)
+  - linear referencing [27](SDO_LRS-reference.md)
+  - location tracking [33](SDO_TRKR-reference.md)
+  - OpenLS [29](SDO_OLS-reference.md)
+  - point clouds [30](SDO_PC_PKG-reference.md)
+  - SDO_CSW (Catalog Services for the Web) [23](SDO_CSW-reference.md)
+  - SDO_MIGRATE [28](SDO_MIGRATE-reference.md)
+  - spatial analysis [31](SDO_SAM-reference.md)
+  - TINs [32](SDO_TIN_PKG-reference.md)
+  - tuning [34](SDO_TUNE-reference.md)
+  - utility [35](SDO_UTIL-reference.md)
+  - Web Coverage Service [36](SDO_WCS-reference.md)
+  - WFS [37](SDO_WFS_LOCK-reference.md)
+  - WFS processing [38](SDO_WFS_PROCESS-reference.md)
+- subroutes
+  - explanation of [14.1.2](routing-engine-concepts.md)
+- surface normal [1.13.5](spatial-concepts.md)
+- surfaces [2.2.4](spatial-datatypes-metadata.md)
+  - modeling of [1.13.1](spatial-concepts.md)
+  - SDO_ETYPE value [2.2.4](spatial-datatypes-metadata.md)
+- SYNC_INDEX procedure [23.4](SDO_CSW-reference.md)
+- system-managed indexes [5.1.1](indexing-querying-spatial-data.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- TABLE_NAME (in USER_SDO_GEOM_METADATA) [2.8.1](spatial-datatypes-metadata.md)
+- table names
+  - restrictions on spatial table names [2.8.1](spatial-datatypes-metadata.md)
+- tables
+  - spatially enabling [1.25](spatial-concepts.md)
+- textures
+  - checking if theme has [35.68](SDO_UTIL-reference.md)
+  - using [1.13.4](spatial-concepts.md)
+- TFM_PLAN object type [6.6](coordinate-systems-concepts.md)
+- THEME3D_GET_BLOCK_TABLE function [35.66](SDO_UTIL-reference.md)
+- THEME3D_HAS_LOD function [35.67](SDO_UTIL-reference.md)
+- THEME3D_HAS_TEXTURE function [35.68](SDO_UTIL-reference.md)
+- themes
+  - checking for LODs [35.67](SDO_UTIL-reference.md)
+  - checking for textures [35.68](SDO_UTIL-reference.md)
+  - getting block table [35.66](SDO_UTIL-reference.md)
+  - validating [35.78](SDO_UTIL-reference.md)
+- three-dimensional (3D)
+  - formats of LRS functions [7.4](lrs-linear-referencing-system-concepts.md)
+    - not supported with geodetic data [6.10.2](coordinate-systems-concepts.md)
+  - spatial objects [1.13](spatial-concepts.md)
+    - solids [1.13.2](spatial-concepts.md)
+    - surfaces [1.13.1](spatial-concepts.md)
+- TILE_GEOMETRY function [35.69](SDO_UTIL-reference.md)
+- TILED_AGGREGATES function [31.9](SDO_SAM-reference.md)
+- TILED_BINS function [31.10](SDO_SAM-reference.md)
+- TINs
+  - clipping [32.1](SDO_TIN_PKG-reference.md)
+  - converting to DEM [32.6](SDO_TIN_PKG-reference.md)
+  - converting to geometry [32.7](SDO_TIN_PKG-reference.md)
+  - creating [30.5](SDO_PC_PKG-reference.md), [32.2](SDO_TIN_PKG-reference.md)
+  - dropping dependencies [32.3](SDO_TIN_PKG-reference.md)
+  - initializing [32.4](SDO_TIN_PKG-reference.md)
+  - projecting ordinates onto [32.5](SDO_TIN_PKG-reference.md)
+  - pyramiding [32.4](SDO_TIN_PKG-reference.md)
+  - subprograms [32](SDO_TIN_PKG-reference.md)
+- TINs (triangulated irregular networks) [1.13.1](spatial-concepts.md)
+- TO_CURRENT procedure and function [28.1](SDO_MIGRATE-reference.md)
+- TO_DEM procedure [32.6](SDO_TIN_PKG-reference.md)
+- TO_GEOHASH function [22.30](SDO_CS-reference.md)
+- TO_GEOJSON function [35.70](SDO_UTIL-reference.md)
+- TO_GEOMETRY function [30.14](SDO_PC_PKG-reference.md), [32.7](SDO_TIN_PKG-reference.md)
+- TO_GML311GEOMETRY function [35.71](SDO_UTIL-reference.md)
+- TO_GMLGEOMETRY function [35.72](SDO_UTIL-reference.md)
+- TO_JSON_VARCHAR function [35.74](SDO_UTIL-reference.md)
+- TO_JSON function [35.73](SDO_UTIL-reference.md)
+- TO_KMLGEOMETRY function [35.75](SDO_UTIL-reference.md)
+- TO_OGC_SIMPLEFEATURE_SRS function [22.31](SDO_CS-reference.md)
+- TO_USNG function [22.32](SDO_CS-reference.md)
+- TO_WKBGEOMETRY function [35.76](SDO_UTIL-reference.md)
+- TO_WKTGEOMETRY function [35.77](SDO_UTIL-reference.md)
+- tolerance [1.5.5](spatial-concepts.md)
+  - for SQL Multimedia types [3.3](sql-multimedia-type-support.md)
+  - with LRS functions [7.6](lrs-linear-referencing-system-concepts.md)
+- topological self union [26.26](SDO_GEOM-reference.md)
+- TOUCH
+  - SDO_TOUCH operator [20.17](spatial-operators-reference.md)
+  - topological relationship [1.8](spatial-concepts.md)
+- TP_USER_DATA table
+  - routing engine use of [14.6.4.1](routing-engine-concepts.md)
+- tracking set [33.1](SDO_TRKR-reference.md), [33.2](SDO_TRKR-reference.md), [33.7](SDO_TRKR-reference.md), [33.3](SDO_TRKR-reference.md), [33.6](SDO_TRKR-reference.md)
+- traffic speed
+  - request and response examples [14.4.3.1](routing-engine-concepts.md)
+  - request and response schema definitions [14.4.3.2](routing-engine-concepts.md)
+  - support in WSServlet [14.4.3](routing-engine-concepts.md)
+- transactional insertion of spatial data [4.2](loading-spatial-data.md)
+- TRANSFORM_LAYER procedure [22.34](SDO_CS-reference.md)
+  - table for transformed layer [22.34](SDO_CS-reference.md)
+- transformation [6.1.7](coordinate-systems-concepts.md)
+  - arcs and circles not supported [6.2.6](coordinate-systems-concepts.md)
+- TRANSFORM function [22.33](SDO_CS-reference.md)
+- TRANSLATE_MEASURE function [27.43](SDO_LRS-reference.md)
+- transportable tablespaces
+  - initializing spatial indexes [35.56](SDO_UTIL-reference.md)
+- traveling salesperson (TSP) route [14.1.3](routing-engine-concepts.md)
+- triangulated irregular networks (TINs) [1.13.1](spatial-concepts.md)
+- triangulation
+  - SDO_TRIANGULATE function [26.27](SDO_GEOM-reference.md)
+- truck_height attribute
+  - of route request [14.3.2.2](routing-engine-concepts.md)
+- truck_length attribute
+  - of route request [14.3.2.2](routing-engine-concepts.md)
+- truck_per_axle_weight attribute
+  - of route request [14.3.2.2](routing-engine-concepts.md)
+- truck_type attribute
+  - of route request [14.3.2.2](routing-engine-concepts.md)
+- truck_weight attribute
+  - of route request [14.3.2.2](routing-engine-concepts.md)
+- truck_width attribute
+  - of route request [14.3.2.2](routing-engine-concepts.md)
+- TSP route [14.1.3](routing-engine-concepts.md)
+- tuning and performance information [1.21](spatial-concepts.md)
+  - for spatial operators [1.9](spatial-concepts.md)
+- tuning subprograms [34](SDO_TUNE-reference.md)
+- two-tier query model [1.6](spatial-concepts.md)
+- type zero (0) element [2.7.7](spatial-datatypes-metadata.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- U.S. National Grid
+  - SDO_CS.FROM_USNG function [22.19](SDO_CS-reference.md)
+  - SDO_CS.TO_USNG function [22.32](SDO_CS-reference.md)
+  - support in Oracle Spatial [6.11](coordinate-systems-concepts.md)
+- unformatted addresses [12.1.1](geocoding-address-data-concepts.md)
+- union [26.28](SDO_GEOM-reference.md)
+- UNIT_NAME column
+  - in SDO_ANGLE_UNITS table [6.8.2](coordinate-systems-concepts.md)
+  - in SDO_AREA_UNITS table [6.8.3](coordinate-systems-concepts.md)
+  - in SDO_DIST_UNITS table [6.8.5](coordinate-systems-concepts.md)
+- unit of measurement
+  - MDSYS tables [2.11](spatial-datatypes-metadata.md)
+- unknown CRS coordinate reference system [6.10.4](coordinate-systems-concepts.md)
+- UnRegisterFeatureTable procedure [37.3](SDO_WFS_LOCK-reference.md)
+- UnRegisterMTableView procedure [38.16](SDO_WFS_PROCESS-reference.md)
+- UPDATE_WKTS_FOR_ALL_EPSG_CRS procedure [22.35](SDO_CS-reference.md)
+- UPDATE_WKTS_FOR_EPSG_CRS procedure [22.36](SDO_CS-reference.md)
+- UPDATE_WKTS_FOR_EPSG_DATUM procedure [22.37](SDO_CS-reference.md)
+- UPDATE_WKTS_FOR_EPSG_ELLIPS procedure [22.38](SDO_CS-reference.md)
+- UPDATE_WKTS_FOR_EPSG_OP procedure [22.39](SDO_CS-reference.md)
+- UPDATE_WKTS_FOR_EPSG_PARAM procedure [22.40](SDO_CS-reference.md)
+- UPDATE_WKTS_FOR_EPSG_PM procedure [22.41](SDO_CS-reference.md)
+- upgrading
+  - data to current Spatial release [28.1](SDO_MIGRATE-reference.md)
+  - GeoRaster [A.3](spatial-install-migrate-upgrade.md)
+  - Spatial to current Oracle Database release [A](spatial-install-migrate-upgrade.md)
+- upgrading spatial data to current release [28.1](SDO_MIGRATE-reference.md)
+- USE_SPHERICAL use case name [6.13](coordinate-systems-concepts.md)
+- use cases
+  - for coordinate system transformation [6.4](coordinate-systems-concepts.md)
+- USER_ANNOTATION_TEXT_METADATA view [3.5.2](sql-multimedia-type-support.md)
+- USER_SDO_3DTHEMES view [2.9.1](spatial-datatypes-metadata.md)
+- USER_SDO_GEOM_METADATA view [2.8](spatial-datatypes-metadata.md)
+- USER_SDO_INDEX_INFO view [2.10.1.1](spatial-datatypes-metadata.md)
+- USER_SDO_INDEX_METADATA view [2.10.1.2](spatial-datatypes-metadata.md)
+- USER_SDO_SCENES view [2.9.2](spatial-datatypes-metadata.md)
+- USER_SDO_VIEWFRAMES view [2.9.3](spatial-datatypes-metadata.md)
+- user-defined coordinate reference system [6.9](coordinate-systems-concepts.md)
+- user-defined data types
+  - embedding SDO_GEOMETRY objects in [10.1](extending-spatial-indexing.md), [10.2.2](extending-spatial-indexing.md)
+- utility subprograms [35](SDO_UTIL-reference.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- VALID_GEOM_SEGMENT function [27.44](SDO_LRS-reference.md)
+- VALID_LRS_PT function [27.45](SDO_LRS-reference.md)
+- VALID_MEASURE function [27.46](SDO_LRS-reference.md)
+- VALIDATE_3DTHEME function [35.78](SDO_UTIL-reference.md)
+- VALIDATE_EPSG_MATRIX procedure [22.42](SDO_CS-reference.md)
+- VALIDATE_GEOMETRY_WITH_CONTEXT function [26.33](SDO_GEOM-reference.md)
+- VALIDATE_LAYER_WITH_CONTEXT procedure [26.34](SDO_GEOM-reference.md)
+- VALIDATE_LRS_GEOMETRY function [27.47](SDO_LRS-reference.md)
+- VALIDATE_SCENE function [35.79](SDO_UTIL-reference.md)
+- VALIDATE_VIEWFRAME function [35.80](SDO_UTIL-reference.md)
+- VALIDATE_WKBGEOMETRY function [35.81](SDO_UTIL-reference.md)
+- VALIDATE_WKT function [22.43](SDO_CS-reference.md)
+- VALIDATE_WKTGEOMETRY function [35.82](SDO_UTIL-reference.md)
+- validation of geometries
+  - general and two-dimensional checks [26.33](SDO_GEOM-reference.md)
+  - importance of performing [4.3](loading-spatial-data.md)
+  - three-dimensional checks [1.13.5](spatial-concepts.md)
+- Vector Performance Accelerator (VPA) feature [1.24](spatial-concepts.md)
+- vector tiles
+  - aggregate function converting geometry into an MVT vector tile [35.28](SDO_UTIL-reference.md)
+  - spatial objects [1.11](spatial-concepts.md)
+- vehicle_type attribute
+  - of route request [14.3.2.2](routing-engine-concepts.md)
+- vendor attribute
+  - of route request [14.3.2.2](routing-engine-concepts.md)
+- versioning (CSW)
+  - disabling [E.4.4](csw_support_old.md)
+  - enabling [E.4.7](csw_support_old.md)
+- version number (Spatial)
+  - retrieving [1.23](spatial-concepts.md)
+- vertex
+  - returning first [35.29](SDO_UTIL-reference.md)
+  - returning last [35.30](SDO_UTIL-reference.md)
+- VERTEX_SET_TYPE data type [35.34](SDO_UTIL-reference.md)
+- VERTEX_TYPE object type [35.34](SDO_UTIL-reference.md)
+- VERTEX_TYPE type [35.29](SDO_UTIL-reference.md), [35.30](SDO_UTIL-reference.md)
+- vertices
+  - maximum number in SDO_GEOMETRY object [2.2](spatial-datatypes-metadata.md)
+  - removing duplicate [35.62](SDO_UTIL-reference.md)
+  - returning geometry coordinates as [35.34](SDO_UTIL-reference.md)
+- viewframes
+  - validating [35.80](SDO_UTIL-reference.md)
+- views
+  - ALL_ANNOTATION_TEXT_METADATA [3.5.2](sql-multimedia-type-support.md)
+  - ALL_SDO_GEOM_METADATA [2.8](spatial-datatypes-metadata.md)
+  - ALL_SDO_INDEX_INFO [2.10.1.1](spatial-datatypes-metadata.md)
+  - ALL_SDO_INDEX_METADATA [2.10.1.2](spatial-datatypes-metadata.md)
+  - USER_ANNOTATION_TEXT_METADATA [3.5.2](sql-multimedia-type-support.md)
+  - USER_SDO_GEOM_METADATA [2.8](spatial-datatypes-metadata.md)
+  - USER_SDO_INDEX_INFO [2.10.1.1](spatial-datatypes-metadata.md)
+  - USER_SDO_INDEX_METADATA [2.10.1.2](spatial-datatypes-metadata.md)
+- virtual column partitioning
+  - spatial indexing example [5.1.1.2](indexing-querying-spatial-data.md)
+- volume [26.29](SDO_GEOM-reference.md)
+- VPA (Vector Performance Accelerator) feature [1.24](spatial-concepts.md)
+
+------------------------------------------------------------------------
+
+## W
+
+- Web Coverage Service (WCS) subprograms [36](SDO_WCS-reference.md)
+- web services
+  - deploying and configuring [11.3](introduction-spatial-web-services.md)
+  - introduction [11](introduction-spatial-web-services.md)
+- well-known binary (WKB)
+  - See: WKB
+- well-known text (WKT)
+  - See: WKT
+- WFS
+  - engine [16.1](web-feature-service-wfs-concepts.md)
+  - feature types [16.4](web-feature-service-wfs-concepts.md)
+  - subprogram reference information [37](SDO_WFS_LOCK-reference.md)
+  - using with Oracle Workspace Manager [16.9](web-feature-service-wfs-concepts.md)
+- WFS processing
+  - subprogram reference information [38](SDO_WFS_PROCESS-reference.md)
+- width
+  - SDO_WIDTH_LINE function [26.31](SDO_GEOM-reference.md)
+  - SDO_WIDTH function [26.30](SDO_GEOM-reference.md)
+- WITHIN_DISTANCE function [26.35](SDO_GEOM-reference.md)
+  - See also: SDO_WITHIN_DISTANCE operator
+- WKB
+  - FROM_WKBGEOMETRY function [35.22](SDO_UTIL-reference.md)
+  - Get_WKB method [2.3](spatial-datatypes-metadata.md)
+  - TO_WKBGEOMETRY function [35.76](SDO_UTIL-reference.md)
+  - VALIDATE_WKBGEOMETRY function [35.81](SDO_UTIL-reference.md)
+- WKT [6.8.1.1](coordinate-systems-concepts.md)
+  - FROM_WKTGEOMETRY function [35.23](SDO_UTIL-reference.md)
+  - Get_WKT method [2.3](spatial-datatypes-metadata.md)
+  - procedures for updating [6.8.1.3](coordinate-systems-concepts.md)
+  - TO_WKTGEOMETRY function [35.77](SDO_UTIL-reference.md)
+  - UPDATE_WKTS_FOR_ALL_EPSG_CRS procedure [22.35](SDO_CS-reference.md)
+  - UPDATE_WKTS_FOR_EPSG_CRS procedure [22.36](SDO_CS-reference.md)
+  - UPDATE_WKTS_FOR_EPSG_DATUM procedure [22.37](SDO_CS-reference.md)
+  - UPDATE_WKTS_FOR_EPSG_ELLIPS procedure [22.38](SDO_CS-reference.md)
+  - UPDATE_WKTS_FOR_EPSG_OP procedure [22.39](SDO_CS-reference.md)
+  - UPDATE_WKTS_FOR_EPSG_PARAM procedure [22.40](SDO_CS-reference.md)
+  - UPDATE_WKTS_FOR_EPSG_PM procedure [22.41](SDO_CS-reference.md)
+  - VALIDATE_WKTGEOMETRY function [35.82](SDO_UTIL-reference.md)
+  - validating (given SRID) [22.43](SDO_CS-reference.md)
+- WKTEXT column of MDSYS.CS_SRS table [6.8.1.1](coordinate-systems-concepts.md)
+  - procedures for updating value [6.8.1.3](coordinate-systems-concepts.md)
+- Workspace Manager
+  - using with WFS [16.9](web-feature-service-wfs-concepts.md)
+- WSConfig.xml file [11.3](introduction-spatial-web-services.md)
+- WSServlet exception handling [14.4.4](routing-engine-concepts.md)
+
+------------------------------------------------------------------------
+
+## X
+
+- XA transactions
+  - supported with R-tree spatial indexes [5.1.8](indexing-querying-spatial-data.md)
+- XML API
+  - routing engine [14.3](routing-engine-concepts.md)
+  - routing engine servlet (WSServlet) [14.4](routing-engine-concepts.md)
+- XML table index
+  - setting information for record type [E.4.19](csw_support_old.md)
+- XMLTABLEINDEX index
+  - checking for existence [E.4.8](csw_support_old.md)
+  - deleting on feature table [E.4.6](csw_support_old.md)
+- XOR
+  - SDO_XOR function [26.32](SDO_GEOM-reference.md)
+
+------------------------------------------------------------------------
+
+## Y
+
+- Yellow Pages
+  - See: business directory (YP)
+- YP
+  - See: business directory (YP)
+
+------------------------------------------------------------------------
+
+## Z
+
+- zero
+  - type 0 element [2.7.7](spatial-datatypes-metadata.md)
