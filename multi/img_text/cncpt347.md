@@ -1,0 +1,1 @@
+This graphic depicts a CDB as a cylinder. Inside the cylinder are 11 PDBs. Outside of the cylinder are 11 applications, each one pointing to a different PDB. To the right of the cylinder is a person icon for the CDB Administrator. Below this icon are two person icons for PDB Administrators.

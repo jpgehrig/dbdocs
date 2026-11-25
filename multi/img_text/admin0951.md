@@ -1,0 +1,1 @@
+This graphic depicts a rectangle with a dotted-line border. The rectangle is labeled "CDB." Inside the CDB is a long box labeled "Root (CDB\$ROOT)." An cylinder icon labeled "Seed (PDB\$SEED)" is plugged into the Root box.

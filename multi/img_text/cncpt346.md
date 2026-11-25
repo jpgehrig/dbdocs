@@ -1,0 +1,1 @@
+This graphic shows a row of 11 icons labeled "Applications." Each application points down to a cylinder with a file icon behind it. The row is labeled "Databases." Below this set of icons is a person icon labeled "Head DBA." To the right are four person icons labeled "DBAs."

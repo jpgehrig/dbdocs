@@ -1,0 +1,1 @@
+Application Seed and cdb1_pdb1 are plugged into Application Root. The application PDB named cdb1_pdb1 points right toward a circle of snapshot PDBs, each with a different date: Mon 4/2, Tue 4/3, Wed 4/4, Thu 4/5, Fri 4/6, Sat 4/7, Sun 4/8, and Mon 4/9.
