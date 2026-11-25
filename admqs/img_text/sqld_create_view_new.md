@@ -1,0 +1,1 @@
+This screenshot shows the Create View dialog box in SQL Developer, with the SQL Query tab displayed. The top of the page has the Schema field and Name field. The Schema field has the value HR. The name field has the value KING_VIEW. On the SQL Query tab, the "SELECT \* FROM hr.employees WHERE manager_id = 100" query appears.

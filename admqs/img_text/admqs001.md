@@ -1,0 +1,1 @@
+This is an illustration of three redo log groups, where each group has two members, and within each group, each member is on a separate disk. There are two disks depicted. Disk A contains all the A members of groups 1, 2, and 3, and Disk B contains all the B members of groups 1, 2, and 3.

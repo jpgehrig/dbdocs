@@ -1,0 +1,1 @@
+This screenshot of the Roles page shows the Actions list, Create Role button, Drop Role button, and Search section. Below these is a table of role names, which shows the roles defined in the database. The Search section enables you to filter the contents of the table of role names.

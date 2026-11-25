@@ -1,0 +1,1 @@
+This image is a screenshot of the database icon on the Database Home page that appears at the top left of the Database Home page. The name of the database instance in this image is "ORCLCDB (12.1.0.2.0)."

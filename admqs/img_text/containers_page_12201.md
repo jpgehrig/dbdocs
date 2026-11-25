@@ -1,0 +1,9 @@
+This screen shot shows the Containers page in EM Express. This page is available only in CDBs. It is not available in non-CDBs.
+
+The top section of the page includes the Change Resource Plan and Configure Oracle-Managed Files buttons. To the far right is the Page Refreshed field, which shows when the page was last refreshed.
+
+The Status section at the top left includes the Database and Resource Limits sections. The Database section includes the Up Time field that shows how long the database has been up, the Type field with a value of "CDB (7 PDBs)," the Archive Log Enabled field with a value of Yes, the Local Undo Enabled field with a value of Yes, and the Using Oracle-Managed Files field with a value of Yes. The Resource Limits section includes the Active Resource Plan field with a value of "DEFAULT_CDB_PLAN" and the Default PDB Directive subsection, which includes a Shares field with a value of 1, a CPU Utilization Limit field with a value of 100%, and a Parallel Server Limit field with a value of 100%.
+
+To the right of the Status section is the Active Sessions section. This section provides graphical data about the containers in the CDB. The red line on the chart shows the number of CPU cores.
+
+The bottom section of the page is the Top Containers section. This section is a table that shows the containers in the CDB. The columns in the table are Container Name, Type, Open Mode, Open Time, Restricted, Size, Violations, CPU Resource Limits, Running Sessions, Active Sessions, Memory Used, IO Requests, and IO Throttling. Just above the table is the Actions menu, a Top 100 by statistic type selection box, and the Create, Clone, Plug, Unplug, Performance Hub, and Memory buttons. To the far right is a text box that enables you to enter the name of a particular container that you want to search for.

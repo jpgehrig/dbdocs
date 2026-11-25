@@ -1,0 +1,1 @@
+This is a screenshot of the Select Schema and Object Type page in the Grant Object Privileges wizard. The page includes the Schema, Object Type, and Object Name fields. Along the bottom of the page are the left arrow button, Show SQL button, OK, Cancel, and right arrow buttons.

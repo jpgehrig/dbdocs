@@ -1,0 +1,948 @@
+A  B  C  D  E  F  G  H  I  J  L  M  N  O  P  Q  R  S  T  U  V  W  
+
+------------------------------------------------------------------------
+
+## A
+
+- active report
+  - for Performance Hub data [10.1.2](monitoring-and-tuning-the-database.md)
+- adding
+  - columns to a table [8.4.5.1](managing-schema-objects.md)
+  - table constraints [8.4.5.3](managing-schema-objects.md)
+- ADDM
+  - See: Automatic Database Diagnostics Monitor (ADDM)
+- administering
+  - users [7.5](administering-user-accounts-and-security.md)
+- administrative user accounts [7.3](administering-user-accounts-and-security.md)
+  - SYS [5.1.5.1](managing-the-oracle-instance.md), [7.3.1](administering-user-accounts-and-security.md)
+  - SYSTEM [5.1.5.1](managing-the-oracle-instance.md)
+- advisors
+  - Automatic Database Diagnostics Monitor (ADDM) [10.3.1](monitoring-and-tuning-the-database.md)
+  - Buffer Cache Advisor [10.3.1](monitoring-and-tuning-the-database.md)
+  - description [10.3.1](monitoring-and-tuning-the-database.md)
+  - Memory Advisor [10.3.1](monitoring-and-tuning-the-database.md)
+    - using [10.3.8.1](monitoring-and-tuning-the-database.md)
+  - Optimizer Statistics Advisor [10.3.1](monitoring-and-tuning-the-database.md)
+  - performance [10.3.1](monitoring-and-tuning-the-database.md)
+  - PGA Advisor [10.3.1](monitoring-and-tuning-the-database.md)
+  - SGA Advisor [10.3.1](monitoring-and-tuning-the-database.md)
+  - SQL Tuning Advisor [10.3.1](monitoring-and-tuning-the-database.md)
+    - using [10.3.6](monitoring-and-tuning-the-database.md)
+  - Undo Advisor [6.5.4](managing-database-storage-structures.md), [10.3.1](monitoring-and-tuning-the-database.md)
+- ALTER SYSTEM statement [5.3](managing-the-oracle-instance.md)
+- application PDB
+  - managing with EM Express [13.5](managing-pdbs-with-em-express.md)
+- application root
+  - managing with EM Express [13.5](managing-pdbs-with-em-express.md)
+- archived redo log files
+  - advantages of using [2.3.2.5](installing-oracle-database-creating-database.md)
+  - description of [2.3.2.5](installing-oracle-database-creating-database.md), [6.1.3](managing-database-storage-structures.md)
+  - viewing [6.2.3](managing-database-storage-structures.md)
+- ARCHIVELOG mode [2.3.2.5](installing-oracle-database-creating-database.md)
+- archiving [2.3.2.5](installing-oracle-database-creating-database.md)
+- ARCn processes [5.1.2](managing-the-oracle-instance.md)
+- ASM
+  - See: Oracle ASM
+- autobackup
+  - of control file and server parameter file [9.3.5.3](performing-backup-and-recovery.md)
+- autoextend
+  - data files and tablespaces [6.1.6.4](managing-database-storage-structures.md)
+- Automatic Database Diagnostics Monitor (ADDM)
+  - description [10.3.1](monitoring-and-tuning-the-database.md)
+  - findings [10.1.4](monitoring-and-tuning-the-database.md)
+  - overview [10.1.4](monitoring-and-tuning-the-database.md)
+  - responding to findings [10.2.2](monitoring-and-tuning-the-database.md)
+  - snapshots [10.1.4](monitoring-and-tuning-the-database.md)
+  - viewing findings [10.2.1](monitoring-and-tuning-the-database.md)
+  - viewing performance analysis [10.2](monitoring-and-tuning-the-database.md)
+- automatic memory management [2.3.2.8.1](installing-oracle-database-creating-database.md), [5.4.1](managing-the-oracle-instance.md)
+  - enabling [5.4.2](managing-the-oracle-instance.md)
+  - modifying settings [5.4.3](managing-the-oracle-instance.md)
+- automatic PGA memory management
+  - modifying settings [5.4.8](managing-the-oracle-instance.md)
+- automatic shared memory management [2.3.2.8.1](installing-oracle-database-creating-database.md), [5.4.1](managing-the-oracle-instance.md)
+  - modifying settings [5.4.5](managing-the-oracle-instance.md)
+- Automatic SQL Tuning Advisor
+  - about [10.3.3](monitoring-and-tuning-the-database.md)
+  - configuring [10.3.4](monitoring-and-tuning-the-database.md)
+  - viewing results [10.3.5](monitoring-and-tuning-the-database.md)
+- AWR report
+  - for Performance Hub data [10.1.2](monitoring-and-tuning-the-database.md)
+
+------------------------------------------------------------------------
+
+## B
+
+- background processes
+  - and database configuration [2.3.2.8.2](installing-oracle-database-creating-database.md)
+  - archiver (ARCn) [5.1.2](managing-the-oracle-instance.md)
+  - checkpoint [5.1.2](managing-the-oracle-instance.md)
+  - database writer (DBWn) [5.1.2](managing-the-oracle-instance.md)
+  - description [1.2](introduction.md), [5.1.2](managing-the-oracle-instance.md)
+  - listener registration (LREG) [4.1.1](configuring-the-network-environment.md)
+  - log writer (LGWR) [5.1.2](managing-the-oracle-instance.md)
+  - manageability monitor (MMON) [5.1.2](managing-the-oracle-instance.md)
+  - process monitor (PMON) [5.1.2](managing-the-oracle-instance.md)
+  - system monitor (SMON) [5.1.2](managing-the-oracle-instance.md)
+  - use by database instances [5.1](managing-the-oracle-instance.md)
+- backup
+  - available [9.6.1](performing-backup-and-recovery.md)
+  - backup pieces [9.2.3](performing-backup-and-recovery.md)
+  - consistent [9.2.5](performing-backup-and-recovery.md)
+  - cross-checking [9.6.1](performing-backup-and-recovery.md), [9.6.2](performing-backup-and-recovery.md)
+  - deleting expired backups [9.6.3](performing-backup-and-recovery.md)
+  - deleting obsolete backups [9.6.5](performing-backup-and-recovery.md)
+  - expired [9.6.1](performing-backup-and-recovery.md)
+  - files [6.1.7](managing-database-storage-structures.md)
+  - full backup of data files [9.2.4](performing-backup-and-recovery.md)
+  - image copies [9.2.3](performing-backup-and-recovery.md)
+  - inconsistent [9.2.5](performing-backup-and-recovery.md)
+  - incremental backup of data files [9.2.4](performing-backup-and-recovery.md)
+  - listing [9.4.3](performing-backup-and-recovery.md)
+  - making unavailable [9.6.4](performing-backup-and-recovery.md)
+  - managing [9.6](performing-backup-and-recovery.md)
+  - obsolete [9.6.1](performing-backup-and-recovery.md)
+  - overview [9.1](performing-backup-and-recovery.md)
+  - sets [9.2.3](performing-backup-and-recovery.md)
+  - settings [9.3.5](performing-backup-and-recovery.md)
+  - tags [9.4.1.2](performing-backup-and-recovery.md)
+  - unavailable [9.6.1](performing-backup-and-recovery.md)
+  - validating [9.4.4](performing-backup-and-recovery.md)
+  - whole database backup [9.4.2.1](performing-backup-and-recovery.md)
+- backup and recovery area
+  - specifying during database creation [2.3.2.5](installing-oracle-database-creating-database.md)
+- BasicFiles LOBs [8.4.1.4.4](managing-schema-objects.md)
+- block size
+  - configuring for the database [2.3.2.8.2](installing-oracle-database-creating-database.md)
+- Buffer Cache Advisor
+  - description [10.3.1](monitoring-and-tuning-the-database.md)
+
+------------------------------------------------------------------------
+
+## C
+
+- CDBs
+  - cloning a PDB from a remote CDB [13.8.4.1](managing-pdbs-with-em-express.md)
+  - cloning a PDB in the same CDB [13.8.2](managing-pdbs-with-em-express.md)
+  - closing all the PDBs [13.11.2](managing-pdbs-with-em-express.md)
+  - closing a PDB [13.11.1](managing-pdbs-with-em-express.md)
+  - configuring Oracle Managed Files [13.7](managing-pdbs-with-em-express.md)
+  - creating [2.1](installing-oracle-database-creating-database.md), [2.2](installing-oracle-database-creating-database.md), [2.3.2.1](installing-oracle-database-creating-database.md), [2.3.2.3](installing-oracle-database-creating-database.md)
+  - creating a new PDB from the seed [13.8.1](managing-pdbs-with-em-express.md)
+  - dropping a PDB [13.9.2](managing-pdbs-with-em-express.md)
+  - flashback [9.1.1.4](performing-backup-and-recovery.md)
+  - managing [3.3](getting-started-with-database-administration.md)
+  - managing PDBs with EM Express [13.3](managing-pdbs-with-em-express.md)
+  - opening all the PDBs [13.10.2](managing-pdbs-with-em-express.md)
+  - opening a PDB [13.10.1](managing-pdbs-with-em-express.md)
+  - plugging in an unplugged PDB [13.8.3](managing-pdbs-with-em-express.md)
+  - point-in-time recovery [9.1.1.3](performing-backup-and-recovery.md)
+  - refreshing a refreshable PDB on demand [13.8.4.3](managing-pdbs-with-em-express.md)
+  - relocating a PDB from a remote CDB [13.8.4.2](managing-pdbs-with-em-express.md)
+  - unplugging a PDB [13.9.1](managing-pdbs-with-em-express.md)
+- character sets [2.1.2.7](installing-oracle-database-creating-database.md)
+  - defining [2.3.2.8.3](installing-oracle-database-creating-database.md)
+  - description [2.3.2.8.3](installing-oracle-database-creating-database.md)
+- checkpoint
+  - of the database [5.1.2](managing-the-oracle-instance.md)
+- checkpoint process [5.1.2](managing-the-oracle-instance.md)
+- classes, Java [8.7.1](managing-schema-objects.md)
+- CLOB data type [8.4.1.2.1](managing-schema-objects.md)
+- code
+  - database-resident [8.7.1](managing-schema-objects.md)
+- columns
+  - adding [8.4.5.1](managing-schema-objects.md)
+  - deleting [8.4.5.2](managing-schema-objects.md)
+- compiling schema objects [8.7.2](managing-schema-objects.md)
+- compressed tables [8.4.1.4.4](managing-schema-objects.md)
+- configuring
+  - Automatic SQL Tuning Advisor [10.3.4](monitoring-and-tuning-the-database.md)
+- connect descriptors
+  - description [4.1.2](configuring-the-network-environment.md)
+  - example [4.1.2](configuring-the-network-environment.md)
+- connection modes
+  - configuring [2.3.2.8.4](installing-oracle-database-creating-database.md)
+- connection privileges
+  - SYSDBA [5.1.5.1](managing-the-oracle-instance.md)
+  - SYSOPER [5.1.5.1](managing-the-oracle-instance.md)
+- CONNECT role [7.2](administering-user-accounts-and-security.md)
+- connect strings
+  - description [4.1.2](configuring-the-network-environment.md)
+- constraints [8.4.1.3](managing-schema-objects.md)
+  - adding [8.4.5.3](managing-schema-objects.md)
+  - deleting [8.4.5.5](managing-schema-objects.md)
+  - modifying [8.4.5.4](managing-schema-objects.md)
+- consumer group [12.1.3](managing-database-resources.md)
+  - adding a comment for [12.2.3.4](managing-database-resources.md)
+  - adding a new consumer group to a plan [12.2.3.1](managing-database-resources.md)
+  - adding an existing group to a plan [12.2.3.2](managing-database-resources.md)
+  - removing from a plan [12.2.3.3](managing-database-resources.md)
+  - setting CPU directives for [12.2.3.7](managing-database-resources.md)
+  - setting mapping rule priorities for [12.2.3.6](managing-database-resources.md)
+  - setting mapping rules for [12.2.3.5](managing-database-resources.md)
+  - setting parallel server directives for [12.2.3.8](managing-database-resources.md)
+  - setting runaway query directives for [12.2.3.9](managing-database-resources.md)
+  - setting session directives for [12.2.3.10](managing-database-resources.md)
+- control files
+  - description [6.1.1](managing-database-storage-structures.md)
+  - multiplexing [6.1.1](managing-database-storage-structures.md)
+- creating
+  - databases
+    - overview [2.1](installing-oracle-database-creating-database.md)
+    - steps [2.2](installing-oracle-database-creating-database.md)
+    - using standalone DBCA [2.3](installing-oracle-database-creating-database.md)
+  - indexes [8.5.3](managing-schema-objects.md)
+  - tables [8.4.4](managing-schema-objects.md)
+  - users [7.5.2](administering-user-accounts-and-security.md)
+- customized repairs [9.8](performing-backup-and-recovery.md)
+
+------------------------------------------------------------------------
+
+## D
+
+- data
+  - loading [8.4.6](managing-schema-objects.md)
+- database
+  - domain [2.1.2.6](installing-oracle-database-creating-database.md)
+  - global name [2.1.2.6](installing-oracle-database-creating-database.md)
+- database administration
+  - privileges required [7.3](administering-user-accounts-and-security.md)
+- database checkpoint [5.1.2](managing-the-oracle-instance.md)
+- Database Configuration Assistant (DBCA)
+  - configuring database options [2.3.3](installing-oracle-database-creating-database.md)
+  - deleting a databases [2.3.4](installing-oracle-database-creating-database.md)
+  - managing database templates [2.3.5](installing-oracle-database-creating-database.md)
+  - using to create a database [2.3](installing-oracle-database-creating-database.md)
+- database configuration options [2.1.2.7](installing-oracle-database-creating-database.md)
+- database edition [2.1.2.3](installing-oracle-database-creating-database.md)
+- database links
+  - description [8.8](managing-schema-objects.md)
+- database management
+  - configuring Oracle Enterprise Manager Database Express for [2.3.2.9](installing-oracle-database-creating-database.md)
+  - registering with Oracle Enterprise Manager Cloud Control [2.3.2.9](installing-oracle-database-creating-database.md)
+- database objects
+  - naming [8.1](managing-schema-objects.md)
+- database-resident program code [8.7.1](managing-schema-objects.md)
+- databases
+  - advisors
+    - using [10.3.1](monitoring-and-tuning-the-database.md)
+  - backup
+    - description [9.2](performing-backup-and-recovery.md)
+  - backup and recovery [9.1](performing-backup-and-recovery.md)
+  - configuring options [2.3.3](installing-oracle-database-creating-database.md)
+  - creating with DBCA [2.3](installing-oracle-database-creating-database.md)
+  - deleting using DBCA [2.3.4](installing-oracle-database-creating-database.md)
+  - diagnosing performance problems [10.2](monitoring-and-tuning-the-database.md)
+  - duplicating [2.3.5](installing-oracle-database-creating-database.md)
+  - managing
+    - roadmap [3.1](getting-started-with-database-administration.md)
+    - with Oracle Enterprise Manager Database Express [3](getting-started-with-database-administration.md)
+  - monitoring
+    - performance [10.1](monitoring-and-tuning-the-database.md)
+  - overview of creating [2.1](installing-oracle-database-creating-database.md)
+  - performance
+    - advisors [10.3.1](monitoring-and-tuning-the-database.md)
+    - monitoring [10.1](monitoring-and-tuning-the-database.md)
+  - recovery
+    - description [9.2](performing-backup-and-recovery.md)
+    - point-in-time [9.2.6](performing-backup-and-recovery.md)
+  - restoring
+    - description [9.2](performing-backup-and-recovery.md)
+  - starting and stopping on Microsoft Windows [5.2.2](managing-the-oracle-instance.md)
+  - steps for installing and creating [2.2](installing-oracle-database-creating-database.md)
+  - storage structure
+    - logical structures [6.1](managing-database-storage-structures.md)
+    - physical structures [6.1](managing-database-storage-structures.md)
+  - tuning [10.1](monitoring-and-tuning-the-database.md)
+  - upgrading [14.2](managing-oracle-database-software.md)
+  - users [7](administering-user-accounts-and-security.md)
+  - using DBCA templates [2.3.5](installing-oracle-database-creating-database.md)
+- data blocks
+  - description of [2.3.2.8.2](installing-oracle-database-creating-database.md), [6.1.5](managing-database-storage-structures.md)
+- data dictionary tables
+  - access to as user SYS [7.3.2](administering-user-accounts-and-security.md)
+- datafiles
+  - autoextend [6.3.2.2](managing-database-storage-structures.md)
+- data files
+  - and the Oracle Suggested Backup Strategy [9.4.2.2.1](performing-backup-and-recovery.md)
+  - autoextend [6.1.6.4](managing-database-storage-structures.md), [6.3.2.1](managing-database-storage-structures.md)
+  - autoextend and Oracle Flashback [6.5.2](managing-database-storage-structures.md)
+  - backing up [9.2](performing-backup-and-recovery.md)
+  - backups of only used blocks [9.2.3](performing-backup-and-recovery.md)
+  - data blocks [6.1.5](managing-database-storage-structures.md)
+  - description of [6.1.5](managing-database-storage-structures.md)
+  - extents [6.1.5](managing-database-storage-structures.md)
+  - full backups [9.2.4](performing-backup-and-recovery.md)
+  - incremental backups [9.2.4](performing-backup-and-recovery.md)
+  - media recovery [9.2.6](performing-backup-and-recovery.md)
+  - missing [9.1](performing-backup-and-recovery.md)
+  - recovering from the loss of [9.8.4](performing-backup-and-recovery.md)
+  - recovery without restoration [9.1](performing-backup-and-recovery.md)
+  - restoring from consistent and inconsistent backups [9.2.5](performing-backup-and-recovery.md)
+  - segments [6.1.5](managing-database-storage-structures.md)
+  - tempfiles [6.1.5](managing-database-storage-structures.md)
+- datafiles for undo tablespaces
+  - changing to fixed-size [6.5.6](managing-database-storage-structures.md)
+- data integrity [8.4.1.3](managing-schema-objects.md)
+- Data Recovery Advisor [9.7](performing-backup-and-recovery.md)
+- data types
+  - CLOB [8.4.1.2.1](managing-schema-objects.md)
+  - DATE [8.4.1.2.1](managing-schema-objects.md)
+  - NUMBER [8.4.1.2.1](managing-schema-objects.md)
+  - overview [8.4.1.2.1](managing-schema-objects.md)
+  - user-defined [8.4.1.4.1](managing-schema-objects.md)
+  - VARCHAR2 [8.4.1.2.1](managing-schema-objects.md)
+- DATE data type [8.4.1.2.1](managing-schema-objects.md)
+- DBA role [7.2](administering-user-accounts-and-security.md), [8.2](managing-schema-objects.md)
+- DBWn processes [5.1.2](managing-the-oracle-instance.md)
+- dedicated server mode [2.3.2.8.4](installing-oracle-database-creating-database.md)
+- dedicated server processes [5.1.3](managing-the-oracle-instance.md)
+- deinstall tool
+  - location [14.3](managing-oracle-database-software.md)
+  - syntax and options [14.3](managing-oracle-database-software.md)
+- deleting
+  - constraints [8.4.5.5](managing-schema-objects.md)
+  - databases [2.3.4](installing-oracle-database-creating-database.md)
+  - table columns [8.4.5.2](managing-schema-objects.md)
+  - tables [8.4.7](managing-schema-objects.md)
+  - users [7.5.9](administering-user-accounts-and-security.md)
+  - views [8.6.4](managing-schema-objects.md)
+- directory
+  - Oracle base [2.1.2.4](installing-oracle-database-creating-database.md)
+  - Oracle inventory [2.1.2.4](installing-oracle-database-creating-database.md)
+- dropping
+  - tablespaces [6.3.3](managing-database-storage-structures.md)
+  - undoing with Flashback Drop [9.8.2.1](performing-backup-and-recovery.md)
+- duplicating
+  - databases [2.3.5](installing-oracle-database-creating-database.md)
+
+------------------------------------------------------------------------
+
+## E
+
+- EM Express
+  - See: Oracle Enterprise Manager Database Express
+- enabling
+  - automatic memory management [5.4.2](managing-the-oracle-instance.md)
+- Enterprise Edition [2.1.2.3](installing-oracle-database-creating-database.md)
+- Enterprise Manager
+  - See: Oracle Enterprise Manager Database Express
+- EXAMPLE tablespace [6.1.6](managing-database-storage-structures.md)
+- expiring passwords
+  - reasons for [7.5.8](administering-user-accounts-and-security.md)
+- extending
+  - datafiles [6.3.2.2](managing-database-storage-structures.md)
+  - tablespaces [6.1.6.4](managing-database-storage-structures.md), [6.3.2.1](managing-database-storage-structures.md)
+  - tablespaces and Oracle Flashback [6.5.2](managing-database-storage-structures.md)
+  - undo tablespaces [6.5.2](managing-database-storage-structures.md)
+- extents
+  - description of [6.1.5](managing-database-storage-structures.md)
+
+------------------------------------------------------------------------
+
+## F
+
+- fast recovery area [9.2.7](performing-backup-and-recovery.md)
+  - configuring [9.3.4.1](performing-backup-and-recovery.md)
+  - retention policies [9.3.1.1](performing-backup-and-recovery.md)
+  - specifying during database creation [2.3.2.5](installing-oracle-database-creating-database.md)
+- Flashback Database [9.8.3](performing-backup-and-recovery.md)
+- Flashback Drop [9.8.2](performing-backup-and-recovery.md)
+- flashback features
+  - Flashback Database [9.8.3](performing-backup-and-recovery.md)
+  - Flashback Drop [9.8.2](performing-backup-and-recovery.md)
+  - Flashback Table [9.8.1](performing-backup-and-recovery.md)
+- Flashback Table [9.8.1](performing-backup-and-recovery.md), [9.8.1.2](performing-backup-and-recovery.md)
+- functions, PL/SQL [8.7.1](managing-schema-objects.md)
+
+------------------------------------------------------------------------
+
+## G
+
+- global database name [2.1.2.6](installing-oracle-database-creating-database.md)
+- global indexes [8.5.1.2](managing-schema-objects.md)
+- granting
+  - privileges [7.5.4](administering-user-accounts-and-security.md)
+  - roles [7.5.4](administering-user-accounts-and-security.md)
+
+------------------------------------------------------------------------
+
+## H
+
+- HTTPS port
+  - determining for a CDB [3.4.2](getting-started-with-database-administration.md)
+  - determining for a non-CDB [3.4.1](getting-started-with-database-administration.md)
+  - determining for a PDB [3.4.3](getting-started-with-database-administration.md)
+
+------------------------------------------------------------------------
+
+## I
+
+- incremental backups [9.2.4](performing-backup-and-recovery.md)
+- indexes
+  - creating [8.5.3](managing-schema-objects.md)
+  - description [8.5.1](managing-schema-objects.md)
+  - global [8.5.1.2](managing-schema-objects.md)
+  - viewing [8.5.2](managing-schema-objects.md)
+- initialization parameter file [6.1.7](managing-database-storage-structures.md)
+- initialization parameters
+  - description [5.1](managing-the-oracle-instance.md)
+  - how they are used by the database [5.1.1](managing-the-oracle-instance.md)
+  - server parameter files [5.1](managing-the-oracle-instance.md), [5.1.1](managing-the-oracle-instance.md)
+  - validating the impact of a change [11.3](analyzing-database-changes-sql-performance.md), [11.3.1](analyzing-database-changes-sql-performance.md)
+  - viewing and modifying [5.3](managing-the-oracle-instance.md)
+- installation
+  - checking prerequisites [2.1.1](installing-oracle-database-creating-database.md)
+  - choices [2.1.2](installing-oracle-database-creating-database.md)
+  - overview [2.1](installing-oracle-database-creating-database.md)
+  - software location [2.1.2.4](installing-oracle-database-creating-database.md)
+  - steps [2.2](installing-oracle-database-creating-database.md)
+  - storage options [2.1.2.5](installing-oracle-database-creating-database.md)
+  - using DBCA for database [2.3](installing-oracle-database-creating-database.md)
+- instances
+  - database instances [5.1](managing-the-oracle-instance.md)
+  - management [5.1](managing-the-oracle-instance.md)
+  - memory structure [5.1.4](managing-the-oracle-instance.md)
+  - Oracle instances [5.1](managing-the-oracle-instance.md)
+  - PGA
+    - definition [5.1.4.2](managing-the-oracle-instance.md)
+  - shutdown [5.1.5.3](managing-the-oracle-instance.md)
+  - startup [5.1.5.2](managing-the-oracle-instance.md)
+- invalid schema objects [8.7.1](managing-schema-objects.md)
+
+------------------------------------------------------------------------
+
+## J
+
+- Java classes [8.7.1](managing-schema-objects.md)
+- Java source code [8.7.1](managing-schema-objects.md)
+
+------------------------------------------------------------------------
+
+## L
+
+- language
+  - used by software [2.1.2.7](installing-oracle-database-creating-database.md)
+- LGWR process [5.1.2](managing-the-oracle-instance.md)
+- licensed software options [2.1.2.3](installing-oracle-database-creating-database.md)
+- listener.ora files [4.1.1](configuring-the-network-environment.md)
+- listeners
+  - See: Oracle listeners
+- Load Data wizard
+  - using [8.4.6](managing-schema-objects.md)
+- loading data [8.4.6](managing-schema-objects.md)
+- LOB columns [8.4.1.4.1](managing-schema-objects.md)
+- LOB storage
+  - BasicFiles LOBs [8.4.1.4.4](managing-schema-objects.md)
+  - SecureFiles LOBs [8.4.1.4.4](managing-schema-objects.md)
+- locally managed tablespaces [6.1.6.1](managing-database-storage-structures.md)
+- locking and unlocking users [7.5.7](administering-user-accounts-and-security.md)
+- log switch
+  - description [2.3.2.5](installing-oracle-database-creating-database.md)
+- LREG process [4.1.1](configuring-the-network-environment.md)
+
+------------------------------------------------------------------------
+
+## M
+
+- managing
+  - memory [5.4](managing-the-oracle-instance.md)
+- manual shared memory management
+  - modifying settings [5.4.7](managing-the-oracle-instance.md)
+- media recovery [9.2.6](performing-backup-and-recovery.md)
+- memory
+  - configuring [2.3.2.8.1](installing-oracle-database-creating-database.md)
+  - management [5.1.4](managing-the-oracle-instance.md), [5.4](managing-the-oracle-instance.md), [5.4.1](managing-the-oracle-instance.md)
+  - requirements [2.1.1](installing-oracle-database-creating-database.md)
+  - structure of in an Oracle instance [5.1.4](managing-the-oracle-instance.md)
+- Memory Advisors
+  - description [10.3.1](monitoring-and-tuning-the-database.md)
+  - using [10.3.8.1](monitoring-and-tuning-the-database.md)
+- MMON process [5.1.2](managing-the-oracle-instance.md)
+- modifying
+  - initialization parameters [5.3](managing-the-oracle-instance.md)
+  - table attributes [8.4.5](managing-schema-objects.md)
+  - table constraints [8.4.5.4](managing-schema-objects.md)
+  - users [7.5.6](administering-user-accounts-and-security.md)
+- multitenant container databases
+  - See: CDBs.
+
+------------------------------------------------------------------------
+
+## N
+
+- NETCA
+  - See: Net Configuration Assistant (NETCA)
+- Net Configuration Assistant (NETCA)
+  - description [4.1.3](configuring-the-network-environment.md)
+- net service name [4.1.2](configuring-the-network-environment.md)
+- network configuration
+  - connection requests [4.1.1](configuring-the-network-environment.md)
+  - description [4.1](configuring-the-network-environment.md)
+- NUMBER data type [8.4.1.2.1](managing-schema-objects.md)
+
+------------------------------------------------------------------------
+
+## O
+
+- object privileges [7.2](administering-user-accounts-and-security.md)
+- offline tablespaces [6.1.6.3](managing-database-storage-structures.md), [6.3.2.3](managing-database-storage-structures.md)
+- online redo log files [6.4.2](managing-database-storage-structures.md)
+  - current [6.4.2](managing-database-storage-structures.md)
+  - description of [2.3.2.5](installing-oracle-database-creating-database.md), [6.1.2](managing-database-storage-structures.md)
+  - multiplexing [6.1.2](managing-database-storage-structures.md), [6.4.1](managing-database-storage-structures.md)
+  - switching [6.4.2](managing-database-storage-structures.md)
+  - viewing [6.2.2](managing-database-storage-structures.md)
+- online redo log groups
+  - description of [2.3.2.5](installing-oracle-database-creating-database.md)
+  - inactive [6.4.2](managing-database-storage-structures.md)
+- operating system groups [2.1.2.7](installing-oracle-database-creating-database.md)
+- Optimizer Statistics Advisor
+  - description [10.3.1](monitoring-and-tuning-the-database.md)
+- ORACLE_BASE environment variable [2.2](installing-oracle-database-creating-database.md)
+- ORACLE_HOME environment variable [2.2](installing-oracle-database-creating-database.md)
+- Oracle ASM
+  - installation [2.1.2.5](installing-oracle-database-creating-database.md)
+- Oracle Automatic Storage Management
+  - See: Oracle ASM.
+- Oracle base directory [2.1.2.4](installing-oracle-database-creating-database.md)
+- Oracle Data Guard
+  - tuning SQL statements on a standby [10.3.7](monitoring-and-tuning-the-database.md), [10.3.7.1](monitoring-and-tuning-the-database.md)
+  - viewing performance statistics on a standby [10.1.3](monitoring-and-tuning-the-database.md)
+- Oracle Enterprise Manager Cloud Control [3.3](getting-started-with-database-administration.md)
+- Oracle Enterprise Manager Database Express
+  - configuring the HTTPS port [3.5](getting-started-with-database-administration.md)
+  - configuring the HTTPS port for a CDB [3.5](getting-started-with-database-administration.md)
+  - configuring the HTTPS port for a non-CDB [3.5](getting-started-with-database-administration.md)
+  - configuring the HTTPS port for a PDB [3.5](getting-started-with-database-administration.md)
+  - description [3.3](getting-started-with-database-administration.md)
+  - features [3.3](getting-started-with-database-administration.md)
+  - managing databases [3](getting-started-with-database-administration.md)
+  - managing DBCS database deployments [3.6](getting-started-with-database-administration.md)
+  - setting the HTTPS port with the DBEXPRESS_HTTPS_PORT variable [2.2](installing-oracle-database-creating-database.md)
+  - starting [3.4](getting-started-with-database-administration.md)
+  - starting for a CDB [3.4.2](getting-started-with-database-administration.md)
+  - starting for a non-CDB [3.4.1](getting-started-with-database-administration.md)
+  - starting for a PDB [3.4.3](getting-started-with-database-administration.md)
+- Oracle inventory directory [2.1.2.4](installing-oracle-database-creating-database.md)
+- Oracle listeners
+  - listener.ora file [4.1.1](configuring-the-network-environment.md)
+  - starting [4.3](configuring-the-network-environment.md)
+- Oracle Managed Files
+  - configuring for a CDB [13.7](managing-pdbs-with-em-express.md)
+- Oracle Net
+  - description [4.1](configuring-the-network-environment.md)
+  - listener configuration [4.1.1](configuring-the-network-environment.md), [4.2](configuring-the-network-environment.md)
+  - mapping methods [4.1.2](configuring-the-network-environment.md)
+    - directory naming [4.1.2](configuring-the-network-environment.md)
+    - easy connect naming [4.1.2](configuring-the-network-environment.md)
+    - local naming [4.1.2](configuring-the-network-environment.md)
+- Oracle suggested repair [9.7](performing-backup-and-recovery.md)
+- Oracle system identifier [2.1.2.6](installing-oracle-database-creating-database.md)
+
+------------------------------------------------------------------------
+
+## P
+
+- parameter file [6.1.7](managing-database-storage-structures.md)
+- partitioned tables [8.4.1.4.2](managing-schema-objects.md)
+- password file [6.1.7](managing-database-storage-structures.md)
+- password policies
+  - default [7.6.1](administering-user-accounts-and-security.md)
+  - description of [7.6.1](administering-user-accounts-and-security.md)
+  - setting [7.6](administering-user-accounts-and-security.md)
+- passwords
+  - expiring [7.5.8](administering-user-accounts-and-security.md)
+- patches [14.1](managing-oracle-database-software.md)
+- patch sets [14.1](managing-oracle-database-software.md)
+- PDBs
+  - cloning from a PDB in a remote CDB [13.8.4.1](managing-pdbs-with-em-express.md)
+  - cloning from a PDB in the same CDB [13.8.2](managing-pdbs-with-em-express.md)
+  - closing all the PDBs in a CDB [13.11.2](managing-pdbs-with-em-express.md)
+  - closing a PDB in a CDB [13.11.1](managing-pdbs-with-em-express.md)
+  - creating [2.1](installing-oracle-database-creating-database.md), [2.2](installing-oracle-database-creating-database.md), [2.3.2.1](installing-oracle-database-creating-database.md), [2.3.2.3](installing-oracle-database-creating-database.md)
+  - creating from the seed [13.8.1](managing-pdbs-with-em-express.md)
+  - dropping a PDB from a CDB [13.9.2](managing-pdbs-with-em-express.md)
+  - flashback [9.1.1.4](performing-backup-and-recovery.md)
+  - managing [2.3.6](installing-oracle-database-creating-database.md), [3.3](getting-started-with-database-administration.md), [13](managing-pdbs-with-em-express.md)
+  - managing with Containers page [13.4](managing-pdbs-with-em-express.md)
+  - managing with EM Express [13.3](managing-pdbs-with-em-express.md)
+  - opening all the PDBs in a CDB [13.10.2](managing-pdbs-with-em-express.md)
+  - opening a PDB in a CDB [13.10.1](managing-pdbs-with-em-express.md)
+  - plugging in an unplugged PDB [13.8.3](managing-pdbs-with-em-express.md)
+  - point-in-time recovery [9.1.1.3](performing-backup-and-recovery.md)
+  - refreshing a refreshable PDB on demand [13.8.4.3](managing-pdbs-with-em-express.md)
+  - relocating from a remote CDB [13.8.4.2](managing-pdbs-with-em-express.md)
+  - unplugging a PDB from a CDB [13.9.1](managing-pdbs-with-em-express.md)
+- Performance Hub
+  - saving AWR data to a report [10.1.2](monitoring-and-tuning-the-database.md)
+  - saving data to a report [10.1.2](monitoring-and-tuning-the-database.md)
+  - viewing performance data [10.1.2](monitoring-and-tuning-the-database.md)
+- PGA
+  - See: Program Global Area
+- PGA Advisor
+  - description [10.3.1](monitoring-and-tuning-the-database.md)
+- pluggable databases
+  - See: PDBs.
+- PMON process [5.1.2](managing-the-oracle-instance.md)
+- predefined roles [7.2](administering-user-accounts-and-security.md)
+- privileges
+  - administrative [7.3](administering-user-accounts-and-security.md)
+  - and synonyms [8.8](managing-schema-objects.md)
+  - authenticating SYSDBA, SYSOPER, and SYSBACKUP users [6.1.7](managing-database-storage-structures.md)
+  - connection [5.1.5.1](managing-the-oracle-instance.md)
+  - for installation of Oracle Database software [2.2](installing-oracle-database-creating-database.md)
+  - granting [7.5.4](administering-user-accounts-and-security.md)
+  - object [7.2](administering-user-accounts-and-security.md)
+  - recommended [7.1](administering-user-accounts-and-security.md)
+  - required for database administration [3.8](getting-started-with-database-administration.md), [7.3](administering-user-accounts-and-security.md)
+  - schema object management [8.2](managing-schema-objects.md)
+  - SYSDBA [5.1.5.1](managing-the-oracle-instance.md)
+  - SYSOPER [5.1.5.1](managing-the-oracle-instance.md)
+  - system [7.2](administering-user-accounts-and-security.md)
+  - users [7.2](administering-user-accounts-and-security.md)
+    - using roles to manage [7.2](administering-user-accounts-and-security.md)
+- procedures [8.7.1](managing-schema-objects.md)
+- profiles [7.6.1](administering-user-accounts-and-security.md)
+- Program Global Area (PGA)
+  - definition [5.1.4.2](managing-the-oracle-instance.md)
+  - description [5.1.4.2](managing-the-oracle-instance.md)
+  - target setting [10.3.8.1](monitoring-and-tuning-the-database.md)
+
+------------------------------------------------------------------------
+
+## Q
+
+- quotas
+  - assigning for a tablespace [7.5.5](administering-user-accounts-and-security.md)
+
+------------------------------------------------------------------------
+
+## R
+
+- read consistency [6.5.1](managing-database-storage-structures.md)
+- read only tablespaces [6.1.6.3](managing-database-storage-structures.md)
+- read write tablespaces [6.1.6.3](managing-database-storage-structures.md)
+- Real-Time ADDM
+  - responding to findings [10.2.4](monitoring-and-tuning-the-database.md)
+  - viewing findings [10.2.3](monitoring-and-tuning-the-database.md)
+- recovery
+  - complete [9.2.6](performing-backup-and-recovery.md)
+  - configuration [2.3.2.5](installing-oracle-database-creating-database.md)
+  - fast recovery area [9.2.7](performing-backup-and-recovery.md)
+  - incomplete [9.2.6](performing-backup-and-recovery.md)
+  - media [9.2.6](performing-backup-and-recovery.md)
+  - overview [9.1](performing-backup-and-recovery.md)
+- Recovery Manager (RMAN)
+  - control file use [9.2.2](performing-backup-and-recovery.md)
+  - overview [9.1](performing-backup-and-recovery.md)
+  - recovery catalog [9.2.2](performing-backup-and-recovery.md)
+  - repository [9.2.2](performing-backup-and-recovery.md)
+- recycle bins [8.4.7](managing-schema-objects.md)
+- redo log files
+  - See: online redo log files or archived redo log files
+- repairs
+  - customized [9.8](performing-backup-and-recovery.md)
+  - Oracle suggested [9.7](performing-backup-and-recovery.md)
+- Resource Management features
+  - accessing in EM Express [12.1.8](managing-database-resources.md)
+- Resource Manager
+  - CDB plans [12.1.7.1](managing-database-resources.md)
+  - consumer groups [12.1.3](managing-database-resources.md)
+  - directives [12.1.5](managing-database-resources.md)
+  - features in EM Express [12.1](managing-database-resources.md)
+  - instance caging [12.3.1](managing-database-resources.md)
+  - managing CDB and PDB workloads [12.1.7](managing-database-resources.md)
+  - non-CDB plans [12.1.6](managing-database-resources.md)
+  - PDB plans [12.1.7.2](managing-database-resources.md)
+  - plans [12.1.4](managing-database-resources.md)
+  - setting instance caging [12.3.2](managing-database-resources.md)
+  - solutions for a CDB [12.1.2](managing-database-resources.md)
+  - solutions for a non-CDB [12.1.1](managing-database-resources.md)
+  - solutions for a PDB [12.1.2](managing-database-resources.md)
+- resource plan
+  - adding a new consumer group [12.2.3.1](managing-database-resources.md)
+  - adding an existing consumer group [12.2.3.2](managing-database-resources.md)
+  - allocating shares to PDBs [12.1.7.1.1](managing-database-resources.md)
+  - CDB plan [12.1.7.1](managing-database-resources.md)
+  - changing the default PDB directive [12.2.3.12](managing-database-resources.md)
+  - changing the directives for a PDB [12.2.3.13](managing-database-resources.md)
+  - creating [12.2.1.2](managing-database-resources.md)
+  - creating plans [12.2.1](managing-database-resources.md)
+  - creating using Quick Setup [12.2.1.1](managing-database-resources.md)
+  - default directive for PDBs [12.1.7.1.3](managing-database-resources.md)
+  - deleting [12.2.3.15](managing-database-resources.md)
+  - managing plans [12.2](managing-database-resources.md)
+  - modifying [12.2.3](managing-database-resources.md)
+  - non-CDB plan [12.1.6](managing-database-resources.md)
+  - PDB plan [12.1.7.2](managing-database-resources.md)
+  - removing a consumer group [12.2.3.3](managing-database-resources.md)
+  - setting a comment for a consumer group [12.2.3.4](managing-database-resources.md)
+  - setting a comment for a PDB directive [12.2.3.14](managing-database-resources.md)
+  - setting as the currently active plan [12.2.3.11](managing-database-resources.md)
+  - setting CPU directives for a consumer group [12.2.3.7](managing-database-resources.md)
+  - setting mapping rule priorities for consumer groups [12.2.3.6](managing-database-resources.md)
+  - setting parallel server directives for a consumer group [12.2.3.8](managing-database-resources.md)
+  - setting runaway query directives for a consumer group [12.2.3.9](managing-database-resources.md)
+  - setting session directives for a consumer group [12.2.3.10](managing-database-resources.md)
+  - specifying utilization limits to PDBs [12.1.7.1.2](managing-database-resources.md)
+  - viewing [12.2.2](managing-database-resources.md)
+  - viewing all the plans [12.2.2.1](managing-database-resources.md)
+  - viewing a plan [12.2.2.2](managing-database-resources.md)
+- RESOURCE role [7.2](administering-user-accounts-and-security.md), [8.2](managing-schema-objects.md)
+- revalidating schema objects [8.7.2](managing-schema-objects.md)
+- RMAN
+  - backup [9.4.2](performing-backup-and-recovery.md)
+- roles
+  - administering [7.4](administering-user-accounts-and-security.md)
+  - CONNECT [7.2](administering-user-accounts-and-security.md)
+  - DBA [7.2](administering-user-accounts-and-security.md), [8.2](managing-schema-objects.md)
+  - granting [7.5.4](administering-user-accounts-and-security.md)
+  - predefined [7.2](administering-user-accounts-and-security.md)
+  - RESOURCE [7.2](administering-user-accounts-and-security.md), [8.2](managing-schema-objects.md)
+  - using to manage user privileges [7.2](administering-user-accounts-and-security.md)
+  - viewing [7.4.1](administering-user-accounts-and-security.md)
+- rollback [6.5.1](managing-database-storage-structures.md)
+- rollback segments
+  - description [6.1.4](managing-database-storage-structures.md)
+
+------------------------------------------------------------------------
+
+## S
+
+- sample schemas
+  - configuring [2.3.2.8.5](installing-oracle-database-creating-database.md)
+  - installation of [2.1.2.7](installing-oracle-database-creating-database.md)
+- schema objects
+  - compiling [8.7.2](managing-schema-objects.md)
+  - database links [8.8](managing-schema-objects.md)
+  - description of [8.1](managing-schema-objects.md)
+  - indexes [8.5.1](managing-schema-objects.md)
+    - creating [8.5.3](managing-schema-objects.md)
+    - viewing [8.5.2](managing-schema-objects.md)
+  - invalid [8.7.1](managing-schema-objects.md)
+  - privileges [8.2](managing-schema-objects.md)
+  - sequences [8.8](managing-schema-objects.md)
+  - synonyms [8.8](managing-schema-objects.md)
+  - tables [8.4.1](managing-schema-objects.md)
+    - constraints [8.4.1.3](managing-schema-objects.md)
+    - modifying [8.4.5](managing-schema-objects.md)
+  - validating [8.7.2](managing-schema-objects.md)
+  - views [8.6.1](managing-schema-objects.md)
+- schemas [7.1](administering-user-accounts-and-security.md)
+- SecureFiles LOBs [8.4.1.4.4](managing-schema-objects.md)
+- security options [2.1.2.7](installing-oracle-database-creating-database.md)
+- segments
+  - description of [6.1.5](managing-database-storage-structures.md)
+- sequences
+  - description [8.8](managing-schema-objects.md)
+- server parameter files [5.1](managing-the-oracle-instance.md), [5.1.1](managing-the-oracle-instance.md)
+- server processes
+  - description [5.1.3](managing-the-oracle-instance.md)
+- services
+  - on Microsoft Windows [5.2.2](managing-the-oracle-instance.md)
+- setting
+  - password policies [7.6](administering-user-accounts-and-security.md)
+- SGA
+  - See: System Global Area
+- Shared Pool Advisor
+  - description [10.3.1](monitoring-and-tuning-the-database.md)
+- shared server mode [2.3.2.8.4](installing-oracle-database-creating-database.md)
+- shared server processes [5.1.3](managing-the-oracle-instance.md)
+- shutting down databases
+  - Microsoft Windows [5.2.2](managing-the-oracle-instance.md)
+- SID [2.1.2.6](installing-oracle-database-creating-database.md)
+- SMON process [5.1.2](managing-the-oracle-instance.md)
+- snapshots [10.1.4](monitoring-and-tuning-the-database.md)
+- source code, Java [8.7.1](managing-schema-objects.md)
+- SPA Quick Check
+  - about [11.1](analyzing-database-changes-sql-performance.md)
+  - configuring [11.2](analyzing-database-changes-sql-performance.md)
+  - validating the impact of an initialization parameter change [11.3](analyzing-database-changes-sql-performance.md), [11.3.1](analyzing-database-changes-sql-performance.md)
+  - validating the impact of implementing a SQL profile [11.4](analyzing-database-changes-sql-performance.md), [11.4.1](analyzing-database-changes-sql-performance.md)
+  - validating the impact of implementing multiple SQL profiles [11.4.2](analyzing-database-changes-sql-performance.md), [11.4.3](analyzing-database-changes-sql-performance.md)
+- SQL Advisors
+  - about [10.3.2](monitoring-and-tuning-the-database.md)
+  - description [10.3.1](monitoring-and-tuning-the-database.md)
+- SQL Performance Analyzer
+  - about [11.5](analyzing-database-changes-sql-performance.md)
+  - analysis [11.5](analyzing-database-changes-sql-performance.md)
+  - comparing two SQL trials [11.6.4](analyzing-database-changes-sql-performance.md)
+  - creating a post-change SQL trial [11.6.3](analyzing-database-changes-sql-performance.md)
+  - creating a pre-change SQL trial [11.6.2](analyzing-database-changes-sql-performance.md)
+  - creating a task [11.6.1](analyzing-database-changes-sql-performance.md)
+  - specifying default settings [11.6](analyzing-database-changes-sql-performance.md)
+  - SQL trial [11.5](analyzing-database-changes-sql-performance.md)
+  - SQL tuning set [11.5](analyzing-database-changes-sql-performance.md)
+  - task [11.5](analyzing-database-changes-sql-performance.md)
+- SQL Performance Analyzer Quick Check
+  - See: SPA Quick Check
+- SQL profile [10.3.3](monitoring-and-tuning-the-database.md)
+  - validating the impact of implementing [11.4](analyzing-database-changes-sql-performance.md), [11.4.1](analyzing-database-changes-sql-performance.md)
+  - validating the impact of implementing multiple profiles [11.4.2](analyzing-database-changes-sql-performance.md), [11.4.3](analyzing-database-changes-sql-performance.md)
+- SQL statements
+  - about [3.9.1](getting-started-with-database-administration.md)
+- SQL trial
+  - comparing a pre-change trial and post-change trial [11.6.4](analyzing-database-changes-sql-performance.md)
+  - creating a post-change trial [11.6.3](analyzing-database-changes-sql-performance.md)
+  - creating a pre-change trial [11.6.2](analyzing-database-changes-sql-performance.md)
+- SQL Tuning Advisor
+  - about [10.3.2](monitoring-and-tuning-the-database.md)
+  - using [10.3.6](monitoring-and-tuning-the-database.md)
+- SQL tuning set
+  - about [11.2.1](analyzing-database-changes-sql-performance.md)
+  - creating [11.2.1](analyzing-database-changes-sql-performance.md)
+  - for SPA Quick Check [11.2.1](analyzing-database-changes-sql-performance.md)
+  - for SQL Performance Analyzer [11.2.1](analyzing-database-changes-sql-performance.md), [11.5](analyzing-database-changes-sql-performance.md)
+  - loading [11.2.1](analyzing-database-changes-sql-performance.md)
+  - transporting [11.2.1](analyzing-database-changes-sql-performance.md)
+- standby database
+  - tuning SQL statements [10.3.7](monitoring-and-tuning-the-database.md), [10.3.7.1](monitoring-and-tuning-the-database.md)
+  - viewing performance statistics [10.1.3](monitoring-and-tuning-the-database.md)
+- starting databases
+  - Microsoft Windows [5.2.2](managing-the-oracle-instance.md)
+- startup and shutdown
+  - about [5.1.5](managing-the-oracle-instance.md)
+  - privileges required for [5.1.5.1](managing-the-oracle-instance.md)
+- storage options
+  - specifying during database creation [2.3.2.4](installing-oracle-database-creating-database.md)
+- subprograms [8.7.1](managing-schema-objects.md)
+- synonyms
+  - and privileges [8.8](managing-schema-objects.md)
+  - description [8.8](managing-schema-objects.md)
+- SYSAUX tablespace [6.1.6](managing-database-storage-structures.md)
+- SYSBACKUP privilege
+  - and the password file [6.1.7](managing-database-storage-structures.md)
+  - granting [9.3.2.2](performing-backup-and-recovery.md)
+- SYSDBA [2.1.2.7](installing-oracle-database-creating-database.md)
+- SYSDBA system privilege [5.1.5.1](managing-the-oracle-instance.md), [6.1.7](managing-database-storage-structures.md), [7.3.2](administering-user-accounts-and-security.md)
+- SYSOPER [2.1.2.7](installing-oracle-database-creating-database.md)
+- SYSOPER system privilege [6.1.7](managing-database-storage-structures.md), [7.3.2](administering-user-accounts-and-security.md)
+- System Global Area (SGA)
+  - components [5.1.4.1](managing-the-oracle-instance.md)
+  - description [5.1.4.1](managing-the-oracle-instance.md)
+  - target setting [10.3.8.1](monitoring-and-tuning-the-database.md)
+- system identifier (SID) [2.1.2.6](installing-oracle-database-creating-database.md)
+- system privileges [7.2](administering-user-accounts-and-security.md)
+  - SYSDBA and SYSOPER [7.3.2](administering-user-accounts-and-security.md)
+- SYSTEM tablespace [6.1.6](managing-database-storage-structures.md)
+- SYSTEM user [5.1.5.1](managing-the-oracle-instance.md), [7.3.1](administering-user-accounts-and-security.md)
+- SYS user [5.1.5.1](managing-the-oracle-instance.md), [7.3.1](administering-user-accounts-and-security.md)
+
+------------------------------------------------------------------------
+
+## T
+
+- tables
+  - adding columns to [8.4.5.1](managing-schema-objects.md)
+  - adding constraints [8.4.5.3](managing-schema-objects.md)
+  - compressed [8.4.1.4.4](managing-schema-objects.md)
+  - creating [8.4.4](managing-schema-objects.md)
+  - deleting [8.4.7](managing-schema-objects.md)
+  - deleting columns [8.4.5.2](managing-schema-objects.md)
+  - deleting constraints [8.4.5.5](managing-schema-objects.md)
+  - description [8.4.1](managing-schema-objects.md)
+  - loading data into [8.4.6](managing-schema-objects.md)
+  - LOB columns [8.4.1.4.1](managing-schema-objects.md)
+  - modifying attributes [8.4.5](managing-schema-objects.md)
+  - modifying constraints [8.4.5.4](managing-schema-objects.md)
+  - partitions [8.4.1.4.2](managing-schema-objects.md)
+  - retrieving a dropped table [9.8.2.2](performing-backup-and-recovery.md)
+  - viewing data in [8.4.3](managing-schema-objects.md)
+  - viewing information about [8.4.2](managing-schema-objects.md)
+- tablespaces
+  - autoextend [6.1.6.4](managing-database-storage-structures.md), [6.3.2.1](managing-database-storage-structures.md)
+  - autoextend and Oracle Flashback [6.5.2](managing-database-storage-structures.md)
+  - creating [6.3.1](managing-database-storage-structures.md)
+  - description [6.1.6](managing-database-storage-structures.md)
+  - dropping [6.3.3](managing-database-storage-structures.md)
+  - EXAMPLE [6.1.6](managing-database-storage-structures.md)
+  - extending undo tablespaces [6.5.2](managing-database-storage-structures.md)
+  - locally managed [6.1.6.1](managing-database-storage-structures.md)
+  - modifying [6.3.2](managing-database-storage-structures.md)
+  - offline [6.1.6.3](managing-database-storage-structures.md)
+  - quotas [7.5.5](administering-user-accounts-and-security.md)
+  - read only and read write [6.1.6.3](managing-database-storage-structures.md)
+  - Segment Advisor [6.3.2](managing-database-storage-structures.md)
+  - SYSAUX [6.1.6](managing-database-storage-structures.md)
+  - SYSTEM [6.1.6](managing-database-storage-structures.md)
+  - taking offline [6.3.2.3](managing-database-storage-structures.md)
+  - TEMP [6.1.6](managing-database-storage-structures.md)
+  - temporary tablespaces [6.1.6.2](managing-database-storage-structures.md)
+  - types of [6.1.6.2](managing-database-storage-structures.md)
+  - undo tablespaces [6.1.6.2](managing-database-storage-structures.md), [6.5.1](managing-database-storage-structures.md)
+  - UNDOTBS1 [6.1.6](managing-database-storage-structures.md)
+  - USERS [6.1.6](managing-database-storage-structures.md)
+  - viewing information about [6.2.4](managing-database-storage-structures.md)
+- templates
+  - creating databases with [2.3.2.2](installing-oracle-database-creating-database.md)
+  - using with DBCA [2.3.5](installing-oracle-database-creating-database.md)
+- temporary tablespaces [6.1.6.2](managing-database-storage-structures.md)
+- TEMP tablespace [6.1.6](managing-database-storage-structures.md)
+- test database
+  - creating [11.2.1](analyzing-database-changes-sql-performance.md)
+- triggers [8.7.1](managing-schema-objects.md)
+
+------------------------------------------------------------------------
+
+## U
+
+- undo
+  - about [6.5.1](managing-database-storage-structures.md)
+  - advisor [6.5.4](managing-database-storage-structures.md)
+  - managing [6.5](managing-database-storage-structures.md), [6.5.2](managing-database-storage-structures.md)
+  - tablespaces [6.1.6.2](managing-database-storage-structures.md)
+  - viewing [6.5.3](managing-database-storage-structures.md)
+- Undo Advisor
+  - computing minimum undo tablespace size with [6.5.4](managing-database-storage-structures.md)
+  - description [10.3.1](monitoring-and-tuning-the-database.md)
+  - setting minimum undo retention period with [6.5.4](managing-database-storage-structures.md)
+- undo retention [6.5.1](managing-database-storage-structures.md)
+- undo retention period
+  - setting with Undo Advisor [6.5.4](managing-database-storage-structures.md)
+- undo tablespaces
+  - autoextend [6.5.2](managing-database-storage-structures.md)
+  - changing to fixed-size [6.5.5](managing-database-storage-structures.md)
+  - computing minimum size for fixed-size tablespace [6.5.4](managing-database-storage-structures.md)
+  - default configuration [6.5.1](managing-database-storage-structures.md)
+  - description of [6.5.1](managing-database-storage-structures.md)
+- UNDOTBS1 tablespace [6.1.6](managing-database-storage-structures.md)
+- user-defined data types [8.4.1.4.1](managing-schema-objects.md)
+- users
+  - accounts
+    - administrative [7.3](administering-user-accounts-and-security.md)
+    - description [7](administering-user-accounts-and-security.md)
+  - administering [7.5](administering-user-accounts-and-security.md)
+  - creating [7.5.2](administering-user-accounts-and-security.md)
+  - deleting [7.5.9](administering-user-accounts-and-security.md)
+  - expiring passwords for [7.5.8](administering-user-accounts-and-security.md)
+  - locking and unlocking [7.5.7](administering-user-accounts-and-security.md)
+  - modifying [7.5.6](administering-user-accounts-and-security.md)
+  - privileges [7.2](administering-user-accounts-and-security.md)
+  - viewing [7.5.1](administering-user-accounts-and-security.md)
+- USERS tablespace [6.1.6](managing-database-storage-structures.md)
+
+------------------------------------------------------------------------
+
+## V
+
+- validating schema objects [8.7.2](managing-schema-objects.md)
+- VARCHAR2 data type [8.4.1.2.1](managing-schema-objects.md)
+- viewing
+  - indexes [8.5.2](managing-schema-objects.md)
+  - initialization parameters [5.3](managing-the-oracle-instance.md)
+  - table data [8.4.3](managing-schema-objects.md)
+  - table information [8.4.2](managing-schema-objects.md)
+  - users [7.5.1](administering-user-accounts-and-security.md)
+  - views [8.6.2](managing-schema-objects.md)
+- views
+  - deleting [8.6.4](managing-schema-objects.md)
+  - description [8.6.1](managing-schema-objects.md)
+  - displaying [8.6.2](managing-schema-objects.md)
+
+------------------------------------------------------------------------
+
+## W
+
+- wizards
+  - database creation [2.3.2](installing-oracle-database-creating-database.md)
