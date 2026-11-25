@@ -1,0 +1,3 @@
+#
+
+The figure shows a sample confusion matrix. The first cell (upper left) is the number of times that affinity_card was actually 1 and was predicted to be 1. That numer is 516. The second cell (upper right) is the number of times that affinity_card was actually 1, but was predicted to be 0. That number is 25. The third cell (lower left) is the number of times that affinity_card was actually 0, but was predicted to be 1. That number is 10. The fourth cell (lower right) is the number of times that affinity_card was actually 0 and was predicted to be 0. That number is 725. Since the value 1 is designated as the positive class, the true positive rate is calculated as 516/(516+25)=.95. The false positive rate is calculated as 10/(10+725)=.01
